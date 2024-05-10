@@ -3,7 +3,7 @@
   width: 100vw;
   background-color: #FDEDEF;
   color: white; /* Default text color for the whole container */
-  min-height: 25vh;
+  min-height: 30vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,14 +13,14 @@
   color: #745B4F; /* Ensure this is the intended color for the slider text */
   width: 100%; /* Ensure it fills the container */
   display: flex;
-  gap: 1rem;
-  font-size: 3rem;
+  gap: 2rem;
+  font-size: 2.5rem;
   justify-content: center; /* Center horizontally */
 }
 
 .fixedSpan {
   color: white; /* Specific color for the 'Switch Up Your Style with' text */
-  font-size: 3rem; /* Adjust size as needed */
+  font-size: 2.5rem; /* Adjust size as needed */
 }
 
 .sliderValue {

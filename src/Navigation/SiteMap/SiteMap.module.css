@@ -1,0 +1,44 @@
+.body {
+    font-family: 'GFS Didot', serif;
+    background-color: #fdfdfd;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.heading {
+    color: #222;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.mainHeading {
+    font-size: 2.5em;
+    margin-bottom: 0.75em;
+}
+
+.subHeading {
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.listItem {
+    margin-bottom: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #745B4F;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    color: #333;
+    text-decoration: underline;
+}

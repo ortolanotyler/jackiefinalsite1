@@ -44,7 +44,7 @@ const tutorialOptions = [
 ];
 
 function ResponsiveAppBar() {
-  const isCollapsed = useMediaQuery('(max-width: 1100px)');
+  const isCollapsed = useMediaQuery('(max-width: 1200px)');
   const [anchorElNav, setAnchorElNav] = useState(null);
   const [anchorElShop, setAnchorElShop] = useState(null);
   const [anchorElTutorials, setAnchorElTutorials] = useState(null);
@@ -84,7 +84,7 @@ function ResponsiveAppBar() {
               backgroundColor: 'transparent'
             }
           }}>
-            <img src={logo} alt="Logo" style={{ marginTop: '0rem', height: '10vh' }} />
+            <img src={logo} alt="Logo" style={{ height: '6.5rem' }} />
           </IconButton>
 
           {isCollapsed ? (
@@ -122,7 +122,7 @@ function ResponsiveAppBar() {
                   '.MuiPaper-root': {
                     bgcolor: 'white',
                     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                    borderRadius: '8px',
+                    borderRadius: '1px',
                     color: '#745B4F',
                     minWidth: '200px',
                   },
@@ -163,11 +163,11 @@ function ResponsiveAppBar() {
                     my: 2,
                     color: '#745B4F',
                     display: 'block',
-                    fontSize: '1em',
+                    fontSize: '1rem',
                     fontFamily: 'GFS Didot, sans-serif',
                     mx: 2,
                     '&:hover': {
-                      backgroundColor: 'transparent'
+                      backgroundColor: 'none'
                     }
                   }}
                 >
@@ -182,7 +182,7 @@ function ResponsiveAppBar() {
                   my: 2,
                   color: '#745B4F',
                   display: 'block',
-                  fontSize: '1em',
+                  fontSize: '1rem',
                   fontFamily: 'GFS Didot, sans-serif',
                   mx: 2,
                   '&:hover': {
@@ -214,7 +214,7 @@ function ResponsiveAppBar() {
                   },
                   '.MuiMenuItem-root': {
                     fontFamily: 'GFS Didot, sans-serif',
-                    fontSize: '1em',
+                    fontSize: '1rem',
                     '&:hover': {
                       bgcolor: 'transparent',
                     },
@@ -235,7 +235,7 @@ function ResponsiveAppBar() {
                   my: 2,
                   color: '#745B4F',
                   display: 'block',
-                  fontSize: '1em',
+                  fontSize: '1rem',
                   fontFamily: 'GFS Didot, sans-serif',
                   mx: 2,
                   '&:hover': {
@@ -267,7 +267,7 @@ function ResponsiveAppBar() {
                   },
                   '.MuiMenuItem-root': {
                     fontFamily: 'GFS Didot, sans-serif',
-                    fontSize: '1em',
+                    fontSize: '1rem',
                     '&:hover': {
                       bgcolor: 'transparent',
                     },
@@ -294,7 +294,7 @@ function ResponsiveAppBar() {
                     my: 2,
                     color: '#745B4F',
                     display: 'block',
-                    fontSize: '1em',
+                    fontSize: '1rem',
                     fontFamily: 'GFS Didot, sans-serif',
                     mx: 2,
                     '&:hover': {
