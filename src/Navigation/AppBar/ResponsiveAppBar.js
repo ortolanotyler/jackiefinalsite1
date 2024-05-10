@@ -13,7 +13,6 @@ import {
   Typography,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import RotatingText from './RotatingText';
 
 const logo = `${process.env.PUBLIC_URL}/Images/jackielogo.png`;
 
@@ -75,9 +74,14 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <div>
-    <AppBar position="static" sx={{ fontFamily: 'GFS Didot, serif', backgroundColor: '#FDEDEF', width: '100%', height: '12.5vh' }}>
-      <Container maxWidth="xl" disableGutters>
+    <AppBar position="static" sx={{ 
+      fontFamily: 'GFS Didot, serif', 
+      backgroundColor: '#FDEDEF',
+      margin: 0, 
+      padding: 0,
+      width: '100%' 
+    }}>
+      <Container maxWidth="false" disableGutters>
         <Toolbar disableGutters sx={{ justifyContent: 'space-between', flexWrap: 'wrap', alignItems: 'center' }}>
           <IconButton component={Link} to="/" sx={{
             p: 0,
@@ -124,7 +128,6 @@ function ResponsiveAppBar() {
                   '.MuiPaper-root': {
                     bgcolor: 'white',
                     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                 
                     color: '#745B4F',
                     minWidth: '200px',
                   },
@@ -169,7 +172,7 @@ function ResponsiveAppBar() {
                     fontFamily: 'GFS Didot, sans-serif',
                     mx: 2,
                     '&:hover': {
-                      backgroundColor: 'none'
+                      backgroundColor: 'transparent'
                     }
                   }}
                 >
@@ -251,75 +254,70 @@ function ResponsiveAppBar() {
                 id="shop-menu"
                 anchorEl={anchorElShop}
                 anchorOrigin={{
-                  vertical: 'bottom',
-                  horizontal: 'right',
+                vertical: 'bottom',
+                horizontal: 'right',
                 }}
                 transformOrigin={{
-                  vertical: 'top',
-                  horizontal: 'right',
+                vertical: 'top',
+                horizontal: 'right',
                 }}
                 open={Boolean(anchorElShop)}
                 onClose={handleCloseShopMenu}
                 sx={{
-                  '.MuiPaper-root': {
-                    bgcolor: 'white',
-                    color: '#745B4F',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                    borderRadius: '8px',
-                  },
-                  '.MuiMenuItem-root': {
-                    fontFamily: 'GFS Didot, sans-serif',
-                    fontSize: '1rem',
-                    '&:hover': {
-                      bgcolor: 'transparent',
-                    },
-                  },
+                '.MuiPaper-root': {
+                bgcolor: 'white',
+                color: '#745B4F',
+                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+                borderRadius: '8px',
+                },
+                '.MuiMenuItem-root': {
+                fontFamily: 'GFS Didot, sans-serif',
+                fontSize: '1rem',
+                '&:hover': {
+                bgcolor: 'transparent',
+                },
+                },
                 }}
-              >
-                {shopOptions.map((option) => (
-                  <MenuItem key={option.name} onClick={handleCloseShopMenu} component={Link} to={option.path} sx={{ '&:hover': { bgcolor: 'transparent' } }}>
-                    {option.name}
-                  </MenuItem>
-                ))}
-              </Menu>
-            </Box>
-          )}
-
-          {!isCollapsed && (
-            <Box sx={{ display: 'flex', flexGrow: 0, alignItems: 'center' }}>
-              {secondaryPages.map((page) => (
-                <Button
-                  key={page.name}
-                  component={Link}
-                  to={page.path}
-                  sx={{
-                    my: 2,
-                    color: '#745B4F',
-                    display: 'block',
-                    fontSize: '1rem',
-                    fontFamily: 'GFS Didot, sans-serif',
-                    mx: 2,
-                    '&:hover': {
-                      backgroundColor: 'transparent'
-                    }
-                  }}
                 >
-                  {page.name}
-                </Button>
-              ))}
-            </Box>
-          )}
-        </Toolbar>
-       
-      </Container>
-      
-    </AppBar>
-   <div>
- <RotatingText/>
-   </div></div>
+                {shopOptions.map((option) => (
+                <MenuItem key={option.name} onClick={handleCloseShopMenu} component={Link} to={option.path} sx={{ '&:hover': { bgcolor: 'transparent' } }}>
+                {option.name}
+                </MenuItem>
+                ))}
+                </Menu>
+                </Box>
+              )}     {!isCollapsed && (
+                  <Box sx={{ display: 'flex', flexGrow: 0, alignItems: 'center' }}>
+                    {secondaryPages.map((page) => (
+                      <Button
+                        key={page.name}
+                        component={Link}
+                        to={page.path}
+                        sx={{
+                          my: 2,
+                          color: '#745B4F',
+                          display: 'block',
+                          fontSize: '1rem',
+                          fontFamily: 'GFS Didot, sans-serif',
+                          mx: 2,
+                          '&:hover': {
+                            backgroundColor: 'transparent'
+                          }
+                        }}
+                      >
+                        {page.name}
+                      </Button>
+                    ))}
+                  </Box>
+                )}
+              </Toolbar>
 
+            </Container>
 
-  );
-}
+          </AppBar>
 
-export default ResponsiveAppBar;
+          );
+        }
+        
+        export default ResponsiveAppBar;
+          

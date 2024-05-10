@@ -7,20 +7,14 @@ import Sitemap from './Navigation/SiteMap/SiteMap';
 function App() {
   return (
     <Router>
-
-    
-<ResponsiveAppBar />
-
-        <Routes>
-       <Route path="/sitemap" element={<Sitemap />} />
-          {/* Additional routes can be added here */}
-        </Routes>
-     
-     <Footer/>
+      <ResponsiveAppBar />
+      <Routes>
+        <Route path="/sitemap" element={<Sitemap />} />
+        {/* Additional routes can be added here */}
+      </Routes>
+      <Footer />
     </Router>
   );
 }
-
-console.log("Public URL:", process.env.PUBLIC_URL);
 
 export default App;

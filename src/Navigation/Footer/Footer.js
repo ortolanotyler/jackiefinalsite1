@@ -17,15 +17,16 @@ const Footer = () => {
         <div>
             <SwitchUpYour />
             <footer style={{ 
+                width: '100%', // Changed from 100vw to 100% to avoid potential horizontal scrollbar
                 height: '30vh',
-                width: '100%',
                 fontFamily: 'GFS Didot, serif',
                 justifyContent: 'center',
-                backgroundColor: '#EBE8E4', 
-                color: '#745B4F', 
+                backgroundColor: '#EBE8E4',
+                color: '#745B4F',
                 textAlign: 'center',
-                padding: '40px 20px' }}>
-
+                padding: '40px 20px',
+                margin: 0 // Ensures no additional margin causing width issues
+            }}>
                 <div style={{ fontSize: '40px', marginBottom: '20px' }}>
                     <a href="https://youtube.com/@JackieWyers?si=sklULUqnNkzkmiaY" target="_blank" rel="noopener noreferrer">
                         <YouTubeIcon style={{ color: '#745B4F', fontSize: 70 }} />
@@ -40,14 +41,13 @@ const Footer = () => {
                         <MailOutlineIcon style={{ color: '#745B4F', fontSize: 70 }} />
                     </a>
                 </div>
-                
                 <div style={{ fontFamily: 'GFS Didot, serif', gap: '1.5rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <div>
                         <button onClick={scrollToTop} style={{ fontFamily: 'GFS Didot, serif', textAlign: 'left', fontSize: '1.25rem', cursor: 'pointer', color: '#745B4F', background: 'none', border: 'none', textDecoration: 'none' }}>
                             Back to Top
                         </button>
-                        <br></br>
-                        <button style={{ fontFamily: 'GFS Didot, serif',textAlign: 'left', fontSize: '1.25rem', cursor: 'pointer', color: '#745B4F', background: 'none', border: 'none', textDecoration: 'none' }}>
+                        <br />
+                        <button style={{ fontFamily: 'GFS Didot, serif', textAlign: 'left', fontSize: '1.25rem', cursor: 'pointer', color: '#745B4F', background: 'none', border: 'none', textDecoration: 'none' }}>
                             <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}>Home</a>
                         </button>
                     </div>
@@ -58,25 +58,23 @@ const Footer = () => {
                         <a href="/sitemap" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '1.25rem' }}>
                             SiteMap
                         </a>
-                        <br></br>
+                        <br />
                         <a href="/mediakit" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '1.25rem' }}>
                             Press
                         </a>
-                        <br></br>
+                        <br />
                         <a href="/emailsubscribe" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '1.25rem' }}>
                             Subscribe
                         </a>
-                        <br></br>
+                        <br />
                         <a href="/yourprivacyisimportant" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '1.25rem' }}>
                             Policies
                         </a>
                     </div>
                 </div>
-             
             </footer>
         </div>
     );
 };
 
 export default Footer;
-
