@@ -1,0 +1,31 @@
+.container {
+  font-family: 'GFS Didot, serif';
+  width: 100vw;
+  background-color: #FDEDEF;
+  color: white; /* Default text color for the whole container */
+  min-height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider {
+  color: #745B4F; /* Ensure this is the intended color for the slider text */
+  width: 100%; /* Ensure it fills the container */
+  display: flex;
+  gap: 1rem;
+  font-size: 3rem;
+  justify-content: center; /* Center horizontally */
+}
+
+.fixedSpan {
+  color: white; /* Specific color for the 'Switch Up Your Style with' text */
+  font-size: 3rem; /* Adjust size as needed */
+}
+
+.sliderValue {
+  display: flex;
+  color: #745B4F; /* Ensure dynamic text has different color */
+  font-weight: 500;
+  transition: 0.5s opacity ease-in-out;
+}

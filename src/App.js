@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ResponsiveAppBar from './Navigation/AppBar/ResponsiveAppBar';
+import Footer from './Navigation/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+
+    
+<ResponsiveAppBar position="static" sx={{ width: '100vw', margin: 0, padding: 0, backgroundColor: '#FDEDEF' }}/>
+        <Routes>
+       
+          {/* Additional routes can be added here */}
+        </Routes>
+     
+     <Footer/>
+    </Router>
   );
 }
+
+console.log("Public URL:", process.env.PUBLIC_URL);
 
 export default App;
