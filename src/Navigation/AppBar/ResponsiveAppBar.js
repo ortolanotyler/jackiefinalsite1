@@ -13,6 +13,7 @@ import {
   Typography,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import RotatingText from './RotatingText';
 
 const logo = `${process.env.PUBLIC_URL}/Images/jackielogo.png`;
 
@@ -74,7 +75,8 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" sx={{ fontFamily: 'GFS Didot, serif', backgroundColor: '#FDEDEF', width: '100vw', height: '10vh' }}>
+    <div>
+    <AppBar position="static" sx={{ fontFamily: 'GFS Didot, serif', backgroundColor: '#FDEDEF', width: '100%', height: '12.5vh' }}>
       <Container maxWidth="xl" disableGutters>
         <Toolbar disableGutters sx={{ justifyContent: 'space-between', flexWrap: 'wrap', alignItems: 'center' }}>
           <IconButton component={Link} to="/" sx={{
@@ -84,7 +86,7 @@ function ResponsiveAppBar() {
               backgroundColor: 'transparent'
             }
           }}>
-            <img src={logo} alt="Logo" style={{ height: '6.5rem' }} />
+            <img src={logo} alt="Logo" style={{ height: '10vh' }} />
           </IconButton>
 
           {isCollapsed ? (
@@ -122,7 +124,7 @@ function ResponsiveAppBar() {
                   '.MuiPaper-root': {
                     bgcolor: 'white',
                     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                    borderRadius: '1px',
+                 
                     color: '#745B4F',
                     minWidth: '200px',
                   },
@@ -308,8 +310,15 @@ function ResponsiveAppBar() {
             </Box>
           )}
         </Toolbar>
+       
       </Container>
+      
     </AppBar>
+   <div>
+ <RotatingText/>
+   </div></div>
+
+
   );
 }
 

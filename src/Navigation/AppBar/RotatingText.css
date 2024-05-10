@@ -1,0 +1,26 @@
+.rotating-text-container {
+  background-color: white;
+
+    font-family: 'Arapey, serif';
+    margin-top: '0rem';
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .rotating-text {
+    padding: 1rem;
+    color: #745B4F;
+    display: inline-block;
+    animation: rotate-text 90s linear infinite;
+    letter-spacing: 0.2rem; /* Increases spacing between all characters */
+  }
+  
+  @keyframes rotate-text {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
