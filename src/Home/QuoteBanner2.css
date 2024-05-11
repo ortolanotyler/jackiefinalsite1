@@ -1,0 +1,25 @@
+.quote-banner {
+    width: 100%;
+    padding: 0.5rem 0;
+    background-color: #FDEDEF; /* Example background color, adjust as needed */
+    text-align: center;
+  }
+  
+  blockquote {
+    font-size: 2.5rem; /* Adjust the size as needed */
+    color: #745B4F; /* Example text color, adjust as needed */
+    margin: 0 auto;
+    max-width: 70%; /* Maximum width of the quote text */
+    line-height: 1.4; /* Adjust the line height for better readability */
+    font-family: 'GFSDidot LP', serif; /* Set the quote text font-family */
+  }
+  
+  cite {
+    font-family: 'Italianno', cursive; /* Set the author text font-family */
+    display: block;
+    margin-top: 1rem; /* Space between the quote and the author */
+    font-size: 2.9rem; /* Adjust the size as needed */
+    color: #745B4F; /* Example author text color, adjust as needed */
+    font-style: normal; /* Override default italic style if needed */
+  }
+  

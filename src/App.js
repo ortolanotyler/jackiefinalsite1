@@ -27,13 +27,22 @@ import JickyReview from './Articles/Reviews/JickyReview';
 import UlikeReview from './Articles/Reviews/UlikeReview';
 import BonBonReview from './Articles/Reviews/BonBonReview';
 import RotatingText from './Navigation/AppBar/RotatingText';
+import HomePage from './Home/HomePage';
+import { Paper } from '@mui/material';
 
 function App() {
   return (
     <Router>
       <ResponsiveAppBar />
-      <RotatingText/>
+      <Paper elevation={5} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: "#745B4F", textAlign: 'center', padding: '0rem' }}>
+            <RotatingText />
+          </Paper>
       <Routes>
+
+      {/* NavBar Routes  */}
+      <Route path="/" element={<HomePage />} />
+
+
 
         {/* Footer  */}
         <Route path="/sitemap" element={<Sitemap />} />

@@ -1,0 +1,85 @@
+.quiz-container {
+    height: 100%;
+    font-family: 'GFS Didot', serif;
+    max-width: 100%; /* Adjusted to take the full width of its container */
+    width: 100%; /* Ensure it actually takes up the full width */
+    margin: 20px auto;
+    padding: 60px;
+    border-radius: 2px;
+    background-color: white; /* Adjusted to a lighter color for better contrast */
+    display: flex; /* Using flex to manage inner content alignment */
+    flex-direction: column; /* Aligns children (question and answers) in a column */
+    align-items: center; /* Aligns text to the left */
+}
+
+.question-section, .results-section {
+    margin-bottom: 0px;
+    width: 100%; /* Ensure these sections take up full width */
+}
+
+.question-count {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.question-text {
+    font-family: 'GFS Didot', sans-serif;
+    color: #745B4F;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center; /* Ensures text aligns to the left */
+}
+
+.answer-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjusted to create two columns for options */
+    gap: 10px; /* Adjusts the gap between grid items */
+    margin-bottom: 30px; /* Keeps spacing consistent */
+    width: 70%; /* Ensures answer section takes full width */
+}
+
+.answer-section button {
+    color: white; /* Improved visibility against darkened images */
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none; /* Cleaner look with images */
+    background-color: transparent;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Enhances text readability */
+    width: 100%;
+    height: 100px;
+    overflow: hidden; /* Keeps the background contained */
+    position: relative; /* Ensures the linear gradient overlays properly */
+    background-blend-mode: multiply; /* Blends the gradient with the background image */
+}
+
+.answer-section button:hover {
+    border: 1px solid #745B4F; /* Adding a border on hover */
+    background-color: rgba(0, 0, 0, 0.6); /* Slight darkening effect */
+    color: #FDEDEF; /* Change text color on hover */
+}
+
+.results-section h2, .results-section ul, .results-section ul li {
+    text-align: left; /* Aligns results text to the left */
+}
+
+.results-section h2 {
+    margin-bottom: 20px;
+}
+
+.results-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.results-section ul li {
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+}

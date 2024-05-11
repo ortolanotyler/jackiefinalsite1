@@ -1,0 +1,55 @@
+.container {
+    margin-top : 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 33vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white ;
+  }
+  
+  .card {
+    height: '3rem';
+    background: #FDEDEF;
+    color:         #745B4F;
+    margin: 0.5rem;
+    padding: 0.2rem;
+    box-shadow: 12px 0px 32px -12px black; 
+    transition: all 0.45s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover; /* Ensure background image covers the entire card */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-position: center; /* Center the background image */
+  }
+  
+  .card h1 {
+    margin: 0;
+    word-wrap: break-word;
+  }
+  
+  .card:hover {
+    transform: translate(1px,-1px) rotate(1deg);
+  }
+  
+  .card:hover ~ .card {
+    transform: translateX(100px);
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .container {
+      height: auto;
+      flex-direction: column;
+      padding: 20px;
+    }
+    
+    .card {
+      margin: 1rem auto;
+      width: 100%;
+    }
+  }
+  

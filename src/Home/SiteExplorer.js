@@ -1,0 +1,117 @@
+import React, { useState } from 'react';
+import Grid from '@mui/material/Grid';
+import Card from '@mui/material/Card';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import { useNavigate } from 'react-router-dom';
+
+const cardDetails = [
+  {
+    title: 'POP CULTURE',
+    description: 'Catch the latest look from the world of entertainment.',
+    backgroundImage: `${process.env.PUBLIC_URL}/Images/BarbieThumb1.jpg`,
+    path: '/popculture'
+  },
+  {
+    title: 'VINTAGE VIBES',
+    description: 'Time Travel Tutorials are back.',
+    backgroundImage: `${process.env.PUBLIC_URL}/Images/SharonThumnail.jpg`,
+    path: '/timetraveltutorials'
+  },
+
+  {
+    title: ' TRENDS ',
+    description: 'Check out the latest Trend Report!',
+    backgroundImage: `${process.env.PUBLIC_URL}/Images/sugarplum1.jpg`,
+    path: '/trends'
+  },
+
+];
+
+export default function SiteExplorer() {
+  const [hoverIndex, setHoverIndex] = useState(-1);
+  const navigate = useNavigate();
+
+  return (
+    <Grid container spacing={1} justifyContent="center" sx={{ p: 5 }}>
+      {cardDetails.map((card, index) => (
+        <Grid item xs={12} md={4} key={index} sx={{ p: 1 }}>
+          <Card
+            onMouseEnter={() => setHoverIndex(index)}
+            onMouseLeave={() => setHoverIndex(-1)}
+            sx={{
+              height: 600,
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'space-between',
+              backgroundImage: `url(${card.backgroundImage})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              position: 'relative',
+              overflow: 'hidden',
+              transition: '0.9s',
+            }}
+          >
+            <div
+              style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                alignItems: 'center',
+                textAlign: 'center',
+                backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                opacity: hoverIndex === index ? 1 : 0,
+                transition: 'opacity 0.3s ease-in-out',
+                gap: '3rem',
+                padding: '3rem',
+
+              }}
+            >
+              <Typography variant="h5" component="h2" sx={{ 
+                fontFamily: "'Arapey', serif", 
+                color: 'white', 
+                zIndex: 2,
+                fontSize: '2.75rem',
+                border: '2px solid white',
+                padding: '0.1em 0.4em', // Reduced padding for a smaller border box
+              }}>
+                {card.title}
+              </Typography>
+              <Typography sx={{ 
+                fontFamily: "'GFS Didot', serif", 
+                color: 'white', 
+                zIndex: 2,
+                fontSize: '1.25rem' 
+              }}>
+                {card.description}
+              </Typography>
+              <Button 
+                size="small" 
+                sx={{ 
+                  fontFamily: "'GFS Didot', serif",
+                  color: 'white', 
+                  zIndex: 2,
+                  fontSize: '1rem',
+                  border: '1px solid white',
+                  '&:hover': {
+                    backgroundColor: 'white',
+                    color: 'black',
+                    borderColor: 'white'
+                  }
+                }}
+                onClick={() => navigate(card.path)}
+              >
+                READ HERE
+              </Button>
+            </div>
+          </Card>
+        </Grid>
+      ))}
+    </Grid>
+  );
+}

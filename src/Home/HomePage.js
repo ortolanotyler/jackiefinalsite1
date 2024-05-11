@@ -1,21 +1,21 @@
 import React from 'react';
 import { Grid, Box, Paper } from '@mui/material';
-import TextReveal from './Components/TextReveal';
-import RotatingText from './Components/RotatingText';
-import QuiltedImageList1 from './Components/ImageGridTutorials';
-import QuoteBanner3 from './Components/QuoteBanner3';
-import EmailSubscribe from './Components/EmailSubscribeField';
-import PageLines from './Components/PageBreakUpLines';
-import SiteExplorer from './Components/SiteExplorer';
-import SuperText from './Components/supertext';
-import Slider1 from './Components/aaaa';
-import Quiz1 from './Components/Quiz1';
-import ReviewArticleList from './Components/ReviewArticleList';
-import ResponsiveIframe from './Components/ResponsiveIframe.js';
-import ShopMyHero from './Components/ShopMyHero.js';
-import BeigeReveal from './Components/BeigeReveal';
-import VlogsHomePageVideo from './Components/VlogsHomePageVideo';
-import CardContainer from './Components/CardContainer';
+import QuiltedImageList1 from './ImageGridTutorials';
+
+import TextReveal from '../Components/TextReveal.js';
+import QuoteBanner3 from './QuoteBanner3.js';
+import EmailSubscribe from '../Components/EmailSubscribe.js';
+import PageLines from '../Components/PageBreakUpLines.js';
+import SiteExplorer from './SiteExplorer.js';
+import SuperText from './supertext.js';
+import Slider1 from './aaaa.js';
+import Quiz1 from '../Quiz/Quiz1.js';
+import ReviewArticleList from '../ReviewsPage/ReviewArticleList.js';
+import ResponsiveIframe from '../Components/ResponsiveIframe.js';
+import ShopMyHero from './ShopMyHero.js';
+import BeigeReveal from '../Components/BeigeReveal.js';
+import VlogsHomePageVideo from '../Vlogs/VlogsHomePageVideo.js';
+import CardContainer from './CardContainer.js';
 
 
 const MeetJackieLeft = `${process.env.PUBLIC_URL}/Images/meetjackieleft.png`;
@@ -30,9 +30,7 @@ function HomePage() {
           <TextReveal text='JACKIE WYERS' />
         </Grid>
         <Grid item xs={12}>
-          <Paper elevation={3} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: "#745B4F", textAlign: 'center', padding: '1rem' }}>
-            <RotatingText />
-          </Paper>
+
         </Grid>
         <Grid item xs={12}>
           <QuiltedImageList1 />
