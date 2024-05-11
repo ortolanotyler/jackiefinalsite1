@@ -32,15 +32,21 @@ import { Paper } from '@mui/material';
 import About from './About/About';
 import QuizHomepage from './Quiz/QuizHomePage';
 import Quiz1 from './Quiz/Quiz1';
-import NewTutorials from './Articles/Tutorials/NewTutorials';
+import NewTutorials from './Articles/Tutorials/HomeTutorials';
+import Slider1 from './Articles/Tutorials/bbb';
+import VintageVibes from './Articles/Tutorials/VintageVibes/VintageHome';
+import PopCultureView from './Articles/Tutorials/PopCulture/PopCulture';
+import PageLines from './Components/PageBreakUpLines';
 
 function App() {
   return (
     <Router>
       <ResponsiveAppBar />
-      <Paper elevation={5} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: "#745B4F", textAlign: 'center', padding: '0rem' }}>
-            <RotatingText />
-          </Paper>
+   
+    
+       
+        
+      
       <Routes>
 
       {/* NavBar Routes  */}
@@ -48,6 +54,10 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/quiz" element={<QuizHomepage/>} />
       <Route path="/tutorials" element={<NewTutorials/>} />
+      <Route path="/popculture" element={<PopCultureView/>} />
+      <Route path="/vintagevibes" element={<VintageVibes/>} />
+      <Route path="/trends" element={<Slider1/>} />
+    
 
 
 

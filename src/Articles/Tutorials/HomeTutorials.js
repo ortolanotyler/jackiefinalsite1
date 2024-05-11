@@ -11,7 +11,7 @@ import Slider4 from './ddd';
 
 import TextReveal from '../../Components/TextReveal';
 
-const NewTutorials = () => {
+const HomeTutorials = () => {
   return (
 
     <div><TextReveal text="LATEST" />
@@ -36,4 +36,4 @@ const NewTutorials = () => {
   );
 };
 
-export default NewTutorials;
+export default HomeTutorials;

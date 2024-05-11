@@ -1,5 +1,6 @@
 import React from 'react';
 import './RotatingText.css';
+import { Paper } from '@mui/material';
 
 const RotatingText = () => {
   // Phrases array
@@ -16,7 +17,10 @@ const RotatingText = () => {
 
   return (
     <div className="rotating-text-container">
+            <Paper elevation={2} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '1px', color: "#745B4F", textAlign: 'center', padding: '0rem' }}>
+
       <div className="rotating-text">{repeatedPhrases}</div>
+      </Paper>
     </div>
   );
 };

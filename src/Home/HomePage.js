@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Box,  } from '@mui/material';
+import { Grid, Box, Paper,  } from '@mui/material';
 import QuiltedImageList1 from './ImageGridTutorials';
 
 import TextReveal from '../Components/TextReveal.js';
@@ -16,6 +16,7 @@ import ShopMyHero from './ShopMyHero.js';
 import BeigeReveal from '../Components/BeigeReveal.js';
 import VlogsHomePageVideo from '../Vlogs/VlogsHomePageVideo.js';
 import CardContainer from './CardContainer.js';
+import RotatingText from '../Navigation/AppBar/RotatingText.js';
 
 
 const MeetJackieLeft = `${process.env.PUBLIC_URL}/Images/meetjackieleft.png`;
@@ -25,9 +26,16 @@ const MeetJackieLeft = `${process.env.PUBLIC_URL}/Images/meetjackieleft.png`;
 function HomePage() {
   return (
     <Box sx={{ width: '100%', backgroundColor: '#FDFDFD' }}>
-      <Grid container spacing={0}>
+      <Grid container spacing={1}>
+      
         <Grid item xs={12}>
           <TextReveal text='JACKIE WYERS' />
+        </Grid>
+        <Grid item xs={12}>
+        <Paper elevation={3} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: "#745B4F", textAlign: 'center', padding: '1rem' }}>
+            <RotatingText />
+          </Paper>
+
         </Grid>
         <Grid item xs={12}>
 

@@ -78,7 +78,7 @@ function ResponsiveAppBar() {
       fontFamily: 'GFS Didot, serif', 
       backgroundColor: '#FDEDEF',
       margin: 0, 
-      padding: 0,
+      padding: 1,
       width: '100%' 
     }}>
       <Container maxWidth="false" disableGutters>

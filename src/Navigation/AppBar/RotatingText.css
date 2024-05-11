@@ -8,7 +8,7 @@
   }
   
   .rotating-text {
-    padding: 1rem;
+    padding: 0.25rem;
     color: #745B4F;
     display: inline-block;
     animation: rotate-text 90s linear infinite;
