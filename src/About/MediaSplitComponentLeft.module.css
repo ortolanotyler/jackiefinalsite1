@@ -1,0 +1,76 @@
+/* MediaSplitComponent.module.css */
+
+/* Ensuring root style containment */
+.mediaContainer {
+  justify-content: center;
+
+  display: flex;
+  height: 100vh; /* Fixed height for the overall container */
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+/* Styling for the left side container */
+.leftContainer {
+  flex: 1; /* Take up half of the container width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the right side container */
+.rightContainer {
+  flex: 1; /* Take up half of the container width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the video container */
+.videoContainer {
+  height: 80vh; /* 70% of the viewport height */
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling for the video element */
+.videoContainer video {
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.5); /* Add box shadow */
+  border: 0.2rem solid #fdedef;
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+/* Styling for the product image */
+.product {
+  justify-content: center;
+  max-height: 100%; /* Adjust as needed */
+  margin-top: 1rem; /* Add space between logo and product */
+}
+
+/* Styling for the additional image */
+.additionalImage {
+  max-height: 100%; /* Adjust as needed */
+  margin-top: 1rem; /* Add space between product and additional image */
+}
+
+/* Optional: Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .mediaContainer {
+    flex-direction: column;
+    height: auto; /* Remove fixed height */
+  }
+
+  .leftContainer,
+  .rightContainer {
+    height: 50vh; /* 50% of the viewport height */
+  }
+
+  /* Additional adjustments can be added here */
+}

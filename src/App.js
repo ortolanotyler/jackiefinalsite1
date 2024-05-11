@@ -29,6 +29,9 @@ import BonBonReview from './Articles/Reviews/BonBonReview';
 import RotatingText from './Navigation/AppBar/RotatingText';
 import HomePage from './Home/HomePage';
 import { Paper } from '@mui/material';
+import About from './About/About';
+import QuizHomepage from './Quiz/QuizHomePage';
+import Quiz1 from './Quiz/Quiz1';
 
 function App() {
   return (
@@ -41,15 +44,13 @@ function App() {
 
       {/* NavBar Routes  */}
       <Route path="/" element={<HomePage />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/quiz" element={<QuizHomepage/>} />
 
 
 
-        {/* Footer  */}
-        <Route path="/sitemap" element={<Sitemap />} />
-        <Route path="/emailsubscribe" element={<EmailSubscribe/>} />
-        <Route path="/mediakit" element={<MediaKit/>} />
 
-        {/* Article Routes */}
+    
         <Route path="/yardley1965" element={<Yardley65/>} />
         <Route path="/VSfashionshow2014" element={<VictoriaSecret/>} />
         <Route path="/sugarplumfairy" element={<SugarPlumBlogPost/>} />
@@ -73,9 +74,22 @@ function App() {
 
         <Route path="/painlessIPL" element={<UlikeReview/>} />
 
+        {/* Quiz Routes */}
+        <Route path="/quiz1" element={<Quiz1/>} />
 
 
 
+
+
+
+
+
+    {/* Footer  */}
+    <Route path="/sitemap" element={<Sitemap />} />
+        <Route path="/emailsubscribe" element={<EmailSubscribe/>} />
+        <Route path="/mediakit" element={<MediaKit/>} />
+
+      
 
 
 

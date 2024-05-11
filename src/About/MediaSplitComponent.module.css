@@ -1,0 +1,37 @@
+.mediaContainer {
+  display: flex;
+  padding: 0.5rem; /* Optional padding for some spacing */
+  margin: 5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.videoContainer {
+ 
+  width: 50%; /* Half the container width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem; /* Optional padding for some spacing */
+}
+
+.videoContainer video {
+  max-width: 370px; /* Maximum width of the video */
+  max-height: 500px; /* Maximum height of the video */
+  width: 100%; /* Adjust width to be responsive within the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.rightContainer {
+  width: 50%; /* Half the container width */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+}
+
+.stackItem {
+  flex: 1; /* Divide space equally */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

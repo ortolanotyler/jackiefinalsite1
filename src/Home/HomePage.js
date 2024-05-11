@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Box, Paper } from '@mui/material';
+import { Grid, Box,  } from '@mui/material';
 import QuiltedImageList1 from './ImageGridTutorials';
 
 import TextReveal from '../Components/TextReveal.js';

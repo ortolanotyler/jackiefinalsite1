@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, {  useRef } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../../Components/TextReveal';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
@@ -6,12 +6,9 @@ import '../ExampleTutorial.css';
 
 
 const BonBon1A = `${process.env.PUBLIC_URL}/Images/BonBon1A.png`;
-const BonBon1B = `${process.env.PUBLIC_URL}/Images/BonBon1B.png`;
 const BonBon2 = `${process.env.PUBLIC_URL}/Images/BonBon2.png`;
 const BonBon3 = `${process.env.PUBLIC_URL}/Images/BonBon3.png`;
-const BonBon4 = `${process.env.PUBLIC_URL}/Images/BonBon4.png`;
 const Signature = `${process.env.PUBLIC_URL}/Images/Signature.png`;
-const BonBon6 = `${process.env.PUBLIC_URL}/Images/BonBon6.png`;
 
 
 const Card = ({ blogContent }) => {
