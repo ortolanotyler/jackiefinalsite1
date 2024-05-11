@@ -12,6 +12,8 @@ import SophiaLorenPost from './Articles/Tutorials/VintageVibes/SophiaLoren';
 import SharonTatePost from './Articles/Tutorials/VintageVibes/SharonTateBridal';
 import SharonIconicPost from './Articles/Tutorials/VintageVibes/SharonIconicPost';
 import PatMcGrathPost from './Articles/Tutorials/Trending/PatMcGrath';
+import NoMakeUpSpring from './Articles/Tutorials/Trending/NoMakeUpSpring';
+import MontTremblantBlog from './Articles/Travel/MontTremblant1';
 
 function App() {
   return (
@@ -30,6 +32,9 @@ function App() {
         <Route path="/sharontatebridal" element={<SharonTatePost/>} />
         <Route path="/sharontateiconic" element={<SharonIconicPost/>} />
         <Route path="/patmcgrath" element={<PatMcGrathPost/>} />
+        <Route path="/nomakeupspring" element={<NoMakeUpSpring/>} />
+        <Route path="/tremblant" element={<MontTremblantBlog/>} />
+
 
 
 

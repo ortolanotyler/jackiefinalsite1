@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import '../ExampleTutorial.css';
+import '../../ExampleTutorial.css';
 import TextReveal from '../../../Components/TextReveal.js';
 import SubscribeButton from '../../../Components/SubscribeButton.js';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe.js';

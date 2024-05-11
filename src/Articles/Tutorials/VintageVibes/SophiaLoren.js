@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import '../ExampleTutorial.css';
+import '../../ExampleTutorial.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 
 import modifyanchortags from '../../../Utilities/modifyanchortags';
