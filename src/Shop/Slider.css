@@ -1,0 +1,97 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.item-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1 auto;
+}
+
+.items {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  margin: 1em;
+}
+
+.item {
+  display: inline-block;
+  position: relative;
+  left: 0px;
+  margin: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: calc(33% - 2em);
+}
+
+.item__img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 6px 9px rgba(0, 0, 0, 0.9); /* Add box shadow */
+
+  display: block;
+  object-fit: cover;
+}
+
+.item::before {
+  display: block;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: black;
+  opacity: 0;
+}
+
+.item:hover::before {
+  opacity: 0.6;
+}
+
+.item:hover .item__link {
+  opacity: 1;
+  visibility: visible;
+}
+
+.item__link {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border: 1px solid white;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.item__link:hover {
+  background-color: white;
+  color: black;
+}
+
+.slider {
+  background: transparent;
+  border: 2px solid white;
+  color: black;
+  padding: 10px;
+}
+
+.slider:hover {
+  background-color: black;
+  color: white;
+}

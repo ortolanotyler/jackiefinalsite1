@@ -1,0 +1,7 @@
+.merch-container {
+    background-color: white !important;
+    min-height: 100vh; /* Adjust 100px to the height of your footer */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* This will push the footer to the bottom */
+}

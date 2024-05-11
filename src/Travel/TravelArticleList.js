@@ -3,36 +3,37 @@ import ReviewArticleCard from './TravelArticleCard';
 import "../Travel/TravelArticleList.css";
 import TravelArticleCard from './TravelArticleCard';
 
-const image1 = `${process.env.PUBLIC_URL}/Images/JickyThumbnail.png`;
-const image2 = `${process.env.PUBLIC_URL}/Images/BonBonThumbnail.png`;
-const image3 = `${process.env.PUBLIC_URL}/Images/HalfetiThumbnail.png`;
-const image4 =  `${process.env.PUBLIC_URL}/Images/ulikethumbnail.png`;
-
+const image1 = `${process.env.PUBLIC_URL}/Images/Disney1Thumbnail.png`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Disney2/DisneyThumbNail.jpeg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/MontThumbnail.jpg`;
+const hotelQ = `${process.env.PUBLIC_URL}/Images/QThumbnail.jpeg`;
 const articles = [
     {
-        date: '01/15/2024',
-        title: 'Jicky // Guerlain',
-        image: image1,
-        path: '/jickyreview',
-    },
-    {
-        date: '02/01/2024',
-        title: 'Bonbon // Viktor & Rolf',
-        image: image2,
-        path: '/bonbonreview',
-    },
-    {
-        date: '03/01/2024',
-        title: "Halfeti // Penhaligon's",
+        date: '04/15/2024',
+        title: 'Ski Vacation in Mont Tremblant',
         image: image3,
-        path: '/halfetireview',
+        path: '/tremblant',
     },
     {
         date: '04/01/2024',
-        title: "Painless Hair Removal // ULIKE",
-        image: image4,
-        path: '/ulikereview',
+        title: 'Walt Disney World Beach Club Resort Review',
+        image: image1,
+        path: '/disneybeachclubresort',
     },
+    {
+        date: '04/01/2024',
+        title: 'Hotel Quintessance, A Review in Mont Tremblant',
+        image: hotelQ,
+        path: '/hotelq',
+    },
+    {
+        date: '04/01/2024',
+        title: 'Best of Epcot, Magic Kingdom and Animal Kingdom',
+        image: image2,
+        path: '/epcot',
+    },
+   
+
     // Add more articles as needed
 ];
 

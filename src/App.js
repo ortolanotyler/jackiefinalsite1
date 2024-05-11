@@ -38,6 +38,8 @@ import VintageVibes from './Articles/Tutorials/VintageVibes/VintageHome';
 import PopCultureView from './Articles/Tutorials/PopCulture/PopCulture';
 import ReviewHomePage from './ReviewsPage/ReviewArticlesHome';
 import TravelArticlesHome from './Travel/TravelArticlesHome';
+import MyStyle from './Shop/MyStyle';
+import VintageVibesMerch from './Shop/VintageVibesMerch';
 
 function App() {
   return (
@@ -71,33 +73,37 @@ function App() {
         <Route path="/lanaXskims" element={<LanaBlog/>} />
         <Route path="/hotelQ" element={<HotelQ/>} />
         <Route path="/gracekelly" element={<GraceKelly/>} />
-        <Route path="/beachclubresort" element={<Disney1Post/>} />
+        <Route path="/disneybeachclubresort" element={<Disney1Post/>} />
         <Route path="/epcot" element={<Disney2Post/>} />
         <Route path="/margotbarbie" element={<BarbieBlog/>} />
         <Route path="/balkeblog" element={<BalkeBlog/>} />
 
-          {/*  Travel  */}
-          <Route path="/travel" element={<TravelArticlesHome/>} />
-
-
-
-  
   {/*  Review  */}
-        <Route path="/painlessIPL" element={<UlikeReview/>} />
+  <Route path="/painlessIPL" element={<UlikeReview/>} />
         <Route path="/halfeti" element={<HalfetiReview/>} />
         <Route path="/guerlain" element={<JickyReview/>} />
         <Route path="/bonbon" element={<BonBonReview/>} />
         <Route path="/reviews" element={<ReviewHomePage/>} />
 
-        {/* Quiz Routes */}
+        {/* Quiz  */}
     
         <Route path="/quiz" element={<QuizHomepage/>} />
       <Route path="/quiz1" element={<Quiz1/>} />
 
 
+          
+               {/*  Shop  */}
+               <Route path="/mystyle" element={<MyStyle/>} />
+               <Route path="/vintagevibesmerch" element={<VintageVibesMerch/>} />
+
+          
+          {/*  Travel  */}
+          <Route path="/travel" element={<TravelArticlesHome/>} />
+
+     
 
 
-
+  
 
 
 
