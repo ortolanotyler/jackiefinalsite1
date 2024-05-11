@@ -7,6 +7,11 @@ import EmailSubscribe from './Components/EmailSubscribe';
 import MediaKit from './Navigation/Footer/MediaKit';
 import Yardley65 from './Articles/Tutorials/VintageVibes/Yardley1965';
 import VictoriaSecret from './Articles/Tutorials/PopCulture/VictoriaSecret';
+import SugarPlumBlogPost from './Articles/Tutorials/Trending/SugarPlumBlogPost';
+import SophiaLorenPost from './Articles/Tutorials/VintageVibes/SophiaLoren';
+import SharonTatePost from './Articles/Tutorials/VintageVibes/SharonTateBridal';
+import SharonIconicPost from './Articles/Tutorials/VintageVibes/SharonIconicPost';
+import PatMcGrathPost from './Articles/Tutorials/Trending/PatMcGrath';
 
 function App() {
   return (
@@ -20,6 +25,11 @@ function App() {
         {/* Article Routes */}
         <Route path="/yardley1965" element={<Yardley65/>} />
         <Route path="/VSfashionshow2014" element={<VictoriaSecret/>} />
+        <Route path="/sugarplumfairy" element={<SugarPlumBlogPost/>} />
+        <Route path="/sophialoren" element={<SophiaLorenPost/>} />
+        <Route path="/sharontatebridal" element={<SharonTatePost/>} />
+        <Route path="/sharontateiconic" element={<SharonIconicPost/>} />
+        <Route path="/patmcgrath" element={<PatMcGrathPost/>} />
 
 
 
