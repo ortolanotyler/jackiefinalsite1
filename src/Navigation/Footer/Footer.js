@@ -14,10 +14,10 @@ const Footer = () => {
     };
 
     return (
-        <div>
-            <SwitchUpYour />
+        <div style={{ width: '100%', overflowX: 'hidden' }}> 
+        <SwitchUpYour />
             <footer style={{ 
-                width: '100%', // Changed from 100vw to 100% to avoid potential horizontal scrollbar
+                width: '100%',  // Ensures the footer matches the width of the viewport
                 height: '30vh',
                 fontFamily: 'GFS Didot, serif',
                 justifyContent: 'center',
@@ -25,7 +25,8 @@ const Footer = () => {
                 color: '#745B4F',
                 textAlign: 'center',
                 padding: '40px 20px',
-                margin: 0 // Ensures no additional margin causing width issues
+                margin: 0,  // Ensures no additional margin causing width issues
+                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'  // Same box shadow as AppBar
             }}>
                 <div style={{ fontSize: '40px', marginBottom: '20px' }}>
                     <a href="https://youtube.com/@JackieWyers?si=sklULUqnNkzkmiaY" target="_blank" rel="noopener noreferrer">

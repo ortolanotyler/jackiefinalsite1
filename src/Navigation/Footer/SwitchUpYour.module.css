@@ -1,6 +1,6 @@
 .container {
   font-family: 'GFS Didot, serif';
-  width: 100vw;
+  width: 100%;
   background-color: #FDEDEF;
   color: white; /* Default text color for the whole container */
   min-height: 30vh;
