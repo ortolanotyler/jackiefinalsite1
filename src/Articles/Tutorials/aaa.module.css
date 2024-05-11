@@ -1,0 +1,106 @@
+/* Slider.module.css */
+.cardImage {
+    display: grid;
+    background: white center center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+
+.cardImageImg {
+    padding: 0.85rem;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+}
+
+.htmlBody {
+    background-color: white;
+
+    height: 100%;
+    font-size: 1.5rem;
+}
+
+.cardList {
+    background-color: white;
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Default to 3-column grid */
+    gap: 1rem; /* Add gap between grid items */
+    font-size: 0;
+    list-style: none;
+}
+
+@media (max-width: 1000px) {
+    .cardList {
+        grid-template-columns: repeat(2, 1fr); /* Switch to 2-column grid under 1000px */
+    }
+}
+
+.card {
+    background-color: white;
+    max-width: 60vw;
+    font-size: 0.5em;
+    text-decoration: underline;
+    overflow: hidden;
+    box-shadow: 0 0 3.5rem -1rem rgba(0,0,0,0.7);
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+    margin-bottom: 1rem; /* Add margin between cards */
+}
+
+.card:hover {
+    transform: translateY(-0.5rem) scale(1.0125);
+    box-shadow: 0 0.6em 3rem -1rem rgba(0,0,0,0.5);
+}
+
+.cardDescription {
+    margin-top: 1rem;
+    display: flex; /* Use flexbox to center text */
+    flex-direction: column; /* Stack text vertically */
+    align-items: center; /* Center text horizontally */
+    text-align: center; /* Center text within container */
+    color: black;
+    text-decoration: none;
+    margin-bottom: .75rem;
+}
+
+.cardDescriptionH2 {
+    color: black;
+    font-size: 1.65rem;
+    font-weight: bold;
+}
+
+.cardDescriptionP {
+    color: black;
+    font-size: 1em;
+}
+
+.cardDescriptionLink,
+.cardDescriptionVisited {
+    color: black;
+    text-decoration: none;
+}
+
+.cardDescriptionHover,
+.cardDescriptionFocus {
+    text-decoration: underline;
+}
+
+.readHereBtn {
+    margin-bottom: 1rem;     
+    border-radius: 2px;
+    padding: 0.5rem;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;
+    text-decoration: underline;
+    font-size: 12px;
+    color: black !important; /* Override the default blue color */
+    transition: background-color 0.4s, color 0.3s;
+}
+
+.readHereBtn:hover {
+    background-color: black;
+    color: white;
+}

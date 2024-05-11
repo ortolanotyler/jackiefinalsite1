@@ -32,6 +32,7 @@ import { Paper } from '@mui/material';
 import About from './About/About';
 import QuizHomepage from './Quiz/QuizHomePage';
 import Quiz1 from './Quiz/Quiz1';
+import NewTutorials from './Articles/Tutorials/NewTutorials';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
       <Route path="/" element={<HomePage />} />
       <Route path="/about" element={<About />} />
       <Route path="/quiz" element={<QuizHomepage/>} />
+      <Route path="/tutorials" element={<NewTutorials/>} />
 
 
 
@@ -68,11 +70,13 @@ function App() {
         <Route path="/epcot" element={<Disney2Post/>} />
         <Route path="/margotbarbie" element={<BarbieBlog/>} />
         <Route path="/balkeblog" element={<BalkeBlog/>} />
+
+  
+  {/*  Review Routes */}
+        <Route path="/painlessIPL" element={<UlikeReview/>} />
         <Route path="/halfeti" element={<HalfetiReview/>} />
         <Route path="/guerlain" element={<JickyReview/>} />
         <Route path="/bonbon" element={<BonBonReview/>} />
-
-        <Route path="/painlessIPL" element={<UlikeReview/>} />
 
         {/* Quiz Routes */}
         <Route path="/quiz1" element={<Quiz1/>} />
