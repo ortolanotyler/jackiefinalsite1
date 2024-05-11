@@ -1,0 +1,17 @@
+.dropcap {
+    margin: 2rem;
+    padding: 1rem;
+    color: black;
+    font-size: 1.5rem; /* Adjust font size as needed */
+    line-height: 1.5; /* Adjust line height as needed */
+  }
+  
+  .dropcap-letter {
+    color: #745B4F; /* Adjust color as needed */
+    font-size: 7.5rem; /* Adjust dropcap letter size as needed */
+    margin-bottom: -0.25rem;
+    float: left;
+    margin-right: 0.15em; /* Adjust margin as needed */
+    line-height: 1; /* Adjust line height as needed */
+  }
+  

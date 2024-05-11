@@ -5,6 +5,8 @@ import Footer from './Navigation/Footer/Footer';
 import Sitemap from './Navigation/SiteMap/SiteMap';
 import EmailSubscribe from './Components/EmailSubscribe';
 import MediaKit from './Navigation/Footer/MediaKit';
+import Yardley65 from './Articles/Tutorials/VintageVibes/Yardley1965';
+import VictoriaSecret from './Articles/Tutorials/PopCulture/VictoriaSecret';
 
 function App() {
   return (
@@ -14,11 +16,14 @@ function App() {
         <Route path="/sitemap" element={<Sitemap />} />
         <Route path="/emailsubscribe" element={<EmailSubscribe/>} />
         <Route path="/mediakit" element={<MediaKit/>} />
-        {/* Additional routes can be added here */}
+
+        {/* Article Routes */}
+        <Route path="/yardley1965" element={<Yardley65/>} />
+        <Route path="/VSfashionshow2014" element={<VictoriaSecret/>} />
 
 
 
-
+        {/* 404 Route */}
         <Route path="*" element={<h1>404 Not Found</h1>} />
 
       </Routes>
