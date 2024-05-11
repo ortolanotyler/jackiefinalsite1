@@ -14,12 +14,26 @@ import SharonIconicPost from './Articles/Tutorials/VintageVibes/SharonIconicPost
 import PatMcGrathPost from './Articles/Tutorials/Trending/PatMcGrath';
 import NoMakeUpSpring from './Articles/Tutorials/Trending/NoMakeUpSpring';
 import MontTremblantBlog from './Articles/Travel/MontTremblant1';
+import LatteMakeupBlogPost from './Articles/Tutorials/Trending/LatteMakeupBlogPost';
+import LanaBlog from './Articles/Tutorials/PopCulture/LanaBlog';
+import HotelQ from './Articles/Travel/HotelQ';
+import GraceKelly from './Articles/Tutorials/VintageVibes/GraceKelly';
+import Disney1Post from './Articles/Travel/Disney1';
+import Disney2Post from './Articles/Travel/Disney2';
+import BarbieBlog from './Articles/Tutorials/PopCulture/BarbieBlogPost';
+import BalkeBlog from './Articles/Tutorials/VintageVibes/BalkeBlog';
+import HalfetiReview from './Articles/Reviews/HalfetiReview';
+import JickyReview from './Articles/Reviews/JickyReview';
+import UlikeReview from './Articles/Reviews/UlikeReview';
+import BonBonReview from './Articles/Reviews/BonBonReview';
 
 function App() {
   return (
     <Router>
       <ResponsiveAppBar />
       <Routes>
+
+        {/* Footer  */}
         <Route path="/sitemap" element={<Sitemap />} />
         <Route path="/emailsubscribe" element={<EmailSubscribe/>} />
         <Route path="/mediakit" element={<MediaKit/>} />
@@ -34,6 +48,25 @@ function App() {
         <Route path="/patmcgrath" element={<PatMcGrathPost/>} />
         <Route path="/nomakeupspring" element={<NoMakeUpSpring/>} />
         <Route path="/tremblant" element={<MontTremblantBlog/>} />
+        <Route path="/lattemakeup" element={<LatteMakeupBlogPost/>} />
+        <Route path="/lanaXskims" element={<LanaBlog/>} />
+        <Route path="/hotelQ" element={<HotelQ/>} />
+        <Route path="/gracekelly" element={<GraceKelly/>} />
+        <Route path="/beachclubresort" element={<Disney1Post/>} />
+        <Route path="/epcot" element={<Disney2Post/>} />
+        <Route path="/margotbarbie" element={<BarbieBlog/>} />
+        <Route path="/balkeblog" element={<BalkeBlog/>} />
+        <Route path="/halfeti" element={<HalfetiReview/>} />
+        <Route path="/guerlain" element={<JickyReview/>} />
+        <Route path="/bonbon" element={<BonBonReview/>} />
+
+        <Route path="/painlessIPL" element={<UlikeReview/>} />
+
+
+
+
+
+
 
 
 
