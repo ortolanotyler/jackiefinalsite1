@@ -36,33 +36,28 @@ import NewTutorials from './Articles/Tutorials/HomeTutorials';
 import Slider1 from './Articles/Tutorials/bbb';
 import VintageVibes from './Articles/Tutorials/VintageVibes/VintageHome';
 import PopCultureView from './Articles/Tutorials/PopCulture/PopCulture';
-import PageLines from './Components/PageBreakUpLines';
+import ReviewHomePage from './ReviewsPage/ReviewArticlesHome';
+import TravelArticlesHome from './Travel/TravelArticlesHome';
 
 function App() {
   return (
     <Router>
       <ResponsiveAppBar />
-   
-    
-       
-        
       
       <Routes>
 
       {/* NavBar Routes  */}
       <Route path="/" element={<HomePage />} />
       <Route path="/about" element={<About />} />
-      <Route path="/quiz" element={<QuizHomepage/>} />
       <Route path="/tutorials" element={<NewTutorials/>} />
+
+      {/* /Tutorial Genre Home Page Routes  */}
       <Route path="/popculture" element={<PopCultureView/>} />
       <Route path="/vintagevibes" element={<VintageVibes/>} />
       <Route path="/trends" element={<Slider1/>} />
     
+            {/* /Article  Routes  */}
 
-
-
-
-    
         <Route path="/yardley1965" element={<Yardley65/>} />
         <Route path="/VSfashionshow2014" element={<VictoriaSecret/>} />
         <Route path="/sugarplumfairy" element={<SugarPlumBlogPost/>} />
@@ -81,15 +76,23 @@ function App() {
         <Route path="/margotbarbie" element={<BarbieBlog/>} />
         <Route path="/balkeblog" element={<BalkeBlog/>} />
 
+          {/*  Travel  */}
+          <Route path="/travel" element={<TravelArticlesHome/>} />
+
+
+
   
-  {/*  Review Routes */}
+  {/*  Review  */}
         <Route path="/painlessIPL" element={<UlikeReview/>} />
         <Route path="/halfeti" element={<HalfetiReview/>} />
         <Route path="/guerlain" element={<JickyReview/>} />
         <Route path="/bonbon" element={<BonBonReview/>} />
+        <Route path="/reviews" element={<ReviewHomePage/>} />
 
         {/* Quiz Routes */}
-        <Route path="/quiz1" element={<Quiz1/>} />
+    
+        <Route path="/quiz" element={<QuizHomepage/>} />
+      <Route path="/quiz1" element={<Quiz1/>} />
 
 
 
