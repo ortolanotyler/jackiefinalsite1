@@ -26,11 +26,13 @@ import HalfetiReview from './Articles/Reviews/HalfetiReview';
 import JickyReview from './Articles/Reviews/JickyReview';
 import UlikeReview from './Articles/Reviews/UlikeReview';
 import BonBonReview from './Articles/Reviews/BonBonReview';
+import RotatingText from './Navigation/AppBar/RotatingText';
 
 function App() {
   return (
     <Router>
       <ResponsiveAppBar />
+      <RotatingText/>
       <Routes>
 
         {/* Footer  */}
