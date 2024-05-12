@@ -28,9 +28,9 @@ function HomePage() {
     <Box sx={{ width: '100%', backgroundColor: '#FDFDFD' }}>
       <Grid container spacing={1}>
       
-        <Grid item xs={12}>
+  
           <TextReveal text='JACKIE WYERS' />
-        </Grid>
+       
         <Grid item xs={12}>
         <Paper elevation={3} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: "#745B4F", textAlign: 'center', padding: '1rem' }}>
             <RotatingText />

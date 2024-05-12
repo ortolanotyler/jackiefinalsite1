@@ -14,7 +14,7 @@ import {
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 
-const logo = `${process.env.PUBLIC_URL}/Images/jackielogo.png`;
+const logo = `${process.env.PUBLIC_URL}/Images/Home/jackielogo.png`;
 
 const pages = [
   { name: 'Home', path: '/' },

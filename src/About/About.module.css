@@ -22,7 +22,7 @@
 
 .about-left-section {
   flex: 1;
-  background-image: url('/public/Images/emily2.png'); /* Replace '/public' with your actual public URL */
+  background-image: url('/public/Images/About/emily2.png'); /* Replace '/public' with your actual public URL */
   background-size: cover;
   background-position: center;
   display: flex;

@@ -9,20 +9,20 @@ const cardDetails = [
   {
     title: 'POP CULTURE',
     description: 'Catch the latest look from the world of entertainment.',
-    backgroundImage: `${process.env.PUBLIC_URL}/Images/BarbieThumb1.jpg`,
+    backgroundImage: `${process.env.PUBLIC_URL}/Images/Home/JackieWyersBarbie.jpg`,
     path: '/popculture'
   },
   {
     title: 'VINTAGE VIBES',
     description: 'Time Travel Tutorials are back.',
-    backgroundImage: `${process.env.PUBLIC_URL}/Images/SharonThumnail.jpg`,
+    backgroundImage: `${process.env.PUBLIC_URL}/Images/Home/GraceKellyJackieWyers.jpg`,
     path: '/timetraveltutorials'
   },
 
   {
     title: ' TRENDS ',
     description: 'Check out the latest Trend Report!',
-    backgroundImage: `${process.env.PUBLIC_URL}/Images/sugarplum1.jpg`,
+    backgroundImage: `${process.env.PUBLIC_URL}/Images/Home/JackieWyersPatMcGrath.jpeg`,
     path: '/trends'
   },
 

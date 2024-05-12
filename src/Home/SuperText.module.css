@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-
 /* Base styles for the container */
-.supertext-container {
+.supertextContainer {
   color: '#745B4F';
-background-color: #EBE8E4;
- 
+  background-color: #EBE8E4;
   margin: 2.5rem;
-  height : 70vh;
+  height: 70vh;
   display: flex;
   flex-direction: row; /* Set to row to start with image on left, text on right */
   align-items: center; /* Align items vertically */
@@ -14,43 +11,36 @@ background-color: #EBE8E4;
   overflow: hidden; /* Prevent overflow */
 }
 
-.image-container {
-  margin:1rem;
-
-
+.imageContainer {
+  margin: 1rem;
   position: relative;
   width: 100%; /* Adjusted to take less than half */
 }
-.supertext-container .supertext-text {
-  font-size: 0.5rem; /* Adjusted font size without !important */
-}
 
-
-.supertext-text {
+.supertextText {
   line-height: 1.25;
   color: '#745B4F';
   width: 75%;
   margin-bottom: 1rem;
   margin-left: 4rem;
   margin-right: 4rem;
-
   flex: 1;
   box-sizing: border-box; /* Include padding and border in the element's width and height */
   order: 2; /* Set order to 2 so text appears on the right */
 }
 
-.supertext-image {
- 
+.supertextImage {
   border: 1rem solid #fdedef;
   margin-left: 2rem;
   margin-top: 1rem;
-  margin-bottom:1rem;
+  margin-bottom: 1rem;
   width: 80%;
   height: auto;
   object-fit: cover;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust shadow values as needed */
 }
-.overlay-image {
+
+.overlayImage {
   position: fixed;
   margin-right: 5rem;
   top: 32.5rem; /* Position at the bottom */
@@ -59,7 +49,7 @@ background-color: #EBE8E4;
   transition: transform 0.2s ease-in-out; /* Add transition for smooth animation */
 }
 
-.overlay-image:hover {
+.overlayImage:hover {
   animation: jiggle 0.3s ease infinite alternate; /* Add jiggle animation on hover */
 }
 
@@ -75,38 +65,25 @@ background-color: #EBE8E4;
   }
 }
 
-
 @media (max-width: 1200px) {
-  .supertext-container {
+  .supertextContainer {
     flex-direction: column; /* Stack the children vertically */
     height: 100%;
   }
 
-  .image-container   {
+  .imageContainer {
     width: 50%; /* Ensure full width for both elements */
     order: 0; /* Reset order to natural stacking */
-  
   }
 
-  .supertext-text {
+  .supertextText {
     width: 80%; /* Ensure full width for both elements */
     order: 0; /* Reset order to natural stacking */
-
-  
-  }
-
-  .supertext-image {
-    max-height: 50vh; /* Remove max height restriction for better scaling */
-  }
-}
-
-@media (max-width: 1200px) {
-  .supertext-container {
-    max-height: none; /* Remove max height to allow flexible height based on content */
-  }
-
-  .supertext-text {
     margin-top: -1rem;
     font-size: 1rem; /* Optionally reduce font size on very small screens */
+  }
+
+  .supertextImage {
+    max-height: 50vh; /* Remove max height restriction for better scaling */
   }
 }

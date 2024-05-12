@@ -10,6 +10,7 @@ import Slider4 from './ddd';
 
 
 import TextReveal from '../../Components/TextReveal';
+import TrendsHome from './Trending/TrendsHome';
 
 const HomeTutorials = () => {
   return (
@@ -27,7 +28,7 @@ const HomeTutorials = () => {
       <TextReveal text='TRENDING NOW' />
       <Slider2 />
       <TextReveal text='POP CULTURE OBSESSED' />
-      <Slider3/>
+      <TrendsHome/>
       <TextReveal text='VINTAGE VIBES' />
       <Slider4/>
       

@@ -47,10 +47,10 @@ const Sitemap = () => {
 
     const travelPosts = [
         { path: "/travel", title: "Travel Home Page" },
-        { path: "/monttremblant", title: "Mont Tremblant Ski Trip" },
-        { path: "/hotelqreview", title: "Hotel Quintessence // Luxury Hotel Review" },
-        { path: "/disneyreview1", title: "Walt Disney World // Beach Club Resort Review" },
-        { path: "/disneyreview2", title: "Walt Disney World // EPCOT & MORE" }
+        { path: "/tremblant", title: "Mont Tremblant Ski Trip" },
+        { path: "/hotelq", title: "Hotel Quintessence // Luxury Hotel Review" },
+        { path: "/disneybeachclubresort", title: "Walt Disney World // Beach Club Resort Review" },
+        { path: "/epcot", title: "Walt Disney World // EPCOT & MORE" }
 
     ];
 

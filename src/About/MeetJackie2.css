@@ -1,0 +1,54 @@
+/* Base styles for the container */
+.supertext-container {
+    display: flex;
+    flex-direction: row; /* Set to row to start with image on left, text on right */
+    align-items: center; /* Align items vertically */
+    max-height: 70vh;
+    overflow: hidden; /* Prevent overflow */
+  }
+  
+  /* Styles for the text inside the container */
+  .supertext-text {
+    margin: 1rem;
+    flex: 1;
+    width: 100%; /* Text takes up half of the container width */
+    padding: 1rem;
+    order: 2; /* Set order to 2 so text appears on the right */
+  }
+  
+  /* Styles for the image inside the container */
+  .supertext-image {
+    width: 100%; /* Image takes up half of the container width */
+    max-height: 100%; /* Limit the height of the image */
+    object-fit: cover; /* Ensure the image covers the area without distorting aspect ratio */
+    order: 1; /* Set order to 1 so image appears on the left */
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 500px) {
+    .supertext-container {
+      flex-direction: column; /* Stack the children vertically */
+    }
+  
+    .supertext-text,
+    .supertext-image {
+      width: 100%; /* Both children take up 100% width of the container */
+      order: 0; /* Reset order to natural order */
+    }
+  
+    .supertext-image {
+      max-height: none; /* Remove max height restriction for better scaling */
+    }
+  }
+  
+  /* Further adjustments for very small screens */
+  @media (max-width: 480px) {
+    .supertext-container {
+      max-height: 100%; /* Allow the container to take full height of the viewport */
+    }
+  
+    .supertext-text {
+      padding: 10px; /* Reduce padding for smaller screens */
+    }
+  }
+  

@@ -3,49 +3,49 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
 // Import your images
-const image1 = `${process.env.PUBLIC_URL}/Images/HomePage1.jpg`;
-const image2 = `${process.env.PUBLIC_URL}/Images/HomePage2.jpg`;
-const image3 = `${process.env.PUBLIC_URL}/Images/HomePage3.jpg`;
-const image4 = `${process.env.PUBLIC_URL}/Images/HomePage4.jpg`;
-const image5 = `${process.env.PUBLIC_URL}/Images/HomePage5.jpg`;
-const image6 = `${process.env.PUBLIC_URL}/Images/HomePage6.jpg`;
-const image7 = `${process.env.PUBLIC_URL}/Images/HomePage7.jpg`;
-const image8 = `${process.env.PUBLIC_URL}/Images/HomePage8.jpg`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Home/HomePage1.jpg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Home/HomePage2.jpg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Home/HomePage3.jpg`;
+const image4 = `${process.env.PUBLIC_URL}/Images/Home/HomePage4.jpg`;
+const image5 = `${process.env.PUBLIC_URL}/Images/Home/HomePage5.jpg`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Home/HomePage6.jpg`;
+const image7 = `${process.env.PUBLIC_URL}/Images/Home/HomePage7.jpg`;
+const image8 = `${process.env.PUBLIC_URL}/Images/Home/HomePage8.jpg`;
 
 
 
 const itemData = [
   {
     img: image1,
-    title: 'Image 1',
+    title: 'Jackie Wyers as Sophia Loren',
   },
   {
     img: image2,
-    title: 'Image 2',
+    title: 'Jackie Wyers as Margot Robbie',
   },
   {
     img: image3,
-    title: 'Image 3',
+    title: 'Jackie Wyers Latte Makeup Headhot',
   },
   {
     img: image4,
-    title: 'Image 4',
+    title: 'Jackie Wyers Hair Tutorials',
   },
   {
     img: image5,
-    title: 'Image 5',
+    title:'Jackie Wyers New York City',
   },
   {
     img: image6,
-    title: 'Image 6',
+    title:'Jackie Wyers Barbie Margot',
   },
     {
         img: image7,
-        title: 'Image 7',
+        title: 'Jackie Wyers in San Diego',
     },
     {
         img: image8,
-        title: 'Image 8',
+        title:"Jackie Wyers Penhaligon's Campaign",
     },
 
   // ... repeat for each image ...
@@ -55,7 +55,7 @@ const itemData = [
 export default function QuiltedImageList1() {
   return (
     <ImageList
-      sx={{ width: '100%', height: 450 }}
+      sx={{ width: '100%', height: '40rem' }}
       variant="quilted"
       cols={4}
       rowHeight={'100%'}

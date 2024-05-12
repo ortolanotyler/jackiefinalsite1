@@ -40,6 +40,7 @@ import ReviewHomePage from './ReviewsPage/ReviewArticlesHome';
 import TravelArticlesHome from './Travel/TravelArticlesHome';
 import MyStyle from './Shop/MyStyle';
 import VintageVibesMerch from './Shop/VintageVibesMerch';
+import TrendsHome from './Articles/Tutorials/Trending/TrendsHome';
 
 function App() {
   return (
@@ -56,7 +57,7 @@ function App() {
       {/* /Tutorial Genre Home Page Routes  */}
       <Route path="/popculture" element={<PopCultureView/>} />
       <Route path="/vintagevibes" element={<VintageVibes/>} />
-      <Route path="/trends" element={<Slider1/>} />
+      <Route path="/trends" element={<TrendsHome/>} />
     
             {/* /Article  Routes  */}
 
