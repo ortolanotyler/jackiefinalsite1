@@ -1,0 +1,81 @@
+/* ShopMyHero.module.css */
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+    position: relative;
+    flex-wrap: wrap;
+  }
+  
+  .imageSection {
+    flex: 1 1 33%;
+    max-width: 100%;
+    position: relative;
+  }
+  
+  .iframeSection {
+    flex: 1 1 67%;
+    max-width: 67%;
+    margin-bottom: 0;
+    padding-top: 10rem;
+  }
+  
+  .overlayText {
+    position: absolute;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: 'Arapey', serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0.5rem 0;
+    font-size: 7vw; /* Responsive font size based on viewport width */
+  }
+  
+  .overlayTextTop {
+    top: 0;
+  }
+  
+  .overlayTextBottom {
+    bottom: 0;
+  }
+  
+  @media (max-width: 1200px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .imageSection {
+      order: 2; /* Move the image section below the iframe section */
+    }
+  
+    .iframeSection {
+      order: 1; /* Ensure iframe stays on top */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .overlayText {
+      font-size: 7vw;
+    }
+  
+    .iframeSection {
+      height: 300px; /* Adjust iframe height on medium screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding-top: 5rem; /* Reduce padding for small screens */
+    }
+  
+    .overlayText {
+      font-size: 9vw;
+    }
+  
+    .iframeSection {
+      height: 200px; /* Adjust iframe height on small screens */
+    }
+  }
+  

@@ -1,15 +1,16 @@
 import React from 'react';
-const fashionImage = `${process.env.PUBLIC_URL}/Images/mystyle8.jpg`;
+import ResponsiveIframe from '../Components/ResponsiveIframe';
+const fashionImage = `${process.env.PUBLIC_URL}/Images/Home/sleek_spring.jpg`;
 
 
 function ShopMyHero() {
   return (
     <div style={{ display: 'flex', width: '100%', flexDirection: 'row', alignItems: 'stretch', position: 'relative', flexWrap: 'wrap' }}>
       {/* Image Section with Text Overlay and Link */}
-      <div style={{ flex: '1 1 33%', maxWidth: '33%', position: 'relative' }}>
+      <div style={{ flex: '1 1 33%', maxWidth: '100%', position: 'relative' }}>
         {/* Link wrapping the image */}
         <a href="/mystyle">
-          <img src={fashionImage} alt="Fashion" style={{ width: '100%', height: 'auto' }} />
+          <img src={fashionImage} alt="Fashion" style={{ width: '100%', height: '100%' }} />
         </a>
         <h1 style={{
           position: 'absolute',
@@ -21,7 +22,7 @@ function ShopMyHero() {
           fontStyle: 'italic', // Arapey is mostly used in italic style
           margin: 0,
           padding: '0.5rem 0', // Adds space top and bottom
-          fontSize: '5vw' // Responsive font size based on viewport width
+          fontSize: '7vw' // Responsive font size based on viewport width
         }}>
           SHOP
         </h1>
@@ -35,7 +36,7 @@ function ShopMyHero() {
           fontStyle: 'italic',
           margin: 0,
           padding: '0.5rem 0', // Adds space top and bottom
-          fontSize: '5vw' // Responsive font size based on viewport width
+          fontSize: '7vw' // Responsive font size based on viewport width
         }}>
           STYLE
         </h1>
@@ -43,13 +44,13 @@ function ShopMyHero() {
       <div style={{ flex: '1 1 67%', maxWidth: '67%', marginBottom: '0', paddingTop: '10rem' }}>
 
         {/* New iframe for "Sleek Spring" */}
-        <iframe
-          title="Sleek Spring"
-          src="https://shopmy.us/collections/embed/379944?"
-          style={{ width: '100%', height: '100%', border: 'none' }} // Height can be adjusted or made responsive with vw if needed
-        ></iframe>
+      <ResponsiveIframe
+        title="ShopMy Spring Collection"
+        src="https://shopmy.us/collections/embed/379944?noheader=true"
+        style={{ width: '100%', height: '100%' }}
+/>
       </div>
-
+ 
       {/* Inline styles for responsiveness */}
       <style>
         {`

@@ -2,10 +2,10 @@ import React from 'react';
 import ReviewArticleCard from './ReviewArticleCard';
 import "../Travel/TravelArticleList.css";
 
-const image1 = `${process.env.PUBLIC_URL}/Images/JickyThumbnail.png`;
-const image2 = `${process.env.PUBLIC_URL}/Images/BonBonThumbnail.png`;
-const image3 = `${process.env.PUBLIC_URL}/Images/HalfetiThumbnail.png`;
-const image4 =  `${process.env.PUBLIC_URL}/Images/ulikethumbnail.png`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/jickyguerlainthumbnail.png`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBonThumbnail.png`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/HalfetiThumbnail.png`;
+const image4 =  `${process.env.PUBLIC_URL}/Images/Articles/ULIKEREVIEW/ULIKETHUMB.png`;
 
 const articles = [
     {
