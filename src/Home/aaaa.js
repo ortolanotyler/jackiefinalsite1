@@ -2,16 +2,18 @@ import React from 'react';
 import styles from './aaa.module.css'; // Import the CSS module
 
 // Importing the images
-const image2 = `${process.env.PUBLIC_URL}/Images/LatteMakeupHero.png`;
-const image6 = `${process.env.PUBLIC_URL}/Images/LanaThumbnail.jpg`;
-const image8 = `${process.env.PUBLIC_URL}/Images/victoriathumbnail.jpeg`;
-const shrimpton = `${process.env.PUBLIC_URL}/Images/shrimpton1.jpeg`;
-const nomakeup = `${process.env.PUBLIC_URL}/Images/nomakeupspringthumbnail.jpeg`;
-const grace = `${process.env.PUBLIC_URL}/Images/gracekellythumbnail.jpg`;
-const cardsData = [
-  { link: "/nomakeupspring", image: nomakeup, alt: "Warm and cozy latte-inspired fall makeup look", title: "No-Makeup Makeup" },
-  { link: "/gracekelly", image: grace, alt: "Warm and cozy latte-inspired fall meup look", title: "Grace Kelly's Hollywood Glam" },
+const image2 = `${process.env.PUBLIC_URL}/Images/Home/HomePage3.jpg`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Home/JackieWyersLanaDelReyRecreationArticleThumbnail.jpg`;
+const image8 = `${process.env.PUBLIC_URL}/Images/Home/VictoriaSecret.jpg`;
+const shrimpton = `${process.env.PUBLIC_URL}/Images/Home/JeanShrimptonThumbnail.jpg`;
+const nomakeup = `${process.env.PUBLIC_URL}/Images/Home/nomakeupthumbnail.jpg`;
+const grace = `${process.env.PUBLIC_URL}/Images/Home/GraceKellyJackieWyers.jpg`;
 
+const cardsData = [
+
+
+  { link: "/nomakeupspring", image: nomakeup, alt: "Warm and cozy latte-inspired fall makeup look", title: "No-Makeup Makeup" },
+  { link: "/gracekelly", image: grace, alt: "Warm and cozy latte-inspired fall meup look", title: "Grace's Hollywood Glam" },
     { link: "/victoriasecret", image: image8, alt: "Victoria's Secret fashion show 2014 vibes", title: "Victoria's Secret" },
     { link: "/lanablog", image: image6, alt: "SKIMS collaboration with Lana for Valentine's Day makeup", title: "SKIMS X Lana" },
     { link: "/latteMakeup", image: image2, alt: "Warm and cozy latte-inspired fall makeup look", title: "Latte Makeup" },

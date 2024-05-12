@@ -19,7 +19,7 @@ import CardContainer from './CardContainer.js';
 import RotatingText from '../Navigation/AppBar/RotatingText.js';
 
 
-const MeetJackieLeft = `${process.env.PUBLIC_URL}/Images/meetjackieleft.png`;
+const MeetJackieLeft = `${process.env.PUBLIC_URL}/Images/Home/meetjackieleft.png`;
 
 
 

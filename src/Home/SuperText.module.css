@@ -2,8 +2,9 @@
 .supertextContainer {
   color: '#745B4F';
   background-color: #EBE8E4;
-  margin: 2.5rem;
-  height: 70vh;
+  margin: 1rem;
+  
+  height: 100%;
   display: flex;
   flex-direction: row; /* Set to row to start with image on left, text on right */
   align-items: center; /* Align items vertically */
@@ -18,7 +19,7 @@
 }
 
 .supertextText {
-  line-height: 1.25;
+  line-height: 1.25rem;
   color: '#745B4F';
   width: 75%;
   margin-bottom: 1rem;

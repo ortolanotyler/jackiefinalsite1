@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './SuperText.module.css';
 
-const supertext = `${process.env.PUBLIC_URL}/Images/Home/MeetJackie1.png`;
+const imageUrl = `${process.env.PUBLIC_URL}/Images/Home/MeetJackie1.png`;
 
 const SuperText = ({ imageUrl }) => {
     return (
         <div className={styles.supertextContainer}>
             <div className={styles.imageContainer}>
-                <img className={styles.supertextImage} src={supertext} alt="SuperText" />
+                <img className={styles.supertextImage} src={imageUrl} alt="SuperText" />
             </div>
             <div className={styles.textContainer}>
                 <div className={styles.supertextText} style={{ color: '#745B4F', fontFamily: 'GFS Didot', justifyContent: 'center' }}>

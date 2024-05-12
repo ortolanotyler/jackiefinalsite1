@@ -43,8 +43,8 @@ Join to access the newsletter & exclusive content!`.split('\n');
       }}
     >
       {({ submitForm, isSubmitting, touched, errors }) => (
-        <Form style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '2.5rem' }}>
-          <Grid container spacing={3} alignItems="center" style={{ width: '50vw', padding: '5rem', borderRadius: '1rem' }}>
+        <Form style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '10rem' }}>
+          <Grid container spacing={2} alignItems="center" style={{ width: '100%', margin: '3.5rem', borderRadius: '1rem' }}>
             <Grid item xs={12}>
               {/* Render each segment with custom styles */}
               {textSegments.map((segment, index) => (
@@ -53,10 +53,10 @@ Join to access the newsletter & exclusive content!`.split('\n');
                   variant="subtitle1"
                   gutterBottom
                   sx={{
-                    fontSize: index === 0 ? '2.5rem' : '1.75rem', // Change font size based on index
+                    fontSize: index === 0 ? '2rem' : '1.5rem', // Change font size based on index
                     fontFamily: 'GFS Didot, serif',
                     textAlign: 'center',
-                    color: index === 0 ? '#745B4F' : '#333', // Change color based on index
+                    color: index === 0 ? '#745B4F' : 'black', // Change color based on index
                   }}
                 >
                   {segment}
@@ -64,39 +64,48 @@ Join to access the newsletter & exclusive content!`.split('\n');
               ))}
             </Grid>
             <Grid item xs={6}>
-              <Field
+            <Button
+  type="submit"
+  variant="contained"
+  disabled={isSubmitting}
+  onClick={submitForm}
+  sx={{
+    fontSize: '1rem',
+    backgroundColor: '#FDEDEF',
+    color: '#745B4F',
+    borderRadius: '1rem',
+    width: '100%',
+    fontFamily: 'GFS Didot, serif',
+    fontWeight: 'bold',
+    '&:hover': { // Adding the hover state
+      backgroundColor: '#FDEDEF', // Keep the same color on hover
+      '@media (hover: none)': { // Fix for devices that don't support hover
+        backgroundColor: '#FDEDEF'
+      }
+    }
+  }}
+>
+  Subscribe
+</Button>
+            </Grid>
+            <Grid item xs={6}>
+          
+<Field
                 name="email"
                 type="email"
                 placeholder="Email"
                 style={{
+                 
                   borderRadius: '10px',
                   width: '100%',
                   boxSizing: 'border-box',
                   border: '1px solid #745B4F',
-                  padding: '1rem',
+                  padding: '.75rem',
+                  fontFamily: 'GFS Didot, serif', // Apply directly
                 }}
               />
-              {touched.email && errors.email && <div style={{ color: 'red', fontSize: '1rem' }}>{errors.email}</div>}
-            </Grid>
-            <Grid item xs={6}>
-              <Button
-                type="submit"
-                variant="contained"
-                disabled={isSubmitting}
-                onClick={submitForm}
-                sx={{
-                  padding: '0.75rem',
-                  fontSize: '1rem',
-                  backgroundColor: '#FDEDEF',
-                  color: '#745B4F',
-                  borderRadius: '1rem',
-                  width: '100%',
-                  fontFamily: 'GFS Didot, serif', // Apply directly
-                  fontWeight: 'bold', // Apply directly
-                }}
-              >
-                Subscribe
-              </Button>
+                            {touched.email && errors.email && <div style={{ color: '#745B4F', fontSize: '1rem' }}>{errors.email}</div>}
+
             </Grid>
           </Grid>
         </Form>

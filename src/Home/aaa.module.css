@@ -65,7 +65,6 @@
     text-align: center; /* Center text within container */
     color: black;
     text-decoration: none;
-    margin-bottom: .75rem;
 }
 
 .cardDescriptionH2 {
@@ -91,6 +90,8 @@
 }
 
 .readHereBtn {
+    margin-top: 1rem;     
+
     margin-bottom: 1rem;     
     border-radius: 2px;
     padding: 0.5rem;

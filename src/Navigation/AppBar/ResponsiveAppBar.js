@@ -78,7 +78,7 @@ function ResponsiveAppBar() {
       fontFamily: 'GFS Didot, serif', 
       backgroundColor: '#FDEDEF',
       margin: 0, 
-      padding: 1,
+      padding: '2rem',
       width: '100%' 
     }}>
       <Container maxWidth="false" disableGutters>
@@ -126,14 +126,11 @@ function ResponsiveAppBar() {
                 sx={{
                   display: { xs: 'block', md: 'none' },
                   '.MuiPaper-root': {
-                    bgcolor: 'white',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                    color: '#745B4F',
-                    minWidth: '200px',
+                
                   },
                   '.MuiMenuItem-root': {
                     fontFamily: 'GFS Didot, sans-serif',
-                    fontSize: '1em',
+                    fontSize: '1rem',
                     '&:hover': {
                       bgcolor: 'transparent',
                     },

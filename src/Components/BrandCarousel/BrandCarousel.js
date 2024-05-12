@@ -6,7 +6,7 @@ for (let i = 1; i <= 21; i++) {
   images.push(require(`./BrandImages/${i}.png`));
 }
 
-const ImageCarousel = () => {
+const BrandCarousel = () => {
   // Inline styles
   const carouselStyle = {
     overflow: 'hidden',
@@ -53,4 +53,4 @@ const ImageCarousel = () => {
   );
 };
 
-export default ImageCarousel;
+export default BrandCarousel;
