@@ -41,6 +41,8 @@ import TravelArticlesHome from './Travel/TravelArticlesHome';
 import MyStyle from './Shop/MyStyle';
 import VintageVibesMerch from './Shop/VintageVibesMerch';
 import TrendsHome from './Articles/Tutorials/Trending/TrendsHome';
+import VlogVideo1 from './Vlogs/VideoComponent1';
+import Vlogs from './Vlogs/Vlogs';
 
 function App() {
   return (
@@ -97,7 +99,12 @@ function App() {
                <Route path="/mystyle" element={<MyStyle/>} />
                <Route path="/vintagevibesmerch" element={<VintageVibesMerch/>} />
 
-          
+          {/*  Vlog  */}
+          <Route path="/vlogs" element={<Vlogs/>} />
+
+
+
+
           {/*  Travel  */}
           <Route path="/travel" element={<TravelArticlesHome/>} />
 
