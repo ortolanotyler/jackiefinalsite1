@@ -16,10 +16,7 @@ const tremblant5 = `${process.env.PUBLIC_URL}/Images/MontTremblant/tremblant5.pn
 const tremblant6 = `${process.env.PUBLIC_URL}/Images/MontTremblant/tremblant6.png`;
 const tremblant7 = `${process.env.PUBLIC_URL}/Images/MontTremblant/tremblant7.png`;
 const tremblant8 = `${process.env.PUBLIC_URL}/Images/MontTremblant/tremblant8.png`;
-const tremblant9 = `${process.env.PUBLIC_URL}/Images/MontTremblant/tremblant9.png`;
-const tremblant10 = `${process.env.PUBLIC_URL}/Images/MontTremblant/tremblant10.png`;
-const tremblant11 = `${process.env.PUBLIC_URL}/Images/MontTremblant/tremblant11.png`;
-const tremblant12 = `${process.env.PUBLIC_URL}/Images/MontTremblant/tremblant12.png`;
+
 const signature = `${process.env.PUBLIC_URL}/Images/Signature.png`;
 
 const Card = ({ blogContent }) => (
