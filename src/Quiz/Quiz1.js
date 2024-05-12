@@ -2,85 +2,85 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Quiz1.css';
 // Import images
-const aquamarineImage = `${process.env.PUBLIC_URL}/Images/Aqua.png`;
-const prideAndPrejudiceImage = `${process.env.PUBLIC_URL}/Images/Pride.png`;
-const sisterhoodImage = `${process.env.PUBLIC_URL}/Images/Sister.png`;
-const theCliqueImage = `${process.env.PUBLIC_URL}/Images/Clique.png`;
-const johnTuckerMustDieImage = `${process.env.PUBLIC_URL}/Images/JohnTucker.png`;
-const breakfastAtTiffanysImage = `${process.env.PUBLIC_URL}/Images/Breakfast.png`;
+const aquamarineImage = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/AQUAMARINE.png`;
+const prideAndPrejudiceImage = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/PRIDEPREJUDICE.png`;
+const sisterhoodImage = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/SISTERHOOD.png`;
+const theCliqueImage = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/CLIQUE.png`;
+const johnTuckerMustDieImage = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/JOHNTUCKER.png`;
+const breakfastAtTiffanysImage = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/BREAKFASTATTIFFANYS.png`;
 // Assume similar imports for other options...
 
 //question2 images 
-const h2Oimage = `${process.env.PUBLIC_URL}/Images/h2O.png`;
-const bridgerton = `${process.env.PUBLIC_URL}/Images/bridgerton.png`;
-const alaska = `${process.env.PUBLIC_URL}/Images/alaska.png`;
-const gossip = `${process.env.PUBLIC_URL}/Images/gossip.png`;
-const euphoria = `${process.env.PUBLIC_URL}/Images/euphoria.png`;
-const riverdale = `${process.env.PUBLIC_URL}/Images/riverdale.png`;
+const h2Oimage = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/H2O.png`;
+const bridgerton = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/BRIDGERTON.png`;
+const alaska = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/ALASKA.png`;
+const gossip = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/GOSSIP.png`;
+const euphoria = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/EUPHORIA.png`;
+const riverdale = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/RIVERDALE.png`;
 
 //question4 images
-const debut = `${process.env.PUBLIC_URL}/Images/debut.png`;
-const folklore = `${process.env.PUBLIC_URL}/Images/folklore.png`;
-const red = `${process.env.PUBLIC_URL}/Images/red.png`;
-const nineteen = `${process.env.PUBLIC_URL}/Images/nineteen.png`;
-const reputation = `${process.env.PUBLIC_URL}/Images/reputation.png`;
-const fearless = `${process.env.PUBLIC_URL}/Images/fearless.png`;
+const debut = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/DEBUT.png`;
+const folklore = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/FOLKLORE.png`;
+const red = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/RED.png`;
+const nineteen = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/1989.png`;
+const reputation = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/REP.png`;
+const fearless = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/FEARLESS.png`;
 
 //question5 images
-const hawaii = `${process.env.PUBLIC_URL}/Images/hawaii.png`;
-const connecticut = `${process.env.PUBLIC_URL}/Images/connecticut.png`;
-const florida = `${process.env.PUBLIC_URL}/Images/florida.png`;
-const nyc = `${process.env.PUBLIC_URL}/Images/nyc.png`;
-const vegas = `${process.env.PUBLIC_URL}/Images/vegas.png`;
-const california = `${process.env.PUBLIC_URL}/Images/california.png`;
+const hawaii = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/HAWAII.png`;
+const connecticut = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/CONNECT.png`;
+const florida = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/FLORIDA.png`;
+const nyc = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/NYC.png`;
+const vegas = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/LASVAG.png`;
+const california = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/LAJOL.png`;
 
 //question6 images
-const beach = `${process.env.PUBLIC_URL}/Images/beach.png`;
-const farmhouse = `${process.env.PUBLIC_URL}/Images/farmhouse.png`;
-const cozy = `${process.env.PUBLIC_URL}/Images/cozy.png`;
-const londonFlat = `${process.env.PUBLIC_URL}/Images/londonFlat.png`;
-const nycLoft = `${process.env.PUBLIC_URL}/Images/nycLoft.png`;
-const eclectic = `${process.env.PUBLIC_URL}/Images/eclectic.png`;
+const beach = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/BEACHOUSE.png`;
+const farmhouse = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/COUNTRYSIDE.png`;
+const cozy = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/COZYHOME.png`;
+const londonFlat = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/POSHLONDON.png`;
+const nycLoft = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/NYCLOFT.png`;
+const eclectic = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/GRANDMILLENIALCHIC.png`;
 
 //question7 images
-const dive = `${process.env.PUBLIC_URL}/Images/dive.png`; 
-const book = `${process.env.PUBLIC_URL}/Images/book.png`;
-const baking = `${process.env.PUBLIC_URL}/Images/baking.png`;
-const retail = `${process.env.PUBLIC_URL}/Images/retail.png`;
-const club = `${process.env.PUBLIC_URL}/Images/club.png`;
-const scrapbooking = `${process.env.PUBLIC_URL}/Images/scrapbooking.png`;
+const dive = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/POOL.png`;
+const book = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/BOOK.png`;
+const baking = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/BAKING.png`;
+const retail = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/BAGS.png`;
+const club = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/NIGHTLIFE.png`;
+const scrapbooking = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/SCRAPBOOK.png`;
 
 //question8 images
-const sea = `${process.env.PUBLIC_URL}/Images/sea.png`;
-const earthy = `${process.env.PUBLIC_URL}/Images/earthy.png`;
-const seventies = `${process.env.PUBLIC_URL}/Images/seventies.png`;
-const oldmoney = `${process.env.PUBLIC_URL}/Images/oldmoney.png`;
-const dark = `${process.env.PUBLIC_URL}/Images/dark.png`;
-const vintage = `${process.env.PUBLIC_URL}/Images/vintage.png`;
+const sea = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/ByTheSea.png`;
+const earthy = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/earthytones.png`;
+const seventies = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/70s.png`;
+const oldmoney = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/OLDMONEY.png`;
+const dark = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/DarkMoody.png`;
+const vintage = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/VintageChic.png`;
 
 //question9 images
-const pearly = `${process.env.PUBLIC_URL}/Images/pearly.png`;
-const pasteltips = `${process.env.PUBLIC_URL}/Images/pasteltips.png`;
-const french = `${process.env.PUBLIC_URL}/Images/french.png`;
-const pink = `${process.env.PUBLIC_URL}/Images/pink.png`;
-const cherry = `${process.env.PUBLIC_URL}/Images/cherry.png`;
-const black = `${process.env.PUBLIC_URL}/Images/black.png`;
+const pearly = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/PEARLY.png`;
+const pasteltips = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/PASTELTIPS.png`;
+const french = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/TRENDYTIPS.png`;
+const pink = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/PINKCUTENESS.png`;
+const cherry = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/POPOFCHERRY.png`;
+const black = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/blackonly.png`;
 
 //question10 images
-const rose = `${process.env.PUBLIC_URL}/Images/rose.png`;
-const balm = `${process.env.PUBLIC_URL}/Images/balm.png`;
-const compact = `${process.env.PUBLIC_URL}/Images/compact.png`;
-const dior = `${process.env.PUBLIC_URL}/Images/dior.png`;
-const bronzer = `${process.env.PUBLIC_URL}/Images/bronzer.png`;
-const blackeye = `${process.env.PUBLIC_URL}/Images/blackeye.png`;
+const rose = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/ROSEBLUSH.png`;
+const balm = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/LIPBALM.png`;
+const compact = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/VINTAGECOMPACT.png`;
+const dior = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/DIORGLOSS.png`;
+const bronzer = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/BRONZER.png`;
+const blackeye = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/BLACKLINER.png`;
 
 //question11 images
-const chanel = `${process.env.PUBLIC_URL}/Images/chanel.png`;
-const beachbag = `${process.env.PUBLIC_URL}/Images/beachbag.png`;
-const chilltote = `${process.env.PUBLIC_URL}/Images/chilltote.png`;
-const itgirlbag = `${process.env.PUBLIC_URL}/Images/itgirlbag.png`;
-const floral = `${process.env.PUBLIC_URL}/Images/floral.png`;
-const custom = `${process.env.PUBLIC_URL}/Images/custom.png`;
+const chanel = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/CHANEL.png`;
+const beachbag = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/BEACHBAG.png`;
+const chilltote = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/CHILLTOTE.png`;
+const itgirlbag = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/NEWBAG.png`;
+const floral = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/QUILTEDBEACHBAG.png`;
+const custom = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz1/CUSTOM.png`;
 
 
 
