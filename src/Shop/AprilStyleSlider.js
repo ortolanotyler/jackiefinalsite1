@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Slider.css';
 
-const image1 = `${process.env.PUBLIC_URL}/Images/mystyle10.jpg`;
-const image2 = `${process.env.PUBLIC_URL}/Images/mystyle11.jpg`;
-const image3 = `${process.env.PUBLIC_URL}/Images/mystyle12.jpg`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle10.jpg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle11.jpg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle12.jpg`;
 
 
 const imageDetails = [

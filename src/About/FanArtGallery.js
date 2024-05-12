@@ -1,54 +1,47 @@
 import React, { useState } from 'react';
 import './FanArtGallery.css'; // Assuming you move your SCSS into a separate file
-const image1 = `${process.env.PUBLIC_URL}/Images/1.jpg`;
-const image2 = `${process.env.PUBLIC_URL}/Images/2.jpg`;
-const image3 = `${process.env.PUBLIC_URL}/Images/3.jpg`;
-const image4 = `${process.env.PUBLIC_URL}/Images/4.jpg`;
-const image5 = `${process.env.PUBLIC_URL}/Images/5.jpg`;
-const image6 = `${process.env.PUBLIC_URL}/Images/6.jpg`;
-const image7 = `${process.env.PUBLIC_URL}/Images/7.jpg`;
-const image8 = `${process.env.PUBLIC_URL}/Images/8.jpg`;
-const image9 = `${process.env.PUBLIC_URL}/Images/9.jpg`;
-const image10 = `${process.env.PUBLIC_URL}/Images/10.jpg`;
-const image11 = `${process.env.PUBLIC_URL}/Images/11.jpg`;
-const image12 = `${process.env.PUBLIC_URL}/Images/12.jpg`;
-const image13 = `${process.env.PUBLIC_URL}/Images/13.jpg`;
-const image14 = `${process.env.PUBLIC_URL}/Images/14.jpg`;
-const image15 = `${process.env.PUBLIC_URL}/Images/15.jpg`;
-const image16 = `${process.env.PUBLIC_URL}/Images/16.jpg`;
-const image17 = `${process.env.PUBLIC_URL}/Images/17.jpg`;
-const image18 = `${process.env.PUBLIC_URL}/Images/18.jpg`;
-const image19 = `${process.env.PUBLIC_URL}/Images/19.jpg`;
-const image20 = `${process.env.PUBLIC_URL}/Images/20.jpg`;
-const image21 = `${process.env.PUBLIC_URL}/Images/21.jpg`;
-const image22 = `${process.env.PUBLIC_URL}/Images/22.jpg`;
-const image23 = `${process.env.PUBLIC_URL}/Images/23.jpg`;
-const image24 = `${process.env.PUBLIC_URL}/Images/24.jpg`;
-const image25 = `${process.env.PUBLIC_URL}/Images/25.jpg`;
-const image26 = `${process.env.PUBLIC_URL}/Images/26.jpg`;
-const image27 = `${process.env.PUBLIC_URL}/Images/27.jpg`;
+const image1 = `${process.env.PUBLIC_URL}/Images/About/FanArt/1.jpg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/About/FanArt/2.jpg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/About/FanArt/3.jpg`;
+const image4 = `${process.env.PUBLIC_URL}/Images/About/FanArt/4.jpg`;
+const image5 = `${process.env.PUBLIC_URL}/Images/About/FanArt/5.jpg`;
+const image6 = `${process.env.PUBLIC_URL}/Images/About/FanArt/6.jpg`;
+const image7 = `${process.env.PUBLIC_URL}/Images/About/FanArt/7.jpg`;
+const image8 = `${process.env.PUBLIC_URL}/Images/About/FanArt/8.jpg`;
+const image9 = `${process.env.PUBLIC_URL}/Images/About/FanArt/9.jpg`;
+const image10 = `${process.env.PUBLIC_URL}/Images/About/FanArt/10.jpg`;
+const image11 = `${process.env.PUBLIC_URL}/Images/About/FanArt/11.jpg`;
+const image12 = `${process.env.PUBLIC_URL}/Images/About/FanArt/12.jpg`;
+const image13 = `${process.env.PUBLIC_URL}/Images/About/FanArt/13.jpg`;
+const image14 = `${process.env.PUBLIC_URL}/Images/About/FanArt/14.jpg`;
+const image15 = `${process.env.PUBLIC_URL}/Images/About/FanArt/15.jpg`;
+const image16 = `${process.env.PUBLIC_URL}/Images/About/FanArt/16.jpg`;
+const image17 = `${process.env.PUBLIC_URL}/Images/About/FanArt/17.jpg`;
+const image18 = `${process.env.PUBLIC_URL}/Images/About/FanArt/18.jpg`;
+const image19 = `${process.env.PUBLIC_URL}/Images/About/FanArt/19.jpg`;
+const image20 = `${process.env.PUBLIC_URL}/Images/About/FanArt/20.jpg`;
+const image21 = `${process.env.PUBLIC_URL}/Images/About/FanArt/21.jpg`;
+const image22 = `${process.env.PUBLIC_URL}/Images/About/FanArt/22.jpg`;
+const image23 = `${process.env.PUBLIC_URL}/Images/About/FanArt/23.jpg`;
+const image24 = `${process.env.PUBLIC_URL}/Images/About/FanArt/24.jpg`;
+const image25 = `${process.env.PUBLIC_URL}/Images/About/FanArt/25.jpg`;
+const image26 = `${process.env.PUBLIC_URL}/Images/About/FanArt/26.jpg`;
+const image27 = `${process.env.PUBLIC_URL}/Images/About/FanArt/27.jpg`;
+const image28 = `${process.env.PUBLIC_URL}/Images/About/FanArt/28.jpg`;
+const image29 = `${process.env.PUBLIC_URL}/Images/About/FanArt/29.jpg`;
+const image30 = `${process.env.PUBLIC_URL}/Images/About/FanArt/30.jpg`;
+const image31 = `${process.env.PUBLIC_URL}/Images/About/FanArt/31.jpg`;
+const image32 = `${process.env.PUBLIC_URL}/Images/About/FanArt/32.jpg`;
 
 
 
-const bench = `${process.env.PUBLIC_URL}/Images/bench.png`;
+
+const bench = `${process.env.PUBLIC_URL}/Images/About/FanArt/bench.png`;
 
 
 const galleryImages = [
-  {
-    src: image27,
-    alt: "Café Terrace at Night, 1888, Kröller-Müller Museum, Otterlo",
-    caption: "@navasy",
-  },
-  {
-    src: image26,
-    alt: "Bedroom in Arles, 1888, Van Gogh Museum, Amsterdam",
-    caption: "@navasy",
-  },
-  {
-    src: image3,
-    alt: "red lips",
-    caption: "Artist: Suray @suray.art",
-  },
+
+
   {
     src: image4,
     alt: "red headband",
@@ -160,6 +153,42 @@ const galleryImages = [
     caption: "Artist: Amy Marchant @amy_marchant_art",
   },
   {
+    src: image26,
+    alt: "Coca Cola",
+    caption: "Artist: Amy Marchant @amy_marchant_art",
+  },  
+  {
+    src: image27,
+    alt: "Coca Cola",
+    caption: "Artist: Amy Marchant @amy_marchant_art",
+  },
+  {
+    src: image28,
+    alt: "Coca Cola",
+    caption: "Artist: Amy Marchant @amy_marchant_art",
+  },
+  {
+    src: image29,
+    alt: "Coca Cola",
+    caption: "Artist: Amy Marchant @amy_marchant_art",
+  },
+  {
+    src: image30,
+    alt: "Coca Cola",
+    caption: "Artist: Amy Marchant @amy_marchant_art",
+  },
+  {
+    src: image31,
+    alt: "Coca Cola",
+    caption: "Artist: Amy Marchant @amy_marchant_art",
+  },
+  {
+    src: image32,
+    alt: "Coca Cola",
+    caption: "Artist: Amy Marchant @amy_marchant_art",
+  },
+
+  {
     src: image2,
     alt: "Red Lips",
     caption: "Artist: Leonie @‌flying_drawings",
@@ -169,6 +198,7 @@ const galleryImages = [
     alt: "Bedroom in Arles, 1888, Van Gogh Museum, Amsterdam",
     caption: "Artist: Rita Pigaeva @rita.pigaeva",
   },
+
   // Add the rest of your images here...
 ];
 
@@ -205,12 +235,14 @@ const FanArt = () => {
         ))}
       </ul>
       <div id="bench-container">
-        <div id="nav"> {/* Move navigation inside bench container */}
+        
+        <img id="bench" src={bench} alt="cool bench" />
+       
+      </div>
+      <div id="nav"> {/* Move navigation inside bench container */}
           <button className="prev" onClick={goPrev}>&#10094;</button>
           <button className="next" onClick={goNext}>&#10095;</button>
         </div>
-        <img id="bench" src={bench} alt="cool bench" />
-      </div>
     </div>
   );
 };

@@ -2,14 +2,14 @@ import React, { useState, useEffect, useRef } from 'react';
 import './Slider.css'; // Make sure the path to your CSS file is correct
 
 // Import your images
-const manhattancool = `${process.env.PUBLIC_URL}/Images/mystyle4.jpg`;
-const image2 = `${process.env.PUBLIC_URL}/Images/mystyle5.jpg`;
-const image3 = `${process.env.PUBLIC_URL}/Images/mystyle6.jpg`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle4.jpg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle5.jpg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle6.jpg`;
 
 
 const imageDetails = [
   {
-    src: manhattancool,
+    src: image1,
     text: "MANHATTAN COOL",
     alt: "Fall / Winter Outfit 1"
   },

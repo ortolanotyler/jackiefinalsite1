@@ -18,8 +18,8 @@ import MediaSplitComponentTwo from './MediaSplitComponentTwo';
 import MediaSplitComponentThree from './MediaSplitComponentThree';
 
 // Images imported dynamically from the public folder using process.env.PUBLIC_URL
-const AboutEmily = `${process.env.PUBLIC_URL}/Images/emily1.png`;
-const leftImage = `${process.env.PUBLIC_URL}/Images/Footer5.jpg`;
+const AboutEmily = `${process.env.PUBLIC_URL}/Images/About/JackieAboutMe1.jpg`;
+const leftImage = `${process.env.PUBLIC_URL}/Images/About/AboutJackie.jpg`;
 
 
 
