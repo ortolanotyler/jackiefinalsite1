@@ -55,11 +55,11 @@ const itemData = [
 export default function QuiltedImageList1() {
   return (
     <ImageList
-      sx={{ width: '100%', height: '40rem' }}
+      sx={{ width: '100%', height: '40rem', marginTop: '0px' }}
       variant="quilted"
       cols={4}
       rowHeight={'100%'}
-      marginBottom={'2rem'}
+      
     >
       {itemData.map((item, index) => (
         <ImageListItem key={index} cols={item.cols || 1} rows={item.rows || 1}>

@@ -1,17 +1,17 @@
+/* TextReveal.module.css */
 @import url('https://fonts.googleapis.com/css2?family=Arapey&family=GFS+Didot&family=Italianno&display=swap');
 
-/* TextReveal.css */
 h1 {
   font-family: Arapey, serif;
   padding: 1rem;
-  font-size: 5vw;
+  font-size: 4vw;
   text-align: center;
   font-weight: 100; /* Adjusted for a lighter font weight */
 }
 
-.text-reveal {
-  --animation-duration: 1.2s;
-  --animation-delay: 0.05s;
+.textReveal {
+  --animation-duration: 0.5s;
+  --animation-delay: 0.01s;
   
   --1-fill-color: transparent;
   --1-stroke-color: black;
@@ -29,12 +29,12 @@ h1 {
   display: grid;
 }
 
-.text-reveal::after, .text-reveal > span { 
+.textReveal::after, .textReveal > span { 
   grid-area: 1/1;
   animation: var(--animation-name) var(--animation-duration) ease-in-out var(--animation-delay) forwards;
 }
 
-.text-reveal > span {
+.textReveal > span {
   padding: var(--text-padding);
   color: var(--color);
   opacity: 0; 
@@ -42,7 +42,6 @@ h1 {
   -webkit-mask-position: center;
   -webkit-mask-image: var(--mask-image);
   -webkit-mask-composite: var(--mask-composite-webkit);
-  -webkit-mask-size: var(--mask-size);
   
   mask-repeat: no-repeat;
   mask-position: center;
@@ -52,7 +51,7 @@ h1 {
   -webkit-text-stroke: var(--stroke-size) var(--stroke-color);
 }
 
-.text-reveal > span:nth-child(1) {
+.textReveal > span:nth-child(1) {
   -webkit-text-stroke: var(--1-stroke-size) var(--1-stroke-color);
   --color: var(--1-fill-color);
   --mask-image: linear-gradient(white 0 0), linear-gradient(white 0 0);
@@ -61,14 +60,14 @@ h1 {
   --animation-name: text-reveal-1;
 }
 
-.text-reveal > span:nth-child(2) {
+.textReveal > span:nth-child(2) {
   -webkit-text-stroke: var(--2-stroke-size) var(--2-stroke-color);
   --color: var(--2-fill-color);
   --mask-image: linear-gradient(black 0 0);
   --animation-name: text-reveal-2;
 }
 
-.text-reveal::after {
+.textReveal::after {
   content: "";
   z-index: 2;
   border: var(--lines-size) solid var(--lines-color);
@@ -96,9 +95,9 @@ h1 {
 
 *, *:before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
-.herobeige { 
+.hero { 
   width: 100vw; 
-  max-height: 200px;
+  height: 20vh;
   background-color: #EBE8E4;
   display: grid;
   place-items: center;

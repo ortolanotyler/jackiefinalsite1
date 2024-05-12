@@ -97,7 +97,7 @@ h1 {
 
 .hero { 
   width: 100vw; 
-  height: 22.5vh;
+  height: 20vh;
   background-color: #FDEDEF;
   display: grid;
   place-items: center;
