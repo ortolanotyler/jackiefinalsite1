@@ -20,7 +20,7 @@ const Card = ({ blogContent }) => {
     <div>
       <div><TextReveal text='TIME TRAVEL TUTORIALS'/></div>
       <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-        <div className="blog-content" style={{ lineHeight: '1.2' }}>{blogContent}</div>
+        <div className="blog-content" style={{ lineHeight: '1.5' }}>{blogContent}</div>
       </div>
     </div>
   );
@@ -45,34 +45,36 @@ const GraceKelly = () => {
   }, []);
 
   const headingStyle = {
+    textAlign : 'center',
     fontSize: '3rem',
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',
-    margin: '2.5rem'
+    margin: '3.5rem',
+    marginTop: '2rem', 
+    marginBottom: '2rem'
   };
 
   const paragraphStyle = {
-    fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1.5rem', maxWidth: '100%', marginTop: '0.5rem'
+    fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '15rem', maxWidth: '100%', marginTop: '1rem', marginBottom: '2.5rem', lineHeight:'1.75em'
 
   }
 
   const blogContent = (
-    <div className="container" style={{ lineHeight: '2.25em', margin: '15em', marginTop: '0em' }}>
+    <div className="container" style={{ lineHeight: '2.25rem', margin: '15rem', marginTop: '10px' }}>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
       </div>
 
-      <div
-      >
+   
         <div
-        style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+        style = {{ display: 'flex', justifyContent: 'center'}}
         >
-      <img src={title} alt="Victoria's Secret Fashion Show 2013" style={{ width: '100%' }} />
+      <img src={title} alt="Grace Kelly's Hollywood Glam Title" style={{ width: '100%' }} />
 
-        </div>
+      
       </div>
 
       <div
@@ -97,8 +99,9 @@ her poised performances and became a real-life
 princess when she married Prince Rainier III of
 Monaco. "/>    
 
-<img src={image1} alt="Victoria's Secret Fashion Show 2013" style={{ maxBlockSize: '650px', width: 'auto' }} />
-
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+  <img src={image1} alt="Grace Kelly's Hollywood Glam Title" style={{ maxHeight: '80%',maxWidth: '50%' }} />
+</div>
 
       <h2 style={headingStyle}>
       The Essentials of Grace
@@ -108,7 +111,7 @@ Kelly's Makeup Style
       style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
       >
 
-      <img src={image2} alt="Victoria's Secret Fashion Show 2013" style={{ maxBlockSize: '650px', width: 'auto' }} />
+      <img src={image2} alt="Victoria's Secret Fashion Show 2013" style={{ maxBlockSize: '750px', width: 'auto' }} />
 </div>
 
       <p style={ paragraphStyle} >
@@ -410,8 +413,12 @@ elegance, and a touch of royal allure. From her
 carefully selected fragrances, red lips and coiffed
 hair, her beauty routine was as much a part of her
 royal duties as her public appearances. </p>
-<img src={image3} alt="Victoria's Secret Fashion Show 2013" style={{ maxBlocksize: '500px',width: 'auto' }} />
 
+
+
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+  <img src={image3} alt="Jackie as Audrey Hepburn" style={{ maxBlockSize: '600px', width: 'auto'}} />
+</div>
 <p style={ paragraphStyle} >
 I hope you enjoyed another Time Travel Tutorials for
 all the vintage vibes. If you have any vintage icons
