@@ -44,7 +44,7 @@ const LatteMakeupBlogPost = () => {
         fontSize: '3rem',
         fontWeight: 'normal',
         fontFamily: 'Arapey, sans-serif',
-        color: '#333',
+        color: 'black',
         margin: '2rem',
         marginTop: '2rem',
         marginBottom: '2rem',

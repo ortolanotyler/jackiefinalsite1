@@ -16,21 +16,21 @@
 
 .htmlBody {
     background-color: white;
-
+    font-family: GFS Didot, serif;
     height: 100%;
     font-size: 1.75rem;
 }
 
 .cardList {
     background-color: white;
-    justify-content: center;
+    align-content: center;
     padding: 5rem;
-    margin-top :  0.1rem;
+    margin-top :  0.5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Switch to 2-column grid under 1000px */
     font-size: 0;
     list-style: none;
-    gap: 2.5rem;
+    gap: 1.5rem;
 }
 
 @media (max-width: 1000px) {
@@ -41,7 +41,7 @@
 
 .card {
     background-color: white;
-    max-width: 400px;
+    max-width: 550px;
     font-size: 0.75em;
     text-decoration: none;
     overflow: hidden;

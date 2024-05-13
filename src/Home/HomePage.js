@@ -56,19 +56,23 @@ function HomePage() {
         <Grid item xs={12}>
           <SiteExplorer />
         </Grid>
+  
         <Grid item xs={12}>
-          <PageLines />
-        </Grid>
-        <Grid item xs={12}>
+        <PageLines />
         <TextReveal text = 'MEET JACKIE' />
              </Grid>
 
              <Grid item xs={12}>
+         
              <SuperText
   imageUrl={MeetJackieLeft}
 />
+   
              </Grid>
-
+             <Grid item xs={12}>
+          <PageLines />
+        </Grid>
+       
         <Grid item xs={12}>
         <TextReveal text='LATEST TUTORIALS' />
         </Grid>

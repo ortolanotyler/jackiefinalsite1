@@ -101,7 +101,7 @@ Join to access the newsletter & exclusive content!`.split('\n');
                   width: '100%',
                   boxSizing: 'border-box',
                   border: '1px solid #745B4F',
-                  
+                  padding: '.75rem',
                   fontFamily: 'GFS Didot, serif', // Apply directly
                 }}
               />
