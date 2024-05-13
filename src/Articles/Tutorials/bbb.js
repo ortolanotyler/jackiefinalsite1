@@ -2,15 +2,14 @@ import React from 'react';
 import styles from './aaa.module.css'; // Import CSS Modules
 
 // Importing the images
-const image2 = `${process.env.PUBLIC_URL}/Images/LatteMakeupHero.png`;
-const image5 = `${process.env.PUBLIC_URL}/Images/SugarPlum1.jpg`;
-const image6 = `${process.env.PUBLIC_URL}/Images/LanaThumbnail.jpg`;
-const image7 = `${process.env.PUBLIC_URL}/Images/SharonThumnail.jpg`;
-const image8 = `${process.env.PUBLIC_URL}/Images/victoriathumbnail.jpeg`;
-const sophia = `${process.env.PUBLIC_URL}/Images/SophiaSquareThumbnailforArticle.jpg`;
-const ina = `${process.env.PUBLIC_URL}/Images/BalkeThumb.jpeg`;
-const sharon = `${process.env.PUBLIC_URL}/Images/IconicThumbnail.png`;
-const image17 = `${process.env.PUBLIC_URL}/Images/nomakeupspringthumbnail.jpeg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteThumbnail.jpg`;
+const image5 = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
+const image8 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
+const sophia = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg`;
+const ina = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BALKETHUMBNAIL.jpeg`;
+const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
+const image17 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
 
 const cardsData = [
 
@@ -18,9 +17,9 @@ const cardsData = [
   {
     link: "/nomakeupspring",
     image: image17,
-    alt: "Warm and cozy latte-inspired fall makeup look",
+    alt: "No Makeup - Spring Edition",
     title: "No Makeup Makeup - Spring Edition",
-    description: "Think warm, cozy, fall!",
+    description: "No Makeup Makeup - Spring Edition",
   },
   {
     link: "/latteMakeup",

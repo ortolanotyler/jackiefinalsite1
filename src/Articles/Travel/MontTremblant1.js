@@ -63,7 +63,7 @@ const MontTremblantBlog = () => {
             <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em' }}>
                 Our journey began in Toronto, where we visited the new Arcadia Earth exhibit before hitting the road. This large-scale art exhibit features virtual reality components, allowing visitors to explore virtual oceans, observe wildlife up close through a VR headset, and learn about our environmental impact. We were reminded of the beauty and fragility of our planet—a theme that resonated with us throughout our trip!
             </p>
-           // <div style={{ width: '100%', position: 'relative', paddingTop: '56.25%' /* 16:9 Aspect Ratio */ }}>
+          <div style={{ width: '100%', position: 'relative', paddingTop: '56.25%' /* 16:9 Aspect Ratio */ }}>
                 <video 
                     style={{
                         position: 'absolute',

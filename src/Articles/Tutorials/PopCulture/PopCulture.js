@@ -4,11 +4,11 @@ import styles from './aaa.module.css'; // Import CSS Modules
 
 import TextReveal from '../../../Components/TextReveal';
 
-const image2 = `${process.env.PUBLIC_URL}/Images/LatteMakeupHero.png`;
-const image3 = `${process.env.PUBLIC_URL}/Images/patmcgrath1.jpeg`;
-const image5 = `${process.env.PUBLIC_URL}/Images/SugarPlum1.jpg`;
-const image6 = `${process.env.PUBLIC_URL}/Images/victoriathumbnail.jpeg`;
-const image7 = `${process.env.PUBLIC_URL}/Images/LanaThumbnail.jpg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteThumbnail.jpg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
+const image5 = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
+const image7 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
 
 const cardsData = [
   {

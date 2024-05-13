@@ -17,6 +17,7 @@
 
 .htmlBody {
     background-color: white;
+    font-family: GFS Didot, serif;
 
     height: 100%;
     font-size: 1.5rem;
@@ -39,6 +40,8 @@
 }
 
 .card {
+    font-family: GFS Didot, serif;
+
     background-color: white;
     max-width: 60vw;
     font-size: 0.5em;

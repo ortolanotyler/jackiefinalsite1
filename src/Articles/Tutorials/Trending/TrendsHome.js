@@ -5,22 +5,21 @@ import TextReveal from '../../../Components/TextReveal';
 import RotatingText from '../../../Navigation/AppBar/RotatingText';
 
 // Importing the images
-const image2 = `${process.env.PUBLIC_URL}/Images/LatteMakeupHero.png`;
-const image5 = `${process.env.PUBLIC_URL}/Images/SugarPlum1.jpg`;
-const image6 = `${process.env.PUBLIC_URL}/Images/LanaThumbnail.jpg`;
-const image7 = `${process.env.PUBLIC_URL}/Images/SharonThumnail.jpg`;
-const image8 = `${process.env.PUBLIC_URL}/Images/victoriathumbnail.jpeg`;
-const sophia = `${process.env.PUBLIC_URL}/Images/SophiaSquareThumbnailforArticle.jpg`;
-const ina = `${process.env.PUBLIC_URL}/Images/BalkeThumb.jpeg`;
-const sharon = `${process.env.PUBLIC_URL}/Images/IconicThumbnail.png`;
-const image17 = `${process.env.PUBLIC_URL}/Images/nomakeupspringthumbnail.jpeg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteThumbnail.jpg`;
+const image5 = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
+const image8 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
+const sophia = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg`;
+const ina = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BALKETHUMBNAIL.jpeg`;
+const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
+const nomakeup = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
 
 const cardsData = [
 
 
   {
     link: "/nomakeupspring",
-    image: image17,
+    image: nomakeup,
     alt: "Warm and cozy latte-inspired fall makeup look",
     title: "No Makeup Makeup - Spring Edition",
     description: "Think warm, cozy, fall!",
@@ -97,12 +96,7 @@ const Card = ({ link, image, alt, title, description }) => {
 const TrendsHome = () => {
   return (
     <div>
-      <div><TextReveal text= 'TREND REPORT' /></div>
-      <div>
-            <Paper elevation={3} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: "#745B4F", textAlign: 'center', padding: '1rem' }}>
-            <RotatingText />
-          </Paper>
-                </div>
+     
       <ul className={styles.cardList}>
         {cardsData.map((card, index) => (
           <Card

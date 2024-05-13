@@ -17,7 +17,7 @@
 
 .htmlBody {
     background-color: white;
-
+font-family: GFS Didot, serif;
     height: 100%;
     font-size: 1.5rem;
 }
@@ -39,14 +39,16 @@
 }
 
 .card {
+    font-family: GFS Didot, serif;
+
     background-color: white;
-    max-width: 60vw;
-    font-size: 0.5em;
+    max-width: 65vw;
+    font-size: 0.75em;
     text-decoration: underline;
     overflow: hidden;
     box-shadow: 0 0 3.5rem -1rem rgba(0,0,0,0.7);
     transition: transform 0.1s ease-in-out, box-shadow 0.1s;
-    margin-bottom: 1rem; /* Add margin between cards */
+    margin-bottom: 0.5rem; /* Add margin between cards */
 }
 
 .card:hover {
