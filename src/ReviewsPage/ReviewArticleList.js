@@ -38,7 +38,8 @@ const articles = [
 const ReviewArticleList = () => {
     return (
         <div className="article-list" style = {{
-            justifyContent: 'center'
+            justifyContent: 'center',
+            padding: '2rem'
         }}>
             {articles.map((article, index) => (
                 <ReviewArticleCard

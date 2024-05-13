@@ -9,7 +9,7 @@ const shrimpton = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanS
 const nomakeup = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
 const grace = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/GraceKellyJackieWyers.jpg`;
 const cardsData = [
-  { link: "/nomakeupspring", image: nomakeup, alt: "Warm and cozy latte-inspired fall makeup look", title: "No-Makeup Makeup" },
+  { link: "/nomakeupspring", image: nomakeup, alt: "Warm and cozy latte-inspired fall makeup look", title: "No Makeup Spring Edition" },
   { link: "/gracekelly", image: grace, alt: "Warm and cozy latte-inspired fall meup look", title: "Grace's Hollywood Glam" },
 
     { link: "/victoriasecret", image: victoria, alt: "Victoria's Secret fashion show 2014 vibes", title: "Victoria's Secret" },

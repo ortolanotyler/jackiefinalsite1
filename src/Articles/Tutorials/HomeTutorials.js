@@ -5,7 +5,6 @@ import Slider1 from './aaaa';
 
 import Slider2 from './bbb';
 
-import Slider3 from './ccc';
 import Slider4 from './ddd';
 
 
@@ -16,14 +15,7 @@ const HomeTutorials = () => {
   return (
 
     <div><TextReveal text="LATEST" />
-    <div
-    >
- 
-       
-     
-
-        
-      
+  
       <Slider1 />
       <TextReveal text='TRENDING NOW' />
       <Slider2 />
@@ -33,7 +25,7 @@ const HomeTutorials = () => {
       <Slider4/>
       
 
-    </div></div>
+   </div>
   );
 };
 

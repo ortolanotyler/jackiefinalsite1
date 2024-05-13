@@ -72,11 +72,7 @@ const VintageVibes = () => {
   return (
     <div>
       <div><TextReveal text= 'TIME TRAVEL TUTORIALS' /></div>
-      <div>
-            <Paper elevation={3} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: "#745B4F", textAlign: 'center', padding: '1rem' }}>
-            <RotatingText />
-          </Paper>
-                </div>
+     
       <ul className={styles.cardList}>
         {cardsData.map((card, index) => (
           <Card

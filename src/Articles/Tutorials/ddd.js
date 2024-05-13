@@ -2,10 +2,10 @@ import React from 'react';
 import styles from './aaa.module.css'; // Import CSS Modules
 
 // Importing the images
-const image2 = `${process.env.PUBLIC_URL}/Images/SophiaSquareThumbnailforArticle.jpg`;
-const image3 = `${process.env.PUBLIC_URL}/Images/Vintage2Thumbnail.jpg`;
-const balke = `${process.env.PUBLIC_URL}/Images/BalkeThumb.jpeg`;
-const sharon = `${process.env.PUBLIC_URL}/Images/IconicThumbnail.png`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEBRIDAL.jpeg`;
+const balke = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BALKETHUMBNAIL.jpeg`;
+const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
 
 const cardsData = [
   {
