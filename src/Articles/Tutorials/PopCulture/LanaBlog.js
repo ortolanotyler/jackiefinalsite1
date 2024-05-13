@@ -5,17 +5,17 @@ import modifyanchortags from '../../../Utilities/modifyanchortags';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import TextReveal from '../../../Components/TextReveal';
+import DropCap from '../../../Components/DropCap';
 
 
 
 
 
-const Lana1 = `${process.env.PUBLIC_URL}/Images/Lana1.png`;
-const Lana2 = `${process.env.PUBLIC_URL}/Images/Lana2.png`;
-const lanafacechart = `${process.env.PUBLIC_URL}/Images/LanaFaceChart.png`;
-
-const Lana22 = `${process.env.PUBLIC_URL}/Images/Lana22.png`;
-const Lana23 = `${process.env.PUBLIC_URL}/Images/Signature.png`;
+const Lana1 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaTitle.png`;
+const Lana2 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/JackieWyersLanaDelReyRecreation.JPG`;
+const lanafacechart = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaaDelReyFaceChart.jpg`;
+const Lana22 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/JackieWithKitties.jpg`;
+const Lana23 = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 
 
@@ -28,7 +28,7 @@ const Card = ({ blogContent }) => {
         <div className="card" style={{   
         maxWidth: '100%' ,  display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
             
-            <div className="blog-content" style={{ margin: '10rem',lineHeight: '1.5' }}>{blogContent}</div>
+            <div className="blog-content" style={{ margin: '15rem',lineHeight: '1.5' }}>{blogContent}</div>
         </div>
     );
 };
@@ -43,14 +43,14 @@ const LanaBlog = () => {
 
     const blogContent = (
         <div className="container" style={{ 
-            lineHeight: '2rem',
+            lineHeight: '2.5rem',
             maxWidth: '100%', 
-          
+            marginTop: '20px',
   
            }}>
           
           <div style={{ 
-            marginTop: '2em',
+         
   display: 'flex',
   fontSize: '1.5em',
   justifyContent: 'center', 
@@ -61,7 +61,7 @@ const LanaBlog = () => {
     href="/popculture"
     style={{ 
       fontFamily: 'Arapey',
-    
+      marginTop: '10px',
       color: 'black', 
       textDecoration: 'none'
     }}
@@ -74,7 +74,7 @@ const LanaBlog = () => {
   
 
             <div
-            style = {{alignText: 'left', alignContent:'center'}}
+            style = {{marginTop: '10px',alignText: 'left', alignContent:'center'}}
             > 
 
          
@@ -84,14 +84,15 @@ const LanaBlog = () => {
 
             </div>
             <div
-style = {{marginTop:'1rem'}}
->
+style = {{marginTop:'1.25rem', textAlign: 'center', alignItems: 'center' }}>
+
     <SubscribeButton/>
         </div>
 
 
        <div>
-       <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', justifyContent:'center', fontStyle: 'italic' }}>
+
+       <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign:'center', fontStyle: 'italic' }}>
     All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
 </p>
         </div>
@@ -102,21 +103,18 @@ style = {{marginTop:'1rem'}}
 
 
 
-        <div className="container" style={{ marginTop: '0em',margin: '5em', alignContent:'center', display: 'center', maxWidth: '100%' }}>
+        <div className="container" style={{  marginTop: '1rem',margin: '5rem', alignContent:'center', display: 'center', maxWidth: '100%' }}>
 
-        <p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+        <DropCap text = "Welcome back, Beauties! If your Twitter feed is anything like mine, it's filled with photos from Lana Del Rey's new SKIMS campaign for Valentine's Day, plus memes of little girls praying to a photo of Lana above their bed, worshipping their coquette queen. You've got to love the internet! Seriously though, as a fan of Lana Del Rey's entire discography and aesthetic, I was inspired to recreate the campaign pictures and provide a breakdown of an updated Lana Del Rey makeup look."
+     
+
+     />
          
-<span style={{ color: '#745B4F' , float: 'left', fontSize: '5rem', lineHeight: '0.9', marginRight: '0.05em', marginTop: '0.01em' }}>W</span>elcome back, Beauties!
-              If your Twitter feed is anything like mine, it's filled
-with photos from Lana Del Rey's new SKIMS campaign for Valentine's Day,
-plus memes of little girls praying to a photo of Lana above their bed,
-worshipping their coquette queen. You've got to love the internet! Seriously
-though, as a fan of Lana Del Rey's entire discography and aesthetic, I was
-inspired to recreate the campaign pictures and provide a breakdown of an
-updated Lana Del Rey makeup look.          </p>
 
 
-<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+
+
+<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
 
 Among the various photoshoot looks by photographer Nadia Lee Cohen, my favorite was set against a red backdrop where Lana wore the “Fits Everybody Lace” Slip Dress in Cherry Blossom Tonal from the new SKIMS collection. The dress wasn't out yet at the time I filmed, but you can check out the linked dress below! Plus, the photo set featured kittens, which I also happen to have. Am I a photographer? No, but I’ll try my best to get a vintage-styled photo, and I hope you find some Valentine’s Day inspiration! 
 
@@ -124,7 +122,7 @@ Among the various photoshoot looks by photographer Nadia Lee Cohen, my favorite 
 
 
 <div style={{
-    margin: '1em',
+    margin: '5rem',
     justifyContent: 'center',
     display: 'grid',
     gridTemplateColumns: '1fr 1fr',
@@ -136,7 +134,7 @@ Among the various photoshoot looks by photographer Nadia Lee Cohen, my favorite 
         <img src={Lana2} alt="Lana Del Rey Instagram " style={{ width: '100%', height: 'auto', display: 'block' }} />
     </a>
     <iframe
-        title="Collection name here"
+        title="Skims X Lana Del Rey Collection"
         src="https://shopmy.us/collections/public/494200?noHeader=true"
         style={{
             width: '100%',
@@ -154,7 +152,7 @@ Among the various photoshoot looks by photographer Nadia Lee Cohen, my favorite 
 
             The Essence of Lana's SKIMS Makeup Style:</p>
 
-            <p style={{ fontSize:'1.5em', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+            <p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
 
             Lana's makeup, designed by the talented LA celebrity makeup artist Etienne
 Ortega, radiated a coquettish, romantic aesthetic with cherub/ cupid
@@ -186,17 +184,17 @@ Breakdown</p>
 
 Preparation and Base: </p>
 
-<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
 
 Lana's skin appeared exceptionally hydrated and glowing, with a natural-matte finish in the campaign images. I began by applying Tocobo cream to ensure the skin was prepped for makeup. I also tried out the NUDESTIX Dewy Barrier Hydrating Stick, which promised to hydrate and provide a glazed natural skin look, doubling as a primer for makeup application. As much as I love trying out new products, you can totally start your base with only moisturizer!       </p>
 <p style={{  textAlign: 'center',fontSize:'2.25rem', fontFamily: 'GFS Didot, serif'}}>
             Foundation and Concealer:</p>
 
 
-            <p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+            <p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
             For foundation, I chose the Armani Beauty Luminous Silk Foundation, known for its silky texture, medium coverage, and satin glow finish. I applied it with the BK Beauty 101 brush, a cruelty-free and vegan brush brand, blending over my skin for a sheer finish.      </p>
 
-            <p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+            <p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
 
 
 I focused more on areas that needed coverage, keeping it lighter at the center of the face to create a more natural look. I selected Yensa's full-coverage serum concealer for its brightening effect, applying it throughout the center of the face and high points. For those seeking a budget-friendly alternative, e.l.f.’s hydrating concealer provides similar coverage.        </p>
@@ -218,13 +216,13 @@ CONTAINS: AFFILIATE LINKS
 
             Contour and Blush:</p>
 
-            <p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+            <p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
 
 I warmed my skin with a lighter bronzer to emulate Lana's sun-kissed glow.
 I used Yensa's bronzer, which contains age-defying ingredients, for a natural
 finish, ensuring it wouldn't crease into fine lines.          </p>
 
-<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
 
 Before applying powder, I added color with a stunning serum blush by EM Cosmetics in the shade Sunset Sky, a warm coral. Apply your favorite coral blush to the apples of the cheeks, chin, nose, and forehead for a cohesive, sweet look.       </p>
 
@@ -243,7 +241,7 @@ Powder and Highlight:        </p>
 
 
     
-<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
 
 Set everything with powder next; my go-to is Florasis powder for its light, breathable feel.
 
@@ -265,15 +263,18 @@ CONTAINS: AFFILIATE LINKS
 
 Brows and Eye Makeup:       </p>
 
-<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
+
 For brows, Lana's were softly defined. I used my Lawless pencil to fill them
 in, combing them down slightly at the head to thin them out and suit the
 softer makeup style.           </p>
 
-<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
+
 A creamy eye pencil from Too Faced in Killer Chocolate is a great option to carve out a soft, rounded shape in the crease for iconic Lana '60s glamour. I used Marcelle “Mulberry” from the drugstore in Canada. Both are great options depending on what you have near you!     </p>
 
-<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
+
 I then softened the edges with a small brush before brightening the lid and
 inner corner with the lightest shadow. If you have really fair skin, try a KVD
 white base to make the lid pop more.         </p>
@@ -289,16 +290,18 @@ CONTAINS: AFFILIATE LINKS
 </p>
 
 
-<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
+
 
 A muted, dusty pink appeared to be swept across the lids to add a soft touch
 of color, complementing the romantic tones of the campaign.        </p>
 
-<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
 
 For under the lower lash line, I used a rose gold shadow, smoked out near the iris to make the eye color pop. I deepened the lash line again with a deep brown pencil liner in a soft wing and defined the bottom lash line as well. I added a light liner pencil in the waterline for dolly eyes!   </p>
 
-<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
+
             The eye look was finished with mascara and an outer corner lash in typical
 Lana fashion.
             </p>
@@ -319,13 +322,16 @@ CONTAINS: AFFILIATE LINKS
             Lips:</p>
 
 
-            <p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+            <p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
+
             Begin the lip look by over-lining with Makeup Forever Artist Color Pencil in dimensional dark brown. For a blushing ombre effect fading to the deep liner, I chose Amuse Dew Tint in Carrot Dew for the center of the lips.</p>
 
-            <p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+            <p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
+
 To bring in a bit of warmth, I used Benefit Cosmetics Butterfly blush dabbed from the outer corners of the lips inward to blend the liner and tint together.        </p>
 
-<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
+
 To capture the essence of Lana's look in the SKIMS campaign, I styled my hair similarly and accessorized with a side pink ribbon. I completed the look with satin gloves and a pink dress that has become a staple in my vintage-inspired wardrobe. You can find the actual SKIMS dress here.    </p>
 
 
@@ -336,14 +342,16 @@ To capture the essence of Lana's look in the SKIMS campaign, I styled my hair si
             Finishing Touches            </p>
 
 
-            <p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+            <p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
+
             Lana Del Rey’s SKIMS campaign makeup is a stunning blend of coquette and '60s glamour. It's not just a tribute to the vintage era (and Sharon Tate as confirmed by hairstylist on set, Anna Capone) but also perfectly suited for those seeking a romantic look that’s both cute and sexy! Lana's nod to the past is as fresh and relevant today as ever... now let’s check out the collection!   </p>
 
             <p style={{  textAlign: 'center',fontSize:'2.25rem', fontFamily: 'GFS Didot, serif'}}>
 
 My SKIMS Wish List!          </p>
 
-<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
+<p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth:'100%' , marginLeft: '0em'}}>
+
 At the end of my video tutorial, I shared my top picks from the new collection, along with behind-the-scenes with my cats, Lewis and Santana. Here are my top picks from the new line if you're looking to shop. Did you enjoy this campaign shoot as much as I did? Leave a comment below!</p>
 
 <ResponsiveIframe

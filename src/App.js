@@ -69,7 +69,7 @@ function App() {
         <Route path="/nomakeupspring" element={<NoMakeUpSpring/>} />
         <Route path="/tremblant" element={<MontTremblantBlog/>} />
         <Route path="/lattemakeup" element={<LatteMakeupBlogPost/>} />
-        <Route path="/lanaXskims" element={<LanaBlog/>} />
+        <Route path="/lanablog" element={<LanaBlog/>} />
         <Route path="/hotelQ" element={<HotelQ/>} />
         <Route path="/gracekelly" element={<GraceKelly/>} />
         <Route path="/disneybeachclubresort" element={<Disney1Post/>} />
