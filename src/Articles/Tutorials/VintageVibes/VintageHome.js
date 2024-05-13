@@ -5,11 +5,13 @@ import TextReveal from '../../../Components/TextReveal';
 import RotatingText from '../../../Navigation/AppBar/RotatingText';
 
 // Importing the images
-const image3 = `${process.env.PUBLIC_URL}/Images/SophiaSquareThumbnailforArticle.jpg`;
-const image7 = `${process.env.PUBLIC_URL}/Images/SharonThumnail.jpg`;
-const sharon = `${process.env.PUBLIC_URL}/Images/IconicThumbnail.png`;
-const balke1 = `${process.env.PUBLIC_URL}/Images/BalkeThumb.jpeg`;
-const shrimpton = `${process.env.PUBLIC_URL}/Images/shrimpton1.jpeg`;
+const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
+
+const loren = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg`;
+const bridal = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEBRIDAL.jpeg`;
+const balke1 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BALKETHUMBNAIL.jpeg`;
+const shrimpton = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg`;
+
 
 const cardsData = [
   {
@@ -21,14 +23,14 @@ const cardsData = [
   },
   {
     link: "/sharontate",
-    image: image7,
+    image: bridal,
     alt: "SHARON TATE",
     title: "Sharon Tate",
     description: "Iconic '60s Bridal"
   },
   {
     link: "/sophialoren",
-    image: image3,
+    image: loren,
     alt: "Sophia Loren",
     title: "Sophia Loren",
     description: "The woman with the 70 year career"

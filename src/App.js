@@ -54,7 +54,7 @@ function App() {
 
       {/* /Tutorial Genre Home Page Routes  */}
       <Route path="/popculture" element={<PopCultureView/>} />
-      <Route path="/vintagevibes" element={<VintageVibes/>} />
+      <Route path="/timetraveltutorials" element={<VintageVibes/>} />
       <Route path="/trends" element={<TrendsHome/>} />
     
             {/* /Article  Routes  */}
@@ -64,7 +64,7 @@ function App() {
         <Route path="/sugarplumfairy" element={<SugarPlumBlogPost/>} />
         <Route path="/sophialoren" element={<SophiaLorenPost/>} />
         <Route path="/sharontatebridal" element={<SharonTatePost/>} />
-        <Route path="/sharontateiconic" element={<SharonIconicPost/>} />
+        <Route path="/iconicsharon" element={<SharonIconicPost/>} />
         <Route path="/patmcgrath" element={<PatMcGrathPost/>} />
         <Route path="/nomakeupspring" element={<NoMakeUpSpring/>} />
         <Route path="/tremblant" element={<MontTremblantBlog/>} />

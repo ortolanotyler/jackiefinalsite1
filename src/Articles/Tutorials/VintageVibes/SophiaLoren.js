@@ -15,7 +15,7 @@ const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => {
     return (
         <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-            <div className="blog-content" style={{ lineHeight: '1.3' }}>{blogContent}</div>
+            <div className="blog-content" style={{ lineHeight: '1.5' }}>{blogContent}</div>
         </div>
     );
 };
@@ -42,22 +42,22 @@ const SophiaLorenPost = () => {
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '3rem',
+        fontSize: '2.5rem',
         fontWeight: 'normal',
         fontFamily: 'Arapey, sans-serif',
         color: 'black',
-        margin: '2rem',
+        margin: '1rem',
         marginTop: '2rem',
         marginBottom: '2rem',
-        lineHeight: '1.5rem',
+     
       };
     
       const paragraphStyle = {
-        padding: '1rem',fontSize: '1.5rem', fontFamily: 'GFS Didot, serif',  margin: '10rem', maxWidth: '100%', marginTop: '0.75rem', marginBottom: '0.75rem', 
+        padding: '2rem',fontSize: '1.5rem', fontFamily: 'GFS Didot, serif',  margin: '5rem', maxWidth: '100%', marginTop: '0.75rem', marginBottom: '0.75rem', 
     
       }
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.5em', maxWidth: '100%', margin: '20rem' }}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '25rem', marginTop: '5em' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '15vh' }}>
                 <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', marginTop: '1rem', lineHeight: '1.5rem', marginBottom: '2.5em', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // TIME TRAVEL TUTORIALS
