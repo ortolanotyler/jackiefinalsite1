@@ -126,7 +126,7 @@ get the starlet’s look!</p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/524557?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
-<p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%', marginLeft: '0em' }}>
+<p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', maxWidth: '100%', marginLeft: '0em' }}>
                 CONTAINS: AFFILIATE LINKS
             </p>
       <h2 style={headingStyle}>

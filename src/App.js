@@ -26,14 +26,11 @@ import HalfetiReview from './Articles/Reviews/HalfetiReview';
 import JickyReview from './Articles/Reviews/JickyReview';
 import UlikeReview from './Articles/Reviews/UlikeReview';
 import BonBonReview from './Articles/Reviews/BonBonReview';
-import RotatingText from './Navigation/AppBar/RotatingText';
 import HomePage from './Home/HomePage';
-import { Paper } from '@mui/material';
 import About from './About/About';
 import QuizHomepage from './Quiz/QuizHomePage';
 import Quiz1 from './Quiz/Quiz1';
 import NewTutorials from './Articles/Tutorials/HomeTutorials';
-import Slider1 from './Articles/Tutorials/bbb';
 import VintageVibes from './Articles/Tutorials/VintageVibes/VintageHome';
 import PopCultureView from './Articles/Tutorials/PopCulture/PopCulture';
 import ReviewHomePage from './ReviewsPage/ReviewArticlesHome';
@@ -41,7 +38,6 @@ import TravelArticlesHome from './Travel/TravelArticlesHome';
 import MyStyle from './Shop/MyStyle';
 import VintageVibesMerch from './Shop/VintageVibesMerch';
 import TrendsHome from './Articles/Tutorials/Trending/TrendsHome';
-import VlogVideo1 from './Vlogs/VideoComponent1';
 import Vlogs from './Vlogs/Vlogs';
 
 function App() {
@@ -64,7 +60,7 @@ function App() {
             {/* /Article  Routes  */}
 
         <Route path="/yardley1965" element={<Yardley65/>} />
-        <Route path="/VSfashionshow2014" element={<VictoriaSecret/>} />
+        <Route path="/victoriasecret" element={<VictoriaSecret/>} />
         <Route path="/sugarplumfairy" element={<SugarPlumBlogPost/>} />
         <Route path="/sophialoren" element={<SophiaLorenPost/>} />
         <Route path="/sharontatebridal" element={<SharonTatePost/>} />
