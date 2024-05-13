@@ -1,6 +1,6 @@
 import React from 'react';
 import ReviewArticleCard from './ReviewArticleCard';
-import "../Travel/TravelArticleList.css";
+import "./ReviewArticleList.css";
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/jickyguerlainthumbnail.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBonThumbnail.png`;
@@ -37,7 +37,7 @@ const articles = [
 
 const ReviewArticleList = () => {
     return (
-        <div className="article-list" style = {{
+        <div className="article-list-reviews" style = {{
             justifyContent: 'center',
             padding: '2rem'
         }}>
