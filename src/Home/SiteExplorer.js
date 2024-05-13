@@ -40,7 +40,7 @@ export default function SiteExplorer() {
             onMouseEnter={() => setHoverIndex(index)}
             onMouseLeave={() => setHoverIndex(-1)}
             sx={{
-              height: 600,
+              height: 700,
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'space-between',
@@ -64,11 +64,12 @@ export default function SiteExplorer() {
                 justifyContent: 'center',
                 alignItems: 'center',
                 textAlign: 'center',
-                backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                backgroundColor: 'rgba(0, 0, 0, 0.75)',
                 opacity: hoverIndex === index ? 1 : 0,
                 transition: 'opacity 0.3s ease-in-out',
-                gap: '3rem',
-                padding: '3rem',
+                gap: '1rem',
+                padding: '5rem',
+                margin: '0 auto',
 
               }}
             >

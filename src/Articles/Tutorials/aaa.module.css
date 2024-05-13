@@ -9,7 +9,7 @@
 }
 
 .cardImageImg {
-    padding: 0.85rem;
+    padding: 0.75rem;
     border-radius: 5px;
     display: block;
     width: 100%;
@@ -24,7 +24,7 @@ font-family: GFS Didot, serif;
 
 .cardList {
     background-color: white;
-    padding: 5rem;
+    padding: 1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Default to 3-column grid */
     gap: 1rem; /* Add gap between grid items */
@@ -90,9 +90,9 @@ font-family: GFS Didot, serif;
 }
 
 .readHereBtn {
-    margin-bottom: 1rem;     
+    margin-bottom: 1.5rem;     
     border-radius: 2px;
-    padding: 0.5rem;
+    padding: 0.75rem;
     display: inline-block;
     background-color: white;
     border: 1px solid black;

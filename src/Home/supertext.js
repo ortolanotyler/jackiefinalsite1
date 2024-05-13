@@ -11,8 +11,7 @@ const SuperText = ({ imageUrl }) => {
             </div>
             <div className={styles.textContainer}>
                 <div className={styles.supertextText} style={{ color: '#745B4F', fontFamily: 'GFS Didot', justifyContent: 'center' }}>
-                    <p>Hello, beauties! I'm Jackie Wyers, and my YouTube beauty journey started back in my teens (it’s been a minute!) I specialize in creating tutorials that blend the nostalgia of pop culture with vintage beauty and the latest trends</p>
-                    <p>As a professionally trained MUA with a love of character design, I believe discovering your unique style is a significant source of confidence. Life's too short not to experiment. Join me in celebrating pop culture, trends, and beauty techniques that empower you to recreate iconic looks and find your best makeup style. Ready to switch up your style with confidence?</p>
+                    <p>Hello, beauties! I'm Jackie Wyers, and my YouTube beauty journey started back in my teens (it’s been a minute!) I specialize in creating tutorials that blend the nostalgia of pop culture with vintage beauty and the latest trends As a professionally trained MUA with a love of character design, I believe discovering your unique style is a significant source of confidence. Life's too short not to experiment. Join me in celebrating pop culture, trends, and beauty techniques that empower you to recreate iconic looks and find your best makeup style. Ready to switch up your style with confidence?</p>
                     <div style={{ textAlign: 'center', marginTop: '3.5rem' }}>
                         <a href='/about' target='s' alt='s' style={{
                             backgroundColor: '#fdedef',

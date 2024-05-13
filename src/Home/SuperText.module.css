@@ -2,8 +2,7 @@
 .supertextContainer {
   color: '#745B4F';
   background-color: #EBE8E4;
-  margin: 1rem;
-  
+
   height: 100%;
   display: flex;
   flex-direction: row; /* Set to row to start with image on left, text on right */
@@ -19,12 +18,12 @@
 }
 
 .supertextText {
-  line-height: 1.25rem;
+  margin-left: 5rem;
+  justify-content: center;
+  line-height: 2.15;
   color: '#745B4F';
   width: 75%;
-  margin-bottom: 1rem;
-  margin-left: 4rem;
-  margin-right: 4rem;
+ font-size: 1.25rem;
   flex: 1;
   box-sizing: border-box; /* Include padding and border in the element's width and height */
   order: 2; /* Set order to 2 so text appears on the right */
@@ -32,13 +31,13 @@
 
 .supertextImage {
   border: 1rem solid #fdedef;
-  margin-left: 2rem;
+  margin-left: 3rem;
   margin-top: 1rem;
-  margin-bottom: 1rem;
-  width: 80%;
+  margin-bottom: .75rem;
+  width: 100%;
   height: auto;
   object-fit: cover;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust shadow values as needed */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25); /* Adjust shadow values as needed */
 }
 
 .overlayImage {

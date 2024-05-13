@@ -16,6 +16,7 @@ export default function EmailSubscribe() {
 Join to access the newsletter & exclusive content!`.split('\n');
 
   return (
+
     <Formik
       initialValues={{ email: '' }}
       validationSchema={SignupSchema}
@@ -43,8 +44,8 @@ Join to access the newsletter & exclusive content!`.split('\n');
       }}
     >
       {({ submitForm, isSubmitting, touched, errors }) => (
-        <Form style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '10rem' }}>
-          <Grid container spacing={2} alignItems="center" style={{ width: '100%', margin: '3.5rem', borderRadius: '1rem' }}>
+        <Form style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '0rem' }}>
+          <Grid container spacing={2} alignItems="center" style={{ width: '80%', margin: '1.5rem', borderRadius: '1rem' }}>
             <Grid item xs={12}>
               {/* Render each segment with custom styles */}
               {textSegments.map((segment, index) => (
@@ -63,7 +64,7 @@ Join to access the newsletter & exclusive content!`.split('\n');
                 </Typography>
               ))}
             </Grid>
-            <Grid item xs={6}>
+            <Grid item xs={12}>
             <Button
   type="submit"
   variant="contained"
@@ -88,7 +89,7 @@ Join to access the newsletter & exclusive content!`.split('\n');
   Subscribe
 </Button>
             </Grid>
-            <Grid item xs={6}>
+            <Grid item xs={12}>
           
 <Field
                 name="email"
@@ -100,7 +101,7 @@ Join to access the newsletter & exclusive content!`.split('\n');
                   width: '100%',
                   boxSizing: 'border-box',
                   border: '1px solid #745B4F',
-                  padding: '.75rem',
+                  
                   fontFamily: 'GFS Didot, serif', // Apply directly
                 }}
               />
