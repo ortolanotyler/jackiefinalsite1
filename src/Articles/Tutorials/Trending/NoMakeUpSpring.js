@@ -7,15 +7,15 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import TextReveal from '../../../Components/TextReveal';
 
 
-const title = `${process.env.PUBLIC_URL}/Images/nomakeupspring1.png`;
-const image1 = `${process.env.PUBLIC_URL}/Images/springelizabeth.jpeg`;
-const image2 = `${process.env.PUBLIC_URL}/Images/springdaphne.jpeg`;
-const image3 = `${process.env.PUBLIC_URL}/Images/springrosedawson.jpeg`;
-const image4 = `${process.env.PUBLIC_URL}/Images/springlittlewomen.jpeg`;
-const image5 = `${process.env.PUBLIC_URL}/Images/springrosie.jpeg`;
-const image6 = `${process.env.PUBLIC_URL}/Images/springalaska.jpeg`;
-const image7 = `${process.env.PUBLIC_URL}/Images/springtuckeverlasting.jpeg`;
-const signature = `${process.env.PUBLIC_URL}/Images/Signature.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeuptitle.png`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersElizabethBennetInspiredMakeup.jpg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersDaphneBridgertonMakeup.jpg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWtersRoseDawsonMakeup.JPG`;
+const image4 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersLittleWomenMakeup.JPG`;
+const image5 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersRosieDunneMakeup.JPG`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersAlaskaYoung.JPG`;
+const image7 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersTuckEverlastingMakeup.jpg`;
+const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 
 const Card = ({ blogContent }) => {
@@ -48,27 +48,34 @@ const NoMakeUpSpring = () => {
   }, []);
 
   const headingStyle = {
+    textAlign: 'center',
     fontSize: '3rem',
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',
-    marginBottom: '1rem'
+    margin:'2rem'
   };
 
   const paragraphStyle = {
-    fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '2.5rem', maxWidth: '100%',padding: '1rem', marginTop: '0.5rem'
+    fontSize: '1.5rem', fontFamily: 'GFS Didot, serif',  marginTop: '1px',margin: '2rem', maxWidth: '100%',padding: '1rem',
 
   }
 
   const blogContent = (
-    <div className="container" style={{ lineHeight: '2.25em', margin: '15rem', marginTop: '0em' }}>
+    <div className="container" style={{ lineHeight: '2.5em', margin: '20rem', marginTop: '25px' }}>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TRENDS // POP CULTURE
         </a>
       </div>
-      <img src={title} alt="Victoria's Secret Fashion Show 2013" style={{ width: '100%' }} />
+      <img src={title} alt="No Makeup-Makeup Spring Edition Title" style={{ width: '100%' }} />
+      
+      <div
+      style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+      >
       <SubscribeButton />
+
+      </div>
 
       <DropCap text="Welcome back for some quick no-makeup makeup inspiration for spring,
 analyzing timeless beauty icons from beloved tv & film. In this season of
@@ -81,7 +88,13 @@ into my spring beauty routine. "/>
       The Looks:
 Elizabeth Bennet - Pride & Prejudice
       </h2>
-      <img src={image1} alt="Victoria's Secret Fashion Show 2013" style={{ maxBlockSize: '650px', width: 'auto' }} />
+
+      <div
+style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+>
+<img src={image1} alt="Elizabeth Bennet - Pride & Prejudice" style={{ maxBlockSize: '650px', width: 'auto' }} />
+
+</div>
 
       <p style={ paragraphStyle} >
   Capturing Elizabeth Bennet's classic poise, this look draws on her
@@ -95,8 +108,12 @@ Elizabeth Bennet - Pride & Prejudice
 
 
       <h2 style={headingStyle}>Daphne Bridgerton - Bridgerton:</h2>
+<div
+style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+>
+<img src={image2} alt="Daphne Bridgerton - Bridgerton"  style={{ maxBlockSize: '650px', width: 'auto' }} />
 
-      <img src={image2} alt="Victoria's Secret Fashion Show 2013"  style={{ maxBlockSize: '650px', width: 'auto' }} />
+</div>
 
       <p style={ paragraphStyle} >
       Daphne’s allure waltzes between innocence and sophistication. Using the
@@ -112,8 +129,12 @@ step-by-step tutorial. </a>      </p>
 <h2 style={headingStyle}>
       Rose Dawson - Titanic:</h2>
 
-      <img src={image3} alt="Victoria's Secret Fashion Show 2013"  style={{ maxBlockSize: '650px', width: 'auto' }}/>
 
+      <div
+style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+>
+<img src={image3} alt="Rose Dawson - Titanic"  style={{ maxBlockSize: '650px', width: 'auto' }}/>
+</div>
 
 
 
@@ -132,7 +153,14 @@ Get the elegant updo and makeup right here.
         Amy March - Little Women:
 </h2>
 
-<img src={image4} alt="Victoria's Secret Fashion Show 2013" style={{ maxBlockSize: '650px', width: 'auto' }} />
+
+<div
+style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+>
+<img src={image4} alt="Amy March - Little Women" style={{ maxBlockSize: '650px', width: 'auto' }} />
+
+
+</div>
 
 <p style={ paragraphStyle} >
       Reflecting Amy March's artistic spirit, her look is understated yet
@@ -152,7 +180,13 @@ makeup guide.   </a>
 Rosie Dunne - Love, Rosie:
 </h2>
 
-<img src={image5} alt="Victoria's Secret Fashion Show 2013"  style={{ maxBlockSize: '650px', width: 'auto' }}/>
+<div
+style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+>
+<img src={image5} alt="Rosie Dunne - Love, Rosie"  style={{ maxBlockSize: '650px', width: 'auto' }}/>
+
+
+</div>
 
 
 <p style={ paragraphStyle} >
@@ -170,9 +204,11 @@ here.
 <h2 style={headingStyle}>
       Alaska Young - Looking For Alaska
       </h2>
-
-      <img src={image6} alt="Victoria's Secret Fashion Show 2013"  style={{ maxBlockSize: '650px', width: 'auto' }} />
-
+      <div
+style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+>
+      <img src={image6} alt="Alaska Young - Looking For Alaska"  style={{ maxBlockSize: '650px', width: 'auto' }} />
+</div>
       <p style={ paragraphStyle} >
       Alaska Young's effortless look from "Looking for Alaska" pairs a rebellious
 spirit with girl-next-door charm. Her 70s influenced style features long hair
@@ -187,8 +223,12 @@ here.</a>
       Winnie Foster - Tuck Everlasting:
       </h2>
 
-      <img src={image7} alt="Victoria's Secret Fashion Show 2013"  style={{ maxBlockSize: '650px', width: 'auto' }} />
 
+      <div
+style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+>
+      <img src={image7} alt="Winnie Foster - Tuck Everlasting"  style={{ maxBlockSize: '650px', width: 'auto' }} />
+</div>
 
       <p style={ paragraphStyle} >
       Winnie Foster's makeup pays homage to the fleeting innocence of youth.

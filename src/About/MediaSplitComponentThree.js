@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './MediaSplitComponent.module.css'; // Import the CSS module
 import ResponsiveIframeAbout from './ResponsiveIframeAbout';
 
-const logo = `${process.env.PUBLIC_URL}/Images/paramountlogo.png`;
+const logo = `${process.env.PUBLIC_URL}/Images/About/paramountlogo.png`;
 const video = `${process.env.PUBLIC_URL}/Videos/meangirls.MOV`;
 
 const MediaSplitComponentThree = () => {

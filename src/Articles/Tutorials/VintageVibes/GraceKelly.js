@@ -7,11 +7,11 @@ import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 
 
-const title = `${process.env.PUBLIC_URL}/Images/gracekelly1.png`;
-const image1a = `${process.env.PUBLIC_URL}/Images/gracekelly1a.jpeg`;
-const image2 = `${process.env.PUBLIC_URL}/Images/gracekelly2.png`;
-const image3 = `${process.env.PUBLIC_URL}/Images/gracekellyaudrey.jpeg`;
-const signature = `${process.env.PUBLIC_URL}/Images/Signature.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/GraceKellyTitle.png`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/JackieWyersGraceKellyInspired.jpg`;
+const image2 = `${process.env.PUBLIC_URL}Images/Articles/GraceKelly/GraceKellyFaceChart.png`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/JackieAsAudrey.jpg`;
+const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 
 
@@ -65,8 +65,22 @@ const GraceKelly = () => {
         </a>
       </div>
 
+      <div
+      >
+        <div
+        style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+        >
       <img src={title} alt="Victoria's Secret Fashion Show 2013" style={{ width: '100%' }} />
+
+        </div>
+      </div>
+
+      <div
+      style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+      >
       <SubscribeButton />
+      </div>
+  
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
           JACKIE WYERS // 3 MAY 2024
@@ -83,16 +97,19 @@ her poised performances and became a real-life
 princess when she married Prince Rainier III of
 Monaco. "/>    
 
-<img src={image1a} alt="Victoria's Secret Fashion Show 2013" style={{ maxBlockSize: '650px', width: 'auto' }} />
+<img src={image1} alt="Victoria's Secret Fashion Show 2013" style={{ maxBlockSize: '650px', width: 'auto' }} />
 
 
       <h2 style={headingStyle}>
       The Essentials of Grace
 Kelly's Makeup Style
       </h2>
+      <div
+      style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+      >
 
       <img src={image2} alt="Victoria's Secret Fashion Show 2013" style={{ maxBlockSize: '650px', width: 'auto' }} />
-
+</div>
 
       <p style={ paragraphStyle} >
  Grace’s look was all about soft, subtle enhancements

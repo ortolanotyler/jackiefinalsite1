@@ -2,7 +2,7 @@ import React from 'react';
 
 // Import images
 const images = [];
-for (let i = 1; i <= 21; i++) {
+for (let i = 1; i <= 20; i++) {
   images.push(require(`./BrandImages/${i}.png`));
 }
 
