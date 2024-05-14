@@ -30,10 +30,7 @@ const CardContainer = () => {
   ];
 
   return (
-    <div
-    style = {{marginBottom: '2rem'}}
-    >
-      <TextReveal text="COMING SOON" />
+ 
       <div className={styles.container}>
         {cardImageUrls.map((imageUrl, index) => (
           <div
@@ -47,7 +44,7 @@ const CardContainer = () => {
           </div>
         ))}
       </div>
-    </div>
+
   );
 };
 

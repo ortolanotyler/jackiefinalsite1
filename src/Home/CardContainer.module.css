@@ -2,14 +2,14 @@
     margin-top : 1rem;
     display: flex;
     flex-flow: row wrap;
-    min-height: 33vh;
+    min-height: 39vh;
     justify-content: center;
     align-items: center;
     background-color: white ;
   }
   
   .card {
-    height: '3rem';
+    height: '5rem';
     background: #FDEDEF;
     color:         #745B4F;
     margin: 0.5rem;

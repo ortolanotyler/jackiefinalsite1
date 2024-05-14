@@ -1,9 +1,8 @@
 import React from 'react';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
-import Button from '@mui/material/Button';
-import Grid from '@mui/material/Grid';
-import Typography from '@mui/material/Typography';
+import { Grid, Button, Typography } from '@mui/material';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 // Define a validation schema using Yup
 const SignupSchema = Yup.object().shape({
@@ -12,11 +11,10 @@ const SignupSchema = Yup.object().shape({
 
 export default function EmailSubscribe() {
   // Splitting the text based on \n to render separately
-  const textSegments = `Watch Beauty Tutorials, Read Articles, Product Reviews & Take Quizzes Below! \n
+  const textSegments = `Watch Beauty Tutorials, Read Articles, Product Reviews & Take Quizzes! \n
 Join to access the newsletter & exclusive content!`.split('\n');
 
   return (
-
     <Formik
       initialValues={{ email: '' }}
       validationSchema={SignupSchema}
@@ -44,69 +42,69 @@ Join to access the newsletter & exclusive content!`.split('\n');
       }}
     >
       {({ submitForm, isSubmitting, touched, errors }) => (
-        <Form style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '0rem' }}>
-          <Grid container spacing={2} alignItems="center" style={{ width: '80%', margin: '1.5rem', borderRadius: '1rem' }}>
+        <Form style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <Grid container spacing={3} alignItems="center" style={{ width: '50%', marginTop: '5em'}}>
             <Grid item xs={12}>
-              {/* Render each segment with custom styles */}
-              {textSegments.map((segment, index) => (
-                <Typography
-                  key={index}
-                  variant="subtitle1"
-                  gutterBottom
-                  sx={{
-                    fontSize: index === 0 ? '2rem' : '1.5rem', // Change font size based on index
-                    fontFamily: 'GFS Didot, serif',
-                    textAlign: 'center',
-                    color: index === 0 ? '#745B4F' : 'black', // Change color based on index
-                  }}
-                >
-                  {segment}
-                </Typography>
-              ))}
+              <Typography
+                variant="subtitle1"
+                gutterBottom
+                sx={{
+                  fontSize: '2rem',
+                  fontFamily: 'GFS Didot, serif',
+                  textAlign: 'center',
+                  color: '#745B4F'
+                }}
+              >
+                {textSegments[0]} <ArrowForwardIosIcon sx={{ fontSize: 'inherit', verticalAlign: 'middle' }} />
+              </Typography>
+              <Typography
+                variant="subtitle1"
+                sx={{
+                  fontSize: '1.5rem',
+                  fontFamily: 'GFS Didot, serif',
+                  textAlign: 'center'
+                }}
+              >
+                {textSegments[1]}
+              </Typography>
             </Grid>
             <Grid item xs={12}>
-            <Button
-  type="submit"
-  variant="contained"
-  disabled={isSubmitting}
-  onClick={submitForm}
-  sx={{
-    fontSize: '1rem',
-    backgroundColor: '#FDEDEF',
-    color: '#745B4F',
-    borderRadius: '1rem',
-    width: '100%',
-    fontFamily: 'GFS Didot, serif',
-    fontWeight: 'bold',
-    '&:hover': { // Adding the hover state
-      backgroundColor: '#FDEDEF', // Keep the same color on hover
-      '@media (hover: none)': { // Fix for devices that don't support hover
-        backgroundColor: '#FDEDEF'
-      }
-    }
-  }}
->
-  Subscribe
-</Button>
+              <Button
+                type="submit"
+                variant="contained"
+                disabled={isSubmitting}
+                onClick={submitForm}
+                sx={{
+                  fontSize: '1rem',
+                  backgroundColor: '#FDEDEF',
+                  color: '#745B4F',
+                  borderRadius: '1rem',
+                  width: '100%',
+                  fontFamily: 'GFS Didot, serif',
+                  fontWeight: 'bold',
+                  '&:hover': {
+                    backgroundColor: '#FDEDEF',
+                  }
+                }}
+              >
+                Subscribe
+              </Button>
             </Grid>
             <Grid item xs={12}>
-          
-<Field
+              <Field
                 name="email"
                 type="email"
                 placeholder="Email"
                 style={{
-                 
                   borderRadius: '10px',
                   width: '100%',
                   boxSizing: 'border-box',
                   border: '1px solid #745B4F',
                   padding: '.75rem',
-                  fontFamily: 'GFS Didot, serif', // Apply directly
+                  fontFamily: 'GFS Didot, serif',
                 }}
               />
-                            {touched.email && errors.email && <div style={{ color: '#745B4F', fontSize: '1rem' }}>{errors.email}</div>}
-
+              {touched.email && errors.email && <div style={{ color: '#745B4F', fontSize: '1rem' }}>{errors.email}</div>}
             </Grid>
           </Grid>
         </Form>

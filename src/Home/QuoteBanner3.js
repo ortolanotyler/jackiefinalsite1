@@ -8,7 +8,7 @@ import PageLines from '../Components/PageBreakUpLines';
 
 const QuoteBanner3 = () => {
   return (
-    <div sx = {{ margin: '10px' }}
+    <div 
     className="quote-banner">
       <PageLines/>
       <blockquote>

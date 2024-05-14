@@ -41,6 +41,7 @@ body {
   
   @media (max-width: 1200px) {
     .embed-container {
+  margin: 1rem;
       overflow: auto; /* Enable scrolling for screens less than 1200px */
     }
   }

@@ -7,10 +7,10 @@ import TextReveal from '../../../Components/TextReveal';
 import modifyanchortags from '../../../Utilities/modifyanchortags';
 
 
-const Pat1 = `${process.env.PUBLIC_URL}/Images/PatThumbnail.png`;
-const Pat2 = `${process.env.PUBLIC_URL}/Images/Pat2.png`;
-const Pat3 = `${process.env.PUBLIC_URL}/Images/Pat3.png`;
-const Signature = `${process.env.PUBLIC_URL}/Images/Signature.png`;
+const Pat1 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathTitle.png`;
+const Pat2 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathDouble.png`;
+const Pat3 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathFaceChart.png`;
+const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
     <div>
@@ -22,64 +22,63 @@ const Card = ({ blogContent }) => (
   );
   
   const PatMcGrathPost = () => {
-      const websiteId='10910';
-  
+    const websiteId='10910';
+
     const blogRef = useRef(null);
-  
+
     useEffect(() => {
-      modifyanchortags(blogRef.current);
+        modifyanchortags(blogRef.current);
     }, []);
-  
+
     const blogContent = (
-      <div className="container" style={{ lineHeight: '2.5em', maxWidth: '100%', margin: '20em', marginTop: '0em' }}>
-  <div style={{ 
-    display: 'flex', 
-    justifyContent: 'center', 
-    alignItems: 'center', 
-    height: '25vh' // This makes the div take up the full height of the viewport
-  }}>
-    <a
-      href="/popculture"
-      style={{ 
-        fontFamily: 'Arapey',
-        fontSize: '1.5em', 
-     
-        color: 'black', 
-        textDecoration: 'none'
-      }}
-    >
-      BEAUTY // TRENDS // POP CULTURE 
-    </a>
-  </div>
-  
-      <img src= {Pat1} alt = 'b1' style={{width:'100%'}}></img>
-  
-  
-  
-  
-      <iframe
-         src="https://assets.pinterest.com/ext/embed.html?id=1104015296142479260"
-  
-        height='520'
-        width='236'
-        frameBorder="0"
-        scrolling="no"
-        title="Pinterest Embed"
-      ></iframe>
-      <div
-      style = {{
-          marginTop: '1em',
-      }}
-      >
-      <SubscribeButton/>
-      </div>
-   
-       
-  
-  
-      <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', marginLeft: '5em', fontStyle: 'italic' }}>
-      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-  </p>
+        <div className="container" style={{ lineHeight: '2.25em', maxWidth: '100%', margin: '20rem', marginTop: '0em' }}>
+            <div style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                height: '15vh' // This makes the div take up the full height of the viewport
+            }}>
+                <a
+                    href="/popculture"
+                    style={{
+                        fontFamily: 'Arapey',
+                        fontSize: '1.5rem',
+
+                        color: 'black',
+                        textDecoration: 'none'
+                    }}
+                >
+                    BEAUTY // TRENDS / POP CULTURE
+                </a>
+            </div>
+
+            <img src={Pat1} alt='b1' style={{ width: '100%' }} />
+
+            <div
+                style={{ textAlign: 'center' }}
+            >
+
+            </div>
+
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                {/* Wrap the iframe inside a div for centering */}
+                <div style={{ textAlign: 'center' }}>
+                    <iframe
+                        src="https://assets.pinterest.com/ext/embed.html?id=1104015296142479260"
+                        height='520'
+                        width='236'
+                        frameBorder="0"
+                        scrolling="no"
+                        title="Pinterest Embed"
+                    ></iframe>
+                         <SubscribeButton />
+                </div>
+            </div>
+
+        
+            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', justifyContent: 'center',fontStyle: 'italic' }}>
+                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+            </p>
   
   
       <div>

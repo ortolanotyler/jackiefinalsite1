@@ -7,7 +7,6 @@ import QuoteBanner3 from './QuoteBanner3.js';
 import EmailSubscribe from '../Components/EmailSubscribe.js';
 import PageLines from '../Components/PageBreakUpLines.js';
 import SiteExplorer from './SiteExplorer.js';
-import SuperText from './supertext.js';
 import Slider1 from './aaaa.js';
 import Quiz1 from '../Quiz/Quiz1.js';
 import ReviewArticleList from '../ReviewsPage/ReviewArticleList.js';
@@ -19,7 +18,6 @@ import CardContainer from './CardContainer.js';
 import RotatingText from '../Navigation/AppBar/RotatingText.js';
 
 
-const MeetJackieLeft = `${process.env.PUBLIC_URL}/Images/Home/meetjackieleft.png`;
 
 
 
@@ -46,32 +44,16 @@ function HomePage() {
         <Grid item xs={12}>
           <QuoteBanner3 />
         </Grid>
-             <Grid item xs={12}>
+             <Grid item xs={6}>
           <EmailSubscribe />
         </Grid>
-        <Grid item xs={12}>
-          <PageLines />
-        </Grid>
+  
 
-        <Grid item xs={12}>
+        <Grid item xs={6}>
           <SiteExplorer />
         </Grid>
   
-        <Grid item xs={12}>
-        <PageLines />
-        <TextReveal text = 'MEET JACKIE' />
-             </Grid>
-
-             <Grid item xs={12}>
-         
-             <SuperText
-  imageUrl={MeetJackieLeft}
-/>
-   
-             </Grid>
-             <Grid item xs={12}>
-          <PageLines />
-        </Grid>
+ 
        
         <Grid item xs={12}>
         <TextReveal text='LATEST TUTORIALS' />

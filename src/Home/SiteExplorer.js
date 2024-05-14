@@ -8,24 +8,19 @@ import { useNavigate } from 'react-router-dom';
 const cardDetails = [
   {
     title: 'POP CULTURE',
-    description: 'Catch the latest look from the world of entertainment.',
     backgroundImage: `${process.env.PUBLIC_URL}/Images/Home/JackieWyersBarbie.jpg`,
     path: '/popculture'
   },
   {
     title: 'VINTAGE VIBES',
-    description: 'Time Travel Tutorials are back.',
     backgroundImage: `${process.env.PUBLIC_URL}/Images/Home/GraceKellyJackieWyers.jpg`,
     path: '/timetraveltutorials'
   },
-
   {
     title: ' TRENDS ',
-    description: 'Check out the latest Trend Report!',
     backgroundImage: `${process.env.PUBLIC_URL}/Images/Home/JackieWyersPatMcGrath.jpeg`,
     path: '/trends'
   },
-
 ];
 
 export default function SiteExplorer() {
@@ -35,12 +30,12 @@ export default function SiteExplorer() {
   return (
     <Grid container spacing={1} justifyContent="center" sx={{ p: 5 }}>
       {cardDetails.map((card, index) => (
-        <Grid item xs={12} md={4} key={index} sx={{ p: 1 }}>
+        <Grid item xs={12} sm={6} md={4} key={index} sx={{ p: 1 }}>
           <Card
             onMouseEnter={() => setHoverIndex(index)}
             onMouseLeave={() => setHoverIndex(-1)}
             sx={{
-              height: 700,
+              height: { xs: 250, sm: 500, md: 550 }, // Adjust height based on screen size
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'space-between',
@@ -68,18 +63,15 @@ export default function SiteExplorer() {
                 opacity: hoverIndex === index ? 1 : 0,
                 transition: 'opacity 0.3s ease-in-out',
                 gap: '1rem',
-                padding: '5rem',
-                margin: '0 auto',
-
+                padding: '.5rem',
               }}
             >
               <Typography variant="h5" component="h2" sx={{ 
                 fontFamily: "'Arapey', serif", 
                 color: 'white', 
                 zIndex: 2,
-                fontSize: '2.75rem',
-                border: '2px solid white',
-                padding: '0.1em 0.4em', // Reduced padding for a smaller border box
+                fontSize: '1.75rem',
+                padding: '0.1em 0.4em',
               }}>
                 {card.title}
               </Typography>
@@ -87,18 +79,19 @@ export default function SiteExplorer() {
                 fontFamily: "'GFS Didot', serif", 
                 color: 'white', 
                 zIndex: 2,
-                fontSize: '1.25rem' 
+                fontSize: '1rem',
               }}>
                 {card.description}
               </Typography>
               <Button 
                 size="small" 
                 sx={{ 
-                  fontFamily: "'GFS Didot', serif",
+                  fontFamily: "'Arapey', sans-serif",
                   color: 'white', 
                   zIndex: 2,
                   fontSize: '1rem',
-                  border: '1px solid white',
+                  border: '2px solid white',
+
                   '&:hover': {
                     backgroundColor: 'white',
                     color: 'black',
