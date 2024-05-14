@@ -49,9 +49,9 @@ const SharonIconicPost = () => {
     const blogContent = (
         <div className="container" style={{ lineHeight: '2.5em', maxWidth: '100%', margin: '20rem', padding: '5rem' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '12vh' }}>
-                <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-                    BEAUTY // TIME TRAVEL TUTORIALS
-                </a>
+            <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+          BEAUTY // TIME TRAVEL TUTORIALS
+        </a>
             </div>
             <img src={Sharon1} alt='Sharon Tate - Time Travel Tutorials' style={{ width: '100%' }} />
             <ResponsiveIframe src="https://www.youtube.com/embed/t1jJtpsxes4?si=sHOkPYVUOvEbXk2m" title="Sharon Tate YouTube video player" />

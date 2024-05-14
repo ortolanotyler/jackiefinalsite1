@@ -7,10 +7,10 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 
 
-const Balke1 = `${process.env.PUBLIC_URL}/Images/Balke1.png`;
-const Balke2 = `${process.env.PUBLIC_URL}/Images/Balke2.png`;
-const Balke3 = `${process.env.PUBLIC_URL}/Images/Balke3.png`;
-const Signature = `${process.env.PUBLIC_URL}/Images/Signature.png`;
+const Balke1 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeTitle.png`;
+const Balke2 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeDouble.png`;
+const Balke3 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeFaceChart.jpg`;
+const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
     <div>
@@ -27,25 +27,26 @@ const BalkeBlog = () => {
     const blogContent = (
       
        
-    
-
-
-            <div className="container" style={{
-                lineHeight: '2.25em',
-                maxWidth: '100%',
-                margin: '20em',
-                
-            }}>
- <a href="/timetraveltutorials" style={{
-            alignContent: 'center',
-            marginBottom: '2em',
-            fontFamily: 'Arapey',
-            fontSize: '1.5em',
-            color: 'black',
-            textDecoration: 'none'
-        }}>
-            BEAUTY // VINTAGE VIBES // TIME TRAVEL TUTORIALS
+        <div className="container" style={{ lineHeight: '2.25rem', margin: '15rem' }}>
+        
+        <div
+        style = {{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            height: '30vh'
+        }}
+        >
+               <a href="/timetraveltutorials" style={{ justifyContent: 'center',fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+          BEAUTY // TIME TRAVEL TUTORIALS
         </a>
+   
+            </div>
+            
+         
+
+   
+     
 
                     <img src={Balke1} alt='Barbie and Ken' style={{ width: '100%' }} />
                     <iframe width="100%" height="515" src="https://www.youtube.com/embed/7HoL0rVmZHI?si=__Llh9tI2-K62uRQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
@@ -54,16 +55,18 @@ const BalkeBlog = () => {
              
                    <div
                    style = {{
-                    margin: '1em'
+                   justifyContent: 'center',
+                   textAlign: 'center',
                    }}
                    >
                    <SubscribeButton />
-                    </div>
-           
 
                 <p style={{ justifyContent: 'center',fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
                     All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
                 </p>
+                    </div>
+           
+
                 <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
                     <span style={{ color: '#745B4F', float: 'left', fontSize: '5rem', lineHeight: '0.9', marginRight: '0.05em', marginTop: '0.01em' }}>W</span>elcome back to another Time Travel Tutorials, where we admire and recreate beauty icons from the past. Today, let's delve into the 1960s through the portrait of model Ina Balke by the renowned photographer Ted Russell. For those of you who've ever searched on Pinterest for '60s makeup, chances are you've stumbled upon this stunning photograph. This article is your step-by-step guide on how to get the vintage makeup and styling as seen on Ina to try out yourself!
                 </p>

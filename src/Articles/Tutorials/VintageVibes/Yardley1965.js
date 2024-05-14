@@ -65,10 +65,10 @@ const Yardley65 = () => {
       <div style={{ textAlign:'center', margin: '10rem' }}>
    <div
    style = {{
-    height: '15vh'
+    height: '20vh'
    }}
    >
-   <a href="/timetraveltutorials" style={{ justifyContent:'center',fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+     <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
    </div>

@@ -1,8 +1,6 @@
 import React from 'react';
 import styles from '../aaa.module.css'; // Import CSS Modules
-import { Paper } from '@mui/material';
 import TextReveal from '../../../Components/TextReveal';
-import RotatingText from '../../../Navigation/AppBar/RotatingText';
 
 // Importing the images
 const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
@@ -17,12 +15,12 @@ const cardsData = [
   {
     link: "/yardley1965",
     image: shrimpton,
-    alt: "SHARON TATE",
+    alt: "YARDLEY 1965 Makeup",
     title: "Jean Shrimpton - Yardley 1965",
     description: "Iconic '60s Makeup"
   },
   {
-    link: "/sharontate",
+    link: "/sharontatebridal",
     image: bridal,
     alt: "SHARON TATE",
     title: "Sharon Tate",

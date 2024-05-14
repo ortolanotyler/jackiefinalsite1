@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from 'react';
 import '../../ExampleTutorial.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 
-import modifyanchortags from '../../../Utilities/modifyanchortags';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
@@ -24,7 +23,7 @@ const SophiaLorenPost = () => {
     const blogRef = useRef(null);
 
     useEffect(() => {
-        modifyanchortags(blogRef.current);
+       
         // Dynamically load the Instagram embed script after the component mounts
         const script = document.createElement('script');
         script.src = "//www.instagram.com/embed.js";
@@ -59,9 +58,11 @@ const SophiaLorenPost = () => {
     const blogContent = (
         <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '25rem', marginTop: '5em' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '15vh' }}>
-                <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', marginTop: '1rem', lineHeight: '1.5rem', marginBottom: '2.5em', color: 'black', textDecoration: 'none' }}>
-                    BEAUTY // TIME TRAVEL TUTORIALS
-                </a>
+            <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+  BEAUTY // TIME TRAVEL TUTORIALS
+</a>
+
+
             </div>
             <img src={Sophia1} alt="Sophia Loren in Arabesque" style={{ width: '100%' }} />
             <ResponsiveIframe src="https://www.youtube.com/embed/o8_dfwGNXAc?si=q2_GxBp3sClXnUUB" title="YouTube video player" />

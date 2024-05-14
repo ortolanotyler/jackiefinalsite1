@@ -5,7 +5,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import TextReveal from '../../../Components/TextReveal';
-import modifyanchortags from '../../../Utilities/modifyanchortags';
 import DropCap from '../../../Components/DropCap';
 
 
@@ -27,9 +26,7 @@ const SharonTatePost = () => {
     const websiteId = "10910";
     const blogRef = useRef(null);
 
-    useEffect(() => {
-        modifyanchortags(blogRef.current);
-    }, []);
+  
 
     const headingStyle = {
         textAlign: 'center',
@@ -43,9 +40,9 @@ const SharonTatePost = () => {
     const blogContent = (
         <div className="container" style={{ lineHeight: '2.5em', maxWidth: '100%', margin: '15rem', padding: '5rem' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '12vh' }}>
-                <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', marginTop: '1em', lineHeight: '1.5rem', marginBottom: '2.5em', color: 'black', textDecoration: 'none' }}>
-                    BEAUTY // TIME TRAVEL TUTORIALS
-                </a>
+            <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+          BEAUTY // TIME TRAVEL TUTORIALS
+        </a>
             </div>
             <img src={Sharon1} alt="Sharon Tate in a promotional " style={{ width: '100%' }} />
             <ResponsiveIframe src="https://www.youtube.com/embed/y0vHs6pRC3Y?si=LJlIhHJgDm0pehAu" title="Sharon Tate YouTube video player" />
