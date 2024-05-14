@@ -7,11 +7,13 @@ import Slider2 from './bbb';
 
 import Slider4 from './ddd';
 
+import Ccc from './ccc';
 
-import TextReveal from '../../Components/TextReveal';
-import TrendsHome from './Trending/TrendsHome';
-import RotatingText from '../../Navigation/AppBar/RotatingText';
+
 import { Paper } from '@mui/material';
+import TextReveal from '../../Components/TextReveal';
+import RotatingText from '../../Navigation/AppBar/RotatingText';
+
 
 const HomeTutorials = () => {
   return (
@@ -23,8 +25,8 @@ const HomeTutorials = () => {
       <Slider1 />
       <TextReveal text='TRENDING NOW' />
       <Slider2 />
-      <TextReveal text='POP CULTURE OBSESSED' />
-      <TrendsHome/>
+  
+      <Ccc/>
       <TextReveal text='VINTAGE VIBES' />
       <Slider4/>
       

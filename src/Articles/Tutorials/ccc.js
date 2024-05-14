@@ -1,35 +1,55 @@
 import React from 'react';
 import styles from './aaa.module.css'; // Import CSS Modules
 
-const image1 = `${process.env.PUBLIC_URL}/Images/Barbiethumbnizzle.png`;
-const image2 = `${process.env.PUBLIC_URL}/Images/LatteMakeupHero.png`;
-const image3 = `${process.env.PUBLIC_URL}/Images/patmcgrath1.jpeg`;
-const image4 = `${process.env.PUBLIC_URL}/Images/nomakeupspringthumbnail.jpeg`;
+
+import { Paper } from '@mui/material';
+import TextReveal from '../../Components/TextReveal';
+import RotatingText from '../../Navigation/AppBar/RotatingText';
+
+const image3 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
+const image7 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
+const image9 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/MARGOTBARBIETHUMBNAIL.png`;
+const nomakeup = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
 
 const cardsData = [
-
   {
-    link: "/barbie",
-    image: image1,
-    alt: "Margot Robbie Barbie Makeup Tutorial",
-    title: "Margot at Barbie",
-    description: "Barbie Summer is in Full Effect!"
+    link: "/nomakeupspring",
+    image: nomakeup,
+    alt: "Warm and cozy latte-inspired fall makeup look",
+    title: "No Makeup Makeup - Spring Edition",
+    description: "Think warm, cozy, fall!",
   },
+  
   {
-    link: "/latteMakeup",
-    image: image2,
-    alt: "Latte Makeup Tutorial",
-    title: "Latte Makeup",
-    description: "Think warm, cozy, fall!"
+    link: "/margotbarbie",
+    image: image9,
+    alt: "Margot Robbie Barbie Movie",
+    title: "Margot as Barbie",
+    description: "2014 vibes are so back"
   },
   {
     link: "/patmcgrath",
     image: image3,
-    alt: "Pat McGrath Makeup Tutorial",
+    alt: "Pat McGrath",
     title: "Pat McGrath",
-    description: "I tried the goo trend"
+    description: "Pat's Porcelain Doll"
   },
-  // Add more card objects as needed...
+
+  {
+    link: "/lanablog",
+    image: image7,
+    alt: "Lana",
+    title: "SKIMS X Lana",
+    description: "V-Day Makeup"
+  },
+  {
+    link: "/victoriasecret",
+    image: image6,
+    alt: "Victoria's Secret",
+    title: "VS 2014",
+    description: "2014 vibes are so back"
+  },
 ];
 
 const Card = ({ link, image, alt, title, description }) => {
@@ -43,28 +63,34 @@ const Card = ({ link, image, alt, title, description }) => {
           <h2 className={styles.cardDescriptionH2}>{title}</h2>
           <p className={styles.cardDescriptionP}>{description}</p>
         </a>
-        {/* "Read Here" button added for consistency with the previous example */}
-        <a href={link} className={styles.readHereBtn}>Read Here</a>
+        {/* Button added below */}        <a href={link} className={styles.readHereBtn}>Read Here</a>
       </div>
     </li>
   );
 };
 
-const Slider3 = () => {
+const Ccc = () => {
   return (
-    <ul className={styles.cardList}>
-      {cardsData.map((card, index) => (
-        <Card
-          key={index}
-          link={card.link}
-          image={card.image}
-          alt={card.alt}
-          title={card.title}
-          description={card.description}
-        />
-      ))}
-    </ul>
+    <div>
+         <div><TextReveal text= 'POP CULTURE OBSESSED' /></div>
+         <Paper elevation={3} style={{ padding: '1rem', margin: '1rem 0' }}>
+     <RotatingText/>
+     </Paper>
+    
+      <ul className={styles.cardList}>
+        {cardsData.map((card, index) => (
+          <Card
+            key={index}
+            link={card.link}
+            image={card.image}
+            alt={card.alt}
+            title={card.title}
+            description={card.description}
+          />
+        ))}
+      </ul>
+    </div>
   );
 };
 
-export default Slider3;
+export default Ccc;

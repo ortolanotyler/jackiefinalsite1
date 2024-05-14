@@ -39,6 +39,7 @@ import MyStyle from './Shop/MyStyle';
 import VintageVibesMerch from './Shop/VintageVibesMerch';
 import TrendsHome from './Articles/Tutorials/Trending/TrendsHome';
 import Vlogs from './Vlogs/Vlogs';
+import TwiggyBlog from './Articles/Tutorials/VintageVibes/Twiggy';
 
 function App() {
   return (
@@ -60,6 +61,7 @@ function App() {
             {/* /Article  Routes  */}
 
         <Route path="/yardley1965" element={<Yardley65/>} />
+        <Route path="/twiggy" element={<TwiggyBlog/>} />
         <Route path="/victoriasecret" element={<VictoriaSecret/>} />
         <Route path="/sugarplumfairy" element={<SugarPlumBlogPost/>} />
         <Route path="/sophialoren" element={<SophiaLorenPost/>} />
