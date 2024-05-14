@@ -82,7 +82,12 @@ const GraceKelly = () => {
       >
       <SubscribeButton />
       </div>
-  
+      <div>
+
+<p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign:'center', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
+ </div>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
           JACKIE WYERS // 3 MAY 2024

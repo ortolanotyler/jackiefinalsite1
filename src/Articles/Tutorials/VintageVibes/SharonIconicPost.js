@@ -61,7 +61,12 @@ const SharonIconicPost = () => {
             
             <SubscribeButton />
             </div>
-        
+            <div>
+
+<p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign:'center', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
+ </div>
 
                <DropCap text = "Welcome back to another installment of Time Travel Tutorials, this time featuring the iconic '60s figure, Sharon Tate. A promising actress and model of the 1960s, Tate was celebrated for her roles in films like 'Valley of the Dolls', captivating audiences with her talent and ethereal beauty. Her tragic and untimely death solidified her status as an era icon, profoundly influencing pop culture, fashion, and beauty standards of the 1960s. Let's celebrate the beautiful Sharon Tate by emulating her signature style, which remains influential today" />
                <div style={{ maxWidth: '100%', overflow: 'hidden' }}>

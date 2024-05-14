@@ -6,13 +6,14 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import TextReveal from '../../../Components/TextReveal';
 import modifyanchortags from '../../../Utilities/modifyanchortags';
+import DropCap from '../../../Components/DropCap';
 
 
-const Sharon1 = `${process.env.PUBLIC_URL}/Images/Sharon1.png`;
-const Sharon2 = `${process.env.PUBLIC_URL}/Images/Sharon2.png`;
-const Sharon4b = `${process.env.PUBLIC_URL}/Images/Sharon4b.jpg`;
-const Sharon16 = `${process.env.PUBLIC_URL}/Images/Sharon16.png`;
-const signature = `${process.env.PUBLIC_URL}/Images/Signature.png`;
+const Sharon1 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SharonBridalTitle.png`;
+const Sharon2 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SharonBridalDouble.png`;
+const SharonFace = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEFILLEDINFACECHART.jpg`;
+const Sharon16 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SharonBridalInstagram.png`;
+const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => {
     return (
@@ -31,18 +32,19 @@ const SharonTatePost = () => {
     }, []);
 
     const headingStyle = {
+        textAlign: 'center',
         fontSize: '3rem',
         fontWeight: 'normal',
         fontFamily: 'Arapey, serif',
         color: '#333',
-        marginBottom: '0.5em'
+        margin: '1rem'
     };
 
     const blogContent = (
         <div className="container" style={{ lineHeight: '2.5em', maxWidth: '100%', margin: '15rem', padding: '5rem' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '12vh' }}>
-                <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1.5em', marginTop: '1em', lineHeight: '1.5rem', marginBottom: '2.5em', color: 'black', textDecoration: 'none' }}>
-                    BEAUTY // TRENDS // POP CULTURE
+                <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', marginTop: '1em', lineHeight: '1.5rem', marginBottom: '2.5em', color: 'black', textDecoration: 'none' }}>
+                    BEAUTY // TIME TRAVEL TUTORIALS
                 </a>
             </div>
             <img src={Sharon1} alt="Sharon Tate in a promotional " style={{ width: '100%' }} />
@@ -50,18 +52,31 @@ const SharonTatePost = () => {
             <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
                 CONTAINS: AFFILIATE LINKS
             </p>
+
+          
+            <div
+            style = {{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                
+            }}
+            >
             <SubscribeButton />
-            <h2 style={headingStyle}>Introduction to Sharon Tate</h2>
-            <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em' }}>
-                Welcome back to Time Travel Tutorials - the series where we embrace the vintage vibes from the beauties of the past. In this edition, we're shining the spotlight on the stunning Sharon Tate. Renowned as an American actress and model, Tate left a lasting impression with her role in "Valley of the Dolls" (1967). Hailed as Hollywood’s most promising starlet of her time, Sharon's distinctive makeup, hair, and fashion sense continue to captivate and inspire women to this day.
-            </p>
-            <h2 style={headingStyle}>Sharon's Bridal Style</h2>
-            <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em' }}>
+            </div>
+<div>
+<p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign:'center', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
+ </div>
+               <DropCap text = "Welcome back to Time Travel Tutorials - the series where we embrace the vintage vibes from the beauties of the past. In this edition, we're shining the spotlight on the stunning Sharon Tate. Renowned as an American actress and model, Tate left a lasting impression with her role in 'Valley of the Dolls' (1967). Hailed as Hollywood's most promising starlet of her time, Sharon's distinctive makeup, hair, and fashion sense continue to captivate and inspire women to this day."/>
+           
+               <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em' }}>
                 Today, we'll delve into her unique and playful bridal style, which embodies a vintage charm while remaining wonderfully contemporary for today's brides!
             </p>
             <img src={Sharon2} alt="Jackie Wyers Instagrammed Sharon Inspired Look" style={{ width: '100%', height: 'auto' }} />
             <h2 style={headingStyle}>The Essentials of Sharon Tate's Makeup Style</h2>
-            <img src={Sharon4b} alt="Sharon Tate 60s Makeup" style={{ width: '100%' }} />
+            <img src={SharonFace} alt="Sharon Tate 60s Makeup" style={{ width: '100%' }} />
             <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em' }}>
                
             Sharon Tate's makeup style, characterized by her striking deep-set eyes and an exaggerated, graphic crease, is a hallmark of the 60s beauty. Her lashes, often lengthened with falsies, added to her captivating doe-eyed appearance. Her bohemian flair, complemented by a sun-kissed, Californian glow, deepened with bronzer, set her apart. Vintage photos of Sharon feel more 1970s as she was ahead of the fashion curve.
@@ -94,8 +109,8 @@ const SharonTatePost = () => {
             <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em' }}>
                 Sharon Tate's bridal makeup, an exquisite blend of 60s glamour and sun-kissed beauty, is a perfect tribute to her style. Her iconic Babydoll Wedding Dress, modern for its time, remains a fashionable choice. Explore our curated collection of Sharon Tate wedding dress replicas and similar styles below!
             </p>
-            <img src={Sharon16} alt="Sharon Tate Wedding Dress" style={{ width: '50%', height: 'auto' }} />
-            <ResponsiveIframe src="https://shopmy            .us/collections/public/492227?noHeader=true" title="Wedding Dress Collection" />
+            <img src={Sharon16} alt="Sharon Tate Wedding Dress" style={{ width: '100%', height: 'auto' }} />
+            <ResponsiveIframe src="https://shopmy.us/collections/public/492227?noHeader=true" title="Wedding Dress Collection" />
             <h2 style={headingStyle}>Discover More Vintage-Inspired Looks</h2>
             <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em' }}>
                 Discover more vintage-inspired bridal looks and timeless fashion on our website. Don't forget to subscribe to our newsletter for the latest updates and exclusive offers!

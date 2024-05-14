@@ -6,15 +6,14 @@ import SubscribeButton from '../../../Components/SubscribeButton.js';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe.js';
 import DropCap from '../../../Components/DropCap.js';
 
-const title = `${process.env.PUBLIC_URL}/Images/shrimpton1.png`;
-const image1 = `${process.env.PUBLIC_URL}/Images/shrimpton2.png`;
-const image2 = `${process.env.PUBLIC_URL}/Images/shrimpton3.png`;
-const face = `${process.env.PUBLIC_URL}/Images/shrimptonface.png`;
-const image3 = `${process.env.PUBLIC_URL}/Images/shrimpton4.png`;
-const image4 = `${process.env.PUBLIC_URL}/Images/shrimpton5.png`;
-const image5 = `${process.env.PUBLIC_URL}/Images/shrimpton6.png`;
-const image6 = `${process.env.PUBLIC_URL}/Images/shrimptonbridal.png`;
-const signature = `${process.env.PUBLIC_URL}/Images/Signature.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonTitle.png`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonDouble.png`;
+const face = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShrimpton60sFaceChart.png`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JackiesPinterestBoard.jpg`;
+const ad = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonAd.jpg`;
+const image5 = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/VintageCollection.png`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEBRIDAL.JPEG`;
+const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 
 
@@ -85,6 +84,11 @@ style = {{
 >
       <img src={title} alt="Victoria's Secret Fashion Show 2013" style={{ justifyContent:'center', width: '100%' }} />
       
+
+
+
+      <ResponsiveIframe src="https://www.youtube.com/embed/OrlZinEp4AI?si=pn69Z9dtya3RuV2G" title="Sharon Tate YouTube video player" />
+
       <div
       style = {{
         display: 'flex',
@@ -94,7 +98,12 @@ style = {{
       <SubscribeButton />
 
       </div>
-  
+      <div>
+
+<p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign:'center', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
+ </div>
 
      
       <DropCap text="Welcome back to the blog, fellow vintage beauty enthusiasts! We have
@@ -303,7 +312,7 @@ style = {{
   justifyContent: 'center',
 }}
 >
-<img src={image4} alt="Victoria's Secret Fashion Show 2013" style={{ justifyContent:'center',textalign: 'center', maxBlockSize: '800px' ,width: 'auto' }} />
+<img src={ad} alt="Victoria's Secret Fashion Show 2013" style={{ justifyContent:'center',textalign: 'center', maxBlockSize: '800px' ,width: 'auto' }} />
 
 </div>
 
