@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from '../aaa.module.css'; // Import CSS Modules
 import TextReveal from '../../../Components/TextReveal';
+import { Paper } from '@mui/material';
+import RotatingText from '../../../Navigation/AppBar/RotatingText';
 
 // Importing the images
 const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
@@ -72,7 +74,9 @@ const VintageVibes = () => {
   return (
     <div>
       <div><TextReveal text= 'TIME TRAVEL TUTORIALS' /></div>
-     
+      <Paper elevation={3} style={{ padding: '1rem', margin: '1rem 0' }}>
+     <RotatingText />
+     </Paper>
       <ul className={styles.cardList}>
         {cardsData.map((card, index) => (
           <Card

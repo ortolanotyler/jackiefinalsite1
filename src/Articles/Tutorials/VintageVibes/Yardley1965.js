@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, {  useRef } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import '../../ExampleTutorial.css';
 import TextReveal from '../../../Components/TextReveal.js';
@@ -29,23 +29,13 @@ const Card = ({ blogContent }) => {
   );
 };
 
-const modifyAnchorTags = (element) => {
-  const anchors = element.getElementsByTagName('a');
-  for (const anchor of anchors) {
-    anchor.setAttribute('target', '_blank');
-    anchor.setAttribute('rel', 'noopener noreferrer');
-  }
-};
+
 
 const Yardley65 = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
   
-  useEffect(() => {
-    if (blogRef.current) {
-      modifyAnchorTags(blogRef.current);
-    }
-  }, []);
+
 
   const headingStyle = {
     fontSize: '3.25rem',

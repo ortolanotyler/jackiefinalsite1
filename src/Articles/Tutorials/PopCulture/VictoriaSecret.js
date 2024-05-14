@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import '../../ExampleTutorial.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
@@ -24,23 +24,13 @@ const Card = ({ blogContent }) => {
   );
 };
 
-const modifyAnchorTags = (element) => {
-  const anchors = element.getElementsByTagName('a');
-  for (const anchor of anchors) {
-    anchor.setAttribute('target', '_blank');
-    anchor.setAttribute('rel', 'noopener noreferrer');
-  }
-};
+
 
 const VictoriaSecret = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
   
-  useEffect(() => {
-    if (blogRef.current) {
-      modifyAnchorTags(blogRef.current);
-    }
-  }, []);
+
 
   const headingStyle = {
     textAlign: 'center',
@@ -65,7 +55,7 @@ const VictoriaSecret = () => {
     <div className="container" style={{ lineHeight: '2.25em', margin: '15rem', marginTop: '0em' }}>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-          BEAUTY // POP CULTURE
+          BEAUTY // TRENDS // POP CULTURE
         </a>
       </div>
       <img src={Victoria1} alt="Victoria's Secret Fashion Show 2013" style={{ width: '100%' }} />

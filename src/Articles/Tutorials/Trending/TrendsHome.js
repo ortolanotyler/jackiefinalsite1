@@ -1,14 +1,15 @@
 import React from 'react';
 import styles from '../aaa.module.css'; // Import CSS Modules
+import TextReveal from '../../../Components/TextReveal';
+import RotatingText from '../../../Navigation/AppBar/RotatingText';
+import { Paper } from '@mui/material';
 
 // Importing the images
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteThumbnail.jpg`;
 const image5 = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
 const image8 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
-const sophia = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg`;
-const ina = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BALKETHUMBNAIL.jpeg`;
-const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
+const victoria = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
 
 const cardsData = [
 
@@ -42,8 +43,13 @@ const cardsData = [
     title: "Pat McGrath",
     description: "Pat's Porcelain Doll"
   },
-
-
+  {
+    link: "/victoriasecret",
+    image: victoria,
+    alt: "Victoria's Secret fashion show 2014 vibes",
+    title: "Victoria's Secret",
+    description: "2014 vibes are so back",
+  },
 
 
 ];
@@ -69,7 +75,10 @@ const Card = ({ link, image, alt, title, description }) => {
 const TrendsHome = () => {
   return (
     <div>
-     
+     <TextReveal text="TRENDING" />
+     <Paper elevation={3} style={{ padding: '1rem', margin: '1rem 0' }}>
+     <RotatingText />
+     </Paper>
       <ul className={styles.cardList}>
         {cardsData.map((card, index) => (
           <Card

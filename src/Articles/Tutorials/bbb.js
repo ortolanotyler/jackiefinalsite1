@@ -6,9 +6,7 @@ const image2 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteThumb
 const image5 = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
 const image8 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
-const sophia = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg`;
-const ina = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BALKETHUMBNAIL.jpeg`;
-const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
+
 const image17 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
 
 const cardsData = [
@@ -49,27 +47,7 @@ const cardsData = [
     title: "Victoria's Secret",
     description: "2014 vibes are so back",
   },
-  {
-    link: "/sophialoren",
-    image: sophia,
-    alt: "Sophia Loren, the charismatic queen of classic cinema",
-    title: "Sophia Loren",
-    description: "The Charismatic Queen",
-  },
-  {
-    link: "/balkeblog",
-    image: ina,
-    alt: "1960s legend Ina Balke European chic makeup tutorial",
-    title: "60's Legend Ina Balke",
-    description: "European Chique",
-  },
-  {
-    link: "/iconicsharon",
-    image: sharon,
-    alt: "Iconic Sharon Tate makeup tutorial",
-    title: "Sharon Tate II",
-    description: "Part Two",
-  },
+
 ];
 
 const Card = ({ link, image, alt, title, description }) => {

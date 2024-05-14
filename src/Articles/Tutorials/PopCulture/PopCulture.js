@@ -3,6 +3,8 @@ import styles from './aaa.module.css'; // Import CSS Modules
 
 
 import TextReveal from '../../../Components/TextReveal';
+import { Paper } from '@mui/material';
+import RotatingText from '../../../Navigation/AppBar/RotatingText';
 
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
@@ -72,7 +74,9 @@ const PopCulture = () => {
   return (
     <div>
          <div><TextReveal text= 'POP CULTURE OBSESSED' /></div>
-         
+         <Paper elevation={3} style={{ padding: '1rem', margin: '1rem 0' }}>
+     <RotatingText/>
+     </Paper>
     
       <ul className={styles.cardList}>
         {cardsData.map((card, index) => (
