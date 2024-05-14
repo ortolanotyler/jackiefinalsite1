@@ -63,8 +63,7 @@ const Card = ({ link, image, alt, title, description }) => {
           <h2 className={styles.cardDescriptionH2}>{title}</h2>
           <p className={styles.cardDescriptionP}>{description}</p>
         </a>
-        {/* Button added below */}
-        <a href={link} className={styles.readHereBtn}>Read Here</a>
+        {/* Button added below */}        <a href={link} className={styles.readHereBtn}>Read Here</a>
       </div>
     </li>
   );

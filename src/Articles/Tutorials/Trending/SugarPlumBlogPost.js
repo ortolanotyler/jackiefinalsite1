@@ -47,7 +47,7 @@ const SugarPlumBlogPost = () => {
     const blogContent = (
         <div className="container" style={{ lineHeight: '2.5em', maxWidth: '100%', margin: '15rem', padding: '1rem' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '12vh' }}>
-                <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+                <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // TRENDS
                 </a>
             </div>

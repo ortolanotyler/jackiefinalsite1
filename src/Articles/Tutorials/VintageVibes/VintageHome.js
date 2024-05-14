@@ -11,7 +11,7 @@ const loren = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLoren
 const bridal = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEBRIDAL.jpeg`;
 const balke1 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BALKETHUMBNAIL.jpeg`;
 const shrimpton = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg`;
-
+const twiggy = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyMODThumbnail.jpeg`;
 
 const cardsData = [
   {
@@ -47,6 +47,13 @@ const cardsData = [
     image: balke1,
     alt: "1960s legend Ina Balke European chic makeup tutorial",
     title: "Ina Balke",
+    description: "Iconic '60s Makeup how-to"
+  },
+  {
+    link: "/twiggyMOD",
+    image: twiggy,
+    alt: "1960s legend Ina Balke European chic makeup tutorial",
+    title: "Twiggy // MOD Blue",
     description: "Iconic '60s Makeup how-to"
   },
   // Add more card objects as needed

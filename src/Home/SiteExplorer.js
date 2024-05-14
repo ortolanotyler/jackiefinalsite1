@@ -28,7 +28,7 @@ export default function SiteExplorer() {
   const navigate = useNavigate();
 
   return (
-    <Grid container spacing={1} justifyContent="center" sx={{ p: 5 }}>
+    <Grid container spacing={2} justifyContent="center" sx={{ p: 5 }}>
       {cardDetails.map((card, index) => (
         <Grid item xs={12} sm={6} md={4} key={index} sx={{ p: 1 }}>
           <Card

@@ -1,14 +1,21 @@
 import React from 'react';
 import Quiz1 from './Quiz1';
-import { Grid } from '@mui/material';
+import { Grid, Paper } from '@mui/material';
 import TextReveal from '../Components/TextReveal';
+import RotatingText from '../Navigation/AppBar/RotatingText';
 
 const QuizHomepage = () => {
     return (
         <div>
-        
+ 
             <div>
-                <TextReveal text='QUIZ QUEEN' />
+            <TextReveal text='QUIZ QUEEN' />
+            
+                    <Paper elevation={3} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot', padding: '1rem' }}>
+                    <RotatingText />
+                    </Paper>
+               
+                
                 <Grid item xs={12}>
    
         </Grid>

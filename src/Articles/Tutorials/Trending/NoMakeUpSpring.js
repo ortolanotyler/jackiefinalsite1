@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import '../../ExampleTutorial.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
@@ -29,23 +29,13 @@ const Card = ({ blogContent }) => {
   );
 };
 
-const modifyAnchorTags = (element) => {
-  const anchors = element.getElementsByTagName('a');
-  for (const anchor of anchors) {
-    anchor.setAttribute('target', '_blank');
-    anchor.setAttribute('rel', 'noopener noreferrer');
-  }
-};
+
 
 const NoMakeUpSpring = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
   
-  useEffect(() => {
-    if (blogRef.current) {
-      modifyAnchorTags(blogRef.current);
-    }
-  }, []);
+ 
 
   const headingStyle = {
     textAlign: 'center',

@@ -11,11 +11,12 @@ import TextReveal from '../Components/TextReveal';
 import QuoteBanner from './QuoteBanner2';
 import ContactForm from './ContactForm';
 import BrandCarousel from '../Components/BrandCarousel/BrandCarousel';
-import { Grid } from '@mui/material';
+import { Grid, Paper } from '@mui/material';
 import PageLines from '../Components/PageBreakUpLines';
 import MediaSplitComponent from './MediaSplitComponent';
 import MediaSplitComponentTwo from './MediaSplitComponentTwo';
 import MediaSplitComponentThree from './MediaSplitComponentThree';
+import RotatingText from '../Navigation/AppBar/RotatingText';
 
 // Images imported dynamically from the public folder using process.env.PUBLIC_URL
 const AboutEmily = `${process.env.PUBLIC_URL}/Images/About/JackieAboutMe1.jpg`;
@@ -25,15 +26,18 @@ const leftImage = `${process.env.PUBLIC_URL}/Images/About/AboutJackie.jpg`;
 
 const About = () => {
   return (
+    
     <Grid container spacing={0} className={styles['about-container']}>
 
       <Grid item xs={12}>
     <TextReveal text='MEET JACKIE'  />
+    <Paper elevation={3} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', padding : '1rem', marginBottom: '1rem' }}>
+      <RotatingText />
+    </Paper>
+
       </Grid>
  
-      <Grid item xs={12}>
-       
-      </Grid>
+    
       <Grid item xs={12} md={6} className={styles['about-text-section']}>
         <p style={{ fontFamily: 'GFS Didot, serif', color: '#745B4F' }} className={styles['about-left-text']}>
         Hello, beauties! I'm Jackie Wyers, and my YouTube beauty journey started back in my teens (it’s been a minute!) I specialize in creating tutorials that blend the nostalgia of pop culture with vintage beauty and the latest trends. It's been an incredible ride growing up together online, reminiscing about iconic pop culture moments, and staying updated with new beauty trends, products, and today's pop culture. As a professionally trained MUA with a love of character design, I believe discovering your unique style is a significant source of confidence. Life's too short not to experiment. Join me in celebrating pop culture, trends, and beauty techniques that empower you to recreate iconic looks and find your best makeup style. Ready to switch up your style with confidence? 

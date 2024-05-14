@@ -8,17 +8,17 @@ const image8 = `${process.env.PUBLIC_URL}/Images/Home/VictoriaSecret.jpg`;
 const shrimpton = `${process.env.PUBLIC_URL}/Images/Home/JeanShrimptonThumbnail.jpg`;
 const nomakeup = `${process.env.PUBLIC_URL}/Images/Home/nomakeupthumbnail.jpg`;
 const grace = `${process.env.PUBLIC_URL}/Images/Home/GraceKellyJackieWyers.jpg`;
+const twiggy = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyMODThumbnail.jpeg`;
 
 const cardsData = [
 
 
-  { link: "/nomakeupspring", image: nomakeup, alt: "Warm and cozy latte-inspired fall makeup look", title: "No-Makeup Makeup" },
+  { link: "/nomakeupspring", image: nomakeup, alt: "Warm and cozy latte-inspired fall makeup look", title: "No-Makeup Spring 🌸" },
   { link: "/gracekelly", image: grace, alt: "Warm and cozy latte-inspired fall meup look", title: "Grace's Hollywood Glam" },
     { link: "/victoriasecret", image: image8, alt: "Victoria's Secret fashion show 2014 vibes", title: "Victoria's Secret" },
     { link: "/lanablog", image: image6, alt: "SKIMS collaboration with Lana for Valentine's Day makeup", title: "SKIMS X Lana" },
-    { link: "/latteMakeup", image: image2, alt: "Warm and cozy latte-inspired fall makeup look", title: "Latte Makeup" },
     { link: "/yardley1965", image: shrimpton, alt: "latte-inspired fall makeup look", title: "Jean Shrimpton" },
-
+    { link: "/twiggy", image: twiggy, alt: "Twiggy", title: "Twiggy / MOD Blue" },
 
 ];
 
