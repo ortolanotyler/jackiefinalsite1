@@ -86,7 +86,7 @@
 
 .cardDescriptionHover,
 .cardDescriptionFocus {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .readHereBtn {

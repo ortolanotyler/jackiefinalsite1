@@ -40,7 +40,6 @@
 }
 
 .card {
-    font-family: 'GFS Didot', serif;
     background-color: white;
     max-width: 550px;
     font-size: 0.75em;
@@ -87,7 +86,7 @@
 
 .cardDescriptionHover,
 .cardDescriptionFocus {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .readHereBtn {
