@@ -4,19 +4,27 @@ import styles from './aaa.module.css'; // Import CSS Modules
 
 import TextReveal from '../../../Components/TextReveal';
 
-const image2 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteThumbnail.jpg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
-const image5 = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
 const image7 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
+const image9 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/MARGOTBARBIETHUMBNAIL.png`;
+const nomakeup = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
 
 const cardsData = [
   {
-    link: "/latteMakeup",
-    image: image2,
-    alt: "Latte",
-    title: "Latte Makeup",
-    description: "Think warm, cozy, fall!"
+    link: "/nomakeupspring",
+    image: nomakeup,
+    alt: "Warm and cozy latte-inspired fall makeup look",
+    title: "No Makeup Makeup - Spring Edition",
+    description: "Think warm, cozy, fall!",
+  },
+  
+  {
+    link: "/margotbarbie",
+    image: image9,
+    alt: "Margot Robbie Barbie Movie",
+    title: "Margot as Barbie",
+    description: "2014 vibes are so back"
   },
   {
     link: "/patmcgrath",
@@ -25,13 +33,7 @@ const cardsData = [
     title: "Pat McGrath",
     description: "Pat's Porcelain Doll"
   },
-  {
-    link: "/sugarplumfairy",
-    image: image5,
-    alt: "Sugar Plum",
-    title: "Sugar Plum Fairy",
-    description: "Trend Report"
-  },
+
   {
     link: "/lanablog",
     image: image7,

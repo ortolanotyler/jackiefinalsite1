@@ -37,9 +37,9 @@ const shopOptions = [
 
 const tutorialOptions = [
   { name: 'View All', path: '/tutorials' },
-  { name: 'Trending Now', path: '/tutorials' },
+  { name: 'Trending Now', path: '/trends' },
   { name: 'Pop Culture', path: '/popculture' },
-  { name: 'Time Travel Tutorials', path: '/vintagevibes' },
+  { name: 'Time Travel Tutorials', path: '/timetraveltutorials' },
   { name: 'All About Hair', path: '/hair' },
 ];
 

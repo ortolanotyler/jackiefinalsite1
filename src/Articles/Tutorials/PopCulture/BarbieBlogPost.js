@@ -1,20 +1,19 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 
 import { Comments } from '@hyvor/hyvor-talk-react';
 import '../../ExampleTutorial.css';
 import TextReveal from '../../../Components/TextReveal';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import modifyanchortags from '../../../Utilities/modifyanchortags';
 
 
 
-const Barbie1 = `${process.env.PUBLIC_URL}/Images/Barbie1.png`;
-const Barbie2 = `${process.env.PUBLIC_URL}/Images/Barbie2.png`;
-const Barbie3 = `${process.env.PUBLIC_URL}/Images/Barbie3.jpg`;
-const Barbie4 = `${process.env.PUBLIC_URL}/Images/Barbie4.png`;
+const Barbie1 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/BarbieTitle.png`;
+const Barbie2 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/Barbie2.JPG`;
+const Barbie3 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/Barbie3.jpeg`;
+const Barbie4 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/BarbieFaceChart.jpg`;
 
-const Signature = `${process.env.PUBLIC_URL}/Images/Signature.png`;
+const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 
 
@@ -23,7 +22,7 @@ const Card = ({ blogContent }) => {
     return (
         <div>
             <div><TextReveal text='POP CULTURE OBSESSED'/></div>
-            <div className="card" style={{ marginTop: '0rem', maxWidth: '100%' , display: 'center', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+            <div className="card" style={{ marginTop: '1rem', maxWidth: '100%' , display: 'center', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
                 <div className="blog-content" style={{ lineHeight: '1.2' }}>{blogContent}</div>
             </div>
         </div>
@@ -35,16 +34,14 @@ const BarbieBlog = () => {
     const websiteId = "10910";
     const blogRef = useRef(null);
   
-    useEffect(() => {
-      modifyanchortags(blogRef.current);
-    }, []);
+ 
 
     const blogContent = (
         <div className="container" style={{ 
             lineHeight: '2.25em',
 
             maxWidth: '100%', 
-        margin: '20em',
+        margin: '15rem',
        
   
            }}>

@@ -1,29 +1,19 @@
 import React from 'react';
 import styles from '../aaa.module.css'; // Import CSS Modules
-import { Paper } from '@mui/material';
-import TextReveal from '../../../Components/TextReveal';
-import RotatingText from '../../../Navigation/AppBar/RotatingText';
 
 // Importing the images
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteThumbnail.jpg`;
 const image5 = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
-const image8 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
+const image8 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
 const sophia = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg`;
 const ina = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BALKETHUMBNAIL.jpeg`;
 const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
-const nomakeup = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
 
 const cardsData = [
 
 
-  {
-    link: "/nomakeupspring",
-    image: nomakeup,
-    alt: "Warm and cozy latte-inspired fall makeup look",
-    title: "No Makeup Makeup - Spring Edition",
-    description: "Think warm, cozy, fall!",
-  },
+
   {
     link: "/latteMakeup",
     image: image2,
@@ -46,33 +36,16 @@ const cardsData = [
     description: "V-Day Makeup",
   },
   {
-    link: "/victoriasecret",
+    link: "/patmcgrath",
     image: image8,
-    alt: "Victoria's Secret fashion show 2014 vibes",
-    title: "Victoria's Secret",
-    description: "2014 vibes are so back",
+    alt: "Pat McGrath",
+    title: "Pat McGrath",
+    description: "Pat's Porcelain Doll"
   },
-  {
-    link: "/sophialoren",
-    image: sophia,
-    alt: "Sophia Loren, the charismatic queen of classic cinema",
-    title: "Sophia Loren",
-    description: "The Charismatic Queen",
-  },
-  {
-    link: "/balkeblog",
-    image: ina,
-    alt: "1960s legend Ina Balke European chic makeup tutorial",
-    title: "60's Legend Ina Balke",
-    description: "European Chique",
-  },
-  {
-    link: "/iconicsharon",
-    image: sharon,
-    alt: "Iconic Sharon Tate makeup tutorial",
-    title: "Sharon Tate II",
-    description: "Part Two",
-  },
+
+
+
+
 ];
 
 const Card = ({ link, image, alt, title, description }) => {

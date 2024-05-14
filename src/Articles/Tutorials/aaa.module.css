@@ -40,6 +40,7 @@
 }
 
 .card {
+    text-decoration: none;
     background-color: white;
     max-width: 550px;
     font-size: 0.75em;

@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import '../../ExampleTutorial.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import modifyanchortags from '../../../Utilities/modifyanchortags';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import TextReveal from '../../../Components/TextReveal';
@@ -35,10 +34,7 @@ const Card = ({ blogContent }) => {
 
 const LanaBlog = () => {
     const blogRef = useRef(null);
-  
-    useEffect(() => {
-      modifyanchortags(blogRef.current);
-    }, []);
+
     const websiteId = "10910"; 
 
     const blogContent = (

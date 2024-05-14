@@ -6,6 +6,7 @@ const image2 = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLore
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEBRIDAL.jpeg`;
 const balke = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BALKETHUMBNAIL.jpeg`;
 const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
+const shrimpton = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg`;
 
 const cardsData = [
   {
@@ -16,24 +17,31 @@ const cardsData = [
     description: "Get the look",
   },
   {
-    link: "/sharontate",
+    link: "/sharontatebridal",
     image: image3,
     alt: "Sharon Tate",
-    title: "Sharon Tate",
+    title: "Sharon Tate 60's Bridal",
     description: "60's Bridal Tutorial",
-  },
-  {
-    link: "/balkeblog",
-    image: balke,
-    alt: "Ina Balke 60's Iconic Tutorial",
-    title: "Ina Balke",
-    description: "60's European Chique",
   },
   {
     link: "/iconicsharon",
     image: sharon,
     alt: "1960s legend Ina Balke European chic makeup tutorial",
     title: "Sharon Tate Part II",
+    description: "Part Two of the iconic series",
+  },
+  {
+    link: "/balkeblog",
+    image: balke,
+    alt: "1960s legend Ina Balke European chic makeup tutorial",
+    title: "Ina Balke - Germany's Starlet",
+    description: "Part Two of the iconic series",
+  },
+  {
+    link: "/yardley1965",
+    image: shrimpton,
+    alt: "1960s legend Ina Balke European chic makeup tutorial",
+    title: "Jean Shrimpton - Yardley 1965",
     description: "Part Two of the iconic series",
   },
   // Add more card objects as needed...
