@@ -7,17 +7,17 @@ import modifyanchortags from '../../Utilities/modifyanchortags';
 import TextReveal from '../../Components/TextReveal';
 
 const video = `${process.env.PUBLIC_URL}/Videos/1ArcadiaEarth.MOV`;
-const MontTop = `${process.env.PUBLIC_URL}/Images/MontTremblant/MontTop1.png`;
-const tremblant1 = `${process.env.PUBLIC_URL}/Images/MontTremblant/tremblant1.png`;
-const tremblant2 = `${process.env.PUBLIC_URL}/Images/MontTremblant/tremblant2.png`;
-const tremblant3 = `${process.env.PUBLIC_URL}/Images/MontTremblant/tremblant3.png`;
-const tremblant4 = `${process.env.PUBLIC_URL}/Images/MontTremblant/tremblant4.png`;
-const tremblant5 = `${process.env.PUBLIC_URL}/Images/MontTremblant/tremblant5.png`;
-const tremblant6 = `${process.env.PUBLIC_URL}/Images/MontTremblant/tremblant6.png`;
-const tremblant7 = `${process.env.PUBLIC_URL}/Images/MontTremblant/tremblant7.png`;
-const tremblant8 = `${process.env.PUBLIC_URL}/Images/MontTremblant/tremblant8.png`;
+const MontTop = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblanttitle.png`;
+const tremblant1 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant1.png`;
+const tremblant2 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant2.png`;
+const tremblant3 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant3.png`;
+const tremblant4 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant4.png`;
+const tremblant5 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant5.png`;
+const tremblant6 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant6.png`;
+const tremblant7 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant7.png`;
+const tremblant8 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant8.png`;
 
-const signature = `${process.env.PUBLIC_URL}/Images/Signature.png`;
+const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
     <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>

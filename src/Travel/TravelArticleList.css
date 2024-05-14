@@ -1,19 +1,21 @@
 /* Add this to the CSS file that styles the list */
 .article-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(1000px, 1fr)); /* Adjusted min width */
-  grid-gap: 1.5rem; /* Reduced gap between cards */
+
+  grid-template-columns: repeat(auto-fill, minmax(500px, 2fr)); /* Adjusted min width */
+  grid-gap: 1rem; /* Reduced gap between cards */
   justify-content: center; /* Center the cards horizontally */
   width: 100%; /* Adjust as needed */
-  max-width: 1200px; /* Max width for the overall list */
+  max-width: 1000px; /* Max width for the overall list */
   margin: auto; /* Auto margins for centering */
-  padding: 2rem; /* Padding around the list */
+  padding: 1rem; /* Padding around the list */
   overflow-y: auto; /* Allows for scrolling */
 }
 
 @media (max-width: 1024px) {
   .article-list {
     padding: 1.5rem; /* Adjusted padding for screens around 1024px */
+    max-width: 800px;
   }
 }
 
@@ -22,6 +24,7 @@
     grid-template-columns: 1fr; /* Change to single column layout */
     grid-gap: 1rem; /* Adjust the gap between cards */
     padding: 1rem; /* Adjust padding */
+    max-width: 600px;
   }
 }
 
@@ -38,7 +41,7 @@
   background-color: #fff;
   border-radius: 1px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
+  padding: 1rem;
   transition: box-shadow 0.3s ease;
 }
 

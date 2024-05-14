@@ -1,72 +1,74 @@
 /* TravelArticleCard.css */
 .article-card-review {
-    font-family: "GFS Didot", sans-serif;
-    
-    padding: 1.5rem;
-    border : 2px solid #fdedef;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: auto;
-    background-color: white;
-    transition: transform 0.9s;
-    overflow: hidden;
-  }
-  
-  .article-card:hover {
-    transform: translateY(-.25rem);
-  }
-  
-  .article-image-review {
-    width: 100%;
-    box-shadow: none !important;
-    max-block-size: 500px;
-    object-fit: cover;
-  
-  }
-  
-  .article-content {
-  
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .article-date {
-    font-family: "GFS Didot", sans-serif;
-    font-size: 1.75rem;
-    text-align: center;
-    margin-bottom: 1.25rem; /* Increased space below the date */
-    color: black; /* Updated color */
-  }
-  
-  .article-title {
-    font-family: "GFS Didot", sans-serif;
-    font-size: 2.75rem; /* Slightly larger text for title */
-    color:  #745B4F; /* Updated color */
-    margin-bottom: 1rem; /* Increased space below the date */
-  
-  }
-  
-  
-  .read-more {
-    font-family: "GFS Didot", sans-serif;
-    font-size: 1rem;
-    padding: 1rem 1.5rem; /* More prominent button */
-    cursor: pointer;
-    border: none;
-    border-radius: 1rem;
-    background-color: black; /* Updated color */
-    color: #fff;
-    transition: background-color 0.5s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Add box shadow */
-  
-  }
-  
-  
-  .read-more:hover {
-    background-color: darken(#745B4F, 50%); /* Darker on hover, you might need to adjust the color manually if darken() function is not available */
-  }
-  
+  font-family: "GFS Didot", sans-serif;
+
+  padding: 5rem;
+  border-radius: '1px';
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+  border: 5px solid #fdedef;
+  background-color: #fff;
+  transition: transform 0.1s;
+  overflow: hidden;
+}
+
+.article-card:hover {
+  transform: translateY(-.25rem);
+}
+
+.article-image-review {
+ 
+  box-shadow: none !important;
+  width: 53%;
+  height: auto;
+  object-fit: cover;
+
+}
+
+.article-content {
+  margin: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.article-date {
+  font-family: "GFS Didot", sans-serif;
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 1.25rem; /* Increased space below the date */
+  color: black; /* Updated color */
+}
+
+.article-title {
+  font-family: "GFS Didot", sans-serif;
+  font-size: 1.75rem; /* Slightly larger text for title */
+  color:  #745B4F; /* Updated color */
+  margin-bottom: 1rem; /* Increased space below the date */
+
+}
+
+
+.read-more {
+  font-family: "GFS Didot", sans-serif;
+  font-size: 0.95rem;
+  padding: 1rem 1.5rem; /* More prominent button */
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: black; /* Updated color */
+  color: #fff;
+  transition: background-color 0.5s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow */
+
+}
+
+
+.read-more:hover {
+  background-color: darken(#745B4F, 50%); /* Darker on hover, you might need to adjust the color manually if darken() function is not available */
+}

@@ -2,16 +2,16 @@
 .article-card {
     font-family: "GFS Didot", sans-serif;
   
-    padding: 10rem;
+    padding: 5rem;
     border-radius: '1px';
     display: flex;
     flex-direction: row;
     align-items: center;
     max-width: 100%;
     max-height: 100%;
-    border: 1rem solid #fdedef;
+    border: 5px solid #fdedef;
     background-color: #fff;
-    transition: transform 0.9s;
+    transition: transform 0.1s;
     overflow: hidden;
   }
   

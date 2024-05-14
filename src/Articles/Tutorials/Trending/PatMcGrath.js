@@ -4,7 +4,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import TextReveal from '../../../Components/TextReveal';
-import modifyanchortags from '../../../Utilities/modifyanchortags';
 
 
 const Pat1 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathTitle.png`;
@@ -26,9 +25,7 @@ const Card = ({ blogContent }) => (
 
     const blogRef = useRef(null);
 
-    useEffect(() => {
-        modifyanchortags(blogRef.current);
-    }, []);
+ 
 
     const blogContent = (
         <div className="container" style={{ lineHeight: '2.25em', maxWidth: '100%', margin: '20rem', marginTop: '0em' }}>

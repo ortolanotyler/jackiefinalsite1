@@ -35,7 +35,7 @@ export default function SiteExplorer() {
             onMouseEnter={() => setHoverIndex(index)}
             onMouseLeave={() => setHoverIndex(-1)}
             sx={{
-              height: { xs: 250, sm: 500, md: 550 }, // Adjust height based on screen size
+              height: { xs: 250, md: 550 }, // Adjust height based on screen size
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'space-between',

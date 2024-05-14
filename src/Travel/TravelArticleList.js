@@ -3,10 +3,10 @@ import ReviewArticleCard from './TravelArticleCard';
 import "../Travel/TravelArticleList.css";
 import TravelArticleCard from './TravelArticleCard';
 
-const image1 = `${process.env.PUBLIC_URL}/Images/Disney1Thumbnail.png`;
-const image2 = `${process.env.PUBLIC_URL}/Images/Disney2/DisneyThumbNail.jpeg`;
-const image3 = `${process.env.PUBLIC_URL}/Images/MontThumbnail.jpg`;
-const hotelQ = `${process.env.PUBLIC_URL}/Images/QThumbnail.jpeg`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/BEACHCLUBTHUMBNAIL.jpg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/EPCOTTHUMBNAIL.jpeg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/TREMBLANTTHUMBNAIL.jpeg`;
+const hotelQ = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/HOTELQTHUMBNAIL.jpeg`;
 const articles = [
     {
         date: '04/15/2024',

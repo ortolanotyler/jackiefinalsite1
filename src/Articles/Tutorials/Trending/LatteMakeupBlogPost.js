@@ -4,7 +4,6 @@ import React, { useEffect, useRef, useState } from 'react';
 import '../../ExampleTutorial.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
-import modifyanchortags from '../../../Utilities/modifyanchortags';
 import TextReveal from '../../../Components/TextReveal';
 import DropCap from '../../../Components/DropCap';
 const Latte1 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteTitle.png`;
@@ -28,7 +27,6 @@ const LatteMakeupBlogPost = () => {
     const [allowScrolling, setAllowScrolling] = useState(false);
 
     useEffect(() => {
-        modifyanchortags(blogRef.current);
         const handleResize = () => {
             setAllowScrolling(window.innerWidth <= 1200);
         };
