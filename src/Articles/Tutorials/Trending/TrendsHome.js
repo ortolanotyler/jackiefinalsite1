@@ -4,15 +4,23 @@ import TextReveal from '../../../Components/TextReveal';
 import RotatingText from '../../../Navigation/AppBar/RotatingText';
 import { Paper } from '@mui/material';
 
+
 // Importing the images
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteThumbnail.jpg`;
 const image5 = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
 const image8 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
 const victoria = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
+const makeup2016 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016MakeupThumbnail.jpg`;
 
 const cardsData = [
-
+  {
+    link: "/2016Makeup",
+    image: makeup2016,
+    alt: "Victoria's Secret fashion show 2014 vibes",
+    title: "2016 Makeup Inspo!",
+    description: "2014 vibes are so back",
+  },
 
 
   {
@@ -50,6 +58,7 @@ const cardsData = [
     title: "Victoria's Secret",
     description: "2014 vibes are so back",
   },
+
 
 
 ];

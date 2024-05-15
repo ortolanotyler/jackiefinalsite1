@@ -117,13 +117,6 @@ contour for her high cheekbones using two shades
 of blush, full, arched brows and classic red lips. Let’s
 get the starlet’s look!</p>
 
-
-
-<ResponsiveIframe src="https://shopmy.us/collections/public/524557?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-
-<p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', maxWidth: '100%', marginLeft: '0em' }}>
-                CONTAINS: AFFILIATE LINKS
-            </p>
       <h2 style={headingStyle}>
         
         Radiant, Flawless Base
@@ -431,7 +424,9 @@ see you switch up your style with confidence.  </p>
       (Another article linked here for more pop culture)      </p>
      
   
-      <img src={signature} alt="Victoria's Secret Fashion Show 2013" style={{ width: '100%' }} />
+      <img src={signature} alt="Victoria's Secret Fashion Show 2013" style={{ 
+        width: '100%',
+        }} />
 
   
     </div>

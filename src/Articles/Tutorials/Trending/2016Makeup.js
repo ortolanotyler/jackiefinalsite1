@@ -1,10 +1,10 @@
-import React, {  useRef } from 'react';
+import React, { useRef } from 'react';
 import '../../ExampleTutorial.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import TextReveal from '../../../Components/TextReveal';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
+import TextReveal from '../../../Components/TextReveal';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016Title.png`;
@@ -16,12 +16,13 @@ const image4 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016-Perrie.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 
+
 const Card = ({ blogContent }) => {
   return (
     <div>
-      <div><TextReveal text='THROWBACK TRENDS'/></div>
+      <div><TextReveal text='POP CULTURE OBSESSED'/></div>
       <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-        <div className="blog-content" style={{ lineHeight: '1.5' }}>{blogContent}</div>
+        <div className="blog-content" style={{ lineHeight: '1.2' }}>{blogContent}</div>
       </div>
     </div>
   );
@@ -33,31 +34,31 @@ const Makeup2016 = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
   
-
+ 
 
   const headingStyle = {
-    textAlign : 'center',
+    textAlign: 'center',
     fontSize: '3rem',
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',
-    margin: '3.5rem',
-    marginTop: '2rem', 
-    marginBottom: '2rem'
+    margin:'2rem'
   };
 
   const paragraphStyle = {
-    fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '15rem', maxWidth: '100%', marginTop: '1rem', marginBottom: '2.5rem', lineHeight:'1.75em'
-
+    fontSize: '1.5rem', fontFamily: 'GFS Didot, serif',  marginTop: '1px',margin: '2rem', maxWidth: '100%',padding: '1rem',
   }
 
   const blogContent = (
-    <div className="container" style={{ lineHeight: '2.25rem', margin: '15rem', marginTop: '10px' }}>
+    <div className="container" style={{ lineHeight: '2.5em', margin: '20rem', marginTop: '25px' }}>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-        <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-          BEAUTY // TRENDS // TIME TRAVEL TUTORIALS
+        <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+          BEAUTY // TRENDS // POP CULTURE
         </a>
       </div>
+   
+         
+        
 
    
         <div

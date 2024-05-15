@@ -6,12 +6,12 @@ const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/BEACH
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/EPCOTTHUMBNAIL.jpeg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/TREMBLANTTHUMBNAIL.jpeg`;
 const hotelQ = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/HOTELQTHUMBNAIL.jpeg`;
-const maui = `${process.env.PUBLIC_URL}/Images/Articles/Maui/MAUITHUMBNAIL.jpg`;
+const maui = `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUITHUMBNAIL.jpg`;
 const westgate = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATETHUMBNAIL.jpg`;
 const articles = [
     {
         date: '04/15/2024',
-        title: 'ANDAZ MAUI AT MAILEA RESORT REVIEW',
+        title: 'Andaz Maui at Mailea Resort Review',
         image: maui,
         path: '/andazmaui',
     },
