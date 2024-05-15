@@ -7,7 +7,32 @@ import TextReveal from '../../Components/TextReveal';
 import DropCap from '../../Components/DropCap';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/hotelQtitle.png`;
-const tremblant1 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant1.png`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/1.jpg`;
+
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/2.jpg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/3.jpg`;
+const image4 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/4.JPG`;
+
+const image5 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/5.jpg`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/6.jpg`;
+const image7 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/7.jpg`;
+const image8 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/8.jpeg`;
+const image9 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/9.jpg`;
+const image10 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/10.jpg`;
+const image11 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/11.jpg`;
+const image12 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/12.jpg`;
+const image13 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/13.jpeg`;
+const image14 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/14.jpeg`;
+const image15 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/15.jpg`;
+const image16 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/16.jpg`;
+const image17 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/17.jpg`;
+const image18 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/18.JPG`;
+const image19 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/19.jpg`;
+const image20 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/20.JPG`;
+const image21 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/21.jpg`;
+
+
+
 
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
@@ -35,13 +60,13 @@ const HotelQ = () => {
       }
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.25em', maxWidth: '100vw', justifyContent: 'center', margin : '20rem'}}>
+        <div className="container" style={{ lineHeight: '2.25em', maxWidth: '100%', justifyContent: 'center', margin : '10rem'}}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // CANADA // MONT-TREMBLANT
                 </a>
             </div>
-            <img src={title} alt="Mont Tremblant Top View" style={{ width: '100%' }} />
+            <img src={title} alt="Hotel Quintessance Review Title" style={{ width: '100%' }} />
             <iframe width="100%" height="515" src="https://www.youtube.com/embed/4lDCreVFqAw?si=0X5e_MzsoCeTGhxM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
            <div
            style = {{
@@ -59,13 +84,21 @@ const HotelQ = () => {
 Quintessence in Mont Tremblant, Quebec, craving a blend of adventure
 and relaxation. Nestled beside the sparkling Lake Tremblant and a stone's
 throw from the vibrant ski village, this luxurious boutique hotel promised a
-serene getaway in the heart of Quebec's natural beauty. If you want to read
+serene getaway in the heart of Quebec's natural beauty. " />
+
+<p style={ paragraphStyle} > 
+
+
+If you want to read
 about the best slopes, Mont-Tremblant Pedestrian Village shops and food,
-read my blog post here sharing my overall experience." />
-            
+read my blog post  <a href="/tremblant" target="_blank" rel="noopener noreferrer">
+here
+</a> sharing my overall experience.
+            </p>
     
 
-      
+      <img src={image1} alt="Hotel Quintessance" style={{ padding: '2rem',justifyContent: 'center',maxBlockSize: '600px%' }} />
+
 <h2 style={headingStyle}>
  First Impressions and Ambiance
 </h2>
@@ -91,6 +124,13 @@ for tipping is a good tip for this hotel, as the staff is quite enthusiastic abo
 assisting with luggage and parking.
 </p>
 
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+    <img src={image4} alt="Hotel Quintessance" style={{ padding: '5rem', justifyContent: 'center',maxBlockSize: '600px' }} />
+    <img src={image2} alt="Hotel Quintessance" style={{ padding: '1rem', justifyContent: 'center',maxBlockSize: '600px' }} />
+    <img src={image3} alt="Hotel Quintessance" style={{ padding: '5rem', justifyContent: 'center',maxBlockSize: '600px' }} />
+</div>
+
+
 <h2 style={headingStyle}>
 ☕ Room Options and Accommodations
 </h2>
@@ -115,8 +155,13 @@ indulgence continued with a plush king-sized bed and a lavish bathroom,
 which included a soaking tub equipped with jets—the perfect complement
 to a day spent in the crisp mountain air. And the complimentary chocolates?
 Delicious.
-
 </p>
+
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+    <img src={image5} alt="Hotel Quintessance" style={{ padding: '5rem', justifyContent: 'center',maxBlockSize: '600px' }} />
+    <img src={image6} alt="Hotel Quintessance" style={{ padding: '1rem', justifyContent: 'center',maxBlockSize: '600px' }} />
+    <img src={image7} alt="Hotel Quintessance" style={{ padding: '5rem', justifyContent: 'center',maxBlockSize: '600px' }} />
+</div>
 
 <h2 style={headingStyle}>
 💵 Cost Considerations: Pros and Cons
@@ -128,12 +173,29 @@ Indulgence at a Price:
 Hotel Quintessence is among the more expensive options compared to
 other hotels in the area. Since rates vary with the seasons, it's best to check
 booking platforms for current prices. During our visit at the end of the ski
-season, the rate was $600 CAD per night after taxes. Staying here is about
+season, the rate was $600 CAD per night after taxes. 
+</p>
+
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+    <img src={image11} alt="Hotel Quintessance" style={{ padding: '2.5rem', justifyContent: 'center',maxBlockSize: '600px' }} />
+    <img src={image12} alt="Hotel Quintessance" style={{ padding: '2.5rem', justifyContent: 'center',maxBlockSize: '600px' }} />
+</div>
+
+<p style={ paragraphStyle} >
+Staying here is about
 more than just a place to sleep; it's about enjoying an exclusive and upscale
 environment, complete with a tranquil pool and jacuzzi, stunning views, and
 a convenient location just a short walk or shuttle to the village. For our brief
 trip, we decided to treat ourselves to this luxurious experience.
 </p>
+
+
+
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+    <img src={image8} alt="Hotel Quintessance" style={{ padding: '5rem', justifyContent: 'center',maxBlockSize: '600px' }} />
+    <img src={image9} alt="Hotel Quintessance" style={{ padding: '1rem', justifyContent: 'center',maxBlockSize: '600px' }} />
+    <img src={image10} alt="Hotel Quintessance" style={{ padding: '5rem', justifyContent: 'center',maxBlockSize: '600px' }} />
+</div>
 
 <p style={ paragraphStyle} >
 For those planning a longer stay, there might be more budget-friendly
@@ -143,6 +205,12 @@ Hotel Quintessence provided tremendous value, making our anniversary
 celebration all the more special. Plus, as someone who creates content with
 a focus on aesthetics, the hotel’s setting was absolutely ideal.
 </p>
+
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+    <img src={image13} alt="Hotel Quintessance" style={{ padding: '5rem', justifyContent: 'center',maxBlockSize: '600px' }} />
+    <img src={image14} alt="Hotel Quintessance" style={{ padding: '1rem', justifyContent: 'center',maxBlockSize: '600px' }} />
+    <img src={image15} alt="Hotel Quintessance" style={{ padding: '5rem', justifyContent: 'center',maxBlockSize: '600px' }} />
+</div>
 
 <h2 style={headingStyle}>
 🛥 Amenities and Dining
@@ -165,6 +233,11 @@ like manicures, pedicures, facials, and body treatments.
 A massage therapist offers massages either at our spa or in the comfort of
 your suite by your fireplace! 🔥
 </p>
+
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+    <img src={image16} alt="Hotel Quintessance" style={{ padding: '5rem', justifyContent: 'center',maxBlockSize: '800px', width: 'auto' }} />
+    <img src={image17} alt="Hotel Quintessance" style={{ padding: '5rem', justifyContent: 'center',maxBlockSize: '800px' , width: 'auto'}} />
+</div>
 
 
 <h2 style={headingStyle}>
@@ -218,8 +291,14 @@ away, as previously mentioned.
           <p style={ paragraphStyle} >
           There is a valet service and shuttle to the mountain and a storage service
 for skis, bikes, golf clubs, etc., depending on the time of year. Read more
-about our winter experience in the Mont Tremblant Village here.
-          </p>
+about our winter experience in the Mont Tremblant Village  <a href='/tremblant' target='_blank' rel="noopener noreferrer">here</a>.
+</p>
+ 
+
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+    <img src={image18} alt="Hotel Quintessance" style={{ padding: '2.5rem', justifyContent: 'center',maxBlockSize: '600px', width: 'auto' }} />
+    <img src={image19} alt="Hotel Quintessance" style={{ padding: 'rem', justifyContent: 'center',maxBlockSize: '600px', width: 'auto'}} />
+</div>
 
 
 

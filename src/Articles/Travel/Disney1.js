@@ -65,7 +65,7 @@ const Card = ({ blogContent }) => {
     );
 };
 
-const Disney1Post = () => {
+const Disney2Post = () => {
 
     const websiteId = "10910"; 
     const blogRef = useRef(null);
@@ -499,4 +499,4 @@ magic!</p>
     );
 };
 
-export default Disney1Post;
+export default Disney2Post;

@@ -75,8 +75,8 @@ function App() {
         <Route path="/lanablog" element={<LanaBlog/>} />
         <Route path="/hotelQ" element={<HotelQ/>} />
         <Route path="/gracekelly" element={<GraceKelly/>} />
-        <Route path="/disneybeachclubresort" element={<Disney1Post/>} />
         <Route path="/epcot" element={<Disney2Post/>} />
+        <Route path="/disneybeachclubresort" element={<Disney1Post/>} />
         <Route path="/margotbarbie" element={<BarbieBlog/>} />
         <Route path="/balkeblog" element={<BalkeBlog/>} />
         <Route path="/2016Makeup" element={<Makeup2016/>} />

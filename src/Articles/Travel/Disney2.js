@@ -7,28 +7,32 @@ import SubscribeVlog from '../../Components/SubscribeVlog';
 import TextReveal from '../../Components/TextReveal';
 
 
+const title = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcottitle.png`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot2.png`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot3.png`;
+const image4 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot4.png`;
+const image5 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot5.png`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot6.png`;
+const image7 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot7.png`;
+const image8 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot8.png`;
+
+const image9 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot9.png`;
+const image10 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot10.png`;
+const image11 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot11.png`;
+const image12 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot12.png`;
+const image13 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot13.png`;
+const image14 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot14.png`;
+const image15 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot15.png`;
+const image16 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot16.png`;
+const image17 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot17.png`;
+const image18 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot18.png`;
+const image19 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot19.png`;
 
 
-const image1 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot1.png`;
-const image2 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot2.png`;
-const image3 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot3.png`;
-const image4 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot4.png`;
-const image5 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot5.png`;
-const image6 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot6.png`;
-const image7 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot7.png`;
-const image8 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot8.png`;
-const image9 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot9.png`;
-const image10 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot10.png`;
-const image11 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot11.png`;
-const image12 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot12.png`;
-const image13 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot13.png`;
-const image14 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot14.png`;
-const image15 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot15.png`;
-const image16 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot16.png`;
-const image17 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot17.png`;
-const image18 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot18.png`;
-const image19 = `${process.env.PUBLIC_URL}/Images/Disney2/epcot19.png`;
-const signature = `${process.env.PUBLIC_URL}/Images/Signature.png`;
+
+
+
+const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 
 
@@ -64,7 +68,7 @@ const Disney2Post = () => {
     const blogContent = (
         <div className="container" style={{ 
             lineHeight: '2.25em',
-            margin: '20em',
+            margin: '15rem',
             maxWidth: '100%', 
     
    
@@ -93,10 +97,10 @@ TRAVEL // FLORIDA // DISNEY WORLD
 </div>
 
 
-  <img src= {image1} alt = 'b1' style={{maxBlockSize: '1000px',width:'100%'}}></img>
+  <img src= {title} alt = 'b1' style={{width:'100%'}}></img>
 
 
-<div style={{ padding: '2.5rem', width: '100%', boxSizing: 'border-box' }}>
+<div style={{ width: '100%', boxSizing: 'border-box' }}>
   <iframe 
     className="iframeStyle"
     style={{ width: '100%', height: '525px' }} // Reducing the original height of 315px by 25%
@@ -111,8 +115,20 @@ TRAVEL // FLORIDA // DISNEY WORLD
 
 
 
-
+<div
+style={{
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'flex-start',
+    textAlign: 'center'
+}}>
 <SubscribeVlog/>
+</div>
+
+<p style={{ textAlign: 'center',fontSize:'1rem', fontFamily: 'Arapey',  maxWidth:'100%' , justifyContent:'center'}}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
+
 
 
 
