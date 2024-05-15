@@ -1,5 +1,4 @@
 import React from 'react';
-import ReviewArticleCard from './TravelArticleCard';
 import "../Travel/TravelArticleList.css";
 import TravelArticleCard from './TravelArticleCard';
 
