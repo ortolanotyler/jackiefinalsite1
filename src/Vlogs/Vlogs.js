@@ -11,7 +11,9 @@ const Vlogs = () => {
      
       
       <div className="video-overlay-container">
+        <a href="https://www.youtube.com/channel/UCF8jAZoTZBReXwoj8vu9HWA" target="_blank" rel="noreferrer">
         <VlogVideo />
+        </a>
       </div>
     </div>
   );

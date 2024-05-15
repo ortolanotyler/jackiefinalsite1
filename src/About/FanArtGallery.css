@@ -56,7 +56,7 @@ body {
 }
 
 #frame li figure figcaption {
-  width: 6vw;
+  width: 10vw;
   height: 10vh;
   display: flex;
   justify-content: center;
@@ -77,11 +77,11 @@ body {
 
 #bench-container {
   position: relative;
-  margin-top: -10rem;
+  margin-top: -2rem;
 }
 
 #bench {
-  max-width: 30vw;
+  max-width: 40vw;
   position: relative;
   bottom: 0;
   left: 50%;
@@ -90,8 +90,8 @@ body {
 }
 
 #nav {
-  display: grid;
-  justify-content: center;
+  display: relative;
+  justify-content: ;
 }
 
 #nav .prev, #nav .next {
