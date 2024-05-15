@@ -46,7 +46,7 @@ const TwiggyBlog = () => {
   };
 
   const paragraphStyle = {
-    fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '15rem', maxWidth: '100%', marginTop: '1rem', marginBottom: '2.5rem', lineHeight:'1.75em'
+    fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth: '100%', marginTop: '1rem', marginBottom: '2.5rem', lineHeight:'1.75em'
 
   }
 
@@ -68,7 +68,9 @@ const TwiggyBlog = () => {
       
       </div>
 
+      <div>
       <ResponsiveIframe src="https://www.youtube.com/embed/1WPhwXOdSSw?si=rk3Kj1nEi1rXYMsr" title="Jackie Wyers Twiggy Blue Mod Eyeshadow Youtube Tutorial" />
+        </div>
 
       <div
       style = {{ marginTop: '1rem',display: 'flex', justifyContent: 'center', alignItems: 'center' }}
