@@ -103,8 +103,9 @@ beauty of Maui. Every corner of the resort promised a photo opportunity,
 with its infinity pools merging into the ocean horizon.
             </p>
 
-            <img src={andaz1} alt="Québécoise Pizza" style={{ justifyContent:'center', maxBlockSize:'600px', width: 'auto' }} />
-
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img src={andaz1} alt="Québécoise Pizza" style={{ maxBlockSize:'620px', width: 'auto' }} />
+</div>
 
             <h2 style={headingStyle}>🏨 Room and Comfort: Living the Suite Life
     </h2>
@@ -117,11 +118,15 @@ resort and Pacific Ocean as pictured above. The room featured minimalist
 decor and the Benefit Canada team decorated with amazing swag! Lauren &
 I were so excited to say the least.
            </p>
+           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img src={andaz2} alt="Québécoise Pizza" style={{ maxBlockSize:'620px', width: 'auto' }} />
+</div>
+            <img src={andaz3} alt="Québécoise Pizza" style={{ maxBlockSize:'620px', width: 'auto' }} />
 
-           <img src={andaz2} alt="Québécoise Pizza" style={{ width: '100%' }} />
-           <img src={andaz3} alt="Québécoise Pizza" style={{ width: '100%' }} />
-           <img src={andaz4} alt="Québécoise Pizza" style={{ width: '100%' }} />
 
+         <img src={andaz4} alt="Québécoise Pizza" style={{ maxBlockSize:'620px', width: 'auto' }} />
+
+         
 
 
            <h2 style={headingStyle}>
@@ -139,8 +144,15 @@ villas are available for guests who desire ultimate privacy and exclusivity,
 complete with personalized services.
               </p>
 
-              <img src={andaz6} alt="Québécoise Pizza" style={{ width: '100%' }} />
+<div
+style = {{
+    padding:'5rem',
+    margin: '5rem'
+}}
+>
+<img src={andaz6} alt="Québécoise Pizza"  />
 
+</div>
 
                 <p style={ paragraphStyle} >
               The property includes ADA-compliant rooms equipped with features such
@@ -165,7 +177,10 @@ of Maui's finest beaches, along with exquisite amenities including multiple
 infinity pools, a world-class spa, and diverse dining options.
             </p>
 
-            <img src={andaz7} alt="Québécoise Pizza" style={{ width: '100%' }} />
+
+<img src={andaz7} alt="Québécoise Pizza" style={{ width: '100%' }} />
+
+
 
 
             <p style={ paragraphStyle} >
