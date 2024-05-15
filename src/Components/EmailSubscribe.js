@@ -43,7 +43,7 @@ Join to access the newsletter & exclusive content!`.split('\n');
     >
       {({ submitForm, isSubmitting, touched, errors }) => (
         <Form style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <Grid container spacing={3} alignItems="center" style={{ width: '50%', marginTop: '0rem'}}>
+          <Grid container spacing={3} alignItems="center" style={{ width: '100%', margin: '1rem'}}>
             <Grid item xs={12}>
               <Typography
                 variant="subtitle1"

@@ -40,6 +40,7 @@ import VintageVibesMerch from './Shop/VintageVibesMerch';
 import TrendsHome from './Articles/Tutorials/Trending/TrendsHome';
 import Vlogs from './Vlogs/Vlogs';
 import TwiggyBlog from './Articles/Tutorials/VintageVibes/Twiggy';
+import Makeup2016 from './Articles/Tutorials/Trending/2016Makeup';
 
 function App() {
   return (
@@ -78,6 +79,7 @@ function App() {
         <Route path="/epcot" element={<Disney2Post/>} />
         <Route path="/margotbarbie" element={<BarbieBlog/>} />
         <Route path="/balkeblog" element={<BalkeBlog/>} />
+        <Route path="/2016Makeup" element={<Makeup2016/>} />
 
   {/*  Review  */}
   <Route path="/painlessIPL" element={<UlikeReview/>} />

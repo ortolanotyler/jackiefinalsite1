@@ -96,6 +96,9 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/524423?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
+<p style={{ textAlign: 'RIGHT', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
+                    CONTAINS: AFFILIATE LINKS
+                </p>
 
       <h2 style={headingStyle}>Daphne Bridgerton - Bridgerton:</h2>
 <div
@@ -115,6 +118,9 @@ step-by-step tutorial. </a>      </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/524425?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
+<p style={{ textAlign: 'RIGHT', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
+                    CONTAINS: AFFILIATE LINKS
+                </p>
 
 <h2 style={headingStyle}>
       Rose Dawson - Titanic:</h2>
@@ -138,6 +144,9 @@ Get the elegant updo and makeup right here.
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/524428?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
+<p style={{ textAlign: 'RIGHT', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
+                    CONTAINS: AFFILIATE LINKS
+                </p>
 <h2 style={headingStyle}>
         
         Amy March - Little Women:
@@ -164,6 +173,9 @@ makeup guide.   </a>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/524428?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
+<p style={{ textAlign: 'RIGHT', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
+                    CONTAINS: AFFILIATE LINKS
+                </p>
 
 <h2 style={headingStyle}>
         
@@ -191,6 +203,9 @@ here.
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/524432?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
+<p style={{ textAlign: 'RIGHT', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
+                    CONTAINS: AFFILIATE LINKS
+                </p>
 <h2 style={headingStyle}>
       Alaska Young - Looking For Alaska
       </h2>
@@ -209,6 +224,9 @@ here.</a>
       </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/524436?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
+      <p style={{ textAlign: 'RIGHT', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
+                    CONTAINS: AFFILIATE LINKS
+                </p>
       <h2 style={headingStyle}>
       Winnie Foster - Tuck Everlasting:
       </h2>
@@ -228,6 +246,9 @@ movie’s magic with long hairstyles recreated <a href="https://www.youtube.com/
 in this tutorial.  </a>    </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/524438?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
+<p style={{ textAlign: 'RIGHT', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
+                    CONTAINS: AFFILIATE LINKS
+                </p>
 <h2 style={headingStyle}>
         
       A Final Note

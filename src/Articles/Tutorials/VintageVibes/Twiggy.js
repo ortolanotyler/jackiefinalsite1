@@ -71,7 +71,7 @@ const TwiggyBlog = () => {
       <ResponsiveIframe src="https://www.youtube.com/embed/1WPhwXOdSSw?si=rk3Kj1nEi1rXYMsr" title="Jackie Wyers Twiggy Blue Mod Eyeshadow Youtube Tutorial" />
 
       <div
-      style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+      style = {{ marginTop: '1rem',display: 'flex', justifyContent: 'center', alignItems: 'center' }}
       >
       <SubscribeButton />
       </div>

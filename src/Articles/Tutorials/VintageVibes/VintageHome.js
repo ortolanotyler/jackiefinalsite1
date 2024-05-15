@@ -50,7 +50,7 @@ const cardsData = [
     description: "Iconic '60s Makeup how-to"
   },
   {
-    link: "/twiggyMOD",
+    link: "/twiggy",
     image: twiggy,
     alt: "1960s legend Ina Balke European chic makeup tutorial",
     title: "Twiggy // MOD Blue",

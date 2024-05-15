@@ -35,7 +35,7 @@ export default function SiteExplorer() {
             onMouseEnter={() => setHoverIndex(index)}
             onMouseLeave={() => setHoverIndex(-1)}
             sx={{
-              height: { xs: 250, md: 550 }, // Adjust height based on screen size
+              height: { xs: 350, md: 550 }, // Adjust height based on screen size
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'space-between',
@@ -63,7 +63,7 @@ export default function SiteExplorer() {
                 opacity: hoverIndex === index ? 1 : 0,
                 transition: 'opacity 0.3s ease-in-out',
                 gap: '1rem',
-                padding: '.5rem',
+                padding: '1rem',
               }}
             >
               <Typography variant="h5" component="h2" sx={{ 
