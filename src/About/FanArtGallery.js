@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './FanArtGallery.css'; // Assuming you move your SCSS into a separate file
 const image1 = `${process.env.PUBLIC_URL}/Images/About/FanArt/1.jpg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/About/FanArt/2.jpg`;
-const image3 = `${process.env.PUBLIC_URL}/Images/About/FanArt/3.jpg`;
 const image4 = `${process.env.PUBLIC_URL}/Images/About/FanArt/4.jpg`;
 const image5 = `${process.env.PUBLIC_URL}/Images/About/FanArt/5.jpg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/About/FanArt/6.jpg`;
@@ -40,7 +39,11 @@ const bench = `${process.env.PUBLIC_URL}/Images/About/FanArt/bench.png`;
 
 
 const galleryImages = [
-
+  {
+    src: image13,
+    alt: "PURPLE PORTAIT",
+    caption: "Artist: Noura Ozon @‌nouraozon.art",
+  },
 
   {
     src: image4,

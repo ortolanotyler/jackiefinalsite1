@@ -94,9 +94,10 @@ As a detail-oriented virgo, I excel at subtle makeup transformations for instant
         <MediaSplitComponentThree />
         </Grid>
         <Grid item xs={12}>
-        <TextReveal text='FAN ART GALLERY'/>
       </Grid>
       <Grid item xs={12} >
+      <TextReveal text='FAN ART GALLERY'/>
+
         <FanArt />
       </Grid>
 

@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(to bottom, #e8edea 0%, #d2d8d3 85%, #c5c9c8 86%, #d2d8d3 100%);
 }
 
@@ -26,7 +26,7 @@ body {
   justify-content: center;
   list-style: none;
   padding: 1;
-  margin-bottom: 1rem;
+
 }
 
 #frame li {
@@ -40,24 +40,24 @@ body {
 }
 
 #frame li figure {
-  margin: 1;
+  margin: 1rem;
+  margin-bottom: 1rem;
   position: relative;
   display: flex;
   align-items: center;
 }
 
 #frame li figure img {
-  max-width: 400px;
-  max-height: 400px;
+ max-block-size: 350px;
   border: 25px solid transparent;
-  padding: 0;
+  padding: 1;
   border-image: url('https://assets.codepen.io/11614/frame2.png') 30 round;
-  box-shadow: 0 15px 10px rgba(0,0,0,0.5);
+  box-shadow: 0 15px 10px rgba(0,0,0.25,0.75);
 }
 
 #frame li figure figcaption {
-  width: 10vw;
-  height: 10vh;
+  max-block-size: 300px;
+  padding : 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,6 +66,7 @@ body {
   position: absolute;
   left: calc(100% + 20px);
   top: 50%;
+
   transform: translateY(-50%);
   background-color: #fff;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
@@ -81,7 +82,7 @@ body {
 }
 
 #bench {
-  max-width: 40vw;
+  max-width: 25rem;
   position: relative;
   bottom: 0;
   left: 50%;
@@ -115,7 +116,7 @@ body {
   }
 
   #bench {
-    max-width: 50vw;
+    max-width: 50%;
   }
 
   #nav .prev, #nav .next {

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, {  useRef } from 'react';
 import '../ExampleTutorial.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 
@@ -28,8 +28,6 @@ const image16 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/16.jpg`;
 const image17 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/17.jpg`;
 const image18 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/18.JPG`;
 const image19 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/19.jpg`;
-const image20 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/20.JPG`;
-const image21 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/21.jpg`;
 
 
 
@@ -80,11 +78,7 @@ const HotelQ = () => {
             <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', textAlign: 'center', fontStyle: 'italic' }}>
                 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
-            <DropCap text = "For our anniversary, Tyler and I escaped to the enchanting Hotel
-Quintessence in Mont Tremblant, Quebec, craving a blend of adventure
-and relaxation. Nestled beside the sparkling Lake Tremblant and a stone's
-throw from the vibrant ski village, this luxurious boutique hotel promised a
-serene getaway in the heart of Quebec's natural beauty. " />
+            <DropCap text = "For our anniversary, Tyler and I escaped to the enchanting Hotel Quintessence in Mont Tremblant, Quebec, craving a blend of adventure and relaxation. Nestled beside the sparkling Lake Tremblant and a stone's throw from the vibrant ski village, this luxurious boutique hotel promised a serene getaway in the heart of Quebec's natural beauty. " />
 
 <p style={ paragraphStyle} > 
 
