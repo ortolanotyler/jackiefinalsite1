@@ -8,42 +8,18 @@ import modifyanchortags from '../../Utilities/modifyanchortags';
 
 
 
-const image1 = `${process.env.PUBLIC_URL}/Images/Disney1/DisneyWorld.png`;
-const image1A = `${process.env.PUBLIC_URL}/Images/Disney1/1.JPG`;
-const image2 = `${process.env.PUBLIC_URL}/Images/Disney1/2.JPG`;
-const image3 = `${process.env.PUBLIC_URL}/Images/Disney1/3.JPG`;
-const image4 = `${process.env.PUBLIC_URL}/Images/Disney1/4.JPG`;
-const image5 = `${process.env.PUBLIC_URL}/Images/Disney1/5.JPG`;
-const image6 = `${process.env.PUBLIC_URL}/Images/Disney1/6.JPG`;
-const image7 = `${process.env.PUBLIC_URL}/Images/Disney1/7.JPG`;
-const image8 = `${process.env.PUBLIC_URL}/Images/Disney1/8.JPG`;
-const image9 = `${process.env.PUBLIC_URL}/Images/Disney1/9.JPG`;
-const image10 = `${process.env.PUBLIC_URL}/Images/Disney1/10.jpg`;
-const image11 = `${process.env.PUBLIC_URL}/Images/Disney1/11.JPG`;
-const image12 = `${process.env.PUBLIC_URL}/Images/Disney1/12.jpg`;
-const image13 = `${process.env.PUBLIC_URL}/Images/Disney1/13.JPG`;
-const image14 = `${process.env.PUBLIC_URL}/Images/Disney1/14.JPG`;
-const image15 = `${process.env.PUBLIC_URL}/Images/Disney1/16.JPG`;
-const image16 = `${process.env.PUBLIC_URL}/Images/Disney1/16.JPG`;
-const image17 = `${process.env.PUBLIC_URL}/Images/Disney1/17.JPG`;
-const image18 = `${process.env.PUBLIC_URL}/Images/Disney1/18.JPG`;
-const image19 = `${process.env.PUBLIC_URL}/Images/Disney1/19.JPG`;
-const image20 = `${process.env.PUBLIC_URL}/Images/Disney1/20.JPG`;
-const image21 = `${process.env.PUBLIC_URL}/Images/Disney1/21.JPG`;
-const image22 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
-const image23 = `${process.env.PUBLIC_URL}/Images/Signature.png`;
-
-const beachclub1 = `${process.env.PUBLIC_URL}/Images/beachclub1.png`;
-const beachclub2 = `${process.env.PUBLIC_URL}/Images/beachclub2.png`;
-const beachclub3 = `${process.env.PUBLIC_URL}/Images/beachclub3.png`;
-const beachclub4 = `${process.env.PUBLIC_URL}/Images/beachclub4.png`;
-const beachclub5 = `${process.env.PUBLIC_URL}/Images/beachclub5.png`;
-const beachclub6 = `${process.env.PUBLIC_URL}/Images/beachclub6.png`;
-const beachclub7 = `${process.env.PUBLIC_URL}/Images/beachclub7.png`;
-const beachclub8 = `${process.env.PUBLIC_URL}/Images/beachclub8.png`;
-const beachclub9 = `${process.env.PUBLIC_URL}/Images/beachclub9.png`;
-const beachclub10 = `${process.env.PUBLIC_URL}/Images/beachclub10.png`;
-
+const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclubtitle.png`;
+const beachclub1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub1.png`;
+const beachclub2 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub2.png`;
+const beachclub3 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub3.png`;
+const beachclub4 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub4.png`;
+const beachclub5 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub5.png`;
+const beachclub6 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub6.png`;
+const beachclub7 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub7.png`;
+const beachclub8 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub8.png`;
+const beachclub9 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub9.png`;
+const beachclub10 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub10.png`;
+const signature = `${process.env.PUBLIC_URL}/Images/Articles/signature.png`;
 
 
 
@@ -156,18 +132,6 @@ and the nostalgic Beaches & Cream Soda Shop, making it the perfect base
 for our Disney adventures.
 </p>
 
-<div
-style = {{padding: '5rem',}}
->
-
-  <div style={{ width: '100%', height: 'auto' }}>
-    <img src={image2} alt='b1' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-  </div>
-  <div style={{ width: '100%', height: 'auto' }}>
-    <img src={image1A} alt='b1' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-  </div>
-
-</div>
 
 
 <p style={{ justifyContent:'center',fontSize:'2.25em', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '0em'}}>
@@ -188,7 +152,6 @@ view of the boardwalk offered something truly magical to wake up to.
 </p>
 
 
-<div> <img src= {image5} alt = 'b1' style={{width:'100%'}}></img></div>
 
 
 <p style={{ fontSize:'1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth:'100%' , marginLeft: '1em'}}>            
@@ -459,7 +422,7 @@ magic!</p>
 
 
 
-<div> <img src= {image23} alt = 'b1' style={{width:'100%'}}></img></div>
+<div> <img src= {signature} alt = 'b1' style={{width:'100%'}}></img></div>
 
 
 

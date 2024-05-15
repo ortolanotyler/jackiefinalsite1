@@ -56,12 +56,7 @@ As a detail-oriented virgo, I excel at subtle makeup transformations for instant
         <QuoteBanner />
       </Grid>
  
-      <Grid item xs={12}>
-        <TextReveal text='FAN ART GALLERY'/>
-      </Grid>
-      <Grid item xs={12} >
-        <FanArt />
-      </Grid>
+
       <Grid item xs={12}>
       <TextReveal text='COLLABORATIONS'/>
       </Grid>
@@ -98,7 +93,12 @@ As a detail-oriented virgo, I excel at subtle makeup transformations for instant
       <Grid item  xs = {12} >
         <MediaSplitComponentThree />
         </Grid>
-   
+        <Grid item xs={12}>
+        <TextReveal text='FAN ART GALLERY'/>
+      </Grid>
+      <Grid item xs={12} >
+        <FanArt />
+      </Grid>
 
     
    
