@@ -7,7 +7,21 @@ const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/BEACH
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/EPCOTTHUMBNAIL.jpeg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/TREMBLANTTHUMBNAIL.jpeg`;
 const hotelQ = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/HOTELQTHUMBNAIL.jpeg`;
+const maui = `${process.env.PUBLIC_URL}/Images/Articles/Maui/MAUITHUMBNAIL.jpg`;
+const westgate = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATETHUMBNAIL.jpg`;
 const articles = [
+    {
+        date: '04/15/2024',
+        title: 'ANDAZ MAUI AT MAILEA RESORT REVIEW',
+        image: maui,
+        path: '/andazmaui',
+    },
+    {
+        date: '04/15/2024',
+        title: 'The Westgate Hotel Review',
+        image: westgate,
+        path: '/westgatesandiego',
+    },
     {
         date: '04/15/2024',
         title: 'Ski Vacation in Mont Tremblant',
