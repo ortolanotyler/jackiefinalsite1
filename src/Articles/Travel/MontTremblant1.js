@@ -53,7 +53,7 @@ const MontTremblantBlog = () => {
         <div className="container" style={{ lineHeight: '2.25em', maxWidth: '100vw', justifyContent: 'center', margin : '20rem'}}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-                    BEAUTY // TRAVEL // QUEBÉC
+                TRAVEL // CANADA // QUEBÉC
                 </a>
             </div>
             <img src={MontTop} alt="Mont Tremblant Top View" style={{ width: '100%' }} />
