@@ -99,9 +99,10 @@ body {
   background: none;
   border: none;
   cursor: pointer;
-  color: white;
+  color: #745B4F;
+  gap: 2rem;
   font-size: 48px;
-  max-width: 100px;
+  max-width: 200px;
 }
 
 #nav .prev:hover, #nav .next:hover {
