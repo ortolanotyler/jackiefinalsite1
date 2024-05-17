@@ -67,7 +67,7 @@ const AndazMauiReview = () => {
         margin: '0 auto',
         maxWidth: '100%',
         maxBlockSize: '800px',
-        height: 'auto'
+        width: 'auto'
     };
 
     const blogContent = (
