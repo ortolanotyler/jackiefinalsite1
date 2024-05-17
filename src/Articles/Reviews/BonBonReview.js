@@ -5,9 +5,7 @@ import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import '../ExampleTutorial.css';
 
 const BonBon1A = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBon1A.png`;
-const BonBon1B = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBon1B.png`;
 const BonBon2 = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBon2.jpg`;
-const BonBon3 = `${process.env.PUBLIC_URL}/Images/BonBon3.png`;
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => {
