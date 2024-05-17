@@ -34,14 +34,14 @@ const VictoriaSecret = () => {
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '3rem',
+    fontSize: '2.5rem',
     fontWeight: 'normal',
     fontFamily: 'Arapey, sans-serif',
     color: '#333',
     margin: '2rem',
-    marginTop: '2rem',
+   
     marginBottom: '2rem',
-    lineHeight: '1.5rem',
+   
   };
 
   const paragraphStyle = {
