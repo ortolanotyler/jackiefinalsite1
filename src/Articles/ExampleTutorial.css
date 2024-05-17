@@ -68,7 +68,8 @@ body {
   /* Override margin for screen sizes below 1000px */
   @media screen and (max-width: 1000px) {
     .container {
-      margin: 0 !important;
+      margin:  0 !important;
+      padding: 1;
     }
   }
   
