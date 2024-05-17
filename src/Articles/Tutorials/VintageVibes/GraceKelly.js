@@ -435,9 +435,8 @@ see you switch up your style with confidence.  </p>
   return (
     <div ref={blogRef}>
       <Card
-        title="No-Makeup Makeup Spring
-        Inspiration 🌸 Pop Culture Edition!"
-        description="Just a hint of color, just in time for spring"
+        title="Grace Kelly's Hollywood Glam"
+        description="Grace Kelly's Hollywood Glam"
         blogContent={blogContent}
         style={{
           display: 'flex',
@@ -446,7 +445,7 @@ see you switch up your style with confidence.  </p>
         }}
       />
          
-      <Comments website-id={websiteId} pageId={"No-Makeup-Spring"} />
+      <Comments website-id={websiteId} pageId={"Grace-Kelly"} />
     </div>
   );
 };

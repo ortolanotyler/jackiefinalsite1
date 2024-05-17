@@ -25,10 +25,7 @@ const MediaSplitComponentThree = () => {
 
         {/* Product */}
         <div className={styles.stackItem}>
-      
-<ResponsiveIframeAbout src="https://shopmy.us/collections/public/525157?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-
-
+          <ResponsiveIframeAbout src="https://shopmy.us/collections/public/525157?noHeader=true" title="Shop My Victoria's Secret Favorites" />
         </div>
       </div>
     </div>

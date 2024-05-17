@@ -318,7 +318,7 @@ const BalkeBlog = () => {
             />
             <Comments
                 website-id={websiteId}
-                page-id={'balke'}
+                page-id={'balkeblog'}
             />
         </div>
     );
