@@ -3,10 +3,28 @@ import '../ExampleTutorial.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../../Components/TextReveal';
 import SubscribeVlog from '../../Components/SubscribeVlog';
+import DropCap from '../../Components/DropCap';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceTitle.png`;
 
-const image2 = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceTitle.png`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales1.JPG`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales2.JPG`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales3.JPG`;    
+const image4 = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales4.jpeg`;
+const image5 = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales5.JPG`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales6.JPG`;
+const image7 = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales7.JPG`;
+const image8 = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales8.jpeg`;
+const image9 = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales9.jpeg`;
+const image10 = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales10.JPG`;
+const image11 = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales11.JPG`;
+const image12 = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales12.JPG`;
+const image13 = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales13.JPG`;
+const image14 = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales14.jpg`;
+const image15 = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales15.JPG`;
+const image16 = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales16.jpeg`;
+const image17 = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales17.jpeg`;
+
 
 
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/signature.png`;
@@ -50,20 +68,23 @@ const PrinceOfWales = () => {
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.5em', maxWidth: '100%', margin: '20em' }}>
+        <div className="container" style={{ lineHeight: '2.5em', maxWidth: '100%', margin: '20rem' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-                    TRAVEL // FLORIDA // DISNEY WORLD
+                    TRAVEL  //  NIAGARA ON THE LAKE  //  THE PRINCE OF WALES
                 </a>
             </div>
+            
+            <img src={title} alt='Prince of Wales Title' style={imageStyle} />
+            
+            
+     
 
-            <img src={image1} alt='Beach Club Title' style={imageStyle} />
-
-            <div style={{ padding: '20px', margin: '20px', width: '100%', boxSizing: 'border-box' }}>
+<div style={{ padding: '20px', margin: '20px', width: '100%', boxSizing: 'border-box' }}>
                 <iframe 
                     className="iframeStyle"
                     style={{ width: '100%', height: '525px' }}
-                    src="https://www.youtube.com/embed/XRI-IpWb37E?si=X6l3RAxsPGC_bS88"
+                    src="https://www.youtube.com/embed/qIAMUI6Enz0?si=IODG7kkuWSOxLfIa"
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -71,122 +92,207 @@ const PrinceOfWales = () => {
                     allowFullScreen
                 />
             </div>
-
+            <div style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
             <SubscribeVlog />
-
-            <p style={paragraphStyle}>
-                <span style={{ color: '#745B4F', float: 'left', fontSize: '5rem', lineHeight: '0.9', marginRight: '0.05em', marginTop: '0.01em' }}>W</span>elcome to Part One of my magical recap of an unforgettable time at Walt Disney World, FL in 2023. My best friend Lauren and I chose Disney's Beach Club Resort for our stay, marking her first visit and my first return since 2002. This article focuses on our resort experience, offering a glimpse into the luxury and leisure that awaited us at this colonial resort and why we chose to book!
-            </p>
-
-            <h2 style={headingStyle}>🌟 First Impression: Beach Club Resort</h2>
-            <p style={paragraphStyle}>
-                Driving in from Saint Augustine, Florida we were immediately captivated by the Beach Club Resort's charm, reminiscent of a New England dream. This deluxe resort, inspired by 1800s beach cottages, has amenities such as the Storm-Along Bay Water Park, the convenient Beach Club Marketplace, and the nostalgic Beaches & Cream Soda Shop, making it the perfect base for our Disney adventures.
-            </p>
-
-            <h2 style={headingStyle}>💵 Cost Considerations: Weighing the Pros and Cons</h2>
-            <p style={paragraphStyle}>
-                This resort is a deluxe option, so it comes with a higher price tag. Check prices as it fluctuates greatly depending on the time of year from between 390 USD up to 990 USD😳 a night.
-            </p>
-            <p style={paragraphStyle}>
-                When browsing the various resorts, the Beach Club’s design caught my eye. While I'm all for a fun and goofy Disney experience, I wanted to stay somewhere elegant as an adult. The light blue building, adorned with beautiful Victorian trim, the gardens with pops of bright pink flowers, and a view of the boardwalk offered something truly magical to wake up to.
-            </p>
-            <p style={paragraphStyle}>
-                We chose a <strong>standard room with a garden view,</strong> and although the rooms' interior decor slightly paled in comparison to the exterior's enchantment, the Disney-themed touches and the overall nostalgic beach vibe more than compensated for it, in my opinion. The Mickey ears towel display and Disney-themed toiletries were exciting for us to see!
-            </p>
-
-            <h2 style={headingStyle}>🏝 Diverse Room Options for Every Guest</h2>
-            <img src={beachclub1} alt='Beach Club Room' style={imageStyle} />
-            <p style={paragraphStyle}>
-                For larger families or those seeking extra comfort, expansive Suites have separate living areas. You can choose Garden, Woods or Water View Rooms.
-            </p>
-            <p style={paragraphStyle}>
-                For the price tag, I’ve seen several complaints about being disappointed by the interior decor. However, I feel it still captures a nostalgic beach vibe, and I doubt you’ll spend too much time in the room with all there is to do! The other resort we considered but was out of our budget was the Polynesian Village Resort. This may be a better option for you if the room theme matters a lot for your experience, it features a tropical aesthetic rather than a beach cottage.
-            </p>
-
-            <h2 style={headingStyle}>🛥 Unique Amenities and Shared Experiences with Yacht Club</h2>
-            <img src={beachclub2} alt='Yacht Club' style={imageStyle} />
-            <p style={paragraphStyle}>
-                Adjacent to the Beach Club is the Yacht Club, where we explored additional dining and shopping options as the resorts share amenities. If you are staying at Disney's Beach Club Resort or the Yacht Club Resort, the top dining options to check out are the Beaches & Cream Soda Shop, famous for its "Kitchen Sink" sundae, and the Yachtsman Steakhouse, known for premium steaks and seafood in a New England yacht club atmosphere. Cape May Café and Ale & Compass Restaurant also offer memorable dining experiences with character breakfasts and New England-inspired menus.
-            </p>
-            <p style={paragraphStyle}>
-                There are also different souvenirs at the Beach Club Marketplace and The Market at Ale & Compass at the Yacht Club, offering everyday essentials, souvenirs, drinks and snacks. Both are great to check out before deciding on your souvenirs!
-            </p>
-            <img src={beachclub3} alt='Beach Club Marketplace' style={imageStyle} />
-            <p style={paragraphStyle}>
-                The Beach and Yacht Club resorts both offer activities like movies under the stars, tennis, volleyball, campfires, and different watercraft rentals for enjoyment on Crescent Lake. You can also enjoy state-of-the-art fitness centres and book spa services for relaxation.
-            </p>
-
-            <h2 style={headingStyle}>🍹 Storm-Along Bay Pool, Hurricane Hannah’s Waterside Bar & Grill</h2>
-            <p style={paragraphStyle}>
-                A bit about my personal experience, upon check-in, Lauren and I grabbed a quick bite at the Ale & Compass Lounge (great appetizers, fries and burgers) and dedicated our first day to enjoying Storm-Along Bay.
-            </p>
-            <p style={paragraphStyle}>
-                This expansive pool, spanning 3 acres, features a sandy bottom, a lazy river, a striking white windmill, and a waterslide attached to a life-size shipwreck on the beach. Since there were so many kids swimming, I didn’t take great pictures of the pool - but you can check it out in detail on the booking site here.
-            </p>
-            <img src={beachclub4} alt='Storm-Along Bay Pool' style={imageStyle} />
-            <p style={paragraphStyle}>
-                After relaxing poolside, we ventured to Hurricane Hannah's Waterside Bar & Grill for drinks. The bar is a little shack, similar to Rico’s Surf Shop in Hannah Montana with a laid-back vibe.
-            </p>
-            <img src={beachclub5} alt='Hurricane Hannah’s' style={imageStyle} />
-
-            <h2 style={headingStyle}>🌴 The Beach & Boardwalk Nearby</h2>
-            <p style={paragraphStyle}>
-                Our evening continued with a leisurely walk along the beach, where we enjoyed the sunset from swings and strolled down the lively Disney BoardWalk. The charming waterfront boardwalk is brimming with restaurants, night performers and gift shops, offering a vibrant atmosphere at night that appeals to both adults and children.
-            </p>
-            <p style={paragraphStyle}>
-                As someone who's a bit of a lightweight, my single drink at the bar led to a somewhat clumsy walk around the entire village and… blurry pictures I shall not include😂 ! We toyed with the idea of catching a movie under the stars, a feature the resort offers, but ultimately decided to head to bed early to conserve energy for the extensive walking we anticipated at Epcot the next day.
-            </p>
-
-            <h2 style={headingStyle}>🗺 Effortless Park Access and Transportation Tips</h2>
-            <p style={paragraphStyle}>
-                Speaking of Epcot, it is only a 5-10 minute walk from the resort. If Epcot is on your park bucket list (and it should be!!!) all the more reason to stay at the Beach Club resort. You can also take a quick boat ride to the park.
-            </p>
-            <img src={beachclub6} alt='Epcot Access' style={imageStyle} />
-            <p style={paragraphStyle}>
-                For Hollywood Studios (the second closest park) you can walk along a scenic path that takes about 15 to 20 minutes. There's also boat service available from the resort's dock, providing a relaxing journey to the park's entrance.
-            </p>
-            <p style={paragraphStyle}>
-                If you want to ride the epic skyline, walk to Epcot where the International Gateway Station is located. The Skyliner provides transportation to Disney's Hollywood Studios, Disney’s Riviera Resort, Disney's Caribbean Beach Resort.
-            </p>
-            <p style={paragraphStyle}>
-                If you are interested in other parks, like Magic Kingdom and Animal Kingdom, you can easily get there by catching a bus out front of the resort. Read the best of Epcot, Magic Kingdom and Animal Kingdom in a separate blog post, here.
-            </p>
-
-            <h2 style={headingStyle}>🍦 A Final Dessert at Beaches & Cream Soda Shop</h2>
-            <p style={paragraphStyle}>
-                Our last day at the Beach Club Resort was bittersweet, with leisurely walks along the boardwalk, and a final, decadent sundae at the famous Beaches & Cream Soda Shop.
-            </p>
-            <img src={beachclub8} alt='Beaches & Cream Soda Shop' style={imageStyle} />
-            <p style={paragraphStyle}>
-                The ice cream shop is often booked up if you don’t reserve a table in advance, but luckily there is a window shop where you can get many of the items without a long wait time. The ice cream isn’t the richest, creamiest of all time (it’s no Häagen-Dazs) but it is beautifully presented and a very fun experience, no matter the age. I mean….look at the size of the sundae! 🍒
-            </p>
-            <p style={paragraphStyle}>
-                I bought an Angel plushy from the Boardwalk shops and headed home! Keep reading for a quick nautical resort comparison to help you decide on your stay.
-            </p>
-
-            <h2 style={headingStyle}>🌊 Walt Disney World Resort Comparison for a Nautical Experience</h2>
-            <div style={{ display: 'flex', alignItems: 'flex-start', margin: '1em 0' }}>
-                <img src={beachclub9} alt='Beach Club' style={{ maxWidth: '50%', height: 'auto' }} />
-                <div style={{ flex: '1', marginLeft: '1em' }}>
-                    <p style={paragraphStyle}>
-                        If you enjoy a nautical theme, you may be choosing between the Beach Club, Yacht Club, and Disney’s Polynesian Village Resort.
-                    </p>
-                    <p style={paragraphStyle}>
-                        I say go with Beach Club between The Yacht and Beach Club Resort simply because of the shared amenities. While Yacht Club is slightly more sophisticated, the light blue and white stands out and feels more enchanting!
-                    </p>
-                    <p style={paragraphStyle}>
-                        For those drawn to the serene allure of the tropics, Disney's Polynesian Village Resort transports guests to a South Pacific paradise, complete with monorail access to the parks and celebrated dining experiences like 'Ohana. It is for sure on my bucket list to stay at the Polynesian resort in the future!
-                    </p>
-                </div>
             </div>
-            <p style={paragraphStyle}>
-                If you are headed to Disney, I hope you have the most magical time and you’ll have to share your experience with me either in the vlog channel comments, or on the blog. To read about my Disney Park experiences, see <a href='/disneyreview2'>here</a>.
-            </p>
-            <img src={beachclub10} alt='Beach Club Final' style={imageStyle} />
+            <DropCap text= "Welcome back for a special hotel review of the enchanting Prince of Wales Hotel in Niagara-On-The-Lake, Ontario, Canada. To celebrate my birthday this year, my husband Tyler and I indulged in a luxurious weekend at this stunning hotel, renowned for its Victorian elegance and romantic charm. Nestled in the heart of one of Canada's most picturesque towns, the Prince of Wales provided the perfect backdrop for a celebration filled with beauty, history, and a touch of magic." />         
 
-            <p style={paragraphStyle}>
-                Note about accessibility: Disney's Beach Club Resort is fully accessible to guests with disabilities, offering features like accessible rooms with widened doors and roll-in showers, visual alarm devices for hearing disabilities, wheelchair-accessible pathways, and service animal accommodations. Complimentary Disney transportation is equipped to accommodate guests with disabilities, and the resort provides lifts for pool access, ensuring a comfortable and enjoyable stay for everyone. This is another wonderful quality about Disney World, it really has everyone in mind to enjoy the magic!
+        <h2 style = {headingStyle}>🌟 First Impressions and Ambiance</h2>
+       <p style = {paragraphStyle}>
+       Upon arrival at the Prince of Wales Hotel, we were immediately captivated
+by its Victorian charm. The grand entrance, adorned with ornate floral
+wallpapers, antique furnishings, and sculptures, transported us into an era
+of refined elegance. Additional touches like stained glass windows further
+enhanced the luxurious ambiance. The hotel’s hanging flowers and lush
+bushes, set against the charming streets of Niagara-on-the-Lake, offered a
+stunning sight, perfect for roaming this romantic town.
+       </p>
+
+       <img src={image1} alt='Prince of Wales Niagara on The Lake' style={imageStyle} />
+            <img src={image2} alt='Prince of Wales Title' style={imageStyle} />
+            <img src={image3} alt='Prince of Wales Niagara on The Lake' style={imageStyle} />
+            <img src={image4} alt='Prince of Wales Niagara on The Lake' style={imageStyle} />
+   
+<h2 style = {headingStyle}>
+💵 Cost Considerations: Pros and Cons
+</h2>
+
+<p style = {paragraphStyle}>
+Staying at the upscale Prince of Wales Hotel comes with a higher price tag,
+particularly during peak summer season when Niagara-On-The-Lake draws
+the most visitors. During our stay, room rates ranged from about $250 to
+$450 CAD per night, depending on the room type and the timing of the
+visit.
+</p>
+
+<p style = {paragraphStyle}>
+While this may seem steep, we felt the cost was thoroughly justified by the
+hotel’s exceptional service, luxurious atmosphere, and unparalleled location
+in the heart of Niagara-On-The-Lake.
+</p>
+
+
+<img src={image5} alt='Prince of Wales Niagara on The Lake' style={imageStyle} />
+            <img src={image6} alt='Prince of Wales Niagara on The Lake' style={imageStyle} />
+
+<p style = {paragraphStyle}>
+We chose a Premium King Room which is beautifully decorated with
+thoughtful details but somewhat compact. The air conditioning unit tends to
+be noisy and may not effectively cool the room during particularly hot
+weather. Nonetheless, the room's elegant charm and the hotel's excellent
+location significantly outweigh these minor drawbacks. Plus, a hand
+delivered rose was a beautiful touch from the staff!
+</p>
+
+<h2 style = {headingStyle}>
+       🥀 Room Options and Accommodations
+         </h2>
+
+         <p style = {paragraphStyle}>
+         The Prince of Wales Hotel offers a diverse array of guest rooms and suites,
+each richly decorated with Victorian charm and modern amenities. Options
+range from Traditional and Superior Guest Rooms—ideal for couples or
+small groups, to Deluxe Rooms with added space and luxury features such
+as fireplaces. For the ultimate experience, Premium Guest Rooms and the
+lavish Royal Suite provide deluxe comforts like gas fireplaces, jetted baths,
+and exquisite Wine Themed Cellar Suites, ensuring a stay that blends
+historical elegance with contemporary luxury.
+         </p>
+
+
+
+
+
+
+            <h2 style = {headingStyle}>
+       🫖 High Tea at the Prince of Wales Hotel
+            </h2>
+
+            <p style = {paragraphStyle}>
+            The Prince of Wales Hotel offers a quintessentially elegant high tea
+experience that, regrettably, I didn’t get to try during my stay! Hosted in the
+hotel's charming drawing room, this experience includes a selection of
+finely crafted tea blends accompanied by an assortment of traditional
+scones, pastries, and delicate finger sandwiches. Noble Restaurant,
+Churchill Lounge, Charcuterie & Panini Bar are also in-hotel options for
+food.
             </p>
+            <p style = {paragraphStyle}>
+            If you are interested in exploring more culinary delights and experiences in
+Niagara-on-the-Lake, be sure to check out my detailed blog post here for
+options outside of the hotel.
+            </p>
+
+            <img src={image7} alt='Prince of Wales Niagara on The Lake' style={imageStyle} />
+            <img src={image8} alt='Prince of Wales Niagara on The Lake' style={imageStyle} />
+
+
+
+            <h2 style = {headingStyle}>
+       🌸 Nearby Attractions
+            </h2>
+            <p style = {paragraphStyle}>
+            Just steps away from the hotel, experience the charm of this historic town
+with its well-preserved 19th-century village feel, boutique shops, and
+theatres. The hotel is also in close proximity to some of Ontario's finest
+vineyards, offering guests easy access to wine tastings and vineyard tours.
+            </p>
+            <p style = {paragraphStyle}>
+            Transportation options are plentiful, with bike rentals, walking tours, and
+shuttle services available to explore nearby attractions, including the famed
+Shaw Festival Theatre. Whether you're looking to explore on foot, by bike,
+or through organized tours, everything is conveniently accessible from the
+hotel.
+            </p>
+       
+       
+            <img src={image9} alt='Prince of Wales Niagara on The Lake' style={imageStyle} />
+            <img src={image10} alt='Prince of Wales Niagara on The Lake' style={imageStyle} />
+            <img src={image11} alt='Prince of Wales Niagara on The Lake' style={imageStyle} />
+            <img src={image12} alt='Prince of Wales Niagara on The Lake' style={imageStyle} />
+
+        <h2 style = {headingStyle}>
+       🍷 Final Thoughts and Recommendations
+       </h2>
+      
+       <p style = {paragraphStyle}>
+       Our stay at the Prince of Wales Hotel was truly unforgettable, combining
+the allure of Victorian elegance with the convenience of modern amenities.
+Every moment, from the grandiose entrance to the peaceful gardens, added
+to the charm of this historic hotel. If you’re planning a visit to Niagara-on-
+the-Lake, the Prince of Wales offers a perfect mix of luxury, location, and
+local culture. Book here.
+       </p>
+
+       <img src={image15} alt='Prince of Wales Niagara on The Lake' style={imageStyle} />
+            <img src={image16} alt='Prince of Wales Niagara on The Lake' style={imageStyle} />
+
+
+        <h2 style = {headingStyle}>
+        🏊 Anticipated Experiences and Activities
+        </h2>
+
+        <p style = {paragraphStyle}>
+        For my next visit, I eagerly anticipate indulging in the traditional high tea,
+exploring the exclusive Wine-Themed Cellar Suites, and relaxing with the
+spa services and pool offered. I also look forward to experiencing the hotel’s
+seasonal events like the summer garden parties and the festive Christmas
+markets. Additionally, I plan to wander through Niagara-on-the-Lake’s
+historic streets, discovering more of its hidden treasures.
+
+        </p>
+
+        <p style = {paragraphStyle}>
+        Thank you for joining me to see the enchanting Prince of Wales Hotel. I’d
+love to hear about your experiences or any recommendations you might
+have! Feel free to leave a comment below or connect with me on social
+media. For more travel insights and adventures, stay tuned to my blog and
+YouTube channel!
+</p>
+
+<img src={image13} alt='Prince of Wales Niagara on The Lake' style={imageStyle} />
+            <img src={image14} alt='Prince of Wales Niagara on The Lake' style={imageStyle} />
+           
+
+<h2 style = {headingStyle}>
+Accessibility Note:
+
+</h2>
+
+
+
+<p style = {paragraphStyle}>
+The Prince of Wales Hotel retains much of its historic
+charm, which includes an antique elevator available for floors 2 through 4;
+please note that this elevator requires staff assistance to operate. Due to the
+hotel's historic nature and the smaller size of rooms, guests with specific
+accessibility needs are encouraged to consider these factors when planning
+their stay. We recommend contacting the hotel directly to discuss any
+necessary accommodations or to inquire about alternative arrangements.
+ </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+           
+          
+          
+      
+            <img src={image17} alt='Prince of Wales Niagara on The Lake' style={imageStyle} />
+
+
+
 
             <img src={signature} alt='Signature' style={{ width: '100%' }} />
         </div>
@@ -195,7 +301,7 @@ const PrinceOfWales = () => {
     return (
         <div>
             <div style={{ width: '100%', marginBottom: '2rem' }}>
-                <TextReveal text='THE HAPPIEST PLACE ON EARTH' />
+                <TextReveal text='NIAGARA ON THE LAKE' />
             </div>
             <div ref={blogRef}>
                 <Card

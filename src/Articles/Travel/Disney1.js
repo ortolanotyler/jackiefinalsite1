@@ -4,6 +4,7 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../../Components/TextReveal';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import modifyanchortags from '../../Utilities/modifyanchortags';
+import DropCap from '../../Components/DropCap';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclubtitle.png`;
 const beachclub1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub1.png`;
@@ -83,9 +84,10 @@ const Disney2Post = () => {
 
             <SubscribeVlog />
 
-            <p style={paragraphStyle}>
-                <span style={{ color: '#745B4F', float: 'left', fontSize: '5rem', lineHeight: '0.9', marginRight: '0.05em', marginTop: '0.01em' }}>W</span>elcome to Part One of my magical recap of an unforgettable time at Walt Disney World, FL in 2023. My best friend Lauren and I chose Disney's Beach Club Resort for our stay, marking her first visit and my first return since 2002. This article focuses on our resort experience, offering a glimpse into the luxury and leisure that awaited us at this colonial resort and why we chose to book!
-            </p>
+
+                 <DropCap text = "Welcome to Part One of my magical recap of an unforgettable time at Walt Disney World, FL in 2023. My best friend Lauren and I chose Disney's Beach Club Resort for our stay, marking her first visit and my first return since 2002. This article focuses on our resort experience, offering a glimpse into the luxury and leisure that awaited us at this colonial resort and why we chose to book!"/>
+
+      
 
             <h2 style={headingStyle}>🌟 First Impression: Beach Club Resort</h2>
             <p style={paragraphStyle}>

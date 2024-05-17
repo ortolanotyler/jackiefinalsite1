@@ -43,6 +43,7 @@ import TwiggyBlog from './Articles/Tutorials/VintageVibes/Twiggy';
 import Makeup2016 from './Articles/Tutorials/Trending/2016Makeup';
 import WestGateHotelBlog from './Articles/Travel/WestGateHotel';
 import AndazMauiReview from './Articles/Travel/AndazMaui';
+import PrinceOfWales from './Articles/Travel/PrinceOfWales';
 
 function App() {
   return (
@@ -84,7 +85,7 @@ function App() {
         <Route path="/2016Makeup" element={<Makeup2016/>} />
         <Route path="/westgatesandiego" element={<WestGateHotelBlog/>} />
         <Route path="/andazmaui" element={<AndazMauiReview/>} />
-
+        <Route path="/princeofwales" element={<PrinceOfWales/>} />
   {/*  Review  */}
   <Route path="/painlessIPL" element={<UlikeReview/>} />
         <Route path="/halfetireview" element={<HalfetiReview/>} />
