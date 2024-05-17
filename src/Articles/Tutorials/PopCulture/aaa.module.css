@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+
 /* Slider.module.css */
 .cardImage {
     display: grid;
@@ -40,7 +43,7 @@
 }
 
 .card {
-    font-family: GFS Didot, serif;
+    font-family: GFS Didot;
 
     background-color: white;
     max-width: 60vw;

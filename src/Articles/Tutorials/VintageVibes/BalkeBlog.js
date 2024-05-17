@@ -14,7 +14,7 @@ const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
     <div>
-        <div><TextReveal text='POP CULTURE OBSESSED'/></div>
+        <div><TextReveal text='TIME TRAVEL TUTORIALS'/></div>
         <div className="card" style={{  maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
             <div className="blog-content" >{blogContent}</div>
         </div>
@@ -24,10 +24,29 @@ const Card = ({ blogContent }) => (
 const BalkeBlog = () => {
     const websiteId = "10910";
 
+    const headingStyle = {
+        textAlign : 'center',
+        fontSize: '3rem',
+        fontWeight: 'normal',
+        fontFamily: 'Arapey, serif',
+        color: '#333',
+        margin: '3.5rem',
+        marginTop: '2rem', 
+        marginBottom: '2rem'
+      };
+    
+    
+      const paragraphStyle = {
+        fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth: '100%', marginTop: '1rem', marginBottom: '2.75rem', lineHeight:'1.75em'
+      };
+
+    
+
     const blogContent = (
+
       
        
-        <div className="container" style={{ lineHeight: '2.25rem', margin: '15rem' }}>
+        <div className="container" style={{ lineHeight: '2.25rem', margin: '20rem' }}>
         
         <div
         style = {{
@@ -67,10 +86,10 @@ const BalkeBlog = () => {
                     </div>
            
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
-                    <span style={{ color: '#745B4F', float: 'left', fontSize: '5rem', lineHeight: '0.9', marginRight: '0.05em', marginTop: '0.01em' }}>W</span>elcome back to another Time Travel Tutorials, where we admire and recreate beauty icons from the past. Today, let's delve into the 1960s through the portrait of model Ina Balke by the renowned photographer Ted Russell. For those of you who've ever searched on Pinterest for '60s makeup, chances are you've stumbled upon this stunning photograph. This article is your step-by-step guide on how to get the vintage makeup and styling as seen on Ina to try out yourself!
+<p style = {paragraphStyle} >
+                     <span style={{ color: '#745B4F', float: 'left', fontSize: '5rem', lineHeight: '0.9', marginRight: '0.05em', marginTop: '0.01em' }}>W</span>elcome back to another Time Travel Tutorials, where we admire and recreate beauty icons from the past. Today, let's delve into the 1960s through the portrait of model Ina Balke by the renowned photographer Ted Russell. For those of you who've ever searched on Pinterest for '60s makeup, chances are you've stumbled upon this stunning photograph. This article is your step-by-step guide on how to get the vintage makeup and styling as seen on Ina to try out yourself!
                 </p>
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <p style = {paragraphStyle} >
                     Among the film's many breathtaking fashion moments, the iconic pink gingham dress stole the hearts of fans. However, one look, in my opinion, outshone the rest—the unforgettable roller skate Barbie ensemble!
                 </p>
 
@@ -80,9 +99,8 @@ const BalkeBlog = () => {
                     </a>
             
 
-                    <p style={{ justifyContent: 'center',fontSize: '2.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
-                    The Essence of 1960s Makeup
-                </p>
+<h2 style = {headingStyle}>                    The Essence of 1960s Makeup
+                </h2>
 
                 <div>
                     <a href='https://go.shopmy.us/p-1491445'>
@@ -90,15 +108,15 @@ const BalkeBlog = () => {
                     </a>
              
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                    <p style = {paragraphStyle} >
                     Ina Balke’s iconic wink showcases a classic 60s cut crease complimented by matte skin and a peach lip. Her styling feels very Hepburn, with a sophisticated black dress and both a cigarette and wine glass held up to her mouth. Her look is complete with a chic, brunette bob with blunt bangs, which I recreated with a fabulous wig! If you decide to give this tutorial a try, please be sure to tag me or send a photo to be featured on the blog - I'd love to see you in this glamorous style.
                 </p>
 
-                <p style={{ justifyContent: 'center',fontSize: '2.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
-                    The Skin: Keep It Matte & Bright
-                </p>
+                <h2 style = {headingStyle}>    
+                                    The Skin: Keep It Matte & Bright
+                </h2>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <p style = {paragraphStyle} >
                     This look is very glamorous, so let’s use a high-coverage foundation for a flawless base. Ina’s face looks bright and highlighted through the center, so go with a lighter high coverage concealer overtop of your foundation base. I used the NYX Can't Stop Won't Stop Concealer in a V-shape under my eyes, which is a great drugstore option for a posh look!
                 </p>
 
@@ -113,23 +131,23 @@ const BalkeBlog = () => {
                     CONTAINS: AFFILIATE LINKS
                 </p>
 
-                <p style={{ justifyContent: 'center',fontSize: '2.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
-                    Contour & Set The Skin
-                </p>
+                <h2 style = {headingStyle}>    
+                                    Contour & Set The Skin
+                </h2>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <p style = {paragraphStyle} >
                     To add dimension and mature the face, use a cool-toned contour under the cheekbones and jawline. Keep the nose contour subtle to balance the soon-to-be dramatic eyes.
                 </p>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <p style = {paragraphStyle} >
                     For setting the highlighted areas, the Hourglass radiant powder is my go-to for a luminous finish, but the Revlon Photoready translucent finisher is a great budget-friendly option. Adding a powder that reflects light helps create that hyper-real base when photographed, as seen in the inspiration photo.
                 </p>
 
-                <p style={{ fontSize: '2.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
-                    Touch of Bronzer & Blush
-                </p>
+                <h2 style = {headingStyle}>    
+                                    Touch of Bronzer & Blush
+                </h2>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <p style = {paragraphStyle} >
                     The Charlotte Tilbury Filmstar Bronze & Glow contour duo helps soften the contour and adds a natural glow. For blush, Chanel’s warm pink blush, shade 440 - QUINTESSENCE, adds the perfect touch of color. Remember, it's all about creating a natural, yet defined look for this sophisticated style!
                 </p>
 
@@ -144,19 +162,19 @@ const BalkeBlog = () => {
                     CONTAINS: AFFILIATE LINKS
                 </p>
 
-                <p style={{ justifyContent: 'center',fontSize: '2.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
-                    Iconic 60s Eyeshadow with Rustic Tones
-                </p>
+                <h2 style = {headingStyle}>    
+                                    Iconic 60s Eyeshadow with Rustic Tones
+                </h2>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <p style = {paragraphStyle} >
                     Eye makeup is central to the 60s look. I used a matte white shadow for brightness to the lid, but you can opt for a pearly white or skin-toned shade for a more muted effect.
                 </p>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <p style = {paragraphStyle} >
                     For this eyeshadow look, I used the Too Faced Natural Lust Palette which was the perfect palette, but was limited edition and hard to find now! After doing some digging, I came across a similar palette called Melt Cosmetics Gemini Eyeshadow Palette which has the shades we will need.
                 </p>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <p style = {paragraphStyle} >
                     Blend a yellow gold and a dingy green-bronze through the crease fading towards the brow bone. When we cut the crease next, we will get that 60s shape but have these rustic tones peaking above softens the look and makes any eye color pop
                 </p>
 
@@ -170,35 +188,36 @@ const BalkeBlog = () => {
                     CONTAINS: AFFILIATE LINKS
                 </p>
 
-                <p style={{ justifyContent: 'center',fontSize: '2.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
-                    Cut That Crease!
-                </p>
+                <h2 style = {headingStyle}>    
+                                    Cut That Crease!
+                </h2>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <p style = {paragraphStyle} >
                     With a precise brush, create an exaggerated rounded crease with a black, matte shadow. Tilt your head back slightly to locate where your crease is and etch in the shadow slightly above the eye socket. Make sure the shadow doesn’t have fallout!
                 </p>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <p style = {paragraphStyle} >
                     From this initial crease line, smoke out the edges above the cut crease, fading into the gold and bronze. Clean up the black shadow one more time by adding intensity to the exaggerated crease with as much precision as you can.
                 </p>
 
-                <p style={{ justifyContent: 'center',fontSize: '2.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <h2 style = {headingStyle}>    
                     1960s Eye Makeup Tips for Hooded Eyes
-                </p>
+                </h2>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <p style = {paragraphStyle} >
                     If you have hooded eyes, you can still totally have fun with a 1960s look. You can do the same steps as listed above, though the eye may appear more “graphic” rather than create the illusion of deeper set eyes. I think both are equally as stunning!
                 </p>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <p style = {paragraphStyle} >
                     You can also take 1960s inspiration from icons like Brigitte Bardot who have beautiful vintage looks with hooded eyes and go for more of a classic smokey eye with winged liner if you are not loving the graphic crease. See B.B tutorials here for more inspiration.
                 </p>
 
-                <p style={{ justifyContent: 'center',fontSize: '2.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
-                    Brush Recommendations
-                </p>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <h2 style = {headingStyle}>    
+                    Brush Recommendations
+                </h2>
+
+                <p style = {paragraphStyle} >
                     This look takes patience and blending, but great brushes can definitely help. I’m revisiting this tutorial years later, and thought I’d suggest my favourite current brushes from Rephr to help get the look listed below - especially the tiny 24 brush for the cut crease!
                 </p>
 
@@ -213,19 +232,19 @@ const BalkeBlog = () => {
                     CONTAINS: AFFILIATE LINKS
                 </p>
 
-                <p style={{ justifyContent: 'center',fontSize: '2.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
-                    Winged Liner & Fabulous Lashes
-                </p>
+                <h2 style = {headingStyle}>    
+                                    Winged Liner & Fabulous Lashes
+                </h2>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <p style = {paragraphStyle} >
                     For the eye liner, start with a black pencil liner to tight-line the eye and add dots along the bottom lashes. The dots along the bottom will help create a doll-like look once mascara is applied to the bottom lashes
                 </p>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <p style = {paragraphStyle} >
                     Add matte black liquid liner in a bold wing for a retro finish that helps elongate the eye.
                 </p>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <p style = {paragraphStyle} >
                     Double Demi Wispies from Ardell complement the thick liner, paired with Too Faced Better Than Sex Mascara for glamorous lashes. Focus on blending your natural lashes with the falsies at the base rather than lengthening them with mascara. We don’t want any clumps to the wispy lashes!
                 </p>
 
@@ -240,11 +259,11 @@ const BalkeBlog = () => {
                     CONTAINS: AFFILIATE LINKS
                 </p>
 
-                <p style={{ justifyContent: 'center',fontSize: '2.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
-                    The Perfect Pout
-                </p>
+                <h2 style = {headingStyle}>    
+                                    The Perfect Pout
+                </h2>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <p style = {paragraphStyle} >
                     Define your lips with your favorite nude lipliner, mine is by far the Charlotte Tilbury's Iconic Nude lip cheat! Slightly over line the upper lip in a round shape for that perfect pout. Since her lips are covered by the wine glass, it’s a bit of guesswork but I chose NARS lipstick in Tolede and loved how it turned out. This lipstick shade is described as a medium deep coral if you are looking for something similar!
                 </p>
 
@@ -254,11 +273,11 @@ const BalkeBlog = () => {
 />
 
 
-<p style={{ justifyContent: 'center',fontSize: '2.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+<h2 style = {headingStyle}>    
                     The Finishing Touches
-                </p>
+                </h2>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <p style = {paragraphStyle} >
                     Now that we have a glamorous 60s makeup look, it’s time to style the hair. If you have a bob and bangs, you are already set! I chose a wig I bought from YesStyle and added a light hairspray to help style bangs. A black dress, especially with a high neckline really adds sophistication to this timeless style. Go for gold jewelry to help bring out the warm tones in the eye makeup.
                 </p>
 
@@ -269,11 +288,11 @@ const BalkeBlog = () => {
 
             
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+<p style = {paragraphStyle} >
                     Whether you're a fan of the 60s, trying to expand your makeup skills, I hope you found this guide a fun read and inspires you to try this cut-crease style. More well-known names from the 1960s beauty scene like Jean Shrimpton (the face of the 60s) Audrey Hepburn, Brigitte Bardot can be found in more Time Travel Tutorials here on my blog if you want to keep on reading.
                 </p>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <p style = {paragraphStyle} >
                     Thank you for reading and if you want to be featured on my site, submit your recreation or version of this look here. I’d love to see you switch up your style with confidence!
                 </p>
 

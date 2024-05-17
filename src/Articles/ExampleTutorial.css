@@ -6,7 +6,6 @@ body {
 }
 
 .card:hover {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Keeps the shadow consistent with no change */
     transform: none !important; /* Ensures there is no movement or scaling */
     /* Any other hover effects you wish to neutralize can be reset here */
 }
@@ -54,7 +53,6 @@ body {
     font-family: 'GFS Didot', sans-serif;
     text-align: left;
     margin: 0 auto 1em;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Styles for images */
