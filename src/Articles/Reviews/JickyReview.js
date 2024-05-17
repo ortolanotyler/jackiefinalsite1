@@ -1,19 +1,20 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import '../ExampleTutorial.css';
 import TextReveal from '../../Components/TextReveal';
 
-const jicky1 = `${process.env.PUBLIC_URL}/Images/jicky1.png`;
-const jicky2 = `${process.env.PUBLIC_URL}/Images/jicky2.png`;
-const jicky3 = `${process.env.PUBLIC_URL}/Images/jicky3.png`;
-const Signature = `${process.env.PUBLIC_URL}/Images/Signature.png`;
+const jicky2 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky2.jpg`;
+const jicky1 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/JickyTitle.png`;
+const jicky3 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky3.png`;
+
+const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => {
     return (
         <div>
             <div><TextReveal text="JICKY  // GUERLAIN" /></div>
             <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-                <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+                <div className="blog-content" style={{ lineHeight: '1.5' }}>{blogContent}</div>
             </div>
         </div>
     );
@@ -24,7 +25,7 @@ const JickyReview = () => {
 
     const blogContent = (
         <div>
-            <div style={{ marginTop: '10rem', textAlign: 'center' }}>
+            <div style={{ margin: '2rem',marginTop: '10rem', textAlign: 'center' }}>
             <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.5em', marginTop: '1em', lineHeight: '1.5rem', marginBottom: '2.5em', color: 'black', textDecoration: 'none' }}>                    BEAUTY // REVIEWS // FRAGRANCES
                 </a>
             </div>
@@ -134,20 +135,41 @@ const JickyReview = () => {
                 </h2>
 
                 <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
-                    <strong>
+                
                         Longevity:
-                    </strong> Remarkably long-lasting, Jicky can easily carry you through the
+                 Remarkably long-lasting, Jicky can easily carry you through the
                     day into the evening.
                 </p>
 
                 <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
                     <strong>
                         Sillage:
-                    </strong> Moderate but noticeable, it leaves a subtle, intriguing trail that
+                    </strong>  Moderate but noticeable, it leaves a subtle, intriguing trail that
                     invites closer attention.
                 </p>
+
+                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
+
+                    Occasions and Seasonality: Halfeti's depth and warmth make it perfect for cooler seasons, and its boldness suits formal events or evenings when you want to make a statement.</p>
                 
-                {/* Remaining content... */}
+               
+                <h2 style={{ textAlign: 'center', fontSize: '2.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}> Final Thoughts</h2>
+                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
+
+                                Pros and Cons: The blend of exotic spices and florals might be intense for those who prefer lighter scents. But for lovers of rich, complex fragrances, Halfeti is a treasure.</p>
+                                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
+
+                                Value for Money: Given its complexity and longevity, Halfeti is a worthy indulgence for those who appreciate niche perfumery.</p>
+                                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
+
+                                Who Would Enjoy It: A signature scent for the bold and adventurous, it's for those who aren't afraid to stand out. I personally feel like this is a more mature fragrance.</p>
+                                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
+
+                                Conclusion: Halfeti by Penhaligon's is a fragrant masterpiece, weaving together the essence of the East with British perfumery's finesse. It's a scent that promises to transport you to another world, one spritz at a time. Have you experienced the allure of Halfeti by Penhaligon's? Share your thoughts below!</p>
+                      
+
+                <img src={Signature} alt="Jicky Signature" style={{ width: '100%' }} />
+
             </div>
         </div>
     );

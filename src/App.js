@@ -87,9 +87,9 @@ function App() {
 
   {/*  Review  */}
   <Route path="/painlessIPL" element={<UlikeReview/>} />
-        <Route path="/halfeti" element={<HalfetiReview/>} />
-        <Route path="/guerlain" element={<JickyReview/>} />
-        <Route path="/bonbon" element={<BonBonReview/>} />
+        <Route path="/halfetireview" element={<HalfetiReview/>} />
+        <Route path="/jickyreview" element={<JickyReview/>} />
+        <Route path="/bonbonreview" element={<BonBonReview/>} />
         <Route path="/reviews" element={<ReviewHomePage/>} />
 
         {/* Quiz  */}
