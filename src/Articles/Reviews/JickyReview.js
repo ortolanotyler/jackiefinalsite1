@@ -23,17 +23,36 @@ const Card = ({ blogContent }) => {
 const JickyReview = () => {
     const websiteId = "10910";
 
+    const headingStyle = {
+        textAlign: 'center',
+        fontSize: '2.5rem',
+        fontFamily: 'GFS Didot, serif',
+        margin: '1em',
+        maxWidth: '100%',
+        marginLeft: '0em'
+    };
+
+    const paragraphStyle = {
+        fontSize: '1.5rem',
+        fontFamily: 'GFS Didot, serif',
+        margin: '1em',
+        maxWidth: '100%',
+        marginLeft: '1em'
+    };
+
     const blogContent = (
-        <div>
-            <div style={{ margin: '2rem',marginTop: '10rem', textAlign: 'center' }}>
-            <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.5em', marginTop: '1em', lineHeight: '1.5rem', marginBottom: '2.5em', color: 'black', textDecoration: 'none' }}>                    BEAUTY // REVIEWS // FRAGRANCES
+       
+            <div style={{ margin: '10rem', marginTop: '10rem', textAlign: 'center' }}>
+                 <div>
+                <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.5em',  lineHeight: '1.5rem',color: 'black', textDecoration: 'none' }}>
+                    BEAUTY // REVIEWS // FRAGRANCES
                 </a>
             </div>
-            <div className="container" style={{ textAlign: 'left', maxWidth: '100%', margin: '20em', marginTop: '10rem' }}>
+            <div className="container" style={{ textAlign: 'left', maxWidth: '100%', margin: '20rem', marginTop: '10rem' }}>
                 <img src={jicky1} alt="Jicky Perfume 1" style={{ width: '100%' }} />
                 <img src={jicky2} alt="Jicky Perfume 2" style={{ width: '100%' }} />
 
-                <div style={{ fontFamily: 'GFS Didot, serif', textAlign: 'center', fontSize: '2rem' }}>
+                <div style={{ fontFamily: 'GFS Didot, serif', textAlign: 'center', fontSize: '2rem', marginTop: '5rem' }}>
                     Perfume Name: Jicky<br />
                     <br />
                     Brand: Guerlain<br />
@@ -43,18 +62,18 @@ const JickyReview = () => {
                     Perfumers: Aimé Guerlain<br />
                 </div>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
+                <p style={paragraphStyle}>
                     Price: Jicky by Guerlain in the Eau de Parfum concentration: <br />
                     <strong>
                         75 ml (2.53 oz) - $150.00 USD
                     </strong>
                 </p>
 
-                <h2 style={{ textAlign: 'center', fontSize: '2.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <h2 style={headingStyle}>
                     ⭐ Background Information
                 </h2>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
+                <p style={paragraphStyle}>
                     <span style={{ color: '#745B4F', float: 'left', fontSize: '5rem', lineHeight: '0.9', marginRight: '0.05em', marginTop: '0.01em' }}>J</span>icky by Guerlain stands as one of the oldest perfumes in continuous
                     production, a testament to its timeless appeal. Conceived by Aimé Guerlain
                     in the late 19th century, Jicky is a revolutionary fragrance that harmoniously
@@ -62,7 +81,7 @@ const JickyReview = () => {
                     making it a precursor to modern perfumery.
                 </p>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
+                <p style={paragraphStyle}>
                     There is both the Jicky by Guerlain Eau de Parfum concentration, and Eau
                     de Toilette which have different bottles and potency. Guerlain maintains the
                     integrity and signature of Jicky across both formulations. The differences
@@ -73,11 +92,11 @@ const JickyReview = () => {
 
                 <img src={jicky3} alt="Jicky Perfume 3" style={{ width: '100%' }} />
 
-                <h2 style={{ textAlign: 'center', fontSize: '2.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <h2 style={headingStyle}>
                     🍋 Fragrance Profile
                 </h2>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
+                <p style={paragraphStyle}>
                     Concentration: Eau de Toilette Spray
                     Fragrance Family: Oriental Fougère
                     Top Notes: Bergamont, Rosemary, Lemon, Mandarin Orange
@@ -87,7 +106,7 @@ const JickyReview = () => {
                     Palisander Rosewood
                 </p>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
+                <p style={paragraphStyle}>
                     Overall Scent Profile: Jicky is an enigmatic blend of vibrant top notes
                     and a mysterious, deep base. Its opening is fresh and inviting, quickly
                     evolving into a complex, spicy heart, and settling into a rich, warm embrace
@@ -95,31 +114,31 @@ const JickyReview = () => {
                     comforting masterpiece.
                 </p>
 
-                <h2 style={{ textAlign: 'center', fontSize: '2.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <h2 style={headingStyle}>
                     👱 Personal First Impressions:
                 </h2>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
+                <p style={paragraphStyle}>
                     My introduction to Jicky was inspired by the beautiful and bohemian
                     Sharon Tate. While preparing for a Sharon Tate-inspired makeup tutorial, I
                     discovered her fondness for Jicky by Guerlain, alongside Chanel No. 5.
                 </p>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
+                <p style={paragraphStyle}>
                     Although Chanel No. 5's heavy florals are iconic, I found myself drawn to
                     Jicky for its unique blend of masculine and feminine notes, and notably, its
                     powdery finish that distinguishes it from the floral dominance of Chanel
                     No. 5.
                 </p>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
+                <p style={paragraphStyle}>
                     Jicky’s harmonious balance and warm, powdery essence make it a versatile
                     and endearing fragrance. Penhaligon’s Trade Routes fragrances rank
                     among my all-time favourites, and Jicky shares a similar boldness but is
                     somewhat more affordable.
                 </p>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
+                <p style={paragraphStyle}>
                     This distinctive fragrance begins with light and feminine notes of lavender,
                     lemon, and mandarin, eventually settling into a base of vanilla, spices, and
                     sandalwood—some of my favorite base notes. Jicky not only holds historical
@@ -130,43 +149,39 @@ const JickyReview = () => {
                     go-to fragrance I absolutely adore.
                 </p>
 
-                <h2 style={{ textAlign: 'center', fontSize: '2.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
+                <h2 style={headingStyle}>
                     💗 Review & Recommendations
                 </h2>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
-                
-                        Longevity:
-                 Remarkably long-lasting, Jicky can easily carry you through the
+                <p style={paragraphStyle}>
+                    Longevity: Remarkably long-lasting, Jicky can easily carry you through the
                     day into the evening.
                 </p>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
+                <p style={paragraphStyle}>
                     <strong>
                         Sillage:
                     </strong>  Moderate but noticeable, it leaves a subtle, intriguing trail that
                     invites closer attention.
                 </p>
 
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
+                <p style={paragraphStyle}>
+                    Occasions and Seasonality: Halfeti's depth and warmth make it perfect for cooler seasons, and its boldness suits formal events or evenings when you want to make a statement.
+                </p>
 
-                    Occasions and Seasonality: Halfeti's depth and warmth make it perfect for cooler seasons, and its boldness suits formal events or evenings when you want to make a statement.</p>
-                
-               
-                <h2 style={{ textAlign: 'center', fontSize: '2.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}> Final Thoughts</h2>
-                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
-
-                                Pros and Cons: The blend of exotic spices and florals might be intense for those who prefer lighter scents. But for lovers of rich, complex fragrances, Halfeti is a treasure.</p>
-                                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
-
-                                Value for Money: Given its complexity and longevity, Halfeti is a worthy indulgence for those who appreciate niche perfumery.</p>
-                                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
-
-                                Who Would Enjoy It: A signature scent for the bold and adventurous, it's for those who aren't afraid to stand out. I personally feel like this is a more mature fragrance.</p>
-                                <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em' }}>
-
-                                Conclusion: Halfeti by Penhaligon's is a fragrant masterpiece, weaving together the essence of the East with British perfumery's finesse. It's a scent that promises to transport you to another world, one spritz at a time. Have you experienced the allure of Halfeti by Penhaligon's? Share your thoughts below!</p>
-                      
+                <h2 style={headingStyle}>Final Thoughts</h2>
+                <p style={paragraphStyle}>
+                    Pros and Cons: The blend of exotic spices and florals might be intense for those who prefer lighter scents. But for lovers of rich, complex fragrances, Halfeti is a treasure.
+                </p>
+                <p style={paragraphStyle}>
+                    Value for Money: Given its complexity and longevity, Halfeti is a worthy indulgence for those who appreciate niche perfumery.
+                </p>
+                <p style={paragraphStyle}>
+                    Who Would Enjoy It: A signature scent for the bold and adventurous, it's for those who aren't afraid to stand out. I personally feel like this is a more mature fragrance.
+                </p>
+                <p style={paragraphStyle}>
+                    Conclusion: Halfeti by Penhaligon's is a fragrant masterpiece, weaving together the essence of the East with British perfumery's finesse. It's a scent that promises to transport you to another world, one spritz at a time. Have you experienced the allure of Halfeti by Penhaligon's? Share your thoughts below!
+                </p>
 
                 <img src={Signature} alt="Jicky Signature" style={{ width: '100%' }} />
 
@@ -181,7 +196,7 @@ const JickyReview = () => {
                 description="A Timeless Elegance and Pioneering Spirit"
                 blogContent={blogContent}
             />
-            <Comments website-id={websiteId} page-id={'BonBon'} />
+            <Comments website-id={websiteId} page-id={'jicky'} />
         </div>
     );
 };
