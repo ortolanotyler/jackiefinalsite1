@@ -46,14 +46,14 @@ const BalkeBlog = () => {
 
       
        
-        <div className="container" style={{ lineHeight: '2.5rem', margin: '20rem' }}>
+        <div className="container" style={{ lineHeight: '2.5rem', margin: '20rem', marginTop: '5rem' }}>
         
         <div
         style = {{
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            height: '20vh'
+            height: '10vh'
         }}
         >
                <a href="/timetraveltutorials" style={{ justifyContent: 'center',fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
@@ -300,7 +300,12 @@ const BalkeBlog = () => {
                     <img src={Signature} alt="Soft pink blush for a natural Barbie-inspired cheek flush" style={{ maxWidth: '100%', height: 'auto' }} />
               
           
-        </div></div>
+        </div>
+        <Comments
+                website-id={websiteId}
+                page-id={'balke-blog'}
+            />
+        </div>
     );
 
     return (
@@ -316,10 +321,7 @@ const BalkeBlog = () => {
                     textAlign: 'center'
                 }}
             />
-            <Comments
-                website-id={websiteId}
-                page-id={'balkeblog'}
-            />
+          
         </div>
     );
 };

@@ -59,8 +59,8 @@ const Yardley65 = () => {
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '15rem', marginTop: '10px' }}>
-            <div style={{ height: '20vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '20rem', marginTop: '10px' }}>
+            <div style={{ height: '10vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // TIME TRAVEL TUTORIALS
                 </a>

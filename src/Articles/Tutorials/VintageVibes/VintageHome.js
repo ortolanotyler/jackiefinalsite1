@@ -25,7 +25,7 @@ const cardsData = [
     link: "/sharontatebridal",
     image: bridal,
     alt: "SHARON TATE",
-    title: "Sharon Tate",
+    title: "Sharon Tate Bridal",
     description: "Iconic '60s Bridal"
   },
   {
@@ -39,7 +39,7 @@ const cardsData = [
     link: "/iconicsharon",
     image: sharon,
     alt: "Sharon Tate",
-    title: "Sharon Tate II",
+    title: "Sharon Tate Part II",
     description: "Part Two of the iconic series"
   },
   {

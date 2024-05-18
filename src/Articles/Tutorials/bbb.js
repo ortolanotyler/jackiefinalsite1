@@ -16,7 +16,7 @@ const cardsData = [
     link: "/nomakeupspring",
     image: image17,
     alt: "No Makeup - Spring Edition",
-    title: "No Makeup Makeup - Spring Edition",
+    title: "No-Makeup Spring 🌸",
     description: "No Makeup Makeup - Spring Edition",
   },
   {

@@ -73,9 +73,7 @@ const Ccc = () => {
   return (
     <div>
          <div><TextReveal text= 'POP CULTURE OBSESSED' /></div>
-         <Paper elevation={3} style={{ padding: '1rem', margin: '1rem 0' }}>
-     <RotatingText/>
-     </Paper>
+        
     
       <ul className={styles.cardList}>
         {cardsData.map((card, index) => (
