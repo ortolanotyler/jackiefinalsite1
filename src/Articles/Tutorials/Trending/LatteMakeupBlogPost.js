@@ -57,7 +57,7 @@ const LatteMakeupBlogPost = () => {
   };
 
   const blogContent = (
-    <div className="container" style={{ lineHeight: '2.25em', margin: '20rem', marginTop: '25px' }}>
+    <div className="container" style={{ lineHeight: '2.25em', margin: '15rem', marginTop: '25px' }}>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TRENDS

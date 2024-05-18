@@ -82,9 +82,9 @@ const PrinceOfWales = () => {
 
     const blogContent = (
         <div className="container" style={{ lineHeight: '2.5em', maxWidth: '100%', margin: '20rem' }}>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-                    TRAVEL  //  NIAGARA ON THE LAKE  //  THE PRINCE OF WALES
+                    TRAVEL  //  CANADA  //  NIAGARA ON THE LAKE
                 </a>
             </div>
             

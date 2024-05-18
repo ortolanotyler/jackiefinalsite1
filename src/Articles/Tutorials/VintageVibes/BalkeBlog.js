@@ -46,14 +46,14 @@ const BalkeBlog = () => {
 
       
        
-        <div className="container" style={{ lineHeight: '2.25rem', margin: '20rem' }}>
+        <div className="container" style={{ lineHeight: '2.5rem', margin: '20rem' }}>
         
         <div
         style = {{
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            height: '30vh'
+            height: '20vh'
         }}
         >
                <a href="/timetraveltutorials" style={{ justifyContent: 'center',fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>

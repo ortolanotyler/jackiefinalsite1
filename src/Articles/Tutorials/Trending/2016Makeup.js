@@ -13,16 +13,14 @@ const image3 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016Makeup4.jpg`;
 const image4 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016-Perrie.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
-const Card = ({ blogContent }) => {
-  return (
-    <div>
-      <div><TextReveal text='POP CULTURE OBSESSED' /></div>
-      <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-        <div className="blog-content" style={{ lineHeight: '1.2' }}>{blogContent}</div>
-      </div>
+const Card = ({ blogContent }) => (
+  <div>
+    <div><TextReveal text='POP CULTURE OBSESSED' /></div>
+    <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+      <div className="blog-content" style={{ lineHeight: '1.5' }}>{blogContent}</div>
     </div>
-  );
-};
+  </div>
+);
 
 const Makeup2016 = () => {
   const websiteId = '10910';
@@ -40,14 +38,21 @@ const Makeup2016 = () => {
   const paragraphStyle = {
     fontSize: '1.5rem',
     fontFamily: 'GFS Didot, serif',
-    marginTop: '1px',
     margin: '5rem',
     maxWidth: '100%',
-    padding: '1rem',
+    lineHeight: '1.75em'
+  };
+
+  const imageStyle = {
+    display: 'block',
+    margin: '0 auto',
+    width: '50%',
+    maxHeight: '1000px',
+
   };
 
   const blogContent = (
-    <div className="container" style={{ lineHeight: '2.5em', margin: '15rem', marginTop: '25px' }}>
+    <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '15rem', marginTop: '25px' }}>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TRENDS // POP CULTURE
@@ -55,7 +60,7 @@ const Makeup2016 = () => {
       </div>
 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={title} alt="Iconic Sixties Twiggy Look with MOD Blue Eyeshadow" style={{ width: '100%' }} />
+        <img src={title} alt="Iconic Sixties Twiggy Look with MOD Blue Eyeshadow" style={imageStyle} />
       </div>
 
       <ResponsiveIframe src="https://www.youtube.com/embed/HtEPH6RUEZg?si=8RIeZhrp-luWJTSI" title="Jackie Wyers Twiggy Blue Mod Eyeshadow Youtube Tutorial" />
@@ -77,13 +82,13 @@ const Makeup2016 = () => {
       </p>
 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={image1} alt="2016 Makeup Tutorial via Jackie Wyers on Instagram" style={{ maxHeight: '80%', maxWidth: '50%' }} />
+        <img src={image1} alt="2016 Makeup Tutorial via Jackie Wyers on Instagram" style={imageStyle} />
       </div>
 
       <h2 style={headingStyle}>The Essence of 2016 Makeup</h2>
 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={image2} alt="Twiggy Eye Tutorial Jackie Wyers" style={{ maxHeight: '80%', maxWidth: '50%' }} />
+        <img src={image2} alt="Twiggy Eye Tutorial Jackie Wyers" style={imageStyle} />
       </div>
 
       <p style={paragraphStyle}>
@@ -225,7 +230,7 @@ const Makeup2016 = () => {
       <h2 style={headingStyle}>2016 Makeup Memories</h2>
 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={image3} alt="2016 Makeup Tutorial via Jackie Wyers on Instagram" style={{ maxHeight: '80%', maxWidth: '50%' }} />
+        <img src={image3} alt="2016 Makeup Tutorial via Jackie Wyers on Instagram" style={imageStyle} />
       </div>
 
       <p style={paragraphStyle}>
@@ -233,7 +238,7 @@ const Makeup2016 = () => {
       </p>
 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={image4} alt="2016 Makeup Tutorial via Jackie Wyers on Instagram" style={{ maxHeight: '80%', maxWidth: '50%' }} />
+        <img src={image4} alt="2016 Makeup Tutorial via Jackie Wyers on Instagram" style={imageStyle} />
       </div>
 
       <p style={paragraphStyle}>
@@ -245,7 +250,7 @@ const Makeup2016 = () => {
       </p>
 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={signature} alt="2016 Makeup Tutorial via Jackie Wyers on Instagram" style={{ maxHeight: '80%', maxWidth: '50%' }} />
+        <img src={signature} alt="2016 Makeup Tutorial via Jackie Wyers on Instagram" style={imageStyle} />
       </div>
     </div>
   );
