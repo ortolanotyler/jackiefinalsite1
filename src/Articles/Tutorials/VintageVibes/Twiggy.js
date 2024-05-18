@@ -54,7 +54,7 @@ const TwiggyBlog = () => {
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '15rem', marginTop: '10px' }}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '20rem', marginTop: '5rem' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
                 <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // TIME TRAVEL TUTORIALS
@@ -112,7 +112,7 @@ const TwiggyBlog = () => {
                 Twiggy’s look was all about fresh-faced beauty, so I follow up with Makeup Forever's HD Skin Hydro Glow foundation, infused with hyaluronic acid, to maintain that natural, hydrated look. For a subtle contour, Makeup Forever’s palette allows me to add dimension with minimal product—essential for this fresh and luminous style.
             </p>
 
-            <ResponsiveIframe src="https://shopmy.us/collections/public/542136?noHeader=true" title="Foundation - Makeup Forever" />
+            <ResponsiveIframe src="https://shopmy.us/collections/public/551116?noHeader=true" title="Foundation - Makeup Forever" />
 
             <h2 style={headingStyle}>Faux Freckles & Peachy Cheeks</h2>
 
@@ -120,7 +120,7 @@ const TwiggyBlog = () => {
                 Before we move on to setting the foundation, let's add some playful dimension with two cream-based products. Start by taking the KimChiBeauty Candy Girl Fake Freckle pen to delicately dot along the bridge of the nose and sweep up toward the cheekbones, emulating that sun-kissed look Twiggy was known for. Then, with a dab of cream blush, infuse a healthy pop of colour into the cheeks to bring the whole look together.
             </p>
 
-            <ResponsiveIframe src="https://shopmy.us/collections/public/542136?noHeader=true" title="Fake Freckles - KimChiBeauty" />
+            <ResponsiveIframe src="https://shopmy.us/collections/public/551119?noHeader=true" title="Fake Freckles - KimChiBeauty" />
 
             <h2 style={headingStyle}>Anna Sui’s New Brightening Powder</h2>
 
@@ -132,7 +132,7 @@ const TwiggyBlog = () => {
                 Not only does this powder promise a smooth, doll-like finish, it’s crafted with tone control pearls to add luster and counteract dullness. With a few sweeps, it works to blur imperfections and conceal pores, maintaining skin's natural luminosity without a heavy makeup look. Plus, the joy of using the plush powder puff adds a touch of vintage glam to the routine. Available on Amazon, this powder is a transformative step, ensuring a polished and radiant finish, as you can see in my before and after—it's light, non-cakey, and keeps the skin looking hydrated and smooth. More of a pressed powder girl? Try the stunning Anna Sui Rose Pressed Powder, also in lavender or pink.
             </p>
 
-            <ResponsiveIframe src="https://shopmy.us/collections/public/542136?noHeader=true" title="Brightening Powder - Ana Sui" />
+            <ResponsiveIframe src="https://shopmy.us/collections/public/551123?noHeader=true" title="Brightening Powder - Ana Sui" />
 
             <h2 style={headingStyle}>The Twiggy Eyeshadow Look: The First Steps</h2>
 
@@ -148,7 +148,7 @@ const TwiggyBlog = () => {
                 For the lids, I opted for a pastel blue cream shadow, sourced from Amazon, to achieve that iconic pop of colour. Blue eyeshadow might seem bold, but a pastel hue is approachable and wearable, especially for those new to the world of vibrant shadows.
             </p>
 
-            <ResponsiveIframe src="https://shopmy.us/collections/public/542136?noHeader=true" title="Eyeshadow - Makeup By Mario" />
+            <ResponsiveIframe src="https://shopmy.us/collections/public/551124?noHeader=true" title="Eyeshadow - Makeup By Mario" />
 
             <h2 style={headingStyle}>Liner & Drawn on Twiggy Lashes</h2>
 
@@ -160,7 +160,7 @@ const TwiggyBlog = () => {
                 After curling the lashes, apply Anna Sui's Volumizing Mascara before attaching authentic Twiggy-style false lashes from Yardley - preserved from the 1960’s. You can use any full-strip with fluttery lashes! For those famous Twiggy bottom lashes, I carefully drew them on, tapering them off as I moved towards the inner corner.
             </p>
 
-            <ResponsiveIframe src="https://shopmy.us/collections/public/542136?noHeader=true" title="Eyeliner - Ana Sui" />
+            <ResponsiveIframe src="https://shopmy.us/collections/public/551126?noHeader=true" title="Eyeliner - Ana Sui" />
 
             <h2 style={headingStyle}>Twiggy’s Pale Pout</h2>
 
@@ -202,8 +202,8 @@ const TwiggyBlog = () => {
     return (
         <div ref={blogRef}>
             <Card
-                title="2014 Victoria Secret with 2013 Makeup"
-                description="Time to strut our stuff like a Victoria's Secret Angel!"
+                title="Twiggy Sixties Mod Makeup Tutorial"
+                description="Iconic '60s Makeup how-to"
                 blogContent={blogContent}
                 style={{
                     display: 'flex',
