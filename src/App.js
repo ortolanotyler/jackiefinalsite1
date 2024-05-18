@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import ResponsiveAppBar from './Navigation/AppBar/ResponsiveAppBar';
 import Footer from './Navigation/Footer/Footer';
 import Sitemap from './Navigation/SiteMap/SiteMap';
@@ -44,97 +45,76 @@ import Makeup2016 from './Articles/Tutorials/Trending/2016Makeup';
 import WestGateHotelBlog from './Articles/Travel/WestGateHotel';
 import AndazMauiReview from './Articles/Travel/AndazMaui';
 import PrinceOfWales from './Articles/Travel/PrinceOfWales';
+import ScrollToTop from './Navigation/Footer/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <ResponsiveAppBar />
-      
       <Routes>
+        {/* NavBar Routes */}
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/tutorials" element={<NewTutorials />} />
 
-      {/* NavBar Routes  */}
-      <Route path="/" element={<HomePage />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/tutorials" element={<NewTutorials/>} />
+        {/* Tutorial Genre Home Page Routes */}
+        <Route path="/popculture" element={<PopCultureView />} />
+        <Route path="/timetraveltutorials" element={<VintageVibes />} />
+        <Route path="/trends" element={<TrendsHome />} />
 
-      {/* /Tutorial Genre Home Page Routes  */}
-      <Route path="/popculture" element={<PopCultureView/>} />
-      <Route path="/timetraveltutorials" element={<VintageVibes/>} />
-      <Route path="/trends" element={<TrendsHome/>} />
-    
-            {/* /Article  Routes  */}
+        {/* Article Routes */}
+        <Route path="/yardley1965" element={<Yardley65 />} />
+        <Route path="/twiggy" element={<TwiggyBlog />} />
+        <Route path="/victoriasecret" element={<VictoriaSecret />} />
+        <Route path="/sugarplumfairy" element={<SugarPlumBlogPost />} />
+        <Route path="/sophialoren" element={<SophiaLorenPost />} />
+        <Route path="/sharontatebridal" element={<SharonTatePost />} />
+        <Route path="/iconicsharon" element={<SharonIconicPost />} />
+        <Route path="/patmcgrath" element={<PatMcGrathPost />} />
+        <Route path="/nomakeupspring" element={<NoMakeUpSpring />} />
+        <Route path="/tremblant" element={<MontTremblantBlog />} />
+        <Route path="/lattemakeup" element={<LatteMakeupBlogPost />} />
+        <Route path="/lanablog" element={<LanaBlog />} />
+        <Route path="/hotelQ" element={<HotelQ />} />
+        <Route path="/gracekelly" element={<GraceKelly />} />
+        <Route path="/epcot" element={<Disney2Post />} />
+        <Route path="/disneybeachclubresort" element={<Disney1Post />} />
+        <Route path="/margotbarbie" element={<BarbieBlog />} />
+        <Route path="/balkeblog" element={<BalkeBlog />} />
+        <Route path="/2016Makeup" element={<Makeup2016 />} />
+        <Route path="/westgatesandiego" element={<WestGateHotelBlog />} />
+        <Route path="/andazmaui" element={<AndazMauiReview />} />
+        <Route path="/princeofwales" element={<PrinceOfWales />} />
 
-        <Route path="/yardley1965" element={<Yardley65/>} />
-        <Route path="/twiggy" element={<TwiggyBlog/>} />
-        <Route path="/victoriasecret" element={<VictoriaSecret/>} />
-        <Route path="/sugarplumfairy" element={<SugarPlumBlogPost/>} />
-        <Route path="/sophialoren" element={<SophiaLorenPost/>} />
-        <Route path="/sharontatebridal" element={<SharonTatePost/>} />
-        <Route path="/iconicsharon" element={<SharonIconicPost/>} />
-        <Route path="/patmcgrath" element={<PatMcGrathPost/>} />
-        <Route path="/nomakeupspring" element={<NoMakeUpSpring/>} />
-        <Route path="/tremblant" element={<MontTremblantBlog/>} />
-        <Route path="/lattemakeup" element={<LatteMakeupBlogPost/>} />
-        <Route path="/lanablog" element={<LanaBlog/>} />
-        <Route path="/hotelQ" element={<HotelQ/>} />
-        <Route path="/gracekelly" element={<GraceKelly/>} />
-        <Route path="/epcot" element={<Disney2Post/>} />
-        <Route path="/disneybeachclubresort" element={<Disney1Post/>} />
-        <Route path="/margotbarbie" element={<BarbieBlog/>} />
-        <Route path="/balkeblog" element={<BalkeBlog/>} />
-        <Route path="/2016Makeup" element={<Makeup2016/>} />
-        <Route path="/westgatesandiego" element={<WestGateHotelBlog/>} />
-        <Route path="/andazmaui" element={<AndazMauiReview/>} />
-        <Route path="/princeofwales" element={<PrinceOfWales/>} />
-  {/*  Review  */}
-  <Route path="/painlessIPL" element={<UlikeReview/>} />
-        <Route path="/halfetireview" element={<HalfetiReview/>} />
-        <Route path="/jickyreview" element={<JickyReview/>} />
-        <Route path="/bonbonreview" element={<BonBonReview/>} />
-        <Route path="/reviews" element={<ReviewHomePage/>} />
+        {/* Review */}
+        <Route path="/painlessIPL" element={<UlikeReview />} />
+        <Route path="/halfetireview" element={<HalfetiReview />} />
+        <Route path="/jickyreview" element={<JickyReview />} />
+        <Route path="/bonbonreview" element={<BonBonReview />} />
+        <Route path="/reviews" element={<ReviewHomePage />} />
 
-        {/* Quiz  */}
-    
-        <Route path="/quiz" element={<QuizHomepage/>} />
-      <Route path="/quiz1" element={<Quiz1/>} />
+        {/* Quiz */}
+        <Route path="/quiz" element={<QuizHomepage />} />
+        <Route path="/quiz1" element={<Quiz1 />} />
 
+        {/* Shop */}
+        <Route path="/mystyle" element={<MyStyle />} />
+        <Route path="/vintagevibesmerch" element={<VintageVibesMerch />} />
 
-          
-               {/*  Shop  */}
-               <Route path="/mystyle" element={<MyStyle/>} />
-               <Route path="/vintagevibesmerch" element={<VintageVibesMerch/>} />
+        {/* Vlog */}
+        <Route path="/vlogs" element={<Vlogs />} />
 
-          {/*  Vlog  */}
-          <Route path="/vlogs" element={<Vlogs/>} />
+        {/* Travel */}
+        <Route path="/travel" element={<TravelArticlesHome />} />
 
-
-
-
-          {/*  Travel  */}
-          <Route path="/travel" element={<TravelArticlesHome/>} />
-
-     
-
-
-  
-
-
-
-    {/* Footer  */}
-    <Route path="/sitemap" element={<Sitemap />} />
-        <Route path="/emailsubscribe" element={<EmailSubscribe/>} />
-        <Route path="/mediakit" element={<MediaKit/>} />
-
-      
-
-
-
-
-
+        {/* Footer */}
+        <Route path="/sitemap" element={<Sitemap />} />
+        <Route path="/emailsubscribe" element={<EmailSubscribe />} />
+        <Route path="/mediakit" element={<MediaKit />} />
 
         {/* 404 Route */}
         <Route path="*" element={<h1>404 Not Found</h1>} />
-
       </Routes>
       <Footer />
     </Router>

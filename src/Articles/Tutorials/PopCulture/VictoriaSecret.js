@@ -52,7 +52,7 @@ const VictoriaSecret = () => {
 
 
   const blogContent = (
-    <div className="container" style={{ lineHeight: '2.25em', margin: '15rem', marginTop: '0em' }}>
+    <div className="container" style={{ lineHeight: '2.25em', margin: '20rem', marginTop: '0em' }}>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TRENDS // POP CULTURE

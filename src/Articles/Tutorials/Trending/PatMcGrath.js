@@ -40,13 +40,13 @@ const PatMcGrathPost = () => {
     padding: '1.5rem',
     fontSize: '1.5rem',
     fontFamily: 'GFS Didot, serif',
-    margin: '5rem',
+    margin: '2rem',
     maxWidth: '100%',
 
   };
 
   const blogContent = (
-    <div className="container" style={{ lineHeight: '2.5em', maxWidth: '100%', margin: '20rem', marginTop: '25px' }}>
+    <div className="container" style={{ lineHeight: '2.5em', maxWidth: '100%', margin: '10rem', marginTop: '25px' }}>
       <div style={{
         display: 'flex',
         justifyContent: 'center',

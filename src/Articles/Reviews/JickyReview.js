@@ -37,18 +37,19 @@ const JickyReview = () => {
         fontFamily: 'GFS Didot, serif',
         margin: '1em',
         maxWidth: '100%',
-        marginLeft: '1em'
+        lineHeight: '1.75'
+    
     };
 
     const blogContent = (
        
             <div style={{ margin: '10rem', marginTop: '10rem', textAlign: 'center' }}>
                  <div>
-                <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.5em',  lineHeight: '1.5rem',color: 'black', textDecoration: 'none' }}>
+                <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.5em',  lineHeight: '1.75rem',color: 'black', textDecoration: 'none' }}>
                     BEAUTY // REVIEWS // FRAGRANCES
                 </a>
             </div>
-            <div className="container" style={{ textAlign: 'left', maxWidth: '100%', margin: '20rem', marginTop: '10rem' }}>
+            <div className="container" style={{ textAlign: 'left', maxWidth: '100%', margin: '15rem', marginTop: '10rem' }}>
                 <img src={jicky1} alt="Jicky Perfume 1" style={{ width: '100%' }} />
                 <img src={jicky2} alt="Jicky Perfume 2" style={{ width: '100%' }} />
                 <div>
@@ -68,10 +69,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
                 </div>
 
                 <p style={paragraphStyle}>
-                    Price: Jicky by Guerlain in the Eau de Parfum concentration: <br />
-                    <strong>
-                        75 ml (2.53 oz) - $150.00 USD
-                    </strong>
+                    Price for Eau de Parfum concentration: <br />
+                 
+                       <strong>
+                       75 ml (2.53 oz) -
+                        </strong>  $150.00 USD
+                 
                 </p>
 
                 <h2 style={headingStyle}>

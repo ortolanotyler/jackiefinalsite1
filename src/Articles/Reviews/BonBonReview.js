@@ -27,7 +27,7 @@ const BonBonReview = () => {
     textAlign: 'center',
     fontSize: '2.5rem',
     fontFamily: 'GFS Didot, serif',
-    margin: '1em',
+    margin: '1rem',
     maxWidth: '100%',
     marginLeft: '0em'
 };
@@ -35,22 +35,23 @@ const BonBonReview = () => {
 const paragraphStyle = {
     fontSize: '1.5rem',
     fontFamily: 'GFS Didot, serif',
-    margin: '1em',
+    margin: '1rem',
     maxWidth: '100%',
-    marginLeft: '0em'
+    marginLeft: '0em',
+  lineHeight: '2.5rem'
 };
     const websiteId = "10910"; 
     const blogRef = useRef(null);
 
 
     const blogContent = (
-        <div className="container" style={{ textAlign: 'left', maxWidth: '100%', margin: '20em' }}>
+        <div className="container" style={{ textAlign: 'left', maxWidth: '100%', margin: '25rem',marginTop:'5rem' }}>
             <div
 
             style = {{ textAlign: 'center' }}
             
             >
-            <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.5em', marginTop: '1em', lineHeight: '1.5rem', marginBottom: '2.5em', color: 'black', textDecoration: 'none' }}>
+            <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.5em',  lineHeight: '1.5rem', marginBottom: '2.5em', color: 'black', textDecoration: 'none' }}>
                 BEAUTY // REVIEWS // FRAGRANCES
             </a>
               </div>
@@ -59,7 +60,12 @@ const paragraphStyle = {
             <img src={BonBon1A} alt="b1" style={{ marginTop: '2.4em', justifyContent: 'center', width: '100%' }} />
 
             <img src={BonBon2} alt="b1" style={{ maxBlockSize: '800px', justifyContent: 'center', width: '100%' }} />
+            <div>
 
+<p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign:'center', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
+ </div>
             <h2 style={headingStyle}>🍑 Background Information</h2>
             <p style={paragraphStyle}>
                 <span style={{ color: '#745B4F', float: 'left', fontSize: '5rem', lineHeight: '0.9', marginRight: '0.05em', marginTop: '0.01em' }}>B</span>onbon
@@ -121,7 +127,10 @@ const paragraphStyle = {
                 adults who love a mature, but sweet scent.
             </p>
 
-           < ResponsiveIframe src="https://shopmy.us/collections/public/549701?noHeader=true" title="Final Touches" />
+<div> 
+< ResponsiveIframe src="https://shopmy.us/collections/public/549701?noHeader=true" title="Final Touches" />
+
+</div>
    
 
             <h2 style={headingStyle}>💗 Review & Recommendations</h2>
@@ -140,14 +149,15 @@ const paragraphStyle = {
             </p>
 
             <h2 style={headingStyle}>⚖ Comparisons</h2>
-            <div style={{ lineHeight:'2rem',display: 'flex', flexDirection: 'row', alignItems: 'flex-start',  flexWrap: 'wrap' }}>
-                <div style={{ flex: '0 0 auto', maxWidth: '100%' }}>
-                    <ResponsiveIframe src="https://shopmy.us/collections/public/516464?noHeader=true" title="Final Touches" />
-                </div>
-                <div style={{ flex: '0 0 auto', maxWidth: '70%', fontSize: '1.5rem', fontFamily: 'GFS Didot, serif' }}>
-                    Lovers of sweet gourmands and vanilla will find joy in exploring similar fragrances, like Bianco Latte Giardini Di Toscana, with its own take on caramel. Yet, Bonbon's fruity opening sets it apart, offering a distinctive allure.
-                </div>
-            </div>
+       
+
+      <p style = {paragraphStyle}>
+      Lovers of sweet gourmands and vanilla will find joy in exploring similar fragrances, like Bianco Latte Giardini Di Toscana, with its own take on caramel. Yet, Bonbon's fruity opening sets it apart, offering a distinctive allure.
+
+      </p>
+
+            <ResponsiveIframe src="https://shopmy.us/collections/public/516464?noHeader=true" title="Final Touches" />
+
 
             <h2 style={headingStyle}>📝 Final Thoughts</h2>
             <p style={paragraphStyle}>
@@ -183,8 +193,8 @@ const paragraphStyle = {
     return (
         <div ref={blogRef}>
             <Card
-                title="Margot Robbie's BARBIE Makeup & DIY ‘90s Roller skate Costume!"
-                description="Come on Barbie, Let’s get Glam!"
+                title="BonBon Review"
+                description="A celebration of self-indulgence, a fragrant ode to the joy of savouring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure."
                 blogContent={blogContent}
                 style={{
                     display: 'flex',

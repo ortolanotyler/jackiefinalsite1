@@ -45,7 +45,7 @@ const HalfetiReview = () => {
         textAlign: 'center',
         fontSize: '2.5rem',
         fontFamily: 'GFS Didot, serif',
-        margin: '1em',
+        margin: '1rem',
         maxWidth: '100%',
         marginLeft: '0em'
     };
@@ -53,7 +53,7 @@ const HalfetiReview = () => {
     const paragraphStyle = {
         fontSize: '1.5rem',
         fontFamily: 'GFS Didot, serif',
-        margin: '1em',
+        margin: '2.5rem',
         maxWidth: '100%',
         marginLeft: '1em'
     };
@@ -68,7 +68,12 @@ const HalfetiReview = () => {
             <div className="container" style={{ textAlign: 'left', maxWidth: '100%', margin: '20em', marginTop: '10rem' }}>
                 <img src={halfeti1} alt="Halfeti Perfume 1" style={{ width: '100%' }} />
                 <img src={halfeti2} alt="Halfeti Perfume 2" style={{ width: '100%' }} />
+                <div>
 
+<p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign:'center', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
+ </div>
                 <div style={{ fontFamily: 'GFS Didot, serif', textAlign: 'center', fontSize: '2rem' }}>
                     Perfume Name // Halfeti<br />
                     <br />

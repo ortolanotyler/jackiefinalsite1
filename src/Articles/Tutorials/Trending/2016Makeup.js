@@ -48,20 +48,25 @@ const Makeup2016 = () => {
     margin: '0 auto',
     width: '50%',
     maxHeight: '1000px',
+  };
 
+  const titleImageStyle = {
+    width: '100%',
+    maxHeight: '1000px',
   };
 
   const blogContent = (
-    <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '15rem', marginTop: '25px' }}>
+    <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '20rem', marginTop: '25px' }}>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TRENDS // POP CULTURE
         </a>
       </div>
 
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={title} alt="Iconic Sixties Twiggy Look with MOD Blue Eyeshadow" style={imageStyle} />
+      <div style={{ width: '100%' }}>
+        <img src={title} alt="Iconic Sixties Twiggy Look with MOD Blue Eyeshadow" style={titleImageStyle} />
       </div>
+   
 
       <ResponsiveIframe src="https://www.youtube.com/embed/HtEPH6RUEZg?si=8RIeZhrp-luWJTSI" title="Jackie Wyers Twiggy Blue Mod Eyeshadow Youtube Tutorial" />
 
@@ -95,7 +100,7 @@ const Makeup2016 = () => {
         To embody Kylie Jenner's look and celebrate the key trends of 2016, we must adopt a "more is more" mentality. Instead of focusing on enhancing just one feature, we're highlighting them all simultaneously. To ensure the skin still looks youthful and fresh with such a makeup style, preparation is crucial. In the video embedded above, I was sponsored by d'Alba, and I love and have consistently repurchased the d'Alba Italian White Truffle First Spray Serum. It’s an excellent initial step to infuse the skin with moisture. The product smells amazing and feels luxurious while being affordable.
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/embed/542368?noHeader=true" title="D'Alba Italian White Truffle First Spray Serum" />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/542368?noHeader=true" title="D'Alba Italian White Truffle First Spray Serum" />
 
       <h2 style={headingStyle}>Apply a Matte Primer</h2>
 
@@ -109,7 +114,7 @@ const Makeup2016 = () => {
         Opt for a matte foundation like the L’Oréal Infallible Pro-Matte Foundation, Estée Lauder Double Wear, or Born This Way Foundation. I chose to go the drugstore route with L’Oréal, but all are excellent choices known for their long-lasting, high-coverage formula. Use a stippling brush or the iconic beauty blender for application, ensuring the sponge is dampened first! The e.l.f. blending sponge is a cost-effective alternative, though not as squishy!
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/542136?noHeader=true" title="Rich Lotion - Ana Sui" />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/551065?noHeader=true" title="Rich Lotion - Ana Sui" />
 
       <p style={paragraphStyle}>
         The beauty blender has been a staple since 2005, initially launching in collaboration with Victoria’s Secret. It transitioned to Sephora in 2011, garnering numerous awards, especially in 2014 and 2016, showcasing impressive brand longevity. Worth the money if you can spare it in my opinion!
@@ -129,7 +134,7 @@ const Makeup2016 = () => {
         Use a high-coverage concealer like Tarte Shape Tape to highlight the centre of the face. For added brightness, dab Maybelline under-eye concealer in the inner corners. This drugstore gem blends seamlessly with both natural and full-coverage makeup looks. Set your makeup with Laura Mercier's translucent Setting Powder lightly and we will soon “bake” the face!
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/542136?noHeader=true" title="Rich Lotion - Ana Sui" />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/551064?noHeader=true" title="Rich Lotion - Ana Sui" />
 
       <h2 style={headingStyle}>Lots of Contour and Bronze</h2>
 
