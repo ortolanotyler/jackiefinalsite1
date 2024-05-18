@@ -105,6 +105,7 @@ const AndazMauiReview = () => {
             <p style={paragraphStyle}>
                 In terms of accommodations, the Andaz Maui at Wailea Resort offers a variety of choices. Lauren and I enjoyed the comfort of a standard guest room which boasted stunning ocean and pool views from a spacious balcony. (We brought Scrump from Lilo & Stitch along for the trip 😆). For those seeking more space and luxury, the resort also offers expansive suites equipped with additional living areas and enhanced amenities. Private villas are available for guests who desire ultimate privacy and exclusivity, complete with personalized services.
             </p>
+            <img src={andaz5} alt="Maui room 3" style={imageStyle} />
             <img src={andaz6} alt="Maui room 4" style={imageStyle} />
 
             <p style={paragraphStyle}>

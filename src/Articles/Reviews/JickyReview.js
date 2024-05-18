@@ -51,7 +51,12 @@ const JickyReview = () => {
             <div className="container" style={{ textAlign: 'left', maxWidth: '100%', margin: '20rem', marginTop: '10rem' }}>
                 <img src={jicky1} alt="Jicky Perfume 1" style={{ width: '100%' }} />
                 <img src={jicky2} alt="Jicky Perfume 2" style={{ width: '100%' }} />
+                <div>
 
+<p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign:'center', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
+ </div>
                 <div style={{ fontFamily: 'GFS Didot, serif', textAlign: 'center', fontSize: '2rem', marginTop: '5rem' }}>
                     Perfume Name: Jicky<br />
                     <br />

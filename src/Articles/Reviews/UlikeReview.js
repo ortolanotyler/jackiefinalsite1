@@ -51,7 +51,12 @@ const UlikeReview = () => {
             </div>
             <img src={Ulike1} alt="Ulike Air 10 - Beauty product" style={{ width: '100%' }} />
             <img src={Ulike2} alt="Ulike Air 10 - Beauty product" style={{ width: '100%' }} />
+            <div>
 
+<p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign:'center', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
+ </div>
             <h2 style={headingStyle}>{'\u{1F64B}'} {titles.backgroundInfo}</h2>
             <p style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '0em' }}>
             "Discover the revolutionary Ulike Air 10, an at-home hair removal device that

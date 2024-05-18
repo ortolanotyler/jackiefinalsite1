@@ -8,7 +8,16 @@ const image3 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/TREMBLAN
 const hotelQ = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/HOTELQTHUMBNAIL.jpeg`;
 const maui = `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUITHUMBNAIL.jpg`;
 const westgate = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATETHUMBNAIL.jpg`;
+const prince = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWalesThumbnail.jpeg`;
+
+
 const articles = [
+    {
+        date: '04/15/2024',
+        title: 'Prince of Wales at Niagara on the Lake',
+        image: prince,
+        path: '/princeofwales',
+    },
     {
         date: '04/15/2024',
         title: 'Andaz Maui at Mailea Resort Review',

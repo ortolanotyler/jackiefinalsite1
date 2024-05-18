@@ -90,7 +90,6 @@ const WestGateHotelBlog = () => {
             <p style={ paragraphStyle} >
                 Additionally, guests have the option to upgrade their experience to include the glamorous "Whistledown Afternoon Tea.” This themed package and tea experience offer a deep dive into the world of Bridgerton, perfect for those seeking a touch of regal elegance during their stay in San Diego.
             </p>
-            <img src={westgate2} alt="Québécoise Pizza" style={{ width: '100%' }} />
             <h2 style={headingStyle}>Cost Considerations</h2>
             <p style={ paragraphStyle} >
                 While the package comes at a premium, the unique themed experience, coupled with the Westgate's exceptional service and central location in San Diego, provides substantial value. This package is particularly ideal for special occasions, like a bridal party or a romantic getaway, offering a blend of entertainment, luxury, and Instagrammable moments that justify the expense.
@@ -112,6 +111,13 @@ const WestGateHotelBlog = () => {
             <p style={ paragraphStyle} >
                 When I attended the high tea, it was accompanied by a live harpist, now changed to a string quartet. This tea service is available on Saturdays from 2 PM to 4:30 PM, from May 18 to June 29, 2024. Guests are encouraged to dress in their finest Regency-era attire and the tea experience is priced at $98 for adults and $68 for children ages 2 to 14.
             </p>
+            <div style={gridContainerStyle}>
+                <img src={westgate5} alt="Mont Tremblant Ski Village Gondola" style={gridItemStyle} />
+                <img src={westgate6} alt="Mont Tremblant Ski Village Gondola" style={gridItemStyle} />
+                <img src={westgate7} alt="Mont Tremblant Ski Village Gondola" style={gridItemStyle} />
+                <img src={westgate2} alt="Mont Tremblant Skila" style={{ width: '100%' }} />
+
+            </div>
             <p style={ paragraphStyle} >
                 High tea is just one of the many dining options available at the Westgate Hotel. The Westgate Room offers innovative American cuisine with French influences. The Plaza Bar is perfect for pre-dinner drinks with live music. For outdoor dining, the Veranda serves locally-sourced seafood in a bistro-style setting.
             </p>
@@ -125,26 +131,30 @@ const WestGateHotelBlog = () => {
             <p style={ paragraphStyle} >
                 Our stay at the Westgate Hotel was a regal affair that I highly recommend to anyone looking to escape into a world of elegance and romance. The hotel itself is also a stunning wedding location, offering luxurious settings ideal for a memorable celebration.
             </p>
+            <div style={gridContainerStyle}>
+                <img src={westgate8} alt="Mont Tremblant Ski Village Gondola" style={gridItemStyle} />
+                <img src={westgate10} alt="Mont Tremblant Ski Village Gondola" style={gridItemStyle} />
+                <img src={westgate11} alt="Mont Tremblant Ski Village Gondola" style={gridItemStyle} />
+                <img src={westgate12} alt="Mont Tremblant Skila" style={{ width: '100%' }} />
+
+            </div>
+
             <p style={ paragraphStyle} >
                 If you're planning a visit to San Diego and want a taste of Regency-era luxury, the Westgate Hotel is a must. The Westgate's Whistledown Tea and Package isn’t the only package, so check on the Westgate website for more offerings. For more Bridgerton inspiration, check out Daphne hairstyles here.
             </p>
+            <div style={gridContainerStyle}>
+
+<img src={westgate13} alt="Mont Tremblant Ski Village Gondola" style={{ width: '100%' }} />
+<img src={westgate14} alt="Mont Tremblant Ski Village Gondola" style={{ width: '100%' }} />
+<img src={westgate15} alt="Jackie at Mont Tremblant" style={{ width: '100%' }} />
+<img src={westgate3} alt="Signature" style={{ width: '100%' }} />
+</div>
             <p style={ paragraphStyle} >
                 Thank you for joining me on this luxurious journey back in time at the Westgate Hotel. Tyler and I had an unforgettable experience, and we can't wait to share more of our adventures with you. For more travel tips and lifestyle content, stay tuned to my blog and YouTube channel!
             </p>
-            <img src={westgate3} alt="Québécoise Pizza" style={{ width: '100%' }} />
+            <img src={signature} alt="Québécoise Pizza" style={{ width: '100%' }} />
 
-            <div style={gridContainerStyle}>
-                <img src={westgate8} alt="Mont Tremblant Ski Village Gondola" style={gridItemStyle} />
-                <img src={westgate9} alt="Syrup on Snow" style={gridItemStyle} />
-                <img src={westgate10} alt="Mont Tremblant Ski Village Gondola" style={gridItemStyle} />
-                <img src={westgate11} alt="Mont Tremblant Ski Village Gondola" style={gridItemStyle} />
-            </div>
-
-            <img src={westgate12} alt="Mont Tremblant Skila" style={{ width: '100%' }} />
-            <img src={westgate13} alt="Mont Tremblant Ski Village Gondola" style={{ width: '100%' }} />
-            <img src={westgate14} alt="Mont Tremblant Ski Village Gondola" style={{ width: '100%' }} />
-            <img src={westgate15} alt="Jackie at Mont Tremblant" style={{ width: '100%' }} />
-            <img src={signature} alt="Signature" style={{ width: '100%' }} />
+          
         </div>
     );
 
