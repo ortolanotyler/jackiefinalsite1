@@ -3,34 +3,18 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import '../ExampleTutorial.css';
 import TextReveal from '../../Components/TextReveal';
 
-const halfeti1 = `${process.env.PUBLIC_URL}/Images/Halfeti1.png`;
-const halfeti2 = `${process.env.PUBLIC_URL}/Images/Halfeti2.png`;
+const halfeti1 = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/halfetititle.png`;
+const halfeti2 = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/Halfeti1.jpg`;
 
 const Card = ({ title, description, blogContent }) => {
-    const headingStyle = {
-        textAlign: 'center',
-        fontSize: '2.5rem',
-        fontFamily: 'GFS Didot, serif',
-        margin: '1em',
-        maxWidth: '100%',
-        marginLeft: '0em'
-    };
 
-    const paragraphStyle = {
-        fontSize: '1.5rem',
-        fontFamily: 'GFS Didot, serif',
-        margin: '1em',
-        maxWidth: '100%',
-        marginLeft: '1em'
-    };
 
     return (
         <div>
             <div><TextReveal text={title} /></div>
             <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
                 <div className="blog-content" style={{ lineHeight: '1.25' }}>
-                    <h1 style={headingStyle}>{title}</h1>
-                    <h2 style={headingStyle}>{description}</h2>
+             
                     {blogContent}
                 </div>
             </div>
@@ -45,7 +29,7 @@ const HalfetiReview = () => {
         textAlign: 'center',
         fontSize: '2.5rem',
         fontFamily: 'GFS Didot, serif',
-        margin: '1rem',
+        margin: '2rem',
         maxWidth: '100%',
         marginLeft: '0em'
     };
@@ -61,16 +45,16 @@ const HalfetiReview = () => {
     const blogContent = (
         <div>
             <div style={{ marginTop: '10rem', textAlign: 'center' }}>
-                <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.5em', marginTop: '1em', lineHeight: '1.5rem', marginBottom: '2.5em', color: 'black', textDecoration: 'none' }}>
+                <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.5em', marginTop: '4rem', lineHeight: '1.5rem', marginBottom: '2.5em', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // REVIEWS // FRAGRANCES
                 </a>
             </div>
-            <div className="container" style={{ textAlign: 'left', maxWidth: '100%', margin: '20em', marginTop: '10rem' }}>
+            <div className="container" style={{ textAlign: 'left', maxWidth: '100%', margin: '20rem', marginTop: '10rem' }}>
                 <img src={halfeti1} alt="Halfeti Perfume 1" style={{ width: '100%' }} />
                 <img src={halfeti2} alt="Halfeti Perfume 2" style={{ width: '100%' }} />
                 <div>
 
-<p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign:'center', fontStyle: 'italic' }}>
+<p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign:'center', fontStyle: 'italic', margin: '1rem' }}>
 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
 </p>
  </div>
@@ -95,7 +79,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
                     🌹 Fragrance Profile
                 </h2>
 
-                <table style={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1em', maxWidth: '100%', marginLeft: '1em', borderCollapse: 'collapse' }}>
+                <table style={{ fontSize: '1.25rem', fontFamily: 'GFS Didot, serif', margin: '1rem', maxWidth: '100%', marginLeft: '1em', borderCollapse: 'collapse' }}>
                     <tr>
                         <td><strong>Concentration:</strong></td>
                         <td>Eau de Parfum Spray</td>
@@ -160,7 +144,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
     return (
         <div>
             <Card
-                title="Halfeti by Penhaligon's Review"
+                title="HALFETI // PENHALIGON'S"
                 description="An Aromatic Voyage"
                 blogContent={blogContent}
             />

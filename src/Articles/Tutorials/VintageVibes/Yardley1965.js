@@ -35,8 +35,11 @@ const Yardley65 = () => {
         fontFamily: 'Arapey, serif',
         color: '#333',
         margin: '3.5rem',
-        marginTop: '2rem',
-        marginBottom: '2rem'
+        padding: '2', 
+        marginTop: '2rem', 
+        marginBottom: '2rem',
+        lineHeight: '1.5rem',
+    
     };
 
     const paragraphStyle = {
@@ -50,8 +53,8 @@ const Yardley65 = () => {
     const imageStyle = {
         display: 'block',
         margin: '0 auto',
-        maxWidth: '100%',
-        maxHeight: '1000px',
+        maxWidth: '70%',
+        maxHeight: '900px',
         objectFit: 'cover'
     };
 
@@ -62,7 +65,7 @@ const Yardley65 = () => {
                     BEAUTY // TIME TRAVEL TUTORIALS
                 </a>
             </div>
-            <img src={title} alt="Jean Shrimpton - Time Travel Tutorials" style={imageStyle} />
+            <img src={title} alt="Jean Shrimpton - Time Travel Tutorials" style={{width: '100%'}} />
             <ResponsiveIframe src="https://www.youtube.com/embed/OrlZinEp4AI?si=pn69Z9dtya3RuV2G" title="Sharon Tate YouTube video player" />
             <div style={{ display: 'flex', justifyContent: 'center', margin: '1rem' }}>
                 <SubscribeButton />
