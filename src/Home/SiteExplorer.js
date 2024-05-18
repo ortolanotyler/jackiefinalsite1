@@ -17,7 +17,7 @@ const cardDetails = [
     path: '/timetraveltutorials'
   },
   {
-    title: ' TRENDS ',
+    title: 'TRENDS',
     backgroundImage: `${process.env.PUBLIC_URL}/Images/Home/JackieWyersPatMcGrath.jpeg`,
     path: '/trends'
   },
@@ -30,12 +30,12 @@ export default function SiteExplorer() {
   return (
     <Grid container spacing={2} justifyContent="center" sx={{ p: 5 }}>
       {cardDetails.map((card, index) => (
-        <Grid item xs={12} sm={6} md={4} key={index} sx={{ p: 1 }}>
+        <Grid item xs={12} sm={6} md={4} key={index} sx={{ p: 1, display: 'flex' }}>
           <Card
             onMouseEnter={() => setHoverIndex(index)}
             onMouseLeave={() => setHoverIndex(-1)}
             sx={{
-              height: { xs: 350, md: 550 }, // Adjust height based on screen size
+              height: 350, // Fixed height to prevent pushing
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'space-between',
@@ -45,6 +45,7 @@ export default function SiteExplorer() {
               position: 'relative',
               overflow: 'hidden',
               transition: '0.9s',
+              flexGrow: 1 // Ensures the card grows to fill available space
             }}
           >
             <div
@@ -62,7 +63,7 @@ export default function SiteExplorer() {
                 backgroundColor: 'rgba(0, 0, 0, 0.75)',
                 opacity: hoverIndex === index ? 1 : 0,
                 transition: 'opacity 0.3s ease-in-out',
-                gap: '1rem',
+                gap: '0.1rem',
                 padding: '1rem',
               }}
             >
@@ -91,7 +92,6 @@ export default function SiteExplorer() {
                   zIndex: 2,
                   fontSize: '1rem',
                   border: '2px solid white',
-
                   '&:hover': {
                     backgroundColor: 'white',
                     color: 'black',

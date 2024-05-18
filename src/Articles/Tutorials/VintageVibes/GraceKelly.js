@@ -40,7 +40,7 @@ const GraceKelly = () => {
     const paragraphStyle = {
         fontSize: '1.5rem',
         fontFamily: 'GFS Didot, serif',
-        margin: '1rem',
+        margin: '2rem',
         maxWidth: '100%',
         color: 'black',
         textAlign: 'justify'

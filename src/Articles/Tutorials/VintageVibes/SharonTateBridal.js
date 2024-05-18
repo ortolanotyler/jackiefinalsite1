@@ -59,7 +59,7 @@ const SharonTatePost = () => {
         display: 'grid',
         gridTemplateColumns: '1fr 1fr',
         gap: '1rem',
-        margin: '1rem 0'
+        margin: '1rem'
     };
 
     const flexStyle = {

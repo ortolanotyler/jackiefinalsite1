@@ -10,10 +10,6 @@ const SignupSchema = Yup.object().shape({
 });
 
 export default function EmailSubscribe() {
-  // Splitting the text based on \n to render separately
-  const textSegments = `Watch Beauty Tutorials, Read Articles, Product Reviews & Take Quizzes! \n
-Join to access the newsletter & exclusive content!`.split('\n');
-
   return (
     <Formik
       initialValues={{ email: '' }}
@@ -42,33 +38,51 @@ Join to access the newsletter & exclusive content!`.split('\n');
       }}
     >
       {({ submitForm, isSubmitting, touched, errors }) => (
-        <Form style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <Grid container spacing={3} alignItems="center" style={{ width: '100%', margin: '1rem'}}>
+        <Form style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
+          <Grid container spacing={3} alignItems="center" style={{ width: '80%', padding: '1rem' }}>
             <Grid item xs={12}>
               <Typography
                 variant="subtitle1"
                 gutterBottom
                 sx={{
-                  fontSize: '2rem',
+                  fontSize: { xs: '1.5rem', md: '2rem' },
                   fontFamily: 'GFS Didot, serif',
                   textAlign: 'center',
                   color: '#745B4F'
                 }}
               >
-                {textSegments[0]} <ArrowForwardIosIcon sx={{ fontSize: 'inherit', verticalAlign: 'middle' }} />
+                Watch Beauty Tutorials, Read Articles, Product Reviews & Take Quizzes!
+                <ArrowForwardIosIcon sx={{ fontSize: 'inherit', verticalAlign: 'middle' }} />
               </Typography>
               <Typography
                 variant="subtitle1"
                 sx={{
-                  fontSize: '1.5rem',
+                  fontSize: { xs: '1.25rem', md: '1.5rem' },
                   fontFamily: 'GFS Didot, serif',
-                  textAlign: 'center'
+                  textAlign: 'center',
+                  color: '#745B4F'
                 }}
               >
-                {textSegments[1]}
+                Join to access the newsletter & exclusive content!
               </Typography>
             </Grid>
-            <Grid item xs={12}>
+            <Grid item xs={12} sm={8} md={6}>
+              <Field
+                name="email"
+                type="email"
+                placeholder="Enter your email"
+                style={{
+                  borderRadius: '10px',
+                  width: '100%',
+                  boxSizing: 'border-box',
+                  border: '1px solid #745B4F',
+                  padding: '.75rem',
+                  fontFamily: 'GFS Didot, serif',
+                }}
+              />
+              {touched.email && errors.email && <div style={{ color: '#745B4F', fontSize: '1rem' }}>{errors.email}</div>}
+            </Grid>
+            <Grid item xs={12} sm={4} md={6}>
               <Button
                 type="submit"
                 variant="contained"
@@ -89,22 +103,6 @@ Join to access the newsletter & exclusive content!`.split('\n');
               >
                 Subscribe
               </Button>
-            </Grid>
-            <Grid item xs={12}>
-              <Field
-                name="email"
-                type="email"
-                placeholder="Email"
-                style={{
-                  borderRadius: '10px',
-                  width: '100%',
-                  boxSizing: 'border-box',
-                  border: '1px solid #745B4F',
-                  padding: '.75rem',
-                  fontFamily: 'GFS Didot, serif',
-                }}
-              />
-              {touched.email && errors.email && <div style={{ color: '#745B4F', fontSize: '1rem' }}>{errors.email}</div>}
             </Grid>
           </Grid>
         </Form>

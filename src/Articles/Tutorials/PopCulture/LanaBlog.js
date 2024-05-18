@@ -37,7 +37,7 @@ const LanaBlog = () => {
     padding: '1rem',
     fontSize: '1.5rem',
     fontFamily: 'GFS Didot, serif',
-    margin: '1rem auto',
+    margin: '2rem',
     maxWidth: '100%',
   };
 
