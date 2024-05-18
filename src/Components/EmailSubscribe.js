@@ -3,6 +3,7 @@ import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import { Grid, Button, Typography } from '@mui/material';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import { ArrowDownward } from '@mui/icons-material';
 
 // Define a validation schema using Yup
 const SignupSchema = Yup.object().shape({
@@ -39,7 +40,7 @@ export default function EmailSubscribe() {
     >
       {({ submitForm, isSubmitting, touched, errors }) => (
         <Form style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
-          <Grid container spacing={3} alignItems="center" style={{ width: '80%', padding: '1rem' }}>
+          <Grid container spacing={3} alignItems="center" style={{ width: '100%', padding: '1rem' }}>
             <Grid item xs={12}>
               <Typography
                 variant="subtitle1"
@@ -48,11 +49,11 @@ export default function EmailSubscribe() {
                   fontSize: { xs: '1.5rem', md: '2rem' },
                   fontFamily: 'GFS Didot, serif',
                   textAlign: 'center',
-                  color: '#745B4F'
+                  color: 'black'
                 }}
               >
                 Watch Beauty Tutorials, Read Articles, Product Reviews & Take Quizzes!
-                <ArrowForwardIosIcon sx={{ fontSize: 'inherit', verticalAlign: 'middle' }} />
+                <ArrowDownward sx={{ fontSize: 'inherit', verticalAlign: 'middle' }} />
               </Typography>
               <Typography
                 variant="subtitle1"
