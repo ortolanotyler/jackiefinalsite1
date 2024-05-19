@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Travel/TravelArticleList.css";
+import "./TravelArticleList.css";
 import TravelArticleCard from './TravelArticleCard';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/BEACHCLUBTHUMBNAIL.jpg`;
@@ -9,7 +9,6 @@ const hotelQ = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/HOTELQTHUMBNAIL
 const maui = `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUITHUMBNAIL.jpg`;
 const westgate = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATETHUMBNAIL.jpg`;
 const prince = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWalesThumbnail.jpeg`;
-
 
 const articles = [
     {
@@ -54,16 +53,12 @@ const articles = [
         image: image2,
         path: '/epcot',
     },
-   
-
     // Add more articles as needed
 ];
 
 const TravelArticlesList = () => {
     return (
-        <div className="article-list" style = {{
-            justifyContent: 'center'
-        }}>
+        <div className="article-list">
             {articles.map((article, index) => (
                 <TravelArticleCard
                     key={index}

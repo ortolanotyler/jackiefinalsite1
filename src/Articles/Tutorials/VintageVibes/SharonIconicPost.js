@@ -8,7 +8,7 @@ import DropCap from '../../../Components/DropCap';
 const Sharon1 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/IconicTitle.png`;
 const Sharon2 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/JackieAsSharon.jpg`;
 const Sharon3 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/SharonTateFaceChart.png`;
-const eyes = `${process.env.PUBLIC_URL}/Images/iconiceyes.png`;
+const eyes = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/SharonTateEyeInspiration.png`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Recollection = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/SharonRecollection.jpg`;
 
@@ -44,7 +44,7 @@ const SharonIconicPost = () => {
     const paragraphStyle = {
         fontSize: '1.5rem',
         fontFamily: 'GFS Didot, serif',
-        margin: '1rem',
+        margin: '2.5rem',
         maxWidth: '100%',
         color: 'black',
         textAlign: 'justify'
@@ -59,28 +59,22 @@ const SharonIconicPost = () => {
         objectFit: 'cover'
     };
 
-    const gridStyle = {
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
-        gap: '1rem',
-        margin: '1rem 0'
-    };
-
-    const flexStyle = {
-        display: 'flex',
-        justifyContent: 'space-between',
-        gap: '1rem',
-        margin: '1rem 0'
+    const smallImageStyle = {
+        display: 'block',
+        margin: '0 1rem 1rem 0',
+        float: 'left',
+        maxWidth: '40%',
+        height: 'auto'
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.5em', maxWidth: '100%', margin: '20rem' }}>
+        <div className="container" style={{ lineHeight: '2.5em', maxWidth: '100%', margin: '20rem', marginTop: '7rem' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // TIME TRAVEL TUTORIALS
                 </a>
             </div>
-            
+
             <img src={Sharon1} alt='Sharon Tate - Time Travel Tutorials' style={imageStyle} />
 
             <ResponsiveIframe src="https://www.youtube.com/embed/t1jJtpsxes4?si=sHOkPYVUOvEbXk2m" title="Sharon Tate YouTube video player" />
@@ -158,20 +152,16 @@ const SharonIconicPost = () => {
                 Moving on to the eyes, let's craft a bold, graphic-style cut crease using a gel brown liner to capture Sharon Tate's signature deep-set eyes, a hallmark of her beauty. The shape we're aiming for diverges slightly from the perfect half-moon typically associated with cut creases. Begin by drawing a straight, slightly diagonal line from the inner corner of the eye upwards to just underneath the brow's head. From this point, curve the line to follow just above your natural crease, creating a distinct and dramatic effect, tailing downwards. So much of today’s beauty standards feature an upturned cat eye, but sleepy-doe eyes have such a beautiful charm as well!
             </p>
 
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                <img src={eyes} alt="Sharon Tate's Iconic Eyes" style={imageStyle} />
-            </div>
-
             <p style={paragraphStyle}>
                 To further enhance the cut crease and emulate the depth and dimension of Sharon's eyes, apply a dark purple liner to the inner portion of the crease. This adds a layer of complexity and richness to the look. Keep the eyelid and brow bone bright to maintain a fresh, open appearance. Finally, incorporate some deeper matte eyeshadow as a liner along the lash line for added intensity and definition, completing the homage to Sharon Tate's iconic eye makeup.
             </p>
 
-            <ResponsiveIframe src="https://shopmy.us/collections/public/494403?noHeader=true" title="Sharon Tate Inspired Brow Products" />
-
-            <h2 style={headingStyle}>A Pop of Shimmer</h2>
-            <p style={paragraphStyle}>
-                It was revealed in auction Sharon used a brown liner from Maybelline and a White Revlon Eyeliner for the waterline, though in the inspiration photos the waterline appeared more natural. I noticed, however, that underneath the upper and lower lashes, there was a pop of light shimmer. I used a shimmery Charlotte Tilbury pencil liner to catch the light.
-            </p>
+            <div style={{ maxWidth: '100%', overflow: 'hidden' }}>
+                <img src={eyes} alt="Sharon Tate's Iconic Eyes" style={smallImageStyle} />
+                <p style={paragraphStyle}>
+                    It was revealed in auction Sharon used a brown liner from Maybelline and a White Revlon Eyeliner for the waterline, though in the inspiration photos the waterline appeared more natural. I noticed, however, that underneath the upper and lower lashes, there was a pop of light shimmer. I used a shimmery Charlotte Tilbury pencil liner to catch the light.
+                </p>
+            </div>
 
             <h2 style={headingStyle}>Dainty, Twiggy Lashes</h2>
             <p style={paragraphStyle}>

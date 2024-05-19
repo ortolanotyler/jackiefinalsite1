@@ -1,11 +1,9 @@
 import React from 'react';
-import { Grid, Box, Paper,  } from '@mui/material';
+import { Grid, Box, Paper } from '@mui/material';
 import QuiltedImageList1 from './ImageGridTutorials';
-
 import TextReveal from '../Components/TextReveal.js';
 import QuoteBanner3 from './QuoteBanner3.js';
 import EmailSubscribe from '../Components/EmailSubscribe.js';
-import PageLines from '../Components/PageBreakUpLines.js';
 import SiteExplorer from './SiteExplorer.js';
 import Slider1 from './aaaa.js';
 import Quiz1 from '../Quiz/Quiz1.js';
@@ -17,26 +15,15 @@ import VlogsHomePageVideo from '../Vlogs/VlogsHomePageVideo.js';
 import CardContainer from './CardContainer.js';
 import RotatingText from '../Navigation/AppBar/RotatingText.js';
 
-
-
-
-
 function HomePage() {
   return (
     <Box sx={{ width: '100%', backgroundColor: '#FDFDFD' }}>
       <Grid container spacing={1}>
-      
-  
-          <TextReveal text='JACKIE WYERS' />
-       
+        <TextReveal text='JACKIE WYERS' />
         <Grid item xs={12}>
-        <Paper elevation={3} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: "#745B4F", textAlign: 'center', marginTop: '0.25rem',padding: '1rem' }}>
+          <Paper elevation={3} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: "#745B4F", textAlign: 'center', marginTop: '0.25rem', padding: '1rem' }}>
             <RotatingText />
           </Paper>
-
-        </Grid>
-        <Grid item xs={12}>
-
         </Grid>
         <Grid item xs={12}>
           <QuiltedImageList1 />
@@ -44,54 +31,46 @@ function HomePage() {
         <Grid item xs={12}>
           <QuoteBanner3 />
         </Grid>
-             <Grid item xs={12}>
-          <EmailSubscribe />
+        <Grid item xs={12} display="flex" justifyContent="center">
+          <Grid container item xs={12} md={8} spacing={3} justifyContent="center" alignItems="center">
+            <EmailSubscribe />
+          </Grid>
         </Grid>
-  
-
         <Grid item xs={12}>
           <SiteExplorer />
         </Grid>
-  
- 
-       
         <Grid item xs={12}>
-        <TextReveal text='LATEST TUTORIALS' />
+          <TextReveal text='LATEST TUTORIALS' />
         </Grid>
         <Grid item xs={12}>
           <Slider1 />
         </Grid>
-        {/* Layout adjustment for Quiz and Reviews to be horizontal */}
-        <Grid item xs={12} >
-        <TextReveal text='TAKE THIS QUIZ' />
-
+        <Grid item xs={12}>
+          <TextReveal text='TAKE THIS QUIZ' />
           <Quiz1 />
         </Grid>
         <Grid item xs={12}>
-        <TextReveal text='LATEST REVIEWS' />
-
+          <TextReveal text='LATEST REVIEWS' />
           <ReviewArticleList />
         </Grid>
         <Grid item xs={12}>
-        <TextReveal text="JACKIE'S PICKS" />
+          <TextReveal text="JACKIE'S PICKS" />
           <ResponsiveIframe src="https://shopmy.us/collections/embed/91393" title="Wedding Dress Collection" />
         </Grid>
         <Grid item xs={12}>
           <QuoteBanner3 />
         </Grid>
         <Grid item xs={12}>
-        <TextReveal text='SHOP MY STYLE' />
+          <TextReveal text='SHOP MY STYLE' />
         </Grid>
-      
         <Grid item xs={12}>
-       
           <ShopMyHero />
         </Grid>
         <Grid item xs={12}>
           <BeigeReveal text='BEYOND BEAUTY' />
         </Grid>
         <Grid item xs={12}>
-          <VlogsHomePageVideo/>
+          <VlogsHomePageVideo />
         </Grid>
         <Grid item xs={12}>
           <CardContainer />
@@ -102,3 +81,4 @@ function HomePage() {
 }
 
 export default HomePage;
+

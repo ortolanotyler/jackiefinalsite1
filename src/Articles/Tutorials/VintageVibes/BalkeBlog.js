@@ -37,7 +37,7 @@ const BalkeBlog = () => {
     
     
       const paragraphStyle = {
-        fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth: '100%', marginTop: '1rem', marginBottom: '2.75rem', lineHeight:'1.75em'
+        fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth: '90%', marginTop: '1rem', marginBottom: '2.75rem', lineHeight:'1.75em'
       };
 
     

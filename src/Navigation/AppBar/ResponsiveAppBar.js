@@ -39,7 +39,7 @@ const tutorialOptions = [
   { name: 'All Tutorials', path: '/tutorials' },
   { name: 'Trending Now', path: '/trends' },
   { name: 'Pop Culture', path: '/popculture' },
-  { name: 'Time Travel Tutorials', path: '/timetraveltutorials' },
+  { name: 'Vintage Vibes', path: '/timetraveltutorials' },
 ];
 
 function ResponsiveAppBar() {

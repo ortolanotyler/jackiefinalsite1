@@ -4,7 +4,7 @@
 h1 {
   font-family: Arapey, serif;
   padding: 1rem;
-  font-size: 4vw;
+  font-size: 5vw; /* Adjusted for responsiveness */
   text-align: center;
   font-weight: 100; /* Adjusted for a lighter font weight */
 }
