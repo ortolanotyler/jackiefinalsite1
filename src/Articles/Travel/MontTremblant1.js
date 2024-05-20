@@ -38,7 +38,7 @@ const MontTremblantBlog = () => {
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '3.25rem',
+        fontSize: '2.75em',
         fontWeight: 'normal',
         fontFamily: 'Arapey, serif',
         color: 'black',
@@ -46,11 +46,11 @@ const MontTremblantBlog = () => {
     };
 
     const paragraphStyle = {
-        fontSize: '1.5rem', fontFamily: 'GFS Didot, serif',  margin: '2.5rem', maxWidth: '100%', color: 'black'
+        fontSize: '1.5rem', fontFamily: 'GFS Didot, serif',  margin: '5rem', maxWidth: '100%', color: 'black'
       }
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.25em', maxWidth: '100vw', justifyContent: 'center', margin : '20rem'}}>
+        <div className="container" style={{ lineHeight: '2.25em', maxWidth: '100vw', justifyContent: 'center', margin : '20em'}}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                 TRAVEL // CANADA // QUEBÉC
@@ -184,7 +184,7 @@ excited to gear up for our ski day!
             </p>
             <img src={tremblant7} alt="Mont Tremblant Ski Village Gondola" style={{ width: '100%' }} />
 
-            <h2 style={headingStyle}>Syrup On Snow</h2>
+            <h2 style={headingStyle}>🍁 Syrup On Snow</h2>
             <p style={ paragraphStyle} >
                 At the base of the village, you'll find “Cabane à Sucre,” offering Maple Syrup on snow for $3 CAD. It's somewhat of a sticky affair but undoubtedly an enjoyable experience. “Place Bon Bon” is a fun candy shop also in the area, especially for kids!
             </p>
@@ -344,6 +344,10 @@ right here on the blog. Your stories are always a joy to read!
             <img src={tremblant14} alt="Jackie at Mont Tremblant" style={{ width: '100%' }} />
 
             <img src={signature} alt="Signature" style={{ width: '100%' }} />
+            <Comments
+                    website-id={websiteId}
+                    pageId={"MontTremblant"} // Unique identifier for this blog post
+                />
         </div>
     );
 
@@ -352,10 +356,7 @@ right here on the blog. Your stories are always a joy to read!
             <TextReveal text='MONT TREMBLANT' />
             <div ref={blogRef}>
                 <Card blogContent={blogContent} />
-                <Comments
-                    website-id={websiteId}
-                    pageId={"MontTremblant"} // Unique identifier for this blog post
-                />
+               
             </div>
         </div>
     );

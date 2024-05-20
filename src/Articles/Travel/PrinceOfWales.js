@@ -52,7 +52,7 @@ const PrinceOfWales = () => {
     const paragraphStyle = {
         fontSize: '1.5rem',
         fontFamily: 'GFS Didot, serif',
-        margin: '1em',
+        margin: '2em',
         maxWidth: '100%',
         color: 'black',
         textAlign: 'justify'
@@ -120,8 +120,10 @@ const PrinceOfWales = () => {
             <p style={paragraphStyle}>
                 Upon arrival at the Prince of Wales Hotel, we were immediately captivated by its Victorian charm. The grand entrance, adorned with ornate floral wallpapers, antique furnishings, and sculptures, transported us into an era of refined elegance. Additional touches like stained glass windows further enhanced the luxurious ambiance. The hotel’s hanging flowers and lush bushes, set against the charming streets of Niagara-on-the-Lake, offered a stunning sight, perfect for roaming this romantic town.
             </p>
-            <BookNowButton href="https://plannin.com/en/hotel/7e8b8619-6256-4481-97c4-048f694b67c4?refId=jackiewyers" />
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
 
+            <BookNowButton href="https://plannin.com/en/hotel/7e8b8619-6256-4481-97c4-048f694b67c4?refId=jackiewyers" />
+            </div>
             <div style={gridStyle}>
                 <img src={images[0].src} alt={images[0].alt} style={imageStyle} />
                 <img src={images[1].src} alt={images[1].alt} style={imageStyle} />
@@ -210,10 +212,11 @@ const PrinceOfWales = () => {
             <img src={images[16].src} alt={images[16].alt} style={imageStyle} />
             <img src={signature} alt='Signature' style={{ width: '100%' }} />
 
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
 
             <BookNowButton href="https://plannin.com/en/hotel/7e8b8619-6256-4481-97c4-048f694b67c4?refId=jackiewyers" />
 
-
+</div>
 
 
             <Comments website-id={websiteId} pageId={"beachclubresort"} />

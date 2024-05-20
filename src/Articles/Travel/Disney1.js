@@ -61,7 +61,7 @@ const Disney2Post = () => {
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.75rem', maxWidth: '100%', margin: '20em' }}>
+        <div className="container" style={{ lineHeight: '1.75rem', maxWidth: '100%', margin: '20rem' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // FLORIDA // DISNEY WORLD
@@ -82,7 +82,12 @@ const Disney2Post = () => {
                     allowFullScreen
                 />
             </div>
+
+                <div style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem' }}>
             <SubscribeVlog />
+            </div>
+
+
             <div>
 
 <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign:'center', fontStyle: 'italic' }}>
@@ -103,8 +108,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
             <p style={paragraphStyle}>
                 This resort is a deluxe option, so it comes with a higher price tag. Check prices as it fluctuates greatly depending on the time of year from between 390 USD up to 990 USD😳 a night.
             </p>
-            <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers" />
 
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
+
+            <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers" />
+</div>
             <p style={paragraphStyle}>
                 When browsing the various resorts, the Beach Club’s design caught my eye. While I'm all for a fun and goofy Disney experience, I wanted to stay somewhere elegant as an adult. The light blue building, adorned with beautiful Victorian trim, the gardens with pops of bright pink flowers, and a view of the boardwalk offered something truly magical to wake up to.
             </p>
