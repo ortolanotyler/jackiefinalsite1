@@ -4,9 +4,9 @@
   grid-gap: 1rem;
   justify-content: center;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
-  padding: 1rem;
+  padding: 2rem;
   overflow-y: auto;
 }
 

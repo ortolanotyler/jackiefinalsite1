@@ -11,42 +11,26 @@ const westgate = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/
 const prince = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWalesThumbnail.jpeg`;
 
 const articles = [
+
+
     {
         date: '04/15/2024',
-        title: 'Prince of Wales at Niagara on the Lake',
-        image: prince,
-        path: '/princeofwales',
+        title: 'Ski Vacation in Mont Tremblant',
+        image: image3,
+        path: '/tremblant',
     },
-    {
-        date: '04/15/2024',
-        title: 'Andaz Maui at Mailea Resort Review',
-        image: maui,
-        path: '/andazmaui',
-    },
-    {
-        date: '04/15/2024',
-        title: 'The Westgate Hotel Review',
-        image: westgate,
-        path: '/westgatesandiego',
-    },
+
 
     {
         date: '04/01/2024',
-        title: 'Walt Disney World Beach Club Resort Review',
-        image: image1,
-        path: '/disneybeachclubresort',
+        title: 'Best of Epcot, Magic Kingdom and Animal Kingdom',
+        image: image2,
+        path: '/epcot',
     },
-    {
-        date: '04/01/2024',
-        title: 'Hotel Quintessence, A Review in Mont Tremblant',
-        image: hotelQ,
-        path: '/hotelq',
-    },
-
     // Add more articles as needed
 ];
 
-const TravelArticlesList = () => {
+const ExperiencesList = () => {
     return (
         <div className="article-list">
             {articles.map((article, index) => (
@@ -62,4 +46,4 @@ const TravelArticlesList = () => {
     );
 };
 
-export default TravelArticlesList;
+export default ExperiencesList;
