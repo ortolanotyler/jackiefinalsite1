@@ -1,6 +1,6 @@
 .article-list-reviews {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Adjusted min width for responsiveness */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1rem;
   justify-content: center;
   width: 100%;
@@ -19,7 +19,7 @@
 
 @media (max-width: 800px) {
   .article-list-reviews {
-    grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    grid-template-columns: 1fr;
     grid-gap: 1rem;
     padding: 1rem;
     max-width: 600px;
@@ -28,7 +28,7 @@
 
 @media (max-width: 480px) {
   .article-list-reviews {
-    grid-template-columns: 1fr; /* Single column layout for mobile screens */
+    grid-template-columns: 1fr;
     grid-gap: 1rem;
     padding: 0.5rem;
   }
