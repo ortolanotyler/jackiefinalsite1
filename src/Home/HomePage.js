@@ -36,8 +36,9 @@ function HomePage() {
             <EmailSubscribe />
           </Grid>
         </Grid>
+        <TextReveal text="LATEST BEAUTY VIDEO" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
         <Grid item xs={12} display="flex" justifyContent="center">
-          <div style={{    position: 'relative', width: '100%', maxWidth: '1100px', height: 0, paddingBottom: '33.75%', background: '#000', marginTop: '1rem' }}>
+          <div style={{ position: 'relative', width: '100%', maxWidth: '1100px', height: 0, paddingBottom: '33.75%', background: '#000', marginTop: '1rem' }}>
             <iframe
               src="https://www.youtube.com/embed/Uz03ReLZO9k?si=JbevAxz6Q8UcOv7U"
               title="Sharon Tate Iconic 60's Bridal Makeup Tutorial"
@@ -46,6 +47,13 @@ function HomePage() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
+          </div>
+        </Grid>
+        <Grid item xs={12} display="flex" justifyContent="center">
+          <div style={{ textAlign: 'right', marginTop: '1.75rem', marginBottom: '3rem', width: '100%', maxWidth: '1100px', display: 'flex', justifyContent: 'flex-end' }}>
+            <a href="/victoriasecret" style={{ color: 'black', textDecoration: 'none', fontFamily: 'GFS Didot', fontSize: '1.25rem' }}>
+              READ FULL ARTICLE HERE &rarr;
+            </a>
           </div>
         </Grid>
         <Grid item xs={12}>
