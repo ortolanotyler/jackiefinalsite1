@@ -51,6 +51,11 @@ import PrivacyNotice from './Components/PrivacyNotice';
 import LeftOutfit from './Shop/ShopMyHomeLinks/LeftOutfit';
 import MiddleOutfit from './Shop/ShopMyHomeLinks/MiddleOutfit';
 import RightOutfit from './Shop/ShopMyHomeLinks/RightOutfit';
+import FoxPretty from './Quiz/QuizResultPages/Quiz2/Fox';
+import BunnyPretty from './Quiz/QuizResultPages/Quiz2/Bunny';
+import CatPretty from './Quiz/QuizResultPages/Quiz2/Cat';
+import DeerPretty from './Quiz/QuizResultPages/Quiz2/Deer';
+import Quiz2 from './Quiz/Quiz2';
 
 function App() {
   return (
@@ -104,6 +109,11 @@ function App() {
         {/* Quiz */}
         <Route path="/quiz" element={<QuizHomepage />} />
         <Route path="/quiz1" element={<Quiz1 />} />
+        <Route path="/quiz2" element={<Quiz2 />} />
+        <Route path="/foxpretty" element={<FoxPretty />} />
+        <Route path="/bunnypretty" element={<BunnyPretty />} />
+        <Route path="/catpretty" element={<CatPretty />} />
+        <Route path="/deerpretty" element={<DeerPretty />} />
 
         {/* Shop */}
         <Route path="/mystyle" element={<MyStyle />} />

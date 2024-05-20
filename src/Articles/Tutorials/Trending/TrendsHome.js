@@ -16,7 +16,7 @@ const animal = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.j
 
 const cardsData = [
 
-  { link: "/nomakeupspring", image: animal, alt: "Warm and cozy latte-inspired fall makeup look", title: "Animal Pretty - HBU?" },
+  { link: "/animalpretty", image: animal, alt: "Warm and cozy latte-inspired fall makeup look", title: "🐈‍⬛🦊Animal Pretty - HBU? 🦌🐰" },
 
   {
     link: "/2016Makeup",
