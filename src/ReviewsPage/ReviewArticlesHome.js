@@ -4,6 +4,7 @@ import ReviewArticleList from './ReviewArticleList';
 import TextReveal from '../Components/TextReveal';
 import RotatingText from '../Navigation/AppBar/RotatingText';
 import ResponsiveIframe from '../Components/ResponsiveIframe';
+import ProductReviewArticleList from './ProductReviewList';
 
 const ReviewHomePage = () => {
     return (
@@ -14,9 +15,27 @@ const ReviewHomePage = () => {
                     <RotatingText />
                 </Paper>
             </div>
+            <div
+            style = {{
+                marginTop: '2rem',
+                marginBottom: '2rem',
+            }}
+            > 
+            <TextReveal text="Fragrances" style={{ backgroundColor: 'white' }} fontFamily="Italianno, cursive" />
+
+            </div>
             <div>
                 <ReviewArticleList />
             </div>
+            <div
+            style = {{
+                marginTop: '2rem',
+                marginBottom: '2rem',
+            }}
+            > 
+            <TextReveal text="Products" style={{ backgroundColor: 'white' }} fontFamily="Italianno, cursive" />
+            </div>
+            <ProductReviewArticleList/>
             <TextReveal text="DRUG STORE FAVS" />
             <ResponsiveIframe
                 src="https://shopmy.us/collections/embed/91810?noHeader=true"

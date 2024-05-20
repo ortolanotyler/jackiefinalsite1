@@ -26,12 +26,7 @@ const articles = [
     image: image3,
     path: '/halfetireview',
   },
-  {
-    date: '04/01/2024',
-    title: "Painless Hair Removal // ULIKE",
-    image: image4,
-    path: '/ulikereview',
-  },
+
   // Add more articles as needed
 ];
 
