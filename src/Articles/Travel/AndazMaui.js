@@ -69,7 +69,7 @@ const AndazMauiReview = () => {
         display: 'block',
         margin: '0 auto',
         maxWidth: '100%',
-        maxBlockSize: '800px',
+        maxBlockSize: '700px',
         width: 'auto'
     };
 
@@ -166,23 +166,31 @@ const AndazMauiReview = () => {
             <div style={gridContainerStyle}>
                 <img src={images[11]} alt="Maui beach 2" style={imageStyle} />
                 <img src={images[12]} alt="Maui beach 3" style={imageStyle} />
-                <img src={images[13]} alt="Maui beach 4" style={imageStyle} />
-                <img src={images[14]} alt="Maui pool 1" style={imageStyle} />
-
+              
             </div>
-            <img src={images[15]} alt="Maui pool 2" style={imageStyle} />
+
+            <div style={gridContainerStyle}>
+            <img src={images[13]} alt="Maui beach 4" style={imageStyle} />
+                <img src={images[14]} alt="Maui pool 1" style={imageStyle} />
+            </div>
 
             <p style={paragraphStyle}>
                 Within the resort, we spent our days lounging on sun loungers, hopping between pools, and sipping drinks at the tiki bars—a perfect way to relax and soak in the ambiance.
             </p>
+            <img src={images[15]} alt="Maui pool 2" style={imageStyle} />
+
+        
+
+         
             <div style={gridContainerStyle}>
                 <img src={images[16]} alt="Maui spa" style={imageStyle} />
                 <img src={images[17]} alt="Maui gym" style={imageStyle} />
-                <img src={images[18]} alt="Maui view 2" style={imageStyle} />
-
-                <img src={images[19]} alt="Maui view 3" style={imageStyle} />
-
             </div>
+
+            <div style={gridContainerStyle}>
+            <img src={images[18]} alt="Maui view 2" style={imageStyle} />
+                <img src={images[19]} alt="Maui view 3" style={imageStyle} />
+                </div>
 
             <p style={paragraphStyle}>
                 The resort features 36 holes of golf, two vibrant poolside bars, and four onsite restaurants. Indulge in self-care at the Awili Spa and Salon with treatments from facials to body scrubs. Lauren & I preferred to stay outdoors, but we did love shopping for beauty products at the spa.
@@ -224,7 +232,7 @@ const AndazMauiReview = () => {
             <img src={images[24]} alt="Maui view 8" style={imageStyle} />
 
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
-                <BookNowButton href="https://www.hyatt.com/en-US/hotel/hawaii/andaz-maui-at-wailea-resort/oggaw" />
+                <BookNowButton href="https://plannin.com/en/hotel/f7ed1125-3205-4916-881e-e865acca3608?refId=jackiewyers" />
             </div>
 
             <img src={signature} alt="Signature" style={{ width: '100%' }} />

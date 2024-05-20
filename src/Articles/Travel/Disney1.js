@@ -5,6 +5,7 @@ import TextReveal from '../../Components/TextReveal';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import modifyanchortags from '../../Utilities/modifyanchortags';
 import DropCap from '../../Components/DropCap';
+import BookNowButton from '../../Components/BookNowButton';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclubtitle.png`;
 const beachclub1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub1.png`;
@@ -53,14 +54,14 @@ const Disney2Post = () => {
 
     const imageStyle = {
         display: 'block',
-        margin: '0 auto',
+        margin: '1',
         maxWidth: '100%',
         maxBlockSize: '800px',
         width: 'auto'
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.5em', maxWidth: '100%', margin: '20em' }}>
+        <div className="container" style={{ lineHeight: '2.75rem', maxWidth: '100%', margin: '20em' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // FLORIDA // DISNEY WORLD
@@ -69,7 +70,7 @@ const Disney2Post = () => {
 
             <img src={image1} alt='Beach Club Title' style={imageStyle} />
 
-            <div style={{ padding: '20px', margin: '20px', width: '100%', boxSizing: 'border-box' }}>
+            <div style={{ padding: '1rem', margin: '20px', width: '100%', boxSizing: 'border-box' }}>
                 <iframe 
                     className="iframeStyle"
                     style={{ width: '100%', height: '525px' }}
@@ -81,9 +82,13 @@ const Disney2Post = () => {
                     allowFullScreen
                 />
             </div>
-
             <SubscribeVlog />
+            <div>
 
+<p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign:'center', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
+ </div>
 
                  <DropCap text = "Welcome to Part One of my magical recap of an unforgettable time at Walt Disney World, FL in 2023. My best friend Lauren and I chose Disney's Beach Club Resort for our stay, marking her first visit and my first return since 2002. This article focuses on our resort experience, offering a glimpse into the luxury and leisure that awaited us at this colonial resort and why we chose to book!"/>
 
@@ -98,6 +103,8 @@ const Disney2Post = () => {
             <p style={paragraphStyle}>
                 This resort is a deluxe option, so it comes with a higher price tag. Check prices as it fluctuates greatly depending on the time of year from between 390 USD up to 990 USD😳 a night.
             </p>
+            <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers" />
+
             <p style={paragraphStyle}>
                 When browsing the various resorts, the Beach Club’s design caught my eye. While I'm all for a fun and goofy Disney experience, I wanted to stay somewhere elegant as an adult. The light blue building, adorned with beautiful Victorian trim, the gardens with pops of bright pink flowers, and a view of the boardwalk offered something truly magical to wake up to.
             </p>
@@ -198,8 +205,13 @@ const Disney2Post = () => {
             <p style={paragraphStyle}>
                 Note about accessibility: Disney's Beach Club Resort is fully accessible to guests with disabilities, offering features like accessible rooms with widened doors and roll-in showers, visual alarm devices for hearing disabilities, wheelchair-accessible pathways, and service animal accommodations. Complimentary Disney transportation is equipped to accommodate guests with disabilities, and the resort provides lifts for pool access, ensuring a comfortable and enjoyable stay for everyone. This is another wonderful quality about Disney World, it really has everyone in mind to enjoy the magic!
             </p>
-
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
+                <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers" />
+            </div>
             <img src={signature} alt='Signature' style={{ width: '100%' }} />
+
+            <Comments website-id={websiteId} pageId={"beachclubresort"} />
+
         </div>
     );
 
@@ -221,7 +233,6 @@ const Disney2Post = () => {
                     }}
                 />
             </div>
-            <Comments website-id={websiteId} pageId={"beachclubresort"} />
         </div>
     );
 };

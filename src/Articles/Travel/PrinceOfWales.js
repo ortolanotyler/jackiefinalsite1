@@ -4,6 +4,7 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../../Components/TextReveal';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import DropCap from '../../Components/DropCap';
+import BookNowButton from '../../Components/BookNowButton';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceTitle.png`;
 
@@ -119,6 +120,7 @@ const PrinceOfWales = () => {
             <p style={paragraphStyle}>
                 Upon arrival at the Prince of Wales Hotel, we were immediately captivated by its Victorian charm. The grand entrance, adorned with ornate floral wallpapers, antique furnishings, and sculptures, transported us into an era of refined elegance. Additional touches like stained glass windows further enhanced the luxurious ambiance. The hotel’s hanging flowers and lush bushes, set against the charming streets of Niagara-on-the-Lake, offered a stunning sight, perfect for roaming this romantic town.
             </p>
+            <BookNowButton href="https://plannin.com/en/hotel/7e8b8619-6256-4481-97c4-048f694b67c4?refId=jackiewyers" />
 
             <div style={gridStyle}>
                 <img src={images[0].src} alt={images[0].alt} style={imageStyle} />
@@ -207,6 +209,15 @@ const PrinceOfWales = () => {
 
             <img src={images[16].src} alt={images[16].alt} style={imageStyle} />
             <img src={signature} alt='Signature' style={{ width: '100%' }} />
+
+
+            <BookNowButton href="https://plannin.com/en/hotel/7e8b8619-6256-4481-97c4-048f694b67c4?refId=jackiewyers" />
+
+
+
+
+            <Comments website-id={websiteId} pageId={"beachclubresort"} />
+
         </div>
     );
 
@@ -228,7 +239,6 @@ const PrinceOfWales = () => {
                     }}
                 />
             </div>
-            <Comments website-id={websiteId} pageId={"beachclubresort"} />
         </div>
     );
 };
