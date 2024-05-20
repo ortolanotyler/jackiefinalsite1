@@ -8,15 +8,13 @@ const victoria = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/V
 const shrimpton = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg`;
 const nomakeup = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
 const grace = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/GraceKellyJackieWyers.jpg`;
+
 const cardsData = [
   { link: "/nomakeupspring", image: nomakeup, alt: "Warm and cozy latte-inspired fall makeup look", title: "No-Makeup Spring 🌸" },
   { link: "/gracekelly", image: grace, alt: "Warm and cozy latte-inspired fall meup look", title: "Grace's Hollywood Glam" },
-
-    { link: "/victoriasecret", image: victoria, alt: "Victoria's Secret fashion show 2014 vibes", title: "Victoria's Secret" },
-    { link: "/lanablog", image: image6, alt: "SKIMS collaboration with Lana for Valentine's Day makeup", title: "SKIMS X Lana" },
-    { link: "/yardley1965", image: shrimpton, alt: "latte-inspired fall makeup look", title: "Jean Shrimpton" },
-
-
+  { link: "/victoriasecret", image: victoria, alt: "Victoria's Secret fashion show 2014 vibes", title: "Victoria's Secret" },
+  { link: "/lanablog", image: image6, alt: "SKIMS collaboration with Lana for Valentine's Day makeup", title: "SKIMS X Lana" },
+  { link: "/yardley1965", image: shrimpton, alt: "latte-inspired fall makeup look", title: "Jean Shrimpton" },
 ];
 
 const Card = ({ link, image, alt, title, description }) => {
