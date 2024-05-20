@@ -133,8 +133,8 @@ export default function EmailSubscribe() {
                   />
                 }
                 label={
-                  <Typography variant="body2" style={{ fontFamily: 'GFS Didot, serif', color: '#745B4F' }}>
-                    I have read the <a href="/privacy-policy" target="_blank" style={{ color: '#745B4F', textDecoration: 'underline' }}>Privacy Policy</a> and give consent to be a part of the newsletter. I understand that I can unsubscribe at any time via email.
+                  <Typography variant="body2" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>
+                    I have read the <a href="/privacy" target="_blank" style={{ color: '#745B4F', textDecoration: 'underline' }}>Privacy Policy</a> and give consent to be a part of the newsletter. I understand that I can unsubscribe at any time via email.
                   </Typography>
                 }
               />

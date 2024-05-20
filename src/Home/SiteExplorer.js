@@ -30,7 +30,7 @@ export default function SiteExplorer() {
   return (
     <Grid container spacing={2} justifyContent="center" sx={{ p: 5 }}>
       {cardDetails.map((card, index) => (
-        <Grid item xs={12} sm={6} md={4} key={index} sx={{ p: 1, display: 'flex' }}>
+        <Grid item xs={11} sm={6} md={4} key={index} sx={{ p: 1, display: 'flex' }}>
           <Card
             onMouseEnter={() => setHoverIndex(index)}
             onMouseLeave={() => setHoverIndex(-1)}

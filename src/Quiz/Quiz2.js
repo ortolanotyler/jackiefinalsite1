@@ -131,7 +131,7 @@ const Quiz2 = () => {
         <>
           <div className="question-section">
             <div className="question-count">
-              <span>Question {currentQuestionIndex + 1}</span>/{quizQuestions.length}
+              <span>QUESTION {currentQuestionIndex + 1}</span>/{quizQuestions.length}
             </div>
             <div className="question-text">{quizQuestions[currentQuestionIndex].question}</div>
           </div>

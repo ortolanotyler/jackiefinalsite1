@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Grid, Box, Paper } from '@mui/material';
 import QuiltedImageList1 from './ImageGridTutorials';
 import TextReveal from '../Components/TextReveal';
@@ -14,8 +14,41 @@ import VlogsHomePageVideo from '../Vlogs/VlogsHomePageVideo';
 import CardContainer from './CardContainer';
 import RotatingText from '../Navigation/AppBar/RotatingText';
 import Quiz2 from '../Quiz/Quiz2';
+import AboutHero from './AboutHero'; // Import the AboutHero component
+import './AboutHero.css'; // Import the CSS file for jiggle animation
 
 function HomePage() {
+  const linkRef = useRef(null);
+  const [isJiggling, setIsJiggling] = useState(false);
+
+  useEffect(() => {
+    const currentLinkRef = linkRef.current;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsJiggling(true);
+          setTimeout(() => {
+            setIsJiggling(false);
+          }, 4000); // Stop jiggling after 4 seconds
+        }
+      },
+      {
+        threshold: 0.1, // Adjust this value as needed
+      }
+    );
+
+    if (currentLinkRef) {
+      observer.observe(currentLinkRef);
+    }
+
+    return () => {
+      if (currentLinkRef) {
+        observer.unobserve(currentLinkRef);
+      }
+    };
+  }, []);
+
   return (
     <Box sx={{ width: '100%', backgroundColor: '#FDFDFD' }}>
       <Grid container spacing={1}>
@@ -36,6 +69,12 @@ function HomePage() {
             <EmailSubscribe />
           </Grid>
         </Grid>
+        <Grid item xs={12}>
+          <AboutHero /> {/* Add the AboutHero component here */}
+        </Grid>
+        <Grid item xs={12}>
+          <SiteExplorer />
+        </Grid>
         <TextReveal text="LATEST BEAUTY VIDEO" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
         <Grid item xs={12} display="flex" justifyContent="center">
           <div style={{ position: 'relative', width: '100%', maxWidth: '1100px', height: 0, paddingBottom: '33.75%', background: '#000', marginTop: '1rem' }}>
@@ -50,17 +89,20 @@ function HomePage() {
           </div>
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
-          <div style={{ textAlign: 'right', marginTop: '1.75rem', marginBottom: '3rem', width: '100%', maxWidth: '1100px', display: 'flex', justifyContent: 'flex-end' }}>
-            <a href="/victoriasecret" style={{ color: 'black', textDecoration: 'none', fontFamily: 'GFS Didot', fontSize: '1.25rem' }}>
+          <div style={{ textAlign: 'right', marginTop: '2rem', marginBottom:'5rem', width: '100%', maxWidth: '1100px', display: 'flex', justifyContent: 'flex-end' }}>
+            <a
+              href="/victoriasecret"
+              ref={linkRef}
+              className={isJiggling ? 'jiggle' : ''}
+              style={{ color: 'black', textDecoration: 'none', fontFamily: 'GFS Didot', fontSize: '1.25rem' }}
+            >
               READ FULL ARTICLE HERE &rarr;
             </a>
           </div>
         </Grid>
+
         <Grid item xs={12}>
-          <SiteExplorer />
-        </Grid>
-        <Grid item xs={12}>
-          <TextReveal text='WHAT KIND OF PRETTY R U ? ' />
+          <TextReveal text="🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊" />
           <Quiz2 />
         </Grid>
         <Grid item xs={12}>
