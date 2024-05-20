@@ -6,7 +6,6 @@ import QuoteBanner3 from './QuoteBanner3.js';
 import EmailSubscribe from '../Components/EmailSubscribe.js';
 import SiteExplorer from './SiteExplorer.js';
 import Slider1 from './aaaa.js';
-import Quiz1 from '../Quiz/Quiz1.js';
 import ReviewArticleList from '../ReviewsPage/ReviewArticleList.js';
 import ResponsiveIframe from '../Components/ResponsiveIframe.js';
 import ShopMyHero from './ShopMyHero.js';
@@ -14,6 +13,7 @@ import BeigeReveal from '../Components/BeigeReveal.js';
 import VlogsHomePageVideo from '../Vlogs/VlogsHomePageVideo.js';
 import CardContainer from './CardContainer.js';
 import RotatingText from '../Navigation/AppBar/RotatingText.js';
+import Quiz2 from '../Quiz/Quiz2.js';
 
 function HomePage() {
   return (
@@ -46,8 +46,8 @@ function HomePage() {
           <Slider1 />
         </Grid>
         <Grid item xs={12}>
-          <TextReveal text='TAKE THIS QUIZ' />
-          <Quiz1 />
+          <TextReveal text='WHAT KIND OF PRETTY R U ? ' />
+          <Quiz2 />
         </Grid>
         <Grid item xs={12}>
           <TextReveal text='LATEST REVIEWS' />

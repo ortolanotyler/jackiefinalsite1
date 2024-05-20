@@ -51,7 +51,7 @@
     background-position: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Enhances text readability */
     width: 100%;
-    height: 100px;
+    height: 350px;
     overflow: hidden; /* Keeps the background contained */
     position: relative; /* Ensures the linear gradient overlays properly */
     background-blend-mode: multiply; /* Blends the gradient with the background image */
