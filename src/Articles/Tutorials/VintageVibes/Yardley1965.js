@@ -5,6 +5,7 @@ import TextReveal from '../../../Components/TextReveal.js';
 import SubscribeButton from '../../../Components/SubscribeButton.js';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe.js';
 import DropCap from '../../../Components/DropCap.js';
+import ResponsiveYoutube from '../../../Components/ResponsiveYoutube.js';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonDouble.png`;
@@ -66,10 +67,12 @@ const Yardley65 = () => {
                 </a>
             </div>
             <img src={title} alt="Jean Shrimpton - Time Travel Tutorials" style={{width: '100%'}} />
-            <ResponsiveIframe src="https://www.youtube.com/embed/OrlZinEp4AI?si=pn69Z9dtya3RuV2G" title="Sharon Tate YouTube video player" />
-            <div style={{ display: 'flex', justifyContent: 'center', margin: '1rem' }}>
-                <SubscribeButton />
-            </div>
+         
+            <ResponsiveYoutube src="https://www.youtube.com/embed/OrlZinEp4AI?si=pn69Z9dtya3RuV2G" title="Jean Shrimpton Makeup Tutorial - Yardley 1965" />
+
+<div style={{ marginTop: '2rem',display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+  <SubscribeButton />
+</div>
             <p style={{ fontFamily: 'Arapey', fontSize: '1rem', textAlign: 'center', margin: '1rem' }}>
                 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>

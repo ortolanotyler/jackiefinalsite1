@@ -4,6 +4,7 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import TextReveal from '../../../Components/TextReveal';
 import DropCap from '../../../Components/DropCap';
+import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 const Latte1 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteTitle.png`;
 const Latte2 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteDouble.png`;
@@ -64,10 +65,12 @@ const LatteMakeupBlogPost = () => {
         </a>
       </div>
       <img src={Latte1} alt='Latte Makeup' style={{ width: '100%' }} />
-      <iframe width="100%" height="525" src="https://www.youtube.com/embed/Jm0BdU88kr4?si=q_f9U-l_aZqaY83s" title="Latte Makeup Tutorial" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-      <div style={{ textAlign: 'center', justifyContent: 'center', alignItems: 'center', margin: '1rem' }}>
-        <SubscribeButton />
-      </div>
+    
+      <ResponsiveYoutube src="https://www.youtube.com/embed/Jm0BdU88kr4?si=q_f9U-l_aZqaY83s" title="Latte Makeup Tutorial on Youtube Jackie Wyers" />
+
+<div style={{ marginTop: '2rem',display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+  <SubscribeButton />
+</div>
       <div>
         <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
           All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.

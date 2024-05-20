@@ -80,6 +80,8 @@ const PatMcGrathPost = () => {
         <SubscribeButton />
       </div>
 
+  
+
       <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
         All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>

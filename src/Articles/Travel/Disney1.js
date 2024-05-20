@@ -6,6 +6,7 @@ import SubscribeVlog from '../../Components/SubscribeVlog';
 import modifyanchortags from '../../Utilities/modifyanchortags';
 import DropCap from '../../Components/DropCap';
 import BookNowButton from '../../Components/BookNowButton';
+import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclubtitle.png`;
 const beachclub1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub1.png`;
@@ -70,20 +71,11 @@ const Disney2Post = () => {
 
             <img src={image1} alt='Beach Club Title' style={imageStyle} />
 
-            <div style={{ padding: '1rem', margin: '20px', width: '100%', boxSizing: 'border-box' }}>
-                <iframe 
-                    className="iframeStyle"
-                    style={{ width: '100%', height: '525px' }}
-                    src="https://www.youtube.com/embed/XRI-IpWb37E?si=X6l3RAxsPGC_bS88"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                />
-            </div>
+            <ResponsiveYoutube src="https://www.youtube.com/embed/XRI-IpWb37E?si=X6l3RAxsPGC_bS88" title="Walt Disney World Beach Club Resort on YouTube" />
 
-                <div style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem' }}>
+
+
+                <div style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '2rem' }}>
             <SubscribeVlog />
             </div>
 

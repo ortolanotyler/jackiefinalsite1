@@ -5,6 +5,7 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../Components/SubscribeButton';
 import TextReveal from '../../Components/TextReveal';
 import DropCap from '../../Components/DropCap';
+import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 
 const video = `${process.env.PUBLIC_URL}/Videos/1ArcadiaEarth.MOV`;
 const MontTop = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblanttitle.png`;
@@ -57,7 +58,7 @@ const MontTremblantBlog = () => {
                 </a>
             </div>
             <img src={MontTop} alt="Mont Tremblant Top View" style={{ width: '100%' }} />
-            <iframe width="100%" height="515" src="https://www.youtube.com/embed/4lDCreVFqAw?si=0X5e_MzsoCeTGhxM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            <ResponsiveYoutube src="https://www.youtube.com/embed/4lDCreVFqAw?si=0X5e_MzsoCeTGhxM" title="Mont Tremblant Ski Trip on Youtube" />
            <div
            style = {{
             justifyContent: 'center',

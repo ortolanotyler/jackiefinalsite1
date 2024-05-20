@@ -5,6 +5,7 @@ import TextReveal from '../../Components/TextReveal';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import DropCap from '../../Components/DropCap';
 import BookNowButton from '../../Components/BookNowButton';
+import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceTitle.png`;
 
@@ -91,20 +92,12 @@ const PrinceOfWales = () => {
             
             <img src={title} alt='Prince of Wales Title' style={imageStyle} />
 
-            <div style={{ padding: '20px', margin: '20px', width: '100%', boxSizing: 'border-box' }}>
-                <iframe 
-                    className="iframeStyle"
-                    style={{ width: '100%', height: '525px' }}
-                    src="https://www.youtube.com/embed/qIAMUI6Enz0?si=IODG7kkuWSOxLfIa"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                />
-            </div>
+            <ResponsiveYoutube src="https://www.youtube.com/embed/qIAMUI6Enz0?si=IODG7kkuWSOxLfIa" title="Prince of Wales Review - Niagara on the Lake on YouTube" />
 
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+
+     
+
+            <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <SubscribeVlog />
             </div>
 

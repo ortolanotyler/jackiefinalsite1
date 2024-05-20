@@ -4,6 +4,7 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
+import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 const Sophia1 = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenTitle.png`;
 const Sophia2 = `${process.env.PUBLIC_URL}/Images/Articles/Sophialoren/SophiaDouble.png`;
@@ -68,11 +69,17 @@ const SophiaLorenPost = () => {
             
             <img src={Sophia1} alt="Sophia Loren in Arabesque" style={imageStyle} />
 
-            <ResponsiveIframe src="https://www.youtube.com/embed/o8_dfwGNXAc?si=q2_GxBp3sClXnUUB" title="YouTube video player" />
 
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '1rem' }}>
-                <SubscribeButton />
-            </div>
+          
+            <ResponsiveYoutube src="https://www.youtube.com/embed/o8_dfwGNXAc?si=q2_GxBp3sClXnUUB" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
+
+<div style={{ marginTop: '2rem',display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+  <SubscribeButton />
+</div>
+<p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+                    All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+                </p>
+
 
             <DropCap text="Welcome back to my favorite series, Time Travel Tutorials, where we delve into the glamorous world of beauty icons from the past. Today's spotlight is on the mesmerizing Italian beauty, Sophia Loren. Born on September 20th, 1934, in Rome, Italy, Sophia Loren is a megastar in both Hollywood and Italian cinema. Her career, spanning over six decades, is a testament to her immense talent, charisma, and iconic makeup style, which continues to inspire admiration (and imitation) today." />
 
@@ -192,6 +199,8 @@ const SophiaLorenPost = () => {
             <div style={{ textAlign: 'center' }}>
                 <img src={Signature} alt="Signature" style={{ width: '100%', height: 'auto' }} />
             </div>
+            <Comments website-id={'10910'} page-id={"Sophia-Loren"} />
+
         </div>
     );
 
@@ -200,9 +209,7 @@ const SophiaLorenPost = () => {
             <div ref={blogRef}>
                 <Card blogContent={blogContent} />
             </div>
-            <div>
-                <Comments website-id={'10910'} page-id={"Sophia-Loren"} />
-            </div>
+         
         </div>
     );
 };

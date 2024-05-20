@@ -5,6 +5,7 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import TextReveal from '../../../Components/TextReveal';
 import DropCap from '../../../Components/DropCap';
+import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 const Lana1 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaTitle.png`;
 const Lana2 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/JackieWyersLanaDelReyRecreation.JPG`;
@@ -49,11 +50,12 @@ const LanaBlog = () => {
         </a>
       </div>
       <img src={Lana1} alt='Lana Del Rey SKIMS Campaign' style={{ width: '100%' }} />
-      <iframe className="iframeStyle" src="https://www.youtube.com/embed/9qOTkql3ZHY?si=flnWAs09z00atuiG" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+      
+      <ResponsiveYoutube src="https://www.youtube.com/embed/9qOTkql3ZHY?si=flnWAs09z00atuiG" title="Lana Del Ray X Skims Makeup Tutorial - Jackie Wyers" />
 
-      <div style={{ marginTop: '1.25rem', textAlign: 'center', alignItems: 'center' }}>
-        <SubscribeButton />
-      </div>
+<div style={{ marginTop: '2rem',display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+  <SubscribeButton />
+</div>
 
       <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
         All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.

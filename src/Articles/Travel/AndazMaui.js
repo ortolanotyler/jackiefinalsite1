@@ -5,6 +5,7 @@ import SubscribeButton from '../../Components/SubscribeButton';
 import TextReveal from '../../Components/TextReveal';
 import DropCap from '../../Components/DropCap';
 import BookNowButton from '../../Components/BookNowButton';
+import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/AndazTitle.png`;
 
@@ -50,7 +51,7 @@ const AndazMauiReview = () => {
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '3.25rem',
+        fontSize: '3rem',
         fontWeight: 'normal',
         fontFamily: 'Arapey, serif',
         color: 'black',
@@ -87,8 +88,12 @@ const AndazMauiReview = () => {
                 </a>
             </div>
             <img src={title} alt="Andaz Maui Resort Title" style={{ width: '100%' }} />
-            <iframe width="100%" height="515" src="https://www.youtube.com/embed/ec7hauzrWWk?si=YpA6V8we20uEB1Kr" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-            <div style={{ justifyContent: 'center', textAlign: 'center', display: 'flex' }}>
+            
+            
+            
+            <ResponsiveYoutube src="https://www.youtube.com/embed/ec7hauzrWWk?si=YpA6V8we20uEB1Kr" title="YouTube video player" />
+
+            <div style={{ marginTop:'2rem',justifyContent: 'center', textAlign: 'center', display: 'flex' }}>
                 <SubscribeButton />
             </div>
             <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', textAlign: 'center', fontStyle: 'italic' }}>
@@ -101,7 +106,7 @@ const AndazMauiReview = () => {
                 Upon our arrival at the Andaz Maui, the breathtaking views of Wailea’s shores captivated us instantly. The resort's open, airy design with its lush landscapes and modern touches perfectly blends luxury with the natural beauty of Maui. Every corner of the resort promised a photo opportunity, with its infinity pools merging into the ocean horizon.
             </p>
             <img src={images[0]} alt="Maui view 1" style={imageStyle} />
-            
+
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
                 <BookNowButton href="https://plannin.com/en/hotel/f7ed1125-3205-4916-881e-e865acca3608?refId=jackiewyers" target="_blank" rel="noopener noreferrer"/>
             </div>

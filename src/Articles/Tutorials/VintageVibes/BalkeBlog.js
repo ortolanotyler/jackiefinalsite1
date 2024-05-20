@@ -5,6 +5,7 @@ import '../../ExampleTutorial.css';
 import TextReveal from '../../../Components/TextReveal';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
+import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 
 const Balke1 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeTitle.png`;
@@ -68,12 +69,14 @@ const BalkeBlog = () => {
      
 
                     <img src={Balke1} alt='Barbie and Ken' style={{ width: '100%' }} />
-                    <iframe width="100%" height="515" src="https://www.youtube.com/embed/7HoL0rVmZHI?si=__Llh9tI2-K62uRQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-       
+                    <ResponsiveYoutube src="https://www.youtube.com/embed/7HoL0rVmZHI?si=__Llh9tI2-K62uRQ" title="Sugar Plum Fairy Tutorial on Youtube - Jackie Wyers" />
+
+
 
              
                    <div
                    style = {{
+                    marginTop: '2rem',
                    justifyContent: 'center',
                    textAlign: 'center',
                    }}

@@ -5,6 +5,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import TextReveal from '../../../Components/TextReveal';
 import DropCap from '../../../Components/DropCap';
+import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 const Sharon1 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SharonBridalTitle.png`;
 const Sharon2 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SharonBridalDouble.png`;
@@ -79,15 +80,14 @@ const SharonTatePost = () => {
             
             <img src={Sharon1} alt="Sharon Tate in a promotional " style={imageStyle} />
 
-            <ResponsiveIframe src="https://www.youtube.com/embed/y0vHs6pRC3Y?si=LJlIhHJgDm0pehAu" title="Sharon Tate YouTube video player" />
 
-            <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%', marginLeft: '0em' }}>
-                CONTAINS: AFFILIATE LINKS
-            </p>
+            <ResponsiveYoutube src="https://www.youtube.com/embed/y0vHs6pRC3Y?si=LJlIhHJgDm0pehAu" title="Sharon Tate Iconic 60's Bridal Makeup Tutorial" />
 
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                <SubscribeButton />
-            </div>
+<div style={{ marginTop: '2rem',display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+  <SubscribeButton />
+</div>
+
+       
 
             <div>
                 <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>

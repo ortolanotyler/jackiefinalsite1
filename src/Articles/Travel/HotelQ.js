@@ -5,6 +5,7 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../Components/SubscribeButton';
 import TextReveal from '../../Components/TextReveal';
 import DropCap from '../../Components/DropCap';
+import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/hotelQtitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/1.jpg`;
@@ -74,7 +75,10 @@ const HotelQ = () => {
                 </a>
             </div>
             <img src={title} alt="Hotel Quintessence Review Title" style={{ width: '100%' }} />
-            <iframe width="100%" height="515" src="https://www.youtube.com/embed/4lDCreVFqAw?si=0X5e_MzsoCeTGhxM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            <ResponsiveYoutube src="https://www.youtube.com/embed/4lDCreVFqAw?si=0X5e_MzsoCeTGhxM" title="Mont Tremblant Ski Trip on Youtube" />
+
+          
+           <iframe width="100%" height="515" src="https://www.youtube.com/embed/4lDCreVFqAw?si=0X5e_MzsoCeTGhxM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             <div style={{ justifyContent: 'center', textAlign: 'center', display: 'flex' }}>
                 <SubscribeButton />
             </div>
@@ -174,6 +178,10 @@ const HotelQ = () => {
                 Thank you for joining me on this review of Hotel Quintessence. If you've stayed here or have questions, I'd love to hear from you in the comments below or on my blog. For more travel insights and adventures, stay tuned!
             </p>
             <img src={signature} alt="Signature" style={{ width: '100%' }} />
+            <Comments
+                    website-id={websiteId}
+                    pageId={"Hotel-Q"} // Unique identifier for this blog post
+                />
         </div>
     );
 
@@ -182,10 +190,7 @@ const HotelQ = () => {
             <TextReveal text='MONT TREMBLANT' />
             <div ref={blogRef}>
                 <Card blogContent={blogContent} />
-                <Comments
-                    website-id={websiteId}
-                    pageId={"Hotel-Q"} // Unique identifier for this blog post
-                />
+                
             </div>
         </div>
     );

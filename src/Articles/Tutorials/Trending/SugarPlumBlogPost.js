@@ -4,6 +4,7 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
+import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 
 const TopHero = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SugarPlumFairyTitle.png`;
@@ -53,9 +54,12 @@ const SugarPlumBlogPost = () => {
             </div>
             <img src={TopHero} alt='Sugar Plum Fairy Trend' style={{ width: '100%' }} />
 
-            <ResponsiveIframe src="https://www.youtube.com/embed/Vy6e7k5uur8?si=-3GFPhHdf3DLAOyu" title="YouTube video player" />
 
-            <div style={{ textAlign: 'center' }}><SubscribeButton /></div>
+            <ResponsiveYoutube src="https://www.youtube.com/embed/Vy6e7k5uur8?si=-3GFPhHdf3DLAOyu" title="Sugar Plum Fairy Tutorial on Youtube - Jackie Wyers" />
+
+<div style={{ marginTop: '2rem',display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+  <SubscribeButton />
+</div>
 
             <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', textAlign: 'center', fontStyle: 'italic' }}>
                 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.

@@ -5,6 +5,7 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import TextReveal from '../../../Components/TextReveal';
 import DropCap from '../../../Components/DropCap';
+import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 
 const Victoria1 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSTitle.png`;
@@ -59,13 +60,12 @@ const VictoriaSecret = () => {
         </a>
       </div>
       <img src={Victoria1} alt="Victoria's Secret Fashion Show 2013" style={{ width: '100%' }} />
-      <iframe width="100%" height="545" src="https://www.youtube.com/embed/Uz03ReLZO9k?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       
-      <div
-      style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', }}
-      >
+      <ResponsiveYoutube src="https://www.youtube.com/embed/Uz03ReLZO9k?start=3" title="Lana Del Ray X Skims Makeup Tutorial - Jackie Wyers" />
+
+<div style={{ marginTop: '2rem',display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
   <SubscribeButton />
-      </div>
+</div>
     
       
       <p style={{ textAlign: 'center',fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
@@ -222,6 +222,8 @@ style = {{
       </p>
       <div>
         <img src={Signature} alt='xoxo - Jackie Wyers' style={{ width: '100%' }} />
+        <Comments website-id={websiteId} pageId={"Victoria-Secret-Review"} />
+
       </div>
 
   
@@ -243,7 +245,6 @@ style = {{
         }}
       />
          
-      <Comments website-id={websiteId} pageId={"Victoria-Secret-Review"} />
     </div>
   );
 };

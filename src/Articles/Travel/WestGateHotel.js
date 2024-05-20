@@ -33,6 +33,19 @@ const Card = ({ blogContent }) => (
     </div>
 );
 
+const ResponsiveYoutube = ({ src, title }) => (
+    <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000' }}>
+        <iframe
+            src={src}
+            title={title}
+            style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+        />
+    </div>
+);
+
 const WestGateHotelBlog = () => {
     const blogRef = useRef(null);
     const websiteId = "10910";
@@ -77,7 +90,7 @@ const WestGateHotelBlog = () => {
                 </a>
             </div>
             <img src={title} alt="Mont Tremblant Top View" style={{ width: '100%' }} />
-            <iframe width="100%" height="515" src="https://www.youtube.com/embed/H1VUDOqCo3s?si=Ej5ug_TV3qatoDOk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            <ResponsiveYoutube src="https://www.youtube.com/embed/H1VUDOqCo3s?si=Ej5ug_TV3qatoDOk" title="YouTube video player" />
             <div style={{ justifyContent: 'center', textAlign: 'center', display: 'flex' }}>
                 <SubscribeButton />
             </div>
@@ -103,12 +116,13 @@ const WestGateHotelBlog = () => {
                 The Westgate Hotel has updated its Bridgerton-themed experience with the "Whistledown Package," offering a luxurious stay perfect for fans of the show. This package includes overnight accommodations in a Premier View Room with stunning skyline views, a complimentary bottle of champagne, and a special "Postcard and Feather-ington pen" set, allowing guests to write and send letters using the hotel’s historic mail chute. How fun!
             </p>
 
-<div style={gridContainerStyle}>
-<img src={westgate4} alt="The Westgate Hotel - San Diego" style={gridItemStyle} />
-<img src={westgate5} alt="The Westgate Hotel - San Diego" style={gridItemStyle} />
-<img src={westgate6} alt="The Westgate Hotel - San Diego" style={gridItemStyle} />
-<img src={westgate1} alt="Québécoise Pizza"  />
-</div>
+            <div style={gridContainerStyle}>
+                <img src={westgate4} alt="The Westgate Hotel - San Diego" style={gridItemStyle} />
+                <img src={westgate5} alt="The Westgate Hotel - San Diego" style={gridItemStyle} />
+                <img src={westgate6} alt="The Westgate Hotel - San Diego" style={gridItemStyle} />
+                <img src={westgate1} alt="Québécoise Pizza"  />
+            </div>
+
             <p style={paragraphStyle}>
                 Additionally, guests have the option to upgrade their experience to include the glamorous "Whistledown Afternoon Tea.” This themed package and tea experience offer a deep dive into the world of Bridgerton, perfect for those seeking a touch of regal elegance during their stay in San Diego.
             </p>
@@ -118,11 +132,11 @@ const WestGateHotelBlog = () => {
             </p>
 
 
-<div style={gridContainerStyle}>
-<img src={westgate8} alt="The Westgate Hotel - San Diego" style={gridItemStyle} />
-<img src={westgate10} alt="The Westgate Hotel - San Diego" style={gridItemStyle} />
-</div>
-<img src={westgate11} alt="Mont Tremblant Skila" style={{ width: '100%' }} />
+            <div style={gridContainerStyle}>
+                <img src={westgate8} alt="The Westgate Hotel - San Diego" style={gridItemStyle} />
+                <img src={westgate10} alt="The Westgate Hotel - San Diego" style={gridItemStyle} />
+            </div>
+            <img src={westgate11} alt="Mont Tremblant Skila" style={{ width: '100%' }} />
 
             <h2 style={headingStyle}>🥀 Room Options and Accessibility</h2>
             <p style={paragraphStyle}>
@@ -138,12 +152,10 @@ const WestGateHotelBlog = () => {
             <p style={paragraphStyle}>
                 The Whistledown Tea, held in the hotel’s ornate Grand Lobby, includes champagne or apple cider, a selection of tea sandwiches, savouries, sweet pastries, and a take-home jar of Whistledown White Ambrosia Tea.
             </p>
-                        <img src={westgate9} alt="The Westgate Hotel - San Diego" style={gridItemStyle} />
-
+            <img src={westgate9} alt="The Westgate Hotel - San Diego" style={gridItemStyle} />
             <p style={paragraphStyle}>
                 When I attended the high tea, it was accompanied by a live harpist, now changed to a string quartet. This tea service is available on Saturdays from 2 PM to 4:30 PM, from May 18 to June 29, 2024. Guests are encouraged to dress in their finest Regency-era attire and the tea experience is priced at $98 for adults and $68 for children ages 2 to 14.
             </p>
-         
             <p style={paragraphStyle}>
                 High tea is just one of the many dining options available at the Westgate Hotel. The Westgate Room offers innovative American cuisine with French influences. The Plaza Bar is perfect for pre-dinner drinks with live music. For outdoor dining, the Veranda serves locally-sourced seafood in a bistro-style setting.
             </p>
@@ -157,7 +169,6 @@ const WestGateHotelBlog = () => {
             <p style={paragraphStyle}>
                 Our stay at the Westgate Hotel was a regal affair that I highly recommend to anyone looking to escape into a world of elegance and romance. The hotel itself is also a stunning wedding location, offering luxurious settings ideal for a memorable celebration.
             </p>
-     
             <p style={paragraphStyle}>
                 If you're planning a visit to San Diego and want a taste of Regency-era luxury, the Westgate Hotel is a must. The Westgate's Whistledown Tea and Package isn’t the only package, so check on the Westgate website for more offerings. For more Bridgerton inspiration, check out Daphne hairstyles here.
             </p>
@@ -192,4 +203,3 @@ const WestGateHotelBlog = () => {
 };
 
 export default WestGateHotelBlog;
-

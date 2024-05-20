@@ -7,7 +7,6 @@ const Ulike1 = `${process.env.PUBLIC_URL}/Images/Articles/ULIKEReview/uliketitle
 const Ulike2 = `${process.env.PUBLIC_URL}/Images/Articles/ULIKEReview/ulikeair10.png`;
 const Ulike3 = `${process.env.PUBLIC_URL}/Images/Articles/ULIKEReview/2.JPG`;
 const Ulike4 = `${process.env.PUBLIC_URL}/Images/Articles/ULIKEReview/1.JPG`;
-const Ulike5 = `${process.env.PUBLIC_URL}/Images/Articles/ULIKEReview/uliketitle.png`;
 
 const Card = ({ blogContent }) => {
     return (

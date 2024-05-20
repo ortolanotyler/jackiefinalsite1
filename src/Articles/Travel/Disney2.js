@@ -4,6 +4,7 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import modifyanchortags from '../../Utilities/modifyanchortags';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import TextReveal from '../../Components/TextReveal';
+import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcottitle.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot2.png`;
@@ -76,23 +77,18 @@ const Disney2Post = () => {
             </div>
             <img src={title} alt='Epcot Title' style={imageStyle} />
 
-            <div style={{ width: '100%', boxSizing: 'border-box' }}>
-                <iframe 
-                    className="iframeStyle"
-                    style={{ width: '100%', height: '525px' }}
-                    src="https://www.youtube.com/embed/XRI-IpWb37E?si=X6l3RAxsPGC_bS88"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                />
-            </div>
+            <ResponsiveYoutube src="https://www.youtube.com/embed/XRI-IpWb37E?si=X6l3RAxsPGC_bS88" title="Walt Disney World Trip Review on YouTube" />
+
 
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', textAlign: 'center' }}>
                 <SubscribeVlog />
             </div>
+            <div>
 
+<p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign:'center', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
+ </div>
             <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey', maxWidth: '100%', justifyContent: 'center' }}>
                 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
@@ -276,6 +272,8 @@ const Disney2Post = () => {
             </p>
 
             <img src={signature} alt='Signature' style={imageStyle} />
+            <Comments website-id={websiteId} pageId={"beachclubresort"} />
+
         </div>
     );
 
