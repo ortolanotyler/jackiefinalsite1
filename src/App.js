@@ -46,6 +46,7 @@ import WestGateHotelBlog from './Articles/Travel/WestGateHotel';
 import AndazMauiReview from './Articles/Travel/AndazMaui';
 import PrinceOfWales from './Articles/Travel/PrinceOfWales';
 import ScrollToTop from './Navigation/Footer/ScrollToTop';
+import AnimalPretty from './Articles/Tutorials/Trending/AnimalPretty';
 
 function App() {
   return (
@@ -86,6 +87,7 @@ function App() {
         <Route path="/westgatesandiego" element={<WestGateHotelBlog />} />
         <Route path="/andazmaui" element={<AndazMauiReview />} />
         <Route path="/princeofwales" element={<PrinceOfWales />} />
+        <Route path="/animalpretty" element={<AnimalPretty />} />
 
         {/* Review */}
         <Route path="/painlessIPL" element={<UlikeReview />} />

@@ -20,7 +20,7 @@ const ResponsiveIframe = ({ src, title }) => {
   return (
     <iframe
       width="100%"
-      height='3vh'
+      height='5vh'
       title={title}
       src={src}
       className="embed-container"

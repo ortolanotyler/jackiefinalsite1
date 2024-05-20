@@ -9,7 +9,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TWIGGYEYESTUTORIAL.JPG`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyFaceChart.png`;
-const image3 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/JackieAsAudrey.jpg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TWIGGYFINALHEADSHOT.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const yardley = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonAd.jpg`;
 
@@ -40,7 +40,7 @@ const TwiggyBlog = () => {
     const paragraphStyle = {
         fontSize: '1.5rem',
         fontFamily: 'GFS Didot, serif',
-        margin: '1rem',
+        margin: '5rem',
         maxWidth: '100%',
         lineHeight: '1.75em'
     };
@@ -49,13 +49,13 @@ const TwiggyBlog = () => {
         display: 'block',
         margin: '0 auto',
         maxWidth: '100%',
-        maxHeight: '1000px',
+        maxHeight: '900px',
         objectFit: 'cover'
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '20rem', marginTop: '5rem' }}>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '20em', marginTop: '5rem' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // TIME TRAVEL TUTORIALS
                 </a>
@@ -182,10 +182,10 @@ const TwiggyBlog = () => {
                 I hope you enjoyed another Time Travel Tutorials for all the vintage vibes, and I do have “vintage vibes” merchandise available if you are interested, browse <a href="/vintagevibesmerch">here!</a>
             </p>
             <p style={paragraphStyle}>
-                If you have any vintage icons you'd like me to cover in future posts, don't hesitate to leave a comment below. If you enjoyed this look, you may Jean Shrimpton’s Yardley Ad recreation, complete with my vintage makeup collection from the 1960's <a href="/yardley1965">here</a>.
+                If you have any vintage icons you'd like me to cover in future posts, don't hesitate to leave a comment below. If you enjoyed this look, you may enjoy Jean Shrimpton’s Yardley Ad recreation, complete with my vintage makeup collection from the 1960's <a href="/yardley1965">here</a>.
             </p>
 
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div style={{ padding: '5rem',display: 'flex', justifyContent: 'center', height: '80%', width: 'auto' }}>
                 <img src={yardley} alt="Twiggy Hair Tutorial Jackie Wyers" style={imageStyle} />
             </div>
 

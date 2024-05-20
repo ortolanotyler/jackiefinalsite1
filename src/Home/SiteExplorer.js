@@ -64,7 +64,7 @@ export default function SiteExplorer() {
                 opacity: hoverIndex === index ? 1 : 0,
                 transition: 'opacity 0.3s ease-in-out',
                 gap: '0.1rem',
-                padding: '1rem',
+                padding: '5rem',
               }}
             >
               <Typography variant="h5" component="h2" sx={{ 

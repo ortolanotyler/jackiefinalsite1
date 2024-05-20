@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './aaa.module.css'; // Import the CSS module
 
 // Importing the images
-const image2 = `${process.env.PUBLIC_URL}/Images/Home/HomePage3.jpg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.jpg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Home/JackieWyersLanaDelReyRecreationArticleThumbnail.jpg`;
 const image8 = `${process.env.PUBLIC_URL}/Images/Home/VictoriaSecret.jpg`;
 const shrimpton = `${process.env.PUBLIC_URL}/Images/Home/JeanShrimptonThumbnail.jpg`;
@@ -12,9 +12,10 @@ const twiggy = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyMODThumbn
 
 const cardsData = [
 
+  { link: "/animalpretty", image: image2, alt: "Which animal kind of pretty are you? ", title: "Animal Pretty - HBU?" },
 
-  { link: "/nomakeupspring", image: nomakeup, alt: "Warm and cozy latte-inspired fall makeup look", title: "No-Makeup Spring 🌸" },
-  { link: "/gracekelly", image: grace, alt: "Warm and cozy latte-inspired fall meup look", title: "Grace's Hollywood Glam" },
+  { link: "/nomakeupspring", image: nomakeup, alt: "No Makeup-Makeup Look for Spring  ", title: "No-Makeup Spring 🌸" },
+  { link: "/gracekelly", image: grace, alt: "Grace Kelly inspired makeup tutorial", title: "Grace's Hollywood Glam" },
     { link: "/victoriasecret", image: image8, alt: "Victoria's Secret fashion show 2014 vibes", title: "Victoria's Secret" },
     { link: "/lanablog", image: image6, alt: "SKIMS collaboration with Lana for Valentine's Day makeup", title: "SKIMS X Lana" },
     { link: "/yardley1965", image: shrimpton, alt: "latte-inspired fall makeup look", title: "Jean Shrimpton" },

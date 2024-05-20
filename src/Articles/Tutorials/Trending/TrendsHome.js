@@ -12,8 +12,12 @@ const image6 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayT
 const image8 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
 const victoria = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
 const makeup2016 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016MakeupThumbnail.jpg`;
+const animal = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.jpg`;
 
 const cardsData = [
+
+  { link: "/nomakeupspring", image: animal, alt: "Warm and cozy latte-inspired fall makeup look", title: "Animal Pretty - HBU?" },
+
   {
     link: "/2016Makeup",
     image: makeup2016,
@@ -21,7 +25,6 @@ const cardsData = [
     title: "2016 Makeup Inspo!",
     description: "2014 vibes are so back",
   },
-
 
   {
     link: "/latteMakeup",

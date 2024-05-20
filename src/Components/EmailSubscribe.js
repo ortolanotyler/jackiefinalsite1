@@ -43,7 +43,7 @@ export default function EmailSubscribe() {
               <Typography
                 variant="subtitle1"
                 sx={{
-                  fontSize: { xs: '40px', md: '26px' },
+                  fontSize: { xs: '36px', md: '26px' },
                   fontFamily: 'GFS Didot, serif',
                   textAlign: 'center',
                   color: '#745B4F',
