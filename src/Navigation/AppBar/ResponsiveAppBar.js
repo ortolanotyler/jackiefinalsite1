@@ -77,7 +77,7 @@ function ResponsiveAppBar() {
       fontFamily: 'GFS Didot, serif', 
       backgroundColor: '#FDEDEF',
       margin: 0, 
-      padding: '2rem',
+      padding: '1rem',
       width: '100%' 
     }}>
       <Container maxWidth="false" disableGutters>
@@ -89,7 +89,7 @@ function ResponsiveAppBar() {
               backgroundColor: 'transparent'
             }
           }}>
-            <img src={logo} alt="Logo" style={{ height: '10vh' }} />
+            <img src={logo} alt="Logo" style={{ height: '8vh' }} />
           </IconButton>
 
           {isCollapsed ? (

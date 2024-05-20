@@ -1,5 +1,5 @@
 import React from 'react';
-import "./TravelArticleList.css";
+import './TravelArticleList.css';
 import TravelArticleCard from './TravelArticleCard';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/BEACHCLUBTHUMBNAIL.jpg`;
@@ -43,7 +43,7 @@ const articles = [
     },
     {
         date: '04/01/2024',
-        title: 'Hotel Quintessance, A Review in Mont Tremblant',
+        title: 'Hotel Quintessence, A Review in Mont Tremblant',
         image: hotelQ,
         path: '/hotelq',
     },

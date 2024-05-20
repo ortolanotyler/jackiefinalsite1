@@ -8,7 +8,7 @@ import TravelArticlesList from './TravelArticleList';
 const TravelArticlesHome = () => {
     return (
         <div>
-            <TextReveal text='TRAVEL' />
+            <TextReveal text="TRAVEL" />
             <div>
                 <Paper elevation={3} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: "#745B4F", textAlign: 'center', padding: '1em' }}>
                     <RotatingText />
@@ -17,7 +17,7 @@ const TravelArticlesHome = () => {
             <div>
                 <TravelArticlesList />
             </div>
-            <TextReveal text='TRAVEL GO-TO s' />
+            <TextReveal text="TRAVEL GO-TO's" />
             <ResponsiveIframe
                 src="https://shopmy.us/collections/embed/91810?noHeader=true"
                 title="Collection name here"

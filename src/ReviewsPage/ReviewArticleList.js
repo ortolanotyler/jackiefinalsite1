@@ -1,11 +1,11 @@
 import React from 'react';
+import './ReviewArticleList.css';
 import ReviewArticleCard from './ReviewArticleCard';
-import "./ReviewArticleList.css";
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/jickyguerlainthumbnail.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBonThumbnail.png`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/HalfetiThumbnail.png`;
-const image4 =  `${process.env.PUBLIC_URL}/Images/Articles/ULIKEREVIEW/ULIKETHUMB.png`;
+const image4 = `${process.env.PUBLIC_URL}/Images/Articles/ULIKEREVIEW/ULIKETHUMB.png`;
 
 const articles = [
     {
@@ -37,10 +37,7 @@ const articles = [
 
 const ReviewArticleList = () => {
     return (
-        <div className="article-list-reviews" style = {{
-            justifyContent: 'center',
-            padding: '2rem'
-        }}>
+        <div className="article-list-reviews">
             {articles.map((article, index) => (
                 <ReviewArticleCard
                     key={index}
