@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Grid, Box, Paper } from '@mui/material';
+import { Grid, Box, Paper, Typography } from '@mui/material';
 import QuiltedImageList1 from './ImageGridTutorials';
 import TextReveal from '../Components/TextReveal';
 import QuoteBanner3 from './QuoteBanner3';
@@ -50,7 +50,7 @@ function HomePage() {
   }, []);
 
   return (
-    <Box sx={{ width: '100%', backgroundColor: '#FDFDFD' }}>
+    <Box sx={{ width: '100%', backgroundColor: 'white' }}>
       <Grid container spacing={1}>
         <TextReveal text='JACKIE WYERS' />
         <Grid item xs={12}>
@@ -75,6 +75,21 @@ function HomePage() {
         <Grid item xs={12}>
           <SiteExplorer />
         </Grid>
+        <Grid item xs={12} display="flex" justifyContent="flex-end">
+          <Box sx={{ textAlign: 'right', mt: -1, mr: 10 }}>
+            <a
+              href="/tutorials"
+              ref={linkRef}
+              className={isJiggling ? 'jiggle' : ''}
+              style={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
+            >
+              <Typography variant="body1" sx={{ fontSize: '1.25rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
+                VIEW ALL TUTORIALS
+              </Typography>
+              <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
+            </a>
+          </Box>
+        </Grid>
         <TextReveal text="LATEST BEAUTY VIDEO" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
         <Grid item xs={12} display="flex" justifyContent="center">
           <div style={{ position: 'relative', width: '100%', maxWidth: '1100px', height: 0, paddingBottom: '33.75%', background: '#000', marginTop: '1rem' }}>
@@ -89,7 +104,7 @@ function HomePage() {
           </div>
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
-          <div style={{ textAlign: 'right', marginTop: '2rem', marginBottom:'5rem', width: '100%', maxWidth: '1100px', display: 'flex', justifyContent: 'flex-end' }}>
+          <div style={{ textAlign: 'right', marginTop: '2rem', marginBottom: '5rem', width: '100%', maxWidth: '1000px', display: 'flex', justifyContent: 'flex-end' }}>
             <a
               href="/victoriasecret"
               ref={linkRef}

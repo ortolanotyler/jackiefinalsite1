@@ -35,7 +35,7 @@ export default function SiteExplorer() {
             onMouseEnter={() => setHoverIndex(index)}
             onMouseLeave={() => setHoverIndex(-1)}
             sx={{
-              height: 750, // Fixed height to prevent pushing
+              height: 750,
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'space-between',
@@ -45,7 +45,7 @@ export default function SiteExplorer() {
               position: 'relative',
               overflow: 'hidden',
               transition: '0.9s',
-              flexGrow: 1 // Ensures the card grows to fill available space
+              flexGrow: 1,
             }}
           >
             <div
@@ -67,36 +67,25 @@ export default function SiteExplorer() {
                 padding: '5rem',
               }}
             >
-              <Typography variant="h5" component="h2" sx={{ 
-                fontFamily: "'Arapey', serif", 
-                color: 'white', 
-                zIndex: 2,
-                fontSize: '1.75rem',
-                padding: '0.1em 0.4em',
-              }}>
+              <Typography variant="h5" component="h2" sx={{ fontFamily: "'Arapey', serif", color: 'white', zIndex: 2, fontSize: '1.75rem', padding: '0.1em 0.4em' }}>
                 {card.title}
               </Typography>
-              <Typography sx={{ 
-                fontFamily: "'GFS Didot', serif", 
-                color: 'white', 
-                zIndex: 2,
-                fontSize: '1rem',
-              }}>
+              <Typography sx={{ fontFamily: "'GFS Didot', serif", color: 'white', zIndex: 2, fontSize: '1rem' }}>
                 {card.description}
               </Typography>
-              <Button 
-                size="small" 
-                sx={{ 
+              <Button
+                size="small"
+                sx={{
                   fontFamily: "'Arapey', sans-serif",
-                  color: 'white', 
+                  color: 'white',
                   zIndex: 2,
                   fontSize: '1rem',
                   border: '2px solid white',
                   '&:hover': {
                     backgroundColor: 'white',
                     color: 'black',
-                    borderColor: 'white'
-                  }
+                    borderColor: 'white',
+                  },
                 }}
                 onClick={() => navigate(card.path)}
               >
