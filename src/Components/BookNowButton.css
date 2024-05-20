@@ -1,0 +1,21 @@
+.book-now-button {
+    display: inline-block;
+    font-family: "GFS Didot", sans-serif;
+    font-size: 0.95rem;
+    padding: 2rem 2.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #fdedef;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.5s ease, transform 0.3s ease, color 0.5s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-now-button:hover {
+    background-color: #333;
+    color: #fff;
+    transform: translateY(-0.25rem);
+}

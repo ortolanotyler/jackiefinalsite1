@@ -18,7 +18,7 @@ const cardDetails = [
   },
   {
     title: 'TRENDS',
-    backgroundImage: `${process.env.PUBLIC_URL}/Images/Home/JackieWyersPatMcGrath.jpeg`,
+    backgroundImage: `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteThumbnail.jpg`,
     path: '/trends'
   },
 ];
@@ -35,7 +35,7 @@ export default function SiteExplorer() {
             onMouseEnter={() => setHoverIndex(index)}
             onMouseLeave={() => setHoverIndex(-1)}
             sx={{
-              height: 350, // Fixed height to prevent pushing
+              height: 750, // Fixed height to prevent pushing
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'space-between',

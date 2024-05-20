@@ -14,6 +14,7 @@ import VlogsHomePageVideo from '../Vlogs/VlogsHomePageVideo.js';
 import CardContainer from './CardContainer.js';
 import RotatingText from '../Navigation/AppBar/RotatingText.js';
 import Quiz2 from '../Quiz/Quiz2.js';
+import ReviewArticleListHome from '../ReviewsPage/ReviewArticleListHomePage.js';
 
 function HomePage() {
   return (
@@ -40,22 +41,23 @@ function HomePage() {
           <SiteExplorer />
         </Grid>
         <Grid item xs={12}>
+          <TextReveal text='WHAT KIND OF PRETTY R U ? ' />
+          <Quiz2 />
+        </Grid>
+        <Grid item xs={12}>
           <TextReveal text='LATEST TUTORIALS' />
         </Grid>
         <Grid item xs={12}>
           <Slider1 />
         </Grid>
-        <Grid item xs={12}>
-          <TextReveal text='WHAT KIND OF PRETTY R U ? ' />
-          <Quiz2 />
-        </Grid>
+  
         <Grid item xs={12}>
           <TextReveal text='LATEST REVIEWS' />
-          <ReviewArticleList />
+          <ReviewArticleListHome />
         </Grid>
         <Grid item xs={12}>
-          <TextReveal text="JACKIE'S PICKS" />
-          <ResponsiveIframe src="https://shopmy.us/collections/embed/91393" title="Wedding Dress Collection" />
+          <TextReveal text="JACKIE'S MAKEUP BAG" />
+          <ResponsiveIframe src="https://shopmy.us/collections/embed/553108" title="JACKIES MAKEUP BAG" />
         </Grid>
         <Grid item xs={12}>
           <QuoteBanner3 />

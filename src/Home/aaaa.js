@@ -19,7 +19,6 @@ const cardsData = [
     { link: "/victoriasecret", image: image8, alt: "Victoria's Secret fashion show 2014 vibes", title: "Victoria's Secret" },
     { link: "/lanablog", image: image6, alt: "SKIMS collaboration with Lana for Valentine's Day makeup", title: "SKIMS X Lana" },
     { link: "/yardley1965", image: shrimpton, alt: "latte-inspired fall makeup look", title: "Jean Shrimpton" },
-    { link: "/twiggy", image: twiggy, alt: "Twiggy", title: "Twiggy / MOD Blue" },
 
 ];
 

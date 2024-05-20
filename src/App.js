@@ -90,7 +90,7 @@ function App() {
         <Route path="/animalpretty" element={<AnimalPretty />} />
 
         {/* Review */}
-        <Route path="/painlessIPL" element={<UlikeReview />} />
+        <Route path="/ulikereview" element={<UlikeReview />} />
         <Route path="/halfetireview" element={<HalfetiReview />} />
         <Route path="/jickyreview" element={<JickyReview />} />
         <Route path="/bonbonreview" element={<BonBonReview />} />
