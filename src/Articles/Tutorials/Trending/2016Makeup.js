@@ -257,6 +257,8 @@ const Makeup2016 = () => {
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <img src={signature} alt="2016 Makeup Tutorial via Jackie Wyers on Instagram" style={imageStyle} />
       </div>
+      <Comments website-id={websiteId} pageId={"No-Makeup-Spring"} />
+
     </div>
   );
 
@@ -267,7 +269,6 @@ const Makeup2016 = () => {
         description="Just a hint of color, just in time for spring"
         blogContent={blogContent}
       />
-      <Comments website-id={websiteId} pageId={"No-Makeup-Spring"} />
     </div>
   );
 };

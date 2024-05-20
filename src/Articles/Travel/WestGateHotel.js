@@ -153,7 +153,10 @@ const WestGateHotelBlog = () => {
                 Thank you for joining me on this luxurious journey back in time at the Westgate Hotel. Tyler and I had an unforgettable experience, and we can't wait to share more of our adventures with you. For more travel tips and lifestyle content, stay tuned to my blog and YouTube channel!
             </p>
             <img src={signature} alt="Québécoise Pizza" style={{ width: '100%' }} />
-
+            <Comments
+                    website-id={websiteId}
+                    pageId={"westgate"} // Unique identifier for this blog post
+                />
           
         </div>
     );
@@ -163,10 +166,7 @@ const WestGateHotelBlog = () => {
             <TextReveal text='SAN DIEGO' />
             <div ref={blogRef}>
                 <Card blogContent={blogContent} />
-                <Comments
-                    website-id={websiteId}
-                    pageId={"westgate"} // Unique identifier for this blog post
-                />
+                
             </div>
         </div>
     );

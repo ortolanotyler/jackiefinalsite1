@@ -164,6 +164,8 @@ const LatteMakeupBlogPost = () => {
         Want to be featured on my site? Tag me in your recreation or version of this look on Insta <strong>@jackiewyers.</strong> I’d love to see you switch up your style with confidence!
       </p>
       <img src={Latte16} alt='Jackie Wyers Signature' style={{ width: '100%' }} />
+      <Comments website-id={websiteId} page-id={'latte'} />
+
     </div>
   );
 
@@ -178,7 +180,6 @@ const LatteMakeupBlogPost = () => {
           description="Trend Report: How to get the Latte Makeup Look"
           blogContent={blogContent}
         />
-        <Comments website-id={websiteId} page-id={'latte'} />
       </div>
     </div>
   );

@@ -169,6 +169,8 @@ const BarbieBlog = () => {
       <div>
         <img src={Signature} alt='Final glamorous Barbie makeup look' style={{ width: '100%' }} />
       </div>
+      <Comments website-id={websiteId} page-id={'barbie'} />
+
     </div>
   );
 
@@ -179,7 +181,6 @@ const BarbieBlog = () => {
         description="Come on Barbie, Let’s get Glam!"
         blogContent={blogContent}
       />
-      <Comments website-id={websiteId} page-id={'barbie'} />
     </div>
   );
 };

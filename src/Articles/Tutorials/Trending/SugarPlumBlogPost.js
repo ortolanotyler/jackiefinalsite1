@@ -216,6 +216,8 @@ shine is UNREAL!
             <div style={{ textAlign: 'center' }}>
                 <img src={Signature} alt="Signature" style={{ width: '100%', height: 'auto' }} />
             </div>
+            <Comments website-id={websiteId} page-id="SugarPlumBlogPost" />
+
         </div>
     );
 
@@ -225,7 +227,6 @@ shine is UNREAL!
                 <Card blogContent={blogContent} />
             </div>
             <div>
-                <Comments website-id={websiteId} page-id="SugarPlumBlogPost" />
             </div>
         </div>
     );

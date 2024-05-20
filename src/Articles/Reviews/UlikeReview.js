@@ -92,6 +92,19 @@ const UlikeReview = () => {
                 - Safety Standards: FDA-approved, certified safe by international standards
             </p>
 
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <iframe
+                    width="600"
+                    height="415"
+                    src="https://www.youtube.com/embed/S_IdqY01TsY?si=hBTHlR7eIyGnDTSc&start=40"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                ></iframe>
+            </div>
+
             <h2 style={headingStyle}>{'\u{1F49C}'} {titles.uniqueness}</h2>
             <p style={paragraphStyle}>
                 The Ulike Air 10 takes a comprehensive approach to hair removal. Featuring a built-in SkinSensor, it adjusts light intensity to safely match your skin tone, ensuring optimal safety without compromising effectiveness. Its cooling system and multiple mode settings offer a customizable experience that maximizes both comfort and results.
@@ -142,18 +155,8 @@ const UlikeReview = () => {
                 The Ulike Air 10 revolutionizes home hair removal, combining safety, comfort, and efficiency in an elegant package. It is an excellent choice for contemporary users who value performance and ease of use in their beauty routines. Have you tried Ulike Air 10 device? Share your thoughts and experiences below.
             </p>
 
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <iframe
-                    width="600"
-                    height="415"
-                    src="https://www.youtube.com/embed/S_IdqY01TsY?si=hBTHlR7eIyGnDTSc&start=40"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                ></iframe>
-            </div>
+            <Comments website-id={websiteId} page-id="ulike-review" />
+
         </div>
     );
 
@@ -169,7 +172,6 @@ const UlikeReview = () => {
                     textAlign: 'left'
                 }}
             />
-            <Comments website-id={websiteId} page-id="ulike-review" />
         </div>
     );
 };

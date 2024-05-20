@@ -165,6 +165,8 @@ const SharonTatePost = () => {
             <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%', marginLeft: '0em' }}>
                 CONTAINS: AFFILIATE LINKS
             </p>
+            <Comments website-id={websiteId} page-id={'Sharon-Tate-Post'} />
+
         </div>
     );
 
@@ -172,7 +174,6 @@ const SharonTatePost = () => {
         <div ref={blogRef}>
             <div style={{ width: '100%' }}><TextReveal text='TIME TRAVEL TUTORIALS' /></div>
             <Card blogContent={blogContent} />
-            <Comments website-id={websiteId} page-id={'Sharon-Tate-Post'} />
         </div>
     );
 };

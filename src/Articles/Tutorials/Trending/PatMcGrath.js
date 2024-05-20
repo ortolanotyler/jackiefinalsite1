@@ -238,6 +238,8 @@ const PatMcGrathPost = () => {
       </p>
 
       <img src={Signature} alt='Jackie Wyers Signature' style={{ width: '100%' }} />
+      <Comments website-id={websiteId} page-id={'PatMcGrathhy'} />
+
     </div>
   );
 
@@ -250,7 +252,6 @@ const PatMcGrathPost = () => {
           description="Come on Barbie, Let’s get Glam!"
           blogContent={blogContent}
         />
-        <Comments website-id={websiteId} page-id={'PatMcGrathhy'} />
       </div>
     </div>
   );

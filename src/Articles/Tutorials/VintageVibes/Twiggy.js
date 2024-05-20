@@ -196,6 +196,8 @@ const TwiggyBlog = () => {
             <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <img src={signature} alt="Twiggy Hair Tutorial Jackie Wyers" style={imageStyle} />
             </div>
+            <Comments website-id={websiteId} pageId={"Victoria-Secret-Review"} />
+
         </div>
     );
 
@@ -212,7 +214,6 @@ const TwiggyBlog = () => {
                 }}
             />
 
-            <Comments website-id={websiteId} pageId={"Victoria-Secret-Review"} />
         </div>
     );
 };

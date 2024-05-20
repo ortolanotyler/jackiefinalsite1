@@ -3,7 +3,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../../Components/TextReveal';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import './ExampleTutorial.css';
-import SubscribeButton from '../../Components/SubscribeButton';
 import DropCap from '../../Components/DropCap';
 
 const BonBon1A = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBon1A.png`;
@@ -141,6 +140,8 @@ const BonBonReview = () => {
             </p>
             
             <img src={Signature} alt="Signature" style={{ width: '100%' }} />
+            <Comments website-id={websiteId} page-id="BonBon" />
+
         </div>
     );
 
@@ -156,7 +157,6 @@ const BonBonReview = () => {
                     textAlign: 'left'
                 }}
             />
-            <Comments website-id={websiteId} page-id="BonBon" />
         </div>
     );
 };

@@ -185,6 +185,8 @@ const LanaBlog = () => {
           <img src={Lana23} alt="Signature" style={{ width: '100%', display: 'block', margin: '2rem 0' }} />
         </div>
       </div>
+      <Comments website-id={websiteId} pageId={"Lasa-Blog-1aasa"} />
+
     </div>
   );
 
@@ -196,7 +198,6 @@ const LanaBlog = () => {
         description="Come on Barbie, Let’s get Glam!"
         blogContent={blogContent}
       />
-      <Comments website-id={websiteId} pageId={"Lasa-Blog-1aasa"} />
     </div>
   );
 };

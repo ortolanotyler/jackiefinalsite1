@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import './ExampleTutorial.css';
 import TextReveal from '../../Components/TextReveal';
-import SubscribeButton from '../../Components/SubscribeButton';
 import DropCap from '../../Components/DropCap';
 
 const halfeti1 = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/halfetititle.png`;
@@ -132,6 +131,8 @@ const HalfetiReview = () => {
             </p>
             
             <img src={signature} alt="Signature" style={{ width: '100%' }} />
+            <Comments website-id={websiteId} page-id="Halfeti" />
+
         </div>
     );
 
@@ -147,7 +148,6 @@ const HalfetiReview = () => {
                     textAlign: 'left'
                 }}
             />
-            <Comments website-id={websiteId} page-id="Halfeti" />
         </div>
     );
 };
