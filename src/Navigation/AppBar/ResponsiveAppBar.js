@@ -13,6 +13,7 @@ import {
   Typography,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import './ResponsiveAppBar.css'; // Import the CSS file for custom styles
 
 const logo = `${process.env.PUBLIC_URL}/Images/Home/jackielogo.png`;
 
@@ -160,6 +161,7 @@ function ResponsiveAppBar() {
                   key={page.name}
                   component={Link}
                   to={page.path}
+                  className="jiggle-button"
                   sx={{
                     my: 2,
                     color: '#745B4F',
@@ -179,6 +181,7 @@ function ResponsiveAppBar() {
                 aria-controls="tutorials-menu"
                 aria-haspopup="true"
                 onClick={handleOpenTutorialsMenu}
+                className="jiggle-button"
                 sx={{
                   my: 2,
                   color: '#745B4F',
@@ -232,6 +235,7 @@ function ResponsiveAppBar() {
                 aria-controls="shop-menu"
                 aria-haspopup="true"
                 onClick={handleOpenShopMenu}
+                className="jiggle-button"
                 sx={{
                   my: 2,
                   color: '#745B4F',
@@ -289,6 +293,7 @@ function ResponsiveAppBar() {
                         key={page.name}
                         component={Link}
                         to={page.path}
+                        className="jiggle-button"
                         sx={{
                           my: 2,
                           color: '#745B4F',
@@ -316,4 +321,3 @@ function ResponsiveAppBar() {
         }
         
         export default ResponsiveAppBar;
-          
