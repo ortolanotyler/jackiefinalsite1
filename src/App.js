@@ -48,6 +48,9 @@ import PrinceOfWales from './Articles/Travel/PrinceOfWales';
 import ScrollToTop from './Navigation/Footer/ScrollToTop';
 import AnimalPretty from './Articles/Tutorials/Trending/AnimalPretty';
 import PrivacyNotice from './Components/PrivacyNotice';
+import LeftOutfit from './Shop/ShopMyHomeLinks/LeftOutfit';
+import MiddleOutfit from './Shop/ShopMyHomeLinks/MiddleOutfit';
+import RightOutfit from './Shop/ShopMyHomeLinks/RightOutfit';
 
 function App() {
   return (
@@ -105,6 +108,12 @@ function App() {
         {/* Shop */}
         <Route path="/mystyle" element={<MyStyle />} />
         <Route path="/vintagevibesmerch" element={<VintageVibesMerch />} />
+        <Route path="/cpsummer" element={<LeftOutfit />} />
+        <Route path="/sleekspring" element={<MiddleOutfit />} />
+        <Route path="/parisprincess" element={<RightOutfit />} />
+
+
+
 
         {/* Vlog */}
         <Route path="/vlogs" element={<Vlogs />} />

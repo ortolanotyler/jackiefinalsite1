@@ -16,6 +16,7 @@ import RotatingText from '../Navigation/AppBar/RotatingText';
 import Quiz2 from '../Quiz/Quiz2';
 import AboutHero from './AboutHero'; // Import the AboutHero component
 import './AboutHero.css'; // Import the CSS file for jiggle animation
+import ReviewFavorites from './ReviewFavorites';
 
 function HomePage() {
   const linkRef = useRef(null);
@@ -120,28 +121,28 @@ function HomePage() {
           <TextReveal text="🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊" />
           <Quiz2 />
         </Grid>
+
+
         <Grid item xs={12}>
-          <TextReveal text='LATEST TUTORIALS' />
+          <TextReveal text="JACKIE'S WEEKLY FAVS" />
+         <ReviewFavorites/>
         </Grid>
         <Grid item xs={12}>
-          <Slider1 />
-        </Grid>
-        <Grid item xs={12}>
-          <TextReveal text='LATEST REVIEWS' />
+          <TextReveal text='PERFUME PROFILES' />
           <ReviewArticleListHome />
         </Grid>
-        <Grid item xs={12}>
-          <TextReveal text="JACKIE'S MAKEUP BAG" />
-          <ResponsiveIframe src="https://shopmy.us/collections/embed/553108" title="JACKIES MAKEUP BAG" />
-        </Grid>
-        <Grid item xs={12}>
-          <QuoteBanner3 />
-        </Grid>
+  
         <Grid item xs={12}>
           <TextReveal text='SHOP MY STYLE' />
         </Grid>
         <Grid item xs={12}>
           <ShopMyHero />
+        </Grid>
+        <Grid item xs={12}>
+          <TextReveal text='LATEST TUTORIALS' />
+        </Grid>
+        <Grid item xs={12}>
+          <Slider1 />
         </Grid>
         <Grid item xs={12}>
           <BeigeReveal text='BEYOND BEAUTY' />

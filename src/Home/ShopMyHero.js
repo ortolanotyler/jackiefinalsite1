@@ -1,87 +1,142 @@
-import React from 'react';
-import ResponsiveIframe from '../Components/ResponsiveIframe';
-const fashionImage = `${process.env.PUBLIC_URL}/Images/Home/sleek_spring.jpg`;
+import React, { useEffect, useRef, useState } from 'react';
+import { Box, Typography } from '@mui/material';
+import TextReveal from '../Components/TextReveal';
+import ItemSlider from '../Shop/Slider';
+import ThreeSections from '../Shop/ThreeSections';
+import ShopMySlider from './ShopMySlider';
+import './AboutHero.css'; // Import the CSS file for jiggle animation
 
+const ShopMyHero = () => {
+  // Base style for anchor tags
+  const anchorStyle = {
+    color: 'black',
+    textDecoration: 'none',
+    fontFamily: 'GFS Didot, serif',
+    fontSize: '1.25rem', // Default for mobile and small devices
+  };
 
-function ShopMyHero() {
+  // Responsive base style for sections
+  const sectionStyle = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 0,
+    backgroundColor: 'white',
+    fontFamily: 'GFS Didot, serif',
+    padding: '1rem',
+    // Adjust font size for larger screens
+    fontSize: '4rem', // Default for mobile and small devices
+    '@media (min-width: 768px)': {
+      fontSize: '7rem', // Tablets and medium screens
+    },
+    '@media (min-width: 1024px)': {
+      fontSize: '9rem', // Desktops and larger screens
+    },
+  };
+
+  const linkRef = useRef(null);
+  const [isJiggling, setIsJiggling] = useState(false);
+
+  useEffect(() => {
+    const currentLinkRef = linkRef.current;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsJiggling(true);
+          setTimeout(() => {
+            setIsJiggling(false);
+          }, 4000); // Stop jiggling after 4 seconds
+        }
+      },
+      {
+        threshold: 0.1, // Adjust this value as needed
+      }
+    );
+
+    if (currentLinkRef) {
+      observer.observe(currentLinkRef);
+    }
+
+    return () => {
+      if (currentLinkRef) {
+        observer.unobserve(currentLinkRef);
+      }
+    };
+  }, []);
+
   return (
-    <div style={{ display: 'flex', width: '100%', flexDirection: 'row', alignItems: 'stretch', position: 'relative', flexWrap: 'wrap' }}>
-      {/* Image Section with Text Overlay and Link */}
-      <div style={{ flex: '1 1 33%', maxWidth: '100%', position: 'relative' }}>
-        {/* Link wrapping the image */}
-        <a href="/mystyle">
-          <img src={fashionImage} alt="Fashion" style={{ width: '100%', height: '100%' }} />
+    <div style={{ backgroundColor: 'white' }}>
+      <div style={sectionStyle}></div>
+      <ShopMySlider />
+      <ThreeSections
+        section1Content={
+          <div>
+            <a href="https://go.shopmy.us/p-3491370" style={anchorStyle} target="">
+              Top: LPA //
+            </a>
+            <br />
+            <a href="https://go.shopmy.us/p-3491382" style={anchorStyle} target="">
+              Skirt: BY.DYLN //
+            </a>
+            <br />
+            <a href="https://go.shopmy.us/p-3491385" style={anchorStyle} target="_blank" rel="noreferrer">
+              Necklace: ALEX MONROE (similar) //
+            </a>
+            <br />
+            <a href="https://go.shopmy.us/p-3491400" style={anchorStyle} target="_blank" rel="noreferrer">
+              Shoes: ALOHAS //
+            </a>
+          </div>
+        }
+        section2Content={
+          <div>
+            <a href="https://go.shopmy.us/p-3492711" style={anchorStyle} target="">
+              Bathing Suit: Revolve (similar) //
+            </a>
+          </div>
+        }
+        section3Content={
+          <div>
+            <a href="https://go.shopmy.us/p-3492388" style={anchorStyle} target="">
+              Top: V. Chapman Studio // Majorelle (similar) //
+            </a>
+            <br />
+            <a href="https://go.shopmy.us/p-3492414" style={anchorStyle} target="_blank" rel="noreferrer">
+              Pants: FAVORITE DAUGHTER //
+            </a>
+            <br />
+            <a href="https://go.shopmy.us/p-3492437" style={anchorStyle} target="_blank" rel="noreferrer">
+              Heels: Steve Madden //
+            </a>
+            <br />
+            <a href="https://go.shopmy.us/p-3492555" style={anchorStyle} target="_blank" rel="noreferrer">
+              Purse: CHANEL //
+            </a>
+          </div>
+        }
+      />
+      <Box sx={{ textAlign: 'right', mt: 2, mr: 5 }}>
+        <a
+          href="/shopmystyle"
+          ref={linkRef}
+          className={isJiggling ? 'jiggle' : ''}
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            fontFamily: 'GFS Didot, serif',
+            color: 'black',
+            textDecoration: 'none',
+          }}
+        >
+          <Typography variant="body1" sx={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', color: 'black', marginTop: '2.5rem', marginBottom: '4rem' }}>
+            SHOP MY STYLE
+          </Typography>
+          <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
         </a>
-        <h1 style={{
-          position: 'absolute',
-          top: 0,
-          width: '100%',
-          color: 'white',
-          textAlign: 'center',
-          fontFamily: "'Arapey', serif",
-          fontStyle: 'italic', // Arapey is mostly used in italic style
-          margin: 0,
-          padding: '0.5rem 0', // Adds space top and bottom
-          fontSize: '7vw' // Responsive font size based on viewport width
-        }}>
-          SHOP
-        </h1>
-        <h1 style={{
-          position: 'absolute',
-          bottom: 0,
-          width: '100%',
-          color: 'white',
-          textAlign: 'center',
-          fontFamily: "'Arapey', serif",
-          fontStyle: 'italic',
-          margin: 0,
-          padding: '0.5rem 0', // Adds space top and bottom
-          fontSize: '7vw' // Responsive font size based on viewport width
-        }}>
-          STYLE
-        </h1>
-      </div>
-      <div style={{ flex: '1 1 67%', maxWidth: '67%', marginBottom: '0', paddingTop: '10rem' }}>
-
-        {/* New iframe for "Sleek Spring" */}
-      <ResponsiveIframe
-        title="ShopMy Spring Collection"
-        src="https://shopmy.us/collections/embed/379944?noheader=true"
-        style={{ width: '100%', height: '100%' }}
-/>
-      </div>
- 
-      {/* Inline styles for responsiveness */}
-      <style>
-        {`
-          @media (max-width: 768px) {
-            .ShopMyHero div {
-              flex-basis: 100%;
-              max-width: 100%;
-            }
-            .ShopMyHero h1 {
-              font-size: 7vw;
-            }
-            .ShopMyHero iframe {
-              height: 300px; // Adjust iframe height on medium screens
-            }
-          }
-
-          @media (max-width: 480px) {
-            .ShopMyHero div {
-              padding-top: 5rem; // Reduce padding for small screens
-            }
-            .ShopMyHero h1 {
-              font-size: 9vw;
-            }
-            .ShopMyHero iframe {
-              height: 200px; // Adjust iframe height on small screens
-            }
-          }
-        `}
-      </style>
+      </Box>
     </div>
   );
-}
+};
 
 export default ShopMyHero;
