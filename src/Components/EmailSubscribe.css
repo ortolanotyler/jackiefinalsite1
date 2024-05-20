@@ -1,0 +1,10 @@
+@keyframes jiggle {
+    0%, 100% { transform: rotate(-3deg); }
+    50% { transform: rotate(3deg); }
+  }
+  
+  .jiggle {
+    animation: jiggle 0.3s ease-in-out;
+    animation-iteration-count: 3;
+  }
+  

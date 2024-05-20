@@ -1,7 +1,8 @@
-import React from 'react';
-import { Formik,  Field } from 'formik';
+import React, { useEffect, useRef } from 'react';
+import { Formik, Field } from 'formik';
 import * as Yup from 'yup';
-import { Grid, Button, Typography, Box } from '@mui/material';
+import { Grid, Button, Box } from '@mui/material';
+import './EmailSubscribe.css'; // Import CSS file for styling
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Home/EmailSub.jpeg`;
 
@@ -11,6 +12,26 @@ const SignupSchema = Yup.object().shape({
 });
 
 export default function EmailSubscribe() {
+  const buttonRef = useRef(null);
+  const hasJiggled = useRef(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!buttonRef.current || hasJiggled.current) return;
+      const rect = buttonRef.current.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom >= 0) {
+        buttonRef.current.classList.add('jiggle');
+        hasJiggled.current = true;
+        setTimeout(() => {
+          buttonRef.current.classList.remove('jiggle');
+        }, 900); // 3 iterations of 0.3s each
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <Formik
       initialValues={{ email: '' }}
@@ -40,12 +61,9 @@ export default function EmailSubscribe() {
     >
       {({ submitForm, isSubmitting, touched, errors }) => (
         <Box display="flex" justifyContent="center" alignItems="center" width="100%" padding="2rem" mt={8}>
-          
           <Grid container spacing={3} alignItems="center" justifyContent="center" sx={{ maxWidth: '1000px', width: '100%' }}>
             <Grid item xs={12}>
-            <img src={image1} alt="Email Subscribe" style={{ width: '100%' }} />
-
-              
+              <img src={image1} alt="Email Subscribe" style={{ width: '100%' }} />
             </Grid>
             <Grid item xs={6}>
               <Field
@@ -68,6 +86,7 @@ export default function EmailSubscribe() {
             </Grid>
             <Grid item xs={6}>
               <Button
+                ref={buttonRef}
                 type="submit"
                 variant="contained"
                 disabled={isSubmitting}
@@ -78,7 +97,6 @@ export default function EmailSubscribe() {
                   borderRadius: '5px',
                   width: '100%',
                   fontFamily: 'GFS Didot, serif',
-                
                   padding: '0.5rem',
                   '&:hover': {
                     backgroundColor: '#fdedef',

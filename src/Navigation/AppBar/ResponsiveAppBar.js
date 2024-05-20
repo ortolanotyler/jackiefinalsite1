@@ -44,7 +44,7 @@ const tutorialOptions = [
 ];
 
 function ResponsiveAppBar() {
-  const isCollapsed = useMediaQuery('(max-width: 1200px)');
+  const isCollapsed = useMediaQuery('(max-width: 1300px)');
   const [anchorElNav, setAnchorElNav] = useState(null);
   const [anchorElShop, setAnchorElShop] = useState(null);
   const [anchorElTutorials, setAnchorElTutorials] = useState(null);
@@ -288,6 +288,27 @@ function ResponsiveAppBar() {
                 </Box>
               )}     {!isCollapsed && (
                   <Box sx={{ display: 'flex', flexGrow: 0, alignItems: 'center' }}>
+                    <Button
+               
+                      component={Link}
+                      to="/subscribe" // Replace with your subscription link
+                      sx={{
+                        backgroundColor: 'black',
+                        color: 'white',
+                        borderRadius: '5px',
+                        width: '50%',
+                        fontFamily: 'GFS Didot, serif',
+                        padding: '0.25rem', // Half the padding of the original button
+                        fontSize: '1rem', // Smaller font size
+                        '&:hover': {
+                          backgroundColor: '#fdedef',
+                          color: '#745B4F',
+                        },
+                        marginRight: '1rem', // Add some margin to the right
+                      }}
+                    >
+                      Subscribe
+                    </Button>
                     {secondaryPages.map((page) => (
                       <Button
                         key={page.name}
