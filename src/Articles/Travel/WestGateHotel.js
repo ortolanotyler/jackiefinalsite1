@@ -96,7 +96,7 @@ const WestGateHotelBlog = () => {
 
 <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/C5wSgl9swC9/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by The Westgate Hotel (@westgatehotel)</a></p></div>` }} />
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
-                <BookNowButton href="https://plannin.com/en/hotel/ce895da3-45d5-4bd0-a8cf-fdc1425d0a44?refId=jackiewyers" />
+                <BookNowButton href="https://plannin.com/en/hotel/ce895da3-45d5-4bd0-a8cf-fdc1425d0a44?refId=jackiewyers" target="_blank" rel="noopener noreferrer"/>
             </div>
             <h2 style={headingStyle}>🍾 Westgate's Whistledown Tea and Package: An Overview</h2>
             <p style={paragraphStyle}>
@@ -171,7 +171,7 @@ const WestGateHotelBlog = () => {
                 Thank you for joining me on this luxurious journey back in time at the Westgate Hotel. Tyler and I had an unforgettable experience, and we can't wait to share more of our adventures with you. For more travel tips and lifestyle content, stay tuned to my blog and YouTube channel!
             </p>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
-                <BookNowButton href="https://plannin.com/en/hotel/ce895da3-45d5-4bd0-a8cf-fdc1425d0a44?refId=jackiewyers" />
+                <BookNowButton href="https://plannin.com/en/hotel/ce895da3-45d5-4bd0-a8cf-fdc1425d0a44?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
             </div>
             <img src={signature} alt="Québécoise Pizza" style={{ width: '100%' }} />
             <Comments

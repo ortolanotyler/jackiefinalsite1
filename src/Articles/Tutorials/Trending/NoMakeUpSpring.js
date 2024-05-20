@@ -48,7 +48,6 @@ const NoMakeUpSpring = () => {
 
   const paragraphStyle = {
     fontSize: '1.5rem', fontFamily: 'GFS Didot, serif',  marginTop: '1px',margin: '2rem', maxWidth: '100%',padding: '1rem',
-
   }
 
   const blogContent = (
@@ -274,7 +273,8 @@ style with confidence.      </p>
   
       <img src={signature} alt="Victoria's Secret Fashion Show 2013" style={{ width: '100%' }} />
 
-  
+      <Comments website-id={websiteId} pageId={"No-Makeup-Spring"} />
+
     </div>
   );
 
@@ -292,7 +292,6 @@ style with confidence.      </p>
         }}
       />
          
-      <Comments website-id={websiteId} pageId={"No-Makeup-Spring"} />
     </div>
   );
 };

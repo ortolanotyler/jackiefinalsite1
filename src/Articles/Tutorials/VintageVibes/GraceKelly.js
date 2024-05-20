@@ -250,6 +250,8 @@ const GraceKelly = () => {
             </p>
 
             <img src={signature} alt="Signature" style={{ width: '100%' }} />
+            <Comments website-id={websiteId} pageId={"Grace-Kelly"} />
+
         </div>
     );
 
@@ -265,7 +267,6 @@ const GraceKelly = () => {
                     textAlign: 'left'
                 }}
             />
-            <Comments website-id={websiteId} pageId={"Grace-Kelly"} />
         </div>
     );
 };

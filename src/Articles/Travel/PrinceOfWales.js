@@ -122,7 +122,7 @@ const PrinceOfWales = () => {
             </p>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
 
-            <BookNowButton href="https://plannin.com/en/hotel/7e8b8619-6256-4481-97c4-048f694b67c4?refId=jackiewyers" />
+            <BookNowButton href="https://plannin.com/en/hotel/7e8b8619-6256-4481-97c4-048f694b67c4?refId=jackiewyers" target="_blank" rel="noopener noreferrer"/>
             </div>
             <div style={gridStyle}>
                 <img src={images[0].src} alt={images[0].alt} style={imageStyle} />
@@ -214,7 +214,7 @@ const PrinceOfWales = () => {
 
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
 
-            <BookNowButton href="https://plannin.com/en/hotel/7e8b8619-6256-4481-97c4-048f694b67c4?refId=jackiewyers" />
+            <BookNowButton href="https://plannin.com/en/hotel/7e8b8619-6256-4481-97c4-048f694b67c4?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
 
 </div>
 

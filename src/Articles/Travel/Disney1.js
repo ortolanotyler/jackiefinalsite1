@@ -111,7 +111,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
 
-            <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers" />
+            <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers"target="_blank" rel="noopener noreferrer"  />
 </div>
             <p style={paragraphStyle}>
                 When browsing the various resorts, the Beach Club’s design caught my eye. While I'm all for a fun and goofy Disney experience, I wanted to stay somewhere elegant as an adult. The light blue building, adorned with beautiful Victorian trim, the gardens with pops of bright pink flowers, and a view of the boardwalk offered something truly magical to wake up to.
@@ -214,7 +214,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
                 Note about accessibility: Disney's Beach Club Resort is fully accessible to guests with disabilities, offering features like accessible rooms with widened doors and roll-in showers, visual alarm devices for hearing disabilities, wheelchair-accessible pathways, and service animal accommodations. Complimentary Disney transportation is equipped to accommodate guests with disabilities, and the resort provides lifts for pool access, ensuring a comfortable and enjoyable stay for everyone. This is another wonderful quality about Disney World, it really has everyone in mind to enjoy the magic!
             </p>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
-                <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers" />
+                <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
             </div>
             <img src={signature} alt='Signature' style={{ width: '100%' }} />
 

@@ -46,11 +46,11 @@ const MontTremblantBlog = () => {
     };
 
     const paragraphStyle = {
-        fontSize: '1.5rem', fontFamily: 'GFS Didot, serif',  margin: '5rem', maxWidth: '100%', color: 'black'
+        fontSize: '1.5rem', fontFamily: 'GFS Didot, serif',  margin: '2.5rem', maxWidth: '100%', color: 'black'
       }
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.25em', maxWidth: '100vw', justifyContent: 'center', margin : '20em'}}>
+        <div className="container" style={{ lineHeight: '2.25em', maxWidth: '100vw', justifyContent: 'center', margin : '20rem'}}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                 TRAVEL // CANADA // QUEBÉC

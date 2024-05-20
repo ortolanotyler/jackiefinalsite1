@@ -101,9 +101,9 @@ const AndazMauiReview = () => {
                 Upon our arrival at the Andaz Maui, the breathtaking views of Wailea’s shores captivated us instantly. The resort's open, airy design with its lush landscapes and modern touches perfectly blends luxury with the natural beauty of Maui. Every corner of the resort promised a photo opportunity, with its infinity pools merging into the ocean horizon.
             </p>
             <img src={images[0]} alt="Maui view 1" style={imageStyle} />
-
+            
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
-                <BookNowButton href="https://www.hyatt.com/en-US/hotel/hawaii/andaz-maui-at-wailea-resort/oggaw" />
+                <BookNowButton href="https://plannin.com/en/hotel/f7ed1125-3205-4916-881e-e865acca3608?refId=jackiewyers" target="_blank" rel="noopener noreferrer"/>
             </div>
 
             <h2 style={headingStyle}>🏨 Room and Comfort: Living the Suite Life</h2>
@@ -232,7 +232,7 @@ const AndazMauiReview = () => {
             <img src={images[24]} alt="Maui view 8" style={imageStyle} />
 
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
-                <BookNowButton href="https://plannin.com/en/hotel/f7ed1125-3205-4916-881e-e865acca3608?refId=jackiewyers" />
+                <BookNowButton href="https://plannin.com/en/hotel/f7ed1125-3205-4916-881e-e865acca3608?refId=jackiewyers" target="_blank" rel="noopener noreferrer"/>
             </div>
 
             <img src={signature} alt="Signature" style={{ width: '100%' }} />
