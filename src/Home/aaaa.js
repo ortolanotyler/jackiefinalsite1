@@ -11,30 +11,27 @@ const grace = `${process.env.PUBLIC_URL}/Images/Home/GraceKellyJackieWyers.jpg`;
 const twiggy = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyMODThumbnail.jpeg`;
 
 const cardsData = [
-
-  { link: "/animalpretty", image: image2, alt: "Which animal kind of pretty are you? ", title: "Animal Pretty - HBU?" },
-
-  { link: "/nomakeupspring", image: nomakeup, alt: "No Makeup-Makeup Look for Spring  ", title: "No-Makeup Spring 🌸" },
+  { link: "/animalpretty", image: image2, alt: "Which animal kind of pretty are you?", title: "Animal Pretty - HBU?" },
+  { link: "/nomakeupspring", image: nomakeup, alt: "No Makeup-Makeup Look for Spring", title: "No-Makeup Spring 🌸" },
   { link: "/gracekelly", image: grace, alt: "Grace Kelly inspired makeup tutorial", title: "Grace's Hollywood Glam" },
-    { link: "/victoriasecret", image: image8, alt: "Victoria's Secret fashion show 2014 vibes", title: "Victoria's Secret" },
-    { link: "/lanablog", image: image6, alt: "SKIMS collaboration with Lana for Valentine's Day makeup", title: "SKIMS X Lana" },
-    { link: "/yardley1965", image: shrimpton, alt: "latte-inspired fall makeup look", title: "Jean Shrimpton" },
-
+  { link: "/victoriasecret", image: image8, alt: "Victoria's Secret fashion show 2014 vibes", title: "Victoria's Secret" },
+  { link: "/lanablog", image: image6, alt: "SKIMS collaboration with Lana for Valentine's Day makeup", title: "SKIMS X Lana" },
+  { link: "/yardley1965", image: shrimpton, alt: "latte-inspired fall makeup look", title: "Jean Shrimpton" },
 ];
 
-const Card = ({ link, image, alt, title, description }) => {
+const Card = ({ link, image, alt, title }) => {
   return (
     <li className={styles.card}>
-      <div className={styles.cardImage}>
-        <img src={image} alt={alt} className={styles.cardImageImg} />
-        <div className={styles.cardDescription}>
-          <a href={link} className={styles.cardDescriptionLink}>
+      <a href={link} className={styles.cardDescriptionLink}>
+        <div className={styles.cardImage}>
+          <img src={image} alt={alt} className={styles.cardImageImg} />
+          <div className={styles.cardDescription}>
             <h2 className={styles.cardDescriptionH2}>{title}</h2>
-            <p className={styles.cardDescriptionP}>{description}</p>
-            <a href={link} className={styles.readHereBtn}>Read Here</a>
-          </a>
+            <p className={styles.cardDescriptionP}></p>
+            <div className={styles.readHereBtn}>Read Here</div>
+          </div>
         </div>
-      </div>
+      </a>
     </li>
   );
 };
@@ -50,7 +47,6 @@ const Slider1 = () => {
             image={card.image}
             alt={card.alt}
             title={card.title}
-            description={card.description}
           />
         ))}
       </ul>

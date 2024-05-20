@@ -58,7 +58,7 @@ export default function QuiltedImageList1() {
       sx={{ width: '100%', height: '70vh', marginTop: '0px', boxShadow: '0 0 0 2px rgba(0, 0, 0, 0.5}' }}
       variant="quilted"
       cols={4}
-      rowHeight={'95%'}
+   
       
     >
       {itemData.map((item, index) => (

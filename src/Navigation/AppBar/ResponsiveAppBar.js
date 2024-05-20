@@ -156,27 +156,44 @@ function ResponsiveAppBar() {
             </div>
           ) : (
             <Box sx={{ display: 'flex', flexGrow: 1, alignItems: 'center' }}>
-              {pages.map((page) => (
-                <Button
-                  key={page.name}
-                  component={Link}
-                  to={page.path}
-                  className="jiggle-button"
-                  sx={{
-                    my: 2,
-                    color: '#745B4F',
-                    display: 'block',
-                    fontSize: '1rem',
-                    fontFamily: 'GFS Didot, sans-serif',
-                    mx: 2,
-                    '&:hover': {
-                      backgroundColor: 'transparent'
-                    }
-                  }}
-                >
-                  {page.name}
-                </Button>
-              ))}
+              <Button
+                key="Home"
+                component={Link}
+                to="/"
+                className="jiggle-button"
+                sx={{
+                  my: 2,
+                  color: '#745B4F',
+                  display: 'block',
+                  fontSize: '1rem',
+                  fontFamily: 'GFS Didot, sans-serif',
+                  mx: 2,
+                  '&:hover': {
+                    backgroundColor: 'transparent'
+                  }
+                }}
+              >
+                Home
+              </Button>
+              <Button
+                key="About"
+                component={Link}
+                to="/about"
+                className="jiggle-button"
+                sx={{
+                  my: 2,
+                  color: '#745B4F',
+                  display: 'block',
+                  fontSize: '1rem',
+                  fontFamily: 'GFS Didot, sans-serif',
+                  mx: 2,
+                  '&:hover': {
+                    backgroundColor: 'transparent'
+                  }
+                }}
+              >
+                About
+              </Button>
               <Button
                 aria-controls="tutorials-menu"
                 aria-haspopup="true"
@@ -232,6 +249,44 @@ function ResponsiveAppBar() {
                 ))}
               </Menu>
               <Button
+                key="Quiz"
+                component={Link}
+                to="/quiz"
+                className="jiggle-button"
+                sx={{
+                  my: 2,
+                  color: '#745B4F',
+                  display: 'block',
+                  fontSize: '1rem',
+                  fontFamily: 'GFS Didot, sans-serif',
+                  mx: 2,
+                  '&:hover': {
+                    backgroundColor: 'transparent'
+                  }
+                }}
+              >
+                Quiz
+              </Button>
+              <Button
+                key="Reviews"
+                component={Link}
+                to="/reviews"
+                className="jiggle-button"
+                sx={{
+                  my: 2,
+                  color: '#745B4F',
+                  display: 'block',
+                  fontSize: '1rem',
+                  fontFamily: 'GFS Didot, sans-serif',
+                  mx: 2,
+                  '&:hover': {
+                    backgroundColor: 'transparent'
+                  }
+                }}
+              >
+                Reviews
+              </Button>
+              <Button
                 aria-controls="shop-menu"
                 aria-haspopup="true"
                 onClick={handleOpenShopMenu}
@@ -248,97 +303,94 @@ function ResponsiveAppBar() {
                   }
                 }}
               >
-                Shop
+                Style
               </Button>
               <Menu
                 id="shop-menu"
                 anchorEl={anchorElShop}
                 anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'right',
+                  vertical: 'bottom',
+                  horizontal: 'right',
                 }}
                 transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
+                  vertical: 'top',
+                  horizontal: 'right',
                 }}
                 open={Boolean(anchorElShop)}
                 onClose={handleCloseShopMenu}
                 sx={{
-                '.MuiPaper-root': {
-                bgcolor: 'white',
-                color: '#745B4F',
-                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                borderRadius: '8px',
-                },
-                '.MuiMenuItem-root': {
-                fontFamily: 'GFS Didot, sans-serif',
-                fontSize: '1rem',
-                '&:hover': {
-                bgcolor: 'transparent',
-                },
-                },
+                  '.MuiPaper-root': {
+                    bgcolor: 'white',
+                    color: '#745B4F',
+                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+                    borderRadius: '8px',
+                  },
+                  '.MuiMenuItem-root': {
+                    fontFamily: 'GFS Didot, sans-serif',
+                    fontSize: '1rem',
+                    '&:hover': {
+                      bgcolor: 'transparent',
+                    },
+                  },
                 }}
-                >
+              >
                 {shopOptions.map((option) => (
-                <MenuItem key={option.name} onClick={handleCloseShopMenu} component={Link} to={option.path} sx={{ '&:hover': { bgcolor: 'transparent' } }}>
-                {option.name}
-                </MenuItem>
+                  <MenuItem key={option.name} onClick={handleCloseShopMenu} component={Link} to={option.path} sx={{ '&:hover': { bgcolor: 'transparent' } }}>
+                    {option.name}
+                  </MenuItem>
                 ))}
-                </Menu>
-                </Box>
-              )}     {!isCollapsed && (
-                  <Box sx={{ display: 'flex', flexGrow: 0, alignItems: 'center' }}>
-                    <Button
-               
-                      component={Link}
-                      to="/subscribe" // Replace with your subscription link
-                      sx={{
-                        backgroundColor: 'black',
-                        color: 'white',
-                        borderRadius: '5px',
-                        width: '50%',
-                        fontFamily: 'GFS Didot, serif',
-                        padding: '0.25rem', // Half the padding of the original button
-                        fontSize: '1rem', // Smaller font size
-                        '&:hover': {
-                          backgroundColor: '#fdedef',
-                          color: '#745B4F',
-                        },
-                        marginRight: '1rem', // Add some margin to the right
-                      }}
-                    >
-                      Subscribe
-                    </Button>
-                    {secondaryPages.map((page) => (
-                      <Button
-                        key={page.name}
-                        component={Link}
-                        to={page.path}
-                        className="jiggle-button"
-                        sx={{
-                          my: 2,
-                          color: '#745B4F',
-                          display: 'block',
-                          fontSize: '1rem',
-                          fontFamily: 'GFS Didot, sans-serif',
-                          mx: 2,
-                          '&:hover': {
-                            backgroundColor: 'transparent'
-                          }
-                        }}
-                      >
-                        {page.name}
-                      </Button>
-                    ))}
-                  </Box>
-                )}
-              </Toolbar>
+              </Menu>
+            </Box>
+          )}
+          {!isCollapsed && (
+            <Box sx={{ display: 'flex', flexGrow: 0, alignItems: 'center' }}>
+              <Button
+                component={Link}
+                to="/subscribe" // Replace with your subscription link
+                sx={{
+                  backgroundColor: 'black',
+                  color: 'white',
+                  borderRadius: '5px',
+                  width: '75%', // Adjust the width to make the button wider
+                  fontFamily: 'GFS Didot, serif',
+                  padding: '0.25rem', // Half the padding of the original button
+                  fontSize: '1rem', // Adjust the font size if necessary
+                  '&:hover': {
+                    backgroundColor: '#fdedef',
+                    color: '#745B4F',
+                  },
+                  marginRight: '1rem', // Add some margin to the right
+                }}
+              >
+                Subscribe
+              </Button>
+              {secondaryPages.map((page) => (
+                <Button
+                  key={page.name}
+                  component={Link}
+                  to={page.path}
+                  className="jiggle-button"
+                  sx={{
+                    my: 2,
+                    color: '#745B4F',
+                    display: 'block',
+                    fontSize: '1rem',
+                    fontFamily: 'GFS Didot, sans-serif',
+                    mx: 2,
+                    '&:hover': {
+                      backgroundColor: 'transparent'
+                    }
+                  }}
+                >
+                  {page.name}
+                </Button>
+              ))}
+            </Box>
+          )}
+        </Toolbar>
+      </Container>
+    </AppBar>
+  );
+}
 
-            </Container>
-
-          </AppBar>
-
-          );
-        }
-        
-        export default ResponsiveAppBar;
+export default ResponsiveAppBar;

@@ -10,13 +10,13 @@ const QuizHomepage = () => {
         <div>
  
             <div>
-            <TextReveal text='QUIZ QUEEN' />
+       
             
+                
+                    <TextReveal text='WHAT KIND OF PRETTY ARE YOU?' />
                     <Paper elevation={3} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot', padding: '1rem' }}>
                     <RotatingText />
                     </Paper>
-                    <TextReveal text='WHAT KIND OF PRETTY ARE YOU?' />
-                
                 <Grid item xs={12}>
    
         </Grid>

@@ -47,6 +47,7 @@ import AndazMauiReview from './Articles/Travel/AndazMaui';
 import PrinceOfWales from './Articles/Travel/PrinceOfWales';
 import ScrollToTop from './Navigation/Footer/ScrollToTop';
 import AnimalPretty from './Articles/Tutorials/Trending/AnimalPretty';
+import PrivacyNotice from './Components/PrivacyNotice';
 
 function App() {
   return (
@@ -89,6 +90,7 @@ function App() {
         <Route path="/princeofwales" element={<PrinceOfWales />} />
         <Route path="/animalpretty" element={<AnimalPretty />} />
 
+
         {/* Review */}
         <Route path="/ulikereview" element={<UlikeReview />} />
         <Route path="/halfetireview" element={<HalfetiReview />} />
@@ -112,8 +114,9 @@ function App() {
 
         {/* Footer */}
         <Route path="/sitemap" element={<Sitemap />} />
-        <Route path="/emailsubscribe" element={<EmailSubscribe />} />
+        <Route path="/subscribe" element={<EmailSubscribe />} />
         <Route path="/mediakit" element={<MediaKit />} />
+        <Route path="/privacy" element={<PrivacyNotice/>} />
 
         {/* 404 Route */}
         <Route path="*" element={<h1>404 Not Found</h1>} />

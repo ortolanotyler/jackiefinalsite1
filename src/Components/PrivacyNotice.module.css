@@ -1,0 +1,47 @@
+.body {
+    font-family: 'GFS Didot', serif;
+    background-color: #fdfdfd;
+    color: #745B4F;
+    line-height: 1.6;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+@media (min-width: 768px) {
+    .body {
+        margin: 4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .body {
+        margin: 6rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .body {
+        margin: 10rem;
+    }
+}
+
+.heading {
+    color: #222;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.mainHeading {
+    font-size: 2.5em;
+    margin-bottom: 0.75em;
+}
+
+.subHeading {
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.paragraph {
+    margin-bottom: 1em;
+}

@@ -1,19 +1,23 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Formik, Field } from 'formik';
 import * as Yup from 'yup';
-import { Grid, Button, Box } from '@mui/material';
+import { Grid, Button, Box, FormControlLabel, Checkbox, Typography } from '@mui/material';
+import ReCAPTCHA from 'react-google-recaptcha';
 import './EmailSubscribe.css'; // Import CSS file for styling
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Home/EmailSub.jpeg`;
+const RECAPTCHA_SITE_KEY = 'YOUR_RECAPTCHA_SITE_KEY'; // Replace with your reCAPTCHA site key
 
 // Define a validation schema using Yup
 const SignupSchema = Yup.object().shape({
   email: Yup.string().email('Invalid email').required('Email is required'),
+  consent: Yup.boolean().oneOf([true], 'Consent is required'),
 });
 
 export default function EmailSubscribe() {
   const buttonRef = useRef(null);
   const hasJiggled = useRef(false);
+  const [recaptchaValue, setRecaptchaValue] = useState(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,23 +36,34 @@ export default function EmailSubscribe() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleRecaptchaChange = (value) => {
+    setRecaptchaValue(value);
+  };
+
   return (
     <Formik
-      initialValues={{ email: '' }}
+      initialValues={{ email: '', consent: false }}
       validationSchema={SignupSchema}
       onSubmit={async (values, { setSubmitting, resetForm }) => {
+        if (!recaptchaValue) {
+          alert('Please complete the reCAPTCHA');
+          setSubmitting(false);
+          return;
+        }
+
         try {
           const response = await fetch('http://localhost:3001/submit-email', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ email: values.email }),
+            body: JSON.stringify({ email: values.email, recaptcha: recaptchaValue }),
           });
 
           if (response.ok) {
             alert('Email subscribed successfully!');
             resetForm();
+            setRecaptchaValue(null); // Reset reCAPTCHA
           } else {
             alert('Failed to subscribe email.');
           }
@@ -59,7 +74,7 @@ export default function EmailSubscribe() {
         setSubmitting(false);
       }}
     >
-      {({ submitForm, isSubmitting, touched, errors }) => (
+      {({ submitForm, isSubmitting, touched, errors, values, handleChange }) => (
         <Box display="flex" justifyContent="center" alignItems="center" width="100%" padding="2rem" mt={8}>
           <Grid container spacing={3} alignItems="center" justifyContent="center" sx={{ maxWidth: '1000px', width: '100%' }}>
             <Grid item xs={12}>
@@ -92,21 +107,47 @@ export default function EmailSubscribe() {
                 disabled={isSubmitting}
                 onClick={submitForm}
                 sx={{
-                  backgroundColor: 'black',
-                  color: 'white',
+                  backgroundColor: values.consent ? '#fdedef' : 'black',
+                  color: values.consent ? '#745B4F' : 'white',
                   borderRadius: '5px',
                   width: '100%',
                   fontFamily: 'GFS Didot, serif',
                   padding: '0.5rem',
                   '&:hover': {
-                    backgroundColor: '#fdedef',
-                    color: '#745B4F',
+                    backgroundColor: values.consent ? '#fdedef' : '#333',
+                    color: values.consent ? '#745B4F' : 'white',
                   },
                 }}
               >
                 Subscribe
               </Button>
             </Grid>
+            <Grid item xs={12}>
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    name="consent"
+                    checked={values.consent}
+                    onChange={handleChange}
+                    color="primary"
+                  />
+                }
+                label={
+                  <Typography variant="body2" style={{ fontFamily: 'GFS Didot, serif', color: '#745B4F' }}>
+                    I have read the <a href="/privacy-policy" target="_blank" style={{ color: '#745B4F', textDecoration: 'underline' }}>Privacy Policy</a> and give consent to be a part of the newsletter. I understand that I can unsubscribe at any time via email.
+                  </Typography>
+                }
+              />
+              {touched.consent && errors.consent && <div style={{ color: '#745B4F', fontSize: '16px', marginTop: '0.5rem' }}>{errors.consent}</div>}
+            </Grid>
+            {values.consent && (
+              <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center', marginTop: '1rem' }}>
+                <ReCAPTCHA
+                  sitekey={RECAPTCHA_SITE_KEY}
+                  onChange={handleRecaptchaChange}
+                />
+              </Grid>
+            )}
           </Grid>
         </Box>
       )}
