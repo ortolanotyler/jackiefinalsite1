@@ -1,7 +1,9 @@
 import React from 'react';
-import { Formik, Form, Field } from 'formik';
+import { Formik,  Field } from 'formik';
 import * as Yup from 'yup';
 import { Grid, Button, Typography, Box } from '@mui/material';
+
+const image1 = `${process.env.PUBLIC_URL}/Images/Home/EmailSub.jpeg`;
 
 // Define a validation schema using Yup
 const SignupSchema = Yup.object().shape({
@@ -37,32 +39,24 @@ export default function EmailSubscribe() {
       }}
     >
       {({ submitForm, isSubmitting, touched, errors }) => (
-        <Box display="flex" justifyContent="center" alignItems="center" width="100%" padding="2rem" mt={6}>
-          <Grid container spacing={3} alignItems="center" justifyContent="center" sx={{ maxWidth: '600px', width: '100%' }}>
+        <Box display="flex" justifyContent="center" alignItems="center" width="100%" padding="2rem" mt={8}>
+          
+          <Grid container spacing={3} alignItems="center" justifyContent="center" sx={{ maxWidth: '1000px', width: '100%' }}>
             <Grid item xs={12}>
-              <Typography
-                variant="subtitle1"
-                sx={{
-                  fontSize: { xs: '36px', md: '26px' },
-                  fontFamily: 'GFS Didot, serif',
-                  textAlign: 'center',
-                  color: '#745B4F',
-                  
-                }}
-              >
-                Join to access the newsletter & exclusive content!
-              </Typography>
+            <img src={image1} alt="Email Subscribe" style={{ width: '100%' }} />
+
+              
             </Grid>
-            <Grid item xs={8}>
+            <Grid item xs={6}>
               <Field
                 name="email"
                 type="email"
                 placeholder="Enter your email"
                 style={{
-                  borderRadius: '10px',
+                  borderRadius: '5px',
                   width: '100%',
                   boxSizing: 'border-box',
-                  border: '2px solid transparent',
+                  border: '1px solid black',
                   padding: '0.5rem',
                   fontFamily: 'GFS Didot, serif',
                   fontSize: '12px',
@@ -72,22 +66,23 @@ export default function EmailSubscribe() {
               />
               {touched.email && errors.email && <div style={{ color: '#745B4F', fontSize: '16px', marginTop: '0.5rem' }}>{errors.email}</div>}
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={6}>
               <Button
                 type="submit"
                 variant="contained"
                 disabled={isSubmitting}
                 onClick={submitForm}
                 sx={{
-                  backgroundColor: '#FDEDEF',
-                  color: '#745B4F',
-                  borderRadius: '10px',
+                  backgroundColor: 'black',
+                  color: 'white',
+                  borderRadius: '5px',
                   width: '100%',
                   fontFamily: 'GFS Didot, serif',
                 
                   padding: '0.5rem',
                   '&:hover': {
-                    backgroundColor: '#fcd9e3',
+                    backgroundColor: '#fdedef',
+                    color: '#745B4F',
                   },
                 }}
               >

@@ -95,3 +95,26 @@
     padding: 0.5rem 1rem;
   }
 }
+
+@media (max-width: 480px) {
+  .article-card-review {
+    padding: 0.5rem;
+  }
+
+  .article-image-wrapper-review {
+    max-block-size: 150px;
+  }
+
+  .article-date {
+    font-size: 0.75rem;
+  }
+
+  .article-title {
+    font-size: 1rem;
+  }
+
+  .read-more {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
+}
