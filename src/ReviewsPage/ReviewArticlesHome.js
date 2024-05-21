@@ -21,7 +21,7 @@ const ReviewHomePage = () => {
                 marginBottom: '2rem',
             }}
             > 
-            <TextReveal text="Fragrances" style={{ backgroundColor: 'white' }} fontFamily="Italianno, cursive" />
+            <TextReveal text="Perfume Profiles" style={{ backgroundColor: 'white' }} fontFamily="Italianno, cursive" />
 
             </div>
             <div>
@@ -33,10 +33,10 @@ const ReviewHomePage = () => {
                 marginBottom: '2rem',
             }}
             > 
-            <TextReveal text="Products" style={{ backgroundColor: 'white' }} fontFamily="Italianno, cursive" />
+            <TextReveal text="Product Reviews" style={{ backgroundColor: 'white' }} fontFamily="Italianno, cursive" />
             </div>
             <ProductReviewArticleList/>
-            <TextReveal text="DRUG STORE FAVS" />
+            <TextReveal text="JACKIE'S QUICK PICKS" />
             <ResponsiveIframe
                 src="https://shopmy.us/collections/embed/91810?noHeader=true"
                 title="Collection name here"

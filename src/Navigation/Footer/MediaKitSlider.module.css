@@ -1,0 +1,23 @@
+.mediaKitSlider {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .sliderImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .slick-prev, .slick-next {
+    width: 60px; /* Increase width */
+    height: 60px; /* Increase height */
+    z-index: 1;
+    background-color: transparent; /* Set background to transparent */
+    border: none; /* Remove border if any */
+  }
+  
+  .slick-prev::before, .slick-next::before {
+    font-size: 35px; /* Increase font size */
+    color: black; /* Adjust arrow color if needed */
+  }
+  

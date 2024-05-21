@@ -68,7 +68,7 @@ const Footer = () => {
                             Subscribe
                         </a>
                         <br />
-                        <a href="/yourprivacyisimportant" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '1.25rem' }}>
+                        <a href="/privacy" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '1.25rem' }}>
                             Policies
                         </a>
                     </div>
