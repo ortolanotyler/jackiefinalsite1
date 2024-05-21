@@ -6,6 +6,7 @@ import TextReveal from '../../../Components/TextReveal';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
+import DropCap from '../../../Components/DropCap';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeTitle.png`;
@@ -86,9 +87,8 @@ const BalkeBlog = () => {
             </p>
            
 
-<p style = {paragraphStyle} >
-                     <span style={{ color: '#745B4F', float: 'left', fontSize: '5rem', lineHeight: '0.9', marginRight: '0.05em', marginTop: '0.01em' }}>W</span>elcome back to another Time Travel Tutorials, where we admire and recreate beauty icons from the past. Today, let's delve into the 1960s through the portrait of model Ina Balke by the renowned photographer Ted Russell. For those of you who've ever searched on Pinterest for '60s makeup, chances are you've stumbled upon this stunning photograph. This article is your step-by-step guide on how to get the vintage makeup and styling as seen on Ina to try out yourself!
-                </p>
+            <DropCap text="Welcome back to another Time Travel Tutorials, where we admire and recreate beauty icons from the past. Today, let's delve into the 1960s through the portrait of model Ina Balke by the renowned photographer Ted Russell. For those of you who've ever searched on Pinterest for '60s makeup, chances are you've stumbled upon this stunning photograph. This article is your step-by-step guide on how to get the vintage makeup and styling as seen on Ina to try out yourself!" />
+
                 <p style = {paragraphStyle} >
                     Among the film's many breathtaking fashion moments, the iconic pink gingham dress stole the hearts of fans. However, one look, in my opinion, outshone the rest—the unforgettable roller skate Barbie ensemble!
                 </p>

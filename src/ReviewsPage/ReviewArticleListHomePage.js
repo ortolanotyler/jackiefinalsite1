@@ -29,7 +29,7 @@ const articles = [
   // Add more articles as needed
 ];
 
-const ReviewArticleList = () => {
+const ReviewArticleListHome = () => {
   return (
     <div className="article-list-reviews">
       {articles.map((article, index) => (
@@ -45,4 +45,4 @@ const ReviewArticleList = () => {
   );
 };
 
-export default ReviewArticleList;
+export default ReviewArticleListHome;

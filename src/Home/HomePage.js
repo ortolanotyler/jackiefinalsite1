@@ -178,8 +178,6 @@ function HomePage() {
         <TextReveal text="SHOP LIFESTYLE" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
         <LifestyleFavorites />
         </Grid>
-
-
       </Grid>
     </Box>
   );
