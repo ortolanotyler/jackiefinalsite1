@@ -18,7 +18,7 @@ const Card = ({ blogContent }) => (
     <div>
         <div><TextReveal text='TIME TRAVEL TUTORIALS' /></div>
         <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-            <div className="blog-content" style={{ lineHeight: '1.5' }}>{blogContent}</div>
+            <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
         </div>
     </div>
 );
@@ -31,17 +31,19 @@ const TwiggyBlog = () => {
         textAlign: 'center',
         fontSize: '2.75rem',
         fontWeight: 'normal',
-        fontFamily: 'Arapey, serif',
+        fontFamily: 'GFS Didot, serif',
         color: '#333',
-        margin: '3.5rem',
-        marginTop: '2rem',
-        marginBottom: '2rem'
+   
+        marginTop: '1rem',
+        marginBottom: '1rem'
     };
 
     const paragraphStyle = {
-        fontSize: '1.5rem',
+        fontSize: '22px',
         fontFamily: 'GFS Didot, serif',
-        margin: '5rem',
+        marginTop: '0.5rem',
+        marginBottom: '0.5rem',
+        margin: '3em',
         maxWidth: '100%',
         lineHeight: '1.75em'
     };
@@ -51,11 +53,13 @@ const TwiggyBlog = () => {
         margin: '0 auto',
         maxWidth: '100%',
         maxHeight: '900px',
-        objectFit: 'cover'
+        objectFit: 'cover',
+        marginTop: '1rem',
+      marginBottom: '1rem'
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '20em', marginTop: '5rem' }}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5rem' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // TIME TRAVEL TUTORIALS

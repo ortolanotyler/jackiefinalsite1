@@ -9,17 +9,17 @@ const cardDetails = [
   {
     title: 'TRAVEL REVIEWS',
     backgroundImage: `${process.env.PUBLIC_URL}/Images/Home/MAUITHUMBNAIL.jpg`,
-    path: '/popculture'
+    path: '/travel'
   },
   {
     title: 'ITINERARIES',
     backgroundImage: `${process.env.PUBLIC_URL}/Images/Home/EPCOTTHUMBNAIL.jpeg`,
-    path: '/timetraveltutorials'
+    path: '/travel'
   },
   {
     title: 'DIARY',
     backgroundImage: `${process.env.PUBLIC_URL}/Images/Home/DIARY.jpg`,
-    path: '/trends'
+    path: '/diary'
   },
 ];
 
