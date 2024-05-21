@@ -16,6 +16,8 @@ import Quiz2 from '../Quiz/Quiz2';
 import AboutHero from './AboutHero'; // Import the AboutHero component
 import './AboutHero.css'; // Import the CSS file for jiggle animation
 import ReviewFavorites from './ReviewFavorites';
+import BeyondBeautyHero from './BeyondBeautyHero';
+import SiteExplorerBeyond from './SiteExplorerBeyond';
 
 function HomePage() {
   const linkRef = useRef(null);
@@ -138,8 +140,15 @@ function HomePage() {
         </Grid>
   
         <Grid item xs={12}>
-          <BeigeReveal text='BEYOND BEAUTY' />
+          <BeigeReveal text='LIFESTYLE' />
         </Grid>
+        <Grid item xs={12}>
+          <BeyondBeautyHero />
+        </Grid>
+        <Grid item xs={12}>
+          <SiteExplorerBeyond />
+        </Grid>
+
         <Grid item xs={12}>
           <VlogsHomePageVideo />
         </Grid>

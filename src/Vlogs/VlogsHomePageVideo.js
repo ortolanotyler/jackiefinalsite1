@@ -1,5 +1,5 @@
 import React from 'react';
-import VlogVideo from './VideoComponent';
+import VlogVideo from './VideoComponent1';
 import TextReveal from '../Components/TextReveal';
 
 
