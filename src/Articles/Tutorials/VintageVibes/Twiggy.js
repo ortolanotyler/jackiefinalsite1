@@ -34,18 +34,18 @@ const TwiggyBlog = () => {
         fontFamily: 'GFS Didot, serif',
         color: '#333',
    
-        marginTop: '1rem',
-        marginBottom: '1rem'
+        marginTop: '0.95rem',
+        marginBottom: '0.95rem'
     };
 
     const paragraphStyle = {
-        fontSize: '22px',
+        fontSize: '21px',
         fontFamily: 'GFS Didot, serif',
-        marginTop: '0.5rem',
-        marginBottom: '0.5rem',
-        margin: '3em',
+        marginTop: '3rem',
+        marginBottom: '3rem',
+        margin: '6em',
         maxWidth: '100%',
-        lineHeight: '1.75em'
+        lineHeight: '1.5em'
     };
 
     const imageStyle = {
@@ -54,8 +54,7 @@ const TwiggyBlog = () => {
         maxWidth: '100%',
         maxHeight: '900px',
         objectFit: 'cover',
-        marginTop: '1rem',
-      marginBottom: '1rem'
+     
     };
 
     const blogContent = (
