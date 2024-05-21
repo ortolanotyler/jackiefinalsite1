@@ -91,10 +91,13 @@ const ShopMyHero = () => {
         }
         section2Content={
           <div>
-            <a href="https://go.shopmy.us/p-3492711" style={anchorStyle} target="">
-              Bathing Suit: Revolve (similar) //
-            </a>
-          </div>
+          <a href="https://go.shopmy.us/p-3494143" style={anchorStyle} target="">Pants: Lovers and Friends //</a>
+          <br />
+          <a href="https://go.shopmy.us/p-3494171" style={anchorStyle} target="_blank" rel="noreferrer">Bodysuit: Majorelle //</a>
+          <br />
+          <a href="https://go.shopmy.us/p-3494173" style={anchorStyle} target="_blank" rel="noreferrer">Heels: Steve Madden //</a>
+          <br />
+        </div>
         }
         section3Content={
           <div>
