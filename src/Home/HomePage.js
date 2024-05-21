@@ -63,14 +63,15 @@ function HomePage() {
         <Grid item xs={12}>
           <QuoteBanner3 />
         </Grid>
+        <Grid item xs={12}>
+          <AboutHero /> {/* Add the AboutHero component here */}
+        </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
           <Grid container item xs={12} md={8} spacing={3} justifyContent="center" alignItems="center">
             <EmailSubscribe />
           </Grid>
         </Grid>
-        <Grid item xs={12}>
-          <AboutHero /> {/* Add the AboutHero component here */}
-        </Grid>
+      
         <Grid item xs={12}>
           <SiteExplorer />
         </Grid>

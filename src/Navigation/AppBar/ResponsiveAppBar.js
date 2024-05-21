@@ -24,9 +24,9 @@ const pages = [
   { name: 'Reviews', path: '/reviews' },
 ];
 
-const secondaryPages = [
-  { name: 'Vlogs', path: '/vlogs' },
+const beyondBeautyOptions = [
   { name: 'Travel', path: '/travel' },
+  { name: 'Vlog', path: '/vlog' },
   { name: 'Diary', path: '/diary' },
 ];
 
@@ -48,6 +48,7 @@ function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = useState(null);
   const [anchorElShop, setAnchorElShop] = useState(null);
   const [anchorElTutorials, setAnchorElTutorials] = useState(null);
+  const [anchorElBeyond, setAnchorElBeyond] = useState(null);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -73,13 +74,21 @@ function ResponsiveAppBar() {
     setAnchorElTutorials(null);
   };
 
+  const handleOpenBeyondMenu = (event) => {
+    setAnchorElBeyond(event.currentTarget);
+  };
+
+  const handleCloseBeyondMenu = () => {
+    setAnchorElBeyond(null);
+  };
+
   return (
-    <AppBar position="static" sx={{ 
-      fontFamily: 'GFS Didot, serif', 
+    <AppBar position="static" sx={{
+      fontFamily: 'GFS Didot, serif',
       backgroundColor: '#FDEDEF',
-      margin: 0, 
+      margin: 0,
       padding: '1rem',
-      width: '100%' 
+      width: '100%'
     }}>
       <Container maxWidth="false" disableGutters>
         <Toolbar disableGutters sx={{ justifyContent: 'space-between', flexWrap: 'wrap', alignItems: 'center' }}>
@@ -126,7 +135,6 @@ function ResponsiveAppBar() {
                 sx={{
                   display: { xs: 'block', md: 'none' },
                   '.MuiPaper-root': {
-                
                   },
                   '.MuiMenuItem-root': {
                     fontFamily: 'GFS Didot, sans-serif',
@@ -137,18 +145,48 @@ function ResponsiveAppBar() {
                   },
                 }}
               >
-                {[...pages, ...secondaryPages].map((page) => (
-                  <MenuItem key={page.name} onClick={handleCloseNavMenu} component={Link} to={page.path} sx={{ '&:hover': { bgcolor: 'transparent' } }}>
+                {pages.map((page) => (
+                  <MenuItem key={page.name} onClick={handleCloseNavMenu} component={Link} to={page.path}>
                     <Typography textAlign="center">{page.name}</Typography>
                   </MenuItem>
                 ))}
-                {shopOptions.map((option) => (
-                  <MenuItem key={option.name} onClick={handleCloseNavMenu} component={Link} to={option.path} sx={{ '&:hover': { bgcolor: 'transparent' } }}>
+                <MenuItem onClick={handleOpenBeyondMenu}>
+                  <Typography textAlign="center">Beyond Beauty</Typography>
+                </MenuItem>
+                <Menu
+                  id="beyond-beauty-submenu"
+                  anchorEl={anchorElBeyond}
+                  open={Boolean(anchorElBeyond)}
+                  onClose={handleCloseBeyondMenu}
+                  anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
+                  transformOrigin={{ vertical: 'top', horizontal: 'right' }}
+                  sx={{
+                    '.MuiPaper-root': {
+                      bgcolor: 'white',
+                      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+                      borderRadius: '8px',
+                    },
+                    '.MuiMenuItem-root': {
+                      fontFamily: 'GFS Didot, sans-serif',
+                      '&:hover': {
+                        bgcolor: 'transparent',
+                      },
+                    },
+                  }}
+                >
+                  {beyondBeautyOptions.map((option) => (
+                    <MenuItem key={option.name} onClick={handleCloseBeyondMenu} component={Link} to={option.path}>
+                      <Typography textAlign="center">{option.name}</Typography>
+                    </MenuItem>
+                  ))}
+                </Menu>
+                {tutorialOptions.map((option) => (
+                  <MenuItem key={option.name} onClick={handleCloseNavMenu} component={Link} to={option.path}>
                     <Typography textAlign="center">{option.name}</Typography>
                   </MenuItem>
                 ))}
-                {tutorialOptions.map((option) => (
-                  <MenuItem key={option.name} onClick={handleCloseNavMenu} component={Link} to={option.path} sx={{ '&:hover': { bgcolor: 'transparent' } }}>
+                {shopOptions.map((option) => (
+                  <MenuItem key={option.name} onClick={handleCloseNavMenu} component={Link} to={option.path}>
                     <Typography textAlign="center">{option.name}</Typography>
                   </MenuItem>
                 ))}
@@ -156,10 +194,31 @@ function ResponsiveAppBar() {
             </div>
           ) : (
             <Box sx={{ display: 'flex', flexGrow: 1, alignItems: 'center' }}>
+              {pages.map((page) => (
+                <Button
+                  key={page.name}
+                  component={Link}
+                  to={page.path}
+                  className="jiggle-button"
+                  sx={{
+                    my: 2,
+                    color: '#745B4F',
+                    display: 'block',
+                    fontSize: '1rem',
+                    fontFamily: 'GFS Didot, sans-serif',
+                    mx: 2,
+                    '&:hover': {
+                      backgroundColor: 'transparent'
+                    }
+                  }}
+                >
+                  {page.name}
+                </Button>
+              ))}
               <Button
-                key="Home"
-                component={Link}
-                to="/"
+                aria-controls="beyond-beauty-menu"
+                aria-haspopup="true"
+                onClick={handleOpenBeyondMenu}
                 className="jiggle-button"
                 sx={{
                   my: 2,
@@ -173,27 +232,43 @@ function ResponsiveAppBar() {
                   }
                 }}
               >
-                Home
+                Beyond Beauty
               </Button>
-              <Button
-                key="About"
-                component={Link}
-                to="/about"
-                className="jiggle-button"
+              <Menu
+                id="beyond-beauty-menu"
+                anchorEl={anchorElBeyond}
+                anchorOrigin={{
+                  vertical: 'bottom',
+                  horizontal: 'right',
+                }}
+                transformOrigin={{
+                  vertical: 'top',
+                  horizontal: 'right',
+                }}
+                open={Boolean(anchorElBeyond)}
+                onClose={handleCloseBeyondMenu}
                 sx={{
-                  my: 2,
-                  color: '#745B4F',
-                  display: 'block',
-                  fontSize: '1rem',
-                  fontFamily: 'GFS Didot, sans-serif',
-                  mx: 2,
-                  '&:hover': {
-                    backgroundColor: 'transparent'
-                  }
+                  '.MuiPaper-root': {
+                    bgcolor: 'white',
+                    color: '#745B4F',
+                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+                    borderRadius: '8px',
+                  },
+                  '.MuiMenuItem-root': {
+                    fontFamily: 'GFS Didot, sans-serif',
+                    fontSize: '1rem',
+                    '&:hover': {
+                      bgcolor: 'transparent',
+                    },
+                  },
                 }}
               >
-                About
-              </Button>
+                {beyondBeautyOptions.map((option) => (
+                  <MenuItem key={option.name} onClick={handleCloseBeyondMenu} component={Link} to={option.path} sx={{ '&:hover': { bgcolor: 'transparent' } }}>
+                    {option.name}
+                  </MenuItem>
+                ))}
+              </Menu>
               <Button
                 aria-controls="tutorials-menu"
                 aria-haspopup="true"
@@ -249,44 +324,6 @@ function ResponsiveAppBar() {
                 ))}
               </Menu>
               <Button
-                key="Quiz"
-                component={Link}
-                to="/quiz"
-                className="jiggle-button"
-                sx={{
-                  my: 2,
-                  color: '#745B4F',
-                  display: 'block',
-                  fontSize: '1rem',
-                  fontFamily: 'GFS Didot, sans-serif',
-                  mx: 2,
-                  '&:hover': {
-                    backgroundColor: 'transparent'
-                  }
-                }}
-              >
-                Quiz
-              </Button>
-              <Button
-                key="Reviews"
-                component={Link}
-                to="/reviews"
-                className="jiggle-button"
-                sx={{
-                  my: 2,
-                  color: '#745B4F',
-                  display: 'block',
-                  fontSize: '1rem',
-                  fontFamily: 'GFS Didot, sans-serif',
-                  mx: 2,
-                  '&:hover': {
-                    backgroundColor: 'transparent'
-                  }
-                }}
-              >
-                Reviews
-              </Button>
-              <Button
                 aria-controls="shop-menu"
                 aria-haspopup="true"
                 onClick={handleOpenShopMenu}
@@ -303,7 +340,7 @@ function ResponsiveAppBar() {
                   }
                 }}
               >
-                Style
+                Shop
               </Button>
               <Menu
                 id="shop-menu"
@@ -342,6 +379,7 @@ function ResponsiveAppBar() {
               </Menu>
             </Box>
           )}
+
           {!isCollapsed && (
             <Box sx={{ display: 'flex', flexGrow: 0, alignItems: 'center' }}>
               <Button
@@ -350,13 +388,13 @@ function ResponsiveAppBar() {
                 sx={{
                   backgroundColor: 'black',
                   color: 'white',
-                  borderRadius: '5px',
-                  width: '75%', // Adjust the width to make the button wider
+                  borderRadius: '3px',
+                  width: '100%',
                   fontFamily: 'GFS Didot, serif',
-                  padding: '0.25rem', // Half the padding of the original button
-                  fontSize: '1rem', // Adjust the font size if necessary
+                  padding: '0.75rem', // Half the padding of the original button
+                  fontSize: '1rem', // Smaller font size
                   '&:hover': {
-                    backgroundColor: '#fdedef',
+                    backgroundColor: 'black',
                     color: '#745B4F',
                   },
                   marginRight: '1rem', // Add some margin to the right
@@ -364,27 +402,6 @@ function ResponsiveAppBar() {
               >
                 Subscribe
               </Button>
-              {secondaryPages.map((page) => (
-                <Button
-                  key={page.name}
-                  component={Link}
-                  to={page.path}
-                  className="jiggle-button"
-                  sx={{
-                    my: 2,
-                    color: '#745B4F',
-                    display: 'block',
-                    fontSize: '1rem',
-                    fontFamily: 'GFS Didot, sans-serif',
-                    mx: 2,
-                    '&:hover': {
-                      backgroundColor: 'transparent'
-                    }
-                  }}
-                >
-                  {page.name}
-                </Button>
-              ))}
             </Box>
           )}
         </Toolbar>
