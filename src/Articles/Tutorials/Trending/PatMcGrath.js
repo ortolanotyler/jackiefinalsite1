@@ -5,18 +5,19 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import TextReveal from '../../../Components/TextReveal';
 import DropCap from '../../../Components/DropCap';
+import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
-const Pat1 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathTitle.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathTitle.png`;
 const Pat2 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathDouble.png`;
 const Pat3 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathFaceChart.png`;
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
   <div>
-    <TextReveal text='TRENDING' />
-    <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'center', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-      <div className="blog-content">{blogContent}</div>
-    </div>
+      <div><TextReveal text='TRENDS' /></div>
+      <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+          <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+      </div>
   </div>
 );
 
@@ -24,51 +25,56 @@ const PatMcGrathPost = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
 
+
   const headingStyle = {
-    textAlign: 'center',
-    fontSize: '3rem',
-    fontWeight: 'normal',
-    fontFamily: 'Arapey, sans-serif',
-    color: 'black',
-    margin: '2rem',
-    marginTop: '2rem',
-    marginBottom: '2rem',
-    lineHeight: '1.5rem',
+      textAlign: 'center',
+      fontSize: '2.75rem',
+      fontWeight: 'normal',
+      fontFamily: 'GFS Didot, serif',
+      color: '#333',
+      marginTop: '0.95rem',
+      marginBottom: '0.95rem'
   };
 
   const paragraphStyle = {
-    padding: '1.5rem',
-    fontSize: '1.5rem',
-    fontFamily: 'GFS Didot, serif',
-    margin: '2rem',
-    maxWidth: '100%',
+      fontSize: '21px',
+      fontFamily: 'GFS Didot, serif',
+      margin: '5rem',
+      marginTop: '3rem',
+      marginBottom: '3rem',
+      maxWidth: '100%',
+      lineHeight: '1.5em'
+  };
 
+  const imageStyle = {
+      display: 'block',
+      margin: '0 auto',
+      maxWidth: '100%',
+      maxHeight: '900px',
+      objectFit: 'cover',
+  };
+
+  const smallImageStyle = {
+      display: 'block',
+      margin: '0 1rem 1rem 0',
+      float: 'left',
+      maxWidth: '40%',
+      height: 'auto'
   };
 
   const blogContent = (
-    <div className="container" style={{ lineHeight: '2.5em', maxWidth: '100%', margin: '10rem', marginTop: '25px' }}>
-      <div style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '15vh' // This makes the div take up the full height of the viewport
-      }}>
-        <a
-          href="/popculture"
-          style={{
-            fontFamily: 'Arapey',
-            fontSize: '1.5rem',
-            color: 'black',
-            textDecoration: 'none'
-          }}
-        >
-          BEAUTY // TRENDS // POP CULTURE
-        </a>
-      </div>
+      <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
+              <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+                  BEAUTY // TRENDS
+              </a>
+          </div>
 
-      <img src={Pat1} alt='Pat McGrath Title' style={{ width: '100%' }} />
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
+          </div>
 
-      <div style={{ textAlign: 'center' }}>
+     <div style={{ textAlign: 'center' }}>
         <iframe
           src="https://assets.pinterest.com/ext/embed.html?id=1104015296142479260"
           height='520'
@@ -77,14 +83,15 @@ const PatMcGrathPost = () => {
           scrolling="no"
           title="Pinterest Embed"
         ></iframe>
-        <SubscribeButton />
+   
       </div>
+          <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <SubscribeButton />
+          </div>
 
-  
-
-      <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
-        All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-      </p>
+          <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+              All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+          </p>
 
       <DropCap text="Welcome back, beauties! Let's break down the incredible (and uber-viral) Porcelain Doll makeup looks by Pat McGrath & team, created for the Maison Margiela Spring/Summer '24 runway extravaganza. In a display of sheer genius, Pat McGrath and her team devised a groundbreaking technique, meticulously layering and airbrushing several peel-off masks over the makeup for a truly haute-couture spectacle, creating live porcelain dolls to grace the runway." />
       <p style={paragraphStyle}>

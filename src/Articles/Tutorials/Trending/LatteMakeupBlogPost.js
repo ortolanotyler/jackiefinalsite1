@@ -6,76 +6,97 @@ import TextReveal from '../../../Components/TextReveal';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
-const Latte1 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteTitle.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteTitle.png`;
 const Latte2 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteDouble.png`;
 const Latte3 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteLookFaceChartFilledIn.jpg`;
 const Latte16 = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
-const Card = ({ blogContent }) => {
-  return (
-    <div className="card" style={{ maxWidth: '100%', display: 'flex', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-      <div className="blog-content">{blogContent}</div>
+
+
+const Card = ({ blogContent }) => (
+    <div>
+        <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+            <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+        </div>
     </div>
-  );
-};
+);
 
 const LatteMakeupBlogPost = () => {
-  const websiteId = "10910";
-  const blogRef = useRef(null);
-  const [allowScrolling, setAllowScrolling] = useState(false);
+    const websiteId = '10910';
+    const blogRef = useRef(null);
 
-  useEffect(() => {
-    const handleResize = () => {
-      setAllowScrolling(window.innerWidth <= 1200);
+    const [allowScrolling, setAllowScrolling] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setAllowScrolling(window.innerWidth <= 1200);
+        };
+        handleResize();
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+
+    const headingStyle = {
+        textAlign: 'center',
+        fontSize: '2.75rem',
+        fontWeight: 'normal',
+        fontFamily: 'GFS Didot, serif',
+        color: '#333',
+        marginTop: '0.95rem',
+        marginBottom: '0.95rem'
     };
-    handleResize();
-    window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
+
+    const paragraphStyle = {
+        fontSize: '21px',
+        fontFamily: 'GFS Didot, serif',
+        margin: '5rem',
+        marginTop: '3rem',
+        marginBottom: '3rem',
+        maxWidth: '100%',
+        lineHeight: '1.5em'
     };
-  }, []);
 
-  const headingStyle = {
-    textAlign: 'center',
-    fontSize: '3rem',
-    fontWeight: 'normal',
-    fontFamily: 'Arapey, sans-serif',
-    color: 'black',
-    margin: '2rem',
-    marginTop: '2rem',
-    marginBottom: '2rem',
-    lineHeight: '1.5rem',
-  };
+    const imageStyle = {
+        display: 'block',
+        margin: '0 auto',
+        maxWidth: '100%',
+        maxHeight: '900px',
+        objectFit: 'cover',
+    };
 
-  const paragraphStyle = {
-    padding: '1.25rem',
-    fontSize: '1.5rem',
-    fontFamily: 'GFS Didot, serif',
-    margin: '2rem',
-    maxWidth: '100%',
-    marginTop: '0.75rem',
-    marginBottom: '0.75rem',
-  };
+    const smallImageStyle = {
+        display: 'block',
+        margin: '0 1rem 1rem 0',
+        float: 'left',
+        maxWidth: '40%',
+        height: 'auto'
+    };
 
-  const blogContent = (
-    <div className="container" style={{ lineHeight: '2.25em', margin: '15rem', marginTop: '25px' }}>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-        <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-          BEAUTY // TRENDS
-        </a>
-      </div>
-      <img src={Latte1} alt='Latte Makeup' style={{ width: '100%' }} />
-    
-      <ResponsiveYoutube src="https://www.youtube.com/embed/Jm0BdU88kr4?si=q_f9U-l_aZqaY83s" title="Latte Makeup Tutorial on Youtube Jackie Wyers" />
+    const blogContent = (
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
+                <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+                    BEAUTY // TRENDS
+                </a>
+            </div>
 
-<div style={{ marginTop: '2rem',display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-  <SubscribeButton />
-</div>
-      <div>
-        <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-          All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-        </p>
-      </div>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
+            </div>
+
+            <ResponsiveYoutube src="https://www.youtube.com/embed/Jm0BdU88kr4?si=q_f9U-l_aZqaY83s" title="YouTube video player" />
+
+            <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <SubscribeButton />
+            </div>
+
+            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+            </p>
+           
 
       <DropCap text="Hello, beauties, it's Jackie here with another trend report driven by the TikTok algorithm! The latte makeup look is all about embracing the warm, tawny tones to create a '90s inspired glam with a cozy vibe. Think caramel-toned smokey eye, no foundation, faux freckles, and a milky lip." />
 

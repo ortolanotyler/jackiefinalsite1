@@ -75,7 +75,7 @@ const About = () => {
       </Grid>
 
       <Grid item xs={12}>
-        <TextReveal text='COLLABORATIONS' />
+      <TextReveal text="COLLABORATIONS" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
       </Grid>
       <Grid item xs={12} md={6}>
         <img src={leftImage} alt="Left" className={styles['about-collaborations-left-image']} />

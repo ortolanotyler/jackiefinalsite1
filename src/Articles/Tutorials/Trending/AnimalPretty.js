@@ -5,6 +5,7 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import TextReveal from '../../../Components/TextReveal';
+import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/AnimalPrettyTitle.png`;
@@ -17,53 +18,76 @@ const image6 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxPretty
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 
-const Card = ({ blogContent }) => {
-  return (
+const Card = ({ blogContent }) => (
     <div>
-      <div><TextReveal text='TRENDING'/></div>
-      <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-        <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
-      </div>
+        <div><TextReveal text='TRENDS' /></div>
+        <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+            <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+        </div>
     </div>
-  );
-};
-
-
+);
 
 const AnimalPretty = () => {
-  const websiteId = '10910';
-  const blogRef = useRef(null);
-  
- 
+    const websiteId = '10910';
+    const blogRef = useRef(null);
 
-  const headingStyle = {
-    textAlign: 'center',
-    fontSize: '3rem',
-    fontWeight: 'normal',
-    fontFamily: 'Arapey, serif',
-    color: '#333',
-    margin:'2rem'
-  };
 
-  const paragraphStyle = {
-    fontSize: '1.5rem', fontFamily: 'GFS Didot, serif',  marginTop: '1px',margin: '5rem', maxWidth: '100%',padding: '1rem',
-  }
+    const headingStyle = {
+        textAlign: 'center',
+        fontSize: '2.75rem',
+        fontWeight: 'normal',
+        fontFamily: 'GFS Didot, serif',
+        color: '#333',
+        marginTop: '0.95rem',
+        marginBottom: '0.95rem'
+    };
 
-  const blogContent = (
-    <div className="container" style={{ lineHeight: '2.5em', margin: '20rem', marginTop: '25px' }}>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-        <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-          BEAUTY // TRENDS 
-        </a>
-      </div>
-      <img src={title} alt="No Makeup-Makeup Spring Edition Title" style={{ width: '100%' }} />
-      
-      <div
-      style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
-      >
-      <SubscribeButton />
+    const paragraphStyle = {
+        fontSize: '21px',
+        fontFamily: 'GFS Didot, serif',
+        margin: '5rem',
+        marginTop: '3rem',
+        marginBottom: '3rem',
+        maxWidth: '100%',
+        lineHeight: '1.5em'
+    };
 
-      </div>
+    const imageStyle = {
+        display: 'block',
+        margin: '0 auto',
+        maxWidth: '100%',
+        maxHeight: '900px',
+        objectFit: 'cover',
+    };
+
+    const smallImageStyle = {
+        display: 'block',
+        margin: '0 1rem 1rem 0',
+        float: 'left',
+        maxWidth: '40%',
+        height: 'auto'
+    };
+
+    const blogContent = (
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
+                <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+                    BEAUTY // TRENDS
+                </a>
+            </div>
+
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
+            </div>
+
+
+            <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <SubscribeButton />
+            </div>
+
+            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+            </p>
 
       <DropCap text="Hey beauties, it’s Jackie! Today, we're diving into a fun and fresh way to explore beauty styles with our 'Types of Pretty' makeup series inspired by adorable animals like deer, cats, foxes, and bunnies. Whether you saw this trend on TikTok or my latest YouTube tutorial, I’m thrilled to bring this unique concept to the blog where we break down each style with detailed makeup guides."/> 
 
@@ -484,7 +508,7 @@ the blush to achieve that vibrant, youthful
 glow.
 </p>
 
-<ResponsiveIframe src="https://shopmy.us/collections/public/552853?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
+<ResponsiveIframe src="https://shopmy.us/collections/public/552854?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
 <p style={{ textAlign: 'RIGHT', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
                     CONTAINS: AFFILIATE LINKS
                 </p>
