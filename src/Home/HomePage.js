@@ -7,7 +7,6 @@ import EmailSubscribe from '../Components/EmailSubscribe';
 import SiteExplorer from './SiteExplorer';
 import Slider1 from './aaaa'; // Correct import
 import ReviewArticleListHome from '../ReviewsPage/ReviewArticleListHomePage';
-import ResponsiveIframe from '../Components/ResponsiveIframe';
 import ShopMyHero from './ShopMyHero';
 import BeigeReveal from '../Components/BeigeReveal';
 import VlogsHomePageVideo from '../Vlogs/VlogsHomePageVideo';
@@ -93,10 +92,10 @@ function HomePage() {
         </Grid>
         <TextReveal text="LATEST BEAUTY VIDEO" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
         <Grid item xs={12} display="flex" justifyContent="center">
-          <div style={{ position: 'relative', width: '100%', maxWidth: '1100px', height: 0, paddingBottom: '33.75%', background: '#000', marginTop: '1rem' }}>
+          <div style={{ position: 'relative', width: '100%', maxWidth: '1500px', height: 0, margin: '2rem', paddingBottom: '56.25%', background: '#000', marginTop: '1rem' }}>
             <iframe
               src="https://www.youtube.com/embed/Uz03ReLZO9k?si=JbevAxz6Q8UcOv7U"
-              title="Sharon Tate Iconic 60's Bridal Makeup Tutorial"
+              title="Jackie Latest Youtube Video"
               style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -105,7 +104,7 @@ function HomePage() {
           </div>
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
-          <div style={{ textAlign: 'right', marginTop: '2rem', marginBottom: '5rem', width: '100%', maxWidth: '1000px', display: 'flex', justifyContent: 'flex-end' }}>
+          <div style={{ textAlign: 'right', marginRight: '-5rem', marginTop: '2rem', marginBottom: '5rem', width: '100%', maxWidth: '1400px', display: 'flex', justifyContent: 'flex-end' }}>
             <a
               href="/victoriasecret"
               ref={linkRef}
@@ -122,28 +121,22 @@ function HomePage() {
           <Quiz2 />
         </Grid>
 
-
         <Grid item xs={12}>
-          <TextReveal text="JACKIE'S WEEKLY FAVS" />
-         <ReviewFavorites/>
+          <TextReveal text="JACKIE'S WEEKLY TOP 3" />
+          <ReviewFavorites />
         </Grid>
         <Grid item xs={12}>
           <TextReveal text='PERFUME PROFILES' />
           <ReviewArticleListHome />
         </Grid>
-  
+
         <Grid item xs={12}>
           <TextReveal text='SHOP MY STYLE' />
         </Grid>
         <Grid item xs={12}>
           <ShopMyHero />
         </Grid>
-        <Grid item xs={12}>
-          <TextReveal text='LATEST TUTORIALS' />
-        </Grid>
-        <Grid item xs={12}>
-          <Slider1 />
-        </Grid>
+  
         <Grid item xs={12}>
           <BeigeReveal text='BEYOND BEAUTY' />
         </Grid>

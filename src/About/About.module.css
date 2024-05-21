@@ -10,7 +10,6 @@
 .about-meet-jackie {
   font-family: 'GFS Didot, serif';
   background-color: white;
-
 }
 
 .about-text-section {
@@ -31,7 +30,6 @@
   position: relative;
 }
 
-
 .about-left-section::before {
   content: '';
   position: absolute;
@@ -46,11 +44,13 @@
 .about-left-text {
   position: relative; /* Ensures the text is on top of the overlay */
   z-index: 1; /* Ensures the text is on top of the overlay */
-  padding: 3rem;
+  padding: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   font-size: 1.25rem;
   line-height: 2rem;
   text-align: justify;
-  text-indent: 2em;
+  /* Removed margin settings */
 }
 
 .about-right-section {
@@ -58,7 +58,7 @@
   flex: 1;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   padding: 1rem;
 }
 
@@ -66,7 +66,6 @@
   width: 100%;
   height: auto;
   padding: 1rem;
-
 }
 
 .about-collaborations-section {
@@ -80,7 +79,6 @@
 .about-collaborations-text {
   background-color: #EBE8E4;
   flex: 1;
-
   font-family: 'GFS Didot, serif';
   display: flex;
   justify-content: center;
@@ -93,7 +91,6 @@
   height: auto;
 }
 
-
 @keyframes flash {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
@@ -103,7 +100,6 @@
   font-size: 2em;
   animation: flash 1s ease-in-out 5; /* Animation runs for 1 second, 5 times with ease-in-out timing */
 }
-
 
 /* Responsive styles */
 @media (max-width: 1100px) {
