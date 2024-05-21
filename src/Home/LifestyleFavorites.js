@@ -1,6 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const LifestyleFavorites = () => {
+  const [isScrollable, setIsScrollable] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 1200) {
+        setIsScrollable(true);
+      } else {
+        setIsScrollable(false);
+      }
+    };
+
+    handleResize(); // Set the initial state
+    window.addEventListener('resize', handleResize); // Update state on window resize
+
+    return () => {
+      window.removeEventListener('resize', handleResize); // Clean up the event listener on unmount
+    };
+  }, []);
+
   return (
     <div style={{ width: '100%', minHeight: '1200px', marginBottom: '2rem' }}>
       <iframe
@@ -11,17 +30,10 @@ const LifestyleFavorites = () => {
           width: '100%',
           minHeight: '1000px',
           border: 'none',
-          overflow: 'hidden'
+          overflow: isScrollable ? 'auto' : 'hidden',
         }}
-        className="review-favorites-iframe"
+        className="lifestyle-favorites-iframe"
       ></iframe>
-      <style jsx>{`
-        @media (max-width: 1200px) {
-          .review-favorites-iframe {
-            overflow: auto;
-          }
-        }
-      `}</style>
     </div>
   );
 };

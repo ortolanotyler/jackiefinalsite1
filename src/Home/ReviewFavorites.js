@@ -30,17 +30,10 @@ const ReviewFavorites = () => {
           width: '100%',
           minHeight: '1000px',
           border: 'none',
-          overflow: isScrollable ? 'auto' : 'hidden', // Dynamically set the overflow property
+          overflow: isScrollable ? 'auto' : 'hidden',
         }}
         className="review-favorites-iframe"
       ></iframe>
-      <style jsx>{`
-        @media (max-width: 1000px) {
-          .review-favorites-iframe {
-            overflow: auto;
-          }
-        }
-      `}</style>
     </div>
   );
 };
