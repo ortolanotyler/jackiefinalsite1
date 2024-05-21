@@ -33,9 +33,19 @@ const SampleNextArrow = (props) => {
   return (
     <div
       className={className}
-      style={{ ...style, display: 'block', background: 'black' }}
+      style={{ ...style, display: 'block' }}
       onClick={onClick}
-    />
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="black"
+        width="35px"
+        height="35px"
+      >
+        <path d="M12 0L10.59 1.41 18.17 9H0v2h18.17l-7.58 7.59L12 24l12-12z" />
+      </svg>
+    </div>
   );
 };
 
@@ -44,9 +54,19 @@ const SamplePrevArrow = (props) => {
   return (
     <div
       className={className}
-      style={{ ...style, display: 'block', background: 'black' }}
+      style={{ ...style, display: 'block' }}
       onClick={onClick}
-    />
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="black"
+        width="35px"
+        height="35px"
+      >
+        <path d="M12 24l1.41-1.41L5.83 15H24v-2H5.83l7.58-7.59L12 0 0 12z" />
+      </svg>
+    </div>
   );
 };
 

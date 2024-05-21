@@ -1,23 +1,36 @@
 .mediaKitSlider {
-    max-width: 600px;
+    max-width: 800px;
+    padding: 5rem;
+    padding-top: 1rem;
     margin: 0 auto;
   }
   
   .sliderImage {
     width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
     height: auto;
   }
   
   .slick-prev, .slick-next {
-    width: 60px; /* Increase width */
-    height: 60px; /* Increase height */
+    width: 60px;
+    height: 60px;
     z-index: 1;
     background-color: transparent; /* Set background to transparent */
     border: none; /* Remove border if any */
   }
   
+  .slick-prev {
+    left: -70px; /* Adjust this value to move the arrow farther left */
+  }
+  
+  .slick-next {
+    right: -70px; /* Adjust this value to move the arrow farther right */
+  }
+  
   .slick-prev::before, .slick-next::before {
-    font-size: 35px; /* Increase font size */
-    color: black; /* Adjust arrow color if needed */
+    font-size: 35px;
+    color: black; /* Adjust arrow color */
+    content: ''; /* Remove default content */
   }
   
