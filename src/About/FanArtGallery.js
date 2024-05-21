@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './FanArtGallery.css'; // Assuming you move your SCSS into a separate file
 const image1 = `${process.env.PUBLIC_URL}/Images/About/FanArt/1.jpg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/About/FanArt/2.jpg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/About/FanArt/3.jpg`;
 const image4 = `${process.env.PUBLIC_URL}/Images/About/FanArt/4.jpg`;
 const image5 = `${process.env.PUBLIC_URL}/Images/About/FanArt/5.jpg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/About/FanArt/6.jpg`;
@@ -39,167 +40,169 @@ const bench = `${process.env.PUBLIC_URL}/Images/About/FanArt/bench.png`;
 
 
 const galleryImages = [
+
   {
-    src: image13,
+    src: image3,
     alt: "PURPLE PORTAIT",
-    caption: "Artist: Noura Ozon @‌nouraozon.art",
+    caption: "@artsbymilly",
   },
 
   {
     src: image4,
-    alt: "red headband",
-    caption: "Artist: Sabine @‌Sabine.d.art",  },
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@evoletart", 
+   },
   {
     src: image5,
-    alt: "Art Process",
-    caption: "Artist: Marina Joy   @marinajoycreations",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌seethrunikki",
   },
   {
     src: image6,
-    alt: "Black and White",
-    caption: "Artist: Ali Hassaneim @‌alihassanein",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌marinajoycreations",
   },
   {
     src: image7,
-    alt: "Half Photo Half Drawing",
-    caption: "Artist: Zainab Ibrahim @‌x_artforever_x",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌art_arcade._",
   },
   {
     src: image8,
-    alt: "Blue Lagoon",
-    caption: "Artist: Suray  @suray.art",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌alihassanein",
   },
   {
     src: image9,
-    alt: "Colourful Background",
-    caption: "Artist: Nira Afsana @‌jannatulafsananira",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌Suray.art",
   },
   {
     src: image10,
-    alt: "Flower Braids",
-    caption: "Artist: Miss Lepard @‌miss_lepard",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌stephreckingart",
   },
   {
     src: image11,
-    alt: "Butterfly",
-    caption: "Artist: Faith Quinn @‌faithquinn.art",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌faithquinn.art",
   },
   {
     src: image12,
-    alt: "Round",
-    caption: "Artist: Vector Boy @‌hapyvector",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌navasy",
   },
   {
     src: image13,
-    alt: "PURPLE PORTAIT",
-    caption: "Artist: Noura Ozon @‌nouraozon.art",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌navasy",
   },
   {
     src: image14,
-    alt: "CRAYON BARBIE",
-    caption: "Artist: Annie Bray @‌array.art",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌amy_marchant_art",
   },
 
   {
     src: image15,
-    alt: "UPDO",
-    caption: "@‌papiion.art",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌jannatulafsananira",
   },
   {
     src: image16,
-    alt: "Flower Crown",
-    caption: "@‌the_.swan",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌array.art",
   },
   {
     src: image17,
-    alt: "Beret",
-    caption: "Artist: Surbhi Patel @‌art_arcade._",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌agatikart",
   },
   {
     src: image18,
-    alt: "ANGELIC",
-    caption: "Artist: Nikki @‌seethrunikki",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@leeannpaquin",
   },
   {
     src: image19,
-    alt: "BRAIDS AND CHERRY",
-    caption: "Artist: Steph Recking @‌stephreckingart",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌the_.swan",
   },
   {
     src: image20,
-    alt: "DIGITAL",
-    caption: "Artist: Agata @‌agatikart",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌miss_lepard",
   },
   {
     src: image21,
-    alt: "PAINTERLY",
-    caption: "Artist: Noa @‌surrealist_noa",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌x_artforever_x",
   },
   {
     src: image22,
-    alt: "STRAWBERRY GIRL",
-    caption: "Artist: LeeAnn Paquin @‌leeannpaquin",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌rita.pigaeva",
   },
   {
     src: image23,
-    alt: "LeeAnn Paquin - Floral Portrait",
-    caption: "Artist: LeeAnn Paquin @‌leeannpaquin",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@hevaArt",
   },
   {
     src: image24,
-    alt: "Spring Sketch",
-    caption: "Artist: Amy Marchant @amy_marchant_art",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌surrealist_noa",
   },
   {
     src: image25,
-    alt: "Coca Cola",
-    caption: "Artist: Amy Marchant @amy_marchant_art",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌nouraozon.art",
   },
   {
     src: image26,
-    alt: "Coca Cola",
-    caption: "Artist: Amy Marchant @amy_marchant_art",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌Sabine.d.art",
   },  
   {
     src: image27,
-    alt: "Coca Cola",
-    caption: "Artist: Amy Marchant @amy_marchant_art",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌Suray.art",
   },
   {
     src: image28,
-    alt: "Coca Cola",
-    caption: "Artist: Amy Marchant @amy_marchant_art",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@flying_drawings",
   },
   {
     src: image29,
-    alt: "Coca Cola",
-    caption: "Artist: Amy Marchant @amy_marchant_art",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌hapyvector",
   },
   {
     src: image30,
-    alt: "Coca Cola",
-    caption: "Artist: Amy Marchant @amy_marchant_art",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌amy_marchant_art",
   },
   {
     src: image31,
-    alt: "Coca Cola",
-    caption: "Artist: Amy Marchant @amy_marchant_art",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌leeannpaquin",
   },
   {
     src: image32,
-    alt: "Coca Cola",
-    caption: "Artist: Amy Marchant @amy_marchant_art",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌papiion.art",
   },
 
   {
     src: image2,
-    alt: "Red Lips",
-    caption: "Artist: Leonie @‌flying_drawings",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@artsbymilly",
   },
   {
     src: image1,
-    alt: "Bedroom in Arles, 1888, Van Gogh Museum, Amsterdam",
-    caption: "Artist: Rita Pigaeva @rita.pigaeva",
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@art.portretik",
   },
 
   // Add the rest of your images here...
