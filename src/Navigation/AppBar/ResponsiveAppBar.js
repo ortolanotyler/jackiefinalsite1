@@ -99,7 +99,7 @@ function ResponsiveAppBar() {
               backgroundColor: 'transparent'
             }
           }}>
-            <img src={logo} alt="Logo" style={{ height: '8vh' }} />
+            <img src={logo} alt="Logo" style={{ height: '125px', width: 'auto' }} />
           </IconButton>
 
           {isCollapsed ? (
@@ -150,6 +150,36 @@ function ResponsiveAppBar() {
                     <Typography textAlign="center">{page.name}</Typography>
                   </MenuItem>
                 ))}
+                <MenuItem onClick={handleOpenTutorialsMenu}>
+                  <Typography textAlign="center">Tutorials</Typography>
+                </MenuItem>
+                <Menu
+                  id="tutorials-submenu"
+                  anchorEl={anchorElTutorials}
+                  open={Boolean(anchorElTutorials)}
+                  onClose={handleCloseTutorialsMenu}
+                  anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
+                  transformOrigin={{ vertical: 'top', horizontal: 'right' }}
+                  sx={{
+                    '.MuiPaper-root': {
+                      bgcolor: 'white',
+                      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+                      borderRadius: '8px',
+                    },
+                    '.MuiMenuItem-root': {
+                      fontFamily: 'GFS Didot, sans-serif',
+                      '&:hover': {
+                        bgcolor: 'transparent',
+                      },
+                    },
+                  }}
+                >
+                  {tutorialOptions.map((option) => (
+                    <MenuItem key={option.name} onClick={handleCloseTutorialsMenu} component={Link} to={option.path}>
+                      <Typography textAlign="center">{option.name}</Typography>
+                    </MenuItem>
+                  ))}
+                </Menu>
                 <MenuItem onClick={handleOpenBeyondMenu}>
                   <Typography textAlign="center">Beyond Beauty</Typography>
                 </MenuItem>
@@ -180,11 +210,6 @@ function ResponsiveAppBar() {
                     </MenuItem>
                   ))}
                 </Menu>
-                {tutorialOptions.map((option) => (
-                  <MenuItem key={option.name} onClick={handleCloseNavMenu} component={Link} to={option.path}>
-                    <Typography textAlign="center">{option.name}</Typography>
-                  </MenuItem>
-                ))}
                 {shopOptions.map((option) => (
                   <MenuItem key={option.name} onClick={handleCloseNavMenu} component={Link} to={option.path}>
                     <Typography textAlign="center">{option.name}</Typography>
@@ -194,7 +219,82 @@ function ResponsiveAppBar() {
             </div>
           ) : (
             <Box sx={{ display: 'flex', flexGrow: 1, alignItems: 'center' }}>
-              {pages.map((page) => (
+              {pages.slice(0, 2).map((page) => (
+                <Button
+                  key={page.name}
+                  component={Link}
+                  to={page.path}
+                  className="jiggle-button"
+                  sx={{
+                    my: 2,
+                    color: '#745B4F',
+                    display: 'block',
+                    fontSize: '1rem',
+                    fontFamily: 'GFS Didot, sans-serif',
+                    mx: 2,
+                    '&:hover': {
+                      backgroundColor: 'transparent'
+                    }
+                  }}
+                >
+                  {page.name}
+                </Button>
+              ))}
+              <Button
+                aria-controls="tutorials-menu"
+                aria-haspopup="true"
+                onClick={handleOpenTutorialsMenu}
+                className="jiggle-button"
+                sx={{
+                  my: 2,
+                  color: '#745B4F',
+                  display: 'block',
+                  fontSize: '1rem',
+                  fontFamily: 'GFS Didot, sans-serif',
+                  mx: 2,
+                  '&:hover': {
+                    backgroundColor: 'transparent'
+                  }
+                }}
+              >
+                Tutorials
+              </Button>
+              <Menu
+                id="tutorials-menu"
+                anchorEl={anchorElTutorials}
+                anchorOrigin={{
+                  vertical: 'bottom',
+                  horizontal: 'right',
+                }}
+                transformOrigin={{
+                  vertical: 'top',
+                  horizontal: 'right',
+                }}
+                open={Boolean(anchorElTutorials)}
+                onClose={handleCloseTutorialsMenu}
+                sx={{
+                  '.MuiPaper-root': {
+                    bgcolor: 'white',
+                    color: '#745B4F',
+                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+                    borderRadius: '8px',
+                  },
+                  '.MuiMenuItem-root': {
+                    fontFamily: 'GFS Didot, sans-serif',
+                    fontSize: '1rem',
+                    '&:hover': {
+                      bgcolor: 'transparent',
+                    },
+                  },
+                }}
+              >
+                {tutorialOptions.map((option) => (
+                  <MenuItem key={option.name} onClick={handleCloseTutorialsMenu} component={Link} to={option.path} sx={{ '&:hover': { bgcolor: 'transparent' } }}>
+                    {option.name}
+                  </MenuItem>
+                ))}
+              </Menu>
+              {pages.slice(2).map((page) => (
                 <Button
                   key={page.name}
                   component={Link}
@@ -270,60 +370,6 @@ function ResponsiveAppBar() {
                 ))}
               </Menu>
               <Button
-                aria-controls="tutorials-menu"
-                aria-haspopup="true"
-                onClick={handleOpenTutorialsMenu}
-                className="jiggle-button"
-                sx={{
-                  my: 2,
-                  color: '#745B4F',
-                  display: 'block',
-                  fontSize: '1rem',
-                  fontFamily: 'GFS Didot, sans-serif',
-                  mx: 2,
-                  '&:hover': {
-                    backgroundColor: 'transparent'
-                  }
-                }}
-              >
-                Tutorials
-              </Button>
-              <Menu
-                id="tutorials-menu"
-                anchorEl={anchorElTutorials}
-                anchorOrigin={{
-                  vertical: 'bottom',
-                  horizontal: 'right',
-                }}
-                transformOrigin={{
-                  vertical: 'top',
-                  horizontal: 'right',
-                }}
-                open={Boolean(anchorElTutorials)}
-                onClose={handleCloseTutorialsMenu}
-                sx={{
-                  '.MuiPaper-root': {
-                    bgcolor: 'white',
-                    color: '#745B4F',
-                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                    borderRadius: '8px',
-                  },
-                  '.MuiMenuItem-root': {
-                    fontFamily: 'GFS Didot, sans-serif',
-                    fontSize: '1rem',
-                    '&:hover': {
-                      bgcolor: 'transparent',
-                    },
-                  },
-                }}
-              >
-                {tutorialOptions.map((option) => (
-                  <MenuItem key={option.name} onClick={handleCloseTutorialsMenu} component={Link} to={option.path} sx={{ '&:hover': { bgcolor: 'transparent' } }}>
-                    {option.name}
-                  </MenuItem>
-                ))}
-              </Menu>
-              <Button
                 aria-controls="shop-menu"
                 aria-haspopup="true"
                 onClick={handleOpenShopMenu}
@@ -340,7 +386,7 @@ function ResponsiveAppBar() {
                   }
                 }}
               >
-                Shop
+                Style
               </Button>
               <Menu
                 id="shop-menu"
@@ -388,16 +434,16 @@ function ResponsiveAppBar() {
                 sx={{
                   backgroundColor: 'black',
                   color: 'white',
-                  borderRadius: '3px',
+                  borderRadius: '5px',
                   width: '100%',
                   fontFamily: 'GFS Didot, serif',
                   padding: '0.75rem', // Half the padding of the original button
                   fontSize: '1rem', // Smaller font size
                   '&:hover': {
-                    backgroundColor: 'black',
+                    backgroundColor: '#fdedef',
                     color: '#745B4F',
                   },
-                  marginRight: '1rem', // Add some margin to the right
+                  marginRight: '2rem', // Add some margin to the right
                 }}
               >
                 Subscribe
