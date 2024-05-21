@@ -40,7 +40,16 @@ const bench = `${process.env.PUBLIC_URL}/Images/About/FanArt/bench.png`;
 
 
 const galleryImages = [
-
+  {
+    src: image12,
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌navasy",
+  },
+  {
+    src: image13,
+    alt: "Jackie Wyers Fan Art Gallery Image",
+    caption: "@‌navasy",
+  },
   {
     src: image3,
     alt: "PURPLE PORTAIT",
@@ -87,16 +96,7 @@ const galleryImages = [
     alt: "Jackie Wyers Fan Art Gallery Image",
     caption: "@‌faithquinn.art",
   },
-  {
-    src: image12,
-    alt: "Jackie Wyers Fan Art Gallery Image",
-    caption: "@‌navasy",
-  },
-  {
-    src: image13,
-    alt: "Jackie Wyers Fan Art Gallery Image",
-    caption: "@‌navasy",
-  },
+
   {
     src: image14,
     alt: "Jackie Wyers Fan Art Gallery Image",

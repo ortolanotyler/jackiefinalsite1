@@ -9,6 +9,7 @@ for (let i = 1; i <= 20; i++) {
 const BrandCarousel = () => {
   // Inline styles
   const carouselStyle = {
+    marginTop: '30px',
     overflow: 'hidden',
     whiteSpace: 'nowrap',
   };

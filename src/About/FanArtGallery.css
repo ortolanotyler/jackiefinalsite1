@@ -65,11 +65,11 @@ body {
   overflow: hidden;
   position: absolute;
   left: calc(100% + 20px);
-  top: 50%;
-
+  top: 80%;
+  border : 0.1px solid #745B4F;
   transform: translateY(-50%);
-  background-color: #fff;
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  background-color: #fdedef;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
   font-size: 12px;
   color: black;
   z-index: 10;
@@ -78,7 +78,7 @@ body {
 
 #bench-container {
   position: relative;
-  margin-top: -2rem;
+  margin-top: -5rem;
 }
 
 #bench {
@@ -100,13 +100,13 @@ body {
   border: none;
   cursor: pointer;
   color: #745B4F;
-  gap: 2rem;
+  gap: 20px;
   font-size: 48px;
-  max-width: 200px;
+  max-width: 300px;
 }
 
 #nav .prev:hover, #nav .next:hover {
-  color: #3B6D77;
+  color: #fdedef;
 }
 
 /* Responsive Design Adjustments */
