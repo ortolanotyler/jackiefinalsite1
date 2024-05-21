@@ -1,9 +1,10 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import '../../ExampleTutorial.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import ResponsiveIframe from '../../../Components/ResponsiveIframe';
+import TextReveal from '../../../Components/TextReveal';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
+import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 const Sophia1 = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenTitle.png`;
@@ -12,74 +13,67 @@ const SophiaFace = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/Sophia
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-    <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-        <div className="blog-content" style={{ lineHeight: '1.5' }}>{blogContent}</div>
+    <div>
+        <div><TextReveal text='TIME TRAVEL TUTORIALS' /></div>
+        <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+            <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+        </div>
     </div>
 );
 
 const SophiaLorenPost = () => {
+    const websiteId = '10910';
     const blogRef = useRef(null);
-
-    useEffect(() => {
-        const script = document.createElement('script');
-        script.src = "//www.instagram.com/embed.js";
-        script.async = true;
-        document.body.appendChild(script);
-
-        script.onload = () => {
-            if (window.instgrm) {
-                window.instgrm.Embeds.process();
-            }
-        };
-    }, []);
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '2.5rem',
+        fontSize: '2.75rem',
         fontWeight: 'normal',
-        fontFamily: 'Arapey, sans-serif',
-        color: 'black',
-        margin: '2.5rem 0'
+        fontFamily: 'GFS Didot, serif',
+        color: '#333',
+        marginTop: '0.95rem',
+        marginBottom: '0.95rem'
     };
 
     const paragraphStyle = {
-        fontSize: '1.5rem',
+        fontSize: '21px',
         fontFamily: 'GFS Didot, serif',
-        margin: '1rem',
+        margin: '5rem',
+        marginTop: '3rem',
+        marginBottom: '3rem',
         maxWidth: '100%',
-        color: 'black',
-        textAlign: 'justify'
+        lineHeight: '1.5em'
     };
 
     const imageStyle = {
         display: 'block',
         margin: '0 auto',
         maxWidth: '100%',
-        maxHeight: '1000px',
-        objectFit: 'cover'
+        maxHeight: '900px',
+        objectFit: 'cover',
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '20rem' }}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // TIME TRAVEL TUTORIALS
                 </a>
             </div>
-            
-            <img src={Sophia1} alt="Sophia Loren in Arabesque" style={imageStyle} />
 
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src={Sophia1} alt="Sophia Loren in Arabesque" style={imageStyle} />
+            </div>
 
-          
             <ResponsiveYoutube src="https://www.youtube.com/embed/o8_dfwGNXAc?si=q2_GxBp3sClXnUUB" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
 
-<div style={{ marginTop: '2rem',display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-  <SubscribeButton />
-</div>
-<p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
-                    All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-                </p>
+            <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <SubscribeButton />
+            </div>
 
+            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+            </p>
 
             <DropCap text="Welcome back to my favorite series, Time Travel Tutorials, where we delve into the glamorous world of beauty icons from the past. Today's spotlight is on the mesmerizing Italian beauty, Sophia Loren. Born on September 20th, 1934, in Rome, Italy, Sophia Loren is a megastar in both Hollywood and Italian cinema. Her career, spanning over six decades, is a testament to her immense talent, charisma, and iconic makeup style, which continues to inspire admiration (and imitation) today." />
 
@@ -87,7 +81,9 @@ const SophiaLorenPost = () => {
                 In this tutorial, we'll explore a timeless look inspired by her iconic pink towel scene in "Arabesque." My goal is to inspire you with the best modern products that capture the vintage charm of Loren's era, making it possible for you to recreate this look. If you decide to give this tutorial a try, please be sure to tag me or send a photo to be featured on the blog! I'd love to see you in this glamorous style.
             </p>
 
-            <img src={Sophia2} alt="Sophia Loren's iconic look" style={imageStyle} />
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src={Sophia2} alt="Sophia Loren's iconic look" style={imageStyle} />
+            </div>
 
             <h2 style={headingStyle}>The Essence of Sophia Loren’s Iconic Makeup</h2>
 
@@ -199,17 +195,15 @@ const SophiaLorenPost = () => {
             <div style={{ textAlign: 'center' }}>
                 <img src={Signature} alt="Signature" style={{ width: '100%', height: 'auto' }} />
             </div>
-            <Comments website-id={'10910'} page-id={"Sophia-Loren"} />
+
+            <Comments website-id={websiteId} page-id={"Sophia-Loren"} />
 
         </div>
     );
 
     return (
-        <div>
-            <div ref={blogRef}>
-                <Card blogContent={blogContent} />
-            </div>
-         
+        <div ref={blogRef}>
+            <Card blogContent={blogContent} />
         </div>
     );
 };

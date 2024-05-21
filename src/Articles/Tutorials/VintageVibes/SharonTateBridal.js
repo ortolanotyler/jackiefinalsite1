@@ -7,7 +7,7 @@ import TextReveal from '../../../Components/TextReveal';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
-const Sharon1 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SharonBridalTitle.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SharonBridalTitle.png`;
 const Sharon2 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SharonBridalDouble.png`;
 const SharonFace = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEFILLEDINFACECHART.jpg`;
 const Sharon16 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SharonBridalInstagram.png`;
@@ -20,74 +20,62 @@ const images = [
 ];
 
 const Card = ({ blogContent }) => (
-    <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: '#fff', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-        <div className="blog-content" style={{ lineHeight: '1.5' }}>{blogContent}</div>
+    <div>
+        <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+            <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+        </div>
     </div>
 );
 
 const SharonTatePost = () => {
-    const websiteId = "10910";
+    const websiteId = '10910';
     const blogRef = useRef(null);
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '2.5rem',
+        fontSize: '2.75rem',
         fontWeight: 'normal',
-        fontFamily: 'Arapey, serif',
-        color: 'black',
-        margin: '2.5rem 0'
+        fontFamily: 'GFS Didot, serif',
+        color: '#333',
+        marginTop: '0.95rem',
+        marginBottom: '0.95rem'
     };
 
     const paragraphStyle = {
-        fontSize: '1.5rem',
+        fontSize: '21px',
         fontFamily: 'GFS Didot, serif',
-        margin: '1rem',
+        margin: '5rem',
+        marginTop: '3rem',
+        marginBottom: '3rem',
         maxWidth: '100%',
-        color: 'black',
-        textAlign: 'justify'
+        lineHeight: '1.5em'
     };
 
     const imageStyle = {
         display: 'block',
         margin: '0 auto',
         maxWidth: '100%',
-        width: '100%',
-        maxHeight: '1000px',
-        objectFit: 'cover'
-    };
-
-    const gridStyle = {
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
-        gap: '1rem',
-        margin: '1rem'
-    };
-
-    const flexStyle = {
-        display: 'flex',
-        justifyContent: 'space-between',
-        gap: '1rem',
-        margin: '1rem 0'
+        maxHeight: '900px',
+        objectFit: 'cover',
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.5em', maxWidth: '100%', margin: '20rem' }}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // TIME TRAVEL TUTORIALS
                 </a>
             </div>
             
-            <img src={Sharon1} alt="Sharon Tate in a promotional " style={imageStyle} />
-
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <img src={title} alt="Sharon Tate in a promotional " style={imageStyle} />
+            </div>
 
             <ResponsiveYoutube src="https://www.youtube.com/embed/y0vHs6pRC3Y?si=LJlIhHJgDm0pehAu" title="Sharon Tate Iconic 60's Bridal Makeup Tutorial" />
 
 <div style={{ marginTop: '2rem',display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
   <SubscribeButton />
 </div>
-
-       
 
             <div>
                 <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>

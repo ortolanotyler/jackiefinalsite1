@@ -8,85 +8,82 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 
-const Balke1 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeTitle.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeTitle.png`;
 const Balke2 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeDouble.png`;
 const Balke3 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeFaceChart.jpg`;
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
+
 const Card = ({ blogContent }) => (
     <div>
-        <div><TextReveal text='TIME TRAVEL TUTORIALS'/></div>
-        <div className="card" style={{  maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-            <div className="blog-content" >{blogContent}</div>
+        <div><TextReveal text='TIME TRAVEL TUTORIALS' /></div>
+        <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+            <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
         </div>
     </div>
 );
 
 const BalkeBlog = () => {
-    const websiteId = "10910";
+    const websiteId = '10910';
+
 
     const headingStyle = {
-        textAlign : 'center',
-        fontSize: '3rem',
+        textAlign: 'center',
+        fontSize: '2.75rem',
         fontWeight: 'normal',
-        fontFamily: 'Arapey, serif',
+        fontFamily: 'GFS Didot, serif',
         color: '#333',
-        margin: '3.5rem',
-        marginTop: '2rem', 
-        marginBottom: '2rem'
-      };
-    
-    
-      const paragraphStyle = {
-        fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '5rem', maxWidth: '90%', marginTop: '1rem', marginBottom: '2.75rem', lineHeight:'1.75em'
-      };
+        marginTop: '0.95rem',
+        marginBottom: '0.95rem'
+    };
 
-    
+    const paragraphStyle = {
+        fontSize: '21px',
+        fontFamily: 'GFS Didot, serif',
+        margin: '5rem',
+        marginTop: '3rem',
+        marginBottom: '3rem',
+        maxWidth: '100%',
+        lineHeight: '1.5em'
+    };
+
+    const imageStyle = {
+        display: 'block',
+        margin: '0 auto',
+        maxWidth: '100%',
+        maxHeight: '900px',
+        objectFit: 'cover',
+    };
+
+    const smallImageStyle = {
+        display: 'block',
+        margin: '0 1rem 1rem 0',
+        float: 'left',
+        maxWidth: '40%',
+        height: 'auto'
+    };
 
     const blogContent = (
-
-      
-       
-        <div className="container" style={{ lineHeight: '2.5rem', margin: '20rem', marginTop: '5rem' }}>
-        
-        <div
-        style = {{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            height: '10vh'
-        }}
-        >
-               <a href="/timetraveltutorials" style={{ justifyContent: 'center',fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-          BEAUTY // TIME TRAVEL TUTORIALS
-        </a>
-   
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
+                <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+                    BEAUTY // TIME TRAVEL TUTORIALS
+                </a>
             </div>
-            
-         
 
-   
-     
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
+            </div>
 
-                    <img src={Balke1} alt='Barbie and Ken' style={{ width: '100%' }} />
-                    <ResponsiveYoutube src="https://www.youtube.com/embed/7HoL0rVmZHI?si=__Llh9tI2-K62uRQ" title="Sugar Plum Fairy Tutorial on Youtube - Jackie Wyers" />
+            <ResponsiveYoutube src="https://www.youtube.com/embed/7HoL0rVmZHI?si=__Llh9tI2-K62uRQ" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
 
+            <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <SubscribeButton />
+            </div>
 
-
-             
-                   <div
-                   style = {{
-                    marginTop: '2rem',
-                   justifyContent: 'center',
-                   textAlign: 'center',
-                   }}
-                   >
-                   <SubscribeButton />
-
-                <p style={{ justifyContent: 'center',fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-                    All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-                </p>
-                    </div>
+            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+            </p>
            
 
 <p style = {paragraphStyle} >

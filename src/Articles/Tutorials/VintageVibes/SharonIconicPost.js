@@ -5,8 +5,9 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
+import TextReveal from '../../../Components/TextReveal';
 
-const Sharon1 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/IconicTitle.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/IconicTitle.png`;
 const Sharon2 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/JackieAsSharon.jpg`;
 const Sharon3 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/SharonTateFaceChart.png`;
 const eyes = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/SharonTateEyeInspiration.png`;
@@ -20,44 +21,47 @@ const images = [
     { src: Recollection, alt: "Sharon Tate Recollection" }
 ];
 
+
+
 const Card = ({ blogContent }) => (
-    <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-        <div className="blog-content" style={{ lineHeight: '1.5' }}>{blogContent}</div>
+    <div>
+        <div><TextReveal text='TIME TRAVEL TUTORIALS' /></div>
+        <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+            <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+        </div>
     </div>
 );
 
 const SharonIconicPost = () => {
+    const websiteId = '10910';
     const blogRef = useRef(null);
-
-    useEffect(() => {
-        // Placeholder for any DOM manipulations
-    }, []);
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '2.5rem',
+        fontSize: '2.75rem',
         fontWeight: 'normal',
-        fontFamily: 'Arapey, serif',
-        color: 'black',
-        margin: '2.5rem 0'
+        fontFamily: 'GFS Didot, serif',
+        color: '#333',
+        marginTop: '0.95rem',
+        marginBottom: '0.95rem'
     };
 
     const paragraphStyle = {
-        fontSize: '1.5rem',
+        fontSize: '21px',
         fontFamily: 'GFS Didot, serif',
-        margin: '2.5rem',
+        margin: '5rem',
+        marginTop: '3rem',
+        marginBottom: '3rem',
         maxWidth: '100%',
-        color: 'black',
-        textAlign: 'justify'
+        lineHeight: '1.5em'
     };
 
     const imageStyle = {
         display: 'block',
         margin: '0 auto',
         maxWidth: '100%',
-        width: '100%',
-        maxHeight: '1000px',
-        objectFit: 'cover'
+        maxHeight: '900px',
+        objectFit: 'cover',
     };
 
     const smallImageStyle = {
@@ -69,27 +73,26 @@ const SharonIconicPost = () => {
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.5em', maxWidth: '100%', margin: '20rem', marginTop: '7rem' }}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // TIME TRAVEL TUTORIALS
                 </a>
             </div>
 
-            <img src={Sharon1} alt='Sharon Tate - Time Travel Tutorials' style={imageStyle} />
-
-
-            <ResponsiveYoutube src="https://www.youtube.com/embed/t1jJtpsxes4?si=sHOkPYVUOvEbXk2m" title="Sharon Tate Iconic 60's Makeup Tutorial" />
-
-<div style={{ marginTop: '2rem',display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-  <SubscribeButton />
-</div>
-
-            <div>
-                <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
-                    All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-                </p>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
             </div>
+
+            <ResponsiveYoutube src="https://www.youtube.com/embed/t1jJtpsxes4?si=sHOkPYVUOvEbXk2m" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
+
+            <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <SubscribeButton />
+            </div>
+
+            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+            </p>
 
             <DropCap text="Welcome back to another installment of Time Travel Tutorials, this time featuring the iconic '60s figure, Sharon Tate. A promising actress and model of the 1960s, Tate was celebrated for her roles in films like 'Valley of the Dolls', captivating audiences with her talent and ethereal beauty. Her tragic and untimely death solidified her status as an era icon, profoundly influencing pop culture, fashion, and beauty standards of the 1960s. Let's celebrate the beautiful Sharon Tate by emulating her signature style, which remains influential today." />
 

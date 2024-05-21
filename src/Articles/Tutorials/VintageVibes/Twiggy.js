@@ -15,50 +15,49 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const yardley = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonAd.jpg`;
 
 const Card = ({ blogContent }) => (
-    <div>
-        <div><TextReveal text='TIME TRAVEL TUTORIALS' /></div>
-        <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-            <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
-        </div>
-    </div>
+  <div>
+      <div><TextReveal text='TIME TRAVEL TUTORIALS' /></div>
+      <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+          <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+      </div>
+  </div>
 );
 
 const TwiggyBlog = () => {
-    const websiteId = '10910';
-    const blogRef = useRef(null);
+  const websiteId = '10910';
+  const blogRef = useRef(null);
 
-    const headingStyle = {
-        textAlign: 'center',
-        fontSize: '2.75rem',
-        fontWeight: 'normal',
-        fontFamily: 'GFS Didot, serif',
-        color: '#333',
-   
-        marginTop: '0.95rem',
-        marginBottom: '0.95rem'
-    };
+  const headingStyle = {
+      textAlign: 'center',
+      fontSize: '2.75rem',
+      fontWeight: 'normal',
+      fontFamily: 'GFS Didot, serif',
+      color: '#333',
+      marginTop: '0.95rem',
+      marginBottom: '0.95rem'
+  };
 
-    const paragraphStyle = {
-        fontSize: '21px',
-        fontFamily: 'GFS Didot, serif',
-        marginTop: '3rem',
-        marginBottom: '3rem',
-        margin: '6em',
-        maxWidth: '100%',
-        lineHeight: '1.5em'
-    };
+  const paragraphStyle = {
+      fontSize: '21px',
+      fontFamily: 'GFS Didot, serif',
+      margin: '5rem',
+      marginTop: '3rem',
+      marginBottom: '3rem',
+      maxWidth: '100%',
+      lineHeight: '1.5em'
+  };
 
-    const imageStyle = {
-        display: 'block',
-        margin: '0 auto',
-        maxWidth: '100%',
-        maxHeight: '900px',
-        objectFit: 'cover',
-     
-    };
+  const imageStyle = {
+      display: 'block',
+      margin: '0 auto',
+      maxWidth: '100%',
+      maxHeight: '900px',
+      objectFit: 'cover',
+  };
+
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5rem' }}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // TIME TRAVEL TUTORIALS
@@ -128,12 +127,11 @@ const TwiggyBlog = () => {
 
             <p style={paragraphStyle}>
                 To further achieve the Twiggy-inspired 'doll skin', I turn to the reformulated Anna Sui Loose Face Powder. Available in lavender and pink—shades famed for their brightening effects—I chose lavender to enhance my complexion. The powder, housed in a sleek compact or an elegant, limited-edition black case, echoes vintage and Gothic elegance that would make a statement on any vanity.
-            </p>
-
-            <p style={paragraphStyle}>
                 Not only does this powder promise a smooth, doll-like finish, it’s crafted with tone control pearls to add luster and counteract dullness. With a few sweeps, it works to blur imperfections and conceal pores, maintaining skin's natural luminosity without a heavy makeup look. Plus, the joy of using the plush powder puff adds a touch of vintage glam to the routine. Available on Amazon, this powder is a transformative step, ensuring a polished and radiant finish, as you can see in my before and after—it's light, non-cakey, and keeps the skin looking hydrated and smooth. More of a pressed powder girl? Try the stunning Anna Sui Rose Pressed Powder, also in lavender or pink.
+
             </p>
 
+           
             <ResponsiveIframe src="https://shopmy.us/collections/public/551123?noHeader=true" title="Brightening Powder - Ana Sui" />
 
             <h2 style={headingStyle}>The Twiggy Eyeshadow Look: The First Steps</h2>
