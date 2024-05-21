@@ -6,6 +6,7 @@ import TextReveal from '../../Components/TextReveal';
 import DropCap from '../../Components/DropCap';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
+import SubscribeVlog from '../../Components/SubscribeVlog';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/AndazTitle.png`;
 
@@ -40,65 +41,86 @@ const images = [
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-    <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-        <div className="blog-content">{blogContent}</div>
-    </div>
+    
+       
+        <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+            <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+        </div>
+    
 );
 
 const AndazMauiReview = () => {
+    const websiteId = '10910';
     const blogRef = useRef(null);
-    const websiteId = "10910";
+
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '3rem',
+        fontSize: '2.75rem',
         fontWeight: 'normal',
-        fontFamily: 'Arapey, serif',
-        color: 'black',
-        margin: '2.5rem'
+        fontFamily: 'GFS Didot, serif',
+        color: '#333',
+        marginTop: '0.95rem',
+        marginBottom: '0.95rem'
     };
 
     const paragraphStyle = {
-        fontSize: '1.5rem',
+        fontSize: '21px',
         fontFamily: 'GFS Didot, serif',
         margin: '5rem',
+        marginTop: '3rem',
+        marginBottom: '3rem',
         maxWidth: '100%',
-        color: 'black'
+        lineHeight: '1.5em'
     };
 
     const imageStyle = {
         display: 'block',
         margin: '0 auto',
         maxWidth: '100%',
-        maxBlockSize: '700px',
-        width: 'auto'
+        maxHeight: '900px',
+        objectFit: 'cover',
     };
 
+    const smallImageStyle = {
+        display: 'block',
+        margin: '0 1rem 1rem 0',
+        float: 'left',
+        maxWidth: '40%',
+        height: 'auto'
+    };
     const gridContainerStyle = {
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-        gap: '10px'
+        gridTemplateColumns: '1fr 1fr',
+        gap: '1rem',
+        width: '100%'
+    };
+
+    const gridItemStyle = {
+        width: '100%',
+        height: 'auto'
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.25em', maxWidth: '100vw', justifyContent: 'center', margin: '20rem' }}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-                    TRAVEL // UNITED STATES // HAWAII
+                    TRAVEL // HOTEL REVIEWS
                 </a>
             </div>
-            <img src={title} alt="Andaz Maui Resort Title" style={{ width: '100%' }} />
-            
-            
-            
+
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
+            </div>
+
             <ResponsiveYoutube src="https://www.youtube.com/embed/ec7hauzrWWk?si=YpA6V8we20uEB1Kr" title="YouTube video player" />
 
-            <div style={{ marginTop:'2rem',justifyContent: 'center', textAlign: 'center', display: 'flex' }}>
-                <SubscribeButton />
+            <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <SubscribeVlog />
             </div>
-            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', textAlign: 'center', fontStyle: 'italic' }}>
-                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-            </p>
+            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+              All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+          </p>
             <DropCap text="Welcome back as we reminisce about the stunning Andaz Maui at Wailea Resort in Hawaii. This trip not only showcased pristine beaches and exquisite hotel amenities but also created unforgettable memories with my best friend Lauren and the amazing team from Benefit Cosmetics Canada." />
 
             <h2 style={headingStyle}>🌴 First Impressions and Ambiance</h2>

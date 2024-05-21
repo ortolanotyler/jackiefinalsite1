@@ -29,69 +29,86 @@ const image19 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot19.
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-    <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: '#fff', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-        <div className="blog-content">{blogContent}</div>
-    </div>
+    
+ 
+        <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+            <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+        </div>
+    
 );
 
 const Disney2Post = () => {
-    const websiteId = "10910"; 
+    const websiteId = '10910';
     const blogRef = useRef(null);
-  
-    useEffect(() => {
-        modifyanchortags(blogRef.current);
-    }, []);
+
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '2.5rem',
+        fontSize: '2.75rem',
         fontWeight: 'normal',
-        fontFamily: 'Arapey, serif',
-        color: 'black',
-        margin: '2.5rem 0'
+        fontFamily: 'GFS Didot, serif',
+        color: '#333',
+        marginTop: '0.95rem',
+        marginBottom: '0.95rem'
     };
 
     const paragraphStyle = {
-        fontSize: '1.5rem',
+        fontSize: '21px',
         fontFamily: 'GFS Didot, serif',
-        margin: '1em',
+        margin: '5rem',
+        marginTop: '3rem',
+        marginBottom: '3rem',
         maxWidth: '100%',
-        color: 'black',
-        textAlign: 'justify'
+        lineHeight: '1.5em'
     };
 
     const imageStyle = {
         display: 'block',
         margin: '0 auto',
         maxWidth: '100%',
-        maxBlockSize: '800px',
-        width: 'auto'
+        maxHeight: '900px',
+        objectFit: 'cover',
+    };
+
+    const smallImageStyle = {
+        display: 'block',
+        margin: '0 1rem 1rem 0',
+        float: 'left',
+        maxWidth: '40%',
+        height: 'auto'
+    };
+    const gridContainerStyle = {
+        display: 'grid',
+        gridTemplateColumns: '1fr 1fr',
+        gap: '1rem',
+        width: '100%'
+    };
+
+    const gridItemStyle = {
+        width: '100%',
+        height: 'auto'
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.25em', margin: '15rem', maxWidth: '100%' }}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-                    TRAVEL // FLORIDA // DISNEY WORLD
+                    TRAVEL // ITINERARIES
                 </a>
             </div>
-            <img src={title} alt='Epcot Title' style={imageStyle} />
 
-            <ResponsiveYoutube src="https://www.youtube.com/embed/XRI-IpWb37E?si=X6l3RAxsPGC_bS88" title="Walt Disney World Trip Review on YouTube" />
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
+            </div>
 
+            <ResponsiveYoutube src="https://www.youtube.com/embed/XRI-IpWb37E?si=X6l3RAxsPGC_bS88" title="YouTube video player" />
 
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', textAlign: 'center' }}>
+            <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <SubscribeVlog />
             </div>
-            <div>
-
-<p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign:'center', fontStyle: 'italic' }}>
-All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-</p>
- </div>
-            <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey', maxWidth: '100%', justifyContent: 'center' }}>
-                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-            </p>
+            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+              All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+          </p>
 
             <p style={paragraphStyle}>
                 <span style={{ color: '#745B4F', float: 'left', fontSize: '5rem', lineHeight: '0.9', marginRight: '0.05em', marginTop: '0.01em' }}>W</span>elcome to part two of my experience at Walt Disney World in 2023! Over in part one, I reviewed Walt Disney's Beach Club Resort but now let’s talk Epcot, Magic Kingdom and Animal Kingdom! My best friend Lauren and I had such an enchanting experience together, and I hope this travel diary of two 20-somethings can help you plan your Disney trip. I don’t have tips about traveling with children, so consider this our adult 3-day guide to Walt Disney World!
@@ -272,7 +289,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
             </p>
 
             <img src={signature} alt='Signature' style={imageStyle} />
-            <Comments website-id={websiteId} pageId={"beachclubresort"} />
+            <Comments website-id={websiteId} pageId={"epcot"} />
 
         </div>
     );
@@ -280,7 +297,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
     return (
         <div>
             <div style={{ width: '100%' }}>
-                <TextReveal text='THE HAPPIEST PLACE ON EARTH' />
+                <TextReveal text='WALT DISNEY WORLD' />
             </div>
             <div ref={blogRef}>
                 <Card

@@ -6,6 +6,8 @@ import SubscribeButton from '../../Components/SubscribeButton';
 import TextReveal from '../../Components/TextReveal';
 import DropCap from '../../Components/DropCap';
 import BookNowButton from '../../Components/BookNowButton';
+import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
+import SubscribeVlog from '../../Components/SubscribeVlog';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/westgatetitle.png`;
 
@@ -28,48 +30,54 @@ const westgate15 = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelRevie
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-    <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-        <div className="blog-content">{blogContent}</div>
-    </div>
-);
-
-const ResponsiveYoutube = ({ src, title }) => (
-    <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000' }}>
-        <iframe
-            src={src}
-            title={title}
-            style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-        />
+    <div>
+        <div><TextReveal text='THE WESTGATE HOTEL - SAN DIEGO' /></div>
+        <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+            <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+        </div>
     </div>
 );
 
 const WestGateHotelBlog = () => {
+    const websiteId = '10910';
     const blogRef = useRef(null);
-    const websiteId = "10910";
 
-    useEffect(() => {
-        const script = document.createElement('script');
-        script.async = true;
-        script.src = "https://www.instagram.com/embed.js";
-        document.body.appendChild(script);
-    }, []);
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '3rem',
+        fontSize: '2.75rem',
         fontWeight: 'normal',
-        fontFamily: 'Arapey, serif',
-        color: 'black',
-        margin: '1.5rem'
+        fontFamily: 'GFS Didot, serif',
+        color: '#333',
+        marginTop: '0.95rem',
+        marginBottom: '0.95rem'
     };
 
     const paragraphStyle = {
-        fontSize: '1.5rem', fontFamily: 'GFS Didot, serif',  margin: '2.5rem', maxWidth: '100%', color: 'black'
+        fontSize: '21px',
+        fontFamily: 'GFS Didot, serif',
+        margin: '5rem',
+        marginTop: '3rem',
+        marginBottom: '3rem',
+        maxWidth: '100%',
+        lineHeight: '1.5em'
     };
 
+    const imageStyle = {
+        display: 'block',
+        margin: '0 auto',
+        maxWidth: '100%',
+        maxHeight: '900px',
+        objectFit: 'cover',
+    };
+
+    const smallImageStyle = {
+        display: 'block',
+        margin: '0 1rem 1rem 0',
+        float: 'left',
+        maxWidth: '40%',
+        height: 'auto'
+    };
     const gridContainerStyle = {
         display: 'grid',
         gridTemplateColumns: '1fr 1fr',
@@ -83,20 +91,25 @@ const WestGateHotelBlog = () => {
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.25em', maxWidth: '100vw', justifyContent: 'center', margin : '20rem'}}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-                    TRAVEL // UNITED STATES // CALIFORNIA
+                    TRAVEL // HOTEL REVIEWS
                 </a>
             </div>
-            <img src={title} alt="Mont Tremblant Top View" style={{ width: '100%' }} />
-            <ResponsiveYoutube src="https://www.youtube.com/embed/H1VUDOqCo3s?si=Ej5ug_TV3qatoDOk" title="YouTube video player" />
-            <div style={{ justifyContent: 'center', textAlign: 'center', display: 'flex' }}>
-                <SubscribeButton />
+
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
             </div>
-            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', textAlign: 'center', fontStyle: 'italic' }}>
-                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-            </p>
+
+            <ResponsiveYoutube src="https://www.youtube.com/embed/H1VUDOqCo3s?si=Ej5ug_TV3qatoDOk" title="YouTube video player" />
+
+            <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <SubscribeVlog />
+            </div>
+            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+              All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+          </p>
             <DropCap text="Hello, lovely viewers! Today, I’m excited to share my enchanting experience at the Westgate Hotel in San Diego, where Tyler and I indulged in the luxuriously themed Westgate's Whistledown Tea and Package. This Bridgerton-inspired getaway was filled with regal elegance, featuring Chandon champagne, delightful macarons, and an atmosphere so richly detailed, it felt as if we had stepped straight into the series itself."/>
             <h2 style={headingStyle}> First Impressions and Ambiance </h2>
             <p style={ paragraphStyle} >
@@ -194,7 +207,6 @@ const WestGateHotelBlog = () => {
 
     return (
         <div>
-            <TextReveal text='SAN DIEGO' />
             <div ref={blogRef}>
                 <Card blogContent={blogContent} />
             </div>

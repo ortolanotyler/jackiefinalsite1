@@ -8,7 +8,7 @@ import DropCap from '../../Components/DropCap';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 
-const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclubtitle.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclubtitle.png`;
 const beachclub1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub1.png`;
 const beachclub2 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub2.png`;
 const beachclub3 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub3.png`;
@@ -22,70 +22,86 @@ const beachclub10 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/signature.png`;
 
 const Card = ({ blogContent }) => (
-    <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: '#fff', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-        <div className="blog-content" style={{ lineHeight: '1.3' }}>{blogContent}</div>
+    <div>
+       
+        <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+            <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+        </div>
     </div>
 );
 
 const Disney2Post = () => {
-    const websiteId = "10910"; 
+    const websiteId = '10910';
     const blogRef = useRef(null);
-  
-    useEffect(() => {
-      modifyanchortags(blogRef.current);
-    }, []);
+
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '2.5rem',
+        fontSize: '2.75rem',
         fontWeight: 'normal',
-        fontFamily: 'Arapey, serif',
-        color: 'black',
-        margin: '2.5rem 0'
+        fontFamily: 'GFS Didot, serif',
+        color: '#333',
+        marginTop: '0.95rem',
+        marginBottom: '0.95rem'
     };
 
     const paragraphStyle = {
-        fontSize: '1.5rem',
+        fontSize: '21px',
         fontFamily: 'GFS Didot, serif',
-        margin: '1em',
+        margin: '5rem',
+        marginTop: '3rem',
+        marginBottom: '3rem',
         maxWidth: '100%',
-        color: 'black',
-        textAlign: 'justify'
+        lineHeight: '1.5em'
     };
 
     const imageStyle = {
         display: 'block',
-        margin: '1',
+        margin: '0 auto',
         maxWidth: '100%',
-        maxBlockSize: '800px',
-        width: 'auto'
+        maxHeight: '900px',
+        objectFit: 'cover',
+    };
+
+    const smallImageStyle = {
+        display: 'block',
+        margin: '0 1rem 1rem 0',
+        float: 'left',
+        maxWidth: '40%',
+        height: 'auto'
+    };
+    const gridContainerStyle = {
+        display: 'grid',
+        gridTemplateColumns: '1fr 1fr',
+        gap: '1rem',
+        width: '100%'
+    };
+
+    const gridItemStyle = {
+        width: '100%',
+        height: 'auto'
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '1.75rem', maxWidth: '100%', margin: '20rem' }}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5rem' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-                    TRAVEL // FLORIDA // DISNEY WORLD
+                    TRAVEL // HOTEL REVIEWS
                 </a>
             </div>
 
-            <img src={image1} alt='Beach Club Title' style={imageStyle} />
-
-            <ResponsiveYoutube src="https://www.youtube.com/embed/XRI-IpWb37E?si=X6l3RAxsPGC_bS88" title="Walt Disney World Beach Club Resort on YouTube" />
-
-
-
-                <div style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '2rem' }}>
-            <SubscribeVlog />
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
             </div>
 
+            <ResponsiveYoutube src="https://www.youtube.com/embed/XRI-IpWb37E?si=X6l3RAxsPGC_bS88" title="YouTube video player" />
 
-            <div>
-
-<p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign:'center', fontStyle: 'italic' }}>
-All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-</p>
- </div>
+            <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <SubscribeVlog />
+            </div>
+            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+              All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+          </p>
 
                  <DropCap text = "Welcome to Part One of my magical recap of an unforgettable time at Walt Disney World, FL in 2023. My best friend Lauren and I chose Disney's Beach Club Resort for our stay, marking her first visit and my first return since 2002. This article focuses on our resort experience, offering a glimpse into the luxury and leisure that awaited us at this colonial resort and why we chose to book!"/>
 

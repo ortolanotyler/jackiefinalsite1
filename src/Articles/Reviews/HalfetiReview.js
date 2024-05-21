@@ -4,55 +4,76 @@ import './ExampleTutorial.css';
 import TextReveal from '../../Components/TextReveal';
 import DropCap from '../../Components/DropCap';
 
-const halfeti1 = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/halfetititle.png`;
-const halfeti2 = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/Halfeti1.jpg`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/halfetititle.png`;
+const halfeti1 = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/Halfeti1.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
-const Card = ({ title, description, blogContent }) => {
-    return (
-        <div>
-            <div><TextReveal text={title} /></div>
-            <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-                <div className="blog-content" style={{ lineHeight: '1.2' }}>
-                    {blogContent}
-                </div>
-            </div>
+const Card = ({ blogContent }) => (
+    <div>
+        <div><TextReveal text='PERFUME PROFILE' /></div>
+        <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+            <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
         </div>
-    );
-};
+    </div>
+);
 
 const HalfetiReview = () => {
-    const websiteId = "10910";
+    const websiteId = '10910';
     const blogRef = useRef(null);
+
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '2.5rem',
+        fontSize: '2.75rem',
         fontWeight: 'normal',
-        fontFamily: 'Arapey, serif',
+        fontFamily: 'GFS Didot, serif',
         color: '#333',
-        margin: '2rem'
+        marginTop: '0.95rem',
+        marginBottom: '0.95rem'
     };
 
     const paragraphStyle = {
-        fontSize: '1.5rem',
+        fontSize: '21px',
         fontFamily: 'GFS Didot, serif',
-        margin: '2rem',
+        margin: '5rem',
+        marginTop: '3rem',
+        marginBottom: '3rem',
         maxWidth: '100%',
-        padding: '1rem',
-        lineHeight: '1.75'
+        lineHeight: '1.5em'
+    };
+
+    const imageStyle = {
+        display: 'block',
+        margin: '0 auto',
+        maxWidth: '100%',
+        maxHeight: '900px',
+        objectFit: 'cover',
+    };
+
+    const smallImageStyle = {
+        display: 'block',
+        margin: '0 1rem 1rem 0',
+        float: 'left',
+        maxWidth: '40%',
+        height: 'auto'
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.5em', margin: '20em', marginTop: '25px' }}>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5rem' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-                    BEAUTY // REVIEWS // FRAGRANCES
+                    BEAUTY // REVIEWS
                 </a>
             </div>
+
+
+
+            <img src={title} alt="Halfeti Perfume 1" style={{ width: '100%' }} />
+
             <img src={halfeti1} alt="Halfeti Perfume 1" style={{ width: '100%' }} />
-         
-            
+            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+            </p>
             <DropCap text="Halfeti by Penhaligon's is an aromatic voyage to the exotic trade routes of the East, capturing the essence of the rare black roses of Halfeti, Turkey. It's an opulent and heady scent that exudes luxury and mystery." />
             
             <h2 style={headingStyle}>Perfume Information</h2>
@@ -62,14 +83,15 @@ const HalfetiReview = () => {
                 Brand: Penhaligon's<br /><br />
                 Perfumers: Christian Provenzano<br />
             </div>
-            
+            <br></br>
+            <br></br>
             <h2 style={headingStyle}>Background Information</h2>
             
             <p style={paragraphStyle}>
                 Halfeti by Penhaligon's is an aromatic voyage to the exotic trade routes of the East, capturing the essence of the rare black roses of Halfeti, Turkey. It's an opulent and heady scent that exudes luxury and mystery.
             </p>
             
-            <img src={halfeti2} alt="Halfeti Perfume 2" style={{ width: '100%' }} />
+            <img src={halfeti1} alt="Halfeti Perfume 2" style={{ width: '100%' }} />
             
             <h2 style={headingStyle}>Fragrance Profile</h2>
             

@@ -2,55 +2,84 @@ import React, { useRef } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import './ExampleTutorial.css';
 import TextReveal from '../../Components/TextReveal';
-import SubscribeButton from '../../Components/SubscribeButton';
 import DropCap from '../../Components/DropCap';
 
+
+const jicky1 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky1.jpeg`;
 const jicky2 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky2.jpg`;
-const jicky1 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/JickyTitle.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/JickyTitle.png`;
 const jicky3 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky3.png`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
-const Card = ({ blogContent }) => {
-    return (
-        <div>
-            <div><TextReveal text="JICKY // GUERLAIN" /></div>
-            <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-                <div className="blog-content" style={{ lineHeight: '1.2' }}>{blogContent}</div>
-            </div>
+const Card = ({ blogContent }) => (
+    <div>
+        <div><TextReveal text='PERFUME PROFILE' /></div>
+        <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+            <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
         </div>
-    );
-};
+    </div>
+);
 
 const JickyReview = () => {
-    const websiteId = "10910";
+    const websiteId = '10910';
     const blogRef = useRef(null);
+
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '2.5rem',
+        fontSize: '2.75rem',
         fontWeight: 'normal',
-        fontFamily: 'Arapey, serif',
+        fontFamily: 'GFS Didot, serif',
         color: '#333',
-        margin: '2rem'
+        marginTop: '0.95rem',
+        marginBottom: '0.95rem'
     };
 
     const paragraphStyle = {
-        fontSize: '1.5rem',
+        fontSize: '21px',
         fontFamily: 'GFS Didot, serif',
-        margin: '2rem',
+        margin: '5rem',
+        marginTop: '3rem',
+        marginBottom: '3rem',
         maxWidth: '100%',
-        padding: '1rem',
-        lineHeight: '1.75'
+        lineHeight: '1.5em'
+    };
+
+    const imageStyle = {
+        display: 'block',
+        margin: '0 auto',
+        maxWidth: '100%',
+        maxHeight: '900px',
+        objectFit: 'cover',
+    };
+
+    const smallImageStyle = {
+        display: 'block',
+        margin: '0 1rem 1rem 0',
+        float: 'left',
+        maxWidth: '40%',
+        height: 'auto'
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.5em', margin: '20rem', marginTop: '25px' }}>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5rem' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-                    BEAUTY // REVIEWS // FRAGRANCES
+                    BEAUTY // REVIEWS
                 </a>
             </div>
-            <img src={jicky1} alt="Jicky Perfume 1" style={{ width: '100%' }} />
+
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src={jicky2} alt="Sophia Loren in Arabesque" style={imageStyle} />
+            </div>
+
+
+            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+            </p>
         
             
             <DropCap text="Jicky by Guerlain stands as one of the oldest perfumes in continuous production, a testament to its timeless appeal. Conceived by Aimé Guerlain in the late 19th century, Jicky is a revolutionary fragrance that harmoniously blends the freshness of lavender and citrus with a warm, spicy undertone, making it a precursor to modern perfumery." />
@@ -128,6 +157,8 @@ const JickyReview = () => {
             </p>
             
             <img src={signature} alt="Jicky Signature" style={{ width: '100%' }} />
+            <Comments website-id={websiteId} page-id="jicky" />
+
         </div>
     );
 
@@ -143,7 +174,6 @@ const JickyReview = () => {
                     textAlign: 'left'
                 }}
             />
-            <Comments website-id={websiteId} page-id="jicky" />
         </div>
     );
 };

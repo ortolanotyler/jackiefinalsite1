@@ -8,69 +8,84 @@ import DropCap from '../../../Components/DropCap';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 
-const Victoria1 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSTitle.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSTitle.png`;
 const Victoria2 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VictoriaDouble.png`;
 const Victoria6 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VictoriaFaceChart.png`;
 const VictoriaFinal = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/Victoria2.JPG`;
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
-const Card = ({ blogContent }) => {
-  return (
-    <div>
-      <div><TextReveal text='POP CULTURE OBSESSED'/></div>
+const Card = ({ blogContent }) => (
+  <div>
+      <div><TextReveal text='POP CULTURE OBSESSED' /></div>
       <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-        <div className="blog-content" style={{ lineHeight: '1.2' }}>{blogContent}</div>
+          <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
       </div>
-    </div>
-  );
-};
-
-
+  </div>
+);
 
 const VictoriaSecret = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
-  
 
 
   const headingStyle = {
-    textAlign: 'center',
-    fontSize: '2.5rem',
-    fontWeight: 'normal',
-    fontFamily: 'Arapey, sans-serif',
-    color: '#333',
-    margin: '2rem',
-   
-    marginBottom: '2rem',
-   
+      textAlign: 'center',
+      fontSize: '2.75rem',
+      fontWeight: 'normal',
+      fontFamily: 'GFS Didot, serif',
+      color: '#333',
+      marginTop: '0.95rem',
+      marginBottom: '0.95rem'
   };
 
   const paragraphStyle = {
-    padding: '1rem',fontSize: '1.5rem', fontFamily: 'GFS Didot, serif',  margin: '10rem', maxWidth: '100%', marginTop: '0.75rem', marginBottom: '0.75rem', 
+      fontSize: '21px',
+      fontFamily: 'GFS Didot, serif',
+      margin: '5rem',
+      marginTop: '3rem',
+      marginBottom: '3rem',
+      maxWidth: '100%',
+      lineHeight: '1.5em'
+  };
 
-  }
+  const imageStyle = {
+      display: 'block',
+      margin: '0 auto',
+      maxWidth: '100%',
+      maxHeight: '900px',
+      objectFit: 'cover',
+  };
 
-
+  const smallImageStyle = {
+      display: 'block',
+      margin: '0 1rem 1rem 0',
+      float: 'left',
+      maxWidth: '40%',
+      height: 'auto'
+  };
 
   const blogContent = (
-    <div className="container" style={{ lineHeight: '2.25em', margin: '20rem', marginTop: '0em' }}>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-        <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-          BEAUTY // TRENDS // POP CULTURE
-        </a>
-      </div>
-      <img src={Victoria1} alt="Victoria's Secret Fashion Show 2013" style={{ width: '100%' }} />
-      
-      <ResponsiveYoutube src="https://www.youtube.com/embed/Uz03ReLZO9k?start=3" title="Lana Del Ray X Skims Makeup Tutorial - Jackie Wyers" />
+      <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
+              <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+                  BEAUTY // POP CULTURE 
+              </a>
+          </div>
 
-<div style={{ marginTop: '2rem',display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-  <SubscribeButton />
-</div>
-    
-      
-      <p style={{ textAlign: 'center',fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-        All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-      </p>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
+          </div>
+
+          <ResponsiveYoutube src="https://www.youtube.com/embed/Uz03ReLZO9k?start=3" title="Lana Del Ray X Skims Makeup Tutorial - Jackie Wyers" />
+
+          <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <SubscribeButton />
+          </div>
+
+          <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+              All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+          </p>
+         
 
 <div
 style = {{

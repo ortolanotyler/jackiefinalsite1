@@ -7,59 +7,87 @@ import TextReveal from '../../../Components/TextReveal';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
-const Lana1 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaTitle.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaTitle.png`;
 const Lana2 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/JackieWyersLanaDelReyRecreation.JPG`;
 const lanafacechart = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaaDelReyFaceChart.jpg`;
 const Lana22 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/JackieWithKitties.jpg`;
 const Lana23 = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
-const Card = ({ blogContent }) => {
-  return (
-    <div className="card">
-      <div className="blog-content" style={{ margin: '2rem', lineHeight: '1.5' }}>{blogContent}</div>
-    </div>
-  );
-};
+const Card = ({ blogContent }) => (
+  <div>
+      <div><TextReveal text='POP CULTURE OBSESSED' /></div>
+      <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+          <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+      </div>
+  </div>
+);
 
 const LanaBlog = () => {
+  const websiteId = '10910';
   const blogRef = useRef(null);
-  const websiteId = "10910";
+
 
   const headingStyle = {
-    textAlign: 'center',
-    fontSize: '2.5rem',
-    fontWeight: 'normal',
-    fontFamily: 'Arapey, sans-serif',
-    color: '#333',
-    margin: '2rem 0',
+      textAlign: 'center',
+      fontSize: '2.75rem',
+      fontWeight: 'normal',
+      fontFamily: 'GFS Didot, serif',
+      color: '#333',
+      marginTop: '0.95rem',
+      marginBottom: '0.95rem'
   };
 
   const paragraphStyle = {
-    padding: '1rem',
-    fontSize: '1.5rem',
-    fontFamily: 'GFS Didot, serif',
-    margin: '2rem',
-    maxWidth: '100%',
+      fontSize: '21px',
+      fontFamily: 'GFS Didot, serif',
+      margin: '5rem',
+      marginTop: '3rem',
+      marginBottom: '3rem',
+      maxWidth: '100%',
+      lineHeight: '1.5em'
+  };
+
+  const imageStyle = {
+      display: 'block',
+      margin: '0 auto',
+      maxWidth: '100%',
+      maxHeight: '900px',
+      objectFit: 'cover',
+  };
+
+  const smallImageStyle = {
+      display: 'block',
+      margin: '0 1rem 1rem 0',
+      float: 'left',
+      maxWidth: '40%',
+      height: 'auto'
   };
 
   const blogContent = (
-    <div className="container" style={{ lineHeight: '2.5rem', maxWidth: '100%', marginTop: '20px' }}>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-        <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-          BEAUTY // TRENDS // POP CULTURE
-        </a>
-      </div>
-      <img src={Lana1} alt='Lana Del Rey SKIMS Campaign' style={{ width: '100%' }} />
-      
-      <ResponsiveYoutube src="https://www.youtube.com/embed/9qOTkql3ZHY?si=flnWAs09z00atuiG" title="Lana Del Ray X Skims Makeup Tutorial - Jackie Wyers" />
+      <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
+              <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+                  BEAUTY // POP CULTURE 
+              </a>
+          </div>
 
-<div style={{ marginTop: '2rem',display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-  <SubscribeButton />
-</div>
+              <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
+       
 
-      <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
-        All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-      </p>
+          <ResponsiveYoutube src="https://www.youtube.com/embed/9qOTkql3ZHY?si=flnWAs09z00atuiG" title="Lana Del Ray X Skims Makeup Tutorial - Jackie Wyers" />
+
+          <div style={{  
+            marginTop: '1rem',
+          
+            textAlign: 'right',
+         
+           }}>
+              <SubscribeButton />
+          </div>
+
+          <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+              All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+          </p>
 
       <div className="container" style={{ marginTop: '1rem', margin: '5rem auto', alignContent: 'center', maxWidth: '100%' }}>
         <DropCap text="Welcome back, Beauties! If your Twitter feed is anything like mine, it's filled with photos from Lana Del Rey's new SKIMS campaign for Valentine's Day, plus memes of little girls praying to a photo of Lana above their bed, worshipping their coquette queen. You've got to love the internet! Seriously though, as a fan of Lana Del Rey's entire discography and aesthetic, I was inspired to recreate the campaign pictures and provide a breakdown of an updated Lana Del Rey makeup look." />
@@ -194,10 +222,9 @@ const LanaBlog = () => {
 
   return (
     <div ref={blogRef} style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center' }}>
-      <TextReveal text='TRENDING' />
       <Card
-        title="Margot Robbie's BARBIE Makeup & DIY ‘90s Roller skate Costume!"
-        description="Come on Barbie, Let’s get Glam!"
+        title="SKIMS X Lana Del Rey Makeup Tutorial"
+        description=" Jackie Wyers' Lana Del Rey SKIMS Makeup Tutorial"
         blogContent={blogContent}
       />
     </div>

@@ -8,7 +8,7 @@ import DropCap from '../../Components/DropCap';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 
 const video = `${process.env.PUBLIC_URL}/Videos/1ArcadiaEarth.MOV`;
-const MontTop = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblanttitle.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblanttitle.png`;
 const tremblant1 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant1.png`;
 const tremblant2 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant2.png`;
 const tremblant3 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant3.png`;
@@ -26,51 +26,86 @@ const tremblant14 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tre
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-    <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-        <div className="blog-content">{blogContent}</div>
-    </div>
+    
+     
+        <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+            <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+        </div>
+    
 );
 
 const MontTremblantBlog = () => {
+    const websiteId = '10910';
     const blogRef = useRef(null);
-    const websiteId = "10910";
-
 
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '2.75em',
+        fontSize: '2.75rem',
         fontWeight: 'normal',
-        fontFamily: 'Arapey, serif',
-        color: 'black',
-        margin: '1.5rem'
+        fontFamily: 'GFS Didot, serif',
+        color: '#333',
+        marginTop: '0.95rem',
+        marginBottom: '0.95rem'
     };
 
     const paragraphStyle = {
-        fontSize: '1.5rem', fontFamily: 'GFS Didot, serif',  margin: '2.5rem', maxWidth: '100%', color: 'black'
-      }
+        fontSize: '21px',
+        fontFamily: 'GFS Didot, serif',
+        margin: '5rem',
+        marginTop: '3rem',
+        marginBottom: '3rem',
+        maxWidth: '100%',
+        lineHeight: '1.5em'
+    };
+
+    const imageStyle = {
+        display: 'block',
+        margin: '0 auto',
+        maxWidth: '100%',
+        maxHeight: '900px',
+        objectFit: 'cover',
+    };
+
+    const smallImageStyle = {
+        display: 'block',
+        margin: '0 1rem 1rem 0',
+        float: 'left',
+        maxWidth: '40%',
+        height: 'auto'
+    };
+    const gridContainerStyle = {
+        display: 'grid',
+        gridTemplateColumns: '1fr 1fr',
+        gap: '1rem',
+        width: '100%'
+    };
+
+    const gridItemStyle = {
+        width: '100%',
+        height: 'auto'
+    };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.25em', maxWidth: '100vw', justifyContent: 'center', margin : '20rem'}}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-                TRAVEL // CANADA // QUEBÉC
+                    TRAVEL // ITINERARIES
                 </a>
             </div>
-            <img src={MontTop} alt="Mont Tremblant Top View" style={{ width: '100%' }} />
-            <ResponsiveYoutube src="https://www.youtube.com/embed/4lDCreVFqAw?si=0X5e_MzsoCeTGhxM" title="Mont Tremblant Ski Trip on Youtube" />
-           <div
-           style = {{
-            justifyContent: 'center',
-            textAlign: 'center',
-            display: 'flex',
-           }}
-           >
-           <SubscribeButton />
+
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
             </div>
-            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', textAlign: 'center', fontStyle: 'italic' }}>
-                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-            </p>
+
+            <ResponsiveYoutube src="https://www.youtube.com/embed/4lDCreVFqAw?si=0X5e_MzsoCeTGhxM" title="YouTube video player" />
+
+            <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <SubscribeButton />
+            </div>
+            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+              All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+          </p>
             <DropCap text = "Welcome to another travel post! I adore traveling in Canada, and for Tyler and my anniversary trip, we visited the enchanting ski village of Mont Tremblant, Quebec. For this post, let’s talk about the best experiences and food during our romantic getaway in the mountains." />
    
 
@@ -354,7 +389,7 @@ right here on the blog. Your stories are always a joy to read!
 
     return (
         <div>
-            <TextReveal text='MONT TREMBLANT' />
+            <TextReveal text='MONT-TREMBLANT' />
             <div ref={blogRef}>
                 <Card blogContent={blogContent} />
                

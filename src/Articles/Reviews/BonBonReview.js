@@ -9,46 +9,67 @@ const BonBon1A = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBon1
 const BonBon2 = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBon2.jpg`;
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
-const Card = ({ blogContent }) => {
-    return (
-        <div>
-            <TextReveal text="BONBON // VIKTOR & ROLF" />
-            <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-                <div className="blog-content" style={{ lineHeight: '1.2' }}>{blogContent}</div>
-            </div>
-        </div>
-    );
-};
+const Card = ({ blogContent }) => (
+  <div>
+      <div><TextReveal text='PERFUME PROFILE' /></div>
+      <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+          <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+      </div>
+  </div>
+);
 
 const BonBonReview = () => {
-    const websiteId = "10910"; 
-    const blogRef = useRef(null);
+  const websiteId = '10910';
+  const blogRef = useRef(null);
 
-    const headingStyle = {
-        textAlign: 'center',
-        fontSize: '2.5rem',
-        fontFamily: 'Arapey, serif',
-        color: '#333',
-        margin: '2rem'
-    };
 
-    const paragraphStyle = {
-        fontSize: '1.5rem',
-        fontFamily: 'GFS Didot, serif',
-        margin: '2rem',
-        maxWidth: '100%',
-        padding: '1rem',
-        lineHeight: '1.75'
-    };
+  const headingStyle = {
+      textAlign: 'center',
+      fontSize: '2.75rem',
+      fontWeight: 'normal',
+      fontFamily: 'GFS Didot, serif',
+      color: '#333',
+      marginTop: '0.95rem',
+      marginBottom: '0.95rem'
+  };
 
-    const blogContent = (
-        <div className="container" style={{ lineHeight: '2.5em', margin: '20rem', marginTop: '25px' }}>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-                <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-                    BEAUTY // REVIEWS // FRAGRANCES
-                </a>
-            </div>
+  const paragraphStyle = {
+      fontSize: '21px',
+      fontFamily: 'GFS Didot, serif',
+      margin: '5rem',
+      marginTop: '3rem',
+      marginBottom: '3rem',
+      maxWidth: '100%',
+      lineHeight: '1.5em'
+  };
+
+  const imageStyle = {
+      display: 'block',
+      margin: '0 auto',
+      maxWidth: '100%',
+      maxHeight: '900px',
+      objectFit: 'cover',
+  };
+
+  const smallImageStyle = {
+      display: 'block',
+      margin: '0 1rem 1rem 0',
+      float: 'left',
+      maxWidth: '40%',
+      height: 'auto'
+  };
+
+  const blogContent = (
+      <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5rem' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
+              <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+                  BEAUTY // REVIEWS
+              </a>
+          </div>
+
+
             <img src={BonBon1A} alt="BonBon 1" style={{ width: '100%' }} />
+            <img src={BonBon2} alt="BonBon 2" style={{ maxBlockSize: '800px', width: '100%' }} />
             
     
             <DropCap text="Bonbon is a celebration of self-indulgence, a fragrant ode to the joy of savouring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure." />
@@ -59,8 +80,7 @@ const BonBonReview = () => {
                 Bonbon is a celebration of self-indulgence, a fragrant ode to the joy of savouring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure.
             </p>
             
-            <img src={BonBon2} alt="BonBon 2" style={{ maxBlockSize: '800px', width: '100%' }} />
-            
+         
             <h2 style={headingStyle}>Fragrance Profile</h2>
             
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1rem', maxWidth: '100%', marginLeft: '0em' }}>

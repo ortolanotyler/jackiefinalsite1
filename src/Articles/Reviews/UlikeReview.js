@@ -11,7 +11,7 @@ const Ulike4 = `${process.env.PUBLIC_URL}/Images/Articles/ULIKEReview/1.JPG`;
 const Card = ({ blogContent }) => {
     return (
         <div>
-            <TextReveal text="IPL // ULIKE" />
+            <TextReveal text="REVIEWS" />
             <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: '#fff', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
                 <div className="blog-content" style={{ lineHeight: '1.3' }}>{blogContent}</div>
             </div>
@@ -35,19 +35,22 @@ const UlikeReview = () => {
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '2.5em',
-        fontFamily: 'Arapey, serif',
+        fontSize: '2.75rem',
+        fontWeight: 'normal',
+        fontFamily: 'GFS Didot, serif',
         color: '#333',
-        margin: '2rem'
+        marginTop: '1rem',
+        marginBottom: '1rem'
     };
 
     const paragraphStyle = {
-        fontSize: '1.5rem',
+        fontSize: '21px',
         fontFamily: 'GFS Didot, serif',
-        margin: '2em',
+        margin: '5rem',
+        marginTop: '3rem',
+        marginBottom: '3rem',
         maxWidth: '100%',
-        padding: '1em',
-        lineHeight: '1.75'
+        lineHeight: '1.5em'
     };
 
     const sideBySideImagesStyle = {
@@ -58,14 +61,26 @@ const UlikeReview = () => {
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.5em', margin: '20em', marginTop: '10rem' }}>
+        <div className="container" style={{ lineHeight: '2.5rem', margin: '25rem', marginTop: '5rem' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10rem' }}>
                 <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.5em', marginTop: '1em', lineHeight: '1.5rem', marginBottom: '2.5em', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // PRODUCTS // REVIEWS
                 </a>
             </div>
-            <img src={Ulike1} alt="Ulike Air 10 - Beauty product" style={{ maxBlockSize: '300px' }} />
-            <img src={Ulike2} alt="Ulike Air 10 - Beauty product" style={{ width: '100%' }} />
+            <img src={Ulike1} alt="Ulike Air 10 - Beauty product" style={{ width: '100%' }} />
+            
+            <div
+            style = {{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                
+            }}
+            >
+                                <img src={Ulike2} alt="Ulike Air 10 - Beauty product" style={{ maxBlockSize: '300px', width: 'auto' }} />
+
+                </div>
+                
             <div>
                 <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
                     All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
@@ -91,7 +106,7 @@ const UlikeReview = () => {
                 - Safety Standards: FDA-approved, certified safe by international standards
             </p>
 
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', margin: '1rem' }}>
                 <iframe
                     width="600"
                     height="415"
