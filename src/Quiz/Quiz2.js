@@ -95,7 +95,7 @@ const Quiz2 = () => {
       options: [
         { text: "Sweet", value: "1", backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/sweet.jpeg` }, // Bunny
         { text: "Elegant", value: "2", backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/elegant.jpeg` }, // Deer
-        { text: "Adventurous", value: "3", backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/adventurous.jpeg` }, // Fox
+        { text: "Adventurous", value: "3", backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/adventurous.jpg` }, // Fox
         { text: "Confident", value: "4", backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/confident.jpeg` }, // Cat
       ],
     },

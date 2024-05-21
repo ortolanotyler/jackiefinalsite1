@@ -3,8 +3,9 @@
     font-family: 'GFS Didot', serif;
     max-width: 100%; /* Adjusted to take the full width of its container */
     width: 100%; /* Ensure it actually takes up the full width */
-    margin: 20px auto;
-    padding: 60px;
+    margin-top: 1px;
+    margin: 1px;
+    padding: 25px;
     border-radius: 2px;
     background-color: white; /* Adjusted to a lighter color for better contrast */
     display: flex; /* Using flex to manage inner content alignment */
