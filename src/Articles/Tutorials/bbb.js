@@ -8,36 +8,44 @@ const image6 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayT
 const image8 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
 const makeup2016 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016MakeupThumbnail.jpg`;
 const image17 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
+const animalpretty = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.jpg`;
+
 
 const cardsData = [
-
+  {
+    link: "/animalpretty",
+    image: animalpretty,
+    alt: "Warm and cozy latte-inspired fall makeup look",
+    title: "Find Your Animal Pretty 🐰",
+    description: "Think warm, cozy, fall!",
+  },
 
   {
     link: "/patmcgrath",
     image: image8,
     alt: "Pat McGrath",
-    title: "Pat McGrath",
+    title: "Pat McGrath's Porcelain Doll 🪆",
     description: "Pat's Porcelain Doll"
   },
   {
     link: "/latteMakeup",
     image: image2,
     alt: "Warm and cozy latte-inspired fall makeup look",
-    title: "Latte Makeup",
+    title: "Viral Latte Makeup ☕️",
     description: "Think warm, cozy, fall!",
   },
   {
     link: "/sugarplumfairy",
     image: image5,
     alt: "Sugar Plum Fairy makeup trend report",
-    title: "Sugar Plum Fairy",
+    title: "Sugar Plum Fairy Glam 🧚",
     description: "Trend Report",
   },
   {
     link: "/2016Makeup",
     image: makeup2016,
     alt: "Victoria's Secret fashion show 2014 vibes",
-    title: "2016 Makeup Inspo!",
+    title: "Nostalgic 2016 Makeup 🖤",
     description: "2014 vibes are so back",
   },
 

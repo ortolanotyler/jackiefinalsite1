@@ -17,7 +17,7 @@ const cardsData = [
     link: "/nomakeupspring",
     image: nomakeup,
     alt: "Warm and cozy latte-inspired fall makeup look",
-    title: "No Makeup Makeup - Spring Edition",
+    title: "Spring Makeup Inspiration 🎬",
     description: "Think warm, cozy, fall!",
   },
   
@@ -25,29 +25,23 @@ const cardsData = [
     link: "/margotbarbie",
     image: image9,
     alt: "Margot Robbie Barbie Movie",
-    title: "Margot as Barbie",
+    title: "Barbie Makeup Transformation 👱🏼‍♀️",
     description: "2014 vibes are so back"
   },
-  {
-    link: "/patmcgrath",
-    image: image3,
-    alt: "Pat McGrath",
-    title: "Pat McGrath",
-    description: "Pat's Porcelain Doll"
-  },
+
 
   {
     link: "/lanablog",
     image: image7,
     alt: "Lana",
-    title: "SKIMS X Lana",
+    title: "SKIMS X Lana Makeup 🎀",
     description: "V-Day Makeup"
   },
   {
     link: "/victoriasecret",
     image: image6,
     alt: "Victoria's Secret",
-    title: "VS 2014",
+    title: "VS Bombshell Look 🛍️",
     description: "2014 vibes are so back"
   },
 ];

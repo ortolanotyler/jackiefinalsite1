@@ -9,15 +9,17 @@ import RotatingText from '../../Navigation/AppBar/RotatingText';
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
 const image7 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
-const image9 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/MARGOTBARBIETHUMBNAIL.png`;
+const image9 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/SQUAREMARGOT.jpeg`;
 const nomakeup = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
+const animalpretty = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.jpg`;
 
 const cardsData = [
+
   {
     link: "/nomakeupspring",
     image: nomakeup,
     alt: "Warm and cozy latte-inspired fall makeup look",
-    title: "No-Makeup Spring 🌸",
+    title: "Spring Makeup Inspiration 🎬",
     description: "Think warm, cozy, fall!",
   },
   
@@ -25,22 +27,22 @@ const cardsData = [
     link: "/margotbarbie",
     image: image9,
     alt: "Margot Robbie Barbie Movie",
-    title: "Margot as Barbie",
+    title: "Barbie Makeup Transformation 👱🏼‍♀️",
     description: "2014 vibes are so back"
   },
 
   {
     link: "/lanablog",
     image: image7,
-    alt: "Lana",
-    title: "SKIMS X Lana",
-    description: "V-Day Makeup"
+    alt: "SKIMS X Lana Makeup",
+    title: "SKIMS X Lana Makeup 🎀",
+    description: "SKIMS X Lana Makeup"
   },
   {
     link: "/victoriasecret",
     image: image6,
     alt: "Victoria's Secret",
-    title: "VS 2014",
+    title: "VS Bombshell Look 🛍️",
     description: "2014 vibes are so back"
   },
 ];

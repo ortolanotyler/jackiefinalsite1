@@ -16,13 +16,13 @@ const animal = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.j
 
 const cardsData = [
 
-  { link: "/animalpretty", image: animal, alt: "Warm and cozy latte-inspired fall makeup look", title: "🐈‍⬛🦊Animal Pretty - HBU? 🦌🐰" },
+  { link: "/animalpretty", image: animal, alt: "Warm and cozy latte-inspired fall makeup look", title: "Find Your Animal Pretty 🐰" },
 
   {
     link: "/2016Makeup",
     image: makeup2016,
     alt: "Victoria's Secret fashion show 2014 vibes",
-    title: "2016 Makeup Inspo!",
+    title: "Nostalgic 2016 Makeup 🖤",
     description: "2014 vibes are so back",
   },
 
@@ -30,14 +30,14 @@ const cardsData = [
     link: "/latteMakeup",
     image: image2,
     alt: "Warm and cozy latte-inspired fall makeup look",
-    title: "Latte Makeup",
+    title: "Viral Latte Makeup ☕️",
     description: "Think warm, cozy, fall!",
   },
   {
     link: "/sugarplumfairy",
     image: image5,
     alt: "Sugar Plum Fairy makeup trend report",
-    title: "Sugar Plum Fairy",
+    title: "Sugar Plum Fairy Glam 🧚",
     description: "Trend Report",
   },
 
@@ -45,7 +45,7 @@ const cardsData = [
     link: "/patmcgrath",
     image: image8,
     alt: "Pat McGrath",
-    title: "Pat McGrath",
+    title: "Pat McGrath's Porcelain Doll 🪆",
     description: "Pat's Porcelain Doll"
   },
 
@@ -75,7 +75,7 @@ const Card = ({ link, image, alt, title, description }) => {
 const TrendsHome = () => {
   return (
     <div>
-     <TextReveal text="TRENDING" />
+     <TextReveal text="NOW TRENDING" />
      <Paper elevation={3} style={{ padding: '1rem', margin: '1rem 0' }}>
      <RotatingText />
      </Paper>
