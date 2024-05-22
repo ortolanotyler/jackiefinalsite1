@@ -394,7 +394,7 @@ function ResponsiveAppBar() {
                     }
                   }}
                 >
-                  Shop
+                  STYLE
                 </Button>
                 <Menu
                   id="shop-menu"
