@@ -90,12 +90,13 @@ function ResponsiveAppBar() {
 
   return (
     <>
-      <AppBar position="static" sx={{
+      <AppBar position="fixed" sx={{
         fontFamily: 'GFS Didot, serif',
         backgroundColor: '#FDEDEF',
         margin: 0,
         padding: '1rem',
-        width: '100%'
+        width: '100%',
+        zIndex: 1300, // Ensure it stays above other content
       }}>
         <Container maxWidth="false" disableGutters>
           <Toolbar disableGutters sx={{ justifyContent: 'space-between', flexWrap: 'wrap', alignItems: 'center' }}>
@@ -360,8 +361,6 @@ function ResponsiveAppBar() {
                       color: '#745B4F',
                       boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
                       borderRadius: '8px',
-                      fontFamily: 'GFS Didot, serif',
-
                     },
                     '.MuiMenuItem-root': {
                       fontFamily: 'GFS Didot, sans-serif',
@@ -373,7 +372,7 @@ function ResponsiveAppBar() {
                   }}
                 >
                   {beyondBeautyOptions.map((option) => (
-                    <MenuItem key={option.name} onClick={handleCloseBeyondMenu} component={Link} to={option.path} sx={{ '&:hover': { bgcolor: 'transparent', fontFamily: 'GFS Didot' } }}>
+                    <MenuItem key={option.name} onClick={handleCloseBeyondMenu} component={Link} to={option.path} sx={{ '&:hover': { bgcolor: 'transparent' } }}>
                       {option.name}
                     </MenuItem>
                   ))}
@@ -395,7 +394,7 @@ function ResponsiveAppBar() {
                     }
                   }}
                 >
-                  Style
+                  Shop
                 </Button>
                 <Menu
                   id="shop-menu"
@@ -416,16 +415,12 @@ function ResponsiveAppBar() {
                       color: '#745B4F',
                       boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
                       borderRadius: '8px',
-                      fontFamily: 'GFS Didot, serif',
-
                     },
                     '.MuiMenuItem-root': {
                       fontFamily: 'GFS Didot, sans-serif',
                       fontSize: '1rem',
                       '&:hover': {
                         bgcolor: 'transparent',
-                        fontFamily: 'GFS Didot, serif',
-
                       },
                     },
                   }}
@@ -452,19 +447,15 @@ function ResponsiveAppBar() {
                     fontFamily: 'GFS Didot, serif',
                     padding: '0.5rem', // Half the padding of the original button
                     fontSize: '1rem', // Smaller font size
-
                     '&:hover': {
                       backgroundColor: '#fdedef',
                       color: '#745B4F',
-                      fontFamily: 'GFS Didot, serif',
                     },
-                    marginRight: '5rem', // Add some margin to the right
+                    marginRight: '1rem', // Add some margin to the right
                   }}
                 >
                   Subscribe
                 </Button>
-            
-
               </Box>
             )}
           </Toolbar>

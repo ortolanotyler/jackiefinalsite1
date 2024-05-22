@@ -1,9 +1,4 @@
-
-/* In your App.css or index.css */
-html, body, #root {
-
-  margin: 1;
-  padding: 1;
-  width: 100%;
-  height: 100%;
+/* App.css */
+.main-content {
+  padding-top: 100px; /* Adjust this value based on the height of your AppBar */
 }
