@@ -121,7 +121,7 @@ const ShopMyHero = () => {
       />
       <Box sx={{ textAlign: 'right', mt: 2, mr: 5 }}>
         <a
-          href="/shopmystyle"
+          href="/mystyle"
           ref={linkRef}
           className={isJiggling ? 'jiggle' : ''}
           style={{

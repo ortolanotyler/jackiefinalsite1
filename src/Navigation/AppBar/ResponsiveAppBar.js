@@ -25,16 +25,22 @@ const pages = [
   { name: 'Reviews', path: '/reviews' },
 ];
 
+const aboutOptions = [
+  { name: 'BIO', path: '/about' },
+  { name: 'PRESS', path: '/mediakit' },
+  { name: 'CONTACT', path: '/contact' },
+];
+
 const beyondBeautyOptions = [
   { name: 'Travel', path: '/travel' },
-
+  { name: 'Vlog', path: '/vlog' },
   { name: 'Diary', path: '/diary' },
 ];
 
 const shopOptions = [
-  { name: 'Shop My Style', path: '/mystyle' },
- 
-  { name: 'Vintage Vibes Merch', path: '/vintagevibesmerch' },
+  { name: 'MyStyle', path: '/mystyle' },
+  { name: 'Big Beauty Bag', path: '/beautybag' },
+  { name: 'VintageVibes Merch', path: '/vintagevibesmerch' },
 ];
 
 const tutorialOptions = [
@@ -50,9 +56,8 @@ function ResponsiveAppBar() {
   const [anchorElShop, setAnchorElShop] = useState(null);
   const [anchorElTutorials, setAnchorElTutorials] = useState(null);
   const [anchorElBeyond, setAnchorElBeyond] = useState(null);
+  const [anchorElAbout, setAnchorElAbout] = useState(null); // New state for About dropdown
   const [isSidebarOpen, setIsSidebarOpen] = useState(false); // Sidebar state
-
-
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
@@ -82,29 +87,42 @@ function ResponsiveAppBar() {
     setAnchorElBeyond(null);
   };
 
+  const handleOpenAboutMenu = (event) => {
+    setAnchorElAbout(event.currentTarget);
+  };
+
+  const handleCloseAboutMenu = () => {
+    setAnchorElAbout(null);
+  };
+
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
   return (
     <>
-      <AppBar position="fixed" sx={{
-        fontFamily: 'GFS Didot, serif',
-        backgroundColor: '#FDEDEF',
- 
-        padding: '1rem',
-        width: '100%',
-        zIndex: 1200, // Ensure it stays above other content but below the sidebar
-      }}>
+      <AppBar
+        position="fixed"
+        sx={{
+          fontFamily: 'GFS Didot, serif',
+          backgroundColor: '#FDEDEF',
+          padding: '1rem',
+          width: '100%',
+          zIndex: 1200, // Ensure it stays above other content but below the sidebar
+        }}
+      >
         <Container maxWidth="false" disableGutters>
           <Toolbar disableGutters sx={{ justifyContent: 'space-between', flexWrap: 'wrap', alignItems: 'center' }}>
-            <IconButton onClick={toggleSidebar} sx={{
-              p: 0,
-              mr: 1,
-              '&:hover': {
-                backgroundColor: 'transparent'
-              }
-            }}>
+            <IconButton
+              onClick={toggleSidebar}
+              sx={{
+                p: 0,
+                mr: 1,
+                '&:hover': {
+                  backgroundColor: 'transparent',
+                },
+              }}
+            >
               <img src={logo} alt="Logo" style={{ height: '6rem' }} />
             </IconButton>
 
@@ -119,8 +137,8 @@ function ResponsiveAppBar() {
                   sx={{
                     color: '#745B4F',
                     '&:hover': {
-                      backgroundColor: 'transparent'
-                    }
+                      backgroundColor: 'transparent',
+                    },
                   }}
                 >
                   <MenuIcon />
@@ -140,8 +158,7 @@ function ResponsiveAppBar() {
                   onClose={handleCloseNavMenu}
                   sx={{
                     display: { xs: 'block', md: 'none' },
-                    '.MuiPaper-root': {
-                    },
+                    '.MuiPaper-root': {},
                     '.MuiMenuItem-root': {
                       fontFamily: 'GFS Didot, sans-serif',
                       fontSize: '1rem',
@@ -225,7 +242,7 @@ function ResponsiveAppBar() {
               </div>
             ) : (
               <Box sx={{ display: 'flex', flexGrow: 1, alignItems: 'center' }}>
-                {pages.slice(0, 2).map((page) => (
+                {pages.slice(0, 1).map((page) => (
                   <Button
                     key={page.name}
                     component={Link}
@@ -239,8 +256,83 @@ function ResponsiveAppBar() {
                       fontFamily: 'GFS Didot, sans-serif',
                       mx: 2,
                       '&:hover': {
-                        backgroundColor: 'transparent'
-                      }
+                        backgroundColor: 'transparent',
+                      },
+                    }}
+                  >
+                    {page.name}
+                  </Button>
+                ))}
+                <Button
+                  aria-controls="about-menu"
+                  aria-haspopup="true"
+                  onClick={handleOpenAboutMenu}
+                  className="jiggle-button"
+                  sx={{
+                    my: 2,
+                    color: '#745B4F',
+                    display: 'block',
+                    fontSize: '1rem',
+                    fontFamily: 'GFS Didot, sans-serif',
+                    mx: 2,
+                    '&:hover': {
+                      backgroundColor: 'transparent',
+                    },
+                  }}
+                >
+                  About
+                </Button>
+                <Menu
+                  id="about-menu"
+                  anchorEl={anchorElAbout}
+                  anchorOrigin={{
+                    vertical: 'bottom',
+                    horizontal: 'right',
+                  }}
+                  transformOrigin={{
+                    vertical: 'top',
+                    horizontal: 'right',
+                  }}
+                  open={Boolean(anchorElAbout)}
+                  onClose={handleCloseAboutMenu}
+                  sx={{
+                    '.MuiPaper-root': {
+                      bgcolor: 'white',
+                      color: '#745B4F',
+                      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+                      borderRadius: '8px',
+                    },
+                    '.MuiMenuItem-root': {
+                      fontFamily: 'GFS Didot, sans-serif',
+                      fontSize: '1rem',
+                      '&:hover': {
+                        bgcolor: 'transparent',
+                      },
+                    },
+                  }}
+                >
+                  {aboutOptions.map((option) => (
+                    <MenuItem key={option.name} onClick={handleCloseAboutMenu} component={Link} to={option.path} sx={{ '&:hover': { bgcolor: 'transparent' } }}>
+                      {option.name}
+                    </MenuItem>
+                  ))}
+                </Menu>
+                {pages.slice(2, 3).map((page) => (
+                  <Button
+                    key={page.name}
+                    component={Link}
+                    to={page.path}
+                    className="jiggle-button"
+                    sx={{
+                      my: 2,
+                      color: '#745B4F',
+                      display: 'block',
+                      fontSize: '1rem',
+                      fontFamily: 'GFS Didot, sans-serif',
+                      mx: 2,
+                      '&:hover': {
+                        backgroundColor: 'transparent',
+                      },
                     }}
                   >
                     {page.name}
@@ -259,8 +351,8 @@ function ResponsiveAppBar() {
                     fontFamily: 'GFS Didot, sans-serif',
                     mx: 2,
                     '&:hover': {
-                      backgroundColor: 'transparent'
-                    }
+                      backgroundColor: 'transparent',
+                    },
                   }}
                 >
                   Tutorials
@@ -300,7 +392,7 @@ function ResponsiveAppBar() {
                     </MenuItem>
                   ))}
                 </Menu>
-                {pages.slice(2).map((page) => (
+                {pages.slice(3).map((page) => (
                   <Button
                     key={page.name}
                     component={Link}
@@ -314,8 +406,8 @@ function ResponsiveAppBar() {
                       fontFamily: 'GFS Didot, sans-serif',
                       mx: 2,
                       '&:hover': {
-                        backgroundColor: 'transparent'
-                      }
+                        backgroundColor: 'transparent',
+                      },
                     }}
                   >
                     {page.name}
@@ -334,8 +426,8 @@ function ResponsiveAppBar() {
                     fontFamily: 'GFS Didot, sans-serif',
                     mx: 2,
                     '&:hover': {
-                      backgroundColor: 'transparent'
-                    }
+                      backgroundColor: 'transparent',
+                    },
                   }}
                 >
                   Beyond Beauty
@@ -388,8 +480,8 @@ function ResponsiveAppBar() {
                     fontFamily: 'GFS Didot, sans-serif',
                     mx: 2,
                     '&:hover': {
-                      backgroundColor: 'transparent'
-                    }
+                      backgroundColor: 'transparent',
+                    },
                   }}
                 >
                   STYLE
