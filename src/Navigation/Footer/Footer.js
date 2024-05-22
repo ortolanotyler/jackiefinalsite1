@@ -18,17 +18,17 @@ const Footer = () => {
         <SwitchUpYour />
             <footer style={{ 
                 width: '100%',  // Ensures the footer matches the width of the viewport
-                height: '35vh',
+                height: '40vh',
                 fontFamily: 'GFS Didot, serif',
                 justifyContent: 'center',
                 backgroundColor: '#EBE8E4',
                 color: '#745B4F',
                 textAlign: 'center',
-                padding: '40px 20px',
+                padding: '30px',
                 margin: 0,  // Ensures no additional margin causing width issues
                 boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'  // Same box shadow as AppBar
             }}>
-                <div style={{ fontSize: '40px', marginBottom: '20px' }}>
+                <div style={{ fontSize: '40px', margin: '1rem' }}>
                     <a href="https://youtube.com/@JackieWyers?si=sklULUqnNkzkmiaY" target="_blank" rel="noopener noreferrer">
                         <YouTubeIcon style={{ color: '#745B4F', fontSize: 70 }} />
                     </a>
@@ -42,7 +42,7 @@ const Footer = () => {
                         <MailOutlineIcon style={{ color: '#745B4F', fontSize: 70 }} />
                     </a>
                 </div>
-                <div style={{ fontFamily: 'GFS Didot, serif', gap: '1.5rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <div style={{ fontFamily: 'GFS Didot, serif', gap: '5px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <div>
                         <button onClick={scrollToTop} style={{ fontFamily: 'GFS Didot, serif', textAlign: 'left', fontSize: '1.25rem', cursor: 'pointer', color: '#745B4F', background: 'none', border: 'none', textDecoration: 'none' }}>
                             Back to Top
@@ -56,6 +56,10 @@ const Footer = () => {
                         © Jackie Wyers 2024
                     </div>
                     <div>
+                    <a href="/contact" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '1.25rem' }}>
+                            Contact
+                        </a>
+                        <br />
                         <a href="/sitemap" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '1.25rem' }}>
                             SiteMap
                         </a>
@@ -71,6 +75,7 @@ const Footer = () => {
                         <a href="/privacy" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '1.25rem' }}>
                             Policies
                         </a>
+                        <br />
                     </div>
                 </div>
             </footer>

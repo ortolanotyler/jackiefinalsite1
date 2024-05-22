@@ -8,6 +8,9 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
     { name: 'HOME', path: '/' },
     { name: 'ABOUT', path: '/about' },
+    { name: 'SITEMAP', path: '/sitemap' },
+    { name: 'PRESS', path: '/mediakit' },
+    { name: 'PRIVACY', path: '/privacy' },
     { name: 'QUIZ', path: '/quiz' },
     { name: 'POP CULTURE OBSESSED', path: '/popculture' },
     { name: 'TIME TRAVEL TUTORIALS', path: '/timetraveltutorials' },
@@ -20,9 +23,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'SHOP MY STYLE', path: '/mystyle' },
     { name: "60'S MERCH", path: '/mystyle' },
     { name: 'BIG BEAUTY BAG', path: '/mystyle' },
-    { name: 'SITEMAP', path: '/sitemap' },
-    { name: 'PRESS', path: '/mediakit' },
-    { name: 'PRIVACY', path: '/privacy' },
+ 
   ];
 
   return (

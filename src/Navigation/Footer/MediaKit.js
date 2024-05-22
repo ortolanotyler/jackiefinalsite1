@@ -22,7 +22,7 @@ const MediaKit = () => {
   return (
     <div>
    
-      <TextReveal text="COLLABORATIONS" style={{ backgroundColor: 'white' }} />
+      <TextReveal text="PRESS" style={{ backgroundColor: 'white' }} />
   
    
    
@@ -33,6 +33,8 @@ const MediaKit = () => {
 <Grid item xs={6}>
 <FeaturesAndShoutouts />
 </Grid>
+<TextReveal text="PREVIOUS COLLABORATIONS" style={{ backgroundColor: '#fdedef' }} />
+
 <BrandCarousel />
           <Grid item xs={6}>
             <MediaSplitWarnerBros />
