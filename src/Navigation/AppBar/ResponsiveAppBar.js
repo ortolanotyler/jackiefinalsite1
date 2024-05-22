@@ -52,9 +52,7 @@ function ResponsiveAppBar() {
   const [anchorElBeyond, setAnchorElBeyond] = useState(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false); // Sidebar state
 
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
-  };
+
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
@@ -93,7 +91,7 @@ function ResponsiveAppBar() {
       <AppBar position="fixed" sx={{
         fontFamily: 'GFS Didot, serif',
         backgroundColor: '#FDEDEF',
-        margin: 0,
+ 
         padding: '1rem',
         width: '100%',
         zIndex: 1200, // Ensure it stays above other content but below the sidebar
@@ -116,8 +114,8 @@ function ResponsiveAppBar() {
                   size="large"
                   aria-label="navigation menu"
                   aria-controls="menu-appbar"
-                  aria-haspopup="true"
-                  onClick={handleOpenNavMenu}
+                  aria-haspopup="false"
+                  onClick={toggleSidebar}
                   sx={{
                     color: '#745B4F',
                     '&:hover': {
