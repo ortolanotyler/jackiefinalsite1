@@ -56,7 +56,6 @@ import BunnyPretty from './Quiz/QuizResultPages/Quiz2/Bunny';
 import CatPretty from './Quiz/QuizResultPages/Quiz2/Cat';
 import DeerPretty from './Quiz/QuizResultPages/Quiz2/Deer';
 import Quiz2 from './Quiz/Quiz2';
-import DiaryPost1 from './Articles/Diary/DiaryPost1';
 
 function App() {
   return (
@@ -132,8 +131,7 @@ function App() {
         {/* Travel */}
         <Route path="/travel" element={<TravelArticlesHome />} />
 
-         {/* Shop */}
-         <Route path="/diarypost1" element={<DiaryPost1 />} />
+         {/* Diary */}
 
         {/* Footer */}
         <Route path="/sitemap" element={<Sitemap />} />
