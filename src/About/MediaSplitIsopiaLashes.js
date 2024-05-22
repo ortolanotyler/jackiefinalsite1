@@ -23,7 +23,9 @@ const MediaSplitIsopiaLashes = () => {
 
       {/* Right section with ResponsiveIframe */}
       <div className={sharedStyles.rightContainer}>
-        <ResponsiveIframe src="https://shopmy.us/collections/public/557668?noHeader=true" title="Bronzing and Blushing Products" />
+        <div className={sharedStyles.iframeContainer}>
+          <ResponsiveIframe src="https://shopmy.us/collections/public/557668?noHeader=true" title="Bronzing and Blushing Products" />
+        </div>
       </div>
     </div>
   );

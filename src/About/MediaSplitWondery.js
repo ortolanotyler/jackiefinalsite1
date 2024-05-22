@@ -1,5 +1,5 @@
 import React from 'react';
-import sharedStyles from './MediaSplitShared2.module.css'; // Import the new shared CSS module
+import sharedStyles from './MediaSplitShared2.module.css'; // Import the shared CSS module
 import ResponsiveIframe from '../Components/ResponsiveIframe'; // Adjust the path as needed
 
 const logo = `${process.env.PUBLIC_URL}/Images/About/wondery.png`;
@@ -10,7 +10,9 @@ const MediaSplitWondery = () => {
     <div className={sharedStyles.mediaContainer}>
       {/* Left section with ResponsiveIframe */}
       <div className={sharedStyles.leftContainer}>
-        <ResponsiveIframe src="https://shopmy.us/collections/public/557725?noHeader=true" title="Bronzing and Blushing Products" />
+        <div className={sharedStyles.iframeContainer}>
+          <ResponsiveIframe src="https://shopmy.us/collections/public/557725?noHeader=true" title="Bronzing and Blushing Products" />
+        </div>
       </div>
 
       {/* Right section with logo and video */}

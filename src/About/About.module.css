@@ -1,3 +1,5 @@
+/* About.module.css */
+
 @import url('https://fonts.googleapis.com/css2?family=Arapey&family=GFS+Didot&family=Italianno&display=swap');
 
 .about-container {
@@ -100,6 +102,10 @@
 .flashIcon {
   font-size: 2em;
   animation: flash 1s ease-in-out 5; /* Animation runs for 1 second, 5 times with ease-in-out timing */
+}
+
+.media-padding {
+  padding: 1rem;
 }
 
 /* Responsive styles */

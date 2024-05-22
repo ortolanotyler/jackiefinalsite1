@@ -10,7 +10,9 @@ const MediaSplitMeanGirls = () => {
     <div className={sharedStyles.mediaContainer}>
       {/* Left section with ResponsiveIframe */}
       <div className={sharedStyles.leftContainer}>
-        <ResponsiveIframe src="https://shopmy.us/collections/public/555100?noHeader=true" title="Bronzing and Blushing Products" />
+        <div className={sharedStyles.iframeContainer}>
+          <ResponsiveIframe src="https://shopmy.us/collections/public/555100?noHeader=true" title="Bronzing and Blushing Products" />
+        </div>
       </div>
 
       {/* Right section with logo and video */}
@@ -30,5 +32,3 @@ const MediaSplitMeanGirls = () => {
 };
 
 export default MediaSplitMeanGirls;
-
-

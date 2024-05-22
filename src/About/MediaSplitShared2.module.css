@@ -1,3 +1,5 @@
+/* MediaSplitShared2.module.css */
+
 .mediaContainer {
   display: flex;
   flex-wrap: wrap;
@@ -10,6 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative; /* To use absolute positioning for iframe */
 }
 
 .rightContainer {
@@ -34,6 +37,12 @@
   max-height: 5rem;
 }
 
+.iframeContainer {
+  position: absolute;
+  top: 30%; /* Push the iframe down 30% from the top */
+  width: 100%; /* Ensure the iframe container takes full width */
+}
+
 /* Responsive styles */
 @media (max-width: 1400px) {
   .mediaContainer {
@@ -43,5 +52,10 @@
   .leftContainer, .rightContainer {
     width: 100%;
     padding: 1rem;
+  }
+
+  .iframeContainer {
+    position: static; /* Reset positioning for smaller screens */
+    margin-top: 1rem; /* Add some margin at the top */
   }
 }
