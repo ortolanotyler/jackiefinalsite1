@@ -79,7 +79,7 @@ const About = () => {
       </Grid>
 
       <Grid item xs={12}>
-      <TextReveal text="COLLABORATIONS" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
+        <TextReveal text="COLLABORATIONS" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
       </Grid>
       <Grid item xs={12} md={6}>
         <img src={leftImage} alt="Left" className={styles['about-collaborations-left-image']} />
@@ -96,39 +96,29 @@ const About = () => {
      
       </Grid>
 
-    
-
-      <Grid item xs={12}>
-        <MediaSplitWarnerBros/>
+      <Grid item xs={6}>
+        <MediaSplitWarnerBros />
       </Grid>
-
-      <Grid item xs={12}>
-        <MediaSplitOneSize/>
+      <Grid item xs={6}>
+        <MediaSplitMeanGirls />
       </Grid>
-
-  
-
-      <Grid item xs={12}>
+      <Grid item xs={6}>
         <MediaSplitJuicyCouture />
       </Grid>
-          
-      <Grid item xs={12}>
-        <MediaSplitIsopiaLashes />
-      </Grid>
-
-      <Grid item xs={12}>
+      <Grid item xs={6}>
         <MediaSplitFiori />
       </Grid>
-      <Grid item xs={12}>
+      <Grid item xs={6}>
+        <MediaSplitIsopiaLashes />
+      </Grid>
+      <Grid item xs={6}>
+        <MediaSplitOneSize />
+      </Grid>
+      <Grid item xs={6}>
+        <MediaSplitWarnerBros />
+      </Grid>
+      <Grid item xs={6}>
         <MediaSplitWondery />
-      </Grid>
-    
-      <Grid item xs={12}>
-        <MediaSplitSupergoop />
-      </Grid>
-    
-      <Grid item xs={12}>
-        <MediaSplitMeanGirls />
       </Grid>
 
       <Grid item xs={12}>

@@ -6,6 +6,14 @@
 
 .leftContainer {
   flex: 1;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightContainer {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,14 +23,6 @@
   width: 100%;
   max-width: 600px; /* Set a maximum width for the video */
   margin-top: 1rem;
-}
-
-.rightContainer {
-  flex: 1;
-  min-width: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .stackItem {
@@ -45,4 +45,3 @@
     padding: 1rem;
   }
 }
-

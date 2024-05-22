@@ -8,21 +8,22 @@ const video = `${process.env.PUBLIC_URL}/Videos/supergoop.MOV`; // Update this p
 const MediaSplitSupergoop = () => {
   return (
     <div className={sharedStyles.mediaContainer}>
-      {/* Video on the left */}
-      <div className={sharedStyles.embedContainer}>
-        <video controls style={{ width: '100%' }}>
-          <source src={video} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <ResponsiveIframe src="https://shopmy.us/collections/public/523045?noHeader=true" title="Bronzing and Blushing Products" />
+      {/* Left section with logo and video */}
+      <div className={sharedStyles.leftContainer}>
+        <div className={sharedStyles.stackItem}>
+          <img src={logo} alt="Logo" className={sharedStyles.logo} />
+        </div>
+        <div className={sharedStyles.embedContainer}>
+          <video controls style={{ width: '100%' }}>
+            <source src={video} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
 
-      {/* Right section with logo */}
+      {/* Right section with ResponsiveIframe */}
       <div className={sharedStyles.rightContainer}>
-        {/* Logo */}
-        <div className={sharedStyles.stackItem}>
-          <img src={logo} alt="Logo" style={{ maxBlockSize: '5rem' }} />
-        </div>
+        <ResponsiveIframe src="https://shopmy.us/collections/public/523045?noHeader=true" title="Bronzing and Blushing Products" />
       </div>
     </div>
   );
