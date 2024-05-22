@@ -3,7 +3,7 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import './ExampleTutorial.css';
 import TextReveal from '../../Components/TextReveal';
 import DropCap from '../../Components/DropCap';
-
+import ResponsiveIframe from '../../Components/ResponsiveIframe';
 
 const jicky1 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky1.jpeg`;
 const jicky2 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky2.jpg`;
@@ -24,7 +24,6 @@ const JickyReview = () => {
     const websiteId = '10910';
     const blogRef = useRef(null);
 
-
     const headingStyle = {
         textAlign: 'center',
         fontSize: '30px',
@@ -41,7 +40,7 @@ const JickyReview = () => {
         margin: '5rem',
         marginTop: '3rem',
         marginBottom: '3rem',
-        maxWidth: '90%',
+        maxWidth: '100%',
         lineHeight: '1.5em',
         justifyContent: 'center'
     };
@@ -52,14 +51,6 @@ const JickyReview = () => {
         maxWidth: '100%',
         maxHeight: '900px',
         objectFit: 'cover',
-    };
-
-    const smallImageStyle = {
-        display: 'block',
-        margin: '0 1rem 1rem 0',
-        float: 'left',
-        maxWidth: '100%',
-        height: 'auto'
     };
 
     const blogContent = (
@@ -77,89 +68,126 @@ const JickyReview = () => {
                 <img src={jicky2} alt="Sophia Loren in Arabesque" style={imageStyle} />
             </div>
 
-
             <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
                 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
-        
-            
+
             <DropCap text="Jicky by Guerlain stands as one of the oldest perfumes in continuous production, a testament to its timeless appeal. Conceived by Aimé Guerlain in the late 19th century, Jicky is a revolutionary fragrance that harmoniously blends the freshness of lavender and citrus with a warm, spicy undertone, making it a precursor to modern perfumery." />
-            
+
             <h2 style={headingStyle}>Perfume Information</h2>
-            
-            <div style={{ textAlign: 'center', fontSize: '2rem', marginTop: '5rem', fontFamily: 'GFS Didot, serif' }}>
-                Perfume Name: Jicky<br /><br />
-                Brand: Guerlain<br /><br />
-                Year of Release: 1889<br /><br />
-                Perfumers: Aimé Guerlain<br />
+
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1rem', maxWidth: '100%', marginLeft: '1em' }}>
+                <div style={{ marginBottom: '0.7rem' }}>
+                    <strong>Perfume Name:</strong> Jicky
+                </div>
+                <div style={{ marginBottom: '0.7rem' }}>
+                    <strong>Brand:</strong> Guerlain
+                </div>
+                <div style={{ marginBottom: '0.7rem' }}>
+                    <strong>Year of Release:</strong> 1889
+                </div>
+                <div style={{ marginBottom: '0.7rem' }}>
+                    <strong>Perfumer:</strong> Aimé Guerlain
+                </div>
+                <div style={{ marginBottom: '0.7rem' }}>
+                    <strong>Price for Eau de Parfum concentration:</strong> 75 ml (2.53 oz) - $150.00 USD
+                </div>
             </div>
-            
-            <p style={paragraphStyle}>
-                Price for Eau de Parfum concentration:<br />
-                <strong>75 ml (2.53 oz) -</strong> $150.00 USD
-            </p>
-            
-            <h2 style={headingStyle}>Background Information</h2>
-            
+
+            <h2 style={headingStyle}>⭐️ Background Information</h2>
+
             <p style={paragraphStyle}>
                 Jicky by Guerlain stands as one of the oldest perfumes in continuous production, a testament to its timeless appeal. Conceived by Aimé Guerlain in the late 19th century, Jicky is a revolutionary fragrance that harmoniously blends the freshness of lavender and citrus with a warm, spicy undertone, making it a precursor to modern perfumery.
             </p>
-            
-            <img src={jicky2} alt="Jicky Perfume 2" style={{ width: '100%' }} />
-            
-            <h2 style={headingStyle}>Fragrance Profile</h2>
-            
+
             <p style={paragraphStyle}>
-                Concentration: Eau de Toilette Spray<br />
-                Fragrance Family: Oriental Fougère<br />
-                Top Notes: Bergamont, Rosemary, Lemon, Mandarin Orange<br />
-                Heart/Middle Notes: Lavender, Orris Root, Tonka Bean, Basil and Jasmine<br />
-                Base Notes: Vanilla, Spices, Leather, Amber, Sandalwood, Palisander Rosewood<br />
+            There is both the Jicky by Guerlain Eau de Parfum concentration, and Eau de Toilette which have different bottles and potency. Guerlain maintains the integrity and signature of Jicky across both formulations. The differences cater to varying preferences in fragrance intensity and longevity, I personally have the Eau De Toilette though it can only be found on eBay as it has been discontinued (prices start at $200 USD!🐝 )
             </p>
-            
+
+            <img src={jicky3} alt="Jicky Perfume 2" style={{ width: '100%' }} />
+
+            <h2 style={headingStyle}>🍋 Fragrance Profile</h2>
+
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1rem', maxWidth: '100%', marginLeft: '1em' }}>
+                <div style={{ marginBottom: '0.7rem' }}>
+                    <strong>Concentration:</strong> Eau de Toilette Spray
+                </div>
+                <div style={{ marginBottom: '0.7rem' }}>
+                    <strong>Fragrance Family:</strong> Oriental Fougère
+                </div>
+                <div style={{ marginBottom: '0.7rem' }}>
+                    <strong>Top Notes:</strong> Bergamot, Rosemary, Lemon, Mandarin Orange
+                </div>
+                <div style={{ marginBottom: '0.7rem' }}>
+                    <strong>Heart/Middle Notes:</strong> Lavender, Orris Root, Tonka Bean, Basil and Jasmine
+                </div>
+                <div style={{ marginBottom: '0.7rem' }}>
+                    <strong>Base Notes:</strong> Vanilla, Spices, Leather, Amber, Sandalwood, Palisander Rosewood
+                </div>
+            </div>
+
             <p style={paragraphStyle}>
-                Overall Scent Profile: Jicky is an enigmatic blend of vibrant top notes and a mysterious, deep base. Its opening is fresh and inviting, quickly evolving into a complex, spicy heart, and settling into a rich, warm embrace of vanilla and woods. This duality makes Jicky both refreshing and comforting masterpiece.
+                <strong>
+                Overall Scent Profile:
+                    </strong> Jicky is an enigmatic blend of vibrant top notes and a mysterious, deep base. Its opening is fresh and inviting, quickly evolving into a complex, spicy heart, and settling into a rich, warm embrace of vanilla and woods. This duality makes Jicky both refreshing and comforting masterpiece.
             </p>
-            
-            <h2 style={headingStyle}>Personal First Impressions</h2>
-            
+
+            <h2 style={headingStyle}> 👧 Personal First Impressions</h2>
+
             <p style={paragraphStyle}>
-                My introduction to Jicky was inspired by the beautiful and bohemian Sharon Tate. While preparing for a Sharon Tate-inspired makeup tutorial, I discovered her fondness for Jicky by Guerlain, alongside Chanel No. 5.
-            </p>
-            
+    My introduction to Jicky was inspired by the beautiful and bohemian Sharon Tate. While preparing for a <a href="/sharontateiconic" style={{ color: 'black', textDecoration: 'underline' }}>Sharon Tate-inspired makeup tutorial</a>, I discovered her fondness for Jicky by Guerlain, alongside Chanel No. 5.
+</p>
+
+
             <p style={paragraphStyle}>
                 Although Chanel No. 5's heavy florals are iconic, I found myself drawn to Jicky for its unique blend of masculine and feminine notes, and notably, its powdery finish that distinguishes it from the floral dominance of Chanel No. 5.
             </p>
-            
+
             <p style={paragraphStyle}>
                 Jicky’s harmonious balance and warm, powdery essence make it a versatile and endearing fragrance. Penhaligon’s Trade Routes fragrances rank among my all-time favourites, and Jicky shares a similar boldness but is somewhat more affordable.
             </p>
-            
-            <img src={jicky3} alt="Jicky Perfume 3" style={{ width: '100%' }} />
-            
-            <h2 style={headingStyle}>Review & Recommendations</h2>
-            
+
             <p style={paragraphStyle}>
-                Longevity: Remarkably long-lasting, Jicky can easily carry you through the day into the evening.<br />
-                <strong>Sillage:</strong> Moderate but noticeable, it leaves a subtle, intriguing trail that invites closer attention.<br />
-                Occasions and Seasonality: Halfeti's depth and warmth make it perfect for cooler seasons, and its boldness suits formal events or evenings when you want to make a statement.
+            This distinctive fragrance begins with light and feminine notes of lavender, lemon, and mandarin, eventually settling into a base of vanilla, spices, and sandalwood—some of my favorite base notes. Jicky not only holds historical significance, often considered the first modern perfume in history, but it also transcends trends with a fresh, warm, powdery finish. I recommend this fragrance for those seeking a mature scent. By that, I mean it might not have been my choice as a teenager, but in adulthood, it has become a cherished go-to fragrance I absolutely adore.
             </p>
-            
-            <h2 style={headingStyle}>Final Thoughts</h2>
-            
+
+            <ResponsiveIframe src="https://shopmy.us/collections/public/557947?noHeader=true" title="Final Touches" />
+            <h2 style={headingStyle}>❤️ Review & Recommendations</h2>
+
             <p style={paragraphStyle}>
-                Pros and Cons: The blend of exotic spices and florals might be intense for those who prefer lighter scents. But for lovers of rich, complex fragrances, Halfeti is a treasure.<br />
-                Value for Money: Given its complexity and longevity, Halfeti is a worthy indulgence for those who appreciate niche perfumery.<br />
-                Who Would Enjoy It: A signature scent for the bold and adventurous, it's for those who aren't afraid to stand out. I personally feel like this is a more mature fragrance.
+                <strong> Longevity: </strong> Remarkably long-lasting, Jicky can easily carry you through the day into the evening.<br />
+                <br></br>
+                <strong>Sillage: </strong> Moderate but noticeable, it leaves a subtle, intriguing trail that invites closer attention.<br />
+               <br></br>
+               <strong>Occasions and Seasonality: </strong> Halfeti's depth and warmth make it perfect for cooler seasons, and its boldness suits formal events or evenings when you want to make a statement.
             </p>
+
+            <h2 style={headingStyle}> 
+            Comparisons
             
+            </h2>
             <p style={paragraphStyle}>
-                Conclusion: Halfeti by Penhaligon's is a fragrant masterpiece, weaving together the essence of the East with British perfumery's finesse. It's a scent that promises to transport you to another world, one spritz at a time. Have you experienced the allure of Halfeti by Penhaligon's? Share your thoughts below!
+            Jicky often draws comparisons to other classic fragrances like Chanel No. 5, but remains in a category of its own due to its historical significance and unique composition. It might remind some of modern fougères yet retains a distinct character that is unmistakably Guerlain.
             </p>
-            
+
+            <ResponsiveIframe src="https://shopmy.us/collections/public/557963?noHeader=true" title="Final Touches" />
+
+            <h2 style={headingStyle}> 📝Final Thoughts</h2>
+
+            <p style={paragraphStyle}>
+                <strong>Pros and Cons:</strong> The blend of exotic spices and florals might be intense for those who prefer lighter scents. But for lovers of rich, complex fragrances, Halfeti is a treasure.<br />
+                <br></br>
+                <strong>Value for Money:</strong>   Given its complexity and longevity, Halfeti is a worthy indulgence for those who appreciate niche perfumery.<br />
+                <br></br>
+                <strong>Who Would Enjoy It:</strong>  A signature scent for the bold and adventurous, it's for those who aren't afraid to stand out. I personally feel like this is a more mature fragrance.
+            </p>
+
+            <p style={paragraphStyle}>
+                <strong> Conclusion: </strong> Halfeti by Penhaligon's is a fragrant masterpiece, weaving together the essence of the East with British perfumery's finesse. It's a scent that promises to transport you to another world, one spritz at a time. Have you experienced the allure of Halfeti by Penhaligon's? Share your thoughts below!
+            </p>
+
             <img src={signature} alt="Jicky Signature" style={{ width: '100%' }} />
             <Comments website-id={websiteId} page-id="jicky" />
-
         </div>
     );
 
