@@ -107,7 +107,7 @@ function ResponsiveAppBar() {
                 backgroundColor: 'transparent'
               }
             }}>
-              <img src={logo} alt="Logo" style={{ height: '8vh' }} />
+              <img src={logo} alt="Logo" style={{ height: '7rem' }} />
             </IconButton>
 
             {isCollapsed ? (
@@ -443,15 +443,15 @@ function ResponsiveAppBar() {
                     backgroundColor: 'black',
                     color: 'white',
                     borderRadius: '5px',
-                    width: '50%',
+                    width: '100%',
                     fontFamily: 'GFS Didot, serif',
-                    padding: '0.25rem', // Half the padding of the original button
+                    padding: '0.5rem', // Half the padding of the original button
                     fontSize: '1rem', // Smaller font size
                     '&:hover': {
                       backgroundColor: '#fdedef',
                       color: '#745B4F',
                     },
-                    marginRight: '1rem', // Add some margin to the right
+                    marginRight: '5rem', // Add some margin to the right
                   }}
                 >
                   Subscribe
