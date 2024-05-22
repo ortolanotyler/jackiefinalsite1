@@ -17,23 +17,93 @@ const image10 = `${process.env.PUBLIC_URL}/Images/MediaKit/Featured10.jpg`;
 
 const imageUrls = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10];
 
+// Define corresponding URLs
+const links = [
+  'https://en.nikon.ca/learn-and-explore/c/ideas-and-inspiration/jackie-wyers',
+  'https://www.houseofwellness.com.au/beauty/beauty-trends/coppolacore-beauty-trend',
+  'https://el.imaginariumworld.co.uk/product-page/imaginarium-magazine-19-april-may-2023',
+  'https://www.justjaredjr.com/tags/jackie-wyers/',
+  'https://www.ardellshop.com/beauty-of-the-week-jackie-wyers',
+  'https://www.vogue.com/article/met-gala-challenge-instagram-photos',
+  'https://en.nikon.ca/learn-and-explore/c/ideas-and-inspiration/jackie-wyers',
+  'https://www.elle.com/',
+  'https://enchantedlivingmagazine.com/lost-lands-collection/',
+  'https://www.vogue.com/article/met-gala-challenge-instagram-photos',
+];
+
 const StyledMasonry = styled(Masonry)(({ theme }) => ({
   width: '100%',
   margin: 0,
-backgroundColor: '#fdedef',
+  backgroundColor: '#fdedef',
 }));
+
+const ImageWrapper = styled('div')({
+  position: 'relative',
+  overflow: 'hidden',
+  cursor: 'pointer',
+  '& img': {
+    transition: 'transform 0.3s ease',
+  },
+  '&:hover img': {
+    transform: 'scale(1.05)',
+  },
+  '&:hover .overlay': {
+    opacity: 1,
+  },
+});
+
+const Overlay = styled('div')({
+  position: 'absolute',
+  top: 0,
+  left: 0,
+  width: '100%',
+  height: '100%',
+  backgroundColor: 'rgba(0, 0, 0, 0.6)',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  opacity: 0,
+  transition: 'opacity 0.3s ease',
+});
+
+const Text = styled('div')({
+  color: 'white',
+  fontSize: '40px',
+  fontWeight: 'normal',
+  fontFamily: 'GFS Didot, serif',
+  textTransform: 'uppercase',
+  border: '1px solid white',
+  borderRadius: '1px',
+  padding: '10px',
+  boxSizing: 'border-box',
+});
 
 const FeaturedImages = () => {
   return (
-    <StyledMasonry columns={{ xs: 1, sm: 2, md: 3 }} spacing={3}>
+    <StyledMasonry
+      columns={{ xs: 1, sm: 1, md: 2, lg: 3 }}
+      spacing={3}
+      sx={{
+        '@media (max-width: 1200px)': {
+          columnCount: 1,
+        },
+      }}
+    >
       {imageUrls.map((url, index) => (
         <ImageListItem key={index}>
-          <img
-            src={`${url}?w=248&fit=crop&auto=format`}
-            srcSet={`${url}?w=248&fit=crop&auto=format&dpr=2 2x`}
-            alt={`Featured ${index + 1}`}
-            loading="lazy"
-          />
+          <a href={links[index]} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+            <ImageWrapper>
+              <img
+                src={`${url}?w=248&fit=crop&auto=format`}
+                srcSet={`${url}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                alt={`Featured ${index + 1}`}
+                loading="lazy"
+              />
+              <Overlay className="overlay">
+                <Text>READ</Text>
+              </Overlay>
+            </ImageWrapper>
+          </a>
         </ImageListItem>
       ))}
     </StyledMasonry>

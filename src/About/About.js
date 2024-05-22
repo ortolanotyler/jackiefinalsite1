@@ -5,16 +5,19 @@ import TextReveal from '../Components/TextReveal';
 import QuoteBanner from './QuoteBanner2';
 import ContactForm from './ContactForm';
 import BrandCarousel from '../Components/BrandCarousel/BrandCarousel';
-import { Grid, Paper, Box, Typography } from '@mui/material';
-import PageLines from '../Components/PageBreakUpLines';
-import MediaSplitComponent from './MediaSplitComponent';
-import MediaSplitComponentTwo from './MediaSplitComponentTwo';
-import MediaSplitComponentThree from './MediaSplitComponentThree';
+import { Grid, Paper, Box,} from '@mui/material';
+
 import RotatingText from '../Navigation/AppBar/RotatingText';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import MediaSplitFiori from './MediaSplitFiori';
+import MediaSplitSupergoop from './MediaSplitSupergoop';
+import MediaSplitMeanGirls from './MediaSplitMeanGirls';
+import MediaSplitJuicyCouture from './MediaSplitJuicyCouture';
+import MediaSplitIsopiaLashes from './MediaSplitIsopiaLashes.js';
+import MediaSplitWarnerBros from './MediasplitWarnerBros.js';
 
 // Images imported dynamically from the public folder using process.env.PUBLIC_URL
 const AboutEmily = `${process.env.PUBLIC_URL}/Images/About/JackieAboutMe1.jpg`;
@@ -86,22 +89,38 @@ const About = () => {
      
 
       <Grid item xs={12}>
+        <Paper elevation={3} style={{ padding: '5rem' }}>
         <BrandCarousel />
-      </Grid>
-
+        </Paper>
      
+      </Grid>
+
+    
 
       <Grid item xs={12}>
-        <MediaSplitComponent />
+        <MediaSplitWarnerBros/>
+      </Grid>
+
+      <Grid item xs={12}>
+        <MediaSplitJuicyCouture />
+      </Grid>
+          
+      <Grid item xs={12}>
+        <MediaSplitIsopiaLashes />
+      </Grid>
+
+      <Grid item xs={12}>
+        <MediaSplitFiori />
       </Grid>
     
       <Grid item xs={12}>
-        <MediaSplitComponentTwo />
+        <MediaSplitSupergoop />
       </Grid>
     
       <Grid item xs={12}>
-        <MediaSplitComponentThree />
+        <MediaSplitMeanGirls />
       </Grid>
+
       <Grid item xs={12}>
         <TextReveal text='FAN ART GALLERY' />
         <FanArt />

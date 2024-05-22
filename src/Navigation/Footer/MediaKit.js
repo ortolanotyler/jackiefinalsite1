@@ -3,6 +3,7 @@ import MediaKitSlider from './MediaKitSlider';
 import TextReveal from '../../Components/TextReveal';
 import FeaturedImages from './FeaturedImages';
 import BrandCarousel from '../../Components/BrandCarousel/BrandCarousel';
+import { Paper } from '@mui/material';
 
 const MediaKit = () => {
   const images = [
@@ -17,7 +18,9 @@ const MediaKit = () => {
       <MediaKitSlider images={images} />
       <TextReveal text= "FEATURED IN"/>
         <FeaturedImages />
+        <Paper elevation={3} style={{ padding: '5rem' }}>
         <BrandCarousel />
+        </Paper>
     </div>
   );
 };
