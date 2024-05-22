@@ -2,16 +2,15 @@ import React from 'react';
 import sharedStyles from './MediaSplitShared.module.css'; // Import the shared CSS module
 import ResponsiveInstagramIframe from '../Components/ResponsiveInstagramIframe';
 import ResponsiveIframe from '../Components/ResponsiveIframe';
-import ResponsiveIframeAbout from './ResponsiveIframeAbout';
 
-const logo = `${process.env.PUBLIC_URL}/Images/About/fioriaboutlogo.jpg`;
+const logo = `${process.env.PUBLIC_URL}/Images/About/onesize.png`;
 
-const MediaSplitFiori = () => {
+const MediaSplitOneSize = () => {
   return (
     <div className={sharedStyles.mediaContainer}>
       {/* ShopMy embed on the left */}
       <div className={sharedStyles.embedContainer}>
-        <ResponsiveIframeAbout src="https://shopmy.us/collections/public/557649?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+        <ResponsiveIframe src="https://shopmy.us/collections/public/556006?noHeader=true" title="Shop My Victoria's Secret Favorites" />
       </div>
 
       {/* Right section with logo and Instagram iframe stacked */}
@@ -23,11 +22,11 @@ const MediaSplitFiori = () => {
 
         {/* Instagram */}
         <div className={sharedStyles.stackItem}>
-          <ResponsiveInstagramIframe src="https://www.instagram.com/reel/C30e_YAuMnL/?utm_source=ig_embed&amp;utm_campaign=loading" title="Instagram Post" />
+          <ResponsiveInstagramIframe src="https://www.instagram.com/reel/C5WwZrPOSP6/embed" title="Instagram Post" />
         </div>
       </div>
     </div>
   );
 };
 
-export default MediaSplitFiori;
+export default MediaSplitOneSize;

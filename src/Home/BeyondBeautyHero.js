@@ -61,7 +61,7 @@ const BeyondBeautyHero = () => {
                   sx={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
                 >
                   <Typography variant="body1" sx={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>
-                    READ FULL BIO
+                   
                   </Typography>
                   <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
                 </Link>

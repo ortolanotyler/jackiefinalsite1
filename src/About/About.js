@@ -101,6 +101,8 @@ const About = () => {
         <MediaSplitWarnerBros/>
       </Grid>
 
+  
+
       <Grid item xs={12}>
         <MediaSplitJuicyCouture />
       </Grid>

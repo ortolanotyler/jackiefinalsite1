@@ -3,7 +3,7 @@ import sharedStyles from './MediaSplitShared.module.css'; // Import the shared C
 import ResponsiveInstagramIframe from '../Components/ResponsiveInstagramIframe';
 import ResponsiveIframe from '../Components/ResponsiveIframe';
 
-const logo = `${process.env.PUBLIC_URL}/Images/About/WarnerBros.png`;
+const logo = `${process.env.PUBLIC_URL}/Images/About/ISOPIA.png`;
 
 const MediaSplitIsopiaLashes = () => {
   return (
