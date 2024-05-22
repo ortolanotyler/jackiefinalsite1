@@ -25,16 +25,16 @@
     padding: 5rem;
     margin-top: 0.5rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Switch to 2-column grid under 1000px */
+    grid-template-columns: repeat(3, 1fr);
     font-size: 0;
     list-style: none;
     gap: 1.5rem;
     font-family: 'GFS Didot';
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .cardList {
-        grid-template-columns: repeat(2, 1fr); /* Switch to 2-column grid under 1000px */
+        grid-template-columns: repeat(2, 1fr); /* Switch to 2-column grid under 1200px */
     }
 }
 
@@ -45,6 +45,7 @@
 }
 
 .card {
+    text-decoration: none;
     background-color: white;
     max-width: 550px;
     font-size: 0.75em;

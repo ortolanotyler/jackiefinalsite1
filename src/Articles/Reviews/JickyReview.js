@@ -27,7 +27,7 @@ const JickyReview = () => {
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '2.75rem',
+        fontSize: '30px',
         fontWeight: 'normal',
         fontFamily: 'GFS Didot, serif',
         color: '#333',
@@ -41,8 +41,9 @@ const JickyReview = () => {
         margin: '5rem',
         marginTop: '3rem',
         marginBottom: '3rem',
-        maxWidth: '100%',
-        lineHeight: '1.5em'
+        maxWidth: '90%',
+        lineHeight: '1.5em',
+        justifyContent: 'center'
     };
 
     const imageStyle = {
@@ -57,7 +58,7 @@ const JickyReview = () => {
         display: 'block',
         margin: '0 1rem 1rem 0',
         float: 'left',
-        maxWidth: '40%',
+        maxWidth: '100%',
         height: 'auto'
     };
 

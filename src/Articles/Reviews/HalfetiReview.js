@@ -24,14 +24,14 @@ const HalfetiReview = () => {
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '2.75rem',
+        fontSize: '40px',
         fontWeight: 'normal',
         fontFamily: 'GFS Didot, serif',
         color: '#333',
         marginTop: '0.95rem',
         marginBottom: '0.95rem'
     };
-
+  
     const paragraphStyle = {
         fontSize: '21px',
         fontFamily: 'GFS Didot, serif',
