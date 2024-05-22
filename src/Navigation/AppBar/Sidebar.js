@@ -8,15 +8,22 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
     { name: 'HOME', path: '/' },
     { name: 'ABOUT', path: '/about' },
-    { name: 'TUTORIALS', path: '/tutorials' },
+    { name: 'QUIZ', path: '/quiz' },
     { name: 'POP CULTURE OBSESSED', path: '/popculture' },
-    { name: 'VINTAGE VIBES', path: '/vintagevibes' },
+    { name: 'TIME TRAVEL TUTORIALS', path: '/timetraveltutorials' },
     { name: 'TRENDS', path: '/trends' },
-    { name: 'Horoscopes', path: '/horoscopes' },
-    { name: 'Weddings', path: '/weddings' },
-    { name: 'In the Magazine', path: '/magazine' },
-    { name: 'Newsletter', path: '/newsletter' },
-    { name: 'Follow', path: '/follow' },
+    { name: 'PRODUCT REVIEWS', path: '/horoscopes' },
+    { name: 'TRAVEL', path: '/travel' },
+    { name: 'HOTEL REVIEWS', path: '/travel' },
+    { name: 'ITINERARIES', path: '/travel' },
+    { name: 'DIARY', path: '/diary' },
+    { name: 'SHOP MY STYLE', path: '/mystyle' },
+    { name: "60'S MERCH", path: '/mystyle' },
+    { name: 'BIG BEAUTY BAG', path: '/mystyle' },
+    { name: 'SITEMAP', path: '/sitemap' },
+    { name: 'PRESS', path: '/mediakit' },
+    { name: 'PRIVACY', path: '/privacy' },
+
   ];
 
   return (
@@ -34,7 +41,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
       >
         <IconButton
           onClick={toggleDrawer}
-          sx={{ position: 'absolute', top: '1rem', right: '1rem', color: '#745B4F' }}
+          sx={{ position: 'absolute', top: '1rem', right: '1rem', color: '#745B4F'}}
         >
           <CloseIcon />
         </IconButton>
@@ -49,6 +56,8 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
                 backgroundColor: 'transparent',
                 color: '#000000',
               },
+              textAlign: 'left',
+              justifyContent: 'flex-start', // Align text to the left
             }}
             onClick={toggleDrawer}
           >
@@ -63,4 +72,3 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
 };
 
 export default Sidebar;
-

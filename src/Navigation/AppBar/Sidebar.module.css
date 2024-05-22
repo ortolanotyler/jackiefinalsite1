@@ -1,17 +1,19 @@
-/* Sidebar.module.css */
 .sidebarButton {
   font-family: 'GFS Didot', serif !important;
   text-transform: none;
   display: block;
+  background-color: white;
   color: #745B4F;
   font-size: 1.2rem;
   text-align: left;
   width: 100%;
-  padding: 1rem 0;
+  padding: 2rem 1rem;
+  justify-content: flex-start; /* Align text to the left */
 }
 
 .sidebarTypography {
   font-family: 'GFS Didot', serif !important;
   color: #745B4F;
   font-weight: bold;
+  text-align: left; /* Ensure text inside Typography is left aligned */
 }

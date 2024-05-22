@@ -107,7 +107,7 @@ function ResponsiveAppBar() {
                 backgroundColor: 'transparent'
               }
             }}>
-              <img src={logo} alt="Logo" style={{ height: '7rem' }} />
+              <img src={logo} alt="Logo" style={{ height: '6rem' }} />
             </IconButton>
 
             {isCollapsed ? (
