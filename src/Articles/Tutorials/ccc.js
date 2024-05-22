@@ -17,7 +17,7 @@ const cardsData = [
     link: "/nomakeupspring",
     image: nomakeup,
     alt: "Warm and cozy latte-inspired fall makeup look",
-    title: "No Makeup Makeup - Spring Edition",
+    title: "No-Makeup Spring 🌸",
     description: "Think warm, cozy, fall!",
   },
   
@@ -27,13 +27,6 @@ const cardsData = [
     alt: "Margot Robbie Barbie Movie",
     title: "Margot as Barbie",
     description: "2014 vibes are so back"
-  },
-  {
-    link: "/patmcgrath",
-    image: image3,
-    alt: "Pat McGrath",
-    title: "Pat McGrath",
-    description: "Pat's Porcelain Doll"
   },
 
   {
@@ -72,7 +65,7 @@ const Card = ({ link, image, alt, title, description }) => {
 const Ccc = () => {
   return (
     <div>
-         <div><TextReveal text= 'POP CULTURE OBSESSED' /></div>
+         
         
     
       <ul className={styles.cardList}>

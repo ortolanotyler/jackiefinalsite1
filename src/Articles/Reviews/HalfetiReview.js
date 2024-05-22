@@ -3,6 +3,7 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import './ExampleTutorial.css';
 import TextReveal from '../../Components/TextReveal';
 import DropCap from '../../Components/DropCap';
+import ResponsiveIframe from '../../Components/ResponsiveIframe';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/halfetititle.png`;
 const halfeti1 = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/Halfeti1.jpg`;
@@ -76,26 +77,28 @@ const HalfetiReview = () => {
             </p>
             <DropCap text="Halfeti by Penhaligon's is an aromatic voyage to the exotic trade routes of the East, capturing the essence of the rare black roses of Halfeti, Turkey. It's an opulent and heady scent that exudes luxury and mystery." />
             
-            <h2 style={headingStyle}>Perfume Information</h2>
+         
             
-            <div style={{ textAlign: 'center', fontSize: '2rem', marginTop: '5rem', fontFamily: 'GFS Didot, serif' }}>
-                Perfume Name: Halfeti<br /><br />
-                Brand: Penhaligon's<br /><br />
-                Perfumers: Christian Provenzano<br />
+            <div style={{ textAlign: 'center', fontSize: '22px', marginTop: '5rem', fontFamily: 'GFS Didot, serif' }}>
+                Perfume Name: <strong> Halfeti</strong> 
+                <br /><br />
+                Brand: <strong>Penhaligon's </strong> 
+                <br /><br />
+                Perfumers: <strong>Christian Provenzano </strong>
+                <br />
             </div>
             <br></br>
             <br></br>
-            <h2 style={headingStyle}>Background Information</h2>
+            <h2 style={headingStyle}> 🌹 Background Information</h2>
             
             <p style={paragraphStyle}>
                 Halfeti by Penhaligon's is an aromatic voyage to the exotic trade routes of the East, capturing the essence of the rare black roses of Halfeti, Turkey. It's an opulent and heady scent that exudes luxury and mystery.
             </p>
             
-            <img src={halfeti1} alt="Halfeti Perfume 2" style={{ width: '100%' }} />
             
-            <h2 style={headingStyle}>Fragrance Profile</h2>
+            <h2 style={headingStyle}> 🍃 Fragrance Profile</h2>
             
-            <table style={{ fontSize: '1.25rem', fontFamily: 'GFS Didot, serif', margin: '3rem', maxWidth: '100%', borderCollapse: 'collapse' }}>
+            <table style={{ fontSize: '20px', fontFamily: 'GFS Didot, serif', margin: '3rem', maxWidth: '100%', borderCollapse: 'collapse' }}>
                 <tbody>
                     <tr>
                         <td><strong>Concentration:</strong></td>
@@ -124,21 +127,26 @@ const HalfetiReview = () => {
                 Overall Scent Profile: Halfeti opens with a burst of citrus freshness, dominated by grapefruit and bergamot, before evolving into a spicy and floral heart. The base is warm and woody, with prominent notes of leather, oud, and amber, creating a rich and sophisticated scent that lingers on the skin.
             </p>
             
-            <h2 style={headingStyle}>Personal First Impressions</h2>
+            <h2 style={headingStyle}> 🗺️ Personal First Impressions</h2>
+            
+          
             
             <p style={paragraphStyle}>
-                My first encounter with Halfeti was like stepping into a Turkish bazaar, surrounded by the intoxicating aroma of spices and roses. The fragrance transported me to a distant land, evoking images of bustling markets and ancient palaces.
-            </p>
+            My first encounter with Penhaligon's fragrances was when I received a tester set featuring a variety of scents from this iconic British perfume house. Among them, Halfeti stood out and quickly became a favorite for both my husband and I. As a unisex fragrance, it boasts a rich, exotic, and distinct aroma. The "Trade Routes" collection from Penhaligon's draws inspiration from various destinations, and although I've never visited Halfeti, Turkey, this particular fragrance transports me to what I imagine would be a warm and vibrant night bazaar.
+                        </p>
             
             <p style={paragraphStyle}>
-                What struck me most about Halfeti is its complexity and depth. It's a fragrance that unfolds gradually on the skin, revealing new layers and nuances with each wear. From the zesty opening to the smoky dry down, Halfeti is a journey of discovery that captivates the senses.
-            </p>
+            Out of the many Penhaligon's perfumes I've tried, Halfeti is one that I've often chosen as a gift for other women, particularly older women as it is quite a mature scent, and it's the one I've personally depleted most frequently. Its uniqueness and relative obscurity often earn me compliments and inquisitive queries about the scent I'm wearing. I don’t gatekeep, but you sure can 😉
+                        </p>
+
+                        <p style={paragraphStyle}>
+                        I recommend visiting a Penhaligon’s boutique or your nearest Nordstrom or Saks Fifth Avenue to experience Halfeti for yourself. It might be challenging to envision how the enchanting combination of notes comes together, but they do so in a bold and alluring manner that is simply irresistible. You’ll smell expensive with this deeply rich scent, and that is what you pay for with Penhaligon’s!
+                        </p>
+
+                        <ResponsiveIframe src="https://shopmy.us/collections/public/557984?noHeader=true" title="Final Touches" />
+
             
-            <p style={paragraphStyle}>
-                I was particularly drawn to the interplay between the fresh citrus notes and the warm, woody base. It's a contrast that adds intrigue and sophistication to the fragrance, making it suitable for both day and evening wear.
-            </p>
-            
-            <h2 style={headingStyle}>Review & Recommendations</h2>
+            <h2 style={headingStyle}>❤️ Review & Recommendations</h2>
             
             <p style={paragraphStyle}>
                 <strong>Longevity:</strong> Halfeti boasts excellent longevity, lasting well throughout the day with just a few spritzes. The fragrance develops beautifully over time, revealing different facets while maintaining its captivating aroma.
@@ -149,9 +157,42 @@ const HalfetiReview = () => {
             </p>
             
             <p style={paragraphStyle}>
-                Overall, Halfeti by Penhaligon's is a masterpiece of perfumery that transports you to a world of luxury and intrigue. Its rich and complex scent is sure to captivate the senses and leave a lasting impression on those around you. Whether you're exploring ancient souks or strolling through modern metropolises, Halfeti is the perfect companion for the discerning traveler.
-            </p>
+            <strong>Occasions and Seasonality: </strong> Halfeti's depth and warmth make it perfect for cooler seasons, and its boldness suits formal events or evenings when you want to make a statement.            </p>
             
+            <h2 style={headingStyle}>Comparisons
+            </h2>
+
+            <p style={paragraphStyle}>
+            Those who favor bold, oriental fragrances like Tom Ford's Oud Wood or Jo Malone's Oud & Bergamot
+might find a familiar allure in Halfeti. Yet, Penhaligon's offering stands out with its unique blend of Turkish florals and spices..
+            </p>
+
+            <h2 style={headingStyle}>📝  Final Thoughts
+            </h2>
+
+            <p style={paragraphStyle}>
+          <strong>Pros and Cons:</strong> The blend of exotic spices and florals might be intense for those who prefer lighter scents. But
+for lovers of rich, complex fragrances, Halfeti is a treasure.
+            </p>
+            <p style={paragraphStyle}>
+            <strong>Value for Money: </strong> Given its complexity and longevity, Halfeti is a worthy indulgence for those who appreciate niche perfumery..
+
+            </p>
+
+            <p style={paragraphStyle}>
+            <strong>Who Would Enjoy It:</strong> A signature scent for the bold and adventurous, it's for those who aren't afraid to stand out. I personally feel like this is a more mature fragrance.
+            </p>
+
+            <p style={paragraphStyle}>
+            <strong> Conclusion: </strong>Halfeti by Penhaligon's is a fragrant masterpiece, weaving together the essence of the East with British perfumery's finesse. It's a scent that promises to transport you to another world, one spritz at a time.
+
+            </p>
+
+            <p style={paragraphStyle}>
+Have you experienced the allure of Halfeti by Penhaligon's? Share your thoughts below.
+            </p>
+
+
             <img src={signature} alt="Signature" style={{ width: '100%' }} />
             <Comments website-id={websiteId} page-id="Halfeti" />
 

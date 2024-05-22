@@ -7,6 +7,9 @@ const image3 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARO
 const balke = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BALKETHUMBNAIL.jpeg`;
 const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
 const shrimpton = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg`;
+const grace = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/GraceKellyJackieWyers.jpg`;
+const twiggy = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyMODThumbnail.jpeg`;
+
 
 const cardsData = [
   {
@@ -15,6 +18,13 @@ const cardsData = [
     alt: "Sophia Loren",
     title: "Sophia Loren",
     description: "Get the look",
+  },
+  {
+    link: "/gracekelly",
+    image: grace,
+    alt: "Grace Kelly - Hollywood Glam",
+    title: "Grace Kelly - Hollywood Glam",
+    description: "Part Two of the iconic series",
   },
   {
     link: "/sharontatebridal",
@@ -43,6 +53,13 @@ const cardsData = [
     alt: "1960s legend Ina Balke European chic makeup tutorial",
     title: "Jean Shrimpton - Yardley 1965",
     description: "Part Two of the iconic series",
+  },
+  {
+    link: "/twiggy",
+    image: twiggy,
+    alt: "1960s legend Ina Balke European chic makeup tutorial",
+    title: "Twiggy // MOD Blue",
+    description: "Iconic '60s Makeup how-to"
   },
   // Add more card objects as needed...
 ];

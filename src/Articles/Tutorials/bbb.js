@@ -5,19 +5,19 @@ import styles from './aaa.module.css'; // Import CSS Modules
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteThumbnail.jpg`;
 const image5 = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
-const image8 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
-
+const image8 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
+const makeup2016 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016MakeupThumbnail.jpg`;
 const image17 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
 
 const cardsData = [
 
 
   {
-    link: "/nomakeupspring",
-    image: image17,
-    alt: "No Makeup - Spring Edition",
-    title: "No-Makeup Spring 🌸",
-    description: "No Makeup Makeup - Spring Edition",
+    link: "/patmcgrath",
+    image: image8,
+    alt: "Pat McGrath",
+    title: "Pat McGrath",
+    description: "Pat's Porcelain Doll"
   },
   {
     link: "/latteMakeup",
@@ -34,19 +34,14 @@ const cardsData = [
     description: "Trend Report",
   },
   {
-    link: "/lanablog",
-    image: image6,
-    alt: "SKIMS collaboration with Lana for Valentine's Day makeup",
-    title: "SKIMS X Lana",
-    description: "V-Day Makeup",
-  },
-  {
-    link: "/victoriasecret",
-    image: image8,
+    link: "/2016Makeup",
+    image: makeup2016,
     alt: "Victoria's Secret fashion show 2014 vibes",
-    title: "Victoria's Secret",
+    title: "2016 Makeup Inspo!",
     description: "2014 vibes are so back",
   },
+
+
 
 ];
 

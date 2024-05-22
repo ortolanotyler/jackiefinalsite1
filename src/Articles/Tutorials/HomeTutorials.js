@@ -18,15 +18,16 @@ import RotatingText from '../../Navigation/AppBar/RotatingText';
 const HomeTutorials = () => {
   return (
 
-    <div><TextReveal text="LATEST" />
+    <div><TextReveal text="POP CULTURE" />
      <Paper elevation={3} style={{ padding: '1rem', margin: '1rem 0' }}>
      <RotatingText />
      </Paper>
-      <Slider1 />
-      <TextReveal text='TRENDING NOW' />
+     <Ccc/>
+
+      <TextReveal text='MAKEUP TRENDS' />
       <Slider2 />
   
-      <Ccc/>
+      
       <TextReveal text='VINTAGE VIBES' />
       <Slider4/>
       

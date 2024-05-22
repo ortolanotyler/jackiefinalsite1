@@ -40,13 +40,7 @@ const cardsData = [
     title: "Sugar Plum Fairy",
     description: "Trend Report",
   },
-  {
-    link: "/lanablog",
-    image: image6,
-    alt: "SKIMS collaboration with Lana for Valentine's Day makeup",
-    title: "SKIMS X Lana",
-    description: "V-Day Makeup",
-  },
+
   {
     link: "/patmcgrath",
     image: image8,
@@ -54,13 +48,7 @@ const cardsData = [
     title: "Pat McGrath",
     description: "Pat's Porcelain Doll"
   },
-  {
-    link: "/victoriasecret",
-    image: victoria,
-    alt: "Victoria's Secret fashion show 2014 vibes",
-    title: "Victoria's Secret",
-    description: "2014 vibes are so back",
-  },
+
 
 
 

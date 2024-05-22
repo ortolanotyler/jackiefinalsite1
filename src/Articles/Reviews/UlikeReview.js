@@ -35,7 +35,7 @@ const UlikeReview = () => {
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '2.75rem',
+        fontSize: '30px',
         fontWeight: 'normal',
         fontFamily: 'GFS Didot, serif',
         color: '#333',
@@ -61,7 +61,7 @@ const UlikeReview = () => {
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.5rem', margin: '25rem', marginTop: '5rem' }}>
+        <div className="container" style={{ lineHeight: '2.5rem', margin: '27rem', marginTop: '5rem' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10rem' }}>
                 <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.5em', marginTop: '1em', lineHeight: '1.5rem', marginBottom: '2.5em', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // PRODUCTS // REVIEWS
@@ -86,6 +86,14 @@ const UlikeReview = () => {
                     All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
                 </p>
             </div>
+
+            <br />
+            <p style = {paragraphStyle}>
+            Device Name: Ulike Air 10 Brand: Ulike
+Year of Release: 2024 Technology: DualLight IPL Price: $309 USD
+            </p>
+       
+<br/>
             <h2 style={headingStyle}>{'\u{1F64B}'} {titles.backgroundInfo}</h2>
             <p style={paragraphStyle}>
                 Discover the revolutionary Ulike Air 10, an at-home hair removal device that employs state-of-the-art DualLight technology. As the market leader in IPL devices, it offers those seeking a pain-free and effective hair removal solution a taste of professional-grade skincare without leaving home.
