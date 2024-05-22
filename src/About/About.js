@@ -5,7 +5,7 @@ import TextReveal from '../Components/TextReveal';
 import QuoteBanner from './QuoteBanner2';
 import ContactForm from './ContactForm';
 import BrandCarousel from '../Components/BrandCarousel/BrandCarousel';
-import { Grid, Paper, Box,} from '@mui/material';
+import { Grid, Paper, Box } from '@mui/material';
 
 import RotatingText from '../Navigation/AppBar/RotatingText';
 import YouTubeIcon from '@mui/icons-material/YouTube';
@@ -19,7 +19,6 @@ import MediaSplitJuicyCouture from './MediaSplitJuicyCouture';
 import MediaSplitIsopiaLashes from './MediaSplitIsopiaLashes.js';
 import MediaSplitWarnerBros from './MediasplitWarnerBros.js';
 
-// Images imported dynamically from the public folder using process.env.PUBLIC_URL
 const AboutEmily = `${process.env.PUBLIC_URL}/Images/About/JackieAboutMe1.jpg`;
 const leftImage = `${process.env.PUBLIC_URL}/Images/About/AboutJackie.jpg`;
 
@@ -132,4 +131,3 @@ const About = () => {
 };
 
 export default About;
-
