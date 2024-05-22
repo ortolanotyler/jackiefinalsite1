@@ -448,9 +448,9 @@ function ResponsiveAppBar() {
                     backgroundColor: 'black',
                     color: 'white',
                     borderRadius: '5px',
-                    width: '50%',
+                    width: '100%',
                     fontFamily: 'GFS Didot, serif',
-                    padding: '0.25rem', // Half the padding of the original button
+                    padding: '0.5rem', // Half the padding of the original button
                     fontSize: '1rem', // Smaller font size
 
                     '&:hover': {
@@ -458,11 +458,13 @@ function ResponsiveAppBar() {
                       color: '#745B4F',
                       fontFamily: 'GFS Didot, serif',
                     },
-                    marginRight: '1rem', // Add some margin to the right
+                    marginRight: '5rem', // Add some margin to the right
                   }}
                 >
                   Subscribe
                 </Button>
+            
+
               </Box>
             )}
           </Toolbar>
