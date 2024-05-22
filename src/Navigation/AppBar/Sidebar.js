@@ -1,15 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Drawer, Box, Button, Typography } from '@mui/material';
+import { Drawer, Box, Button, Typography, IconButton } from '@mui/material';
+import CloseIcon from '@mui/icons-material/Close';
 import styles from './Sidebar.module.css'; // Import the CSS module
 
 const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
-    { name: 'Subscribe', path: '/subscribe' },
-    { name: 'Fashion', path: '/fashion' },
-    { name: 'Beauty', path: '/beauty' },
-    { name: 'Culture', path: '/culture' },
-    { name: 'News & Politics', path: '/news-politics' },
+    { name: 'HOME', path: '/' },
+    { name: 'ABOUT', path: '/about' },
+    { name: 'TUTORIALS', path: '/tutorials' },
+    { name: 'POP CULTURE OBSESSED', path: '/popculture' },
+    { name: 'VINTAGE VIBES', path: '/vintagevibes' },
+    { name: 'TRENDS', path: '/trends' },
     { name: 'Horoscopes', path: '/horoscopes' },
     { name: 'Weddings', path: '/weddings' },
     { name: 'In the Magazine', path: '/magazine' },
@@ -18,20 +20,24 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
   ];
 
   return (
-    <Drawer anchor="left" open={isOpen} onClose={toggleDrawer}>
+    <Drawer anchor="left" open={isOpen} onClose={toggleDrawer} PaperProps={{ style: { zIndex: 1400 } }}>
       <Box
         sx={{
-          width: '20vw',
+          width: '25vw',
           height: '100vh',
           backgroundColor: '#FDEDEF',
           padding: '2rem 1rem',
           fontFamily: 'GFS Didot, serif',
-
+          position: 'relative',
         }}
         role="presentation"
-        onClick={toggleDrawer}
-        onKeyDown={toggleDrawer}
       >
+        <IconButton
+          onClick={toggleDrawer}
+          sx={{ position: 'absolute', top: '1rem', right: '1rem', color: '#745B4F' }}
+        >
+          <CloseIcon />
+        </IconButton>
         {menuItems.map((item) => (
           <Button
             key={item.name}
@@ -44,8 +50,11 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
                 color: '#000000',
               },
             }}
+            onClick={toggleDrawer}
           >
-            <Typography variant="h6" className={styles.sidebarTypography}>{item.name}</Typography>
+            <Typography variant="h6" className={styles.sidebarTypography}>
+              {item.name}
+            </Typography>
           </Button>
         ))}
       </Box>
@@ -54,3 +63,4 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
 };
 
 export default Sidebar;
+

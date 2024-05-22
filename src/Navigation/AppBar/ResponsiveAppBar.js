@@ -13,8 +13,8 @@ import {
   Typography,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import Sidebar from './Sidebar'; // Import the Sidebar component
 import './ResponsiveAppBar.css'; // Import the CSS file for custom styles
-import Sidebar from './SideBar/Sidebar';
 
 const logo = `${process.env.PUBLIC_URL}/Images/Home/jackielogo.png`;
 
@@ -96,7 +96,7 @@ function ResponsiveAppBar() {
         margin: 0,
         padding: '1rem',
         width: '100%',
-        zIndex: 1300, // Ensure it stays above other content
+        zIndex: 1200, // Ensure it stays above other content but below the sidebar
       }}>
         <Container maxWidth="false" disableGutters>
           <Toolbar disableGutters sx={{ justifyContent: 'space-between', flexWrap: 'wrap', alignItems: 'center' }}>
@@ -443,9 +443,9 @@ function ResponsiveAppBar() {
                     backgroundColor: 'black',
                     color: 'white',
                     borderRadius: '5px',
-                    width: '100%',
+                    width: '50%',
                     fontFamily: 'GFS Didot, serif',
-                    padding: '0.5rem', // Half the padding of the original button
+                    padding: '0.25rem', // Half the padding of the original button
                     fontSize: '1rem', // Smaller font size
                     '&:hover': {
                       backgroundColor: '#fdedef',
