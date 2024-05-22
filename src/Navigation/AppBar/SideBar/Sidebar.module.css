@@ -1,0 +1,16 @@
+.sidebarButton {
+  font-family: 'GFS Didot, serif';
+  text-transform: none;
+  display: block;
+  color: #745B4F;
+  font-size: 1.2rem;
+  text-align: left;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.sidebarTypography {
+  font-family: 'GFS Didot, serif';
+  color: #745B4F;
+  font-weight: bold;
+}
