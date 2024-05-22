@@ -66,7 +66,7 @@ function App() {
     <Router>
       <ScrollToTop />
       <ResponsiveAppBar />
-      <RotatingText/>
+      <RotatingText />
       <div className="main-content">
         <Routes>
           {/* NavBar Routes */}

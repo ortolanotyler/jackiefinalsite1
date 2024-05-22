@@ -33,7 +33,8 @@ const links = [
 
 const StyledMasonry = styled(Masonry)(({ theme }) => ({
   width: '100%',
-  margin: 0,
+  margin: 5,
+  padding: 10,
   backgroundColor: '#fdedef',
 }));
 
@@ -70,25 +71,17 @@ const Text = styled('div')({
   color: 'white',
   fontSize: '40px',
   fontWeight: 'normal',
-  fontFamily: 'GFS Didot, serif',
+  fontFamily: 'GFS Didot, sans-serif',
   textTransform: 'uppercase',
   border: '1px solid white',
   borderRadius: '1px',
-  padding: '10px',
+  padding: '5px',
   boxSizing: 'border-box',
 });
 
 const FeaturedImages = () => {
   return (
-    <StyledMasonry
-      columns={{ xs: 1, sm: 1, md: 2, lg: 3 }}
-      spacing={3}
-      sx={{
-        '@media (max-width: 1200px)': {
-          columnCount: 1,
-        },
-      }}
-    >
+    <StyledMasonry columns={{ xs: 1, sm: 2, md: 3 }} spacing={3}>
       {imageUrls.map((url, index) => (
         <ImageListItem key={index}>
           <a href={links[index]} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
