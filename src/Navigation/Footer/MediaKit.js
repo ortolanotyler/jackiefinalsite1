@@ -1,6 +1,8 @@
 import React from 'react';
 import MediaKitSlider from './MediaKitSlider';
 import TextReveal from '../../Components/TextReveal';
+import FeaturedImages from './FeaturedImages';
+import BrandCarousel from '../../Components/BrandCarousel/BrandCarousel';
 
 const MediaKit = () => {
   const images = [
@@ -13,6 +15,9 @@ const MediaKit = () => {
     <div>
       <TextReveal text= "MEDIA KIT"/>
       <MediaKitSlider images={images} />
+      <TextReveal text= "FEATURED IN"/>
+        <FeaturedImages />
+        <BrandCarousel />
     </div>
   );
 };

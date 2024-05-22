@@ -12,7 +12,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'POP CULTURE OBSESSED', path: '/popculture' },
     { name: 'TIME TRAVEL TUTORIALS', path: '/timetraveltutorials' },
     { name: 'TRENDS', path: '/trends' },
-    { name: 'PRODUCT REVIEWS', path: '/horoscopes' },
+    { name: 'PRODUCT REVIEWS', path: '/reviews' },
     { name: 'TRAVEL', path: '/travel' },
     { name: 'HOTEL REVIEWS', path: '/travel' },
     { name: 'ITINERARIES', path: '/travel' },
@@ -23,12 +23,12 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'SITEMAP', path: '/sitemap' },
     { name: 'PRESS', path: '/mediakit' },
     { name: 'PRIVACY', path: '/privacy' },
-
   ];
 
   return (
     <Drawer anchor="left" open={isOpen} onClose={toggleDrawer} PaperProps={{ style: { zIndex: 1400 } }}>
       <Box
+        className={styles.sidebar}
         sx={{
           width: '25vw',
           height: '100vh',
@@ -36,12 +36,15 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           padding: '2rem 1rem',
           fontFamily: 'GFS Didot, serif',
           position: 'relative',
+          '@media (max-width: 1200px)': {
+            width: '45vw',
+          },
         }}
         role="presentation"
       >
         <IconButton
           onClick={toggleDrawer}
-          sx={{ position: 'absolute', top: '1rem', right: '1rem', color: '#745B4F'}}
+          sx={{ position: 'absolute', top: '1rem', right: '1rem', color: '#745B4F' }}
         >
           <CloseIcon />
         </IconButton>

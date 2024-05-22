@@ -5,6 +5,7 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import TextReveal from '../../../Components/TextReveal';
 
+const button = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/AnimalQuizResults.jpeg`;
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyTitleResults.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
 const final = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/Final.JPG`;
