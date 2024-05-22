@@ -9,14 +9,14 @@ const MediaKit = () => {
   const images = [
     '/Images/MediaKit/MediaKit1.png',
     '/Images/MediaKit/MediaKit2.png',
-    '/Images/MediaKit/MediaKit2.png',
+
   ];
 
   return (
     <div>
       <TextReveal text= "MEDIA KIT"/>
       <MediaKitSlider images={images} />
-      <TextReveal text= "FEATURED IN"/>
+      <TextReveal text= "PREVIOUS COLLABORATIONS"/>
         <FeaturedImages />
         <Paper elevation={3} style={{ padding: '5rem' }}>
         <BrandCarousel />

@@ -96,32 +96,6 @@ const About = () => {
      
       </Grid>
 
-      <Grid item xs={6} className={styles['media-padding']}>
-        <MediaSplitWarnerBros />
-      </Grid>
-      <Grid item xs={6} className={styles['media-padding']}>
-        <MediaSplitMeanGirls />
-      </Grid>
-      <Grid item xs={12} className={styles['media-padding']}>
-        <MediaSplitJuicyCouture />
-      </Grid>
-      <Grid item xs={12} className={styles['media-padding']}>
-        <MediaSplitFiori />
-      </Grid>
-      <Grid item xs={12} className={styles['media-padding']}>
-        <MediaSplitOneSize />
-      </Grid>
-    
-      <Grid item xs={12} className={styles['media-padding']}>
-        <MediaSplitIsopiaLashes />
-      </Grid>
-    
-      <Grid item xs={12} className={styles['media-padding']}>
-        <MediaSplitWondery />
-      </Grid>
-      <Grid item xs={12} className={styles['media-padding']}>
-        <MediaSplitSupergoop />
-      </Grid>
 
       <Grid item xs={12}>
         <TextReveal text='FAN ART GALLERY' />

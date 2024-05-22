@@ -58,12 +58,12 @@ const ContactForm = () => {
       ) : (
         <>
           <div className={styles.column}>
-          <div className={styles.column}>
-            <p>
-              Throughout the years, I have had the privilege of collaborating with esteemed brands that have enhanced the quality of my
-              tutorials. If you believe that our partnership would be a beneficial fit, I invite you to reach out.
-            </p>
-          </div>
+            <div className={styles.column}>
+              <p>
+                Throughout the years, I have had the privilege of collaborating with esteemed brands that have enhanced the quality of my
+                tutorials. If you believe that our partnership would be a beneficial fit, I invite you to reach out.
+              </p>
+            </div>
             <form onSubmit={formik.handleSubmit} className={styles.form}>
               <input
                 type="text"
@@ -110,8 +110,24 @@ const ContactForm = () => {
               
               <button type="submit" className={styles.button}>SEND</button>
             </form>
-          </div>
+            <div
+            style = {{ height: '5vh' }}>
+            <p></p>
 
+            </div>
+            <div className={styles.rightAlign}>
+              <a
+                href="/mediakit"
+                style={{
+                  fontSize: '19px',
+                  color: 'black',
+                  textDecoration: 'underline',
+                }}
+              >
+                View media kit and previous collaborations <span>&#x2192;</span>
+              </a>
+            </div>
+          </div>
         </>
       )}
     </div>
@@ -119,3 +135,4 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
+

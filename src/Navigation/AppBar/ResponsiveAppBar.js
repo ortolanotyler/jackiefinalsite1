@@ -26,14 +26,14 @@ const pages = [
 ];
 
 const aboutOptions = [
-  { name: 'BIO', path: '/about' },
-  { name: 'PRESS', path: '/mediakit' },
-  { name: 'CONTACT', path: '/contact' },
+  { name: 'Bio', path: '/about' },
+  { name: 'Press', path: '/mediakit' },
+  { name: 'Contact', path: '/contact' },
 ];
 
 const beyondBeautyOptions = [
   { name: 'Travel', path: '/travel' },
-  { name: 'Vlog', path: '/vlog' },
+
   { name: 'Diary', path: '/diary' },
 ];
 
@@ -317,27 +317,6 @@ function ResponsiveAppBar() {
                     </MenuItem>
                   ))}
                 </Menu>
-                {pages.slice(2, 3).map((page) => (
-                  <Button
-                    key={page.name}
-                    component={Link}
-                    to={page.path}
-                    className="jiggle-button"
-                    sx={{
-                      my: 2,
-                      color: '#745B4F',
-                      display: 'block',
-                      fontSize: '1rem',
-                      fontFamily: 'GFS Didot, sans-serif',
-                      mx: 2,
-                      '&:hover': {
-                        backgroundColor: 'transparent',
-                      },
-                    }}
-                  >
-                    {page.name}
-                  </Button>
-                ))}
                 <Button
                   aria-controls="tutorials-menu"
                   aria-haspopup="true"
@@ -388,6 +367,81 @@ function ResponsiveAppBar() {
                 >
                   {tutorialOptions.map((option) => (
                     <MenuItem key={option.name} onClick={handleCloseTutorialsMenu} component={Link} to={option.path} sx={{ '&:hover': { bgcolor: 'transparent' } }}>
+                      {option.name}
+                    </MenuItem>
+                  ))}
+                </Menu>
+                {pages.slice(2, 3).map((page) => (
+                  <Button
+                    key={page.name}
+                    component={Link}
+                    to={page.path}
+                    className="jiggle-button"
+                    sx={{
+                      my: 2,
+                      color: '#745B4F',
+                      display: 'block',
+                      fontSize: '1rem',
+                      fontFamily: 'GFS Didot, sans-serif',
+                      mx: 2,
+                      '&:hover': {
+                        backgroundColor: 'transparent',
+                      },
+                    }}
+                  >
+                    {page.name}
+                  </Button>
+                ))}
+                <Button
+                  aria-controls="shop-menu"
+                  aria-haspopup="true"
+                  onClick={handleOpenShopMenu}
+                  className="jiggle-button"
+                  sx={{
+                    my: 2,
+                    color: '#745B4F',
+                    display: 'block',
+                    fontSize: '1rem',
+                    fontFamily: 'GFS Didot, sans-serif',
+                    mx: 2,
+                    '&:hover': {
+                      backgroundColor: 'transparent',
+                    },
+                  }}
+                >
+                  STYLE
+                </Button>
+                <Menu
+                  id="shop-menu"
+                  anchorEl={anchorElShop}
+                  anchorOrigin={{
+                    vertical: 'bottom',
+                    horizontal: 'right',
+                  }}
+                  transformOrigin={{
+                    vertical: 'top',
+                    horizontal: 'right',
+                  }}
+                  open={Boolean(anchorElShop)}
+                  onClose={handleCloseShopMenu}
+                  sx={{
+                    '.MuiPaper-root': {
+                      bgcolor: 'white',
+                      color: '#745B4F',
+                      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+                      borderRadius: '8px',
+                    },
+                    '.MuiMenuItem-root': {
+                      fontFamily: 'GFS Didot, sans-serif',
+                      fontSize: '1rem',
+                      '&:hover': {
+                        bgcolor: 'transparent',
+                      },
+                    },
+                  }}
+                >
+                  {shopOptions.map((option) => (
+                    <MenuItem key={option.name} onClick={handleCloseShopMenu} component={Link} to={option.path} sx={{ '&:hover': { bgcolor: 'transparent' } }}>
                       {option.name}
                     </MenuItem>
                   ))}
@@ -467,60 +521,6 @@ function ResponsiveAppBar() {
                     </MenuItem>
                   ))}
                 </Menu>
-                <Button
-                  aria-controls="shop-menu"
-                  aria-haspopup="true"
-                  onClick={handleOpenShopMenu}
-                  className="jiggle-button"
-                  sx={{
-                    my: 2,
-                    color: '#745B4F',
-                    display: 'block',
-                    fontSize: '1rem',
-                    fontFamily: 'GFS Didot, sans-serif',
-                    mx: 2,
-                    '&:hover': {
-                      backgroundColor: 'transparent',
-                    },
-                  }}
-                >
-                  STYLE
-                </Button>
-                <Menu
-                  id="shop-menu"
-                  anchorEl={anchorElShop}
-                  anchorOrigin={{
-                    vertical: 'bottom',
-                    horizontal: 'right',
-                  }}
-                  transformOrigin={{
-                    vertical: 'top',
-                    horizontal: 'right',
-                  }}
-                  open={Boolean(anchorElShop)}
-                  onClose={handleCloseShopMenu}
-                  sx={{
-                    '.MuiPaper-root': {
-                      bgcolor: 'white',
-                      color: '#745B4F',
-                      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                      borderRadius: '8px',
-                    },
-                    '.MuiMenuItem-root': {
-                      fontFamily: 'GFS Didot, sans-serif',
-                      fontSize: '1rem',
-                      '&:hover': {
-                        bgcolor: 'transparent',
-                      },
-                    },
-                  }}
-                >
-                  {shopOptions.map((option) => (
-                    <MenuItem key={option.name} onClick={handleCloseShopMenu} component={Link} to={option.path} sx={{ '&:hover': { bgcolor: 'transparent' } }}>
-                      {option.name}
-                    </MenuItem>
-                  ))}
-                </Menu>
               </Box>
             )}
 
@@ -537,6 +537,7 @@ function ResponsiveAppBar() {
                     fontFamily: 'GFS Didot, serif',
                     padding: '0.5rem', // Half the padding of the original button
                     fontSize: '1rem', // Smaller font size
+                    boxShadow: '0 4px 8px rgba(0, 0, 1, 0.1)', // Add a shadow
                     '&:hover': {
                       backgroundColor: '#fdedef',
                       color: '#745B4F',
