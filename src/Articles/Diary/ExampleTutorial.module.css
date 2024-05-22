@@ -1,45 +1,42 @@
-/* General styles for the whole component */
 body {
   padding: 1rem;
 }
 
 .card:hover {
-  transform: none !important; /* Ensures there is no movement or scaling */
-  /* Any other hover effects you wish to neutralize can be reset here */
+  transform: none !important;
 }
 
 .iframeStyle {
   width: 100%;
-  height: 525px; /* Adjusted height value */
+  height: 525px;
   border: 0;
 }
 
 .container {
   max-width: 100%;
-  box-sizing: border-box; /* Ensure padding doesn't add to the width */
+  box-sizing: border-box;
 }
 
 .embedContainer {
   display: block;
-  margin: 1rem auto; /* Center the embed-container */
+  margin: 1rem auto;
   width: 100%;
   min-height: 100%;
-  height: calc(55vh + 16px); /* Adjust the value as needed */
+  height: calc(55vh + 16px);
   border: none;
-  overflow: hidden; /* Hide overflow by default */
+  overflow: hidden;
 }
 
 .largeText {
-  text-align: left !important; /* Ensures text is aligned left */
+  text-align: left !important;
 }
 
 @media (max-width: 1200px) {
   .embedContainer {
-      overflow: auto; /* Enable scrolling for screens less than 1200px */
+    overflow: auto;
   }
 }
 
-/* Styles for each card */
 .card {
   width: 100%;
   max-width: 1000px;
@@ -47,27 +44,46 @@ body {
   color: black;
   font-family: 'GFS Didot', sans-serif;
   text-align: left;
-  margin: 0 auto 1em; /* Center the card and add spacing */
+  margin: 0 auto 5em;
 }
 
-/* Styles for images */
 .card img {
   width: 100%;
   height: auto;
   margin-bottom: 1rem;
 }
 
-/* Styles for blog content */
 .blogContent {
   text-align: left;
   line-height: 1.25rem;
   margin-bottom: 1rem;
 }
 
-/* Override margin for screen sizes below 1000px */
 @media screen and (max-width: 1000px) {
   .container {
-      margin: 0 !important;
-      padding: 1;
+    margin: 0 !important;
+    padding: 1;
   }
+}
+
+
+
+.dropcap-letter {
+  color: #745B4F;
+  font-size: 7.5rem;
+  margin-bottom: -0.25rem;
+  float: left;
+  margin-right: 0.15em;
+  line-height: 1;
+}
+
+/* Updated styles for the paragraph */
+.paragraph {
+  width: 70%;
+  margin: 2rem auto; /* Center the paragraph */
+  color: black;
+  font-size: 20px; /* Consistent font size */
+  font-family: 'GFS Didot', serif;
+  line-height: 1.5;
+  text-align: left; /* Ensure text is left-aligned */
 }

@@ -109,10 +109,11 @@ const About = () => {
         <MediaSplitFiori />
       </Grid>
       <Grid item xs={12} className={styles['media-padding']}>
-        <MediaSplitIsopiaLashes />
-      </Grid>
-      <Grid item xs={12} className={styles['media-padding']}>
         <MediaSplitOneSize />
+      </Grid>
+    
+      <Grid item xs={12} className={styles['media-padding']}>
+        <MediaSplitIsopiaLashes />
       </Grid>
     
       <Grid item xs={12} className={styles['media-padding']}>

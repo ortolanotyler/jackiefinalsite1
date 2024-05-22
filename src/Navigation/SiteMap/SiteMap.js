@@ -4,26 +4,26 @@ import styles from './SiteMap.module.css'; // Ensure this path matches where you
 
 const Sitemap = () => {
     const beautyPosts = [
-        { path: "/tutorials", title: "Tutorial Home Page" },
-        { path: "/margotbarbie", title: "Margot Robbie // Barbie Movie Makeup Tutorial" },
-        { path: "/lattemakeup", title: "Latte Makeup // Trend Report " },
-        { path: "/sugarplumfairy", title: "Sugar Plum Fairy // Trend Report " },
-        { path: "/sharontatebridal", title: "Sharon Tate Bridal // Time Travel Tutorials" },
-        { path: "/iconicsharon", title: "Sharon Tate Iconic '60's // Time Travel Tutorials" },
-        { path: "/sophialoren", title: "Sophia Loren // Time Travel Tutorials" },
-        { path: "/lanablog", title: "Lana Del Ray X Skims // Pop Culture Obsessed" },
-        { path: "/patmcgrath", title: "Pat McGrath // Porcelain Doll // Trend Report" },
-        { path: "/victoriasecret", title: "Victoria's Secret // Pop Culture Obsessed" },
-        { path: "/2016Makeup", title: "2016 Makeup // Trend Report" },
-        { path: "/twiggy", title: "Twiggy // Time Travel Tutorials" },
-        { path: "/yardley1965", title: "Yardley 1965 // Vintage Vibes" },
-        { path: "/gracekelly", title: "Grace Kelly // Vintage Vibes" },
-        { path: "/balkeBlog", title: "Blake // Vintage Vibes" },
+        { path: "/tutorials", title: "Makeup Tutorials Home" },
+        { path: "/margotbarbie", title: "Margot Robbie Barbie Movie Makeup Tutorial" },
+        { path: "/lattemakeup", title: "Latte Makeup Trend Report" },
+        { path: "/sugarplumfairy", title: "Sugar Plum Fairy Trend Report" },
+        { path: "/sharontatebridal", title: "Sharon Tate Bridal Makeup Tutorial" },
+        { path: "/iconicsharon", title: "Sharon Tate Iconic '60s Makeup Tutorial" },
+        { path: "/sophialoren", title: "Sophia Loren Makeup Tutorial" },
+        { path: "/lanablog", title: "Lana Del Rey X Skims Makeup" },
+        { path: "/patmcgrath", title: "Pat McGrath Porcelain Doll Makeup" },
+        { path: "/victoriasecret", title: "Victoria's Secret Makeup" },
+        { path: "/2016Makeup", title: "2016 Makeup Trend" },
+        { path: "/twiggy", title: "Twiggy Makeup Tutorial" },
+        { path: "/yardley1965", title: "Yardley 1965 Vintage Vibes" },
+        { path: "/gracekelly", title: "Grace Kelly Vintage Makeup" },
+        { path: "/balkeBlog", title: "Blake Vintage Vibes" },
     ];
 
     const stylePosts = [
-        { path: "/mystyle", title: "MyStyle Home Page" },
-        { path: "/vintagevibesmerch", title: "Vintage Vibes Merch" },
+        { path: "/mystyle", title: "MyStyle Home" },
+        { path: "/vintagevibesmerch", title: "Vintage Vibes Merchandise" },
     ];
 
     const siteResources = [
@@ -31,30 +31,30 @@ const Sitemap = () => {
         { path: "/sitemap", title: "SiteMap" },
         { path: "/about", title: "About" },
         { path: "/mediakit", title: "Press and Media Inquiries" },
-        { path: "/emailsubscribe", title: "Newsletter Sign Up" },
-        { path: "/quiz", title: "Quiz Home Page" },
-        { path: "/quiz1", title: "Quiz 1" },
-        { path: "/vlogs", title: "Vlog Home Page" },
-        { path: "/travel", title: "Travel Home Page" },
+        { path: "/subscribe", title: "Newsletter Sign Up" },
+        { path: "/quiz", title: "Quiz Home" },
+        { path: "/quiz2", title: "Quiz 2" },
+        { path: "/vlogs", title: "Vlogs Home" },
+        { path: "/travel", title: "Travel Home" },
     ];
 
     const travelPosts = [
-        { path: "/travel", title: "Travel Home Page" },
+        { path: "/travel", title: "Travel Home" },
         { path: "/tremblant", title: "Mont Tremblant Ski Trip" },
-        { path: "/hotelq", title: "Hotel Quintessence // Luxury Hotel Review" },
-        { path: "/disneybeachclubresort", title: "Walt Disney World // Beach Club Resort Review" },
-        { path: "/epcot", title: "Walt Disney World // EPCOT & MORE" },
-        { path: "/westgatesandiego", title: "West Gate San Diego // Luxury Hotel Review" },
-        { path: "/andazmaui", title: "Andaz Maui // Luxury Hotel Review" },
-        { path: "/princeofwales", title: "Prince of Wales // Luxury Hotel Review" },
+        { path: "/hotelq", title: "Hotel Quintessence Luxury Review" },
+        { path: "/disneybeachclubresort", title: "Walt Disney World Beach Club Resort Review" },
+        { path: "/epcot", title: "Walt Disney World EPCOT Review" },
+        { path: "/westgatesandiego", title: "West Gate San Diego Luxury Review" },
+        { path: "/andazmaui", title: "Andaz Maui Luxury Review" },
+        { path: "/princeofwales", title: "Prince of Wales Luxury Review" },
     ];
 
     const reviewPosts = [
-        { path: "/reviews", title: "Reviews Home Page" },
-        { path: "/painlessIPL", title: "IPL Hair Removal Review // ULike" },
-        { path: "/bonbonreview", title: "Bon Bon // Viktor & Rolf Review" },
-        { path: "/halfetireview", title: "Halfeti // Penhaligon's Review" },
-        { path: "/jickyreview", title: "Jicky // Guerlain Review" },
+        { path: "/reviews", title: "Product Reviews Home" },
+        { path: "/ulikereview", title: "IPL Hair Removal Review - ULike" },
+        { path: "/bonbonreview", title: "Bon Bon Viktor & Rolf Review" },
+        { path: "/halfetireview", title: "Halfeti Penhaligon's Review" },
+        { path: "/jickyreview", title: "Jicky Guerlain Review" },
     ];
 
     return (

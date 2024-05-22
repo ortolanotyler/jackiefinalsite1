@@ -2,8 +2,8 @@ import React from 'react';
 import sharedStyles from './MediaSplitShared2.module.css'; // Import the shared CSS module
 import ResponsiveIframe from '../Components/ResponsiveIframe'; // Adjust the path as needed
 
-const logo = `${process.env.PUBLIC_URL}/Images/About/paramountlogo.png`;
-const video = `${process.env.PUBLIC_URL}/Videos/meangirls.MOV`; // Update this path to your .MOV file
+const logo = `${process.env.PUBLIC_URL}/Images/About/one-size11.png`;
+const video = `${process.env.PUBLIC_URL}/Videos/onesize.MOV`; // Update this path to your .MOV file
 
 const MediaSplitOneSize = () => {
   return (
