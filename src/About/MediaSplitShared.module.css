@@ -24,7 +24,7 @@
 }
 
 .stackItem {
-  gap: 1rem;
+  gap: 3rem;
   flex: 1;
   display: flex;
   align-items: center;
@@ -33,11 +33,11 @@
 
 .instagramEmbed {
   width: 100%;
-  max-width: 400px;
+  max-width: 450px;
 }
 
 /* Media query for screens smaller than 800px */
-@media (max-width: 800px) {
+@media (max-width: 1300px) {
   .mediaContainer {
     flex-direction: column;
   }

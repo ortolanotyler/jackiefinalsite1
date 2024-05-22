@@ -45,10 +45,10 @@
   position: relative; /* Ensures the text is on top of the overlay */
   z-index: 1; /* Ensures the text is on top of the overlay */
   padding: 5rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  font-size: 1.25rem;
-  line-height: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 18px;
+  line-height: 1.75rem;
   text-align: justify;
   /* Removed margin settings */
 }
@@ -59,7 +59,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .about-right-image {
