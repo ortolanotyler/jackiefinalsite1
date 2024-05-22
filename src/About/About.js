@@ -88,7 +88,7 @@ const About = () => {
      
 
       <Grid item xs={12}>
-        <Paper elevation={3} style={{ padding: '5rem' }}>
+        <Paper elevation={1} style={{ padding: '5rem' }}>
         <BrandCarousel />
         </Paper>
      

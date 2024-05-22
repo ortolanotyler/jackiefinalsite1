@@ -63,7 +63,7 @@
 }
 
 .about-right-image {
-  width: 100%;
+  width: 75%;
   height: auto;
   object-fit: cover; /* Ensures the image covers the container */
 }
@@ -102,7 +102,7 @@
 }
 
 /* Responsive styles */
-@media (max-width: 1600px) {
+@media (max-width: 2000px) {
   .about-text-section {
     flex-direction: column;
   }
