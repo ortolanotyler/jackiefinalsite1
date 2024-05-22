@@ -18,6 +18,8 @@ import MediaSplitMeanGirls from './MediaSplitMeanGirls';
 import MediaSplitJuicyCouture from './MediaSplitJuicyCouture';
 import MediaSplitIsopiaLashes from './MediaSplitIsopiaLashes.js';
 import MediaSplitWarnerBros from './MediasplitWarnerBros.js';
+import MediaSplitOneSize from './MediaSplitOneSize.js';
+import MediaSplitWondery from './MediaSplitWondery.js';
 
 const AboutEmily = `${process.env.PUBLIC_URL}/Images/About/JackieAboutMe1.jpg`;
 const leftImage = `${process.env.PUBLIC_URL}/Images/About/AboutJackie.jpg`;
@@ -100,6 +102,10 @@ const About = () => {
         <MediaSplitWarnerBros/>
       </Grid>
 
+      <Grid item xs={12}>
+        <MediaSplitOneSize/>
+      </Grid>
+
   
 
       <Grid item xs={12}>
@@ -112,6 +118,9 @@ const About = () => {
 
       <Grid item xs={12}>
         <MediaSplitFiori />
+      </Grid>
+      <Grid item xs={12}>
+        <MediaSplitWondery />
       </Grid>
     
       <Grid item xs={12}>

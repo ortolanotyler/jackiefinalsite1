@@ -2,10 +2,10 @@ import React from 'react';
 import sharedStyles from './MediaSplitShared.module.css'; // Import the shared CSS module
 import ResponsiveIframe from '../Components/ResponsiveIframe'; // Adjust the path as needed
 
-const logo = `${process.env.PUBLIC_URL}/Images/About/paramountlogo.png`;
-const video = `${process.env.PUBLIC_URL}/Videos/meangirls.MOV`; // Update this path to your .MOV file
+const logo = `${process.env.PUBLIC_URL}/Images/About/wondery.png`;
+const video = `${process.env.PUBLIC_URL}/Videos/wondery.MOV`; // Update this path to your .MOV file
 
-const MediaSplitOneSize = () => {
+const MediaSplitWondery = () => {
   return (
     <div className={sharedStyles.mediaContainer}>
       {/* Video on the left */}
@@ -14,7 +14,7 @@ const MediaSplitOneSize = () => {
           <source src={video} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <ResponsiveIframe src="https://shopmy.us/collections/public/556006?noHeader=true" title="Bronzing and Blushing Products" />
+        <ResponsiveIframe src="https://shopmy.us/collections/public/557725?noHeader=true" title="Bronzing and Blushing Products" />
       </div>
 
       {/* Right section with logo */}
@@ -28,4 +28,4 @@ const MediaSplitOneSize = () => {
   );
 };
 
-export default MediaSplitOneSize;
+export default MediaSplitWondery;

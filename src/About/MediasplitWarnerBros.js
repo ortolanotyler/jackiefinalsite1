@@ -1,28 +1,27 @@
 import React from 'react';
 import sharedStyles from './MediaSplitShared.module.css'; // Import the shared CSS module
-import ResponsiveInstagramIframe from '../Components/ResponsiveInstagramIframe';
-import ResponsiveIframe from '../Components/ResponsiveIframe';
+import ResponsiveIframe from '../Components/ResponsiveIframe'; // Adjust the path as needed
 
 const logo = `${process.env.PUBLIC_URL}/Images/About/WarnerBros.png`;
+const video = `${process.env.PUBLIC_URL}/Videos/barbie.MOV`; // Update this path to your .MOV file
 
 const MediaSplitWarnerBros = () => {
   return (
     <div className={sharedStyles.mediaContainer}>
-      {/* Embed on the left */}
+      {/* Video on the left */}
       <div className={sharedStyles.embedContainer}>
+        <video controls style={{ width: '100%' }}>
+          <source src={video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <ResponsiveIframe src="https://shopmy.us/collections/public/555965?noHeader=true" title="Bronzing and Blushing Products" />
       </div>
 
-      {/* Right section with logo and Instagram iframe stacked */}
+      {/* Right section with logo */}
       <div className={sharedStyles.rightContainer}>
         {/* Logo */}
         <div className={sharedStyles.stackItem}>
           <img src={logo} alt="Logo" style={{ maxBlockSize: '5rem' }} />
-        </div>
-
-        {/* Instagram */}
-        <div className={sharedStyles.stackItem}>
-          <ResponsiveInstagramIframe src="https://www.instagram.com/reel/CxOI-3ZOf5f/?utm_source=ig_embed&amp;utm_campaign=loading" title="Instagram Post" />
         </div>
       </div>
     </div>

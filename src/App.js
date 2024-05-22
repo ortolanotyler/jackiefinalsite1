@@ -58,6 +58,7 @@ import Quiz2 from './Quiz/Quiz2';
 
 import './App.css'; // Ensure you have imported the App.css file
 import RotatingText from './Navigation/AppBar/RotatingText';
+import DiaryPost1Fillers from './Articles/Diary/DiaryFillers';
 
 function App() {
   return (
@@ -132,6 +133,7 @@ function App() {
           <Route path="/travel" element={<TravelArticlesHome />} />
 
           {/* Diary */}
+          <Route path="/diary1" element={<DiaryPost1Fillers />} />
 
           {/* Footer */}
           <Route path="/sitemap" element={<Sitemap />} />
