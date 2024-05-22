@@ -33,9 +33,9 @@ const ReviewHomePage = () => {
                 marginBottom: '2rem',
             }}
             > 
-            <TextReveal text="Product Reviews" style={{ backgroundColor: 'white' }} fontFamily="Italianno, cursive" />
+            <TextReveal text="More Product Reviews Coming Soon..." style={{ backgroundColor: 'white' }} fontFamily="Italianno, cursive" />
             </div>
-            <ProductReviewArticleList/>
+           
             <TextReveal text="JACKIE'S QUICK PICKS" />
             <ResponsiveIframe
                 src="https://shopmy.us/collections/embed/91810?noHeader=true"

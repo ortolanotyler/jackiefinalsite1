@@ -27,14 +27,14 @@ const pages = [
 
 const beyondBeautyOptions = [
   { name: 'Travel', path: '/travel' },
-  { name: 'Vlog', path: '/vlog' },
+
   { name: 'Diary', path: '/diary' },
 ];
 
 const shopOptions = [
-  { name: 'MyStyle', path: '/mystyle' },
-  { name: 'Big Beauty Bag', path: '/beautybag' },
-  { name: 'VintageVibes Merch', path: '/vintagevibesmerch' },
+  { name: 'Shop My Style', path: '/mystyle' },
+ 
+  { name: 'Vintage Vibes Merch', path: '/vintagevibesmerch' },
 ];
 
 const tutorialOptions = [

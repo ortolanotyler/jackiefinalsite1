@@ -69,6 +69,40 @@ const MyStyle = () => {
           </div>
         }
       />
+            <PhotoShootSlider />
+      <ThreeSections
+        section1Content={
+          <div>
+            <a href="https://go.shopmy.us/p-3493493" style={anchorStyle} target="">Top: H:OURS //</a>
+            <br />
+            <a href="https://go.shopmy.us/p-3493482" style={anchorStyle} target="_blank" rel="noreferrer">Earrings: Joolz (similar) //</a>
+            <br />
+            <a href="https://go.shopmy.us/p-3493499" style={anchorStyle} target="_blank" rel="noreferrer">Jeans: AGOLDE (similar) //</a>
+            <br />
+            <a href="https://go.shopmy.us/p-3493527" style={anchorStyle} target="_blank" rel="noreferrer">Shoes: LPA //</a>
+          </div>
+        }
+        section2Content={
+          <div>
+            <a href="https://go.shopmy.us/p-3494143" style={anchorStyle} target="">Pants: Lovers and Friends //</a>
+            <br />
+            <a href="https://go.shopmy.us/p-3494171" style={anchorStyle} target="_blank" rel="noreferrer">Bodysuit: Majorelle //</a>
+            <br />
+            <a href="https://go.shopmy.us/p-3494173" style={anchorStyle} target="_blank" rel="noreferrer">Heels: Steve Madden //</a>
+            <br />
+          </div>
+        }
+        section3Content={
+          <div>
+            <a href="https://go.shopmy.us/p-3494681" style={anchorStyle} target="">Sweater Dress: Majorelle //</a>
+            <br />
+            <a href="https://go.shopmy.us/p-3494687" style={anchorStyle} target="_blank" rel="noreferrer">Jacket: Thrifted, Mango (similar) //</a>
+            <br />
+            <a href="https://go.shopmy.us/p-3494697" style={anchorStyle} target="_blank" rel="noreferrer">Boots: By Far //</a>
+            <br />
+          </div>
+        }
+      />
       <div style={sectionStyle}>
         <TextReveal text="FALL/WINTER" />
       </div>
@@ -131,43 +165,7 @@ const MyStyle = () => {
           </div>
         }
       />
-      <div style={sectionStyle}>
-        <TextReveal text="PHOTOSHOOTS" />
-      </div>
-      <PhotoShootSlider />
-      <ThreeSections
-        section1Content={
-          <div>
-            <a href="https://go.shopmy.us/p-3493493" style={anchorStyle} target="">Top: H:OURS //</a>
-            <br />
-            <a href="https://go.shopmy.us/p-3493482" style={anchorStyle} target="_blank" rel="noreferrer">Earrings: Joolz (similar) //</a>
-            <br />
-            <a href="https://go.shopmy.us/p-3493499" style={anchorStyle} target="_blank" rel="noreferrer">Jeans: AGOLDE (similar) //</a>
-            <br />
-            <a href="https://go.shopmy.us/p-3493527" style={anchorStyle} target="_blank" rel="noreferrer">Shoes: LPA //</a>
-          </div>
-        }
-        section2Content={
-          <div>
-            <a href="https://go.shopmy.us/p-3494143" style={anchorStyle} target="">Pants: Lovers and Friends //</a>
-            <br />
-            <a href="https://go.shopmy.us/p-3494171" style={anchorStyle} target="_blank" rel="noreferrer">Bodysuit: Majorelle //</a>
-            <br />
-            <a href="https://go.shopmy.us/p-3494173" style={anchorStyle} target="_blank" rel="noreferrer">Heels: Steve Madden //</a>
-            <br />
-          </div>
-        }
-        section3Content={
-          <div>
-            <a href="https://go.shopmy.us/p-3494681" style={anchorStyle} target="">Sweater Dress: Majorelle //</a>
-            <br />
-            <a href="https://go.shopmy.us/p-3494687" style={anchorStyle} target="_blank" rel="noreferrer">Jacket: Thrifted, Mango (similar) //</a>
-            <br />
-            <a href="https://go.shopmy.us/p-3494697" style={anchorStyle} target="_blank" rel="noreferrer">Boots: By Far //</a>
-            <br />
-          </div>
-        }
-      />
+
       <Comments website-id={'10910'} pageId={"mystyle"} /> {/* Unique identifier for this blog post */}
     </div>
   );

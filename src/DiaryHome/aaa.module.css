@@ -1,0 +1,23 @@
+/* aaa.module.css */
+
+.centeredImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .diaryImage {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    height: auto;
+    margin-top: 50px; /* Add some margin at the top */
+    margin-bottom: 50px; /* Add some margin at the bottom */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); /* Adds a subtle shadow to the image */
+  }
+  
+  .diaryText {
+    font-family: 'GFS Didot', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px; /* Add some margin at the bottom */
+  }
+  
