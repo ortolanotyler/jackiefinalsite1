@@ -1,11 +1,12 @@
 import React from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import TextReveal from '../Components/TextReveal';
 import ItemSlider from './Slider';
 import ThreeSections from './ThreeSections';
 import AprilStyleSlider from './AprilStyleSlider';
 import FallWinterSlider from './FallWinterSlider';
 import PhotoShootSlider from './PhotoShootSlider';
+import RotatingText from '../Navigation/AppBar/RotatingText';
+import { Paper } from '@mui/material';
 
 const MyStyle = () => {
   // Base style for anchor tags
@@ -37,7 +38,11 @@ const MyStyle = () => {
 
   return (
     <div style={{ backgroundColor: 'white' }}>
-      <TextReveal text="SPRING/SUMMER" />
+      <Paper elevation={3} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: '#745B4F', textAlign: 'center', marginTop: '0.25rem', padding: '1rem' }}>
+            <RotatingText />
+          </Paper>
+
+
       <div style={sectionStyle}></div>
       <ItemSlider />
       <ThreeSections
@@ -103,9 +108,7 @@ const MyStyle = () => {
           </div>
         }
       />
-      <div style={sectionStyle}>
-        <TextReveal text="FALL/WINTER" />
-      </div>
+
       <AprilStyleSlider />
       <ThreeSections
         section1Content={

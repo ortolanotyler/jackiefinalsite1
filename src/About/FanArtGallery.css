@@ -100,8 +100,8 @@ body {
   border: none;
   cursor: pointer;
   color: #745B4F;
-  gap: 20px;
-  font-size: 48px;
+  gap: 50px;
+  font-size: 50px;
   max-width: 300px;
 }
 
@@ -112,16 +112,18 @@ body {
 /* Responsive Design Adjustments */
 @media (max-width: 768px) {
   #frame li figure img {
-    max-width: 250px;
+    max-width: 225px;
     max-height: 250px;
   }
 
   #bench {
-    max-width: 50%;
+    max-width: 40%;
   }
 
   #nav .prev, #nav .next {
-    font-size: 4em;
+    font-size: 2em;
+    margin: 1rem;
+    margin-bottom: 2rem;
   }
 }
 

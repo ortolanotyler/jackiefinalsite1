@@ -157,7 +157,7 @@ function HomePage() {
         <Grid item xs={12}>
           <BeyondBeautyHero />
         </Grid>
-        <Grid item xs={12}>
+        <Grid item xs={11}>
           <SiteExplorerBeyond />
         </Grid>
         <TextReveal text="THE LATEST VLOG" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
@@ -196,10 +196,10 @@ function HomePage() {
                 width: '100%',
                 minHeight: '1000px',
                 border: 'none',
-                overflow: 'hidden',
+                
               }}
               className="lifestyle-favorites-iframe"
-              scrolling='no'
+              scrolling='yes'
             ></iframe>
           </div>
         </Grid>

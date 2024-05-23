@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import '../ExampleTutorial.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 
@@ -7,23 +7,25 @@ import TextReveal from '../../Components/TextReveal';
 import DropCap from '../../Components/DropCap';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 
-const video = `${process.env.PUBLIC_URL}/Videos/1ArcadiaEarth.MOV`;
-const title = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblanttitle.png`;
-const tremblant1 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant1.png`;
-const tremblant2 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant2.png`;
-const tremblant3 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant3.png`;
-const tremblant4 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant4.png`;
-const tremblant5 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant5.png`;
-const tremblant6 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant6.png`;
-const tremblant7 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant7.png`;
-const tremblant8 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant8.png`;
-const tremblant9 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant9.png`;
-const tremblant10 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant10.png`;
-const tremblant11 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant11.png`;
-const tremblant12 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant12.png`;
-const tremblant13 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant13.png`;
-const tremblant14 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant14.png`;
-const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+const cdnEndpoint = 'https://bd9mrxx6.tinifycdn.com';
+
+const video = `${cdnEndpoint}/Videos/1ArcadiaEarth.MOV`;
+const title = `${cdnEndpoint}/Images/Articles/MontTremblant/tremblanttitle.png`;
+const tremblant1 = `${cdnEndpoint}/Images/Articles/MontTremblant/tremblant1.png`;
+const tremblant2 = `${cdnEndpoint}/Images/Articles/MontTremblant/tremblant2.png`;
+const tremblant3 = `${cdnEndpoint}/Images/Articles/MontTremblant/tremblant3.png`;
+const tremblant4 = `${cdnEndpoint}/Images/Articles/MontTremblant/tremblant4.png`;
+const tremblant5 = `${cdnEndpoint}/Images/Articles/MontTremblant/tremblant5.png`;
+const tremblant6 = `${cdnEndpoint}/Images/Articles/MontTremblant/tremblant6.png`;
+const tremblant7 = `${cdnEndpoint}/Images/Articles/MontTremblant/tremblant7.png`;
+const tremblant8 = `${cdnEndpoint}/Images/Articles/MontTremblant/tremblant8.png`;
+const tremblant9 = `${cdnEndpoint}/Images/Articles/MontTremblant/tremblant9.png`;
+const tremblant10 = `${cdnEndpoint}/Images/Articles/MontTremblant/tremblant10.png`;
+const tremblant11 = `${cdnEndpoint}/Images/Articles/MontTremblant/tremblant11.png`;
+const tremblant12 = `${cdnEndpoint}/Images/Articles/MontTremblant/tremblant12.png`;
+const tremblant13 = `${cdnEndpoint}/Images/Articles/MontTremblant/tremblant13.png`;
+const tremblant14 = `${cdnEndpoint}/Images/Articles/MontTremblant/tremblant14.png`;
+const signature = `${cdnEndpoint}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
     
