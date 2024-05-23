@@ -16,11 +16,11 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'PRESS', path: '/mediakit' },
     { name: 'SITEMAP', path: '/sitemap' },
     { name: 'PRIVACY', path: '/privacy' },
-    { name: '', path: '/' },
+    { name: '', path: '/contact' },
+   
+   
+    { name: 'TUTORIALS', path: '/quiz' },
     { name: 'QUIZ', path: '/quiz' },
-    { name: 'POP CULTURE', path: '/popculture' },
-    { name: 'TIME TRAVEL TUTORIALS', path: '/timetraveltutorials' },
-    { name: 'TRENDING TUTORIALS', path: '/trends' },
     { name: 'REVIEWS', path: '/reviews' },
     { name: 'TRAVEL', path: '/travel' },
     { name: 'DIARY', path: '/diary' },
