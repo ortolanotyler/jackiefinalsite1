@@ -34,7 +34,7 @@ const MediaKit = () => {
 <Grid item xs={6}>
 <FeaturesAndShoutouts />
 </Grid>
-<TextReveal text="PREVIOUS COLLABORATIONS" style={{ backgroundColor: '#fdedef' }} />
+<TextReveal text="PREVIOUS COLLABORATIONS" style={{ backgroundColor: 'white' }} />
 
 <BrandCarousel />
           <Grid item xs={6}>
