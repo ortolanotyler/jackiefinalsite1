@@ -1,7 +1,7 @@
 import React from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
-import './ContactForm.css'; // Import CSS file for styling
+import './ContactForm.module.css'; // Import CSS file for styling
 
 const ContactForm = () => {
   const formik = useFormik({
