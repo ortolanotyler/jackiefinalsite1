@@ -2,7 +2,7 @@ import React from 'react';
 import MediaKitSlider from './MediaKitSlider';
 import TextReveal from '../../Components/TextReveal';
 import BrandCarousel from '../../Components/BrandCarousel/BrandCarousel';
-import {  Grid } from '@mui/material';
+import { Grid } from '@mui/material';
 import FeaturesAndShoutouts from './FeaturesAndShoutouts';
 import MediaSplitWarnerBros from '../../About/MediasplitWarnerBros';
 import MediaSplitMeanGirls from '../../About/MediaSplitMeanGirls';
@@ -21,52 +21,45 @@ const MediaKit = () => {
 
   return (
     <div>
-   
       <TextReveal text="PRESS" />
-  
-   
-   
-        <Grid container spacing={1}>
-          <Grid item xs={6}>
-        <MediaKitSlider images={images} />
-   
-</Grid>
-<Grid item xs={6}>
-<FeaturesAndShoutouts />
-</Grid>
-<TextReveal text="PREVIOUS COLLABORATIONS" style={{ backgroundColor: 'white' }} />
-
-<BrandCarousel />
-<Grid item xs={12}>
-            <MediaSplitWondery />
-          </Grid>
-          <Grid item xs={6}>
-            <MediaSplitWarnerBros />
-          </Grid>
-          <Grid item xs={6}>
-            <MediaSplitMeanGirls />
-          </Grid>
-          <Grid item xs={12}>
-            <MediaSplitSupergoop />
-          </Grid>
-        
-          <Grid item xs={12}>
-            <MediaSplitJuicyCouture />
-          </Grid>
-          <Grid item xs={12}>
-            <MediaSplitFiori />
-          </Grid>
-          <Grid item xs={12}>
-            <MediaSplitOneSize />
-          </Grid>
-          <Grid item xs={12}>
-            <MediaSplitIsopiaLashes />
-          </Grid>
-         
-       
-        
+      <Grid container spacing={1}>
+        <Grid item xs={12} md={6}>
+          <MediaKitSlider images={images} />
         </Grid>
-     
+        <Grid item xs={12} md={6}>
+          <FeaturesAndShoutouts />
+        </Grid>
+        <Grid item xs={12}>
+          <TextReveal text="PREVIOUS COLLABORATIONS" style={{ backgroundColor: 'white' }} />
+        </Grid>
+        <Grid item xs={12}>
+          <BrandCarousel />
+        </Grid>
+        <Grid item xs={12}>
+          <MediaSplitWondery />
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <MediaSplitWarnerBros />
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <MediaSplitMeanGirls />
+        </Grid>
+        <Grid item xs={12}>
+          <MediaSplitSupergoop />
+        </Grid>
+        <Grid item xs={12}>
+          <MediaSplitJuicyCouture />
+        </Grid>
+        <Grid item xs={12}>
+          <MediaSplitFiori />
+        </Grid>
+        <Grid item xs={12}>
+          <MediaSplitOneSize />
+        </Grid>
+        <Grid item xs={12}>
+          <MediaSplitIsopiaLashes />
+        </Grid>
+      </Grid>
     </div>
   );
 };
