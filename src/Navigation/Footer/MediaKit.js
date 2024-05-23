@@ -46,6 +46,9 @@ const MediaKit = () => {
           <Grid item xs={6}>
             <MediaSplitMeanGirls />
           </Grid>
+          <Grid item xs={12}>
+            <MediaSplitSupergoop />
+          </Grid>
         
           <Grid item xs={12}>
             <MediaSplitJuicyCouture />
@@ -60,9 +63,7 @@ const MediaKit = () => {
             <MediaSplitIsopiaLashes />
           </Grid>
          
-          <Grid item xs={12}>
-            <MediaSplitSupergoop />
-          </Grid>
+       
         
         </Grid>
      
