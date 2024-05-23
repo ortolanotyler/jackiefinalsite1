@@ -6,12 +6,7 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import SwitchUpYour from './SwitchUpYour';
 
 const Footer = () => {
-    const scrollToTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    };
+ 
 
     return (
         <div style={{ width: '100%', overflowX: 'hidden' }}> 
@@ -43,14 +38,18 @@ const Footer = () => {
                     </a>
                 </div>
                 <div style={{ fontFamily: 'GFS Didot, serif', gap: '1.5rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                  
                     <div>
-                        <button onClick={scrollToTop} style={{ fontFamily: 'GFS Didot, serif', textAlign: 'left', fontSize: '1.25rem', cursor: 'pointer', color: '#745B4F', background: 'none', border: 'none', textDecoration: 'none' }}>
-                            Back to Top
-                        </button>
-                        <br />
-                        <button style={{ fontFamily: 'GFS Didot, serif', textAlign: 'left', fontSize: '1.25rem', cursor: 'pointer', color: '#745B4F', background: 'none', border: 'none', textDecoration: 'none' }}>
+                    <button style={{ fontFamily: 'GFS Didot, serif', textAlign: 'left', fontSize: '1.25rem', cursor: 'pointer', color: '#745B4F', background: 'none', border: 'none', textDecoration: 'none' }}>
                             <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}>Home</a>
                         </button>
+                        <div>
+                        <a href="/contact" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '18px' }}>
+                            Business Inquiries
+                        </a>
+                    
+                    </div>
+               
                     </div>
                     <div style={{ textAlign: 'center', fontSize: '1rem', cursor: 'pointer', color: '#745B4F', margin: '1rem' }}>
                         © Jackie Wyers 2024

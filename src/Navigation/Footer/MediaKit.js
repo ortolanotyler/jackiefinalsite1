@@ -12,7 +12,6 @@ import MediaSplitOneSize from '../../About/MediaSplitOneSize';
 import MediaSplitIsopiaLashes from '../../About/MediaSplitIsopiaLashes';
 import MediaSplitWondery from '../../About/MediaSplitWondery';
 import MediaSplitSupergoop from '../../About/MediaSplitSupergoop';
-import SwitchUpYour from './SwitchUpYour.js';
 
 const MediaKit = () => {
   const images = [
@@ -30,6 +29,7 @@ const MediaKit = () => {
         <Grid container spacing={1}>
           <Grid item xs={6}>
         <MediaKitSlider images={images} />
+        <p>hi</p>
 </Grid>
 <Grid item xs={6}>
 <FeaturesAndShoutouts />

@@ -1,0 +1,145 @@
+/* About.module.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=GFS+Didot&family=Italianno&display=swap');
+
+.about-container {
+  background-color: white;
+  font-family: 'GFS Didot, serif';
+  height: 100%;
+}
+
+.about-meet-jackie {
+  font-family: 'GFS Didot, serif';
+  background-color: white;
+}
+
+.about-text-section {
+  font-family: 'GFS Didot, serif';
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.about-left-section {
+  flex: 1;
+  background-image: url('/public/Images/About/emily2.png'); /* Replace '/public' with your actual public URL */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  position: relative;
+}
+
+.about-left-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.7); /* Adjust transparency here */
+  z-index: 0; /* Ensures the overlay is behind the content */
+}
+
+.about-left-text {
+  position: relative; /* Ensures the text is on top of the overlay */
+  z-index: 1; /* Ensures the text is on top of the overlay */
+  padding: 5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 18px;
+  line-height: 1.75rem;
+  text-align: justify;
+  /* Removed margin settings */
+}
+
+.about-right-section {
+  background-color: #EBE8E4;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+.about-right-image {
+  margin-top: 1rem;
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensures the image covers the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); /* Adds a subtle shadow to the image */
+}
+
+.about-collaborations-section {
+  background-color: #EBE8E4;
+  display: flex;
+  width: 100%;
+  background-color: white;
+  font-family: 'GFS Didot, serif';
+
+}
+
+.about-collaborations-text {
+  background-color: #EBE8E4;
+  flex: 1;
+  font-family: 'GFS Didot, serif';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-collaborations-left-image {
+  background-color: #EBE8E4;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); /* Adds a subtle shadow to the image */
+
+}
+
+@keyframes flash {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.flashIcon {
+  font-size: 2em;
+  animation: flash 1s ease-in-out 5; /* Animation runs for 1 second, 5 times with ease-in-out timing */
+}
+
+.media-padding {
+  padding: 2rem;
+}
+
+/* Responsive styles */
+@media (max-width: 2000px) {
+  .about-text-section {
+    flex-direction: column;
+  }
+
+  .about-left-section, .about-right-section {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .about-meet-jackie, .about-collaborations-text {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-left-text, .about-collaborations-text {
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-indent: 1em;
+  }
+
+  .about-meet-jackie {
+    padding: 0.5rem;
+  }
+
+  .about-collaborations-left-image {
+    width: 100%;
+  }
+}

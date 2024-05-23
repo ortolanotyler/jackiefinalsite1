@@ -19,12 +19,12 @@ const imageUrls = [image1, image2, image3, image4, image5, image6, image7, image
 
 // Define corresponding URLs
 const links = [
-  'https://en.nikon.ca/learn-and-explore/c/ideas-and-inspiration/jackie-wyers',
+  'https://www.vogue.com/article/met-gala-challenge-instagram-photos',
   'https://www.houseofwellness.com.au/beauty/beauty-trends/coppolacore-beauty-trend',
   'https://el.imaginariumworld.co.uk/product-page/imaginarium-magazine-19-april-may-2023',
   'https://www.justjaredjr.com/tags/jackie-wyers/',
   'https://www.ardellshop.com/beauty-of-the-week-jackie-wyers',
-  'https://www.vogue.com/article/met-gala-challenge-instagram-photos',
+  'https://en.nikon.ca/learn-and-explore/c/ideas-and-inspiration/jackie-wyers',
   'https://en.nikon.ca/learn-and-explore/c/ideas-and-inspiration/jackie-wyers',
   'https://www.elle.com/',
   'https://enchantedlivingmagazine.com/lost-lands-collection/',
@@ -93,7 +93,7 @@ const FeaturedImages = () => {
                 loading="lazy"
               />
               <Overlay className="overlay">
-                <Text>READ</Text>
+                <Text>Read</Text>
               </Overlay>
             </ImageWrapper>
           </a>

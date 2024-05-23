@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+
+.mediaKitSlider {
+  max-width: 600px;
+  padding: 1rem;
+  padding-top: 1rem;
+  margin: 0 auto;
+}
+
+.sliderImage {
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.slick-prev, .slick-next {
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  background-color: transparent; /* Set background to transparent */
+  border: none; /* Remove border if any */
+}
+
+.slick-prev {
+  left: -50px; /* Adjust this value to move the arrow farther left */
+}
+
+.slick-next {
+  right: -50px; /* Adjust this value to move the arrow farther right */
+}
+
+.slick-prev::before, .slick-next::before {
+  font-size: 50px;
+  color: black; /* Adjust arrow color */
+  content: ''; /* Remove default content */
+}
+
+.linksSection {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.linksRow {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+  width: 100%;
+  justify-items: center;
+}
+
+.linksRow a {
+  font-family: 'Arapey', serif;
+  font-size: 14px;
+  font-style: italic;
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-transform: uppercase; /* Make text all caps */
+}
+
+.linksRow a:hover {
+  color: #333;
+}
+
+@media (max-width: 600px) {
+  .linksRow {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
+  }
+}

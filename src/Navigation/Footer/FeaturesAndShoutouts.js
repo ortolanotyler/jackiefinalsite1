@@ -2,20 +2,33 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import styles from './MediaKitSlider.module.css'; // Import CSS module
+import styles from './FeaturesAndShoutouts.module.css'; // Import new CSS module
 
-const image6 = `${process.env.PUBLIC_URL}/Images/MediaKit/Featured1.png`;
+const image1 = `${process.env.PUBLIC_URL}/Images/MediaKit/Featured1.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/MediaKit/Featured2.jpg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/MediaKit/Featured3.jpg`;
 const image4 = `${process.env.PUBLIC_URL}/Images/MediaKit/Featured4.jpg`;
 const image5 = `${process.env.PUBLIC_URL}/Images/MediaKit/Featured5.jpg`;
-const image1 = `${process.env.PUBLIC_URL}/Images/MediaKit/Featured6.jpg`;
+const image6 = `${process.env.PUBLIC_URL}/Images/MediaKit/Featured6.jpg`;
 const image7 = `${process.env.PUBLIC_URL}/Images/MediaKit/Featured7.jpg`;
 const image8 = `${process.env.PUBLIC_URL}/Images/MediaKit/Featured8.jpg`;
 const image9 = `${process.env.PUBLIC_URL}/Images/MediaKit/Featured9.jpg`;
 const image10 = `${process.env.PUBLIC_URL}/Images/MediaKit/Featured10.jpg`;
 
 const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10];
+
+const links = [
+  'https://www.vogue.com/article/met-gala-challenge-instagram-photos',
+  'https://www.houseofwellness.com.au/beauty/beauty-trends/coppolacore-beauty-trend',
+  'https://el.imaginariumworld.co.uk/product-page/imaginarium-magazine-19-april-may-2023',
+  'https://www.justjaredjr.com/tags/jackie-wyers/',
+  'https://www.ardellshop.com/beauty-of-the-week-jackie-wyers',
+  'https://en.nikon.ca/learn-and-explore/c/ideas-and-inspiration/jackie-wyers',
+  'https://en.nikon.ca/learn-and-explore/c/ideas-and-inspiration/jackie-wyers',
+  'https://www.elle.com/',
+  'https://enchantedlivingmagazine.com/lost-lands-collection/',
+  'https://www.vogue.com/article/met-gala-challenge-instagram-photos'
+];
 
 const FeaturesAndShoutouts = () => {
   const settings = {
@@ -37,6 +50,20 @@ const FeaturesAndShoutouts = () => {
           </div>
         ))}
       </Slider>
+      <div className={styles.linksSection}>
+        <div className={styles.linksRow}>
+          <a href={links[0]} target="_blank" rel="noopener noreferrer">Vogue</a>
+          <a href={links[1]} target="_blank" rel="noopener noreferrer">House of Wellness</a>
+          <a href={links[2]} target="_blank" rel="noopener noreferrer">Imaginarium</a>
+          <a href={links[3]} target="_blank" rel="noopener noreferrer">Just Jared Jr</a>
+          <a href={links[4]} target="_blank" rel="noopener noreferrer">Ardell</a>
+          <a href={links[5]} target="_blank" rel="noopener noreferrer">Nikon Canada</a>
+          <a href={links[6]} target="_blank" rel="noopener noreferrer">Nikon</a>
+          <a href={links[7]} target="_blank" rel="noopener noreferrer">Elle</a>
+          <a href={links[8]} target="_blank" rel="noopener noreferrer">Enchanted Living</a>
+          <a href={links[9]} target="_blank" rel="noopener noreferrer">Vogue</a>
+        </div>
+      </div>
     </div>
   );
 };

@@ -203,6 +203,11 @@ function HomePage() {
             ></iframe>
           </div>
         </Grid>
+        <Grid item xs={12} display="flex" justifyContent="center">
+          <Grid container item xs={12} md={8} spacing={2} justifyContent="center" alignItems="center">
+            <EmailSubscribe />
+          </Grid>
+        </Grid>
       </Grid>
     </Box>
   );

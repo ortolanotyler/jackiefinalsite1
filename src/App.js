@@ -61,6 +61,7 @@ import RotatingText from './Navigation/AppBar/RotatingText';
 import DiaryPost1Fillers from './Articles/Diary/DiaryFillers';
 import DiarySlider from './DiaryHome/diaryhome';
 import TestScrollToTop from './TestScrollToTop';
+import BusinessContact from './Components/BusinessContact';
 
 function App() {
   return (
@@ -144,6 +145,9 @@ function App() {
           <Route path="/subscribe" element={<EmailSubscribe />} />
           <Route path="/mediakit" element={<MediaKit />} />
           <Route path="/privacy" element={<PrivacyNotice />} />
+
+          <Route path="/contact" element={<BusinessContact/>} /> {/* New route for BusinessContact */}
+
 
           {/* 404 Route */}
           <Route path="*" element={<h1>404 Not Found</h1>} />
