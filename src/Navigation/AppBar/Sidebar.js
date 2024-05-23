@@ -13,19 +13,18 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'HOME', path: '/' },
     { name: 'ABOUT', path: '/about' },
     { name: 'CONTACT', path: '/contact' },
-    { name: 'PRESS', path: '/mediakit' },
+    { name: 'PRESS', path: '/press' },
     { name: 'SITEMAP', path: '/sitemap' },
     { name: 'PRIVACY', path: '/privacy' },
     { name: '', path: '/contact' },
    
    
-    { name: 'TUTORIALS', path: '/quiz' },
+    { name: 'TUTORIALS', path: '/tutorials' },
     { name: 'QUIZ', path: '/quiz' },
     { name: 'REVIEWS', path: '/reviews' },
     { name: 'TRAVEL', path: '/travel' },
     { name: 'DIARY', path: '/diary' },
     { name: 'SHOP MY STYLE', path: '/mystyle' },
-    { name: 'BEYOND BEAUTY', path: '/beyonbeauty' },
   ];
 
   return (

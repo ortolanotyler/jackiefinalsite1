@@ -109,7 +109,7 @@ function HomePage() {
               href="/victoriasecret"
               ref={linkRef}
               className={isJiggling ? 'jiggle' : ''}
-              className="responsive-link"
+           
             >
               READ FULL ARTICLE HERE &rarr;
             </a>

@@ -62,14 +62,14 @@ import './App.css'; // Ensure you have imported the App.css file
 import RotatingText from './Navigation/AppBar/RotatingText';
 import DiaryPost1Fillers from './Articles/Diary/DiaryFillers';
 import DiarySlider from './DiaryHome/diaryhome';
-import TestScrollToTop from './TestScrollToTop';
 import BusinessContact from './Components/BusinessContact';
 
 function App() {
   return (
     <Router>
+       <ResponsiveAppBar />
       <ScrollToTop />
-      <ResponsiveAppBar />
+     
       <RotatingText />
       <div className="main-content">
         <Routes>
@@ -130,7 +130,6 @@ function App() {
           <Route path="/cpsummer" element={<LeftOutfit />} />
           <Route path="/sleekspring" element={<MiddleOutfit />} />
           <Route path="/parisprincess" element={<RightOutfit />} />
-          <Route path="/q" element={<TestScrollToTop />} />
 
           {/* Vlog */}
           <Route path="/vlogs" element={<Vlogs />} />
@@ -145,7 +144,7 @@ function App() {
           {/* Footer */}
           <Route path="/sitemap" element={<Sitemap />} />
           <Route path="/subscribe" element={<EmailSubscribe />} />
-          <Route path="/mediakit" element={<MediaKit />} />
+          <Route path="/press" element={<MediaKit />} />
           <Route path="/privacy" element={<PrivacyNotice />} />
 
           <Route path="/contact" element={<BusinessContact />} /> {/* New route for BusinessContact */}
