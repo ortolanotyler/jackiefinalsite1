@@ -13,6 +13,7 @@ const pool = new Pool({
   connectionString: process.env.POSTGRES_URL,
 });
 
+// Endpoint for email subscription
 app.post('/api/submit-email', async (req, res) => {
   const { email } = req.body;
 
@@ -31,7 +32,8 @@ app.post('/api/submit-email', async (req, res) => {
   }
 });
 
-app.post('/submit-form', async (req, res) => {
+// Endpoint for contact form submission
+app.post('/api/submit-form', async (req, res) => {
   const { fullName, emailAddress, companyName, message } = req.body;
 
   if (!fullName || !emailAddress || !companyName || !message) {
