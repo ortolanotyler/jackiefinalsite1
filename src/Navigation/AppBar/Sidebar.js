@@ -25,7 +25,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'TRAVEL', path: '/travel' },
     { name: 'DIARY', path: '/diary' },
     { name: 'SHOP MY STYLE', path: '/mystyle' },
-    { name: "VINTAGE VIBES MERCH", path: '/mystyle' },
+    { name: 'BEYOND BEAUTY', path: '/beyonbeauty' },
   ];
 
   return (
