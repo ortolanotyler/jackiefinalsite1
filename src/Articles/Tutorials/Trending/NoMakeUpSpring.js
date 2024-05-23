@@ -8,7 +8,7 @@ import TextReveal from '../../../Components/TextReveal';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 
-const title = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeuptitle.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/NoMakeupTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersElizabethBennetInspiredMakeup.jpg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersDaphneBridgertonMakeup.jpg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWtersRoseDawsonMakeup.JPG`;
