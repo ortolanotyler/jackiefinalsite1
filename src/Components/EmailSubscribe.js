@@ -52,7 +52,7 @@ export default function EmailSubscribe() {
         }
 
         try {
-          const response = await fetch('http://localhost:3001/submit-email', {
+          const response = await fetch('/api/submit-email', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
