@@ -6,14 +6,11 @@ import QuoteBanner from './QuoteBanner2';
 import ContactForm from './ContactForm';
 import BrandCarousel from '../Components/BrandCarousel/BrandCarousel';
 import { Grid, Paper, Box } from '@mui/material';
-
 import RotatingText from '../Navigation/AppBar/RotatingText';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import SwitchUpYour from '../Navigation/Footer/SwitchUpYour';
-
 
 const AboutEmily = `${process.env.PUBLIC_URL}/Images/About/JackieAboutMe1.jpg`;
 const leftImage = `${process.env.PUBLIC_URL}/Images/About/AboutJackie.jpg`;
@@ -30,12 +27,12 @@ const About = () => {
 
       <Grid item xs={12} md={6} className={styles['about-text-section']}>
         <div style={{ fontFamily: 'GFS Didot, serif', color: '#745B4F' }} className={styles['about-left-text']}>
-          <p style={{ color: 'black', textAlign: 'center',  fontSize: '35px', marginBottom: '1.75rem' }}>Hello! I'm Jackie Wyers.</p>
+          <p style={{ color: 'black', textAlign: 'center', fontSize: '35px', marginBottom: '1.75rem' }}>Hello! I'm Jackie Wyers.</p>
           <p style={{ textIndent: '1em', marginBottom: '1rem' }}>
             Welcome to where beauty meets pop culture. I started my YouTube career in my teens, and connecting with you through beauty has been a highlight of my life thus far.
           </p>
           <p style={{ textIndent: '1em', marginBottom: '1rem' }}>
-            As a professionally trained makeup artist with a deep passion for character design, I excel at celebrating and recreating iconic looks. Life’s too short not to embrace both new trends and timeless styles. My tutorials are designed to guide you on how to <strong> switch up your style with confidence </strong>.
+            As a professionally trained makeup artist with a deep passion for character design, I excel at celebrating and recreating iconic looks. Life’s too short not to embrace both new trends and timeless styles. My tutorials are designed to guide you on how to <strong>switch up your style with confidence</strong>.
           </p>
           <p style={{ textIndent: '1em', marginBottom: '1rem' }}>
             I have a soft spot for TV and films that celebrate sisterhood and style. My comfort TV shows include "H2O: Just Add Water" and "Emily In Paris." Among my favorite films are "Sisterhood of the Traveling Pants," "Mean Girls," "Little Women," and more recently, "The Barbie Movie." I love bringing these characters to life through makeup transformations, celebrating their impact on me and acknowledging the incredible work of the artists behind the scenes.
@@ -81,20 +78,16 @@ const About = () => {
       <Grid item xs={12} md={6}>
         <ContactForm />
       </Grid>
-     
 
       <Grid item xs={12}>
         <Paper elevation={1} style={{ padding: '2rem' }}>
-        <BrandCarousel />
+          <BrandCarousel />
         </Paper>
-     
       </Grid>
-
 
       <Grid item xs={12}>
         <TextReveal text='FAN ART GALLERY' />
         <FanArt />
-     
       </Grid>
     </Grid>
   );

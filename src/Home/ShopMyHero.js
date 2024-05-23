@@ -26,10 +26,10 @@ const ShopMyHero = () => {
     padding: '1rem',
     // Adjust font size for larger screens
     fontSize: '4rem', // Default for mobile and small devices
-    '@media (min-width: 768px)': {
+    '@media (minWidth: 768px)': {
       fontSize: '7rem', // Tablets and medium screens
     },
-    '@media (min-width: 1024px)': {
+    '@media (minWidth: 1024px)': {
       fontSize: '9rem', // Desktops and larger screens
     },
   };

@@ -21,7 +21,6 @@ const QuizHomepage = () => {
                 <Quiz2 />
             </div>
 
-            <ResponsiveIframe src="https://shopmy.us/collections/public/558319" title="Final Touches" />
 
               
           

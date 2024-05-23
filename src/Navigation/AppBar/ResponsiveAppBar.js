@@ -27,7 +27,7 @@ const pages = [
 
 const aboutOptions = [
   { name: 'Bio', path: '/about' },
-  { name: 'Press', path: '/mediakit' },
+  { name: 'Press', path: '/press' },
   { name: 'Contact', path: '/contact' },
 ];
 
