@@ -117,7 +117,7 @@ const ContactForm = () => {
             </div>
             <div className={styles.rightAlign}>
               <a
-                href="/mediakit"
+                href="/press"
                 style={{
                   fontSize: '19px',
                   color: 'black',
