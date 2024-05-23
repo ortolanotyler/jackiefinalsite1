@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import '../../ExampleTutorial.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
@@ -14,12 +14,6 @@ const eyes = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/SharonT
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Recollection = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/SharonRecollection.jpg`;
 
-const images = [
-    { src: Sharon2, alt: "Sharon Tate - Makeup" },
-    { src: Sharon3, alt: "Sharon Tate Face Chart" },
-    { src: eyes, alt: "Sharon Tate's Iconic Eyes" },
-    { src: Recollection, alt: "Sharon Tate Recollection" }
-];
 
 
 
@@ -223,7 +217,7 @@ const SharonIconicPost = () => {
             </div>
 
             <div style={{ margin: '2rem' }}>
-                <Comments website-id="10910" page-id="sharon-iconic-post" />
+                <Comments website-id={websiteId} page-id="sharon-iconic-post" />
             </div>
         </div>
     );

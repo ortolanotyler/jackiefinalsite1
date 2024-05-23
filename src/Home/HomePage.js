@@ -5,18 +5,17 @@ import TextReveal from '../Components/TextReveal';
 import QuoteBanner3 from './QuoteBanner3';
 import EmailSubscribe from '../Components/EmailSubscribe';
 import SiteExplorer from './SiteExplorer';
-import Slider1 from './aaaa'; // Correct import
+
 import ReviewArticleListHome from '../ReviewsPage/ReviewArticleListHomePage';
 import ShopMyHero from './ShopMyHero';
 import BeigeReveal from '../Components/BeigeReveal';
-import VlogsHomePageVideo from '../Vlogs/VlogsHomePageVideo';
-import CardContainer from './CardContainer';
+
 import RotatingText from '../Navigation/AppBar/RotatingText';
 import Quiz2 from '../Quiz/Quiz2';
 import AboutHero from './AboutHero'; // Import the AboutHero component
 import './AboutHero.css'; // Import the CSS file for jiggle animation
 import ReviewFavorites from './ReviewFavorites';
-import ResponsiveIframe from '../Components/ResponsiveIframe';
+
 import BeyondBeautyHero from './BeyondBeautyHero';
 import SiteExplorerBeyond from './SiteExplorerBeyond';
 import LifestyleFavorites from './LifestyleFavorites';

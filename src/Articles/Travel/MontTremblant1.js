@@ -69,24 +69,7 @@ const MontTremblantBlog = () => {
         objectFit: 'cover',
     };
 
-    const smallImageStyle = {
-        display: 'block',
-        margin: '0 1rem 1rem 0',
-        float: 'left',
-        maxWidth: '40%',
-        height: 'auto'
-    };
-    const gridContainerStyle = {
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
-        gap: '1rem',
-        width: '100%'
-    };
 
-    const gridItemStyle = {
-        width: '100%',
-        height: 'auto'
-    };
 
     const blogContent = (
         <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>

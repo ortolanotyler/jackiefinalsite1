@@ -5,7 +5,6 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import TextReveal from '../../../Components/TextReveal';
-import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/NoMakeupTitle.png`;
@@ -61,13 +60,7 @@ const NoMakeUpSpring = () => {
       objectFit: 'cover',
   };
 
-  const smallImageStyle = {
-      display: 'block',
-      margin: '0 1rem 1rem 0',
-      float: 'left',
-      maxWidth: '40%',
-      height: 'auto'
-  };
+
 
   const blogContent = (
       <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>

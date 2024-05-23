@@ -1,7 +1,7 @@
 import React from 'react';
 import { Formik,  Field } from 'formik';
 import * as Yup from 'yup';
-import { Grid, Button, Typography, Box } from '@mui/material';
+import { Grid, Button, Box } from '@mui/material';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Home/EmailSub.jpeg`;
 

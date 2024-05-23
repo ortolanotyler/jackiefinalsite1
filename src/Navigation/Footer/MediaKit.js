@@ -22,7 +22,7 @@ const MediaKit = () => {
   return (
     <div>
    
-      <TextReveal text="PRESS" style={{ backgroundColor: 'white' }} />
+      <TextReveal text="PRESS" />
   
    
    

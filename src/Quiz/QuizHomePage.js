@@ -1,9 +1,8 @@
 import React from 'react';
 
-import { Grid, Paper } from '@mui/material';
+import { Grid } from '@mui/material';
 import TextReveal from '../Components/TextReveal';
 import Quiz2 from './Quiz2';
-import ResponsiveIframe from '../Components/ResponsiveIframe';
 
 const QuizHomepage = () => {
     return (

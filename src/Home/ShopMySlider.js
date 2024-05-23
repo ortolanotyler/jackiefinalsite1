@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React from 'react';
 import './Slider.css'; // Make sure the path to your CSS file is correct
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle1.jpg`;
@@ -27,59 +27,18 @@ const imageDetails = [
   // Add more images and texts as needed
 ];
 
-const images = [image1, image2, image3 ];
 
 const ShopMySlider = () => {
-  const [numClicks, setNumClicks] = useState(0);
-  const itemsRef = useRef([]);
 
-  const maxClicks = images.length - 3;
 
-  const getItemWidth = () => {
-    if (itemsRef.current.length > 0 && itemsRef.current[0]) {
-      const item = itemsRef.current[0];
-      const style = window.getComputedStyle(item);
 
-      return (
-        parseFloat(item.offsetWidth) +
-        parseFloat(style.marginLeft) +
-        parseFloat(style.marginRight)
-      );
-    }
-    return 0;
-  };
 
-  const handleLeftClick = () => {
-    if (numClicks !== 0) {
-      setNumClicks(numClicks - 1);
-    }
-  };
 
-  const handleRightClick = () => {
-    if (numClicks !== maxClicks) {
-      setNumClicks(numClicks + 1);
-    }
-  };
 
-  useEffect(() => {
-    const handleResize = () => {
-      const newLeft = numClicks * getItemWidth();
 
-      itemsRef.current.forEach((item) => {
-        item.style.left = -(newLeft) + "px";
-      });
-    };
+   
 
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, [numClicks]);
 
-  useEffect(() => {
-    // Call getItemWidth when the component mounts to ensure itemsRef is set up.
-    getItemWidth();
-  }, []);
 
   return (
     <div className="item-container">

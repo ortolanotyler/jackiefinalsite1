@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Box, Typography } from '@mui/material';
-import TextReveal from '../Components/TextReveal';
-import ItemSlider from '../Shop/Slider';
+
 import ThreeSections from '../Shop/ThreeSections';
 import ShopMySlider from './ShopMySlider';
 import './AboutHero.css'; // Import the CSS file for jiggle animation
