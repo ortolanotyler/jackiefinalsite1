@@ -37,15 +37,16 @@ const MediaKit = () => {
 <TextReveal text="PREVIOUS COLLABORATIONS" style={{ backgroundColor: 'white' }} />
 
 <BrandCarousel />
+<Grid item xs={12}>
+            <MediaSplitWondery />
+          </Grid>
           <Grid item xs={6}>
             <MediaSplitWarnerBros />
           </Grid>
           <Grid item xs={6}>
             <MediaSplitMeanGirls />
           </Grid>
-          <Grid item xs={12}>
-            <MediaSplitWondery />
-          </Grid>
+        
           <Grid item xs={12}>
             <MediaSplitJuicyCouture />
           </Grid>
