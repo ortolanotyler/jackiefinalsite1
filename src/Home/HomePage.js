@@ -5,16 +5,21 @@ import TextReveal from '../Components/TextReveal';
 import QuoteBanner3 from './QuoteBanner3';
 import EmailSubscribe from '../Components/EmailSubscribe';
 import SiteExplorer from './SiteExplorer';
+import Slider1 from './aaaa'; // Correct import
 import ReviewArticleListHome from '../ReviewsPage/ReviewArticleListHomePage';
 import ShopMyHero from './ShopMyHero';
 import BeigeReveal from '../Components/BeigeReveal';
+import VlogsHomePageVideo from '../Vlogs/VlogsHomePageVideo';
+import CardContainer from './CardContainer';
 import RotatingText from '../Navigation/AppBar/RotatingText';
 import Quiz2 from '../Quiz/Quiz2';
 import AboutHero from './AboutHero'; // Import the AboutHero component
 import './AboutHero.css'; // Import the CSS file for jiggle animation
+import ReviewFavorites from './ReviewFavorites';
+import ResponsiveIframe from '../Components/ResponsiveIframe';
 import BeyondBeautyHero from './BeyondBeautyHero';
 import SiteExplorerBeyond from './SiteExplorerBeyond';
-import './HomePage.css'; // Import the CSS file for jiggle animation
+import LifestyleFavorites from './LifestyleFavorites';
 
 function HomePage() {
   const linkRef = useRef(null);
@@ -49,7 +54,7 @@ function HomePage() {
   }, []);
 
   return (
-    <Box sx={{ width: '100%', backgroundColor: 'white', overflowX: 'hidden' }}>
+    <Box sx={{ width: '100%', backgroundColor: 'white' }}>
       <Grid container spacing={1}>
         <TextReveal text='JACKIE WYERS' />
         <Grid item xs={12}>
@@ -63,15 +68,14 @@ function HomePage() {
         <Grid item xs={12}>
           <QuoteBanner3 />
         </Grid>
-        <Grid item xs={12}>
-          <AboutHero /> {/* Add the AboutHero component here */}
-        </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
-          <Grid container item xs={12} md={8} spacing={2} justifyContent="center" alignItems="center">
+          <Grid container item xs={12} md={8} spacing={3} justifyContent="center" alignItems="center">
             <EmailSubscribe />
           </Grid>
         </Grid>
-      
+        <Grid item xs={12}>
+          <AboutHero /> {/* Add the AboutHero component here */}
+        </Grid>
         <Grid item xs={12}>
           <SiteExplorer />
         </Grid>
@@ -92,11 +96,11 @@ function HomePage() {
         </Grid>
         <TextReveal text="LATEST BEAUTY VIDEO" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
         <Grid item xs={12} display="flex" justifyContent="center">
-          <div className="responsive-video-wrapper">
+          <div style={{ position: 'relative', width: '100%', maxWidth: '1500px', height: 0, margin: '2rem', paddingBottom: '56.25%', background: '#000', marginTop: '1rem' }}>
             <iframe
               src="https://www.youtube.com/embed/Uz03ReLZO9k?si=JbevAxz6Q8UcOv7U"
               title="Jackie Latest Youtube Video"
-              className="responsive-video"
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
@@ -104,12 +108,12 @@ function HomePage() {
           </div>
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
-          <div className="responsive-link-wrapper">
+          <div style={{ textAlign: 'right', marginRight: '-5rem', marginTop: '2rem', marginBottom: '5rem', width: '100%', maxWidth: '1400px', display: 'flex', justifyContent: 'flex-end' }}>
             <a
               href="/victoriasecret"
               ref={linkRef}
               className={isJiggling ? 'jiggle' : ''}
-           
+              style={{ color: 'black', textDecoration: 'none', fontFamily: 'GFS Didot', fontSize: '1.25rem' }}
             >
               READ FULL ARTICLE HERE &rarr;
             </a>
@@ -123,14 +127,7 @@ function HomePage() {
 
         <Grid item xs={12}>
           <TextReveal text="JACKIE'S WEEKLY TOP 3" />
-          <div className="responsive-iframe-wrapper">
-            <iframe
-              title="Jackie's Weekly Favs"
-              src="https://shopmy.us/collections/public/553108?noHeader=true"
-              className="responsive-iframe"
-              scrolling="no"
-            ></iframe>
-          </div>
+          <ReviewFavorites />
         </Grid>
         <Grid item xs={12}>
           <TextReveal text='PERFUME PROFILES' />
@@ -147,52 +144,24 @@ function HomePage() {
         <Grid item xs={12}>
           <BeigeReveal text='LIFESTYLE' />
         </Grid>
+
         <Grid item xs={12}>
           <BeyondBeautyHero />
         </Grid>
-        <Grid item xs={11}>
+        <Grid item xs={12}>
           <SiteExplorerBeyond />
         </Grid>
-        <TextReveal text="THE LATEST VLOG" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
-        <Grid item xs={12} display="flex" justifyContent="center">
-          <div className="responsive-video-wrapper">
-            <iframe
-              src="https://www.youtube.com/embed/oYtkrfpUXBI?si=ktcb4nMK9uG0LoSQ"
-              title="Jackie Latest Youtube Video"
-              className="responsive-video"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
+        <Grid item xs={12}>
+          <BeigeReveal text='TRAVEL IN STYLE' />
         </Grid>
-        <Grid item xs={12} display="flex" justifyContent="center">
-          <div className="responsive-link-wrapper">
-            <a
-              href="/victoriasecret"
-              ref={linkRef}
-              className={isJiggling ? 'jiggle' : ''}
-            >
-              READ FULL ARTICLE HERE &rarr;
-            </a>
-          </div>
+
+        <Grid item xs={12}>
+          <LifestyleFavorites />
         </Grid>
         <Grid item xs={12}>
-          <TextReveal text="SHOP LIFESTYLE" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
-          <div className="responsive-iframe-wrapper">
-            <iframe
-              title="Jackie's Weekly Favs"
-              src="https://shopmy.us/collections/public/555260?noHeader=true"
-              className="responsive-iframe"
-              scrolling='yes'
-            ></iframe>
-          </div>
+          <EmailSubscribe />
         </Grid>
-        <Grid item xs={12} display="flex" justifyContent="center">
-          <Grid container item xs={12} md={8} spacing={2} justifyContent="center" alignItems="center">
-            <EmailSubscribe />
-          </Grid>
-        </Grid>
+     
       </Grid>
     </Box>
   );
