@@ -1,7 +1,7 @@
 import React from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
-import './ContactForm.module.css'; // Import CSS file for styling
+import styles from './ContactForm.module.css'; // Import the CSS module
 
 const ContactForm = () => {
   const formik = useFormik({
@@ -39,15 +39,16 @@ const ContactForm = () => {
   });
 
   return (
-    <form onSubmit={formik.handleSubmit}>
+    <form onSubmit={formik.handleSubmit} className={styles.form}>
       <input
         type="text"
         name="fullName"
         onChange={formik.handleChange}
         value={formik.values.fullName}
         placeholder="Full name"
+        className={styles.input}
       />
-      {formik.touched.fullName && formik.errors.fullName ? <div>{formik.errors.fullName}</div> : null}
+      {formik.touched.fullName && formik.errors.fullName ? <div className={styles.error}>{formik.errors.fullName}</div> : null}
       
       <input
         type="email"
@@ -55,8 +56,9 @@ const ContactForm = () => {
         onChange={formik.handleChange}
         value={formik.values.emailAddress}
         placeholder="Email address"
+        className={styles.input}
       />
-      {formik.touched.emailAddress && formik.errors.emailAddress ? <div>{formik.errors.emailAddress}</div> : null}
+      {formik.touched.emailAddress && formik.errors.emailAddress ? <div className={styles.error}>{formik.errors.emailAddress}</div> : null}
       
       <input
         type="text"
@@ -64,18 +66,20 @@ const ContactForm = () => {
         onChange={formik.handleChange}
         value={formik.values.companyName}
         placeholder="Company name"
+        className={styles.input}
       />
-      {formik.touched.companyName && formik.errors.companyName ? <div>{formik.errors.companyName}</div> : null}
+      {formik.touched.companyName && formik.errors.companyName ? <div className={styles.error}>{formik.errors.companyName}</div> : null}
       
       <textarea
         name="message"
         onChange={formik.handleChange}
         value={formik.values.message}
         placeholder="Message"
+        className={`${styles.input} ${styles.textarea}`}
       />
-      {formik.touched.message && formik.errors.message ? <div>{formik.errors.message}</div> : null}
+      {formik.touched.message && formik.errors.message ? <div className={styles.error}>{formik.errors.message}</div> : null}
       
-      <button type="submit">Send</button>
+      <button type="submit" className={styles.button}>Send</button>
     </form>
   );
 };

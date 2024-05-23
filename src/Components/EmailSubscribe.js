@@ -1,7 +1,7 @@
 import React from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
-import './EmailSubscribe.css'; // Import CSS file for styling
+import styles from './EmailSubscribe.module.css'; // Import the CSS module
 
 const EmailSubscribe = () => {
   const formik = useFormik({
@@ -29,16 +29,17 @@ const EmailSubscribe = () => {
   });
 
   return (
-    <form onSubmit={formik.handleSubmit}>
+    <form onSubmit={formik.handleSubmit} className={styles.form}>
       <input
         type="email"
         name="email"
         onChange={formik.handleChange}
         value={formik.values.email}
         placeholder="Enter your email"
+        className={styles.input}
       />
-      {formik.touched.email && formik.errors.email ? <div>{formik.errors.email}</div> : null}
-      <button type="submit">Subscribe</button>
+      {formik.touched.email && formik.errors.email ? <div className={styles.error}>{formik.errors.email}</div> : null}
+      <button type="submit" className={styles.button}>Subscribe</button>
     </form>
   );
 };
