@@ -122,6 +122,7 @@ function App() {
           <Route path="privacy" element={<PrivacyNotice />} />
           <Route path="contact" element={<BusinessContact />} /> {/* New route for BusinessContact */}
           <Route path="speed-insights" element={<SpeedInsights />} />
+      
           <Route path="*" element={<h1>404 Not Found</h1>} />
         </Route>
       </Routes>
