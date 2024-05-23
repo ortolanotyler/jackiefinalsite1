@@ -12,14 +12,8 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import MediaSplitFiori from './MediaSplitFiori';
-import MediaSplitSupergoop from './MediaSplitSupergoop';
-import MediaSplitMeanGirls from './MediaSplitMeanGirls';
-import MediaSplitJuicyCouture from './MediaSplitJuicyCouture';
-import MediaSplitIsopiaLashes from './MediaSplitIsopiaLashes.js';
-import MediaSplitWarnerBros from './MediasplitWarnerBros.js';
-import MediaSplitOneSize from './MediaSplitOneSize.js';
-import MediaSplitWondery from './MediaSplitWondery.js';
+import SwitchUpYour from '../Navigation/Footer/SwitchUpYour';
+
 
 const AboutEmily = `${process.env.PUBLIC_URL}/Images/About/JackieAboutMe1.jpg`;
 const leftImage = `${process.env.PUBLIC_URL}/Images/About/AboutJackie.jpg`;
@@ -47,7 +41,7 @@ const About = () => {
             I have a soft spot for TV and films that celebrate sisterhood and style. My comfort TV shows include "H2O: Just Add Water" and "Emily In Paris." Among my favorite films are "Sisterhood of the Traveling Pants," "Mean Girls," "Little Women," and more recently, "The Barbie Movie." I love bringing these characters to life through makeup transformations, celebrating their impact on me and acknowledging the incredible work of the artists behind the scenes.
           </p>
           <p style={{ textIndent: '1em', marginBottom: '1rem' }}>
-            Inspiration also strikes from Taylor Swift's ever-changing eras and the playful 1960s—a transformative era for women with bold makeup trends to match. These inspirations are reflected in my video series, which includes TV and film hairstyles, wearable pop culture makeup transformations, and time travel tutorials that cover all the vintage vibes. You'll also find modern trends and product recommendations here!
+            Inspiration also strikes from Taylor Swift's ever-changing eras and the playful 1960s—a transformative era for women with bold makeup trends to match. These inspirations are reflected in my video series, which includes TV and film hairstyles, wearable pop culture makeup transformations, and Time Travel Tutorials that cover all the vintage vibes. You'll also find modern trends and product recommendations here!
           </p>
           <p style={{ textIndent: '1em', marginBottom: '1rem' }}>
             My goal is to simplify beauty techniques that are practical for your everyday routine while celebrating our unique interests. Whether you're aiming for a Brooke Shields-inspired no-makeup makeup look for a beach day, or a vibrant, pink Barbiecore look reminiscent of Summer 2023, I'm here to help. I aim to make beauty accessible and enjoyable, helping you express yourself effortlessly in your everyday life.
@@ -100,6 +94,7 @@ const About = () => {
       <Grid item xs={12}>
         <TextReveal text='FAN ART GALLERY' />
         <FanArt />
+     
       </Grid>
     </Grid>
   );

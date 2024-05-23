@@ -1,34 +1,64 @@
 import React from 'react';
-import styles from './aaa.module.css'; // Import the CSS module
+import styles from './aaa.module.css'; // Import CSS Modules
 
-// Importing the images
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteThumbnail.jpg`;
+const image5 = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
-const victoria = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
-const shrimpton = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg`;
-const nomakeup = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
-const grace = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/GraceKellyJackieWyers.jpg`;
+const image8 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
+const makeup2016 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016MakeupThumbnail.jpg`;
+const image17 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
+const animalpretty = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.jpg`;
 
 const cardsData = [
-  { link: "/nomakeupspring", image: nomakeup, alt: "Warm and cozy latte-inspired fall makeup look", title: "No-Makeup Spring 🌸" },
-  { link: "/gracekelly", image: grace, alt: "Warm and cozy latte-inspired fall meup look", title: "Grace's Hollywood Glam" },
-  { link: "/victoriasecret", image: victoria, alt: "Victoria's Secret fashion show 2014 vibes", title: "Victoria's Secret" },
-  { link: "/lanablog", image: image6, alt: "SKIMS collaboration with Lana for Valentine's Day makeup", title: "SKIMS X Lana" },
-  { link: "/yardley1965", image: shrimpton, alt: "latte-inspired fall makeup look", title: "Jean Shrimpton" },
+  {
+    link: "/animalpretty",
+    image: animalpretty,
+    alt: "Warm and cozy latte-inspired fall makeup look",
+    title: "Find Your Animal Pretty 🐰",
+    description: "Think warm, cozy, fall!",
+  },
+  {
+    link: "/patmcgrath",
+    image: image8,
+    alt: "Pat McGrath",
+    title: "Pat McGrath's Porcelain Doll 🪆",
+    description: "Pat's Porcelain Doll",
+  },
+  {
+    link: "/latteMakeup",
+    image: image2,
+    alt: "Warm and cozy latte-inspired fall makeup look",
+    title: "Viral Latte Makeup ☕️",
+    description: "Think warm, cozy, fall!",
+  },
+  {
+    link: "/sugarplumfairy",
+    image: image5,
+    alt: "Sugar Plum Fairy makeup trend report",
+    title: "Sugar Plum Fairy Glam 🧚",
+    description: "Trend Report",
+  },
+  {
+    link: "/2016Makeup",
+    image: makeup2016,
+    alt: "Victoria's Secret fashion show 2014 vibes",
+    title: "Nostalgic 2016 Makeup 🖤",
+    description: "2014 vibes are so back",
+  },
 ];
 
 const Card = ({ link, image, alt, title, description }) => {
   return (
     <li className={styles.card}>
-      <div className={styles.cardImage}>
+      <a className={styles.cardImage} href={link}>
         <img src={image} alt={alt} className={styles.cardImageImg} />
-        <div className={styles.cardDescription}>
-          <a href={link} className={styles.cardDescriptionLink}>
-            <h2 className={styles.cardDescriptionH2}>{title}</h2>
-            <p className={styles.cardDescriptionP}>{description}</p>
-            <a href={link} className={styles.readHereBtn}>Read Here</a>
-          </a>
-        </div>
+      </a>
+      <div className={styles.cardDescription}>
+        <a href={link} className={styles.cardDescriptionLink}>
+          <h2 className={styles.cardDescriptionH2}>{title}</h2>
+        </a>
+        {description && <p className={styles.cardDescriptionP}>{description}</p>}
+        <a href={link} className={styles.readHereBtn}>Read Here</a>
       </div>
     </li>
   );
@@ -36,20 +66,18 @@ const Card = ({ link, image, alt, title, description }) => {
 
 const Slider1 = () => {
   return (
-    <div style={{ fontFamily: 'GFS Didot, sans-serif' }}>
-      <ul className={styles.cardList}>
-        {cardsData.map((card, index) => (
-          <Card
-            key={index}
-            link={card.link}
-            image={card.image}
-            alt={card.alt}
-            title={card.title}
-            description={card.description}
-          />
-        ))}
-      </ul>
-    </div>
+    <ul className={styles.cardList}>
+      {cardsData.map((card, index) => (
+        <Card
+          key={index}
+          link={card.link}
+          image={card.image}
+          alt={card.alt}
+          title={card.title}
+          description={card.description}
+        />
+      ))}
+    </ul>
   );
 };
 

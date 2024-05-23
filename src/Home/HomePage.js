@@ -67,7 +67,7 @@ function HomePage() {
           <AboutHero /> {/* Add the AboutHero component here */}
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
-          <Grid container item xs={12} md={8} spacing={3} justifyContent="center" alignItems="center">
+          <Grid container item xs={12} md={8} spacing={2} justifyContent="center" alignItems="center">
             <EmailSubscribe />
           </Grid>
         </Grid>

@@ -51,7 +51,6 @@ const Sitemap = () => {
 
     const reviewPosts = [
         { path: "/reviews", title: "Product Reviews Home" },
-        { path: "/ulikereview", title: "IPL Hair Removal Review - ULike" },
         { path: "/bonbonreview", title: "Bon Bon Viktor & Rolf Review" },
         { path: "/halfetireview", title: "Halfeti Penhaligon's Review" },
         { path: "/jickyreview", title: "Jicky Guerlain Review" },

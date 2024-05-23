@@ -17,12 +17,9 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'TRENDS', path: '/trends' },
     { name: 'PRODUCT REVIEWS', path: '/reviews' },
     { name: 'TRAVEL', path: '/travel' },
-    { name: 'HOTEL REVIEWS', path: '/travel' },
-    { name: 'ITINERARIES', path: '/travel' },
     { name: 'DIARY', path: '/diary' },
     { name: 'SHOP MY STYLE', path: '/mystyle' },
     { name: "60'S MERCH", path: '/mystyle' },
-    { name: 'BIG BEAUTY BAG', path: '/mystyle' },
  
   ];
 

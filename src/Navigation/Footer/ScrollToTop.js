@@ -6,9 +6,9 @@ const ScrollToTop = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [pathname]); // This effect runs when the pathname changes
+  }, [pathname]);
 
-  return null; // This component does not render anything
+  return null;
 };
 
-export default ScrollToTop; // Make sure to export the component
+export default ScrollToTop;

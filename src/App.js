@@ -60,6 +60,7 @@ import './App.css'; // Ensure you have imported the App.css file
 import RotatingText from './Navigation/AppBar/RotatingText';
 import DiaryPost1Fillers from './Articles/Diary/DiaryFillers';
 import DiarySlider from './DiaryHome/diaryhome';
+import TestScrollToTop from './TestScrollToTop';
 
 function App() {
   return (
@@ -126,6 +127,7 @@ function App() {
           <Route path="/cpsummer" element={<LeftOutfit />} />
           <Route path="/sleekspring" element={<MiddleOutfit />} />
           <Route path="/parisprincess" element={<RightOutfit />} />
+          <Route path="/q" element={<TestScrollToTop />} />
 
           {/* Vlog */}
           <Route path="/vlogs" element={<Vlogs />} />
@@ -153,3 +155,4 @@ function App() {
 }
 
 export default App;
+

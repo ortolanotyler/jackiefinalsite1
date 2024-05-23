@@ -25,7 +25,7 @@
 }
 
 .form {
-  margin: 2rem;
+  margin: 20px;
   gap: 0.5rem;
   display: flex;
   font-family: 'GFS Didot', sans-serif;
@@ -42,7 +42,8 @@
 }
 
 .button {
-  font-size: 1.35rem;
+  font-size: 22px;
+  padding: 1rem;
   font-family: 'GFS Didot', sans-serif;
   border: none;
   color: #745B4F;

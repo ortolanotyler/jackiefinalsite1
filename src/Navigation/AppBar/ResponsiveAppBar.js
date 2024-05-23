@@ -106,7 +106,7 @@ function ResponsiveAppBar() {
         sx={{
           fontFamily: 'GFS Didot, serif',
           backgroundColor: '#FDEDEF',
-          padding: '1rem',
+          padding: '0.25rem',
           width: '100%',
           zIndex: 1200, // Ensure it stays above other content but below the sidebar
         }}

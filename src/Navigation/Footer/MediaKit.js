@@ -2,7 +2,7 @@ import React from 'react';
 import MediaKitSlider from './MediaKitSlider';
 import TextReveal from '../../Components/TextReveal';
 import BrandCarousel from '../../Components/BrandCarousel/BrandCarousel';
-import { Paper, Grid } from '@mui/material';
+import {  Grid } from '@mui/material';
 import FeaturesAndShoutouts from './FeaturesAndShoutouts';
 import MediaSplitWarnerBros from '../../About/MediasplitWarnerBros';
 import MediaSplitMeanGirls from '../../About/MediaSplitMeanGirls';
@@ -12,6 +12,7 @@ import MediaSplitOneSize from '../../About/MediaSplitOneSize';
 import MediaSplitIsopiaLashes from '../../About/MediaSplitIsopiaLashes';
 import MediaSplitWondery from '../../About/MediaSplitWondery';
 import MediaSplitSupergoop from '../../About/MediaSplitSupergoop';
+import SwitchUpYour from './SwitchUpYour.js';
 
 const MediaKit = () => {
   const images = [
@@ -60,6 +61,7 @@ const MediaKit = () => {
           <Grid item xs={12}>
             <MediaSplitSupergoop />
           </Grid>
+        
         </Grid>
      
     </div>

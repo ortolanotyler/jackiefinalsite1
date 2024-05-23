@@ -1,22 +1,17 @@
-.cardImage {
-    display: grid;
-    background: white center center no-repeat;
-    background-size: cover;
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-weight: normal;
 }
 
-.cardImageImg {
-    padding: 0.75rem;
-    border-radius: 10px;
-    display: block;
-    width: 100%;
-    font-family: 'GFS Didot';
-}
-
-.htmlBody {
+body {
     background-color: white;
-    font-family: 'GFS Didot';
+    font-family: 'GFS Didot', serif;
     height: 100%;
     font-size: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 .cardList {
@@ -29,7 +24,6 @@
     font-size: 0;
     list-style: none;
     gap: 1.5rem;
-    font-family: 'GFS Didot';
 }
 
 @media (max-width: 1200px) {
@@ -41,6 +35,7 @@
 @media (max-width: 600px) {
     .cardList {
         grid-template-columns: 1fr; /* Switch to 1-column grid under 600px */
+        padding: 1rem; /* Adjust padding for smaller screens */
     }
 }
 
@@ -48,19 +43,30 @@
     text-decoration: none;
     background-color: white;
     max-width: 550px;
-    font-size: 0.75em;
-    text-decoration: none;
+   
     overflow: hidden;
     box-shadow: 0 0 3.5rem -1rem rgba(0,0,0,0.7);
     transition: transform 0.1s ease-in-out, box-shadow 0.1s;
     margin-bottom: 1rem; /* Add margin between cards */
     border-radius: 10px;
-    font-family: 'GFS Didot';
 }
 
 .card:hover {
     transform: translateY(-0.5rem) scale(1.0125);
     box-shadow: 0 0.6em 3rem -1rem rgba(0,0,0,0.5);
+}
+
+.cardImage {
+    display: grid;
+    background: white center center no-repeat;
+    background-size: cover;
+}
+
+.cardImageImg {
+    padding: 0.75rem;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
 }
 
 .cardDescription {
@@ -71,33 +77,29 @@
     text-align: center; /* Center text within container */
     color: black;
     text-decoration: none;
-    font-family: 'GFS Didot';
 }
 
 .cardDescriptionH2 {
     color: black;
     font-size: 1.75rem;
     font-weight: bold;
-    font-family: 'GFS Didot';
+    margin: 0;
 }
 
 .cardDescriptionP {
     color: black;
     font-size: 1em;
-    font-family: 'GFS Didot';
 }
 
 .cardDescriptionLink,
 .cardDescriptionVisited {
     color: black;
     text-decoration: none;
-    font-family: 'GFS Didot';
 }
 
 .cardDescriptionHover,
 .cardDescriptionFocus {
     text-decoration: none;
-    font-family: 'GFS Didot';
 }
 
 .readHereBtn {
@@ -112,7 +114,6 @@
     font-size: 16px;
     color: black; /* Initial text color */
     transition: background-color 0.4s, color 0.3s;
-    font-family: 'GFS Didot';
 }
 
 .readHereBtn:hover {

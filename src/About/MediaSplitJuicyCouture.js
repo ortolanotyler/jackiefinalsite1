@@ -11,7 +11,7 @@ const MediaSplitJuicyCouture = () => {
       {/* Left section with ResponsiveIframe */}
       <div className={sharedStyles.leftContainer}>
         <div className={sharedStyles.iframeContainer}>
-          <ResponsiveIframe src="https://shopmy.us/collections/public/555990?noHeader=true" title="Bronzing and Blushing Products" />
+          <ResponsiveIframe src="https://shopmy.us/collections/public/559598?noHeader=true" title="Bronzing and Blushing Products" />
         </div>
       </div>
 
