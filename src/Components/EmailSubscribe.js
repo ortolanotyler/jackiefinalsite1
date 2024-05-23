@@ -1,23 +1,45 @@
-import React from 'react';
-import { Formik,  Field } from 'formik';
+import React, { useEffect, useRef, useState } from 'react';
+import { Formik, Field } from 'formik';
 import * as Yup from 'yup';
-import { Grid, Button, Box } from '@mui/material';
+import { Grid, Button, Box, FormControlLabel, Checkbox, Typography } from '@mui/material';
+import './EmailSubscribe.module.css'; // Import CSS file for styling
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Home/EmailSub.jpeg`;
 
 // Define a validation schema using Yup
 const SignupSchema = Yup.object().shape({
   email: Yup.string().email('Invalid email').required('Email is required'),
+  consent: Yup.boolean().oneOf([true], 'Consent is required'),
 });
 
 export default function EmailSubscribe() {
+  const buttonRef = useRef(null);
+  const hasJiggled = useRef(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!buttonRef.current || hasJiggled.current) return;
+      const rect = buttonRef.current.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom >= 0) {
+        buttonRef.current.classList.add('jiggle');
+        hasJiggled.current = true;
+        setTimeout(() => {
+          buttonRef.current.classList.remove('jiggle');
+        }, 900); // 3 iterations of 0.3s each
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <Formik
-      initialValues={{ email: '' }}
+      initialValues={{ email: '', consent: false }}
       validationSchema={SignupSchema}
       onSubmit={async (values, { setSubmitting, resetForm }) => {
         try {
-          const response = await fetch('http://localhost:3001/submit-email', {
+          const response = await fetch('/api/submit-email', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -38,14 +60,11 @@ export default function EmailSubscribe() {
         setSubmitting(false);
       }}
     >
-      {({ submitForm, isSubmitting, touched, errors }) => (
+      {({ submitForm, isSubmitting, touched, errors, values, handleChange }) => (
         <Box display="flex" justifyContent="center" alignItems="center" width="100%" padding="2rem" mt={8}>
-          
           <Grid container spacing={3} alignItems="center" justifyContent="center" sx={{ maxWidth: '1000px', width: '100%' }}>
             <Grid item xs={12}>
-            <img src={image1} alt="Email Subscribe" style={{ width: '100%' }} />
-
-              
+              <img src={image1} alt="Email Subscribe" style={{ width: '100%' }} />
             </Grid>
             <Grid item xs={6}>
               <Field
@@ -68,26 +87,44 @@ export default function EmailSubscribe() {
             </Grid>
             <Grid item xs={6}>
               <Button
+                ref={buttonRef}
                 type="submit"
                 variant="contained"
                 disabled={isSubmitting}
                 onClick={submitForm}
                 sx={{
-                  backgroundColor: 'black',
-                  color: 'white',
+                  backgroundColor: values.consent ? '#fdedef' : 'black',
+                  color: values.consent ? '#745B4F' : 'white',
                   borderRadius: '5px',
                   width: '100%',
                   fontFamily: 'GFS Didot, serif',
-                
                   padding: '0.5rem',
                   '&:hover': {
-                    backgroundColor: '#fdedef',
-                    color: '#745B4F',
+                    backgroundColor: values.consent ? '#fdedef' : '#333',
+                    color: values.consent ? '#745B4F' : 'white',
                   },
                 }}
               >
                 Subscribe
               </Button>
+            </Grid>
+            <Grid item xs={12}>
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    name="consent"
+                    checked={values.consent}
+                    onChange={handleChange}
+                    color="primary"
+                  />
+                }
+                label={
+                  <Typography variant="body2" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>
+                    I have read the <a href="/privacy" target="_blank" style={{ color: '#745B4F', textDecoration: 'underline' }}>Privacy Policy</a> and give consent to be a part of the newsletter. I understand that I can unsubscribe at any time via email.
+                  </Typography>
+                }
+              />
+              {touched.consent && errors.consent && <div style={{ color: '#745B4F', fontSize: '16px', marginTop: '0.5rem' }}>{errors.consent}</div>}
             </Grid>
           </Grid>
         </Box>
@@ -95,5 +132,3 @@ export default function EmailSubscribe() {
     </Formik>
   );
 }
-
-

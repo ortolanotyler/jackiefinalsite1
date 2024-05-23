@@ -26,7 +26,7 @@ app.post('/api/submit-email', async (req, res) => {
     res.status(200).send('Email saved successfully');
   } catch (error) {
     console.error('Database error:', error);
-    res.status(500).send('Error saving email');
+    res.status(500).send(`Error saving email: ${error.message}`);
   }
 });
 
@@ -45,7 +45,7 @@ app.post('/api/submit-form', async (req, res) => {
     res.status(200).send('Form submitted successfully');
   } catch (error) {
     console.error('Database error:', error);
-    res.status(500).send('Error submitting form');
+    res.status(500).send(`Error submitting form: ${error.message}`);
   }
 });
 

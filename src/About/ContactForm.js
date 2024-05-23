@@ -27,7 +27,7 @@ const ContactForm = () => {
         .required('Required'),
     }),
     onSubmit: (values, { resetForm }) => {
-      fetch('http://localhost:3001/submit-form', {
+      fetch('http://localhost:3001/api/submit-form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -58,12 +58,10 @@ const ContactForm = () => {
       ) : (
         <>
           <div className={styles.column}>
-            <div className={styles.column}>
-              <p>
-                Throughout the years, I have had the privilege of collaborating with esteemed brands that have enhanced the quality of my
-                tutorials. If you believe that our partnership would be a beneficial fit, I invite you to reach out.
-              </p>
-            </div>
+            <p>
+              Throughout the years, I have had the privilege of collaborating with esteemed brands that have enhanced the quality of my
+              tutorials. If you believe that our partnership would be a beneficial fit, I invite you to reach out.
+            </p>
             <form onSubmit={formik.handleSubmit} className={styles.form}>
               <input
                 type="text"
@@ -110,10 +108,8 @@ const ContactForm = () => {
               
               <button type="submit" className={styles.button}>SEND</button>
             </form>
-            <div
-            style = {{ height: '5vh' }}>
-            <p></p>
-
+            <div style={{ height: '5vh' }}>
+              <p></p>
             </div>
             <div className={styles.rightAlign}>
               <a
@@ -135,4 +131,3 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
-
