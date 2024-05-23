@@ -1,19 +1,19 @@
 const express = require('express');
 const { Pool } = require('pg');
 const bodyParser = require('body-parser');
-const bcrypt = require('bcrypt');
+const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
 const port = process.env.PORT || 3001;
 
 app.use(bodyParser.json());
+app.use(cors());
 
 const pool = new Pool({
   connectionString: process.env.POSTGRES_URL,
 });
 
-// Endpoint for email subscription
 app.post('/api/submit-email', async (req, res) => {
   const { email } = req.body;
 
@@ -21,10 +21,8 @@ app.post('/api/submit-email', async (req, res) => {
     return res.status(400).send('Email is required');
   }
 
-  const hashedEmail = await bcrypt.hash(email, 10);
-
   try {
-    await pool.query('INSERT INTO emails (email, plain_email) VALUES ($1, $2)', [hashedEmail, email]);
+    await pool.query('INSERT INTO emails (email) VALUES ($1)', [email]);
     res.status(200).send('Email saved successfully');
   } catch (error) {
     console.error('Database error:', error);
@@ -32,7 +30,6 @@ app.post('/api/submit-email', async (req, res) => {
   }
 });
 
-// Endpoint for contact form submission
 app.post('/api/submit-form', async (req, res) => {
   const { fullName, emailAddress, companyName, message } = req.body;
 
