@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ResponsiveAppBar from './Navigation/AppBar/ResponsiveAppBar';
 import Footer from './Navigation/Footer/Footer';
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 import Sitemap from './Navigation/SiteMap/SiteMap';
 import EmailSubscribe from './Components/EmailSubscribe';
 import MediaKit from './Navigation/Footer/MediaKit';
@@ -146,8 +148,10 @@ function App() {
           <Route path="/mediakit" element={<MediaKit />} />
           <Route path="/privacy" element={<PrivacyNotice />} />
 
-          <Route path="/contact" element={<BusinessContact/>} /> {/* New route for BusinessContact */}
+          <Route path="/contact" element={<BusinessContact />} /> {/* New route for BusinessContact */}
 
+          {/* Route to include SpeedInsights component */}
+          <Route path="/speed-insights" element={<SpeedInsights />} />
 
           {/* 404 Route */}
           <Route path="*" element={<h1>404 Not Found</h1>} />
@@ -159,4 +163,3 @@ function App() {
 }
 
 export default App;
-
