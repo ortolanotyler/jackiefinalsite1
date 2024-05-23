@@ -15,7 +15,7 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => {
   return (
     <div>
-      <div><TextReveal text='WHICH ANIMAL PRETTY R U ? '/></div>
+   
       <div className={styles.card} style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
         <div className={styles.blogContent} style={{ lineHeight: '1.2' }}>{blogContent}</div>
       </div>

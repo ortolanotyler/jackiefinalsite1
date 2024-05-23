@@ -9,6 +9,7 @@ const DiarySlider = () => {
   return (
     <div className={styles.centeredImage}>
       <TextReveal text="DIARY" className={styles.diaryText} />
+    
       <a href="/diary1">
         <img src={image} alt="Diary Post" className={styles.diaryImage} />
       </a>

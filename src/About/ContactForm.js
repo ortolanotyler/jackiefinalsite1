@@ -60,7 +60,7 @@ const ContactForm = () => {
           <div className={styles.column}>
             <p>
               Throughout the years, I have had the privilege of collaborating with esteemed brands that have enhanced the quality of my
-              tutorials. If you believe that our partnership would be a beneficial fit, I invite you to reach out.
+              tutorials. If you believe that our partnership would be a beneficial fit, please reach out.
             </p>
             <form onSubmit={formik.handleSubmit} className={styles.form}>
               <input

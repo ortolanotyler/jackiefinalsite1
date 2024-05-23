@@ -35,13 +35,13 @@ const About = () => {
             As a professionally trained makeup artist with a deep passion for character design, I excel at celebrating and recreating iconic looks. Life’s too short not to embrace both new trends and timeless styles. My tutorials are designed to guide you on how to <strong>switch up your style with confidence</strong>.
           </p>
           <p style={{ textIndent: '1em', marginBottom: '1rem' }}>
-            I have a soft spot for TV and films that celebrate sisterhood and style. My comfort TV shows include "H2O: Just Add Water" and "Emily In Paris." Among my favorite films are "Sisterhood of the Traveling Pants," "Mean Girls," "Little Women," and more recently, "The Barbie Movie." I love bringing these characters to life through makeup transformations, celebrating their impact on me and acknowledging the incredible work of the artists behind the scenes.
+            I have a soft spot for TV and films that celebrate sisterhood and style. My comfort TV shows include "H2O: Just Add Water" and "Emily In Paris." Among my favorite films are "Sisterhood of the Traveling Pants," "Mean Girls," "Little Women," and more recently, "The Barbie Movie." I love bringing these characters to life once again to celebrate their impact and acknowledge the incredible work of the artists behind the scenes.
           </p>
           <p style={{ textIndent: '1em', marginBottom: '1rem' }}>
             Inspiration also strikes from Taylor Swift's ever-changing eras and the playful 1960s—a transformative era for women with bold makeup trends to match. These inspirations are reflected in my video series, which includes TV and film hairstyles, wearable pop culture makeup transformations, and Time Travel Tutorials that cover all the vintage vibes. You'll also find modern trends and product recommendations here!
           </p>
           <p style={{ textIndent: '1em', marginBottom: '1rem' }}>
-            My goal is to simplify beauty techniques that are practical for your everyday routine while celebrating our unique interests. Whether you're aiming for a Brooke Shields-inspired no-makeup makeup look for a beach day, or a vibrant, pink Barbiecore look reminiscent of Summer 2023, I'm here to help. I aim to make beauty accessible and enjoyable, helping you express yourself effortlessly in your everyday life.
+            My goal is to simplify beauty techniques that are practical for your everyday routine while celebrating our unique interests. Whether you're aiming for a Brooke Shields-inspired no-makeup makeup for a beach day, or a vibrant, pink Barbiecore look reminiscent of Summer 2023, I'm your girl! I aim to make beauty accessible and enjoyable, helping you express yourself effortlessly in your everyday life.
           </p>
           <p style={{ textIndent: '1em', marginBottom: '1rem' }}>
             Together, we'll create looks that make you feel incredible and pay homage to the iconic moments and styles that inspire us. If you follow my tutorials, tag me on social media—I love seeing your experiments and often reshare them on my channels!

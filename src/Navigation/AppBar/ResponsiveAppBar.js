@@ -26,8 +26,8 @@ const pages = [
 ];
 
 const aboutOptions = [
-  { name: 'Bio', path: '/about' },
-  { name: 'Press', path: '/press' },
+  { name: 'Meet Jackie', path: '/about' },
+  { name: 'Media Kit', path: '/press' },
   { name: 'Contact', path: '/contact' },
 ];
 
@@ -38,8 +38,8 @@ const beyondBeautyOptions = [
 ];
 
 const shopOptions = [
-  { name: 'MyStyle', path: '/mystyle' },
-  { name: 'Big Beauty Bag', path: '/beautybag' },
+  { name: 'Shop My Style', path: '/mystyle' },
+
   { name: 'VintageVibes Merch', path: '/vintagevibesmerch' },
 ];
 

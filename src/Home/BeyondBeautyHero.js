@@ -63,7 +63,6 @@ const BeyondBeautyHero = () => {
                   <Typography variant="body1" sx={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>
                    
                   </Typography>
-                  <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
                 </Link>
               </Box>
             </Grid>

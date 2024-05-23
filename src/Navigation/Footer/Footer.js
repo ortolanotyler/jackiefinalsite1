@@ -59,8 +59,8 @@ const Footer = () => {
                             SiteMap
                         </a>
                         <br />
-                        <a href="/mediakit" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '18px' }}>
-                            Press
+                        <a href="/press" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '18px' }}>
+                            Media Kit & Press
                         </a>
                         <br />
                         <a href="/subscribe" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '18px' }}>

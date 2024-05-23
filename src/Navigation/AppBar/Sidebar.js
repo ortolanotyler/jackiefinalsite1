@@ -12,19 +12,22 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
     { name: 'HOME', path: '/' },
     { name: 'ABOUT', path: '/about' },
+    { name: 'TUTORIALS', path: '/tutorials' },
+    { name: 'QUIZ', path: '/quiz' },
+    { name: 'SHOP MY STYLE', path: '/mystyle' },
+    { name: 'REVIEWS', path: '/reviews' },
+    { name: 'TRAVEL', path: '/travel' },
+    { name: 'DIARY', path: '/diary' },
+   
+    { name: '', path: '/contact' },
+   
+   
+ 
+
     { name: 'CONTACT', path: '/contact' },
     { name: 'PRESS', path: '/press' },
     { name: 'SITEMAP', path: '/sitemap' },
     { name: 'PRIVACY', path: '/privacy' },
-    { name: '', path: '/contact' },
-   
-   
-    { name: 'TUTORIALS', path: '/tutorials' },
-    { name: 'QUIZ', path: '/quiz' },
-    { name: 'REVIEWS', path: '/reviews' },
-    { name: 'TRAVEL', path: '/travel' },
-    { name: 'DIARY', path: '/diary' },
-    { name: 'SHOP MY STYLE', path: '/mystyle' },
   ];
 
   return (

@@ -37,6 +37,9 @@ const PrivacyNotice = () => {
             <p className={styles.paragraph}>
                 You have the right to access, correct, or delete your personal information. To exercise these rights, please contact us at contact@jackiewyers.beauty.
             </p>
+            <p className={styles.paragraph}>
+To unsubscribe from our mailing list, please press "unsubscribe" at the bottom of the newsletter or feel free to reach out to contact@jackiewyers.beauty.
+            </p>
             <h3 className={`${styles.heading} ${styles.subHeading}`}>Changes to the Privacy Policy</h3>
             <p className={styles.paragraph}>
                 We may update this privacy policy from time to time. The latest version will always be available on our blog. We will notify you of significant changes through the blog or email.

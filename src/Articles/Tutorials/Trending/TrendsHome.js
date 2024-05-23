@@ -75,7 +75,7 @@ const Card = ({ link, image, alt, title, description }) => {
 const TrendsHome = () => {
   return (
     <div>
-     <TextReveal text="NOW TRENDING" />
+     <TextReveal text="TRENDING NOW" />
      <Paper elevation={3} style={{ padding: '1rem', margin: '1rem 0' }}>
      <RotatingText />
      </Paper>

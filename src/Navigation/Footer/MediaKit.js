@@ -22,7 +22,7 @@ const MediaKit = () => {
 
   return (
     <div>
-      <TextReveal text="PRESS" />
+      <TextReveal text="MEDIA KIT & PRESS" />
       <Paper elevation={3} style={{ padding: '1rem' }}>
         <RotatingText/>
       </Paper>

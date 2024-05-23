@@ -51,7 +51,7 @@ const DiaryPost1Fillers = () => {
     <div className="container" style={{ lineHeight: '1.5rem', maxWidth: '100%', marginTop: '5rem', color: 'black', justifyContent: 'center' }}>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/diary" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-          DIARY // FILLERS
+          DIARY 
         </a>
       </div>
 
@@ -156,7 +156,7 @@ Through sharing some of my story, I hope to inspire others to reflect on their m
     return (
         <div>
             <div ref={blogRef}>
-            <TextReveal text='DIARY' />
+         
 
                 <Card blogContent={blogContent} />
             </div>

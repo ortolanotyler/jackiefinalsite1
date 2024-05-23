@@ -7,17 +7,17 @@ import { useNavigate } from 'react-router-dom';
 
 const cardDetails = [
   {
-    title: 'TRAVEL REVIEWS',
+    title: 'HOTEL REVIEWS',
     backgroundImage: `${process.env.PUBLIC_URL}/Images/Home/MAUITHUMBNAIL.jpg`,
     path: '/travel'
   },
   {
-    title: 'ITINERARIES',
+    title: 'TRAVEL ITINERARIES',
     backgroundImage: `${process.env.PUBLIC_URL}/Images/Home/EPCOTTHUMBNAIL.jpeg`,
     path: '/travel'
   },
   {
-    title: 'DIARY',
+    title: 'DIARY: FILLERS AND SELF ACCEPTANCE',
     backgroundImage: `${process.env.PUBLIC_URL}/Images/Home/DIARY.jpg`,
     path: '/diary'
   },
