@@ -2,7 +2,7 @@ import React from 'react';
 import MediaKitSlider from './MediaKitSlider';
 import TextReveal from '../../Components/TextReveal';
 import BrandCarousel from '../../Components/BrandCarousel/BrandCarousel';
-import { Grid } from '@mui/material';
+import { Grid, Paper } from '@mui/material';
 import FeaturesAndShoutouts from './FeaturesAndShoutouts';
 import MediaSplitWarnerBros from '../../About/MediasplitWarnerBros';
 import MediaSplitMeanGirls from '../../About/MediaSplitMeanGirls';
@@ -12,6 +12,7 @@ import MediaSplitOneSize from '../../About/MediaSplitOneSize';
 import MediaSplitIsopiaLashes from '../../About/MediaSplitIsopiaLashes';
 import MediaSplitWondery from '../../About/MediaSplitWondery';
 import MediaSplitSupergoop from '../../About/MediaSplitSupergoop';
+import RotatingText from '../AppBar/RotatingText';
 
 const MediaKit = () => {
   const images = [
@@ -22,6 +23,9 @@ const MediaKit = () => {
   return (
     <div>
       <TextReveal text="PRESS" />
+      <Paper elevation={3} style={{ padding: '1rem' }}>
+        <RotatingText/>
+      </Paper>
       <Grid container spacing={1}>
         <Grid item xs={12} md={6}>
           <MediaKitSlider images={images} />
