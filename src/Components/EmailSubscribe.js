@@ -2,11 +2,9 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Formik, Field } from 'formik';
 import * as Yup from 'yup';
 import { Grid, Button, Box, FormControlLabel, Checkbox, Typography } from '@mui/material';
-import ReCAPTCHA from 'react-google-recaptcha';
 import './EmailSubscribe.css'; // Import CSS file for styling
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Home/EmailSub.jpeg`;
-const RECAPTCHA_SITE_KEY = 'YOUR_RECAPTCHA_SITE_KEY'; // Replace with your reCAPTCHA site key
 
 // Define a validation schema using Yup
 const SignupSchema = Yup.object().shape({
@@ -17,7 +15,6 @@ const SignupSchema = Yup.object().shape({
 export default function EmailSubscribe() {
   const buttonRef = useRef(null);
   const hasJiggled = useRef(false);
-  const [recaptchaValue, setRecaptchaValue] = useState(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -36,34 +33,23 @@ export default function EmailSubscribe() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleRecaptchaChange = (value) => {
-    setRecaptchaValue(value);
-  };
-
   return (
     <Formik
       initialValues={{ email: '', consent: false }}
       validationSchema={SignupSchema}
       onSubmit={async (values, { setSubmitting, resetForm }) => {
-        if (!recaptchaValue) {
-          alert('Please complete the reCAPTCHA');
-          setSubmitting(false);
-          return;
-        }
-
         try {
           const response = await fetch('/api/submit-email', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ email: values.email, recaptcha: recaptchaValue }),
+            body: JSON.stringify({ email: values.email }),
           });
 
           if (response.ok) {
             alert('Email subscribed successfully!');
             resetForm();
-            setRecaptchaValue(null); // Reset reCAPTCHA
           } else {
             alert('Failed to subscribe email.');
           }
@@ -140,14 +126,6 @@ export default function EmailSubscribe() {
               />
               {touched.consent && errors.consent && <div style={{ color: '#745B4F', fontSize: '16px', marginTop: '0.5rem' }}>{errors.consent}</div>}
             </Grid>
-            {values.consent && (
-              <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center', marginTop: '1rem' }}>
-                <ReCAPTCHA
-                  sitekey={RECAPTCHA_SITE_KEY}
-                  onChange={handleRecaptchaChange}
-                />
-              </Grid>
-            )}
           </Grid>
         </Box>
       )}

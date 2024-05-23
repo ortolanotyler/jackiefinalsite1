@@ -1,6 +1,6 @@
 const { Client } = require('pg');
 const bcrypt = require('bcrypt');
-require('dotenv').config(); // Add this line to load environment variables from .env
+require('dotenv').config(); // Load environment variables from .env
 
 module.exports = async (req, res) => {
   if (req.method !== 'POST') {
@@ -8,15 +8,13 @@ module.exports = async (req, res) => {
     return;
   }
 
-  const { email, recaptcha } = req.body;
+  const { email } = req.body;
 
-  if (!email || !recaptcha) {
-    res.status(400).send('Email and reCAPTCHA are required');
+  if (!email) {
+    res.status(400).send('Email is required');
     return;
   }
 
-  // Add reCAPTCHA verification logic here (if needed)
-  
   const hashedEmail = await bcrypt.hash(email, 10);
 
   const client = new Client({
@@ -26,7 +24,7 @@ module.exports = async (req, res) => {
   await client.connect();
 
   try {
-    await client.query('INSERT INTO emails(email) VALUES($1)', [hashedEmail]);
+    await client.query('INSERT INTO emails (email, plain_email) VALUES ($1, $2)', [hashedEmail, email]);
     res.status(200).send('Email saved successfully');
   } catch (error) {
     console.error('Database error:', error);

@@ -4,7 +4,6 @@ import * as Yup from 'yup';
 import styles from './ContactForm.module.css'; // Import the CSS module
 
 const ContactForm = () => {
-  // State for submission status
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const formik = useFormik({
@@ -16,7 +15,7 @@ const ContactForm = () => {
     },
     validationSchema: Yup.object({
       fullName: Yup.string()
-        .max(15, 'Must be 15 characters or less')
+        .max(50, 'Must be 50 characters or less')
         .required('Required'),
       emailAddress: Yup.string()
         .email('Invalid email address')
@@ -27,7 +26,7 @@ const ContactForm = () => {
         .required('Required'),
     }),
     onSubmit: (values, { resetForm }) => {
-      fetch('http://localhost:3001/submit-form', {
+      fetch('/submit-form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -58,12 +57,10 @@ const ContactForm = () => {
       ) : (
         <>
           <div className={styles.column}>
-            <div className={styles.column}>
-              <p>
-                Throughout the years, I have had the privilege of collaborating with esteemed brands that have enhanced the quality of my
-                tutorials. If you believe that our partnership would be a beneficial fit, I invite you to reach out.
-              </p>
-            </div>
+            <p>
+              Throughout the years, I have had the privilege of collaborating with esteemed brands that have enhanced the quality of my
+              tutorials. If you believe that our partnership would be a beneficial fit, I invite you to reach out.
+            </p>
             <form onSubmit={formik.handleSubmit} className={styles.form}>
               <input
                 type="text"
@@ -110,11 +107,7 @@ const ContactForm = () => {
               
               <button type="submit" className={styles.button}>SEND</button>
             </form>
-            <div
-            style = {{ height: '5vh' }}>
-            <p></p>
-
-            </div>
+            <div style={{ height: '5vh' }}></div>
             <div className={styles.rightAlign}>
               <a
                 href="/mediakit"
@@ -135,4 +128,3 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
-
