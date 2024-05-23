@@ -92,11 +92,11 @@ function HomePage() {
         </Grid>
         <TextReveal text="LATEST BEAUTY VIDEO" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
         <Grid item xs={12} display="flex" justifyContent="center">
-          <div style={{ position: 'relative', width: '100%', maxWidth: '1500px', height: 0, margin: '2rem', paddingBottom: '56.25%', background: '#000', marginTop: '1rem' }}>
+          <div className="responsive-video-wrapper">
             <iframe
               src="https://www.youtube.com/embed/Uz03ReLZO9k?si=JbevAxz6Q8UcOv7U"
               title="Jackie Latest Youtube Video"
-              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              className="responsive-video"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
@@ -104,12 +104,12 @@ function HomePage() {
           </div>
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
-          <div style={{ textAlign: 'right', marginRight: '-5rem', marginTop: '2rem', marginBottom: '5rem', width: '100%', maxWidth: '1400px', display: 'flex', justifyContent: 'flex-end' }}>
+          <div className="responsive-link-wrapper">
             <a
               href="/victoriasecret"
               ref={linkRef}
               className={isJiggling ? 'jiggle' : ''}
-              style={{ color: 'black', textDecoration: 'none', fontFamily: 'GFS Didot', fontSize: '1.25rem' }}
+              className="responsive-link"
             >
               READ FULL ARTICLE HERE &rarr;
             </a>
@@ -123,18 +123,11 @@ function HomePage() {
 
         <Grid item xs={12}>
           <TextReveal text="JACKIE'S WEEKLY TOP 3" />
-          <div style={{ width: '100%', minHeight: '1200px', marginBottom: '2rem' }}>
+          <div className="responsive-iframe-wrapper">
             <iframe
               title="Jackie's Weekly Favs"
               src="https://shopmy.us/collections/public/553108?noHeader=true"
-              style={{
-                marginTop: '7rem',
-                width: '100%',
-                minHeight: '1000px',
-                border: 'none',
-                overflow: 'hidden',
-              }}
-              className="review-favorites-iframe"
+              className="responsive-iframe"
               scrolling="no"
             ></iframe>
           </div>
@@ -162,11 +155,11 @@ function HomePage() {
         </Grid>
         <TextReveal text="THE LATEST VLOG" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
         <Grid item xs={12} display="flex" justifyContent="center">
-          <div style={{ position: 'relative', width: '100%', maxWidth: '1500px', height: 0, margin: '2rem', paddingBottom: '56.25%', background: '#000', marginTop: '1rem' }}>
+          <div className="responsive-video-wrapper">
             <iframe
               src="https://www.youtube.com/embed/oYtkrfpUXBI?si=ktcb4nMK9uG0LoSQ"
               title="Jackie Latest Youtube Video"
-              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+              className="responsive-video"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
@@ -174,12 +167,11 @@ function HomePage() {
           </div>
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
-          <div style={{ textAlign: 'right', marginRight: '-5rem', marginTop: '2rem', marginBottom: '5rem', width: '100%', maxWidth: '1400px', display: 'flex', justifyContent: 'flex-end' }}>
+          <div className="responsive-link-wrapper">
             <a
               href="/victoriasecret"
               ref={linkRef}
               className={isJiggling ? 'jiggle' : ''}
-              style={{ color: 'black', textDecoration: 'none', fontFamily: 'GFS Didot', fontSize: '1.25rem' }}
             >
               READ FULL ARTICLE HERE &rarr;
             </a>
@@ -187,18 +179,11 @@ function HomePage() {
         </Grid>
         <Grid item xs={12}>
           <TextReveal text="SHOP LIFESTYLE" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
-          <div style={{ width: '100%', minHeight: '1200px', marginBottom: '2rem' }}>
+          <div className="responsive-iframe-wrapper">
             <iframe
               title="Jackie's Weekly Favs"
               src="https://shopmy.us/collections/public/555260?noHeader=true"
-              style={{
-                marginTop: '7rem',
-                width: '100%',
-                minHeight: '1000px',
-                border: 'none',
-                
-              }}
-              className="lifestyle-favorites-iframe"
+              className="responsive-iframe"
               scrolling='yes'
             ></iframe>
           </div>
