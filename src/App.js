@@ -67,8 +67,9 @@ import BusinessContact from './Components/BusinessContact';
 function App() {
   return (
     <Router>
-       <ResponsiveAppBar />
+     
       <ScrollToTop />
+      <ResponsiveAppBar />
      
       <RotatingText />
       <div className="main-content">
