@@ -1,6 +1,8 @@
+const express = require('express');
 const { Pool } = require('pg');
 const serverless = require('serverless-http');
 
+const app = express();
 const pool = new Pool({
   connectionString: process.env.POSTGRES_URL,
   ssl: {
@@ -8,17 +10,13 @@ const pool = new Pool({
   }
 });
 
-async function handler(req, res) {
-  if (req.method !== 'POST') {
-    res.status(405).send('Method Not Allowed');
-    return;
-  }
+app.use(express.json());
 
+app.post('/api/submit-email', async (req, res) => {
   const { email } = req.body;
 
   if (!email) {
-    res.status(400).send('Email is required');
-    return;
+    return res.status(400).send('Email is required');
   }
 
   try {
@@ -28,6 +26,6 @@ async function handler(req, res) {
     console.error('Database error:', error);
     res.status(500).send(`Error saving email: ${error.message}`);
   }
-}
+});
 
-module.exports = serverless(handler);
+module.exports.handler = serverless(app);
