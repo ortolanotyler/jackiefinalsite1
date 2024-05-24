@@ -3,6 +3,8 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import styles from './ContactForm.module.css'; // Import the CSS module
 
+const apiBaseUrl = process.env.NODE_ENV === 'production' ? 'https://jackiewyers.beauty' : 'http://localhost:3001';
+
 const ContactForm = () => {
   // State for submission status
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -27,7 +29,7 @@ const ContactForm = () => {
         .required('Required'),
     }),
     onSubmit: (values, { resetForm }) => {
-      fetch('http://localhost:3001/api/submit-form', {
+      fetch(`${apiBaseUrl}/api/submit-form`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

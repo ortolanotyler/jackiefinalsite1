@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Formik, Field } from 'formik';
 import * as Yup from 'yup';
 import { Grid, Button, Box, FormControlLabel, Checkbox, Typography } from '@mui/material';
@@ -11,6 +11,8 @@ const SignupSchema = Yup.object().shape({
   email: Yup.string().email('Invalid email').required('Email is required'),
   consent: Yup.boolean().oneOf([true], 'Consent is required'),
 });
+
+const apiBaseUrl = process.env.NODE_ENV === 'production' ? 'https://jackiewyers.beauty' : 'http://localhost:3001';
 
 export default function EmailSubscribe() {
   const buttonRef = useRef(null);
@@ -39,7 +41,7 @@ export default function EmailSubscribe() {
       validationSchema={SignupSchema}
       onSubmit={async (values, { setSubmitting, resetForm }) => {
         try {
-          const response = await fetch('/api/submit-email', {
+          const response = await fetch(`${apiBaseUrl}/api/submit-email`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
