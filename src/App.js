@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './Layout';
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import { API_URL, FORM_API_URL } from './config';
+
 
 import Sitemap from './Navigation/SiteMap/SiteMap';
 import EmailSubscribe from './Components/EmailSubscribe';

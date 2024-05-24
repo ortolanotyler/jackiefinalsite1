@@ -1,32 +1,85 @@
-const express = require('express');
-const { Pool } = require('pg');
-const serverless = require('serverless-http');
+// src/App.js
+import React, { useState } from 'react';
+import { API_URL, FORM_API_URL } from './config';
 
-const app = express();
-const pool = new Pool({
-  connectionString: process.env.POSTGRES_URL,
-  ssl: {
-    rejectUnauthorized: false
-  }
-});
+const App = () => {
+  const [email, setEmail] = useState('');
+  const [form, setForm] = useState({
+    fullName: '',
+    emailAddress: '',
+    companyName: '',
+    message: ''
+  });
 
-app.use(express.json());
+  const handleSubmitEmail = async () => {
+    try {
+      const response = await fetch(API_URL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email }),
+      });
+      const data = await response.json();
+      console.log(data);
+    } catch (error) {
+      console.error('Error submitting email:', error);
+    }
+  };
 
-app.post('/submit-email', async (req, res) => {
-  const { email } = req.body;
+  const handleSubmitForm = async () => {
+    try {
+      const response = await fetch(FORM_API_URL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(form),
+      });
+      const data = await response.json();
+      console.log(data);
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
+  };
 
-  if (!email) {
-    return res.status(400).send('Email is required');
-  }
+  return (
+    <div>
+      <h1>Submit Email</h1>
+      <input
+        type="email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      />
+      <button onClick={handleSubmitEmail}>Submit Email</button>
 
-  try {
-    await pool.query('INSERT INTO emails (email) VALUES ($1)', [email]);
-    res.status(200).send('Email saved successfully');
-  } catch (error) {
-    console.error('Database error:', error);
-    res.status(500).send(`Error saving email: ${error.message}`);
-  }
-});
+      <h1>Submit Form</h1>
+      <input
+        type="text"
+        value={form.fullName}
+        onChange={(e) => setForm({ ...form, fullName: e.target.value })}
+        placeholder="Full Name"
+      />
+      <input
+        type="email"
+        value={form.emailAddress}
+        onChange={(e) => setForm({ ...form, emailAddress: e.target.value })}
+        placeholder="Email Address"
+      />
+      <input
+        type="text"
+        value={form.companyName}
+        onChange={(e) => setForm({ ...form, companyName: e.target.value })}
+        placeholder="Company Name"
+      />
+      <textarea
+        value={form.message}
+        onChange={(e) => setForm({ ...form, message: e.target.value })}
+        placeholder="Message"
+      />
+      <button onClick={handleSubmitForm}>Submit Form</button>
+    </div>
+  );
+};
 
-module.exports = app;
-module.exports.handler = serverless(app);
+export default App;
