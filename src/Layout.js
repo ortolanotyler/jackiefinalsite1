@@ -6,7 +6,7 @@ import useScrollToTop from './hooks/useScrollToTop';
 import RotatingText from './Navigation/AppBar/RotatingText';
 
 const Layout = () => {
-  useScrollToTop(); // Call the hook here
+  useScrollToTop(); // Call the ok here
 
   return (
     <>
