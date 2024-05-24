@@ -12,7 +12,7 @@ const pool = new Pool({
 
 app.use(express.json());
 
-app.post('/api/submit-email', async (req, res) => {
+app.post('/submit-email', async (req, res) => {
   const { email } = req.body;
 
   if (!email) {
@@ -28,4 +28,5 @@ app.post('/api/submit-email', async (req, res) => {
   }
 });
 
+module.exports = app;
 module.exports.handler = serverless(app);
