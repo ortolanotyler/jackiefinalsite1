@@ -16,7 +16,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Sidebar from './Sidebar'; // Import the Sidebar component
 import './ResponsiveAppBar.css'; // Import the CSS file for custom styles
 
-const logo = `${process.env.PUBLIC_URL}/Images/Home/jwlogo.png`;
+const logo = `${process.env.PUBLIC_URL}/Images/Home/jwlogo3.png`;
 
 const pages = [
   { name: 'Home', path: '/' },
