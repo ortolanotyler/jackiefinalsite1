@@ -1,20 +1,18 @@
 const express = require('express');
 const { Pool } = require('pg');
-const bodyParser = require('body-parser');
-const cors = require('cors');
-require('dotenv').config();
+const serverless = require('serverless-http');
 
 const app = express();
-const port = process.env.PORT || 3001;
-
-app.use(bodyParser.json());
-app.use(cors());
-
 const pool = new Pool({
   connectionString: process.env.POSTGRES_URL,
+  ssl: {
+    rejectUnauthorized: false
+  }
 });
 
-app.post('/api/submit-email', async (req, res) => {
+app.use(express.json());
+
+app.post('/submit-email', async (req, res) => {
   const { email } = req.body;
 
   if (!email) {
@@ -30,7 +28,7 @@ app.post('/api/submit-email', async (req, res) => {
   }
 });
 
-app.post('/api/submit-form', async (req, res) => {
+app.post('/submit-form', async (req, res) => {
   const { fullName, emailAddress, companyName, message } = req.body;
 
   if (!fullName || !emailAddress || !companyName || !message) {
@@ -49,6 +47,10 @@ app.post('/api/submit-form', async (req, res) => {
   }
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
+
+module.exports = app;
+module.exports.handler = serverless(app);
