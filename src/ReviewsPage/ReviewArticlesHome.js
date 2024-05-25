@@ -10,11 +10,7 @@ const ReviewHomePage = () => {
     return (
         <div>
             <TextReveal text="REVIEWS" />
-            <div>
-                <Paper elevation={3} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: "#745B4F", textAlign: 'center', padding: '1em' }}>
-                    <RotatingText />
-                </Paper>
-            </div>
+       
             <div
             style = {{
                 marginTop: '2rem',
@@ -37,10 +33,11 @@ const ReviewHomePage = () => {
             </div>
            
             <TextReveal text="JACKIE'S QUICK PICKS" />
-            <ResponsiveIframe
-                src="https://shopmy.us/collections/embed/91810?noHeader=true"
-                title="Collection name here"
-            />
+            <iframe
+      title="Jackie's Top Recommendations"
+      src="https://shopmy.us/collections/public/556881?noHeader=true"
+      style={{ width: '100%', minHeight: '2400px', border: 'none' }}
+    ></iframe>
         </div>
     );
 };

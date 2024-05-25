@@ -4,6 +4,7 @@ import { Box, Typography } from '@mui/material';
 import ThreeSections from '../Shop/ThreeSections';
 import ShopMySlider from './ShopMySlider';
 import './AboutHero.css'; // Import the CSS file for jiggle animation
+import TextReveal from '../Components/TextReveal';
 
 const ShopMyHero = () => {
   // Base style for anchor tags

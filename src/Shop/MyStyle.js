@@ -7,6 +7,7 @@ import FallWinterSlider from './FallWinterSlider';
 import PhotoShootSlider from './PhotoShootSlider';
 import RotatingText from '../Navigation/AppBar/RotatingText';
 import { Paper } from '@mui/material';
+import TextReveal from '../Components/TextReveal';
 
 const MyStyle = () => {
   // Base style for anchor tags
@@ -38,10 +39,8 @@ const MyStyle = () => {
 
   return (
     <div style={{ backgroundColor: 'white' }}>
-      <Paper elevation={3} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: '#745B4F', textAlign: 'center', marginTop: '0.25rem', padding: '1rem' }}>
-            <RotatingText />
-          </Paper>
-
+   
+          <TextReveal text = "SHOP MY STYLE" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'Arapey' }} />
 
       <div style={sectionStyle}></div>
       <ItemSlider />
