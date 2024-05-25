@@ -12,7 +12,7 @@ const SignupSchema = Yup.object().shape({
   consent: Yup.boolean().oneOf([true], 'Consent is required'),
 });
 
-const apiBaseUrl = process.env.NODE_ENV === 'production' ? 'https://jackiewyers.beauty' : 'http://localhost:3001';
+const apiBaseUrl = process.env.REACT_APP_API_BASE_URL || 'http://localhost:3001';
 
 export default function EmailSubscribe() {
   const buttonRef = useRef(null);
