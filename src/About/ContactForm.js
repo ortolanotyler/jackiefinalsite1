@@ -3,10 +3,9 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import styles from './ContactForm.module.css'; // Import the CSS module
 
-const apiBaseUrl = process.env.NODE_ENV === 'production' ? 'https://api.jackiewyers.beauty' : 'http://localhost:3001';
+const zapierWebhookURL = 'https://hooks.zapier.com/hooks/catch/your-webhook-url/';
 
 const ContactForm = () => {
-  // State for submission status
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const formik = useFormik({
@@ -28,26 +27,27 @@ const ContactForm = () => {
       message: Yup.string()
         .required('Required'),
     }),
-    onSubmit: (values, { resetForm }) => {
-      fetch(`${apiBaseUrl}/submit-form`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(values),
-      })
-      .then(response => {
+    onSubmit: async (values, { resetForm }) => {
+      try {
+        const response = await fetch(zapierWebhookURL, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(values),
+        });
+
         if (response.ok) {
           setIsSubmitted(true);
           resetForm({});
           setTimeout(() => setIsSubmitted(false), 5000);
         } else {
-          throw new Error('Network response was not ok.');
+          alert('Failed to submit form.');
         }
-      })
-      .catch((error) => {
+      } catch (error) {
         console.error('Error:', error);
-      });
+        alert('Error submitting form.');
+      }
     },
   });
 
@@ -133,4 +133,3 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
-

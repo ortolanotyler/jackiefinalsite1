@@ -6,13 +6,12 @@ import './EmailSubscribe.module.css'; // Import CSS file for styling
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Home/EmailSub.jpeg`;
 
-// Define a validation schema using Yup
 const SignupSchema = Yup.object().shape({
   email: Yup.string().email('Invalid email').required('Email is required'),
   consent: Yup.boolean().oneOf([true], 'Consent is required'),
 });
 
-const apiBaseUrl = process.env.NODE_ENV === 'production' ? 'https://api.jackiewyers.beauty' : 'http://localhost:3001';
+const zapierWebhookURL = 'https://hooks.zapier.com/hooks/catch/your-webhook-url/';
 
 export default function EmailSubscribe() {
   const buttonRef = useRef(null);
@@ -27,7 +26,7 @@ export default function EmailSubscribe() {
         hasJiggled.current = true;
         setTimeout(() => {
           buttonRef.current.classList.remove('jiggle');
-        }, 900); // 3 iterations of 0.3s each
+        }, 900);
       }
     };
 
@@ -41,7 +40,7 @@ export default function EmailSubscribe() {
       validationSchema={SignupSchema}
       onSubmit={async (values, { setSubmitting, resetForm }) => {
         try {
-          const response = await fetch(`${apiBaseUrl}/submit-email`, {
+          const response = await fetch(zapierWebhookURL, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -134,4 +133,3 @@ export default function EmailSubscribe() {
     </Formik>
   );
 }
-
