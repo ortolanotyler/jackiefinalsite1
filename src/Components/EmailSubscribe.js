@@ -11,7 +11,7 @@ const SignupSchema = Yup.object().shape({
   consent: Yup.boolean().oneOf([true], 'Consent is required'),
 });
 
-const zapierWebhookURL = 'https://hooks.zapier.com/hooks/catch/your-webhook-url/';
+const zapierWebhookURL = 'https://hooks.zapier.com/hooks/catch/18965305/3vxlycx/';
 
 export default function EmailSubscribe() {
   const buttonRef = useRef(null);
