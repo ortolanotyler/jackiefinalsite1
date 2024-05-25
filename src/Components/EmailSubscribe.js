@@ -42,9 +42,6 @@ export default function EmailSubscribe() {
         try {
           const response = await fetch(zapierWebhookURL, {
             method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
             body: JSON.stringify({ email: values.email }),
           });
 

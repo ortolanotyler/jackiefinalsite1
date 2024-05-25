@@ -3,7 +3,7 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import styles from './ContactForm.module.css'; // Import the CSS module
 
-const zapierWebhookURL = 'https://hooks.zapier.com/hooks/catch/18965305/3vxlycx/';
+const zapierWebhookURL = 'https://hooks.zapier.com/hooks/catch/18965305/3vxl0vc/';
 
 const ContactForm = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
