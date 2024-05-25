@@ -31,9 +31,6 @@ const ContactForm = () => {
       try {
         const response = await fetch(zapierWebhookURL, {
           method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
           body: JSON.stringify(values),
         });
 
