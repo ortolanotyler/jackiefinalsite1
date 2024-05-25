@@ -3,7 +3,7 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import styles from './ContactForm.module.css'; // Import the CSS module
 
-const apiBaseUrl = process.env.REACT_APP_API_BASE_URL || 'http://localhost:3001';
+const apiBaseUrl = process.env.NODE_ENV === 'production' ? 'https://api.jackiewyers.beauty' : 'http://localhost:3001';
 
 const ContactForm = () => {
   // State for submission status
@@ -29,7 +29,7 @@ const ContactForm = () => {
         .required('Required'),
     }),
     onSubmit: (values, { resetForm }) => {
-      fetch(`${apiBaseUrl}/api/submit-form`, {
+      fetch(`${apiBaseUrl}/submit-form`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -133,3 +133,4 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
+

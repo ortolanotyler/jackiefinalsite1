@@ -12,7 +12,7 @@ const SignupSchema = Yup.object().shape({
   consent: Yup.boolean().oneOf([true], 'Consent is required'),
 });
 
-const apiBaseUrl = process.env.REACT_APP_API_BASE_URL || 'http://localhost:3001';
+const apiBaseUrl = process.env.NODE_ENV === 'production' ? 'https://api.jackiewyers.beauty' : 'http://localhost:3001';
 
 export default function EmailSubscribe() {
   const buttonRef = useRef(null);
@@ -41,7 +41,7 @@ export default function EmailSubscribe() {
       validationSchema={SignupSchema}
       onSubmit={async (values, { setSubmitting, resetForm }) => {
         try {
-          const response = await fetch(`${apiBaseUrl}/api/submit-email`, {
+          const response = await fetch(`${apiBaseUrl}/submit-email`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -134,3 +134,4 @@ export default function EmailSubscribe() {
     </Formik>
   );
 }
+
