@@ -17,7 +17,7 @@ import RotatingText from '../AppBar/RotatingText';
 const MediaKit = () => {
   const images = [
     '/Images/MediaKit/MediaKit1.png',
-    '/Images/MediaKit/MediaKit2.png',
+    '/Images/MediaKit/MediaKit2.jpeg',
   ];
 
   return (

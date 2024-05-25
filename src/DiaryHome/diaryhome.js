@@ -10,8 +10,11 @@ const DiarySlider = () => {
     <div className={styles.centeredImage}>
       <TextReveal text="DIARY" className={styles.diaryText} />
     
-      <a href="/diary1">
-        <img src={image} alt="Diary Post" className={styles.diaryImage} />
+      <a href="/diary1" className={styles.diaryLink}>
+        <div className={styles.imageContainer}>
+          <img src={image} alt="Diary Post" className={styles.diaryImage} />
+          <div className={styles.readOverlay}>READ HERE</div>
+        </div>
       </a>
     </div>
   );

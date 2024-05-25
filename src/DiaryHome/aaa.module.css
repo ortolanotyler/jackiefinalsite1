@@ -1,23 +1,55 @@
-/* aaa.module.css */
-
 .centeredImage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .diaryImage {
-    max-width: 650px; /* Adjust the maximum width as needed */
-    height: auto;
-    margin-top: 50px; /* Add some margin at the top */
-    margin-bottom: 50px; /* Add some margin at the bottom */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); /* Adds a subtle shadow to the image */
-  }
-  
-  .diaryText {
-    font-family: 'GFS Didot', sans-serif;
-    font-size: 24px;
-    margin-bottom: 20px; /* Add some margin at the bottom */
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.diaryLink {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.diaryImage {
+  max-width: 650px; /* Adjust the maximum width as needed */
+  height: auto;
+  margin-top: 50px; /* Add some margin at the top */
+  margin-bottom: 50px; /* Add some margin at the bottom */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); /* Adds a subtle shadow to the image */
+  transition: filter 0.3s ease; /* Smooth transition for darkening effect */
+}
+
+.readOverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black; /* Text color */
+  background-color: white; /* Background color for the box */
+  padding: 10px 20px; /* Padding inside the box */
+  font-family: 'GFS Didot', sans-serif;
+  font-size: 24px;
+  border-radius: 5px; /* Rounded corners for the box */
+  opacity: 0;
+  transition: opacity 0.3s ease; /* Smooth transition for the text */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); /* Adds a subtle shadow to the box */
+}
+
+.diaryLink:hover .diaryImage {
+  filter: brightness(50%); /* Darkens the image on hover */
+}
+
+.diaryLink:hover .readOverlay {
+  opacity: 1; /* Shows the "READ HERE" text on hover */
+}
+
+.diaryText {
+  font-family: 'GFS Didot', sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px; /* Add some margin at the bottom */
+}

@@ -3,9 +3,8 @@ import './ReviewArticleList.css';
 import ReviewArticleCard from './ReviewArticleCard';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/jickyguerlainthumbnail.png`;
-const image2 = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBonThumbnail.png`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/bonbonthumb.jpeg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/HalfetiThumbnail.png`;
-const image4 = `${process.env.PUBLIC_URL}/Images/Articles/ULIKEREVIEW/ULIKETHUMB.png`;
 
 const articles = [
   {
