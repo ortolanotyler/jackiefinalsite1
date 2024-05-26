@@ -52,22 +52,21 @@ export default function QuiltedImageList1() {
     <ImageList
       sx={{
         width: '100%',
-        height: { xs: '50vh', md: '65vh' },
+        height: { xs: 'auto', md: '65vh' },
         boxShadow: '0 0 0 1px rgba(0, 0, 0, 0.9)',
-        overflowY: { xs: 'hidden', md: 'auto' }, // Hide overflow on smaller screens, enable on larger screens
+        overflowY: 'auto', // Enable scrolling for larger screens
         // Add media queries for smaller screens
         '& .MuiImageListItem-root': {
-          '&:nth-of-type(n+5)': {
-            display: { xs: 'none', md: 'block' },
-          },
+          width: '100%',
         },
       }}
       variant="quilted"
-      cols={4}
+      cols={{ xs: 2, md: 4 }}
+      rowHeight="auto"
     >
       {itemData.map((item, index) => (
-        <ImageListItem key={index} cols={item.cols || 1} rows={item.rows || 1}>
-          <img src={item.img} alt={item.title} loading="lazy" />
+        <ImageListItem key={index} cols={1}>
+          <img src={item.img} alt={item.title} loading="lazy" style={{ width: '100%' }} />
         </ImageListItem>
       ))}
     </ImageList>
