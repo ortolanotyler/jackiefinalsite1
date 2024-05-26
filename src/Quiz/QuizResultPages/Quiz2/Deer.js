@@ -4,6 +4,7 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import TextReveal from '../../../Components/TextReveal';
+import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 const button = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/AnimalQuizResults.jpeg`;
 
@@ -48,6 +49,9 @@ const DeerPretty = () => {
         </a>
       </div>
       <img src={title} alt="Deer Pretty Title" style={{ width: '100%' }} />
+
+      <ResponsiveYoutube src="https://www.youtube.com/embed/c9-8K8AF5rg?si=-MEfA2g3jPJNwUzx" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
+
       
       <div
       style = {{
@@ -63,7 +67,7 @@ const DeerPretty = () => {
 <p style={paragraphStyle}>
 <strong>
       Deer Pretty: Soft and Ethereal 🦌  
-(Deer Beauty Tutorial starts at 1:30) 
+(Deer Beauty Tutorial starts at 0:42) 
         </strong>
 </p>
     

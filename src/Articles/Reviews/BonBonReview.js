@@ -5,6 +5,7 @@ import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import './ExampleTutorial.css';
 import DropCap from '../../Components/DropCap';
 
+const title = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/bonbontitle2.png`;
 const BonBon1A = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBon1A.png`;
 const BonBon2 = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBon2.jpg`;
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
@@ -24,7 +25,7 @@ const BonBonReview = () => {
 
   const headingStyle = {
       textAlign: 'center',
-      fontSize: '40px',
+      fontSize: '35px',
       fontWeight: 'normal',
       fontFamily: 'GFS Didot, serif',
       color: '#333',
@@ -43,7 +44,7 @@ const BonBonReview = () => {
   };
 
   const blogContent = (
-      <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '25rem', marginTop: '5rem' }}>
+      <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '25rem, 1', marginTop: '5rem' }}>
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
               <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                   BEAUTY // REVIEWS
@@ -53,27 +54,30 @@ const BonBonReview = () => {
           <img src={BonBon1A} alt="BonBon 1" style={{ width: '100%' }} />
           <img src={BonBon2} alt="BonBon 2" style={{ maxBlockSize: '800px', width: '100%' }} />
 
-          <DropCap text="Bonbon is a celebration of self-indulgence, a fragrant ode to the joy of savouring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure." />
+          <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+            </p>
 
-          <h2 style={headingStyle}>🍑 Background Information</h2>
+          <h2 style={headingStyle}>🍊 Perfume Profile </h2>
 
+       
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1rem', maxWidth: '100%', marginLeft: '0em' }}>
-              <div style={{ marginBottom: '0.7rem' }}>
-                  <strong>Concentration:</strong> Eau de Parfum
-              </div>
-              <div style={{ marginBottom: '0.7rem' }}>
-                  <strong>Fragrance Family:</strong> Floral Fruity Gourmand
-              </div>
-              <div style={{ marginBottom: '0.7rem' }}>
-                  <strong>Top Notes:</strong> Mandarin, Orange, Peach
-              </div>
-              <div style={{ marginBottom: '0.7rem' }}>
-                  <strong>Heart/Middle Notes:</strong> Caramel, Jasmine, Orange blossom
-              </div>
-              <div style={{ marginBottom: '0.7rem' }}>
-                  <strong>Base Notes:</strong> Amber, Guaïac wood, Cedarwood, Sandalwood
-              </div>
-          </div>
+    <div style={{ marginBottom: '0.7rem' }}>
+        <strong>Perfume Name:</strong> Bonbon
+    </div>
+    <div style={{ marginBottom: '0.7rem' }}>
+        <strong>Brand:</strong> Viktor & Rolf
+    </div>
+    <div style={{ marginBottom: '0.7rem' }}>
+        <strong>Year of Release:</strong> 2014
+    </div>
+    <div style={{ marginBottom: '0.7rem' }}>
+        <strong>Perfumers:</strong> Cecile Matton, Serge Majoullier
+    </div>
+</div>
+
+
+      
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1rem', maxWidth: '100%', marginLeft: '0em' }}>
               <div style={{ marginBottom: '0.7rem' }}>
@@ -87,28 +91,71 @@ const BonBonReview = () => {
               </div>
           </div>
 
-          <h2 style={headingStyle}> 🍬 Profile</h2>
+          <h2 style={headingStyle}>🍑 Background Information</h2>
+
+<p style={paragraphStyle}>
+Bonbon is a celebration of self-indulgence, a fragrant ode to the joy of
+savouring life's sweet moments. Its timeless appeal beckons one to a world
+of pure, unadulterated pleasure.
+</p>
+
+          <h2 style={headingStyle}> 🍬 Fragrance Profile</h2>
+
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1rem', maxWidth: '100%', marginLeft: '0em' }}>
+    <div style={{ marginBottom: '0.7rem' }}>
+        <strong>Concentration:</strong> Eau de Parfum
+    </div>
+    <div style={{ marginBottom: '0.7rem' }}>
+        <strong>Fragrance Family:</strong> Floral Fruity Gourmand
+    </div>
+    <div style={{ marginBottom: '0.7rem' }}>
+        <strong>Top Notes:</strong> Mandarin, Orange, Peach
+    </div>
+    <div style={{ marginBottom: '0.7rem' }}>
+        <strong>Heart/Middle Notes:</strong> Caramel, Jasmine, Orange blossom
+    </div>
+    <div style={{ marginBottom: '0.7rem' }}>
+        <strong>Base Notes:</strong> Amber, Guaïac wood, Cedarwood, Sandalwood
+    </div>
+</div>
+
 
           <p style={paragraphStyle}>
-              A luscious peach opening gives way to a heart overflowing with caramel's sweet embrace, tempered by delicate floral whispers. The base, a comforting blend of warm woods, anchors the fragrance in sophistication.
+          <strong> Overall Scent Profile: </strong>A luscious peach opening gives way to a heart
+overflowing with caramel's sweet embrace, followed by a touch of delicate florals. The base, a comforting blend of warm woods, anchors the fragrance in sophistication.
+    </p>
+
+          <h2 style={headingStyle}> 🎀 Personal First Impressions</h2>
+
+          <p style={paragraphStyle}>
+          My first brush with Bonbon took place in a Nordstrom back in 2015. Before
+that moment, the realm of high-end perfumes was uncharted territory for
+me. Yet, as I passed by the counter, the luxurious packaging caught my eye—
+a whimsically wrapped candy in deep magenta hues, cradled in an equally
+charming pink and black box. It was love at first sight!
           </p>
 
-          <h2 style={headingStyle}>Personal First Impressions</h2>
+          <p style={paragraphStyle}>
+          Upon the first whiff of Bonbon's sweet, sophisticated aroma, I was
+hooked. This eau de parfum is described as a gourmand fragrance with
+notes of Peach, Caramel, and Amber. I eagerly picked up a bottle, and the
+staff sent me on my way with a bag filled with tissue paper lightly spritzed
+with the fragrance. Walking through the mall that day, the number of
+compliments I received was unparalleled 🎀 🍬
+</p>
 
           <p style={paragraphStyle}>
-              My first brush with Bonbon took place in a Nordstrom back in 2015. Before that moment, the realm of high-end perfumes was uncharted territory for me. Yet, as I passed by the counter, the luxurious packaging caught my eye — a whimsically wrapped candy in deep magenta hues, cradled in an equally charming pink and black box. It was love at first sight!
-          </p>
-
-          <p style={paragraphStyle}>
-          With my first whiff of Bonbon's sweet, sophisticated aroma, I was instantly captivated. This eau de parfum, with its notes of peach, caramel, and amber, immediately drew me in. After purchasing a bottle, the staff packed it with tissue paper spritzed with the fragrance. That day, as I walked through the mall, I received a bunch of compliments 🎀 🍬.          </p>
-
-          <p style={paragraphStyle}>
-              As a young adult at the time with a fondness for sweet, playful scents, I steered away from body sprays and anything too fruity. I’ve always been drawn to fragrances that lay on a foundation of sandalwood as they feel warm, woody, and inviting alongside the sweetness. This is why Bonbon was the perfect, first-luxury perfume buy that I’d recommend for <strong> teens or young adults who love a mature, but sweet scent.</strong>
+          As a young adult at the time with a fondness for sweet, playful scents, I
+steered away from body sprays and anything too fruity. I’ve always been
+drawn to fragrances that lay on a foundation of sandalwood as they feel
+warm, woody, and inviting alongside the sweetness. This is why Bonbon was
+the perfect, first-luxury perfume buy that I’d recommend for teens or young
+adults who love a mature, but sweet scent.
           </p>
 
           <ResponsiveIframe src="https://shopmy.us/collections/public/549701?noHeader=true" title="Final Touches" />
 
-          <h2 style={headingStyle}> ❤️ Review & Recommendations</h2>
+          <h2 style={headingStyle}> 💗 Review & Recommendations</h2>
 
           <p style={paragraphStyle}>
               <strong>Longevity:</strong> A commendable 6 to 8 hours on the skin, though individual experiences may vary.
@@ -120,7 +167,7 @@ const BonBonReview = () => {
               <strong>Occasions and Seasonality:</strong> Ideal for the cooler embrace of autumn and winter, Bonbon transitions seamlessly from daytime charm to evening elegance.
           </p>
 
-          <h2 style={headingStyle}>Comparisons</h2>
+          <h2 style={headingStyle}> ⚖ Comparisons</h2>
 
           <p style={paragraphStyle}>
               Lovers of sweet gourmands and vanilla will find joy in exploring similar fragrances, like Bianco Latte Giardini Di Toscana, with its own take on caramel. Yet, Bonbon's fruity opening sets it apart, offering a distinctive allure.
@@ -131,8 +178,9 @@ const BonBonReview = () => {
           <h2 style={headingStyle}> 📝 Final Thoughts</h2>
 
           <p style={paragraphStyle}>
-              <strong>Pros and Cons:</strong> While its gourmand charm and lasting warmth are undeniable, those in search of spicier or more subdued scents might look elsewhere, perhaps to the likes of Legacy of Petra by Penhaligon's for a woodsy, spicy alternative.
-          </p>
+    <strong>Pros and Cons:</strong> While its gourmand charm and lasting warmth are undeniable, those in search of spicier more mature scents might look elsewhere, perhaps prefering <a href="https://www.nordstrom.com/s/petra-eau-de-parfum/7207411?utm_channel=low_nd_affiliates_influencer&utm_content=&utm_term=2340682&utm_source=impact&utm_medium=affiliate_influencer&utm_campaign=shopmyshelf&irclickid=3vRVdo0yhxyKUwhRA0yln1DiUkHVrSVlrStwwQ0&irgwc=1" target="_blank" style={{ color: 'black', textDecoration: 'underline' }}>Legacy of Petra by Penhaligon's</a>.
+</p>
+
           <p style={paragraphStyle}>
               <strong>Value for Money:</strong> Bonbon is a testament to its craftsmanship, offering a unique and enduring fragrance that justifies its price tag.
           </p>

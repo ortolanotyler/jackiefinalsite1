@@ -11,6 +11,7 @@ import TextReveal from '../../../Components/TextReveal';
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SugarPlumFairyTitle.png`;
 const Sugar2 = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SugarPlumDouble.png`;
 const FaceChart = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SugarFace.jpg`;
+const makeup2016 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016MakeupThumbnail.jpg`;
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
@@ -29,7 +30,7 @@ const SugarPlumBlogPost = () => {
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '2.75rem',
+        fontSize: '35px',
         fontWeight: 'normal',
         fontFamily: 'GFS Didot, serif',
         color: '#333',
@@ -94,11 +95,13 @@ const SugarPlumBlogPost = () => {
 
             </div>
 
-            <p style={ paragraphStyle} >
-                The trend originates from Hailey Bieber's TikTok tutorial, where she flaunts a natural, skin-like base using minimal concealer and a sheer bronzer for contouring. The cheeks are flushed with cream and powder blush creating a delightful rosy glow, complemented by faux freckles and highlighter. For the eyes, she opts for a glossy, shimmer-topped lid, neatly brushed-up brows, and a swipe of mascara. The look is completed with an overdrawn brown lip line, topped off with a sparkling pink gloss - her new Rhode Peptide Lip Treatment in ‘Jelly Bean’.
-            </p>
+            <p style={paragraphStyle}>
+    The trend originates from Hailey Bieber's <a href="https://www.tiktok.com/@haileybieber/video/7304057854896491819?lang=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>TikTok tutorial</a>, where she flaunts a natural, skin-like base using minimal concealer and a sheer bronzer for contouring. The cheeks are flushed with cream and powder blush creating a delightful rosy glow, complemented by faux freckles and highlighter. For the eyes, she opts for a glossy, shimmer-topped lid, neatly brushed-up brows, and a swipe of mascara. The look is completed with an overdrawn brown lip line, topped off with a sparkling pink gloss - her new Rhode Peptide Lip Treatment in ‘Jelly Bean’.
+</p>
 
-            <img src={Sugar2} alt="Detailed Sugar Plum Fairy Makeup" style={{ width: '100%' }} />
+<a href="https://www.instagram.com/p/C0-awstI8Vh/?hl=en" target="_blank" rel="noopener noreferrer">
+    <img src={Sugar2} alt="Detailed Sugar Plum Fairy Makeup" style={{ width: '100%' }} />
+</a>
 
 
             <p style={ paragraphStyle} >
@@ -226,6 +229,9 @@ shine is UNREAL!
                 Finish the eye makeup with mascara and lashes that complement the whimsical vibe. For an extra fairy-like touch, add gems from Half Magic in the inner corner of the eye, and decorate around the eyes — they're super fun and perfect for a New Year's Eve celebration. Rare Beauty's Enchant Highlighter complements all the pink and silver tones beautifully.
             </p>
 
+            <ResponsiveIframe src="https://shopmy.us/collections/public/565568?noHeader=true" title="Eye Makeup Products" />
+
+
             <p style={ paragraphStyle} >
                 For the lips, overline slightly with a liner (I use Makeup Forever's Universal Earth) and add a gloss for a blended, plumy look. To achieve Hailey’s exact lip combo, use MAC’s Lip Liner in ‘Cork’ and top off with Rhode Peptide Lip Treatment in ‘Jelly Bean’. This lip combo is beautiful, and the gloss is super nourishing.
             </p>
@@ -234,9 +240,19 @@ shine is UNREAL!
                 Finally, set the makeup with Tatcha's Luminous Dewy Skin Mist. It melds all the products together, leaving a soft, glowing finish. You're now ready to dance the night away as the Sugar Plum Fairy!
             </p>
 
+            <ResponsiveIframe src="https://shopmy.us/collections/public/565561?noHeader=true" title="Eye Makeup Products" />
+
             <p style={ paragraphStyle} >
-                What's Your Take on This Trend? Have you tried the Sugar Plum Fairy trend? What variations have you experimented with? Share your thoughts and favorite products in the comments below!
-            </p>
+            What's your take on this trend, what variations have you experimented with? Share your thoughts and favorite products in the comments below!
+                        </p>
+
+
+   <div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <a href="/2016makeup" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={makeup2016} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          MORE BEAUTY TRENDS →
+        </a>
+      </div>
 
             <div style={{ textAlign: 'center' }}>
                 <img src={Signature} alt="Signature" style={{ width: '100%', height: 'auto' }} />

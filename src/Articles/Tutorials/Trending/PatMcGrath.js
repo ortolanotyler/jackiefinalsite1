@@ -8,8 +8,10 @@ import DropCap from '../../../Components/DropCap';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathTitle.png`;
+const pat = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
 const Pat2 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathDouble.png`;
 const Pat3 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathFaceChart.png`;
+const makeup2016 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016MakeupThumbnail.jpg`;
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
@@ -73,18 +75,14 @@ const PatMcGrathPost = () => {
           <div style={{ display: 'flex', justifyContent: 'center' }}>
               <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
           </div>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+  <a href="https://www.instagram.com/p/C5dsVStuCqT/?img_index=1" target="_blank" rel="noopener noreferrer">
+    <img src={pat} alt="Sophia Loren in Arabesque" style={imageStyle} />
+  </a>
+</div>
 
-     <div style={{ textAlign: 'center' }}>
-        <iframe
-          src="https://assets.pinterest.com/ext/embed.html?id=1104015296142479260"
-          height='520'
-          width='236'
-          frameBorder="0"
-          scrolling="no"
-          title="Pinterest Embed"
-        ></iframe>
-   
-      </div>
+
+
           <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <SubscribeButton />
           </div>
@@ -95,11 +93,11 @@ const PatMcGrathPost = () => {
 
       <DropCap text="Welcome back, beauties! Let's break down the incredible (and uber-viral) Porcelain Doll makeup looks by Pat McGrath & team, created for the Maison Margiela Spring/Summer '24 runway extravaganza. In a display of sheer genius, Pat McGrath and her team devised a groundbreaking technique, meticulously layering and airbrushing several peel-off masks over the makeup for a truly haute-couture spectacle, creating live porcelain dolls to grace the runway." />
       <p style={paragraphStyle}>
-        The TikTok beauty community was buzzing with speculation about how the iconic Pat McGrath achieved such doll-like skin perfection prior to Pat’s Masterclass over the weekend - and astoundingly, Erin Parsons—a celebrated makeup artist and historian in her own right—hit the nail on the head with her prediction of this inventive technique.
-      </p>
+      The TikTok beauty community was buzzing with speculation about how the iconic Pat McGrath achieved such doll-like skin perfection prior to Pat’s Masterclass over the weekend - and astoundingly, Erin Parsons—a celebrated makeup artist and makeup historian in her own right—hit the nail on the head with her prediction of this inventive technique.
+            </p>
       <p style={paragraphStyle}>
-        As I watched the Margiela Masterclass this Saturday, I was glued to my screen, attentively watching and simultaneously recreating one of my favorite looks from the show as seen above. Here’s the scoop on what I learned and a step-by-step account of how I transformed myself into a hauntingly beautiful, poetic Victorian doll.
-      </p>
+      As I watched the Margiela Masterclass this Saturday, I was glued to my screen, attentively watching and simultaneously recreating one of my favorite looks from the show as seen above. Here’s the scoop on what I learned and a step-by-step account of how I transformed myself into a hauntingly beautiful, poetic Victorian doll. Tap image below to be taken to my mini tutorial.
+            </p>
 
       <a href="https://www.instagram.com/jackiewyers/reel/C24-VgZOcOl/" target="_blank" rel="noopener noreferrer">
         <img src={Pat2} alt="Pat McGrath Double" style={{ width: '100%' }} />
@@ -157,8 +155,10 @@ const PatMcGrathPost = () => {
 
       <h2 style={headingStyle}>Brows & Painterly Eyes</h2>
       <p style={paragraphStyle}>
-        The models all had bleached brows, but for my version, I did the block-out brow method by using purple Elmer's glue. See this drag technique here if you want a breakdown!
-      </p>
+  The models all had bleached brows, but for my version, I did the block-out brow method by using purple Elmer's glue.  <a href="https://www.youtube.com/watch?v=gGbiXF2ohr0" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
+      See this drag technique here</a>  if you want a breakdown!
+</p>
+
       <p style={paragraphStyle}>
         Then, high half-moon shapes were drawn for eyebrows using Pat McGrath Permagel Ultra Glide Eye Pencil in Blk Coffee. Instead of a solid line, try delicate brow strokes.
       </p>
@@ -245,6 +245,13 @@ const PatMcGrathPost = () => {
       <p style={paragraphStyle}>
         I hope you enjoyed this 1930s-meets-porcelain-doll otherworldly look. Comment your thoughts below, and if you want to be featured on my site, submit your recreations of this look anywhere on my socials! I’d love to see how you switch up your style and practice your artistry.
       </p>
+
+      <div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <a href="/2016makeup" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={makeup2016} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          MORE BEAUTY TRENDS →
+        </a>
+      </div>
 
       <img src={Signature} alt='Jackie Wyers Signature' style={{ width: '100%' }} />
       <Comments website-id={websiteId} page-id={'PatMcGrathhy'} />

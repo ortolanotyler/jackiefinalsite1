@@ -9,8 +9,11 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 const Sophia1 = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenTitle.png`;
 const Sophia2 = `${process.env.PUBLIC_URL}/Images/Articles/Sophialoren/SophiaDouble.png`;
+const sophia5 = `${process.env.PUBLIC_URL}/Images/Articles/Sophialoren/sophia5.jpeg`;
 const SophiaFace = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenBlankFaceChart-2.jpg`;
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
+const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
 
 const Card = ({ blogContent }) => (
     <div>
@@ -82,8 +85,10 @@ const SophiaLorenPost = () => {
             </p>
 
             <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={Sophia2} alt="Sophia Loren's iconic look" style={imageStyle} />
-            </div>
+  <a href="https://www.instagram.com/p/C3Gv0qmslqJ/?hl=en" target="_blank" rel="noopener noreferrer">
+    <img src={Sophia2} alt="Sophia Loren's iconic look" style={imageStyle} />
+  </a>
+</div>
 
             <h2 style={headingStyle}>The Essence of Sophia Loren’s Iconic Makeup</h2>
 
@@ -92,8 +97,8 @@ const SophiaLorenPost = () => {
             </div>
 
             <p style={paragraphStyle}>
-                Over the years, I’ve explored numerous 1960s makeup styles. While Twiggy, Jean Shrimpton, and Sharon Tate often sported an exaggerated, graphic crease to emphasize an oversized lid, Sophia was known for her double wing liner that created a very elongated, sexy cat eye. Let’s break down the entire look from the start!
-            </p>
+  Over the years, I’ve explored numerous 1960s makeup styles. While  <a href="/twiggy" style={{ color: 'black' }}> Twiggy,</a> <a href="/yardley1965" style={{ color: 'black' }}>Jean Shrimpton</a>, and  <a href="/sharontatebridal" style={{ color: 'black' }}>Sharon Tate</a> often sported an exaggerated, graphic crease to emphasize an oversized lid, Sophia was known for her double wing liner that created a very elongated, sexy cat eye. Let’s break down the entire look from the start!
+</p>
 
             <h2 style={headingStyle}>The Foundation of Loren's Look: A Tanned Base</h2>
             <p style={paragraphStyle}>
@@ -139,8 +144,8 @@ const SophiaLorenPost = () => {
 
             <h2 style={headingStyle}>The Sophia Loren Double Winged Liner Cat Eye</h2>
             <p style={paragraphStyle}>
-                The first step to achieve the iconic eye is to use a white, gel liner to create a wing from the outer corner of the eye outwards. Connect this wing to your waterline, also rimmed with white to open up the eyes.
-            </p>
+            The first step to achieve the iconic eye is to use a white gel liner to create a wing from the outer corner of the eye pulled outwards. Connect this wing to your waterline, also rimmed with white to open up the eyes.
+                        </p>
 
             <p style={paragraphStyle}>
                 Select a deep neutral palette, with grays, browns, and taupes. I selected the Dior 5 Couleurs Couture Eyeshadow Palette (649 Nude Dress) and while some photos of Sophia’s signature eye look feature a charcoal gray (a deep, dark shade of gray close to black), in the "Arabesque" scenes, it appeared more like a taupe (a warmer neutral, more of a gray-brown) through the lens.
@@ -181,16 +186,35 @@ const SophiaLorenPost = () => {
 
             <h2 style={headingStyle}>The Arabesque Hairstyle</h2>
             <p style={paragraphStyle}>
-                While this iconic look features a hot pink towel set (find a similar one on Amazon here), you can also complete the look with a retro hairstyle, starting with a high ponytail and pin-curling into a bun for volume and style. See a mini tutorial below.
-            </p>
+  While this iconic look features a hot pink towel set (<a href="https://www.amazon.com/Microfiber-Towel-Towels-Straight-Turban/dp/B0CFSFMDNZ?crid=1WZ7PGN3WWST1&dib=eyJ2IjoiMSJ9.LBBHeFjdHjcdyl-K9Ri0R3jxF1nkWHhs-qSWdmipuZpqjJVU8u0CZDEW9u--BaVkOyRcijy1sMxBtYC5srxS9NZuq0nHTX86wLgCcfQFG-r-nLDrSkwFnR-Ia2yuq37YtO3SrN6ntId6uh_g9B0elbl6GtdVat3XfdgUNHkIkNvj9MCENm4IV17maozQH0fOAAm71UCKrgKgMyjMdohujLR2FAFwN6BdtKbK6TEv9HqgT89nBl35N8fMGVotiSwnVnqaYAn8VRHhzv_Kvv_ux5v3-1O4fu1PgCP6Y_GrUpY.UoArAOu8AUIyEF3LAarqE_5-yb-3x5JvedK1qzkwhVM&dib_tag=se&keywords=pink+towel+hair&qid=1716659839&sprefix=pink+towel+hai,aps,114&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=sl1&tag=jackiewyers-20&linkId=cc7cb899a314b1fb24348db4617d0913&language=en_US&ref_=as_li_ss_tl" style={{ color: 'black' }} target="_blank" rel="noopener noreferrer">find a similar one on Amazon here</a>), you can also complete the look with a retro hairstyle, starting with a high ponytail and pin-curling into a bun for volume and style. See a mini tutorial by tapping the image below.
+</p>
+
+<div style={{ textAlign: 'center' }}>
+  <a href="https://www.instagram.com/reel/CZUiijRh0LJ/?hl=en" target="_blank" rel="noopener noreferrer">
+    <img src={sophia5} alt="Signature" style={{ width: '100%', height: 'auto' }} />
+  </a>
+</div>
+
 
             <p style={paragraphStyle}>
-                Whether you're a fan of Sophia Loren, a lover of the '60s, or just in search of some beauty inspiration, I hope you found this guide inspiring. Join me in celebrating the eternal elegance of Sophia Loren, and I can’t wait to create another Time Travel Tutorial for you!
-            </p>
+            Whether you're a fan of Sophia Loren, a lover of the '60s, or just in search of some beauty inspiration, I hope you found this guide inspiring. Join me in celebrating the eternal elegance of Sophia Loren, and I can’t wait to create another Time Travel Tutorial for you.
+                        </p>
 
             <p style={paragraphStyle}>
                 Want to be featured on my site? Submit your recreation or version of this look to me on Insta! I’d love to see you switch up your style with confidence!
             </p>
+
+            <div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <a href="/iconicsharon" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={sharon} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          MORE VINTAGE VIBES →
+        </a>
+      </div>
+      <div style={{ textAlign: 'center' }}>
+      <a href="/vintagevibesmerch" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={teespring} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '1400px', display: 'block' }} />
+          SHOP VINTAGE VIBES MERCH →
+        </a>            </div>
 
             <div style={{ textAlign: 'center' }}>
                 <img src={Signature} alt="Signature" style={{ width: '100%', height: 'auto' }} />

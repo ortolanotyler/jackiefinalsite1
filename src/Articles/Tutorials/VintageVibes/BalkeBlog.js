@@ -13,6 +13,8 @@ const title = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeTitle.png`;
 const Balke2 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeDouble.png`;
 const Balke3 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeFaceChart.jpg`;
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+const yardley = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg`;
+const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
 
 
 const Card = ({ blogContent }) => (
@@ -89,12 +91,10 @@ const BalkeBlog = () => {
 
             <DropCap text="Welcome back to another Time Travel Tutorials, where we admire and recreate beauty icons from the past. Today, let's delve into the 1960s through the portrait of model Ina Balke by the renowned photographer Ted Russell. For those of you who've ever searched on Pinterest for '60s makeup, chances are you've stumbled upon this stunning photograph. This article is your step-by-step guide on how to get the vintage makeup and styling as seen on Ina to try out yourself!" />
 
-                <p style = {paragraphStyle} >
-                    Among the film's many breathtaking fashion moments, the iconic pink gingham dress stole the hearts of fans. However, one look, in my opinion, outshone the rest—the unforgettable roller skate Barbie ensemble!
-                </p>
+           
 
              
-                    <a href='https://go.shopmy.us/p-1491445'>
+                    <a href='https://www.instagram.com/reel/C3nim61u_4Q/?hl=en'>
                         <img src={Balke2} alt="Ina Balke's 1960s makeup" style={{ width: '100%', height: 'auto' }} />
                     </a>
             
@@ -103,13 +103,13 @@ const BalkeBlog = () => {
                 </h2>
 
                 <div>
-                    <a href='https://go.shopmy.us/p-1491445'>
+                    <a href='https://www.instagram.com/reel/C3nim61u_4Q/?hl=en'>
                         <img src={Balke3} alt="Close-up of Ina Balke's makeup" style={{ width: '100%', height: 'auto' }} />
                     </a>
              
 
                     <p style = {paragraphStyle} >
-                    Ina Balke’s iconic wink showcases a classic 60s cut crease complimented by matte skin and a peach lip. Her styling feels very Hepburn, with a sophisticated black dress and both a cigarette and wine glass held up to her mouth. Her look is complete with a chic, brunette bob with blunt bangs, which I recreated with a fabulous wig! If you decide to give this tutorial a try, please be sure to tag me or send a photo to be featured on the blog - I'd love to see you in this glamorous style.
+                    Ina Balke’s iconic wink showcases a classic '60s cut crease complimented by matte skin and a peach lip. Her styling feels very Hepburn, with a sophisticated black dress and both a cigarette and wine glass held up to her mouth. Her look is complete with a chic, brunette bob with blunt bangs, which I recreated with a fabulous wig! If you decide to give this tutorial a try, please be sure to tag me or send a photo to be featured on the blog - I'd love to see you in this glamorous style.
                 </p>
 
                 <h2 style = {headingStyle}>    
@@ -148,7 +148,7 @@ const BalkeBlog = () => {
                 </h2>
 
                 <p style = {paragraphStyle} >
-                    The Charlotte Tilbury Filmstar Bronze & Glow contour duo helps soften the contour and adds a natural glow. For blush, Chanel’s warm pink blush, shade 440 - QUINTESSENCE, adds the perfect touch of color. Remember, it's all about creating a natural, yet defined look for this sophisticated style!
+                    The Charlotte Tilbury Filmstar Bronze & Glow contour duo helps soften the contour and adds a natural glow. For blush, CHANEL's warm pink blush, shade 440 - QUINTESSENCE, adds the perfect touch of color. Remember, it's all about creating a natural, yet defined look for this sophisticated style!
                 </p>
 
                 <ResponsiveIframe
@@ -175,7 +175,7 @@ const BalkeBlog = () => {
                 </p>
 
                 <p style = {paragraphStyle} >
-                    Blend a yellow gold and a dingy green-bronze through the crease fading towards the brow bone. When we cut the crease next, we will get that 60s shape but have these rustic tones peaking above softens the look and makes any eye color pop
+                    Blend a yellow gold and a dingy green-bronze through the crease fading towards the brow bone. When we cut the crease next, we will get that 60s shape but have these rustic tones peaking above softens the look and makes any eye color pop.
                 </p>
 
                 <ResponsiveIframe
@@ -208,10 +208,9 @@ const BalkeBlog = () => {
                     If you have hooded eyes, you can still totally have fun with a 1960s look. You can do the same steps as listed above, though the eye may appear more “graphic” rather than create the illusion of deeper set eyes. I think both are equally as stunning!
                 </p>
 
-                <p style = {paragraphStyle} >
-                    You can also take 1960s inspiration from icons like Brigitte Bardot who have beautiful vintage looks with hooded eyes and go for more of a classic smokey eye with winged liner if you are not loving the graphic crease. See B.B tutorials here for more inspiration.
-                </p>
-
+                <p style={paragraphStyle}>
+    You can also take 1960s inspiration from icons like Brigitte Bardot who have beautiful vintage looks with hooded eyes and go for more of a classic smokey eye with winged liner if you are not loving the graphic crease. See <a href="https://www.youtube.com/watch?v=i8wHU_XsM2A&feature=youtu.be" style={{ color: 'black' }} target="_blank" rel="noopener noreferrer">B.B tutorials</a> for more inspiration.
+</p>
 
                 <h2 style = {headingStyle}>    
                     Brush Recommendations
@@ -237,7 +236,7 @@ const BalkeBlog = () => {
                 </h2>
 
                 <p style = {paragraphStyle} >
-                    For the eye liner, start with a black pencil liner to tight-line the eye and add dots along the bottom lashes. The dots along the bottom will help create a doll-like look once mascara is applied to the bottom lashes
+                    For the eye liner, start with a black pencil liner to tight-line the eye and add dots along the bottom lashes. The dots along the bottom will help create a doll-like look once mascara is applied to the bottom lashes.
                 </p>
 
                 <p style = {paragraphStyle} >
@@ -282,19 +281,31 @@ const BalkeBlog = () => {
                 </p>
 
                 <ResponsiveIframe
-  src="https://shopmy.us/collections/embed/404977??noHeader=true"
+  src="https://shopmy.us/collections/public/565751??noHeader=true"
   title="Collection name here"
 />
 
             
 
-<p style = {paragraphStyle} >
-                    Whether you're a fan of the 60s, trying to expand your makeup skills, I hope you found this guide a fun read and inspires you to try this cut-crease style. More well-known names from the 1960s beauty scene like Jean Shrimpton (the face of the 60s) Audrey Hepburn, Brigitte Bardot can be found in more Time Travel Tutorials here on my blog if you want to keep on reading.
-                </p>
+<p style={paragraphStyle}>
+    Whether you're a fan of the ‘60s or trying to expand your makeup skills, I hope you found this guide a fun read and inspires you to try this cut-crease style. More well-known names from the 1960s beauty scene like Jean Shrimpton (the face of the ‘60s) Audrey Hepburn, Brigitte Bardot can be found on my <a href="https://www.youtube.com/playlist?list=PL-_qSuEl3UwEr-gl54NLaTEanQBlcU0Lk" style={{ color: 'black' }} target="_blank" rel="noopener noreferrer">YouTube channel</a> if you want to keep watching.
+</p>
+
 
                 <p style = {paragraphStyle} >
-                    Thank you for reading and if you want to be featured on my site, submit your recreation or version of this look here. I’d love to see you switch up your style with confidence!
+                    Thank you for reading and if you want to be featured on my site, submit your recreation or version of this look to me on IG! I’d love to see you switch up your style with confidence!
                 </p>
+                <div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <a href="/yardley1965" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={yardley} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          MORE VINTAGE VIBES →
+        </a>
+      </div>
+      <div style={{ textAlign: 'center' }}>
+      <a href="/vintagevibesmerch" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={teespring} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '1400px', display: 'block' }} />
+          SHOP VINTAGE VIBES MERCH →
+        </a>            </div>
 
             
                     <img src={Signature} alt="Soft pink blush for a natural Barbie-inspired cheek flush" style={{ maxWidth: '100%', height: 'auto' }} />

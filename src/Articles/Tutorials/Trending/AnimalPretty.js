@@ -79,6 +79,7 @@ const AnimalPretty = () => {
             <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
             </div>
+            <ResponsiveYoutube src="https://www.youtube.com/embed/c9-8K8AF5rg?si=wZkYBBjoc4cXaKZ4" title="YouTube video player" />
 
 
             <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -89,7 +90,7 @@ const AnimalPretty = () => {
                 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
 
-      <DropCap text="Hey beauties, it’s Jackie! Today, we're diving into a fun and fresh way to explore beauty styles with our 'Types of Pretty' makeup series inspired by adorable animals like deer, cats, foxes, and bunnies. Whether you saw this trend on TikTok or my latest YouTube tutorial, I’m thrilled to bring this unique concept to the blog where we break down each style with detailed makeup guides."/> 
+      <DropCap text="Hey beauties, it’s Jackie! Today, we're diving into a fun and fresh way to explore beauty styles with my 'Types of Pretty' makeup series inspired by adorable animals like deer, cats, foxes, and bunnies. Whether you saw this trend on TikTok or my latest YouTube tutorial, I’m thrilled to bring this unique concept to the blog where we break down each style with detailed makeup guides."/> 
 
       <h2 style={headingStyle}>
       Deer Pretty: Soft and Ethereal 🦌
@@ -122,7 +123,7 @@ round eyes and stunning skin tones.
         </h2>
     
         <p style={paragraphStyle}>
-        Eyes: Start with a neutral brown shadow
+        Eyes: Start with a neutral brown shadow across the lid
 from the Makeup by Mario Master Mattes
 palette, then tight line your eyes with dark
 brown eyeliner. Add a peach liner to your
@@ -211,7 +212,7 @@ embroidered bags featuring fawn designs.
 
 
 <h2 style={headingStyle} >
- Cat Pretty: Bold and Intense 🐈⬛
+ Cat Pretty: Bold and Intense 🐈‍⬛
 </h2>
 
 <div style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -244,7 +245,7 @@ toned for this fierce style.
 </h2>
 
 <p style={paragraphStyle}>
-Eyes: Sweep cool-toned shimmers, like
+Eyes: Sweep cool toned shimmers, like
 silver and white, across your lids and
 deepen up with taupe in the crease.
 Victoria Beckham Beauty Smoky Eye
@@ -275,7 +276,7 @@ Gentle Echo Lashes.
                 </p>
 
 <p style={paragraphStyle}>
-Cheeks: Sculpt your cheeks with a cooltoned
+Cheeks: Sculpt your cheeks with a cool toned
 contour powder to add depth and
 enhance your natural bone structure,
 mimicking the chiseled look typical of a
@@ -346,7 +347,7 @@ enhanced with earthy makeup perfectly
 captures the Fox Pretty aesthetic.
 </p>
 
-<p style = {{fontSize: '1.5rem', fontStyle : 'italic'}}>
+<p style = {{margin: '5rem',fontSize: '16px', fontStyle : 'italic'}}>
 Note: If you're a redhead with bright blue eyes
 and vibrant hair that leans more towards the
 Spring colour season, you might find the
@@ -364,7 +365,7 @@ Eyes: Choose warm, copper shades smoked
 out in a soft v, and use minimal liner to
 keep the eyes striking yet natural. The
 Bareminerals Warmth Minerals Palette is
-perfect to create this style. This approac enhances the eyes without overshadowing
+perfect to create this style. This approach enhances the eyes without overshadowing
 the inherent beauty of your features.
 </p>
 
@@ -452,7 +453,7 @@ media by storm.
 </p>
 
 <p style = {paragraphStyle}>
-This style complement those in Spring and
+This style complements those in Spring and
 Summer colour palettes, altering the look
 to either a warm or cool toned pink.
 </p>
@@ -468,7 +469,7 @@ can be across different skin tones.
 </p>
 
 <h2 style={headingStyle} >
-Achieve the Bunny Pretty Look :
+Achieve the Bunny Pretty Look:
 </h2>
 
 <p style={paragraphStyle}>  
@@ -517,7 +518,7 @@ glow.
 
 Lips: Start with a nude pink lip liner to
 define your lips, then layer on the Sephora
-Collection Pink Pout Lipgloss for a glossy,
+Collection Outrageous Plumping Lip Gloss in Pink Pout for a glossy,
 vibrant finish that complements the blushy
 cheeks.  
 </p>
@@ -551,21 +552,28 @@ outfit as mentioned in the looks above.
                     CONTAINS: AFFILIATE LINKS
                 </p>
 
-<p style={paragraphStyle}>
-I hope this article inspires you to play with
-these animal-inspired beauty looks. Which
-"Type of Pretty" are you leaning towards?
-Dive into the quiz on my website and I
-hope the full length tutorials on my
-channel inspire you to try a new look  <a href = '/tutorials' alt = '' > here</a> !
+                <p style={paragraphStyle}>
+  I hope this article inspires you to play with these animal-inspired beauty looks. Which "Type of Pretty" are you leaning towards? Dive into the quiz  
+   <a href='/quiz2' style={{ color: 'black' }} alt='e'> here</a> and I hope the full-length tutorials on my channel inspire you to try a new look!
+ 
 </p>
 
 
-<div style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-<img src={image4} alt="Bunny Pretty - Jackie Wyers" style={{  maxBlockSize: '650px', width: 'auto' }} />
-</div>
+<div style={{ textAlign: 'center' }}>
+        <iframe
+          src="https://assets.pinterest.com/ext/embed.html?id=794463190545030357"
+          height='620'
+          width='236'
+          frameBorder="0"
+          scrolling="no"
+          title="Pinterest Embed"
+        ></iframe></div>
 
-<img src={signature} alt="Victoria's Secret Fashion Show 2013" style={{ width: '100%' }} />
+
+
+<div>
+  <img src={signature} alt="Victoria's Secret Fashion Show 2013" style={{ width: '100%', marginBottom: '2rem' }} />
+</div>
 
 <Comments website-id={websiteId} pageId={"Animal-Prizznizzle"} />
 

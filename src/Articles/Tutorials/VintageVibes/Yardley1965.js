@@ -15,6 +15,7 @@ const ad = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonAd.
 const image5 = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/VintageCollection.png`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEBRIDAL.JPEG`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
 
 const Card = ({ blogContent }) => (
   <div>
@@ -32,7 +33,7 @@ const Yardley65 = () => {
 
     const headingStyle = {
       textAlign: 'center',
-      fontSize: '2.75rem',
+      fontSize: '35px',
       fontWeight: 'normal',
       fontFamily: 'GFS Didot, serif',
       color: '#333',
@@ -55,7 +56,7 @@ const Yardley65 = () => {
       display: 'block',
       margin: '0 auto',
       maxWidth: '100%',
-      maxHeight: '900px',
+      maxHeight: '100%',
       objectFit: 'cover',
       marginTop: '1rem',
     marginBottom: '1rem'
@@ -85,8 +86,10 @@ const Yardley65 = () => {
             <DropCap text="Welcome back to the blog, fellow vintage beauty enthusiasts! We have another Time Travel Tutorials today, and we are covering the iconic Jean Shrimpton - dubbed “The Shrimp” & face of the 1960s. Jean Shrimpton, an English model and actress, was not just a prominent figure in the fashion world but also a symbol of the Swinging Sixties. Known for her striking beauty, long legs, and big eyes, Shrimpton graced the covers of leading fashion magazines, becoming one of the world's first supermodels." />
 
             <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={image1} alt="Jean Shrimpton Look" style={imageStyle} />
-            </div>
+    <a href="https://www.instagram.com/reel/CNyCIQkBUOK/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
+        <img src={image1} alt="Jean Shrimpton Look" style={imageStyle} />
+    </a>
+</div>
 
             <h2 style={headingStyle}>The Inspiration: Oh! De London by Yardley</h2>
 
@@ -95,7 +98,7 @@ const Yardley65 = () => {
             </div>
 
             <p style={paragraphStyle}>
-                Let's delve into the inspiration which begins with an homage to the iconic Yardley London Oh! De London Cologne advertisement from 1965. The Yardley ads of the '60s are renowned for their vivid colours, striking lines, and whimsical charm, embodying the essence of the influential pop art movement of the era. These ads captivated audiences, perfectly capturing the trendy mod style.
+                Let's delve into the inspiration which begins with an homage to the iconic Yardley London Oh! De London Cologne advertisement from 1965. The Yardley ads of the '60s are renowned for their vivid colours, striking lines, and whimsical charm, embodying the essence of the influential pop art movement of the era. These ads captivated audiences with their trendy MOD style.
             </p>
 
             <p style={paragraphStyle}>
@@ -103,8 +106,11 @@ const Yardley65 = () => {
             </p>
 
             <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={image3} alt="Jackie's Pinterest Board" style={imageStyle} />
-            </div>
+    <a href="https://www.pinterest.ca/jackiewyers/vintage-vibes-makeup-hair-inspiration/" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
+        <img src={image3} alt="Jackie's Pinterest Board" style={imageStyle} />
+    </a>
+</div>
+
 
             <h2 style={headingStyle}>Youthful Base & Matte Finish Foundation</h2>
 
@@ -187,16 +193,27 @@ const Yardley65 = () => {
             </div>
 
             <p style={paragraphStyle}>
-                If you have any vintage icons you'd like me to cover in future posts, don't hesitate to leave a comment below. And remember, the beauty of vintage is not just in the look—it's in the stories we tell and the history we keep alive. If you enjoyed this look, you may love Sharon Tate's unique blend of bohemian and mod aesthetics. I’ve also covered her coquette bridal style, here.
-            </p>
+    If you have any vintage icons you'd like me to cover in future posts, don't hesitate to leave a comment below. And remember, the beauty of vintage is not just in the look—it's in the stories we tell and the history we keep alive. If you enjoyed this look, you may love Sharon Tate's unique blend of bohemian and mod aesthetics. I’ve also covered her coquette bridal style, <a href="/sharontatebridal" style={{ color: 'black' }} target="_blank" rel="noopener noreferrer">here</a>.
+</p>
 
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={image6} alt="Sharon Tate Bridal Look" style={imageStyle} />
-            </div>
+       
 
             <p style={paragraphStyle}>
                 Thank you for reading and if you want to be featured on my site, try out this look and please tag me as I’d love to see it and share your rendition! I love to see you switch up your style with confidence.
             </p>
+
+                               
+      <div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <a href="/sharontatebridal" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={image6} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          MORE VINTAGE VIBES →
+        </a>
+      </div>
+      <div style={{ textAlign: 'center' }}>
+      <a href="/vintagevibesmerch" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={teespring} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '1400px', display: 'block' }} />
+          SHOP VINTAGE VIBES MERCH →
+        </a>            </div>
 
             <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <img src={signature} alt="Jackie Wyers Signature" style={imageStyle} />

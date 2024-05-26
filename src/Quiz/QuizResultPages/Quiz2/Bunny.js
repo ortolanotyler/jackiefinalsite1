@@ -4,6 +4,7 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import TextReveal from '../../../Components/TextReveal';
+import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 const button = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/AnimalQuizResults.jpeg`;
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyTitleResults.png`;
@@ -47,6 +48,9 @@ const BunnyPretty = () => {
         </a>
       </div>
       <img src={title} alt="BUNNY PRETTY - QUIZ RESULTS" style={{ width: '100%' }} />
+
+      <ResponsiveYoutube src="https://www.youtube.com/embed/c9-8K8AF5rg?si=-MEfA2g3jPJNwUzx" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
+
       
       <div
       style = {{
@@ -61,13 +65,13 @@ const BunnyPretty = () => {
       <p style={paragraphStyle}>
       <strong>
       Bunny Pretty: Cute and Angelic
-(Bunny Beauty Tutorial starts at 3:30)
+(Bunny Beauty Tutorial starts at 5:31)
         </strong>
       </p>
  
       <p style={paragraphStyle}>
       You are the sweet and playful Bunny Pretty,
-with a penchant for soft pastels and a
+with a love for soft pastels and a
 makeup style that’s as cute and angelic as it
 is vibrant. Your bubbly personality and love
 for social gatherings are perfectly reflected

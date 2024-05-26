@@ -12,7 +12,8 @@ const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TWIGGYEYESTUTOR
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyFaceChart.png`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TWIGGYFINALHEADSHOT.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
-const yardley = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonAd.jpg`;
+const yardley = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg`;
+const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
 
 const Card = ({ blogContent }) => (
   <div>
@@ -51,7 +52,7 @@ const TwiggyBlog = () => {
       display: 'block',
       margin: '0 auto',
       maxWidth: '100%',
-      maxHeight: '900px',
+      maxHeight: '100%',
       objectFit: 'cover',
   };
 
@@ -81,9 +82,12 @@ const TwiggyBlog = () => {
 
             <DropCap text="Welcome back to the blog, vintage beauty lovers! Today’s Time Travel Tutorials is dedicated to the doe-eyed darling of the decade: Twiggy. Known affectionately as “The Face of ‘66,” she redefined beauty standards with her waifish figure, striking lashes, and androgynous looks. Twiggy, born Lesley Lawson, wasn't just a trendsetter; she was a cultural phenomenon. With her slender frame, cropped hair, and captivating gaze, Twiggy became the emblem of the mod movement in fashion. She adorned the era's most fashionable spreads, turning the world’s eyes to London’s “youthquake.” Twiggy’s playful innocence and charm perfectly captured the spirit of the sixties, a stark contrast to the older, more mature appearance of stars like Marilyn Monroe. Her distinctive allure danced between girlish simplicity and the era’s vibrant liberation." />
 
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={image1} alt="Twiggy Eye Tutorial Jackie Wyers" style={imageStyle} />
-            </div>
+            <a href="https://www.instagram.com/reel/C5ycO9WOEiK/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
+    <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <img src={image1} alt="Twiggy Eye Tutorial Jackie Wyers" style={imageStyle} />
+    </div>
+</a>
+
 
             <p style={paragraphStyle}>
                 While I recreated a Twiggy look about 7 years ago, I’ve since pinned one of my favorite Twiggy portraits on Pinterest so often that I'm compelled to revisit the icon again. Let’s dive into a tutorial that pays homage to Twiggy’s iconic pastel blue eyeshadow and those legendary drawn-on lower lashes. And while the cropped cut isn’t my personal choice, this look features adorable curly buns adorned with flowers, offering a stunning springtime style that’s right up my alley. Let's recreate the magic of the 1960s It-girl, celebrating an era of fashion that continues to enchant and inspire. Here's how to channel the iconic Twiggy vibe using modern products that retain the quintessential vintage flair.
@@ -96,7 +100,7 @@ const TwiggyBlog = () => {
             </div>
 
             <p style={paragraphStyle}>
-                Twiggy's iconic makeup style was known for its bold, graphic eyeshadow in various hues. This featured look showcases a pastel blue shade that's perfectly in vogue for Spring/Summer 2024. It pairs a youthful glow with subtle freckles and a minimalist lip to round out the ensemble. And of course, the dramatic, drawn-on lower lashes are essential for that quintessential pop-art impact. Let's begin, shall we?
+                Twiggy's iconic makeup style was known for its bold, graphic eyeshadow in various hues. This featured look showcases a pastel blue shade that's perfectly en vogue for Spring/Summer 2024. It pairs a youthful glow with subtle freckles and a minimalist lip to round out the ensemble. And of course, the dramatic, drawn-on lower lashes are essential for that quintessential pop-art impact. Let's begin, shall we?
             </p>
 
             <h2 style={headingStyle}>Youthful Base & Anna Sui Cosmetics Feature</h2>
@@ -126,9 +130,7 @@ const TwiggyBlog = () => {
             <h2 style={headingStyle}>Anna Sui’s New Brightening Powder</h2>
 
             <p style={paragraphStyle}>
-                To further achieve the Twiggy-inspired 'doll skin', I turn to the reformulated Anna Sui Loose Face Powder. Available in lavender and pink—shades famed for their brightening effects—I chose lavender to enhance my complexion. The powder, housed in a sleek compact or an elegant, limited-edition black case, echoes vintage and Gothic elegance that would make a statement on any vanity.
-                Not only does this powder promise a smooth, doll-like finish, it’s crafted with tone control pearls to add luster and counteract dullness. With a few sweeps, it works to blur imperfections and conceal pores, maintaining skin's natural luminosity without a heavy makeup look. Plus, the joy of using the plush powder puff adds a touch of vintage glam to the routine. Available on Amazon, this powder is a transformative step, ensuring a polished and radiant finish, as you can see in my before and after—it's light, non-cakey, and keeps the skin looking hydrated and smooth. More of a pressed powder girl? Try the stunning Anna Sui Rose Pressed Powder, also in lavender or pink.
-
+            To further achieve the Twiggy-inspired 'doll skin', I turn to the reformulated Anna Sui Loose Face Powder. Available in lavender and pink—shades famed for their brightening effects—I chose lavender to enhance my complexion. With a few sweeps, it works to blur imperfections and conceal pores, maintaining skin's natural luminosity without a heavy makeup look. Plus, the joy of using the plush powder puff adds a touch of vintage glam to the routine. Available on Amazon, this powder is a transformative step, ensuring a polished and radiant finish. More of a pressed powder girl? Try the stunning Anna Sui Rose Pressed Powder, also in lavender or pink.
             </p>
 
            
@@ -137,23 +139,23 @@ const TwiggyBlog = () => {
             <h2 style={headingStyle}>The Twiggy Eyeshadow Look: The First Steps</h2>
 
             <p style={paragraphStyle}>
-                Start by warming up the crease with a light brown shadow for depth, complementing it with a matte highlight on the brow bone. These shades, drawn from the new Makeup By Mario Master Mattes Eyeshadow Palette: The Neutrals, is a staple new palette.
-            </p>
+            Start by warming up the crease with a light brown shadow for depth, complementing it with a matte highlight on the brow bone. 
+                        </p>
 
             <p style={paragraphStyle}>
-                Next, I channeled Twiggy's quintessential MOD eye using a creamy navy blue eyeliner to define a half-moon crease well above my natural fold. For precision, a Pretty Vulgar brush akin to a tiny paintbrush was my tool of choice for this meticulous step.
-            </p>
+            Next, I channeled Twiggy's quintessential MOD eye using a creamy navy blue eyeliner to define a half-moon crease well above my natural fold. For precision, a tiny Pretty Vulgar brush that looks like a tiny paintbrush was my tool of choice for this essential step.
+                        </p>
 
             <p style={paragraphStyle}>
-                For the lids, I opted for a pastel blue cream shadow, sourced from Amazon, to achieve that iconic pop of colour. Blue eyeshadow might seem bold, but a pastel hue is approachable and wearable, especially for those new to the world of vibrant shadows.
-            </p>
+            For the lids, I chose a pastel blue cream shadow, sourced from Amazon, to achieve that iconic pop of colour. Blue eyeshadow might seem bold, but a pastel hue is approachable and wearable, especially for those new to the world of vibrant shadows.
+                        </p>
 
             <ResponsiveIframe src="https://shopmy.us/collections/public/551124?noHeader=true" title="Eyeshadow - Makeup By Mario" />
 
             <h2 style={headingStyle}>Liner & Drawn on Twiggy Lashes</h2>
 
             <p style={paragraphStyle}>
-                A light eyeliner pencil was used sparingly to maintain the doll-like eyes Twiggy was renowned for. With Anna Sui's Perfect Eyeliner in black thinly tracing the lash line and connecting seamlessly with the crease.
+                A light eyeliner pencil was used sparingly to maintain the doll-like eyes Twiggy was renowned for. With Anna Sui's Perfect Eyeliner in black, thinly trace the lash line seamlessly connecting to the exaggerated crease.
             </p>
 
             <p style={paragraphStyle}>
@@ -167,7 +169,9 @@ const TwiggyBlog = () => {
             <p style={paragraphStyle}>
                 Shaping my lips to mirror Twiggy's, I started with Charlotte Tilbury’s Iconic Nude Lip Liner. The goal was a slightly widened Cupid's bow and a fuller upper lip, all softly blended for a natural edge. The Anna Sui lipsticks, tapped gently over the lips and brightened with a pinker tone in the centre, created the perfect vintage-inspired pout.
             </p>
+            <ResponsiveIframe src="https://shopmy.us/collections/public/565773?noHeader=true" title="Eyeliner - Ana Sui" />
 
+          
             <h2 style={headingStyle}>Twiggy’s Spring Hairstyle</h2>
 
             <p style={paragraphStyle}>
@@ -179,23 +183,41 @@ const TwiggyBlog = () => {
             </div>
 
             <p style={paragraphStyle}>
-                I hope you enjoyed another Time Travel Tutorials for all the vintage vibes, and I do have “vintage vibes” merchandise available if you are interested, browse <a href="/vintagevibesmerch">here!</a>
-            </p>
-            <p style={paragraphStyle}>
-                If you have any vintage icons you'd like me to cover in future posts, don't hesitate to leave a comment below. If you enjoyed this look, you may enjoy Jean Shrimpton’s Yardley Ad recreation, complete with my vintage makeup collection from the 1960's <a href="/yardley1965">here</a>.
-            </p>
+    I hope you enjoyed another Time Travel Tutorials for all the vintage vibes, and I do have “vintage vibes” merchandise available if you are interested, browse  <a href="/vintagevibesmerch" style={{ color: 'black' }}>here!</a>
+</p>
 
-            <div style={{ padding: '5rem',display: 'flex', justifyContent: 'center', height: '80%', width: 'auto' }}>
-                <img src={yardley} alt="Twiggy Hair Tutorial Jackie Wyers" style={imageStyle} />
-            </div>
+
+
+         
 
             <p style={paragraphStyle}>
                 Thank you for reading and if you want to be featured on my site, try out this look and please tag me as I’d love to see it and share your rendition! I love to see you switch up your style with confidence.
             </p>
 
+            <div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <a href="/yardley1965" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={yardley} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          MORE VINTAGE VIBES →
+        </a>
+      </div>
+      <div style={{ textAlign: 'center' }}>
+      <a href="/vintagevibesmerch" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={teespring} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '1400px', display: 'block' }} />
+          SHOP VINTAGE VIBES MERCH →
+        </a>            </div>
+
             <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <img src={signature} alt="Twiggy Hair Tutorial Jackie Wyers" style={imageStyle} />
             </div>
+            <br/>
+
+
+            <br/>
+
+            <br/>
+
+            <br/>
+
             <Comments website-id={websiteId} pageId={"Victoria-Secret-Review"} />
 
         </div>

@@ -10,6 +10,7 @@ const title = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteTitle.
 const Latte2 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteDouble.png`;
 const Latte3 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteLookFaceChartFilledIn.jpg`;
 const Latte16 = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+const sugar = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg`;
 
 
 
@@ -98,11 +99,16 @@ const LatteMakeupBlogPost = () => {
             </p>
            
 
-      <DropCap text="Hello, beauties, it's Jackie here with another trend report driven by the TikTok algorithm! The latte makeup look is all about embracing the warm, tawny tones to create a '90s inspired glam with a cozy vibe. Think caramel-toned smokey eye, no foundation, faux freckles, and a milky lip." />
+      <DropCap text="Hello, beauties! It's Jackie here with another trend report driven by the TikTok algorithm. The latte makeup look is all about embracing warm, tawny tones to create a '90s-inspired glam with a cozy vibe. Imagine a caramel-toned smokey eye, no foundation, faux freckles, and a milky lip. An artist whose work has been continuously referenced when creating this style of makeup is none other than Australia-based makeup artist Tanielle Jai. If you've ever shopped on Princess Polly and admired the campaign images with sultry, smokey makeup—that's all the makeup artisty of Tanielle Jai!" />
 
       <a href="https://www.instagram.com/p/CvFsHXNO7nf/?img_index=1" target="_blank" rel="noopener noreferrer">
         <img src={Latte2} alt='Detailed Latte Makeup' style={{ width: '100%' }} />
       </a>
+
+      <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+    See <a href="https://www.instagram.com/taniellejaimua/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>Tanielle Jai</a>'s work on Instagram.
+</p>
+
       <h2 style={headingStyle}>Get The Latte Makeup Look</h2>
       <img src={Latte3} alt='Latte Makeup Application' style={{ maxWidth: '100%', height: 'auto' }} />
       <h2 style={headingStyle}>The Base: Tanned and Natural</h2>
@@ -128,8 +134,9 @@ const LatteMakeupBlogPost = () => {
         Unlike the typical warm, red-toned bronzers, this look calls for a yellow-based bronzer to add warmth to the skin and complement the caramel-toned eyeshadows coming up.
       </p>
       <p style={paragraphStyle}>
-        Benefit Cosmetics Hoola Caramel is a great pick if you are fair-medium in skin tone. You can rock this look no matter your complexion, but it will suit warmer coloring best. See the espresso look for cool-toned skin! (P.S. If you are confused about your color palette, see here.)
-      </p>
+    Benefit Cosmetics Hoola Caramel is a great pick if you are fair-medium in skin tone. You can rock this look no matter your complexion, but it will suit warmer coloring best. <a href="https://www.youtube.com/watch?v=okXpvzknH9w&t=555s" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>See the espresso look for cool-toned skin</a>!
+</p>
+
       <p style={paragraphStyle}>
         Apply the bronzer over the top of the subtle contouring to amp up the tanned goddess effect!
       </p>
@@ -185,8 +192,14 @@ const LatteMakeupBlogPost = () => {
         CONTAINS: AFFILIATE LINKS
       </p>
       <p style={paragraphStyle}>
-        Want to be featured on my site? Tag me in your recreation or version of this look on Insta <strong>@jackiewyers.</strong> I’d love to see you switch up your style with confidence!
-      </p>
+    Want to be featured on my site? Tag me in your recreation or version of this look on Insta <a href="https://www.instagram.com/jackiewyers/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}><strong>@jackiewyers</strong></a>. I’d love to see you switch up your style with confidence!
+</p>
+<div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <a href="/sugarplumfairy" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={sugar} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          MORE BEAUTY TRENDS →
+        </a>
+      </div>
       <img src={Latte16} alt='Jackie Wyers Signature' style={{ width: '100%' }} />
       <Comments website-id={websiteId} page-id={'latte'} />
 

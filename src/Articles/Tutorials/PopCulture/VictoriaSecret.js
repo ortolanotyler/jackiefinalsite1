@@ -12,6 +12,7 @@ const title = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSTi
 const Victoria2 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VictoriaDouble.png`;
 const Victoria6 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VictoriaFaceChart.png`;
 const VictoriaFinal = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/Victoria2.JPG`;
+const latte = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteThumbnail.jpg`;
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
@@ -56,13 +57,7 @@ const VictoriaSecret = () => {
       objectFit: 'cover',
   };
 
-  const smallImageStyle = {
-      display: 'block',
-      margin: '0 1rem 1rem 0',
-      float: 'left',
-      maxWidth: '40%',
-      height: 'auto'
-  };
+
 
   const blogContent = (
       <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>
@@ -236,6 +231,13 @@ style = {{
         Want to be featured on my site? Submit your recreation or version of this look to me on IG! I’d love to see you switch up your style with confidence!
       </p>
       <div>
+
+      <div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <a href="/lattemakeup" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={latte} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          MORE TRENDING BEAUTY →
+        </a>
+      </div>
         <img src={Signature} alt='xoxo - Jackie Wyers' style={{ width: '100%' }} />
         <Comments website-id={websiteId} pageId={"Victoria-Secret-Review"} />
 

@@ -12,6 +12,7 @@ const image1 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016Double.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016FaceChart.png`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016Makeup4.jpg`;
 const image4 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016-Perrie.jpg`;
+const lana = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
@@ -52,7 +53,7 @@ const Makeup2016 = () => {
       display: 'block',
       margin: '0 auto',
       maxWidth: '100%',
-      maxHeight: '900px',
+      maxHeight: '100%',
       objectFit: 'cover',
   };
 
@@ -86,21 +87,27 @@ const Makeup2016 = () => {
               All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
           </p>
 
-      <DropCap text="Welcome back to another instalment of Time Travel Tutorials...though this time, we're not journeying too far back in time! The makeup trends of 2016 were significantly influenced by the young Kylie Jenner, the undeniable 'IT' girl for teens. High-coverage foundations, LOTS of setting powder, sharp and bold dip brows, warm smokey eyes, glittery cut creases, voluminous mink lashes, and deep, matte lip combinations had beauty enthusiasts captivated!" />
+      <DropCap text="Welcome back to another installment of Time Travel Tutorials...though this time, we're not journeying too far back in time! The makeup trends of 2016 were significantly influenced by the young Kylie Jenner, the undeniable 'IT' girl for teens. High-coverage foundations, LOTS of setting powder, sharp and bold dip brows, warm smokey eyes, glittery cut creases, voluminous mink lashes, and deep, matte lip combinations had beauty enthusiasts captivated!" />
 
       <p style={paragraphStyle}>
         In this article, we'll revisit the products that were a staple on every makeup lover’s vanity in 2016 and embrace a daily bold glamour look. I was so excited to channel Kylie Jenner's dramatic flair, especially since I missed out on experimenting with these trends back in the day!
       </p>
 
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <a href="https://www.instagram.com/p/C43O7Q7OFuw/?hl=en" target="_blank" rel="noopener noreferrer">
+    <div style={{ display: 'flex', justifyContent: 'center' }}>
         <img src={image1} alt="2016 Makeup Tutorial via Jackie Wyers on Instagram" style={imageStyle} />
-      </div>
+    </div>
+</a>
+
 
       <h2 style={headingStyle}>The Essence of 2016 Makeup</h2>
 
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
+<a href="https://www.youtube.com/watch?v=HtEPH6RUEZg&feature=youtu.be" target="_blank" rel="noopener noreferrer">
+    <div style={{ display: 'flex', justifyContent: 'center' }}>
         <img src={image2} alt="Twiggy Eye Tutorial Jackie Wyers" style={imageStyle} />
-      </div>
+    </div>
+</a>
+
 
       <p style={paragraphStyle}>
         To embody Kylie Jenner's look and celebrate the key trends of 2016, we must adopt a "more is more" mentality. Instead of focusing on enhancing just one feature, we're highlighting them all simultaneously. To ensure the skin still looks youthful and fresh with such a makeup style, preparation is crucial. In the video embedded above, I was sponsored by d'Alba, and I love and have consistently repurchased the d'Alba Italian White Truffle First Spray Serum. It’s an excellent initial step to infuse the skin with moisture. The product smells amazing and feels luxurious while being affordable.
@@ -240,9 +247,12 @@ const Makeup2016 = () => {
 
       <h2 style={headingStyle}>2016 Makeup Memories</h2>
 
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={image3} alt="2016 Makeup Tutorial via Jackie Wyers on Instagram" style={imageStyle} />
-      </div>
+<a href="https://www.youtube.com/watch?v=HtEPH6RUEZg&feature=youtu.be" target="_blank" rel="noopener noreferrer">
+    <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <img src={image3} alt="Twiggy Eye Tutorial Jackie Wyers" style={imageStyle} />
+    </div>
+</a>
+
 
       <p style={paragraphStyle}>
         As a young adult and beauty content creator during this era, my personal style wasn't heavily swayed by Kylie Jenner, which means, regrettably, I don't have many throwback looks that embody the era's most popular makeup trends. However, I did adore Little Mix and even recreated Perrie Edwards' makeup from the iconic 2016 hit "Shout Out to My Ex.” That’s probably the most bold look I tried at the time. I’d like to think my photo retouching skills have improved since then… why am I yellow?😂
@@ -257,8 +267,16 @@ const Makeup2016 = () => {
       </p>
 
       <p style={paragraphStyle}>
-        Thank you for reading and if you want to be featured on my site, submit your recreation or version of this look on my Insta @jackiewyers. I’d love to see you switch up your style with confidence!
-      </p>
+  Thank you for reading and if you want to be featured on my site, submit your recreation or version of this look on my Insta <a href="https://www.instagram.com/jackiewyers/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>@jackiewyers</a>. I’d love to see you switch up your style with confidence!
+</p>
+
+
+      <div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <a href="/lanablog" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={lana} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          MORE POP CULTURE BEAUTY →
+        </a>
+      </div>
 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <img src={signature} alt="2016 Makeup Tutorial via Jackie Wyers on Instagram" style={imageStyle} />

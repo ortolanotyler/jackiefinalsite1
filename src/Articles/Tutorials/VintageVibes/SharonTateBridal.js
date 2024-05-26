@@ -12,6 +12,8 @@ const Sharon2 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/Shar
 const SharonFace = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEFILLEDINFACECHART.jpg`;
 const Sharon16 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SharonBridalInstagram.png`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+const sophia = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg`;
+const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
 
 const images = [
     { src: Sharon2, alt: "Jackie Wyers Instagrammed Sharon Inspired Look" },
@@ -33,7 +35,7 @@ const SharonTatePost = () => {
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '2.75rem',
+        fontSize: '30px',
         fontWeight: 'normal',
         fontFamily: 'GFS Didot, serif',
         color: '#333',
@@ -89,7 +91,9 @@ const SharonTatePost = () => {
                 Today, we'll delve into her unique and playful bridal style, which embodies a vintage charm while remaining wonderfully contemporary for today's brides!
             </p>
 
-            <img src={Sharon2} alt="Jackie Wyers Instagrammed Sharon Inspired Look" style={imageStyle} />
+            <a href="https://www.instagram.com/reel/C2f93WyOC0j/?hl=en" target="_blank" rel="noopener noreferrer">
+  <img src={Sharon2} alt="Jackie Wyers Instagrammed Sharon Inspired Look" style={imageStyle} />
+</a>
 
             <h2 style={headingStyle}>The Essentials of Sharon Tate's Makeup Style</h2>
 
@@ -137,22 +141,38 @@ const SharonTatePost = () => {
                 Sharon Tate's bridal makeup, an exquisite blend of 60s glamour and sun-kissed beauty, is a perfect tribute to her style. Her iconic Babydoll Wedding Dress, modern for its time, remains a fashionable choice. Explore our curated collection of Sharon Tate wedding dress replicas and similar styles below!
             </p>
 
-            <img src={Sharon16} alt="Sharon Tate Wedding Dress" style={imageStyle} />
+            <a href="https://www.instagram.com/p/CnTKGRGuAhJ/?hl=en" target="_blank" rel="noopener noreferrer">
+  <img src={Sharon16} alt="Sharon Tate Wedding Dress" style={imageStyle} />
+</a>
 
             <ResponsiveIframe src="https://shopmy.us/collections/public/492227?noHeader=true" title="Wedding Dress Collection" />
 
             <h2 style={headingStyle}>Discover More Vintage-Inspired Looks</h2>
             <p style={paragraphStyle}>
-                Discover more vintage-inspired bridal looks and timeless fashion on our website. Don't forget to subscribe to our newsletter for the latest updates and exclusive offers!
-            </p>
+  Discover more vintage-inspired bridal looks and time travel tutorials here on jackiewyers.beauty & follow on IG @ <a href="https://www.instagram.com/jackiewyers/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>Jackiewyers</a> for short form tutorials.
+</p>
+
+<p style = {paragraphStyle}>   
+Thank you for reading and if you want to be featured on my site, try out this look and please tag me as I’d love to share your rendition on my socials! I love to see you switch up your style with confidence.
+</p>
+
+<div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <a href="/sophialoren" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={sophia} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          MORE VINTAGE VIBES →
+        </a>
+      </div>
+      <div style={{ textAlign: 'center' }}>
+      <a href="/vintagevibesmerch" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={teespring} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '1400px', display: 'block' }} />
+          SHOP VINTAGE VIBES MERCH →
+        </a>            </div>
 
             <div style={{ textAlign: 'center' }}>
                 <img src={signature} alt="Signature of Jackie Wyers" style={{ width: '100%', height: 'auto' }} />
             </div>
 
-            <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%', marginLeft: '0em' }}>
-                CONTAINS: AFFILIATE LINKS
-            </p>
+        
             <Comments website-id={websiteId} page-id={'Sharon-Tate-Post'} />
 
         </div>

@@ -12,6 +12,7 @@ const Lana2 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/JackieWyersL
 const lanafacechart = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaaDelReyFaceChart.jpg`;
 const Lana22 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/JackieWithKitties.jpg`;
 const Lana23 = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEBRIDAL.jpeg`;
 
 const Card = ({ blogContent }) => (
   <div>
@@ -29,7 +30,7 @@ const LanaBlog = () => {
 
   const headingStyle = {
       textAlign: 'center',
-      fontSize: '2.75rem',
+      fontSize:'35px',
       fontWeight: 'normal',
       fontFamily: 'GFS Didot, serif',
       color: '#333',
@@ -55,13 +56,6 @@ const LanaBlog = () => {
       objectFit: 'cover',
   };
 
-  const smallImageStyle = {
-      display: 'block',
-      margin: '0 1rem 1rem 0',
-      float: 'left',
-      maxWidth: '40%',
-      height: 'auto'
-  };
 
   const blogContent = (
       <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>
@@ -187,11 +181,11 @@ const LanaBlog = () => {
         <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%' }}>
           CONTAINS: AFFILIATE LINKS
         </p>
-
         <h2 style={headingStyle}>Lips:</h2>
-        <p style={paragraphStyle}>
-          Begin the lip look by over-lining with Makeup Forever Artist Color Pencil in dimensional dark brown. For a blushing ombre effect fading to the deep liner, I chose Amuse Dew Tint in Carrot Dew for the center of the lips. To bring in a bit of warmth, I used Benefit Cosmetics Butterfly blush dabbed from the outer corners of the lips inward to blend the liner and tint together. To capture the essence of Lana's look in the SKIMS campaign, I styled my hair similarly and accessorized with a side pink ribbon. I completed the look with satin gloves and a pink dress that has become a staple in my vintage-inspired wardrobe. You can find the actual SKIMS dress here.
-        </p>
+<p style={paragraphStyle}>
+  Begin the lip look by over-lining with Makeup Forever Artist Color Pencil in dimensional dark brown. For a blushing ombre effect fading to the deep liner, I chose Amuse Dew Tint in Carrot Dew for the center of the lips. To bring in a bit of warmth, I used Benefit Cosmetics Butterfly blush dabbed from the outer corners of the lips inward to blend the liner and tint together. To capture the essence of Lana's look in the SKIMS campaign, I styled my hair similarly and accessorized with a side pink ribbon. I completed the look with satin gloves and a pink dress that has become a staple in my vintage-inspired wardrobe. You can find the actual SKIMS dress <a href="https://skims.com/products/fits-everybody-lace-slip-dress-cherry-blossom-tonal?irclickid=1MX2vdxOMxyKUSTxnoVKV1VdUkHVsT39rStwwQ0&irgwc=1&utm_medium=affiliate&utm_source=impact&utm_campaign=shopmyshelf" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'underline' }}>here</a>.
+</p>
+
 
         <h2 style={headingStyle}>Finishing Touches</h2>
         <p style={paragraphStyle}>
@@ -210,11 +204,24 @@ const LanaBlog = () => {
 
         <div>
           <a href='https://go.shopmy.us/p-3411455'>
-            <img src={Lana22} alt="Lana22" style={{ width: '75%', display: 'block', margin: '0 auto' }} />
+            <img src={Lana22} alt="Lana22" style={{ width: '100%', display: 'block', marginBottom: '1rem' }} />
           </a>
+          </div>
+
+
+   <div>
+   <div style={{ textAlign: 'center' }}>
+  <a href="/lanablog" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+    <img src={sharon} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+     MORE VINTAGE BEAUTY →
+  </a>
+</div>
           <img src={Lana23} alt="Signature" style={{ width: '100%', display: 'block', margin: '2rem 0' }} />
         </div>
       </div>
+      <br/>
+      <br/>
+      <br/>
       <Comments website-id={websiteId} pageId={"Lasa-Blog-1aasa"} />
 
     </div>

@@ -11,6 +11,10 @@ const image1 = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/JackieWyers
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/GraceKellyFaceChart.png`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/JackieAsAudrey.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+const audrey = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/audrey.jpeg`;
+const double = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/gracekellydouble.jpeg`;
+const sophia = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg`;
+const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
 
 const images = [
     { src: image1, alt: "Grace Kelly's Hollywood Glam Title" },
@@ -33,7 +37,7 @@ const GraceKelly = () => {
 
   const headingStyle = {
       textAlign: 'center',
-      fontSize: '2.75rem',
+      fontSize: '35px',
       fontWeight: 'normal',
       fontFamily: 'GFS Didot, serif',
       color: '#333',
@@ -65,6 +69,13 @@ const GraceKelly = () => {
       float: 'left',
       maxWidth: '40%',
       height: 'auto'
+
+  };
+
+  const containerStyle = {
+    display: 'flex',
+    justifyContent: 'center',
+   
   };
 
   const blogContent = (
@@ -132,6 +143,10 @@ const GraceKelly = () => {
             <p style={paragraphStyle}>
                 Grace Kelly's eyebrows were full and elegantly arched, with the tails extending nearly to the temples. This style frames the eyes exquisitely. Unlike Audrey Hepburn's brows, which arched upwards, Grace's brows are perfect for those whose natural brows have a downward trajectory.
             </p>
+            <div style={{ display: 'flex', justifyContent: 'center', maxWidth: '1500px', margin: '0 auto' }}>
+      <img src={audrey} alt=" 1 Description" style={{ width: '50%', height: 'auto' }} />
+      <img src={double} alt=" 2 Description" style={{ width: '50%', height: 'auto' }} />
+    </div>
 
             <ResponsiveIframe src="https://shopmy.us/collections/public/524548?noHeader=true" title="Shop My Victoria's Secret Favorites" />
             <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%', marginLeft: '0em' }}>
@@ -169,7 +184,7 @@ const GraceKelly = () => {
                 CONTAINS: AFFILIATE LINKS
             </p>
 
-            <h2 style={headingStyle}>Grace Kelly's Signature Beauty Products & Tips</h2>
+            <h2 style={headingStyle}>Grace Kelly's Signature Beauty Products: Quick Reviews!</h2>
             <p style={paragraphStyle}>
                 Grace Kelly continued to do her own hair and makeup after becoming a royal and has shared some of her actual favourite products with the world! Her chosen red lipstick The Dior Rouge Lipstick in 999.
             </p>
@@ -179,9 +194,7 @@ const GraceKelly = () => {
             <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%', marginLeft: '0em' }}>
                 CONTAINS: AFFILIATE LINKS
             </p>
-            <p style={paragraphStyle}>
-                The Dior Rouge Dior Refillable Lipstick in 999 is an iconic, luxurious red that offers a perfect balance of vibrant colour and long-lasting wear. Its satin finish provides a striking look while keeping lips moisturized and comfortable. Plus, the eco-friendly refillable design adds a modern touch to this classic beauty staple.
-            </p>
+           
 
             <p style={paragraphStyle}>
                 I also love collecting fragrances and have recently invested in Creed Fleurissimo. Imagine the royal elegance you'll embody with just a spritz of this fragrance, which graced Grace Kelly's wedding day. Have you ever tried a scent that made you feel like royalty? This fragrance was originally custom-made and is still available for purchase today.
@@ -194,9 +207,7 @@ const GraceKelly = () => {
                 CONTAINS: AFFILIATE LINKS
             </p>
 
-            <p style={paragraphStyle}>
-                Creed Fleurissimo is a stunningly elegant floral fragrance that captures the essence of royal sophistication with its blend of iris, violet, and tuberose. The initial burst of bergamot, reminiscent of Earl Grey tea, gracefully transitions to a lush floral heart. This classic and refined scent envelops you in timeless grace, making it ideal for special occasions. Read more about this scent here.
-            </p>
+          
             <p style={paragraphStyle}>
                 Another beauty tip from Grace Kelly emphasizes the importance of hand cream. She famously stated, “a woman's age shows on her hands much quicker than anywhere else.” While I personally appreciate the beauty of aged hands, it’s always beneficial to stay moisturized!
             </p>
@@ -234,18 +245,24 @@ const GraceKelly = () => {
                 Grace’s approach to beauty was all about simplicity, elegance, and a touch of royal allure. From her carefully selected fragrances, red lips and coiffed hair, her beauty routine was as much a part of her royal duties as her public appearances.
             </p>
 
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={image3} alt="Jackie as Audrey Hepburn" style={{ maxBlockSize: '600px', width: 'auto'}} />
-            </div>
             <p style={paragraphStyle}>
                 I hope you enjoyed another Time Travel Tutorials for all the vintage vibes. If you have any vintage icons you'd like me to cover in future posts, please leave a comment below. If you enjoyed this look, you may enjoy Audrey Hepburn in “Funny Face” makeup here.
             </p>
             <p style={paragraphStyle}>
                 Thank you for reading and if you want to be featured on my site, try out this look and please tag me as I’d love to share your rendition on my socials! I love to see you switch up your style with confidence.
             </p>
-            <p style={paragraphStyle}>
-                (Another article linked here for more pop culture)
-            </p>
+           
+      <div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <a href="/sophialoren" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={sophia} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          MORE VINTAGE VIBES →
+        </a>
+      </div>
+      <div style={{ textAlign: 'center' }}>
+      <a href="/vintagevibesmerch" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={teespring} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '1400px', display: 'block' }} />
+          SHOP VINTAGE VIBES MERCH →
+        </a>            </div>
 
             <img src={signature} alt="Signature" style={{ width: '100%' }} />
             <Comments website-id={websiteId} pageId={"Grace-Kelly"} />

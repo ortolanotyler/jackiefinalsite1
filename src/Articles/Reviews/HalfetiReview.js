@@ -6,6 +6,8 @@ import DropCap from '../../Components/DropCap';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/halfetititle.png`;
+const profile = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/halfetiprofile.png`;
+
 const halfeti1 = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/Halfeti1.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
@@ -24,8 +26,8 @@ const HalfetiReview = () => {
 
 
     const headingStyle = {
-        textAlign: 'center',
-        fontSize: '40px',
+        textAlign: 'left',
+        fontSize: '35px',
         fontWeight: 'normal',
         fontFamily: 'GFS Didot, serif',
         color: '#333',
@@ -75,30 +77,33 @@ const HalfetiReview = () => {
             <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
                 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
-            <DropCap text="Halfeti by Penhaligon's is an aromatic voyage to the exotic trade routes of the East, capturing the essence of the rare black roses of Halfeti, Turkey. It's an opulent and heady scent that exudes luxury and mystery." />
-            
+            <img src={profile} alt="Halfeti Perfume 1" style={{ width: '100%' }} />
+
          
             
             <div style={{ textAlign: 'center', fontSize: '22px', marginTop: '5rem', fontFamily: 'GFS Didot, serif' }}>
-                Perfume Name: <strong> Halfeti</strong> 
-                <br /><br />
-                Brand: <strong>Penhaligon's </strong> 
-                <br /><br />
-                Perfumers: <strong>Christian Provenzano </strong>
-                <br />
-            </div>
-            <br></br>
-            <br></br>
-            <h2 style={headingStyle}> 🌹 Background Information</h2>
+    Perfume Name: <strong>Halfeti</strong>
+    <br /><br />
+    Brand: <strong>Penhaligon’s</strong>
+    <br /><br />
+    Year of Release: <strong>2015</strong>
+    <br /><br />
+    Perfumers: <strong>Christian Provenzano</strong>
+    <br /><br />
+    Price: <strong>100 ml - $290 USD</strong>
+</div>
+
             
-            <p style={paragraphStyle}>
-                Halfeti by Penhaligon's is an aromatic voyage to the exotic trade routes of the East, capturing the essence of the rare black roses of Halfeti, Turkey. It's an opulent and heady scent that exudes luxury and mystery.
-            </p>
+            <br></br>
+            <br></br>
+         
+            
+        
             
             
             <h2 style={headingStyle}> 🍃 Fragrance Profile</h2>
             
-            <table style={{ fontSize: '20px', fontFamily: 'GFS Didot, serif', margin: '3rem', maxWidth: '100%', borderCollapse: 'collapse' }}>
+            <table style={{ fontSize: '20px', fontFamily: 'GFS Didot, serif', margin: '1rem', maxWidth: '100%', borderCollapse: 'collapse' }}>
                 <tbody>
                     <tr>
                         <td><strong>Concentration:</strong></td>
@@ -122,7 +127,10 @@ const HalfetiReview = () => {
                     </tr>
                 </tbody>
             </table>
-            
+            <h2 style={headingStyle}> 🥀 Background Information</h2>
+<p style={paragraphStyle}>
+            Halfeti by Penhaligon's is an aromatic voyage to the exotic trade routes of the East, capturing the essence of the rare black roses of Halfeti, Turkey. It's an opulent and heady scent that exudes luxury and mystery.
+</p>
             <p style={paragraphStyle}>
                 Overall Scent Profile: Halfeti opens with a burst of citrus freshness, dominated by grapefruit and bergamot, before evolving into a spicy and floral heart. The base is warm and woody, with prominent notes of leather, oud, and amber, creating a rich and sophisticated scent that lingers on the skin.
             </p>
@@ -132,7 +140,7 @@ const HalfetiReview = () => {
           
             
             <p style={paragraphStyle}>
-            My first encounter with Penhaligon's fragrances was when I received a tester set featuring a variety of scents from this iconic British perfume house. Among them, Halfeti stood out and quickly became a favorite for both my husband and I. As a unisex fragrance, it boasts a rich, exotic, and distinct aroma. The "Trade Routes" collection from Penhaligon's draws inspiration from various destinations, and although I've never visited Halfeti, Turkey, this particular fragrance transports me to what I imagine would be a warm and vibrant night bazaar.
+            My first encounter with Penhaligon's fragrances was when I received a tester set featuring a variety of scents from this iconic British perfume house. Among them, Halfeti stood out and quickly became a favorite for both my husband and I. As a unisex fragrance, it boasts a rich, exotic, and distinct aroma. The "Trade Routes" collection from Penhaligon's draws inspiration from various destinations, and although I've never visited Halfeti, Turkey, this particular fragrance transports me to what I imagine a warm and vibrant night bazaar might smell like.
                         </p>
             
             <p style={paragraphStyle}>
@@ -159,7 +167,7 @@ const HalfetiReview = () => {
             <p style={paragraphStyle}>
             <strong>Occasions and Seasonality: </strong> Halfeti's depth and warmth make it perfect for cooler seasons, and its boldness suits formal events or evenings when you want to make a statement.            </p>
             
-            <h2 style={headingStyle}>Comparisons
+            <h2 style={headingStyle}> ⚖ Comparisons
             </h2>
 
             <p style={paragraphStyle}>
