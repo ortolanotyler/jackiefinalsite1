@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const ResponsiveIframe = ({ src, title }) => {
   const [allowScrolling, setAllowScrolling] = useState(false);
+  const [iframeInteraction, setIframeInteraction] = useState(false);
 
   useEffect(() => {
     const checkResize = () => {
@@ -17,15 +18,28 @@ const ResponsiveIframe = ({ src, title }) => {
     };
   }, []);
 
+  const handleIframePointerEnter = () => {
+    setIframeInteraction(true);
+  };
+
+  const handleIframePointerLeave = () => {
+    setIframeInteraction(false);
+  };
+
   return (
     <iframe
       width="100%"
-      height='4vh'
+      height='400px'
       title={title}
       src={src}
       className="embed-container"
       scrolling={allowScrolling ? 'yes' : 'no'}
-      style={{ border: 'none' }}
+      style={{
+        border: 'none',
+        pointerEvents: iframeInteraction ? 'auto' : 'none',
+      }}
+      onPointerEnter={handleIframePointerEnter}
+      onPointerLeave={handleIframePointerLeave}
     ></iframe>
   );
 };

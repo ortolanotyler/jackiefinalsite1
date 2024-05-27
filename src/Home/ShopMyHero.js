@@ -3,7 +3,6 @@ import { Box, Typography } from '@mui/material';
 import ThreeSections from '../Shop/ThreeSections';
 import ShopMySlider from './ShopMySlider';
 import styles from './ShopMyHero.module.css'; // Updated to use the CSS module
-import TextReveal from '../Components/TextReveal';
 
 const ShopMyHero = () => {
   const linkRef = useRef(null);
