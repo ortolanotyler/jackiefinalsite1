@@ -48,7 +48,7 @@ const BarbieBlog = () => {
   };
 
   const blogContent = (
-    <div className="container" style={{ lineHeight: '2.25rem', margin: '25rem', marginTop: '25px' }}>
+    <div className="container" style={{ lineHeight: '2.25rem', margin: '22rem', marginTop: '25px' }}>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // POP CULTURE // MOVIES
