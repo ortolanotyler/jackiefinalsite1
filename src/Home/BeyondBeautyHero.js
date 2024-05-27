@@ -40,20 +40,20 @@ const BeyondBeautyHero = () => {
   }, []);
 
   return (
-    <Box sx={{ width: '100%', padding: '2rem 0', backgroundColor: '#FDFDFD' }}>
+    <Box sx={{ width: '100%', padding: { xs: '1rem', sm: '2rem 0' }, backgroundColor: '#FDFDFD' }}>
       <Grid container spacing={2} justifyContent="center">
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} sm={10} md={8} lg={6}>
           <Grid container spacing={2} alignItems="center">
             <Grid item xs={12} sm={6}>
-              <Typography variant="h4" component="h2" sx={{ textAlign: 'left', fontFamily: 'Arapey', color: 'black', marginBottom: '1rem' }}>
+              <Typography variant="h4" component="h2" sx={{ textAlign: { xs: 'center', sm: 'left' }, fontFamily: 'Arapey', color: 'black', marginBottom: '1rem' }}>
                 BEYOND BEAUTY
               </Typography>
               {paragraphs.map((text, index) => (
-                <Typography key={index} variant="body1" sx={{ fontFamily: 'GFS Didot, serif', color: 'black', marginBottom: '1rem' }}>
+                <Typography key={index} variant="body1" sx={{ fontFamily: 'GFS Didot, serif', color: 'black', marginBottom: '1rem', textAlign: { xs: 'center', sm: 'left' } }}>
                   {text}
                 </Typography>
               ))}
-              <Box sx={{ textAlign: 'right', mt: 2 }}>
+              <Box sx={{ textAlign: { xs: 'center', sm: 'right' }, mt: 2 }}>
                 <Link
                   href="/about"
                   ref={linkRef}
@@ -61,13 +61,14 @@ const BeyondBeautyHero = () => {
                   sx={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
                 >
                   <Typography variant="body1" sx={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>
-                   
+                    READ MORE
                   </Typography>
+                  <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
                 </Link>
               </Box>
             </Grid>
             <Grid item xs={12} sm={6}>
-              <Box component="img" src={placeholderImage} alt="About Us" sx={{ width: '100%', borderRadius: '8px' }} />
+              <Box component="img" src={placeholderImage} alt="Beyond Beauty" sx={{ width: '100%', borderRadius: '8px' }} />
             </Grid>
           </Grid>
         </Grid>

@@ -30,3 +30,14 @@
     width: 50vw;
   }
 }
+
+@media (max-width: 600px) {
+  .sidebar {
+    width: 70vw;
+  }
+
+  .sidebarButton {
+    font-size: 1rem;
+    padding: 1.5rem 1rem;
+  }
+}

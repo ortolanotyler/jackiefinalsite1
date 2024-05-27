@@ -11,35 +11,36 @@
     display: flex; /* Using flex to manage inner content alignment */
     flex-direction: column; /* Aligns children (question and answers) in a column */
     align-items: center; /* Aligns text to the left */
-}
-
-.question-section, .results-section {
+  }
+  
+  .question-section,
+  .results-section {
     margin-bottom: 0px;
     width: 100%; /* Ensure these sections take up full width */
-}
-
-.question-count {
+  }
+  
+  .question-count {
     margin-bottom: 20px;
     text-align: center;
-}
-
-.question-text {
+  }
+  
+  .question-text {
     font-family: 'GFS Didot', sans-serif;
-    color: #745B4F;
+    color: #745b4f;
     margin-bottom: 20px;
     font-size: 20px;
     text-align: center; /* Ensures text aligns to the left */
-}
-
-.answer-section {
+  }
+  
+  .answer-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Adjusted to create two columns for options */
     gap: 10px; /* Adjusts the gap between grid items */
     margin-bottom: 30px; /* Keeps spacing consistent */
     width: 70%; /* Ensures answer section takes full width */
-}
-
-.answer-section button {
+  }
+  
+  .answer-section button {
     color: white; /* Improved visibility against darkened images */
     padding: 10px;
     font-size: 16px;
@@ -56,31 +57,46 @@
     overflow: hidden; /* Keeps the background contained */
     position: relative; /* Ensures the linear gradient overlays properly */
     background-blend-mode: multiply; /* Blends the gradient with the background image */
-}
-
-.answer-section button:hover {
-    border: 1px solid #745B4F; /* Adding a border on hover */
+  }
+  
+  .answer-section button:hover {
+    border: 1px solid #745b4f; /* Adding a border on hover */
     background-color: rgba(0, 0, 0, 0.6); /* Slight darkening effect */
-    color: #FDEDEF; /* Change text color on hover */
-}
-
-.results-section h2, .results-section ul, .results-section ul li {
+    color: #fdedef; /* Change text color on hover */
+  }
+  
+  .results-section h2,
+  .results-section ul,
+  .results-section ul li {
     text-align: left; /* Aligns results text to the left */
-}
-
-.results-section h2 {
+  }
+  
+  .results-section h2 {
     margin-bottom: 20px;
-}
-
-.results-section ul {
+  }
+  
+  .results-section ul {
     list-style-type: none;
     padding: 0;
-}
-
-.results-section ul li {
+  }
+  
+  .results-section ul li {
     margin-bottom: 10px;
-}
-
-button {
+  }
+  
+  button {
     cursor: pointer;
-}
+  }
+  
+  /* Media Queries for smaller screens */
+  @media (max-width: 600px) {
+    .answer-section {
+      width: 100%;
+    }
+  
+    .answer-section button {
+      height: 200px; /* Reduce height for smaller screens */
+      font-size: 14px; /* Adjust font size */
+    }
+  }
+  

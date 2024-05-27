@@ -18,12 +18,6 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'REVIEWS', path: '/reviews' },
     { name: 'TRAVEL', path: '/travel' },
     { name: 'DIARY', path: '/diary' },
-   
-    { name: '', path: '/contact' },
-   
-   
- 
-
     { name: 'CONTACT', path: '/contact' },
     { name: 'PRESS', path: '/press' },
     { name: 'SITEMAP', path: '/sitemap' },
@@ -46,6 +40,9 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           justifyContent: 'space-between',
           '@media (max-width: 1200px)': {
             width: '45vw',
+          },
+          '@media (max-width: 600px)': {
+            width: '70vw',
           },
         }}
         role="presentation"

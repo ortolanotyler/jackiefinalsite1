@@ -2,7 +2,7 @@
 
 h1 {
   font-family: Arapey, serif;
-  font-size: 5vw; /* Adjusted for responsiveness */
+  font-size: 6vw; /* Use viewport width for responsiveness */
   text-align: center;
   font-weight: 100; /* Adjusted for a lighter font weight */
 }
@@ -60,7 +60,7 @@ h1 {
 
 .textReveal > span:nth-child(2) {
   -webkit-text-stroke: var(--2-stroke-size) var(--2-stroke-color);
-  --color: var(--2-fill-color);
+  --color: var (--2-fill-color);
   --mask-image: linear-gradient(black 0 0);
   --animation-name: text-reveal-2;
 }
@@ -96,8 +96,29 @@ h1 {
 .hero { 
   width: 100%; 
   margin-top: 0;
-  height: 17vh;
+  height: 20vh;
   background-color: #FDEDEF;
   display: grid;
   place-items: center;
+}
+
+/* Responsive font size adjustments */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 8vw !important; /* Increase font size for smaller screens and use !important */
+  }
+
+  .hero {
+    height: 25vh; /* Increase height to accommodate larger text */
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 10vw !important; /* Further increase font size for very small screens and use !important */
+  }
+
+  .hero {
+    height: 30vh; /* Further increase height to accommodate larger text */
+  }
 }
