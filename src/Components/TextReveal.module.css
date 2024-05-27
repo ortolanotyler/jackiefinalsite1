@@ -109,16 +109,16 @@ h1 {
   }
 
   .hero {
-    height: 25vh; /* Increase height to accommodate larger text */
+    height: 15vh; /* Increase height to accommodate larger text */
   }
 }
 
 @media (max-width: 400px) {
   h1 {
-    font-size: 10vw !important; /* Further increase font size for very small screens and use !important */
+    font-size: 8vw !important; /* Further increase font size for very small screens and use !important */
   }
 
   .hero {
-    height: 30vh; /* Further increase height to accommodate larger text */
+    height: 15vh; /* Further increase height to accommodate larger text */
   }
 }
