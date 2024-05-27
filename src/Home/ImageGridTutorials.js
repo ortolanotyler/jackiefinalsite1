@@ -12,6 +12,8 @@ const image6 = `${process.env.PUBLIC_URL}/Images/Home/HomePage6.jpg`;
 const image7 = `${process.env.PUBLIC_URL}/Images/Home/HomePage7.jpg`;
 const image8 = `${process.env.PUBLIC_URL}/Images/Home/HomePage8.jpg`;
 
+
+
 const itemData = [
   {
     img: image1,
@@ -31,43 +33,41 @@ const itemData = [
   },
   {
     img: image5,
-    title: 'Jackie Wyers New York City',
+    title:'Jackie Wyers New York City',
   },
   {
     img: image6,
-    title: 'Jackie Wyers Barbie Margot',
+    title:'Jackie Wyers Barbie Margot',
   },
-  {
-    img: image7,
-    title: 'Jackie Wyers in San Diego',
-  },
-  {
-    img: image8,
-    title: "Jackie Wyers Penhaligon's Campaign",
-  },
+    {
+        img: image7,
+        title: 'Jackie Wyers in San Diego',
+    },
+    {
+        img: image8,
+        title:"Jackie Wyers Penhaligon's Campaign",
+    },
+
+  // ... repeat for each image ...
+
 ];
 
 export default function QuiltedImageList1() {
   return (
     <ImageList
-      sx={{
-        width: '100%',
-        height: { xs: '40vh', md: '55vh' },
-        boxShadow: '0 0 0 1px rgba(0, 0, 0, 0.9)',
-        overflowY: { xs: 'hidden', md: 'auto' }, // Hide overflow on smaller screens, enable on larger screens
-        // Add media queries for smaller screens
-        '& .MuiImageListItem-root': {
-          '&:nth-of-type(n+5)': {
-            display: { xs: 'none', md: 'block' },
-          },
-        },
-      }}
+      sx={{ width: '100%', height: '65vh',  boxShadow: '0 0 0 1px rgba(0, 0, 0, 0.9}' }}
       variant="quilted"
       cols={4}
+   
+      
     >
       {itemData.map((item, index) => (
         <ImageListItem key={index} cols={item.cols || 1} rows={item.rows || 1}>
-          <img src={item.img} alt={item.title} loading="lazy" />
+          <img
+            src={item.img}
+            alt={item.title}
+            loading="lazy"
+          />
         </ImageListItem>
       ))}
     </ImageList>
