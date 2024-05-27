@@ -1,75 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
 /* General styles for the whole component */
 /* Reset hover effect for .card */
 body {
-    padding: 1rem;
-  }
-  
-  .card:hover {
-    transform: none !important; /* Ensures there is no movement or scaling */
-    /* Any other hover effects you wish to neutralize can be reset here */
-  }
-  
-  .iframeStyle {
-    width: 100%;
-    height: 525px; /* Adjusted height value */
-    border: 0;
-  }
-  
-  .container {
-    max-width: 100%;
-    box-sizing: border-box; /* Ensure padding doesn't add to the width */
-  }
-  
+  padding: 1rem;
+}
+
+.card:hover {
+  transform: none !important; /* Ensures there is no movement or scaling */
+  /* Any other hover effects you wish to neutralize can be reset here */
+}
+
+.iframeStyle {
+  width: 100%;
+  height: 525px; /* Adjusted height value */
+  border: 0;
+}
+
+.container {
+  max-width: 100%;
+  box-sizing: border-box; /* Ensure padding doesn't add to the width */
+  padding: 0 1rem; /* Add padding to the container */
+}
+
+.embed-container {
+  display: block;
+  margin: 1rem auto; /* Center the embed-container */
+  width: 100%;
+  min-height: 100%;
+  height: calc(55vh + 16px); /* Adjust the value as needed */
+  border: none;
+  overflow: hidden; /* Hide overflow by default */
+}
+
+.large-text {
+  text-align: left !important; /* Ensures text is aligned left */
+}
+
+@media (max-width: 1200px) {
   .embed-container {
-    display: block;
-    margin: 1rem auto; /* Center the embed-container */
-    width: 100%;
-    min-height: 100%;
-    height: calc(55vh + 16px); /* Adjust the value as needed */
-    border: none;
-    overflow: hidden; /* Hide overflow by default */
+    overflow: auto; /* Enable scrolling for screens less than 1200px */
+  }
+}
+
+/* Styles for each card */
+.card {
+  width: 100%;
+  max-width: 1000px;
+  background-color: white;
+  color: black;
+  font-family: 'GFS Didot', sans-serif;
+  text-align: left;
+  margin: 0 auto 1em; /* Center the card and add spacing */
+  padding: 1rem; /* Add padding inside the card */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better distinction */
+  border-radius: 8px; /* Add border radius for a more modern look */
+}
+
+/* Styles for images */
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 8px; /* Match the border radius of the card */
+}
+
+/* Styles for blog content */
+.blog-content {
+  text-align: left;
+  line-height: 1.5rem; /* Increase line height for better readability */
+  margin-bottom: 1rem;
+}
+
+/* Override margin for screen sizes below 1000px */
+@media screen and (max-width: 1000px) {
+  .container {
+    margin: 0 !important;
+    padding: 0 1rem !important; /* Add padding to ensure content isn't cut off */
   }
   
-  .large-text {
-    text-align: left !important; /* Ensures text is aligned left */
-  }
-  
-  @media (max-width: 1200px) {
-    .embed-container {
-      overflow: auto; /* Enable scrolling for screens less than 1200px */
-    }
-  }
-  
-  /* Styles for each card */
   .card {
-    width: 100%;
-    max-width: 1000px;
-    background-color: white;
-    color: black;
-    font-family: 'GFS Didot', sans-serif;
-    text-align: left;
-    margin: 0 auto 1em; /* Center the card and add spacing */
+    padding: 1rem; /* Ensure padding inside the card for smaller screens */
   }
   
-  /* Styles for images */
-  .card img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-  }
-  
-  /* Styles for blog content */
   .blog-content {
-    text-align: left;
-    line-height: 1.25rem;
-    margin-bottom: 1rem;
+    line-height: 1.5rem; /* Ensure consistent line height on smaller screens */
+  }
+}
+
+/* Additional media query for very small screens */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 0 0.5rem !important; /* Further reduce padding for very small screens */
   }
   
-  /* Override margin for screen sizes below 1000px */
-  @media screen and (max-width: 1000px) {
-    .container {
-      margin:  0 !important;
-      padding: 1;
-    }
+  .card {
+    padding: 0.75rem; /* Adjust padding inside the card for very small screens */
   }
-  
+}

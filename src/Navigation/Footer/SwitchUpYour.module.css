@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
 .container {
-  font-family: 'GFS Didot, serif';
+  font-family: 'GFS Didot', serif;
   width: 100%;
   background-color: #FDEDEF;
   color: white; /* Default text color for the whole container */
@@ -7,6 +9,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 2rem; /* Added padding to ensure text is not too close to edges */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
 }
 
 .slider {
@@ -16,6 +20,7 @@
   gap: 2rem;
   font-size: 2.5rem;
   justify-content: center; /* Center horizontally */
+  text-align: center; /* Center text within the flex items */
 }
 
 .fixedSpan {
@@ -28,4 +33,43 @@
   color: #745B4F; /* Ensure dynamic text has different color */
   font-weight: 500;
   transition: 0.5s opacity ease-in-out;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 1.5rem; /* Adjust padding for smaller screens */
+  }
+
+  .slider {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+    gap: 1rem;
+  }
+
+  .fixedSpan {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  .sliderValue {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1rem; /* Further adjust padding for very small screens */
+  }
+
+  .slider {
+    font-size: 1.5rem; /* Adjust font size for very small screens */
+    gap: 0.5rem;
+  }
+
+  .fixedSpan {
+    font-size: 1.5rem; /* Adjust font size for very small screens */
+  }
+
+  .sliderValue {
+    font-size: 1.5rem; /* Adjust font size for very small screens */
+  }
 }

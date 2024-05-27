@@ -108,7 +108,7 @@ function HomePage() {
           </div>
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
-          <div style={{ textAlign: 'right', marginRight: '-5rem', marginTop: '2rem', marginBottom: '5rem', width: '100%', maxWidth: '1400px', display: 'flex', justifyContent: 'flex-end' }}>
+          <div style={{ textAlign: 'right', marginTop: '2rem', marginBottom: '5rem', width: '100%', maxWidth: '1400px', display: 'flex', justifyContent: 'flex-end' }}>
             <a
               href="/victoriasecret"
               ref={linkRef}

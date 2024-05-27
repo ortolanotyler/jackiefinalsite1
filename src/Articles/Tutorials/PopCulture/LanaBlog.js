@@ -211,7 +211,7 @@ const LanaBlog = () => {
 
    <div>
    <div style={{ textAlign: 'center' }}>
-  <a href="/lanablog" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+  <a href="/sharontatebridal" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
     <img src={sharon} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
      MORE VINTAGE BEAUTY →
   </a>
