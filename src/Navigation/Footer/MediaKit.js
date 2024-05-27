@@ -4,14 +4,7 @@ import TextReveal from '../../Components/TextReveal';
 import BrandCarousel from '../../Components/BrandCarousel/BrandCarousel';
 import { Grid, Paper } from '@mui/material';
 import FeaturesAndShoutouts from './FeaturesAndShoutouts';
-import MediaSplitWarnerBros from '../../About/MediasplitWarnerBros';
-import MediaSplitMeanGirls from '../../About/MediaSplitMeanGirls';
-import MediaSplitJuicyCouture from '../../About/MediaSplitJuicyCouture';
-import MediaSplitFiori from '../../About/MediaSplitFiori';
-import MediaSplitOneSize from '../../About/MediaSplitOneSize';
-import MediaSplitIsopiaLashes from '../../About/MediaSplitIsopiaLashes';
-import MediaSplitWondery from '../../About/MediaSplitWondery';
-import MediaSplitSupergoop from '../../About/MediaSplitSupergoop';
+
 import RotatingText from '../AppBar/RotatingText';
 
 const MediaKit = () => {
@@ -39,30 +32,7 @@ const MediaKit = () => {
         <Grid item xs={12}>
           <BrandCarousel />
         </Grid>
-        <Grid item xs={12}>
-          <MediaSplitWondery />
-        </Grid>
-        <Grid item xs={12} md={6}>
-          <MediaSplitWarnerBros />
-        </Grid>
-        <Grid item xs={12} md={6}>
-          <MediaSplitMeanGirls />
-        </Grid>
-        <Grid item xs={12}>
-          <MediaSplitSupergoop />
-        </Grid>
-        <Grid item xs={12}>
-          <MediaSplitJuicyCouture />
-        </Grid>
-        <Grid item xs={12}>
-          <MediaSplitFiori />
-        </Grid>
-        <Grid item xs={12}>
-          <MediaSplitOneSize />
-        </Grid>
-        <Grid item xs={12}>
-          <MediaSplitIsopiaLashes />
-        </Grid>
+
       </Grid>
     </div>
   );

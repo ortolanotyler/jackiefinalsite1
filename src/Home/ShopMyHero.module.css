@@ -23,14 +23,14 @@
   
   .overlayText {
     position: absolute;
-    width: 100%;
+    width: 50%;
     color: white;
     text-align: center;
     font-family: 'Arapey', serif;
     font-style: italic;
     margin: 0;
     padding: 0.5rem 0;
-    font-size: 7vw; /* Responsive font size based on viewport width */
+    font-size: 5vw; /* Responsive font size based on viewport width */
   }
   
   .overlayTextTop {

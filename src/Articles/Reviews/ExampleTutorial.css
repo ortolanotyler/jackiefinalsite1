@@ -72,8 +72,8 @@ body {
   margin-bottom: 1rem;
 }
 
-/* Override margin for screen sizes below 1000px */
-@media screen and (max-width: 1000px) {
+/* Override margin for screen sizes below 1200px */
+@media screen and (max-width: 1200px) {
   .container {
     margin: 0 !important;
     padding: 0 1rem !important; /* Add padding to ensure content isn't cut off */
@@ -88,13 +88,78 @@ body {
   }
 }
 
-/* Additional media query for very small screens */
+/* Additional media query for screens below 1000px */
+@media screen and (max-width: 1000px) {
+  .container {
+    margin: 0 !important;
+    padding: 0.75rem !important; /* Further adjust padding */
+  }
+
+  .card {
+    padding: 0.75rem; /* Adjust padding inside the card */
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+
+  .blog-content {
+    padding: 0 0.75rem; /* Add padding inside the content */
+  }
+}
+
+/* Additional media query for screens below 800px */
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 0.5rem !important; /* Further adjust padding */
+  }
+
+  .card {
+    padding: 0.5rem; /* Adjust padding inside the card */
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+
+  .blog-content {
+    padding: 0 0.5rem; /* Add padding inside the content */
+  }
+}
+
+/* Additional media query for screens below 600px */
 @media screen and (max-width: 600px) {
   .container {
-    padding: 0 0.5rem !important; /* Further reduce padding for very small screens */
+    padding: 0.5rem !important; /* Further reduce padding for very small screens */
   }
-  
+
   .card {
-    padding: 0.75rem; /* Adjust padding inside the card for very small screens */
+    padding: 0.5rem; /* Adjust padding inside the card */
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+
+  .blog-content {
+    text-align: left;
+    line-height: 1.5rem; /* Ensure consistent line height on smaller screens */
+    margin-bottom: 1rem;
+    padding: 0 0.5rem; /* Add padding inside the content for better readability */
+  }
+
+  .iframeStyle {
+    width: 100%;
+    height: 300px; /* Adjusted height value for very small screens */
+    border: 0;
   }
 }
