@@ -26,7 +26,6 @@ body {
   justify-content: center;
   list-style: none;
   padding: 1;
-
 }
 
 #frame li {
@@ -41,39 +40,40 @@ body {
 
 #frame li figure {
   margin: 1rem;
-  margin-bottom: 1rem;
   position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 #frame li figure img {
- max-block-size: 350px;
+  max-block-size: 350px;
   border: 25px solid transparent;
   padding: 1;
   border-image: url('https://assets.codepen.io/11614/frame2.png') 30 round;
-  box-shadow: 0 15px 10px rgba(0,0,0.25,0.75);
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.25);
 }
 
 #frame li figure figcaption {
   max-block-size: 300px;
-  padding : 1rem;
+  padding: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   overflow: hidden;
   position: absolute;
-  left: calc(100% + 20px);
-  top: 80%;
-  border : 0.1px solid #745B4F;
-  transform: translateY(-50%);
+  left: 50%;
+  bottom: -30px;
+  transform: translateX(-50%);
   background-color: #fdedef;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
   font-size: 12px;
   color: black;
   z-index: 10;
   box-sizing: border-box;
+  width: 80%; /* Adjust width for better mobile viewing */
+  border: 0.1px solid #745B4F;
 }
 
 #bench-container {
@@ -91,7 +91,7 @@ body {
 }
 
 #nav {
-  display: relative;
+  display: flex;
   justify-content: center;
 }
 
@@ -100,9 +100,7 @@ body {
   border: none;
   cursor: pointer;
   color: #745B4F;
-  gap: 50px;
   font-size: 50px;
-  max-width: 300px;
 }
 
 #nav .prev:hover, #nav .next:hover {
@@ -149,8 +147,10 @@ body {
 
   #frame li figure figcaption {
     font-size: 10px; /* Adjust font size for smaller screens */
-    width: 30vw; /* Adjust width for better mobile viewing */
-    left: calc(100% + 10px); /* Adjust positioning for smaller screens */
+    width: 80%; /* Adjust width for better mobile viewing */
+    left: 50%; /* Center the caption box */
+    bottom: -20px; /* Adjust position for smaller screens */
+    transform: translateX(-50%);
   }
 
   #bench-container {

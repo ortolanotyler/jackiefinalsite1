@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=GFS+Didot&family=Italianno&display=swap');
+
 .container {
   margin: 1em;
   display: flex;
@@ -49,6 +51,17 @@
   color: #745B4F;
   cursor: pointer;
   width: 100%; /* Make the button take full width of form */
+  background-color: #ffffff; /* Explicitly set the background color */
+  -webkit-appearance: none; /* Remove default styling on iOS */
+  appearance: none; /* Remove default styling */
+}
+
+.button:focus {
+  outline: none; /* Remove the default focus outline */
+}
+
+.button:hover {
+  background-color: #e0e0e0; /* Change background on hover */
 }
 
 /* Image overlay styles */
