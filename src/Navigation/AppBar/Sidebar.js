@@ -15,6 +15,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'TUTORIALS', path: '/tutorials' },
     { name: 'QUIZ', path: '/quiz' },
     { name: 'SHOP MY STYLE', path: '/mystyle' },
+    { name: 'MERCH', path: '/vintagevibesmerch' },
     { name: 'REVIEWS', path: '/reviews' },
     { name: 'TRAVEL', path: '/travel' },
     { name: 'DIARY', path: '/diary' },
