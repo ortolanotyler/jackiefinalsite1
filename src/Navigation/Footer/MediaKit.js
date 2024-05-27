@@ -26,9 +26,7 @@ const MediaKit = () => {
         <Grid item xs={12} md={6}>
           <FeaturesAndShoutouts />
         </Grid>
-        <Grid item xs={12}>
-          <TextReveal text="PREVIOUS COLLABORATIONS" style={{ backgroundColor: 'white' }} />
-        </Grid>
+      
         <Grid item xs={12}>
           <BrandCarousel />
         </Grid>
