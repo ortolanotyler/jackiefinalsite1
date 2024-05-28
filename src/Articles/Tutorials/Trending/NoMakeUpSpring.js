@@ -20,8 +20,8 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
   <div>
     <div><TextReveal text='TRENDS' /></div>
-    <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-      <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+    <div className="card">
+      <div className="blog-content">{blogContent}</div>
     </div>
   </div>
 );
@@ -48,7 +48,7 @@ const NoMakeUpSpring = () => {
   };
 
   const blogContent = (
-    <div className="container" style={{ lineHeight: '2.25rem', margin: '22rem', marginTop: '25px' }}>
+    <div className="container">
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TRENDS
@@ -237,11 +237,6 @@ const NoMakeUpSpring = () => {
         title="No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition!"
         description="Just a hint of color, just in time for spring"
         blogContent={blogContent}
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          textAlign: 'left'
-        }}
       />
     </div>
   );

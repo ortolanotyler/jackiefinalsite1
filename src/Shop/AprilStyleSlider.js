@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import './Slider.css';
+import styles from './Slider.module.css'; // Updated to use the CSS module
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle10.jpg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle11.jpg`;
@@ -29,8 +29,6 @@ const imageDetails = [
 const AprilStyleSlider = () => {
   const [numClicks, setNumClicks] = useState(0);
   const itemsRef = useRef([]);
-
-  const maxClicks = imageDetails.length - 3;
 
   const getItemWidth = () => {
     if (itemsRef.current.length > 0 && itemsRef.current[0]) {
@@ -66,11 +64,11 @@ const AprilStyleSlider = () => {
   }, []);
 
   return (
-    <div className="item-container">
+    <div className={styles.itemContainer}>
       {imageDetails.map((imageDetail, index) => (
-        <div className="item" key={index} ref={(el) => (itemsRef.current[index] = el)}>
-          <img src={imageDetail.src} alt={imageDetail.alt} className="item__img" />
-          <a href={imageDetail.href} className="item__link">{imageDetail.text}</a>
+        <div className={styles.item} key={index} ref={(el) => (itemsRef.current[index] = el)}>
+          <img src={imageDetail.src} alt={imageDetail.alt} className={styles.itemImg} />
+          <a href={imageDetail.href} className={styles.itemLink}>{imageDetail.text}</a>
         </div>
       ))}
     </div>

@@ -1,10 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Paper } from '@mui/material';
 import ReviewArticleList from './ReviewArticleList';
 import TextReveal from '../Components/TextReveal';
-import RotatingText from '../Navigation/AppBar/RotatingText';
-import ResponsiveIframe from '../Components/ResponsiveIframe';
-import ProductReviewArticleList from './ProductReviewList';
 
 const ReviewHomePage = () => {
     const [iframeInteraction, setIframeInteraction] = useState(false);

@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import './Slider.css'; // Make sure the path to your CSS file is correct
+import styles from './Slider.module.css'; // Updated to use the CSS module
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle7.jpg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle8.jpg`;
@@ -64,11 +64,11 @@ const PhotoShootSlider = () => {
   }, []);
 
   return (
-    <div className="item-container">
+    <div className={styles.itemContainer}>
       {imageDetails.map((imageDetail, index) => (
-        <div className="item" key={index} ref={(el) => (itemsRef.current[index] = el)}>
-          <img src={imageDetail.src} alt={imageDetail.alt} className="item__img" />
-          <a href={imageDetail.href} className="item__link">{imageDetail.text}</a>
+        <div className={styles.item} key={index} ref={(el) => (itemsRef.current[index] = el)}>
+          <img src={imageDetail.src} alt={imageDetail.alt} className={styles.itemImg} />
+          <a href={imageDetail.href} className={styles.itemLink}>{imageDetail.text}</a>
         </div>
       ))}
     </div>
@@ -76,3 +76,4 @@ const PhotoShootSlider = () => {
 };
 
 export default PhotoShootSlider;
+
