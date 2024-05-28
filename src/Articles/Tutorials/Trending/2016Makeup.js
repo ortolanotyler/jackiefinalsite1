@@ -17,10 +17,10 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
   <div>
-      <div><TextReveal text='TRENDS' /></div>
-      <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-          <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
-      </div>
+    <div><TextReveal text='TRENDS' /></div>
+    <div className="card">
+      <div className="blog-content">{blogContent}</div>
+    </div>
   </div>
 );
 
@@ -28,64 +28,41 @@ const Makeup2016 = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
 
-
   const headingStyle = {
-      textAlign: 'center',
-      fontSize: '2.75rem',
-      fontWeight: 'normal',
-      fontFamily: 'GFS Didot, serif',
-      color: '#333',
-      marginTop: '0.95rem',
-      marginBottom: '0.95rem'
+    textAlign: 'center',
+    fontSize: '2rem',
+    fontWeight: 'normal',
+    fontFamily: 'Arapey, serif',
+    color: '#333',
+    margin: '1.5rem'
   };
 
   const paragraphStyle = {
-      fontSize: '21px',
-      fontFamily: 'GFS Didot, serif',
-      margin: '5rem',
-      marginTop: '3rem',
-      marginBottom: '3rem',
-      maxWidth: '100%',
-      lineHeight: '1.5em'
-  };
-
-  const imageStyle = {
-      display: 'block',
-      margin: '0 auto',
-      maxWidth: '100%',
-      maxHeight: '100%',
-      objectFit: 'cover',
-  };
-
-  const smallImageStyle = {
-      display: 'block',
-      margin: '0 1rem 1rem 0',
-      float: 'left',
-      maxWidth: '40%',
-      height: 'auto'
+    fontSize: '1rem',
+    fontFamily: 'GFS Didot, serif',
+    margin: '1rem 1.5rem',
+    maxWidth: '100%',
+    lineHeight: '1.5'
   };
 
   const blogContent = (
-      <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '22rem', marginTop: '5em' }}>
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-              <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-                  BEAUTY // TRENDS
-              </a>
-          </div>
+    <div className="container">
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
+        <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+          BEAUTY // TRENDS
+        </a>
+      </div>
+      <img src={title} alt="2016 Makeup Trends" style={{ width: '100%' }} />
 
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-              <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
-          </div>
+      <ResponsiveYoutube src="https://www.youtube.com/embed/HtEPH6RUEZg?si=8RIeZhrp-luWJTSI" title="2016 Makeup Tutorial" />
 
-          <ResponsiveYoutube src="https://www.youtube.com/embed/HtEPH6RUEZg?si=8RIeZhrp-luWJTSI" title="2016 Makeup Tutorial" />
+      <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <SubscribeButton />
+      </div>
 
-          <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <SubscribeButton />
-          </div>
-
-          <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
-              All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-          </p>
+      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+        All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+      </p>
 
       <DropCap text="Welcome back to another installment of Time Travel Tutorials...though this time, we're not journeying too far back in time! The makeup trends of 2016 were significantly influenced by the young Kylie Jenner, the undeniable 'IT' girl for teens. High-coverage foundations, LOTS of setting powder, sharp and bold dip brows, warm smokey eyes, glittery cut creases, voluminous mink lashes, and deep, matte lip combinations had beauty enthusiasts captivated!" />
 
@@ -94,20 +71,18 @@ const Makeup2016 = () => {
       </p>
 
       <a href="https://www.instagram.com/p/C43O7Q7OFuw/?hl=en" target="_blank" rel="noopener noreferrer">
-    <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={image1} alt="2016 Makeup Tutorial via Jackie Wyers on Instagram" style={imageStyle} />
-    </div>
-</a>
-
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <img src={image1} alt="2016 Makeup Tutorial via Jackie Wyers on Instagram" style={{ width: '100%', maxWidth: '650px' }} />
+        </div>
+      </a>
 
       <h2 style={headingStyle}>The Essence of 2016 Makeup</h2>
 
-<a href="https://www.youtube.com/watch?v=HtEPH6RUEZg&feature=youtu.be" target="_blank" rel="noopener noreferrer">
-    <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={image2} alt="Twiggy Eye Tutorial Jackie Wyers" style={imageStyle} />
-    </div>
-</a>
-
+      <a href="https://www.youtube.com/watch?v=HtEPH6RUEZg&feature=youtu.be" target="_blank" rel="noopener noreferrer">
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <img src={image2} alt="2016 Face Chart" style={{ width: '100%', maxWidth: '650px' }} />
+        </div>
+      </a>
 
       <p style={paragraphStyle}>
         To embody Kylie Jenner's look and celebrate the key trends of 2016, we must adopt a "more is more" mentality. Instead of focusing on enhancing just one feature, we're highlighting them all simultaneously. To ensure the skin still looks youthful and fresh with such a makeup style, preparation is crucial. In the video embedded above, I was sponsored by d'Alba, and I love and have consistently repurchased the d'Alba Italian White Truffle First Spray Serum. It’s an excellent initial step to infuse the skin with moisture. The product smells amazing and feels luxurious while being affordable.
@@ -247,19 +222,18 @@ const Makeup2016 = () => {
 
       <h2 style={headingStyle}>2016 Makeup Memories</h2>
 
-<a href="https://www.youtube.com/watch?v=HtEPH6RUEZg&feature=youtu.be" target="_blank" rel="noopener noreferrer">
-    <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={image3} alt="Twiggy Eye Tutorial Jackie Wyers" style={imageStyle} />
-    </div>
-</a>
-
+      <a href="https://www.youtube.com/watch?v=HtEPH6RUEZg&feature=youtu.be" target="_blank" rel="noopener noreferrer">
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <img src={image3} alt="2016 Makeup Tutorial" style={{ width: '100%', maxWidth: '650px' }} />
+        </div>
+      </a>
 
       <p style={paragraphStyle}>
         As a young adult and beauty content creator during this era, my personal style wasn't heavily swayed by Kylie Jenner, which means, regrettably, I don't have many throwback looks that embody the era's most popular makeup trends. However, I did adore Little Mix and even recreated Perrie Edwards' makeup from the iconic 2016 hit "Shout Out to My Ex.” That’s probably the most bold look I tried at the time. I’d like to think my photo retouching skills have improved since then… why am I yellow?😂
       </p>
 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={image4} alt="2016 Makeup Tutorial via Jackie Wyers on Instagram" style={imageStyle} />
+        <img src={image4} alt="Perrie Edwards Makeup via Jackie Wyers" style={{ width: '100%', maxWidth: '650px' }} />
       </div>
 
       <p style={paragraphStyle}>
@@ -267,32 +241,26 @@ const Makeup2016 = () => {
       </p>
 
       <p style={paragraphStyle}>
-  Thank you for reading and if you want to be featured on my site, submit your recreation or version of this look on my Insta <a href="https://www.instagram.com/jackiewyers/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>@jackiewyers</a>. I’d love to see you switch up your style with confidence!
-</p>
-
+        Thank you for reading and if you want to be featured on my site, submit your recreation or version of this look on my Insta <a href="https://www.instagram.com/jackiewyers/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>@jackiewyers</a>. I’d love to see you switch up your style with confidence!
+      </p>
 
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <a href="/lanablog" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={lana} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          <img src={lana} alt="Lana Del Rey" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
           MORE POP CULTURE BEAUTY →
         </a>
       </div>
 
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={signature} alt="2016 Makeup Tutorial via Jackie Wyers on Instagram" style={imageStyle} />
+      <div style={{ textAlign: 'center' }}>
+        <img src={signature} alt="Signature" style={{ width: '100%', maxWidth: '650px' }} />
       </div>
-      <Comments website-id={websiteId} pageId={"No-Makeup-Spring"} />
-
+      <Comments website-id={websiteId} pageId={"Makeup-2016"} />
     </div>
   );
 
   return (
-    <div ref={blogRef} style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center' }}>
-      <Card
-        title="No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition!"
-        description="Just a hint of color, just in time for spring"
-        blogContent={blogContent}
-      />
+    <div ref={blogRef}>
+      <Card blogContent={blogContent} />
     </div>
   );
 };

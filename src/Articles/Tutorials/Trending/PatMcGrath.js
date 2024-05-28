@@ -16,10 +16,10 @@ const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
   <div>
-      <div><TextReveal text='TRENDS' /></div>
-      <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-          <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
-      </div>
+    <div><TextReveal text='TRENDS' /></div>
+    <div className="card">
+      <div className="blog-content">{blogContent}</div>
+    </div>
   </div>
 );
 
@@ -27,77 +27,53 @@ const PatMcGrathPost = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
 
-
   const headingStyle = {
-      textAlign: 'center',
-      fontSize: '2.75rem',
-      fontWeight: 'normal',
-      fontFamily: 'GFS Didot, serif',
-      color: '#333',
-      marginTop: '0.95rem',
-      marginBottom: '0.95rem'
+    textAlign: 'center',
+    fontSize: '2rem',
+    fontWeight: 'normal',
+    fontFamily: 'Arapey, serif',
+    color: '#333',
+    margin: '1.5rem'
   };
 
   const paragraphStyle = {
-      fontSize: '21px',
-      fontFamily: 'GFS Didot, serif',
-      margin: '5rem',
-      marginTop: '3rem',
-      marginBottom: '3rem',
-      maxWidth: '100%',
-      lineHeight: '1.5em'
-  };
-
-  const imageStyle = {
-      display: 'block',
-      margin: '0 auto',
-      maxWidth: '100%',
-      maxHeight: '900px',
-      objectFit: 'cover',
-  };
-
-  const smallImageStyle = {
-      display: 'block',
-      margin: '0 1rem 1rem 0',
-      float: 'left',
-      maxWidth: '40%',
-      height: 'auto'
+    fontSize: '1rem',
+    fontFamily: 'GFS Didot, serif',
+    margin: '1rem 1.5rem',
+    maxWidth: '100%',
+    lineHeight: '1.5'
   };
 
   const blogContent = (
-      <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '22rem', marginTop: '5em' }}>
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-              <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-                  BEAUTY // TRENDS
-              </a>
-          </div>
+    <div className="container">
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
+        <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+          BEAUTY // TRENDS
+        </a>
+      </div>
+      <img src={title} alt="Pat McGrath's Porcelain Doll" style={{ width: '100%' }} />
 
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-              <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
-          </div>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-  <a href="https://www.instagram.com/p/C5dsVStuCqT/?img_index=1" target="_blank" rel="noopener noreferrer">
-    <img src={pat} alt="Sophia Loren in Arabesque" style={imageStyle} />
-  </a>
-</div>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <a href="https://www.instagram.com/p/C5dsVStuCqT/?img_index=1" target="_blank" rel="noopener noreferrer">
+          <img src={pat} alt="Pat McGrath's Porcelain Doll" style={{ width: '100%' }} />
+        </a>
+      </div>
 
+      <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <SubscribeButton />
+      </div>
 
-
-          <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <SubscribeButton />
-          </div>
-
-          <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
-              All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-          </p>
+      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+        All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+      </p>
 
       <DropCap text="Welcome back, beauties! Let's break down the incredible (and uber-viral) Porcelain Doll makeup looks by Pat McGrath & team, created for the Maison Margiela Spring/Summer '24 runway extravaganza. In a display of sheer genius, Pat McGrath and her team devised a groundbreaking technique, meticulously layering and airbrushing several peel-off masks over the makeup for a truly haute-couture spectacle, creating live porcelain dolls to grace the runway." />
       <p style={paragraphStyle}>
-      The TikTok beauty community was buzzing with speculation about how the iconic Pat McGrath achieved such doll-like skin perfection prior to Pat’s Masterclass over the weekend - and astoundingly, Erin Parsons—a celebrated makeup artist and makeup historian in her own right—hit the nail on the head with her prediction of this inventive technique.
-            </p>
+        The TikTok beauty community was buzzing with speculation about how the iconic Pat McGrath achieved such doll-like skin perfection prior to Pat’s Masterclass over the weekend - and astoundingly, Erin Parsons—a celebrated makeup artist and makeup historian in her own right—hit the nail on the head with her prediction of this inventive technique.
+      </p>
       <p style={paragraphStyle}>
-      As I watched the Margiela Masterclass this Saturday, I was glued to my screen, attentively watching and simultaneously recreating one of my favorite looks from the show as seen above. Here’s the scoop on what I learned and a step-by-step account of how I transformed myself into a hauntingly beautiful, poetic Victorian doll. Tap image below to be taken to my mini tutorial.
-            </p>
+        As I watched the Margiela Masterclass this Saturday, I was glued to my screen, attentively watching and simultaneously recreating one of my favorite looks from the show as seen above. Here’s the scoop on what I learned and a step-by-step account of how I transformed myself into a hauntingly beautiful, poetic Victorian doll. Tap image below to be taken to my mini tutorial.
+      </p>
 
       <a href="https://www.instagram.com/jackiewyers/reel/C24-VgZOcOl/" target="_blank" rel="noopener noreferrer">
         <img src={Pat2} alt="Pat McGrath Double" style={{ width: '100%' }} />
@@ -114,10 +90,7 @@ const PatMcGrathPost = () => {
         In the masterclass, it was demonstrated that PAT MCGRATH LABS | Divine Skin Rose 001 The Essence was applied to ensure hydration and longevity of makeup, along with the Skin Fetish: Sublime Perfection Primer. For models with paler complexions, a white shade from Kryolan was mixed into the Skin Fetish: Sublime Perfection Foundation and Concealer to enhance the porcelain effect.
       </p>
 
-      <ResponsiveIframe
-        src="https://shopmy.us/collections/public/494232?noHeader=true"
-        title="Collection name here"
-      />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/494232?noHeader=true" title="Pat McGrath Products" />
 
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
@@ -130,10 +103,7 @@ const PatMcGrathPost = () => {
         The face wasn't powdered after foundation, as the airbrushed peel-off mask adhered better to cream-based products. However, the Skin Fetish: Sublime Perfection Blurring Under-Eye Powder was used for setting the area directly under the eyes. A new light pink powder was teased on the live, which is worth trying upon its release!
       </p>
 
-      <ResponsiveIframe
-        src="https://shopmy.us/collections/public/494244?noHeader=true"
-        title="Collection name here"
-      />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/494244?noHeader=true" title="Pat McGrath Products" />
 
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
@@ -144,10 +114,7 @@ const PatMcGrathPost = () => {
         Blush was emphasized as a key element in each look. The Divine Blush: Legendary Glow Colour Balm in Peach Lotus was a popular choice throughout the show. To intensify the cheek color and ensure long wear, the Skin Fetish: Divine Blush was applied. The blush should extend from the apple of the cheek upwards, nearing the eye, allowing the eyeshadow to seamlessly transition into the blush for an avant-garde style.
       </p>
 
-      <ResponsiveIframe
-        src="https://shopmy.us/collections/public/494255?noHeader=true"
-        title="Collection name here"
-      />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/494255?noHeader=true" title="Pat McGrath Products" />
 
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
@@ -155,10 +122,8 @@ const PatMcGrathPost = () => {
 
       <h2 style={headingStyle}>Brows & Painterly Eyes</h2>
       <p style={paragraphStyle}>
-  The models all had bleached brows, but for my version, I did the block-out brow method by using purple Elmer's glue.  <a href="https://www.youtube.com/watch?v=gGbiXF2ohr0" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
-      See this drag technique here</a>  if you want a breakdown!
-</p>
-
+        The models all had bleached brows, but for my version, I did the block-out brow method by using purple Elmer's glue. <a href="https://www.youtube.com/watch?v=gGbiXF2ohr0" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>See this drag technique here</a> if you want a breakdown!
+      </p>
       <p style={paragraphStyle}>
         Then, high half-moon shapes were drawn for eyebrows using Pat McGrath Permagel Ultra Glide Eye Pencil in Blk Coffee. Instead of a solid line, try delicate brow strokes.
       </p>
@@ -172,10 +137,7 @@ const PatMcGrathPost = () => {
         By blending grungy shadows with pastels and extending upwards through the brow bone, the result was dramatic yet “poetic" as Pat described. I went with a pop of pastel blue at the center of the lid and optional, but several models had a gloss (Lust Lip Gloss - Peach Perversion) over the lid as well. For lashes, curl and applying a lengthening mascara like Fetish Eyes Mascara. I chose to build up the lashes for a more doll-like effect, with a white eyeliner in the waterline.
       </p>
 
-      <ResponsiveIframe
-        src="https://shopmy.us/collections/public/494263?noHeader=true"
-        title="Collection name here"
-      />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/494263?noHeader=true" title="Pat McGrath Products" />
 
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
@@ -189,10 +151,7 @@ const PatMcGrathPost = () => {
         While each model presented a unique look, the key was to avoid harsh lines, embracing a more blurred, theatrical aesthetic.
       </p>
 
-      <ResponsiveIframe
-        src="https://shopmy.us/collections/public/494266?noHeader=true"
-        title="Collection name here"
-      />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/494266?noHeader=true" title="Pat McGrath Products" />
 
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
@@ -209,10 +168,7 @@ const PatMcGrathPost = () => {
         I recommend the Temptu airbrush since it is beginner-friendly and affordable for an airbrush. Although only the Freeman peel-off mask was available near me, it proved to be effective diluted with water.
       </p>
 
-      <ResponsiveIframe
-        src="https://shopmy.us/collections/public/494277?noHeader=true"
-        title="Collection name here"
-      />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/494277?noHeader=true" title="Pat McGrath Products" />
 
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
@@ -229,10 +185,7 @@ const PatMcGrathPost = () => {
         Finally, once you have a base mask that is already dried, you can amp up the shine by using more of the mask mix painted straight on, instead of using the airbrush. Add a bit of the Skin Illustrator Ink - Clear Gloss over the lip for added shine.
       </p>
 
-      <ResponsiveIframe
-        src="https://shopmy.us/collections/public/494282?noHeader=true"
-        title="Collection name here"
-      />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/494282?noHeader=true" title="Pat McGrath Products" />
 
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
@@ -248,27 +201,22 @@ const PatMcGrathPost = () => {
 
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <a href="/2016makeup" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={makeup2016} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          <img src={makeup2016} alt="More Beauty Trends" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
           MORE BEAUTY TRENDS →
         </a>
       </div>
 
-      <img src={Signature} alt='Jackie Wyers Signature' style={{ width: '100%' }} />
-      <Comments website-id={websiteId} page-id={'PatMcGrathhy'} />
+      <div style={{ textAlign: 'center' }}>
+        <img src={Signature} alt='Jackie Wyers Signature' style={{ width: '100%', maxWidth: '650px' }} />
+      </div>
 
+      <Comments website-id={websiteId} page-id="PatMcGrathhy" />
     </div>
   );
 
   return (
-    <div>
-    
-      <div ref={blogRef} style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center' }}>
-        <Card
-          title="Pat McGrath's Porcelain Doll"
-          description="Come on Barbie, Let’s get Glam!"
-          blogContent={blogContent}
-        />
-      </div>
+    <div ref={blogRef}>
+      <Card blogContent={blogContent} />
     </div>
   );
 };

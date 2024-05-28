@@ -66,10 +66,9 @@ const NoMakeUpSpring = () => {
         </p>
       </div>
 
-      <DropCap text="Welcome back for some quick no-makeup makeup inspiration for spring, inspired by timeless beauty icons from beloved tv & film. Now that it's spring, I find myself drawn to the artful simplicity of the no-makeup makeup look, inspired by some of pop culture's most enduring female characters. Their spirit, captured in timeless stories, now breathes life into my spring beauty routine. "/>
+      <DropCap text="Welcome back for some quick no-makeup makeup inspiration for spring, inspired by timeless beauty icons from beloved tv & film. Now that it's spring, I find myself drawn to the artful simplicity of the no-makeup makeup look, inspired by some of pop culture's most enduring female characters. Their spirit, captured in timeless stories, now breathes life into my spring beauty routine." />
 
       <h2 style={headingStyle}>The Looks: Elizabeth Bennet - Pride & Prejudice</h2>
-
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <a href="https://www.instagram.com/p/C5dsVStuCqT/?img_index=1" target="_blank" rel="noopener noreferrer">
           <img src={image1} alt="Elizabeth Bennet - Pride & Prejudice" style={{ width: '100%', maxWidth: '650px' }} />
@@ -84,7 +83,6 @@ const NoMakeUpSpring = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/524423?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
@@ -104,7 +102,6 @@ const NoMakeUpSpring = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/524425?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
@@ -124,7 +121,6 @@ const NoMakeUpSpring = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/524428?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
@@ -144,7 +140,6 @@ const NoMakeUpSpring = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/524428?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
@@ -164,7 +159,6 @@ const NoMakeUpSpring = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/524432?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
@@ -184,7 +178,6 @@ const NoMakeUpSpring = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/524436?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
@@ -204,7 +197,6 @@ const NoMakeUpSpring = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/524438?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
