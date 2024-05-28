@@ -61,6 +61,8 @@ import './App.css'; // Ensure you have imported the App.css file
 import DiaryPost1Fillers from './Articles/Diary/DiaryFillers';
 import DiarySlider from './DiaryHome/diaryhome';
 import BusinessContact from './Components/BusinessContact';
+import NinetiesStyle from './Shop/ShopMyHomeLinks/NINETIESSTYLE';
+import PinkLeather from './Shop/ShopMyHomeLinks/PinkLeather';
 
 function App() {
   return (
@@ -123,6 +125,9 @@ function App() {
           <Route path="privacy" element={<PrivacyNotice />} />
           <Route path="contact" element={<BusinessContact />} /> {/* New route for BusinessContact */}
           <Route path="speed-insights" element={<SpeedInsights />} />
+          <Route path="90sVibes" element={<NinetiesStyle/>} />
+          <Route path="leatherandlace" element={<PinkLeather/>} />
+
       
           <Route path="*" element={<h1>404 Not Found</h1>} />
         </Route>

@@ -5,35 +5,30 @@ const image1 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle1.jpg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle2.jpg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle3.jpg`;
 
-
-
 const imageDetails = [
   {
     src: image1,
+    text: "CENTRAL PARK SUMMER",
     alt: "Image 1 description",
-    text: "CENTRAL PARK SUMMER"
+    href: "/centralparksummer"
   },
   {
     src: image2,
+    text: "RETRO FLORAL",
     alt: "Image 2 description",
-    text: "RETRO FLORAL"
+    href: "/retrofloral"
   },
   {
     src: image3,
+    text: "PARIS PRINCESS",
     alt: "Image 3 description",
-    text: "PARIS PRINCESS"
+    href: "/parisprincess"
   },
-  // Add more images and texts as needed
 ];
-
-
-const images = [image1, image2, image3 ];
 
 const ItemSlider = () => {
   const [numClicks, setNumClicks] = useState(0);
   const itemsRef = useRef([]);
-
-  const maxClicks = images.length - 3;
 
   const getItemWidth = () => {
     if (itemsRef.current.length > 0 && itemsRef.current[0]) {
@@ -47,18 +42,6 @@ const ItemSlider = () => {
       );
     }
     return 0;
-  };
-
-  const handleLeftClick = () => {
-    if (numClicks !== 0) {
-      setNumClicks(numClicks - 1);
-    }
-  };
-
-  const handleRightClick = () => {
-    if (numClicks !== maxClicks) {
-      setNumClicks(numClicks + 1);
-    }
   };
 
   useEffect(() => {
@@ -77,21 +60,23 @@ const ItemSlider = () => {
   }, [numClicks]);
 
   useEffect(() => {
-    // Call getItemWidth when the component mounts to ensure itemsRef is set up.
     getItemWidth();
   }, []);
 
   return (
     <div className="item-container">
       {imageDetails.map((imageDetail, index) => (
-        <div className="item" key={index}>
+        <div className="item" key={index} ref={(el) => (itemsRef.current[index] = el)}>
           <img src={imageDetail.src} alt={imageDetail.alt} className="item__img" />
-          <p className="item__link">{imageDetail.text}</p>
+          <a href={imageDetail.href} className="item__link">{imageDetail.text}</a>
         </div>
       ))}
     </div>
   );
 };
 
-
 export default ItemSlider;
+
+
+
+

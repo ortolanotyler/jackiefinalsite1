@@ -5,22 +5,24 @@ const image1 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle10.jpg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle11.jpg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle12.jpg`;
 
-
 const imageDetails = [
   {
     src: image1,
     text: "BARBIE GOES SKIING",
-    alt: "Image 1"
+    alt: "Image 1",
+    href: "/barbiegoesskiing"
   },
   {
     src: image2,
     text: "BLACK & LEATHER",
-    alt: "Image 2"
+    alt: "Image 2",
+    href: "/blackandleather"
   },
   {
     src: image3,
     text: "CABIN FEVER",
-    alt: "Image 3"
+    alt: "Image 3",
+    href: "/cabinfever"
   },
 ];
 
@@ -66,9 +68,9 @@ const AprilStyleSlider = () => {
   return (
     <div className="item-container">
       {imageDetails.map((imageDetail, index) => (
-        <div className="item" key={index}>
+        <div className="item" key={index} ref={(el) => (itemsRef.current[index] = el)}>
           <img src={imageDetail.src} alt={imageDetail.alt} className="item__img" />
-          <p className="item__link">{imageDetail.text}</p>
+          <a href={imageDetail.href} className="item__link">{imageDetail.text}</a>
         </div>
       ))}
     </div>

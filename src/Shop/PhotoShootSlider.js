@@ -1,34 +1,34 @@
-import React, { useState, useEffect, useRef } from 'react';
-import './Slider.css';
+import React, { useEffect, useState, useRef } from 'react';
+import './Slider.css'; // Make sure the path to your CSS file is correct
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle7.jpg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle8.jpg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle9.jpg`;
 
-
 const imageDetails = [
   {
     src: image1,
     text: "90's VIBES",
-    alt: "Image 1"
+    alt: "Image 1",
+    href: "/90svibes"
   },
   {
     src: image2,
     text: "SLEEK SPRING",
-    alt: "Image 2"
+    alt: "Image 2",
+    href: "/sleekspring"
   },
   {
     src: image3,
-    text: "LEATHER AND LACE",
-    alt: "Image 3"
+    text: "PINK AND LEATHER",
+    alt: "Image 3",
+    href: "/leatherandlace"
   },
 ];
 
 const PhotoShootSlider = () => {
   const [numClicks, setNumClicks] = useState(0);
   const itemsRef = useRef([]);
-
-  const maxClicks = imageDetails.length - 3;
 
   const getItemWidth = () => {
     if (itemsRef.current.length > 0 && itemsRef.current[0]) {
@@ -66,9 +66,9 @@ const PhotoShootSlider = () => {
   return (
     <div className="item-container">
       {imageDetails.map((imageDetail, index) => (
-        <div className="item" key={index}>
+        <div className="item" key={index} ref={(el) => (itemsRef.current[index] = el)}>
           <img src={imageDetail.src} alt={imageDetail.alt} className="item__img" />
-          <p className="item__link">{imageDetail.text}</p>
+          <a href={imageDetail.href} className="item__link">{imageDetail.text}</a>
         </div>
       ))}
     </div>

@@ -39,23 +39,15 @@ const MyStyle = () => {
 
   return (
     <div style={{ backgroundColor: 'white' }}>
-   
-          <TextReveal text = "SHOP MY STYLE" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'Arapey' }} />
-
+      <TextReveal text="SHOP MY STYLE" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'Arapey' }} />
       <div style={sectionStyle}></div>
       <ItemSlider />
-   
-            <PhotoShootSlider />
-    
-
+      <PhotoShootSlider />
       <AprilStyleSlider />
-    
       <FallWinterSlider />
-     
       <Comments website-id={'10910'} pageId={"mystyle"} /> {/* Unique identifier for this blog post */}
     </div>
   );
 };
 
 export default MyStyle;
-

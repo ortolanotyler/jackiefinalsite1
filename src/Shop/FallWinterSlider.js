@@ -1,36 +1,34 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Slider.css'; // Make sure the path to your CSS file is correct
 
-// Import your images
 const image1 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle4.jpg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle5.jpg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle6.jpg`;
-
 
 const imageDetails = [
   {
     src: image1,
     text: "MANHATTAN COOL",
-    alt: "Fall / Winter Outfit 1"
+    alt: "Fall / Winter Outfit 1",
+    href: "/manhattancool"
   },
   {
     src: image2,
     text: "FALL LBD",
-    alt: "Fall / Winter Outfit 2"
+    alt: "Fall / Winter Outfit 2",
+    href: "/falllbd"
   },
   {
     src: image3,
     text: "DARK FLORALS",
-    alt: "Fall / Winter Outfit 3"
+    alt: "Fall / Winter Outfit 3",
+    href: "/darkflorals"
   },
-
 ];
 
 const FallWinterSlider = () => {
   const [numClicks, setNumClicks] = useState(0);
   const itemsRef = useRef([]);
-
-  // Removed maxClicks as it is no longer needed without buttons
 
   const getItemWidth = () => {
     if (itemsRef.current.length > 0 && itemsRef.current[0]) {
@@ -45,8 +43,6 @@ const FallWinterSlider = () => {
     }
     return 0;
   };
-
-  // Removed handleLeftClick and handleRightClick as they are no longer needed without buttons
 
   useEffect(() => {
     const handleResize = () => {
@@ -70,9 +66,9 @@ const FallWinterSlider = () => {
   return (
     <div className="item-container">
       {imageDetails.map((imageDetail, index) => (
-        <div className="item" key={index}>
+        <div className="item" key={index} ref={(el) => (itemsRef.current[index] = el)}>
           <img src={imageDetail.src} alt={imageDetail.alt} className="item__img" />
-          <p className="item__link">{imageDetail.text}</p>
+          <a href={imageDetail.href} className="item__link">{imageDetail.text}</a>
         </div>
       ))}
     </div>
