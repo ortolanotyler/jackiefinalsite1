@@ -38,7 +38,8 @@ const HalfetiReview = () => {
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
     maxWidth: '100%',
-    lineHeight: '1.5'
+    lineHeight: '1.5',
+    padding: '0 1rem'
   };
 
   const imageContainerStyle = {
@@ -74,7 +75,7 @@ const HalfetiReview = () => {
         <img src={profile} alt="Halfeti Perfume Profile" style={imageStyle} />
       </div>
 
-      <div style={{ textAlign: 'center', fontSize: '1.25rem', fontFamily: 'GFS Didot, serif', margin: '1rem 0' }}>
+      <div style={{ textAlign: 'center', fontSize: '1.25rem', fontFamily: 'GFS Didot, serif', margin: '1rem 1' }}>
         Perfume Name: <strong>Halfeti</strong><br /><br />
         Brand: <strong>Penhaligon’s</strong><br /><br />
         Year of Release: <strong>2015</strong><br /><br />

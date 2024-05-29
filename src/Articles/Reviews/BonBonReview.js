@@ -71,7 +71,7 @@ const BonBonReview = () => {
 
       <h2 style={headingStyle}>🍊 Perfume Profile</h2>
 
-      <div style={{ textAlign: 'center', fontSize: '1.25rem', fontFamily: 'GFS Didot, serif', margin: '1rem 0' }}>
+      <div style={{ textAlign: 'center', fontSize: '1.25rem', fontFamily: 'GFS Didot, serif', margin: '1rem 1' }}>
         Perfume Name: <strong>Bonbon</strong><br /><br />
         Brand: <strong>Viktor & Rolf</strong><br /><br />
         Year of Release: <strong>2014</strong><br /><br />
@@ -89,7 +89,7 @@ const BonBonReview = () => {
 
       <h2 style={headingStyle}>🍬 Fragrance Profile</h2>
 
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', fontSize: '1.25rem', fontFamily: 'GFS Didot, serif', margin: '1rem', maxWidth: '100%', marginLeft: '0em' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', fontSize: '1.25rem', fontFamily: 'GFS Didot, serif', margin: '1rem', maxWidth: '100%'}}>
         <div style={{ marginBottom: '0.5rem' }}>
           <strong>Concentration:</strong> Eau de Parfum
         </div>

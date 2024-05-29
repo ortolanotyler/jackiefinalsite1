@@ -18,24 +18,30 @@ const Sitemap = () => {
         { path: "/twiggy", title: "Twiggy Makeup Tutorial" },
         { path: "/yardley1965", title: "Yardley 1965 Vintage Vibes" },
         { path: "/gracekelly", title: "Grace Kelly Vintage Makeup" },
-        { path: "/balkeBlog", title: "Blake Vintage Vibes" },
+        { path: "/balkeblog", title: "Balke Vintage Vibes" },
     ];
 
     const stylePosts = [
         { path: "/mystyle", title: "MyStyle Home" },
         { path: "/vintagevibesmerch", title: "Vintage Vibes Merchandise" },
+        { path: "/90sVibes", title: "90s Vibes" },
+        { path: "/leatherandlace", title: "Leather and Lace" },
     ];
 
     const siteResources = [
         { path: "/", title: "Home" },
-        { path: "/sitemap", title: "SiteMap" },
         { path: "/about", title: "About" },
-        { path: "/mediakit", title: "Press and Media Inquiries" },
+        { path: "/sitemap", title: "SiteMap" },
+        { path: "/press", title: "Press and Media Inquiries" },
         { path: "/subscribe", title: "Newsletter Sign Up" },
         { path: "/quiz", title: "Quiz Home" },
+      
         { path: "/quiz2", title: "Quiz 2" },
         { path: "/vlogs", title: "Vlogs Home" },
         { path: "/travel", title: "Travel Home" },
+        { path: "/contact", title: "Contact" },
+        { path: "/privacy", title: "Privacy Notice" },
+        { path: "/speed-insights", title: "Speed Insights" },
     ];
 
     const travelPosts = [

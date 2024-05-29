@@ -6,8 +6,9 @@ const ResponsiveIframe = ({ src, title }) => {
 
   useEffect(() => {
     const checkResize = () => {
-      const matched = window.matchMedia("(max-width: 1200px)").matches;
-      setAllowScrolling(matched);
+      const screenWidth = window.innerWidth;
+      // Allow scrolling if screen width is below 900px
+      setAllowScrolling(screenWidth <= 900);
     };
 
     window.addEventListener('resize', checkResize);

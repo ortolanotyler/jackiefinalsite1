@@ -1,10 +1,10 @@
 import React, { useRef } from 'react';
-import styles from './AnimalPretty.module.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
+import TextReveal from '../../../Components/TextReveal';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import TextReveal from '../../../Components/TextReveal';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
+import styles from './AnimalPretty.module.css';
 
 const button = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/AnimalQuizResults.jpeg`;
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyTitleResults.png`;
@@ -14,11 +14,8 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => {
   return (
-    <div>
-   
-      <div className={styles.card} style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-        <div className={styles.blogContent} style={{ lineHeight: '1.2' }}>{blogContent}</div>
-      </div>
+    <div className={styles.card}>
+      <div className={styles.blogContent}>{blogContent}</div>
     </div>
   );
 };
@@ -29,218 +26,115 @@ const BunnyPretty = () => {
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '2.5rem',
+    fontSize: '2rem',
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',
-    margin: '2em'
+    margin: '1.5rem'
   };
 
   const paragraphStyle = {
-    fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', marginTop: '1rem', margin: '2.5rem', maxWidth: '100%', padding: '1rem',
+    fontSize: '1rem',
+    fontFamily: 'GFS Didot, serif',
+    margin: '1rem 1.5rem',
+    maxWidth: '100%',
+    lineHeight: '1.5'
   };
 
   const blogContent = (
-    <div className={styles.container} style={{ lineHeight: '2.5em', margin: '20em', marginTop: '25px' }}>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-        <a href="/quiz2" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
-          BEAUTY // QUIZ // BUNNY PRETTY
-        </a>
+    <div className={styles.container}>
+      <div className={styles.linkContainer}>
+        <a href="/quiz2" className={styles.link}>BEAUTY // QUIZ // BUNNY PRETTY</a>
       </div>
-      <img src={title} alt="BUNNY PRETTY - QUIZ RESULTS" style={{ width: '100%' }} />
+      <img src={title} alt="BUNNY PRETTY - QUIZ RESULTS" className={styles.titleImage} />
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/c9-8K8AF5rg?si=-MEfA2g3jPJNwUzx" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
 
-      
-      <div
-      style = {{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center'
-      }}
-      >
-      <SubscribeButton />
+      <div className={styles.subscribeContainer}>
+        <SubscribeButton />
       </div>
 
       <p style={paragraphStyle}>
-      <strong>
-      Bunny Pretty: Cute and Angelic
-(Bunny Beauty Tutorial starts at 5:31)
-        </strong>
-      </p>
- 
-      <p style={paragraphStyle}>
-      You are the sweet and playful Bunny Pretty,
-with a love for soft pastels and a
-makeup style that’s as cute and angelic as it
-is vibrant. Your bubbly personality and love
-for social gatherings are perfectly reflected
-in the pink hues and glossy finishes of your
-makeup, mirroring a bunny's gentle charm.
-        </p>
-
-
-      <p style={paragraphStyle}>
-      The soft wash of pink on your lids and the
-rosy flush on your cheeks highlight your
-youthful and energetic spirit.
-
+        <strong>Bunny Pretty: Cute and Angelic (Bunny Beauty Tutorial starts at 5:31)</strong>
       </p>
 
       <p style={paragraphStyle}>
-Embrace flowing fabrics and flirty dresses
-in pastel colours that enhance your
-adorable Bunny Pretty look, making you the
-epitome of sweetness and playfulness. Read
-further for makeup recommendations
+        You are the sweet and playful Bunny Pretty, with a love for soft pastels and a makeup style that’s as cute and angelic as it is vibrant. Your bubbly personality and love for social gatherings are perfectly reflected in the pink hues and glossy finishes of your makeup, mirroring a bunny's gentle charm.
       </p>
 
-      <div
-      style = {{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center'
-      }}
-      >
+      <p style={paragraphStyle}>
+        The soft wash of pink on your lids and the rosy flush on your cheeks highlight your youthful and energetic spirit.
+      </p>
 
-<img src={image2} alt="Bunny Pretty" style={{ width: '50%' }} />
+      <p style={paragraphStyle}>
+        Embrace flowing fabrics and flirty dresses in pastel colours that enhance your adorable Bunny Pretty look, making you the epitome of sweetness and playfulness. Read further for makeup recommendations.
+      </p>
 
-
+      <div className={styles.imageContainer}>
+        <img src={image2} alt="Bunny Pretty" className={styles.image} />
       </div>
 
-<p style={paragraphStyle}>
-Celebrity Inspirations:
-Elle Fanning is the epitome of Bunny
-Pretty with her angelic presence. Other
-stars like Amandla Stenberg and Zendaya
-also beautifully pull off this style,
-showcasing how versatile and flattering it
-can be across different skin tones.
-</p>
+      <p style={paragraphStyle}>
+        Celebrity Inspirations: Elle Fanning is the epitome of Bunny Pretty with her angelic presence. Other stars like Amandla Stenberg and Zendaya also beautifully pull off this style, showcasing how versatile and flattering it can be across different skin tones.
+      </p>
 
-<h2 style={headingStyle} >
-Achieve the Bunny Pretty Look :
-</h2>
+      <h2 style={headingStyle}>Achieve the Bunny Pretty Look :</h2>
 
-<p style={paragraphStyle}>  
-Eyes: Apply a soft wash of pink over your
-lids, adding a touch of shimmer to the brow
-bone and inner corners to brighten and
-open up the eye area. Charlotte Tilbury
-Pillow Talk Eyeshadow Palette is a
-beautiful option.
-</p>
+      <p style={paragraphStyle}>
+        Eyes: Apply a soft wash of pink over your lids, adding a touch of shimmer to the brow bone and inner corners to brighten and open up the eye area. Charlotte Tilbury Pillow Talk Eyeshadow Palette is a beautiful option.
+      </p>
 
-<ResponsiveIframe src="https://shopmy.us/collections/public/552851?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-<p style={{ textAlign: 'RIGHT', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
-                    CONTAINS: AFFILIATE LINKS
-                </p>
+      <ResponsiveIframe src="https://shopmy.us/collections/public/552851?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
+      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
-<p style={paragraphStyle}>
-Lashes: Curl your lashes for a natural lift,
-focusing on the upper lashes only to keep
-the look light and fresh. Try ISOPIA Iso-
-Gentle Harmony Lashes for extra length.
+      <p style={paragraphStyle}>
+        Lashes: Curl your lashes for a natural lift, focusing on the upper lashes only to keep the look light and fresh. Try ISOPIA Iso-Gentle Harmony Lashes for extra length.
+      </p>
 
-</p>
+      <ResponsiveIframe src="https://shopmy.us/collections/public/552853?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
+      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
-<ResponsiveIframe src="https://shopmy.us/collections/public/552853?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-<p style={{ textAlign: 'RIGHT', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
-                    CONTAINS: AFFILIATE LINKS
-                </p>
+      <p style={paragraphStyle}>
+        Cheeks: Embrace a rosy flush with a heavier application of blush. Milani Coral Cove is an excellent choice for a warmer pink, while Rare Beauty's blush in Happy suits cooler undertones. Don't be shy with the blush to achieve that vibrant, youthful glow.
+      </p>
 
-<p style={paragraphStyle}>
-Cheeks: Embrace a rosy flush with a
-heavier application of blush. Milani Coral
-Cove is an excellent choice for a warmer
-pink, while Rare Beauty's blush in Happy
-suits cooler undertones. Don't be shy with
-the blush to achieve that vibrant, youthful
-glow.
-</p>
+      <ResponsiveIframe src="https://shopmy.us/collections/public/552854?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
+      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
-<ResponsiveIframe src="https://shopmy.us/collections/public/552854?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-<p style={{ textAlign: 'RIGHT', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
-                    CONTAINS: AFFILIATE LINKS
-                </p>
+      <p style={paragraphStyle}>
+        Lips: Start with a nude pink lip liner to define your lips, then layer on the Sephora Collection Pink Pout Lipgloss for a glossy, vibrant finish that complements the blushy cheeks.
+      </p>
 
-<p style={paragraphStyle}>
+      <ResponsiveIframe src="https://shopmy.us/collections/public/552857?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
+      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
-Lips: Start with a nude pink lip liner to
-define your lips, then layer on the Sephora
-Collection Pink Pout Lipgloss for a glossy,
-vibrant finish that complements the blushy
-cheeks.  
-</p>
+      <p style={paragraphStyle}>
+        Outfit Inspiration: Lean into the Bunny Pretty theme with soft, flowing fabrics in pinks tones. Try flirty dresses in pastel colours that enhance the sweetness of this look. Brands like For Love & Lemons offer a variety of options that can perfectly complement the Bunny Pretty makeup.
+      </p>
 
-<ResponsiveIframe src="https://shopmy.us/collections/public/552857?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-<p style={{ textAlign: 'RIGHT', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
-                    CONTAINS: AFFILIATE LINKS
-                </p>
+      <p style={paragraphStyle}>
+        Additionally, accessories from Fable England, such as bunny-themed jewelry, can add a whimsical touch to complete your outfit as mentioned in the looks above.
+      </p>
 
-<p style={paragraphStyle}>
+      <ResponsiveIframe src="https://shopmy.us/collections/public/552860?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
+      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
-Outfit Inspiration:
-Lean into the Bunny Pretty theme with
-soft, flowing fabrics in pinks tones. Try flirty
-dresses in pastel colours that enhance the
-sweetness of this look. Brands like For
-Love & Lemons offer a variety of options
-that can perfectly complement the Bunny
-Pretty makeup.
-</p>
+      <p style={paragraphStyle}>
+        I hope this quiz inspires you to play with these animal-inspired beauty looks. Which "Type of Pretty" are you leaning towards? Dive into the quiz on my website and I hope the full length tutorials on my channel inspire you to try a new look <a href='/tutorials' alt=''>here</a>!
+      </p>
 
-<p style={paragraphStyle}>
-Additionally, accessories from Fable
-England, such as bunny-themed jewelry,
-can add a whimsical touch to complete your
-outfit as mentioned in the looks above.
-</p>
-
-<ResponsiveIframe src="https://shopmy.us/collections/public/552860?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-<p style={{ textAlign: 'RIGHT', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
-                    CONTAINS: AFFILIATE LINKS
-                </p>
-
-<p style={paragraphStyle}>
-I hope this quiz inspires you to play with
-these animal-inspired beauty looks. Which
-"Type of Pretty" are you leaning towards?
-Dive into the quiz on my website and I
-hope the full length tutorials on my
-channel inspire you to try a new look  <a href = '/tutorials' alt = '' > here</a> !
-</p>
-
-<div
-      style = {{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center'
-      }}
-      >
-
-<img src={final} alt="Bunny Pretty" style={{ width: '50%' }} />
-
-
+      <div className={styles.imageContainer}>
+        <img src={final} alt="Bunny Pretty" className={styles.image} />
       </div>
 
-      <img src={signature} alt="Jackie Wyers Signature" style={{ width: '100%' }} />
+      <img src={signature} alt="Jackie Wyers Signature" className={styles.signatureImage} />
       <Comments website-id={websiteId} pageId={"Bunny-Pretty-Results"} />
     </div>
   );
 
   return (
     <div ref={blogRef}>
-      <Card
-        title="Bunny Pretty"
-        description="Beauty // Quiz // Bunny Pretty"
-        blogContent={blogContent}
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          textAlign: 'left'
-        }}
-      />
+      <Card blogContent={blogContent} />
     </div>
   );
 };
