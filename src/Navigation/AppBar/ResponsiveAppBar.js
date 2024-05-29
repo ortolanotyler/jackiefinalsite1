@@ -537,7 +537,7 @@ function ResponsiveAppBar() {
                     fontFamily: 'GFS Didot, serif',
                     padding: '0.5rem', // Half the padding of the original button
                     fontSize: '1rem', // Smaller font size
-                    boxShadow: '0 4px 8px rgba(0, 0, 1, 0.1)', // Add a shadow
+                    boxShadow: '0 4px 8px rgba(0, 0.5, 0.5, 0.25)', // Add a shadow
                     '&:hover': {
                       backgroundColor: '#fdedef',
                       color: '#745B4F',

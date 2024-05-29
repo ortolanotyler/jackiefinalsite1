@@ -31,15 +31,6 @@ const imageDetails = [
 const ShopMySlider = () => {
 
 
-
-
-
-
-
-   
-
-
-
   return (
     <div className="item-container">
       {imageDetails.map((imageDetail, index) => (
