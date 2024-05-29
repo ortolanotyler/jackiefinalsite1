@@ -30,14 +30,14 @@ const ResponsiveIframe = ({ src, title }) => {
   return (
     <iframe
       width="100%"
-      height='400px'
+      height="400px"
       title={title}
       src={src}
-      className="embed-container"
       scrolling={allowScrolling ? 'yes' : 'no'}
       style={{
         border: 'none',
         pointerEvents: iframeInteraction ? 'auto' : 'none',
+        overflow: allowScrolling ? 'auto' : 'hidden', // Ensure overflow is managed correctly
       }}
       onPointerEnter={handleIframePointerEnter}
       onPointerLeave={handleIframePointerLeave}
