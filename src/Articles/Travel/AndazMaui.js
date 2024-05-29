@@ -171,35 +171,40 @@ const AndazMauiReview = () => {
             <p style={paragraphStyle}>
                 One of the top reasons to book a stay at Andaz Maui is to enjoy the pristine Mokapu and Wailea Beaches. Swimming in the crystal-clear, warm waters with breathtaking views was an unforgettable experience. We reveled in the sunshine on the soft, white sand and engaged in exciting water activities like paddle boarding, kayaking, and snorkeling. Discovering brightly colored fish and turtles near the shore was truly remarkable.
             </p>
+            <img src={images[10]} alt="Maui beach 2" style={imageStyle} />
+
             <div style={gridContainerStyle}>
-                <img src={images[10]} alt="Maui beach 2" style={imageStyle} />
-                <img src={images[11]} alt="Maui beach 3" style={imageStyle} />
+            <img src={images[15]} alt="Maui spa" style={imageStyle} />
             </div>
+            <p style={paragraphStyle}>
+                Within the resort, we spent our days lounging on sun loungers, hopping between pools, and sipping drinks at the tiki bars—a perfect way to relax and soak in the ambiance.
+            </p>
 
             <div style={gridContainerStyle}>
                 <img src={images[12]} alt="Maui beach 4" style={imageStyle} />
                 <img src={images[13]} alt="Maui pool 1" style={imageStyle} />
+                <img src={images[14]} alt="Maui pool 2" style={imageStyle} />
+                <img src={images[11]} alt="Maui beach 3" style={imageStyle} />
+
             </div>
 
             <p style={paragraphStyle}>
                 Within the resort, we spent our days lounging on sun loungers, hopping between pools, and sipping drinks at the tiki bars—a perfect way to relax and soak in the ambiance.
             </p>
-            <img src={images[14]} alt="Maui pool 2" style={imageStyle} />
 
             <div style={gridContainerStyle}>
-                <img src={images[15]} alt="Maui spa" style={imageStyle} />
                 <img src={images[16]} alt="Maui gym" style={imageStyle} />
-            </div>
-
-            <div style={gridContainerStyle}>
                 <img src={images[17]} alt="Maui view 2" style={imageStyle} />
                 <img src={images[18]} alt="Maui view 3" style={imageStyle} />
+                <img src={images[19]} alt="Maui view 4" style={imageStyle} />
+
             </div>
+
+         
 
             <p style={paragraphStyle}>
                 The resort features 36 holes of golf, two vibrant poolside bars, and four onsite restaurants. Indulge in self-care at the Awili Spa and Salon with treatments from facials to body scrubs. Lauren & I preferred to stay outdoors, but we did love shopping for beauty products at the spa.
             </p>
-            <img src={images[19]} alt="Maui view 4" style={imageStyle} />
 
             <p style={paragraphStyle}>
                 Stay active with yoga and fitness classes available at the 24-hour gym or unwind on the terrace and explore the on-site art gallery as I previously mentioned as a resort highlight. Free in-room WiFi and a convenient grocery store add to the comfort.
@@ -207,6 +212,9 @@ const AndazMauiReview = () => {
             <div style={gridContainerStyle}>
                 <img src={images[20]} alt="Maui view 6" style={imageStyle} />
                 <img src={images[21]} alt="Maui view 7" style={imageStyle} />
+                <img src={images[22]} alt="Maui view 8" style={imageStyle} />
+                <img src={images[23]} alt="Maui view 8" style={imageStyle} />
+
             </div>
 
             <h2 style={headingStyle}>🍹 Final Thoughts and Recommendations</h2>
@@ -214,7 +222,6 @@ const AndazMauiReview = () => {
                 As we soaked in the sun and enjoyed the outdoor activities at the Andaz Maui, we also recognized the broader conversations surrounding tourism in Hawaii. Traveling here has become a topic of ethical discussion due to its effects on the indigenous population and the environment. While the beauty and allure of Maui are undeniable, it is essential to consider these impacts as part of a responsible travel approach.
             </p>
 
-            <img src={images[22]} alt="Maui view 8" style={imageStyle} />
 
             <p style={paragraphStyle}>
                 The Andaz Maui at Wailea Resort stands out for its commitment to environmental sustainability and cultural integration. Notably, the resort was constructed using 93% recycled materials and incorporates solar energy and electric equipment to minimize its carbon footprint. By supporting local wildlife preservation and showcasing local art, the resort contributes positively to the cultural and environmental stewardship of Maui.
@@ -227,7 +234,6 @@ const AndazMauiReview = () => {
                 Thank you for joining me on this breathtaking escape to the Andaz Maui at Wailea Resort. Lauren and I had a marvellous time soaking in the beauty and culture of Maui and a huge thank you to the Benefit Canada team for the gifted experience. Have you travelled to Hawaii or stayed at the Andaz Maui? I’d love to hear your experience in the comments below and I look forward to bringing you along on more travels! For more travel insights and lifestyle tips, stay tuned to my blog and YouTube channel!
             </p>
 
-            <img src={images[23]} alt="Maui view 8" style={imageStyle} />
 
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
                 <BookNowButton href="https://plannin.com/en/hotel/f7ed1125-3205-4916-881e-e865acca3608?refId=jackiewyers" target="_blank" rel="noopener noreferrer"/>
