@@ -3,17 +3,15 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../../Components/TextReveal';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import './ExampleTutorial.css';
-import DropCap from '../../Components/DropCap';
-import SubscribeButton from '../../Components/SubscribeButton';
+
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/bonbontitle2.png`;
-const BonBon1A = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBon1A.png`;
 const BonBon2 = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBon2.jpg`;
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
   <div>
-    <div><TextReveal text='PERFUME PROFILE' /></div>
+  
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
@@ -62,13 +60,7 @@ const BonBonReview = () => {
       </div>
       <img src={title} alt="BonBon Review Title" style={imageStyle} />
 
-      <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <SubscribeButton />
-      </div>
 
-      <div style={imageContainerStyle}>
-        <img src={BonBon1A} alt="BonBon 1" style={imageStyle} />
-      </div>
       <div style={imageContainerStyle}>
         <img src={BonBon2} alt="BonBon 2" style={imageStyle} />
       </div>
@@ -180,6 +172,8 @@ const BonBonReview = () => {
   );
 
   return (
+   <div>
+<div><TextReveal text='PERFUME PROFILE' /></div>
     <div ref={blogRef} style={{ width: '100%', maxWidth: '800px', margin: '0 auto', padding: '1rem' }}>
       <Card
         title="BonBon Review"
@@ -187,6 +181,8 @@ const BonBonReview = () => {
         blogContent={blogContent}
       />
     </div>
+
+   </div> 
   );
 };
 
