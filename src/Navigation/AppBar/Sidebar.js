@@ -17,6 +17,8 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'SHOP MY STYLE', path: '/mystyle' },
     { name: 'MERCH', path: '/vintagevibesmerch' },
     { name: 'REVIEWS', path: '/reviews' },
+    // Spacer
+    { name: '', path: '', spacer: true },
     { name: 'TRAVEL', path: '/travel' },
     { name: 'DIARY', path: '/diary' },
     { name: 'CONTACT', path: '/contact' },
@@ -55,19 +57,23 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           >
             <CloseIcon />
           </IconButton>
-          {menuItems.map((item) => (
-            <Button
-              key={item.name}
-              component={Link}
-              to={item.path}
-              className={styles.sidebarButton}
-              onClick={toggleDrawer}
-            >
-              <Typography variant="h6" className={styles.sidebarTypography}>
-                {item.name}
-              </Typography>
-            </Button>
-          ))}
+          {menuItems.map((item, index) =>
+            item.spacer ? (
+              <div key={index} style={{ height: '3rem' }}></div>
+            ) : (
+              <Button
+                key={item.name}
+                component={Link}
+                to={item.path}
+                className={styles.sidebarButton}
+                onClick={toggleDrawer}
+              >
+                <Typography variant="h6" className={styles.sidebarTypography}>
+                  {item.name}
+                </Typography>
+              </Button>
+            )
+          )}
         </div>
         <Box
           sx={{
