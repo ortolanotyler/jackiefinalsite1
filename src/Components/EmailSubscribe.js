@@ -1,7 +1,7 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Formik, Field } from 'formik';
 import * as Yup from 'yup';
-import { Grid, Button, Box, FormControlLabel, Checkbox, Typography } from '@mui/material';
+import { Grid, Button, Box, FormControlLabel, Checkbox, Typography, Alert } from '@mui/material';
 import './EmailSubscribe.module.css'; // Import CSS file for styling
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Home/EmailSub.jpeg`;
@@ -16,6 +16,7 @@ const zapierWebhookURL = 'https://hooks.zapier.com/hooks/catch/18965305/3vxlycx/
 export default function EmailSubscribe() {
   const buttonRef = useRef(null);
   const hasJiggled = useRef(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -46,8 +47,9 @@ export default function EmailSubscribe() {
           });
 
           if (response.ok) {
-            alert('Email subscribed successfully!');
+            setIsSubmitted(true);
             resetForm();
+            setTimeout(() => setIsSubmitted(false), 5000); // Hide the message after 5 seconds
           } else {
             alert('Failed to subscribe email.');
           }
@@ -61,6 +63,11 @@ export default function EmailSubscribe() {
       {({ submitForm, isSubmitting, touched, errors, values, handleChange }) => (
         <Box display="flex" justifyContent="center" alignItems="center" width="100%" padding="2rem" mt={8}>
           <Grid container spacing={3} alignItems="center" justifyContent="center" sx={{ maxWidth: '1000px', width: '100%' }}>
+            {isSubmitted && (
+              <Grid item xs={12}>
+                <Alert severity="success">Email subscribed successfully!</Alert>
+              </Grid>
+            )}
             <Grid item xs={12}>
               <img src={image1} alt="Email Subscribe" style={{ width: '100%' }} />
             </Grid>
