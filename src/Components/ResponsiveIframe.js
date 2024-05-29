@@ -30,7 +30,7 @@ const ResponsiveIframe = ({ src, title }) => {
   return (
     <iframe
       width="100%"
-      height="400px"
+      height="500px"
       title={title}
       src={src}
       scrolling={allowScrolling ? 'yes' : 'no'}
