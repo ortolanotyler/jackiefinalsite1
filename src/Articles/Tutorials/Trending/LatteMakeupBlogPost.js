@@ -50,7 +50,9 @@ const LatteMakeupBlogPost = () => {
           BEAUTY // TRENDS
         </a>
       </div>
-      <img src={title} alt="Latte Makeup Trend" style={{ width: '100%' }} />
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <img src={title} alt="Latte Makeup Trend" style={{ width: '100%', maxWidth: '650px' }} />
+      </div>
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/Jm0BdU88kr4?si=q_f9U-l_aZqaY83s" title="YouTube video player" />
 
@@ -64,16 +66,20 @@ const LatteMakeupBlogPost = () => {
 
       <DropCap text="Hello, beauties! It's Jackie here with another trend report driven by the TikTok algorithm. The latte makeup look is all about embracing warm, tawny tones to create a '90s-inspired glam with a cozy vibe. Imagine a caramel-toned smokey eye, no foundation, faux freckles, and a milky lip. An artist whose work has been continuously referenced when creating this style of makeup is none other than Australia-based makeup artist Tanielle Jai. If you've ever shopped on Princess Polly and admired the campaign images with sultry, smokey makeup—that's all the makeup artisty of Tanielle Jai!" />
 
-      <a href="https://www.instagram.com/p/CvFsHXNO7nf/?img_index=1" target="_blank" rel="noopener noreferrer">
-        <img src={Latte2} alt='Detailed Latte Makeup' style={{ width: '100%', maxWidth: '650px' }} />
-      </a>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <a href="https://www.instagram.com/p/CvFsHXNO7nf/?img_index=1" target="_blank" rel="noopener noreferrer">
+          <img src={Latte2} alt='Detailed Latte Makeup' style={{ width: '100%', maxWidth: '650px' }} />
+        </a>
+      </div>
 
       <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
         See <a href="https://www.instagram.com/taniellejaimua/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>Tanielle Jai</a>'s work on Instagram.
       </p>
 
       <h2 style={headingStyle}>Get The Latte Makeup Look</h2>
-      <img src={Latte3} alt='Latte Makeup Application' style={{ width: '100%', maxWidth: '650px' }} />
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <img src={Latte3} alt='Latte Makeup Application' style={{ width: '100%', maxWidth: '650px' }} />
+      </div>
       <h2 style={headingStyle}>The Base: Tanned and Natural</h2>
       <p style={paragraphStyle}>
         Applying self-tanner the night before can really help create a harmonious, warm canvas. Make sure you’ve moisturized the skin before makeup, and we are going with no foundation for this style, but I gave my skin a boost with Charlotte Tilbury Hollywood Flawless Filter for a sheer glow with a hint of coverage.
