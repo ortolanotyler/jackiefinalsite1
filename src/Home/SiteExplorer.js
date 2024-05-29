@@ -61,7 +61,7 @@ export default function SiteExplorer() {
                 marginTop: '50px', // Added margin to create space
               }}
             >
-              Tap to view
+              TAP TO VIEW
             </Typography>
           )}
           <Card
