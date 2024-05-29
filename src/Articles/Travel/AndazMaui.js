@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import '../ExampleTutorial.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import SubscribeButton from '../../Components/SubscribeButton';
 import TextReveal from '../../Components/TextReveal';
 import DropCap from '../../Components/DropCap';
 import BookNowButton from '../../Components/BookNowButton';
@@ -65,7 +64,7 @@ const AndazMauiReview = () => {
     const paragraphStyle = {
         fontSize: '1rem',
         fontFamily: 'GFS Didot, serif',
-        margin: '1rem 1.5rem',
+        margin: '5rem 1.5rem',
         maxWidth: '100%',
         lineHeight: '1.5'
     };
@@ -127,15 +126,19 @@ const AndazMauiReview = () => {
             <p style={paragraphStyle}>
                 In terms of accommodations, the Andaz Maui at Wailea Resort offers a variety of choices. Lauren and I enjoyed the comfort of a standard guest room which boasted stunning ocean and pool views from a spacious balcony. (We brought Scrump from Lilo & Stitch along for the trip 😆). For those seeking more space and luxury, the resort also offers expansive suites equipped with additional living areas and enhanced amenities. Private villas are available for guests who desire ultimate privacy and exclusivity, complete with personalized services.
             </p>
-
-            <div style={gridContainerStyle}>    
-                <img src={images[3]} alt="Maui room 3" style={imageStyle} />
-                <img src={images[4]} alt="Maui room 4" style={imageStyle} />
-            </div>
+            <img src={images[3]} alt="Maui room 3" style={imageStyle} />
 
             <p style={paragraphStyle}>
                 The property includes ADA-compliant rooms equipped with features such as roll-in showers, lowered storage solutions, and other assistive devices upon request. These accommodations are designed to offer comfort and convenience for guests with mobility challenges, ensuring a welcoming and inclusive environment for everyone. I always like to make an accessibility note, as unfortunately not all resorts feature these accommodations.
             </p>
+
+            <div style={gridContainerStyle}>    
+                <img src={images[4]} alt="Maui room 4" style={imageStyle} />
+                <img src={images[5]} alt="Maui dining" style={imageStyle} />
+
+            </div>
+
+          
 
             <h2 style={headingStyle}>💵 Cost Considerations & Dining Options</h2>
             <p style={paragraphStyle}>
@@ -143,14 +146,14 @@ const AndazMauiReview = () => {
             </p>
             
             <div style={gridContainerStyle}>    
-                <img src={images[5]} alt="Maui dining" style={imageStyle} />
                 <img src={images[6]} alt="Maui market" style={imageStyle} />
+                <img src={images[7]} alt="Maui market 2" style={imageStyle} />
+
             </div>
 
             <p style={paragraphStyle}>
                 While the buffet breakfast costs approximately $49 for adults and $24.50 for children, more economical choices like the Mokapu Market are available for lighter eats or snacks. Lauren and I went to this market daily for ice cream!
             </p>
-            <img src={images[7]} alt="Maui market 2" style={imageStyle} />
             <img src={images[8]} alt="Maui luau" style={imageStyle} />
 
             <p style={paragraphStyle}>
