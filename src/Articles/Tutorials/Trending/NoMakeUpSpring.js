@@ -7,7 +7,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import TextReveal from '../../../Components/TextReveal';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/NoMakeupTitle.png`;
-const image1 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersElizabethBennetInspiredMakeup.jpg`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersElizabethBennetInspiredMakeup.JPG`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersDaphneBridgertonMakeup.jpg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWtersRoseDawsonMakeup.JPG`;
 const image4 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersLittleWomenMakeup.JPG`;
