@@ -4,6 +4,7 @@ import TextReveal from '../../Components/TextReveal';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import './ExampleTutorial.css';
 import DropCap from '../../Components/DropCap';
+import SubscribeButton from '../../Components/SubscribeButton';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/bonbontitle2.png`;
 const BonBon1A = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBon1A.png`;
@@ -13,8 +14,8 @@ const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
   <div>
     <div><TextReveal text='PERFUME PROFILE' /></div>
-    <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-      <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+    <div className="card">
+      <div className="blog-content">{blogContent}</div>
     </div>
   </div>
 );
@@ -40,36 +41,45 @@ const BonBonReview = () => {
     lineHeight: '1.5'
   };
 
+  const imageContainerStyle = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '100%',
+  };
+
   const imageStyle = {
-    display: 'block',
-    margin: '0 auto',
-    maxWidth: '100%',
-    maxHeight: '900px',
-    objectFit: 'cover',
+    width: '100%',
+    maxWidth: '650px',
   };
 
   const blogContent = (
-    <div className="container" style={{ lineHeight: '2.25rem', margin: '25rem', marginTop: '25px' }}>
+    <div className="container" style={{ width: '100%', padding: '1rem' }}>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // REVIEWS
         </a>
       </div>
+      <img src={title} alt="BonBon Review Title" style={imageStyle} />
 
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <SubscribeButton />
+      </div>
+
+      <div style={imageContainerStyle}>
         <img src={BonBon1A} alt="BonBon 1" style={imageStyle} />
       </div>
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <div style={imageContainerStyle}>
         <img src={BonBon2} alt="BonBon 2" style={imageStyle} />
       </div>
 
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '1rem 0', fontStyle: 'italic' }}>
         All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 
       <h2 style={headingStyle}>🍊 Perfume Profile</h2>
 
-      <div style={{ textAlign: 'center', fontSize: '22px', fontFamily: 'GFS Didot, serif', marginTop: '1.5rem' }}>
+      <div style={{ textAlign: 'center', fontSize: '1.25rem', fontFamily: 'GFS Didot, serif', margin: '1rem 0' }}>
         Perfume Name: <strong>Bonbon</strong><br /><br />
         Brand: <strong>Viktor & Rolf</strong><br /><br />
         Year of Release: <strong>2014</strong><br /><br />
@@ -87,20 +97,20 @@ const BonBonReview = () => {
 
       <h2 style={headingStyle}>🍬 Fragrance Profile</h2>
 
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1rem', maxWidth: '100%', marginLeft: '0em' }}>
-        <div style={{ marginBottom: '0.7rem' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', fontSize: '1.25rem', fontFamily: 'GFS Didot, serif', margin: '1rem', maxWidth: '100%', marginLeft: '0em' }}>
+        <div style={{ marginBottom: '0.5rem' }}>
           <strong>Concentration:</strong> Eau de Parfum
         </div>
-        <div style={{ marginBottom: '0.7rem' }}>
+        <div style={{ marginBottom: '0.5rem' }}>
           <strong>Fragrance Family:</strong> Floral Fruity Gourmand
         </div>
-        <div style={{ marginBottom: '0.7rem' }}>
+        <div style={{ marginBottom: '0.5rem' }}>
           <strong>Top Notes:</strong> Mandarin, Orange, Peach
         </div>
-        <div style={{ marginBottom: '0.7rem' }}>
+        <div style={{ marginBottom: '0.5rem' }}>
           <strong>Heart/Middle Notes:</strong> Caramel, Jasmine, Orange blossom
         </div>
-        <div style={{ marginBottom: '0.7rem' }}>
+        <div style={{ marginBottom: '0.5rem' }}>
           <strong>Base Notes:</strong> Amber, Guaïac wood, Cedarwood, Sandalwood
         </div>
       </div>
@@ -170,7 +180,7 @@ const BonBonReview = () => {
   );
 
   return (
-    <div ref={blogRef} style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center', margin: '0 1rem' }}>
+    <div ref={blogRef} style={{ width: '100%', maxWidth: '800px', margin: '0 auto', padding: '1rem' }}>
       <Card
         title="BonBon Review"
         description="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure."
