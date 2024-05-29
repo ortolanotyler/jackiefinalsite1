@@ -33,8 +33,11 @@ const images = [
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/signature.png`;
 
 const Card = ({ blogContent }) => (
-    <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-        <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+    <div>
+        <div><TextReveal text='NIAGARA ON THE LAKE' /></div>
+        <div className="card">
+            <div className="blog-content">{blogContent}</div>
+        </div>
     </div>
 );
 
@@ -44,48 +47,29 @@ const PrinceOfWales = () => {
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '2.75rem',
+        fontSize: '2rem',
         fontWeight: 'normal',
-        fontFamily: 'GFS Didot, serif',
+        fontFamily: 'Arapey, serif',
         color: '#333',
-        marginTop: '0.95rem',
-        marginBottom: '0.95rem'
+        margin: '1.5rem'
     };
 
     const paragraphStyle = {
-        fontSize: '21px',
+        fontSize: '1rem',
         fontFamily: 'GFS Didot, serif',
-        margin: '2rem 1rem',
+        margin: '1rem 1.5rem',
         maxWidth: '100%',
-        lineHeight: '1.5em'
-    };
-
-    const imageStyle = {
-        display: 'block',
-        margin: '1rem auto',
-        maxWidth: '100%',
-        height: 'auto',
-        objectFit: 'cover',
-    };
-
-    const gridContainerStyle = {
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-        gap: '1rem',
-        margin: '1rem 0'
+        lineHeight: '1.5'
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '30rem', marginTop: '1rem' }}>
+        <div className="container">
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // HOTEL REVIEWS
                 </a>
             </div>
-
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={title} alt="Prince of Wales Hotel" style={imageStyle} />
-            </div>
+            <img src={title} alt="Prince of Wales Hotel" style={{ width: '100%' }} />
 
             <ResponsiveYoutube src="https://www.youtube.com/embed/qIAMUI6Enz0?si=IODG7kkuWSOxLfIa" title="YouTube video player" />
 
@@ -93,9 +77,11 @@ const PrinceOfWales = () => {
                 <SubscribeVlog />
             </div>
 
-            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
-                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-            </p>
+            <div>
+                <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+                    All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+                </p>
+            </div>
 
             <DropCap text="Welcome back for a special hotel review of the enchanting Prince of Wales Hotel in Niagara-On-The-Lake, Ontario, Canada. To celebrate my birthday this year, my husband Tyler and I indulged in a luxurious weekend at this stunning hotel, renowned for its Victorian elegance and romantic charm. Nestled in the heart of one of Canada's most picturesque towns, the Prince of Wales provided the perfect backdrop for a celebration filled with beauty, history, and a touch of magic." />
 
@@ -107,9 +93,9 @@ const PrinceOfWales = () => {
                 <BookNowButton href="https://plannin.com/en/hotel/7e8b8619-6256-4481-97c4-048f694b67c4?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
             </div>
 
-            <div style={gridContainerStyle}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1rem', margin: '1rem 0' }}>
                 {images.slice(0, 4).map((image, index) => (
-                    <img key={index} src={image.src} alt={image.alt} style={imageStyle} />
+                    <img key={index} src={image.src} alt={image.alt} style={{ width: '100%' }} />
                 ))}
             </div>
 
@@ -121,9 +107,9 @@ const PrinceOfWales = () => {
                 While this may seem steep, we felt the cost was thoroughly justified by the hotel’s exceptional service, luxurious atmosphere, and unparalleled location in the heart of Niagara-On-The-Lake.
             </p>
 
-            <div style={gridContainerStyle}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1rem', margin: '1rem 0' }}>
                 {images.slice(4, 6).map((image, index) => (
-                    <img key={index} src={image.src} alt={image.alt} style={imageStyle} />
+                    <img key={index} src={image.src} alt={image.alt} style={{ width: '100%' }} />
                 ))}
             </div>
 
@@ -144,9 +130,9 @@ const PrinceOfWales = () => {
                 If you are interested in exploring more culinary delights and experiences in Niagara-on-the-Lake, be sure to check out my detailed blog post here for options outside of the hotel.
             </p>
 
-            <div style={gridContainerStyle}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1rem', margin: '1rem 0' }}>
                 {images.slice(6, 8).map((image, index) => (
-                    <img key={index} src={image.src} alt={image.alt} style={imageStyle} />
+                    <img key={index} src={image.src} alt={image.alt} style={{ width: '100%' }} />
                 ))}
             </div>
 
@@ -158,9 +144,9 @@ const PrinceOfWales = () => {
                 Transportation options are plentiful, with bike rentals, walking tours, and shuttle services available to explore nearby attractions, including the famed Shaw Festival Theatre. Whether you're looking to explore on foot, by bike, or through organized tours, everything is conveniently accessible from the hotel.
             </p>
 
-            <div style={gridContainerStyle}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1rem', margin: '1rem 0' }}>
                 {images.slice(8, 12).map((image, index) => (
-                    <img key={index} src={image.src} alt={image.alt} style={imageStyle} />
+                    <img key={index} src={image.src} alt={image.alt} style={{ width: '100%' }} />
                 ))}
             </div>
 
@@ -169,9 +155,9 @@ const PrinceOfWales = () => {
                 Our stay at the Prince of Wales Hotel was truly unforgettable, combining the allure of Victorian elegance with the convenience of modern amenities. Every moment, from the grandiose entrance to the peaceful gardens, added to the charm of this historic hotel. If you’re planning a visit to Niagara-on-the-Lake, the Prince of Wales offers a perfect mix of luxury, location, and local culture. Book here.
             </p>
 
-            <div style={gridContainerStyle}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1rem', margin: '1rem 0' }}>
                 {images.slice(12, 14).map((image, index) => (
-                    <img key={index} src={image.src} alt={image.alt} style={imageStyle} />
+                    <img key={index} src={image.src} alt={image.alt} style={{ width: '100%' }} />
                 ))}
             </div>
 
@@ -183,9 +169,9 @@ const PrinceOfWales = () => {
                 Thank you for joining me to see the enchanting Prince of Wales Hotel. I’d love to hear about your experiences or any recommendations you might have! Feel free to leave a comment below or connect with me on social media. For more travel insights and adventures, stay tuned to my blog and YouTube channel!
             </p>
 
-            <div style={gridContainerStyle}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1rem', margin: '1rem 0' }}>
                 {images.slice(14, 16).map((image, index) => (
-                    <img key={index} src={image.src} alt={image.alt} style={imageStyle} />
+                    <img key={index} src={image.src} alt={image.alt} style={{ width: '100%' }} />
                 ))}
             </div>
 
@@ -194,7 +180,7 @@ const PrinceOfWales = () => {
                 The Prince of Wales Hotel retains much of its historic charm, which includes an antique elevator available for floors 2 through 4; please note that this elevator requires staff assistance to operate. Due to the hotel's historic nature and the smaller size of rooms, guests with specific accessibility needs are encouraged to consider these factors when planning their stay. We recommend contacting the hotel directly to discuss any necessary accommodations or to inquire about alternative arrangements.
             </p>
 
-            <img src={images[16].src} alt={images[16].alt} style={imageStyle} />
+            <img src={images[16].src} alt={images[16].alt} style={{ width: '100%' }} />
             <img src={signature} alt='Signature' style={{ width: '100%' }} />
 
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
@@ -206,23 +192,8 @@ const PrinceOfWales = () => {
     );
 
     return (
-        <div>
-            <div style={{ width: '100%', marginBottom: '2rem' }}>
-                <div><TextReveal text='NIAGARA ON THE LAKE' /></div>
-            </div>
-            <div ref={blogRef}>
-                <Card
-                    title="Prince of Wales Hotel Review"
-                    description="Prince of Wales Hotel Review - Jackie Wyers"
-                    blogContent={blogContent}
-                    style={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'flex-start',
-                        textAlign: 'center'
-                    }}
-                />
-            </div>
+        <div ref={blogRef}>
+            <Card blogContent={blogContent} />
         </div>
     );
 };

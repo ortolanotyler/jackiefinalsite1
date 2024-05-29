@@ -1,10 +1,10 @@
 import React, { useRef } from 'react';
-import '../../ExampleTutorial.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
+import '../../ExampleTutorial.css';
+import TextReveal from '../../../Components/TextReveal';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import TextReveal from '../../../Components/TextReveal';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/barbietitle2.jpeg`;
@@ -15,16 +15,14 @@ const Barbie4 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/BarbieFac
 const lana = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
-const Card = ({ blogContent }) => {
-  return (
-    <div>
-      <div><TextReveal text='POP CULTURE OBSESSED' /></div>
-      <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-        <div className="blog-content" style={{ lineHeight: '1.2' }}>{blogContent}</div>
-      </div>
+const Card = ({ blogContent }) => (
+  <div>
+    <div><TextReveal text='POP CULTURE OBSESSED' /></div>
+    <div className="card">
+      <div className="blog-content">{blogContent}</div>
     </div>
-  );
-};
+  </div>
+);
 
 const BarbieBlog = () => {
   const websiteId = '10910';
@@ -48,13 +46,13 @@ const BarbieBlog = () => {
   };
 
   const blogContent = (
-    <div className="container" style={{ lineHeight: '2.25rem', margin: '22rem', marginTop: '25px' }}>
+    <div className="container">
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // POP CULTURE // MOVIES
         </a>
       </div>
-      <img src={title} alt="No Makeup-Makeup Spring Edition Title" style={{ width: '100%' }} />
+      <img src={title} alt="Barbie Movie Title" style={{ width: '100%' }} />
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/JfaND9n9ZCU?si=NfJyPeNlC3qzl6tp" title="Margot Robbie Barbie Movie - Jackie Wyers" />
 
@@ -69,30 +67,30 @@ const BarbieBlog = () => {
       </div>
 
       <DropCap text="In the dazzling world of the Barbie Movie, directed by Greta Gerwig and starring Margot Robbie as endearing Barbie and Ryan Gosling as the hilarious Ken, we must not forget to pay tribute to the brilliant artists who brought these iconic characters to life. Ivana Primorac, the creative force leading the movie’s hair and makeup teams, created Margot’s Barbie pink makeup look that appeared fresh and modern. The 'Barbie' costume designer Jacqueline Durran played an equally crucial role in fuelling the 'Barbiecore' fashion trend with the iconic Barbie looks featured in the film. Hello Barbiecore summer of 2023 - everywhere you looked, it was all about PINK!" />
-      <div>
-  <a href="https://www.instagram.com/p/Cs4LhepN6dc/?hl=en" target="_blank" rel="noopener noreferrer">
-    <img src={barbienew} alt="Barbie Makeup Drawing" style={{ marginLeft: '0em', height: 'auto', width: '100%' }} />
-  </a>
-</div>
+
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <a href="https://www.instagram.com/p/Cs4LhepN6dc/?hl=en" target="_blank" rel="noopener noreferrer">
+          <img src={barbienew} alt="Barbie Makeup Drawing" style={{ width: '100%' }} />
+        </a>
+      </div>
+
       <div>
         <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-        Original Makeup & Hair Design by Ivana Primorac from the 2023 film 'Barbie,' recreation by Jackie Wyers        </p>
+          Original Makeup & Hair Design by Ivana Primorac from the 2023 film 'Barbie,' recreation by Jackie Wyers.
+        </p>
       </div>
+
       <p style={paragraphStyle}>
         Among the film's many breathtaking fashion moments, the iconic pink gingham dress stole the hearts of fans. However, one look, in my opinion, outshone the rest—the unforgettable roller skate Barbie ensemble!
       </p>
 
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', maxWidth: '100%', padding: '1rem', gap: '1rem' }}>
-        <div style={{ flex: 1 }}>
-          <a href='https://www.instagram.com/p/CtfWF2oMk7p' target="_blank" rel="noopener noreferrer">
-            <img src={Barbie2} alt="b2" style={{ width: '100%', height: 'auto' }} />
-          </a>
-        </div>
-        <div style={{ flex: 1 }}>
-          <a href='https://www.instagram.com/p/CuXU3IqOlwa/?img_index=1' target="_blank" rel="noopener noreferrer">
-            <img src={Barbie3} alt="b3" style={{ width: '100%', height: 'auto' }} />
-          </a>
-        </div>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
+        <a href='https://www.instagram.com/p/CtfWF2oMk7p' target="_blank" rel="noopener noreferrer">
+          <img src={Barbie2} alt="Barbie Look" style={{ width: '100%', maxWidth: '500px' }} />
+        </a>
+        <a href='https://www.instagram.com/p/CuXU3IqOlwa/?img_index=1' target="_blank" rel="noopener noreferrer">
+          <img src={Barbie3} alt="Barbie Look" style={{ width: '100%', maxWidth: '500px' }} />
+        </a>
       </div>
 
       <p style={paragraphStyle}>
@@ -105,7 +103,9 @@ const BarbieBlog = () => {
 
       <h2 style={headingStyle}>Get The Glamorous Barbie Makeup Look</h2>
 
-      <div><img src={Barbie4} alt='Barbie Makeup Drawing' style={{ marginLeft: '0em', height: 'auto', width: '100%' }}></img></div>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <img src={Barbie4} alt='Barbie Makeup Drawing' style={{ width: '100%', maxWidth: '650px' }} />
+      </div>
 
       <h2 style={headingStyle}>Preparation</h2>
 
@@ -167,15 +167,13 @@ const BarbieBlog = () => {
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493536?noHeader=true" title="Collection name here" />
 
-      <div>
-        <p style={paragraphStyle}>
-          Voila! You are your own version of Mattel's iconic doll. Feel free to tone down or amp up the style to make it your own. See full tutorial linked at the beginning of article for DIY costume.
-        </p>
+      <p style={paragraphStyle}>
+        Voila! You are your own version of Mattel's iconic doll. Feel free to tone down or amp up the style to make it your own. See full tutorial linked at the beginning of article for DIY costume.
+      </p>
 
-        <p style={paragraphStyle}>
-          Want to be featured on my site? Submit your recreation or version of this look here. I’d love to see you switch up your style with confidence!
-        </p>
-      </div>
+      <p style={paragraphStyle}>
+        Want to be featured on my site? Submit your recreation or version of this look here. I’d love to see you switch up your style with confidence!
+      </p>
 
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <a href="/lanablog" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
@@ -184,20 +182,17 @@ const BarbieBlog = () => {
         </a>
       </div>
 
-      <div>
-        <img src={Signature} alt='Final glamorous Barbie makeup look' style={{ width: '100%' }} />
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <img src={Signature} alt="Final glamorous Barbie makeup look" style={{ width: '100%', maxWidth: '650px' }} />
       </div>
-      <Comments website-id={websiteId} page-id={'barbie'} />
+
+      <Comments website-id={websiteId} pageId={'barbie'} />
     </div>
   );
 
   return (
-    <div ref={blogRef} style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center', margin: '0 1rem' }}>
-      <Card
-        title="Margot Robbie's BARBIE Makeup & DIY ‘90s Roller skate Costume!"
-        description="Come on Barbie, Let’s get Glam!"
-        blogContent={blogContent}
-      />
+    <div ref={blogRef}>
+      <Card blogContent={blogContent} />
     </div>
   );
 };

@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import '../ExampleTutorial.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import modifyanchortags from '../../Utilities/modifyanchortags';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import TextReveal from '../../Components/TextReveal';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
@@ -29,18 +28,14 @@ const image19 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcot19.
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-    
- 
-        <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-            <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
-        </div>
-    
+    <div className="card" style={{ maxWidth: '100%', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+        <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
+    </div>
 );
 
 const Disney2Post = () => {
     const websiteId = '10910';
     const blogRef = useRef(null);
-
 
     const headingStyle = {
         textAlign: 'center',
@@ -53,44 +48,23 @@ const Disney2Post = () => {
     };
 
     const paragraphStyle = {
-        fontSize: '21px',
+        fontSize: '1rem',
         fontFamily: 'GFS Didot, serif',
-        margin: '5rem',
-        marginTop: '3rem',
-        marginBottom: '3rem',
+        margin: '1rem',
         maxWidth: '100%',
         lineHeight: '1.5em'
     };
 
     const imageStyle = {
         display: 'block',
-        margin: '0 auto',
+        margin: '1rem auto',
         maxWidth: '100%',
-        maxHeight: '900px',
+        height: 'auto',
         objectFit: 'cover',
     };
 
-    const smallImageStyle = {
-        display: 'block',
-        margin: '0 1rem 1rem 0',
-        float: 'left',
-        maxWidth: '40%',
-        height: 'auto'
-    };
-    const gridContainerStyle = {
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
-        gap: '1rem',
-        width: '100%'
-    };
-
-    const gridItemStyle = {
-        width: '100%',
-        height: 'auto'
-    };
-
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5em' }}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '1rem', marginTop: '5rem' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // ITINERARIES
@@ -98,7 +72,7 @@ const Disney2Post = () => {
             </div>
 
             <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
+                <img src={title} alt="Epcot Title" style={imageStyle} />
             </div>
 
             <ResponsiveYoutube src="https://www.youtube.com/embed/XRI-IpWb37E?si=X6l3RAxsPGC_bS88" title="YouTube video player" />
@@ -107,8 +81,8 @@ const Disney2Post = () => {
                 <SubscribeVlog />
             </div>
             <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
-              All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-          </p>
+                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+            </p>
 
             <p style={paragraphStyle}>
                 <span style={{ color: '#745B4F', float: 'left', fontSize: '5rem', lineHeight: '0.9', marginRight: '0.05em', marginTop: '0.01em' }}>W</span>elcome to part two of my experience at Walt Disney World in 2023! Over in part one, I reviewed Walt Disney's Beach Club Resort but now let’s talk Epcot, Magic Kingdom and Animal Kingdom! My best friend Lauren and I had such an enchanting experience together, and I hope this travel diary of two 20-somethings can help you plan your Disney trip. I don’t have tips about traveling with children, so consider this our adult 3-day guide to Walt Disney World!
@@ -311,10 +285,6 @@ const Disney2Post = () => {
                         alignItems: 'flex-start',
                         textAlign: 'center'
                     }}
-                />
-                <Comments
-                    website-id={websiteId}
-                    pageId={"epcotanimalkingdom"} // Unique identifier for this blog post
                 />
             </div>
         </div>

@@ -1,9 +1,8 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import '../ExampleTutorial.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../../Components/TextReveal';
 import SubscribeVlog from '../../Components/SubscribeVlog';
-import modifyanchortags from '../../Utilities/modifyanchortags';
 import DropCap from '../../Components/DropCap';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
@@ -22,18 +21,14 @@ const beachclub10 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/signature.png`;
 
 const Card = ({ blogContent }) => (
-    <div>
-       
-        <div className="card" style={{ maxWidth: '100%', display: 'flex', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-            <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
-        </div>
+    <div className="card" style={{ maxWidth: '100%', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
+        <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
     </div>
 );
 
 const Disney2Post = () => {
     const websiteId = '10910';
     const blogRef = useRef(null);
-
 
     const headingStyle = {
         textAlign: 'center',
@@ -46,44 +41,23 @@ const Disney2Post = () => {
     };
 
     const paragraphStyle = {
-        fontSize: '21px',
+        fontSize: '1rem',
         fontFamily: 'GFS Didot, serif',
-        margin: '5rem',
-        marginTop: '3rem',
-        marginBottom: '3rem',
+        margin: '1rem',
         maxWidth: '100%',
         lineHeight: '1.5em'
     };
 
     const imageStyle = {
         display: 'block',
-        margin: '0 auto',
+        margin: '1rem auto',
         maxWidth: '100%',
-        maxHeight: '900px',
+        height: 'auto',
         objectFit: 'cover',
     };
 
-    const smallImageStyle = {
-        display: 'block',
-        margin: '0 1rem 1rem 0',
-        float: 'left',
-        maxWidth: '40%',
-        height: 'auto'
-    };
-    const gridContainerStyle = {
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
-        gap: '1rem',
-        width: '100%'
-    };
-
-    const gridItemStyle = {
-        width: '100%',
-        height: 'auto'
-    };
-
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '27rem', marginTop: '5rem' }}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '25rem', marginTop: '5rem' }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // HOTEL REVIEWS
@@ -100,12 +74,10 @@ const Disney2Post = () => {
                 <SubscribeVlog />
             </div>
             <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
-              All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-          </p>
+                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+            </p>
 
-                 <DropCap text = "Welcome to Part One of my magical recap of an unforgettable time at Walt Disney World, FL in 2023. My best friend Lauren and I chose Disney's Beach Club Resort for our stay, marking her first visit and my first return since 2002. This article focuses on our resort experience, offering a glimpse into the luxury and leisure that awaited us at this colonial resort and why we chose to book!"/>
-
-      
+            <DropCap text="Welcome to Part One of my magical recap of an unforgettable time at Walt Disney World, FL in 2023. My best friend Lauren and I chose Disney's Beach Club Resort for our stay, marking her first visit and my first return since 2002. This article focuses on our resort experience, offering a glimpse into the luxury and leisure that awaited us at this colonial resort and why we chose to book!" />
 
             <h2 style={headingStyle}>🌟 First Impression: Beach Club Resort</h2>
             <p style={paragraphStyle}>
@@ -118,9 +90,8 @@ const Disney2Post = () => {
             </p>
 
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
-
-            <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers"target="_blank" rel="noopener noreferrer"  />
-</div>
+                <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
+            </div>
             <p style={paragraphStyle}>
                 When browsing the various resorts, the Beach Club’s design caught my eye. While I'm all for a fun and goofy Disney experience, I wanted to stay somewhere elegant as an adult. The light blue building, adorned with beautiful Victorian trim, the gardens with pops of bright pink flowers, and a view of the boardwalk offered something truly magical to wake up to.
             </p>
@@ -227,7 +198,6 @@ const Disney2Post = () => {
             <img src={signature} alt='Signature' style={{ width: '100%' }} />
 
             <Comments website-id={websiteId} pageId={"beachclubresort"} />
-
         </div>
     );
 
