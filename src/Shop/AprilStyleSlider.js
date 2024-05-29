@@ -10,7 +10,7 @@ const imageDetails = [
     src: image1,
     text: "BARBIE GOES SKIING",
     alt: "Image 1",
-    href: "/barbiegoesskiing"
+    href: "/barbieskiing"
   },
   {
     src: image2,

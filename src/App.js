@@ -63,6 +63,13 @@ import DiarySlider from './DiaryHome/diaryhome';
 import BusinessContact from './Components/BusinessContact';
 import NinetiesStyle from './Shop/ShopMyHomeLinks/NINETIESSTYLE';
 import PinkLeather from './Shop/ShopMyHomeLinks/PinkLeather';
+import RetroFloral from './Shop/ShopMyHomeLinks/RetroFloral';
+import BarbieSki from './Shop/ShopMyHomeLinks/BarbieSki';
+import BlackAndLeather from './Shop/ShopMyHomeLinks/BlackAndLeather';
+import CabinFever from './Shop/ShopMyHomeLinks/CabinFever';
+import ManhattanCool from './Shop/ShopMyHomeLinks/ManhattanCool';
+import FallLBD from './Shop/ShopMyHomeLinks/FallLBD';
+import DarkFlorals from './Shop/ShopMyHomeLinks/DarkFlorals';
 
 function App() {
   return (
@@ -127,6 +134,14 @@ function App() {
           <Route path="speed-insights" element={<SpeedInsights />} />
           <Route path="90sVibes" element={<NinetiesStyle/>} />
           <Route path="leatherandlace" element={<PinkLeather/>} />
+
+          <Route path="retrofloral" element={<RetroFloral/>} />
+          <Route path="barbieskiing" element={<BarbieSki/>} />
+          <Route path="blackandleather" element={<BlackAndLeather/>} />
+          <Route path="cabinfever" element={<CabinFever/>} />
+          <Route path="manhattancool" element={<ManhattanCool/>} />
+          <Route path="falllbd" element={<FallLBD/>} />
+          <Route path="darkflorals" element={<DarkFlorals/>} />
 
       
           <Route path="*" element={<h1>404 Not Found</h1>} />

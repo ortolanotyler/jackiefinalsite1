@@ -20,7 +20,7 @@ const imageDetails = [
   },
   {
     src: image3,
-    text: "PINK AND LEATHER",
+    text: "BABY PINK",
     alt: "Image 3",
     href: "/leatherandlace"
   },

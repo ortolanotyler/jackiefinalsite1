@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Grid from '@mui/material/Grid';
 import Card from '@mui/material/Card';
 import Typography from '@mui/material/Typography';
@@ -25,17 +25,50 @@ const cardDetails = [
 
 export default function SiteExplorerBeyond() {
   const [hoverIndex, setHoverIndex] = useState(-1);
+  const [showTapToView, setShowTapToView] = useState(false);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowTapToView(window.scrollY > 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <Grid container spacing={2} justifyContent="center" sx={{ p: 5 }}>
       {cardDetails.map((card, index) => (
-        <Grid item xs={11} sm={6} md={4} key={index} sx={{ p: 1, display: 'flex' }}>
+        <Grid item xs={11} sm={6} md={4} key={index} sx={{ p: 1, display: 'flex', position: 'relative' }}>
+          {index === 0 && (
+            <Typography
+              variant="h6"
+              sx={{
+                display: { xs: showTapToView ? 'block' : 'none', sm: 'none' },
+                position: 'absolute',
+                top: 10,
+                left: '50%',
+                transform: 'translateX(-50%)',
+                fontFamily: "'Arapey', serif",
+                color: 'white',
+                zIndex: 3,
+                backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                padding: '0.5rem 1rem',
+                borderRadius: '5px',
+                marginTop: '50px', // Added margin to create space
+              }}
+            >
+              TAP TO VIEW
+            </Typography>
+          )}
           <Card
             onMouseEnter={() => setHoverIndex(index)}
             onMouseLeave={() => setHoverIndex(-1)}
             sx={{
-              height: 750,
+              height: { xs: '450px', sm: '750px' }, // Adjust height for different screen sizes
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'space-between',

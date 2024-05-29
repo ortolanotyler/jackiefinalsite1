@@ -10,7 +10,7 @@ const imageDetails = [
     src: image1,
     text: "CENTRAL PARK SUMMER",
     alt: "Image 1 description",
-    href: "/centralparksummer"
+    href: "/cpsummer"
   },
   {
     src: image2,
