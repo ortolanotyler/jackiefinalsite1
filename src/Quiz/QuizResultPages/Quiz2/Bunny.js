@@ -7,7 +7,7 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import styles from './AnimalPretty.module.css';
 
 const button = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/AnimalQuizResults.jpeg`;
-const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyTitleResults.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyTitleResult1.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
 const final = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/Final.JPG`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
