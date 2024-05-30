@@ -9,7 +9,7 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 const Sophia1 = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenTitle.png`;
 const SophiaTwo = `${process.env.PUBLIC_URL}/Images/SophiaDoubl.jpeg`;
-const sophia5 = `${process.env.PUBLIC_URL}/Images/sophia5.jpeg`;
+const sophiafive = `${process.env.PUBLIC_URL}/Images/Sophia5.jpeg`;
 const SophiaFace = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenBlankFaceChart-2.jpg`;
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
@@ -184,7 +184,7 @@ const SophiaLorenPost = () => {
 
       <div style={{ textAlign: 'center' }}>
         <a href="https://www.instagram.com/reel/CZUiijRh0LJ/?hl=en" target="_blank" rel="noopener noreferrer">
-          <img src={sophia5} alt="Signature" style={{ width: '100%', height: 'auto' }} />
+          <img src={sophiafive} alt="Signature" style={{ width: '100%', height: 'auto' }} />
         </a>
       </div>
 
