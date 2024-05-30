@@ -37,7 +37,6 @@ const ShopMyHero2 = () => {
       <div style={sectionStyle}></div>
       <ItemSlider />
     
-      <Comments website-id={'10910'} pageId={"mystyle"} /> {/* Unique identifier for this blog post */}
     </div>
   );
 };

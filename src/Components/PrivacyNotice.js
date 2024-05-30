@@ -11,7 +11,6 @@ const PrivacyNotice = () => {
             </p>
             <ul>
                 <li>Email address (optional, for the purpose of sending newsletters).</li>
-                <li>We also use Google reCAPTCHA to protect our site from spam and abuse.</li>
             </ul>
             <h3 className={`${styles.heading} ${styles.subHeading}`}>Use of Information</h3>
             <p className={styles.paragraph}>
