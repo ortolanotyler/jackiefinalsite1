@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import styles from './ResponsiveIframe.module.css';
 
 const ResponsiveIframe = ({ src, title }) => {
   const [allowScrolling, setAllowScrolling] = useState(false);
@@ -27,21 +28,20 @@ const ResponsiveIframe = ({ src, title }) => {
     setIframeInteraction(false);
   };
 
+  useEffect(() => {
+    console.log('ResponsiveIframe rendered with src:', src);
+  }, [src]);
+
   return (
-    <div style={{ position: 'relative', paddingTop: '56.25%' }}>
+    <div className={styles.responsiveIframeContainer}>
       <iframe
         title={title}
         src={src}
         scrolling={allowScrolling ? 'yes' : 'no'}
+        className={styles.responsiveIframe}
         style={{
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          width: '100%',
-          height: '100%',
-          border: 'none',
           pointerEvents: iframeInteraction ? 'auto' : 'none',
-          overflow: allowScrolling ? 'auto' : 'hidden', // Ensure overflow is managed correctly
+          overflow: allowScrolling ? 'auto' : 'hidden',
         }}
         onPointerEnter={handleIframePointerEnter}
         onPointerLeave={handleIframePointerLeave}

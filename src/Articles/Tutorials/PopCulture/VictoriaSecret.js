@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import '../../ExampleTutorial.css';
+import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';

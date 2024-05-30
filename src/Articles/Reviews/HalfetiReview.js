@@ -2,9 +2,7 @@ import React, { useRef } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import './ExampleTutorial.css';
 import TextReveal from '../../Components/TextReveal';
-import DropCap from '../../Components/DropCap';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
-import SubscribeButton from '../../Components/SubscribeButton';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/halfetititle.png`;
 const profile = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/halfetiprofile.png`;
