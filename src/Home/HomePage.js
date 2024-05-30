@@ -19,6 +19,7 @@ import ReviewFavorites from './ReviewFavorites';
 import BeyondBeautyHero from './BeyondBeautyHero';
 import SiteExplorerBeyond from './SiteExplorerBeyond';
 import LifestyleFavorites from './LifestyleFavorites';
+import ShopMyHero2 from './ShopMyHero2';
 
 function HomePage() {
   const linkRef = useRef(null);
@@ -138,7 +139,7 @@ function HomePage() {
           <TextReveal text='SHOP MY STYLE' />
         </Grid>
         <Grid item xs={12}>
-          <ShopMyHero />
+          <ShopMyHero2 />
         </Grid>
   
         <Grid item xs={12}>

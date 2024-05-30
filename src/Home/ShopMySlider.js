@@ -27,10 +27,7 @@ const imageDetails = [
   // Add more images and texts as needed
 ];
 
-
 const ShopMySlider = () => {
-
-
   return (
     <div className="item-container">
       {imageDetails.map((imageDetail, index) => (

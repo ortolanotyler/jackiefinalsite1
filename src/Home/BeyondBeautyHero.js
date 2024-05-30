@@ -53,19 +53,7 @@ const BeyondBeautyHero = () => {
                   {text}
                 </Typography>
               ))}
-              <Box sx={{ textAlign: { xs: 'center', sm: 'right' }, mt: 2 }}>
-                <Link
-                  href="/about"
-                  ref={linkRef}
-                  className={isJiggling ? 'jiggle' : ''}
-                  sx={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
-                >
-                  <Typography variant="body1" sx={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>
-                    READ MORE
-                  </Typography>
-                  <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
-                </Link>
-              </Box>
+             
             </Grid>
             <Grid item xs={12} sm={6}>
               <Box component="img" src={placeholderImage} alt="Beyond Beauty" sx={{ width: '100%', borderRadius: '8px' }} />
