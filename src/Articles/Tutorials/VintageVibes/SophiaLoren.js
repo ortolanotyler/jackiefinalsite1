@@ -8,7 +8,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 const Sophia1 = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenTitle.png`;
-const Sophia2 = `${process.env.PUBLIC_URL}/Images/Articles/Sophialoren/SophiaDouble.png`;
+const Sophia2 = `${process.env.PUBLIC_URL}/Images/Articles/Sophialoren/SophiaDoubl.jpeg`;
 const sophia5 = `${process.env.PUBLIC_URL}/Images/Articles/Sophialoren/sophia5.jpeg`;
 const SophiaFace = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenBlankFaceChart-2.jpg`;
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
