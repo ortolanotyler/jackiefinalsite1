@@ -3,13 +3,12 @@ import styles from './ResponsiveIframe.module.css';
 
 const ResponsiveIframe = ({ src, title }) => {
   const [allowScrolling, setAllowScrolling] = useState(false);
-  const [iframeInteraction, setIframeInteraction] = useState(false);
 
   useEffect(() => {
     const checkResize = () => {
       const screenWidth = window.innerWidth;
-      // Allow scrolling if screen width is below 900px
-      setAllowScrolling(screenWidth <= 900);
+      // Allow scrolling if screen width is below 1000px
+      setAllowScrolling(screenWidth <= 1000);
     };
 
     window.addEventListener('resize', checkResize);
@@ -20,31 +19,14 @@ const ResponsiveIframe = ({ src, title }) => {
     };
   }, []);
 
-  const handleIframePointerEnter = () => {
-    setIframeInteraction(true);
-  };
-
-  const handleIframePointerLeave = () => {
-    setIframeInteraction(false);
-  };
-
-  useEffect(() => {
-    console.log('ResponsiveIframe rendered with src:', src);
-  }, [src]);
-
   return (
-    <div className={styles.responsiveIframeContainer}>
+    <div className={styles.responsiveIframeContainer} style={{ height: allowScrolling ? 'auto' : '0', paddingBottom: allowScrolling ? '0' : '56.25%' }}>
       <iframe
         title={title}
         src={src}
         scrolling={allowScrolling ? 'yes' : 'no'}
         className={styles.responsiveIframe}
-        style={{
-          pointerEvents: iframeInteraction ? 'auto' : 'none',
-          overflow: allowScrolling ? 'auto' : 'hidden',
-        }}
-        onPointerEnter={handleIframePointerEnter}
-        onPointerLeave={handleIframePointerLeave}
+        style={{ height: allowScrolling ? '500px' : '100%' }}
       ></iframe>
     </div>
   );
