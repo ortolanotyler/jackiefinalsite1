@@ -26,7 +26,6 @@ import BarbieBlog from './Articles/Tutorials/PopCulture/BarbieBlogPost';
 import BalkeBlog from './Articles/Tutorials/VintageVibes/BalkeBlog';
 import HalfetiReview from './Articles/Reviews/HalfetiReview';
 import JickyReview from './Articles/Reviews/JickyReview';
-import UlikeReview from './Articles/Reviews/UlikeReview';
 import BonBonReview from './Articles/Reviews/BonBonReview';
 import HomePage from './Home/HomePage';
 import About from './About/About';
@@ -105,7 +104,6 @@ function App() {
           <Route path="andazmaui" element={<AndazMauiReview />} />
           <Route path="princeofwales" element={<PrinceOfWales />} />
           <Route path="animalpretty" element={<AnimalPretty />} />
-          <Route path="ulikereview" element={<UlikeReview />} />
           <Route path="halfetireview" element={<HalfetiReview />} />
           <Route path="jickyreview" element={<JickyReview />} />
           <Route path="bonbonreview" element={<BonBonReview />} />
