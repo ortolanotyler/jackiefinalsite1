@@ -79,7 +79,7 @@ const SophiaLorenPost = () => {
 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <a href="https://www.instagram.com/p/C3Gv0qmslqJ/?hl=en" target="_blank" rel="noopener noreferrer">
-          <img src={Sophia2} alt="Sophia Loren's iconic look" style={{ width: '100%' }} />
+          <img src={Sophia2} alt=" look" style={{ width: '100%' }} />
         </a>
       </div>
 
