@@ -119,10 +119,7 @@ const FoxPretty = () => {
       <ResponsiveIframe src="https://shopmy.us/collections/public/552850?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
-      <div className={styles.imageContainer}>
-        <img src={final} alt="Fox Pretty" className={styles.image} />
-      </div>
-
+   
       <p style={paragraphStyle}>
         I hope this quiz inspires you to play with these animal-inspired beauty looks. Here’s a mini tutorial as a refresher to get the look and be sure to tag me on your socials if you try out these styles as I’d love to see it!
       </p>

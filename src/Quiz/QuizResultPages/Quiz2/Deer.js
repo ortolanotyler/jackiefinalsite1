@@ -111,10 +111,6 @@ const DeerPretty = () => {
         Outfit Inspiration: To fully embody the Deer Pretty theme, choose dainty and whimsical styles. Try outfits in earthy and pastel palettes that resonate with the natural and soft aesthetics of a deer. Fabrics like lace and florals are perfect for this look, adding a touch of femininity and grace. Free People is a great store to try.
       </p>
 
-      <div className={styles.imageContainer}>
-        <img src={final} alt="Deer Pretty" className={styles.image} />
-      </div>
-
       <p style={paragraphStyle}>
         Want to really showcase your animal inspiration? Fable England has beautiful enamel earrings, necklaces, and embroidered bags featuring fawn designs.
       </p>

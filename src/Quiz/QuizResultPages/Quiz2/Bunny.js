@@ -123,10 +123,7 @@ const BunnyPretty = () => {
         I hope this quiz inspires you to play with these animal-inspired beauty looks. Which "Type of Pretty" are you leaning towards? Dive into the quiz on my website and I hope the full length tutorials on my channel inspire you to try a new look <a href='/tutorials' alt=''>here</a>!
       </p>
 
-      <div className={styles.imageContainer}>
-        <img src={final} alt="Bunny Pretty" className={styles.image} />
-      </div>
-
+   
       <img src={signature} alt="Jackie Wyers Signature" className={styles.signatureImage} />
       <Comments website-id={websiteId} pageId={"Bunny-Pretty-Results"} />
     </div>
