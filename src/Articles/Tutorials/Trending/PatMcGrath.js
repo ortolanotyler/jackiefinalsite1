@@ -5,7 +5,6 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import TextReveal from '../../../Components/TextReveal';
 import DropCap from '../../../Components/DropCap';
-import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathTitle.png`;
 const pat = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
