@@ -115,7 +115,7 @@ const ContactForm = () => {
                 href="/press"
                 style={{
                   fontSize: '19px',
-                  color: 'black',
+                  color: '#745B4F',
                   textDecoration: 'underline',
                 }}
               >

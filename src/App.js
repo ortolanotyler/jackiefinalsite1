@@ -57,7 +57,7 @@ import DeerPretty from './Quiz/QuizResultPages/Quiz2/Deer';
 import Quiz2 from './Quiz/Quiz2';
 
 import './App.css'; // Ensure you have imported the App.css file
-import DiaryPost1Fillers from './Articles/Diary/DiaryFillers';
+import DiaryPost1Fillers from './Articles/Tutorials/VintageVibes/DiaryFillers';
 import DiarySlider from './DiaryHome/diaryhome';
 import BusinessContact from './Components/BusinessContact';
 import NinetiesStyle from './Shop/ShopMyHomeLinks/NINETIESSTYLE';
