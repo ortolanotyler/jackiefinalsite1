@@ -19,7 +19,7 @@
 
 @media (max-width: 800px) {
   .article-list-reviews {
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
     grid-gap: 1rem;
     padding: 1rem;
     max-width: 600px;

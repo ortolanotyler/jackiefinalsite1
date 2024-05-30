@@ -65,14 +65,6 @@ const Sitemap = () => {
     return (
         <div className={styles.body}>
             <h1 className={`${styles.heading} ${styles.mainHeading}`}>Sitemap</h1>
-            <h2 className={`${styles.heading} ${styles.subHeading}`}>Site Resources</h2>
-            <ul className={styles.list}>
-                {siteResources.map((post, index) => (
-                    <li key={index} className={styles.listItem}>
-                        <Link to={post.path} className={styles.link}>{post.title}</Link>
-                    </li>
-                ))}
-            </ul>
             <h2 className={`${styles.heading} ${styles.subHeading}`}>Beauty</h2>
             <ul className={styles.list}>
                 {beautyPosts.map((post, index) => (
@@ -81,6 +73,15 @@ const Sitemap = () => {
                     </li>
                 ))}
             </ul>
+            <h2 className={`${styles.heading} ${styles.subHeading}`}>Site Resources</h2>
+            <ul className={styles.list}>
+                {siteResources.map((post, index) => (
+                    <li key={index} className={styles.listItem}>
+                        <Link to={post.path} className={styles.link}>{post.title}</Link>
+                    </li>
+                ))}
+            </ul>
+        
             <h2 className={`${styles.heading} ${styles.subHeading}`}>Travel</h2>
             <ul className={styles.list}>
                 {travelPosts.map((post, index) => (
