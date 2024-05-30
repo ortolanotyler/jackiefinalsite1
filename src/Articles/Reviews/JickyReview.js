@@ -4,7 +4,6 @@ import './ExampleTutorial.css';
 import TextReveal from '../../Components/TextReveal';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 
-const jicky1 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky1.jpeg`;
 const jicky2 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky2.jpg`;
 const title = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/JickyTitle.png`;
 const jicky3 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky3.png`;
