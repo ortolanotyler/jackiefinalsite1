@@ -6,7 +6,7 @@ import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import TextReveal from '../../../Components/TextReveal';
 
-const title = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/NoMakeupTitl.jpeg`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/NoMakeUpTitl.jpeg`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersElizabethBennetInspiredMakeup.JPG`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersDaphneBridgertonMakeup.jpg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWtersRoseDawsonMakeup.JPG`;
