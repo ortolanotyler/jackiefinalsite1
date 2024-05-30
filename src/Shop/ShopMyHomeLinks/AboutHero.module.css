@@ -1,0 +1,23 @@
+@keyframes jiggle {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.jiggle {
+  animation: jiggle 1s ease-in-out;
+}
+
+.parisPrincessIframe {
+  width: 100%;
+  min-height: 100vh; /* Full viewport height */
+  border: none;
+}
+
+html, body {
+  margin: 0; /* Ensure no margin */
+  padding: 0; /* Ensure no padding */
+  height: 100%;
+}

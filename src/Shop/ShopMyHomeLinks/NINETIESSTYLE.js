@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import TextReveal from '../../Components/TextReveal';
 import { Link, Typography, Box } from '@mui/material';
-import './AboutHero.css'; // Assuming you have the CSS for jiggle animation
+import styles from './AboutHero.module.css'; // Importing the CSS module
 
 const NinetiesStyle = () => {
   const iframeRef = useRef(null);
@@ -57,13 +57,12 @@ const NinetiesStyle = () => {
 
   return (
     <div>
-     
       <TextReveal text="90's VIBES" />
       <Box sx={{ textAlign: 'right', mt: 5, mr: 20 }}>
         <Link
           href="/mystyle"
           ref={linkRef}
-          className={isJiggling ? 'jiggle' : ''}
+          className={isJiggling ? styles.jiggle : ''}
           sx={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
         >
           <Typography variant="body1" sx={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
@@ -76,12 +75,7 @@ const NinetiesStyle = () => {
         <iframe
           title="Nineties Style"
           src="https://shopmy.us/collections/public/379874?noHeader=true"
-          style={{
-            width: '100%',
-            minHeight: '1200px',
-            border: 'none',
-          }}
-          className="central-park-spring-iframe"
+          className={styles.parisPrincessIframe}
           ref={iframeRef}
         ></iframe>
       </div>
@@ -90,4 +84,3 @@ const NinetiesStyle = () => {
 };
 
 export default NinetiesStyle;
-
