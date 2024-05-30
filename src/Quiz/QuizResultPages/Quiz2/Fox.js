@@ -8,7 +8,6 @@ import styles from './AnimalPretty.module.css';
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxTitleResults.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxPretty.png`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
-const final = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/Final.JPG`;
 
 const Card = ({ blogContent }) => {
   return (

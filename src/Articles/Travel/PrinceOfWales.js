@@ -6,7 +6,6 @@ import SubscribeVlog from '../../Components/SubscribeVlog';
 import DropCap from '../../Components/DropCap';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
-import SubscribeButton from '../../Components/SubscribeButton';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceTitle.png`;
 
@@ -28,6 +27,7 @@ const images = [
     { src: `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales15.JPG`, alt: 'Prince of Wales Niagara on The Lake' },
     { src: `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales16.jpeg`, alt: 'Prince of Wales Niagara on The Lake' },
     { src: `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWales17.jpeg`, alt: 'Prince of Wales Niagara on The Lake' },
+    { src: `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`, alt: 'Prince of Wales Niagara on The Lake' },
 ];
 
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/signature.png`;
