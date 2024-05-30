@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import '../../ExampleTutorial.css';
+import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
@@ -38,12 +38,17 @@ const SharonTatePost = () => {
   };
 
   const paragraphStyle = {
-    fontSize: '1rem',
+    fontSize: '1.25rem',
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
-    maxWidth: '100%',
-    lineHeight: '1.5'
+    marginTop: '1rem',
+    marginBottom: '1rem',
+    maxWidth: '500px',
+    lineHeight: '1.75',
+    marginLeft: 'auto',
+    marginRight: 'auto',
   };
+
 
   const blogContent = (
     <div className="container">

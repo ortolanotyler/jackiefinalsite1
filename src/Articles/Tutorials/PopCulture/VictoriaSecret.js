@@ -37,11 +37,15 @@ const VictoriaSecret = () => {
   };
 
   const paragraphStyle = {
-    fontSize: '1rem',
+    fontSize: '1.25rem',
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
-    maxWidth: '100%',
-    lineHeight: '1.5'
+    marginTop: '1rem',
+    marginBottom: '1rem',
+    maxWidth: '500px',
+    lineHeight: '1.75',
+    marginLeft: 'auto',
+    marginRight: 'auto',
   };
 
   const blogContent = (

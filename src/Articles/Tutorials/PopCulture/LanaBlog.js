@@ -1,10 +1,10 @@
 import React, { useRef } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import '../../ExampleTutorial.css';
+import '../../ExampleTutorial1.css';
 import TextReveal from '../../../Components/TextReveal';
 import SubscribeButton from '../../../Components/SubscribeButton';
-import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import DropCap from '../../../Components/DropCap';
+import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaTitle.png`;
@@ -37,11 +37,15 @@ const LanaBlog = () => {
   };
 
   const paragraphStyle = {
-    fontSize: '1rem',
+    fontSize: '1.25rem',
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
-    maxWidth: '100%',
-    lineHeight: '1.5'
+    marginTop: '1rem',
+    marginBottom: '1rem',
+    maxWidth: '500px',
+    lineHeight: '1.75',
+    marginLeft: 'auto',
+    marginRight: 'auto',
   };
 
   const blogContent = (
@@ -73,7 +77,7 @@ const LanaBlog = () => {
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
         <a href="https://www.instagram.com/p/C2vF9bCOVPQ" target="_blank" rel="noopener noreferrer">
-          <img src={Lana2} alt="Lana Del Rey Instagram" style={{ width: '100%' }} />
+          <img src={Lana2} alt="Lana Del Rey Instagram" style={{ width: '100%', maxWidth: '500px' }} />
         </a>
       </div>
 

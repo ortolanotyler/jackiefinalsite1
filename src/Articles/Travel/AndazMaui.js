@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import '../ExampleTutorial.css';
+import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../../Components/TextReveal';
 import DropCap from '../../Components/DropCap';
@@ -59,15 +59,20 @@ const AndazMauiReview = () => {
         fontFamily: 'Arapey, serif',
         color: '#333',
         margin: '1.5rem'
-    };
-
-    const paragraphStyle = {
-        fontSize: '1rem',
+      };
+    
+      const paragraphStyle = {
+        fontSize: '1.25rem',
         fontFamily: 'GFS Didot, serif',
-        margin: '5rem 1.5rem',
-        maxWidth: '100%',
-        lineHeight: '1.5'
-    };
+        margin: '1rem 1.5rem',
+        marginTop: '1rem',
+        marginBottom: '1rem',
+        maxWidth: '500px',
+        lineHeight: '1.75',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+      };
+    
 
     const imageStyle = {
         display: 'block',

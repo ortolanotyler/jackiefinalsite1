@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import '../../ExampleTutorial.css';
+import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
@@ -28,6 +28,7 @@ const Makeup2016 = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
 
+
   const headingStyle = {
     textAlign: 'center',
     fontSize: '2rem',
@@ -38,12 +39,17 @@ const Makeup2016 = () => {
   };
 
   const paragraphStyle = {
-    fontSize: '1rem',
+    fontSize: '1.25rem',
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
-    maxWidth: '100%',
-    lineHeight: '1.5'
+    marginTop: '1rem',
+    marginBottom: '1rem',
+    maxWidth: '500px',
+    lineHeight: '1.75',
+    marginLeft: 'auto',
+    marginRight: 'auto',
   };
+
 
   const blogContent = (
     <div className="container">

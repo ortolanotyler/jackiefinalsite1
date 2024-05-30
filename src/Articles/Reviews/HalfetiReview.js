@@ -12,12 +12,12 @@ const halfeti1 = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/Halfet
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-  <div>
-    <div><TextReveal text='PERFUME PROFILE' /></div>
+ 
+  
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
-  </div>
+  
 );
 
 const HalfetiReview = () => {
@@ -34,13 +34,17 @@ const HalfetiReview = () => {
   };
 
   const paragraphStyle = {
-    fontSize: '1rem',
+    fontSize: '1.25rem',
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
-    maxWidth: '100%',
-    lineHeight: '1.5',
-    padding: '0 1rem'
+    marginTop: '1rem',
+    marginBottom: '1rem',
+    maxWidth: '500px',
+    lineHeight: '1.75',
+    marginLeft: 'auto',
+    marginRight: 'auto',
   };
+
 
   const imageContainerStyle = {
     display: 'flex',
@@ -167,6 +171,8 @@ const HalfetiReview = () => {
   );
 
   return (
+   <div>
+<div><TextReveal text='PERFUME PROFILE' /></div>
     <div ref={blogRef} style={{ width: '100%', maxWidth: '800px', margin: '0 auto', padding: '1rem' }}>
       <Card
         title="HALFETI // PENHALIGON'S"
@@ -174,6 +180,8 @@ const HalfetiReview = () => {
         blogContent={blogContent}
       />
     </div>
+
+   </div> 
   );
 };
 

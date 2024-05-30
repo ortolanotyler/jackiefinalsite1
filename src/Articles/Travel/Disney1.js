@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import '../ExampleTutorial.css';
+import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../../Components/TextReveal';
 import SubscribeVlog from '../../Components/SubscribeVlog';
@@ -32,21 +32,25 @@ const Disney2Post = () => {
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '2.75rem',
+        fontSize: '2rem',
         fontWeight: 'normal',
-        fontFamily: 'GFS Didot, serif',
+        fontFamily: 'Arapey, serif',
         color: '#333',
-        marginTop: '0.95rem',
-        marginBottom: '0.95rem'
-    };
-
-    const paragraphStyle = {
-        fontSize: '1rem',
+        margin: '1.5rem'
+      };
+    
+      const paragraphStyle = {
+        fontSize: '1.25rem',
         fontFamily: 'GFS Didot, serif',
-        margin: '1rem',
-        maxWidth: '100%',
-        lineHeight: '1.5em'
-    };
+        margin: '1rem 1.5rem',
+        marginTop: '1rem',
+        marginBottom: '1rem',
+        maxWidth: '500px',
+        lineHeight: '1.75',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+      };
+    
 
     const imageStyle = {
         display: 'block',

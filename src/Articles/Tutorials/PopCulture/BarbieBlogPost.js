@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import '../../ExampleTutorial.css';
+import '../../ExampleTutorial1.css';
 import TextReveal from '../../../Components/TextReveal';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
@@ -38,11 +38,13 @@ const BarbieBlog = () => {
   };
 
   const paragraphStyle = {
-    fontSize: '1rem',
+    fontSize: '1.25rem',
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
+    marginTop: '1rem',
+    marginBottom: '1rem',
     maxWidth: '100%',
-    lineHeight: '1.5'
+    lineHeight: '1.75'
   };
 
   const blogContent = (
@@ -80,7 +82,7 @@ const BarbieBlog = () => {
         </p>
       </div>
 
-      <p style={paragraphStyle}>
+      <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         Among the film's many breathtaking fashion moments, the iconic pink gingham dress stole the hearts of fans. However, one look, in my opinion, outshone the rest—the unforgettable roller skate Barbie ensemble!
       </p>
 
@@ -93,11 +95,11 @@ const BarbieBlog = () => {
         </a>
       </div>
 
-      <p style={paragraphStyle}>
+      <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         When paparazzi pictures of the cast filming at Venice Beach surfaced featuring neon outfits reminiscent of '90s roller skate Barbie, I was inspired to create the entire costume for Halloween, complete with a makeup transformation that is not only faithful to the film but also entirely wearable.
       </p>
 
-      <p style={paragraphStyle}>
+      <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         In this blog post, I'll be your guide and I will show you step by step how to recreate Margot Robbie's exquisite pink Barbie makeup look, drawing inspiration from the movie and using my cherished Barbie collaboration products. Additionally, I'll show you how to DIY Barbie roller skates at home. Come on, Barbies, let’s get glam!
       </p>
 
@@ -109,13 +111,13 @@ const BarbieBlog = () => {
 
       <h2 style={headingStyle}>Preparation</h2>
 
-      <p style={paragraphStyle}>
+      <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         Before we begin, make sure your skin is hydrated. This collaboration isn’t available any longer, but the product itself is still on shelves! The Glamglow Glowstarter Mega Illuminating Moisturizer leaves a super radiant, Barbie-doll base. If you're looking for plump lips, the Lawless Forget the Filler Overnight Lip Plumping Mask is a must-try and a top recommendation I always recommend for beauty lovers!
       </p>
 
       <h2 style={headingStyle}>Foundation</h2>
 
-      <p style={paragraphStyle}>
+      <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         We are going to opt for a lightweight foundation, perfect for the summer heat. I recommend the Beautiful Skin Foundation from Charlotte Tilbury or the L'Oréal True Match Hyaluronic Tinted Serum. Both are fabulous picks depending on your budget.
       </p>
 
@@ -123,13 +125,13 @@ const BarbieBlog = () => {
 
       <h2 style={headingStyle}>Contour and Bronzer</h2>
 
-      <p style={paragraphStyle}>
+      <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         I achieve Margot's signature look with some subtle contouring and cream bronzer, creating more structure to my face. I’d recommend enhancing your natural features rather than going against them though - especially if you are wearing this look out in daylight. Less is more!
       </p>
 
       <h2 style={headingStyle}>Powder and Blush</h2>
 
-      <p style={paragraphStyle}>
+      <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         Set your makeup with your favorite powder to maintain a matte yet natural finish. My holy-grail powder is from Florasis, a Chinese beauty brand. You can find them on Amazon & their powders never look too cakey or thick, rather they set and softly mattify. Margot's rosy cheeks can be replicated using the Pur X Malibu Barbie Blush Set.
       </p>
 
@@ -137,17 +139,17 @@ const BarbieBlog = () => {
 
       <h2 style={headingStyle}>Brows</h2>
 
-      <p style={paragraphStyle}>
+      <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         Keep your brows soft and natural like Margot Robbie’s Barbie. Lawless Shape Up Soft Fill Brow Pencil is great, but you can always go drugstore with Winkylux or L’Oréal Paris.
       </p>
 
       <h2 style={headingStyle}>Eyeshadow and Eyeliner</h2>
 
-      <p style={paragraphStyle}>
+      <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         For the eyes, we are going to go with subtle pops of pink, shimmer, and definition. This is a perfect time to use shades from the Colorpop Malibu Barbie Collab (still my favorite collection) or you can always use some blush in the crease to cut down on products.
       </p>
 
-      <p style={paragraphStyle}>
+      <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         If you are a fan of cute makeup with a beachy aesthetic, Flower Knows Beauty also has an adorable palette, which I featured in the tutorial. The seashells scream Malibu!
       </p>
 
@@ -155,23 +157,23 @@ const BarbieBlog = () => {
 
       <h2 style={headingStyle}>Lashes</h2>
 
-      <p style={paragraphStyle}>
+      <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         Time for a Barbie collab product I use daily. The Revlon X Barbie Lash curler! After a curl, swipe a coat of your favorite mascara.
       </p>
 
       <h2 style={headingStyle}>Highlighter</h2>
 
-      <p style={paragraphStyle}>
+      <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         Add shine to your nose, cheeks, and chin for that Barbie skin glow. The Charlotte Tilbury Beauty Light Wand in Spotlight remains a favorite, but now many drugstore brands have recreated the iconic product. Flower Beauty also has a fabulous wand in various shades.
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493536?noHeader=true" title="Collection name here" />
 
-      <p style={paragraphStyle}>
+      <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         Voila! You are your own version of Mattel's iconic doll. Feel free to tone down or amp up the style to make it your own. See full tutorial linked at the beginning of article for DIY costume.
       </p>
 
-      <p style={paragraphStyle}>
+      <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         Want to be featured on my site? Submit your recreation or version of this look here. I’d love to see you switch up your style with confidence!
       </p>
 
