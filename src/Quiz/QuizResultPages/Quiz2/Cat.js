@@ -47,7 +47,7 @@ const CatPretty = () => {
       </div>
       <img src={title} alt="CAT PRETTY - QUIZ RESULTS" className={styles.titleImage} />
 
-      <ResponsiveYoutube src="https://www.youtube.com/embed/c9-8K8AF5rg?si=-MEfA2g3jPJNwUzx" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
+      <ResponsiveYoutube src="https://www.youtube.com/embed/hIGr8Gj4kQA?si=8N-JgnQ-JeRTk5Gm" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
 
       <div className={styles.subscribeContainer}>
         <SubscribeButton />

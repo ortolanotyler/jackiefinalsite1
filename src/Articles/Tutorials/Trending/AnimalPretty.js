@@ -64,7 +64,7 @@ const AnimalPretty = () => {
         <SubscribeButton />
       </div>
 
-      <ResponsiveYoutube src="https://www.youtube.com/embed/c9-8K8AF5rg?si=wZkYBBjoc4cXaKZ4" title="YouTube video player" />
+      <ResponsiveYoutube src="https://www.youtube.com/embed/hIGr8Gj4kQA?si=8N-JgnQ-JeRTk5Gm" title="YouTube video player" />
 
       <div>
         <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
