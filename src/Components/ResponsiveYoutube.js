@@ -1,7 +1,8 @@
-import React from 'react';
+import React from'react';
+
 
 const ResponsiveYoutube = ({ src, title }) => (
-    <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', width: '50%', background: '#000', margin: '0 auto' }}>
+    <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', background: '#000' }}>
         <iframe
             src={src}
             title={title}
@@ -13,4 +14,4 @@ const ResponsiveYoutube = ({ src, title }) => (
     </div>
 );
 
-export default ResponsiveYoutube;
+export default ResponsiveYoutube;   

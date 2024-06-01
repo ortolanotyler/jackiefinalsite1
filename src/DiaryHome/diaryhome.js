@@ -7,15 +7,16 @@ const image = `${process.env.PUBLIC_URL}/Images/Articles/DiaryPost1/diarypost1.j
 
 const DiarySlider = () => {
   return (
-    <div className={styles.centeredImage}>
+    <div className={styles.centeredContainer}>
       <TextReveal text="DIARY" className={styles.diaryText} />
-    
-      <a href="/diary1" className={styles.diaryLink}>
-        <div className={styles.imageContainer}>
-          <img src={image} alt="Diary Post" className={styles.diaryImage} />
-          <div className={styles.readOverlay}>READ HERE</div>
-        </div>
-      </a>
+      <div className={styles.gridContainer}>
+        <a href="/diary1" className={styles.diaryLink}>
+          <div className={styles.imageContainer}>
+            <img src={image} alt="Diary Post" className={styles.diaryImage} />
+            <div className={styles.readOverlay}>READ HERE</div>
+          </div>
+        </a>
+      </div>
     </div>
   );
 };

@@ -1,8 +1,16 @@
-.centeredImage {
+.centeredContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 20px; /* Add some padding */
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column by default */
+  gap: 20px; /* Gap between grid items */
+  width: 100%;
 }
 
 .diaryLink {
@@ -16,12 +24,13 @@
 }
 
 .diaryImage {
-  max-width: 650px; /* Adjust the maximum width as needed */
   height: auto;
-  margin-top: 50px; /* Add some margin at the top */
-  margin-bottom: 50px; /* Add some margin at the bottom */
+  margin-top: 20px; /* Add some margin at the top */
+  margin-bottom: 20px; /* Add some margin at the bottom */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); /* Adds a subtle shadow to the image */
   transition: filter 0.3s ease; /* Smooth transition for darkening effect */
+  max-width: 500px; /* Adjust the maximum width */
+
 }
 
 .readOverlay {
@@ -33,7 +42,7 @@
   background-color: white; /* Background color for the box */
   padding: 10px 20px; /* Padding inside the box */
   font-family: 'GFS Didot', sans-serif;
-  font-size: 24px;
+  font-size: 18px; /* Adjust font size */
   border-radius: 5px; /* Rounded corners for the box */
   opacity: 0;
   transition: opacity 0.3s ease; /* Smooth transition for the text */
@@ -52,4 +61,26 @@
   font-family: 'GFS Didot', sans-serif;
   font-size: 24px;
   margin-bottom: 20px; /* Add some margin at the bottom */
+  text-align: center; /* Center the text */
+}
+
+/* Media queries for responsive design */
+@media (min-width: 600px) {
+  .gridContainer {
+    grid-template-columns: repeat(2, 1fr); /* 2x2 grid on larger screens */
+    max-width: 500px; /* Set maximum width to 500px */
+  }
+}
+
+@media (max-width: 599px) {
+  .diaryImage {
+    max-width: 100%; /* Ensure image fits within the container */
+    margin-top: 10px; /* Reduce margin for smaller screens */
+    margin-bottom: 10px; /* Reduce margin for smaller screens */
+  }
+
+  .readOverlay {
+    font-size: 16px; /* Reduce font size for smaller screens */
+    padding: 5px 10px; /* Adjust padding for smaller screens */
+  }
 }

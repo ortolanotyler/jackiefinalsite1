@@ -8,11 +8,11 @@
   }
   
   .rotating-text {
-    padding: 0.25rem;
+    padding: 0.05rem;
     color: #745B4F;
     display: inline-block;
     animation: rotate-text 90s linear infinite;
-    letter-spacing: 0.2rem; /* Increases spacing between all characters */
+    letter-spacing: 0.1em; /* Increases spacing between all characters */
   }
   
   @keyframes rotate-text {

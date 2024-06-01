@@ -5,21 +5,18 @@ import TextReveal from '../Components/TextReveal';
 import QuoteBanner3 from './QuoteBanner3';
 import EmailSubscribe from '../Components/EmailSubscribe';
 import SiteExplorer from './SiteExplorer';
-
 import ReviewArticleListHome from '../ReviewsPage/ReviewArticleListHomePage';
 import BeigeReveal from '../Components/BeigeReveal';
-
 import RotatingText from '../Navigation/AppBar/RotatingText';
 import Quiz2 from '../Quiz/Quiz2';
 import AboutHero from './AboutHero'; // Import the AboutHero component
 import './AboutHero.css'; // Import the CSS file for jiggle animation
 import ReviewFavorites from './ReviewFavorites';
-
 import BeyondBeautyHero from './BeyondBeautyHero';
 import SiteExplorerBeyond from './SiteExplorerBeyond';
 import LifestyleFavorites from './LifestyleFavorites';
 import ShopMyHero2 from './ShopMyHero2';
-import ResponsiveYoutube from '../Components/ResponsiveYoutube';
+import ResponsiveYoutubeHome from './ResponsiveYoutubeHome';
 
 function HomePage() {
   const linkRef = useRef(null);
@@ -76,7 +73,6 @@ function HomePage() {
             <EmailSubscribe />
           </Grid>
         </Grid>
-     
         <Grid item xs={12}>
           <SiteExplorer />
         </Grid>
@@ -95,22 +91,7 @@ function HomePage() {
             </a>
           </Box>
         </Grid>
-        <TextReveal text="LATEST BEAUTY VIDEO" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
-        <Grid item xs={12} display="flex" justifyContent="center">
-          <ResponsiveYoutube src="https://www.youtube.com/embed/Uz03ReLZO9k?si=JbevAxz6Q8UcOv7U" title="Jackie Latest Youtube Video" />
-        </Grid>
-        <Grid item xs={12} display="flex" justifyContent="center">
-          <div style={{ textAlign: 'right', marginTop: '2rem', marginBottom: '5rem', width: '100%', maxWidth: '1400px', display: 'flex', justifyContent: 'flex-end' }}>
-            <a
-              href="/victoriasecret"
-              ref={linkRef}
-              className={isJiggling ? 'jiggle' : ''}
-              style={{ color: 'black', textDecoration: 'none', fontFamily: 'GFS Didot', fontSize: '1.25rem' }}
-            >
-              READ FULL ARTICLE HERE &rarr;
-            </a>
-          </div>
-        </Grid>
+
 
         <Grid item xs={12}>
           <TextReveal text="🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊" />
@@ -153,7 +134,6 @@ function HomePage() {
         <Grid item xs={12}>
           <EmailSubscribe />
         </Grid>
-     
       </Grid>
     </Box>
   );
