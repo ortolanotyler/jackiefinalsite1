@@ -49,7 +49,6 @@ export default function EmailSubscribe() {
           if (response.ok) {
             setIsSubmitted(true);
             resetForm();
-            setTimeout(() => setIsSubmitted(false), 5000); // Hide the message after 5 seconds
           } else {
             alert('Failed to subscribe email.');
           }
