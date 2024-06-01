@@ -19,6 +19,7 @@ import BeyondBeautyHero from './BeyondBeautyHero';
 import SiteExplorerBeyond from './SiteExplorerBeyond';
 import LifestyleFavorites from './LifestyleFavorites';
 import ShopMyHero2 from './ShopMyHero2';
+import ResponsiveYoutube from '../Components/ResponsiveYoutube';
 
 function HomePage() {
   const linkRef = useRef(null);
@@ -96,16 +97,7 @@ function HomePage() {
         </Grid>
         <TextReveal text="LATEST BEAUTY VIDEO" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
         <Grid item xs={12} display="flex" justifyContent="center">
-          <div style={{ position: 'relative', width: '100%', maxWidth: '100%', height: 0, margin: '2rem', paddingBottom: '56.25%', background: '#000', marginTop: '1rem' }}>
-            <iframe
-              src="https://www.youtube.com/embed/Uz03ReLZO9k?si=JbevAxz6Q8UcOv7U"
-              title="Jackie Latest Youtube Video"
-              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
+          <ResponsiveYoutube src="https://www.youtube.com/embed/Uz03ReLZO9k?si=JbevAxz6Q8UcOv7U" title="Jackie Latest Youtube Video" />
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
           <div style={{ textAlign: 'right', marginTop: '2rem', marginBottom: '5rem', width: '100%', maxWidth: '1400px', display: 'flex', justifyContent: 'flex-end' }}>

@@ -63,74 +63,77 @@ export default function EmailSubscribe() {
       {({ submitForm, isSubmitting, touched, errors, values, handleChange }) => (
         <Box display="flex" justifyContent="center" alignItems="center" width="100%" padding="2rem" mt={8}>
           <Grid container spacing={3} alignItems="center" justifyContent="center" sx={{ maxWidth: '1000px', width: '100%' }}>
-            {isSubmitted && (
+            {isSubmitted ? (
               <Grid item xs={12}>
                 <Alert severity="success">Email subscribed successfully!</Alert>
               </Grid>
-            )}
-            <Grid item xs={12}>
-              <img src={image1} alt="Email Subscribe" style={{ width: '100%' }} />
-            </Grid>
-            <Grid item xs={6}>
-              <Field
-                name="email"
-                type="email"
-                placeholder="Enter your email"
-                style={{
-                  borderRadius: '5px',
-                  width: '100%',
-                  boxSizing: 'border-box',
-                  border: '1px solid black',
-                  padding: '0.5rem',
-                  fontFamily: 'GFS Didot, serif',
-                  fontSize: '12px',
-                  color: '#745B4F',
-                  backgroundColor: '#FFFFFF',
-                }}
-              />
-              {touched.email && errors.email && <div style={{ color: '#745B4F', fontSize: '16px', marginTop: '0.5rem' }}>{errors.email}</div>}
-            </Grid>
-            <Grid item xs={6}>
-              <Button
-                ref={buttonRef}
-                type="submit"
-                variant="contained"
-                disabled={isSubmitting}
-                onClick={submitForm}
-                sx={{
-                  backgroundColor: values.consent ? '#fdedef' : 'black',
-                  color: values.consent ? '#745B4F' : 'white',
-                  borderRadius: '5px',
-                  width: '100%',
-                  fontFamily: 'GFS Didot, serif',
-                  padding: '0.5rem',
-                  '&:hover': {
-                    backgroundColor: values.consent ? '#fdedef' : '#333',
-                    color: values.consent ? '#745B4F' : 'white',
-                  },
-                }}
-              >
-                Subscribe
-              </Button>
-            </Grid>
-            <Grid item xs={12}>
-              <FormControlLabel
-                control={
-                  <Checkbox
-                    name="consent"
-                    checked={values.consent}
-                    onChange={handleChange}
-                    color="primary"
+            ) : (
+              <>
+                <Grid item xs={12}>
+                  <img src={image1} alt="Email Subscribe" style={{ width: '100%' }} />
+                </Grid>
+                <Grid item xs={6}>
+                  <Field
+                    name="email"
+                    type="email"
+                    placeholder="Enter your email"
+                    style={{
+                      borderRadius: '5px',
+                      width: '100%',
+                      boxSizing: 'border-box',
+                      border: '1px solid black',
+                      padding: '0.5rem',
+                      fontFamily: 'GFS Didot, serif',
+                      fontSize: '12px',
+                      color: '#745B4F',
+                      backgroundColor: '#FFFFFF',
+                    }}
                   />
-                }
-                label={
-                  <Typography variant="body2" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>
-                    I have read the <a href="/privacy" target="_blank" style={{ color: '#745B4F', textDecoration: 'underline' }}>Privacy Policy</a> and give consent to be a part of the newsletter. I understand that I can unsubscribe at any time via email.
-                  </Typography>
-                }
-              />
-              {touched.consent && errors.consent && <div style={{ color: '#745B4F', fontSize: '16px', marginTop: '0.5rem' }}>{errors.consent}</div>}
-            </Grid>
+                  {touched.email && errors.email && <div style={{ color: '#745B4F', fontSize: '16px', marginTop: '0.5rem' }}>{errors.email}</div>}
+                </Grid>
+                <Grid item xs={6}>
+                  <Button
+                    ref={buttonRef}
+                    type="submit"
+                    variant="contained"
+                    disabled={isSubmitting}
+                    onClick={submitForm}
+                    sx={{
+                      backgroundColor: values.consent ? '#fdedef' : 'black',
+                      color: values.consent ? '#745B4F' : 'white',
+                      borderRadius: '5px',
+                      width: '100%',
+                      fontFamily: 'GFS Didot, serif',
+                      padding: '0.5rem',
+                      '&:hover': {
+                        backgroundColor: values.consent ? '#fdedef' : '#333',
+                        color: values.consent ? '#745B4F' : 'white',
+                      },
+                    }}
+                  >
+                    Subscribe
+                  </Button>
+                </Grid>
+                <Grid item xs={12}>
+                  <FormControlLabel
+                    control={
+                      <Checkbox
+                        name="consent"
+                        checked={values.consent}
+                        onChange={handleChange}
+                        color="primary"
+                      />
+                    }
+                    label={
+                      <Typography variant="body2" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>
+                        I have read the <a href="/privacy" target="_blank" style={{ color: '#745B4F', textDecoration: 'underline' }}>Privacy Policy</a> and give consent to be a part of the newsletter. I understand that I can unsubscribe at any time via email.
+                      </Typography>
+                    }
+                  />
+                  {touched.consent && errors.consent && <div style={{ color: '#745B4F', fontSize: '16px', marginTop: '0.5rem' }}>{errors.consent}</div>}
+                </Grid>
+              </>
+            )}
           </Grid>
         </Box>
       )}

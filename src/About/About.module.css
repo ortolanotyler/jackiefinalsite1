@@ -46,7 +46,7 @@
 .about-left-text {
   position: relative; /* Ensures the text is on top of the overlay */
   z-index: 1; /* Ensures the text is on top of the overlay */
-  padding: 5rem;
+  padding: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: 18px;
@@ -61,15 +61,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.25rem;
+  padding: 0.1rem;
 }
 
 .about-right-image {
   margin-top: 1rem;
-  width: 95%;
+  width: 100%;
   height: auto;
   object-fit: cover; /* Ensures the image covers the container */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); /* Adds a subtle shadow to the image */
 }
 
 .about-collaborations-section {
@@ -78,7 +77,6 @@
   width: 100%;
   background-color: white;
   font-family: 'GFS Didot, serif';
-
 }
 
 .about-collaborations-text {
@@ -94,8 +92,6 @@
   background-color: #EBE8E4;
   width: 100%;
   height: auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); /* Adds a subtle shadow to the image */
-
 }
 
 @keyframes flash {

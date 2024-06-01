@@ -1,0 +1,12 @@
+/* Add this CSS in your stylesheet */
+@media (max-width: 1000px) {
+  .card {
+    max-width: 100%;
+    justify-content: center;
+    
+  }
+
+  .container {
+    margin: 1rem;
+  }
+}
