@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import Layout from './Layout';
 import { SpeedInsights } from "@vercel/speed-insights/react";
 
@@ -72,6 +73,12 @@ function App() {
   return (
     <Router>
       <div className="app-container">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Jackie Wyers - Beauty Tutorials and Reviews</title>
+          <meta name="description" content="Explore beauty tutorials, product reviews, and the latest trends with Jackie Wyers." />
+          <link rel="canonical" href="http://jackiewyers.beauty" />
+        </Helmet>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />} />
@@ -128,16 +135,15 @@ function App() {
             <Route path="privacy" element={<PrivacyNotice />} />
             <Route path="contact" element={<BusinessContact />} /> {/* New route for BusinessContact */}
             <Route path="speed-insights" element={<SpeedInsights />} />
-            <Route path="90sVibes" element={<NinetiesStyle/>} />
-            <Route path="leatherandlace" element={<PinkLeather/>} />
-
-            <Route path="retrofloral" element={<RetroFloral/>} />
-            <Route path="barbieskiing" element={<BarbieSki/>} />
-            <Route path="blackandleather" element={<BlackAndLeather/>} />
-            <Route path="cabinfever" element={<CabinFever/>} />
-            <Route path="manhattancool" element={<ManhattanCool/>} />
-            <Route path="falllbd" element={<FallLBD/>} />
-            <Route path="darkflorals" element={<DarkFlorals/>} />
+            <Route path="90sVibes" element={<NinetiesStyle />} />
+            <Route path="leatherandlace" element={<PinkLeather />} />
+            <Route path="retrofloral" element={<RetroFloral />} />
+            <Route path="barbieskiing" element={<BarbieSki />} />
+            <Route path="blackandleather" element={<BlackAndLeather />} />
+            <Route path="cabinfever" element={<CabinFever />} />
+            <Route path="manhattancool" element={<ManhattanCool />} />
+            <Route path="falllbd" element={<FallLBD />} />
+            <Route path="darkflorals" element={<DarkFlorals />} />
             <Route path="*" element={<h1>404 Not Found</h1>} />
           </Route>
         </Routes>
