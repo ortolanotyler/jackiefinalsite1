@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 
 const ReviewFavorites = () => {
   const [isScrollable, setIsScrollable] = useState(false);
-  const [iframeInteraction, setIframeInteraction] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -21,14 +20,6 @@ const ReviewFavorites = () => {
     };
   }, []);
 
-  const handleIframePointerEnter = () => {
-    setIframeInteraction(true);
-  };
-
-  const handleIframePointerLeave = () => {
-    setIframeInteraction(false);
-  };
-
   return (
     <div style={{ width: '100%', minHeight: '1200px', marginBottom: '2rem' }}>
       <iframe
@@ -40,11 +31,8 @@ const ReviewFavorites = () => {
           minHeight: '1000px',
           border: 'none',
           overflow: isScrollable ? 'auto' : 'hidden',
-          pointerEvents: iframeInteraction ? 'auto' : 'none', // Disable interaction unless user is actively interacting
         }}
         className="review-favorites-iframe"
-        onPointerEnter={handleIframePointerEnter}
-        onPointerLeave={handleIframePointerLeave}
       ></iframe>
     </div>
   );

@@ -7,7 +7,6 @@ import EmailSubscribe from '../Components/EmailSubscribe';
 import SiteExplorer from './SiteExplorer';
 
 import ReviewArticleListHome from '../ReviewsPage/ReviewArticleListHomePage';
-import ShopMyHero from './ShopMyHero';
 import BeigeReveal from '../Components/BeigeReveal';
 
 import RotatingText from '../Navigation/AppBar/RotatingText';
@@ -97,7 +96,7 @@ function HomePage() {
         </Grid>
         <TextReveal text="LATEST BEAUTY VIDEO" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
         <Grid item xs={12} display="flex" justifyContent="center">
-          <div style={{ position: 'relative', width: '100%', maxWidth: '1500px', height: 0, margin: '2rem', paddingBottom: '56.25%', background: '#000', marginTop: '1rem' }}>
+          <div style={{ position: 'relative', width: '100%', maxWidth: '100%', height: 0, margin: '2rem', paddingBottom: '56.25%', background: '#000', marginTop: '1rem' }}>
             <iframe
               src="https://www.youtube.com/embed/Uz03ReLZO9k?si=JbevAxz6Q8UcOv7U"
               title="Jackie Latest Youtube Video"
