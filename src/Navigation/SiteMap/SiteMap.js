@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import styles from './SiteMap.module.css'; // Ensure this path matches where your CSS module is saved
 
@@ -35,7 +36,6 @@ const Sitemap = () => {
         { path: "/press", title: "Press and Media Inquiries" },
         { path: "/subscribe", title: "Newsletter Sign Up" },
         { path: "/quiz", title: "Quiz Home" },
-      
         { path: "/quiz2", title: "Quiz 2" },
         { path: "/vlogs", title: "Vlogs Home" },
         { path: "/travel", title: "Travel Home" },
@@ -63,50 +63,55 @@ const Sitemap = () => {
     ];
 
     return (
-        <div className={styles.body}>
-            <h1 className={`${styles.heading} ${styles.mainHeading}`}>Sitemap</h1>
-            <h2 className={`${styles.heading} ${styles.subHeading}`}>Beauty</h2>
-            <ul className={styles.list}>
-                {beautyPosts.map((post, index) => (
-                    <li key={index} className={styles.listItem}>
-                        <Link to={post.path} className={styles.link}>{post.title}</Link>
-                    </li>
-                ))}
-            </ul>
-            <h2 className={`${styles.heading} ${styles.subHeading}`}>Site Resources</h2>
-            <ul className={styles.list}>
-                {siteResources.map((post, index) => (
-                    <li key={index} className={styles.listItem}>
-                        <Link to={post.path} className={styles.link}>{post.title}</Link>
-                    </li>
-                ))}
-            </ul>
-        
-            <h2 className={`${styles.heading} ${styles.subHeading}`}>Travel</h2>
-            <ul className={styles.list}>
-                {travelPosts.map((post, index) => (
-                    <li key={index} className={styles.listItem}>
-                        <Link to={post.path} className={styles.link}>{post.title}</Link>
-                    </li>
-                ))}
-            </ul>
-            <h2 className={`${styles.heading} ${styles.subHeading}`}>Product Reviews</h2>
-            <ul className={styles.list}>
-                {reviewPosts.map((post, index) => (
-                    <li key={index} className={styles.listItem}>
-                        <Link to={post.path} className={styles.link}>{post.title}</Link>
-                    </li>
-                ))}
-            </ul>
-            <h2 className={`${styles.heading} ${styles.subHeading}`}>MyStyle</h2>
-            <ul className={styles.list}>
-                {stylePosts.map((post, index) => (
-                    <li key={index} className={styles.listItem}>
-                        <Link to={post.path} className={styles.link}>{post.title}</Link>
-                    </li>
-                ))}
-            </ul>
-        </div>
+        <>
+            <Helmet>
+                <title>Sitemap - Jackie Wyers</title>
+                <meta name="description" content="Explore the sitemap to navigate through all the makeup tutorials, travel blogs, style guides, and reviews by Jackie Wyers." />
+            </Helmet>
+            <div className={styles.body}>
+                <h1 className={`${styles.heading} ${styles.mainHeading}`}>Sitemap</h1>
+                <h2 className={`${styles.heading} ${styles.subHeading}`}>Beauty</h2>
+                <ul className={styles.list}>
+                    {beautyPosts.map((post, index) => (
+                        <li key={index} className={styles.listItem}>
+                            <Link to={post.path} className={styles.link}>{post.title}</Link>
+                        </li>
+                    ))}
+                </ul>
+                <h2 className={`${styles.heading} ${styles.subHeading}`}>Site Resources</h2>
+                <ul className={styles.list}>
+                    {siteResources.map((post, index) => (
+                        <li key={index} className={styles.listItem}>
+                            <Link to={post.path} className={styles.link}>{post.title}</Link>
+                        </li>
+                    ))}
+                </ul>
+                <h2 className={`${styles.heading} ${styles.subHeading}`}>Travel</h2>
+                <ul className={styles.list}>
+                    {travelPosts.map((post, index) => (
+                        <li key={index} className={styles.listItem}>
+                            <Link to={post.path} className={styles.link}>{post.title}</Link>
+                        </li>
+                    ))}
+                </ul>
+                <h2 className={`${styles.heading} ${styles.subHeading}`}>Product Reviews</h2>
+                <ul className={styles.list}>
+                    {reviewPosts.map((post, index) => (
+                        <li key={index} className={styles.listItem}>
+                            <Link to={post.path} className={styles.link}>{post.title}</Link>
+                        </li>
+                    ))}
+                </ul>
+                <h2 className={`${styles.heading} ${styles.subHeading}`}>MyStyle</h2>
+                <ul className={styles.list}>
+                    {stylePosts.map((post, index) => (
+                        <li key={index} className={styles.listItem}>
+                            <Link to={post.path} className={styles.link}>{post.title}</Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </>
     );
 };
 
