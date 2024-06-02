@@ -53,8 +53,8 @@ const BonBonReview = () => {
 
   const blogContent = (
     <div className="container" style={{ width: '100%', padding: '1rem' }}>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-        <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1em', color: 'black', textDecoration: 'none' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
+        <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // REVIEWS
         </a>
       </div>

@@ -49,8 +49,8 @@ const LatteMakeupBlogPost = () => {
 
   const blogContent = (
     <div className="container">
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-        <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
+        <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TRENDS
         </a>
       </div>

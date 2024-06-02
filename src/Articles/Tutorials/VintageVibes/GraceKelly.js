@@ -53,8 +53,8 @@ const GraceKelly = () => {
 
   const blogContent = (
     <div className="container">
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-        <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
+        <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
       </div>

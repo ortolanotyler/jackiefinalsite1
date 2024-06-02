@@ -1,11 +1,12 @@
 import React, { useRef } from 'react';
+import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import '../../ExampleTutorial1.css';
 import TextReveal from '../../../Components/TextReveal';
 import SubscribeButton from '../../../Components/SubscribeButton';
-import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import DropCap from '../../../Components/DropCap';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
+import DropCap from '../../../Components/DropCap';
+import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonDouble.png`;
@@ -51,11 +52,14 @@ const Yardley65 = () => {
     marginRight: 'auto',
   };
 
-
   const blogContent = (
     <div className="container">
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-        <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+      <Helmet>
+        <title>Jean Shrimpton - Yardley 1965 Makeup Tutorial - Jackie Wyers</title>
+        <meta name="description" content="Follow Jackie Wyers as she recreates the iconic Jean Shrimpton Yardley 1965 makeup look with detailed tutorials and vintage vibes." />
+      </Helmet>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
+        <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
       </div>
