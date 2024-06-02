@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Helmet } from 'react-helmet';
 import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
@@ -169,6 +170,18 @@ const SugarPlumBlogPost = () => {
 
   return (
     <div ref={blogRef}>
+      <Helmet>
+        <title>Sugar Plum Fairy Makeup Tutorial - Jackie Wyers</title>
+        <meta name="description" content="Discover the whimsical Sugar Plum Fairy makeup trend inspired by the classic Nutcracker ballet. Follow Jackie Wyers' step-by-step guide to achieve this enchanting look." />
+        <meta property="og:title" content="Sugar Plum Fairy Makeup Tutorial - Jackie Wyers" />
+        <meta property="og:description" content="Discover the whimsical Sugar Plum Fairy makeup trend inspired by the classic Nutcracker ballet. Follow Jackie Wyers' step-by-step guide to achieve this enchanting look." />
+        <meta property="og:image" content={title} />
+        <meta property="og:url" content={window.location.href} />
+        <meta name="twitter:title" content="Sugar Plum Fairy Makeup Tutorial - Jackie Wyers" />
+        <meta name="twitter:description" content="Discover the whimsical Sugar Plum Fairy makeup trend inspired by the classic Nutcracker ballet. Follow Jackie Wyers' step-by-step guide to achieve this enchanting look." />
+        <meta name="twitter:image" content={title} />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       <Card blogContent={blogContent} />
     </div>
   );

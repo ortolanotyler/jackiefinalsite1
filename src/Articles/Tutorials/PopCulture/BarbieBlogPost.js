@@ -17,7 +17,6 @@ const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
   <div>
-    <div><TextReveal text='POP CULTURE OBSESSED' /></div>
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
