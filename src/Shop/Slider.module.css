@@ -23,7 +23,7 @@ body {
   overflow-x: hidden;
   display: flex;
   flex-direction: row;
-  margin: 1em;
+  margin: 2em;
 }
 
 .item {
@@ -39,7 +39,8 @@ body {
 .itemImg {
   width: 100%;
   height: 100%;
-  box-shadow: 0 6px 9px rgba(0, 0, 0, 0.9); /* Add box shadow */
+  border-radius: 7.5px;
+  box-shadow: 0 6px 9px rgba(0, 0, 0, 0.3); /* Add box shadow */
   display: block;
   object-fit: cover;
 }
@@ -54,6 +55,7 @@ body {
   position: absolute;
   background: black;
   opacity: 0;
+  border-radius: 7.5px; /* Match border radius of image */
 }
 
 .item:hover::before {
@@ -77,6 +79,7 @@ body {
   opacity: 0;
   visibility: hidden;
   text-align: center;
+  border-radius: 7.5px; /* Match border radius of image */
 }
 
 .itemLink:hover {
