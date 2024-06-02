@@ -1,12 +1,10 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import styles from './aaa.module.css'; // Import CSS Modules
-
-
 import TextReveal from '../../../Components/TextReveal';
 import { Paper } from '@mui/material';
 import RotatingText from '../../../Navigation/AppBar/RotatingText';
 
-const image3 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
 const image7 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
 const image9 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/MARGOTBARBIETHUMBNAIL.png`;
@@ -19,15 +17,12 @@ const cardsData = [
     alt: "Warm and cozy latte-inspired fall makeup look",
     title: "Spring Makeup Inspiration 🎬",
   },
-  
   {
     link: "/margotbarbie",
     image: image9,
     alt: "Margot Robbie Barbie Movie",
     title: "Barbie Makeup Transformation 👱🏼‍♀️",
   },
-
-
   {
     link: "/lanablog",
     image: image7,
@@ -53,7 +48,7 @@ const Card = ({ link, image, alt, title, description }) => {
           <h2 className={styles.cardDescriptionH2}>{title}</h2>
           <p className={styles.cardDescriptionP}>{description}</p>
         </a>
-        {/* Button added below */}        <a href={link} className={styles.readHereBtn}>Read Here</a>
+        <a href={link} className={styles.readHereBtn}>Read Here</a>
       </div>
     </li>
   );
@@ -61,25 +56,30 @@ const Card = ({ link, image, alt, title, description }) => {
 
 const PopCulture = () => {
   return (
-    <div>
-         <div><TextReveal text= 'POP CULTURE OBSESSED' /></div>
-         <Paper elevation={3} style={{ padding: '1rem', margin: '1rem 0' }}>
-     <RotatingText/>
-     </Paper>
-    
-      <ul className={styles.cardList}>
-        {cardsData.map((card, index) => (
-          <Card
-            key={index}
-            link={card.link}
-            image={card.image}
-            alt={card.alt}
-            title={card.title}
-            description={card.description}
-          />
-        ))}
-      </ul>
-    </div>
+    <>
+      <Helmet>
+        <title>Pop Culture Makeup Tutorials - Jackie Wyers</title>
+        <meta name="description" content="Explore pop culture makeup tutorials by Jackie Wyers, including looks inspired by Barbie, Victoria's Secret, Lana Del Rey, and more." />
+      </Helmet>
+      <div>
+        <div><TextReveal text='POP CULTURE OBSESSED' /></div>
+        <Paper elevation={3} style={{ padding: '1rem', margin: '1rem 0' }}>
+          <RotatingText />
+        </Paper>
+        <ul className={styles.cardList}>
+          {cardsData.map((card, index) => (
+            <Card
+              key={index}
+              link={card.link}
+              image={card.image}
+              alt={card.alt}
+              title={card.title}
+              description={card.description}
+            />
+          ))}
+        </ul>
+      </div>
+    </>
   );
 };
 

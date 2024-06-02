@@ -125,7 +125,7 @@ const BonBonReview = () => {
         As a young adult at the time with a fondness for sweet, playful scents, I steered away from body sprays and anything too fruity. I’ve always been drawn to fragrances that lay on a foundation of sandalwood as they feel warm, woody, and inviting alongside the sweetness. This is why Bonbon was the perfect, first-luxury perfume buy that I’d recommend for teens or young adults who love a mature, but sweet scent.
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/549701?noHeader=true" title="Final Touches" />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/549701?noHeader=true" title="Final Touches" scrolling = "no" />
 
       <h2 style={headingStyle}>💗 Review & Recommendations</h2>
 

@@ -30,7 +30,7 @@ const ReviewFavorites = () => {
           width: '100%',
           minHeight: '1000px',
           border: 'none',
-          overflow: isScrollable ? 'auto' : 'hidden',
+          overflow: isScrollable ? 'no' : 'no',
         }}
         className="review-favorites-iframe"
       ></iframe>
