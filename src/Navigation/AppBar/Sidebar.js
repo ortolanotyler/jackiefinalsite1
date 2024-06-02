@@ -13,10 +13,11 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'HOME', path: '/' },
     { name: 'ABOUT', path: '/about' },
     { name: 'TUTORIALS', path: '/tutorials' },
-    { name: 'QUIZ', path: '/quiz' },
-    { name: 'SHOP MY STYLE', path: '/mystyle' },
-    { name: 'MERCH', path: '/vintagevibesmerch' },
     { name: 'REVIEWS', path: '/reviews' },
+    { name: 'QUIZ', path: '/quiz' },
+    { name: 'MERCH', path: '/vintagevibesmerch' },
+    { name: 'SHOP MY STYLE', path: '/mystyle' },
+
     // Spacer
     { name: '', path: '', spacer: true },
     { name: 'TRAVEL', path: '/travel' },
