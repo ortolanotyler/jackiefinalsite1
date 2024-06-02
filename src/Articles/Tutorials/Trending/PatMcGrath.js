@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Helmet } from 'react-helmet';
 import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
@@ -46,7 +47,6 @@ const PatMcGrathPost = () => {
     marginLeft: 'auto',
     marginRight: 'auto',
   };
-
 
   const blogContent = (
     <div className="container">
@@ -220,6 +220,18 @@ const PatMcGrathPost = () => {
 
   return (
     <div ref={blogRef}>
+      <Helmet>
+        <title>Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers</title>
+        <meta name="description" content="Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look." />
+        <meta property="og:title" content="Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers" />
+        <meta property="og:description" content="Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look." />
+        <meta property="og:image" content={title} />
+        <meta property="og:url" content={window.location.href} />
+        <meta name="twitter:title" content="Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers" />
+        <meta name="twitter:description" content="Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look." />
+        <meta name="twitter:image" content={title} />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       <Card blogContent={blogContent} />
     </div>
   );

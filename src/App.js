@@ -68,6 +68,7 @@ import CabinFever from './Shop/ShopMyHomeLinks/CabinFever';
 import ManhattanCool from './Shop/ShopMyHomeLinks/ManhattanCool';
 import FallLBD from './Shop/ShopMyHomeLinks/FallLBD';
 import DarkFlorals from './Shop/ShopMyHomeLinks/DarkFlorals';
+import DiaryPost1Fillers from './Articles/Tutorials/VintageVibes/DiaryFillers';
 
 function App() {
   return (
@@ -88,12 +89,17 @@ function App() {
             <Route path="timetraveltutorials" element={<VintageVibes />} />
             <Route path="trends" element={<TrendsHome />} />
             <Route path="yardley1965" element={<Yardley65 />} />
+
             <Route path="twiggy" element={<TwiggyBlog />} />
             <Route path="victoriasecret" element={<VictoriaSecret />} />
             <Route path="sugarplumfairy" element={<SugarPlumBlogPost />} />
             <Route path="sophialoren" element={<SophiaLorenPost />} />
+
+
             <Route path="sharontatebridal" element={<SharonTatePost />} />
             <Route path="iconicsharon" element={<SharonIconicPost />} />
+
+
             <Route path="patmcgrath" element={<PatMcGrathPost />} />
             <Route path="nomakeupspring" element={<NoMakeUpSpring />} />
             <Route path="tremblant" element={<MontTremblantBlog />} />
@@ -129,6 +135,8 @@ function App() {
             <Route path="vlogs" element={<Vlogs />} />
             <Route path="travel" element={<TravelArticlesHome />} />
             <Route path="diary" element={<DiarySlider />} />
+            <Route path="diaryfillers" element={<DiaryPost1Fillers />} />
+
             <Route path="sitemap" element={<Sitemap />} />
             <Route path="subscribe" element={<EmailSubscribe />} />
             <Route path="press" element={<MediaKit />} />
