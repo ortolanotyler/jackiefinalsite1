@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Helmet } from 'react-helmet';
 import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
@@ -49,9 +50,12 @@ const SharonTatePost = () => {
     marginRight: 'auto',
   };
 
-
   const blogContent = (
     <div className="container">
+      <Helmet>
+        <title>Sharon Tate Bridal Look - Jackie Wyers</title>
+        <meta name="description" content="Explore Jackie Wyers' Sharon Tate bridal makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
+      </Helmet>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS

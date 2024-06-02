@@ -7,8 +7,8 @@ const ResponsiveIframe = ({ src, title }) => {
   useEffect(() => {
     const checkResize = () => {
       const screenWidth = window.innerWidth;
-      // Allow scrolling if screen width is below 1000px
-      setAllowScrolling(screenWidth <= 1000);
+      // Allow scrolling if screen width is below 900px
+      setAllowScrolling(screenWidth <= 900);
     };
 
     window.addEventListener('resize', checkResize);
@@ -27,6 +27,7 @@ const ResponsiveIframe = ({ src, title }) => {
         scrolling={allowScrolling ? 'yes' : 'no'}
         className={styles.responsiveIframe}
         style={{ height: allowScrolling ? '500px' : '100%' }}
+        tabIndex="-1" // This allows users to scroll away if not focusing on it
       ></iframe>
     </div>
   );

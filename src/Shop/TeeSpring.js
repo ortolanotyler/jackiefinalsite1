@@ -1,24 +1,25 @@
 import React from 'react';
-
-const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
+import ResponsiveIframe from '../Components/ResponsiveIframe';
 
 const TeeSpring = () => {
   return (
-  <div
-  style = {{
-    boxShadow: '0 4px 8px 0 rgba(0,0,0,0.9)',
-  }}
-  >
-      <img src={teespring} alt="teespring" />
-  
- <iframe
-      style={{ borderRadius: '24px', border: 'none', width: '100%', height: '960px' }}
-      src="https://embed.creator-spring.com/widget?slug=shop-jackie-wyers&per=20&currency=&page=1&layout=grid-sm-3&theme=light"
-      title="Shop Jackie Wyers Merch store powered by Spring"
-      data-reactroot=""
-    ></iframe>
-    </div>
    
+  <div>
+
+<ResponsiveIframe
+      style={{ borderRadius: '10px'}}
+      src="https://embed.creator-spring.com/widget?slug=shop-jackie-wyers&per=12&bg=ffffff&txtcolor=000000&currency=&page=1"
+      title="Vintage Vibes Merch Merch store powered by Spring"
+      width="100%"
+      height="1000"
+      data-reactroot=""
+    ></ResponsiveIframe>
+  </div>
+
+
+
+
+  
   );
 };
 

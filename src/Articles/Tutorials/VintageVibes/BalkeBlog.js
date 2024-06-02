@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../../../Components/TextReveal';
@@ -49,14 +50,18 @@ const BalkeBlog = () => {
 
   const blogContent = (
     <div className="container">
+      <Helmet>
+        <title>Ina Balke 1960s Makeup Tutorial - Jackie Wyers</title>
+        <meta name="description" content="Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell." />
+      </Helmet>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
       </div>
-      <img src={title} alt="Sophia Loren in Arabesque" style={{ width: '100%' }} />
+      <img src={title} alt="Ina Balke 1960s Makeup Tutorial" style={{ width: '100%' }} />
 
-      <ResponsiveYoutube src="https://www.youtube.com/embed/7HoL0rVmZHI?si=__Llh9tI2-K62uRQ" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
+      <ResponsiveYoutube src="https://www.youtube.com/embed/7HoL0rVmZHI?si=__Llh9tI2-K62uRQ" title="Ina Balke 1960s Makeup Tutorial - Jackie Wyers on Youtube" />
 
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <SubscribeButton />
@@ -239,17 +244,7 @@ const BalkeBlog = () => {
 
   return (
     <div>
-      <Card
-        title="Ina Balke Tutorial"
-        description="German Icon re-imagined"
-        blogContent={blogContent}
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'flex-start',
-          textAlign: 'center'
-        }}
-      />
+      <Card blogContent={blogContent} />
     </div>
   );
 };

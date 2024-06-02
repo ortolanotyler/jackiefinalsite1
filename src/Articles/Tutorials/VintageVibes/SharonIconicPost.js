@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
@@ -49,17 +50,20 @@ const SharonIconicPost = () => {
     marginRight: 'auto',
   };
 
-
   const blogContent = (
     <div className="container">
+      <Helmet>
+        <title>Sharon Tate Iconic 60's Makeup Tutorial - Jackie Wyers</title>
+        <meta name="description" content="Follow Jackie Wyers' tutorial to recreate Sharon Tate's iconic 60's makeup look. Dive into the step-by-step guide and discover modern products to achieve this timeless style." />
+      </Helmet>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
       </div>
-      <img src={title} alt="Sophia Loren in Arabesque" style={{ width: '100%' }} />
+      <img src={title} alt="Sharon Tate Iconic Look" style={{ width: '100%' }} />
 
-      <ResponsiveYoutube src="https://www.youtube.com/embed/t1jJtpsxes4?si=sHOkPYVUOvEbXk2m" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
+      <ResponsiveYoutube src="https://www.youtube.com/embed/t1jJtpsxes4?si=sHOkPYVUOvEbXk2m" title="Sharon Tate Iconic 60's Makeup Tutorial - Jackie Wyers on Youtube" />
 
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <SubscribeButton />
@@ -211,7 +215,7 @@ const SharonIconicPost = () => {
       </div>
       <div style={{ textAlign: 'center' }}>
         <a href="/vintagevibesmerch" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={teespring} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '1400px', display: 'block' }} />
+          <img src={teespring} alt="Vintage Vibes Merch" style={{ width: '100%', maxWidth: '1400px', display: 'block' }} />
           SHOP VINTAGE VIBES MERCH →
         </a>
       </div>

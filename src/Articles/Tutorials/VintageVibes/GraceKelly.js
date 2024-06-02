@@ -5,11 +5,11 @@ import TextReveal from '../../../Components/TextReveal';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
+import { Helmet } from 'react-helmet';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/GraceKellyTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/JackieWyersGraceKellyInspired.jpg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/GraceKellyFaceChart.png`;
-const image3 = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/JackieAsAudrey.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const audrey = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/audrey.jpeg`;
 const double = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/gracekellydouble.jpeg`;
@@ -53,6 +53,10 @@ const GraceKelly = () => {
 
   const blogContent = (
     <div className="container">
+      <Helmet>
+        <title>Grace Kelly - Hollywood Glam Makeup Tutorial</title>
+        <meta name="description" content="Follow Jackie Wyers as she recreates the iconic Grace Kelly Hollywood Glam look with detailed tutorials and vintage vibes." />
+      </Helmet>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS

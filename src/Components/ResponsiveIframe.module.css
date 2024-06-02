@@ -1,21 +1,26 @@
 .responsiveIframeContainer {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.responsiveIframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: none;
+  height: 100%;
+}
+
+@media (max-width: 900px) {
+  .responsiveIframeContainer {
+    overflow: auto;
   }
   
   .responsiveIframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    border: none;
+    position: relative;
+    height: auto; /* Ensures the height adjusts based on content */
+    min-height: 500px; /* Ensures a minimum height on smaller screens */
   }
-  
-  @media (max-width: 1000px) {
-    .responsiveIframe {
-      position: relative;
-      height: 500px; /* Ensure a minimum height on smaller screens */
-    }
-  }
-  
+}
