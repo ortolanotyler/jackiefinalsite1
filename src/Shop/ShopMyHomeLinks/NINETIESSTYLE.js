@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { Helmet } from 'react-helmet';
 import TextReveal from '../../Components/TextReveal';
 import { Link, Typography, Box } from '@mui/material';
 import styles from './AboutHero.module.css'; // Importing the CSS module
@@ -57,6 +58,19 @@ const NinetiesStyle = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>90's Vibes | Jackie Wyers</title>
+        <meta name="description" content="Explore the best of 90's fashion with Jackie Wyers. Shop all the iconic styles and trends from the decade." />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG');
+          `}
+        </script>
+      </Helmet>
       <TextReveal text="90's VIBES" />
       <Box sx={{ textAlign: 'right', mt: 5, mr: 20 }}>
         <Link

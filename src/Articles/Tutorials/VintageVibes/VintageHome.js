@@ -6,14 +6,12 @@ import RotatingText from '../../../Navigation/AppBar/RotatingText';
 
 // Importing the images
 const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
-
 const loren = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg`;
 const bridal = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEBRIDAL.jpeg`;
 const balke1 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BALKETHUMBNAIL.jpeg`;
 const shrimpton = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg`;
 const twiggy = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyMODThumbnail.jpeg`;
 const grace = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/GraceKellyJackieWyers.jpg`;
-
 
 const cardsData = [
   {
@@ -91,8 +89,8 @@ const VintageVibes = () => {
     <div>
       <div><TextReveal text= 'TIME TRAVEL TUTORIALS' /></div>
       <Paper elevation={3} style={{ padding: '1rem', margin: '1rem 0' }}>
-     <RotatingText />
-     </Paper>
+        <RotatingText />
+      </Paper>
       <ul className={styles.cardList}>
         {cardsData.map((card, index) => (
           <Card

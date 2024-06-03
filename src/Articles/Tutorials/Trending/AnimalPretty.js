@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import '../../ExampleTutorial1.css';
 import TextReveal from '../../../Components/TextReveal';
@@ -28,7 +29,6 @@ const AnimalPretty = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
 
-
   const headingStyle = {
     textAlign: 'center',
     fontSize: '40px',
@@ -52,27 +52,36 @@ const AnimalPretty = () => {
 
   const blogContent = (
     <div className="container">
+      <Helmet>
+        <title>Animal Pretty - Which one are you?</title>
+        <meta name="description" content="Trend Report: Animal Pretty - Fabulous Fad" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+        <script>
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RT6GR7JXYG');
+          `}
+        </script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+      </Helmet>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TRENDS
         </a>
       </div>
       <img src={title} alt="Animal Pretty Title" style={{ width: '100%' }} />
-
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <SubscribeButton />
       </div>
-
       <ResponsiveYoutube src="https://www.youtube.com/embed/hIGr8Gj4kQA?si=8N-JgnQ-JeRTk5Gm" title="YouTube video player" />
-
       <div>
         <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
           All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
         </p>
       </div>
-
       <DropCap text="Hey beauties, it’s Jackie! Today, we're diving into a fun and fresh way to explore beauty styles with my 'Types of Pretty' makeup series inspired by adorable animals like deer, cats, foxes, and bunnies. Whether you saw this trend on TikTok or my latest YouTube tutorial, I’m thrilled to bring this unique concept to the blog where we break down each style with detailed makeup guides." />
-
       <h2 style={headingStyle}>Deer Pretty: Soft and Ethereal 🦌</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <img src={image3} alt="Deer Pretty - Jackie Wyers" style={{ width: '100%' }} />

@@ -1,15 +1,13 @@
 import React, { useRef } from 'react';
+import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import TextReveal from '../../../Components/TextReveal';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import styles from './AnimalPretty.module.css';
 
-const button = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/AnimalQuizResults.jpeg`;
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/bunnytitle.jpeg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
-const final = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/Final.JPG`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => {
@@ -43,6 +41,20 @@ const BunnyPretty = () => {
 
   const blogContent = (
     <div className={styles.container}>
+      <Helmet>
+        <title>Bunny Pretty | Jackie Wyers</title>
+        <meta name="description" content="Discover how to achieve the Bunny Pretty look with our detailed guide. Embrace soft pastels and cute styles to capture the essence of the playful bunny." />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG');
+          `}
+        </script>
+        <script data-ad-client="ca-pub-1234567890123456" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      </Helmet>
       <div className={styles.linkContainer}>
         <a href="/quiz2" className={styles.link}>BEAUTY // QUIZ // BUNNY PRETTY</a>
       </div>
@@ -84,46 +96,45 @@ const BunnyPretty = () => {
         Eyes: Apply a soft wash of pink over your lids, adding a touch of shimmer to the brow bone and inner corners to brighten and open up the eye area. Charlotte Tilbury Pillow Talk Eyeshadow Palette is a beautiful option.
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/552851?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/552851?noHeader=true" title="Charlotte Tilbury Pillow Talk Eyeshadow Palette" />
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
       <p style={paragraphStyle}>
         Lashes: Curl your lashes for a natural lift, focusing on the upper lashes only to keep the look light and fresh. Try ISOPIA Iso-Gentle Harmony Lashes for extra length.
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/552853?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/552853?noHeader=true" title="ISOPIA Iso-Gentle Harmony Lashes" />
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
       <p style={paragraphStyle}>
         Cheeks: Embrace a rosy flush with a heavier application of blush. Milani Coral Cove is an excellent choice for a warmer pink, while Rare Beauty's blush in Happy suits cooler undertones. Don't be shy with the blush to achieve that vibrant, youthful glow.
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/552854?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/552854?noHeader=true" title="Milani Coral Cove Blush" />
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
       <p style={paragraphStyle}>
         Lips: Start with a nude pink lip liner to define your lips, then layer on the Sephora Collection Pink Pout Lipgloss for a glossy, vibrant finish that complements the blushy cheeks.
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/552857?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/552857?noHeader=true" title="Sephora Collection Pink Pout Lipgloss" />
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
       <p style={paragraphStyle}>
-        Outfit Inspiration: Lean into the Bunny Pretty theme with soft, flowing fabrics in pinks tones. Try flirty dresses in pastel colours that enhance the sweetness of this look. Brands like For Love & Lemons offer a variety of options that can perfectly complement the Bunny Pretty makeup.
+        Outfit Inspiration: Lean into the Bunny Pretty theme with soft, flowing fabrics in pink tones. Try flirty dresses in pastel colours that enhance the sweetness of this look. Brands like For Love & Lemons offer a variety of options that can perfectly complement the Bunny Pretty makeup.
       </p>
 
       <p style={paragraphStyle}>
         Additionally, accessories from Fable England, such as bunny-themed jewelry, can add a whimsical touch to complete your outfit as mentioned in the looks above.
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/552860?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/552860?noHeader=true" title="Bunny-Themed Jewelry" />
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
       <p style={paragraphStyle}>
         I hope this quiz inspires you to play with these animal-inspired beauty looks. Which "Type of Pretty" are you leaning towards? Dive into the quiz on my website and I hope the full length tutorials on my channel inspire you to try a new look <a href='/tutorials' alt=''>here</a>!
       </p>
 
-   
       <img src={signature} alt="Jackie Wyers Signature" className={styles.signatureImage} />
       <Comments website-id={websiteId} pageId={"Bunny-Pretty-Results"} />
     </div>

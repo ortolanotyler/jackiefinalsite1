@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Grid } from '@mui/material';
 import TextReveal from '../Components/TextReveal';
 import Quiz2 from './Quiz2';
@@ -7,22 +6,12 @@ import Quiz2 from './Quiz2';
 const QuizHomepage = () => {
     return (
         <div>
- 
-            <div>
-       
-            
-                
-                    <TextReveal text=' 🐰🦌 WHICH ANIMAL FACE TYPE ARE YOU? 🦊🐈‍⬛' />
-                
+            <TextReveal text='🐰🦌 WHICH ANIMAL FACE TYPE ARE YOU? 🦊🐈‍⬛' />
+            <Grid container justifyContent="center">
                 <Grid item xs={12}>
-   
-        </Grid>
-                <Quiz2 />
-            </div>
-
-
-              
-          
+                    <Quiz2 />
+                </Grid>
+            </Grid>
         </div>
     );
 };

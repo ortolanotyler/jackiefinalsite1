@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
+import { Helmet } from 'react-helmet';
 import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
-
 import TextReveal from '../../Components/TextReveal';
 import DropCap from '../../Components/DropCap';
 import BookNowButton from '../../Components/BookNowButton';
@@ -48,9 +48,9 @@ const WestGateHotelBlog = () => {
         fontFamily: 'Arapey, serif',
         color: '#333',
         margin: '1.5rem'
-      };
-    
-      const paragraphStyle = {
+    };
+
+    const paragraphStyle = {
         fontSize: '22px',
         fontFamily: 'GFS Didot, serif',
         margin: '1rem 1.5rem',
@@ -60,8 +60,8 @@ const WestGateHotelBlog = () => {
         lineHeight: '1.75',
         marginLeft: 'auto',
         marginRight: 'auto',
-      };
-      
+    };
+
     const imageStyle = {
         display: 'block',
         margin: '0 auto',
@@ -78,8 +78,13 @@ const WestGateHotelBlog = () => {
 
     const blogContent = (
         <div className="container">
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-        <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
+            <Helmet>
+                <title>The Westgate Hotel - San Diego Review - Jackie Wyers</title>
+                <meta name="description" content="Explore the luxurious Westgate Hotel in San Diego with Jackie Wyers. Discover the Bridgerton-themed Whistledown Tea and Package experience." />
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+            </Helmet>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
+                <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // HOTEL REVIEWS
                 </a>
             </div>

@@ -1,9 +1,24 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import styles from './PrivacyNotice.module.css'; // Ensure this path matches where your CSS module is saved
 
 const PrivacyNotice = () => {
     return (
         <div className={styles.body}>
+            <Helmet>
+                <title>Privacy Notice - Jackie Wyers</title>
+                <meta name="description" content="Read our privacy notice to understand how we collect, use, and protect your personal information." />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+                <script>
+                    {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-RT6GR7JXYG');
+                    `}
+                </script>
+                <script data-ad-client="ca-pub-1234567890123456" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            </Helmet>
             <h2 className={`${styles.heading} ${styles.mainHeading}`}>Privacy Notice</h2>
             <h3 className={`${styles.heading} ${styles.subHeading}`}>Information Collection</h3>
             <p className={styles.paragraph}>
@@ -37,7 +52,7 @@ const PrivacyNotice = () => {
                 You have the right to access, correct, or delete your personal information. To exercise these rights, please contact us at contact@jackiewyers.beauty.
             </p>
             <p className={styles.paragraph}>
-To unsubscribe from our mailing list, please press "unsubscribe" at the bottom of the newsletter or feel free to reach out to contact@jackiewyers.beauty.
+                To unsubscribe from our mailing list, please press "unsubscribe" at the bottom of the newsletter or feel free to reach out to contact@jackiewyers.beauty.
             </p>
             <h3 className={`${styles.heading} ${styles.subHeading}`}>Changes to the Privacy Policy</h3>
             <p className={styles.paragraph}>
