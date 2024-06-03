@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
+import { Helmet } from 'react-helmet';
 import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
-
 import SubscribeButton from '../../Components/SubscribeButton';
 import TextReveal from '../../Components/TextReveal';
 import DropCap from '../../Components/DropCap';
@@ -39,6 +39,7 @@ const Card = ({ blogContent }) => (
 const MontTremblantBlog = () => {
     const websiteId = '10910';
     const blogRef = useRef(null);
+
     const headingStyle = {
         textAlign: 'center',
         fontSize: '40px',
@@ -46,9 +47,9 @@ const MontTremblantBlog = () => {
         fontFamily: 'Arapey, serif',
         color: '#333',
         margin: '1.5rem'
-      };
-    
-      const paragraphStyle = {
+    };
+
+    const paragraphStyle = {
         fontSize: '22px',
         fontFamily: 'GFS Didot, serif',
         margin: '1rem 1.5rem',
@@ -58,12 +59,12 @@ const MontTremblantBlog = () => {
         lineHeight: '1.75',
         marginLeft: 'auto',
         marginRight: 'auto',
-      };
-      
+    };
+
     const blogContent = (
         <div className="container">
-              <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-        <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
+                <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // ITINERARIES
                 </a>
             </div>
@@ -162,7 +163,7 @@ const MontTremblantBlog = () => {
             </p>
             <img src={tremblant6} alt="Roots Store Mont Tremblant" style={{ width: '100%' }} />
 
-            <h2 style={headingStyle}>🌲 Gondala Ride</h2>
+            <h2 style={headingStyle}>🌲 Gondola Ride</h2>
             <p style={paragraphStyle}>
                 Be sure to experience the complimentary Gondola Ride at Mont Tremblant, which descends to the village's base — no ski lift ticket required for this journey. It offers a mesmerizing experience with breathtaking panoramic views of the Laurentian Mountains, the village's uniquely colorful buildings, and Quebec's lush landscapes. Each season transforms the ride into a distinct visual spectacle: the verdant greens of summer, autumn's fiery palette, winter's pristine snowscapes, and the fresh blooms of spring.
             </p>
@@ -251,8 +252,27 @@ const MontTremblantBlog = () => {
     );
 
     return (
-        <div ref={blogRef}>
-            <Card blogContent={blogContent} />
+        <div>
+            <Helmet>
+                <title>Mont Tremblant Travel Guide - Jackie Wyers</title>
+                <meta name="description" content="Discover the enchanting ski village of Mont Tremblant, Quebec with Jackie Wyers. Explore the best experiences, food, and adventures during a romantic getaway in the mountains." />
+                <meta name="keywords" content="Mont Tremblant, Travel Guide, Skiing, Quebec, Travel Blog, Jackie Wyers, Canada Travel" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+                <script>
+                    {`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'G-RT6GR7JXYG');
+                    `}
+                </script>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+                <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+            </Helmet>
+            <div ref={blogRef}>
+                <Card blogContent={blogContent} />
+            </div>
+            <script async src="//www.instagram.com/embed.js"></script>
         </div>
     );
 };

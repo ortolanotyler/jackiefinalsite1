@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Helmet } from 'react-helmet';
 import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../../Components/TextReveal';
@@ -37,9 +38,9 @@ const Disney2Post = () => {
         fontFamily: 'Arapey, serif',
         color: '#333',
         margin: '1.5rem'
-      };
-    
-      const paragraphStyle = {
+    };
+
+    const paragraphStyle = {
         fontSize: '22px',
         fontFamily: 'GFS Didot, serif',
         margin: '1rem 1.5rem',
@@ -49,7 +50,8 @@ const Disney2Post = () => {
         lineHeight: '1.75',
         marginLeft: 'auto',
         marginRight: 'auto',
-      };
+    };
+
     const imageStyle = {
         display: 'block',
         margin: '1rem auto',
@@ -59,38 +61,44 @@ const Disney2Post = () => {
     };
 
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '25rem', marginTop: '5rem' }}>
-              <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-        <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
+        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: 'auto', marginTop: '5rem' }}>
+            <Helmet>
+                <title>Walt Disney World Beach Club Resort Review | Travel & Hotel Reviews</title>
+                <meta name="description" content="An in-depth review of Walt Disney World's Beach Club Resort, featuring first impressions, amenities, dining options, and more." />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+                <script>
+                    {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-RT6GR7JXYG');
+                    `}
+                </script>
+            </Helmet>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
+                <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // HOTEL REVIEWS
                 </a>
             </div>
-
             <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
+                <img src={title} alt="Beach Club Title" style={imageStyle} />
             </div>
-
             <ResponsiveYoutube src="https://www.youtube.com/embed/XRI-IpWb37E?si=X6l3RAxsPGC_bS88" title="YouTube video player" />
-
             <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <SubscribeVlog />
             </div>
             <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
                 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
-
             <DropCap text="Welcome to Part One of my magical recap of an unforgettable time at Walt Disney World, FL in 2023. My best friend Lauren and I chose Disney's Beach Club Resort for our stay, marking her first visit and my first return since 2002. This article focuses on our resort experience, offering a glimpse into the luxury and leisure that awaited us at this colonial resort and why we chose to book!" />
-
             <h2 style={headingStyle}>🌟 First Impression: Beach Club Resort</h2>
             <p style={paragraphStyle}>
                 Driving in from Saint Augustine, Florida we were immediately captivated by the Beach Club Resort's charm, reminiscent of a New England dream. This deluxe resort, inspired by 1800s beach cottages, has amenities such as the Storm-Along Bay Water Park, the convenient Beach Club Marketplace, and the nostalgic Beaches & Cream Soda Shop, making it the perfect base for our Disney adventures.
             </p>
-
             <h2 style={headingStyle}>💵 Cost Considerations: Weighing the Pros and Cons</h2>
             <p style={paragraphStyle}>
                 This resort is a deluxe option, so it comes with a higher price tag. Check prices as it fluctuates greatly depending on the time of year from between 390 USD up to 990 USD😳 a night.
             </p>
-
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
                 <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
             </div>
@@ -100,7 +108,6 @@ const Disney2Post = () => {
             <p style={paragraphStyle}>
                 We chose a <strong>standard room with a garden view,</strong> and although the rooms' interior decor slightly paled in comparison to the exterior's enchantment, the Disney-themed touches and the overall nostalgic beach vibe more than compensated for it, in my opinion. The Mickey ears towel display and Disney-themed toiletries were exciting for us to see!
             </p>
-
             <h2 style={headingStyle}>🏝 Diverse Room Options for Every Guest</h2>
             <img src={beachclub1} alt='Beach Club Room' style={imageStyle} />
             <p style={paragraphStyle}>
@@ -109,7 +116,6 @@ const Disney2Post = () => {
             <p style={paragraphStyle}>
                 For the price tag, I’ve seen several complaints about being disappointed by the interior decor. However, I feel it still captures a nostalgic beach vibe, and I doubt you’ll spend too much time in the room with all there is to do! The other resort we considered but was out of our budget was the Polynesian Village Resort. This may be a better option for you if the room theme matters a lot for your experience, it features a tropical aesthetic rather than a beach cottage.
             </p>
-
             <h2 style={headingStyle}>🛥 Unique Amenities and Shared Experiences with Yacht Club</h2>
             <img src={beachclub2} alt='Yacht Club' style={imageStyle} />
             <p style={paragraphStyle}>
@@ -122,7 +128,6 @@ const Disney2Post = () => {
             <p style={paragraphStyle}>
                 The Beach and Yacht Club resorts both offer activities like movies under the stars, tennis, volleyball, campfires, and different watercraft rentals for enjoyment on Crescent Lake. You can also enjoy state-of-the-art fitness centres and book spa services for relaxation.
             </p>
-
             <h2 style={headingStyle}>🍹 Storm-Along Bay Pool, Hurricane Hannah’s Waterside Bar & Grill</h2>
             <p style={paragraphStyle}>
                 A bit about my personal experience, upon check-in, Lauren and I grabbed a quick bite at the Ale & Compass Lounge (great appetizers, fries and burgers) and dedicated our first day to enjoying Storm-Along Bay.
@@ -135,7 +140,6 @@ const Disney2Post = () => {
                 After relaxing poolside, we ventured to Hurricane Hannah's Waterside Bar & Grill for drinks. The bar is a little shack, similar to Rico’s Surf Shop in Hannah Montana with a laid-back vibe.
             </p>
             <img src={beachclub5} alt='Hurricane Hannah’s' style={imageStyle} />
-
             <h2 style={headingStyle}>🌴 The Beach & Boardwalk Nearby</h2>
             <p style={paragraphStyle}>
                 Our evening continued with a leisurely walk along the beach, where we enjoyed the sunset from swings and strolled down the lively Disney BoardWalk. The charming waterfront boardwalk is brimming with restaurants, night performers and gift shops, offering a vibrant atmosphere at night that appeals to both adults and children.
@@ -143,7 +147,6 @@ const Disney2Post = () => {
             <p style={paragraphStyle}>
                 As someone who's a bit of a lightweight, my single drink at the bar led to a somewhat clumsy walk around the entire village and… blurry pictures I shall not include😂 ! We toyed with the idea of catching a movie under the stars, a feature the resort offers, but ultimately decided to head to bed early to conserve energy for the extensive walking we anticipated at Epcot the next day.
             </p>
-
             <h2 style={headingStyle}>🗺 Effortless Park Access and Transportation Tips</h2>
             <p style={paragraphStyle}>
                 Speaking of Epcot, it is only a 5-10 minute walk from the resort. If Epcot is on your park bucket list (and it should be!!!) all the more reason to stay at the Beach Club resort. You can also take a quick boat ride to the park.
@@ -158,7 +161,6 @@ const Disney2Post = () => {
             <p style={paragraphStyle}>
                 If you are interested in other parks, like Magic Kingdom and Animal Kingdom, you can easily get there by catching a bus out front of the resort. Read the best of Epcot, Magic Kingdom and Animal Kingdom in a separate blog post, here.
             </p>
-
             <h2 style={headingStyle}>🍦 A Final Dessert at Beaches & Cream Soda Shop</h2>
             <p style={paragraphStyle}>
                 Our last day at the Beach Club Resort was bittersweet, with leisurely walks along the boardwalk, and a final, decadent sundae at the famous Beaches & Cream Soda Shop.
@@ -170,7 +172,6 @@ const Disney2Post = () => {
             <p style={paragraphStyle}>
                 I bought an Angel plushy from the Boardwalk shops and headed home! Keep reading for a quick nautical resort comparison to help you decide on your stay.
             </p>
-
             <h2 style={headingStyle}>🌊 Walt Disney World Resort Comparison for a Nautical Experience</h2>
             <div style={{ display: 'flex', alignItems: 'flex-start', margin: '1em 0' }}>
                 <img src={beachclub9} alt='Beach Club' style={{ maxWidth: '50%', height: 'auto' }} />
@@ -190,7 +191,6 @@ const Disney2Post = () => {
                 If you are headed to Disney, I hope you have the most magical time and you’ll have to share your experience with me either in the vlog channel comments, or on the blog. To read about my Disney Park experiences, see <a href='/disneyreview2'>here</a>.
             </p>
             <img src={beachclub10} alt='Beach Club Final' style={imageStyle} />
-
             <p style={paragraphStyle}>
                 Note about accessibility: Disney's Beach Club Resort is fully accessible to guests with disabilities, offering features like accessible rooms with widened doors and roll-in showers, visual alarm devices for hearing disabilities, wheelchair-accessible pathways, and service animal accommodations. Complimentary Disney transportation is equipped to accommodate guests with disabilities, and the resort provides lifts for pool access, ensuring a comfortable and enjoyable stay for everyone. This is another wonderful quality about Disney World, it really has everyone in mind to enjoy the magic!
             </p>
@@ -198,13 +198,25 @@ const Disney2Post = () => {
                 <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
             </div>
             <img src={signature} alt='Signature' style={{ width: '100%' }} />
-
             <Comments website-id={websiteId} pageId={"beachclubresort"} />
         </div>
     );
 
     return (
         <div>
+            <Helmet>
+                <title>Walt Disney World Beach Club Resort Review | Travel & Hotel Reviews</title>
+                <meta name="description" content="An in-depth review of Walt Disney World's Beach Club Resort, featuring first impressions, amenities, dining options, and more." />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+                <script>
+                    {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-RT6GR7JXYG');
+                    `}
+                </script>
+            </Helmet>
             <div style={{ width: '100%', marginBottom: '2rem' }}>
                 <TextReveal text='THE HAPPIEST PLACE ON EARTH' />
             </div>

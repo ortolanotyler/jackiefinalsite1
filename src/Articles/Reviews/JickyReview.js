@@ -1,8 +1,12 @@
 import React, { useRef } from 'react';
+import { Helmet } from 'react-helmet';
+import ReactGA from 'react-ga';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import './ExampleTutorial.css';
 import TextReveal from '../../Components/TextReveal';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
+
+ReactGA.initialize('UA-XXXXX-Y'); // Replace with your actual Google Analytics tracking ID
 
 const jicky2 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky2.jpg`;
 const title = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/JickyTitle.png`;
@@ -26,9 +30,9 @@ const JickyReview = () => {
         fontFamily: 'Arapey, serif',
         color: '#333',
         margin: '1.5rem'
-      };
-    
-      const paragraphStyle = {
+    };
+
+    const paragraphStyle = {
         fontSize: '22px',
         fontFamily: 'GFS Didot, serif',
         margin: '1rem 1.5rem',
@@ -38,8 +42,8 @@ const JickyReview = () => {
         lineHeight: '1.75',
         marginLeft: 'auto',
         marginRight: 'auto',
-      };
-      
+    };
+
     const imageContainerStyle = {
         display: 'flex',
         justifyContent: 'center',
@@ -54,8 +58,14 @@ const JickyReview = () => {
 
     const blogContent = (
         <div className="container" style={{ width: '100%', padding: '1rem' }}>
-                  <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-        <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
+            <Helmet>
+                <title>Jicky by Guerlain Perfume Review - Jackie Wyers</title>
+                <meta name="description" content="A comprehensive review of Jicky by Guerlain, exploring its history, fragrance profile, and personal impressions." />
+            </Helmet>
+            {ReactGA.pageview(window.location.pathname + window.location.search)}
+
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
+                <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // REVIEWS
                 </a>
             </div>

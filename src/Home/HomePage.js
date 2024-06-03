@@ -16,7 +16,7 @@ import BeyondBeautyHero from './BeyondBeautyHero';
 import SiteExplorerBeyond from './SiteExplorerBeyond';
 import LifestyleFavorites from './LifestyleFavorites';
 import ShopMyHero2 from './ShopMyHero2';
-import ResponsiveYoutubeHome from './ResponsiveYoutubeHome';
+import { Helmet } from 'react-helmet';
 
 function HomePage() {
   const linkRef = useRef(null);
@@ -52,6 +52,19 @@ function HomePage() {
 
   return (
     <Box sx={{ width: '100%', backgroundColor: 'white' }}>
+      <Helmet>
+        <title>Jackie Wyers' Home Page</title>
+        <meta name="description" content="Explore Jackie Wyers' home page featuring beauty tutorials, reviews, travel tips, and more." />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG');
+          `}
+        </script>
+      </Helmet>
       <Grid container spacing={1}>
         <TextReveal text='JACKIE WYERS' />
         <Grid item xs={12}>
@@ -91,13 +104,10 @@ function HomePage() {
             </a>
           </Box>
         </Grid>
-
-
         <Grid item xs={12}>
           <TextReveal text="🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊" />
           <Quiz2 />
         </Grid>
-
         <Grid item xs={12}>
           <TextReveal text="JACKIE'S WEEKLY TOP 3" />
           <ReviewFavorites />
@@ -106,18 +116,15 @@ function HomePage() {
           <TextReveal text='PERFUME PROFILES' />
           <ReviewArticleListHome />
         </Grid>
-
         <Grid item xs={12}>
           <TextReveal text='SHOP MY STYLE' />
         </Grid>
         <Grid item xs={12}>
           <ShopMyHero2 />
         </Grid>
-  
         <Grid item xs={12}>
           <BeigeReveal text='LIFESTYLE' />
         </Grid>
-
         <Grid item xs={12}>
           <BeyondBeautyHero />
         </Grid>
@@ -127,7 +134,6 @@ function HomePage() {
         <Grid item xs={12}>
           <BeigeReveal text='TRAVEL IN STYLE' />
         </Grid>
-
         <Grid item xs={12}>
           <LifestyleFavorites />
         </Grid>

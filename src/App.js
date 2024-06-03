@@ -1,7 +1,8 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Layout from './Layout';
+import { initGA, logPageView } from './analytics';
 import { SpeedInsights } from "@vercel/speed-insights/react";
 
 import Sitemap from './Navigation/SiteMap/SiteMap';
@@ -71,93 +72,102 @@ import DarkFlorals from './Shop/ShopMyHomeLinks/DarkFlorals';
 import DiaryPost1Fillers from './Articles/Tutorials/VintageVibes/DiaryFillers';
 
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    initGA();
+    logPageView();
+  }, []);
+
+  useEffect(() => {
+    logPageView();
+  }, [location]);
+
   return (
-    <Router>
-      <div className="app-container">
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>Jackie Wyers - Beauty Tutorials and Reviews</title>
-          <meta name="description" content="Explore beauty tutorials, product reviews, and the latest trends with Jackie Wyers." />
-          <link rel="canonical" href="http://jackiewyers.beauty" />
-        </Helmet>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<HomePage />} />
-            <Route path="about" element={<About />} />
-            <Route path="tutorials" element={<NewTutorials />} />
-            <Route path="popculture" element={<PopCultureView />} />
-            <Route path="timetraveltutorials" element={<VintageVibes />} />
-            <Route path="trends" element={<TrendsHome />} />
-            <Route path="yardley1965" element={<Yardley65 />} />
-
-            <Route path="twiggy" element={<TwiggyBlog />} />
-            <Route path="victoriasecret" element={<VictoriaSecret />} />
-            <Route path="sugarplumfairy" element={<SugarPlumBlogPost />} />
-            <Route path="sophialoren" element={<SophiaLorenPost />} />
-
-
-            <Route path="sharontatebridal" element={<SharonTatePost />} />
-            <Route path="iconicsharon" element={<SharonIconicPost />} />
-
-
-            <Route path="patmcgrath" element={<PatMcGrathPost />} />
-            <Route path="nomakeupspring" element={<NoMakeUpSpring />} />
-            <Route path="tremblant" element={<MontTremblantBlog />} />
-            <Route path="lattemakeup" element={<LatteMakeupBlogPost />} />
-            <Route path="lanablog" element={<LanaBlog />} />
-            <Route path="hotelQ" element={<HotelQ />} />
-            <Route path="gracekelly" element={<GraceKelly />} />
-            <Route path="epcot" element={<Disney2Post />} />
-            <Route path="disneybeachclubresort" element={<Disney1Post />} />
-            <Route path="margotbarbie" element={<BarbieBlog />} />
-            <Route path="balkeblog" element={<BalkeBlog />} />
-            <Route path="2016Makeup" element={<Makeup2016 />} />
-            <Route path="westgatesandiego" element={<WestGateHotelBlog />} />
-            <Route path="andazmaui" element={<AndazMauiReview />} />
-            <Route path="princeofwales" element={<PrinceOfWales />} />
-            <Route path="animalpretty" element={<AnimalPretty />} />
-            <Route path="halfetireview" element={<HalfetiReview />} />
-            <Route path="jickyreview" element={<JickyReview />} />
-            <Route path="bonbonreview" element={<BonBonReview />} />
-            <Route path="reviews" element={<ReviewHomePage />} />
-            <Route path="quiz" element={<QuizHomepage />} />
-            <Route path="quiz1" element={<Quiz1 />} />
-            <Route path="quiz2" element={<Quiz2 />} />
-            <Route path="foxpretty" element={<FoxPretty />} />
-            <Route path="bunnypretty" element={<BunnyPretty />} />
-            <Route path="catpretty" element={<CatPretty />} />
-            <Route path="deerpretty" element={<DeerPretty />} />
-            <Route path="mystyle" element={<MyStyle />} />
-            <Route path="vintagevibesmerch" element={<VintageVibesMerch />} />
-            <Route path="cpsummer" element={<LeftOutfit />} />
-            <Route path="sleekspring" element={<MiddleOutfit />} />
-            <Route path="parisprincess" element={<RightOutfit />} />
-            <Route path="vlogs" element={<Vlogs />} />
-            <Route path="travel" element={<TravelArticlesHome />} />
-            <Route path="diary" element={<DiarySlider />} />
-            <Route path="diaryfillers" element={<DiaryPost1Fillers />} />
-
-            <Route path="sitemap" element={<Sitemap />} />
-            <Route path="subscribe" element={<EmailSubscribe />} />
-            <Route path="press" element={<MediaKit />} />
-            <Route path="privacy" element={<PrivacyNotice />} />
-            <Route path="contact" element={<BusinessContact />} /> {/* New route for BusinessContact */}
-            <Route path="speed-insights" element={<SpeedInsights />} />
-            <Route path="90sVibes" element={<NinetiesStyle />} />
-            <Route path="leatherandlace" element={<PinkLeather />} />
-            <Route path="retrofloral" element={<RetroFloral />} />
-            <Route path="barbieskiing" element={<BarbieSki />} />
-            <Route path="blackandleather" element={<BlackAndLeather />} />
-            <Route path="cabinfever" element={<CabinFever />} />
-            <Route path="manhattancool" element={<ManhattanCool />} />
-            <Route path="falllbd" element={<FallLBD />} />
-            <Route path="darkflorals" element={<DarkFlorals />} />
-            <Route path="*" element={<h1>404 Not Found</h1>} />
-          </Route>
-        </Routes>
-      </div>
-    </Router>
+    <div className="app-container">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Jackie Wyers - Beauty Tutorials and Reviews</title>
+        <meta name="description" content="Explore beauty tutorials, product reviews, and the latest trends with Jackie Wyers." />
+        <link rel="canonical" href="http://jackiewyers.beauty" />
+      </Helmet>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="about" element={<About />} />
+          <Route path="tutorials" element={<NewTutorials />} />
+          <Route path="popculture" element={<PopCultureView />} />
+          <Route path="timetraveltutorials" element={<VintageVibes />} />
+          <Route path="trends" element={<TrendsHome />} />
+          <Route path="yardley1965" element={<Yardley65 />} />
+          <Route path="twiggy" element={<TwiggyBlog />} />
+          <Route path="victoriasecret" element={<VictoriaSecret />} />
+          <Route path="sugarplumfairy" element={<SugarPlumBlogPost />} />
+          <Route path="sophialoren" element={<SophiaLorenPost />} />
+          <Route path="sharontatebridal" element={<SharonTatePost />} />
+          <Route path="iconicsharon" element={<SharonIconicPost />} />
+          <Route path="patmcgrath" element={<PatMcGrathPost />} />
+          <Route path="nomakeupspring" element={<NoMakeUpSpring />} />
+          <Route path="tremblant" element={<MontTremblantBlog />} />
+          <Route path="lattemakeup" element={<LatteMakeupBlogPost />} />
+          <Route path="lanablog" element={<LanaBlog />} />
+          <Route path="hotelQ" element={<HotelQ />} />
+          <Route path="gracekelly" element={<GraceKelly />} />
+          <Route path="epcot" element={<Disney2Post />} />
+          <Route path="disneybeachclubresort" element={<Disney1Post />} />
+          <Route path="margotbarbie" element={<BarbieBlog />} />
+          <Route path="balkeblog" element={<BalkeBlog />} />
+          <Route path="2016Makeup" element={<Makeup2016 />} />
+          <Route path="westgatesandiego" element={<WestGateHotelBlog />} />
+          <Route path="andazmaui" element={<AndazMauiReview />} />
+          <Route path="princeofwales" element={<PrinceOfWales />} />
+          <Route path="animalpretty" element={<AnimalPretty />} />
+          <Route path="halfetireview" element={<HalfetiReview />} />
+          <Route path="jickyreview" element={<JickyReview />} />
+          <Route path="bonbonreview" element={<BonBonReview />} />
+          <Route path="reviews" element={<ReviewHomePage />} />
+          <Route path="quiz" element={<QuizHomepage />} />
+          <Route path="quiz1" element={<Quiz1 />} />
+          <Route path="quiz2" element={<Quiz2 />} />
+          <Route path="foxpretty" element={<FoxPretty />} />
+          <Route path="bunnypretty" element={<BunnyPretty />} />
+          <Route path="catpretty" element={<CatPretty />} />
+          <Route path="deerpretty" element={<DeerPretty />} />
+          <Route path="mystyle" element={<MyStyle />} />
+          <Route path="vintagevibesmerch" element={<VintageVibesMerch />} />
+          <Route path="cpsummer" element={<LeftOutfit />} />
+          <Route path="sleekspring" element={<MiddleOutfit />} />
+          <Route path="parisprincess" element={<RightOutfit />} />
+          <Route path="vlogs" element={<Vlogs />} />
+          <Route path="travel" element={<TravelArticlesHome />} />
+          <Route path="diary" element={<DiarySlider />} />
+          <Route path="diaryfillers" element={<DiaryPost1Fillers />} />
+          <Route path="sitemap" element={<Sitemap />} />
+          <Route path="subscribe" element={<EmailSubscribe />} />
+          <Route path="press" element={<MediaKit />} />
+          <Route path="privacy" element={<PrivacyNotice />} />
+          <Route path="contact" element={<BusinessContact />} />
+          <Route path="speed-insights" element={<SpeedInsights />} />
+          <Route path="90sVibes" element={<NinetiesStyle />} />
+          <Route path="leatherandlace" element={<PinkLeather />} />
+          <Route path="retrofloral" element={<RetroFloral />} />
+          <Route path="barbieskiing" element={<BarbieSki />} />
+          <Route path="blackandleather" element={<BlackAndLeather />} />
+          <Route path="cabinfever" element={<CabinFever />} />
+          <Route path="manhattancool" element={<ManhattanCool />} />
+          <Route path="falllbd" element={<FallLBD />} />
+          <Route path="darkflorals" element={<DarkFlorals />} />
+          <Route path="*" element={<h1>404 Not Found</h1>} />
+        </Route>
+      </Routes>
+    </div>
   );
 }
 
-export default App;
+const WrappedApp = () => (
+  <Router>
+    <App />
+  </Router>
+);
+
+export default WrappedApp;

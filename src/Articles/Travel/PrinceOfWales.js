@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Helmet } from 'react-helmet';
 import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../../Components/TextReveal';
@@ -65,10 +66,11 @@ const PrinceOfWales = () => {
         marginLeft: 'auto',
         marginRight: 'auto',
       };
+      
     const blogContent = (
         <div className="container">
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-        <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
+                <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // HOTEL REVIEWS
                 </a>
             </div>
@@ -195,8 +197,27 @@ const PrinceOfWales = () => {
     );
 
     return (
-        <div ref={blogRef}>
-            <Card blogContent={blogContent} />
+        <div>
+            <Helmet>
+                <title>Prince of Wales Hotel Review - Jackie Wyers</title>
+                <meta name="description" content="Read Jackie Wyers' review of the Prince of Wales Hotel in Niagara-on-the-Lake. Discover the Victorian charm and romantic experiences offered by this historic hotel." />
+                <meta name="keywords" content="Prince of Wales Hotel, Niagara on the Lake, Hotel Review, Victorian Hotel, Luxury Hotel, Travel Blog, Jackie Wyers" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+                <script>
+                    {`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'G-RT6GR7JXYG');
+                    `}
+                </script>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+                <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+            </Helmet>
+            <div ref={blogRef}>
+                <Card blogContent={blogContent} />
+            </div>
+            <script async src="//www.instagram.com/embed.js"></script>
         </div>
     );
 };
