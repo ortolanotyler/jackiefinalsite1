@@ -29,7 +29,7 @@ const BalkeBlog = () => {
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '2rem',
+    fontSize: '40px',
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',
@@ -37,7 +37,7 @@ const BalkeBlog = () => {
   };
 
   const paragraphStyle = {
-    fontSize: '1.25rem',
+    fontSize: '22px',
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
     marginTop: '1rem',
@@ -50,6 +50,7 @@ const BalkeBlog = () => {
 
   const blogContent = (
     <div className="container">
+
       <Helmet>
         <title>Ina Balke 1960s Makeup Tutorial - Jackie Wyers</title>
         <meta name="description" content="Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell." />

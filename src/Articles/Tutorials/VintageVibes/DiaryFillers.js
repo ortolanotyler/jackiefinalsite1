@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import DropCap from '../../../Components/DropCap';
 import TextReveal from '../../../Components/TextReveal';
-import SubscribeButton from '../../../Components/SubscribeButton';
 import '../../ExampleTutorial1.css';
 import { Helmet } from 'react-helmet';
 
@@ -22,10 +21,9 @@ const Card = ({ blogContent }) => (
 const DiaryPost1Fillers = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
-
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '2rem',
+    fontSize: '40px',
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',
@@ -33,7 +31,7 @@ const DiaryPost1Fillers = () => {
   };
 
   const paragraphStyle = {
-    fontSize: '1.25rem',
+    fontSize: '22px',
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
     marginTop: '1rem',

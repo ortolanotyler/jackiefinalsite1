@@ -49,7 +49,7 @@ const HotelQ = () => {
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '2rem',
+    fontSize: '40px',
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',
@@ -57,7 +57,7 @@ const HotelQ = () => {
   };
 
   const paragraphStyle = {
-    fontSize: '1.25rem',
+    fontSize: '22px',
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
     marginTop: '1rem',
@@ -67,8 +67,6 @@ const HotelQ = () => {
     marginLeft: 'auto',
     marginRight: 'auto',
   };
-
-
   const blogContent = (
     <div className="container">
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>

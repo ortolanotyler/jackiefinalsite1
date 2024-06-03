@@ -31,7 +31,7 @@ const SharonTatePost = () => {
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '2rem',
+    fontSize: '40px',
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',
@@ -39,7 +39,7 @@ const SharonTatePost = () => {
   };
 
   const paragraphStyle = {
-    fontSize: '1.25rem',
+    fontSize: '22px',
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
     marginTop: '1rem',
@@ -49,7 +49,6 @@ const SharonTatePost = () => {
     marginLeft: 'auto',
     marginRight: 'auto',
   };
-
   const blogContent = (
     <div className="container">
       <Helmet>
