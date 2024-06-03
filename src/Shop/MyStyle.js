@@ -1,12 +1,8 @@
 import React from 'react';
-import { Comments } from '@hyvor/hyvor-talk-react';
 import ItemSlider from './Slider';
-import ThreeSections from './ThreeSections';
 import AprilStyleSlider from './AprilStyleSlider';
 import FallWinterSlider from './FallWinterSlider';
 import PhotoShootSlider from './PhotoShootSlider';
-import RotatingText from '../Navigation/AppBar/RotatingText';
-import { Paper } from '@mui/material';
 import TextReveal from '../Components/TextReveal';
 
 const MyStyle = () => {
@@ -45,7 +41,6 @@ const MyStyle = () => {
       <PhotoShootSlider />
       <AprilStyleSlider />
       <FallWinterSlider />
-      <Comments website-id={'10910'} pageId={"mystyle"} /> {/* Unique identifier for this blog post */}
     </div>
   );
 };

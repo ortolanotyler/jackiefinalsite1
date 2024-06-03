@@ -2,7 +2,7 @@
 
 h1 {
   font-family: Arapey, serif;
-  font-size: 6vw; /* Use viewport width for responsiveness */
+  font-size: 70px; /* Use viewport width for responsiveness */
   text-align: center;
   font-weight: 100; /* Adjusted for a lighter font weight */
 }
