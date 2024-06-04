@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import Layout from './Layout';
 import { initGA, logPageView } from './analytics';
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import './App.css'; // Ensure you have imported the App.css file
 
 import Sitemap from './Navigation/SiteMap/SiteMap';
 import EmailSubscribe from './Components/EmailSubscribe';
@@ -56,8 +57,6 @@ import BunnyPretty from './Quiz/QuizResultPages/Quiz2/Bunny';
 import CatPretty from './Quiz/QuizResultPages/Quiz2/Cat';
 import DeerPretty from './Quiz/QuizResultPages/Quiz2/Deer';
 import Quiz2 from './Quiz/Quiz2';
-
-import './App.css'; // Ensure you have imported the App.css file
 import DiarySlider from './DiaryHome/diaryhome';
 import BusinessContact from './Components/BusinessContact';
 import NinetiesStyle from './Shop/ShopMyHomeLinks/NINETIESSTYLE';
@@ -71,17 +70,20 @@ import FallLBD from './Shop/ShopMyHomeLinks/FallLBD';
 import DarkFlorals from './Shop/ShopMyHomeLinks/DarkFlorals';
 import DiaryPost1Fillers from './Articles/Tutorials/VintageVibes/DiaryFillers';
 
-function App() {
+function usePageTracking() {
   const location = useLocation();
 
   useEffect(() => {
-    initGA();
-    logPageView();
-  }, []);
-
-  useEffect(() => {
-    logPageView();
+    if (window.gtag) {
+      window.gtag('config', 'G-RT6GR7JXYG', {
+        page_path: location.pathname + location.search,
+      });
+    }
   }, [location]);
+}
+
+function App() {
+  usePageTracking();
 
   return (
     <div className="app-container">

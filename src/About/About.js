@@ -15,7 +15,7 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import SwitchUpYour from '../Navigation/Footer/SwitchUpYour';
 
 
-const AboutEmily = `${process.env.PUBLIC_URL}/Images/About/JackieAboutMe1.jpg`;
+const AboutEmily = `${process.env.PUBLIC_URL}/Images/About/JackieAboutMe1.JPG`;
 const leftImage = `${process.env.PUBLIC_URL}/Images/About/AboutJackie.jpg`;
 
 const About = () => {

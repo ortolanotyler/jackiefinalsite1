@@ -6,7 +6,7 @@ import './ExampleTutorial.css';
 import TextReveal from '../../Components/TextReveal';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 
-ReactGA.initialize('UA-XXXXX-Y'); // Replace with your actual Google Analytics tracking ID
+ReactGA.initialize('UA-8215441435-Y'); // Replace with your actual Google Analytics tracking ID
 
 const jicky2 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky2.jpg`;
 const title = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/JickyTitle.png`;
@@ -134,7 +134,7 @@ const JickyReview = () => {
                 This distinctive fragrance begins with light and feminine notes of lavender, lemon, and mandarin, eventually settling into a base of vanilla, spices, and sandalwood—some of my favorite base notes. Jicky not only holds historical significance, often considered the first modern perfume in history, but it also transcends trends with a fresh, warm, powdery finish. I recommend this fragrance for those seeking a mature scent. By that, I mean it might not have been my choice as a teenager, but in adulthood, it has become a cherished go-to fragrance I absolutely adore.
             </p>
 
-            <ResponsiveIframe src="https://shopmy.us/collections/public/557947?noHeader=true" title="Final Touches" />
+            <ResponsiveIframe src="https://shopmy.us/collections/public/557947?noHeader=true" title="Final Touches" scrolling="no" />
 
             <h2 style={headingStyle}>❤️ Review & Recommendations</h2>
 
