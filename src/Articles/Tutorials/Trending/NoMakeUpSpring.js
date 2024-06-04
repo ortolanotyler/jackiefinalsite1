@@ -12,7 +12,7 @@ const image2 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieW
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWtersRoseDawsonMakeup.JPG`;
 const image4 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersLittleWomenMakeup.JPG`;
 const image5 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersRosieDunneMakeup.JPG`;
-const image6 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersAlaskaYoung.JPG`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersAlaskaYoung.jpg`;
 const image7 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersTuckEverlastingMakeup.jpg`;
 const barbie = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/SQUAREMARGOT.jpeg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
@@ -50,6 +50,7 @@ const NoMakeUpSpring = () => {
     marginLeft: 'auto',
     marginRight: 'auto',
   };
+
   const blogContent = (
     <div className="container">
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
