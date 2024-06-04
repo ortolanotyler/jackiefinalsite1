@@ -1,19 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import ReviewArticleList from './ReviewArticleList';
 import TextReveal from '../Components/TextReveal';
 
 const ReviewHomePage = () => {
-    const [iframeInteraction, setIframeInteraction] = useState(false);
-
-    const handleIframePointerEnter = () => {
-        setIframeInteraction(true);
-    };
-
-    const handleIframePointerLeave = () => {
-        setIframeInteraction(false);
-    };
-
     return (
         <div>
             <Helmet>
@@ -49,10 +39,7 @@ const ReviewHomePage = () => {
                     width: '100%',
                     minHeight: '2400px',
                     border: 'none',
-                    pointerEvents: iframeInteraction ? 'auto' : 'none',
                 }}
-                onPointerEnter={handleIframePointerEnter}
-                onPointerLeave={handleIframePointerLeave}
             ></iframe>
         </div>
     );
