@@ -77,7 +77,7 @@
   background-color: #333;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1008px) {
   .article-card-review {
     padding: 0.5rem;
   }
@@ -99,7 +99,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 880px) {
   .article-card-review {
     padding: 0.5rem;
   }
