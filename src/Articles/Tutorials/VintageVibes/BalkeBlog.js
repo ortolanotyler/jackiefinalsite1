@@ -89,7 +89,7 @@ const BalkeBlog = () => {
       </div>
 
       <p style={paragraphStyle}>
-        Ina Balke’s iconic wink showcases a classic '60s cut crease complimented by matte skin and a peach lip. Her styling feels very Hepburn, with a sophisticated black dress and both a cigarette and wine glass held up to her mouth. Her look is complete with a chic, brunette bob with blunt bangs, which I recreated with a fabulous wig! If you decide to give this tutorial a try, please be sure to tag me or send a photo to be featured on the blog - I'd love to see you in this glamorous style.
+        Ina Balke’s iconic wink showcases a classic '60s cut crease complimented by matte skin and a peach lip. Her styling feels very Hepburn, with a sophisticated black dress and both a cigarette and wine glass held up to her mouth. Her look is complete with a chic, brunette bob with blunt bangs, which I recreated with a fabulous wig! If you decide to give this tutorial a try, please be sure to tag me or send a photo to be featured on the blog - I'd love to see you in this glamorous style 🖤 .
       </p>
 
       <h2 style={headingStyle}>The Skin: Keep It Matte & Bright</h2>
