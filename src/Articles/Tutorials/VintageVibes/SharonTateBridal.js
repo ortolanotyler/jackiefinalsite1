@@ -49,6 +49,7 @@ const SharonTatePost = () => {
     marginLeft: 'auto',
     marginRight: 'auto',
   };
+  
   const blogContent = (
     <div className="container">
       <Helmet>

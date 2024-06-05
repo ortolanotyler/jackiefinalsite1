@@ -49,6 +49,7 @@ const GraceKelly = () => {
     marginLeft: 'auto',
     marginRight: 'auto',
   };
+  
 
 
   const blogContent = (
