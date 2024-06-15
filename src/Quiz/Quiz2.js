@@ -95,7 +95,7 @@ const Quiz2 = () => {
       options: [
         {  value: "1", backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/sweet.jpeg` },
         {  value: "2", backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/elegant.jpeg` },
-        {  value: "3", backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/adventurous.jpg` },
+        {  value: "3", backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/Adventurous.jpg` },
         {  value: "4", backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/confident.jpeg` },
       ],
     },
