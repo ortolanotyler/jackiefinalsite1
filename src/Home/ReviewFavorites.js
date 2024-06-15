@@ -5,11 +5,7 @@ const ReviewFavorites = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth < 1000) {
-        setIsScrollable(true);
-      } else {
-        setIsScrollable(false);
-      }
+      setIsScrollable(window.innerWidth < 1000);
     };
 
     handleResize(); // Set the initial state
@@ -21,18 +17,18 @@ const ReviewFavorites = () => {
   }, []);
 
   return (
-    <div style={{ width: '100%', minHeight: '1200px', marginBottom: '2rem' }}>
+    <div style={{ width: '100%', minHeight: '1200px', marginBottom: '2rem', overflow: isScrollable ? 'auto' : 'hidden' }}>
       <iframe
         title="Jackie's Weekly Favs"
         src="https://shopmy.us/collections/public/553108?noHeader=true"
         style={{
           marginTop: '7rem',
           width: '100%',
-          minHeight: '1000px',
+          minHeight: '80vh',
           border: 'none',
-          overflow: isScrollable ? 'no' : 'no',
         }}
         className="review-favorites-iframe"
+        sandbox="allow-same-origin allow-scripts"
       ></iframe>
     </div>
   );

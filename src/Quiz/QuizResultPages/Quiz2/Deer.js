@@ -138,7 +138,7 @@ const DeerPretty = () => {
       </p>
 
       <img src={signature} alt="Jackie Wyers Signature" className={styles.signatureImage} />
-      <Comments website-id={websiteId} pageId={"Deer-Pretty-Results"} />
+      
     </div>
   );
 

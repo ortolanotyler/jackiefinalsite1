@@ -69,6 +69,7 @@ import ManhattanCool from './Shop/ShopMyHomeLinks/ManhattanCool';
 import FallLBD from './Shop/ShopMyHomeLinks/FallLBD';
 import DarkFlorals from './Shop/ShopMyHomeLinks/DarkFlorals';
 import DiaryPost1Fillers from './Articles/Tutorials/VintageVibes/DiaryFillers';
+import SummerInspo from './Articles/Tutorials/PopCulture/SummerInspo';
 
 function usePageTracking() {
   const location = useLocation();
@@ -159,6 +160,8 @@ function App() {
           <Route path="manhattancool" element={<ManhattanCool />} />
           <Route path="falllbd" element={<FallLBD />} />
           <Route path="darkflorals" element={<DarkFlorals />} />
+          <Route path="summerinspo" element={<SummerInspo />} />
+
           <Route path="*" element={<h1>404 Not Found</h1>} />
         </Route>
       </Routes>

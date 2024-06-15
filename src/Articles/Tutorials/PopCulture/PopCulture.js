@@ -9,8 +9,15 @@ const image6 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VST
 const image7 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
 const image9 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/MARGOTBARBIETHUMBNAIL.png`;
 const nomakeup = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
+const summerinspo = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/mermaidthumbnail.jpg`;
 
 const cardsData = [
+  {
+    link: "/SummerInspo",
+    image: summerinspo,
+    alt: "Summer Inspo",
+    title: "Summer Inspiration 🧜",
+  },
   {
     link: "/nomakeupspring",
     image: nomakeup,

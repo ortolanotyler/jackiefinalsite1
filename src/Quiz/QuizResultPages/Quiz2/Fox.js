@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import { Helmet } from 'react-helmet';
-import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
@@ -138,7 +137,6 @@ const FoxPretty = () => {
       </p>
 
       <img src={signature} alt="Jackie Wyers Signature" className={styles.signatureImage} />
-      <Comments website-id={websiteId} pageId={"Fox-Pretty-Results"} />
     </div>
   );
 
