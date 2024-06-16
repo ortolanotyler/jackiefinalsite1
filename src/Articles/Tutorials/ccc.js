@@ -12,9 +12,15 @@ const image7 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayT
 const image9 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/SQUAREMARGOT.jpeg`;
 const nomakeup = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
 const animalpretty = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.jpg`;
+const summerinspo = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/mermaidthumbnail.jpg`;
 
 const cardsData = [
-
+{
+  link: "/SummerInspo",
+  image: summerinspo,
+  alt: "Summer Inspo",
+  title: "Summer Mermaid Makeup & Hair 🧜",
+},
   {
     link: "/nomakeupspring",
     image: nomakeup,
