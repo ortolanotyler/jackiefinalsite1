@@ -3,6 +3,7 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../../Components/TextReveal';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import './ExampleTutorial.css';
+import AdSenseAd from '../../Advertising/Ads.js';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/bonbontitle2.png`;
@@ -53,6 +54,7 @@ const BonBonReview = () => {
 
   const blogContent = (
     <div className="container" style={{ width: '100%', padding: '1rem' }}>
+      <AdSenseAd/>
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // REVIEWS
