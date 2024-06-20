@@ -47,7 +47,7 @@ body {
 }
 
 #frame li figure img {
-  max-block-size: 300px;
+  max-block-size: 250px;
   border: 25px solid transparent;
   padding: 1;
   border-image: url('https://assets.codepen.io/11614/frame2.png') 30 round;
