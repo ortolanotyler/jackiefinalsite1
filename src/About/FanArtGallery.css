@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: 80vh;
   background: linear-gradient(to bottom, #e8edea 0%, #d2d8d3 85%, #c5c9c8 86%, #d2d8d3 100%);
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 #frame li figure img {
-  max-block-size: 350px;
+  max-block-size: 300px;
   border: 25px solid transparent;
   padding: 1;
   border-image: url('https://assets.codepen.io/11614/frame2.png') 30 round;
@@ -64,7 +64,7 @@ body {
   overflow: hidden;
   position: absolute;
   left: 50%;
-  bottom: -30px;
+  bottom: -20px;
   transform: translateX(-50%);
   background-color: #fdedef;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
@@ -82,7 +82,7 @@ body {
 }
 
 #bench {
-  max-width: 25rem;
+  max-width: 20rem;
   position: relative;
   bottom: 0;
   left: 50%;
@@ -132,7 +132,7 @@ body {
 
   #frame {
     padding: 0;
-    margin-top: 0.1rem;
+    margin-top: -0.1rem;
     margin-bottom: 0.5rem;
   }
 

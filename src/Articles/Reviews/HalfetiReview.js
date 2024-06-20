@@ -4,6 +4,7 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import './ExampleTutorial.css';
 import TextReveal from '../../Components/TextReveal';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
+import AdSenseAd from '../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/halfetititle.png`;
 const profile = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/halfetiprofile.png`;
@@ -76,9 +77,11 @@ const HalfetiReview = () => {
                 <meta name="description" content="A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression." />
             </Helmet>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
+                <AdSenseAd/>
                 <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // REVIEWS
                 </a>
+
             </div>
             <img src={title} alt="Halfeti Perfume Review" style={imageStyle} />
             <div style={imageContainerStyle}>
