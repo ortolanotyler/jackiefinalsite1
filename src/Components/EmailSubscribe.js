@@ -11,7 +11,7 @@ const SignupSchema = Yup.object().shape({
   consent: Yup.boolean().oneOf([true], 'Consent is required'),
 });
 
-const zapierWebhookURL = 'https://hooks.zapier.com/hooks/catch/18965305/3vxlycx/';
+const googleScriptURL = 'https://script.google.com/macros/s/AKfycbz0Jp3Ben2RCPQji1gBRd51xqbuq6oFYEbyCrjRPplgIHzDH-VGBG5rE7nsmtCOFvjuEw/exec';
 
 export default function EmailSubscribe() {
   const buttonRef = useRef(null);
@@ -41,14 +41,22 @@ export default function EmailSubscribe() {
       validationSchema={SignupSchema}
       onSubmit={async (values, { setSubmitting, resetForm }) => {
         try {
-          const response = await fetch(zapierWebhookURL, {
+          const response = await fetch(googleScriptURL, {
             method: 'POST',
             body: JSON.stringify({ email: values.email }),
+            headers: {
+              'Content-Type': 'application/json',
+            },
           });
 
           if (response.ok) {
-            setIsSubmitted(true);
-            resetForm();
+            const jsonResponse = await response.json();
+            if (jsonResponse.status === "success") {
+              setIsSubmitted(true);
+              resetForm();
+            } else {
+              alert('Failed to subscribe email.');
+            }
           } else {
             alert('Failed to subscribe email.');
           }
