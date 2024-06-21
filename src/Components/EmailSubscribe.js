@@ -11,7 +11,7 @@ const SignupSchema = Yup.object().shape({
   consent: Yup.boolean().oneOf([true], 'Consent is required'),
 });
 
-const googleScriptURL = 'https://script.google.com/macros/s/AKfycbzNapvNBpPhNYQdM2HGYFectsBFgVEwZSavLLQhmK7GU-_v1BG2c4TYj9NRDYpBr2Vb9w/exec';
+const iftttWebhookURL = 'https://cors-anywhere.herokuapp.com/https://maker.ifttt.com/trigger/email/with/key/3SLtqFLBg3zfwW2LzXJF4LC0WeaKUlWgfnSpbHY-Uw';
 
 export default function EmailSubscribe() {
   const buttonRef = useRef(null);
@@ -41,22 +41,17 @@ export default function EmailSubscribe() {
       validationSchema={SignupSchema}
       onSubmit={async (values, { setSubmitting, resetForm }) => {
         try {
-          const response = await fetch(googleScriptURL, {
+          const response = await fetch(iftttWebhookURL, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ email: values.email }),
+            body: JSON.stringify({ value1: values.email }),
           });
 
           if (response.ok) {
-            const jsonResponse = await response.json();
-            if (jsonResponse.status === "success") {
-              setIsSubmitted(true);
-              resetForm();
-            } else {
-              alert('Failed to subscribe email.');
-            }
+            setIsSubmitted(true);
+            resetForm();
           } else {
             const errorText = await response.text();
             console.error('Server error:', errorText);
@@ -149,3 +144,4 @@ export default function EmailSubscribe() {
     </Formik>
   );
 }
+
