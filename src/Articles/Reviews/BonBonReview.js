@@ -95,6 +95,14 @@ style = {{
       <p style={paragraphStyle}>
         Bonbon is a celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
 
       <h2 style={headingStyle}>🍬 Fragrance Profile</h2>
 
@@ -116,6 +124,15 @@ style = {{
         </div>
       </div>
 
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+
       <p style={paragraphStyle}>
         <strong>Overall Scent Profile:</strong> A luscious peach opening gives way to a heart overflowing with caramel's sweet embrace, followed by a touch of delicate florals. The base, a comforting blend of warm woods, anchors the fragrance in sophistication.
       </p>
@@ -134,6 +151,15 @@ style = {{
         As a young adult at the time with a fondness for sweet, playful scents, I steered away from body sprays and anything too fruity. I’ve always been drawn to fragrances that lay on a foundation of sandalwood as they feel warm, woody, and inviting alongside the sweetness. This is why Bonbon was the perfect, first-luxury perfume buy that I’d recommend for teens or young adults who love a mature, but sweet scent.
       </p>
 
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+
       <ResponsiveIframe src="https://shopmy.us/collections/public/549701?noHeader=true" title="Final Touches" scrolling = "no" />
 
       <h2 style={headingStyle}>💗 Review & Recommendations</h2>
@@ -147,7 +173,14 @@ style = {{
       <p style={paragraphStyle}>
         <strong>Occasions and Seasonality:</strong> Ideal for the cooler embrace of autumn and winter, Bonbon transitions seamlessly from daytime charm to evening elegance.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>⚖ Comparisons</h2>
 
       <p style={paragraphStyle}>
@@ -176,6 +209,14 @@ style = {{
       </p>
 
       <img src={Signature} alt="Signature" style={{ width: '100%' }} />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       <Comments website-id={websiteId} page-id="BonBon" />
     </div>
   );

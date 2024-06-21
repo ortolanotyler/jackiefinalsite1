@@ -94,6 +94,7 @@ style = {{
             <div style={imageContainerStyle}>
                 <img src={halfeti1} alt="Halfeti Perfume" style={imageStyle} />
             </div>
+           
             <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '1rem 0', fontStyle: 'italic' }}>
                 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
@@ -107,6 +108,14 @@ style = {{
                 Perfumers: <strong>Christian Provenzano</strong><br /><br />
                 Price: <strong>100 ml - $290 USD</strong>
             </div>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>🍃 Fragrance Profile</h2>
             <div style={{ fontSize: '1.25rem', fontFamily: 'GFS Didot, serif', margin: '1rem' }}>
                 <div style={{ marginBottom: '0.5rem' }}>
@@ -125,6 +134,14 @@ style = {{
                     <strong>Base Notes:</strong> Leather, Oud, Amber, Vetiver, Cedar, Myrrh, Tonka Bean, Vanilla, Patchouli
                 </div>
             </div>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>🥀 Background Information</h2>
             <p style={paragraphStyle}>
                 Halfeti by Penhaligon's is an aromatic voyage to the exotic trade routes of the East, capturing the essence of the rare black roses of Halfeti, Turkey. It's an opulent and heady scent that exudes luxury and mystery.
@@ -142,6 +159,14 @@ style = {{
             <p style={paragraphStyle}>
                 I recommend visiting a Penhaligon’s boutique or your nearest Nordstrom or Saks Fifth Avenue to experience Halfeti for yourself. It might be challenging to envision how the enchanting combination of notes comes together, but they do so in a bold and alluring manner that is simply irresistible. You’ll smell expensive with this deeply rich scent, and that is what you pay for with Penhaligon’s!
             </p>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <ResponsiveIframe src="https://shopmy.us/collections/public/557984?noHeader=true" title="Final Touches" />
             <h2 style={headingStyle}>❤️ Review & Recommendations</h2>
             <p style={paragraphStyle}>
@@ -153,6 +178,14 @@ style = {{
             <p style={paragraphStyle}>
                 <strong>Occasions and Seasonality:</strong> Halfeti's depth and warmth make it perfect for cooler seasons, and its boldness suits formal events or evenings when you want to make a statement.
             </p>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>⚖ Comparisons</h2>
             <p style={paragraphStyle}>
                 Those who favor bold, oriental fragrances like Tom Ford's Oud Wood or Jo Malone's Oud & Bergamot might find a familiar allure in Halfeti. Yet, Penhaligon's offering stands out with its unique blend of Turkish florals and spices.
@@ -174,6 +207,14 @@ style = {{
                 Have you experienced the allure of Halfeti by Penhaligon's? Share your thoughts below.
             </p>
             <img src={signature} alt="Signature" style={{ width: '100%' }} />
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <Comments website-id={websiteId} page-id="Halfeti" />
         </div>
     );
