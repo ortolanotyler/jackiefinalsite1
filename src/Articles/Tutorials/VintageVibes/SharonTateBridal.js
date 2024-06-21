@@ -105,7 +105,14 @@ style = {{
       <p style={paragraphStyle}>
         Start with a well-moisturized face. Use a foundation that offers a natural, radiant finish. Sharon's look is all about a flawless but not overly matte complexion. A foundation like Charlotte Tilbury’s Light Wonder provides the perfect canvas.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <ResponsiveIframe src="https://shopmy.us/collections/public/490583?noHeader=true" title="Foundation Choices" />
 
       <h2 style={headingStyle}>Eyes, The Focal Point</h2>
@@ -121,7 +128,14 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/490744?noHeader=true" title="Lashes and Brows Products" />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Face Sculpting and Highlighting</h2>
       <p style={paragraphStyle}>
         Use a light hand to sculpt and contour the face, focusing on the cheekbones, jawline, and hairline. Sharon's look isn't about sharp contours but gentle, sun-kissed definition. Highlight the high points of your face with a soft, luminous highlighter.
@@ -144,7 +158,14 @@ style = {{
       </a>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/492227?noHeader=true" title="Wedding Dress Collection" />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Discover More Vintage-Inspired Looks</h2>
       <p style={paragraphStyle}>
         Discover more vintage-inspired bridal looks and time travel tutorials here on jackiewyers.beauty & follow on IG @ <a href="https://www.instagram.com/jackiewyers/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>Jackiewyers</a> for short form tutorials.
@@ -170,7 +191,14 @@ style = {{
       <div style={{ textAlign: 'center' }}>
         <img src={signature} alt="Signature of Jackie Wyers" style={{ width: '100%', height: 'auto' }} />
       </div>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <Comments website-id={websiteId} page-id={'Sharon-Tate-Post'} />
     </div>
   );

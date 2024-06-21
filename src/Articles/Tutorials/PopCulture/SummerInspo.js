@@ -120,9 +120,18 @@ of this show for ages! 🧜 ✨      </p>
           <img src={image3} alt="Jessica Alexander as Vanessa - ‘The Little Mermaid’" style={{ width: '100%', maxWidth: '650px' }} />
      
       </div>
+
+      
       <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
       Original Makeup by Nikki Wolff for Jessica Alexander in 'The Little Mermaid' live-action remake, recreation by Jackie Wyers.      </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
       While her screen time was brief, Jessica Alexander's portrayal of Vanessa in 'The Little Mermaid' live-action remake certainly turned heads with her stunning purple dress. Capture her slightly shipwrecked beauty with a bohemian style from brands like Free People. Complement the look with the inspired pendant from the Disney and Pandora collection that holds Ariel's voice. For makeup, opt for a simple sculpted eye and a sculpted pink lip, paired beautifully with tussled curls. The Vanessa-inspired makeup is also featured in the Ariel tutorial as mentioned above.      </p>
 
@@ -137,7 +146,14 @@ of this show for ages! 🧜 ✨      </p>
      </div>
       <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
       Original Makeup led by Joel Harlow for the mermaids in 'Pirates of the Caribbean: On Stranger Tides.' Recreation by Jackie Wyers. (Photo shot by Lost Lands Collections)      </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
       The 'Pirates of the Caribbean' franchise introduced us to the dark mermaid aesthetic, featuring long-haired mermaids with an irresistibly evil allure. Achieve this look with long, softly textured hair, smoky eyes in deep bronze shades, and a defined nude lip. While my recreation subtly nods to this style, you can also explore the beautiful Gemma Ward for more subtle beauty inspiration & smell like a mermaid with Anna Sui’s Fantasia Mermaid Eau de Toilette!
             </p>
@@ -156,7 +172,14 @@ of this show for ages! 🧜 ✨      </p>
       <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
       Original Makeup by Kimberly Greene for Sara Paxton in 'Aquamarine.' Recreation by Jackie Wyers. (Photo shot by Lost Lands Collections)
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
       We can't do a roundup of mermaid looks without mentioning Sara Paxton's iconic portrayal of the sweet and bubbly Aquamarine. Her bright blonde hair, accented with streaks of blue, and her subtle makeup featuring a pop of shimmer on the lids and a hint of blue eyeliner, make for a look that’s both fun and naturally wearable for everyday summer flair. And who could forget her unforgettable 'last splash' dress? I’ve always been on the lookout for something similar! Don't forget your Ben & Jerry's Fish Food as you dive into my tutorial here.
                   </p>
@@ -198,6 +221,15 @@ of this show for ages! 🧜 ✨      </p>
         <img src={signature} alt="Signature" style={{ width: '100%' }} />
       </div>
       
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+<Comments website-id={websiteId} page-id={"Las-1aasa"} />
 
     </div>
   );

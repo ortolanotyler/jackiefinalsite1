@@ -105,6 +105,15 @@ style = {{
         For foundation, aim for a natural look. I mix a bit of serum drops (Armani's Smart Moisture Serum) with the Armani Luminous Silk Perfect Glow Flawless Foundation to create a sheer base that still showcases the skin's natural beauty.
       </p>
 
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+
       <ResponsiveIframe src="https://shopmy.us/collections/public/493631?noHeader=true" title="Skin Care and Foundation Products" />
 
       <h2 style={headingStyle}>Why I Skip Underpainting</h2>
@@ -119,6 +128,14 @@ style = {{
       <p style={paragraphStyle}>
         I adore Rose Inc Solar Infusion Moisturizing Cream Bronzer for their creamy texture - they add just the right amount of structure to the face when contouring with a light hand.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         As for brows, the Unibrow by Winky Lux is my go-to product, complemented with e.l.f. Brow Lift Gel to keep them in place. Keep them brushed up inspired by Hailey!
       </p>
@@ -139,7 +156,14 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493646?noHeader=true" title="Eye Makeup Products" />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Final Touches: Lashes, Lips, and Setting the Look</h2>
       <p style={paragraphStyle}>
         Finish the eye makeup with mascara and lashes that complement the whimsical vibe. For an extra fairy-like touch, add gems from Half Magic in the inner corner of the eye, and decorate around the eyes — they're super fun and perfect for a New Year's Eve celebration. Rare Beauty's Enchant Highlighter complements all the pink and silver tones beautifully.
@@ -157,9 +181,16 @@ style = {{
       <ResponsiveIframe src="https://shopmy.us/collections/public/565561?noHeader=true" title="Eye Makeup Products" />
 
       <p style={paragraphStyle}>
-        What's your take on this trend, what variations have you experimented with? Share your thoughts and favorite products in the comments below!
+        What's your take on this trend? What variations have you experimented with? Share your thoughts and favorite products in the comments below!
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <a href="/2016makeup" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
           <img src={makeup2016} alt="2016 Makeup Tutorial" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />

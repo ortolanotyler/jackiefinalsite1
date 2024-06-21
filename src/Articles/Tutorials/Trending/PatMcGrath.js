@@ -98,7 +98,14 @@ style = {{
       </p>
 
       <img src={Pat3} alt='Pat McGrath Face Chart' style={{ width: '100%', height: 'auto' }} />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Preparation and Base</h2>
       <p style={paragraphStyle}>
         In the masterclass, it was demonstrated that PAT MCGRATH LABS | Divine Skin Rose 001 The Essence was applied to ensure hydration and longevity of makeup, along with the Skin Fetish: Sublime Perfection Primer. For models with paler complexions, a white shade from Kryolan was mixed into the Skin Fetish: Sublime Perfection Foundation and Concealer to enhance the porcelain effect.
@@ -133,7 +140,14 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Brows & Painterly Eyes</h2>
       <p style={paragraphStyle}>
         The models all had bleached brows, but for my version, I did the block-out brow method by using purple Elmer's glue. <a href="https://www.youtube.com/watch?v=gGbiXF2ohr0" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>See this drag technique here</a> if you want a breakdown!
@@ -170,7 +184,14 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Iconic Glass Skin</h2>
       <p style={paragraphStyle}>
         For the base look, it was shown that a water-based adhesive should be applied in strategic areas (underneath the chin, around the nose, from the nose bridge to under the eye) to ensure the makeup's durability for over three hours with the mask on top!
@@ -204,7 +225,14 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>A New Pat McGrath Labs Product Coming Soon?</h2>
       <p style={paragraphStyle}>
         This iconic look, three years in the making, was crafted to experiment and find an amazing glazing effect that would bring porcelain doll skin to life. Pat teased a new Pat McGrath Labs product coming soon that will provide this effect, eliminating the need to create a mix. Stay tuned!
@@ -223,7 +251,14 @@ style = {{
       <div style={{ textAlign: 'center' }}>
         <img src={Signature} alt='Jackie Wyers Signature' style={{ width: '100%', maxWidth: '650px' }} />
       </div>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <Comments website-id={websiteId} page-id="PatMcGrathhy" />
     </div>
   );

@@ -102,6 +102,15 @@ style = {{
         <img src={Victoria6} alt='Snow Angel Look' style={{ width: '100%' }} />
       </div>
 
+      
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Glowing Bronze, Healthy Skin</h2>
 
       <p style={paragraphStyle}>
@@ -114,7 +123,14 @@ style = {{
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/494318?noHeader=true" title="More Beauty Products" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
+ <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Bed-Head Meets Blowout Hair</h2>
       <p style={paragraphStyle}>
         Orlando Pita, the hairstylist, aimed for the models to sport a blowout with the texture of bed-head hair. Since I don't have shorter layers to fully achieve this look naturally, I opted for a Raquel Welch MILES OF STYLE wig in the shade Honey Pecan for my Victoria's Secret-inspired photoshoot.
@@ -133,6 +149,14 @@ style = {{
       <p style={paragraphStyle}>
         The minimalist approach was key for the skin, so I used Armani Beauty Luminous Silk Foundation sheered out for a natural finish. The L’Oréal True Match Lumi products are great alternatives from the drugstore!
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         A touch of Maybelline Age Rewind concealer only one shade lighter than the foundation brightens the center of the face. Avoid too bright of a concealer as the skin wasn’t too heavily highlighted and contoured, unlike upcoming makeup trends. (Looking at you, 2016!)
       </p>
@@ -154,6 +178,7 @@ style = {{
       <p style={paragraphStyle}>
         For the eyes, start with a deep brown liner, I chose URBAN DECAY | 24/7 Glide-On Waterproof Eyeliner Pencil in Demolition, a matte deep brown along the upper lash line and into the outer v. Smoke this out for a base for eyeshadow.
       </p>
+
       <p style={paragraphStyle}>
         The Too Faced Natural Eyes palette is still my go-to palette. Blend the deepest bronze over the lid and into the crease, brightened up with the gold over the center of the lid for a gentle, shimmering look.
       </p>
@@ -164,6 +189,14 @@ style = {{
       <p style={paragraphStyle}>
         For highlighter, I used the Charlotte Tilbury Bar of Gold. Taking the lightest shade, apply to the cheekbones, nose, and inner corner of the eye. I remember saving up for this highlighter palette in 2014 and still love it.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         On the drugstore side, WinkyLux offers adorable rose-shaped highlighters, a perfect addition to any hyper-feminine vanity. If these highlighters were around in 2014, you bet they’d be all over Tumblr.
       </p>
@@ -181,7 +214,14 @@ style = {{
       <p style={paragraphStyle}>
         Echoing the 2013 show's "birds of a feather" theme, I crafted angel wings from paper cutouts and floral wire. Would be a fun idea for a Halloween costume! A shimmering body cream or oil will complete your supermodel glow.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>The Iconic Pink Robes & A 2014 Tumblr Girl Gift Guide</h2>
       <p style={paragraphStyle}>
         The 2013 robes behind the scenes at the fashion show were a stunning light pink and white stripe in a satin finish. The new robes for 2023/2024 are very similar and linked below along with more products that complete the 2014 girly, pink aesthetic.
@@ -197,7 +237,15 @@ style = {{
         </a>
       </div>
       <img src={Signature} alt='xoxo - Jackie Wyers' style={{ width: '100%' }} />
-      <Comments website-id={websiteId} pageId={"Victoria-Secret-Review"} />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+      <Comments website-id={websiteId} page-id={"Victoria-Secret-Review"} />
     </div>
   );
 

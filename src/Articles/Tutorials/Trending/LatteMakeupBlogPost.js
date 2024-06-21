@@ -92,6 +92,14 @@ style = {{
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <img src={Latte3} alt='Latte Makeup Application' style={{ width: '100%', maxWidth: '650px' }} />
       </div>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>The Base: Tanned and Natural</h2>
       <p style={paragraphStyle}>
         Applying self-tanner the night before can really help create a harmonious, warm canvas. Make sure you’ve moisturized the skin before makeup, and we are going with no foundation for this style, but I gave my skin a boost with Charlotte Tilbury Hollywood Flawless Filter for a sheer glow with a hint of coverage.
@@ -106,7 +114,14 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Yellow Based Bronzer</h2>
       <p style={paragraphStyle}>
         Unlike the typical warm, red-toned bronzers, this look calls for a yellow-based bronzer to add warmth to the skin and complement the caramel-toned eyeshadows coming up.
@@ -125,6 +140,14 @@ style = {{
       <p style={paragraphStyle}>
         Next, add a brown liner pencil to rim the lash line and softly fade into the crease. The ColourPop lipliner I used called BFF 3 is really creamy and easy to blend for this step, plus it is lighter than most traditional eyeliners on the market, making it appear softer. Make sure you're not using the eyeliner on the lips and eyes and sanitize between uses if you do opt for a lipliner on the eyes!
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         Continue by picking a palette that has warm matte and shimmer tones like ONE/SIZE BY PATRICK STARRR | Visionary Eyeshadow Palette to deepen up the outer corner of the eye and add a bronzer shimmer to the lid to pick up the light.
       </p>
@@ -148,7 +171,14 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Lips & Finishing Touches</h2>
       <p style={paragraphStyle}>
         For the lips, over-line them with a medium-toned caramel brown shade, and blur out again for no harsh lines. Add a lip plumper for a fuller look in a milky pink or nude shade.
@@ -177,7 +207,14 @@ style = {{
       <div style={{ textAlign: 'center' }}>
         <img src={Latte16} alt='Signature' style={{ width: '100%', maxWidth: '650px' }} />
       </div>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <Comments website-id={websiteId} page-id="latte" />
     </div>
   );

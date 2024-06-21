@@ -144,6 +144,14 @@ style = {{
                 <img src={images[1]} alt="Maui room 1" style={imageStyle} />
                 <img src={images[2]} alt="Maui room 2" style={imageStyle} />
             </div>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>🌞 Room Options and Accessibility</h2>
             <p style={paragraphStyle}>
                 In terms of accommodations, the Andaz Maui at Wailea Resort offers a variety of choices. Lauren and I enjoyed the comfort of a standard guest room which boasted stunning ocean and pool views from a spacious balcony. (We brought Scrump from Lilo & Stitch along for the trip 😆). For those seeking more space and luxury, the resort also offers expansive suites equipped with additional living areas and enhanced amenities. Private villas are available for guests who desire ultimate privacy and exclusivity, complete with personalized services.
@@ -156,6 +164,14 @@ style = {{
                 <img src={images[4]} alt="Maui room 4" style={imageStyle} />
                 <img src={images[5]} alt="Maui dining" style={imageStyle} />
             </div>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>💵 Cost Considerations & Dining Options</h2>
             <p style={paragraphStyle}>
                 The nightly rate of around $1,100 USD at the Andaz Maui at Wailea Resort may seem steep, but the resort justifies this with its comprehensive luxury offerings. Set in a prime location, the resort provides direct access to some of Maui's finest beaches, along with exquisite amenities including multiple infinity pools, a world-class spa, and diverse dining options.
@@ -174,6 +190,14 @@ style = {{
             <p style={paragraphStyle}>
                 The resort also features a local art shop that showcases Maui's rich culture and craftsmanship. For those seeking a lavish escape or celebrating a special occasion such as a honeymoon, the investment is well worth the unforgettable experiences, as echoed by numerous couples we spoke to who return here annually to celebrate their anniversaries.
             </p>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>👗 Evening Entertainment: Traditional Luau</h2>
             <p style={paragraphStyle}>
                 Each evening brought new experiences. One of the highlights was the traditional Luau, where we immersed ourselves in Hawaiian culture with music, dance, and a feast featuring local specialties. The sunset views from the resort added a magical touch to our evening meals and activities.
@@ -190,6 +214,14 @@ style = {{
                 <img src={images[13]} alt="Maui pool 1" style={imageStyle} />
                 <img src={images[14]} alt="Maui pool 2" style={imageStyle} />
             </div>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <p style={paragraphStyle}>
                 Within the resort, we spent our days lounging on sun loungers, hopping between pools, and sipping drinks at the tiki bars—a perfect way to relax and soak in the ambiance.
             </p>
@@ -202,6 +234,14 @@ style = {{
                 <img src={images[18]} alt="Maui view 3" style={imageStyle} />
                 <img src={images[19]} alt="Maui view 4" style={imageStyle} />
             </div>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <p style={paragraphStyle}>
                 The resort features 36 holes of golf, two vibrant poolside bars, and four onsite restaurants. Indulge in self-care at the Awili Spa and Salon with treatments from facials to body scrubs. Lauren & I preferred to stay outdoors, but we did love shopping for beauty products at the spa.
             </p>
@@ -227,11 +267,21 @@ style = {{
             <p style={paragraphStyle}>
                 Thank you for joining me on this breathtaking escape to the Andaz Maui at Wailea Resort. Lauren and I had a marvellous time soaking in the beauty and culture of Maui and a huge thank you to the Benefit Canada team for the gifted experience. Have you travelled to Hawaii or stayed at the Andaz Maui? I’d love to hear your experience in the comments below and I look forward to bringing you along on more travels! For more travel insights and lifestyle tips, stay tuned to my blog and YouTube channel!
             </p>
+            
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
                 <BookNowButton href="https://plannin.com/en/hotel/f7ed1125-3205-4916-881e-e865acca3608?refId=jackiewyers" target="_blank" rel="noopener noreferrer"/>
             </div>
+            
             <img src={signature} alt="Signature" style={{ width: '100%' }} />
-            <Comments website-id={websiteId} pageId={"andaz-maui-review"} />
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+            <Comments website-id={websiteId} page-id={"andaz-maui-review"} />
         </div>
     );
 

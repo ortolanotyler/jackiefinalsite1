@@ -109,7 +109,14 @@ style = {{
                 Be sure to drink lots of water and wear sunscreen if you plan to spend all day out there - Epcot is all about walking around the world! 🇮🇹 🇨🇳 🇨🇦 🇺🇸 🇯🇵 🇫🇷 🇲🇦 🇳🇴 🇩🇪 🇬🇧 🇲🇽
             </p>
             <img src={images[0]} alt='Epcot' style={imageStyle} />
+            <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>🗺 What does EPCOT mean?</h2>
             <p style={paragraphStyle}>
                 So… what is Epcot? Epcot is a celebration of human achievement and cultural diversity, perfectly encapsulated in its Future World and World Showcase. EPCOT stands for "Experimental Prototype Community of Tomorrow.”
@@ -121,7 +128,14 @@ style = {{
                 Disney Characters are intertwined throughout the countries, like the Winnie the Pooh characters in England and Anna and Elsa in Norway. In both shrub and human form! I highly suggest Epcot for an adult audience, and if you do like to drink alcohol, you can “drink around the world” during the day and night. Epcot used to be unique in serving alcohol, but now all parks offer adult beverages. Cheers!
             </p>
             <img src={images[1]} alt='Epcot Characters' style={imageStyle} />
+            <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>🌸 Epcot International Flower & Garden Festival</h2>
             <p style={paragraphStyle}>
                 The best time to really take in the beauty of Epcot is during the Epcot International Flower & Garden Festival. This year the festival is from February 28 to May 27, 2024. The intricate Disney character topiaries, bright floral displays and fresh delights from the pop trucks are nothing short of magical.
@@ -133,7 +147,14 @@ style = {{
                 We started a meal at Chefs de France, but ended up leaving after an appetizer as we preferred the food trucks! The festival food really was that good.
             </p>
             <img src={images[2]} alt='Flower & Garden Festival' style={imageStyle} />
+            <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>🇫🇷 Pavilion Highlights!</h2>
             <p style={paragraphStyle}>
                 My highlight pavilions—France, Morocco, Japan and Italy—each told their own unique story through architecture, cuisine, and culture, and of course - shopping. I loved some of the higher end brands like Guerlain in the French shop, alongside adorable Disney-themed home goods and Mickey ears unique to each country. While many shops throughout the parks have similar items, the country specific merchandise isn't anywhere else in the parks.
@@ -152,7 +173,14 @@ style = {{
                 Japan’s gardens are so serene, featuring a majestic torii gate and a detailed replica of the Katsura Imperial Villa. In the shops, you can also find Animal Crossing plushies, Sailor Moon, Kirby and more anime merchandise, which I was over the moon about. I didn’t expect to see any franchises other than Disney!
             </p>
             <img src={images[5]} alt='Japan Pavilion' style={imageStyle} />
+            <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
             <p style={paragraphStyle}>
                 The Italy Pavilion at Epcot recreates the beauty of Venice, featuring detailed replicas of St. Mark's Campanile and the Doge's Palace, alongside intricate Venetian canals and gondolas. The authentic Italian dining experiences were sadly booked up, (try Via Napoli and Tutto Italia) but we had fun viewing Venetian masks and testing luxury fragrances.
             </p>
@@ -167,7 +195,14 @@ style = {{
             <p style={paragraphStyle}>
                 If you don’t know what Genie+ is, it’s a paid service at Disney World that allows guests to reserve access to expedited lines for select attractions, helping to significantly reduce wait times. Some rides do have an added fee when booking throughout the day, which can get pretty expensive if you are covering several kids' passes.
             </p>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>🚀 Celebrate Technology</h2>
             <p style={paragraphStyle}>
                 As for celebrating technology, low-impact rides like Soarin’, Test Track, and Mission: Earth added thrills to our exploration, making Epcot a blend of educational fun and adventure. Again, none of these rides are roller-coasters but more visual experiences.
@@ -184,6 +219,14 @@ style = {{
             <p style={paragraphStyle}>
                 Expect to see a stunning light show with large water fountains, fireworks, and music. I wouldn’t say I’m a full-blown Disney fanatic though I totally enjoy everything Disney and I had tears in my eyes listening to the nostalgic music! I was truly so happy to be there with my best friend and we stood near the fence and didn’t have a problem seeing a wonderful view despite getting there late.
             </p>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <p style={paragraphStyle}>
                 After 25,000 steps (Walt Disney World is a workout), we got some sleep to experience Magic Kingdom and Animal Kingdom the next day.
             </p>
@@ -201,6 +244,14 @@ style = {{
             <p style={paragraphStyle}>
                 Adventureland’s Pirates of the Caribbean Ride and Tomorrowland's Space Mountain offered immersive experiences that were both exhilarating and breathtaking! Again, a Genie+ would have elevated our experience. If you are choosing which rides to use the fast pass on, Space Mountain is a good one to use it on as the line gets very long.
             </p>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <p style={paragraphStyle}>
                 We shared a massive hot dog at the Coca-Cola Refreshment Corner with a view of the castle. It was delicious, and the atmosphere was so retro which I personally love. We then exited the park, visiting the Main Street Shops - the Candy Shop is a must-see!
             </p>
@@ -209,6 +260,14 @@ style = {{
             <p style={paragraphStyle}>
                 Lauren and I didn’t schedule to meet any characters or watch parades, instead we saw those experiences in passing which was just as magical for our slightly short attention spans. It made for more of a relaxing time. Booking too many experiences with time slots in advance can get a little overwhelming.
             </p>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <img src={images[11]} alt='Magic Kingdom Characters' style={imageStyle} />
 
             <h2 style={headingStyle}>🦁 Park Hopped to Animal Kingdom: A Wild Adventure</h2>
@@ -226,6 +285,14 @@ style = {{
             <p style={paragraphStyle}>
                 The park is divided into several areas, with Africa and Pandora - The World of Avatar being my favorites.
             </p>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <img src={images[13]} alt='Tree of Life' style={imageStyle} />
 
             <p style={paragraphStyle}>
@@ -242,6 +309,14 @@ style = {{
             <p style={paragraphStyle}>
                 The high-speed roller coaster with a Himalayan expedition theme was much scarier and thrilling than most Disney World rides. I won’t give away the unexpected twists you’re in for, but if you're looking for at least one thrilling roller coaster, this one is the best ride to get you screaming! Check out Lauren’s face😂
             </p>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <img src={images[16]} alt='Expedition Everest Thrills' style={imageStyle} />
 
             <p style={paragraphStyle}>
@@ -261,7 +336,14 @@ style = {{
             <p style={paragraphStyle}>
                 When we exited the ride, it was nighttime, and the bioluminescence was even more prominent in the dark! Keep in mind Animal Kingdom does close earlier than other parks, so depending on the time of year, it might still be light as you’re guided to exit.
             </p>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>🐠 Largest Rainforest Cafe in The World</h2>
             <p style={paragraphStyle}>
                 For dinner, we went to the largest Rainforest Café in the world, which had an incredible gift shop. I had a great meal of steak, shrimp, and vegetables, while observing all the beautiful fish in the aquarium all around us. See vlog for visuals as my phone had died at the end of a long day and my iPhone is what captured all the images in this post!
@@ -276,6 +358,14 @@ style = {{
             </p>
 
             <img src={signature} alt='Signature' style={imageStyle} />
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <Comments website-id={websiteId} pageId={"epcot"} />
         </div>
     );

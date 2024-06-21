@@ -98,7 +98,14 @@ style = {{
       <p style={paragraphStyle}>
         The essence of Sharon Tate's makeup embodies a timeless beauty that, while uniquely hers, can be celebrated through inspired emulation. Her makeup is characterized by bronzed, natural skin and captivating, deep-set eyes accentuated with a boldly drawn cut crease. Her full, long lashes perfectly complemented her enchanting hazel eyes. The look is completed with subtly lined lips and a peachy nude lipstick, giving off effortless glamour.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         The photoshoot that serves as my inspiration, taken by Orlando Suero in 1965, captures Sharon Tate's quintessential bohemian style like no other, showcasing the very essence of her iconic beauty.
       </p>
@@ -117,7 +124,14 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Sharon’s Modelesque Bone Structure</h2>
       <p style={paragraphStyle}>
         To emulate Sharon Tate's stunning bone structure, including her high cheekbones and defined chin, sculpting with a lighter concealer is key. If your skin tone is similar to hers, the Too Faced Born This Way Concealer in Swan is an excellent option. However, if your skin tone differs, opt for a concealer that's two shades lighter than your foundation. After enhancing the chin, jawline, area around the nose, and under the eyes with brightness, lightly set these areas with powder before applying a powder bronzer to finalize the sculpted look. This technique ensures a natural yet defined finish, mirroring Sharon Tate's iconic beauty.
@@ -127,7 +141,14 @@ style = {{
       <p style={paragraphStyle}>
         For a natural bronze and blushed appearance, sticking with powder products and matte formulas works best. The Too Faced Milk Chocolate Bronzer is an excellent choice for this purpose. Apply it beneath the cheekbones, blending slightly onto the cheeks, across the nose, and onto the forehead to achieve a soft, sun-kissed look. To enhance the effect with a touch of sunburnt realism and add depth to the cheeks, the Rimmel London Maxi Blush in Wildcard is perfect. This product helps to mimic that slightly flushed, vibrant look, evoking a natural radiance and depth that complements the bronzed base beautifully.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <ResponsiveIframe src="https://shopmy.us/collections/public/494399?noHeader=true" title="Bronzing and Blushing Products" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
@@ -148,7 +169,14 @@ style = {{
       <p style={paragraphStyle}>
         To further enhance the cut crease and emulate the depth and dimension of Sharon's eyes, apply a dark purple liner to the inner portion of the crease. This adds a layer of complexity and richness to the look. Keep the eyelid and brow bone bright to maintain a fresh, open appearance. Finally, incorporate some deeper matte eyeshadow as a liner along the lash line for added intensity and definition, completing the homage to Sharon Tate's iconic eye makeup.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <div style={{ maxWidth: '100%', overflow: 'hidden' }}>
         <img src={eyes} alt="Sharon Tate's Iconic Eyes" style={{ width: '40%', float: 'right', margin: '1rem' }} />
         <p style={paragraphStyle}>
@@ -167,7 +195,14 @@ style = {{
       <p style={paragraphStyle}>
         To finish the look, I've chosen a nude lip liner (Charlotte Tilbury Iconic Nude) and added a pop of nude-peach with Too Faced Sweet Peach Lip Gloss in Peach.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <ResponsiveIframe src="https://shopmy.us/collections/public/565715?noHeader=true" title="Twiggy-inspired Lashes Products" />
 
       <h2 style={headingStyle}>What Products did Sharon really use?</h2>
@@ -182,7 +217,14 @@ style = {{
       <p style={paragraphStyle}>
         In terms of perfumes, Sharon Tate had a fondness for fragrances, especially Chanel No. 5 and Guerlain's Jicky. These classic scents are celebrated for their enduring allure. For those interested, a review of Jicky fragrance is available <a href="/jickyreview" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>here</a>.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <ResponsiveIframe src="https://shopmy.us/collections/public/565717?noHeader=true" title="Sharon Tate Inspired Brow Products" />
 
       <h2 style={headingStyle}>Sharon Tate's Recollection Book</h2>
@@ -230,7 +272,14 @@ style = {{
       <div style={{ textAlign: 'center' }}>
         <img src={signature} alt='Signature' style={{ width: '100%' }} />
       </div>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <div style={{ margin: '2rem' }}>
         <Comments website-id={websiteId} page-id="sharon-iconic-post" />
       </div>

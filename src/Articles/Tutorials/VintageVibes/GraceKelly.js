@@ -105,7 +105,14 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Grace’s Two Blush Technique</h2>
       <p style={paragraphStyle}>
         Grace Kelly's approach to contouring was subtle yet effective, creating natural shadows that enhanced her bone structure without looking overly sculpted. She used two blush shades: a deeper, cooler tone beneath the cheekbone and a brighter shade on the cheeks.
@@ -121,7 +128,14 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Brows Are Essential</h2>
       <p style={paragraphStyle}>
         Grace Kelly's eyebrows were full and elegantly arched, with the tails extending nearly to the temples. This style frames the eyes exquisitely. Unlike Audrey Hepburn's brows, which arched upwards, Grace's brows are perfect for those whose natural brows have a downward trajectory.
@@ -135,7 +149,14 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Eyes – Silver and Grey Tones</h2>
       <p style={paragraphStyle}>
         In the inspiration photo I selected, Grace Kelly's complexion radiates a warm, slightly sun-kissed glow, and her hair is tinted a warm blonde. This warm undertone doesn't preclude the use of cool-toned greys on the eyes—it actually complements them! Let's aim for a subtly defined look.
@@ -151,7 +172,14 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Subtle Lashes</h2>
       <p style={paragraphStyle}>
         A curling and lengthening mascara completes the eye makeup, enhancing the lashes in a way that stays true to Grace’s minimal yet effective makeup style. If you're aiming for a more dramatic 50s makeup style, consider Marilyn Monroe’s iconic lash style to elevate this classic red lip look even further.
@@ -184,7 +212,14 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         Another beauty tip from Grace Kelly emphasizes the importance of hand cream. She famously stated, “a woman's age shows on her hands much quicker than anywhere else.” While I personally appreciate the beauty of aged hands, it’s always beneficial to stay moisturized!
       </p>
@@ -206,6 +241,14 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         Can’t go wrong with a simple set of pearls to complete the look or add a touch of class to an everyday style. If you are a big Grace Kelly fan, you might also be interested in the Grace Kelly Barbie’s for adult collectors, or the various books available to celebrate her life, legacy and style.
       </p>
@@ -231,6 +274,14 @@ style = {{
           MORE VINTAGE VIBES →
         </a>
       </div>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       <div style={{ textAlign: 'center' }}>
         <a href="/vintagevibesmerch" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
           <img src={teespring} alt="Vintage Vibes Merch" style={{ width: '100%', maxWidth: '1400px', display: 'block' }} />

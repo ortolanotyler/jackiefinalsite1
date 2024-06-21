@@ -117,7 +117,14 @@ style = {{
       <p style={paragraphStyle}>
         I began with the application of faux bangs and extensions, setting the stage for a transformative look. For the base makeup, I chose a radiant primer to minimize pores and prepare my skin for the foundation—a natural velvet matte finish foundation that evokes the era's flawless complexion, paired with a yellow-based concealer to brighten and balance the skin tone.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Sculpting the Features</h2>
 
       <p style={paragraphStyle}>
@@ -145,7 +152,14 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Lips and Final Touches</h2>
 
       <p style={paragraphStyle}>
@@ -167,7 +181,14 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5rem' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>The Hair: An Epic Updo Challenge</h2>
 
       <p style={paragraphStyle}>
@@ -191,7 +212,14 @@ style = {{
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <img src={image5} alt="Vintage Collection" style={{ width: '100%', maxWidth: '650px' }} />
       </div>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         If you have any vintage icons you'd like me to cover in future posts, don't hesitate to leave a comment below. And remember, the beauty of vintage is not just in the look—it's in the stories we tell and the history we keep alive. If you enjoyed this look, you may love Sharon Tate's unique blend of bohemian and mod aesthetics. I’ve also covered her coquette bridal style, <a href="/sharontatebridal" style={{ color: 'black' }} target="_blank" rel="noopener noreferrer">here</a>.
       </p>
@@ -216,8 +244,15 @@ style = {{
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <img src={signature} alt="Jackie Wyers Signature" style={{ width: '100%', maxWidth: '650px' }} />
       </div>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
-      <Comments website-id={websiteId} pageId={"Yardlizz-65fizz"} />
+  <AdSenseAd/>
+</div>
+      <Comments website-id={websiteId} page-id={"Yardlizz-65fizz"} />
     </div>
   );
 

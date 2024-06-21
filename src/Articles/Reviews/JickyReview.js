@@ -127,6 +127,15 @@ style = {{
                 Overall Scent Profile: Jicky is an enigmatic blend of vibrant top notes and a mysterious, deep base. Its opening is fresh and inviting, quickly evolving into a complex, spicy heart, and settling into a rich, warm embrace of vanilla and woods. This duality makes Jicky both refreshing and comforting masterpiece.
             </p>
 
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+
             <h2 style={headingStyle}>👧 Personal First Impressions</h2>
             <p style={paragraphStyle}>
                 My introduction to Jicky was inspired by the beautiful and bohemian Sharon Tate. While preparing for a <a href="/iconicsharon" style={{ color: 'black', textDecoration: 'underline' }} target="_blank" rel="noopener noreferrer" >Sharon Tate-inspired makeup tutorial</a>, I discovered her fondness for Jicky by Guerlain, alongside Chanel No. 5.
@@ -139,6 +148,15 @@ style = {{
             <p style={paragraphStyle}>
                 Jicky’s harmonious balance and warm, powdery essence make it a versatile and endearing fragrance. Penhaligon’s Trade Routes fragrances rank among my all-time favourites, and Jicky shares a similar boldness but is somewhat more affordable.
             </p>
+
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
 
             <p style={paragraphStyle}>
                 This distinctive fragrance begins with light and feminine notes of lavender, lemon, and mandarin, eventually settling into a base of vanilla, spices, and sandalwood—some of my favorite base notes. Jicky not only holds historical significance, often considered the first modern perfume in history, but it also transcends trends with a fresh, warm, powdery finish. I recommend this fragrance for those seeking a mature scent. By that, I mean it might not have been my choice as a teenager, but in adulthood, it has become a cherished go-to fragrance I absolutely adore.
@@ -160,7 +178,14 @@ style = {{
             <p style={paragraphStyle}>
                 Jicky often draws comparisons to other classic fragrances like Chanel No. 5, but remains in a category of its own due to its historical significance and unique composition. The fragrance retains a distinct character that is unmistakably Guerlain.
             </p>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
             <ResponsiveIframe src="https://shopmy.us/collections/public/557963?noHeader=true" title="Final Touches" />
 
             <h2 style={headingStyle}>📝 Final Thoughts</h2>

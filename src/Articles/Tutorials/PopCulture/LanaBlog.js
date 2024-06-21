@@ -152,7 +152,14 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Brows and Eye Makeup:</h2>
       <p style={paragraphStyle}>
         For brows, Lana's were softly defined. I used my Lawless pencil to fill them in, combing them down slightly at the head to thin them out and suit the softer makeup style. A creamy eye pencil from Too Faced in Killer Chocolate is a great option to carve out a soft, rounded shape in the crease for iconic Lana '60s glamour. I used Marcelle “Mulberry” from the drugstore in Canada. Both are great options depending on what you have near you!
@@ -226,7 +233,7 @@ style = {{
 
   <AdSenseAd/>
 </div>
-      <Comments website-id={websiteId} pageId={"Lasa-Blog-1aasa"} />
+      <Comments website-id={websiteId} page-id={"Lasa-Blog-1aasa"} />
     </div>
   );
 

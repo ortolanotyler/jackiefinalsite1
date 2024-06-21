@@ -112,6 +112,15 @@ style = {{
                 ))}
             </div>
 
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+
             <h2 style={headingStyle}>💵 Cost Considerations: Pros and Cons</h2>
             <p style={paragraphStyle}>
                 Staying at the upscale Prince of Wales Hotel comes with a higher price tag, particularly during peak summer season when Niagara-On-The-Lake draws the most visitors. During our stay, room rates ranged from about $250 to $450 CAD per night, depending on the room type and the timing of the visit.
@@ -125,6 +134,15 @@ style = {{
                     <img key={index} src={image.src} alt={image.alt} style={{ width: '100%' }} />
                 ))}
             </div>
+
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
 
             <p style={paragraphStyle}>
                 We chose a Premium King Room which is beautifully decorated with thoughtful details but somewhat compact. The air conditioning unit tends to be noisy and may not effectively cool the room during particularly hot weather. Nonetheless, the room's elegant charm and the hotel's excellent location significantly outweigh these minor drawbacks. Plus, a hand-delivered rose was a beautiful touch from the staff!
@@ -143,12 +161,21 @@ style = {{
                 If you are interested in exploring more culinary delights and experiences in Niagara-on-the-Lake, be sure to check out my detailed blog post here for options outside of the hotel.
             </p>
 
+
+
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1rem', margin: '1rem 0' }}>
                 {images.slice(6, 8).map((image, index) => (
                     <img key={index} src={image.src} alt={image.alt} style={{ width: '100%' }} />
                 ))}
             </div>
+ <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>🌸 Nearby Attractions</h2>
             <p style={paragraphStyle}>
                 Just steps away from the hotel, experience the charm of this historic town with its well-preserved 19th-century village feel, boutique shops, and theatres. The hotel is also in close proximity to some of Ontario's finest vineyards, offering guests easy access to wine tastings and vineyard tours.
@@ -174,6 +201,14 @@ style = {{
                 ))}
             </div>
 
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>🏊 Anticipated Experiences and Activities</h2>
             <p style={paragraphStyle}>
                 For my next visit, I eagerly anticipate indulging in the traditional high tea, exploring the exclusive Wine-Themed Cellar Suites, and relaxing with the spa services and pool offered. I also look forward to experiencing the hotel’s seasonal events like the summer garden parties and the festive Christmas markets. Additionally, I plan to wander through Niagara-on-the-Lake’s historic streets, discovering more of its hidden treasures.
@@ -188,19 +223,37 @@ style = {{
                 ))}
             </div>
 
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+
             <h2 style={headingStyle}>Accessibility Note:</h2>
             <p style={paragraphStyle}>
                 The Prince of Wales Hotel retains much of its historic charm, which includes an antique elevator available for floors 2 through 4; please note that this elevator requires staff assistance to operate. Due to the hotel's historic nature and the smaller size of rooms, guests with specific accessibility needs are encouraged to consider these factors when planning their stay. We recommend contacting the hotel directly to discuss any necessary accommodations or to inquire about alternative arrangements.
             </p>
 
             <img src={images[16].src} alt={images[16].alt} style={{ width: '100%' }} />
-            <img src={signature} alt='Signature' style={{ width: '100%' }} />
 
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
                 <BookNowButton href="https://plannin.com/en/hotel/7e8b8619-6256-4481-97c4-048f694b67c4?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
             </div>
 
-            <Comments website-id={websiteId} pageId={"PrinceOfWalesHotel"} />
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+<img src={signature} alt='Signature' style={{ width: '100%' }} />
+
+            <Comments website-id={websiteId} page-id={"PrinceOfWalesHotel"} />
         </div>
     );
 

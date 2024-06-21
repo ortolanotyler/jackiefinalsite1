@@ -110,6 +110,14 @@ style = {{
             <p style={paragraphStyle}>
                 This resort is a deluxe option, so it comes with a higher price tag. Check prices as it fluctuates greatly depending on the time of year from between 390 USD up to 990 USD😳 a night.
             </p>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
                 <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
             </div>
@@ -127,6 +135,14 @@ style = {{
             <p style={paragraphStyle}>
                 For the price tag, I’ve seen several complaints about being disappointed by the interior decor. However, I feel it still captures a nostalgic beach vibe, and I doubt you’ll spend too much time in the room with all there is to do! The other resort we considered but was out of our budget was the Polynesian Village Resort. This may be a better option for you if the room theme matters a lot for your experience, it features a tropical aesthetic rather than a beach cottage.
             </p>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>🛥 Unique Amenities and Shared Experiences with Yacht Club</h2>
             <img src={beachclub2} alt='Yacht Club' style={imageStyle} />
             <p style={paragraphStyle}>
@@ -139,6 +155,14 @@ style = {{
             <p style={paragraphStyle}>
                 The Beach and Yacht Club resorts both offer activities like movies under the stars, tennis, volleyball, campfires, and different watercraft rentals for enjoyment on Crescent Lake. You can also enjoy state-of-the-art fitness centres and book spa services for relaxation.
             </p>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>🍹 Storm-Along Bay Pool, Hurricane Hannah’s Waterside Bar & Grill</h2>
             <p style={paragraphStyle}>
                 A bit about my personal experience, upon check-in, Lauren and I grabbed a quick bite at the Ale & Compass Lounge (great appetizers, fries and burgers) and dedicated our first day to enjoying Storm-Along Bay.
@@ -155,6 +179,14 @@ style = {{
             <p style={paragraphStyle}>
                 Our evening continued with a leisurely walk along the beach, where we enjoyed the sunset from swings and strolled down the lively Disney BoardWalk. The charming waterfront boardwalk is brimming with restaurants, night performers and gift shops, offering a vibrant atmosphere at night that appeals to both adults and children.
             </p>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <p style={paragraphStyle}>
                 As someone who's a bit of a lightweight, my single drink at the bar led to a somewhat clumsy walk around the entire village and… blurry pictures I shall not include😂 ! We toyed with the idea of catching a movie under the stars, a feature the resort offers, but ultimately decided to head to bed early to conserve energy for the extensive walking we anticipated at Epcot the next day.
             </p>
@@ -169,6 +201,14 @@ style = {{
             <p style={paragraphStyle}>
                 If you want to ride the epic skyline, walk to Epcot where the International Gateway Station is located. The Skyliner provides transportation to Disney's Hollywood Studios, Disney’s Riviera Resort, Disney's Caribbean Beach Resort.
             </p>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <p style={paragraphStyle}>
                 If you are interested in other parks, like Magic Kingdom and Animal Kingdom, you can easily get there by catching a bus out front of the resort. Read the best of Epcot, Magic Kingdom and Animal Kingdom in a separate blog post, here.
             </p>
@@ -183,6 +223,14 @@ style = {{
             <p style={paragraphStyle}>
                 I bought an Angel plushy from the Boardwalk shops and headed home! Keep reading for a quick nautical resort comparison to help you decide on your stay.
             </p>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>🌊 Walt Disney World Resort Comparison for a Nautical Experience</h2>
             <div style={{ display: 'flex', alignItems: 'flex-start', margin: '1em 0' }}>
                 <img src={beachclub9} alt='Beach Club' style={{ maxWidth: '50%', height: 'auto' }} />
@@ -209,7 +257,15 @@ style = {{
                 <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
             </div>
             <img src={signature} alt='Signature' style={{ width: '100%' }} />
-            <Comments website-id={websiteId} pageId={"beachclubresort"} />
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+            <Comments website-id={websiteId} page-id={"beachclubresort"} />
         </div>
     );
 

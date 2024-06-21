@@ -99,6 +99,7 @@ style = {{
         <img src={image2} alt="Diary Post " style={imageStyle} />
       </div>
 
+
       <h2 style={headingStyle}>Reflection and Growth</h2>
 
       <p style={paragraphStyle}>
@@ -122,7 +123,14 @@ style = {{
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <img src={signature} alt="Jackie Wyers Signature" style={{ width: '100%', maxWidth: '650px', margin: '0 auto', display: 'block' }} />
       </div>
+ <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <Comments website-id={websiteId} page-id="Diary-Fillers" />
     </div>
   );

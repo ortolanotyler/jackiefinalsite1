@@ -115,7 +115,14 @@ style = {{
         <img src={images[1].src} alt={images[1].alt} style={{ width: '100%' }} />
         <img src={images[2].src} alt={images[2].alt} style={{ width: '100%' }} />
       </div>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>☕ Room Options and Accommodations</h2>
       <p style={paragraphStyle}>
         A Room with a View: Our suite at Hotel Quintessence was a luxurious haven, boasting stunning views of Lake Tremblant. Merging modern amenities with classic elegance, the room's spaciousness was accentuated by the rich tones of dark wood and the sophisticated accents of navy and gold—a palette I find myself consistently drawn to in boutique hotels.
@@ -128,7 +135,14 @@ style = {{
         <img src={images[5].src} alt={images[5].alt} style={{ width: '100%' }} />
         <img src={images[6].src} alt={images[6].alt} style={{ width: '100%' }} />
       </div>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>💵 Cost Considerations: Pros and Cons</h2>
       <p style={paragraphStyle}>
         Indulgence at a Price: Hotel Quintessence is among the more expensive options compared to other hotels in the area. Since rates vary with the seasons, it's best to check booking platforms for current prices. During our visit at the end of the ski season, the rate was $600 CAD per night after taxes.
@@ -145,6 +159,14 @@ style = {{
         <img src={images[8].src} alt={images[8].alt} style={{ width: '100%' }} />
         <img src={images[9].src} alt={images[9].alt} style={{ width: '100%' }} />
       </div>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         For those planning a longer stay, there might be more budget-friendly choices to consider, like Le 900 Tremblant Couette * Cafe * Bistro, a bed and breakfast a bit further from the slopes. Nonetheless, the peaceful luxury of Hotel Quintessence provided tremendous value, making our anniversary celebration all the more special. Plus, as someone who creates content with a focus on aesthetics, the hotel’s setting was absolutely ideal.
       </p>
@@ -169,6 +191,15 @@ style = {{
       </p>
 
       <h2 style={headingStyle}>🍹 Signature Experiences and Activities</h2>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+    
       <p style={paragraphStyle}>
         🌊Exclusive Lakeside Serenity: If you are headed to Hotel Quintessence in the summer months, the hotel's private dock on Lake Tremblant offers a unique spot to unwind, providing kayaks and paddle boards for exploring the tranquil waters. An evening wine and cheese by the fire pit would be delightful, so I might have to book again this summer!
       </p>
@@ -185,7 +216,14 @@ style = {{
         <img src={images[17].src} alt={images[17].alt} style={{ width: '100%' }} />
         <img src={images[18].src} alt={images[18].alt} style={{ width: '100%' }} />
       </div>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>🍦 Final Thoughts and Recommendations</h2>
       <p style={paragraphStyle}>
         A Memorable Escape: Hotel Quintessence stands out as a jewel in Mont Tremblant, offering a luxurious yet intimate escape. It's perfect for couples seeking romance and relaxation amidst nature's splendour. Our stay was nothing short of magical, and I wholeheartedly recommend it to anyone looking to indulge in a memorable retreat.
@@ -198,7 +236,16 @@ style = {{
       </p>
 
       <img src={signature} alt="Signature" style={{ width: '100%' }} />
-      <Comments website-id={websiteId} pageId={"Hotel-Q"} />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+     
+      <Comments website-id={websiteId} page-id={"Hotel-Q"} />
     </div>
   );
 

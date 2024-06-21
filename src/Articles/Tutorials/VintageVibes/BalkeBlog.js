@@ -111,7 +111,14 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Contour & Set The Skin</h2>
 
       <p style={paragraphStyle}>
@@ -127,7 +134,14 @@ style = {{
       <p style={paragraphStyle}>
         The Charlotte Tilbury Filmstar Bronze & Glow contour duo helps soften the contour and adds a natural glow. For blush, CHANEL's warm pink blush, shade 440 - QUINTESSENCE, adds the perfect touch of color. Remember, it's all about creating a natural, yet defined look for this sophisticated style!
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <ResponsiveIframe src="https://shopmy.us/collections/public/493385?noHeader=true" title="Collection name here" />
 
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
@@ -143,7 +157,14 @@ style = {{
       <p style={paragraphStyle}>
         For this eyeshadow look, I used the Too Faced Natural Lust Palette which was the perfect palette, but was limited edition and hard to find now! After doing some digging, I came across a similar palette called Melt Cosmetics Gemini Eyeshadow Palette which has the shades we will need.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         Blend a yellow gold and a dingy green-bronze through the crease fading towards the brow bone. When we cut the crease next, we will get that 60s shape but have these rustic tones peaking above softens the look and makes any eye color pop.
       </p>
@@ -163,7 +184,14 @@ style = {{
       <p style={paragraphStyle}>
         From this initial crease line, smoke out the edges above the cut crease, fading into the gold and bronze. Clean up the black shadow one more time by adding intensity to the exaggerated crease with as much precision as you can.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>1960s Eye Makeup Tips for Hooded Eyes</h2>
 
       <p style={paragraphStyle}>
@@ -185,7 +213,14 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Winged Liner & Fabulous Lashes</h2>
 
       <p style={paragraphStyle}>
@@ -213,7 +248,14 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493470?noHeader=true" title="Collection name here" />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>The Finishing Touches</h2>
 
       <p style={paragraphStyle}>
@@ -236,6 +278,14 @@ style = {{
           MORE VINTAGE VIBES →
         </a>
       </div>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       <div style={{ textAlign: 'center' }}>
         <a href="/vintagevibesmerch" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
           <img src={teespring} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '1400px', display: 'block' }} />

@@ -98,7 +98,14 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Daphne Bridgerton - Bridgerton:</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <a href="https://www.instagram.com/p/C5dsVStuCqT/?img_index=1" target="_blank" rel="noopener noreferrer">
@@ -127,7 +134,14 @@ style = {{
       <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
         Original Makeup & Hair Design by Tina Earnshaw from the 1997 film 'Titanic,' recreation by Jackie Wyers.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         Channel Rose's iconic look from Titanic, embodying Edwardian charm. The eyes are sculpted with rustic tones, cheeks are graced with a hint of colour, and lips are stained a deep, rich burgundy red. Perfect for a bride or a fanciful spring afternoon. <a href="https://www.youtube.com/watch?v=0M_JRs-fYt4&t=109s" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>Get the elegant updo and makeup right here.</a>
       </p>
@@ -146,7 +160,14 @@ style = {{
       <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
         Original Makeup & Hair Design by Ivana Primorac from the 2019 film 'Little Women,' recreation by Jackie Wyers.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         Reflecting Amy March's artistic spirit, her look is understated yet intentional. Barely-there foundation pairs with a nude peach blush and neutral lips looks effortless, yet sophisticated. Amy's updos, intricate with twists and braids, adds to the artistic style. <a href="https://www.youtube.com/watch?v=BuElhuhaMXw&t=501s" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>See the full Amy March hair and makeup guide.</a>
       </p>
@@ -188,7 +209,14 @@ style = {{
       <p style={paragraphStyle}>
         Alaska Young's effortless look from "Looking for Alaska" pairs a rebellious spirit with girl-next-door charm. Her '70s influenced style features long hair with a centre part and full brows. Makeup is soft, smudged, with natural pops of colour enhancing cheeks and lips. Master the Alaska Young inspired look <a href="https://www.youtube.com/watch?v=AePBFzlyNpo&t=16s" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>here.</a>
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <ResponsiveIframe src="https://shopmy.us/collections/public/524436?noHeader=true" title="Shop My Victoria's Secret Favorites" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
@@ -220,7 +248,14 @@ style = {{
       <p style={paragraphStyle}>
         For more beauty musings and discussions around the artistry behind some of film and literature’s most cherished characters, stay tuned. Here’s to embracing the season's gentle renewal and finding your own natural beauty!
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <a href="/margotbarbie" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
           <img src={barbie} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
@@ -231,7 +266,15 @@ style = {{
       <div>
         <img src={signature} alt="Victoria's Secret Fashion Show 2013" style={{ width: '100%' }} />
       </div>
-      <Comments website-id={websiteId} pageId={"No-Makeup-Spring"} />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+      <Comments website-id={websiteId} page-id={"No-Makeup-Spring"} />
     </div>
   );
 

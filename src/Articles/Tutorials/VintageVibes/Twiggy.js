@@ -104,7 +104,14 @@ style = {{
       <p style={paragraphStyle}>
         Twiggy's iconic makeup style was known for its bold, graphic eyeshadow in various hues. This featured look showcases a pastel blue shade that's perfectly en vogue for Spring/Summer 2024. It pairs a youthful glow with subtle freckles and a minimalist lip to round out the ensemble. And of course, the dramatic, drawn-on lower lashes are essential for that quintessential pop-art impact. Let's begin, shall we?
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Youthful Base & Anna Sui Cosmetics Feature</h2>
 
       <p style={paragraphStyle}>
@@ -120,7 +127,14 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/551116?noHeader=true" title="Foundation - Makeup Forever" />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Faux Freckles & Peachy Cheeks</h2>
 
       <p style={paragraphStyle}>
@@ -134,7 +148,14 @@ style = {{
       <p style={paragraphStyle}>
         To further achieve the Twiggy-inspired 'doll skin', I turn to the reformulated Anna Sui Loose Face Powder. Available in lavender and pink—shades famed for their brightening effects—I chose lavender to enhance my complexion. With a few sweeps, it works to blur imperfections and conceal pores, maintaining skin's natural luminosity without a heavy makeup look. Plus, the joy of using the plush powder puff adds a touch of vintage glam to the routine. Available on Amazon, this powder is a transformative step, ensuring a polished and radiant finish. More of a pressed powder girl? Try the stunning Anna Sui Rose Pressed Powder, also in lavender or pink.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <ResponsiveIframe src="https://shopmy.us/collections/public/551123?noHeader=true" title="Brightening Powder - Ana Sui" />
 
       <h2 style={headingStyle}>The Twiggy Eyeshadow Look: The First Steps</h2>
@@ -150,7 +171,14 @@ style = {{
       <p style={paragraphStyle}>
         For the lids, I chose a pastel blue cream shadow, sourced from Amazon, to achieve that iconic pop of colour. Blue eyeshadow might seem bold, but a pastel hue is approachable and wearable, especially for those new to the world of vibrant shadows.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <ResponsiveIframe src="https://shopmy.us/collections/public/551124?noHeader=true" title="Eyeshadow - Makeup By Mario" />
 
       <h2 style={headingStyle}>Liner & Drawn on Twiggy Lashes</h2>
@@ -172,7 +200,14 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/565773?noHeader=true" title="Eyeliner - Ana Sui" />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Twiggy’s Spring Hairstyle</h2>
 
       <p style={paragraphStyle}>
@@ -207,8 +242,15 @@ style = {{
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <img src={signature} alt="Twiggy Hair Tutorial Jackie Wyers" style={{ width: '100%', maxWidth: '650px' }} />
       </div>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
-      <Comments website-id={websiteId} pageId={"Victoria-Secret-Review"} />
+  <AdSenseAd/>
+</div>
+      <Comments website-id={websiteId} page-id={"Victoria-Secret-Review"} />
     </div>
   );
 
