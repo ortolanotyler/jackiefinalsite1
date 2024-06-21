@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import TextReveal from '../../Components/TextReveal';
 import { Link, Typography, Box } from '@mui/material';
 import styles from './AboutHero.module.css';
+import AdSenseAd from '../../Advertising/Ads';
 
 const BarbieSki = () => {
   const iframeRef = useRef(null);
@@ -80,6 +81,7 @@ const BarbieSki = () => {
           ref={iframeRef}
         ></iframe>
       </div>
+      <AdSenseAd/>
     </div>
   );
 };

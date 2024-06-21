@@ -64,7 +64,7 @@ const AprilStyleSlider = () => {
   }, []);
 
   return (
-    <div className={styles.itemContainer}>
+<div className={styles.itemContainer}>
       {imageDetails.map((imageDetail, index) => (
         <div className={styles.item} key={index} ref={(el) => (itemsRef.current[index] = el)}>
           <img src={imageDetail.src} alt={imageDetail.alt} className={styles.itemImg} />
@@ -72,6 +72,8 @@ const AprilStyleSlider = () => {
         </div>
       ))}
     </div>
+   
+    
   );
 };
 
