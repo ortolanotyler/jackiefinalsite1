@@ -6,6 +6,7 @@ import SubscribeButton from '../../Components/SubscribeButton';
 import TextReveal from '../../Components/TextReveal';
 import DropCap from '../../Components/DropCap';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
+import AdSenseAd from '../../Advertising/Ads';
 
 
 
@@ -119,6 +120,8 @@ const MontTremblantBlog = () => {
                 Opting for takeout allowed us to enjoy this delicious pizza in the comfort of our luxury room by the fireplace and enjoy an afternoon jacuzzi. Dining in at the restaurant promises a great experience as well.
             </p>
 
+            <AdSenseAd/>
+
             <h2 style={headingStyle}>🗺 Exploring Mont-Tremblant’s Pedestrian Village</h2>
             <img src={tremblant3} alt="Mont-Tremblant Pedestrian Village" style={{ width: '100%' }} />
             <p style={paragraphStyle}>
@@ -228,7 +231,7 @@ const MontTremblantBlog = () => {
             </p>
             <img src={tremblant14} alt="Jackie at Mont Tremblant" style={{ width: '100%' }} />
             <img src={signature} alt="Signature" style={{ width: '100%' }} />
-            <Comments website-id={websiteId} pageId={"MontTremblant"} />
+            <Comments website-id={websiteId} pageId={"MontnnTremblant"} />
         </div>
     );
 
