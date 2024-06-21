@@ -6,6 +6,7 @@ import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import InArticleAd from '../../../Advertising/InArticleAd';
+import AdSenseAd from '../../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/barbietitle2.jpeg`;
 const Barbie2 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/Barbie2.JPG`;
@@ -69,7 +70,6 @@ const BarbieBlog = () => {
       </div>
 
       <DropCap text="In the dazzling world of the Barbie Movie, directed by Greta Gerwig and starring Margot Robbie as endearing Barbie and Ryan Gosling as the hilarious Ken, we must not forget to pay tribute to the brilliant artists who brought these iconic characters to life. Ivana Primorac, the creative force leading the movie’s hair and makeup teams, created Margot’s Barbie pink makeup look that appeared fresh and modern. The 'Barbie' costume designer Jacqueline Durran played an equally crucial role in fuelling the 'Barbiecore' fashion trend with the iconic Barbie looks featured in the film. Hello Barbiecore summer of 2023 - everywhere you looked, it was all about PINK!" />
-<InArticleAd/>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <a href="https://www.instagram.com/p/Cs4LhepN6dc/?hl=en" target="_blank" rel="noopener noreferrer">
           <img src={barbienew} alt="Barbie Makeup Drawing" style={{ width: '100%' }} />
@@ -81,7 +81,14 @@ const BarbieBlog = () => {
           Original Makeup & Hair Design by Ivana Primorac from the 2023 film 'Barbie,' recreation by Jackie Wyers.
         </p>
       </div>
+<div
+style = {{
+  margin : '20ppx'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         Among the film's many breathtaking fashion moments, the iconic pink gingham dress stole the hearts of fans. However, one look, in my opinion, outshone the rest—the unforgettable roller skate Barbie ensemble!
       </p>
