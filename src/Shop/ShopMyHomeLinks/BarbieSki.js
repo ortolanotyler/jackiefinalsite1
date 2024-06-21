@@ -81,7 +81,14 @@ const BarbieSki = () => {
           ref={iframeRef}
         ></iframe>
       </div>
-      <AdSenseAd/>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
     </div>
   );
 };

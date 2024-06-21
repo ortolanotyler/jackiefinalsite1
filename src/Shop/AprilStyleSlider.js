@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styles from './Slider.module.css'; // Updated to use the CSS module
-import AdSenseAd from '../Advertising/Ads';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle10.jpg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/mystyle11.jpg`;
@@ -65,7 +64,6 @@ const AprilStyleSlider = () => {
   }, []);
 
   return (
-    <div> 
 <div className={styles.itemContainer}>
       {imageDetails.map((imageDetail, index) => (
         <div className={styles.item} key={index} ref={(el) => (itemsRef.current[index] = el)}>
@@ -74,16 +72,6 @@ const AprilStyleSlider = () => {
         </div>
       ))}
     </div>
-    <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
-    </div>
-
    
     
   );
