@@ -11,7 +11,7 @@ const SignupSchema = Yup.object().shape({
   consent: Yup.boolean().oneOf([true], 'Consent is required'),
 });
 
-const googleScriptURL = 'https://script.google.com/macros/s/AKfycbz0Jp3Ben2RCPQji1gBRd51xqbuq6oFYEbyCrjRPplgIHzDH-VGBG5rE7nsmtCOFvjuEw/exec';
+const googleScriptURL = 'https://script.google.com/macros/s/AKfycbzNapvNBpPhNYQdM2HGYFectsBFgVEwZSavLLQhmK7GU-_v1BG2c4TYj9NRDYpBr2Vb9w/exec';
 
 export default function EmailSubscribe() {
   const buttonRef = useRef(null);
@@ -43,10 +43,10 @@ export default function EmailSubscribe() {
         try {
           const response = await fetch(googleScriptURL, {
             method: 'POST',
-            body: JSON.stringify({ email: values.email }),
             headers: {
               'Content-Type': 'application/json',
             },
+            body: JSON.stringify({ email: values.email }),
           });
 
           if (response.ok) {
