@@ -6,6 +6,7 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
+import AdSenseAd from '../../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaTitle.png`;
 const Lana2 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/JackieWyersLanaDelReyRecreation.JPG`;
@@ -61,7 +62,14 @@ const LanaBlog = () => {
       </div>
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/9qOTkql3ZHY?si=flnWAs09z00atuiG" title="Lana Del Ray X Skims Makeup Tutorial - Jackie Wyers" />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <div>
         <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
           All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
@@ -91,7 +99,14 @@ const LanaBlog = () => {
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
         <img src={lanafacechart} alt='Lana Face Chart' style={{ width: '100%', maxWidth: '55%', height: 'auto' }} />
       </div>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Preparation and Base:</h2>
       <p style={paragraphStyle}>
         Lana's skin appeared exceptionally hydrated and glowing, with a natural-matte finish in the campaign images. I began by applying Tocobo cream to ensure the skin was prepped for makeup. I also tried out the NUDESTIX Dewy Barrier Hydrating Stick, which promised to hydrate and provide a glazed natural skin look, doubling as a primer for makeup application. As much as I love trying out new products, you can totally start your base with only moisturizer!
@@ -111,6 +126,14 @@ const LanaBlog = () => {
       <p style={paragraphStyle}>
         I warmed my skin with a lighter bronzer to emulate Lana's sun-kissed glow. I used Yensa's bronzer, which contains age-defying ingredients, for a natural finish, ensuring it wouldn't crease into fine lines.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         Before applying powder, I added color with a stunning serum blush by EM Cosmetics in the shade Sunset Sky, a warm coral. Apply your favorite coral blush to the apples of the cheeks, chin, nose, and forehead for a cohesive, sweet look.
       </p>
@@ -157,6 +180,15 @@ const LanaBlog = () => {
         Begin the lip look by over-lining with Makeup Forever Artist Color Pencil in dimensional dark brown. For a blushing ombre effect fading to the deep liner, I chose Amuse Dew Tint in Carrot Dew for the center of the lips. To bring in a bit of warmth, I used Benefit Cosmetics Butterfly blush dabbed from the outer corners of the lips inward to blend the liner and tint together. To capture the essence of Lana's look in the SKIMS campaign, I styled my hair similarly and accessorized with a side pink ribbon. I completed the look with satin gloves and a pink dress that has become a staple in my vintage-inspired wardrobe. You can find the actual SKIMS dress <a href="https://skims.com/products/fits-everybody-lace-slip-dress-cherry-blossom-tonal?irclickid=1MX2vdxOMxyKUSTxnoVKV1VdUkHVsT39rStwwQ0&irgwc=1&utm_medium=affiliate&utm_source=impact&utm_campaign=shopmyshelf" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'underline' }}>here</a>.
       </p>
 
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+
       <h2 style={headingStyle}>Finishing Touches</h2>
       <p style={paragraphStyle}>
         Lana Del Rey’s SKIMS campaign makeup is a stunning blend of coquette and '60s glamour. It's not just a tribute to the vintage era (and Sharon Tate as confirmed by hairstylist on set, Anna Capone) but also perfectly suited for those seeking a romantic look that’s both cute and sexy! Lana's nod to the past is as fresh and relevant today as ever... now let’s check out the collection!
@@ -186,6 +218,14 @@ const LanaBlog = () => {
       </div>
 
       <img src={Lana23} alt="Signature" style={{ width: '100%', display: 'block', margin: '2rem 0' }} />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       <Comments website-id={websiteId} pageId={"Lasa-Blog-1aasa"} />
     </div>
   );
