@@ -6,6 +6,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import TextReveal from '../../../Components/TextReveal';
 import DropCap from '../../../Components/DropCap';
+import AdSenseAd from '../../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathTitle.png`;
 const pat = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
@@ -72,6 +73,15 @@ const PatMcGrathPost = () => {
       </p>
 
       <DropCap text="Welcome back, beauties! Let's break down the incredible (and uber-viral) Porcelain Doll makeup looks by Pat McGrath & team, created for the Maison Margiela Spring/Summer '24 runway extravaganza. In a display of sheer genius, Pat McGrath and her team devised a groundbreaking technique, meticulously layering and airbrushing several peel-off masks over the makeup for a truly haute-couture spectacle, creating live porcelain dolls to grace the runway." />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+      
       <p style={paragraphStyle}>
         The TikTok beauty community was buzzing with speculation about how the iconic Pat McGrath achieved such doll-like skin perfection prior to Pat’s Masterclass over the weekend - and astoundingly, Erin Parsons—a celebrated makeup artist and makeup historian in her own right—hit the nail on the head with her prediction of this inventive technique.
       </p>

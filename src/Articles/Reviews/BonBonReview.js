@@ -66,7 +66,14 @@ const BonBonReview = () => {
       <div style={imageContainerStyle}>
         <img src={BonBon2} alt="BonBon 2" style={imageStyle} />
       </div>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '1rem 0', fontStyle: 'italic' }}>
         All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>

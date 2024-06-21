@@ -7,6 +7,7 @@ import SubscribeVlog from '../../Components/SubscribeVlog';
 import DropCap from '../../Components/DropCap';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
+import AdSenseAd from '../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclubtitle.png`;
 const beachclub1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub1.png`;
@@ -91,6 +92,16 @@ const Disney2Post = () => {
                 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
             <DropCap text="Welcome to Part One of my magical recap of an unforgettable time at Walt Disney World, FL in 2023. My best friend Lauren and I chose Disney's Beach Club Resort for our stay, marking her first visit and my first return since 2002. This article focuses on our resort experience, offering a glimpse into the luxury and leisure that awaited us at this colonial resort and why we chose to book!" />
+           
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+           
             <h2 style={headingStyle}>🌟 First Impression: Beach Club Resort</h2>
             <p style={paragraphStyle}>
                 Driving in from Saint Augustine, Florida we were immediately captivated by the Beach Club Resort's charm, reminiscent of a New England dream. This deluxe resort, inspired by 1800s beach cottages, has amenities such as the Storm-Along Bay Water Park, the convenient Beach Club Marketplace, and the nostalgic Beaches & Cream Soda Shop, making it the perfect base for our Disney adventures.

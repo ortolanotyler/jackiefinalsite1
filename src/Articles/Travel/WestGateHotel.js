@@ -7,6 +7,7 @@ import DropCap from '../../Components/DropCap';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeVlog from '../../Components/SubscribeVlog';
+import AdSenseAd from '../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/westgatetitle.png`;
 
@@ -99,7 +100,14 @@ const WestGateHotelBlog = () => {
               All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
             <DropCap text="Hello, lovely viewers! Today, I’m excited to share my enchanting experience at the Westgate Hotel in San Diego, where Tyler and I indulged in the luxuriously themed Westgate's Whistledown Tea and Package. This Bridgerton-inspired getaway was filled with regal elegance, featuring Chandon champagne, delightful macarons, and an atmosphere so richly detailed, it felt as if we had stepped straight into the series itself." />
+            <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>First Impressions and Ambiance</h2>
             <p style={paragraphStyle}>
                 Upon entering the grand lobby of the Westgate Hotel, we were immediately struck by its opulent decor, which perfectly encapsulates the Regency era's lavish aesthetic. The hotel offers an array of Instagram-worthy spots, with each corner meticulously designed to evoke the elegance of early 19th-century English nobility.

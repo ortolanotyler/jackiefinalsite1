@@ -7,6 +7,7 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
+import AdSenseAd from '../../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/AnimalPrettyTitle.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
@@ -82,6 +83,15 @@ const AnimalPretty = () => {
         </p>
       </div>
       <DropCap text="Hey beauties, it’s Jackie! Today, we're diving into a fun and fresh way to explore beauty styles with my 'Types of Pretty' makeup series inspired by adorable animals like deer, cats, foxes, and bunnies. Whether you saw this trend on TikTok or my latest YouTube tutorial, I’m thrilled to bring this unique concept to the blog where we break down each style with detailed makeup guides." />
+      
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Deer Pretty: Soft and Ethereal 🦌</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <img src={image3} alt="Deer Pretty - Jackie Wyers" style={{ width: '100%' }} />

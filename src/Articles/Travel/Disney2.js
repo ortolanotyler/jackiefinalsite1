@@ -5,6 +5,7 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import TextReveal from '../../Components/TextReveal';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
+import AdSenseAd from '../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcottitle.png`;
 const images = [
@@ -92,7 +93,14 @@ const Disney2Post = () => {
             <p style={paragraphStyle}>
                 <span style={{ color: '#745B4F', float: 'left', fontSize: '5rem', lineHeight: '0.9', marginRight: '0.05em', marginTop: '0.01em' }}>W</span>elcome to part two of my experience at Walt Disney World in 2023! Over in part one, I reviewed Walt Disney's Beach Club Resort but now let’s talk Epcot, Magic Kingdom and Animal Kingdom! My best friend Lauren and I had such an enchanting experience together, and I hope this travel diary of two 20-somethings can help you plan your Disney trip. I don’t have tips about traveling with children, so consider this our adult 3-day guide to Walt Disney World!
             </p>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>🌐 Day 1: Epcot</h2>
             <p style={paragraphStyle}>
                 We started the day by getting up early, donning our comfy but cute Disney World attire, and picked up breakfast at the Beach Club Marketplace. As tempting as it was to buy souvenirs right away, we decided to see all that Epcot has to offer first! We walked about 7 minutes to the entry gates, though you can also take the boat there as well.

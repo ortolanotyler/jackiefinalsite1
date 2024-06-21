@@ -62,6 +62,14 @@ const LanaBlog = () => {
       </div>
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/9qOTkql3ZHY?si=flnWAs09z00atuiG" title="Lana Del Ray X Skims Makeup Tutorial - Jackie Wyers" />
+      
+      <div>
+        <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+          All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+        </p>
+      </div>
+
+      <DropCap text="Welcome back, Beauties! If your Twitter feed is anything like mine, it's filled with photos from Lana Del Rey's new SKIMS campaign for Valentine's Day, plus memes of little girls praying to a photo of Lana above their bed, worshipping their coquette queen. You've got to love the internet! Seriously though, as a fan of Lana Del Rey's entire discography and aesthetic, I was inspired to recreate the campaign pictures and provide a breakdown of an updated Lana Del Rey makeup look." />
       <div
 style = {{
   margin : '20px'
@@ -70,14 +78,6 @@ style = {{
 
   <AdSenseAd/>
 </div>
-      <div>
-        <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-          All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-        </p>
-      </div>
-
-      <DropCap text="Welcome back, Beauties! If your Twitter feed is anything like mine, it's filled with photos from Lana Del Rey's new SKIMS campaign for Valentine's Day, plus memes of little girls praying to a photo of Lana above their bed, worshipping their coquette queen. You've got to love the internet! Seriously though, as a fan of Lana Del Rey's entire discography and aesthetic, I was inspired to recreate the campaign pictures and provide a breakdown of an updated Lana Del Rey makeup look." />
-
       <p style={paragraphStyle}>
         Among the various photoshoot looks by photographer Nadia Lee Cohen, my favorite was set against a red backdrop where Lana wore the “Fits Everybody Lace” Slip Dress in Cherry Blossom Tonal from the new SKIMS collection. The dress wasn't out yet at the time I filmed, but you can check out the linked dress below! Plus, the photo set featured kittens, which I also happen to have. Am I a photographer? No, but I’ll try my best to get a vintage-styled photo, and I hope you find some Valentine’s Day inspiration!
       </p>

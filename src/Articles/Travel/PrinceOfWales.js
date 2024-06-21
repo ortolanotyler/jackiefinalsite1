@@ -7,6 +7,7 @@ import SubscribeVlog from '../../Components/SubscribeVlog';
 import DropCap from '../../Components/DropCap';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
+import AdSenseAd from '../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceTitle.png`;
 
@@ -89,7 +90,14 @@ const PrinceOfWales = () => {
             </div>
 
             <DropCap text="Welcome back for a special hotel review of the enchanting Prince of Wales Hotel in Niagara-On-The-Lake, Ontario, Canada. To celebrate my birthday this year, my husband Tyler and I indulged in a luxurious weekend at this stunning hotel, renowned for its Victorian elegance and romantic charm. Nestled in the heart of one of Canada's most picturesque towns, the Prince of Wales provided the perfect backdrop for a celebration filled with beauty, history, and a touch of magic." />
+            <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>🌟 First Impressions and Ambiance</h2>
             <p style={paragraphStyle}>
                 Upon arrival at the Prince of Wales Hotel, we were immediately captivated by its Victorian charm. The grand entrance, adorned with ornate floral wallpapers, antique furnishings, and sculptures, transported us into an era of refined elegance. Additional touches like stained glass windows further enhanced the luxurious ambiance. The hotel’s hanging flowers and lush bushes, set against the charming streets of Niagara-on-the-Lake, offered a stunning sight, perfect for roaming this romantic town.

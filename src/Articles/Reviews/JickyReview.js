@@ -5,6 +5,7 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import './ExampleTutorial.css';
 import TextReveal from '../../Components/TextReveal';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
+import AdSenseAd from '../../Advertising/Ads';
 
 ReactGA.initialize('UA-8215441435-Y'); // Replace with your actual Google Analytics tracking ID
 
@@ -78,6 +79,15 @@ const JickyReview = () => {
             <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '1rem 0', fontStyle: 'italic' }}>
                 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
+
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
 
             <h2 style={headingStyle}>🐝 Perfume Profile</h2>
 

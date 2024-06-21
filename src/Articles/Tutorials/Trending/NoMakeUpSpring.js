@@ -5,6 +5,7 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import TextReveal from '../../../Components/TextReveal';
+import AdSenseAd from '../../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/NoMakeUpTitl.jpeg`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersElizabethBennetInspiredMakeup.JPG`;
@@ -71,7 +72,14 @@ const NoMakeUpSpring = () => {
       </div>
 
       <DropCap text="Welcome back for some quick no-makeup makeup inspiration for spring, inspired by timeless beauty icons from beloved tv & film. Now that it's spring, I find myself drawn to the artful simplicity of the no-makeup makeup look, inspired by some of pop culture's most enduring female characters. Their spirit, captured in timeless stories, now breathes life into my spring beauty routine." />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>The Looks: Elizabeth Bennet - Pride & Prejudice</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <a href="https://www.instagram.com/p/C5dsVStuCqT/?img_index=1" target="_blank" rel="noopener noreferrer">

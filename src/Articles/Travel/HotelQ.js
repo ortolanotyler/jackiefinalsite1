@@ -6,6 +6,7 @@ import TextReveal from '../../Components/TextReveal';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import DropCap from '../../Components/DropCap';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
+import AdSenseAd from '../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/hotelQtitle.png`;
 
@@ -89,7 +90,14 @@ const HotelQ = () => {
       </div>
 
       <DropCap text="For our anniversary, Tyler and I escaped to the enchanting Hotel Quintessence in Mont Tremblant, Quebec, craving a blend of adventure and relaxation. Nestled beside the sparkling Lake Tremblant and a stone's throw from the vibrant ski village, this luxurious boutique hotel promised a serene getaway in the heart of Quebec's natural beauty." />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         If you want to read about the best slopes, Mont-Tremblant Pedestrian Village shops and food, read my blog post <a href="/tremblant" target="_blank" rel="noopener noreferrer">here</a> sharing my overall experience.
       </p>

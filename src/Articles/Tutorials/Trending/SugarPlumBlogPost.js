@@ -7,6 +7,7 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import TextReveal from '../../../Components/TextReveal';
+import AdSenseAd from '../../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SugarPlumFairyTitle.png`;
 const Sugar2 = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SugarPlumDouble.png`;
@@ -68,7 +69,14 @@ const SugarPlumBlogPost = () => {
       </p>
 
       <DropCap text="Welcome Back Beauties! Today, let's explore the enchanting Sugar Plum Fairy makeup trend, inspired by the classic Nutcracker ballet. This look is a dream for those who love a touch of whimsy in their style!" />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         The trend originates from Hailey Bieber's <a href="https://www.tiktok.com/@haileybieber/video/7304057854896491819?lang=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>TikTok tutorial</a>, where she flaunts a natural, skin-like base using minimal concealer and a sheer bronzer for contouring. The cheeks are flushed with cream and powder blush creating a delightful rosy glow, complemented by faux freckles and highlighter. For the eyes, she opts for a glossy, shimmer-topped lid, neatly brushed-up brows, and a swipe of mascara. The look is completed with an overdrawn brown lip line, topped off with a sparkling pink gloss - her new Rhode Peptide Lip Treatment in ‘Jelly Bean’.
       </p>

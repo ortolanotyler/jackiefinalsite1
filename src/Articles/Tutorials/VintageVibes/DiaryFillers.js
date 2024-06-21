@@ -4,6 +4,7 @@ import DropCap from '../../../Components/DropCap';
 import TextReveal from '../../../Components/TextReveal';
 import '../../ExampleTutorial1.css';
 import { Helmet } from 'react-helmet';
+import AdSenseAd from '../../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/DiaryPost1/DiaryPostTitle.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/DiaryPost1/Diary2.png`;
@@ -66,7 +67,14 @@ const DiaryPost1Fillers = () => {
 
 
       <DropCap text="Welcome back to my blog for my first-ever diary entry, where I dive deep into my personal experience with getting injectable fillers at a young age. In today's social media-driven world, it's increasingly common to see teens and young women experimenting with cosmetic enhancements. Platforms like Instagram flood us with transformation reels and personal stories from influencers, making such procedures seem both normal and desirable. While this transparency can be enlightening, it also carries significant influence, shaping perceptions and expectations about beauty." />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Early Insecurities and the Drive for Control</h2>
 
       <p style={paragraphStyle}>

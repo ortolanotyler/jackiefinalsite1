@@ -120,8 +120,14 @@ const MontTremblantBlog = () => {
                 Opting for takeout allowed us to enjoy this delicious pizza in the comfort of our luxury room by the fireplace and enjoy an afternoon jacuzzi. Dining in at the restaurant promises a great experience as well.
             </p>
 
-            <AdSenseAd/>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>🗺 Exploring Mont-Tremblant’s Pedestrian Village</h2>
             <img src={tremblant3} alt="Mont-Tremblant Pedestrian Village" style={{ width: '100%' }} />
             <p style={paragraphStyle}>

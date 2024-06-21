@@ -5,6 +5,7 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import TextReveal from '../../../Components/TextReveal';
+import AdSenseAd from '../../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/SummerTitll.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/CleoH20Poster.jpg`;
@@ -65,6 +66,15 @@ const SummerInspo = () => {
       </div>
 
       <DropCap text="Dive into the enchanting world of mermaids with this special blog post that brings to life the mesmerizing looks of some of pop culture's most iconic sea sirens. From the sun-kissed shores of 'H2O: Just Add Water' to the mystical depths of 'The Little Mermaid's' live-action remake, join me, as I recreate and reinterpret the signature styles of these beloved characters. Whether you're seeking a dash of nostalgic charm or a splash of summer-ready glamour, these tutorials will inspire you to embrace your inner mermaid. Let's explore these magical transformations together and make a splash in your beauty routine this season!" />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+     
       <h2 style={headingStyle}>The Looks:
       </h2>
       <h2 style={headingStyle}>
