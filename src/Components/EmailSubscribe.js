@@ -58,6 +58,8 @@ export default function EmailSubscribe() {
               alert('Failed to subscribe email.');
             }
           } else {
+            const errorText = await response.text();
+            console.error('Server error:', errorText);
             alert('Failed to subscribe email.');
           }
         } catch (error) {
