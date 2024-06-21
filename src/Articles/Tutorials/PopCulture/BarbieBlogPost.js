@@ -83,7 +83,7 @@ const BarbieBlog = () => {
       </div>
 <div
 style = {{
-  margin : '20ppx'
+  margin : '20px'
 }}
 >
 
