@@ -5,7 +5,6 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import InArticleAd from '../../../Advertising/InArticleAd';
 import AdSenseAd from '../../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/barbietitle2.jpeg`;
@@ -116,8 +115,14 @@ style = {{
         <img src={Barbie4} alt='Barbie Makeup Drawing' style={{ width: '100%', maxWidth: '650px' }} />
       </div>
 
-      <InArticleAd/>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
 
       <h2 style={headingStyle}>Preparation</h2>
 
@@ -160,8 +165,14 @@ style = {{
         For the eyes, we are going to go with subtle pops of pink, shimmer, and definition. This is a perfect time to use shades from the Colorpop Malibu Barbie Collab (still my favorite collection) or you can always use some blush in the crease to cut down on products.
       </p>
 
-      <InArticleAd/>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
 
       <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         If you are a fan of cute makeup with a beachy aesthetic, Flower Knows Beauty also has an adorable palette, which I featured in the tutorial. The seashells scream Malibu!
@@ -205,8 +216,14 @@ style = {{
         <img src={Signature} alt="Final glamorous Barbie makeup look" style={{ width: '100%', maxWidth: '650px' }} />
       </div>
 
-      <InArticleAd/>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <Comments website-id={websiteId} pageId={'barbie'} />
     </div>
   );
