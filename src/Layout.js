@@ -5,7 +5,7 @@ import Footer from './Navigation/Footer/Footer';
 import useScrollToTop from './hooks/useScrollToTop';
 
 const Layout = () => {
-  useScrollToTop(); // Call he ore
+  useScrollToTop(); 
 
   return (
     <>

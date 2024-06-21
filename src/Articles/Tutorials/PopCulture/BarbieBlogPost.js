@@ -6,6 +6,7 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
+import InArticleAd from '../../../Advertising/InArticleAd';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/barbietitle2.jpeg`;
 const Barbie2 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/Barbie2.JPG`;
@@ -69,7 +70,7 @@ const BarbieBlog = () => {
       </div>
 
       <DropCap text="In the dazzling world of the Barbie Movie, directed by Greta Gerwig and starring Margot Robbie as endearing Barbie and Ryan Gosling as the hilarious Ken, we must not forget to pay tribute to the brilliant artists who brought these iconic characters to life. Ivana Primorac, the creative force leading the movie’s hair and makeup teams, created Margot’s Barbie pink makeup look that appeared fresh and modern. The 'Barbie' costume designer Jacqueline Durran played an equally crucial role in fuelling the 'Barbiecore' fashion trend with the iconic Barbie looks featured in the film. Hello Barbiecore summer of 2023 - everywhere you looked, it was all about PINK!" />
-
+<InArticleAd/>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <a href="https://www.instagram.com/p/Cs4LhepN6dc/?hl=en" target="_blank" rel="noopener noreferrer">
           <img src={barbienew} alt="Barbie Makeup Drawing" style={{ width: '100%' }} />
@@ -109,11 +110,15 @@ const BarbieBlog = () => {
         <img src={Barbie4} alt='Barbie Makeup Drawing' style={{ width: '100%', maxWidth: '650px' }} />
       </div>
 
+      <InArticleAd/>
+
+
       <h2 style={headingStyle}>Preparation</h2>
 
       <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         Before we begin, make sure your skin is hydrated. This collaboration isn’t available any longer, but the product itself is still on shelves! The Glamglow Glowstarter Mega Illuminating Moisturizer leaves a super radiant, Barbie-doll base. If you're looking for plump lips, the Lawless Forget the Filler Overnight Lip Plumping Mask is a must-try and a top recommendation I always recommend for beauty lovers!
       </p>
+    
 
       <h2 style={headingStyle}>Foundation</h2>
 
@@ -148,6 +153,9 @@ const BarbieBlog = () => {
       <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         For the eyes, we are going to go with subtle pops of pink, shimmer, and definition. This is a perfect time to use shades from the Colorpop Malibu Barbie Collab (still my favorite collection) or you can always use some blush in the crease to cut down on products.
       </p>
+
+      <InArticleAd/>
+
 
       <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
         If you are a fan of cute makeup with a beachy aesthetic, Flower Knows Beauty also has an adorable palette, which I featured in the tutorial. The seashells scream Malibu!
@@ -184,9 +192,14 @@ const BarbieBlog = () => {
         </a>
       </div>
 
+    
+
+
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <img src={Signature} alt="Final glamorous Barbie makeup look" style={{ width: '100%', maxWidth: '650px' }} />
       </div>
+
+      <InArticleAd/>
 
       <Comments website-id={websiteId} pageId={'barbie'} />
     </div>
