@@ -86,8 +86,7 @@ style = {{
 
       <div>
         <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-          Original Makeup & Hair Design by Ivana Primorac from the 2023 film 'Barbie,' recreation by Jackie Wyers.
-        </p>
+        Original Makeup by Pati Dubroff and Hair Design by Bryce Scarlett from the 2023 film 'Barbie,' recreation by Jackie Wyers        </p>
       </div>
 
       <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>

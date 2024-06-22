@@ -131,11 +131,22 @@ style = {{
   <AdSenseAd/>
 </div>
           
-          
-            <h2 style={headingStyle}>🌴 First Impressions and Ambiance</h2>
-            <p style={paragraphStyle}>
-                Upon our arrival at the Andaz Maui, the breathtaking views of Wailea’s shores captivated us instantly. The resort's open, airy design with its lush landscapes and modern touches perfectly blends luxury with the natural beauty of Maui. Every corner of the resort promised a photo opportunity, with its infinity pools merging into the ocean horizon.
+<p style={paragraphStyle}>
+            It may seem extreme to fly all the way to New Zealand for a wedding dress, but I’ve always wanted to visit Auckland, and I knew Natalie would find me the perfect dress. We instantly hit it off and had similar, fairytale-inspired styles.
             </p>
+            <h2 style={headingStyle}>✈ The Journey to Auckland</h2>
+            <p style={paragraphStyle}>
+            To get to Auckland, New Zealand, we took an Air Canada flight from Toronto to Vancouver and unfortunately had a really long layover. It ended
+up being nice because it was a beautiful day, and we walked around downtown. Vancouver is magical on a beautiful summer day, and we walked along the Vancouver seawall and shared a thin-crust pizza from Cafe Villaggio.
+I came across the Hello Kitty Café in Vancouver, which was adorable, and I shopped around until heading back to the airport for our next flight to Fiji! It was a whopping 11 hours, and I was in a middle seat, but I was so excited finally getting off the plane to see tons of Whittaker's chocolate (a New Zealand chocolate company) at the Fiji airport to get me excited for the final three-hour journey landing in Auckland. When I say Whittaker’s chocolate is my favorite, I mean it. I ration it back home in Canada because it is hard to find!
+            </p>
+            <p style={paragraphStyle}>
+            Travel Tip: When landing in Auckland, if you travel through the international airport, be aware that taxis tend to gouge prices, quoting $100 to get to Queen Street, whereas Uber was $60. However, the shuttle was $20 per person, so it ended up being $40 for both of us, and the service was great.
+            </p>
+            <p style={paragraphStyle}>
+            We checked into Fable Auckland, which is super central and has beautiful decor! I especially loved all their tea sets, which are from T2 Tea, a brand born in Melbourne, Australia with unique patterns and bright colours.
+            </p>
+
             <img src={images[0]} alt="Maui view 1" style={imageStyle} />
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
                 <BookNowButton href="https://plannin.com/en/hotel/f7ed1125-3205-4916-881e-e865acca3608?refId=jackiewyers" target="_blank" rel="noopener noreferrer"/>
@@ -148,18 +159,34 @@ style = {{
 
   <AdSenseAd/>
 </div>
-            <h2 style={headingStyle}>🏨 Room and Comfort: Living the Suite Life</h2>
+            <h2 style={headingStyle}>🛍 Day One: Shopping and Beating Jet lag</h2>
             <p style={paragraphStyle}>
-                Our room at the Andaz Maui was a cozy haven of tranquility. The balcony was the best part of our standard room, with panoramic views of the whole resort and Pacific Ocean as pictured above. The room featured minimalist decor and the Benefit Canada team decorated with amazing swag! Lauren & I were so excited to say the least.
-            </p>
+            We landed in the morning and, after freshening up, we walked around Queen Street. There’s a beautiful mall atrium on Elliot Street across from the central square we explored. We were looking for a couple of items from the drugstore and checked out Life Pharmacy, Farmers, and Chemist Warehouse, New Zealand’s version of Shopper’s Drug Mart from Canada, and CVS in the US. I fell in love with some local shops like Creative & Brave and found so many earthy jewelry pieces with a fairy-like vibe, which is my favorite. We walked down to see the waterfront and got familiar with our new home for the week.
+Chemist Warehouse was a bit overwhelming with so many products packed in there, but I did pick up a couple of McoBeauty items, an Australian brand known for duping Charlotte Tilbury!
+We ate at Cooke’s Restaurant at the hotel once we got back from our day shopping. I had the best cappuccino I’ve ever had in my life along with pumpkin ravioli, and my mom had the fish of the day. Both were amazing! Throughout our trip, we did not have one mediocre meal. Everything tasted fresh, and the presentation at cafes and restaurants was top-tier.
+After forcing ourselves to stay up as long as possible, we had a great night’s sleep and were ready for day two!            </p>
             <div style={gridContainerStyle}>
                 <img src={images[1]} alt="Maui room 1" style={imageStyle} />
                 <img src={images[2]} alt="Maui room 2" style={imageStyle} />
             </div>
-            <h2 style={headingStyle}>🌞 Room Options and Accessibility</h2>
+            <h2 style={headingStyle}>🏝 Day Two: More Shopping, Auckland Art Gallery & Waiheke Island
+            </h2>
             <p style={paragraphStyle}>
-                In terms of accommodations, the Andaz Maui at Wailea Resort offers a variety of choices. Lauren and I enjoyed the comfort of a standard guest room which boasted stunning ocean and pool views from a spacious balcony. (We brought Scrump from Lilo & Stitch along for the trip 😆). For those seeking more space and luxury, the resort also offers expansive suites equipped with additional living areas and enhanced amenities. Private villas are available for guests who desire ultimate privacy and exclusivity, complete with personalized services.
-            </p>
+            When I shop, I always take
+pictures of things that I want and
+then sit on them, so I went back to
+the pharmacy and picked up some
+Karen Murrell lipsticks, a New
+Zealand brand with adorable
+fashion illustrations on the
+packaging. They are known for
+being rich in natural pigment,
+using organic, natural, and proven
+safe chemical ingredients from
+ethical and/or renewable sources.
+Ethical & eco-friendly brands are a staple in New Zealand!
+At Farmers, I picked up a whipped shower foam that looks like whipped cream from a brand called Sundae in the Pavlova scent, which I thought was perfect for the trip. My mom and I were definitely on the hunt for the best Pavlova while we were here. I also picked up a candle called Caramel Popcorn and Chops, which apparently is very nostalgic for New Zealanders and Australians when at the movie theatres. This is one of the best-smelling candles I’ve ever had, especially if you like the smell of baked goods. As I’m writing this article, it’s burning and smells so sweet it makes me want a little treat. 😀
+We tried Bird on a Wire, which is a chain restaurant known for fried chicken and chicken dishes but was also exceptional. I really enjoyed the Eggs Benedict. You really can’t go wrong in New Zealand for brunch food! We took a walk to the Auckland Art Gallery to see some local art as well. I picked up a card from their beautiful array of gifts at the museum, and we caught the ferry at the last minute and headed to Waiheke Island. Waiheke is now one of my favorite places I’ve ever been!            </p>
             <div
 style = {{
   margin : '20px'
