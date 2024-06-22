@@ -71,7 +71,6 @@ import DarkFlorals from './Shop/ShopMyHomeLinks/DarkFlorals';
 import DiaryPost1Fillers from './Articles/Tutorials/VintageVibes/DiaryFillers';
 import SummerInspo from './Articles/Tutorials/PopCulture/SummerInspo';
 import VideoGridPage from './Home/VideoGrid/VideoGridPage';
-import NewZealand from './Articles/Travel/NewZealand';
 
 function usePageTracking() {
   const location = useLocation();
@@ -164,7 +163,6 @@ function App() {
           <Route path="darkflorals" element={<DarkFlorals />} />
           <Route path="summerinspo" element={<SummerInspo />} />
           <Route path="videos" element={<VideoGridPage />} />
-          <Route path="newzealand" element={<NewZealand />} />
 
 
           <Route path="*" element={<h1>404 Not Found</h1>} />
