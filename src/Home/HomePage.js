@@ -18,6 +18,7 @@ import LifestyleFavorites from './LifestyleFavorites';
 import ShopMyHero2 from './ShopMyHero2';
 import { Helmet } from 'react-helmet';
 import AdSenseAd from '../Advertising/Ads';
+import VideoEmbed from './VideoEmbed';
 
 function HomePage() {
   const linkRef = useRef(null);
@@ -107,18 +108,8 @@ function HomePage() {
           <TextReveal text="LATEST VIDEO" />
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center" sx={{ mt: 2 }}>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/Uz03ReLZO9k?si=zWnzPrrt4i10KSxF&amp;controls=0"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-            style={{ border: 'none', maxWidth: '100%' }}
-          />
-        </Grid>
+     <VideoEmbed/>
+    </Grid>
         <Grid item xs={12}>
           <TextReveal text="JACKIE'S WEEKLY TOP 3" />
           <ReviewFavorites />
@@ -128,6 +119,15 @@ function HomePage() {
           <Quiz2 />
         </Grid>
         <Grid item xs={12}>
+          <div
+          style = {{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+           
+          }}
+          ></div>
           <AdSenseAd />
         </Grid>
         <Grid item xs={12}>
