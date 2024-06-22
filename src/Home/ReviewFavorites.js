@@ -17,19 +17,55 @@ const ReviewFavorites = () => {
   }, []);
 
   return (
-    <div style={{ width: '100%', minHeight: '1200px', marginBottom: '2rem', overflow: isScrollable ? 'auto' : 'hidden' }}>
-      <iframe
-        title="Jackie's Weekly Favs"
-        src="https://shopmy.us/collections/public/553108?noHeader=true"
-        style={{
-          marginTop: '7rem',
-          width: '100%',
-          minHeight: '80vh',
-          border: 'none',
-        }}
-        className="review-favorites-iframe"
-        sandbox="allow-same-origin allow-scripts"
-      ></iframe>
+    <div>
+      <div style={{ width: '100%', overflow: 'hidden' }}>
+        <iframe
+          title="Jackie's Weekly Favs"
+          src="https://shopmy.us/collections/public/553108?noHeader=true"
+          style={{
+            marginTop: '2rem',
+            width: '100%',
+            minHeight: '350px',
+            border: 'none',
+            overflow: 'hidden',
+          }}
+          className="review-favorites-iframe"
+          sandbox="allow-same-origin allow-scripts"
+          scrolling="no"
+        ></iframe>
+      </div>
+      <div style={{ width: '100%', overflow: 'hidden' }}>
+        <iframe
+          title="Jackie's Weekly Favs"
+          src="https://shopmy.us/collections/public/619136?noHeader=true"
+          style={{
+           
+            width: '100%',
+            minHeight: '350px',
+            border: 'none',
+            overflow: 'hidden',
+          }}
+          className="review-favorites-iframe"
+          sandbox="allow-same-origin allow-scripts"
+          scrolling="no"
+        ></iframe>
+      </div>
+      <div style={{ width: '100%', overflow: 'hidden' }}>
+        <iframe
+          title="Jackie's Weekly Favs"
+          src="https://shopmy.us/collections/public/619137?noHeader=true"
+          style={{
+            
+            width: '100%',
+            minHeight: '350px',
+            border: 'none',
+            overflow: 'hidden',
+          }}
+          className="review-favorites-iframe"
+          sandbox="allow-same-origin allow-scripts"
+          scrolling="no"
+        ></iframe>
+      </div>
     </div>
   );
 };

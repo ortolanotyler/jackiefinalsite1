@@ -1,7 +1,7 @@
 .quiz-container {
-  max-width: 50%;
+  max-width: 100%;
   margin: auto;
-  padding: 25px;
+  padding: 10px;
   text-align: center;
   background-color: #fff;
   border-radius: 12px;
@@ -32,7 +32,7 @@
 
 .answer-button {
   color: white;
-  min-height: 300px;
+  min-height: 200px;
   padding: 20px;
   font-size: 16px;
   cursor: pointer;
@@ -54,7 +54,7 @@
 }
 
 .results-section {
-  max-width: 50%;
+  max-width: 100%;
   margin: auto;
   text-align: center;
   padding: 20px;
