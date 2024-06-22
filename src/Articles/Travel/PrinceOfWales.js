@@ -237,7 +237,6 @@ style = {{
                 The Prince of Wales Hotel retains much of its historic charm, which includes an antique elevator available for floors 2 through 4; please note that this elevator requires staff assistance to operate. Due to the hotel's historic nature and the smaller size of rooms, guests with specific accessibility needs are encouraged to consider these factors when planning their stay. We recommend contacting the hotel directly to discuss any necessary accommodations or to inquire about alternative arrangements.
             </p>
 
-            <img src={signature} alt={images[16].alt} style={{ width: '100%' }} />
 
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
                 <BookNowButton href="https://plannin.com/en/hotel/7e8b8619-6256-4481-97c4-048f694b67c4?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
