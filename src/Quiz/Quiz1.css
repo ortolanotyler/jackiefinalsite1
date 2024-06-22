@@ -1,5 +1,5 @@
 .quiz-container {
-  max-width: 100%;
+  max-width: 50%;
   margin: auto;
   padding: 10px;
   text-align: center;
@@ -33,7 +33,7 @@
 .answer-button {
   color: white;
   min-height: 200px;
-  padding: 20px;
+  
   font-size: 16px;
   cursor: pointer;
   border: none;
@@ -54,7 +54,7 @@
 }
 
 .results-section {
-  max-width: 100%;
+  max-width: 50%;
   margin: auto;
   text-align: center;
   padding: 20px;
@@ -64,11 +64,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 1200px) {
-  .answer-section {
-    grid-template-columns: 1fr;
-  }
-}
 
 @media (max-width: 800px) {
   .quiz-container {
