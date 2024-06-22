@@ -120,19 +120,8 @@ function HomePage() {
             style={{ border: 'none', maxWidth: '100%' }}
           />
         </Grid>
-        <Grid item xs={12} display="flex" justifyContent="flex-end">
-          <Box sx={{ textAlign: 'right', mt: 1, mr: 10 }}>
-            <a
-              href="/videos"
-              style={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
-            >
-              <Typography variant="body1" sx={{ fontSize: '1.25rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
-                VIEW ALL VIDEOS
-              </Typography>
-              <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
-            </a>
-          </Box>
-        </Grid>
+      
+      
         <Grid item xs={12}>
           <TextReveal text="🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊" />
           <Quiz2 />
