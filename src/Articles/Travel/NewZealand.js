@@ -9,37 +9,67 @@ import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import AdSenseAd from '../../Advertising/Ads';
 
-const title = `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/AndazTitle.png`;
 
 const images = [
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI1.jpg`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI2.jpg`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI3.jpg`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI4.jpg`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI5.jpg`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI6.jpg`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI7.jpg`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI8.jpg`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI9.JPG`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI10.JPG`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI11.JPG`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI12.jpeg`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI13.jpeg`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI13a.JPG`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI14.jpeg`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI15.JPG`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI16.JPG`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/maui17.jpg`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI18.jpg`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI19.jpg`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI20.jpeg`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI21.jpg`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI22.jpeg`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI23.JPG`,
-    `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI24.JPG`
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/1.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/2.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/3.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/4.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/5.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/6.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/7.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/8.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/9.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/10.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/11.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/12.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/13.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/14.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/15.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/16.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/17.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/18.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/19.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/20.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/21.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/22.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/23.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/24.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/25.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/26.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/27.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/28.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/29.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/30.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/31.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/32.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/33.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/34.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/35.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/36.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/37.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/38.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/39.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/40.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/41.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/42.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/43.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/44.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/45.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/46.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/47.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/48.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/49.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/50.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/51.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/52.JPG`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/53.JPG`,
+
+    
 ];
 
-const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/NewZealandTitle.png`;
+const signature = `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/Signature.png`;
 
 const Card = ({ blogContent }) => (
     <div>
@@ -111,7 +141,7 @@ const NewZealand = () => {
                 </a>
             </div>
             <img src={title} alt="Andaz Maui Title" style={{ width: '100%' }} />
-            <ResponsiveYoutube src="https://www.youtube.com/embed/ec7hauzrWWk?si=YpA6V8we20uEB1Kr" title="YouTube video player" />
+            <ResponsiveYoutube src="https://www.youtube.com/embed/-eLreMotKEs?si=5VvA8ay_d6aymnOQ" title="YouTube video player" />
             <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <SubscribeVlog />
             </div>
@@ -140,6 +170,13 @@ style = {{
 up being nice because it was a beautiful day, and we walked around downtown. Vancouver is magical on a beautiful summer day, and we walked along the Vancouver seawall and shared a thin-crust pizza from Cafe Villaggio.
 I came across the Hello Kitty Café in Vancouver, which was adorable, and I shopped around until heading back to the airport for our next flight to Fiji! It was a whopping 11 hours, and I was in a middle seat, but I was so excited finally getting off the plane to see tons of Whittaker's chocolate (a New Zealand chocolate company) at the Fiji airport to get me excited for the final three-hour journey landing in Auckland. When I say Whittaker’s chocolate is my favorite, I mean it. I ration it back home in Canada because it is hard to find!
             </p>
+            <img src={images[0]} alt="Maui view 1" style={imageStyle} />
+
+            <div style={gridContainerStyle}>
+                <img src={images[1]} alt="Maui room 1" style={imageStyle} />
+                <img src={images[2]} alt="Maui room 2" style={imageStyle} />
+            </div>
+
             <p style={paragraphStyle}>
             Travel Tip: When landing in Auckland, if you travel through the international airport, be aware that taxis tend to gouge prices, quoting $100 to get to Queen Street, whereas Uber was $60. However, the shuttle was $20 per person, so it ended up being $40 for both of us, and the service was great.
             </p>
@@ -147,9 +184,18 @@ I came across the Hello Kitty Café in Vancouver, which was adorable, and I shop
             We checked into Fable Auckland, which is super central and has beautiful decor! I especially loved all their tea sets, which are from T2 Tea, a brand born in Melbourne, Australia with unique patterns and bright colours.
             </p>
 
-            <img src={images[0]} alt="Maui view 1" style={imageStyle} />
+            <div style={gridContainerStyle}>    
+            <img src={images[3]} alt="Maui room 4" style={imageStyle} />
+
+                <img src={images[4]} alt="Maui room 4" style={imageStyle} />
+                <img src={images[5]} alt="Maui room 4" style={imageStyle} />
+                <img src={images[6]} alt="Maui room 4" style={imageStyle} />
+
+                
+            </div>
+           
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
-                <BookNowButton href="https://plannin.com/en/hotel/f7ed1125-3205-4916-881e-e865acca3608?refId=jackiewyers" target="_blank" rel="noopener noreferrer"/>
+            <BookNowButton href="https://plannin.com/en/hotel/f776fea4-a8ec-41f7-bd2f-2830ca7b615e?currency=USD" target="_blank" rel="noopener noreferrer"/>
             </div>
             <div
 style = {{
@@ -162,13 +208,27 @@ style = {{
             <h2 style={headingStyle}>🛍 Day One: Shopping and Beating Jet lag</h2>
             <p style={paragraphStyle}>
             We landed in the morning and, after freshening up, we walked around Queen Street. There’s a beautiful mall atrium on Elliot Street across from the central square we explored. We were looking for a couple of items from the drugstore and checked out Life Pharmacy, Farmers, and Chemist Warehouse, New Zealand’s version of Shopper’s Drug Mart from Canada, and CVS in the US. I fell in love with some local shops like Creative & Brave and found so many earthy jewelry pieces with a fairy-like vibe, which is my favorite. We walked down to see the waterfront and got familiar with our new home for the week.
+            
+            
+            <p style={paragraphStyle}>
 Chemist Warehouse was a bit overwhelming with so many products packed in there, but I did pick up a couple of McoBeauty items, an Australian brand known for duping Charlotte Tilbury!
+</p>
+
+<p style={paragraphStyle}>
+
 We ate at Cooke’s Restaurant at the hotel once we got back from our day shopping. I had the best cappuccino I’ve ever had in my life along with pumpkin ravioli, and my mom had the fish of the day. Both were amazing! Throughout our trip, we did not have one mediocre meal. Everything tasted fresh, and the presentation at cafes and restaurants was top-tier.
+</p>
+<p style={paragraphStyle}>
+
 After forcing ourselves to stay up as long as possible, we had a great night’s sleep and were ready for day two!            </p>
-            <div style={gridContainerStyle}>
-                <img src={images[1]} alt="Maui room 1" style={imageStyle} />
-                <img src={images[2]} alt="Maui room 2" style={imageStyle} />
-            </div>
+     </p>
+
+
+
+
+
+
+
             <h2 style={headingStyle}>🏝 Day Two: More Shopping, Auckland Art Gallery & Waiheke Island
             </h2>
             <p style={paragraphStyle}>
@@ -195,14 +255,10 @@ style = {{
 
   <AdSenseAd/>
 </div>
-            <img src={images[3]} alt="Maui room 3" style={imageStyle} />
             <p style={paragraphStyle}>
                 The property includes ADA-compliant rooms equipped with features such as roll-in showers, lowered storage solutions, and other assistive devices upon request. These accommodations are designed to offer comfort and convenience for guests with mobility challenges, ensuring a welcoming and inclusive environment for everyone. I always like to make an accessibility note, as unfortunately not all resorts feature these accommodations.
             </p>
-            <div style={gridContainerStyle}>    
-                <img src={images[4]} alt="Maui room 4" style={imageStyle} />
-                <img src={images[5]} alt="Maui dining" style={imageStyle} />
-            </div>
+         
             <h2 style={headingStyle}>🌴 Waiheke Island</h2>
             <p style={paragraphStyle}>
             Arriving on the island, we drove past a beach town on our way to Oneroa Beach. When you walked closer to the rocky area along the beach, there
@@ -251,14 +307,21 @@ style = {{
 
   <AdSenseAd/>
 </div>
-            <h2 style={headingStyle}>👗 Evening Entertainment: Traditional Luau</h2>
+            <h2 style={headingStyle}>🍫 Day Five: Winter Gardens, Auckland Zoo, Chocolate!!!
+            </h2>
             <p style={paragraphStyle}>
-                Each evening brought new experiences. One of the highlights was the traditional Luau, where we immersed ourselves in Hawaiian culture with music, dance, and a feast featuring local specialties. The sunset views from the resort added a magical touch to our evening meals and activities.
-            </p>
+
+            While I didn’t feel like I had jetlag, I almost always get a cold from traveling long distances. I asked over on Instagram what I should do while I was in New Zealand and got a lot of suggestions to go further out from the city and see Hobbiton and the South Island. We decided to keep it more low-key and see the Auckland Domain Wintergardens, the Auckland War Memorial Museum, and then head to the Auckland zoo as they were all about a 10-15 minute drive away from each other.
+The Wintergarden Pavilion was another amazing café with fresh food. While I was visiting, it was winter, so there were a lot of fall leaves, but the weather was comfortable. I loved seeing the fern jungle and beautiful flowers. If only Canadian winters were this mild! ❄
+We walked through the museum, viewing the fossils and aquatic displays, as well as taxidermy kiwi birds. My mom kept joking that every bird we saw
+was a kiwi bird, but they are nocturnal and endangered, so it was nice to see what one looks like up close as they are hard to see even at the zoo as the rooms are kept very dark! They are such interesting little birds. Kiwis belong to a group of flightless birds called ratites, which also includes ostriches and emus. Despite being related to these much larger birds, kiwis are quite small (and cute) in comparison.
+                  </p>
             <img src={images[9]} alt="Maui beach 1" style={imageStyle} />
-            <h2 style={headingStyle}>🌴 Resort Amenities and Activities</h2>
+            <h2 style={headingStyle}>🌋 Last Day: A Hike Around Mount Eden</h2>
             <p style={paragraphStyle}>
-                One of the top reasons to book a stay at Andaz Maui is to enjoy the pristine Mokapu and Wailea Beaches. Swimming in the crystal-clear, warm waters with breathtaking views was an unforgettable experience. We reveled in the sunshine on the soft, white sand and engaged in exciting water activities like paddle boarding, kayaking, and snorkeling. Discovering brightly colored fish and turtles near the shore was truly remarkable.
+            The Auckland Zoo is renowned for its conservation efforts and diverse animal exhibits. Because it was winter, we were pretty much the only people there, and it was such a nice walk. The animals were hanging out pretty close to the windows or bridges, so I saw a lot of beautiful exotic animals like tigers, lions, lemurs, servals, rhinos, donkeys, cheetahs, flamingos, and my favorite, the red panda!
+It was really well-kept, and on our way back to the city for dinner, we came across a supermarket that had really good deals on chocolate, and we stocked up on a ridiculous amount of Whittaker’s!
+For dinner, I came across Ortolana’s on Tyler Street and my husband’s name is literally Tyler Ortolano. One letter off! I thought it was fate and needed to go. It was an Italian restaurant with fresh food, and you could see them cooking in the kitchen, creating beautiful fresh dishes. The restaurant is located in the Britomart area, and it was all lit up, a beautiful area for a lovely dinner.
             </p>
             <img src={images[10]} alt="Maui beach 2" style={imageStyle} />
             <div style={gridContainerStyle}>
@@ -276,8 +339,9 @@ style = {{
   <AdSenseAd/>
 </div>
             <p style={paragraphStyle}>
-                Within the resort, we spent our days lounging on sun loungers, hopping between pools, and sipping drinks at the tiki bars—a perfect way to relax and soak in the ambiance.
-            </p>
+            Before our flight in the afternoon, we got up early and took an Uber to the Mount Eden drop-off point. From there, we walked around the volcanic
+crater, which offers panoramic views of the city. There were tons of tourists, and many were taking massive group TikToks, which was pretty funny to see.
+        adorable top and a beautiful blue dress!            </p>
             <div style={gridContainerStyle}>
                 <img src={images[15]} alt="Maui spa" style={imageStyle} />
             </div>
@@ -288,8 +352,10 @@ style = {{
                 <img src={images[19]} alt="Maui view 4" style={imageStyle} />
             </div>
             <p style={paragraphStyle}>
-                The resort features 36 holes of golf, two vibrant poolside bars, and four onsite restaurants. Indulge in self-care at the Awili Spa and Salon with treatments from facials to body scrubs. Lauren & I preferred to stay outdoors, but we did love shopping for beauty products at the spa.
+            We still had quite a bit of time, so we had breakfast back at Cooke’s, which was another fire meal with again, great cappuccinos. After fueling up, I did some last-minute shopping at Mecca and chose to buy a couple of products from Mecca Max, as I don’t have that in Canada. I went for their tubing mascara, which has won some beauty awards, and I loved the look of their lip balms that reminded me of the YSL Color balms. Mecca is similar to Sephora but in Australia and New Zealand.
+I saw a shop called Ruby, a New Zealand brand that focuses on eco-friendly fashion. A couple of their new collection pieces really stood out to me, so I tried on an
             </p>
+
             <div
 style = {{
   margin : '20px'
@@ -299,7 +365,8 @@ style = {{
   <AdSenseAd/>
 </div>
             <p style={paragraphStyle}>
-                Stay active with yoga and fitness classes available at the 24-hour gym or unwind on the terrace and explore the on-site art gallery as I previously mentioned as a resort highlight. Free in-room WiFi and a convenient grocery store add to the comfort.
+    While I bought a couple of souvenirs, I wanted to bring back something for Tyler. There is an All Blacks Experience nearby in the SkyCity precinct, close to the base of the Sky Tower. This attraction is dedicated to New Zealand's iconic rugby team, the All Blacks, who are known for their winning legacy. I got him a golf shirt with the logo and safe to say he loved it. The airport has options for All Blacks fans at a cheaper price, but it was cool to see the experience before we headed back to the airport.
+I always try to eat at places unique to wherever I’m visiting and had to try Best Ugly Bagels before the flight at the airport. The tuna melt was a hearty snack, perfect for chilling at the airport for our long travel home. 🇨🇦
             </p>
             <div style={gridContainerStyle}>
                 <img src={images[20]} alt="Maui view 6" style={imageStyle} />
@@ -307,21 +374,65 @@ style = {{
                 <img src={images[22]} alt="Maui view 8" style={imageStyle} />
                 <img src={images[23]} alt="Maui view 8" style={imageStyle} />
             </div>
-            <h2 style={headingStyle}>🍹 Final Thoughts and Recommendations</h2>
+            <div style={gridContainerStyle}>
+                <img src={images[24]} alt="Maui view 6" style={imageStyle} />
+                <img src={images[25]} alt="Maui view 7" style={imageStyle} />
+                <img src={images[26]} alt="Maui view 8" style={imageStyle} />
+                <img src={images[27]} alt="Maui view 8" style={imageStyle} />
+            </div>
+            <div style={gridContainerStyle}>
+                <img src={images[28]} alt="Maui view 6" style={imageStyle} />
+                <img src={images[29]} alt="Maui view 7" style={imageStyle} />
+                <img src={images[30]} alt="Maui view 8" style={imageStyle} />
+                <img src={images[31]} alt="Maui view 8" style={imageStyle} />
+            </div>
+            <div style={gridContainerStyle}>
+                <img src={images[32]} alt="Maui view 6" style={imageStyle} />
+                <img src={images[33]} alt="Maui view 7" style={imageStyle} />
+                <img src={images[34]} alt="Maui view 8" style={imageStyle} />
+                <img src={images[35]} alt="Maui view 8" style={imageStyle} />
+            </div>
+            <div style={gridContainerStyle}>
+                <img src={images[36]} alt="Maui view 6" style={imageStyle} />
+                <img src={images[37]} alt="Maui view 7" style={imageStyle} />
+                <img src={images[38]} alt="Maui view 8" style={imageStyle} />
+                <img src={images[39]} alt="Maui view 8" style={imageStyle} />
+            </div>
+            <div style={gridContainerStyle}>
+                <img src={images[40]} alt="Maui view 6" style={imageStyle} />
+                <img src={images[41]} alt="Maui view 7" style={imageStyle} />
+                <img src={images[42]} alt="Maui view 8" style={imageStyle} />
+                <img src={images[43]} alt="Maui view 8" style={imageStyle} />
+            </div>
+            <div style={gridContainerStyle}>
+                <img src={images[44]} alt="Maui view 6" style={imageStyle} />
+                <img src={images[45]} alt="Maui view 7" style={imageStyle} />
+                <img src={images[46]} alt="Maui view 8" style={imageStyle} />
+                <img src={images[47]} alt="Maui view 8" style={imageStyle} />
+            </div>
+            <div style={gridContainerStyle}>
+                <img src={images[48]} alt="Maui view 6" style={imageStyle} />
+                <img src={images[49]} alt="Maui view 7" style={imageStyle} />
+                <img src={images[50]} alt="Maui view 8" style={imageStyle} />
+                <img src={images[51]} alt="Maui view 8" style={imageStyle} />
+            </div>
+            <div style={gridContainerStyle}>
+                <img src={images[52]} alt="Maui view 6" style={imageStyle} />
+                <img src={images[53]} alt="Maui view 7" style={imageStyle} />
+            
+            </div>
+          
+
+            <h2 style={headingStyle}>🐦 A Final Note</h2>
             <p style={paragraphStyle}>
-                As we soaked in the sun and enjoyed the outdoor activities at the Andaz Maui, we also recognized the broader conversations surrounding tourism in Hawaii. Traveling here has become a topic of ethical discussion due to its effects on the indigenous population and the environment. While the beauty and allure of Maui are undeniable, it is essential to consider these impacts as part of a responsible travel approach.
+
+            I had an amazing time in Auckland shopping along Queen Street, trying fantastic cafés, bakeries, and restaurants. Waiheke is a must-see, my mom and I had such a great day exploring. I hope if you’re traveling, I gave you some ideas on things to check out that are uniquely New Zealand, and I can’t recommend Little & Friday and Cibo enough - of course, try Pavlova if you visit! I had a breakfast quiche, which was similar to a meat pie, but I kind of missed out and didn’t try an iconic meat pie from New Zealand, so I will have to next time. 🤞 I hope you enjoy seeing what I got up to with my mom on this mother-daughter trip as well as some behind-the-scenes of my dress fitting!
+Are you from New Zealand? I would love to know, and I would love to go back in the summer as well because it truly was a magical place. I felt like I fit right in with the lovely locals that I spoke to. I also noticed the fashion was pretty vibrant, especially in older ladies with funky earrings, glasses, and prints. I met some quite fabulous older ladies on this trip who were bold as ever!
+Let me know below if you have any places that you think I should travel to next. Thanks for reading as always!
             </p>
-            <p style={paragraphStyle}>
-                The Andaz Maui at Wailea Resort stands out for its commitment to environmental sustainability and cultural integration. Notably, the resort was constructed using 93% recycled materials and incorporates solar energy and electric equipment to minimize its carbon footprint. By supporting local wildlife preservation and showcasing local art, the resort contributes positively to the cultural and environmental stewardship of Maui.
-            </p>
-            <p style={paragraphStyle}>
-                Being mindful of these issues, it's crucial for visitors to choose accommodations and activities that support local communities and sustainable practices. Whether it’s participating in cultural programs, respecting sacred sites, or supporting local businesses, every small action contributes to a more ethical travel experience.
-            </p>
-            <p style={paragraphStyle}>
-                Thank you for joining me on this breathtaking escape to the Andaz Maui at Wailea Resort. Lauren and I had a marvellous time soaking in the beauty and culture of Maui and a huge thank you to the Benefit Canada team for the gifted experience. Have you travelled to Hawaii or stayed at the Andaz Maui? I’d love to hear your experience in the comments below and I look forward to bringing you along on more travels! For more travel insights and lifestyle tips, stay tuned to my blog and YouTube channel!
-            </p>
+          
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
-                <BookNowButton href="https://plannin.com/en/hotel/f7ed1125-3205-4916-881e-e865acca3608?refId=jackiewyers" target="_blank" rel="noopener noreferrer"/>
+                <BookNowButton href="https://plannin.com/en/hotel/f776fea4-a8ec-41f7-bd2f-2830ca7b615e?currency=USD" target="_blank" rel="noopener noreferrer"/>
             </div>
             <div
 style = {{
@@ -332,7 +443,7 @@ style = {{
   <AdSenseAd/>
 </div>
             <img src={signature} alt="Signature" style={{ width: '100%' }} />
-            <Comments website-id={websiteId} page-id={"andaz-maui-review"} />
+            <Comments website-id={websiteId} page-id={"auklandstrizzlebeans"} />
         </div>
     );
 

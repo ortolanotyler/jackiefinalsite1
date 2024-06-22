@@ -51,7 +51,7 @@ const VideoGrid = ({ videos }) => {
                 </Button>
               </Box>
             </Grid>
-            {(index + 1) % 2 === 0 && (
+            {(index + 1) % 4 === 0 && (
               <Grid item xs={12}>
                 <Box p={2} sx={{ backgroundColor: 'white', borderRadius: '8px', boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)', mt: 3 }}>
                   <AdSenseAd />
@@ -106,7 +106,6 @@ const videos = [
     route: "/animalpretty",
     title: "Which Animal Pretty are You?",
   },
-
   {
     src: "https://www.youtube.com/embed/HKvFRr4TINw?si=lzijNWa-xTQg5T9K&controls=0",
     route: "/westgatesandiego",
@@ -126,20 +125,17 @@ const videos = [
     src: "https://www.youtube.com/embed/ec7hauzrWWk?si=CBstnk9Qg_GA_zsU&controls=0",
     route: "/andazmaui",
     title: "Hawaii Vlog - Andaz Maui Review",
-   
   },
   {
     src: "https://www.youtube.com/embed/Vy6e7k5uur8?si=VD4AKjlFGG2a2zWA&controls=0",
     route: "/sugarplumfairy",
     title: "Sugar Plum Fairy : Trend Report",
   },
-  
   {
     src: "https://www.youtube.com/embed/7HoL0rVmZHI?si=B_MIAH9V9p6JdfDH&controls=0",
     route: "/balkeblog",
     title: "Iconic '60s Makeup",
   },
-
   {
     src: "https://www.youtube.com/embed/t1jJtpsxes4?si=yl1r_b5PO2WIFfqp&controls=0",
     route: "/iconicsharon",
@@ -165,7 +161,6 @@ const videos = [
     route: "/twiggy",
     title: "Twiggy MOD",
   },
-
   // Add more videos as needed
 ];
 
