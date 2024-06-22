@@ -160,10 +160,9 @@ function HomePage() {
         <Grid item xs={12}>
           <div
             style={{
-              display: 'flex',
-              flexDirection: 'column',
+           
               justifyContent: 'center',
-              alignItems: 'center',
+            
             }}
           ></div>
           <AdSenseAd />

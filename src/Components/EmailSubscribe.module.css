@@ -43,7 +43,10 @@
 @media (max-width: 600px) {
   .form {
     width: 100%;
-    max-width: none;
+    max-width: 400px;
+    margin: 0 auto; /* Center horizontally */
+    padding: 1rem; /* Add padding for space around the form */
+    box-sizing: border-box;
   }
 
   .input, .button {

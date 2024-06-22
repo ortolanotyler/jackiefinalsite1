@@ -203,10 +203,12 @@ style = {{
                 <img src={images[4]} alt="Maui room 4" style={imageStyle} />
                 <img src={images[5]} alt="Maui dining" style={imageStyle} />
             </div>
-            <h2 style={headingStyle}>💵 Cost Considerations & Dining Options</h2>
+            <h2 style={headingStyle}>🌴 Waiheke Island</h2>
             <p style={paragraphStyle}>
-                The nightly rate of around $1,100 USD at the Andaz Maui at Wailea Resort may seem steep, but the resort justifies this with its comprehensive luxury offerings. Set in a prime location, the resort provides direct access to some of Maui's finest beaches, along with exquisite amenities including multiple infinity pools, a world-class spa, and diverse dining options.
-            </p>
+            Arriving on the island, we drove past a beach town on our way to Oneroa Beach. When you walked closer to the rocky area along the beach, there
+were tons of seashells and trees growing out of the sides of the rocks, surrounded by beautiful crystal clear water. Truly a breathtaking view. I can only imagine how nice it would be to swim here in the summer.
+The island is quite big, but we chose to walk from the beach through the surf town to the countryside to see the beautiful vineyards on our way to Mudbrick Vineyard and Restaurant. This was said to be one of the best
+wineries in the world according to reviews, and I too had a great experience. While the restaurant was closed for a private event, my mom and I had an amazing drink outside watching the sunset and then had dinner at The Archive Bistro. The ambiance was candlelit with a beautiful fireplace. It was cozy, and the food was incredible, and my mom and I had great chats sitting by the fire. It was a public holiday when we went, so there was a surcharge, but it was definitely worth it. I’m not a wine drinker, so I had a cocktail, but my mom really enjoyed her red wine. An Uber took us back to the ferry to head back to the hotel.            </p>
             <div
 style = {{
   margin : '20px'
@@ -219,16 +221,28 @@ style = {{
                 <img src={images[6]} alt="Maui market" style={imageStyle} />
                 <img src={images[7]} alt="Maui market 2" style={imageStyle} />
             </div>
+            <h2 style={headingStyle}>👗 Day Three: Little & Friday in Ponsonby</h2>
+            
+
             <p style={paragraphStyle}>
-                While the buffet breakfast costs approximately $49 for adults and $24.50 for children, more economical choices like the Mokapu Market are available for lighter eats or snacks. Lauren and I went to this market daily for ice cream!
-            </p>
+            I asked Natalie, the bridal shop owner, if she had any recommendations of places to visit while I was here in Auckland. She recommended checking
+            out Ponsonby, which is a hip neighbourhood, and to go to Little & Friday, a local bakery. My mom and I split a breakfast quiche and their famous doughnut. I’m not typically a donut person, but it was an incredible pastry, and I can totally see why it is such a hit with the locals. The shopping strip had a bunch of eclectic shops like thrift stores, boutiques, and trendy cafés! I even went to a second cafe for another cappuccino since I’m a bit of a coffee addict, and the coffee here is superior. There were so many items that I loved in the Ponsonby shops.
+                        </p>
+
+                        <h2 style={headingStyle}>👰 Day Four: Bridal Appointment in Parnell</h2>
+
+                       
             <img src={images[8]} alt="Maui luau" style={imageStyle} />
             <p style={paragraphStyle}>
-                For gourmets, the Morimoto Maui restaurant offers an exceptional fusion cuisine experience under the banner of Iron Chef Masaharu Morimoto.
-            </p>
+            The following day we headed to Parnell to visit Natalie Rose Bridal
+to get a peek at my dress that was being made and to try on a bunch of Eva Lendel’s latest bridal collection! For more details about each dress I tried & a get ready with me for my hair and makeup, check out my beauty breakdown here.
+Entering Natalie Rose Bridal on Parnell Street is so dreamy. It’s this
+fairytale-inspired corner shop with white panels and pops of pink wainscoting. When you enter, there are gorgeous pink velvet curtains, gold bars filled with stunning bridal gowns sparkling from all the light coming in from the sun-filled windows. I tried on six different
+looks, all of which I loved. If you want to see all the dresses, check out my article here for all the behind-the-scenes photos! If you are a bride and are looking at this new collection, check out my quiz to see which one might suit you best along with hair and makeup ideas.            </p>
             <p style={paragraphStyle}>
-                The resort also features a local art shop that showcases Maui's rich culture and craftsmanship. For those seeking a lavish escape or celebrating a special occasion such as a honeymoon, the investment is well worth the unforgettable experiences, as echoed by numerous couples we spoke to who return here annually to celebrate their anniversaries.
-            </p>
+            My mom was such a trooper, taking some behind-the-scenes footage and photos as I tried on beautiful gowns. We walked from Natalie Rose Bridal to
+Cibo for fish and chips and our first taste of New Zealand Pavlova!
+Pavlova is my favorite dessert, and my mom makes a great version that I always request on my birthday or Christmas! My best friend’s dad made it when I was at her house as a teen, and I had to get him to give my mom the recipe. While we were used to a lot of fruit, which is typical on top of Pavlova, at this restaurant the salted caramel/peanut was the most popular, and we devoured it. Best. Dessert. Ever.            </p>
             <div
 style = {{
   margin : '20px'

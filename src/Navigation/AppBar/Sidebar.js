@@ -102,28 +102,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
             )
           )}
         </div>
-        <Box
-          sx={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-           
-            
-          }}
-        >
-          <a href="https://youtube.com/@JackieWyers?si=sklULUqnNkzkmiaY" target="_blank" rel="noopener noreferrer">
-            <YouTubeIcon style={{ color: '#745B4F', fontSize: 24 }} />
-          </a>
-          <a href="https://www.instagram.com/jackiewyers?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
-            <InstagramIcon style={{ color: '#745B4F', fontSize: 24 }} />
-          </a>
-          <a href="https://pin.it/27OmCVDye" target="_blank" rel="noopener noreferrer">
-            <PinterestIcon style={{ color: '#745B4F', fontSize: 24 }} />
-          </a>
-          <a href="mailto:contact@jackiewyers.beauty">
-            <MailOutlineIcon style={{ color: '#745B4F', fontSize: 24 }} />
-          </a>
-        </Box>
+   
       </Box>
     </Drawer>
   );
