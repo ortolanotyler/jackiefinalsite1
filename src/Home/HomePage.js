@@ -168,10 +168,7 @@ function HomePage() {
           ></div>
           <AdSenseAd />
         </Grid>
-        <Grid item xs={12}>
-          <TextReveal text="JACKIE'S WEEKLY TOP 3" />
-          <ReviewFavorites />
-        </Grid>
+      
         <Grid item xs={12}>
           <TextReveal text='PERFUME PROFILES' />
           <ReviewArticleListHome />

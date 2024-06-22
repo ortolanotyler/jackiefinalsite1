@@ -23,9 +23,9 @@ const ReviewFavorites = () => {
           title="Jackie's Weekly Favs"
           src="https://shopmy.us/collections/public/553108?noHeader=true"
           style={{
-            marginTop: '2rem',
+           
             width: '100%',
-            minHeight: '350px',
+            minHeight: '490px',
             border: 'none',
             overflow: 'hidden',
           }}
@@ -41,7 +41,7 @@ const ReviewFavorites = () => {
           style={{
            
             width: '100%',
-            minHeight: '350px',
+            minHeight: '370px',
             border: 'none',
             overflow: 'hidden',
           }}
@@ -57,7 +57,7 @@ const ReviewFavorites = () => {
           style={{
             
             width: '100%',
-            minHeight: '350px',
+            minHeight: '370px',
             border: 'none',
             overflow: 'hidden',
           }}
