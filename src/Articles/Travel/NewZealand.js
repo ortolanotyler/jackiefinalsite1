@@ -118,7 +118,10 @@ const NewZealand = () => {
             <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
                 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
-            <DropCap text="Welcome back as we reminisce about the stunning Andaz Maui at Wailea Resort in Hawaii. This trip not only showcased pristine beaches and exquisite hotel amenities but also created unforgettable memories with my best friend Lauren and the amazing team from Benefit Cosmetics Canada." />
+            <DropCap text="Welcome to an epic travel vlog of my experience, flying from Toronto all the way to Auckland, New Zealand for a magical week halfway around the
+world! I stayed at a whimsical hotel called Fable Auckland on Queen Street, and I have a full review of my experience here. But first, let’s talk about everything I did in the unforgettable week.
+I traveled there with my mom, and we chose to do a mother-daughter trip because about six months ago, I connected with a bridal shop called Natalie
+Rose Bridal on Instagram and decided to go there for a fitting!" />
             <div
 style = {{
   margin : '20px'

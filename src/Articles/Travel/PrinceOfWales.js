@@ -250,7 +250,6 @@ style = {{
 
   <AdSenseAd/>
 </div>
-<img src={signature} alt='Signature' style={{ width: '100%' }} />
 
             <Comments website-id={websiteId} page-id={"PrinceOfWalesHotel"} />
         </div>
