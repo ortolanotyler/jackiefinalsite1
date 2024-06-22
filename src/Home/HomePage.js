@@ -105,6 +105,35 @@ function HomePage() {
           </Box>
         </Grid>
         <Grid item xs={12}>
+          <TextReveal text="LATEST VIDEO" />
+        </Grid>
+        <Grid item xs={12} display="flex" justifyContent="center" sx={{ mt: 2 }}>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Uz03ReLZO9k?si=zWnzPrrt4i10KSxF&amp;controls=0"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+            style={{ border: 'none', maxWidth: '100%' }}
+          />
+        </Grid>
+        <Grid item xs={12} display="flex" justifyContent="flex-end">
+          <Box sx={{ textAlign: 'right', mt: 1, mr: 10 }}>
+            <a
+              href="/videos"
+              style={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
+            >
+              <Typography variant="body1" sx={{ fontSize: '1.25rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
+                VIEW ALL VIDEOS
+              </Typography>
+              <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
+            </a>
+          </Box>
+        </Grid>
+        <Grid item xs={12}>
           <TextReveal text="🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊" />
           <Quiz2 />
         </Grid>

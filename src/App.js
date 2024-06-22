@@ -70,6 +70,7 @@ import FallLBD from './Shop/ShopMyHomeLinks/FallLBD';
 import DarkFlorals from './Shop/ShopMyHomeLinks/DarkFlorals';
 import DiaryPost1Fillers from './Articles/Tutorials/VintageVibes/DiaryFillers';
 import SummerInspo from './Articles/Tutorials/PopCulture/SummerInspo';
+import TimelineComponent from './Home/Timeline';
 
 function usePageTracking() {
   const location = useLocation();
@@ -161,6 +162,7 @@ function App() {
           <Route path="falllbd" element={<FallLBD />} />
           <Route path="darkflorals" element={<DarkFlorals />} />
           <Route path="summerinspo" element={<SummerInspo />} />
+          <Route path="timeline" element={<TimelineComponent />} />
 
           <Route path="*" element={<h1>404 Not Found</h1>} />
         </Route>

@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "@fontsource/arapey": "^5.0.12",
     "@hyvor/hyvor-talk-react": "^0.0.3",
     "@mui/icons-material": "^5.15.18",
     "@mui/lab": "^5.0.0-alpha.170",
@@ -32,6 +33,7 @@
     "react-slick": "^0.30.2",
     "serverless-http": "^3.2.0",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.11",
     "tinify": "^1.7.1",
     "web-vitals": "^2.1.4",
     "yup": "^1.4.0"
