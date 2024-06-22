@@ -15,7 +15,7 @@
   gap: 0.5rem;
   width: 100%;
   max-width: 400px;
-  margin: auto;
+  margin: 0 auto; /* Center horizontally */
 }
 
 .input {
@@ -38,4 +38,15 @@
 .error {
   color: red;
   font-size: 0.875rem;
+}
+
+@media (max-width: 600px) {
+  .form {
+    width: 100%;
+    max-width: none;
+  }
+
+  .input, .button {
+    width: 100%;
+  }
 }

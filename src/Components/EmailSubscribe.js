@@ -64,7 +64,7 @@ export default function EmailSubscribe() {
   };
 
   return (
-    <Box display="flex" justifyContent="center" alignItems="center" width="100%" padding="2rem" mt={8}>
+    <Box display="flex" justifyContent="center" alignItems="center" width="100%" padding="2rem" sx={{ mt: 8 }}>
       <Grid container spacing={3} alignItems="center" justifyContent="center" sx={{ maxWidth: '1000px', width: '100%' }}>
         {isSubmitted ? (
           <Grid item xs={12}>
@@ -76,7 +76,7 @@ export default function EmailSubscribe() {
               <Grid item xs={12}>
                 <img src={image1} alt="Email Subscribe" style={{ width: '100%' }} />
               </Grid>
-              <Grid item xs={6}>
+              <Grid item xs={12}>
                 <TextField
                   type="email"
                   value={email}
@@ -94,7 +94,7 @@ export default function EmailSubscribe() {
                   }}
                 />
               </Grid>
-              <Grid item xs={6}>
+              <Grid item xs={12}>
                 <Button
                   ref={buttonRef}
                   type="submit"
@@ -145,4 +145,3 @@ export default function EmailSubscribe() {
     </Box>
   );
 }
-

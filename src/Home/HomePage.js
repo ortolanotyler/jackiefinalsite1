@@ -17,6 +17,7 @@ import SiteExplorerBeyond from './SiteExplorerBeyond';
 import LifestyleFavorites from './LifestyleFavorites';
 import ShopMyHero2 from './ShopMyHero2';
 import { Helmet } from 'react-helmet';
+import AdSenseAd from '../Advertising/Ads';
 
 function HomePage() {
   const linkRef = useRef(null);
@@ -82,9 +83,7 @@ function HomePage() {
           <AboutHero /> {/* Add the AboutHero component here */}
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
-          <Grid container item xs={12} md={8} spacing={3} justifyContent="center" alignItems="center">
-            <EmailSubscribe />
-          </Grid>
+          <EmailSubscribe />
         </Grid>
         <Grid item xs={12}>
           <SiteExplorer />
@@ -120,11 +119,16 @@ function HomePage() {
             style={{ border: 'none', maxWidth: '100%' }}
           />
         </Grid>
-      
-      
         <Grid item xs={12}>
-          <TextReveal text="🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊" />
+          <TextReveal text="JACKIE'S WEEKLY TOP 3" />
+          <ReviewFavorites />
+        </Grid>
+        <Grid item xs={12}>
+          <TextReveal text="🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊" style={{ backgroundColor: 'white' }}  />
           <Quiz2 />
+        </Grid>
+        <Grid item xs={12}>
+          <AdSenseAd />
         </Grid>
         <Grid item xs={12}>
           <TextReveal text="JACKIE'S WEEKLY TOP 3" />
