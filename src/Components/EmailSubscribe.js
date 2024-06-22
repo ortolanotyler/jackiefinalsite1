@@ -1,22 +1,18 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { Formik, Field } from 'formik';
-import * as Yup from 'yup';
-import { Grid, Button, Box, FormControlLabel, Checkbox, Typography, Alert } from '@mui/material';
-import './EmailSubscribe.module.css'; // Import CSS file for styling
+import React, { useState, useRef, useEffect } from 'react';
+import { Grid, Button, Box, FormControlLabel, Checkbox, Typography, Alert, TextField } from '@mui/material';
+import './EmailSubscribe.module.css'; // Ensure this file exists
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Home/EmailSub.jpeg`;
 
-const SignupSchema = Yup.object().shape({
-  email: Yup.string().email('Invalid email').required('Email is required'),
-  consent: Yup.boolean().oneOf([true], 'Consent is required'),
-});
-
-const iftttWebhookURL = 'https://cors-anywhere.herokuapp.com/https://maker.ifttt.com/trigger/email/with/key/3SLtqFLBg3zfwW2LzXJF4LC0WeaKUlWgfnSpbHY-Uw';
+const iftttWebhookURL = 'https://cors.bridged.cc/https://maker.ifttt.com/trigger/email/with/key/3SLtqFLBg3zfwW2LzXJF4LC0WeaKUlWgfnSpbHY-Uw';
 
 export default function EmailSubscribe() {
+  const [email, setEmail] = useState('');
+  const [consent, setConsent] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [error, setError] = useState('');
   const buttonRef = useRef(null);
   const hasJiggled = useRef(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,113 +31,118 @@ export default function EmailSubscribe() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  return (
-    <Formik
-      initialValues={{ email: '', consent: false }}
-      validationSchema={SignupSchema}
-      onSubmit={async (values, { setSubmitting, resetForm }) => {
-        try {
-          const response = await fetch(iftttWebhookURL, {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ value1: values.email }),
-          });
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (!email || !consent) {
+      setError('Email and consent are required.');
+      return;
+    }
 
-          if (response.ok) {
-            setIsSubmitted(true);
-            resetForm();
-          } else {
-            const errorText = await response.text();
-            console.error('Server error:', errorText);
-            alert('Failed to subscribe email.');
-          }
-        } catch (error) {
-          console.error('Error:', error);
-          alert('Error submitting email.');
-        }
-        setSubmitting(false);
-      }}
-    >
-      {({ submitForm, isSubmitting, touched, errors, values, handleChange }) => (
-        <Box display="flex" justifyContent="center" alignItems="center" width="100%" padding="2rem" mt={8}>
-          <Grid container spacing={3} alignItems="center" justifyContent="center" sx={{ maxWidth: '1000px', width: '100%' }}>
-            {isSubmitted ? (
-              <Grid item xs={12}>
-                <Alert severity="success">Email subscribed successfully!</Alert>
-              </Grid>
-            ) : (
-              <>
-                <Grid item xs={12}>
-                  <img src={image1} alt="Email Subscribe" style={{ width: '100%' }} />
-                </Grid>
-                <Grid item xs={6}>
-                  <Field
-                    name="email"
-                    type="email"
-                    placeholder="Enter your email"
-                    style={{
-                      borderRadius: '5px',
-                      width: '100%',
-                      boxSizing: 'border-box',
-                      border: '1px solid black',
-                      padding: '0.5rem',
-                      fontFamily: 'GFS Didot, serif',
-                      fontSize: '12px',
-                      color: '#745B4F',
-                      backgroundColor: '#FFFFFF',
-                    }}
-                  />
-                  {touched.email && errors.email && <div style={{ color: '#745B4F', fontSize: '16px', marginTop: '0.5rem' }}>{errors.email}</div>}
-                </Grid>
-                <Grid item xs={6}>
-                  <Button
-                    ref={buttonRef}
-                    type="submit"
-                    variant="contained"
-                    disabled={isSubmitting}
-                    onClick={submitForm}
-                    sx={{
-                      backgroundColor: values.consent ? '#fdedef' : 'black',
-                      color: values.consent ? '#745B4F' : 'white',
-                      borderRadius: '5px',
-                      width: '100%',
-                      fontFamily: 'GFS Didot, serif',
-                      padding: '0.5rem',
-                      '&:hover': {
-                        backgroundColor: values.consent ? '#fdedef' : '#333',
-                        color: values.consent ? '#745B4F' : 'white',
-                      },
-                    }}
-                  >
-                    Subscribe
-                  </Button>
-                </Grid>
-                <Grid item xs={12}>
-                  <FormControlLabel
-                    control={
-                      <Checkbox
-                        name="consent"
-                        checked={values.consent}
-                        onChange={handleChange}
-                        color="primary"
-                      />
-                    }
-                    label={
-                      <Typography variant="body2" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>
-                        I have read the <a href="/privacy" target="_blank" style={{ color: '#745B4F', textDecoration: 'underline' }}>Privacy Policy</a> and give consent to be a part of the newsletter. I understand that I can unsubscribe at any time via email.
-                      </Typography>
-                    }
-                  />
-                  {touched.consent && errors.consent && <div style={{ color: '#745B4F', fontSize: '16px', marginTop: '0.5rem' }}>{errors.consent}</div>}
-                </Grid>
-              </>
-            )}
+    try {
+      const response = await fetch(iftttWebhookURL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ value1: email }),
+      });
+
+      if (response.ok) {
+        setIsSubmitted(true);
+        setEmail('');
+        setConsent(false);
+        setError('');
+      } else {
+        const errorText = await response.text();
+        console.error('Server error:', errorText);
+        setError('Failed to subscribe email.');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      setError('Error submitting email.');
+    }
+  };
+
+  return (
+    <Box display="flex" justifyContent="center" alignItems="center" width="100%" padding="2rem" mt={8}>
+      <Grid container spacing={3} alignItems="center" justifyContent="center" sx={{ maxWidth: '1000px', width: '100%' }}>
+        {isSubmitted ? (
+          <Grid item xs={12}>
+            <Alert severity="success">Email subscribed successfully!</Alert>
           </Grid>
-        </Box>
-      )}
-    </Formik>
+        ) : (
+          <form onSubmit={handleSubmit} className="form">
+            <Grid container spacing={3} alignItems="center" justifyContent="center">
+              <Grid item xs={12}>
+                <img src={image1} alt="Email Subscribe" style={{ width: '100%' }} />
+              </Grid>
+              <Grid item xs={6}>
+                <TextField
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="Enter your email"
+                  fullWidth
+                  variant="outlined"
+                  required
+                  className="input"
+                  sx={{
+                    '& input': {
+                      fontFamily: 'GFS Didot, serif',
+                      color: '#745B4F',
+                    },
+                  }}
+                />
+              </Grid>
+              <Grid item xs={6}>
+                <Button
+                  ref={buttonRef}
+                  type="submit"
+                  variant="contained"
+                  className="button"
+                  sx={{
+                    backgroundColor: consent ? '#fdedef' : 'black',
+                    color: consent ? '#745B4F' : 'white',
+                    borderRadius: '5px',
+                    width: '100%',
+                    fontFamily: 'GFS Didot, serif',
+                    padding: '0.5rem',
+                    '&:hover': {
+                      backgroundColor: consent ? '#fdedef' : '#333',
+                      color: consent ? '#745B4F' : 'white',
+                    },
+                  }}
+                >
+                  Subscribe
+                </Button>
+              </Grid>
+              <Grid item xs={12}>
+                <FormControlLabel
+                  control={
+                    <Checkbox
+                      checked={consent}
+                      onChange={(e) => setConsent(e.target.checked)}
+                      color="primary"
+                      required
+                    />
+                  }
+                  label={
+                    <Typography variant="body2" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>
+                      I have read the <a href="/privacy" target="_blank" style={{ color: '#745B4F', textDecoration: 'underline' }}>Privacy Policy</a> and give consent to be a part of the newsletter. I understand that I can unsubscribe at any time via email.
+                    </Typography>
+                  }
+                />
+              </Grid>
+              {error && (
+                <Grid item xs={12}>
+                  <Alert severity="error">{error}</Alert>
+                </Grid>
+              )}
+            </Grid>
+          </form>
+        )}
+      </Grid>
+    </Box>
   );
 }
 

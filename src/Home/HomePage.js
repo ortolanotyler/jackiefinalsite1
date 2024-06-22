@@ -3,6 +3,7 @@ import { Grid, Box, Paper, Typography } from '@mui/material';
 import QuiltedImageList1 from './ImageGridTutorials';
 import TextReveal from '../Components/TextReveal';
 import QuoteBanner3 from './QuoteBanner3';
+import EmailSubscribe from '../Components/EmailSubscribe';
 import SiteExplorer from './SiteExplorer';
 import ReviewArticleListHome from '../ReviewsPage/ReviewArticleListHomePage';
 import BeigeReveal from '../Components/BeigeReveal';
@@ -52,7 +53,7 @@ function HomePage() {
   return (
     <Box sx={{ width: '100%', backgroundColor: 'white' }}>
       <Helmet>
-        <title>Jackie Wyers' Home Page</title>
+        <title>Jackie Wyers Beauty</title>
         <meta name="description" content="Explore Jackie Wyers' home page featuring beauty tutorials, reviews, travel tips, and more." />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
         <script>
@@ -80,7 +81,11 @@ function HomePage() {
         <Grid item xs={12}>
           <AboutHero /> {/* Add the AboutHero component here */}
         </Grid>
-  
+        <Grid item xs={12} display="flex" justifyContent="center">
+          <Grid container item xs={12} md={8} spacing={3} justifyContent="center" alignItems="center">
+            <EmailSubscribe />
+          </Grid>
+        </Grid>
         <Grid item xs={12}>
           <SiteExplorer />
         </Grid>
@@ -132,7 +137,9 @@ function HomePage() {
         <Grid item xs={12}>
           <LifestyleFavorites />
         </Grid>
-  
+        <Grid item xs={12}>
+          <EmailSubscribe />
+        </Grid>
       </Grid>
     </Box>
   );
