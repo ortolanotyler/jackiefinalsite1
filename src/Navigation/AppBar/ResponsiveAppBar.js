@@ -21,6 +21,7 @@ const logo = `${process.env.PUBLIC_URL}/Images/Home/jwlogo3.png`;
 const pages = [
   { name: 'Home', path: '/' },
   { name: 'About', path: '/about' },
+  { name: 'Videos', path: '/videos' },
   { name: 'Quiz', path: '/quiz' },
   { name: 'Reviews', path: '/reviews' },
 ];
@@ -33,13 +34,11 @@ const aboutOptions = [
 
 const beyondBeautyOptions = [
   { name: 'Travel', path: '/travel' },
-
   { name: 'Diary', path: '/diary' },
 ];
 
 const shopOptions = [
   { name: 'Shop My Style', path: '/mystyle' },
-
   { name: 'VintageVibes Merch', path: '/vintagevibesmerch' },
 ];
 
@@ -247,7 +246,7 @@ function ResponsiveAppBar() {
                     key={page.name}
                     component={Link}
                     to={page.path}
-                    className="jiggle-button"
+                    className="jiggle-button responsive-button"
                     sx={{
                       my: 2,
                       color: '#745B4F',
@@ -267,7 +266,7 @@ function ResponsiveAppBar() {
                   aria-controls="about-menu"
                   aria-haspopup="true"
                   onClick={handleOpenAboutMenu}
-                  className="jiggle-button"
+                  className="jiggle-button responsive-button"
                   sx={{
                     my: 2,
                     color: '#745B4F',
@@ -321,7 +320,7 @@ function ResponsiveAppBar() {
                   aria-controls="tutorials-menu"
                   aria-haspopup="true"
                   onClick={handleOpenTutorialsMenu}
-                  className="jiggle-button"
+                  className="jiggle-button responsive-button"
                   sx={{
                     my: 2,
                     color: '#745B4F',
@@ -376,7 +375,7 @@ function ResponsiveAppBar() {
                     key={page.name}
                     component={Link}
                     to={page.path}
-                    className="jiggle-button"
+                    className="jiggle-button responsive-button"
                     sx={{
                       my: 2,
                       color: '#745B4F',
@@ -396,7 +395,7 @@ function ResponsiveAppBar() {
                   aria-controls="shop-menu"
                   aria-haspopup="true"
                   onClick={handleOpenShopMenu}
-                  className="jiggle-button"
+                  className="jiggle-button responsive-button"
                   sx={{
                     my: 2,
                     color: '#745B4F',
@@ -451,7 +450,7 @@ function ResponsiveAppBar() {
                     key={page.name}
                     component={Link}
                     to={page.path}
-                    className="jiggle-button"
+                    className="jiggle-button responsive-button"
                     sx={{
                       my: 2,
                       color: '#745B4F',
@@ -471,7 +470,7 @@ function ResponsiveAppBar() {
                   aria-controls="beyond-beauty-menu"
                   aria-haspopup="true"
                   onClick={handleOpenBeyondMenu}
-                  className="jiggle-button"
+                  className="jiggle-button responsive-button"
                   sx={{
                     my: 2,
                     color: '#745B4F',
@@ -529,6 +528,7 @@ function ResponsiveAppBar() {
                 <Button
                   component={Link}
                   to="/subscribe" // Replace with your subscription link
+                  className="responsive-button"
                   sx={{
                     backgroundColor: 'black',
                     color: 'white',

@@ -13,6 +13,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'HOME', path: '/' },
     { name: 'ABOUT', path: '/about' },
     { name: 'TUTORIALS', path: '/tutorials' },
+    { name: 'VIDEOS', path: '/videos' },
     { name: 'REVIEWS', path: '/reviews' },
     { name: 'QUIZ', path: '/quiz' },
     { name: 'MERCH', path: '/vintagevibesmerch' },
@@ -36,7 +37,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           width: '25vw',
           height: '100vh',
           backgroundColor: '#FDEDEF',
-          padding: '2rem 1rem',
+          
           fontFamily: 'GFS Didot, serif',
           position: 'relative',
           display: 'flex',
@@ -51,7 +52,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
         }}
         role="presentation"
       >
-        <div>
+        <div style={{backgroundColor: '#fdedef'}}>
           <IconButton
             onClick={toggleDrawer}
             sx={{ position: 'absolute', top: '1rem', right: '1rem', color: '#745B4F' }}
@@ -76,27 +77,49 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
             )
           )}
         </div>
-        <Box
-          sx={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            gap: '1rem',
-            paddingBottom: '1rem',
-          }}
-        >
-          <a href="https://youtube.com/@JackieWyers?si=sklULUqnNkzkmiaY" target="_blank" rel="noopener noreferrer">
-            <YouTubeIcon style={{ color: '#745B4F', fontSize: 24 }} />
-          </a>
-          <a href="https://www.instagram.com/jackiewyers?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
-            <InstagramIcon style={{ color: '#745B4F', fontSize: 24 }} />
-          </a>
-          <a href="https://pin.it/27OmCVDye" target="_blank" rel="noopener noreferrer">
-            <PinterestIcon style={{ color: '#745B4F', fontSize: 24 }} />
-          </a>
-          <a href="mailto:contact@jackiewyers.beauty">
-            <MailOutlineIcon style={{ color: '#745B4F', fontSize: 24 }} />
-          </a>
+        <Box sx={{ backgroundColor: '#FDEDEF', padding: '1rem' }}>
+          <Box
+            sx={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              gap: '1rem',
+              paddingBottom: '1rem',
+            }}
+          >
+            <a href="https://youtube.com/@JackieWyers?si=sklULUqnNkzkmiaY" target="_blank" rel="noopener noreferrer">
+              <YouTubeIcon style={{ color: '#745B4F', fontSize: 24 }} />
+            </a>
+            <a href="https://www.instagram.com/jackiewyers?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
+              <InstagramIcon style={{ color: '#745B4F', fontSize: 24 }} />
+            </a>
+            <a href="https://pin.it/27OmCVDye" target="_blank" rel="noopener noreferrer">
+              <PinterestIcon style={{ color: '#745B4F', fontSize: 24 }} />
+            </a>
+            <a href="mailto:contact@jackiewyers.beauty">
+              <MailOutlineIcon style={{ color: '#745B4F', fontSize: 24 }} />
+            </a>
+          </Box>
+          <Button
+            component={Link}
+            to="/subscribe"
+            sx={{
+              backgroundColor: 'black',
+              color: 'white',
+              borderRadius: '5px',
+              width: '100%',
+              fontFamily: 'GFS Didot, serif',
+              padding: '0.5rem',
+              fontSize: '1rem',
+              boxShadow: '0 4px 8px rgba(0, 0.5, 0.5, 0.25)',
+              '&:hover': {
+                backgroundColor: '#fdedef',
+                color: '#745B4F',
+              },
+            }}
+          >
+            Subscribe
+          </Button>
         </Box>
       </Box>
     </Drawer>

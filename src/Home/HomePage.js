@@ -22,10 +22,13 @@ import VideoEmbed from './VideoEmbed';
 
 function HomePage() {
   const linkRef = useRef(null);
+  const videoLinkRef = useRef(null);
   const [isJiggling, setIsJiggling] = useState(false);
+  const [isVideoJiggling, setIsVideoJiggling] = useState(false);
 
   useEffect(() => {
     const currentLinkRef = linkRef.current;
+    const currentVideoLinkRef = videoLinkRef.current;
 
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -41,13 +44,34 @@ function HomePage() {
       }
     );
 
+    const videoObserver = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVideoJiggling(true);
+          setTimeout(() => {
+            setIsVideoJiggling(false);
+          }, 4000); // Stop jiggling after 4 seconds
+        }
+      },
+      {
+        threshold: 0.1, // Adjust this value as needed
+      }
+    );
+
     if (currentLinkRef) {
       observer.observe(currentLinkRef);
+    }
+
+    if (currentVideoLinkRef) {
+      videoObserver.observe(currentVideoLinkRef);
     }
 
     return () => {
       if (currentLinkRef) {
         observer.unobserve(currentLinkRef);
+      }
+      if (currentVideoLinkRef) {
+        videoObserver.unobserve(currentVideoLinkRef);
       }
     };
   }, []);
@@ -97,7 +121,7 @@ function HomePage() {
               className={isJiggling ? 'jiggle' : ''}
               style={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
             >
-              <Typography variant="body1" sx={{ fontSize: '1.25rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
+              <Typography variant="body1" sx={{ fontSize: '1rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
                 VIEW ALL TUTORIALS
               </Typography>
               <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
@@ -108,8 +132,23 @@ function HomePage() {
           <TextReveal text="LATEST VIDEO" />
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center" sx={{ mt: 2 }}>
-     <VideoEmbed/>
-    </Grid>
+          <VideoEmbed />
+        </Grid>
+        <Grid item xs={12} display="flex" justifyContent="flex-end">
+          <Box sx={{ textAlign: 'right', mt: -1, mr: 10 }}>
+            <a
+              href="/videos"
+              ref={videoLinkRef}
+              className={isVideoJiggling ? 'jiggle' : ''}
+              style={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
+            >
+              <Typography variant="body1" sx={{ marginTop: '10px',fontSize: '1rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
+                VIEW ALL VIDEOS
+              </Typography>
+              <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
+            </a>
+          </Box>
+        </Grid>
         <Grid item xs={12}>
           <TextReveal text="JACKIE'S WEEKLY TOP 3" />
           <ReviewFavorites />
@@ -120,13 +159,12 @@ function HomePage() {
         </Grid>
         <Grid item xs={12}>
           <div
-          style = {{
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            alignItems: 'center',
-           
-          }}
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              alignItems: 'center',
+            }}
           ></div>
           <AdSenseAd />
         </Grid>

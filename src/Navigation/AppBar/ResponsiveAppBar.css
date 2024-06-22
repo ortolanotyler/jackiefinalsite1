@@ -1,21 +1,51 @@
 @keyframes jiggle {
-    0%, 100% {
-      transform: translateX(0);
-    }
-    25% {
-      transform: translateX(-2px);
-    }
-    50% {
-      transform: translateX(2px);
-    }
-    75% {
-      transform: translateX(-2px);
-    }
+  0%, 100% {
+    transform: translateX(0);
   }
-  
-  .jiggle-button:hover {
-    animation: jiggle 0.5s;
+  25% {
+    transform: translateX(-2px);
   }
+  50% {
+    transform: translateX(2px);
+  }
+  75% {
+    transform: translateX(-2px);
+  }
+}
+
+.jiggle-button:hover {
+  animation: jiggle 0.5s;
+}
+
+/* Add media queries for button resizing */
+@media (max-width: 1200px) {
+  .responsive-button {
+    padding: 0.4rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .responsive-button {
+    padding: 0.3rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-button {
+    padding: 0.2rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .responsive-button {
+    padding: 0.1rem;
+    font-size: 0.6rem;
+  }
+}
+
 
   
   

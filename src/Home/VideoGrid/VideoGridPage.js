@@ -68,108 +68,104 @@ const VideoGrid = ({ videos }) => {
 const videos = [
   {
     src: "https://www.youtube.com/embed/Uz03ReLZO9k?si=zWnzPrrt4i10KSxF&controls=0",
-    route: "/tutorials/tutorial1",
+    route: "/VictoriaSecret",
     title: "Victoria's Secret 2014",
   },
   {
     src: "https://www.youtube.com/embed/eLreMotKEs?si=d0tn8Jgb1chN0M7K&controls=0",
-    route: "/tutorials/tutorial14",
+    route: "/NewZealand",
     title: "Aukland, New Zealand Vlog",
   },
   {
     src: "https://www.youtube.com/embed/JfaND9n9ZCU?si=9TIoFI26SS-0MNEL&controls=0",
-    route: "/tutorials/tutorial2",
+    route: "/margotbarbie",
     title: "Barbie Movie Transformation ",
   },
   {
     src: "https://www.youtube.com/embed/4lDCreVFqAw?si=WGtHQk3zvPwgEIGg&controls=0",
-    route: "/tutorials/tutorial14",
+    route: "/tremblant",
     title: "Mont Tremblant - Experience",
   },
   {
     src: "https://www.youtube.com/embed/EP-PeJSrmf4?si=bClXjPphKQvb2xTX&controls=0",
-    route: "/tutorials/tutorial3",
+    route: "/summerinspo",
     title: "Summer Mermaid Inspo",
   },
   {
     src: "https://www.youtube.com/embed/qIAMUI6Enz0?si=1A1DlK3mnHMKuEzM&controls=0",
-    route: "/tutorials/tutorial14",
+    route: "/princeofwales",
     title: "Prince of Wales - Niagara on the Lake",
   },
   {
     src: "https://www.youtube.com/embed/HtEPH6RUEZg?si=3ZogJFe4CI4N47Bv&controls=0",
-    route: "/tutorials/tutorial4",
+    route: "/2016makeup",
     title: "2016 Makeup Trend Report",
   },
   {
     src: "https://www.youtube.com/embed/hIGr8Gj4kQA?si=ix6en5k_OI8Yfnl3&controls=0",
-    route: "/tutorials/tutorial5",
+    route: "/animalpretty",
     title: "Which Animal Pretty are You?",
   },
 
   {
     src: "https://www.youtube.com/embed/HKvFRr4TINw?si=lzijNWa-xTQg5T9K&controls=0",
-    route: "/tutorials/tutorial14",
+    route: "/westgatesandiego",
     title: "San Diego Vlog - Westgate Hotel Review",
   },
   {
     src: "https://www.youtube.com/embed/Jm0BdU88kr4?si=rwOP344a5iggRhFA&controls=0",
-    route: "/tutorials/tutorial6",
+    route: "/lattemakeup",
     title: "Latte Makeup Trend Report",
   },
   {
     src: "https://www.youtube.com/embed/IIjMH5bnq8k?si=0lmEUzxvqxklqQGt&controls=0",
-    route: "/tutorials/tutorial7",
+    route: "/nomakeupspring",
     title: "No-Makeup Makeup for Spring",
   },
   {
     src: "https://www.youtube.com/embed/ec7hauzrWWk?si=CBstnk9Qg_GA_zsU&controls=0",
-    route: "/tutorials/tutorial14",
+    route: "/andazmaui",
     title: "Hawaii Vlog - Andaz Maui Review",
    
   },
   {
     src: "https://www.youtube.com/embed/Vy6e7k5uur8?si=VD4AKjlFGG2a2zWA&controls=0",
-    route: "/tutorials/tutorial9",
+    route: "/sugarplumfairy",
     title: "Sugar Plum Fairy : Trend Report",
   },
   
   {
     src: "https://www.youtube.com/embed/7HoL0rVmZHI?si=B_MIAH9V9p6JdfDH&controls=0",
-    route: "/tutorials/tutorial10",
+    route: "/balkeblog",
     title: "Iconic '60s Makeup",
   },
 
   {
     src: "https://www.youtube.com/embed/t1jJtpsxes4?si=yl1r_b5PO2WIFfqp&controls=0",
-    route: "/tutorials/tutorial12",
-    title: "Sharon Tate's Iconic Glam",
+    route: "/iconicsharon",
+    title: "Sharon Tate's Bohemian Glam",
   },
   {
     src: "https://www.youtube.com/embed/y0vHs6pRC3Y?si=-k-v_z_svdlmbVabF&controls=0",
-    route: "/tutorials/tutorial13",
-    title: "Sharon Tate's Bridal Makeup",
+    route: "/sharontatebridal",
+    title: "'60s Bridal Makeup",
   },
   {
-    src: "https://www.youtube.com/embed/Uz03ReLZO9k?si=zWnzPrrt4i10KSxF&controls=0",
-    route: "/tutorials/tutorial14",
+    src: "https://www.youtube.com/embed/o8_dfwGNXAc?si=wfl-Ifco4LYCE3wX&controls=0",
+    route: "/sophialoren",
     title: "Sophia Loren : Time Travel Tutorials",
   },
   {
-    src: "https://www.youtube.com/embed/Uz03ReLZO9k?si=zWnzPrrt4i10KSxF&controls=0",
-    route: "/tutorials/tutorial14",
+    src: "https://www.youtube.com/embed/OrlZinEp4AI?si=SdYhsCHSFYaML5bV&controls=0",
+    route: "/yardley1965",
     title: "Yardley 1965: Recreating the Iconic Ad",
   },
   {
-    src: "https://www.youtube.com/embed/Uz03ReLZO9k?si=zWnzPrrt4i10KSxF&controls=0",
-    route: "/tutorials/tutorial14",
-    title: "Twiggy Transformation",
+    src: "https://www.youtube.com/embed/1WPhwXOdSSw?si=g9tKrR3NT4ybB5vL&controls=0",
+    route: "/twiggy",
+    title: "Twiggy MOD",
   },
-  {
-    src: "https://www.youtube.com/embed/Uz03ReLZO9k?si=zWnzPrrt4i10KSxF&controls=0",
-    route: "/tutorials/tutorial14",
-    title: "TRAVEL",
-  },
+
   // Add more videos as needed
 ];
 

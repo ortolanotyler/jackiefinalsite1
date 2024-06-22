@@ -66,12 +66,9 @@ const TwiggyBlog = () => {
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/1WPhwXOdSSw?si=rk3Kj1nEi1rXYMsr" title="Jackie Wyers Twiggy Blue Mod Eyeshadow Youtube Tutorial" />
 
-      <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <SubscribeButton />
-      </div>
-
+     
       <div>
-        <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+        <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '1em', maxWidth: '100%', fontStyle: 'italic' }}>
           All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
         </p>
       </div>
