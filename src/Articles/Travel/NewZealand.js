@@ -92,7 +92,7 @@ const NewZealand = () => {
     const blogContent = (
         <div className="container">
             <Helmet>
-                <title>Andaz Maui Review | Luxury Resort Experience</title>
+                <title>New Zealand | Aukland Vlog and Experience</title>
                 <meta name="description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
                 <script>
@@ -107,7 +107,7 @@ const NewZealand = () => {
             </Helmet>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
-                    TRAVEL // HOTEL REVIEWS
+                    TRAVEL // ITINERARIES
                 </a>
             </div>
             <img src={title} alt="Andaz Maui Title" style={{ width: '100%' }} />

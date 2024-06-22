@@ -9,7 +9,7 @@
   font-family: 'GFS Didot', serif !important;
   text-transform: none;
   display: block;
-  background-color: white;
+  background-color: #fdedef;
   color: #745B4F;
   font-size: 20px;
   text-align: left;
@@ -20,6 +20,7 @@
 
 .sidebarTypography {
   font-family: 'GFS Didot', serif !important;
+  font-size: 25px;
   color: #745B4F;
   font-weight: bold;
   text-align: left; /* Ensure text inside Typography is left aligned */
@@ -37,7 +38,7 @@
   }
 
   .sidebarButton {
-    font-size: 1rem;
+    font-size: 25px;
     padding: 1.5rem 1rem;
   }
 }
