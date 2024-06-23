@@ -53,7 +53,7 @@ const VideoGrid = ({ videos }) => {
             </Grid>
             {(index + 1) % 4 === 0 && (
               <Grid item xs={12}>
-                <Box p={2} sx={{ backgroundColor: 'white', borderRadius: '8px', boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)', mt: 3 }}>
+                <Box p={2} sx={{ backgroundColor: '#fdedef', borderRadius: '8px', boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)', mt: 3 }}>
                   <AdSenseAd />
                 </Box>
               </Grid>
