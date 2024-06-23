@@ -99,7 +99,7 @@ const NewZealand = () => {
         margin: '1rem 1.5rem',
         marginTop: '1rem',
         marginBottom: '1rem',
-        maxWidth: '500px',
+        maxWidth: '600px',
         lineHeight: '1.75',
         marginLeft: 'auto',
         marginRight: 'auto',
@@ -186,11 +186,9 @@ I came across the Hello Kitty Café in Vancouver, which was adorable, and I shop
 
             <div style={gridContainerStyle}>    
             <img src={images[3]} alt="Maui room 4" style={imageStyle} />
-
                 <img src={images[4]} alt="Maui room 4" style={imageStyle} />
                 <img src={images[5]} alt="Maui room 4" style={imageStyle} />
                 <img src={images[6]} alt="Maui room 4" style={imageStyle} />
-
                 
             </div>
            
@@ -208,12 +206,18 @@ style = {{
             <h2 style={headingStyle}>🛍 Day One: Shopping and Beating Jet lag</h2>
             <p style={paragraphStyle}>
             We landed in the morning and, after freshening up, we walked around Queen Street. There’s a beautiful mall atrium on Elliot Street across from the central square we explored. We were looking for a couple of items from the drugstore and checked out Life Pharmacy, Farmers, and Chemist Warehouse, New Zealand’s version of Shopper’s Drug Mart from Canada, and CVS in the US. I fell in love with some local shops like Creative & Brave and found so many earthy jewelry pieces with a fairy-like vibe, which is my favorite. We walked down to see the waterfront and got familiar with our new home for the week.
-            
+            <div style={gridContainerStyle}>    
+                <img src={images[7]} alt="Maui market" style={imageStyle} />
+                <img src={images[8]} alt="Maui market 2" style={imageStyle} />
+            </div>
             
             <p style={paragraphStyle}>
 Chemist Warehouse was a bit overwhelming with so many products packed in there, but I did pick up a couple of McoBeauty items, an Australian brand known for duping Charlotte Tilbury!
 </p>
-
+<div style={gridContainerStyle}>    
+                <img src={images[9]} alt="Maui market" style={imageStyle} />
+                <img src={images[10]} alt="Maui market 2" style={imageStyle} />
+            </div>
 <p style={paragraphStyle}>
 
 We ate at Cooke’s Restaurant at the hotel once we got back from our day shopping. I had the best cappuccino I’ve ever had in my life along with pumpkin ravioli, and my mom had the fish of the day. Both were amazing! Throughout our trip, we did not have one mediocre meal. Everything tasted fresh, and the presentation at cafes and restaurants was top-tier.
@@ -222,6 +226,13 @@ We ate at Cooke’s Restaurant at the hotel once we got back from our day shoppi
 
 After forcing ourselves to stay up as long as possible, we had a great night’s sleep and were ready for day two!            </p>
      </p>
+
+<div style={gridContainerStyle}>    
+                <img src={images[11]} alt="Maui market" style={imageStyle} />
+                <img src={images[12]} alt="Maui market 2" style={imageStyle} />
+            </div>
+
+
 
 
 
@@ -273,10 +284,7 @@ style = {{
 
   <AdSenseAd/>
 </div>
-            <div style={gridContainerStyle}>    
-                <img src={images[6]} alt="Maui market" style={imageStyle} />
-                <img src={images[7]} alt="Maui market 2" style={imageStyle} />
-            </div>
+       
             <h2 style={headingStyle}>👗 Day Three: Little & Friday in Ponsonby</h2>
             
 
