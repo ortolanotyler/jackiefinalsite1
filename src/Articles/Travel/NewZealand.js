@@ -160,8 +160,8 @@ world! I stayed at a whimsical hotel called Fable Auckland on Queen Street, and 
 
 
 <p style={paragraphStyle}>
-    <div style = {{textAlign: 'center'}}>
-    <a href="/fableaukland"> Fable Auckland Review</a>
+    <div style = {{textAlign: 'center', fontSize: '2rem'}}>
+    <a href="/fableaukland" style = {{fontSize: '2rem'}}> Fable Auckland Review</a>
 
     </div>
 </p>

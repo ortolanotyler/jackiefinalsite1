@@ -118,24 +118,14 @@ const Fable = () => {
                 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
             <DropCap text={`Welcome back for a special hotel review of the enchanting Fable Auckland on Queen Street in Auckland, New Zealand. My mom and I embarked on a mother-daughter trip to explore the city and have a dream bridal appointment at Natalie Rose Bridal in Parnell. To see everything we got up to during the week, check out my travel diary/ itinerary at the link below as well as my vlog (it’s a fun one!👰 ).`} />
-<div
-style = {{
-    textAlign: 'center',
-}}
-> 
-<a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.25 em', color: 'black', textDecoration: 'none' }}>
-            New Zealand Experience Here!
-            </a>
-</div>
-           
-            <div
-style = {{
-  margin : '20px'
-}}
->
 
-  <AdSenseAd/>
-</div>
+<p style={paragraphStyle}>
+    <div style = {{textAlign: 'center', fontSize: '2rem'}}>
+    <a href="/newzealand" style = {{fontSize: '2rem'}}> New Zealand Experience Here!</a>
+
+    </div>
+</p>
+          
           
 
             <h2 style={headingStyle}> 🌟 First Impressions and Ambiance</h2>
@@ -147,6 +137,14 @@ style = {{
                 <img src={images[0]} alt="Maui room 1" style={imageStyle} />
                 <img src={images[1]} alt="Maui room 2" style={imageStyle} />
             </div>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}> 🫖 Room Options and Accommodations</h2>
             <p style={paragraphStyle}>
          
@@ -175,6 +173,14 @@ The on-site restaurant, Cooke's, offers exceptional dining experiences, with a f
                 <img src={images[6]} alt="Maui room 1" style={imageStyle} />
                 <img src={images[7]} alt="Maui room 2" style={imageStyle} />
             </div>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
 
 <h2 style={headingStyle}>      
     💵 Cost Considerations: Pros and Cons
@@ -217,6 +223,7 @@ the best we've ever had. The restaurant's elegant setting and diverse menu made 
             Fable Auckland's location on Queen Street is ideal for exploring the city. The hotel is close to the ferry terminal, providing easy access to nearby islands like <strong> Waiheke </strong>. The area feels very safe and is bustling with amazing shops, including unique stores from Australia and New Zealand like Peter Alexander, Mecca, Ruby, as well as North American favourites like Sephora.
 
             </p>
+            
 
 
 <div style={gridContainerStyle}>
@@ -225,6 +232,14 @@ the best we've ever had. The restaurant's elegant setting and diverse menu made 
                 <img src={images[12]} alt="Maui room 1" style={imageStyle} />
                 <img src={images[13]} alt="Maui room 2" style={imageStyle} />
             </div>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
 
          <p style={paragraphStyle}>
          Major attractions like the Auckland Zoo, Winter Gardens, Auckland Museum, and Mount Eden are all about 15 minutes away by uber, making it easy to explore the best of what Auckland has to offer.
@@ -272,7 +287,7 @@ Thank you for joining me to see the enchanting Fable Auckland. I’d love to hea
         <a href="/newzealand" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
           <img src={aukland} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
           FULL AUCKLAND EXPERIENCE →
-        </a>
+        </a> 
       </div>
 
 <div style={gridContainerStyle}>
