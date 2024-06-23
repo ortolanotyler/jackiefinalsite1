@@ -3,7 +3,8 @@
   margin: auto;
   padding: 10px;
   text-align: center;
-  background-color: #fff;
+  background-color: #fdedef;
+  margin-bottom: 25px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

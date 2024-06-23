@@ -25,8 +25,9 @@ const ReviewFavorites = () => {
           style={{
            
             width: '100%',
-            minHeight: '490px',
+            minHeight: '350px',
             border: 'none',
+            marginTop: '10px',
             overflow: 'hidden',
           }}
           className="review-favorites-iframe"
@@ -41,7 +42,7 @@ const ReviewFavorites = () => {
           style={{
            
             width: '100%',
-            minHeight: '370px',
+            minHeight: '350px',
             border: 'none',
             overflow: 'hidden',
           }}
@@ -57,7 +58,7 @@ const ReviewFavorites = () => {
           style={{
             
             width: '100%',
-            minHeight: '370px',
+            minHeight: '300px',
             border: 'none',
             overflow: 'hidden',
           }}

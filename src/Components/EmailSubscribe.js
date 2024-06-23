@@ -64,7 +64,7 @@ export default function EmailSubscribe() {
   };
 
   return (
-    <Box display="flex" justifyContent="center" alignItems="center" width="100%" height="100vh">
+    <Box display="flex" justifyContent="center" alignItems="center" width="100%" height="50vh">
       <Grid container spacing={3} alignItems="center" justifyContent="center" sx={{ ml: '10px', mt: '10px', maxWidth: '800px', width: '100%' }}>
         {isSubmitted ? (
           <Grid item xs={12}>
