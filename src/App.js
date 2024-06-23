@@ -72,6 +72,8 @@ import DiaryPost1Fillers from './Articles/Tutorials/VintageVibes/DiaryFillers';
 import SummerInspo from './Articles/Tutorials/PopCulture/SummerInspo';
 import VideoGridPage from './Home/VideoGrid/VideoGridPage';
 import NewZealand from './Articles/Travel/NewZealand';
+import Fable from './Articles/Travel/Fable';
+import SummerBeauty from './Articles/Tutorials/PopCulture/SummerBeauty';
 
 function usePageTracking() {
   const location = useLocation();
@@ -164,7 +166,9 @@ function App() {
           <Route path="darkflorals" element={<DarkFlorals />} />
           <Route path="summerinspo" element={<SummerInspo />} />
           <Route path="videos" element={<VideoGridPage />} />
-          <Route path="newzealand" element={<NewZealand/>}/>
+          <Route path="newzealand" element={<NewZealand />} />
+          <Route path="fableaukland" element={<Fable />} />
+          <Route path="summerbeauty" element={<SummerBeauty />} />
 
 
           <Route path="*" element={<h1>404 Not Found</h1>} />

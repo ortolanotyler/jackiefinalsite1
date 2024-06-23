@@ -11,6 +11,7 @@ const westgate = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/
 const prince = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWalesthumbnail.jpeg`;
 
 const articles = [
+  
     {
         date: '04/15/2024',
         title: 'Prince of Wales at Niagara on the Lake',

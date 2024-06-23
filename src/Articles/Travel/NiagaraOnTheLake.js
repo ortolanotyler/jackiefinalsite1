@@ -39,7 +39,7 @@ const images = [
     `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI24.JPG`
 ];
 
-const signature1 = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
     <div>
@@ -272,16 +272,8 @@ style = {{
                 <BookNowButton href="https://plannin.com/en/hotel/f7ed1125-3205-4916-881e-e865acca3608?refId=jackiewyers" target="_blank" rel="noopener noreferrer"/>
             </div>
             
-            <img src={images[25]} alt="Signature" style={{ width: '100%' }} />
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
-            <Comments website-id={websiteId} page-id={"andaz-maui-review"} />
+            <img src={signature} alt="Signature" style={{ width: '100%' }} />
+            <Comments website-id={websiteId} pageId={"andaz-maui-review"} />
         </div>
     );
 

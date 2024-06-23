@@ -5,6 +5,19 @@
   box-sizing: border-box;
 }
 
+strong {
+  font-weight: 600;
+}
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #333; /* Optional: add a hover effect */
+  text-decoration: underline;
+}
+
 body {
   margin: 0; /* Reset margin */
   padding: 1rem;
