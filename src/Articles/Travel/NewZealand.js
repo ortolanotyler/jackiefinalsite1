@@ -76,6 +76,7 @@ const images = [
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/NewZealandTitle.png`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+const fable = `${process.env.PUBLIC_URL}/Images/Articles/Fable/FableAucklandThumbnail.jpg`;
 
 const Card = ({ blogContent }) => (
     <div>
@@ -105,7 +106,7 @@ const NewZealand = () => {
         margin: '1rem 1.5rem',
         marginTop: '1rem',
         marginBottom: '1rem',
-        maxWidth: '600px',
+        maxWidth: '900px',
         lineHeight: '1.75',
         marginLeft: 'auto',
         marginRight: 'auto',
@@ -472,7 +473,7 @@ It was really well-kept, and on our way back to the city for dinner, we came acr
 
 <p style={paragraphStyle}>
 
-For dinner, I came across Ortolana’s on Tyler Street and my husband’s name is literally Tyler Ortolano. One letter off! I thought it was fate and needed to go. It was an Italian restaurant with fresh food, and you could see them cooking in the kitchen, creating beautiful fresh dishes. The restaurant is located in the Britomart area, and it was all lit up, a beautiful area for a lovely dinner.
+For dinner, I came across Ortolana’s on Tyler Street and my husband’s name is literally one letter off. I thought it was fate and needed to go. It was an Italian restaurant with fresh food, and you could see them cooking in the kitchen, creating beautiful fresh dishes. The restaurant is located in the Britomart area, and it was all lit up, a beautiful area for a lovely dinner.
             </p>
             
             <div style={gridContainerStyle}>    
@@ -480,6 +481,7 @@ For dinner, I came across Ortolana’s on Tyler Street and my husband’s name i
             <img src={images[45]} alt="Maui market 2" style={imageStyle} />
 
             </div>
+
     
          
            
@@ -565,6 +567,12 @@ Let me know below if you have any places that you think I should travel to next.
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
                 <BookNowButton href="https://plannin.com/en/hotel/f776fea4-a8ec-41f7-bd2f-2830ca7b615e?currency=USD" target="_blank" rel="noopener noreferrer"/>
             </div>
+            <div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <a href="/fable" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={fable} alt="FABLE AUCKLAND HOTEL REVIEW" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          FABLE AUCKLAND HOTEL REVIEW →
+        </a> 
+      </div>
             <div
 style = {{
   margin : '20px'

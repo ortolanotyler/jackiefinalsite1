@@ -38,6 +38,7 @@ const images = [
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Fable/FableTitle.png`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+const aukland =  `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/NZThumbnail.jpg`;
 
 const Card = ({ blogContent }) => (
     <div>
@@ -67,7 +68,7 @@ const Fable = () => {
         margin: '1rem 1.5rem',
         marginTop: '1rem',
         marginBottom: '1rem',
-        maxWidth: '600px',
+        maxWidth: '900px',
         lineHeight: '1.75',
         marginLeft: 'auto',
         marginRight: 'auto',
@@ -266,6 +267,13 @@ Our stay at Fable Auckland was unforgettable, combining modern elegance with the
 Thank you for joining me to see the enchanting Fable Auckland. I’d love to hear about your experiences or any recommendations you might have! Feel free to leave a comment below or connect with me on social media. For more travel insights and adventures, stay tuned to my blog and YouTube channel!
 
 </p>
+
+<div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <a href="/newzealand" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={aukland} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          FULL AUCKLAND EXPERIENCE →
+        </a>
+      </div>
 
 <div style={gridContainerStyle}>
 

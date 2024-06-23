@@ -92,7 +92,7 @@ style = {{
           <img src={image1} alt="Pheobe Tonkin" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '5rem', maxWidth: '100%', fontStyle: 'italic' }}>
+      <p style={{ textAlign: 'center', fontSize: '1.25rem', fontFamily: 'Arapey, sans-serif', margin: '0.5rem', marginBottom: '1rem', maxWidth: '100%', fontStyle: 'italic' }}>
       Original Makeup by Barbara Daly and Hair Design by Leonard George from 'The Blue Lagoon,' recreation by Jackie
       Wyers. </p>
       <p style={paragraphStyle}>
@@ -103,7 +103,7 @@ makeup look. Embrace the island vibe with a tan, minimal sun-kissed
 makeup, and a touch of sea salt spray to enhance natural sea swept texture.
 Dive into the full makeup and hair tutorial inspired by Brooke on my
 channel, my <a href='https://www.youtube.com/watch?v=yC8Sf9U3Aww&list=PL-_qSuEl3UwH4UEWC4LNUSi6a3y_oVmDB'>most viewed tutorial!</a> And for a nostalgic throwback, check out
-my very first attempt at creating this iconic style <a href='https://www.youtube.com/watch?v=yC8Sf9U3Aww&list=PL-_qSuEl3UwH4UEWC4LNUSi6a3y_oVmDB'> here.</a>✨    </p>
+my very first attempt at creating this iconic style <a href='https://www.youtube.com/watch?v=yC8Sf9U3Aww&list=PL-_qSuEl3UwH4UEWC4LNUSi6a3y_oVmDB'> here.</a> 🌴 ✨   </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/619257?noHeader=true" title="Shop My Victoria's Secret Favorites" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
@@ -119,7 +119,7 @@ my very first attempt at creating this iconic style <a href='https://www.youtube
           <img src={image2} alt="Pheobe Tonkin" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '5rem', maxWidth: '100%', fontStyle: 'italic' }}>
+      <p style={{ textAlign: 'center', fontSize: '1.25rem', fontFamily: 'Arapey, sans-serif', margin: '0.5rem', marginBottom: '1rem', maxWidth: '100%', fontStyle: 'italic' }}>
       Original Makeup by Pati Dubroff and Hair Design by Bryce Scarlett from 'The Barbie Movie,' recreation by
       Jackie Wyers.  </p>
       <p style={paragraphStyle}>
@@ -147,7 +147,7 @@ wearable summer hairstyles for a beach Barbie <a href='https://www.youtube.com/w
           <img src={image3} alt="Pheobe Tonkin" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '5rem', maxWidth: '100%', fontStyle: 'italic' }}>
+      <p style={{ textAlign: 'center', fontSize: '1.25rem', fontFamily: 'Arapey, sans-serif', margin: '0.5rem', marginBottom: '1rem', maxWidth: '100%', fontStyle: 'italic' }}>
       Original Makeup by Aurélie Payen and Hair Design by Mike Desir from 'Emily In Paris,' recreation
       by Jackie Wyers.   </p>
       <p style={paragraphStyle}>
@@ -156,7 +156,7 @@ waves paired with a beret, or a sleek bun for summer events. Instead of nomakeup
 flair. Euro-girl summer with an eclectic touch screams 'Emily In Paris,' and I
 can’t wait for the next season! Explore <a href='https://www.youtube.com/watch?v=b_e98iV-TdM&t=4s'>  my tutorial </a> on getting Emily's
 Parisian chic look, perfect for any summer outing… especially if you are
-visiting France!   
+visiting France 🇫🇷!   
    </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/619267?noHeader=true" title="Shop My Victoria's Secret Favorites" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
@@ -172,7 +172,7 @@ visiting France!
           <img src={image4} alt="Pheobe Tonkin" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '5rem', maxWidth: '100%', fontStyle: 'italic' }}>
+      <p style={{ textAlign: 'center', fontSize: '1.25rem', fontFamily: 'Arapey, sans-serif', margin: '0.5rem', marginBottom: '1rem', maxWidth: '100%', fontStyle: 'italic' }}>
       Original Character Design by Iginio Straffi and Animation by Rainbow S.p.A. from 'Winx Club,' recreation
 by Jackie Wyers.   </p>
       <p style={paragraphStyle}>
@@ -196,7 +196,7 @@ you're part of the Winx Club. (This was a private video for a while, <a href='ht
           <img src={image5} alt="Pheobe Tonkin" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '5rem', maxWidth: '100%', fontStyle: 'italic' }}>
+      <p style={{ textAlign: 'center', fontSize: '1.25rem', fontFamily: 'Arapey, sans-serif', margin: '0.5rem', marginBottom: '1rem', maxWidth: '100%', fontStyle: 'italic' }}>
       Original Makeup by Jennifer Lamphee and Hair Design by Kylie Clarke from 'H2O: Just Add Water,' Season
       3, recreation by Jackie Wyers.   </p>
       <p style={paragraphStyle}>
@@ -205,7 +205,7 @@ The Y2K hairstyles from the show were simple, yet fun—and a personal
 favorite episode and hairstyle was when Cleo was a bridesmaid. Her first
 hairstyle really captured a 2000s beachy vibe and was very nostalgic to
 recreate with two braids, a bun, and floral pins. Dive into the full makeup
-and hair <a href='https://www.youtube.com/watch?v=0hVDAw6TznU&t=659s'> tutorial series </a> inspired by Cleo on my channel!
+and hair <a href='https://www.youtube.com/watch?v=0hVDAw6TznU&t=659s'> tutorial series</a> inspired by Cleo on my channel!
    </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/619285?noHeader=true" title="Shop My Victoria's Secret Favorites" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
@@ -220,11 +220,14 @@ and hair <a href='https://www.youtube.com/watch?v=0hVDAw6TznU&t=659s'> tutorial 
           <img src={image6} alt="Pheobe Tonkin" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '5rem', maxWidth: '100%', fontStyle: 'italic' }}>
+      <p style={{ textAlign: 'center', fontSize: '1.25rem', fontFamily: 'Arapey, sans-serif', margin: '0.5rem', marginBottom: '1rem', maxWidth: '100%', fontStyle: 'italic' }}>
+     
+Original Makeup by Stacy Butterworth and Hair Design by Ann Minahan from 'Outer Banks,' recreation by Jackie Wyers.   </p>
+      <p style={paragraphStyle}>
       Capture the adventurous and carefree style of Madison Bailey's Kiara from
 'Outer Banks' with her messy bun and thick headband for a laid-back vibe. I
 covered several more effortless styles from her character, with natural waves,
-braids, and a touch of bronzer for that summer glow. Explore my step-bystep <a href='https://www.youtube.com/watch?v=Gk1OQ5D8Uwg&t=1s'> tutorial </a> on getting Kiara's summer-ready hair and makeup over on
+braids, and a touch of bronzer for that summer glow. Explore my step-bystep <a href='https://www.youtube.com/watch?v=Gk1OQ5D8Uwg&t=1s'> tutorial</a> on getting Kiara's summer-ready hair and makeup over on
 YouTube  </p>
    
       <ResponsiveIframe src="https://shopmy.us/collections/public/619322?noHeader=true" title="Shop My Victoria's Secret Favorites" />
@@ -233,7 +236,7 @@ YouTube  </p>
       </p>
 
       <h2 style={headingStyle}>
-      A Final Note </h2>
+      A Final Note 🌊 </h2>
 
       <p style={paragraphStyle}>
       Embrace summer with these character-inspired hair, makeup, and style
