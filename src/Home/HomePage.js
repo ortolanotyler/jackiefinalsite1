@@ -17,7 +17,6 @@ import SiteExplorerBeyond from './SiteExplorerBeyond';
 import LifestyleFavorites from './LifestyleFavorites';
 import ShopMyHero2 from './ShopMyHero2';
 import { Helmet } from 'react-helmet';
-import AdSenseAd from '../Advertising/Ads';
 import VideoEmbed from './VideoEmbed';
 
 function HomePage() {
@@ -157,16 +156,7 @@ function HomePage() {
           <TextReveal text="🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊" style={{ backgroundColor: 'white' }}  />
           <Quiz2 />
         </Grid>
-        <Grid item xs={12}>
-          <div
-            style={{
-           
-              justifyContent: 'center',
-            
-            }}
-          ></div>
-          <AdSenseAd />
-        </Grid>
+       
       
         <Grid item xs={12}>
           <TextReveal text='PERFUME PROFILES' />
