@@ -27,6 +27,13 @@ const Sitemap = () => {
         { path: "/vintagevibesmerch", title: "Vintage Vibes Merchandise" },
         { path: "/90sVibes", title: "90s Vibes" },
         { path: "/leatherandlace", title: "Leather and Lace" },
+        { path: "/retrofloral", title: "Retro Floral" },
+        { path: "/barbieskiing", title: "Barbie Skiing" },
+        { path: "/blackandleather", title: "Black and Leather" },
+        { path: "/cabinfever", title: "Cabin Fever" },
+        { path: "/manhattancool", title: "Manhattan Cool" },
+        { path: "/falllbd", title: "Fall LBD" },
+        { path: "/darkflorals", title: "Dark Florals" },
     ];
 
     const siteResources = [
@@ -47,12 +54,14 @@ const Sitemap = () => {
     const travelPosts = [
         { path: "/travel", title: "Travel Home" },
         { path: "/tremblant", title: "Mont Tremblant Ski Trip" },
-        { path: "/hotelq", title: "Hotel Quintessence Luxury Review" },
+        { path: "/hotelQ", title: "Hotel Quintessence Luxury Review" },
         { path: "/disneybeachclubresort", title: "Walt Disney World Beach Club Resort Review" },
         { path: "/epcot", title: "Walt Disney World EPCOT Review" },
         { path: "/westgatesandiego", title: "West Gate San Diego Luxury Review" },
         { path: "/andazmaui", title: "Andaz Maui Luxury Review" },
         { path: "/princeofwales", title: "Prince of Wales Luxury Review" },
+        { path: "/newzealand", title: "New Zealand Travel Blog" },
+        { path: "/fable", title: "Fable Auckland Review" },
     ];
 
     const reviewPosts = [
@@ -60,6 +69,13 @@ const Sitemap = () => {
         { path: "/bonbonreview", title: "Bon Bon Viktor & Rolf Review" },
         { path: "/halfetireview", title: "Halfeti Penhaligon's Review" },
         { path: "/jickyreview", title: "Jicky Guerlain Review" },
+    ];
+
+    const additionalPosts = [
+        { path: "/videos", title: "Video Grid Page" },
+        { path: "/summerbeauty", title: "Summer Beauty" },
+        { path: "/bridesmaidboxes", title: "Diary Bridesmaids" },
+        { path: "/latestexplorer", title: "Latest Explorer" },
     ];
 
     return (
@@ -117,6 +133,14 @@ const Sitemap = () => {
                 <h2 className={`${styles.heading} ${styles.subHeading}`}>MyStyle</h2>
                 <ul className={styles.list}>
                     {stylePosts.map((post, index) => (
+                        <li key={index} className={styles.listItem}>
+                            <Link to={post.path} className={styles.link}>{post.title}</Link>
+                        </li>
+                    ))}
+                </ul>
+                <h2 className={`${styles.heading} ${styles.subHeading}`}>Additional Posts</h2>
+                <ul className={styles.list}>
+                    {additionalPosts.map((post, index) => (
                         <li key={index} className={styles.listItem}>
                             <Link to={post.path} className={styles.link}>{post.title}</Link>
                         </li>
