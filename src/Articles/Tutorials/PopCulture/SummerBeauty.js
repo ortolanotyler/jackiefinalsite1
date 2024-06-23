@@ -110,7 +110,14 @@ my very first attempt at creating this iconic style <a href='https://www.youtube
         CONTAINS: AFFILIATE LINKS
       </p>
 
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
 
       <h2 style={headingStyle}>
       Margot Robbie as Barbie - ‘The Barbie Movie’</h2>
@@ -136,7 +143,14 @@ wearable summer hairstyles for a beach Barbie <a href='https://www.youtube.com/w
         CONTAINS: AFFILIATE LINKS
       </p>
 
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
 
 
 
@@ -162,7 +176,14 @@ visiting France 🇫🇷!
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
 
 
       <h2 style={headingStyle}>
@@ -188,7 +209,14 @@ you're part of the Winx Club. (This was a private video for a while, <a href='ht
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>
       Phoebe Tonkin as Cleo - ‘H2O: Just Add Water’</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -211,7 +239,14 @@ and hair <a href='https://www.youtube.com/watch?v=0hVDAw6TznU&t=659s'> tutorial 
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
 
       <h2 style={headingStyle}>
       Madison Bailey as Kiara from 'Outer Banks'</h2>
@@ -234,7 +269,14 @@ YouTube  </p>
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>
       A Final Note 🌊 </h2>
 
@@ -265,7 +307,14 @@ reading, and I hope you’re summer is filled with happy memories.
       <div>
         <img src={signature} alt="Signature" style={{ width: '100%' }} />
       </div>
-      
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       <div
 style = {{
   margin : '20px'
