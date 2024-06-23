@@ -13,7 +13,6 @@ const TravelArticlesHome = () => {
                 <meta name="description" content="Explore travel articles and guides by Jackie Wyers. Find inspiration for your next travel destination." />
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
             </Helmet>
-            <TextReveal text="TRAVEL" />
             <div
                 style={{
                     marginTop: '1rem',

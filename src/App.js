@@ -167,7 +167,7 @@ function App() {
           <Route path="summerinspo" element={<SummerInspo />} />
           <Route path="videos" element={<VideoGridPage />} />
           <Route path="newzealand" element={<NewZealand />} />
-          <Route path="fableaukland" element={<Fable />} />
+          <Route path="fable" element={<Fable/>} />
           <Route path="summerbeauty" element={<SummerBeauty />} />
 
 

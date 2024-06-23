@@ -16,7 +16,7 @@ const articles = [
         date: '06/20/2024',
         title: 'Fable Aukland | New Zealand',
         image: fable,
-        path: '/fableauckland',
+        path: '/fable',
     },
   
     {

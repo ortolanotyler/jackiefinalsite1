@@ -13,8 +13,15 @@ const image9 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/SQUAREMARG
 const nomakeup = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
 const animalpretty = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.jpg`;
 const summerinspo = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/mermaidthumbnail.jpg`;
+const summerbeauty = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/BlueLagoonThumbnail.jpg`;
 
 const cardsData = [
+  {
+    link: "/summerbeauty",
+    image: summerbeauty,
+    alt: "Summer Beauty",
+    title: "Summer Beauty: Pop Culture Edition 🌴",
+  },
 {
   link: "/SummerInspo",
   image: summerinspo,
