@@ -1,7 +1,7 @@
 .quiz-container {
   max-width: 50%;
   margin: auto;
-  padding: 10px;
+  padding: 30px;
   text-align: center;
   background-color: #fdedef;
   margin-bottom: 25px;
@@ -33,7 +33,7 @@
 
 .answer-button {
   color: white;
-  min-height: 200px;
+  min-height: 250px;
   
   font-size: 16px;
   cursor: pointer;
@@ -68,12 +68,12 @@
 
 @media (max-width: 800px) {
   .quiz-container {
-    margin-top: 20px;
+    margin-top: 10px;
     max-width: 80%;
   }
 
   .answer-button {
-    min-height: 100px;
+    min-height: 120px;
     padding: 15px;
   }
 }

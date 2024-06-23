@@ -25,7 +25,7 @@ const ReviewFavorites = () => {
           style={{
            
             width: '100%',
-            minHeight: '350px',
+            height: '430px',
             border: 'none',
             marginTop: '10px',
             overflow: 'hidden',
@@ -58,7 +58,7 @@ const ReviewFavorites = () => {
           style={{
             
             width: '100%',
-            minHeight: '300px',
+            minHeight: '370px',
             border: 'none',
             overflow: 'hidden',
           }}
