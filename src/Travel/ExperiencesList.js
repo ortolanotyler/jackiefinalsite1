@@ -28,7 +28,7 @@ const articles = [
 
 
     {
-        date: '04/01/2024',
+        date: '06/20/2024',
         title: 'Best of Epcot, Magic Kingdom and Animal Kingdom',
         image: image2,
         path: '/epcot',
