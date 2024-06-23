@@ -14,6 +14,7 @@ const image3 = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/EmilyInPa
 const image4 = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/Flora_.jpg`;
 const image5 = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/H2Hair.jpg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/outerbanks.jpg`;
+const image7 = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/mermaidthumbnail.jpg`;
 
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
@@ -101,8 +102,8 @@ with long, tousled flowing beach waves and a fresh-faced no-makeup
 makeup look. Embrace the island vibe with a tan, minimal sun-kissed
 makeup, and a touch of sea salt spray to enhance natural sea swept texture.
 Dive into the full makeup and hair tutorial inspired by Brooke on my
-channel, my <a href='https://www.youtube.com/watch?v=yC8Sf9U3Aww&list=PL-_qSuEl3UwH4UEWC4LNUSi6a3y_oVmDB'> most viewed tutorial!  </a>And for a nostalgic throwback, check out
-my very first attempt at creating this iconic style <a href='https://www.youtube.com/watch?v=yC8Sf9U3Aww&list=PL-_qSuEl3UwH4UEWC4LNUSi6a3y_oVmDB'> here.  </a>✨    </p>
+channel, my <a href='https://www.youtube.com/watch?v=yC8Sf9U3Aww&list=PL-_qSuEl3UwH4UEWC4LNUSi6a3y_oVmDB'>most viewed tutorial!</a> And for a nostalgic throwback, check out
+my very first attempt at creating this iconic style <a href='https://www.youtube.com/watch?v=yC8Sf9U3Aww&list=PL-_qSuEl3UwH4UEWC4LNUSi6a3y_oVmDB'> here.</a>✨    </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/619257?noHeader=true" title="Shop My Victoria's Secret Favorites" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
@@ -252,8 +253,8 @@ reading, and I hope you’re summer is filled with happy memories.
 
 
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-        <a href="/mermaids" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={image6} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+        <a href="/summerinspo" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={image7} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
           MORE POP CULTURE BEAUTY →
         </a>
       </div>
@@ -270,7 +271,7 @@ style = {{
 
   <AdSenseAd/>
 </div>
-<Comments website-id={websiteId} page-id={"Las-nozzlestronsonberries"} />
+<Comments website-id={websiteId} page-id={"Las-nozzfffflestronsonberries"} />
 
     </div>
   );
