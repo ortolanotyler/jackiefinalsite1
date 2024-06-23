@@ -84,7 +84,7 @@ const videos = [
   {
     src: "https://www.youtube.com/embed/4lDCreVFqAw?si=WGtHQk3zvPwgEIGg&controls=0",
     route: "/tremblant",
-    title: "Mont Tremblant - Experience",
+    title: "Mont Tremblant Ski",
   },
   {
     src: "https://www.youtube.com/embed/EP-PeJSrmf4?si=bClXjPphKQvb2xTX&controls=0",
@@ -94,7 +94,7 @@ const videos = [
   {
     src: "https://www.youtube.com/embed/qIAMUI6Enz0?si=1A1DlK3mnHMKuEzM&controls=0",
     route: "/princeofwales",
-    title: "Prince of Wales - Niagara on the Lake",
+    title: "Prince of Wales - NOTL",
   },
   {
     src: "https://www.youtube.com/embed/HtEPH6RUEZg?si=3ZogJFe4CI4N47Bv&controls=0",
@@ -109,7 +109,7 @@ const videos = [
   {
     src: "https://www.youtube.com/embed/HKvFRr4TINw?si=lzijNWa-xTQg5T9K&controls=0",
     route: "/westgatesandiego",
-    title: "San Diego Vlog - Westgate Hotel Review",
+    title: "San Diego Vlog - Westgate Hotel",
   },
   {
     src: "https://www.youtube.com/embed/Jm0BdU88kr4?si=rwOP344a5iggRhFA&controls=0",
@@ -124,7 +124,7 @@ const videos = [
   {
     src: "https://www.youtube.com/embed/ec7hauzrWWk?si=CBstnk9Qg_GA_zsU&controls=0",
     route: "/andazmaui",
-    title: "Hawaii Vlog - Andaz Maui Review",
+    title: "Hawaii Vlog - Andaz Maui",
   },
   {
     src: "https://www.youtube.com/embed/Vy6e7k5uur8?si=VD4AKjlFGG2a2zWA&controls=0",
@@ -154,7 +154,7 @@ const videos = [
   {
     src: "https://www.youtube.com/embed/OrlZinEp4AI?si=SdYhsCHSFYaML5bV&controls=0",
     route: "/yardley1965",
-    title: "Yardley 1965: Recreating the Iconic Ad",
+    title: "Yardley 1965: Recreating The Ad",
   },
   {
     src: "https://www.youtube.com/embed/1WPhwXOdSSw?si=g9tKrR3NT4ybB5vL&controls=0",
