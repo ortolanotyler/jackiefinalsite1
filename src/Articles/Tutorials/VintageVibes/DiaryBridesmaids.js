@@ -160,6 +160,15 @@ layer over some pretty tissue paper. I chose tissue paper with gold bees to matc
 picture frame with a photo of each of my bridesmaids. These frames look like they are from Anthropologie but are actually from Winners. I’ve linked similar frames below in a similar aesthetic, with different price ranges.
 </p>
 
+<div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+
 <ResponsiveIframe src="https://shopmy.us/collections/public/619621?noHeader=true" title="Shop My Victoria's Secret Favorites" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
@@ -193,6 +202,15 @@ the green and gold theme and had gold flakes and purple flowers floating around 
 6. Jewelry: My entire wedding theme is enchanting and earthy, so I selected jewelry pieces from Fabel England’s Whispering Sands collection. We will be on the coast in Sorrento, and this collection carries beautiful jewelry, fans, accessories, and silk PJs in a nautical aesthetic. Perfect for a summer wedding gift. (Shopmy)
 
 </p>
+
+<div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/619706?noHeader=true" title="Shop My Victoria's Secret Favorites" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
@@ -235,7 +253,14 @@ to mind. I added mini sample sets to each box. These samples are adorable mini v
   CONTAINS: AFFILIATE LINKS
 </p>
 
+<div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
 <p style={paragraphStyle}>
 
 10. Personal Notes: For a card, Rifle Paper Co. or Papyrus has beautiful options. I wrote a
@@ -290,6 +315,15 @@ I hope you got some inspiration from my bridesmaid box, and if you want to see m
       <div>
         <img src={signature} alt="Signature" style={{ width: '100%' }} />
       </div>
+
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       
       <div
 style = {{
