@@ -564,9 +564,7 @@ Are you from New Zealand? I would love to know, and I would love to go back in t
 Let me know below if you have any places that you think I should travel to next. Thanks for reading as always!
             </p>
           
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
-                <BookNowButton href="https://plannin.com/en/hotel/f776fea4-a8ec-41f7-bd2f-2830ca7b615e?currency=USD" target="_blank" rel="noopener noreferrer"/>
-            </div>
+          
             <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <a href="/fable" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
           <img src={fable} alt="FABLE AUCKLAND HOTEL REVIEW" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
