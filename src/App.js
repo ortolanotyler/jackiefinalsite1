@@ -75,6 +75,7 @@ import NewZealand from './Articles/Travel/NewZealand';
 import Fable from './Articles/Travel/Fable';
 import SummerBeauty from './Articles/Tutorials/PopCulture/SummerBeauty';
 import DiaryBridesmaids from './Articles/Tutorials/VintageVibes/DiaryBridesmaids';
+import LatestExplorer from './Home/LatestExplorer';
 
 function usePageTracking() {
   const location = useLocation();
@@ -171,6 +172,7 @@ function App() {
           <Route path="fable" element={<Fable/>} />
           <Route path="summerbeauty" element={<SummerBeauty />} />
           <Route path="bridesmaidboxes" element={<DiaryBridesmaids />} />
+          <Route path="latestexplorer" element={<LatestExplorer />} />
 
 
           <Route path="*" element={<h1>404 Not Found</h1>} />

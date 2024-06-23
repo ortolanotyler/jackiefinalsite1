@@ -55,7 +55,7 @@ const images = [
     `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/41.JPG`,
     `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/42.jpeg`,
     `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/43.png`,
-    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/44.png`,
+    `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/44.JPG`,
     `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/45.JPG`,
     `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/46.JPG`,
     `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/47.JPG`,
@@ -476,12 +476,7 @@ It was really well-kept, and on our way back to the city for dinner, we came acr
 For dinner, I came across Ortolana’s on Tyler Street and my husband’s name is literally one letter off. I thought it was fate and needed to go. It was an Italian restaurant with fresh food, and you could see them cooking in the kitchen, creating beautiful fresh dishes. The restaurant is located in the Britomart area, and it was all lit up, a beautiful area for a lovely dinner.
             </p>
             
-            <div style={gridContainerStyle}>    
-            <img src={images[44]} alt="Maui market 2" style={imageStyle} />
-            <img src={images[45]} alt="Maui market 2" style={imageStyle} />
-
-            </div>
-
+        
     
          
            

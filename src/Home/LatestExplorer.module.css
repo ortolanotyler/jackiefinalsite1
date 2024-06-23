@@ -1,0 +1,74 @@
+.beautySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial, sans-serif';
+  }
+  
+  .sectionTitle {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .mainArticle {
+    display: flex;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .mainImage {
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .mainContent {
+    padding: 1rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .mainContent h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .mainContent p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .sideArticles {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .sideArticle {
+    display: flex;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .sideImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 1rem;
+  }
+  
+  .sideContent h3 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .sideContent p {
+    font-size: 0.875rem;
+  }
+  
