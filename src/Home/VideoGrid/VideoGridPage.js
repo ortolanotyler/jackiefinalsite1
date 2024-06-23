@@ -72,9 +72,9 @@ const videos = [
     title: "Victoria's Secret 2014",
   },
   {
-    src: "https://www.youtube.com/embed/eLreMotKEs?si=d0tn8Jgb1chN0M7K&controls=0",
+    src: "https://www.youtube.com/embed/-eLreMotKEs?si=d0tn8Jgb1chN0M7K&controls=0",
     route: "/NewZealand",
-    title: "Aukland, New Zealand Vlog",
+    title: "Auckland, New Zealand Vlog",
   },
   {
     src: "https://www.youtube.com/embed/JfaND9n9ZCU?si=9TIoFI26SS-0MNEL&controls=0",
