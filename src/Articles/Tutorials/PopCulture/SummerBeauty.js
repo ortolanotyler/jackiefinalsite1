@@ -203,7 +203,7 @@ and long brunette hair with a money piece—a pop of blonde through the
 bangs to frame the face. This detail is what makes Flora’s character pop!
 Dive into my tutorial for a fun, enchanting look that will make you feel like
 you're part of the Winx Club. (This was a private video for a while, <a href='https://www.youtube.com/watch?v=2lZ-1p7mKMY&t=368s'>but it’s
-    back </a> if you missed it!)  
+    back</a> if you missed it!)  
    </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/619272?noHeader=true" title="Shop My Victoria's Secret Favorites" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
