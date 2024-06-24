@@ -134,7 +134,6 @@ function App() {
           <Route path="halfetireview" element={<HalfetiReview />} />
           <Route path="jickyreview" element={<JickyReview />} />
           <Route path="bonbonreview" element={<BonBonReview />} />
-          <Route path="reviews" element={<ReviewHomePage />} />
           <Route path="quiz" element={<QuizHomepage />} />
           <Route path="quiz1" element={<Quiz1 />} />
           <Route path="quiz2" element={<Quiz2 />} />

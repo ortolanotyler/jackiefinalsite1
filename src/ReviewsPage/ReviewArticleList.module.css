@@ -1,4 +1,4 @@
-.article-list-reviews {
+.articleListReviews {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
   grid-gap: 1rem;
@@ -11,15 +11,15 @@
 }
 
 @media (max-width: 1024px) {
-  .article-list-reviews {
+  .articleListReviews {
     padding: 1.5rem;
     max-width: 800px;
   }
 }
 
 @media (max-width: 800px) {
-  .article-list-reviews {
-    grid-template-columns: 2fr;
+  .articleListReviews {
+    grid-template-columns: 1fr;
     grid-gap: 1rem;
     padding: 1rem;
     max-width: 600px;
@@ -27,14 +27,14 @@
 }
 
 @media (max-width: 480px) {
-  .article-list-reviews {
+  .articleListReviews {
     grid-template-columns: 1fr;
     grid-gap: 1rem;
     padding: 0.5rem;
   }
 }
 
-.article-list-reviews .article-card-review {
+.articleCardReview {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -46,6 +46,6 @@
   width: 100%;
 }
 
-.article-list-reviews .article-card-review:hover {
+.articleCardReview:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }

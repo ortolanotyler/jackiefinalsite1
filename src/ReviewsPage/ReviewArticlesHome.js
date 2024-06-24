@@ -34,10 +34,10 @@ const ReviewHomePage = () => {
             <TextReveal text="JACKIE'S TOP RECOMMENDATIONS" />
             <iframe
                 title="Jackie's Top Recommendations"
-                src="https://shopmy.us/collections/embed/556881?noHeader=true"
+                src="https://shopmy.us/collections/public/556881?noHeader=true"
                 style={{
                     width: '100%',
-                    minHeight: '400px',
+                    minHeight: '2400px',
                     border: 'none',
                 }}
             ></iframe>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './ReviewArticleList.css';
+import './ReviewArticleList.module.css';
 import ReviewArticleCard from './ReviewArticleCard';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/jickyguerlainthumbnail.png`;

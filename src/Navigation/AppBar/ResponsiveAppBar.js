@@ -23,7 +23,6 @@ const pages = [
   { name: 'About', path: '/about' },
   { name: 'Videos', path: '/videos' },
   { name: 'Quiz', path: '/quiz' },
-  { name: 'Reviews', path: '/reviews' },
 ];
 
 const aboutOptions = [
@@ -50,7 +49,7 @@ const tutorialOptions = [
 ];
 
 function ResponsiveAppBar() {
-  const isCollapsed = useMediaQuery('(max-width: 1300px)');
+  const isCollapsed = useMediaQuery('(max-width: 1150px)');
   const [anchorElNav, setAnchorElNav] = useState(null);
   const [anchorElShop, setAnchorElShop] = useState(null);
   const [anchorElTutorials, setAnchorElTutorials] = useState(null);

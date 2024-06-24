@@ -96,7 +96,7 @@ h1 {
 .hero { 
   width: 100%; 
   margin-top: 0;
-  height: 25vh;
+  height: 22vh;
   background-color: #FDEDEF;
   display: grid;
   place-items: center;
@@ -105,7 +105,7 @@ h1 {
 /* Responsive font size adjustments */
 @media (max-width: 600px) {
   h1 {
-    font-size: 8vw !important; /* Increase font size for smaller screens and use !important */
+    font-size: 7vw !important; /* Increase font size for smaller screens and use !important */
   }
 
   .hero {
@@ -115,7 +115,7 @@ h1 {
 
 @media (max-width: 400px) {
   h1 {
-    font-size: 8vw !important; /* Further increase font size for very small screens and use !important */
+    font-size: 6vw !important; /* Further increase font size for very small screens and use !important */
   }
 
   .hero {
