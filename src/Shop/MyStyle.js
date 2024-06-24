@@ -20,7 +20,8 @@ const MyStyle = () => {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 0,
+    padding: '2rem',
+   
     backgroundColor: 'white',
     fontFamily: 'GFS Didot, serif',
     padding: '2rem',
