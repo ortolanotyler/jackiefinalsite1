@@ -96,7 +96,7 @@ function HomePage() {
           <TextReveal text='JACKIE WYERS' />
         </Grid>
         <Grid item xs={12}>
-          <Paper elevation={0} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: '#745B4F', textAlign: 'center' }}>
+          <Paper elevation={5} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: '#745B4F', textAlign: 'center' }}>
             <RotatingText />
           </Paper>
         </Grid>

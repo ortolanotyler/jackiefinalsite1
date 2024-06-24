@@ -9,7 +9,7 @@ const RotatingText = () => {
   ];
 
   // Use the `·` symbol with spaces around it as the separator
-  const phraseString = phrases.join('    ·    '); // This adds the dot with a space on both sides between each phrase
+  const phraseString = phrases.join('   ·   '); // This adds the dot with a space on both sides between each phrase
 
   // Repeat the phrase string to ensure a continuous loop
   // You may adjust the spacing as needed, but here it's consistent with your separator choice
@@ -17,7 +17,7 @@ const RotatingText = () => {
 
   return (
     <div className="rotating-text-container">
-            <Paper elevation={2} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '1px', color: "#745B4F", textAlign: 'center'}}>
+            <Paper elevation={1} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '1px', color: "#745B4F", textAlign: 'center'}}>
 
       <div className="rotating-text">{repeatedPhrases}</div>
       </Paper>
