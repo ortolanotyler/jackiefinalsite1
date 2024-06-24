@@ -1,6 +1,6 @@
 .article-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjusted min width for responsiveness */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1rem;
   justify-content: center;
   width: 100%;
@@ -19,7 +19,7 @@
 
 @media (max-width: 800px) {
   .article-list {
-    grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    grid-template-columns: 1fr;
     grid-gap: 1rem;
     padding: 1rem;
     max-width: 600px;
@@ -28,7 +28,7 @@
 
 @media (max-width: 480px) {
   .article-list {
-    grid-template-columns: 1fr; /* Single column layout for mobile screens */
+    grid-template-columns: 1fr;
     grid-gap: 1rem;
     padding: 0.5rem;
   }
@@ -44,4 +44,24 @@
 
 .article-list .article-card:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.article-image-wrapper {
+  width: 100%;
+  height: auto; /* Adjust the height dynamically */
+  overflow: hidden;
+  position: relative;
+}
+
+.article-image-review {
+  width: 100%;
+  height: auto; /* Ensure the image height adjusts to fit */
+  display: block;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
