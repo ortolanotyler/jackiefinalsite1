@@ -76,6 +76,7 @@ import Fable from './Articles/Travel/Fable';
 import SummerBeauty from './Articles/Tutorials/PopCulture/SummerBeauty';
 import DiaryBridesmaids from './Articles/Tutorials/VintageVibes/DiaryBridesmaids';
 import LatestExplorer from './Home/LatestExplorer';
+import EmailSubscribe2 from './Components/EmailSubscribe2';
 
 function usePageTracking() {
   const location = useLocation();
@@ -151,7 +152,7 @@ function App() {
           <Route path="diary" element={<DiarySlider />} />
           <Route path="diaryfillers" element={<DiaryPost1Fillers />} />
           <Route path="sitemap" element={<Sitemap />} />
-          <Route path="subscribe" element={<EmailSubscribe />} />
+          <Route path="subscribe" element={<EmailSubscribe2 />} />
           <Route path="press" element={<MediaKit />} />
           <Route path="privacy" element={<PrivacyNotice />} />
           <Route path="contact" element={<BusinessContact />} />
