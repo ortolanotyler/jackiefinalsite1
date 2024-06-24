@@ -40,7 +40,7 @@
   }
   
   .mainContent h2 {
-    font-size: 1.25rem; /* Reduced font size */
+    font-size: 1rem; /* Reduced font size */
     margin-bottom: 0.5rem;
     transition: text-decoration 0.3s; /* Smooth transition */
   }
@@ -48,6 +48,7 @@
  
   .mainContent p {
     margin-bottom: 0.5rem;
+    font-size: 0.75rem;
   }
   
   .sideArticles {

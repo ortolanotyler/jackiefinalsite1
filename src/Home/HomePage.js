@@ -112,14 +112,17 @@ function HomePage() {
         <Grid item xs={12} display="flex" justifyContent="center">
           <EmailSubscribe />
         </Grid>
+    
+     
         <Grid item xs={12}>
-          <TextReveal text="LATEST" />
-        </Grid>
-        <Grid item xs={12} display="flex" justifyContent="center">
-          <LatestExplorer />
-        </Grid>
-        <Grid item xs={12}>
+          <div
+          style = {{
+            padding: '2rem',
+          }}
+          >
           <SiteExplorer />
+
+          </div>
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="flex-end">
           <Box sx={{ textAlign: 'right', mt: -1, mr: 10 }}>
