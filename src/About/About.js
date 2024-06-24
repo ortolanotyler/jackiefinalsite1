@@ -22,9 +22,9 @@ const About = () => {
     <Grid container spacing={0} className={styles['about-container']}>
       <Grid item xs={12}>
         <TextReveal text='MEET JACKIE' />
-        <Paper elevation={1} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', padding: '0.5rem' }}>
-          <RotatingText />
-        </Paper>
+        <Paper elevation={4} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: '#745B4F', textAlign: 'center' }}>
+            <RotatingText />
+          </Paper>
       </Grid>
 
       <Grid item xs={12} md={6} className={styles['about-text-section']}>

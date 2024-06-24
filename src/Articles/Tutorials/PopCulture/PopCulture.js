@@ -77,9 +77,9 @@ const PopCulture = () => {
       </Helmet>
       <div>
         <div><TextReveal text='POP CULTURE OBSESSED' /></div>
-        <Paper elevation={3} style={{ padding: '1rem', margin: '1rem 0' }}>
-          <RotatingText />
-        </Paper>
+        <Paper elevation={5} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: '#745B4F', textAlign: 'center' }}>
+            <RotatingText />
+          </Paper>
         <ul className={styles.cardList}>
           {cardsData.map((card, index) => (
             <Card

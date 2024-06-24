@@ -16,9 +16,9 @@ const HomeTutorials = () => {
       </Helmet>
       <div>
         <TextReveal text="POP CULTURE" />
-        <Paper elevation={3} style={{ padding: '1rem', margin: '1rem 0' }}>
-          <RotatingText />
-        </Paper>
+        <Paper elevation={5} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: '#745B4F', textAlign: 'center' }}>
+            <RotatingText />
+          </Paper>
         <Ccc />
         <TextReveal text='MAKEUP TRENDS' />
         <Slider2 />
