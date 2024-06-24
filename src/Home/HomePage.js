@@ -91,10 +91,12 @@ function HomePage() {
           `}
         </script>
       </Helmet>
-      <Grid container spacing={3}>
-        <TextReveal text='JACKIE WYERS' />
+      <Grid container spacing={3} justifyContent="center">
         <Grid item xs={12}>
-          <Paper elevation={3} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: '#745B4F', textAlign: 'center', marginTop: '0.25rem', padding: '1rem' }}>
+          <TextReveal text='JACKIE WYERS' />
+        </Grid>
+        <Grid item xs={12}>
+          <Paper elevation={3} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: '#745B4F', textAlign: 'center', padding: '1rem' }}>
             <RotatingText />
           </Paper>
         </Grid>
@@ -110,8 +112,8 @@ function HomePage() {
         <Grid item xs={12} display="flex" justifyContent="center">
           <EmailSubscribe />
         </Grid>
-        <Grid item xs={12} display="flex" justifyContent="center">
-        <TextReveal text="LATEST" style = {{backgroundColor: 'white'}} />
+        <Grid item xs={12}>
+          <TextReveal text="LATEST" />
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
           <LatestExplorer />

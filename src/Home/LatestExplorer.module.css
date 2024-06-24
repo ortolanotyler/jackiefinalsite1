@@ -3,12 +3,12 @@
     flex-direction: column;
     align-items: center;
     font-family: 'GFS Didot';
-    margin: 0 auto;
-    padding: 1rem;
+    margin: 0 ;
+  
     max-width: 1200px;
     width: 100%;
     box-sizing: border-box;
-    transform: scale(0.7); /* Scale down the component */
+    transform: scale(0.9); /* Scale down the component */
     transform-origin: top center; /* Ensure scaling is centered */
   }
   
