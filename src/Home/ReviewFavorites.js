@@ -58,7 +58,7 @@ const ReviewFavorites = () => {
           style={{
             
             width: '100%',
-            minHeight: '420px',
+            minHeight: '500px',
             border: 'none',
             overflow: 'hidden',
           }}
