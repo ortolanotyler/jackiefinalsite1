@@ -225,7 +225,7 @@ style = {{
 
   <AdSenseAd/>
 </div>
-      <Comments website-id={websiteId} pageId={'barbie'} />
+      <Comments website-id={websiteId} page-id={'barbsssie'} />
     </div>
   );
 

@@ -224,7 +224,7 @@ style = {{
             <div><TextReveal text='PERFUME PROFILE' /></div>
             <div ref={blogRef} style={{ width: '100%', maxWidth: '800px', margin: '0 auto', padding: '1rem' }}>
                 <Card
-                    title="HALFETI // PENHALIGON'S"
+                    title="Halfeti by Penhaligon's Review"
                     description="An Aromatic Voyage"
                     blogContent={blogContent}
                 />
