@@ -199,7 +199,7 @@ the green and gold theme and had gold flakes and purple flowers floating around 
       </p>
 
 <p style={paragraphStyle}>
-6. Jewelry: My entire wedding theme is enchanting and earthy, so I selected jewelry pieces from Fabel England’s Whispering Sands collection. We will be on the coast in Sorrento, and this collection carries beautiful jewelry, fans, accessories, and silk PJs in a nautical aesthetic. Perfect for a summer wedding gift. (Shopmy)
+6. Jewelry: My entire wedding theme is enchanting and earthy, so I selected jewelry pieces from Fabel England’s Whispering Sands collection. We will be on the coast in Sorrento, and this collection carries beautiful jewelry, fans, accessories, and silk PJs in a nautical aesthetic. Perfect for a summer wedding gift. 
 
 </p>
 
@@ -219,7 +219,7 @@ style = {{
 
 <p style={paragraphStyle}>
 
-7. Sweet Treats: Mason jars filled with candy add a fun touch. Initially, I went with my bridesmaids' favorite treats, but I changed to Amalfi drops since we will be visiting the Amalfi Coast. These are so tasty. 🍋 (Shopmy)
+7. Sweet Treats: Mason jars filled with candy add a fun touch. Initially, I went with my bridesmaids' favorite treats, but I changed to Amalfi drops since we will be visiting the Amalfi Coast. These are so tasty. 🍋 
 
 </p>
 
