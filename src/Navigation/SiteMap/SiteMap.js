@@ -72,10 +72,10 @@ const Sitemap = () => {
     ];
 
     const additionalPosts = [
-        { path: "/videos", title: "Video Grid Page" },
+     
         { path: "/summerbeauty", title: "Summer Beauty" },
         { path: "/bridesmaidboxes", title: "Diary Bridesmaids" },
-        { path: "/latestexplorer", title: "Latest Explorer" },
+       
     ];
 
     return (
