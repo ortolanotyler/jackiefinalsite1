@@ -11,7 +11,7 @@
     padding: 0.45rem;
     color: #745B4F;
     display: inline-block;
-    animation: rotate-text 90s linear infinite;
+    animation: rotate-text 100s linear infinite;
     letter-spacing: 0.075rem; /* Increases spacing between all characters */
   }
   

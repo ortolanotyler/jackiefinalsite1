@@ -22,14 +22,14 @@ const About = () => {
     <Grid container spacing={0} className={styles['about-container']}>
       <Grid item xs={12}>
         <TextReveal text='MEET JACKIE' />
-        <Paper elevation={4} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: '#745B4F', textAlign: 'center' }}>
+        <Paper elevation={5} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: '#745B4F', textAlign: 'center' }}>
             <RotatingText />
           </Paper>
       </Grid>
 
       <Grid item xs={12} md={6} className={styles['about-text-section']}>
-        <div style={{ fontFamily: 'GFS Didot, serif', color: '#745B4F' }} className={styles['about-left-text']}>
-          <p style={{ color: 'black', textAlign: 'center',  fontSize: '30px', marginBottom: '1.75rem' }}>Hello! I'm Jackie Wyers.</p>
+        <div style={{ fontFamily: 'GFS Didot, serif', color: '#745B4F' , margin: '1rem' }} className={styles['about-left-text']}>
+          <p style={{ color: 'black', textAlign: 'center',  fontSize: '30px',  }}>Hello! I'm Jackie Wyers.</p>
           <p style={{ textIndent: '1em', marginBottom: '1rem' }}>
             Welcome to where beauty meets pop culture. I started my YouTube career in my teens, and connecting with you through beauty has been a highlight of my life thus far.
           </p>

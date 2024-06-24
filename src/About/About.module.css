@@ -34,7 +34,7 @@
 
 .about-left-section::before {
   content: '';
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
   bottom: 0;
@@ -109,7 +109,7 @@
 }
 
 /* Responsive styles */
-@media (max-width: 2000px) {
+@media (max-width: 2200px) {
   .about-text-section {
     flex-direction: column;
   }
@@ -124,7 +124,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 700px) {
   .about-left-text, .about-collaborations-text {
     font-size: 1rem;
     padding: 0.5rem;
