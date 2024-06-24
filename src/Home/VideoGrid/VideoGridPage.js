@@ -1,15 +1,21 @@
 import React from 'react';
-import { Grid, Box, Button, Container, Typography } from '@mui/material';
+import { Grid, Box, Button, Container, Typography, Paper } from '@mui/material';
 import TextReveal from '../../Components/TextReveal';
 import AdSenseAd from '../../Advertising/Ads';
+import RotatingText from '../../Navigation/AppBar/RotatingText';
 
 const VideoGrid = ({ videos }) => {
   return (
+    
+     <div>
+
     <Container maxWidth="lg" sx={{ mt: 4, mb: 4, padding: '1rem', borderRadius: '8px' }}>
+
       <Grid container spacing={3}>
         {videos.map((video, index) => (
           <React.Fragment key={index}>
             <Grid item xs={12} md={6}>
+         
               <Box display="flex" flexDirection="column" alignItems="center" p={2} sx={{ backgroundColor: 'white', borderRadius: '8px', boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)' }}>
                 <Typography variant="h6" sx={{ fontFamily: 'GFS Didot, serif', color: 'black', mb: 2 }}>
                   {video.title}
@@ -62,6 +68,7 @@ const VideoGrid = ({ videos }) => {
         ))}
       </Grid>
     </Container>
+     </div> 
   );
 };
 

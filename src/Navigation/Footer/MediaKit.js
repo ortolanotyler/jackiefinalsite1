@@ -16,9 +16,7 @@ const MediaKit = () => {
   return (
     <div>
       <TextReveal text="MEDIA KIT & PRESS" />
-      <Paper elevation={3} style={{ padding: '1rem' }}>
-        <RotatingText/>
-      </Paper>
+   
       <Grid container spacing={1}>
         <Grid item xs={12} md={6}>
           <MediaKitSlider images={images} />
