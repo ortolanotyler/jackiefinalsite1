@@ -111,7 +111,7 @@ function HomePage() {
           <EmailSubscribe />
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
-        <TextReveal text="LATEST" />
+        <TextReveal text="LATEST" style = {{backgroundColor: 'white'}} />
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
           <LatestExplorer />
