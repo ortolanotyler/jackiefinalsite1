@@ -110,7 +110,14 @@ function HomePage() {
           <AboutHero />
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
+        <div
+          style = {{
+            padding: '2rem',
+            margin: '1rem',
+          }}
+          >
           <EmailSubscribe />
+          </div>
         </Grid>
     
      
