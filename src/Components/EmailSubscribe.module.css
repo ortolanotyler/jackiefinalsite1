@@ -12,9 +12,10 @@
 .form {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.25rem;
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
+
   margin: 0 auto; /* Center horizontally */
 }
 
@@ -26,7 +27,7 @@
 }
 
 .button {
-  padding: 0.5rem;
+  padding: 0.2rem;
   background-color: #007bff;
   color: white;
   border: none;
