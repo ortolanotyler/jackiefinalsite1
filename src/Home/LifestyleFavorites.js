@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import styles from './LifestyleFavorites.module.css';
 
 const LifestyleFavorites = () => {
   const iframeRef = useRef(null);
@@ -28,20 +29,13 @@ const LifestyleFavorites = () => {
   }, []);
 
   return (
-    <div style={{ width: '100%', minHeight: '1200px', marginBottom: '2rem' }}>
+    <div className={styles.lifestyleFavoritesWrapper}>
       <iframe
         title="Jackie's Weekly Favs"
         src="https://shopmy.us/collections/public/555260?noHeader=true"
-        style={{
-          marginTop: '7rem',
-          width: '100%',
-          minHeight: '1000px',
-          border: 'none',
-          overflow: 'hidden',
-        }}
-        scrolling="yes"
-        className="lifestyle-favorites-iframe"
+        className={styles.lifestyleFavoritesIframe}
         ref={iframeRef}
+        scrolling= 'no'
       ></iframe>
     </div>
   );
