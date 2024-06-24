@@ -17,7 +17,7 @@ const RotatingText = () => {
 
   return (
     <div className="rotating-text-container">
-            <Paper elevation={1} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '1px', color: "#745B4F", textAlign: 'center', padding: '0rem' }}>
+            <Paper elevation={1} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '1px', color: "#745B4F", textAlign: 'center', padding: '-0.9rem' }}>
 
       <div className="rotating-text">{repeatedPhrases}</div>
       </Paper>
