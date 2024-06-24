@@ -175,10 +175,7 @@ function HomePage() {
           <TextReveal text="🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊" style={{ backgroundColor: 'white' }}  />
           <Quiz2 />
         </Grid>
-        <Grid item xs={12}>
-          <TextReveal text='PERFUME PROFILES' />
-          <ReviewArticleListHome />
-        </Grid>
+      
         <Grid item xs={12}>
           <TextReveal text='SHOP MY STYLE' />
         </Grid>

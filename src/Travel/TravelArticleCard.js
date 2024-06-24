@@ -5,9 +5,7 @@ import { Link } from 'react-router-dom'; // Import Link
 const TravelArticleCard = ({ date, title, imageUrl, path }) => {
   return (
     <div className="article-card">
-      <div className="article-image-wrapper">
-        <img src={imageUrl} alt={title} className="article-image-review" />
-      </div>
+      <img src={imageUrl} alt={title} className="article-image-review" />
       <div className="article-content">
         <div className="article-date">{date}</div>
         <div className="article-title">{title}</div>
