@@ -59,7 +59,7 @@ export default function EmailSubscribe() {
       }
     } catch (error) {
       console.error('Error:', error);
-      setError('Error submitting email.');
+      setError('Error submitting email. Please note that private browsers may not submit successfully.');
     }
   };
 
@@ -116,7 +116,7 @@ export default function EmailSubscribe() {
                   Subscribe
                 </Button>
               </Grid>
-              <Grid item xs={12}>
+              <Grid item xs={12} sx={{ marginBottom: '-20px' }}>
                 <FormControlLabel
                   control={
                     <Checkbox

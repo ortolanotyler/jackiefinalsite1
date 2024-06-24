@@ -1,43 +1,46 @@
 import React from 'react';
 import styles from './LatestExplorer.module.css';
 
-const BeautySection = () => {
+const LatestExplorer = () => {
   return (
     <div className={styles.beautySection}>
-      <h1 className={styles.sectionTitle}>BEAUTY</h1>
-      <a href="#" className={styles.mainArticle}>
+      <a href="/newzealand" className={styles.mainArticle}>
         <img
           src={`${process.env.PUBLIC_URL}/Images/Articles/NewZealand/NZThumbnail.jpg`}
           alt="Main Article"
           className={styles.mainImage}
         />
         <div className={styles.mainContent}>
-          <h2>The 65 Best Beauty Products You Need for Traveling This Summer</h2>
-          <p>Get ready for the sun, sand, and sea.</p>
-          <p>BY DANIELLE JAMES, NERISHA PENROSE AND CAROL LEE</p>
+          <h2>A Whimsical Week Exploring Auckland, New Zealand!</h2>
+          <p>Waiheke Island, Queen Street Shopping & A Dream Bridal Appointment</p>
+          <p>BY JACKIE WYERS</p>
         </div>
       </a>
       <div className={styles.sideArticles}>
-        <a href="#" className={styles.sideArticle}>
+        <a href="/fable" className={styles.sideArticle}>
           <img
             src={`${process.env.PUBLIC_URL}/Images/Articles/Fable/FableAucklandThumbnail.jpg`}
             alt="We Tested Fenty Hair"
             className={styles.sideImage}
           />
           <div className={styles.sideContent}>
-            <h3>We Tested Fenty Hair—It's for Everyone</h3>
-            <p>BY DANIELLE JAMES</p>
+            <h3>A Luxurious Stay at Fable Auckland</h3>
+            <p>Waiheke Island, Queen Street Shopping & A Dream Bridal Appointment</p>
+            <br></br>
+            <p>JUNE 22, 2024</p>
           </div>
         </a>
-        <a href="#" className={styles.sideArticle}>
+        <a href="/summerbeauty" className={styles.sideArticle}>
           <img
             src={`${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/BridesmaidBoxThumb!.jpg`}
             alt="Goop Launches Its First Mascara"
             className={styles.sideImage}
           />
           <div className={styles.sideContent}>
-            <h3>Goop Launches Its First Mascara</h3>
-            <p>BY DANIELLE JAMES</p>
+            <h3>Summer Beauty by Jackie</h3>
+            <p>Sun Kissed Skin & Wind-swept Hair</p>
+            <br></br>
+            <p>JUNE 11, 2024</p>
           </div>
         </a>
         <a href="/summerbeauty" className={styles.sideArticle}>
@@ -47,8 +50,10 @@ const BeautySection = () => {
             className={styles.sideImage}
           />
           <div className={styles.sideContent}>
-            <h3>The 12 Best Face Masks for Beating Acne</h3>
-            <p>BY NERISHA PENROSE</p>
+            <h3>A Luxurious Stay at Fable Auckland</h3>
+            <p>Waiheke Island, Queen Street Shopping & A Dream Bridal Appointment</p>
+            <br></br>
+            <p>JUNE 22, 2024</p>
           </div>
         </a>
         <a href="/summerinspo" className={styles.sideArticle}>
@@ -58,8 +63,10 @@ const BeautySection = () => {
             className={styles.sideImage}
           />
           <div className={styles.sideContent}>
-            <h3>The 5 Best Summer Hair Trends to Try ASAP</h3>
-            <p>BY NERISHA PENROSE</p>
+            <h3>Summer Inspiration: Pop Culture Edition</h3>
+            <p>Grab Your Sea Salt Spray, It's Mermaid Season!</p>
+            <br></br>
+            <p>JUNE 11, 2024</p>
           </div>
         </a>
       </div>
@@ -67,4 +74,4 @@ const BeautySection = () => {
   );
 };
 
-export default BeautySection;
+export default LatestExplorer;

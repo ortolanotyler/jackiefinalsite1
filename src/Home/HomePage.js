@@ -9,8 +9,8 @@ import ReviewArticleListHome from '../ReviewsPage/ReviewArticleListHomePage';
 import BeigeReveal from '../Components/BeigeReveal';
 import RotatingText from '../Navigation/AppBar/RotatingText';
 import Quiz2 from '../Quiz/Quiz2';
-import AboutHero from './AboutHero'; // Import the AboutHero component
-import './AboutHero.css'; // Import the CSS file for jiggle animation
+import AboutHero from './AboutHero';
+import './AboutHero.css';
 import ReviewFavorites from './ReviewFavorites';
 import BeyondBeautyHero from './BeyondBeautyHero';
 import SiteExplorerBeyond from './SiteExplorerBeyond';
@@ -18,6 +18,7 @@ import LifestyleFavorites from './LifestyleFavorites';
 import ShopMyHero2 from './ShopMyHero2';
 import { Helmet } from 'react-helmet';
 import VideoEmbed from './VideoEmbed';
+import LatestExplorer from './LatestExplorer';
 
 function HomePage() {
   const linkRef = useRef(null);
@@ -35,11 +36,11 @@ function HomePage() {
           setIsJiggling(true);
           setTimeout(() => {
             setIsJiggling(false);
-          }, 4000); // Stop jiggling after 4 seconds
+          }, 4000);
         }
       },
       {
-        threshold: 0.1, // Adjust this value as needed
+        threshold: 0.1,
       }
     );
 
@@ -49,11 +50,11 @@ function HomePage() {
           setIsVideoJiggling(true);
           setTimeout(() => {
             setIsVideoJiggling(false);
-          }, 4000); // Stop jiggling after 4 seconds
+          }, 4000);
         }
       },
       {
-        threshold: 0.1, // Adjust this value as needed
+        threshold: 0.1,
       }
     );
 
@@ -90,7 +91,7 @@ function HomePage() {
           `}
         </script>
       </Helmet>
-      <Grid container spacing={1}>
+      <Grid container spacing={3}>
         <TextReveal text='JACKIE WYERS' />
         <Grid item xs={12}>
           <Paper elevation={3} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: '#745B4F', textAlign: 'center', marginTop: '0.25rem', padding: '1rem' }}>
@@ -104,10 +105,16 @@ function HomePage() {
           <QuoteBanner3 />
         </Grid>
         <Grid item xs={12}>
-          <AboutHero /> {/* Add the AboutHero component here */}
+          <AboutHero />
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
           <EmailSubscribe />
+        </Grid>
+        <Grid item xs={12} display="flex" justifyContent="center">
+        <TextReveal text="LATEST" />
+        </Grid>
+        <Grid item xs={12} display="flex" justifyContent="center">
+          <LatestExplorer />
         </Grid>
         <Grid item xs={12}>
           <SiteExplorer />
@@ -141,7 +148,7 @@ function HomePage() {
               className={isVideoJiggling ? 'jiggle' : ''}
               style={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
             >
-              <Typography variant="body1" sx={{ marginTop: '10px',fontSize: '1rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
+              <Typography variant="body1" sx={{ marginTop: '10px', fontSize: '1rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
                 VIEW ALL VIDEOS
               </Typography>
               <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
@@ -156,8 +163,6 @@ function HomePage() {
           <TextReveal text="🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊" style={{ backgroundColor: 'white' }}  />
           <Quiz2 />
         </Grid>
-       
-      
         <Grid item xs={12}>
           <TextReveal text='PERFUME PROFILES' />
           <ReviewArticleListHome />
