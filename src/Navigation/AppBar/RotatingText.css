@@ -2,17 +2,17 @@
   background-color: white;
 
     font-family: 'Arapey, serif';
-    
+    margin-top: '0rem';
     overflow: hidden;
     white-space: nowrap;
   }
   
   .rotating-text {
-  
+    padding: 0.25rem;
     color: #745B4F;
     display: inline-block;
-    animation: rotate-text 100s linear infinite;
-    letter-spacing: 0.125em; /* Increases spacing between all characters */
+    animation: rotate-text 90s linear infinite;
+    letter-spacing: 0.2rem; /* Increases spacing between all characters */
   }
   
   @keyframes rotate-text {
