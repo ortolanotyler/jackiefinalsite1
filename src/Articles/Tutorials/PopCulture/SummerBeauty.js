@@ -106,9 +106,7 @@ channel, my <a href='https://www.youtube.com/watch?v=yC8Sf9U3Aww&list=PL-_qSuEl3
 my very first attempt at creating this iconic style <a href='https://www.youtube.com/watch?v=yC8Sf9U3Aww&list=PL-_qSuEl3UwH4UEWC4LNUSi6a3y_oVmDB'> here.</a> 🌴 ✨   </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/619257?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
+    
 
       <div
 style = {{
@@ -139,9 +137,7 @@ this <a href='https://www.youtube.com/watch?v=JfaND9n9ZCU&t=1s'>step-by-step tut
 wearable summer hairstyles for a beach Barbie <a href='https://www.youtube.com/watch?v=JfaND9n9ZCU&t=1s'> here.</a>   
    </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/619260?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
+ 
 
       <div
 style = {{
@@ -173,9 +169,7 @@ Parisian chic look, perfect for any summer outing… especially if you are
 visiting France 🇫🇷!   
    </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/619267?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
+   
   
 
 
@@ -199,9 +193,7 @@ you're part of the Winx Club. (This was a private video for a while, <a href='ht
     back</a> if you missed it!)  
    </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/619272?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
+
       <div
 style = {{
   margin : '20px'
@@ -229,9 +221,7 @@ recreate with two braids, a bun, and floral pins. Dive into the full makeup
 and hair <a href='https://www.youtube.com/watch?v=0hVDAw6TznU&t=659s'> tutorial series</a> inspired by Cleo on my channel!
    </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/619285?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
+    
     
 
       <h2 style={headingStyle}>
@@ -252,9 +242,7 @@ braids, and a touch of bronzer for that summer glow. Explore my step-bystep <a h
 YouTube  </p>
    
       <ResponsiveIframe src="https://shopmy.us/collections/public/619322?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
+     
       <div
 style = {{
   margin : '20px'
