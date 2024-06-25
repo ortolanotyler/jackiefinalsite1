@@ -72,7 +72,7 @@ const PopCulture = () => {
   return (
     <>
       <Helmet>
-        <title>Pop Culture Makeup Tutorials - Jackie Wyers</title>
+        <title>Pop Culture Makeup Tutorials , Transformations, and More</title>
         <meta name="description" content="Explore pop culture makeup tutorials by Jackie Wyers, including looks inspired by Barbie, Victoria's Secret, Lana Del Rey, and more." />
       </Helmet>
       <div>

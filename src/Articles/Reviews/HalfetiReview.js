@@ -76,8 +76,8 @@ const HalfetiReview = () => {
                 <title>Halfeti Review | Penhaligon's Perfume</title>
                 <meta name="description" content="A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression." />
             </Helmet>
-            <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
-                <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
+            <div style={{ textAlign: 'center', marginBottom: '1rem', height: '10vh' }}>
+                <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // REVIEWS
                 </a>
             </div>

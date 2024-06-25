@@ -56,8 +56,8 @@ const SharonIconicPost = () => {
         <title>Sharon Tate Iconic 60's Makeup Tutorial - Jackie Wyers</title>
         <meta name="description" content="Follow Jackie Wyers' tutorial to recreate Sharon Tate's iconic 60's makeup look. Dive into the step-by-step guide and discover modern products to achieve this timeless style." />
       </Helmet>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-        <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
+        <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
       </div>

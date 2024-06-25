@@ -65,7 +65,7 @@ const JickyReview = () => {
             </Helmet>
             {ReactGA.pageview(window.location.pathname + window.location.search)}
 
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
             <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
             BEAUTY // REVIEWS
                 </a>

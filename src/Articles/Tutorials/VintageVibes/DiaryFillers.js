@@ -58,7 +58,7 @@ const DiaryPost1Fillers = () => {
         <meta name="description" content="Jackie Wyers shares her personal experience with getting injectable fillers at a young age, reflecting on insecurities, decisions, and growth." />
       </Helmet>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-        <a href="/diary" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+        <a href="/diary" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
           DIARY
         </a>
       </div>

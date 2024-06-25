@@ -52,8 +52,8 @@ const SummerInspo = () => {
 
   const blogContent = (
     <div className="container">
-      <div style={{ margin: '5rem',display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-        <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
+      <div style={{ margin: '5rem', display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
+        <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
           BEAUTY // POP CULTURE
         </a>
       </div>

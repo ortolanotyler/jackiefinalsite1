@@ -71,8 +71,8 @@ const Disney2Post = () => {
 
     const blogContent = (
         <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '20rem', marginTop: '5rem' }}>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-                <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
+                <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // ITINERARIES
                 </a>
             </div>

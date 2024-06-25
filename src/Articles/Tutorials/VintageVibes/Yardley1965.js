@@ -59,8 +59,8 @@ const Yardley65 = () => {
         <title>Jean Shrimpton - Yardley 1965 Makeup Tutorial - Jackie Wyers</title>
         <meta name="description" content="Follow Jackie Wyers as she recreates the iconic Jean Shrimpton Yardley 1965 makeup look with detailed tutorials and vintage vibes." />
       </Helmet>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-        <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
+        <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
       </div>
