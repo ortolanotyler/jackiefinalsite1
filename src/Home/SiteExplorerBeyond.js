@@ -7,18 +7,18 @@ import { useNavigate } from 'react-router-dom';
 
 const cardDetails = [
   {
-    title: 'HOTEL REVIEWS',
-    backgroundImage: `${process.env.PUBLIC_URL}/Images/Home/MAUITHUMBNAIL.jpg`,
-    path: '/travel'
+    title: 'HOTELS : FABLE AUKLAND',
+    backgroundImage: `${process.env.PUBLIC_URL}/Images/Articles/Fable/FableAucklandThumbnail.jpg`,
+    path: '/fable'
   },
   {
-    title: 'TRAVEL ITINERARIES',
-    backgroundImage: `${process.env.PUBLIC_URL}/Images/Home/EPCOTTHUMBNAIL.jpeg`,
-    path: '/travel'
+    title: 'TRAVEL : NEW ZEALAND',
+    backgroundImage: `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/NZThumbnail.jpg`,
+    path: '/newzealand'
   },
   {
-    title: 'DIARY: FILLERS AND SELF ACCEPTANCE',
-    backgroundImage: `${process.env.PUBLIC_URL}/Images/Home/DIARY.jpg`,
+    title: 'DIARY : BRIDESMAIDS BOXES!',
+    backgroundImage: `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/BridesmaidBoxThumb!.jpg`,
     path: '/diary'
   },
 ];
