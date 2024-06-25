@@ -463,8 +463,7 @@ was a kiwi bird, but they are nocturnal and endangered, so it was nice to see wh
 <img src={images[41]} alt="Maui market 2" style={imageStyle} />
 </div>
 
-            <div style={gridContainerStyle}>    
-            <img src={images[42]} alt="Maui market 2" style={imageStyle} />
+           
 
             </div>
 <p style={paragraphStyle}>
