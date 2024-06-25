@@ -18,7 +18,7 @@
 }
 
 /* Add media queries for button resizing */
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   .responsive-button {
     padding: 0.4rem;
     font-size: 0.9rem;

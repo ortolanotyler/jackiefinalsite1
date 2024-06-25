@@ -25,7 +25,7 @@ const BonBonReview = () => {
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '2rem',
+    fontSize: '30px',
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',
@@ -33,7 +33,7 @@ const BonBonReview = () => {
   };
 
   const paragraphStyle = {
-    fontSize: '1rem',
+    fontSize: '20px',
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
     maxWidth: '100%',
@@ -56,7 +56,7 @@ const BonBonReview = () => {
     <div className="container" style={{ width: '100%', padding: '1rem' }}>
       <AdSenseAd/>
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-        <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
+        <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
           BEAUTY // REVIEWS
         </a>
       </div>

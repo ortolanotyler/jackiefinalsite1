@@ -19,6 +19,9 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'SHOP MY STYLE', path: '/mystyle' },
     // Marker for subscribe button
     { name: 'TRAVEL', path: '/travel' },
+    { name: 'REVIEWS', path: '/reviews' },
+
+
     { name: 'DIARY', path: '/diary' },
     { name: 'CONTACT', path: '/contact' },
     { name: 'PRESS', path: '/press' },

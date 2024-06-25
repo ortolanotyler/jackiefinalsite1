@@ -1,6 +1,7 @@
 import React from 'react';
-import './ReviewArticleList.module.css';
+import './ReviewArticleList.css';
 import ReviewArticleCard from './ReviewArticleCard';
+import TextReveal from '../Components/TextReveal';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/jickyguerlainthumbnail.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBonThumbnail.png`;
@@ -31,6 +32,10 @@ const articles = [
 
 const ReviewArticleListHome = () => {
   return (
+    <div> 
+       <div> 
+      <TextReveal text = "REVIEWS" />
+    </div>
     <div className="article-list-reviews">
       {articles.map((article, index) => (
         <ReviewArticleCard
@@ -42,6 +47,9 @@ const ReviewArticleListHome = () => {
         />
       ))}
     </div>
+      </div>
+      
+     
   );
 };
 

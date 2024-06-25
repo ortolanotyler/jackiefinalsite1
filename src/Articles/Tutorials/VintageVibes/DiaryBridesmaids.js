@@ -299,7 +299,7 @@ Additional Ideas:
 
 
 <p style={paragraphStyle}>
-I hope you got some inspiration from my bridesmaid box, and if you want to see my bridal dress fitting for more bride-to-be vibes, sign up for the newsletter here for more posts coming up! If you’re looking for pop culture-inspired bridal looks, I also have you covered with this article here. Thank you for reading!
+I hope you got some inspiration from my bridesmaid box, and if you want to see my bridal dress fitting for more bride-to-be vibes, sign up for the newsletter <a href = "/subscribe" >here</a>  for more posts coming up! If you’re looking for pop culture-inspired bridal looks, I also have you covered with this article here. Thank you for reading!
 
 </p>
 

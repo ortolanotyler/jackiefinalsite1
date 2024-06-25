@@ -26,7 +26,7 @@ const JickyReview = () => {
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '40px',
+        fontSize: '30px',
         fontWeight: 'normal',
         fontFamily: 'Arapey, serif',
         color: '#333',
@@ -66,8 +66,8 @@ const JickyReview = () => {
             {ReactGA.pageview(window.location.pathname + window.location.search)}
 
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-                <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
-                    BEAUTY // REVIEWS
+            <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
+            BEAUTY // REVIEWS
                 </a>
             </div>
             <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
