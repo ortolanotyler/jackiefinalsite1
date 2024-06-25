@@ -463,9 +463,7 @@ was a kiwi bird, but they are nocturnal and endangered, so it was nice to see wh
 <img src={images[41]} alt="Maui market 2" style={imageStyle} />
 </div>
 
-           
-
-            </div>
+          
 <p style={paragraphStyle}>
 It was really well-kept, and on our way back to the city for dinner, we came across a supermarket that had really good deals on chocolate, and we stocked up on a ridiculous amount of Whittaker’s!
 </p>
