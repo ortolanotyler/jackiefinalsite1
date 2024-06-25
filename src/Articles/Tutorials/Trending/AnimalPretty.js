@@ -137,7 +137,7 @@ style = {{
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>Want to really showcase your animal inspiration? Fable England has beautiful enamel earrings, necklaces, and embroidered bags featuring fawn designs.</p>
-      <ResponsiveIframe src="https://shopmy.us/collections/public/552834?noHeader=true" title="Fable England Accessories" />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/552834?noHeader=true" title="Fable England Accessories" style = {{height: "1000px"}}/>
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
       <div
 style = {{
