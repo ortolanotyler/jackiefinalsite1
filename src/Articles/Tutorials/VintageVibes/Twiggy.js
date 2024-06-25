@@ -31,7 +31,7 @@ const TwiggyBlog = () => {
   const blogRef = useRef(null);
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '40px',
+    fontSize: '30px',
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',

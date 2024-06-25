@@ -33,7 +33,7 @@ const SummerBeauty = () => {
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '32px',
+    fontSize: '30px',
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',
