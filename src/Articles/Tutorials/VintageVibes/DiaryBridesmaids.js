@@ -67,8 +67,8 @@ const DiaryBridesmaids = () => {
 };
   const blogContent = (
     <div className="container">
-      <div style={{ margin: '5rem',display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-        <a href="/diary" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
+      <div style={{ margin: '5rem',display: 'flex', justifyContent: 'center', alignItems: 'center', height: '5vh' }}>
+        <a href="/diary" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
           DIARY // BRIDAL
         </a>
       </div>
@@ -243,11 +243,7 @@ to mind. I added mini sample sets to each box. These samples are adorable mini v
 9. Aromatic Additions: Some dried florals, which smelled amazing also from L’Occitane, were added to the boxes. Alternatively, you could spritz your favorite perfume so the box smells like you as they open their gift.
 
 </p>
-<ResponsiveIframe 
-  src="https://shopmy.us/collections/public/619961?noHeader=true" 
-  title="Shop My Victoria's Secret Favorites" 
 
-/>
 
 <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
   CONTAINS: AFFILIATE LINKS
