@@ -120,7 +120,7 @@ const Fable = () => {
             <DropCap text={`Welcome back for a special hotel review of the enchanting Fable Auckland on Queen Street in Auckland, New Zealand. My mom and I embarked on a mother-daughter trip to explore the city and have a dream bridal appointment at Natalie Rose Bridal in Parnell. To see everything we got up to during the week, check out my travel diary/ itinerary at the link below as well as my vlog (it’s a fun one!👰 ).`} />
 
 <p style={paragraphStyle}>
-    <div style = {{textAlign: 'center', fontSize: '2rem'}}>
+    <div style = {{textAlign: 'center', fontSize: '1rem'}}>
     <a href="/newzealand" style = {{fontSize: '2rem'}}> New Zealand Experience Here!</a>
 
     </div>
