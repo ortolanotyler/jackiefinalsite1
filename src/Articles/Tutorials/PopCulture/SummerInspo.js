@@ -93,10 +93,7 @@ Phoebe Tonkin as Cleo Sertori - ‘H20: Just Add Water’</h2>
 of this show for ages! 🧜 ✨      </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/598796?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
-
+   
       <h2 style={headingStyle}>Halle Bailey as Ariel - ‘The Little Mermaid’</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <a href="https://www.instagram.com/p/C5dsVStuCqT/?img_index=1" target="_blank" rel="noopener noreferrer">
@@ -111,10 +108,7 @@ of this show for ages! 🧜 ✨      </p>
     </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/598804?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
-
+   
       <h2 style={headingStyle}>Jessica Alexander as Vanessa - ‘The Little Mermaid’</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <img src={image3} alt="Jessica Alexander as Vanessa - ‘The Little Mermaid’" style={{ width: '100%', maxWidth: '650px' }} />
@@ -136,10 +130,7 @@ style = {{
       While her screen time was brief, Jessica Alexander's portrayal of Vanessa in 'The Little Mermaid' live-action remake certainly turned heads with her stunning purple dress. Capture her slightly shipwrecked beauty with a bohemian style from brands like Free People. Complement the look with the inspired pendant from the Disney and Pandora collection that holds Ariel's voice. For makeup, opt for a simple sculpted eye and a sculpted pink lip, paired beautifully with tussled curls. The Vanessa-inspired makeup is also featured in the Ariel tutorial as mentioned above.      </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/598809?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
-
+   
       <h2 style={headingStyle}>Dark Mermaidcore - ‘Pirates of the Caribbean: On Stranger Tides’</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <img src={image4} alt="Dark Mermaidcore - ‘Pirates of the Caribbean: On Stranger Tides’" style={{ width: '100%', maxWidth: '650px' }} />
@@ -159,10 +150,7 @@ style = {{
             </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/598822?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
-
+   
       <h2 style={headingStyle}>Sara Paxton as Aquamarine - ‘Aquamarine’</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <a href="https://www.instagram.com/p/C5dsVStuCqT/?img_index=1" target="_blank" rel="noopener noreferrer">
@@ -185,10 +173,7 @@ style = {{
                   </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/598827?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
-
+   
       <h2 style={headingStyle}>A Final Note 🌊</h2>
 
       <p style={paragraphStyle}>

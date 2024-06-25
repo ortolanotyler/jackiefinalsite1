@@ -24,7 +24,7 @@ const ResponsiveIframe = ({ src, title }) => {
       <iframe
         title={title}
         src={src}
-        scrolling={allowScrolling ? 'no' : 'no'}
+        scrolling={allowScrolling ? 'yes' : 'no'}
         className={styles.responsiveIframe}
         style={{ height: allowScrolling ? '400px' : '100%' }}
         tabIndex="-1" // This allows users to scroll away if not focusing on it
