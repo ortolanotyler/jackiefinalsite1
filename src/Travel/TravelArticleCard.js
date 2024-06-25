@@ -1,3 +1,5 @@
+// TravelArticleCard.js
+
 import React from 'react';
 import './TravelArticleCard.css'; // Import CSS file for styling
 import { Link } from 'react-router-dom'; // Import Link
