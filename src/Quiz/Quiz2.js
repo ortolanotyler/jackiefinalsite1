@@ -100,7 +100,6 @@ const Quiz2 = () => {
       ],
     },
   ];
-
   const handleAnswerClick = (value) => {
     const updatedScores = { ...scores, [value]: scores[value] + 1 };
     setScores(updatedScores);
@@ -126,7 +125,7 @@ const Quiz2 = () => {
   };
 
   return (
-    <div style={{ fontFamily: 'GFS Didot, serif' }} className="quiz-container">
+    <div className="quiz-container">
       {!showResults ? (
         <>
           <div className="question-section">
@@ -147,7 +146,6 @@ const Quiz2 = () => {
                 }}
                 onClick={() => handleAnswerClick(option.value)}
               >
-                
                 {option.text}
               </button>
             ))}
