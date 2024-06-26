@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Grid, Box, Paper, Typography } from '@mui/material';
+import { Grid, Box, Paper, Typography, ThemeProvider, createTheme } from '@mui/material';
 import QuiltedImageList1 from './ImageGridTutorials';
 import TextReveal from '../Components/TextReveal';
 import QuoteBanner3 from './QuoteBanner3';
@@ -19,6 +19,9 @@ import ShopMyHero2 from './ShopMyHero2';
 import { Helmet } from 'react-helmet';
 import VideoEmbed from './VideoEmbed';
 import LatestExplorer from './LatestExplorer';
+
+const theme = createTheme();
+
 
 function HomePage() {
   const linkRef = useRef(null);
@@ -150,7 +153,9 @@ function HomePage() {
           <TextReveal text="LATEST VIDEO" />
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center" sx={{ mt: 2 }}>
-          <VideoEmbed />
+        <ThemeProvider theme={theme}>
+      <VideoEmbed />
+    </ThemeProvider>
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="flex-end">
           <Box sx={{ textAlign: 'right', mt: -1, mr: 10 }}>

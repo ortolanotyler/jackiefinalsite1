@@ -160,6 +160,14 @@ style = {{
       <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
       Original Makeup by Kimberly Greene for Sara Paxton in 'Aquamarine.' Recreation by Jackie Wyers. (Photo shot by Lost Lands Collections)
       </p>
+    
+      <p style={paragraphStyle}>
+      We can't do a roundup of mermaid looks without mentioning Sara Paxton's iconic portrayal of the sweet and bubbly Aquamarine. Her bright blonde hair, accented with streaks of blue, and her subtle makeup featuring a pop of shimmer on the lids and a hint of blue eyeliner, make for a look that’s both fun and naturally wearable for everyday summer flair. And who could forget her unforgettable 'last splash' dress? I’ve always been on the lookout for something similar! Don't forget your Ben & Jerry's Fish Food as you dive into my tutorial here.
+                  </p>
+
+                  
+
+      <ResponsiveIframe src="https://shopmy.us/collections/public/598827?noHeader=true" title="Shop My Victoria's Secret Favorites" />
       <div
 style = {{
   margin : '20px'
@@ -168,12 +176,6 @@ style = {{
 
   <AdSenseAd/>
 </div>
-      <p style={paragraphStyle}>
-      We can't do a roundup of mermaid looks without mentioning Sara Paxton's iconic portrayal of the sweet and bubbly Aquamarine. Her bright blonde hair, accented with streaks of blue, and her subtle makeup featuring a pop of shimmer on the lids and a hint of blue eyeliner, make for a look that’s both fun and naturally wearable for everyday summer flair. And who could forget her unforgettable 'last splash' dress? I’ve always been on the lookout for something similar! Don't forget your Ben & Jerry's Fish Food as you dive into my tutorial here.
-                  </p>
-
-      <ResponsiveIframe src="https://shopmy.us/collections/public/598827?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-   
       <h2 style={headingStyle}>A Final Note 🌊</h2>
 
       <p style={paragraphStyle}>
