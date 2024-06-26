@@ -5,6 +5,7 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import styles from './AnimalPretty.module.css';
+import AdSenseAd from '../../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/bunnytitle.jpeg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
@@ -81,7 +82,14 @@ const BunnyPretty = () => {
       <p style={paragraphStyle}>
         Embrace flowing fabrics and flirty dresses in pastel colours that enhance your adorable Bunny Pretty look, making you the epitome of sweetness and playfulness. Read further for makeup recommendations.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <div className={styles.imageContainer}>
         <img src={image2} alt="Bunny Pretty" className={styles.image} />
       </div>
@@ -123,7 +131,14 @@ const BunnyPretty = () => {
       <p style={paragraphStyle}>
         Outfit Inspiration: Lean into the Bunny Pretty theme with soft, flowing fabrics in pink tones. Try flirty dresses in pastel colours that enhance the sweetness of this look. Brands like For Love & Lemons offer a variety of options that can perfectly complement the Bunny Pretty makeup.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         Additionally, accessories from Fable England, such as bunny-themed jewelry, can add a whimsical touch to complete your outfit as mentioned in the looks above.
       </p>

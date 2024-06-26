@@ -4,6 +4,7 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import styles from './AnimalPretty.module.css';
+import AdSenseAd from '../../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxTitleResults.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxPretty.png`;
@@ -90,7 +91,14 @@ const FoxPretty = () => {
       <p style={paragraphStyle}>
         Note: If you're a redhead with bright blue eyes and vibrant hair that leans more towards the Spring colour season, you might find the “Bunny Pretty” guide with its softer pink shades more flattering than the rustic tones of Fox Pretty.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Achieve the Fox Pretty Look :</h2>
 
       <p style={paragraphStyle}>
@@ -124,7 +132,14 @@ const FoxPretty = () => {
       <p style={paragraphStyle}>
         Outfit Inspiration: Dive into a bohemian vibe with lively prints. Anthropologie is an excellent starting point for this style. Select paisley or other small prints in rustic tones to complement the boho aesthetic beautifully. This style not only matches the rich-toned makeup but also ties the whole look together.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         Don't forget to check out Fable England for fox-themed accessories that add a charming final touch.
       </p>
@@ -137,6 +152,15 @@ const FoxPretty = () => {
       </p>
 
       <img src={signature} alt="Jackie Wyers Signature" className={styles.signatureImage} />
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+   
     </div>
   );
 

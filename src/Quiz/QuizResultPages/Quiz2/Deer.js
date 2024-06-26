@@ -5,6 +5,7 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import styles from './AnimalPretty.module.css';
+import AdSenseAd from '../../../Advertising/Ads';
 
 const button = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/AnimalQuizResults.jpeg`;
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/DeerPrettyTitle.png`;
@@ -91,7 +92,14 @@ const DeerPretty = () => {
       <p style={paragraphStyle}>
         Celebrity Inspirations: Jessica Alba, Leighton Meester, Emmy Russum, Tessa Thompson, and Charithra Chandran rock this look with their big, round eyes and stunning skin tones.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Achieve the Deer Pretty Look</h2>
 
       <p style={paragraphStyle}>
@@ -125,7 +133,14 @@ const DeerPretty = () => {
       <p style={paragraphStyle}>
         Outfit Inspiration: To fully embody the Deer Pretty theme, choose dainty and whimsical styles. Try outfits in earthy and pastel palettes that resonate with the natural and soft aesthetics of a deer. Fabrics like lace and florals are perfect for this look, adding a touch of femininity and grace. Free People is a great store to try.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         Want to really showcase your animal inspiration? Fable England has beautiful enamel earrings, necklaces, and embroidered bags featuring fawn designs.
       </p>
@@ -138,7 +153,14 @@ const DeerPretty = () => {
       </p>
 
       <img src={signature} alt="Jackie Wyers Signature" className={styles.signatureImage} />
-      
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
     </div>
   );
 
