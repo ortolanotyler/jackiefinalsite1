@@ -244,10 +244,15 @@ to mind. I added mini sample sets to each box. These samples are adorable mini v
 
 </p>
 
+<ResponsiveIframe src="https://shopmy.us/collections/public/628197?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
 
-<p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-  CONTAINS: AFFILIATE LINKS
-</p>
+<ResponsiveIframe src="https://shopmy.us/collections/public/628200?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
+<ResponsiveIframe src="https://shopmy.us/collections/public/628186?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
+<ResponsiveIframe src="https://shopmy.us/collections/public/628191?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
+<ResponsiveIframe src="https://shopmy.us/collections/public/628192?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
+<ResponsiveIframe src="https://shopmy.us/collections/public/628195?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
+
+
 
 <div
 style = {{
