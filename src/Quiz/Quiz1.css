@@ -1,5 +1,5 @@
 .quiz-container {
-  max-width: 50%;
+  max-width: 50%; /* Default width for medium-sized screens */
   margin: auto;
   padding: 30px;
   text-align: center;
@@ -27,13 +27,13 @@
 
 .answer-section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust columns based on content width */
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
 
 .answer-button {
   color: white;
-  min-height: 250px; /* Initial height for large screens */
+  min-height: 250px;
   font-size: 16px;
   cursor: pointer;
   border: none;
@@ -42,7 +42,7 @@
   transition: all 0.3s ease;
   background-size: cover;
   background-position: center;
-  font-family: 'GFS Didot', serif;
+  font-family: GFS Didot;
   background-repeat: no-repeat;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -51,22 +51,6 @@
 .answer-button:hover {
   transform: scale(1.05);
   background-color: rgba(0, 0, 0, 0.6);
-}
-
-@media (max-width: 800px) {
-  .quiz-container {
-    margin-top: 10px;
-    max-width: 80%;
-  }
-
-  .answer-section {
-    grid-template-columns: 1fr; /* Display buttons in a single column on smaller screens */
-  }
-
-  .answer-button {
-    min-height: 120px; /* Adjust height for smaller screens */
-    padding: 15px; /* Add padding to buttons for better touch targets */
-  }
 }
 
 .results-section {
@@ -78,4 +62,27 @@
   border-radius: 12px;
   margin-top: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 800px) {
+  .quiz-container {
+    max-width: calc(100% - 20px); /* Make it wider and reduce margin */
+    margin: 10px; /* Small margin from sides */
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .answer-section {
+    grid-template-columns: 1fr; /* Single column layout for answer buttons */
+  }
+
+  .answer-button {
+    min-height: 120px;
+    padding: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .quiz-container {
+    max-width: 65%; /* Increase width for larger screens by 15% */
+  }
 }
