@@ -12,12 +12,13 @@ const QuizHomepage = () => {
                 <Grid item xs={12}>
                     <Quiz2 />
                 </Grid>
-                <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+                
            
                 
             </Grid>
+            <div style={{margin: '20px'}}>
+                <AdSenseAd/>
+                </div>
         </div>
     );
 };
