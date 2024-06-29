@@ -14,7 +14,7 @@ const image3 = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/3.JPG`;
 const image4 = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/4.JPG`;
 const image5 = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/5.JPG`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/6.JPG`;
-const image7 = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/JackieAudrey.png`;
+const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEBRIDAL.jpeg`;
 
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
@@ -244,14 +244,6 @@ to mind. I added mini sample sets to each box. These samples are adorable mini v
 
 </p>
 
-<ResponsiveIframe src="https://shopmy.us/collections/public/628197?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
-
-<ResponsiveIframe src="https://shopmy.us/collections/public/628200?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
-<ResponsiveIframe src="https://shopmy.us/collections/public/628186?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
-<ResponsiveIframe src="https://shopmy.us/collections/public/628191?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
-<ResponsiveIframe src="https://shopmy.us/collections/public/628192?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
-<ResponsiveIframe src="https://shopmy.us/collections/public/628195?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
-
 
 
 <div
@@ -272,6 +264,8 @@ handwritten letter to each bridesmaid and my maid of honour (my sister), placed 
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
+
+
 
 <p style={paragraphStyle}>
 
@@ -302,15 +296,25 @@ Here are some final photos of my version of a bridesmaid proposal box before I s
 Additional Ideas:
 </h2>
 
+<ResponsiveIframe src="https://shopmy.us/collections/public/628197?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
+
+<ResponsiveIframe src="https://shopmy.us/collections/public/628200?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
+<ResponsiveIframe src="https://shopmy.us/collections/public/628186?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
+<ResponsiveIframe src="https://shopmy.us/collections/public/628191?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
+<ResponsiveIframe src="https://shopmy.us/collections/public/628192?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
+<ResponsiveIframe src="https://shopmy.us/collections/public/628195?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
+
 
 <p style={paragraphStyle}>
-I hope you got some inspiration from my bridesmaid box, and if you want to see my bridal dress fitting for more bride-to-be vibes, sign up for the newsletter <a href = "/subscribe" >here</a>  for more posts coming up! If you’re looking for pop culture-inspired bridal looks, I also have you covered with this article here. Thank you for reading!
+I hope you got some inspiration from my bridesmaid box, and if you want to see my bridal dress fitting for more bride-to-be vibes, sign up for the newsletter <a href = "/subscribe" >here</a>  for more posts coming up! If you’re looking for pop culture-inspired bridal looks, I also have you covered with the article below. Thank you for reading!
 
 </p>
 
-   <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-          <img src={image7} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
-    
+<div style={{ textAlign: 'center' }}>
+        <a href="/SharonTateBridal" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={sharon} alt="Vintage Vibes Merch" style={{ width: '100%', maxWidth: '1000px', display: 'block' }} />
+         MORE BRIDAL →
+        </a>
       </div>
 
       <div>
@@ -342,8 +346,8 @@ style = {{
   return (
     <div ref={blogRef}>
       <Card
-        title="Summer Beauty Inspiration!"
-        description="Just a hint of color, just in time for spring"
+        title="Bridesmaid Proposal Box"
+        description=" "
         blogContent={blogContent}
       />
 
