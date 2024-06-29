@@ -7,7 +7,7 @@ import AdSenseAd from '../Advertising/Ads';
 const QuizHomepage = () => {
     return (
         <div>
-            <TextReveal text='🐰🦌 WHICH ANIMAL FACE TYPE ARE YOU? 🦊🐈‍⬛' style = {{backgroundColor: 'white', fontSize: '0.75rem'}} />
+            <TextReveal text='🐰🦌 WHICH ANIMAL FACE TYPE ARE YOU? 🦊🐈‍⬛' style = {{backgroundColor: 'white', fontSize: '0.55rem'}} />
             <Grid container justifyContent="center">
                 <Grid item xs={12}>
                     <Quiz2 />
@@ -17,6 +17,11 @@ const QuizHomepage = () => {
                 
             </Grid>
             <div style={{margin: '20px'}}>
+                <AdSenseAd/>
+                </div>
+                <div style={{margin: '20px'}}>
+                <AdSenseAd/>
+                </div> <div style={{margin: '20px'}}>
                 <AdSenseAd/>
                 </div>
         </div>

@@ -4,6 +4,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import SwitchUpYour from './SwitchUpYour';
+import AdSenseAd from '../../Advertising/Ads';
 
 const Footer = () => {
  
@@ -70,9 +71,13 @@ const Footer = () => {
                         <a href="/privacy" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '18px' }}>
                             Policies
                         </a>
+                        <a href="/videos" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '18px' }}>
+                            Videos
+                        </a>
                     </div>
                 </div>
             </footer>
+          
         </div>
     );
 };
