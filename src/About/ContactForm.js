@@ -3,7 +3,7 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import styles from './ContactForm.module.css'; // Import the CSS module
 
-const zapierWebhookURL = 'https://hooks.zapier.com/hooks/catch/18965305/3vxl0vc/';
+const iftttWebhookURL = 'https://maker.ifttt.com/trigger/BusinessContact/with/key/3SLtqFLBg3zfwW2LzXJF4LC0WeaKUlWgfnSpbHY-Uw';
 
 const ContactForm = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -29,8 +29,11 @@ const ContactForm = () => {
     }),
     onSubmit: async (values, { resetForm }) => {
       try {
-        const response = await fetch(zapierWebhookURL, {
+        const response = await fetch(iftttWebhookURL, {
           method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
           body: JSON.stringify(values),
         });
 
