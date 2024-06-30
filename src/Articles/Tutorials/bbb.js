@@ -9,9 +9,16 @@ const image8 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyers
 const makeup2016 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016MakeupThumbnail.jpg`;
 const image17 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
 const animalpretty = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.jpg`;
-
+const bridalmakeup = `${process.env.PUBLIC_URL}/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.jpg`;
 
 const cardsData = [
+  {
+    link: "/bridalmakeup",
+    image: bridalmakeup,
+    alt: "Warm and cozy latte-inspired fall makeup look",
+    title: "Bridal Trial Makeup 💄",
+    description: "Think warm, cozy, fall!",
+  },
   {
     link: "/animalpretty",
     image: animalpretty,

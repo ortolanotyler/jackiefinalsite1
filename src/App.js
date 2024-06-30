@@ -78,6 +78,7 @@ import DiaryBridesmaids from './Articles/Tutorials/VintageVibes/DiaryBridesmaids
 import LatestExplorer from './Home/LatestExplorer';
 import EmailSubscribe2 from './Components/EmailSubscribe2';
 import ReviewArticleListHome from './ReviewsPage/ReviewArticleListHomePage';
+import BridalMakeup from './Articles/Tutorials/Trending/BridalMakeup';
 
 function usePageTracking() {
   const location = useLocation();
@@ -175,6 +176,7 @@ function App() {
           <Route path="bridesmaidboxes" element={<DiaryBridesmaids />} />
           <Route path="latestexplorer" element={<LatestExplorer />} />
           <Route path="reviews" element={<ReviewArticleListHome />} />
+          <Route path="bridalmakeup" element={<BridalMakeup />} />
 
 
           <Route path="*" element={<h1>404 Not Found</h1>} />
