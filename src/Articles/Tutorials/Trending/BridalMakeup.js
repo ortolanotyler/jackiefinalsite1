@@ -108,6 +108,7 @@ const BridalMakeup = () => {
      
 
       <p style={paragraphStyle}><strong>A Nostalgic Eye Palette:</strong> For eyes, I chose neutral tones to add definition from the Cinderella and MAC Collection—a nostalgic nod to one of my earliest makeup favourites when I just started my YouTube channel. I was thrilled when MAC rereleased the iconic collection this year and sent me the collection!</p>
+     
       <p style={paragraphStyle}><strong>Go Waterproof:</strong> For the final touch on the eyes, I added a bit of black eyeliner to my inner corners and tight line, along with black liquid liner for a small wing. While I opted not to use waterproof liners—since I don't usually have issues with smudging—I always recommend waterproof mascara. It's an absolute must, especially for those teary eyed moments that might just catch you off guard on your big day!</p>
 
      
@@ -163,6 +164,10 @@ const BridalMakeup = () => {
       </p>
       <p style={paragraphStyle}>My actual wedding dress is not as white as the dresses I tried on, but slightly more on the warmer, champagne side so I'm excited to adjust my makeup accordingly.</p>
       <p style={paragraphStyle}>Since I will be outside for much of the wedding day, I will skip gloss and go for a balm for moisture, but less stick. Nothing worse than hair in lipgloss!</p>
+      <div style={{ margin: '20px' }}>
+        <AdSenseAd />
+      </div>
+      
       <p style={paragraphStyle}>
   <strong>  What's Your Dream Bridal Look?  </strong>Let me know in the comments! If you need more inspiration, remember to check out my pop culture bridal styles on IG <a 
     href="https://www.instagram.com/p/C7YBzrco0BQ/?img_index=1" 
