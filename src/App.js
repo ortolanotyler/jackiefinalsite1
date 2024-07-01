@@ -154,7 +154,7 @@ function App() {
           <Route path="diary" element={<DiarySlider />} />
           <Route path="diaryfillers" element={<DiaryPost1Fillers />} />
           <Route path="sitemap" element={<Sitemap />} />
-          <Route path="subscribe" element={<EmailSubscribe2 />} />
+          <Route path="subscribe" element={<EmailSubscribe />} />
           <Route path="press" element={<MediaKit />} />
           <Route path="privacy" element={<PrivacyNotice />} />
           <Route path="contact" element={<BusinessContact />} />

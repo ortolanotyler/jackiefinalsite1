@@ -4,7 +4,7 @@ import './EmailSubscribe.module.css'; // Ensure this file exists
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Home/EmailSub.jpeg`;
 
-const iftttWebhookURL = 'https://maker.ifttt.com/trigger/email/with/key/3SLtqFLBg3zfwW2LzXJF4LC0WeaKUlWgfnSpbHY-Uw';
+const iftttWebhookURL = 'https://cors.bridged.cc/https://maker.ifttt.com/trigger/email/with/key/3SLtqFLBg3zfwW2LzXJF4LC0WeaKUlWgfnSpbHY-Uw';
 
 export default function EmailSubscribe() {
   const [email, setEmail] = useState('');
