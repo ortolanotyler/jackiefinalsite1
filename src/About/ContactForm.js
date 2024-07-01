@@ -3,8 +3,6 @@ import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import styles from './ContactForm.module.css'; // Import the CSS module
 
-const zapierWebhookURL = 'https://hooks.zapier.com/hooks/catch/18965305/3vxl0vc/';
-
 const ContactForm = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -27,24 +25,10 @@ const ContactForm = () => {
       message: Yup.string()
         .required('Required'),
     }),
-    onSubmit: async (values, { resetForm }) => {
-      try {
-        const response = await fetch(zapierWebhookURL, {
-          method: 'POST',
-          body: JSON.stringify(values),
-        });
-
-        if (response.ok) {
-          setIsSubmitted(true);
-          resetForm({});
-          setTimeout(() => setIsSubmitted(false), 5000);
-        } else {
-          alert('Failed to submit form.');
-        }
-      } catch (error) {
-        console.error('Error:', error);
-        alert('Error submitting form.');
-      }
+    onSubmit: (values, { resetForm }) => {
+      setIsSubmitted(true);
+      resetForm({});
+      setTimeout(() => setIsSubmitted(false), 5000);
     },
   });
 
