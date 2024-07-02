@@ -41,20 +41,19 @@ export default function EmailSubscribe() {
     try {
       const response = await fetch(iftttWebhookURL, {
         method: 'POST',
+        mode: 'no-cors',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ value1: email }),
       });
 
-      if (response.ok) {
+      if (response) { // Cannot check response.ok with 'no-cors' mode
         setIsSubmitted(true);
         setEmail('');
         setConsent(false);
         setError('');
       } else {
-        const errorText = await response.text();
-        console.error('Server error:', errorText);
         setError('Failed to subscribe email.');
       }
     } catch (error) {

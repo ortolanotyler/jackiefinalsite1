@@ -19,9 +19,9 @@ import ShopMyHero2 from './ShopMyHero2';
 import { Helmet } from 'react-helmet';
 import VideoEmbed from './VideoEmbed';
 import LatestExplorer from './LatestExplorer';
+import { initGA, logPageView } from '../analytics';
 
 const theme = createTheme();
-
 
 function HomePage() {
   const linkRef = useRef(null);
@@ -30,6 +30,9 @@ function HomePage() {
   const [isVideoJiggling, setIsVideoJiggling] = useState(false);
 
   useEffect(() => {
+    initGA();
+    logPageView();
+
     const currentLinkRef = linkRef.current;
     const currentVideoLinkRef = videoLinkRef.current;
 
@@ -83,7 +86,7 @@ function HomePage() {
     <Box sx={{ width: '100%', backgroundColor: 'white' }}>
       <Helmet>
         <title>Jackie Wyers Beauty</title>
-        <meta name="description" content="Explore Jackie Wyers' home page featuring beauty tutorials, reviews, travel tips, and more." />
+        <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
         <script>
           {`
@@ -113,25 +116,22 @@ function HomePage() {
           <AboutHero />
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
-        <div
-          style = {{
-            padding: '2rem',
-            margin: '1rem',
-          }}
+          <div
+            style={{
+              padding: '2rem',
+              margin: '1rem',
+            }}
           >
-          <EmailSubscribe />
+            <EmailSubscribe />
           </div>
         </Grid>
-    
-     
         <Grid item xs={12}>
           <div
-          style = {{
-            padding: '2rem',
-          }}
+            style={{
+              padding: '2rem',
+            }}
           >
-          <SiteExplorer />
-
+            <SiteExplorer />
           </div>
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="flex-end">
@@ -153,9 +153,9 @@ function HomePage() {
           <TextReveal text="LATEST VIDEO" />
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center" sx={{ mt: 2 }}>
-        <ThemeProvider theme={theme}>
-      <VideoEmbed />
-    </ThemeProvider>
+          <ThemeProvider theme={theme}>
+            <VideoEmbed />
+          </ThemeProvider>
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="flex-end">
           <Box sx={{ textAlign: 'right', mt: -1, mr: 10 }}>
@@ -177,10 +177,9 @@ function HomePage() {
           <ReviewFavorites />
         </Grid>
         <Grid item xs={12}>
-          <TextReveal text="🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊" style={{ backgroundColor: 'white' }}  />
+          <TextReveal text="🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊" style={{ backgroundColor: 'white' }} />
           <Quiz2 />
         </Grid>
-      
         <Grid item xs={12}>
           <TextReveal text='SHOP MY STYLE' />
         </Grid>
@@ -203,13 +202,13 @@ function HomePage() {
           <LifestyleFavorites />
         </Grid>
         <Grid item xs={12}>
-        <div
-          style = {{
-            padding: '2rem',
-            marginBottom: '1rem',
-          }}
+          <div
+            style={{
+              padding: '2rem',
+              marginBottom: '1rem',
+            }}
           >
-          <EmailSubscribe />
+            <EmailSubscribe />
           </div>
         </Grid>
       </Grid>

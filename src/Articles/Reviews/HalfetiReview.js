@@ -5,6 +5,7 @@ import './ExampleTutorial.css';
 import TextReveal from '../../Components/TextReveal';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import AdSenseAd from '../../Advertising/Ads';
+import { initGA, logPageView } from '../../analytics';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/halfetititle.png`;
 const profile = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/halfetiprofile.png`;
@@ -22,6 +23,9 @@ const HalfetiReview = () => {
     const blogRef = useRef(null);
 
     useEffect(() => {
+        initGA();
+        logPageView();
+
         const script1 = document.createElement('script');
         script1.src = "https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG";
         script1.async = true;
@@ -75,7 +79,17 @@ const HalfetiReview = () => {
             <Helmet>
                 <title>Halfeti Review | Penhaligon's Perfume</title>
                 <meta name="description" content="A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression." />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+                <script>
+                    {`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'G-RT6GR7JXYG');
+                    `}
+                </script>
             </Helmet>
+            <AdSenseAd />
             <div style={{ textAlign: 'center', marginBottom: '1rem', height: '10vh' }}>
                 <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // REVIEWS
@@ -85,7 +99,6 @@ const HalfetiReview = () => {
             <div style={imageContainerStyle}>
                 <img src={halfeti1} alt="Halfeti Perfume" style={imageStyle} />
             </div>
-           
             <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '1rem 0', fontStyle: 'italic' }}>
                 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
@@ -99,6 +112,7 @@ const HalfetiReview = () => {
                 Perfumers: <strong>Christian Provenzano</strong><br /><br />
                 Price: <strong>100 ml - $290 USD</strong>
             </div>
+            <AdSenseAd />
             <h2 style={headingStyle}>🍃 Fragrance Profile</h2>
             <div style={{ fontSize: '1.25rem', fontFamily: 'GFS Didot, serif', margin: '1rem' }}>
                 <div style={{ marginBottom: '0.5rem' }}>
@@ -124,6 +138,10 @@ const HalfetiReview = () => {
             <p style={paragraphStyle}>
                 Overall Scent Profile: Halfeti opens with a burst of citrus freshness, dominated by grapefruit and bergamot, before evolving into a spicy and floral heart. The base is warm and woody, with prominent notes of leather, oud, and amber, creating a rich and sophisticated scent that lingers on the skin.
             </p>
+            <div style = {{margin:'10px'}}>
+
+            <AdSenseAd />
+            </div>
             <h2 style={headingStyle}>🗺️ Personal First Impressions</h2>
             <p style={paragraphStyle}>
                 My first encounter with Penhaligon's fragrances was when I received a tester set featuring a variety of scents from this iconic British perfume house. Among them, Halfeti stood out and quickly became a favorite for both my husband and I. As a unisex fragrance, it boasts a rich, exotic, and distinct aroma. The "Trade Routes" collection from Penhaligon's draws inspiration from various destinations, and although I've never visited Halfeti, Turkey, this particular fragrance transports me to what I imagine a warm and vibrant night bazaar might smell like.
@@ -134,6 +152,10 @@ const HalfetiReview = () => {
             <p style={paragraphStyle}>
                 I recommend visiting a Penhaligon’s boutique or your nearest Nordstrom or Saks Fifth Avenue to experience Halfeti for yourself. It might be challenging to envision how the enchanting combination of notes comes together, but they do so in a bold and alluring manner that is simply irresistible. You’ll smell expensive with this deeply rich scent, and that is what you pay for with Penhaligon’s!
             </p>
+            <div style = {{margin:'10px'}}>
+
+<AdSenseAd />
+</div>
             <h2 style={headingStyle}>❤️ Review & Recommendations</h2>
             <p style={paragraphStyle}>
                 <strong>Longevity:</strong> Halfeti boasts excellent longevity, lasting well throughout the day with just a few spritzes. The fragrance develops beautifully over time, revealing different facets while maintaining its captivating aroma.
@@ -148,6 +170,10 @@ const HalfetiReview = () => {
             <p style={paragraphStyle}>
                 Those who favor bold, oriental fragrances like Tom Ford's Oud Wood or Jo Malone's Oud & Bergamot might find a familiar allure in Halfeti. Yet, Penhaligon's offering stands out with its unique blend of Turkish florals and spices.
             </p>
+            <div style = {{margin:'10px'}}>
+
+<AdSenseAd />
+</div>
             <h2 style={headingStyle}>📝 Final Thoughts</h2>
             <p style={paragraphStyle}>
                 <strong>Pros and Cons:</strong> The blend of exotic spices and florals might be intense for those who prefer lighter scents. But for lovers of rich, complex fragrances, Halfeti is a treasure.
@@ -166,9 +192,16 @@ const HalfetiReview = () => {
             </p>
             <img src={signature} alt="Signature" style={{ width: '100%' }} />
             <Comments website-id={websiteId} page-id="Halfeti" />
+            <div style = {{margin:'10px'}}>
+
+<AdSenseAd />
+</div>
+<div style = {{margin:'10px'}}>
+
+<AdSenseAd />
+</div>
         </div>
     );
-    
 
     return (
         <div>

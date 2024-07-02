@@ -113,6 +113,7 @@ style = {{
                 <img src={jicky3} alt="Jicky Perfume 2" style={imageStyle} />
             </a>
 
+
             <h2 style={headingStyle}>🍋 Fragrance Profile</h2>
 
             <div style={{ textAlign: 'center', fontSize: '1.25rem', fontFamily: 'GFS Didot, serif', margin: '1rem 1' }}>
@@ -122,7 +123,14 @@ style = {{
                 Heart/Middle Notes: <strong>Lavender, Orris Root, Tonka Bean, Basil and Jasmine</strong><br /><br />
                 Base Notes: <strong>Vanilla, Spices, Leather, Amber, Sandalwood, Palisander Rosewood</strong>
             </div>
+     <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
             <p style={paragraphStyle}>
                 Overall Scent Profile: Jicky is an enigmatic blend of vibrant top notes and a mysterious, deep base. Its opening is fresh and inviting, quickly evolving into a complex, spicy heart, and settling into a rich, warm embrace of vanilla and woods. This duality makes Jicky both refreshing and comforting masterpiece.
             </p>
@@ -198,6 +206,14 @@ style = {{
                 <strong>Who Would Enjoy It:</strong> Ideal for the fragrance connoisseur and the adventurous spirit, Jicky suits those who appreciate a fragrance with depth, history, and a powdery finish.
             </p>
 
+            <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
             <p style={paragraphStyle}>
                 <strong>Conclusion:</strong> Jicky by Guerlain has an enduring popularity which is a tribute to its timeless elegance and pioneering spirit. Sharon Tate has fabulous taste!
             </p>

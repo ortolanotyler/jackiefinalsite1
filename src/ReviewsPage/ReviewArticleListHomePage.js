@@ -26,30 +26,27 @@ const articles = [
     image: image3,
     path: '/halfetireview',
   },
-
   // Add more articles as needed
 ];
 
 const ReviewArticleListHome = () => {
   return (
-    <div> 
-       <div> 
-      <TextReveal text = "REVIEWS" />
-    </div>
-    <div className="article-list-reviews">
-      {articles.map((article, index) => (
-        <ReviewArticleCard
-          key={index}
-          date={article.date}
-          title={article.title}
-          imageUrl={article.image}
-          path={article.path}
-        />
-      ))}
-    </div>
+    <div>
+      <div>
+        <TextReveal text="REVIEWS" />
       </div>
-      
-     
+      <div className="article-list-reviews">
+        {articles.map((article, index) => (
+          <ReviewArticleCard
+            key={index}
+            date={article.date}
+            title={article.title}
+            imageUrl={article.image}
+            path={article.path}
+          />
+        ))}
+      </div>
+    </div>
   );
 };
 
