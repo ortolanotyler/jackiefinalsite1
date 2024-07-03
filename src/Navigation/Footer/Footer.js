@@ -71,6 +71,7 @@ const Footer = () => {
                         <a href="/privacy" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '18px' }}>
                             Policies
                         </a>
+                        <br/>
                         <a href="/videos" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '18px' }}>
                             Videos
                         </a>
