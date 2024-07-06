@@ -76,9 +76,9 @@ import Fable from './Articles/Travel/Fable';
 import SummerBeauty from './Articles/Tutorials/PopCulture/SummerBeauty';
 import DiaryBridesmaids from './Articles/Tutorials/VintageVibes/DiaryBridesmaids';
 import LatestExplorer from './Home/LatestExplorer';
-import EmailSubscribe2 from './Components/EmailSubscribe2';
 import ReviewArticleListHome from './ReviewsPage/ReviewArticleListHomePage';
 import BridalMakeup from './Articles/Tutorials/Trending/BridalMakeup';
+import PeriodDrama from './Articles/Tutorials/PopCulture/PeriodDrama';
 
 function usePageTracking() {
   const location = useLocation();
@@ -175,7 +175,15 @@ function App() {
           <Route path="summerbeauty" element={<SummerBeauty />} />
           <Route path="bridesmaidboxes" element={<DiaryBridesmaids />} />
           <Route path="latestexplorer" element={<LatestExplorer />} />
+          <Route path="perioddrama" element={<PeriodDrama />} />
+
+
+
           <Route path="reviews" element={<ReviewArticleListHome />} />
+
+          
+
+
           <Route path="bridalmakeup" element={<BridalMakeup />} />
 
 

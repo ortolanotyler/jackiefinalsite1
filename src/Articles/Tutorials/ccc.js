@@ -14,8 +14,16 @@ const nomakeup = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomak
 const animalpretty = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.jpg`;
 const summerinspo = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/mermaidthumbnail.jpg`;
 const summerbeauty = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/BlueLagoonThumbnail.jpg`;
+const perioddrama = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/ArticleThumb.jpg`;
 
 const cardsData = [
+  {
+    link: "/perioddrama",
+    image: perioddrama,
+    alt: "Summer Beauty",
+    title: "No-Makeup Period Dramas and Wearable Historical Hairstyles",
+  },
+
   {
     link: "/summerbeauty",
     image: summerbeauty,
