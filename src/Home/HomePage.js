@@ -5,7 +5,6 @@ import TextReveal from '../Components/TextReveal';
 import QuoteBanner3 from './QuoteBanner3';
 import EmailSubscribe from '../Components/EmailSubscribe';
 import SiteExplorer from './SiteExplorer';
-import ReviewArticleListHome from '../ReviewsPage/ReviewArticleListHomePage';
 import BeigeReveal from '../Components/BeigeReveal';
 import RotatingText from '../Navigation/AppBar/RotatingText';
 import Quiz2 from '../Quiz/Quiz2';
@@ -18,8 +17,8 @@ import LifestyleFavorites from './LifestyleFavorites';
 import ShopMyHero2 from './ShopMyHero2';
 import { Helmet } from 'react-helmet';
 import VideoEmbed from './VideoEmbed';
-import LatestExplorer from './LatestExplorer';
 import { initGA, logPageView } from '../analytics';
+import AdSenseAd from '../Advertising/Ads';
 
 const theme = createTheme();
 
@@ -211,6 +210,7 @@ function HomePage() {
             <EmailSubscribe />
           </div>
         </Grid>
+        <AdSenseAd/>
       </Grid>
     </Box>
   );
