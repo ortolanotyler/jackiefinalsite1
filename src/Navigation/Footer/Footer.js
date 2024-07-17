@@ -14,7 +14,7 @@ const Footer = () => {
         <SwitchUpYour />
             <footer style={{ 
                 width: '100%',  // Ensures the footer matches the width of the viewport
-                height: '35vh',
+                height: '40vh',
                 fontFamily: 'GFS Didot, serif',
                 justifyContent: 'center',
                 backgroundColor: '#EBE8E4',
