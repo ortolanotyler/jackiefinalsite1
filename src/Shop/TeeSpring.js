@@ -9,7 +9,6 @@ const TeeSpring = () => {
     boxShadow: '0 4px 8px 0 rgba(0,0,0,0.9)',
   }}
   >
-      <img src={teespring} alt="teespring" />
   
  <iframe
       style={{ borderRadius: '24px', border: 'none', width: '100%', height: '960px' }}
@@ -17,6 +16,8 @@ const TeeSpring = () => {
       title="Shop Jackie Wyers Merch store powered by Spring"
       data-reactroot=""
     ></iframe>
+          <img src={teespring} alt="teespring" />
+
     </div>
    
   );

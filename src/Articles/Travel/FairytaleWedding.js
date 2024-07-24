@@ -145,17 +145,19 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
       allowFullScreen
     ></iframe>
 
- 
-</div>
-<div
-style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '2rem' }}
-> 
-<SubscribeButton />
+
+
+
 
 </div>
+
+<div style = {{textAlign: 'center', marginTop: '2rem' }}>
+<SubscribeButton />
+</div>
 <div
 style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '2rem' }}
 > 
+
 
 <DropCap text="On July 11th, Tyler and I celebrated two years of marriage with a dreamy ceremony in Sorrento, Italy. If you haven’t caught up with our backstory, here’s a quick recap: We first met in middle school at
 the International School of Brussels, where we became each other's first “real” boyfriend and girlfriend. Originally from Atlanta, Georgia, and Ontario, Canada, our families both moved to Belgium in 2007, and we were the new kids at the international school that same year. What started as a middle school crush blossomed into a lifelong connection, surviving long distances as friends for over 10 years, and culminating in an epic reunion in the Big Apple!" />
