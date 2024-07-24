@@ -101,7 +101,7 @@ const FairytaleWedding = () => {
     margin: '1rem 1.5rem',
     marginTop: '1rem',
     marginBottom: '1rem',
-    maxWidth: '700px',
+    maxWidth: '800px',
     lineHeight: '1.5',
     marginLeft: 'auto',
     marginRight: 'auto',
