@@ -261,9 +261,9 @@ style = {{
 
 <div style={gridContainerStyle}>
     <img src={image10} alt="Jackie Wyers Wedding Photography" style={imageStyle} /> 
-    <img src={image11} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
+    <img src={image12} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
 </div>
-<img src={image12} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
+<img src={image11} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
 
 
 <p style={paragraphStyle}>
