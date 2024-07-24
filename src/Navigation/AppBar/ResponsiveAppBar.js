@@ -43,6 +43,8 @@ const shopOptions = [
 
 const tutorialOptions = [
   { name: 'All Tutorials', path: '/tutorials' },
+  { name: 'Bridal', path: '/bridal' },
+
   { name: 'Trending Now', path: '/trends' },
   { name: 'Pop Culture', path: '/popculture' },
   { name: 'Vintage Vibes', path: '/timetraveltutorials' },

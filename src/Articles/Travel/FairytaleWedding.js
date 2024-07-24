@@ -7,6 +7,7 @@ import AdSenseAd from '../../Advertising/Ads';
 import WeddingCarousel from '../../Components/WeddingCarousel';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
+import SubscribeButton from '../../Components/SubscribeButton';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/WeddingTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/1.jpg`;
@@ -118,14 +119,31 @@ const imageStyle = {
   const blogContent = (
     <div className="container">
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-        <a href="/tutorials" style={{ fontFamily: 'Arapey', fontSize: '1em', color: 'black', textDecoration: 'none' }}>
+        <a href="/bridal" style={{ fontFamily: 'Arapey', fontSize: '1em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // BRIDAL
         </a>
       </div>
       <img src={title} alt="Our Fairytale Wedding Overlooking Sorrento, Italy" style={{ width: '100%' }} />
    
+<div
+style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
+> 
+<iframe
+      style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
+      src="https://www.youtube.com/embed/WuK6DOdvOug"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
 
-   
+ 
+</div>
+<div
+style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '2rem' }}
+> 
+<SubscribeButton />
+      </div>
 
       <DropCap text="On July 11th, Tyler and I celebrated two years of marriage with a dreamy ceremony in Sorrento, Italy. If you haven’t caught up with our backstory, here’s a quick recap: We first met in middle school at
 the International School of Brussels, where we became each other's first “real” boyfriend and girlfriend. Originally from Atlanta, Georgia, and Ontario, Canada, our families both moved to Belgium in 2007, and we were the new kids at the international school that same year. What started as a middle school crush blossomed into a lifelong connection, surviving long distances as friends for over 10 years, and culminating in an epic reunion in the Big Apple!" />
@@ -526,15 +544,9 @@ style = {{
   textAlign: 'center',
 }}
 > 
-<iframe
-  width="300px"
-  height="550px"
-  src="https://www.youtube.com/embed/WuK6DOdvOug"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
+
+
+
 </div>
 <div style={gridContainerStyle}>
   <a href = "https://www.instagram.com/pressedfloral_/" target = "_blank" rel="noopener noreferrer">
@@ -586,7 +598,7 @@ Thank you for reading and for being part of our journey and my life for so many 
      
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <a href="/bridesmaidboxes" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={bridesmaid} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          <img src={bridesmaid} alt="Bridesmaids Boxes How To" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
           MORE BRIDAL CONTENT →
         </a>
       </div>

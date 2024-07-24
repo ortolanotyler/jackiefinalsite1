@@ -80,6 +80,8 @@ import ReviewArticleListHome from './ReviewsPage/ReviewArticleListHomePage';
 import BridalMakeup from './Articles/Tutorials/Trending/BridalMakeup';
 import PeriodDrama from './Articles/Tutorials/PopCulture/PeriodDrama';
 import FairytaleWedding from './Articles/Travel/FairytaleWedding';
+import Eeebridal from './Articles/Tutorials/eeebridal';
+import BridalHome from './Articles/Tutorials/BridalHome';
 
 function usePageTracking() {
   const location = useLocation();
@@ -185,6 +187,7 @@ function App() {
 
           
 
+          <Route path="bridal" element={<BridalHome />} />
 
           <Route path="bridalmakeup" element={<BridalMakeup />} />
 
