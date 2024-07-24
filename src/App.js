@@ -160,6 +160,8 @@ function App() {
             <Route path="diary" element={<DiarySlider />} />
             <Route path="diaryfillers" element={<DiaryPost1Fillers />} />
             <Route path="sitemap" element={<Sitemap />} />
+            <Route path="subscribe" element={<EmailSubscribe />} />
+
             <Route path="emailsubscribe" element={<EmailSubscribe />} />
             <Route path="email123" element={<EmailList />} />
             <Route path="press" element={<MediaKit />} />
