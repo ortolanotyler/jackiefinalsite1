@@ -79,6 +79,7 @@ import LatestExplorer from './Home/LatestExplorer';
 import ReviewArticleListHome from './ReviewsPage/ReviewArticleListHomePage';
 import BridalMakeup from './Articles/Tutorials/Trending/BridalMakeup';
 import PeriodDrama from './Articles/Tutorials/PopCulture/PeriodDrama';
+import FairytaleWedding from './Articles/Travel/FairytaleWedding';
 
 function usePageTracking() {
   const location = useLocation();
@@ -176,6 +177,7 @@ function App() {
           <Route path="bridesmaidboxes" element={<DiaryBridesmaids />} />
           <Route path="latestexplorer" element={<LatestExplorer />} />
           <Route path="perioddrama" element={<PeriodDrama />} />
+          <Route path="fairytalewedding" element={<FairytaleWedding />} />
 
 
 
@@ -191,6 +193,7 @@ function App() {
         </Route>
       </Routes>
     </div>
+   
   );
 }
 

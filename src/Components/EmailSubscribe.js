@@ -41,19 +41,20 @@ export default function EmailSubscribe() {
     try {
       const response = await fetch(iftttWebhookURL, {
         method: 'POST',
-        mode: 'no-cors',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ value1: email }),
       });
 
-      if (response) { // Cannot check response.ok with 'no-cors' mode
+      if (response.ok) {
         setIsSubmitted(true);
         setEmail('');
         setConsent(false);
         setError('');
       } else {
+        const errorText = await response.text();
+        console.error('Server error:', errorText);
         setError('Failed to subscribe email.');
       }
     } catch (error) {
@@ -64,7 +65,7 @@ export default function EmailSubscribe() {
 
   return (
     <Box display="flex" justifyContent="center" alignItems="center" width="100%" height="50vh">
-      <Grid container spacing={3} alignItems="center" justifyContent="center" sx={{ ml: '10px', mt: '10px', maxWidth: '800px', width: '100%' }}>
+      <Grid container spacing={3} alignItems="center" justifyContent="center" sx={{ ml: '10px', mt: '10px', maxWidth: '650px', width: '100%' }}>
         {isSubmitted ? (
           <Grid item xs={12}>
             <Alert severity="success">Email subscribed successfully!</Alert>
