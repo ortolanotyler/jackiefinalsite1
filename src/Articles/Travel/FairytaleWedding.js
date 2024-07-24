@@ -190,7 +190,7 @@ We initially planned our wedding to take place in Belgium, where our story began
 
 <p style={paragraphStyle}>
 
-In this article, I'll be sharing all the ethereal details of our wedding celebration, from the whimsical decorations and Italian venue to the bridal beauty inspirations and unforgettable moments captured by our talented photographer, Shivani Sharma. You'll also get a glimpse into the intimate preparations, the fairycore bridesmaids, and the unique touches that made our ceremony truly ours. Let's dive into the magical details of our wedding and relive the most memorable moments together!
+In this article, I'll be sharing all the ethereal details of our wedding celebration, from the whimsical decorations and Italian venue to the bridal beauty inspirations and unforgettable moments captured by our talented photographer, <a href="https://shivanisharmaphoto.mypixieset.com" target="_blank" rel="noreferrer" style={{ color: 'black' }}>Shivani Sharma</a>. You'll also get a glimpse into the intimate preparations, the fairycore bridesmaids, and the unique touches that made our ceremony truly ours. Let's dive into the magical details of our wedding and relive the most memorable moments together!
 </p>
 
 
@@ -247,7 +247,7 @@ Pop Culture Bridal Makeup & Hair Inspirations
    
 
   <p style={paragraphStyle}>
-    My bridal beauty style was a blend of whimsical enchantment and cinematic romance—echoing the regal elegance of Christine from "Phantom of the Opera," with a touch of beachy flair à la "Mamma Mia." I adorned my veil and bridesmaids' hair with handmade flower pins similar to Sophie’s. For these sheer flower pins, and if you love bridal looks in TV & film.
+    My bridal beauty style was a blend of whimsical enchantment and cinematic romance—echoing the regal elegance of Christine from "Phantom of the Opera," with a touch of beachy flair à la "Mamma Mia." I adorned my veil and bridesmaids' hair with handmade flower pins similar to Sophie’s. For these sheer flower pins, and if you love bridal looks in TV & film, stay tuned for a tutorial on Instagram.
 </p>
 
 <div
@@ -430,7 +430,8 @@ All of these photos are by Shivani Sharma, <a href= "https://www.instagram.com/m
 </div>
 
 <p style={paragraphStyle}>
-    If you are hiring a photographer for a destination wedding, it’s also great if they have been to the location before. Sometimes getting around can be tricky as it was in Sorrento, and I knew Shivani had been there earlier in the summer, again, making her the perfect choice. If you love these images and want to book with Shivani, contact her <a href="https://shivanisharmaphoto.mypixieset.com" target="_blank" rel="noreferrer" style={{ color: 'black' }}>here</a>, or show her some love on social media <a href="https://www.instagram.com/moderndayshivalry/?hl=en" target="_blank" rel="noreferrer" style={{ color: 'black' }}>here</a>.
+    If you are hiring a photographer for a destination wedding, it’s also great if they have been to the location before. Sometimes getting around can be tricky as it was in Sorrento, and I knew Shivani had been there earlier in the summer, again, making her the perfect choice. If you love these images and want to book with 
+    Shivani, contact her <a href="https://shivanisharmaphoto.mypixieset.com" target="_blank" rel="noreferrer" style={{ color: 'black' }}>here</a>, or show her some love on social media <a href="https://www.instagram.com/moderndayshivalry/?hl=en" target="_blank" rel="noreferrer" style={{ color: 'black' }}>here</a>.
 </p>
 
 
