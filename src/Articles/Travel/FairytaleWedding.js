@@ -4,6 +4,7 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import DropCap from '../../Components/DropCap';
 import TextReveal from '../../Components/TextReveal';
 import AdSenseAd from '../../Advertising/Ads';
+import WeddingCarousel from '../../Components/WeddingCarousel';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/WeddingTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/1.jpg`;
@@ -519,7 +520,8 @@ Speaking of keepsakes, Shivani captured a beautiful wedding video and I created 
 
 <div
 style = {{
-  textAlign: 'center',
+
+  margin: 'auto 0'
 }}
 > 
 <iframe
@@ -575,7 +577,7 @@ Thank you for reading and for being part of our journey and my life for so many 
 
 </p>
 
-
+<WeddingCarousel/>
        <div>
         <img src={signature} alt="Jackie Wyers Signature XoXo" style={{ width: '100%' }} />
       </div>
