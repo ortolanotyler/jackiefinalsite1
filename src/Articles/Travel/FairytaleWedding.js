@@ -247,7 +247,7 @@ Pop Culture Bridal Makeup & Hair Inspirations
    
 
   <p style={paragraphStyle}>
-    My bridal beauty style was a blend of whimsical enchantment and cinematic romance—echoing the regal elegance of Christine from "Phantom of the Opera," with a touch of beachy flair à la "Mamma Mia." I adorned my veil and bridesmaids' hair with handmade flower pins similar to Sophie’s. For these sheer flower pins, and if you love bridal looks in TV & film, stay tuned for a tutorial on Instagram.
+    My bridal beauty style was a blend of whimsical enchantment and cinematic romance—echoing the regal elegance of Christine from "Phantom of the Opera," with a touch of beachy flair à la "Mamma Mia." I adorned my veil and bridesmaids' hair with handmade flower pins similar to Sophie’s. For a sheer flower pin tutorial, stay tuned on <a href = "https://www.instagram.com/jackiewyers/?hl=en" target="_blank" rel="noreferrer">Instagram</a>.
 </p>
 
 <div
