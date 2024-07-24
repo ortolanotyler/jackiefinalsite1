@@ -1,5 +1,6 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useContext } from 'react';
 import { Grid, Button, Box, FormControlLabel, Checkbox, Typography, Alert, TextField } from '@mui/material';
+import { EmailContext } from './EmailContext';
 import './EmailSubscribe.module.css'; // Ensure this file exists
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Home/EmailSub.jpeg`;
@@ -9,36 +10,20 @@ export default function EmailSubscribe() {
   const [consent, setConsent] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [error, setError] = useState('');
-  const buttonRef = useRef(null);
-  const hasJiggled = useRef(false);
+  const { addEmail } = useContext(EmailContext);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (!buttonRef.current || hasJiggled.current) return;
-      const rect = buttonRef.current.getBoundingClientRect();
-      if (rect.top < window.innerHeight && rect.bottom >= 0) {
-        buttonRef.current.classList.add('jiggle');
-        hasJiggled.current = true;
-        setTimeout(() => {
-          buttonRef.current.classList.remove('jiggle');
-        }, 900);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     if (!email || !consent) {
       setError('Email and consent are required.');
       return;
     }
 
-    setIsSubmitted(true);
+    addEmail(email);
+
     setEmail('');
     setConsent(false);
+    setIsSubmitted(true);
     setError('');
   };
 
@@ -75,7 +60,6 @@ export default function EmailSubscribe() {
               </Grid>
               <Grid item xs={12}>
                 <Button
-                  ref={buttonRef}
                   type="submit"
                   variant="contained"
                   className="button"
@@ -95,7 +79,7 @@ export default function EmailSubscribe() {
                   Subscribe
                 </Button>
               </Grid>
-              <Grid item xs={12} sx={{ marginBottom: '-20px' }}>
+              <Grid item xs={12}>
                 <FormControlLabel
                   control={
                     <Checkbox

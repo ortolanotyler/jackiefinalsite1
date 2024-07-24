@@ -103,7 +103,7 @@ const FairytaleWedding = () => {
     marginTop: '1rem',
     marginBottom: '1rem',
     maxWidth: '700px',
-    lineHeight: '1.75',
+    lineHeight: '1.5',
     marginLeft: 'auto',
     marginRight: 'auto',
   };
@@ -151,10 +151,20 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '2rem' }}
 > 
 <SubscribeButton />
+
+</div>
+<div
+style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '2rem' }}
+> 
+
+<DropCap text="On July 11th, Tyler and I celebrated two years of marriage with a dreamy ceremony in Sorrento, Italy. If you haven’t caught up with our backstory, here’s a quick recap: We first met in middle school at
+the International School of Brussels, where we became each other's first “real” boyfriend and girlfriend. Originally from Atlanta, Georgia, and Ontario, Canada, our families both moved to Belgium in 2007, and we were the new kids at the international school that same year. What started as a middle school crush blossomed into a lifelong connection, surviving long distances as friends for over 10 years, and culminating in an epic reunion in the Big Apple!" />
+
       </div>
 
-      <DropCap text="On July 11th, Tyler and I celebrated two years of marriage with a dreamy ceremony in Sorrento, Italy. If you haven’t caught up with our backstory, here’s a quick recap: We first met in middle school at
-the International School of Brussels, where we became each other's first “real” boyfriend and girlfriend. Originally from Atlanta, Georgia, and Ontario, Canada, our families both moved to Belgium in 2007, and we were the new kids at the international school that same year. What started as a middle school crush blossomed into a lifelong connection, surviving long distances as friends for over 10 years, and culminating in an epic reunion in the Big Apple!" />
+
+
+     
   
 <p style={paragraphStyle}>
 In 2018, our paths crossed again in Manhattan—serendipity at its best! Tyler had moved to the city, and I was nearby on a brand trip. We went on a date, 11 years after we last said goodbye in person, and didn’t leave each other’s side since. After moving in together on the Upper West Side, Tyler orchestrated a <a href="https://www.youtube.com/watch?v=-LLQLc6imXA" target="_blank" rel="noreferrer" style={{ color: 'black' }}>surprise proposal</a>  in 2021 during a <a href = "https://www.instagram.com/lostlandscollections/?igsh=dmprdjJybWo5OWFx" target="_blank" rel="noreferrer" >@lostlandscollections</a> fairytale photo shoot in Connecticut which made me feel like a total princess.
@@ -302,7 +312,7 @@ style = {{
 </p>
 
 <p style={paragraphStyle}>
-I bought my wedding gown during a trip to New Zealand, visiting Natalie Rose Bridal. While I tried on many stunning gowns—see the contenders <a href="https://www.youtube.com/watch?v=UQU9Fufug4M&t=196s" target="_blank" rel = "noreferrer" style={{ color: 'black' }}>here</a>—what made this Verander West design special from the upcoming Coronation collection was the removable skirt for a two-in-one look.
+I bought my wedding gown during a trip to New Zealand, visiting <a href = "https://www.instagram.com/natalierosebridal/" target="_blank" rel="noreferrer">Natalie Rose Bridal</a>. While I tried on many stunning gowns—see the contenders <a href="https://www.youtube.com/watch?v=UQU9Fufug4M&t=196s" target="_blank" rel = "noreferrer" style={{ color: 'black' }}>here</a>—what made this Verander West design special from the upcoming Coronation collection was the removable skirt for a two-in-one look.
 </p>
 
 
@@ -411,7 +421,7 @@ style = {{
   <AdSenseAd/>
 </div>
 <p style={paragraphStyle}>
-All of these photos are by Shivani Sharma, @moderndayshivalry on Instagram. With her soft and chic photography style, our ceremony was captured beautifully with backlit lighting and trickles of sunlight for the most romantic images!
+All of these photos are by Shivani Sharma, <a href= "https://www.instagram.com/moderndayshivalry/?hl=en" target="_blank" rel="noreferrer" >@moderndayshivalry</a> on Instagram. With her soft and chic photography style, our ceremony was captured beautifully with backlit lighting and trickles of sunlight for the most romantic images!
 </p>
 
 <div style={gridContainerStyle}>
@@ -543,7 +553,7 @@ Keepsakes
 
 
 <p style={paragraphStyle}>
-Speaking of keepsakes, Shivani captured a beautiful wedding video and I created a more casual vlog on my second channel to capture the day. Another great idea is to have your florals pressed. Pressed florals can recreate your wedding bouquet, which is easier than preserving your wedding bouquet perfectly, and they carry stunning designs and pendant necklaces that make great gifts. My bridal bouquet features a classic and elegant arrangement of white roses, spray roses, and delicate wax flowers, complemented by the unique texture of hypericum berries. The greenery from eucalyptus leaves adds a fresh and natural touch, enhancing the overall romantic and timeless look of the bouquet. I’m so excited to receive my pressed florals soon!
+Speaking of keepsakes, Shivani captured a beautiful wedding video and I created a more casual vlog on my second channel to capture the day. Another great idea is to have your florals pressed. Pressed Florals can recreate your wedding bouquet, which is easier than preserving your wedding bouquet perfectly, and they carry stunning designs and pendant necklaces that make great gifts. My bridal bouquet features a classic and elegant arrangement of white roses, spray roses, and delicate wax flowers, complemented by the unique texture of hypericum berries. The greenery from eucalyptus leaves adds a fresh and natural touch, enhancing the overall romantic and timeless look of the bouquet. I’m so excited to receive my pressed florals soon!
 </p>
 
 
@@ -562,17 +572,19 @@ style = {{
 
   </a>
 </div>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+Pressed Florals
+   </p>
 
 <p style={paragraphStyle}>
 I am quite the sentimental type and love leather-bound photo books. Weddings can be expensive, and leather-bound books can also be pricey, so this makes an amazing anniversary gift or a group gift. One of my favorites is from Etsy.
 </p>
 
-<div style={gridContainerStyle}>
-  <a href = "https://www.etsy.com/ca/listing/866124563/personalized-handpainted-leather-wedding?click_key=caed9b3e37d5bc1a962e78b1d8dcb4a9961842bb%3A866124563&click_sum=85d76b12&ref=shop_home_recs_4&crt=1&sts=1&source=aw&utm_source=affiliate_window&utm_medium=affiliate&utm_campaign=us_location_buyer&utm_content=740219&utm_term=0&sv1=affiliate&sv_campaign_id=740219&awc=6220_1721830912_fd825a826b78d54642951f05361f1c24" target="_blank" rel="noopener noreferrer">
-  <img src={image48} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
 
-  </a>
-</div>
+
+<ResponsiveIframe src="https://shopmy.us/collections/public/688525?noHeader=true" title="Hand-Painted Leather Wedding Photo Album" />
+
+
 
 <h2 style={headingStyle}>
 Reflections
