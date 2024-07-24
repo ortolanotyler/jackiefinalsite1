@@ -283,7 +283,7 @@ Finally for nails, I’m the biggest <a href = "https://oliveandjune.com/collect
   </h2>
 
   <p style={paragraphStyle}>
-  My gown, a custom creation by <a href="https://www.instagram.com/veranderwest" target="_blank" rel= "noreferrer">Verander West</a> is called the 'Elizabeth’ and was inspired by Queen Elizabeth Tudor, featuring a dramatic shape I had never worn before. The opulence! I chose champagne ivory instead of classic white, as I love earthy shades and knew we would have the ceremony at golden hour, making for soft, dreamy photos.
+  My gown, a custom creation by <a href="https://www.instagram.com/veranderwest" target="_blank" rel= "noreferrer">Verander West</a> is called the "Elizabeth" and was inspired by Queen Elizabeth Tudor, featuring a dramatic shape I had never worn before. The opulence! I chose champagne ivory instead of classic white, as I love earthy shades and knew we would have the ceremony at golden hour, making for soft, dreamy photos.
 </p>
            
 <div style={gridContainerStyle}>
