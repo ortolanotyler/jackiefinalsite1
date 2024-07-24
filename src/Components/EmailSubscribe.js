@@ -4,8 +4,6 @@ import './EmailSubscribe.module.css'; // Ensure this file exists
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Home/EmailSub.jpeg`;
 
-const iftttWebhookURL = 'https://cors.bridged.cc/https://maker.ifttt.com/trigger/email/with/key/3SLtqFLBg3zfwW2LzXJF4LC0WeaKUlWgfnSpbHY-Uw';
-
 export default function EmailSubscribe() {
   const [email, setEmail] = useState('');
   const [consent, setConsent] = useState(false);
@@ -38,34 +36,15 @@ export default function EmailSubscribe() {
       return;
     }
 
-    try {
-      const response = await fetch(iftttWebhookURL, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ value1: email }),
-      });
-
-      if (response.ok) {
-        setIsSubmitted(true);
-        setEmail('');
-        setConsent(false);
-        setError('');
-      } else {
-        const errorText = await response.text();
-        console.error('Server error:', errorText);
-        setError('Failed to subscribe email.');
-      }
-    } catch (error) {
-      console.error('Error:', error);
-      setError('Error submitting email. Please note that private browsers may not submit successfully.');
-    }
+    setIsSubmitted(true);
+    setEmail('');
+    setConsent(false);
+    setError('');
   };
 
   return (
     <Box display="flex" justifyContent="center" alignItems="center" width="100%" height="50vh">
-      <Grid container spacing={3} alignItems="center" justifyContent="center" sx={{ ml: '10px', mt: '10px', maxWidth: '650px', width: '100%' }}>
+      <Grid container spacing={3} alignItems="center" justifyContent="center" sx={{ ml: '10px', mt: '10px', maxWidth: '800px', width: '100%' }}>
         {isSubmitted ? (
           <Grid item xs={12}>
             <Alert severity="success">Email subscribed successfully!</Alert>
