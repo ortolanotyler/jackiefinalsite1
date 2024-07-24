@@ -5,7 +5,7 @@ import DropCap from '../../Components/DropCap';
 import TextReveal from '../../Components/TextReveal';
 import AdSenseAd from '../../Advertising/Ads';
 
-const title = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/weddingtitle.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/WeddingTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/1.jpg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/2.jpg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/3.jpg`;
