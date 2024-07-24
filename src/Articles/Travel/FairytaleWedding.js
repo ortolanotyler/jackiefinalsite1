@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import SubscribeButton from '../../Components/SubscribeButton';
 import DropCap from '../../Components/DropCap';
 import TextReveal from '../../Components/TextReveal';
 import AdSenseAd from '../../Advertising/Ads';
@@ -29,7 +28,6 @@ const image19 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/19.j
 const image20 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/20.jpg`;
 const image21 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/21.jpg`;
 const image22 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/22.jpg`;
-const image23 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/23.jpg`;
 const image24 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/24.jpg`;
 const image25 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/25.jpg`;
 const image26 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/26.jpg`;
@@ -59,7 +57,7 @@ const image48 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/book
 
 
 
-const barbie = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/SQUAREMARGOT.jpeg`;
+const bridesmaid = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/BridesmaidBoxThumb!.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
@@ -130,11 +128,14 @@ const imageStyle = {
 the International School of Brussels, where we became each other's first “real” boyfriend and girlfriend. Originally from Atlanta, Georgia, and Ontario, Canada, our families both moved to Belgium in 2007, and we were the new kids at the international school that same year. What started as a middle school crush blossomed into a lifelong connection, surviving long distances as friends for over 10 years, and culminating in an epic reunion in the Big Apple!" />
   
 <p style={paragraphStyle}>
-In 2018, our paths crossed again in Manhattan—serendipity at its best! Tyler had moved to the city, and I was nearby on a brand trip. We went on a date, 11 years after we last said goodbye in person, and didn’t leave each other’s side since. After moving in together on the Upper West Side, Tyler orchestrated a surprise proposal in 2021 during a @lostlandscollections fairytale photo shoot in Connecticut making me feel like a total princess.
+In 2018, our paths crossed again in Manhattan—serendipity at its best! Tyler had moved to the city, and I was nearby on a brand trip. We went on a date, 11 years after we last said goodbye in person, and didn’t leave each other’s side since. After moving in together on the Upper West Side, Tyler orchestrated a <a href="https://www.youtube.com/watch?v=-LLQLc6imXA" target="_blank" rel="noreferrer" style={{ color: 'black' }}>surprise proposal</a>  in 2021 during a @lostlandscollections fairytale photo shoot in Connecticut making me feel like a total princess.
 </p>
 
 <div style={gridContainerStyle}>
-                <img src={image1} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
+   <a href="https://www.youtube.com/watch?v=-LLQLc6imXA" target="_blank" rel = "noreferrer" >
+   <img src={image1} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
+
+   </a>
             </div>
 
 
@@ -206,7 +207,7 @@ Pop Culture Bridal Makeup & Hair Inspirations
    
 
             <p style={paragraphStyle}>
-    My bridal beauty style was a blend of whimsical enchantment and cinematic romance—echoing the regal elegance of Christine from "Phantom of the Opera," with a touch of beachy flair à la "Mamma Mia." I adorned my veil and bridesmaids' hair with handmade flower pins similar to Sophie’s. See a <a href="https://youtube.com" target="_blank" style={{ color: 'black' }}>how-to here</a> for these sheer flower pins, and if you love bridal looks in TV & film, read my article breaking down my favorite looks <a href="https://youtube.com" target="_blank" style={{ color: 'black' }}>here</a>.
+    My bridal beauty style was a blend of whimsical enchantment and cinematic romance—echoing the regal elegance of Christine from "Phantom of the Opera," with a touch of beachy flair à la "Mamma Mia." I adorned my veil and bridesmaids' hair with handmade flower pins similar to Sophie’s. See a <a href="https://www.instagram.com/lostlandscollections/?igsh=dmprdjJybWo5OWFx" target="_blank" rel="noreferrer" style={{ color: 'black' }}>how-to here</a> for these sheer flower pins, and if you love bridal looks in TV & film, read my article breaking down my favorite looks <a href="https://youtube.com" target="_blank" rel="noreferrer" style={{ color: 'black' }}>here</a>.
 </p>
 
 <div
@@ -221,11 +222,12 @@ style = {{
 <div style={gridContainerStyle}>
     <img src={image10} alt="Jackie Wyers Wedding Photography" style={imageStyle} /> 
     <img src={image11} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
-    <img src={image12} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
 </div>
+<img src={image12} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
+
 
 <p style={paragraphStyle}>
-For makeup, I drew inspiration from Taylor Hill’s wedding makeup, emphasizing bold cheeks and deeper, pouty lips in romantic, blushy shades.I swept champagne across the lids with barley there winged liner and outer corner lashes. Charlotte Tilbury, Saie Beauty & Florasis were some of my top brands I chose to create my look.
+For makeup, I drew inspiration from Taylor Hill’s wedding makeup, emphasizing bold cheeks and deeper, pouty lips in romantic, blushy shades. Click <a href= "https://www.youtube.com/watch?v=LtTc3qCVtdE&t=332s" target = "blank" rel="noreferrer">here</a> I swept champagne across the lids with barley there winged liner and outer corner lashes. <a href="https://shopmy.us/collections/677004" target="blank" rel="noreferrer">Charlotte Tilbury</a> , Saie Beauty & Florasis were some of my top brands I chose to create my look.
 </p>
 
 <p style={paragraphStyle}>
@@ -233,15 +235,15 @@ Though pulling from several different beauty inspirations doesn’t always creat
 </p>
 
 <p style={paragraphStyle}>
-Finally for nails, I’m the biggest Olive & June fan and went with an almond, medium length nude manicure that lasted me 2 full weeks for $10. Forever wearing glue ons.
+Finally for nails, I’m the biggest <a href = "https://oliveandjune.com/collections/press-on-nails/products/milky-syrup-gradient-press-on-medium-almond?irclickid=V71S4RwqwxyKThwTSETAVXaQUkC2AlW1rStwwQ0&utm_source=Impact&utm_medium=2340682&utm_campaign=Online%20Tracking%20Link&irgwc=1" target="blank" rel= "noreferrer">Olive & June</a> fan and went with an almond, medium length nude manicure that lasted me 2 full weeks for $10. Forever wearing glue ons.
 </p>
 
   <h2 style={headingStyle}>
-  My Verander West Wedding Gown
+   Verander West: Transformative Bridal Couture
   </h2>
 
   <p style={paragraphStyle}>
-  My gown, a custom creation by Verander West called the 'Elizabeth,’ was inspired by Queen Elizabeth Tudor, featuring a dramatic shape I had never worn before. The opulence! I chose champagne ivory instead of classic white, as I love earthy shades and knew we would have the ceremony at golden hour, making for soft, dreamy photos.
+  My gown, a custom creation by <a href="https://www.instagram.com/veranderwest" target="blank" rel= "noreferrer">Verander West</a> called the 'Elizabeth,’ was inspired by Queen Elizabeth Tudor, featuring a dramatic shape I had never worn before. The opulence! I chose champagne ivory instead of classic white, as I love earthy shades and knew we would have the ceremony at golden hour, making for soft, dreamy photos.
 </p>
            
 <div style={gridContainerStyle}>
@@ -271,7 +273,7 @@ style = {{
 </p>
 
 <p style={paragraphStyle}>
-I bought my wedding gown during a trip to New Zealand, visiting Natalie Rose Bridal. While I tried on many stunning gowns—see the contenders <a href="https://youtu.be/UQU9Fufug4M?si=24MQe08qv9LhNHhr" target="_blank" style={{ color: 'black' }}>here</a>—what made this Verander West design special from the upcoming Coronation collection was the removable skirt for a two-in-one look.
+I bought my wedding gown during a trip to New Zealand, visiting Natalie Rose Bridal. While I tried on many stunning gowns—see the contenders <a href="https://www.youtube.com/watch?v=UQU9Fufug4M&t=196s" target="_blank" rel = "noreferrer" style={{ color: 'black' }}>here</a>—what made this Verander West design special from the upcoming Coronation collection was the removable skirt for a two-in-one look.
 </p>
 
 
@@ -317,6 +319,8 @@ For jewelry, I chose all gold, including vintage rings inherited from my mother 
 A DIY Flower Crown Veil
 </h2>
 
+
+
 <p style={paragraphStyle}>
 As touched on in the beauty details, I knew I wanted a sheer, long veil, which I added DIY flowers to on the day of my wedding! Using sheer ivory and champagne ribbon, I cut petals and my mom helped sew three crystal beads in the centre of each flower to help catch the light. I fastened these onto the veil’s comb to blend better into my hair, and pinned the same flowers into my hair separately for a flower crown version without the veil, again for a more comfortable look.
 </p>
@@ -324,9 +328,17 @@ As touched on in the beauty details, I knew I wanted a sheer, long veil, which I
 <div style={gridContainerStyle}>
     <img src={image21} alt="Jackie Wyers Wedding Photography" style={imageStyle} /> 
 </div>
+
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+A look at the DIY veil             
+   </p>
+
 <div style={gridContainerStyle}>
     <img src={image22} alt="Jackie Wyers Wedding Photography" style={imageStyle} /> 
 </div>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+The second flower crown version using same DIY pinned flowers
+   </p>
 
 <h2 style={headingStyle}>
 My Fairycore Bridesmaids
@@ -334,7 +346,7 @@ My Fairycore Bridesmaids
 
 
 <p style={paragraphStyle}>
-I kept my bridal party very intimate with my sister Cassy as my maid of honour, and my lifelong BFF Lauren, as well as my soon-to-be sister-in-law, Reagan. The girls looked like perfect fairies in moss luxe satin dresses from Show Me Your MuMu, paired with matching gold heels from LuLus. I knew all their colouring would look great with the moss green and that the tones would look harmonious in the garden.
+I kept my bridal party very intimate with my sister Cassy as my maid of honour, and my lifelong BFF Lauren, as well as my soon-to-be sister-in-law, Reagan. The girls looked like perfect fairies in moss <a href = "https://showmeyourmumu.com/collections/mumu-weddings-green-bridesmaid-dresses/products/tuscany-maxi-slip-dress-moss-green-luxe-satin?variant=32983177101355&shop_type=bridal" target = "_blank" rel= "noreferrer">luxe satin dresses</a> from Show Me Your MuMu, paired with matching <a href = "https://www.birdygrey.com/products/natalie-chunky-heel-gold">gold heels</a> from BirdyGrey. I knew all their colouring would look great with the moss green and that the tones would look harmonious in the garden.
 </p>
 
 <div style={gridContainerStyle}>
@@ -378,7 +390,7 @@ All of these photos are by Shivani Sharma, @moderndayshivalry on Instagram. With
 </div>
 
 <p style={paragraphStyle}>
-    If you are hiring a photographer for a destination wedding, it’s also great if they have been to the location before. Sometimes getting around can be tricky as it was in Sorrento, and I knew Shivani had been there earlier in the summer, again, making her the perfect choice. If you love these images and want to book with Shivani, contact her <a href="https://shivanisharmaphoto.mypixieset.com" target="_blank" style={{ color: 'black' }}>here</a>, or show her some love on social media <a href="https://www.instagram.com/shivani__sharmaa_/?hl=en" target="_blank" style={{ color: 'black' }}>here</a>.
+    If you are hiring a photographer for a destination wedding, it’s also great if they have been to the location before. Sometimes getting around can be tricky as it was in Sorrento, and I knew Shivani had been there earlier in the summer, again, making her the perfect choice. If you love these images and want to book with Shivani, contact her <a href="https://shivanisharmaphoto.mypixieset.com" target="_blank" rel="noreferrer" style={{ color: 'black' }}>here</a>, or show her some love on social media <a href="https://www.instagram.com/shivani__sharmaa_/?hl=en" target="_blank" rel="noreferrer" style={{ color: 'black' }}>here</a>.
 </p>
 
 
@@ -435,7 +447,7 @@ style = {{
 
 
 <p style={paragraphStyle}>
-As a makeup artist, I often help out with hair and makeup for others, so I wanted to be able to assist without stressing too much over my own look on the wedding day, knowing I already had fabulous photos! That being said, my bridesmaids came totally ready and looking fabulous, only adding Charlotte Tilbury’s Pillow Talk lipstick to coordinate their looks.
+As a makeup artist, I often help out with hair and makeup for others, so I wanted to be able to assist without stressing too much over my own look on the wedding day, knowing I already had fabulous photos! That being said, my bridesmaids came totally ready and looking fabulous, only adding Charlotte Tilbury’s <a href = "https://www.charlottetilbury.com/us/product/pillow-talk-lip-kit?clickref=1101lyLxIILm&utm_source=USPartnerize&utm_medium=affiliate&utm_campaign=shopmyshelf" target="_blank" rel= "noreferrer">Pillow Talk</a> lipstick to coordinate their looks.
 </p>
 
 
@@ -500,11 +512,31 @@ Keepsakes
 
 
 <p style={paragraphStyle}>
-Speaking of keepsakes, Shivani captured a beautiful wedding video and I created a more casual vlog on my second channel to capture the day. Another great idea is to have your florals pressed. Pressed florals can recreate your wedding bouquet, which is easier than preserving your wedding bouquet perfectly, and they carry stunning designs and pendant necklaces that make great gifts. I’m so excited to receive mine soon!
+Speaking of keepsakes, Shivani captured a beautiful wedding video and I created a more casual vlog on my second channel to capture the day. Another great idea is to have your florals pressed. Pressed florals can recreate your wedding bouquet, which is easier than preserving your wedding bouquet perfectly, and they carry stunning designs and pendant necklaces that make great gifts. My bridal bouquet features a classic and elegant arrangement of white roses, spray roses, and delicate wax flowers, complemented by the unique texture of hypericum berries. The greenery from eucalyptus leaves adds a fresh and natural touch, enhancing the overall romantic and timeless look of the bouquet. I’m so excited to receive my pressed florals soon!
 </p>
 
+<div
+style = {{
+  textAlign: 'center',
+}}
+> 
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/WuK6DOdvOug"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+</div>
+
+
 <div style={gridContainerStyle}>
+  <a href = "https://www.instagram.com/pressedfloral_/" target = "_blank" rel="noopener noreferrer">
   <img src={image47} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
+
+  </a>
 </div>
 
 <p style={paragraphStyle}>
@@ -512,7 +544,10 @@ I am quite the sentimental type and love leather-bound photo books. Weddings can
 </p>
 
 <div style={gridContainerStyle}>
+  <a href = "https://www.etsy.com/ca/listing/866124563/personalized-handpainted-leather-wedding?click_key=caed9b3e37d5bc1a962e78b1d8dcb4a9961842bb%3A866124563&click_sum=85d76b12&ref=shop_home_recs_4&crt=1&sts=1&source=aw&utm_source=affiliate_window&utm_medium=affiliate&utm_campaign=us_location_buyer&utm_content=740219&utm_term=0&sv1=affiliate&sv_campaign_id=740219&awc=6220_1721830912_fd825a826b78d54642951f05361f1c24" target="_blank" rel="noopener noreferrer">
   <img src={image48} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
+
+  </a>
 </div>
 
 <h2 style={headingStyle}>
@@ -544,8 +579,8 @@ Thank you for reading and for being part of our journey and my life for so many 
       </div>
      
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-        <a href="/sharontatebridal" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={barbie} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+        <a href="/bridesmaidboxes" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={bridesmaid} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
           MORE BRIDAL CONTENT →
         </a>
       </div>
