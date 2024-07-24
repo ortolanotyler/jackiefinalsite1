@@ -576,8 +576,10 @@ Finally, to Selena, our incredible party planner, thank you for your dedication 
 Thank you for reading and for being part of our journey and my life for so many years! I hope if you are in the wedding planning stages, this article can help you out as well.
 
 </p>
-
+<div> 
 <WeddingCarousel/>
+</div>
+
        <div>
         <img src={signature} alt="Jackie Wyers Signature XoXo" style={{ width: '100%' }} />
       </div>
