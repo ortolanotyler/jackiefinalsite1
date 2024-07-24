@@ -128,7 +128,7 @@ const imageStyle = {
 the International School of Brussels, where we became each other's first “real” boyfriend and girlfriend. Originally from Atlanta, Georgia, and Ontario, Canada, our families both moved to Belgium in 2007, and we were the new kids at the international school that same year. What started as a middle school crush blossomed into a lifelong connection, surviving long distances as friends for over 10 years, and culminating in an epic reunion in the Big Apple!" />
   
 <p style={paragraphStyle}>
-In 2018, our paths crossed again in Manhattan—serendipity at its best! Tyler had moved to the city, and I was nearby on a brand trip. We went on a date, 11 years after we last said goodbye in person, and didn’t leave each other’s side since. After moving in together on the Upper West Side, Tyler orchestrated a <a href="https://www.youtube.com/watch?v=-LLQLc6imXA" target="_blank" rel="noreferrer" style={{ color: 'black' }}>surprise proposal</a>  in 2021 during a @lostlandscollections fairytale photo shoot in Connecticut making me feel like a total princess.
+In 2018, our paths crossed again in Manhattan—serendipity at its best! Tyler had moved to the city, and I was nearby on a brand trip. We went on a date, 11 years after we last said goodbye in person, and didn’t leave each other’s side since. After moving in together on the Upper West Side, Tyler orchestrated a <a href="https://www.youtube.com/watch?v=-LLQLc6imXA" target="_blank" rel="noreferrer" style={{ color: 'black' }}>surprise proposal</a>  in 2021 during a <a href = "https://www.instagram.com/lostlandscollections/?igsh=dmprdjJybWo5OWFx" target="_blank" rel="noreferrer" >@lostlandscollections</a> fairytale photo shoot in Connecticut which made me feel like a total princess.
 </p>
 
 <div style={gridContainerStyle}>
@@ -206,8 +206,8 @@ Pop Culture Bridal Makeup & Hair Inspirations
 
    
 
-            <p style={paragraphStyle}>
-    My bridal beauty style was a blend of whimsical enchantment and cinematic romance—echoing the regal elegance of Christine from "Phantom of the Opera," with a touch of beachy flair à la "Mamma Mia." I adorned my veil and bridesmaids' hair with handmade flower pins similar to Sophie’s. See a <a href="https://www.instagram.com/lostlandscollections/?igsh=dmprdjJybWo5OWFx" target="_blank" rel="noreferrer" style={{ color: 'black' }}>how-to here</a> for these sheer flower pins, and if you love bridal looks in TV & film, read my article breaking down my favorite looks <a href="https://youtube.com" target="_blank" rel="noreferrer" style={{ color: 'black' }}>here</a>.
+  <p style={paragraphStyle}>
+    My bridal beauty style was a blend of whimsical enchantment and cinematic romance—echoing the regal elegance of Christine from "Phantom of the Opera," with a touch of beachy flair à la "Mamma Mia." I adorned my veil and bridesmaids' hair with handmade flower pins similar to Sophie’s. For these sheer flower pins, and if you love bridal looks in TV & film.
 </p>
 
 <div
@@ -227,7 +227,7 @@ style = {{
 
 
 <p style={paragraphStyle}>
-For makeup, I drew inspiration from Taylor Hill’s wedding makeup, emphasizing bold cheeks and deeper, pouty lips in romantic, blushy shades. Click <a href= "https://www.youtube.com/watch?v=LtTc3qCVtdE&t=332s" target = "blank" rel="noreferrer">here</a> I swept champagne across the lids with barley there winged liner and outer corner lashes. <a href="https://shopmy.us/collections/677004" target="blank" rel="noreferrer">Charlotte Tilbury</a> , Saie Beauty & Florasis were some of my top brands I chose to create my look.
+For makeup, I drew inspiration from <a href = "https://www.youtube.com/watch?v=LtTc3qCVtdE&t=332s" target = "_blank" rel="noreferrer">Taylor Hill’s wedding makeup</a>, emphasizing bold cheeks and deeper, pouty lips in romantic, blushy shades. I swept champagne across the lids with barely there winged liner and outer corner lashes. <a href="https://shopmy.us/collections/677004" target="_blank" rel="noreferrer">Charlotte Tilbury,</a>  Saie Beauty & Florasis were some of my top brands I chose to create my look.
 </p>
 
 <p style={paragraphStyle}>
@@ -235,7 +235,7 @@ Though pulling from several different beauty inspirations doesn’t always creat
 </p>
 
 <p style={paragraphStyle}>
-Finally for nails, I’m the biggest <a href = "https://oliveandjune.com/collections/press-on-nails/products/milky-syrup-gradient-press-on-medium-almond?irclickid=V71S4RwqwxyKThwTSETAVXaQUkC2AlW1rStwwQ0&utm_source=Impact&utm_medium=2340682&utm_campaign=Online%20Tracking%20Link&irgwc=1" target="blank" rel= "noreferrer">Olive & June</a> fan and went with an almond, medium length nude manicure that lasted me 2 full weeks for $10. Forever wearing glue ons.
+Finally for nails, I’m the biggest <a href = "https://oliveandjune.com/collections/press-on-nails/products/milky-syrup-gradient-press-on-medium-almond?irclickid=V71S4RwqwxyKThwTSETAVXaQUkC2AlW1rStwwQ0&utm_source=Impact&utm_medium=2340682&utm_campaign=Online%20Tracking%20Link&irgwc=1" target="_blank" rel= "noreferrer">Olive & June</a> fan and went with an almond, medium length nude manicure that lasted me 2 full weeks for $10. Forever wearing glue ons.
 </p>
 
   <h2 style={headingStyle}>
@@ -243,7 +243,7 @@ Finally for nails, I’m the biggest <a href = "https://oliveandjune.com/collect
   </h2>
 
   <p style={paragraphStyle}>
-  My gown, a custom creation by <a href="https://www.instagram.com/veranderwest" target="blank" rel= "noreferrer">Verander West</a> called the 'Elizabeth,’ was inspired by Queen Elizabeth Tudor, featuring a dramatic shape I had never worn before. The opulence! I chose champagne ivory instead of classic white, as I love earthy shades and knew we would have the ceremony at golden hour, making for soft, dreamy photos.
+  My gown, a custom creation by <a href="https://www.instagram.com/veranderwest" target="_blank" rel= "noreferrer">Verander West</a> called the 'Elizabeth,’ was inspired by Queen Elizabeth Tudor, featuring a dramatic shape I had never worn before. The opulence! I chose champagne ivory instead of classic white, as I love earthy shades and knew we would have the ceremony at golden hour, making for soft, dreamy photos.
 </p>
            
 <div style={gridContainerStyle}>
@@ -346,7 +346,7 @@ My Fairycore Bridesmaids
 
 
 <p style={paragraphStyle}>
-I kept my bridal party very intimate with my sister Cassy as my maid of honour, and my lifelong BFF Lauren, as well as my soon-to-be sister-in-law, Reagan. The girls looked like perfect fairies in moss <a href = "https://showmeyourmumu.com/collections/mumu-weddings-green-bridesmaid-dresses/products/tuscany-maxi-slip-dress-moss-green-luxe-satin?variant=32983177101355&shop_type=bridal" target = "_blank" rel= "noreferrer">luxe satin dresses</a> from Show Me Your MuMu, paired with matching <a href = "https://www.birdygrey.com/products/natalie-chunky-heel-gold">gold heels</a> from BirdyGrey. I knew all their colouring would look great with the moss green and that the tones would look harmonious in the garden.
+I kept my bridal party very intimate with my sister Cassy as my maid of honour, and my lifelong BFF Lauren, as well as my soon-to-be sister-in-law, Reagan. The girls looked like perfect fairies in moss <a href = "https://showmeyourmumu.com/collections/mumu-weddings-green-bridesmaid-dresses/products/tuscany-maxi-slip-dress-moss-green-luxe-satin?variant=32983177101355&shop_type=bridal" target="_blank" rel= "noreferrer">luxe satin dresses</a> from Show Me Your MuMu, paired with matching <a href = "https://www.birdygrey.com/products/natalie-chunky-heel-gold" target="_blank" rel='noreferrer'>gold heels</a> from BirdyGrey. I knew all their colouring would look great with the moss green and that the tones would look harmonious in the garden.
 </p>
 
 <div style={gridContainerStyle}>
@@ -411,8 +411,10 @@ Tyler complemented my look with a classic tuxedo and an off-white shirt that pai
 <div style={gridContainerStyle}>
   <img src={image31} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
   <img src={image32} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
-  <img src={image33} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
 </div>
+
+<img src={image33} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
+
 
 <h2 style={headingStyle}>
   Our Non-Traditional Ceremony
