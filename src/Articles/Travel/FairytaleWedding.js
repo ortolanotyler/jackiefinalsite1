@@ -101,7 +101,7 @@ const FairytaleWedding = () => {
     margin: '1rem 1.5rem',
     marginTop: '1rem',
     marginBottom: '1rem',
-    maxWidth: '800px',
+    maxWidth: '700px',
     lineHeight: '1.5',
     marginLeft: 'auto',
     marginRight: 'auto',
@@ -313,7 +313,7 @@ style = {{
 </p>
 
 <p style={paragraphStyle}>
-I bought my wedding gown during a trip to New Zealand, visiting <a href = "https://www.instagram.com/natalierosebridal/" target="_blank" rel="noreferrer">Natalie Rose Bridal</a>. While I tried on many stunning gowns—see the contenders <a href="https://www.youtube.com/watch?v=UQU9Fufug4M&t=196s" target="_blank" rel = "noreferrer" style={{ color: 'black' }}>here</a>—what made this Verander West design special from the upcoming Coronation collection was the removable skirt for a two-in-one look.
+I bought my wedding gown during a trip to New Zealand, visiting <a href = "https://www.instagram.com/natalierosebridal/" target="_blank" rel="noreferrer">Natalie Rose Bridal</a>. While I tried on many stunning gowns—see the contenders <a href="https://www.youtube.com/watch?v=UQU9Fufug4M&t=196s" target="_blank" rel = "noreferrer" style={{ color: 'black' }}>here</a>—what made this Verander West design special from the upcoming <a href="https://veranderwest.com/coronation/" target="_blank" rel="noreferrer"> Coronation Collection</a> was the removable skirt for a two-in-one look.
 </p>
 
 
