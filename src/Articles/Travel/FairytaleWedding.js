@@ -518,18 +518,7 @@ Keepsakes
 Speaking of keepsakes, Shivani captured a beautiful wedding video and I created a more casual vlog on my second channel to capture the day. Another great idea is to have your florals pressed. Pressed florals can recreate your wedding bouquet, which is easier than preserving your wedding bouquet perfectly, and they carry stunning designs and pendant necklaces that make great gifts. My bridal bouquet features a classic and elegant arrangement of white roses, spray roses, and delicate wax flowers, complemented by the unique texture of hypericum berries. The greenery from eucalyptus leaves adds a fresh and natural touch, enhancing the overall romantic and timeless look of the bouquet. I’m so excited to receive my pressed florals soon!
 </p>
 
-<div>
 
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/WuK6DOdvOug"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
-</div>
 
 
 <div style={gridContainerStyle}>
