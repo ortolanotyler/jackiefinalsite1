@@ -57,7 +57,7 @@ const image44 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/44.j
 const image45 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/45.jpg`;
 const image46 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/46.jpg`;
 const image47 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/PressedFlowers.png`;
-const image99 = `${process.env.PUBLIC_URL}/Images/Articles/WeddingCarousel/98.jpg`;
+const image99 = `${process.env.PUBLIC_URL}/Images/Articles/WeddingCarousel/96.jpg`;
 
 
 

@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import styles from './WeddingCarousel.module.css'; // Import the CSS module
 
-const imageCount = 97; // Total number of images
+const imageCount = 96; // Total number of images
 const images = Array.from({ length: imageCount }, (_, index) => (
   `${process.env.PUBLIC_URL}/Images/Articles/WeddingCarousel/${index + 1}.jpg`
 ));
