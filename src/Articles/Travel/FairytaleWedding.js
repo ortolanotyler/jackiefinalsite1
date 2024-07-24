@@ -430,7 +430,7 @@ All of these photos are by Shivani Sharma, <a href= "https://www.instagram.com/m
 </div>
 
 <p style={paragraphStyle}>
-    If you are hiring a photographer for a destination wedding, it’s also great if they have been to the location before. Sometimes getting around can be tricky as it was in Sorrento, and I knew Shivani had been there earlier in the summer, again, making her the perfect choice. If you love these images and want to book with Shivani, contact her <a href="https://shivanisharmaphoto.mypixieset.com" target="_blank" rel="noreferrer" style={{ color: 'black' }}>here</a>, or show her some love on social media <a href="https://www.instagram.com/shivani__sharmaa_/?hl=en" target="_blank" rel="noreferrer" style={{ color: 'black' }}>here</a>.
+    If you are hiring a photographer for a destination wedding, it’s also great if they have been to the location before. Sometimes getting around can be tricky as it was in Sorrento, and I knew Shivani had been there earlier in the summer, again, making her the perfect choice. If you love these images and want to book with Shivani, contact her <a href="https://shivanisharmaphoto.mypixieset.com" target="_blank" rel="noreferrer" style={{ color: 'black' }}>here</a>, or show her some love on social media <a href="https://www.instagram.com/moderndayshivalry/?hl=en" target="_blank" rel="noreferrer" style={{ color: 'black' }}>here</a>.
 </p>
 
 
