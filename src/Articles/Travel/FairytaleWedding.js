@@ -6,11 +6,11 @@ import TextReveal from '../../Components/TextReveal';
 import AdSenseAd from '../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/weddingtitle.png`;
-const image1 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/1.JPG`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/1.jpg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/2.jpg`;
-const image3 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/3.JPG`;
-const image4 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/4.JPG`;
-const image5 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/5.JPG`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/3.jpg`;
+const image4 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/4.jpg`;
+const image5 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/5.jpg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/6.jpg`;
 const image7 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/7.jpg`;
 const image8 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/8.jpg`;
