@@ -1,14 +1,13 @@
 import React, { useRef, useEffect } from 'react';
 import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import DropCap from '../../Components/DropCap';
 import TextReveal from '../../Components/TextReveal';
 import AdSenseAd from '../../Advertising/Ads';
 import WeddingCarousel from '../../Components/WeddingCarousel';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
-import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeButton from '../../Components/SubscribeButton';
 import { initGA, logPageView } from '../../analytics';
+import BridalDropCap from '../../Components/BridalDropCap';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/WeddingTitle.png`;
@@ -102,7 +101,7 @@ const FairytaleWedding = () => {
     margin: '1rem 1.5rem',
     marginTop: '1rem',
     marginBottom: '1rem',
-    maxWidth: '700px',
+    maxWidth: '800px',
     lineHeight: '1.5',
     marginLeft: 'auto',
     marginRight: 'auto',
@@ -159,7 +158,7 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', marg
 > 
 
 
-<DropCap text="On July 11th, Tyler and I celebrated two years of marriage with a dreamy ceremony in Sorrento, Italy. If you haven’t caught up with our backstory, here’s a quick recap: We first met in middle school at
+<BridalDropCap text="On July 11th, Tyler and I celebrated two years of marriage with a dreamy ceremony in Sorrento, Italy. If you haven’t caught up with our backstory, here’s a quick recap: We first met in middle school at
 the International School of Brussels, where we became each other's first “real” boyfriend and girlfriend. Originally from Atlanta, Georgia, and Ontario, Canada, our families both moved to Belgium in 2007, and we were the new kids at the international school that same year. What started as a middle school crush blossomed into a lifelong connection, surviving long distances as friends for over 10 years, and culminating in an epic reunion in the Big Apple!" />
 
       </div>

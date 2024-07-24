@@ -1,0 +1,21 @@
+.dropcap1 {
+    margin: 1rem 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 'auto';
+    margin-right: 'auto';
+    max-width: 800px;
+    color: black;
+    font-size: 20px; /* Adjust font size as needed */
+    line-height: 1.5; /* Adjust line height as needed */
+  }
+  
+  .dropcap-letter1 {
+    color: #745B4F; /* Adjust color as needed */
+    font-size: 7.5rem; /* Adjust dropcap letter size as needed */
+    margin-bottom: 0.25rem;
+    float: left;
+    margin-right: 0.15em; /* Adjust margin as needed */
+    line-height: 1; /* Adjust line height as needed */
+  }
+  

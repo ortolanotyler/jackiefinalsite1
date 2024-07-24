@@ -49,13 +49,13 @@ const DiaryBridesmaids = () => {
 
 
   const paragraphStyle = {
-    fontSize: '22px',
+    fontSize: '20px',
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
     marginTop: '1rem',
     marginBottom: '1rem',
     maxWidth: '700px',
-    lineHeight: '1.75',
+    lineHeight: '1.5',
     marginLeft: 'auto',
     marginRight: 'auto',
   };
