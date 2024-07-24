@@ -8,12 +8,12 @@ import AdSenseAd from '../../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/periodtitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/1.JPG`;
-const image2 = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/2.jpg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/2.JPG`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/3.JPG`;
 const image4 = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/4.JPG`;
 const image5 = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/5.JPG`;
-const image6 = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/6.jpg`;
-const image7 = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/7.jpg`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/6.JPG`;
+const image7 = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/7.JPG`;
 const barbie = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/SQUAREMARGOT.jpeg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
