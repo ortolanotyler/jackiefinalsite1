@@ -57,8 +57,7 @@ const image44 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/44.j
 const image45 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/45.jpg`;
 const image46 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/46.jpg`;
 const image47 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/PressedFlowers.png`;
-const image48 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/book.png`;
-
+const image99 = `${process.env.PUBLIC_URL}/Images/Articles/WeddingCarousel/98.jpg`;
 
 
 
@@ -338,7 +337,7 @@ My Vintage Wedding Shoes & Alex Monroe Jewelry
 
 
 <p style={paragraphStyle}>
-My heels were Manolo Blahnik green butterfly sandals, adding to the earthy, fairytale aesthetic. They matched my bridesmaids' green luxe satin dresses perfectly. I loved them so much, I even had a talented artist add the butterfly to our custom, painted wedding invitations!
+My heels were Manolo Blahnik green butterfly sandals, adding to the earthy, fairytale aesthetic. They matched my bridesmaids' green luxe satin dresses perfectly. I loved them so much, I even had a talented Canadian artist, <a href="https://www.instagram.com/sabinafenn/" target="_blank" rel="noreferrer">Sabina Fenn</a> add the butterfly to our custom painted wedding invitations!
 </p>
 <div
 style = {{
@@ -423,7 +422,7 @@ style = {{
   <AdSenseAd/>
 </div>
 <p style={paragraphStyle}>
-All of these photos are by Shivani Sharma, <a href= "https://www.instagram.com/moderndayshivalry/?hl=en" target="_blank" rel="noreferrer" >@moderndayshivalry</a> on Instagram. With her soft and chic photography style, our ceremony was captured beautifully with backlit lighting and trickles of sunlight for the most romantic images!
+All of these photos are by Shivani Sharma, <a href= "https://www.instagram.com/moderndayshivalry/?hl=en" target="_blank" rel="noreferrer">@moderndayshivalry</a> on Instagram. With her soft and chic photography style, our ceremony was captured beautifully with backlit lighting and trickles of sunlight for the most romantic images!
 </p>
 
 <div style={gridContainerStyle}>
@@ -555,7 +554,7 @@ Keepsakes
 
 
 <p style={paragraphStyle}>
-Speaking of keepsakes, Shivani captured a beautiful wedding video and I created a more casual vlog on my second channel to capture the day. Another great idea is to have your florals pressed. Pressed Florals can recreate your wedding bouquet, which is easier than preserving your wedding bouquet perfectly, and they carry stunning designs and pendant necklaces that make great gifts. My bridal bouquet features a classic and elegant arrangement of white roses, spray roses, and delicate wax flowers, complemented by the unique texture of hypericum berries. The greenery from eucalyptus leaves adds a fresh and natural touch, enhancing the overall romantic and timeless look of the bouquet. I’m so excited to receive my pressed florals soon!
+Speaking of keepsakes, Shivani captured a beautiful wedding video and I created a more casual vlog on my second channel to capture the day. Another great idea is to have your florals pressed. <a href="https://www.instagram.com/pressedfloral_/" target="_blank" rel="noreferrer">Pressed Floral</a>  can recreate your wedding bouquet, which is easier than preserving your wedding bouquet perfectly, and they carry stunning designs and pendant necklaces that make great gifts. My bridal bouquet features a classic and elegant arrangement of white roses, spray roses, and delicate wax flowers, complemented by the unique texture of hypericum berries. The greenery from eucalyptus leaves adds a fresh and natural touch, enhancing the overall romantic and timeless look of the bouquet. I’m so excited to receive my pressed florals soon!
 </p>
 
 
@@ -575,8 +574,12 @@ style = {{
   </a>
 </div>
 <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-Pressed Florals
+Pressed Floral
    </p>
+
+   <div style={gridContainerStyle}>
+  <img src={image99} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
+</div>
 
 <p style={paragraphStyle}>
 I am quite the sentimental type and love leather-bound photo books. Weddings can be expensive, and leather-bound books can also be pricey, so this makes an amazing anniversary gift or a group gift. One of my favorites is from Etsy.
