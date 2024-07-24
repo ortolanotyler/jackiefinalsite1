@@ -5,6 +5,8 @@ import DropCap from '../../Components/DropCap';
 import TextReveal from '../../Components/TextReveal';
 import AdSenseAd from '../../Advertising/Ads';
 import WeddingCarousel from '../../Components/WeddingCarousel';
+import ResponsiveIframe from '../../Components/ResponsiveIframe';
+import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/WeddingTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/1.jpg`;
@@ -519,8 +521,21 @@ Speaking of keepsakes, Shivani captured a beautiful wedding video and I created 
 </p>
 
 
-
-
+<div
+style = {{
+  textAlign: 'center',
+}}
+> 
+<iframe
+  width="300px"
+  height="550px"
+  src="https://www.youtube.com/embed/WuK6DOdvOug"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+</div>
 <div style={gridContainerStyle}>
   <a href = "https://www.instagram.com/pressedfloral_/" target = "_blank" rel="noopener noreferrer">
   <img src={image47} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
