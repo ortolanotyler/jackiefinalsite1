@@ -84,6 +84,7 @@ import PeriodDrama from './Articles/Tutorials/PopCulture/PeriodDrama';
 import FairytaleWedding from './Articles/Travel/FairytaleWedding';
 import Eeebridal from './Articles/Tutorials/eeebridal';
 import BridalHome from './Articles/Tutorials/BridalHome';
+import BardotHairstyles from './Articles/Tutorials/VintageVibes/BardotHairstyles';
 
 function usePageTracking() {
   const location = useLocation();
@@ -189,6 +190,7 @@ function App() {
             <Route path="reviews" element={<ReviewArticleListHome />} />
             <Route path="bridal" element={<BridalHome />} />
             <Route path="bridalmakeup" element={<BridalMakeup />} />
+            <Route path="bardothairstyles" element={<BardotHairstyles />} />
             <Route path="*" element={<h1>404 Not Found</h1>} />
           </Route>
         </Routes>
