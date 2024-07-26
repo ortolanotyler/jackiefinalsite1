@@ -149,7 +149,13 @@ I absolutely love fluffy curtain bangs like Sabrina Carpenter, (a modern pop cul
    <img src={image3} alt="Jackie Wyers Sabrina Carpenter" style={imageStyle} />
    </a>
  </div>
- <div
+
+
+ <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+Inspired Muse - Tap image for Sabrina Carpenter inspired makeup tutorial.
+</p>
+
+<div
 style = {{
   margin : '20px'
 }}
@@ -157,10 +163,6 @@ style = {{
 
   <AdSenseAd/>
 </div>
-
- <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-Inspired Muse - Tap image for Sabrina Carpenter inspired makeup tutorial.
-</p>
 
 <p style={paragraphStyle}>
 This article is for those of you who want to experiment with faux bangs without using clip-ins and get the Bardot look temporarily. Let’s discover the best techniques to get the look, shall we?
@@ -174,7 +176,14 @@ This article is for those of you who want to experiment with faux bangs without 
 Updated Bardot Bun on Natural Hair
  
 </p>
+<div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
 <h2 style={headingStyle}>
 Method One: Best Big Bun
 </h2>
@@ -267,6 +276,15 @@ Tease and twist each pigtail, hold it high in the air, and cross it over to the 
 </p>
 
 
+<div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+
 <p style={paragraphStyle}>
 You can adjust the length of your new bangs, styling them with a curling iron, teasing comb and hairspray. The tight twist allows for fewer bobby pins to keep them in place. If your hair is long like mine, loop the excess length and blend it into the bun and be sure to set with hairspray.
 </p>
@@ -295,7 +313,17 @@ Now that we’ve covered the best way to achieve the bangs and the easiest way t
 <p style={paragraphStyle}>
 I used the Marc Anthony Style Flex 2-in-1 Adjustable Texture Spray for extra grit that helped with styling. It’s a unique product that with the twist of a nozzle, you have a low setting (perfect for touchable bangs) and a high setting (great for teasing for lots of volume and hold in the updo.)
 
+
 </p>
+
+<div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
 
 <p style={paragraphStyle}>
 For those with thicker hair, consider using a strong- hold hairspray to keep your bun in place all day like OGX Bamboo Fibre Full hairspray. If your hair is on the finer side, a bit of texturizing spray can add the necessary grip and volume as is.

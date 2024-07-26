@@ -12,8 +12,16 @@ const balke1 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BALKETHUMBNAIL.j
 const shrimpton = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg`;
 const twiggy = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyMODThumbnail.jpeg`;
 const grace = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/GraceKellyJackieWyers.jpg`;
+const bardot = `${process.env.PUBLIC_URL}/Images/Articles/BardotHairstyles/BardotThumbnail.jpg`;
 
 const cardsData = [
+  {
+    link: "/bardothairstyles",
+    image: bardot,
+    alt: "Jackie Wyers Mastering the Bardot Bun",
+    title: "Mastering the Bardot Bun 🌸",
+    description: "My Many Attempts At The Iconic 60s Style"
+  },
   {
     link: "/yardley1965",
     image: shrimpton,
