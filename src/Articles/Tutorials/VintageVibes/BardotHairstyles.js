@@ -39,7 +39,7 @@ const BardotHairstyles = () => {
 
   useEffect(() => {
     initGA();
-    logPageView();
+    logPageView('/bardothairstyles');
   }, []);
 
 

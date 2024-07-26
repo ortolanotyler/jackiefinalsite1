@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
@@ -7,6 +7,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import TextReveal from '../../../Components/TextReveal';
 import AdSenseAd from '../../../Advertising/Ads';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
+import { initGA, logPageView } from '../../../analytics';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/BridalMakeup/BridalTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/BridalMakeup/Bridal1.png`;
@@ -29,6 +30,11 @@ const Card = ({ blogContent }) => (
 const BridalMakeup = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
+
+  useEffect(() => {
+    initGA();
+    logPageView('/bridalmakeup');
+}, []);
 
   const headingStyle = {
     textAlign: 'center',

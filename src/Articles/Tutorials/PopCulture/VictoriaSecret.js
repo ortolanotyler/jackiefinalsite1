@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
@@ -7,6 +7,7 @@ import TextReveal from '../../../Components/TextReveal';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
+import { initGA, logPageView } from '../../../analytics';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSTitle.png`;
 const Victoria2 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VictoriaDouble.png`;
@@ -27,6 +28,12 @@ const Card = ({ blogContent }) => (
 const VictoriaSecret = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
+
+  useEffect(() => {
+    initGA();
+    logPageView('/victoriasecret');
+}, []);
+
   const headingStyle = {
     textAlign: 'center',
     fontSize: '30px',

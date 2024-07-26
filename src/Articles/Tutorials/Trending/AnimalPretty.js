@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import '../../ExampleTutorial1.css';
@@ -8,11 +8,11 @@ import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
+import { initGA, logPageView } from '../../../analytics';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/AnimalPrettyTitle.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/DeerFinal1.jpg`;
-const image4 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/final.JPG`;
 const image5 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FinalCat.jpg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxPretty.png`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
@@ -29,6 +29,11 @@ const Card = ({ blogContent }) => (
 const AnimalPretty = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
+
+  useEffect(() => {
+    initGA();
+    logPageView('/animalpretty');
+}, []);
 
   const headingStyle = {
     textAlign: 'center',

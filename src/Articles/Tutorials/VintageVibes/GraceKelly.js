@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../../../Components/TextReveal';
@@ -7,6 +7,7 @@ import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import { Helmet } from 'react-helmet';
 import AdSenseAd from '../../../Advertising/Ads';
+import { initGA, logPageView } from '../../../analytics';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/GraceKellyTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/JackieWyersGraceKellyInspired.jpg`;
@@ -29,6 +30,11 @@ const Card = ({ blogContent }) => (
 const GraceKelly = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
+  
+  useEffect(() => {
+    initGA();
+    logPageView('/gracekelly');
+  }, []);
 
   const headingStyle = {
     textAlign: 'center',

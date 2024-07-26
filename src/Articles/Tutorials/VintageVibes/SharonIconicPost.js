@@ -1,4 +1,5 @@
-import React from 'react';
+
+import React, { useRef, useEffect } from'react';
 import { Helmet } from 'react-helmet';
 import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
@@ -8,6 +9,7 @@ import DropCap from '../../../Components/DropCap';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import TextReveal from '../../../Components/TextReveal';
 import AdSenseAd from '../../../Advertising/Ads';
+import { initGA, logPageView } from '../../../analytics';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/IconicTitle.png`;
 const Sharon2 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/JackieAsSharon.jpg`;
@@ -29,6 +31,12 @@ const Card = ({ blogContent }) => (
 
 const SharonIconicPost = () => {
   const websiteId = '10910';
+  const blogRef = useRef(null);
+
+  useEffect(() => {
+    initGA();
+    logPageView('/sharontateiconic');
+  }, []);
   const headingStyle = {
     textAlign: 'center',
     fontSize: '30px',

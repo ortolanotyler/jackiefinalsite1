@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
@@ -8,6 +8,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import DropCap from '../../../Components/DropCap';
 import AdSenseAd from '../../../Advertising/Ads';
+import { initGA, logPageView } from '../../../analytics';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeTitle.png`;
 const Balke2 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeDouble.png`;
@@ -27,6 +28,13 @@ const Card = ({ blogContent }) => (
 
 const BalkeBlog = () => {
   const websiteId = '10910';
+  const blogRef = useRef(null);
+
+  useEffect(() => {
+    initGA();
+    logPageView('/sugarplumfairy');
+}, []);
+
 
   const headingStyle = {
     textAlign: 'center',

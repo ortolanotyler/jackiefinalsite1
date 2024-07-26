@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import '../../ExampleTutorial1.css';
@@ -8,11 +8,11 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import AdSenseAd from '../../../Advertising/Ads';
+import { initGA, logPageView } from '../../../analytics';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonDouble.png`;
 const face = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShrimpton60sFaceChart.png`;
-const image3 = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JackiesPinterestBoard.jpg`;
 const ad = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonAd.jpg`;
 const image5 = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/VintageCollection.png`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEBRIDAL.JPEG`;
@@ -31,6 +31,12 @@ const Card = ({ blogContent }) => (
 const Yardley65 = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
+
+  useEffect(() => {
+    initGA();
+    logPageView('/yardley1965');
+}, []);
+
 
   const headingStyle = {
     textAlign: 'center',

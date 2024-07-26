@@ -1,10 +1,11 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import DropCap from '../../../Components/DropCap';
 import TextReveal from '../../../Components/TextReveal';
 import '../../ExampleTutorial1.css';
 import { Helmet } from 'react-helmet';
 import AdSenseAd from '../../../Advertising/Ads';
+import { initGA, logPageView } from '../../../analytics';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/DiaryPost1/DiaryPostTitle.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/DiaryPost1/Diary2.png`;
@@ -22,6 +23,11 @@ const Card = ({ blogContent }) => (
 const DiaryPost1Fillers = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
+  useEffect(() => {
+    initGA();
+    logPageView('/diaryfillers');
+}, []);
+
   const headingStyle = {
     textAlign: 'center',
     fontSize: '30px',

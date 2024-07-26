@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
@@ -8,10 +8,10 @@ import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
+import { initGA, logPageView } from '../../../analytics';
 
 const Sophia1 = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenTitle.png`;
 const SophiaTwo = `${process.env.PUBLIC_URL}/Images/SophiaDoubl.jpeg`;
-const sophiafive = `${process.env.PUBLIC_URL}/Images/Sophia5.jpeg`;
 const SophiaFace = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenBlankFaceChart-2.jpg`;
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
@@ -29,6 +29,13 @@ const Card = ({ blogContent }) => (
 const SophiaLorenPost = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
+
+
+  useEffect(() => {
+    initGA();
+    logPageView('/sophialoren');
+  }, []);
+
   const headingStyle = {
     textAlign: 'center',
     fontSize: '30px',
