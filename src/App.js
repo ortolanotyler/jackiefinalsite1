@@ -101,6 +101,12 @@ function usePageTracking() {
 function App() {
   usePageTracking();
 
+  useEffect(() => {
+    initGA();
+    logPageView('');
+}, []);
+
+
   return (
     <EmailProvider>
       <div className="app-container">
