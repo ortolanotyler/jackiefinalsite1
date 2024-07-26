@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {  useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import styles from './aaa.module.css'; // Import CSS Modules
 import TextReveal from '../../../Components/TextReveal';
 import { Paper } from '@mui/material';
 import RotatingText from '../../../Navigation/AppBar/RotatingText';
+import { initGA , logPageView } from '../../../analytics';
 
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
 const image7 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
@@ -52,6 +53,10 @@ const cardsData = [
 ];
 
 const Card = ({ link, image, alt, title, description }) => {
+  useEffect (() => {
+    initGA();
+    logPageView('/popculture');
+  }, []);
   return (
     <li className={styles.card}>
       <a className={styles.cardImage} href={link}>

@@ -1,14 +1,13 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../../Components/TextReveal';
 import DropCap from '../../Components/DropCap';
-import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import AdSenseAd from '../../Advertising/Ads';
-import ResponsiveIframe from '../../Components/ResponsiveIframe';
+import { initGA, logPageView } from '../../analytics';
 
 
 const images = [
@@ -52,6 +51,11 @@ const Card = ({ blogContent }) => (
 const Fable = () => {
     const websiteId = '10910';
     const blogRef = useRef(null);
+
+    useEffect(() => {
+        initGA();
+        logPageView('/fable');
+    }, []);
 
     const headingStyle = {
         textAlign: 'center',

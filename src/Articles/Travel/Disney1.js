@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
@@ -8,6 +8,8 @@ import DropCap from '../../Components/DropCap';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../Advertising/Ads';
+import { initGA, logPageView } from '../../analytics';
+
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclubtitle.png`;
 const beachclub1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub1.png`;
@@ -16,7 +18,6 @@ const beachclub3 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/b
 const beachclub4 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub4.png`;
 const beachclub5 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub5.png`;
 const beachclub6 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub6.png`;
-const beachclub7 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub7.png`;
 const beachclub8 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub8.png`;
 const beachclub9 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub9.png`;
 const beachclub10 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub10.png`;
@@ -31,6 +32,12 @@ const Card = ({ blogContent }) => (
 const Disney2Post = () => {
     const websiteId = '10910';
     const blogRef = useRef(null);
+
+    useEffect(() => {
+        initGA();
+        logPageView('/disneybeachclubresort');
+      }, []);
+
 
     const headingStyle = {
         textAlign: 'center',

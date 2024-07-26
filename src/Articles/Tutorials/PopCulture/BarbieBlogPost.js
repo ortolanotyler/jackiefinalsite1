@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import '../../ExampleTutorial1.css';
 import SubscribeButton from '../../../Components/SubscribeButton';
@@ -6,6 +6,8 @@ import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
+import { initGA, logPageView } from '../../../analytics';
+ 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/barbietitle2.jpeg`;
 const Barbie2 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/Barbie2.JPG`;
@@ -26,6 +28,12 @@ const Card = ({ blogContent }) => (
 const BarbieBlog = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
+
+  useEffect(() => {
+    initGA();
+    logPageView('/margotbarbie');
+}, []);
+
 
   const headingStyle = {
     textAlign: 'center',

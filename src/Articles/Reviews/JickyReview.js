@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import ReactGA from 'react-ga';
 import { Comments } from '@hyvor/hyvor-talk-react';
@@ -6,6 +6,8 @@ import './ExampleTutorial.css';
 import TextReveal from '../../Components/TextReveal';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import AdSenseAd from '../../Advertising/Ads';
+import { initGA, logPageView } from '../../analytics';
+
 
 ReactGA.initialize('UA-8215441435-Y'); // Replace with your actual Google Analytics tracking ID
 
@@ -23,6 +25,12 @@ const Card = ({ blogContent }) => (
 const JickyReview = () => {
     const websiteId = '10910';
     const blogRef = useRef(null);
+
+
+    useEffect(() => {
+        initGA();
+        logPageView('/jickyreview');
+    }, []);
 
     const headingStyle = {
         textAlign: 'center',

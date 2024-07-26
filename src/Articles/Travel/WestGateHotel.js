@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
@@ -8,21 +8,19 @@ import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import AdSenseAd from '../../Advertising/Ads';
+import { initGA, logPageView } from '../../analytics';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/westgatetitle.png`;
 
 const westgate1 = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATE1.JPG`;
-const westgate2 = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATE2.jpeg`;
 const westgate3 = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATE3.JPG`;
 const westgate4 = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATE4.jpeg`;
 const westgate5 = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATE5.JPG`;
 const westgate6 = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATE6.JPG`;
-const westgate7 = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATE7.jpeg`;
 const westgate8 = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATE8.jpeg`;
 const westgate9 = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATE9.jpeg`;
 const westgate10 = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATE10.JPG`;
 const westgate11 = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATE11.JPG`;
-const westgate12 = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATE12.jpeg`;
 const westgate13 = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATE13.JPG`;
 const westgate14 = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATE14.jpeg`;
 const westgate15 = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATE15.jpeg`;
@@ -41,6 +39,11 @@ const Card = ({ blogContent }) => (
 const WestGateHotelBlog = () => {
     const websiteId = '10910';
     const blogRef = useRef(null);
+
+    useEffect(() => {
+        initGA();
+        logPageView('/westgatesandiego');
+    }, []);
 
     const headingStyle = {
         textAlign: 'center',

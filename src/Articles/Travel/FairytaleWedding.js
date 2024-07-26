@@ -77,7 +77,7 @@ const FairytaleWedding = () => {
 
   useEffect(() => {
     initGA();
-    logPageView();
+    logPageView('/fairytalewedding');
   }, []);
 
 

@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
@@ -7,6 +7,7 @@ import SubscribeVlog from '../../Components/SubscribeVlog';
 import DropCap from '../../Components/DropCap';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../Advertising/Ads';
+import { initGA, logPageView } from '../../analytics';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/hotelQtitle.png`;
 
@@ -46,6 +47,11 @@ const Card = ({ blogContent }) => (
 const HotelQ = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
+
+  useEffect(() => {
+    initGA();
+    logPageView();
+  }, []);
 
   const headingStyle = {
     textAlign: 'center',

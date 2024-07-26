@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import '../../ExampleTutorial1.css';
 import TextReveal from '../../../Components/TextReveal';
@@ -7,6 +7,7 @@ import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
+import { initGA, logPageView } from '../../../analytics';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaTitle.png`;
 const Lana2 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/JackieWyersLanaDelReyRecreation.JPG`;
@@ -27,6 +28,14 @@ const Card = ({ blogContent }) => (
 const LanaBlog = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
+
+  useEffect(() => {
+    initGA();
+    logPageView();
+}, []);
+
+
+
   const headingStyle = {
     textAlign: 'center',
     fontSize: '30px',

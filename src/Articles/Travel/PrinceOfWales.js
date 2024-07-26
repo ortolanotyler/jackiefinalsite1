@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
@@ -8,6 +8,7 @@ import DropCap from '../../Components/DropCap';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../Advertising/Ads';
+import { initGA, logPageView } from '../../analytics';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceTitle.png`;
 
@@ -46,6 +47,11 @@ const Card = ({ blogContent }) => (
 const PrinceOfWales = () => {
     const websiteId = '10910';
     const blogRef = useRef(null);
+
+    useEffect(() => {
+        initGA();
+        logPageView('/princeofwales');
+      }, []);
 
     const headingStyle = {
         textAlign: 'center',
@@ -238,10 +244,11 @@ style = {{
             </p>
 
 
+           
+            <img src={signature} alt="Signature" style={{ width: '100%' }} />
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
                 <BookNowButton href="https://plannin.com/en/hotel/7e8b8619-6256-4481-97c4-048f694b67c4?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
             </div>
-
             <div
 style = {{
   margin : '20px'

@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import './ExampleTutorial.css';
 import TextReveal from '../../Components/TextReveal';
-import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 
@@ -24,23 +23,11 @@ const HalfetiReview = () => {
 
     useEffect(() => {
         initGA();
-        logPageView();
-
-        const script1 = document.createElement('script');
-        script1.src = "https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG";
-        script1.async = true;
-        document.head.appendChild(script1);
-
-        const script2 = document.createElement('script');
-        script2.innerHTML = `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-        `;
-        document.head.appendChild(script2);
+        logPageView('/halfetireview');
     }, []);
+    
 
+  
     const headingStyle = {
         textAlign: 'center',
         fontSize: '30px',

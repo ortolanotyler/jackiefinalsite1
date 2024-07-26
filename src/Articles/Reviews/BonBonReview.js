@@ -20,13 +20,16 @@ const Card = ({ blogContent }) => (
 );
 
 const BonBonReview = () => {
-  const websiteId = '10910';
-  const blogRef = useRef(null);
 
   useEffect(() => {
     initGA();
-    logPageView();
+    logPageView('/bonbonreview');
   }, []);
+
+  const websiteId = '10910';
+  const blogRef = useRef(null);
+
+ 
 
   const headingStyle = {
     textAlign: 'center',
@@ -163,7 +166,7 @@ const BonBonReview = () => {
       <ResponsiveIframe src="https://shopmy.us/collections/public/516464?noHeader=true" title="Final Touches" />
       <h2 style={headingStyle}>📝 Final Thoughts</h2>
       <p style={paragraphStyle}>
-        <strong>Pros and Cons:</strong> While its gourmand charm and lasting warmth are undeniable, those in search of spicier more mature scents might look elsewhere, perhaps preferring <a href="https://www.nordstrom.com/s/petra-eau-de-parfum/7207411?utm_channel=low_nd_affiliates_influencer&utm_content=&utm_term=2340682&utm_source=impact&utm_medium=affiliate_influencer&utm_campaign=shopmyshelf&irclickid=3vRVdo0yhxyKUwhRA0yln1DiUkHVrSVlrStwwQ0&irgwc=1" target="_blank" style={{ color: 'black', textDecoration: 'underline' }}>Legacy of Petra by Penhaligon's</a>.
+        <strong>Pros and Cons:</strong> While its gourmand charm and lasting warmth are undeniable, those in search of spicier more mature scents might look elsewhere, perhaps preferring <a href="https://www.nordstrom.com/s/petra-eau-de-parfum/7207411?utm_channel=low_nd_affiliates_influencer&utm_content=&utm_term=2340682&utm_source=impact&utm_medium=affiliate_influencer&utm_campaign=shopmyshelf&irclickid=3vRVdo0yhxyKUwhRA0yln1DiUkHVrSVlrStwwQ0&irgwc=1" target="_blank" rel="noreferrer" style={{ color: 'black', textDecoration: 'underline' }}>Legacy of Petra by Penhaligon's</a>.
       </p>
       <p style={paragraphStyle}>
         <strong>Value for Money:</strong> Bonbon is a testament to its craftsmanship, offering a unique and enduring fragrance that justifies its price tag.

@@ -6,6 +6,8 @@ import SubscribeVlog from '../../Components/SubscribeVlog';
 import TextReveal from '../../Components/TextReveal';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../Advertising/Ads';
+import { initGA, logPageView } from '../../analytics';
+
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcottitle.png`;
 const images = [
@@ -39,6 +41,11 @@ const Card = ({ blogContent }) => (
 const Disney2Post = () => {
     const websiteId = '10910';
     const blogRef = useRef(null);
+
+    useEffect(() => {
+        initGA();
+        logPageView();
+      }, []);
 
     const headingStyle = {
         textAlign: 'center',
