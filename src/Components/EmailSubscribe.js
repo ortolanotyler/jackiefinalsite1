@@ -21,7 +21,7 @@ export default function EmailSubscribe() {
     }
 
     try {
-      const response = await axios.post('https://jackie-emails.herokuapp.com/subscribe', { email });
+      const response = await axios.post('https://jackie-emails-2a29185717d6.herokuapp.com/subscribe', { email });
       if (response.status === 200) {
         setIsSubmitted(true);
         setEmail('');
