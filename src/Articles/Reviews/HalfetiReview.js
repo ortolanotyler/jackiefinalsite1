@@ -64,7 +64,7 @@ const HalfetiReview = () => {
     const blogContent = (
         <div className="container" style={{ width: '100%', padding: '1rem' }}>
             <Helmet>
-                <title>Halfeti Review | Penhaligon's Perfume</title>
+                <title>Penhaligon's Halfeti Review  Perfume</title>
                 <meta name="description" content="A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression." />
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
                 <script>
