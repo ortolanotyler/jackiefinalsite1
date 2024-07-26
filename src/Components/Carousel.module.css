@@ -11,6 +11,7 @@
     height: 100%;
     object-fit: cover; /* This will crop the image to fill the container */
     max-width: 500px; /* Ensure that the width does not exceed 1440px */
+    max-height: 650px;
 }
 
 .carousel .control-dots {
@@ -42,7 +43,7 @@
 }
 
 .arrow:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .arrow:focus {

@@ -63,7 +63,7 @@ const BardotHairstyles = () => {
     margin: '1rem 1.5rem',
     marginTop: '1rem',
     marginBottom: '1rem',
-    maxWidth: '800px',
+    maxWidth: '700px',
     lineHeight: '1.5',
     marginLeft: 'auto',
     marginRight: 'auto',
@@ -79,7 +79,7 @@ const BardotHairstyles = () => {
 const imageStyle = {
   display: 'block',
   margin: '0 auto',
-  maxWidth: '100%',
+  maxWidth: '600px',
   height: 'auto'
 };
 
@@ -113,18 +113,27 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
    </p>
 <BridalDropCap text="Welcome back to Time Travel Tutorials! Step back into the glamorous ‘60s with Brigitte
 Bardot's iconic big bun! Whether you're looking for a chic everyday look or a show-stopping updo for a special occasion, I've got you covered with my tried- and-tested techniques featuring faux bangs, using the ends of your own hair. Let's dive into vintage beauty and master the Bardot bun together!" />
+<div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
 <p style={paragraphStyle}>
 One of my first videos 10 years ago was attempting to recreate a Bardot-inspired half-up, half-down 'do and her big bun updo. It wasn't perfect, few too many bobby pins to be practical, but it sparked a decade-long journey to master this iconic style. Fast forward to today, and I've discovered some amazing tricks that make achieving this look a breeze, without necessarily committing to her iconic curtain bang haircut.
 </p>
 
 
-<div style={gridContainerStyle}>
-   <a href="https://www.youtube.com/watch?v=hl2f12fGJwg&t=240s" target="_blank" rel = "noreferrer" >
-   <img src={image1} alt="Jackie Wyers Bardot Hairstyles" style={imageStyle} />
-   <img src={image2} alt="Jackie Wyers Bardot Hairstyles" style={imageStyle} />
-   </a>
- </div>
+<div style={{ display: 'flex', justifyContent: 'center',  flexWrap: 'wrap',}}>
+  <a href="https://www.youtube.com/watch?v=hl2f12fGJwg&t=240s" target="_blank" rel="noreferrer" style={{ display: 'flex', flexDirection: 'row', gap: '1rem' }}>
+    <img src={image1} alt="Jackie Wyers Bardot Hairstyles" style={{ width: '50%', height: 'auto' }} />
+    <img src={image2} alt="Jackie Wyers Bardot Hairstyles" style={{ width: '50%', height: 'auto' }} />
+  </a>
+</div>
+
+
 
 
  <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
@@ -140,6 +149,14 @@ I absolutely love fluffy curtain bangs like Sabrina Carpenter, (a modern pop cul
    <img src={image3} alt="Jackie Wyers Sabrina Carpenter" style={imageStyle} />
    </a>
  </div>
+ <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
 
  <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
 Inspired Muse - Tap image for Sabrina Carpenter inspired makeup tutorial.
@@ -169,6 +186,16 @@ Method One: Best Big Bun
 <p style={paragraphStyle}>
 When I first attempted this style 10 years ago, I put my hair up into a high ponytail, and since sock buns were all the rage, I had a bun maker handy, which made the style fairly easy to do.
 </p>
+
+<div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+
 
 <p style={paragraphStyle}>
 Initially, I moved part of my ponytail forward and laid the ends as faux bangs, securing them around the hairline with bobby pins. Through the years, I found a better method that really makes the hairstyle stay put, even if there’s some wind outside, without worrying about bobby pins becoming loose.
@@ -359,7 +386,7 @@ style = {{
      
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <a href="/iconicsharon" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={sharon} alt="Bridesmaids Boxes How To" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          <img src={sharon} alt="Sharon Tate's Bohemian Style Tutorial" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
           MORE TIME TRAVEL TUTORIALS →
         </a>
       </div>
