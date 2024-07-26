@@ -20,6 +20,10 @@ const Sitemap = () => {
         { path: "/yardley1965", title: "Yardley 1965 Vintage Vibes" },
         { path: "/gracekelly", title: "Grace Kelly Vintage Makeup" },
         { path: "/balkeblog", title: "Balke Vintage Vibes" },
+        { path: "/nomakeupspring", title: "No Makeup Spring" },
+        { path: "/bardothairstyles", title: "Bardot Hairstyles" },
+        { path: "/animalpretty", title: "Animal Pretty" },
+
     ];
 
     const stylePosts = [
@@ -34,6 +38,10 @@ const Sitemap = () => {
         { path: "/manhattancool", title: "Manhattan Cool" },
         { path: "/falllbd", title: "Fall LBD" },
         { path: "/darkflorals", title: "Dark Florals" },
+        { path: "/cpsummer", title: "Cottagecore Princess Summer" },
+        { path: "/sleekspring", title: "Sleek Spring" },
+        { path: "/parisprincess", title: "Paris Princess" },
+
     ];
 
     const siteResources = [
@@ -48,7 +56,6 @@ const Sitemap = () => {
         { path: "/travel", title: "Travel Home" },
         { path: "/contact", title: "Contact" },
         { path: "/privacy", title: "Privacy Notice" },
-        { path: "/speed-insights", title: "Speed Insights" },
     ];
 
     const travelPosts = [
@@ -62,6 +69,8 @@ const Sitemap = () => {
         { path: "/princeofwales", title: "Prince of Wales Luxury Review" },
         { path: "/newzealand", title: "New Zealand Travel Blog" },
         { path: "/fable", title: "Fable Auckland Review" },
+        { path: "/fairytalewedding", title: "Jackie Wyers Wedding in Sorrento, Italy" },
+
     ];
 
     const reviewPosts = [
@@ -75,6 +84,9 @@ const Sitemap = () => {
      
         { path: "/summerbeauty", title: "Summer Beauty" },
         { path: "/bridesmaidboxes", title: "Diary Bridesmaids" },
+{ path: "/perioddrama", title: "Period Drama" },
+{ path: "/bridalmakeup", title: "Bridal Makeup" },
+
        
     ];
 
