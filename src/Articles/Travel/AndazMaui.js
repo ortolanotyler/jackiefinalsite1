@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
@@ -8,6 +8,8 @@ import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import AdSenseAd from '../../Advertising/Ads';
+import { initGA, logPageView } from '../../analytics';
+
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/AndazTitle.png`;
 
@@ -51,6 +53,11 @@ const Card = ({ blogContent }) => (
 );
 
 const AndazMauiReview = () => {
+    useEffect(() => {
+        initGA();
+        logPageView();
+      }, []);
+
     const websiteId = '10910';
     const blogRef = useRef(null);
 
