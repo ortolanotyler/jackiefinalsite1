@@ -3,8 +3,8 @@ import './BridalDropCap.css'; // Import your CSS file for styling
 
 const BridalDropCap = ({ text }) => {
   return (
-    <p className="dropcap">
-      <span className="dropcap-letter">{text.charAt(0)}</span>
+    <p className="dropcap1">
+      <span className="dropcap-letter1">{text.charAt(0)}</span>
       {text.slice(1)}
     </p>
   );

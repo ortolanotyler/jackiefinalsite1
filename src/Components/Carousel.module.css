@@ -1,0 +1,50 @@
+.carouselImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensure that any overflow is hidden */
+    height: 700px; /* Set a fixed height */
+}
+
+.carouselImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This will crop the image to fill the container */
+    max-width: 500px; /* Ensure that the width does not exceed 1440px */
+}
+
+.carousel .control-dots {
+    display: none; /* Hide the default dots for a cleaner look */
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+}
+
+.arrowPrev {
+    left: 10px;
+}
+
+.arrowNext {
+    right: 10px;
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.arrow:focus {
+    outline: none;
+}

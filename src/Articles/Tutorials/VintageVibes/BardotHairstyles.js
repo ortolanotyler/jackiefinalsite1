@@ -8,6 +8,8 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import BridalDropCap from '../../../Components/BridalDropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
+import Carousel from '../../../Components/Carousel';
+
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/BardotHairstyles/BardotTitle.png`;
@@ -81,6 +83,14 @@ const imageStyle = {
   height: 'auto'
 };
 
+const pinterestGridStyle = {
+  display: 'flex',
+  justifyContent: 'center',
+  gap: '1rem',
+  flexWrap: 'wrap',
+  margin: '1rem 0'
+};
+
 
 
   const blogContent = (
@@ -104,23 +114,18 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <BridalDropCap text="Welcome back to Time Travel Tutorials! Step back into the glamorous ‘60s with Brigitte
 Bardot's iconic big bun! Whether you're looking for a chic everyday look or a show-stopping updo for a special occasion, I've got you covered with my tried- and-tested techniques featuring faux bangs, using the ends of your own hair. Let's dive into vintage beauty and master the Bardot bun together!" />
 
-
-
 <p style={paragraphStyle}>
 One of my first videos 10 years ago was attempting to recreate a Bardot-inspired half-up, half-down 'do and her big bun updo. It wasn't perfect, few too many bobby pins to be practical, but it sparked a decade-long journey to master this iconic style. Fast forward to today, and I've discovered some amazing tricks that make achieving this look a breeze, without necessarily committing to her iconic curtain bang haircut.
 </p>
 
 
 <div style={gridContainerStyle}>
-   <a href="https://www.youtube.com/watch?v=-LLQLc6imXA" target="_blank" rel = "noreferrer" >
+   <a href="https://www.youtube.com/watch?v=hl2f12fGJwg&t=240s" target="_blank" rel = "noreferrer" >
    <img src={image1} alt="Jackie Wyers Bardot Hairstyles" style={imageStyle} />
-   </a>
- </div>
- <div style={gridContainerStyle}>
-   <a href="https://www.youtube.com/watch?v=-LLQLc6imXA" target="_blank" rel = "noreferrer" >
    <img src={image2} alt="Jackie Wyers Bardot Hairstyles" style={imageStyle} />
    </a>
  </div>
+
 
  <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
  My first Bardot inspired hairstyles from 10 years ago.
@@ -250,8 +255,9 @@ Combining Methods for The Best Bardot Bun
 </h2>
 
 <div style={gridContainerStyle}>
-   <img src={image9} alt="Jackie Wyers Bardot Hairstyles" style={imageStyle} />
-  
+  <a href = "https://www.youtube.com/shorts/WyP-Lco8BTA" target="_blank" rel = "noreferrer" > 
+  <img src={image9} alt="Jackie Wyers Bardot Hairstyles" style={imageStyle} />
+  </a>
  </div>
 
 <p style={paragraphStyle}>
@@ -294,22 +300,47 @@ Bridgitte Bardot Makeup
 As for makeup to complete the look, I have a Bardot- inspired makeup look with a blonde wig to really capture her vibe. Check it out here if you’re looking for more inspiration from the ‘60s bombshell.
 
 </p>
-<div style={gridContainerStyle}>
-   <img src={image5} alt="Jackie Wyers Bardot Hairstyles" style={imageStyle} />
 
- </div>
+<Carousel images={[image5, image6, image7]} />
+
 
 
 <p style={paragraphStyle}>
-I hope you enjoyed another <a href="timetraveltutorials" target="_blank" rel="noreferrer">Time Travel Tutorials</a>     and all the vintage vibes. If you are looking for more 1960s inspiration, check out more vintage vibes on my YouTube playlist, or on my site. I hope this tutorial brings a touch of vintage glamour to your hairstyling routine. Remember, beauty is all about having fun and experimenting, so don't be afraid to try new things and make the look your own. Happy styling!
+I hope you enjoyed another <a href="timetraveltutorials" target="_blank" rel="noreferrer">Time Travel Tutorials</a> and all the vintage vibes. If you are looking for more 1960s inspiration, check out more vintage vibes on my YouTube playlist, or on my site. I hope this tutorial brings a touch of vintage glamour to your hairstyling routine. Remember, beauty is all about having fun and experimenting, so don't be afraid to try new things and make the look your own. Happy styling!
 
 </p>
 
 <p style={paragraphStyle}>
-If you enjoyed this look, you may enjoy Audrey Hepburn in “Funny Face” makeup <a href = "https://www.youtube.com/watch?v=jsOjUk9hxow" target= "_blank" rel= "noreferrer">here</a>.
-
+Pin my Bardot looks on Pinterest to your inspiration board!
 </p>
 
+<div style={pinterestGridStyle}>
+        <iframe
+          src="https://assets.pinterest.com/ext/embed.html?id=794463190524256496"
+          height="520"
+          width="236"
+          title="pin1"
+          frameBorder="0"
+          scrolling="no"
+        ></iframe>
+        <iframe
+          src="https://assets.pinterest.com/ext/embed.html?id=794463190540664022"
+          height="520"
+          width="236"
+          frameBorder="0"
+          scrolling="no"
+            title="pin2"
+        ></iframe>
+        <iframe
+          src="https://assets.pinterest.com/ext/embed.html?id=794463190512567046"
+         height="520"
+          width="236"
+          frameBorder="0"
+          scrolling="no"
+          title="pin3"
+
+        ></iframe>
+      </div>
 
 
 
