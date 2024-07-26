@@ -88,6 +88,9 @@ const BridalMakeup = () => {
       <ResponsiveIframe src="https://shopmy.us/collections/public/635855?noHeader=true" title="Shop My Victoria's Secret Favorites" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
       <p style={paragraphStyle}><strong>Foundation:</strong> My favourite summer foundation is the Charlotte Tilbury Beautiful Skin Foundation for photo-ready coverage. I've tested it extensively and know it performs well in the heat. Alternatively, for those seeking more coverage, Giorgio Armani’s Luminous Silk Foundation is excellent—just make sure to test any foundation well before your wedding day and blend into the hairline, neck and even ears.</p>
+      <div style={{ margin: '20px' }}>
+        <AdSenseAd />
+      </div>
       <p style={paragraphStyle}><strong>Highlight and Contour:</strong> I used medium coverage for the foundation and opted for higher coverage with Yensa's Super Serum Silk Concealer to cancel out any darkness under the eyes. Mario’s Sculpting Stick was my choice for contouring, applied sparingly to avoid harsh lines. It’s much easier to build products up than to sheer them out after! If you are a DIY bride, take your time!</p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/635858?noHeader=true" title="Shop My Victoria's Secret Favorites" />
@@ -117,6 +120,10 @@ const BridalMakeup = () => {
       
 
       <p style={paragraphStyle}><strong>Lashes & Lips:</strong> Falsies can really complete a bridal look! Velour has great soft, effortless lashes and duo glue is my favorite for long wear. A more affordable option that preforms just as well are Isopia lashes, a new favourite of mine that you can order on Amazon for convenience.</p>
+      <div style={{ margin: '20px' }}>
+        <AdSenseAd />
+      </div>
+     
       <p style={paragraphStyle}>As for lips, this was one area I'd adjust from my trial. The lip liner I chose, Makeup Forever Anywhere Caffeine, felt too rosy as it began to wear for this look. In close-up photos in this article, I added some of the Charlotte Tilbury’s Iconic Nude to the lip combo, which I preferred for its cooler, deeper tone. I went with a nude gloss, but in some lighting, it appeared a bit too warm as well. A baby pink gloss might have better complemented the overall look.</p>
      
       <ResponsiveIframe src="https://shopmy.us/collections/public/635865?noHeader=true" title="Shop My Victoria's Secret Favorites" />
@@ -163,6 +170,10 @@ const BridalMakeup = () => {
         . The products held up great and I especially loved how the blush looked in person, on camera, and in video in various light!
       </p>
       <p style={paragraphStyle}>My actual wedding dress is not as white as the dresses I tried on, but slightly more on the warmer, champagne side so I'm excited to adjust my makeup accordingly.</p>
+      <div style={{ margin: '20px' }}>
+        <AdSenseAd />
+      </div>
+     
       <p style={paragraphStyle}>Since I will be outside for much of the wedding day, I will skip gloss and go for a balm for moisture, but less stick. Nothing worse than hair in lipgloss!</p>
       <div style={{ margin: '20px' }}>
         <AdSenseAd />
