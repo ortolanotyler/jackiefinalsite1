@@ -1,6 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { Grid, Button, Box, FormControlLabel, Checkbox, Typography, Alert, TextField } from '@mui/material';
 import { EmailContext } from './EmailContext';
+import axios from 'axios';
 import './EmailSubscribe.module.css'; // Ensure this file exists
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Home/EmailSub.jpeg`;
@@ -12,19 +13,25 @@ export default function EmailSubscribe() {
   const [error, setError] = useState('');
   const { addEmail } = useContext(EmailContext);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!email || !consent) {
       setError('Email and consent are required.');
       return;
     }
 
-    addEmail(email);
-
-    setEmail('');
-    setConsent(false);
-    setIsSubmitted(true);
-    setError('');
+    try {
+      const response = await axios.post('https://jackie-emails.herokuapp.com/subscribe', { email });
+      if (response.status === 200) {
+        setIsSubmitted(true);
+        setEmail('');
+        setConsent(false);
+        setError('');
+        addEmail(email);
+      }
+    } catch (error) {
+      setError('Failed to subscribe. Please try again.');
+    }
   };
 
   return (

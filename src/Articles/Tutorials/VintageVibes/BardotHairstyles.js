@@ -21,7 +21,7 @@ const image7 = `${process.env.PUBLIC_URL}/Images/Articles/BardotHairstyles/7.jpg
 const image8 = `${process.env.PUBLIC_URL}/Images/Articles/BardotHairstyles/8.jpg`;
 const image9 = `${process.env.PUBLIC_URL}/Images/Articles/BardotHairstyles/9.png`;
 
-const bridesmaid = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/BridesmaidBoxThumb!.jpg`;
+const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
@@ -194,6 +194,7 @@ style = {{
   allowFullScreen
 ></iframe>
 
+
 </div>
 
 
@@ -311,7 +312,6 @@ If you enjoyed this look, you may enjoy Audrey Hepburn in “Funny Face” makeu
 
 
 
- 
 
 
        <div>
@@ -327,9 +327,9 @@ style = {{
 </div>
      
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-        <a href="/bridesmaidboxes" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={bridesmaid} alt="Bridesmaids Boxes How To" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
-          AUDREY HEPBURN →
+        <a href="/iconicsharon" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={sharon} alt="Bridesmaids Boxes How To" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          MORE TIME TRAVEL TUTORIALS →
         </a>
       </div>
 
