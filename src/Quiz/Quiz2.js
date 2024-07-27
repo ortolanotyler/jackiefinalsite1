@@ -128,7 +128,7 @@ const Quiz2 = () => {
   return (
     <div className="quiz-container">
       <Helmet>
-                <title>Which Animal Pretty Are You?</title>
+                <title>Jackie Wyers Beauty</title>
                 <meta name="description" content="Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty? Find out!" />
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
                 <script>
