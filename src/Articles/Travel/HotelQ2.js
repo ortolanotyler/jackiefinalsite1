@@ -149,7 +149,9 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', marg
     <img src={image1} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
 </div>
 
-    
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
+                <BookNowButton href="https://go.shopmy.us/p-6594014" target="_blank" rel="noopener noreferrer"/>
+            </div>
 
 <h2 style = {headingStyle}>🌲 Prime Location</h2>
 <p style = {paragraphStyle}>
@@ -186,6 +188,7 @@ The hotel's grounds are magnificent, with every room offering stunning views of 
     <img src={image5} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
 </div>
     <div style={gridContainerStyle}>
+    <img src={image6} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
 
     <img src={image7} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
 </div>
@@ -239,15 +242,11 @@ Our first evening began with cocktails at the hotel's restaurant, where I tried 
 Dinner at Restaurant La Quintessence was a highlight, featuring live music that added to the romantic ambiance without overwhelming our conversation. The summer menu was exceptional, and I highly recommend the Lobster Risotto. Tyler's Oysters for an appetizer and Lamb entrée were equally impressive.
                         </p>
                       
-                        <div style={gridContainerStyle} >
-    <img src={image16} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
-</div>
-
-<div style={gridContainerStyle} >
+                        
+<div style={gridContainerStyle}>
+<img src={image16} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
 
 <img src={image17} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
-</div>
-<div style={gridContainerStyle}>
 
 <img src={image18} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
 <img src={image19} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
@@ -258,7 +257,7 @@ Dinner at Restaurant La Quintessence was a highlight, featuring live music that 
 </div>
 <div style={gridContainerStyle}>
 
-<img src={image20} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
+<img src={image20} alt="Hotel Quintessance Review in the Summer Time" style={{ width: '100%'}} /> 
 </div>
                         <p style = {paragraphStyle}>
 We concluded our meal with a decadent Brownie Lava Cake, cappuccinos, and vanilla ice cream.
@@ -305,12 +304,11 @@ style = {{
 Breakfast can be enjoyed in the comfort of your suite, on the terrace, or in the dining room at Restaurant La Quintessence. I enjoyed a yogurt and granola bowl with fresh fruit and a cappuccino, while Tyler savoured Eggs Benedict with salmon. There's nothing better than a sunny Canadian summer's day and breakfast with a gorgeous view!
 
 </p>
-
 <div style={gridContainerStyle}>
-    <img src={image25} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
-  </div>
-  <div style={gridContainerStyle}>
     <img src={image26} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
+  </div>
+<div style={gridContainerStyle}>
+    <img src={image27} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
   </div>
 
 
@@ -332,6 +330,9 @@ During our winter visit, the lake was completely frozen over. In the summer, how
   <div style={gridContainerStyle}>
     <img src={image29} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
   </div>
+  <div style={gridContainerStyle}>
+    <img src={image30} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
+  </div>
  
 <h2 style = {headingStyle}>🌞 Final Thoughts</h2>
 
@@ -347,6 +348,9 @@ The new restaurant renovations, summer menu, and the reopening of the nautical a
 <p style = {paragraphStyle}>
 One of the best tools for booking hotels is Plannin.com, where creators like me provide detailed reviews and pictures of our stays. Sign up for a free account to access exclusive membership deals and get up to 40% off your bookings! Most hotels offer flexible cancellation policies, making it a great site for planning your next adventure with confidence, knowing you've seen a legit review to help guide your choice.
 </p>
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
+                <BookNowButton href="https://go.shopmy.us/p-6594014" target="_blank" rel="noopener noreferrer"/>
+            </div>
 <div
 style = {{
   margin : '20px'
@@ -361,9 +365,7 @@ Are you Canadian or have you traveled in Canada? Let me know if there are any be
 
 </p>
 
-<div style={gridContainerStyle}>
-    <img src={image30} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
-  </div>
+
 
 <p style = {paragraphStyle}>
 Overall, this trip was the perfect pre-wedding relaxation for Tyler and me, and I hope you’ll enjoy your visit as much as we did. If you're interested in our wedding, click here to read the article filled with photos and details!
@@ -380,7 +382,7 @@ Overall, this trip was the perfect pre-wedding relaxation for Tyler and me, and 
 
      
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-        <a href="/bridesmaidboxes" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+        <a href="/hotelq" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
           <img src={hotelq1} alt="Bridesmaids Boxes How To" style={{ width: '500px', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
           
           THE FIRST HOTEL Q REVIEW →
