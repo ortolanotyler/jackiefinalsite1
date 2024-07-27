@@ -55,6 +55,7 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
   <div>
+    <div><TextReveal text='HOTEL QUINTESSANCE' /></div>
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
@@ -151,14 +152,7 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', marg
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
                 <BookNowButton href="https://go.shopmy.us/p-6594014" target="_blank" rel="noopener noreferrer"/>
             </div>
-            <div
-style = {{
-  margin : '20px'
-}}
->
 
-  <AdSenseAd/>
-</div>
 <h2 style = {headingStyle}>🌲 Prime Location</h2>
 <p style = {paragraphStyle}>
 Hotel Quintessence is perfectly situated across the street from the charming Mont Tremblant ski village. This vibrant village is filled with brightly coloured façades, shops, mountain biking trails, pottery painting, rides, and delectable dining options. One of my personal favourites is La Maison de la Crêpe, where you can enjoy both savoury and sweet crêpes that never disappoint.
@@ -228,7 +222,7 @@ Our stay was in a Classic Suite, which costs approximately $500 CAD per night. T
 
 
 <p style = {paragraphStyle}>
-Our first evening began with cocktails at the hotel's restaurant, where I tried the refreshing Une Fraise À L’amer cocktail, and Tyler enjoyed the Yuzu Margarita, featuring a unique Quintessence ice cube.
+Our first evening began with cocktails at the hotel's restaurant, where I tried the refreshing Une Fraise À L’amer cocktail, and Tyler enjoyed the Dirty Detox, featuring a unique Quintessence ice cube.
 
 </p>
 
@@ -288,11 +282,8 @@ Our mornings started with Nespresso in the room and news on the big screen TV. O
 
 <div style={gridContainerStyle}>
     <img src={image22} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
+    <img src={image23} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
 </div>
-<div style={gridContainerStyle}>
-
-<img src={image23} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
-    </div>
 <div
 style = {{
   margin : '20px'
@@ -431,18 +422,13 @@ style = {{
   );
 
   return (
-    <div className="page-container" ref={blogRef}>
-    <TextReveal text='HOTEL QUINTESSENCE' className="full-width-banner" />
-    <div className="blog-page-container">
-      <div className="adsense-ad left-ad">
-        <AdSenseAd />
-      </div>
-      <Card blogContent={blogContent} />
-      <div className="adsense-ad right-ad">
-        <AdSenseAd />
-      </div>
+    <div ref={blogRef}>
+      <Card
+        title="A Summer Getaway at Hotel Quintessence"
+        description="A review of Hotel Quintessance at Tremblant"
+        blogContent={blogContent}
+      />
     </div>
-  </div>
   );
 };
 
