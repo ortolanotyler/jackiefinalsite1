@@ -438,6 +438,14 @@ style = {{
 
   <AdSenseAd/>
 </div>
+<div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       
     </div>
     

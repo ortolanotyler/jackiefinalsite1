@@ -272,6 +272,8 @@ style = {{
       <div>
         <img src={signature} alt="Victoria's Secret Fashion Show 2013" style={{ width: '100%' }} />
       </div>
+   
+      <Comments website-id={websiteId} page-id={"No-Makeup-Spring"} />
       <div
 style = {{
   margin : '20px'
@@ -279,8 +281,21 @@ style = {{
 >
 
   <AdSenseAd/>
+</div>   <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>   <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
 </div>
-      <Comments website-id={websiteId} page-id={"No-Makeup-Spring"} />
     </div>
   );
 
