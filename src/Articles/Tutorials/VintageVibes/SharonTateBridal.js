@@ -62,6 +62,16 @@ const SharonTatePost = () => {
       <Helmet>
         <title>Sharon Tate Bridal Look - Jackie Wyers</title>
         <meta name="description" content="Explore Jackie Wyers' Sharon Tate bridal makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+                <script>
+                    {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-RT6GR7JXYG');
+                    `}
+                </script>
+      
       </Helmet>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>

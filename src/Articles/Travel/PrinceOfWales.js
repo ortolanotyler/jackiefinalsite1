@@ -76,6 +76,17 @@ const PrinceOfWales = () => {
       
     const blogContent = (
         <div className="container">
+                <title>Prince of Wales - Niagara On The Lake Hotel Review</title>
+                <meta name="description" content="A detailed review of the Prince of Wales Hotel, covering first impressions, room options, amenities, and overall experience." />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+                <script>
+                    {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-RT6GR7JXYG');
+                    `}
+                </script>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // HOTEL REVIEWS
