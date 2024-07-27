@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
-
 /* General styles for the whole component */
 * {
   box-sizing: border-box;
@@ -8,6 +6,7 @@
 strong {
   font-weight: 600;
 }
+
 a {
   color: black;
   text-decoration: underline;
@@ -87,6 +86,50 @@ body {
   margin: 0 auto; /* Center paragraphs */
 }
 
+/* New styles for the layout */
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.full-width-banner {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.blog-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.blog-content-container {
+  flex: 1;
+  max-width: 1000px;
+}
+
+.adsense-ad {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .adsense-ad {
+    display: block;
+    width: 160px; /* Adjust as needed for your ad size */
+  }
+
+  .left-ad {
+    margin-right: 1rem;
+  }
+
+  .right-ad {
+    margin-left: 1rem;
+  }
+}
+
+/* Existing media queries for responsiveness */
 @media screen and (max-width: 1200px) {
   .container, .card, .blog-content {
     margin: 0;

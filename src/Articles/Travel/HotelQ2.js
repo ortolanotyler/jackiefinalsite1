@@ -55,7 +55,6 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
   <div>
-    <div><TextReveal text='HOTEL QUINTESSANCE' /></div>
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
@@ -432,13 +431,18 @@ style = {{
   );
 
   return (
-    <div ref={blogRef}>
-      <Card
-        title="A Summer Getaway at Hotel Quintessence"
-        description="A review of Hotel Quintessance at Tremblant"
-        blogContent={blogContent}
-      />
+    <div className="page-container" ref={blogRef}>
+    <TextReveal text='HOTEL QUINTESSENCE' className="full-width-banner" />
+    <div className="blog-page-container">
+      <div className="adsense-ad left-ad">
+        <AdSenseAd />
+      </div>
+      <Card blogContent={blogContent} />
+      <div className="adsense-ad right-ad">
+        <AdSenseAd />
+      </div>
     </div>
+  </div>
   );
 };
 
