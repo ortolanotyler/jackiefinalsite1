@@ -21,7 +21,7 @@ const logo = `${process.env.PUBLIC_URL}/Images/Home/jwlogo3.png`;
 const pages = [
   { name: 'Home', path: '/' },
   { name: 'About', path: '/about' },
-  { name: 'Videos', path: '/videos' },
+  { name: 'Bridal', path: '/bridal' },
   { name: 'Quiz', path: '/quiz' },
 ];
 
