@@ -85,6 +85,7 @@ import FairytaleWedding from './Articles/Travel/FairytaleWedding';
 import Eeebridal from './Articles/Tutorials/eeebridal';
 import BridalHome from './Articles/Tutorials/BridalHome';
 import BardotHairstyles from './Articles/Tutorials/VintageVibes/BardotHairstyles';
+import HotelQ2 from './Articles/Travel/HotelQ2';
 
 function usePageTracking() {
   const location = useLocation();
@@ -197,6 +198,7 @@ function App() {
             <Route path="bridal" element={<BridalHome />} />
             <Route path="bridalmakeup" element={<BridalMakeup />} />
             <Route path="bardothairstyles" element={<BardotHairstyles />} />
+            <Route path="hotelquintessancesummer" element={<HotelQ2/>} />
             <Route path="*" element={<h1>404 Not Found</h1>} />
           </Route>
         </Routes>

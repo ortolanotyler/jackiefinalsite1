@@ -10,8 +10,14 @@ const maui = `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUITHUMBNAIL.
 const westgate = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATETHUMBNAIL.jpg`;
 const prince = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWalesThumbnail.jpeg`;
 const aukland = `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/NZThumbnail.jpg`;
-
+const hotelq2 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ2/1.jpg`;
 const articles = [
+    {
+        date: '04/07/2024',
+        title: 'Mont Tremblant | Summer',
+        image: hotelq2,
+        path: '/hotelquintessancesummer',
+    },
     {
         date: '04/15/2024',
         title: 'Aukland | New Zealand ',
