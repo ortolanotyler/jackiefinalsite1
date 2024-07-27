@@ -13,7 +13,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'HOME', path: '/' },
     { name: 'ABOUT', path: '/about' },
     { name: 'TUTORIALS', path: '/tutorials' },
-    { name: 'VIDEOS', path: '/videos' },
+    { name: 'BRIDAL', path: '/bridal' },
     { name: 'QUIZ', path: '/quiz' },
     { name: 'MERCH', path: '/vintagevibesmerch' },
     { name: 'SHOP MY STYLE', path: '/mystyle' },
