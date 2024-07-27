@@ -191,9 +191,7 @@ const BridalMakeup = () => {
         . The products held up great and I especially loved how the blush looked in person, on camera, and in video in various light!
       </p>
       <p style={paragraphStyle}>My actual wedding dress is not as white as the dresses I tried on, but slightly more on the warmer, champagne side so I'm excited to adjust my makeup accordingly.</p>
-      <div style={{ margin: '20px' }}>
-        <AdSenseAd />
-      </div>
+   
      
       <p style={paragraphStyle}>Since I will be outside for much of the wedding day, I will skip gloss and go for a balm for moisture, but less stick. Nothing worse than hair in lipgloss!</p>
       <div style={{ margin: '20px' }}>
