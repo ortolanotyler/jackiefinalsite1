@@ -4,6 +4,8 @@ import TextReveal from '../../Components/TextReveal';
 import BrandCarousel from '../../Components/BrandCarousel/BrandCarousel';
 import { Grid, Paper } from '@mui/material';
 import FeaturesAndShoutouts from './FeaturesAndShoutouts';
+import { Helmet } from'react-helmet';
+
 
 import RotatingText from '../AppBar/RotatingText';
 
@@ -15,6 +17,20 @@ const MediaKit = () => {
 
   return (
     <div>
+      <Helmet>
+                <title>Press & Media - Jackie Wyers</title>
+                <meta name="description" content="Check out the latest articles and features showcasing Jackie's best work" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+                <script>
+                    {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-RT6GR7JXYG');
+                    `}
+                </script>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+            </Helmet>
       <TextReveal text="MEDIA KIT & PRESS" />
    
       <Grid container spacing={1}>

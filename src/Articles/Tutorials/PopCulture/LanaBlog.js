@@ -31,7 +31,7 @@ const LanaBlog = () => {
 
   useEffect(() => {
     initGA();
-    logPageView();
+    logPageView('/lanablog');
 }, []);
 
 

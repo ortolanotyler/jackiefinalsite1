@@ -8,6 +8,7 @@ import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import SubscribeButton from '../../Components/SubscribeButton';
 import { initGA, logPageView } from '../../analytics';
 import BridalDropCap from '../../Components/BridalDropCap';
+import { Helmet } from 'react-helmet';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/WeddingTitle.png`;
@@ -125,6 +126,9 @@ const imageStyle = {
 
   const blogContent = (
     <div className="container">
+      <Helmet title="Our Fairytale Wedding Overlooking Sorrento, Italy"  >
+        
+      </Helmet>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
         <a href="/bridal" style={{ fontFamily: 'Arapey', fontSize: '1em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // BRIDAL

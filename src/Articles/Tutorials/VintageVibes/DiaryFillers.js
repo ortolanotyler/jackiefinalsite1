@@ -23,6 +23,7 @@ const Card = ({ blogContent }) => (
 const DiaryPost1Fillers = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
+  
   useEffect(() => {
     initGA();
     logPageView('/diaryfillers');

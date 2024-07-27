@@ -55,7 +55,7 @@ const Card = ({ blogContent }) => (
 const AndazMauiReview = () => {
     useEffect(() => {
         initGA();
-        logPageView();
+        logPageView('/andazmaui');
       }, []);
 
     const websiteId = '10910';

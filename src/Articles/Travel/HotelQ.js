@@ -50,7 +50,7 @@ const HotelQ = () => {
 
   useEffect(() => {
     initGA();
-    logPageView();
+    logPageView('/hotelQ');
   }, []);
 
   const headingStyle = {

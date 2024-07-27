@@ -44,7 +44,7 @@ const Disney2Post = () => {
 
     useEffect(() => {
         initGA();
-        logPageView();
+        logPageView('/epcot');
       }, []);
 
     const headingStyle = {
