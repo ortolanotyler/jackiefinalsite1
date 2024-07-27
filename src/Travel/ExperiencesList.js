@@ -14,7 +14,7 @@ const hotelq2 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ2/1.jpg`;
 const articles = [
     {
         date: '04/07/2024',
-        title: 'Mont Tremblant | Summer',
+        title: 'Mont Tremblant | A Summertime Gem',
         image: hotelq2,
         path: '/hotelquintessancesummer',
     },
