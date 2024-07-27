@@ -296,6 +296,8 @@ style = {{
       <div style={{ textAlign: 'center' }}>
         <img src={Signature} alt='Jackie Wyers Signature' style={{ width: '100%', maxWidth: '650px' }} />
       </div>
+     
+      <Comments website-id={websiteId} page-id="PatMcGrathhy" />
       <div
 style = {{
   margin : '20px'
@@ -303,8 +305,21 @@ style = {{
 >
 
   <AdSenseAd/>
+</div><div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div><div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
 </div>
-      <Comments website-id={websiteId} page-id="PatMcGrathhy" />
     </div>
   );
 
