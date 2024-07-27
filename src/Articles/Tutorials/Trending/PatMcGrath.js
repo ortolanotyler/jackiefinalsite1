@@ -141,6 +141,14 @@ style = {{
       <p style={paragraphStyle}>
         Models with deeper complexions kept their skin tone true to themselves, allowing each model to personify a unique porcelain doll in a makeup look that was flattering on each person.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         The face wasn't powdered after foundation, as the airbrushed peel-off mask adhered better to cream-based products. However, the Skin Fetish: Sublime Perfection Blurring Under-Eye Powder was used for setting the area directly under the eyes. A new light pink powder was teased on the live, which is worth trying upon its release!
       </p>
@@ -179,6 +187,14 @@ style = {{
       <p style={paragraphStyle}>
         For the eyeshadow, dimension was emphasized on the inner and outer portion of the lid. Blk Coffee Liner was applied as a base, smudging it with a finger for a softer effect.
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         The Mothership I Eyeshadow Palette in Subliminal was frequently used behind the scenes. However, I thought the Mothership VI Eyeshadow Palette in Midnight Sun's grungy green, champagne, gold, and taupe shades were quite fitting for my inspired look.
       </p>
@@ -196,6 +212,14 @@ style = {{
       <p style={paragraphStyle}>
         For the lips, start with a deeper lip liner, blending through the center of the parted lips. Then, using Pat's finger-blurring technique, apply MatteTrance Lipstick in Guinevere, a crimson shade, focusing on the center to mimic a porcelain doll's lips. For those inspired by a model with fuller lips, try lining the entire lip and patting on the lipstick from there. Slightly blurring the edges was recommended to soften the overall appearance if you go this route!
       </p>
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         While each model presented a unique look, the key was to avoid harsh lines, embracing a more blurred, theatrical aesthetic.
       </p>
