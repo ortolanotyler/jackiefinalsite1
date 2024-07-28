@@ -50,7 +50,7 @@ const itemData = [
 export default function QuiltedImageList1() {
   return (
     <ImageList
-      sx={{ width: '100%', height: '55vh', boxShadow: '0 0 0 1px rgba(0, 0, 0, 0.9)' }}
+      sx={{ width: '100%', height: '55vh', boxShadow: '0 0 0 0 rgba(0, 0, 0, 0.9)' }}
       variant="quilted"
       cols={4}
     >
