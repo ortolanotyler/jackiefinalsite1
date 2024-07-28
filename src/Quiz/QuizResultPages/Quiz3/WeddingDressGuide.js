@@ -408,7 +408,7 @@ The Elizabeth gown is by a brand new label, Verander West and comes out of the C
 
  <p style = {paragraphStyle}>
 
-I hope you enjoyed this read and it gave you some bridal ideas if you are a Bride to Be! Again, take the quiz here to see which dress/bridal aesthetic I think you would like best! For more details about my Fairytale wedding, from the prep, planning, details and beauty, read <a style = {{color:'black'}} href= "/fairytalewedding" target="_blank" rel="noreferrer">here</a>.
+I hope you enjoyed this read and it gave you some bridal ideas if you are a Bride to Be! Again, take the quiz with the button below to see which dress/bridal aesthetic I think you would like best! For more details about my Fairytale wedding, from the prep, planning, details and beauty, read <a style = {{color:'black'}} href= "/fairytalewedding" target="_blank" rel="noreferrer">here</a>.
 </p>
 
 <div style={{ textAlign: 'center', margin: '2rem 0' }}>
