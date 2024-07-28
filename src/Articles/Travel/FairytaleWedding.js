@@ -183,7 +183,7 @@ the International School of Brussels, where we became each other's first “real
      
   
 <p style={paragraphStyle}>
-In 2018, our paths crossed again in Manhattan—serendipity at its best! Tyler had moved to the city, and I was nearby on a brand trip. We went on a date, 11 years after we last said goodbye in person, and didn’t leave each other’s side since. After moving in together on the Upper West Side, Tyler orchestrated a <a href="https://www.youtube.com/watch?v=-LLQLc6imXA" target="_blank" rel="noreferrer" style={{ color: 'black' }}>surprise proposal</a>  in 2021 during a <a href = "https://www.instagram.com/lostlandscollections/?igsh=dmprdjJybWo5OWFx" target="_blank" rel="noreferrer" >@lostlandscollections</a> fairytale photo shoot in Connecticut which made me feel like a total princess.
+In 2018, our paths crossed again in Manhattan—serendipity at its best! Tyler had moved to the city, and I was nearby on a brand trip. We went on a date, 11 years after we last said goodbye in person, and didn’t leave each other’s side since. After moving in together on the Upper West Side, Tyler orchestrated a <a href="https://www.youtube.com/watch?v=-LLQLc6imXA" target="_blank" rel="noreferrer" style={{ color: 'black' }}>surprise proposal</a>  in 2021 during a <a href = "https://www.instagram.com/lostlandscollections/?igsh=dmprdjJybWo5OWFx" style={{ color: 'black' }} target="_blank" rel="noreferrer" >@lostlandscollections</a> fairytale photo shoot in Connecticut which made me feel like a total princess.
 </p>
 
 <div style={gridContainerStyle}>

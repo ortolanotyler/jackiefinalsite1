@@ -186,7 +186,7 @@ function HomePage() {
           <ShopMyHero2 />
         </Grid>
         <Grid item xs={12}>
-          <BeigeReveal text='LIFESTYLE' />
+          <TextReveal text='LIFESTYLE' />
         </Grid>
         <Grid item xs={12}>
           <BeyondBeautyHero />
@@ -195,7 +195,7 @@ function HomePage() {
           <SiteExplorerBeyond />
         </Grid>
         <Grid item xs={12}>
-          <BeigeReveal text='TRAVEL IN STYLE' />
+          <TextReveal text='TRAVEL IN STYLE' />
         </Grid>
         <Grid item xs={12}>
           <LifestyleFavorites />

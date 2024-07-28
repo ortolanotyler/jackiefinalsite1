@@ -5,9 +5,16 @@ const fairytale = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fa
 const sharontatebridal = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEBRIDAL.jpeg`;
 const bridesmaids = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/BridesmaidBoxThumb!.jpg`;
 const bridalmakeup = `${process.env.PUBLIC_URL}/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.jpg`;
+const guide = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/guidethumbnail.jpeg`;
 
 
 const cardsData = [
+  {
+    link: "/weddingdressguide",
+    image: guide,
+    alt: "The Ultimate 2025 Wedding Dress Guide",
+    title: "The Ultimate 2025 Wedding Dress Guide 👗",
+  },
   {
     link: "/fairytalewedding",
     image: fairytale,
@@ -59,8 +66,6 @@ const Eeebridal = () => {
   return (
     <div>
          
-        
-    
       <ul className={styles.cardList}>
         {cardsData.map((card, index) => (
           <Card

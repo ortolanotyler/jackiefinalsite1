@@ -1,9 +1,11 @@
 import React from 'react';
 import { Grid } from '@mui/material';
 import TextReveal from '../Components/TextReveal';
-import Quiz2 from './Quiz2';
+
 import AdSenseAd from '../Advertising/Ads';
 import { Helmet } from'react-helmet';
+import Quiz3 from './Quiz3';
+import Quiz2 from './Quiz2';
 
 const QuizHomepage = () => {
     return (
@@ -22,8 +24,14 @@ const QuizHomepage = () => {
                 </script>
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
             </Helmet>
-            <TextReveal text='🐰🦌 WHICH ANIMAL FACE TYPE ARE YOU? 🦊🐈‍⬛' style = {{backgroundColor: 'white', fontSize: '0.55rem'}} />
+            <TextReveal text='THE ULTIMATE 2025 WEDDING DRESS QUIZ' style = {{backgroundColor: 'white', fontSize: '0.55rem'}} />
             <Grid container justifyContent="center">
+               
+               
+                <Grid item xs={12}>
+                    <Quiz3 />
+                </Grid>
+                <TextReveal text='🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊' style ={{backgroundColor:'white'}} />
                 <Grid item xs={12}>
                     <Quiz2 />
                 </Grid>

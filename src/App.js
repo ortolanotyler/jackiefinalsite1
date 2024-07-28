@@ -86,6 +86,15 @@ import Eeebridal from './Articles/Tutorials/eeebridal';
 import BridalHome from './Articles/Tutorials/BridalHome';
 import BardotHairstyles from './Articles/Tutorials/VintageVibes/BardotHairstyles';
 import HotelQ2 from './Articles/Travel/HotelQ2';
+import Quiz3 from './Quiz/Quiz3';
+import Bacarra from './Quiz/QuizResultPages/Quiz3/Bacarra';
+import Abril from './Quiz/QuizResultPages/Quiz3/Abril';
+import Percy from './Quiz/QuizResultPages/Quiz3/Percy';
+import Ora from './Quiz/QuizResultPages/Quiz3/Ora';
+import Zara from './Quiz/QuizResultPages/Quiz3/Zara';
+import Elizabeth from './Quiz/QuizResultPages/Quiz3/Elizabeth';
+import Porsha from './Quiz/QuizResultPages/Quiz3/Porsha';
+import WeddingDressGuide from './Quiz/QuizResultPages/Quiz3/WeddingDressGuide';
 
 function usePageTracking() {
   const location = useLocation();
@@ -199,6 +208,16 @@ function App() {
             <Route path="bridalmakeup" element={<BridalMakeup />} />
             <Route path="bardothairstyles" element={<BardotHairstyles />} />
             <Route path="hotelquintessancesummer" element={<HotelQ2/>} />
+            <Route path="quiz3" element={<Quiz3/>} />
+            <Route path="bacarra" element={<Bacarra/>} />
+            <Route path="abril" element={<Abril/>} />
+            <Route path="percy" element={<Percy/>} />
+            <Route path="ora" element={<Ora/>} />
+            <Route path="zara" element={<Zara/>} />
+            <Route path="elizabeth" element={<Elizabeth/>} />
+            <Route path="porsha" element={<Porsha/>} />
+            <Route path="weddingdressguide" element={<WeddingDressGuide/>} />
+
             <Route path="*" element={<h1>404 Not Found</h1>} />
           </Route>
         </Routes>
