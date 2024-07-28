@@ -78,6 +78,7 @@ const CabinFever = () => {
           src="https://shopmy.us/collections/public/468479?noHeader=true"
           className={styles.parisPrincessIframe}
           ref={iframeRef}
+            scrolling="yes"
         ></iframe>
       </div>
       <div
