@@ -287,6 +287,7 @@ Method Two: Best Faux Bangs
     ></iframe>
 
 
+
 <p style={paragraphStyle}>
 When I recreated a Brigitte inspired look many years later using a different inspiration photo, I came up with another method to shorten the hair for the bang section. For my new technique, section the hair into three ponytails: two smaller pigtails at the front with a centre part, and the rest of the hair in a super high ponytail.
 

@@ -445,7 +445,7 @@ I hope you enjoyed this read and it gave you some bridal ideas if you are a Brid
                 <AdSenseAd/>
                 </div><div style={{margin: '20px'}}>
                 <AdSenseAd/>
-                </div>
+                </div>,
       
     </div>
     

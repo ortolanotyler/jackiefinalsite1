@@ -78,7 +78,6 @@ const DarkFlorals = () => {
           src="https://shopmy.us/collections/public/379844?noHeader=true"
           className={styles.parisPrincessIframe}
           ref={iframeRef}
-            scrolling="yes"
         ></iframe>
       </div>
       <div

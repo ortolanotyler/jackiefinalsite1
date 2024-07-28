@@ -78,7 +78,6 @@ const FallLBD = () => {
           src="https://shopmy.us/collections/public/379891?noHeader=true"
           className={styles.parisPrincessIframe}
           ref={iframeRef}
-            scrolling="yes"
         ></iframe>
       </div>
       <div
