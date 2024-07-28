@@ -11,15 +11,16 @@ const image7 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayT
 const image9 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/MARGOTBARBIETHUMBNAIL.png`;
 const nomakeup = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
 const summerinspo = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/mermaidthumbnail.jpg`;
-const summerbeauty = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/BlueLagoonThumbnail.jpg`;
+const perioddrama = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/ArticleThumb.jpg`;
 
 const cardsData = [
-  {
-    link: "/summerbeauty",
-    image: summerbeauty,
-    alt: "Summer Beauty",
-    title: "Summer Beauty: Pop Culture Edition 🌴",
-  },
+ 
+ {
+  link: "/perioddrama",
+  image: perioddrama,
+  alt: "Summer Beauty",
+  title: "No-Makeup Period Dramas and Wearable Historical Hairstyles",
+},
   {
     link: "/SummerInspo",
     image: summerinspo,
