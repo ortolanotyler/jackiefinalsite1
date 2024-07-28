@@ -59,8 +59,7 @@ const VictoriaSecret = () => {
   const blogContent = (
     <div className="container">
       import { Helmet } from 'react-helmet';
-
-<Helmet>
+      <Helmet>
     <title>Victoria's Secret Fashion Show 2013 - Jackie Wyers</title>
     <meta name="description" content="Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014." />
     <meta name="keywords" content="Victoria's Secret, Fashion Show, Beauty Tips, Jackie Wyers, Makeup Tutorial, 2013, Snow Angel, Beauty Blog" />
@@ -72,6 +71,35 @@ const VictoriaSecret = () => {
     <meta name="twitter:title" content="Victoria's Secret Fashion Show 2013 - Jackie Wyers" />
     <meta name="twitter:description" content="Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014." />
     <meta name="twitter:image" content={title} />
+    <script type="application/ld+json">
+        {`
+        {
+            "@context": "http://schema.org",
+            "@type": "Article",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://jackiewyers.beauty/victoriasecret"
+            },
+            "headline": "Victoria's Secret Fashion Show 2013 - Jackie Wyers",
+            "description": "Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014.",
+            "image": "${title}",
+            "author": {
+                "@type": "Person",
+                "name": "Jackie Wyers"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Jackie Wyers",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "${title}"
+                }
+            },
+            "datePublished": "2024-07-27",
+            "dateModified": "2024-07-27"
+        }
+        `}
+    </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
     <script>
         {`
@@ -83,6 +111,7 @@ const VictoriaSecret = () => {
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
+
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>

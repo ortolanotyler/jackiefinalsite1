@@ -115,28 +115,63 @@ const imageStyle = {
   const blogContent = (
     <div className="container">
      <Helmet>
-    <title>Hotel Quintessence | A hidden gem of summer in Canada</title>
-    <meta name="description" content="A detailed review of the Hotel Quintessence, covering first impressions, room options, amenities, and overall experience." />
-    <meta name="keywords" content="Hotel Quintessence, Mont Tremblant, Luxury Hotel, Quebec Travel, Summer Getaway, Jackie Wyers, Hotel Review" />
-    <meta property="og:title" content="Hotel Quintessence | A hidden gem of summer in Canada" />
-    <meta property="og:description" content="A detailed review of the Hotel Quintessence, covering first impressions, room options, amenities, and overall experience." />
-    <meta property="og:image" content={title} />
-    <meta property="og:url" content="https://jackiewyers.beauty/hotelquintessance-summer" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Hotel Quintessence | A hidden gem of summer in Canada" />
-    <meta name="twitter:description" content="A detailed review of the Hotel Quintessence, covering first impressions, room options, amenities, and overall experience." />
-    <meta name="twitter:image" content={title} />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-    <script>
-        {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-RT6GR7JXYG');
-        `}
-    </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+  <title>Hotel Quintessence | A hidden gem of summer in Canada</title>
+  <meta name="description" content="A detailed review of the Hotel Quintessence, covering first impressions, room options, amenities, and overall experience." />
+  <meta name="keywords" content="Hotel Quintessence, Mont Tremblant, Luxury Hotel, Quebec Travel, Summer Getaway, Jackie Wyers, Hotel Review, Boutique Hotel, Travel Guide, Hotel Amenities, Romantic Getaway, Lake Tremblant, Summer Vacation" />
+  
+  <meta property="og:title" content="Hotel Quintessence | A hidden gem of summer in Canada" />
+  <meta property="og:description" content="A detailed review of the Hotel Quintessence, covering first impressions, room options, amenities, and overall experience." />
+  <meta property="og:image" content={title} />
+  <meta property="og:url" content="https://jackiewyers.beauty/hotelquintessance-summer" />
+  <meta property="og:type" content="article" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Hotel Quintessence | A hidden gem of summer in Canada" />
+  <meta name="twitter:description" content="A detailed review of the Hotel Quintessence, covering first impressions, room options, amenities, and overall experience." />
+  <meta name="twitter:image" content={title} />
+
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://jackiewyers.beauty/hotelquintessance-summer"
+      },
+      "headline": "Hotel Quintessence | A hidden gem of summer in Canada",
+      "description": "A detailed review of the Hotel Quintessence, covering first impressions, room options, amenities, and overall experience.",
+      "image": "${title}",
+      "author": {
+        "@type": "Person",
+        "name": "Jackie Wyers"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Jackie Wyers",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "${title}"
+        }
+      },
+      "datePublished": "2024-07-27",
+      "dateModified": "2024-07-27"
+    }
+    `}
+  </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
+
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
         <a href="/bridal" style={{ fontFamily: 'Arapey', fontSize: '1em', color: 'black', textDecoration: 'none' }}>

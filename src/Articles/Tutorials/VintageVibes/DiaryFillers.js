@@ -60,7 +60,7 @@ const DiaryPost1Fillers = () => {
 
   const blogContent = (
     <div className="container">
-     <Helmet>
+    <Helmet>
   <title>Diary Post #1: My Journey with Injectable Fillers - Jackie Wyers</title>
   <meta name="description" content="Jackie Wyers shares her personal experience with getting injectable fillers at a young age, reflecting on insecurities, decisions, and growth." />
   <meta name="keywords" content="Diary, Injectable Fillers, Jackie Wyers, Personal Experience, Beauty Blog, Cosmetic Enhancements, Self-Esteem, Beauty Standards, Personal Growth, Beauty Journey" />
@@ -82,7 +82,37 @@ const DiaryPost1Fillers = () => {
       `}
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Diary Post #1: My Journey with Injectable Fillers - Jackie Wyers",
+        "description": "Jackie Wyers shares her personal experience with getting injectable fillers at a young age, reflecting on insecurities, decisions, and growth.",
+        "image": "${title}",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/logo.png"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "dateModified": "2024-07-27",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/diaryfillers"
+        }
+      }
+    `}
+  </script>
 </Helmet>
+
 
     
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>

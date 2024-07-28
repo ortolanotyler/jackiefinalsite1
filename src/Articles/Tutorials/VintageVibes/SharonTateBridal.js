@@ -59,29 +59,59 @@ const SharonTatePost = () => {
   
   const blogContent = (
     <div className="container">
-      <Helmet>
-    <title>Sharon Tate Bridal Look - Jackie Wyers</title>
-    <meta name="description" content="Explore Jackie Wyers' Sharon Tate bridal makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
-    <meta name="keywords" content="Sharon Tate, 60s Bridal Look, Jackie Wyers, Bridal Makeup Tutorial, Vintage Beauty, Iconic Looks, Time Travel Tutorials, Classic Beauty, Old Hollywood" />
-    <meta property="og:title" content="Sharon Tate Bridal Look - Jackie Wyers" />
-    <meta property="og:description" content="Explore Jackie Wyers' Sharon Tate bridal makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
-    <meta property="og:image" content={title} />
-    <meta property="og:url" content="https://jackiewyers.beauty/sharontatebridal" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Sharon Tate Bridal Look - Jackie Wyers" />
-    <meta name="twitter:description" content="Explore Jackie Wyers' Sharon Tate bridal makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
-    <meta name="twitter:image" content={title} />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-    <script>
-        {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-        `}
-    </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+     <Helmet>
+  <title>Sharon Tate Bridal Look - Jackie Wyers</title>
+  <meta name="description" content="Explore Jackie Wyers' Sharon Tate bridal makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
+  <meta name="keywords" content="Sharon Tate, 60s Bridal Look, Jackie Wyers, Bridal Makeup Tutorial, Vintage Beauty, Iconic Looks, Time Travel Tutorials, Classic Beauty, Old Hollywood" />
+  <meta property="og:title" content="Sharon Tate Bridal Look - Jackie Wyers" />
+  <meta property="og:description" content="Explore Jackie Wyers' Sharon Tate bridal makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
+  <meta property="og:image" content={title} />
+  <meta property="og:url" content="https://jackiewyers.beauty/sharontatebridal" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sharon Tate Bridal Look - Jackie Wyers" />
+  <meta name="twitter:description" content="Explore Jackie Wyers' Sharon Tate bridal makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
+  <meta name="twitter:image" content={title} />
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Sharon Tate Bridal Look - Jackie Wyers",
+        "description": "Explore Jackie Wyers' Sharon Tate bridal makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide.",
+        "image": "${title}",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "${signature}"
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/sharontatebridal"
+        },
+        "datePublished": "2024-07-27",
+        "dateModified": "2024-07-27"
+      }
+    `}
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
+
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>

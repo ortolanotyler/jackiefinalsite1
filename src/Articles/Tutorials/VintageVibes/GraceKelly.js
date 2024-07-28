@@ -61,7 +61,7 @@ const GraceKelly = () => {
 
   const blogContent = (
     <div className="container">
-    <Helmet>
+   <Helmet>
   <title>Grace Kelly - Hollywood Glam Makeup Tutorial</title>
   <meta name="description" content="Follow Jackie Wyers as she recreates the iconic Grace Kelly Hollywood Glam look with detailed tutorials and vintage vibes." />
   <meta name="keywords" content="Grace Kelly, Hollywood Glam, Makeup Tutorial, Jackie Wyers, Vintage Vibes, Beauty Blog, Time Travel Tutorials, Classic Beauty, Old Hollywood, Iconic Looks" />
@@ -83,7 +83,37 @@ const GraceKelly = () => {
       `}
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Grace Kelly - Hollywood Glam Makeup Tutorial",
+        "description": "Follow Jackie Wyers as she recreates the iconic Grace Kelly Hollywood Glam look with detailed tutorials and vintage vibes.",
+        "image": "${title}",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/logo.png"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "dateModified": "2024-07-27",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/gracekelly"
+        }
+      }
+    `}
+  </script>
 </Helmet>
+
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>

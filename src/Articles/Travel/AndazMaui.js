@@ -98,11 +98,11 @@ const AndazMauiReview = () => {
 
     const blogContent = (
         <div className="container">
-          <Helmet>
+         <Helmet>
   <title>Andaz Maui Review | Luxury Resort Experience</title>
   <meta name="description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
   <meta name="keywords" content="Jackie Wyers, Andaz Maui, Maui resort, luxury hotel, hotel review, Wailea resort, travel blog, Maui vacation" />
-  
+
   <meta property="og:title" content="Andaz Maui Review | Luxury Resort Experience" />
   <meta property="og:description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
   <meta property="og:image" content={title} />
@@ -124,7 +124,54 @@ const AndazMauiReview = () => {
     `}
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "Hotel",
+          "name": "Andaz Maui at Wailea Resort",
+          "image": "${title}",
+          "description": "A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "3550 Wailea Alanui Drive",
+            "addressLocality": "Wailea",
+            "addressRegion": "HI",
+            "postalCode": "96753",
+            "addressCountry": "US"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "1"
+          }
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "${process.env.PUBLIC_URL}/Images/Home/jackielogo.png"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "reviewBody": "A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience. The resort offers a blend of luxury and natural beauty with its infinity pools, lush landscapes, and modern design. The rooms are comfortable and offer stunning views of the ocean and the resort. The dining options are varied, with a highlight being the Morimoto Maui restaurant. The resort also provides numerous amenities and activities, including a spa, fitness center, golf courses, and traditional Hawaiian Luaus."
+      }
+    `}
+  </script>
 </Helmet>
+
 
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>

@@ -61,18 +61,46 @@ const NoMakeUpSpring = () => {
 
   const blogContent = (
     <div className="container">
-      <Helmet>
+    <Helmet>
   <title>No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition!</title>
   <meta name="description" content="Explore timeless no-makeup makeup looks inspired by beloved TV and film characters for a fresh and natural spring beauty routine." />
   <meta name="keywords" content="No-Makeup Makeup, Spring Beauty, Elizabeth Bennet Makeup, Daphne Bridgerton Makeup, Rose Dawson Makeup, Amy March Makeup, Rosie Dunne Makeup, Alaska Young Makeup, Winnie Foster Makeup, Pop Culture Beauty, Spring Makeup Trends" />
   <meta property="og:title" content="No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition!" />
   <meta property="og:description" content="Explore timeless no-makeup makeup looks inspired by beloved TV and film characters for a fresh and natural spring beauty routine." />
-  <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/NoMakeUpTitl.jpeg`} />
-  <meta property="og:url" content="https://www.yourwebsite.com/nomakeupspring" />
+  <meta property="og:image" content={title} />
+  <meta property="og:url" content="https://jackiewyers.beauty/nomakeupspring" />
   <meta name="twitter:title" content="No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition!" />
   <meta name="twitter:description" content="Explore timeless no-makeup makeup looks inspired by beloved TV and film characters for a fresh and natural spring beauty routine." />
-  <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/NoMakeUpTitl.jpeg`} />
+  <meta name="twitter:image" content={title} />
   <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition!",
+        "description": "Explore timeless no-makeup makeup looks inspired by beloved TV and film characters for a fresh and natural spring beauty routine.",
+        "image": "${title}",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "${title}"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/nomakeupspring"
+        }
+      }
+    `}
+  </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script>
     {`

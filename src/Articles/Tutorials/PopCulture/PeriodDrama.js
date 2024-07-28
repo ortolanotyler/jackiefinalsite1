@@ -63,7 +63,7 @@ const PeriodDrama = () => {
 
   const blogContent = (
     <div className="container">
-     <Helmet>
+    <Helmet>
   <title>No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers</title>
   <meta name="description" content="Explore the elegance of period drama hair and makeup. Recreate historical hairstyles and no-makeup makeup looks inspired by various eras." />
   <meta name="keywords" content="Period Drama, No Makeup Makeup, Historical Hairstyles, Jackie Wyers, Beauty Blog, Tudor Era, Regency Era, Edwardian Era, Victorian Era, Pirates of the Caribbean, Pride and Prejudice, Bridgerton" />
@@ -75,6 +75,35 @@ const PeriodDrama = () => {
   <meta name="twitter:title" content="No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers" />
   <meta name="twitter:description" content="Explore the elegance of period drama hair and makeup. Recreate historical hairstyles and no-makeup makeup looks inspired by various eras." />
   <meta name="twitter:image" content={title} />
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://jackiewyers.beauty/perioddrama"
+      },
+      "headline": "No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers",
+      "description": "Explore the elegance of period drama hair and makeup. Recreate historical hairstyles and no-makeup makeup looks inspired by various eras.",
+      "image": "${title}",
+      "author": {
+        "@type": "Person",
+        "name": "Jackie Wyers"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Jackie Wyers",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "${title}"
+        }
+      },
+      "datePublished": "2024-07-27",
+      "dateModified": "2024-07-27"
+    }
+    `}
+  </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script>
     {`
@@ -86,6 +115,7 @@ const PeriodDrama = () => {
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
+
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // POP CULTURE

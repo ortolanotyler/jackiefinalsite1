@@ -63,7 +63,7 @@ const HalfetiReview = () => {
 
     const blogContent = (
         <div className="container" style={{ width: '100%', padding: '1rem' }}>
-           <Helmet>
+          <Helmet>
   <title>Penhaligon's Halfeti Review - Jackie Wyers</title>
   <meta name="description" content="A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression." />
   <meta name="keywords" content="Penhaligon's Halfeti Review, Jackie Wyers, Perfume Review, Fragrance, Oriental Spicy, Luxury Perfume, Beauty Reviews" />
@@ -85,7 +85,45 @@ const HalfetiReview = () => {
     `}
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "Product",
+          "name": "Halfeti",
+          "image": "${title}",
+          "description": "A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Penhaligon's"
+          }
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "${process.env.PUBLIC_URL}/Images/Home/jackielogo.png"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "reviewBody": "Halfeti by Penhaligon's is an aromatic voyage to the exotic trade routes of the East, capturing the essence of the rare black roses of Halfeti, Turkey. It's an opulent and heady scent that exudes luxury and mystery. Halfeti opens with a burst of citrus freshness, dominated by grapefruit and bergamot, before evolving into a spicy and floral heart. The base is warm and woody, with prominent notes of leather, oud, and amber, creating a rich and sophisticated scent that lingers on the skin."
+      }
+    `}
+  </script>
 </Helmet>
+
 
             <AdSenseAd />
             <div style={{ textAlign: 'center', marginBottom: '1rem', height: '10vh' }}>

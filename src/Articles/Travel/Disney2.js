@@ -78,7 +78,7 @@ const Disney2Post = () => {
 
     const blogContent = (
         <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: '20rem', marginTop: '5rem' }}>
-            <Helmet>
+           <Helmet>
   <title>My Magical Walt Disney World Experience</title>
   <meta name="description" content="Best of Epcot, Magic Kingdom and Animal Kingdom" />
   <meta name="keywords" content="Jackie Wyers, Disney World, Epcot, Magic Kingdom, Animal Kingdom, travel guide, Disney parks, travel blog, Disney vacation" />
@@ -104,7 +104,54 @@ const Disney2Post = () => {
     `}
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "Place",
+          "name": "Walt Disney World",
+          "image": "${title}",
+          "description": "Best of Epcot, Magic Kingdom and Animal Kingdom",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1375 E Buena Vista Dr",
+            "addressLocality": "Lake Buena Vista",
+            "addressRegion": "FL",
+            "postalCode": "32830",
+            "addressCountry": "US"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "1"
+          }
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "${process.env.PUBLIC_URL}/Images/Home/jackielogo.png"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "reviewBody": "Best of Epcot, Magic Kingdom and Animal Kingdom. This travel guide covers the highlights of my trip to Walt Disney World, including favorite pavilions, rides, dining experiences, and tips for making the most of your visit."
+      }
+    `}
+  </script>
 </Helmet>
+
 
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>

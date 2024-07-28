@@ -72,10 +72,58 @@ const TrendsHome = () => {
 }, []);
   return (
     <>
-      <Helmet>
-        <title>Trending Makeup Tutorials - Jackie Wyers</title>
-        <meta name="description" content="Explore trending makeup tutorials by Jackie Wyers, including looks like Viral Latte Makeup, Pat McGrath's Porcelain Doll, and more." />
-      </Helmet>
+    <Helmet>
+  <title>Trending Makeup Tutorials - Jackie Wyers</title>
+  <meta name="description" content="Explore trending makeup tutorials by Jackie Wyers, including looks like Viral Latte Makeup, Pat McGrath's Porcelain Doll, and more." />
+  <meta name="keywords" content="Makeup Tutorials, Trending Makeup, Jackie Wyers, Latte Makeup, Porcelain Doll Makeup, Bridal Makeup, 2016 Makeup, Sugar Plum Fairy Makeup, Viral Makeup" />
+  <meta property="og:title" content="Trending Makeup Tutorials - Jackie Wyers" />
+  <meta property="og:description" content="Explore trending makeup tutorials by Jackie Wyers, including looks like Viral Latte Makeup, Pat McGrath's Porcelain Doll, and more." />
+  <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SugarPlumFairyTitle.png`} />
+  <meta property="og:url" content={window.location.href} />
+  <meta name="twitter:title" content="Trending Makeup Tutorials - Jackie Wyers" />
+  <meta name="twitter:description" content="Explore trending makeup tutorials by Jackie Wyers, including looks like Viral Latte Makeup, Pat McGrath's Porcelain Doll, and more." />
+  <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SugarPlumFairyTitle.png`} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "headline": "Trending Makeup Tutorials - Jackie Wyers",
+        "description": "Explore trending makeup tutorials by Jackie Wyers, including looks like Viral Latte Makeup, Pat McGrath's Porcelain Doll, and more.",
+        "image": "${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SugarPlumFairyTitle.png",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SugarPlumFairyTitle.png"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "${window.location.href}"
+        }
+      }
+    `}
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
+
       <div>
         <TextReveal text="TRENDING NOW" />
         <Paper elevation={3} style={{ padding: '1rem', margin: '1rem 0' }}>

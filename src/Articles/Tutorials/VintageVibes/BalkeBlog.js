@@ -70,8 +70,36 @@ const BalkeBlog = () => {
   <meta property="og:url" content={window.location.href} />
   <meta name="twitter:title" content="Ina Balke 1960s Makeup Tutorial - Jackie Wyers" />
   <meta name="twitter:description" content="Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell." />
-  <meta name="twitter:image" content='https://jackiewyers.beauty/balkeblog'/>
+  <meta name="twitter:image" content={title} />
   <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "headline": "Ina Balke 1960s Makeup Tutorial - Jackie Wyers",
+        "description": "Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell.",
+        "image": "${title}",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "${title}"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "${window.location.href}"
+        }
+      }
+    `}
+  </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script>
     {`
@@ -83,6 +111,7 @@ const BalkeBlog = () => {
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
+
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>

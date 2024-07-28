@@ -129,7 +129,7 @@ const imageStyle = {
 <Helmet>
   <title>Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers</title>
   <meta name="description" content="Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments." />
-  <meta name="keywords" content="Jackie Wyers, wedding, Sorrento, Italy, fairytale wedding, bridal beauty, wedding photography, wedding dress" />
+  <meta name="keywords" content="Jackie Wyers, wedding, Sorrento, Italy, fairytale wedding, bridal beauty, wedding photography, wedding dress, wedding inspiration, bridal makeup, bridal hair, wedding planning, destination wedding" />
   
   <meta property="og:title" content="Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers" />
   <meta property="og:description" content="Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments." />
@@ -142,6 +142,36 @@ const imageStyle = {
   <meta name="twitter:description" content="Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments." />
   <meta name="twitter:image" content={title} />
 
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://jackiewyers.beauty/fairytalewedding"
+      },
+      "headline": "Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers",
+      "description": "Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments.",
+      "image": "${title}",
+      "author": {
+        "@type": "Person",
+        "name": "Jackie Wyers"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Jackie Wyers",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "${title}"
+        }
+      },
+      "datePublished": "2024-07-27",
+      "dateModified": "2024-07-27"
+    }
+    `}
+  </script>
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script>
     {`
@@ -153,6 +183,7 @@ const imageStyle = {
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
+
 
 
 

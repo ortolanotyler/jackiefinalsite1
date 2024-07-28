@@ -57,29 +57,59 @@ const TwiggyBlog = () => {
 
   const blogContent = (
     <div className="container">
-      <Helmet>
-    <title>Time Travel Tutorials: Twiggy - Jackie Wyers</title>
-    <meta name="description" content="Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe." />
-    <meta name="keywords" content="Twiggy, Jackie Wyers, Makeup Tutorial, MOD, Sixties Makeup, Vintage Beauty, Time Travel Tutorials, Blue Eyeshadow, Drawn-on Lashes" />
-    <meta property="og:title" content="Time Travel Tutorials: Twiggy - Jackie Wyers" />
-    <meta property="og:description" content="Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe." />
-    <meta property="og:image" content={title} />
-    <meta property="og:url" content="https://jackiewyers.beauty/twiggy" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Time Travel Tutorials: Twiggy - Jackie Wyers" />
-    <meta name="twitter:description" content="Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe." />
-    <meta name="twitter:image" content={title} />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-    <script>
-        {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-        `}
-    </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+    <Helmet>
+  <title>Time Travel Tutorials: Twiggy - Jackie Wyers</title>
+  <meta name="description" content="Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe." />
+  <meta name="keywords" content="Twiggy, Jackie Wyers, Makeup Tutorial, MOD, Sixties Makeup, Vintage Beauty, Time Travel Tutorials, Blue Eyeshadow, Drawn-on Lashes" />
+  <meta property="og:title" content="Time Travel Tutorials: Twiggy - Jackie Wyers" />
+  <meta property="og:description" content="Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe." />
+  <meta property="og:image" content={title} />
+  <meta property="og:url" content="https://jackiewyers.beauty/twiggy" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Time Travel Tutorials: Twiggy - Jackie Wyers" />
+  <meta name="twitter:description" content="Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe." />
+  <meta name="twitter:image" content={title} />
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Time Travel Tutorials: Twiggy - Jackie Wyers",
+        "description": "Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe.",
+        "image": "${title}",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "${signature}"
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/twiggy"
+        },
+        "datePublished": "2024-07-27",
+        "dateModified": "2024-07-27"
+      }
+    `}
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
+
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>

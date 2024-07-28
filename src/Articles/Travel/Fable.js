@@ -94,7 +94,7 @@ const Fable = () => {
 
     const blogContent = (
         <div className="container">
-            <Helmet>
+           <Helmet>
     <title>Fable Auckland | Hotel Review</title>
     <meta name="description" content="Join Jackie Wyers as she reviews the luxurious Fable Auckland in New Zealand. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities." />
     <meta name="keywords" content="Fable Auckland, Luxury Hotel, Auckland Travel, Jackie Wyers, Hotel Review, New Zealand" />
@@ -106,6 +106,51 @@ const Fable = () => {
     <meta name="twitter:title" content="Fable Auckland | Hotel Review" />
     <meta name="twitter:description" content="Join Jackie Wyers as she reviews the luxurious Fable Auckland in New Zealand. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities." />
     <meta name="twitter:image" content={title} />
+    <script type="application/ld+json">
+        {`
+        {
+            "@context": "https://schema.org",
+            "@type": "Review",
+            "itemReviewed": {
+                "@type": "Place",
+                "name": "Fable Auckland",
+                "image": "${title}",
+                "description": "Luxurious hotel in Auckland, New Zealand.",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "57-59 Queen St",
+                    "addressLocality": "Auckland",
+                    "postalCode": "1010",
+                    "addressCountry": "NZ"
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "5",
+                    "reviewCount": "1"
+                }
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Jackie Wyers"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Jackie Wyers Beauty",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "${process.env.PUBLIC_URL}/Images/Home/jackielogo.png"
+                }
+            },
+            "datePublished": "2024-07-27",
+            "reviewBody": "Join Jackie Wyers as she reviews the luxurious Fable Auckland in New Zealand. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities."
+        }
+        `}
+    </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
     <script>
         {`
@@ -117,6 +162,7 @@ const Fable = () => {
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
+
 
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>

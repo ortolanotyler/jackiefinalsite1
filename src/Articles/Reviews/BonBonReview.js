@@ -62,7 +62,7 @@ const BonBonReview = () => {
 
   const blogContent = (
     <div className="container" style={{ width: '100%', padding: '1rem' }}>
-    <Helmet>
+  <Helmet>
   <title>BonBon Review - Jackie Wyers</title>
   <meta name="description" content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure." />
   <meta name="keywords" content="BonBon Review, Jackie Wyers, Viktor & Rolf, Perfume Review, Fragrance, Gourmand, Sweet Scents, Beauty Reviews" />
@@ -84,7 +84,45 @@ const BonBonReview = () => {
     `}
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "Product",
+          "name": "BonBon Perfume",
+          "image": "${title}",
+          "description": "A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Viktor & Rolf"
+          }
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "${process.env.PUBLIC_URL}/Images/Home/jackielogo.png"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "reviewBody": "Bonbon is a celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure. A luscious peach opening gives way to a heart overflowing with caramel's sweet embrace, followed by a touch of delicate florals. The base, a comforting blend of warm woods, anchors the fragrance in sophistication."
+      }
+    `}
+  </script>
 </Helmet>
+
 
       <AdSenseAd />
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>

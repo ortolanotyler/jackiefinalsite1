@@ -58,7 +58,7 @@ const AnimalPretty = () => {
 
   const blogContent = (
     <div className="container">
-     <Helmet>
+    <Helmet>
     <title>Animal Pretty - Which one are you? - Jackie Wyers</title>
     <meta name="description" content="Explore the Animal Pretty makeup trends inspired by deer, cats, foxes, and bunnies. Learn how to achieve these adorable looks with step-by-step guides from Jackie Wyers." />
     <meta name="keywords" content="Animal Pretty, Makeup Trends, Jackie Wyers, Deer Pretty, Cat Pretty, Fox Pretty, Bunny Pretty, Beauty Blog" />
@@ -70,6 +70,34 @@ const AnimalPretty = () => {
     <meta name="twitter:title" content="Animal Pretty - Which one are you? - Jackie Wyers" />
     <meta name="twitter:description" content="Explore the Animal Pretty makeup trends inspired by deer, cats, foxes, and bunnies. Learn how to achieve these adorable looks with step-by-step guides from Jackie Wyers." />
     <meta name="twitter:image" content={title} />
+    <script type="application/ld+json">
+        {`
+        {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "Animal Pretty - Which one are you? - Jackie Wyers",
+            "description": "Explore the Animal Pretty makeup trends inspired by deer, cats, foxes, and bunnies. Learn how to achieve these adorable looks with step-by-step guides from Jackie Wyers.",
+            "image": "${title}",
+            "author": {
+                "@type": "Person",
+                "name": "Jackie Wyers"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Jackie Wyers",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "${title}"
+                }
+            },
+            "datePublished": "2024-07-27",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://jackiewyers.beauty/animalpretty"
+            }
+        }
+        `}
+    </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
     <script>
         {`
@@ -81,6 +109,7 @@ const AnimalPretty = () => {
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
+
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>

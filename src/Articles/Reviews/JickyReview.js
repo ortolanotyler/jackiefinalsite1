@@ -67,29 +67,67 @@ const JickyReview = () => {
 
     const blogContent = (
         <div className="container" style={{ width: '100%', padding: '1rem' }}>
-           <Helmet>
-    <title>Jicky by Guerlain Perfume Review - Jackie Wyers</title>
-    <meta name="description" content="A comprehensive review of Jicky by Guerlain, exploring its history, fragrance profile, and personal impressions." />
-    <meta name="keywords" content="Jicky by Guerlain, Perfume Review, Fragrance Review, Guerlain Perfume, Classic Perfume, Jackie Wyers" />
-    <meta property="og:title" content="Jicky by Guerlain Perfume Review - Jackie Wyers" />
-    <meta property="og:description" content="A comprehensive review of Jicky by Guerlain, exploring its history, fragrance profile, and personal impressions." />
-    <meta property="og:image" content={title} />
-    <meta property="og:url" content="https://jackiewyers.beauty/jickyreview" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Jicky by Guerlain Perfume Review - Jackie Wyers" />
-    <meta name="twitter:description" content="A comprehensive review of Jicky by Guerlain, exploring its history, fragrance profile, and personal impressions." />
-    <meta name="twitter:image" content={title} />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-    <script>
-        {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-        `}
-    </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+          <Helmet>
+  <title>Jicky by Guerlain Perfume Review - Jackie Wyers</title>
+  <meta name="description" content="A comprehensive review of Jicky by Guerlain, exploring its history, fragrance profile, and personal impressions." />
+  <meta name="keywords" content="Jicky by Guerlain, Perfume Review, Fragrance Review, Guerlain Perfume, Classic Perfume, Jackie Wyers" />
+  <meta property="og:title" content="Jicky by Guerlain Perfume Review - Jackie Wyers" />
+  <meta property="og:description" content="A comprehensive review of Jicky by Guerlain, exploring its history, fragrance profile, and personal impressions." />
+  <meta property="og:image" content={title} />
+  <meta property="og:url" content="https://jackiewyers.beauty/jickyreview" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jicky by Guerlain Perfume Review - Jackie Wyers" />
+  <meta name="twitter:description" content="A comprehensive review of Jicky by Guerlain, exploring its history, fragrance profile, and personal impressions." />
+  <meta name="twitter:image" content={title} />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "Product",
+          "name": "Jicky",
+          "image": "${title}",
+          "description": "A comprehensive review of Jicky by Guerlain, exploring its history, fragrance profile, and personal impressions.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Guerlain"
+          }
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "${process.env.PUBLIC_URL}/Images/Home/jackielogo.png"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "reviewBody": "Jicky by Guerlain stands as one of the oldest perfumes in continuous production, a testament to its timeless appeal. Conceived by Aimé Guerlain in the late 19th century, Jicky is a revolutionary fragrance that harmoniously blends the freshness of lavender and citrus with a warm, spicy undertone, making it a precursor to modern perfumery. Overall Scent Profile: Jicky is an enigmatic blend of vibrant top notes and a mysterious, deep base. Its opening is fresh and inviting, quickly evolving into a complex, spicy heart, and settling into a rich, warm embrace of vanilla and woods. This duality makes Jicky both refreshing and comforting masterpiece."
+      }
+    `}
+  </script>
 </Helmet>
+
 
             {ReactGA.pageview(window.location.pathname + window.location.search)}
 

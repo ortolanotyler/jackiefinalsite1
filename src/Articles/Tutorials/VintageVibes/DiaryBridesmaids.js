@@ -74,7 +74,7 @@ const DiaryBridesmaids = () => {
 };
   const blogContent = (
     <div className="container">
-       <Helmet>
+      <Helmet>
   <title>Bridesmaid Boxes How - To</title>
   <meta name="description" content="Creative and budget-friendly ideas for your bridesmaids gifts" />
   <meta name="keywords" content="Bridesmaid Boxes, Jackie Wyers, Bridal Gifts, DIY Bridesmaid Gifts, Budget-Friendly Bridesmaid Gifts, Bridal Blog, Bridesmaid Proposal, Wedding Planning, Wedding Gifts, Bridesmaid Ideas" />
@@ -96,7 +96,37 @@ const DiaryBridesmaids = () => {
       `}
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Bridesmaid Boxes How - To",
+        "description": "Creative and budget-friendly ideas for your bridesmaids gifts",
+        "image": "${title}",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/logo.png"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "dateModified": "2024-07-27",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/bridesmaidsboxes"
+        }
+      }
+    `}
+  </script>
 </Helmet>
+
 
       <div style={{ margin: '5rem',display: 'flex', justifyContent: 'center', alignItems: 'center', height: '5vh' }}>
         <a href="/diary" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>

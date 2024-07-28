@@ -61,7 +61,7 @@ const LanaBlog = () => {
 
   const blogContent = (
     <div className="container">
-      <Helmet>
+    <Helmet>
     <title>Lana Del Rey SKIMS Makeup Tutorial - Jackie Wyers</title>
     <meta name="description" content="Explore Jackie Wyers' Lana Del Rey SKIMS Makeup Tutorial. Recreate Lana's look with step-by-step guidance, featuring top beauty products and style tips." />
     <meta name="keywords" content="Lana Del Rey, SKIMS, Makeup Tutorial, Jackie Wyers, Beauty Blog, Coquette, 60s Glamour, Romantic Look, Vintage Beauty" />
@@ -73,6 +73,35 @@ const LanaBlog = () => {
     <meta name="twitter:title" content="Lana Del Rey SKIMS Makeup Tutorial - Jackie Wyers" />
     <meta name="twitter:description" content="Explore Jackie Wyers' Lana Del Rey SKIMS Makeup Tutorial. Recreate Lana's look with step-by-step guidance, featuring top beauty products and style tips." />
     <meta name="twitter:image" content={title} />
+    <script type="application/ld+json">
+        {`
+        {
+            "@context": "http://schema.org",
+            "@type": "Article",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://jackiewyers.beauty/lanablog"
+            },
+            "headline": "Lana Del Rey SKIMS Makeup Tutorial - Jackie Wyers",
+            "description": "Explore Jackie Wyers' Lana Del Rey SKIMS Makeup Tutorial. Recreate Lana's look with step-by-step guidance, featuring top beauty products and style tips.",
+            "image": "${title}",
+            "author": {
+                "@type": "Person",
+                "name": "Jackie Wyers"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Jackie Wyers",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "${title}"
+                }
+            },
+            "datePublished": "2024-07-27",
+            "dateModified": "2024-07-27"
+        }
+        `}
+    </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
     <script>
         {`
@@ -84,6 +113,7 @@ const LanaBlog = () => {
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
+
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
           BEAUTY // POP CULTURE

@@ -82,7 +82,7 @@ const WestGateHotelBlog = () => {
 
     const blogContent = (
         <div className="container">
-           <Helmet>
+          <Helmet>
     <title>The Westgate Hotel - San Diego Review - Jackie Wyers</title>
     <meta name="description" content="Explore the luxurious Westgate Hotel in San Diego with Jackie Wyers. Discover the Bridgerton-themed Whistledown Tea and Package experience." />
     <meta name="keywords" content="Westgate Hotel, San Diego, Hotel Review, Bridgerton-themed, Luxury Hotel, Travel Blog, Jackie Wyers" />
@@ -94,17 +94,47 @@ const WestGateHotelBlog = () => {
     <meta name="twitter:title" content="The Westgate Hotel - San Diego Review - Jackie Wyers" />
     <meta name="twitter:description" content="Explore the luxurious Westgate Hotel in San Diego with Jackie Wyers. Discover the Bridgerton-themed Whistledown Tea and Package experience." />
     <meta name="twitter:image" content={title} />
+    <script type="application/ld+json">
+        {`
+        {
+            "@context": "http://schema.org",
+            "@type": "Article",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://jackiewyers.beauty/westgatesandiego"
+            },
+            "headline": "The Westgate Hotel - San Diego Review - Jackie Wyers",
+            "description": "Explore the luxurious Westgate Hotel in San Diego with Jackie Wyers. Discover the Bridgerton-themed Whistledown Tea and Package experience.",
+            "image": "${title}",
+            "author": {
+                "@type": "Person",
+                "name": "Jackie Wyers"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Jackie Wyers",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "${title}"
+                }
+            },
+            "datePublished": "2024-07-27",
+            "dateModified": "2024-07-27"
+        }
+        `}
+    </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
     <script>
         {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-RT6GR7JXYG');
         `}
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
+
 
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>

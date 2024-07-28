@@ -59,7 +59,7 @@ const BarbieBlog = () => {
   };
   const blogContent = (
     <div className="container">
-      <Helmet>
+     <Helmet>
     <title>Margot Robbie Barbie Movie Makeup Tutorial - Jackie Wyers</title>
     <meta name="description" content="Follow Jackie Wyers' step-by-step tutorial to recreate Margot Robbie's stunning Barbie makeup look from the Barbie Movie. Get the details on Barbiecore fashion and DIY costume ideas." />
     <meta name="keywords" content="Barbie Movie, Margot Robbie, Barbie Makeup Tutorial, Jackie Wyers, Barbiecore, DIY Costume, Beauty Blog, Makeup Tutorial" />
@@ -71,6 +71,35 @@ const BarbieBlog = () => {
     <meta name="twitter:title" content="Margot Robbie Barbie Movie Makeup Tutorial - Jackie Wyers" />
     <meta name="twitter:description" content="Follow Jackie Wyers' step-by-step tutorial to recreate Margot Robbie's stunning Barbie makeup look from the Barbie Movie. Get the details on Barbiecore fashion and DIY costume ideas." />
     <meta name="twitter:image" content={title} />
+    <script type="application/ld+json">
+        {`
+        {
+            "@context": "http://schema.org",
+            "@type": "Article",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://jackiewyers.beauty/margotbarbie"
+            },
+            "headline": "Margot Robbie Barbie Movie Makeup Tutorial - Jackie Wyers",
+            "description": "Follow Jackie Wyers' step-by-step tutorial to recreate Margot Robbie's stunning Barbie makeup look from the Barbie Movie. Get the details on Barbiecore fashion and DIY costume ideas.",
+            "image": "${title}",
+            "author": {
+                "@type": "Person",
+                "name": "Jackie Wyers"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Jackie Wyers",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "${title}"
+                }
+            },
+            "datePublished": "2024-07-27",
+            "dateModified": "2024-07-27"
+        }
+        `}
+    </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
     <script>
         {`
@@ -82,6 +111,7 @@ const BarbieBlog = () => {
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
+
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
           BEAUTY // POP CULTURE // MOVIES

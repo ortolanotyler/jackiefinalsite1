@@ -60,7 +60,7 @@ const SummerInspo = () => {
     <div className="container">
       import { Helmet } from 'react-helmet';
 
-<Helmet>
+      <Helmet>
     <title>Summer Inspiration - Jackie Wyers</title>
     <meta name="description" content="Explore Jackie Wyers' summer inspiration with mermaid looks from iconic characters like Cleo Sertori, Ariel, Vanessa, and more. Dive into the enchanting world of mermaid makeup and hairstyles." />
     <meta name="keywords" content="Summer Beauty, Jackie Wyers, Makeup Tutorial, Beauty Blog, Pop Culture, Mermaid Looks, Cleo Sertori, The Little Mermaid, Ariel, Vanessa, Pirates of the Caribbean, Aquamarine" />
@@ -72,6 +72,35 @@ const SummerInspo = () => {
     <meta name="twitter:title" content="Summer Inspiration - Jackie Wyers" />
     <meta name="twitter:description" content="Explore Jackie Wyers' summer inspiration with mermaid looks from iconic characters like Cleo Sertori, Ariel, Vanessa, and more. Dive into the enchanting world of mermaid makeup and hairstyles." />
     <meta name="twitter:image" content={title} />
+    <script type="application/ld+json">
+        {`
+        {
+            "@context": "http://schema.org",
+            "@type": "Article",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://jackiewyers.beauty/summerinspo"
+            },
+            "headline": "Summer Inspiration - Jackie Wyers",
+            "description": "Explore Jackie Wyers' summer inspiration with mermaid looks from iconic characters like Cleo Sertori, Ariel, Vanessa, and more. Dive into the enchanting world of mermaid makeup and hairstyles.",
+            "image": "${title}",
+            "author": {
+                "@type": "Person",
+                "name": "Jackie Wyers"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Jackie Wyers",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "${title}"
+                }
+            },
+            "datePublished": "2024-07-27",
+            "dateModified": "2024-07-27"
+        }
+        `}
+    </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
     <script>
         {`
@@ -83,6 +112,7 @@ const SummerInspo = () => {
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
+
 
       <div style={{ margin: '5rem', display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>

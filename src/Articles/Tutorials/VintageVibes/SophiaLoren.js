@@ -59,29 +59,59 @@ const SophiaLorenPost = () => {
 
   const blogContent = (
     <div className="container">
-     <Helmet>
-    <title>Sophia Loren Makeup Tutorial - Jackie Wyers</title>
-    <meta name="description" content="Explore Jackie Wyers' Sophia Loren makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
-    <meta name="keywords" content="Sophia Loren, Makeup Tutorial, Jackie Wyers, 60s Makeup, Vintage Beauty, Iconic Looks, Time Travel Tutorials, Classic Beauty, Old Hollywood" />
-    <meta property="og:title" content="Sophia Loren Makeup Tutorial - Jackie Wyers" />
-    <meta property="og:description" content="Explore Jackie Wyers' Sophia Loren makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
-    <meta property="og:image" content={Sophia1} />
-    <meta property="og:url" content="https://jackiewyers.beauty/sophialoren" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Sophia Loren Makeup Tutorial - Jackie Wyers" />
-    <meta name="twitter:description" content="Explore Jackie Wyers' Sophia Loren makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
-    <meta name="twitter:image" content={Sophia1} />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-    <script>
-        {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-        `}
-    </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+    <Helmet>
+  <title>Sophia Loren Makeup Tutorial - Jackie Wyers</title>
+  <meta name="description" content="Explore Jackie Wyers' Sophia Loren makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
+  <meta name="keywords" content="Sophia Loren, Makeup Tutorial, Jackie Wyers, 60s Makeup, Vintage Beauty, Iconic Looks, Time Travel Tutorials, Classic Beauty, Old Hollywood" />
+  <meta property="og:title" content="Sophia Loren Makeup Tutorial - Jackie Wyers" />
+  <meta property="og:description" content="Explore Jackie Wyers' Sophia Loren makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
+  <meta property="og:image" content={Sophia1} />
+  <meta property="og:url" content="https://jackiewyers.beauty/sophialoren" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sophia Loren Makeup Tutorial - Jackie Wyers" />
+  <meta name="twitter:description" content="Explore Jackie Wyers' Sophia Loren makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
+  <meta name="twitter:image" content={Sophia1} />
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Sophia Loren Makeup Tutorial - Jackie Wyers",
+        "description": "Explore Jackie Wyers' Sophia Loren makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide.",
+        "image": "${Sophia1}",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "${Signature}"
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/sophialoren"
+        },
+        "datePublished": "2024-07-27",
+        "dateModified": "2024-07-27"
+      }
+    `}
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
+
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>

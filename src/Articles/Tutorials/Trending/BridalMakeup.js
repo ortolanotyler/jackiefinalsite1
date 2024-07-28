@@ -58,7 +58,7 @@ const BridalMakeup = () => {
 
   const blogContent = (
     <div className="container" style={{ maxWidth: '800px', margin: '0 auto', padding: '1rem' }}>
-      <Helmet>
+     <Helmet>
     <title>Bridal Makeup Tutorial - Jackie Wyers</title>
     <meta name="description" content="A detailed review of a trial run for Jackie's wedding makeup: what she loved, what she'll do differently on her big day." />
     <meta name="keywords" content="Bridal Makeup, Wedding Makeup, Makeup Tutorial, Jackie Wyers, Bridal Beauty, Wedding Day Makeup" />
@@ -70,6 +70,34 @@ const BridalMakeup = () => {
     <meta name="twitter:title" content="Bridal Makeup Tutorial - Jackie Wyers" />
     <meta name="twitter:description" content="A detailed review of a trial run for Jackie's wedding makeup: what she loved, what she'll do differently on her big day." />
     <meta name="twitter:image" content={title} />
+    <script type="application/ld+json">
+        {`
+        {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "Bridal Makeup Tutorial - Jackie Wyers",
+            "description": "A detailed review of a trial run for Jackie's wedding makeup: what she loved, what she'll do differently on her big day.",
+            "image": "${title}",
+            "author": {
+                "@type": "Person",
+                "name": "Jackie Wyers"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Jackie Wyers",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "${title}"
+                }
+            },
+            "datePublished": "2024-07-27",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://jackiewyers.beauty/bridalmakeup"
+            }
+        }
+        `}
+    </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
     <script>
         {`

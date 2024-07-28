@@ -96,7 +96,7 @@ const pinterestGridStyle = {
 
   const blogContent = (
     <div className="container">
-   <Helmet>
+  <Helmet>
   <title>Mastering the Bardot Bun - Jackie Wyers</title>
   <meta name="description" content="Step-by-step guide on how to recreate Brigitte Bardot's iconic '60s hairstyles, featuring tips and tricks by Jackie Wyers." />
   <meta name="keywords" content="Brigitte Bardot hairstyles, Bardot bun tutorial, '60s hairstyles, vintage hairstyles, Jackie Wyers hair tutorial, Bardot bun, faux bangs tutorial" />
@@ -118,7 +118,37 @@ const pinterestGridStyle = {
     `}
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Mastering the Bardot Bun - Jackie Wyers",
+        "description": "Step-by-step guide on how to recreate Brigitte Bardot's iconic '60s hairstyles, featuring tips and tricks by Jackie Wyers.",
+        "image": "${title}",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/logo.png"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "dateModified": "2024-07-27",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/bardothairstyles"
+        }
+      }
+    `}
+  </script>
 </Helmet>
+
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1em', color: 'black', textDecoration: 'none' }}>

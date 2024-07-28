@@ -70,7 +70,7 @@ const Disney2Post = () => {
 
     const blogContent = (
         <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: 'auto', marginTop: '5rem' }}>
-          <Helmet>
+         <Helmet>
   <title>Walt Disney World Beach Club Resort Review | Travel & Hotel Reviews</title>
   <meta name="description" content="An in-depth review of Walt Disney World's Beach Club Resort, featuring first impressions, amenities, dining options, and more." />
   <meta name="keywords" content="Jackie Wyers, Walt Disney World, Beach Club Resort, Disney resort review, luxury hotel, travel blog, Disney vacation" />
@@ -96,7 +96,54 @@ const Disney2Post = () => {
     `}
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "Hotel",
+          "name": "Walt Disney World Beach Club Resort",
+          "image": "${title}",
+          "description": "An in-depth review of Walt Disney World's Beach Club Resort, featuring first impressions, amenities, dining options, and more.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1800 Epcot Resorts Blvd",
+            "addressLocality": "Lake Buena Vista",
+            "addressRegion": "FL",
+            "postalCode": "32830",
+            "addressCountry": "US"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "1"
+          }
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "${process.env.PUBLIC_URL}/Images/Home/jackielogo.png"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "reviewBody": "An in-depth review of Walt Disney World's Beach Club Resort, featuring first impressions, amenities, dining options, and more. The resort offers a blend of luxury and comfort with its New England beach cottage style. The rooms are comfortable and offer stunning views of the garden and the resort. The dining options are varied, with highlights being the Beaches & Cream Soda Shop and the Yachtsman Steakhouse. The resort also provides numerous amenities and activities, including a water park, fitness center, and access to nearby Disney parks."
+      }
+    `}
+  </script>
 </Helmet>
+
 
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>

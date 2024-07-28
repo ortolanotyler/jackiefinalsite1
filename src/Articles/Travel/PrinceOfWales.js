@@ -76,17 +76,60 @@ const PrinceOfWales = () => {
       
     const blogContent = (
         <div className="container">
-                <title>Prince of Wales - Niagara On The Lake Hotel Review</title>
-                <meta name="description" content="A detailed review of the Prince of Wales Hotel, covering first impressions, room options, amenities, and overall experience." />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-                <script>
-                    {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-RT6GR7JXYG');
-                    `}
-                </script>
+                <Helmet>
+    <title>Prince of Wales Hotel Review - Jackie Wyers</title>
+    <meta name="description" content="Read Jackie Wyers' review of the Prince of Wales Hotel in Niagara-on-the-Lake. Discover the Victorian charm and romantic experiences offered by this historic hotel." />
+    <meta name="keywords" content="Prince of Wales Hotel, Niagara on the Lake, Hotel Review, Victorian Hotel, Luxury Hotel, Travel Blog, Jackie Wyers" />
+    <meta property="og:title" content="Prince of Wales Hotel Review - Jackie Wyers" />
+    <meta property="og:description" content="Read Jackie Wyers' review of the Prince of Wales Hotel in Niagara-on-the-Lake. Discover the Victorian charm and romantic experiences offered by this historic hotel." />
+    <meta property="og:image" content={title} />
+    <meta property="og:url" content="https://jackiewyers.beauty/princeofwales" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Prince of Wales Hotel Review - Jackie Wyers" />
+    <meta name="twitter:description" content="Read Jackie Wyers' review of the Prince of Wales Hotel in Niagara-on-the-Lake. Discover the Victorian charm and romantic experiences offered by this historic hotel." />
+    <meta name="twitter:image" content={title} />
+    <script type="application/ld+json">
+        {`
+        {
+            "@context": "http://schema.org",
+            "@type": "Article",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://jackiewyers.beauty/princeofwales"
+            },
+            "headline": "Prince of Wales Hotel Review - Jackie Wyers",
+            "description": "Read Jackie Wyers' review of the Prince of Wales Hotel in Niagara-on-the-Lake. Discover the Victorian charm and romantic experiences offered by this historic hotel.",
+            "image": "${title}",
+            "author": {
+                "@type": "Person",
+                "name": "Jackie Wyers"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Jackie Wyers",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "${title}"
+                }
+            },
+            "datePublished": "2024-07-27",
+            "dateModified": "2024-07-27"
+        }
+        `}
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+    <script>
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-RT6GR7JXYG');
+        `}
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</Helmet>
+
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // HOTEL REVIEWS

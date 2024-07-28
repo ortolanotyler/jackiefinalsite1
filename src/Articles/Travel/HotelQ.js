@@ -76,29 +76,64 @@ const HotelQ = () => {
 
   const blogContent = (
     <div className="container">
-      <Helmet>
-    <title>Hotel Quintessence Review - Jackie Wyers</title>
-    <meta name="description" content="Join Jackie Wyers as she reviews the luxurious Hotel Quintessence in Mont Tremblant, Quebec. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities." />
-    <meta name="keywords" content="Hotel Quintessence, Mont Tremblant, Luxury Hotel, Quebec Travel, Jackie Wyers, Hotel Review" />
-    <meta property="og:title" content="Hotel Quintessence Review - Jackie Wyers" />
-    <meta property="og:description" content="Join Jackie Wyers as she reviews the luxurious Hotel Quintessence in Mont Tremblant, Quebec. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities." />
-    <meta property="og:image" content={title} />
-    <meta property="og:url" content="https://jackiewyers.beauty/hotelQ" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Hotel Quintessence Review - Jackie Wyers" />
-    <meta name="twitter:description" content="Join Jackie Wyers as she reviews the luxurious Hotel Quintessence in Mont Tremblant, Quebec. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities." />
-    <meta name="twitter:image" content={title} />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-    <script>
-        {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-RT6GR7JXYG');
-        `}
-    </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+     <Helmet>
+  <title>Hotel Quintessence Review - Jackie Wyers</title>
+  <meta name="description" content="Join Jackie Wyers as she reviews the luxurious Hotel Quintessence in Mont Tremblant, Quebec. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities." />
+  <meta name="keywords" content="Hotel Quintessence, Mont Tremblant, Luxury Hotel, Quebec Travel, Jackie Wyers, Hotel Review, Boutique Hotel, Travel Guide, Hotel Amenities, Romantic Getaway, Ski Resort, Lake Tremblant" />
+  
+  <meta property="og:title" content="Hotel Quintessence Review - Jackie Wyers" />
+  <meta property="og:description" content="Join Jackie Wyers as she reviews the luxurious Hotel Quintessence in Mont Tremblant, Quebec. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities." />
+  <meta property="og:image" content={title} />
+  <meta property="og:url" content="https://jackiewyers.beauty/hotelQ" />
+  <meta property="og:type" content="article" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Hotel Quintessence Review - Jackie Wyers" />
+  <meta name="twitter:description" content="Join Jackie Wyers as she reviews the luxurious Hotel Quintessence in Mont Tremblant, Quebec. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities." />
+  <meta name="twitter:image" content={title} />
+
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://jackiewyers.beauty/hotelQ"
+      },
+      "headline": "Hotel Quintessence Review - Jackie Wyers",
+      "description": "Join Jackie Wyers as she reviews the luxurious Hotel Quintessence in Mont Tremblant, Quebec. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities.",
+      "image": "${title}",
+      "author": {
+        "@type": "Person",
+        "name": "Jackie Wyers"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Jackie Wyers",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "${title}"
+        }
+      },
+      "datePublished": "2024-07-27",
+      "dateModified": "2024-07-27"
+    }
+    `}
+  </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
+
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
