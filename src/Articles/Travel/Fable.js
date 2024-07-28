@@ -125,7 +125,7 @@ const Fable = () => {
 
 <p style={paragraphStyle}>
     <div style = {{textAlign: 'center', fontSize: '1rem'}}>
-    <a href="/newzealand" style = {{fontSize: '2rem'}}> New Zealand Experience Here!</a>
+    <a href="/newzealand" style = {{color:'black',fontSize: '1rem'}}> New Zealand Experience Here!</a>
 
     </div>
 </p>

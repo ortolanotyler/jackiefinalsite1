@@ -5,9 +5,7 @@ import TextReveal from '../Components/TextReveal';
 import QuoteBanner3 from './QuoteBanner3';
 import EmailSubscribe from '../Components/EmailSubscribe';
 import SiteExplorer from './SiteExplorer';
-import BeigeReveal from '../Components/BeigeReveal';
 import RotatingText from '../Navigation/AppBar/RotatingText';
-import Quiz2 from '../Quiz/Quiz2';
 import AboutHero from './AboutHero';
 import './AboutHero.css';
 import ReviewFavorites from './ReviewFavorites';
@@ -19,6 +17,7 @@ import { Helmet } from 'react-helmet';
 import VideoEmbed from './VideoEmbed';
 import { initGA, logPageView } from '../analytics';
 import AdSenseAd from '../Advertising/Ads';
+import Quiz3 from '../Quiz/Quiz3';
 
 const theme = createTheme();
 
@@ -176,8 +175,8 @@ function HomePage() {
           <ReviewFavorites />
         </Grid>
         <Grid item xs={12}>
-          <TextReveal text="🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊" style={{ backgroundColor: 'white' }} />
-          <Quiz2 />
+          <TextReveal text="THE ULTIMATE 2025 WEDDING DRESS QUIZ" style={{ backgroundColor: 'white' }} />
+          <Quiz3 />
         </Grid>
         <Grid item xs={12}>
           <TextReveal text='SHOP MY STYLE' />
