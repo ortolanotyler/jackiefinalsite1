@@ -131,7 +131,10 @@ Imagine celebrating your special day in a vintage manor or a classic ballroom, s
  </div>
 
  
-                <AdSenseAd/>
+ <div style = {{ textAlign: 'center', marginTop: '2rem' }}>
+<AdSenseAd/>
+
+    </div>
               
 
 <h2 style = {headingStyle}>
@@ -157,7 +160,10 @@ Dress Features: Look for gowns with timeless silhouettes and vintage-inspired de
    <img src={image4} alt="Jackie Wyers Wedding Percy Dress" style={imageStyle} />
  </div>
 
-                <AdSenseAd/>
+ <div style = {{ textAlign: 'center', marginTop: '2rem' }}>
+<AdSenseAd/>
+
+    </div>
                
 <h2 style = {headingStyle}>
 Bridal Muse:
@@ -183,9 +189,19 @@ Speaking of Audrey, Ariana Grandeâ€™s bridal look is a modern take on the 1950â€
 
       <Comments website-id={websiteId} page-id={"quiz3"} />
 
-                <AdSenseAd/>
-                <AdSenseAd/>
-                <AdSenseAd/>
+<div style = {{ textAlign: 'center', marginTop: '2rem' }}>
+<AdSenseAd/>
+
+    </div>
+    <div style = {{ textAlign: 'center', marginTop: '2rem' }}>
+<AdSenseAd/>
+
+    </div>
+    <div style = {{ textAlign: 'center', marginTop: '2rem' }}>
+<AdSenseAd/>
+
+    </div>
+               
       
     </div>
     
