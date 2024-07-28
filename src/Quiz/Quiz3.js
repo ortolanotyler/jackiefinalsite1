@@ -14,51 +14,51 @@ const Quiz3 = () => {
       question: "What is your dream wedding location?",
       options: [
         { text: "An enchanted garden 🪴", value: 1, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/1button.jpg` },
-        { text: "A historic castle 🏰", value: 2, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/2button.jpg` },
-        { text: "Glamorous art deco 🎨", value: 3, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/3button.jpg` },
-        { text: "Upscale beach wedding 🏖️", value: 4, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/4button.jpg` },
+        { text: "A historic castle 🏰", value: 3, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/2button.jpg` },
+        { text: "Glamorous art deco 🎨", value: 5, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/3button.jpg` },
+        { text: "Upscale beach wedding 🏖️", value: 7, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/4button.jpg` },
       ],
     },
     {
       question: "Which dresses are you most drawn to?",
       options: [
-        { text: "Romantic and whimsical 💕 ", value: 1, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/5button.jpg` },
-        { text: "Classic and regal 👑", value: 2, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/6button.jpg` },
-        { text: "Glamorous and timeless 🎩", value: 3, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/7button.jpg` },
-        { text: "Elegant and sophisticated 💍", value: 4, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/8button.jpg` },
+        { text: "Romantic and whimsical 💕", value: 1, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/5button.jpg` },
+        { text: "Classic and regal 👑", value: 3, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/6button.jpg` },
+        { text: "Glamorous and timeless 🎩", value: 5, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/7button.jpg` },
+        { text: "Elegant and sophisticated 💍", value: 7, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/8button.jpg` },
       ],
     },
     {
       question: "Which accessory would complete your bridal look?",
       options: [
         { text: "A delicate flower crown 🥀", value: 1, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/9button.jpg` },
-        { text: "A sparkling tiara 👸🏻", value: 2, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/10button.jpg` },
-        { text: "Vintage pearls ✨", value: 3, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/11button.jpg` },
-        { text: "A chic veil 👰🏻‍♀️", value: 4, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/12button.jpg` },
+        { text: "A sparkling tiara 👸🏻", value: 3, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/10button.jpg` },
+        { text: "Vintage pearls ✨", value: 5, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/11button.jpg` },
+        { text: "A chic veil 👰🏻‍♀️", value: 7, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/12button.jpg` },
       ],
     },
     {
       question: "Pick a Bouquet!",
       options: [
         { text: "Earthy Wildflowers 🌼", value: 1, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/13button.jpg` },
-        { text: "Classic  🤍 White & Green 💚", value: 2, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/14button.jpg` },
-        { text: "Glamorous Bouquet 💐", value: 3, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/15button.jpg` },
-        { text: "Luxurious Bouquet 🌹", value: 4, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/16button.jpg` },
+        { text: "Classic 🤍 White & Green 💚", value: 3, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/14button.jpg` },
+        { text: "Glamorous Bouquet 💐", value: 5, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/15button.jpg` },
+        { text: "Luxurious Bouquet 🌹", value: 7, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/16button.jpg` },
       ],
     },
     {
       question: "Which part of your body do you want to feature most?",
       options: [
         { text: "Bare Shoulders", value: 1, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/17button.jpg` },
-        { text: "Tiny Waist", value: 2, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/18button.jpg` },
-        { text: "Curvy Hips", value: 3, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/19button.jpg` },
-        { text: "Bare Back", value: 4, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/20button.jpg` },
+        { text: "Tiny Waist", value: 3, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/18button.jpg` },
+        { text: "Curvy Hips", value: 5, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/19button.jpg` },
+        { text: "Bare Back", value: 7, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/20button.jpg` },
       ],
     },
     {
       question: "Which classic novel do you wish you could live in?",
       options: [
-        { text: "The Secret Garden by Frances Hodgson Burnett", value: 2, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/21button.jpg` },
+        { text: "The Secret Garden by Frances Hodgson Burnett", value: 1, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/21button.jpg` },
         { text: "Pride and Prejudice by Jane Austen", value: 3, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/22button.jpg` },
         { text: "The Great Gatsby by F. Scott Fitzgerald", value: 5, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/23button.jpg` },
         { text: "Brideshead Revisited by Evelyn Waugh", value: 7, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/24button.jpg` },
@@ -68,9 +68,9 @@ const Quiz3 = () => {
       question: "Dream Wedding Gift",
       options: [
         { text: "Leather Scrapbook", value: 1, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/25button.jpg` },
-        { text: "Pearl Necklace", value: 2, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/26button.jpg` },
-        { text: "Glamorous Mirror", value: 3, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/27button.jpg` },
-        { text: "Vintage Silver Tea Set", value: 4, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/28button.jpg` },
+        { text: "Pearl Necklace", value: 3, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/26button.jpg` },
+        { text: "Glamorous Mirror", value: 5, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/27button.jpg` },
+        { text: "Vintage Silver Tea Set", value: 7, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/28button.jpg` },
       ],
     },
   ];
@@ -90,17 +90,17 @@ const Quiz3 = () => {
     const total = finalAnswers.reduce((acc, curr) => acc + curr, 0);
 
     let result;
-    if (total <= 7) {
+    if (total <= 10) {
       result = 'Fairytale Wedding - Bacarra';
-    } else if (total <= 14) {
+    } else if (total <= 18) {
       result = 'Royal Wedding - Abril';
-    } else if (total <= 21) {
+    } else if (total <= 26) {
       result = 'Vintage Glamour - Percy';
-    } else if (total <= 27) {
-      result = 'Old Money - Ora';
-    } else if (total <= 31) {
-      result = 'Fairytale Wedding - Elizabeth';
     } else if (total <= 34) {
+      result = 'Old Money - Ora';
+    } else if (total <= 42) {
+      result = 'Fairytale Wedding - Elizabeth';
+    } else if (total <= 48) {
       result = 'Vintage Glamour - Porsha';
     } else {
       result = 'Old Money - Zara';
