@@ -33,7 +33,7 @@ const AdSenseAd = () => {
       <ins
         ref={adRef}
         className="adsbygoogle"
-       
+       style={{ display: 'block', textAlign: 'center' }}
         data-ad-client="ca-pub-4660168246825318"
         data-ad-slot="5895624541"
         data-ad-format="horizontal"
