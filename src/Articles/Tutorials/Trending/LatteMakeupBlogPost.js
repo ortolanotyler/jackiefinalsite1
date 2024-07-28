@@ -57,20 +57,30 @@ const LatteMakeupBlogPost = () => {
   
   const blogContent = (
     <div className="container">
-       <Helmet>
-                <title>Latte Makeup Tutorial - Makeup Tutorial by Jackie Wyers</title>
-                <meta name="description" content="Want to get the Latte Makeup look just right in time for fall? This article has you covered!" />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-                <script>
-                    {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-RT6GR7JXYG');
-                    `}
-                </script>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-            </Helmet>
+      <Helmet>
+    <title>Latte Makeup Tutorial - Makeup Tutorial by Jackie Wyers</title>
+    <meta name="description" content="Want to get the Latte Makeup look just right in time for fall? This article has you covered!" />
+    <meta name="keywords" content="Latte Makeup, Makeup Tutorial, Fall Makeup, Jackie Wyers, Makeup Trends, Beauty Tips" />
+    <meta property="og:title" content="Latte Makeup Tutorial - Makeup Tutorial by Jackie Wyers" />
+    <meta property="og:description" content="Want to get the Latte Makeup look just right in time for fall? This article has you covered!" />
+    <meta property="og:image" content={title} />
+    <meta property="og:url" content="https://jackiewyers.beauty/lattemakeup" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Latte Makeup Tutorial - Makeup Tutorial by Jackie Wyers" />
+    <meta name="twitter:description" content="Want to get the Latte Makeup look just right in time for fall? This article has you covered!" />
+    <meta name="twitter:image" content={title} />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+    <script>
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG');
+        `}
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
+
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TRENDS

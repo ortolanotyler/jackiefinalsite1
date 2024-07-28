@@ -41,20 +41,30 @@ const FoxPretty = () => {
 
   const blogContent = (
     <div className={styles.container}>
-      <Helmet>
-        <title>Fox Pretty | Jackie Wyers</title>
-        <meta name="description" content="Discover how to achieve the Fox Pretty look with our detailed guide. Embrace earthy tones and a bohemian style to capture the essence of the whimsical fox." />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
-        <script data-ad-client="ca-pub-1234567890123456" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      </Helmet>
+    <Helmet>
+  <title>Fox Pretty | Jackie Wyers</title>
+  <meta name="description" content="Discover how to achieve the Fox Pretty look with our detailed guide. Embrace earthy tones and a bohemian style to capture the essence of the whimsical fox." />
+  <meta name="keywords" content="Fox Pretty, Jackie Wyers, makeup tutorial, earthy tones, bohemian style, beauty tips, fox-themed makeup, Sadie Sink, natural beauty, rustic makeup, whimsical style" />
+  <meta property="og:title" content="Fox Pretty | Jackie Wyers" />
+  <meta property="og:description" content="Discover how to achieve the Fox Pretty look with our detailed guide. Embrace earthy tones and a bohemian style to capture the essence of the whimsical fox." />
+  <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxTitleResults.png`} />
+  <meta property="og:url" content="https://jackiewyers.beauty/foxpretty" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Fox Pretty | Jackie Wyers" />
+  <meta name="twitter:description" content="Discover how to achieve the Fox Pretty look with our detailed guide. Embrace earthy tones and a bohemian style to capture the essence of the whimsical fox." />
+  <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxTitleResults.png`} />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script data-ad-client="ca-pub-1234567890123456" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</Helmet>
+
       <div className={styles.linkContainer}>
         <a href="/quiz2" className={styles.link}>BEAUTY // QUIZ // FOX PRETTY</a>
       </div>

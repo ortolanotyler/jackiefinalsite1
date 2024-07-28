@@ -74,20 +74,30 @@ const DiaryBridesmaids = () => {
 };
   const blogContent = (
     <div className="container">
-        <Helmet>
-        <title>Bridesmaid Boxes How - To</title>
-        <meta name="description" content="Creative and budget-friendly ideas for your bridesmaids gifts" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
+       <Helmet>
+  <title>Bridesmaid Boxes How - To</title>
+  <meta name="description" content="Creative and budget-friendly ideas for your bridesmaids gifts" />
+  <meta name="keywords" content="Bridesmaid Boxes, Jackie Wyers, Bridal Gifts, DIY Bridesmaid Gifts, Budget-Friendly Bridesmaid Gifts, Bridal Blog, Bridesmaid Proposal, Wedding Planning, Wedding Gifts, Bridesmaid Ideas" />
+  <meta property="og:title" content="Bridesmaid Boxes How - To" />
+  <meta property="og:description" content="Creative and budget-friendly ideas for your bridesmaids gifts" />
+  <meta property="og:image" content={title} />
+  <meta property="og:url" content="https://jackiewyers.beauty/bridesmaidsboxes" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Bridesmaid Boxes How - To" />
+  <meta name="twitter:description" content="Creative and budget-friendly ideas for your bridesmaids gifts" />
+  <meta name="twitter:image" content={title} />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+      {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-      </Helmet>
+      `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
+
       <div style={{ margin: '5rem',display: 'flex', justifyContent: 'center', alignItems: 'center', height: '5vh' }}>
         <a href="/diary" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
           DIARY // BRIDAL
@@ -368,7 +378,7 @@ style = {{
     <div ref={blogRef}>
       <Card
         title="Bridesmaid Proposal Box"
-        description=" "
+        description="Bridesmaids will love this unique, whimsical, and affordable bridesmaid proposal"
         blogContent={blogContent}
       />
 

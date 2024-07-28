@@ -59,19 +59,29 @@ const BridalMakeup = () => {
   const blogContent = (
     <div className="container" style={{ maxWidth: '800px', margin: '0 auto', padding: '1rem' }}>
       <Helmet>
-                <title>Jackie Wyers Bridal Makeup</title>
-                <meta name="description" content="A detailed review of a trial run for Jackie's wedding makeup: what she loved, what she'll do differently on her big day" />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-                <script>
-                    {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-RT6GR7JXYG');
-                    `}
-                </script>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-            </Helmet>
+    <title>Bridal Makeup Tutorial - Jackie Wyers</title>
+    <meta name="description" content="A detailed review of a trial run for Jackie's wedding makeup: what she loved, what she'll do differently on her big day." />
+    <meta name="keywords" content="Bridal Makeup, Wedding Makeup, Makeup Tutorial, Jackie Wyers, Bridal Beauty, Wedding Day Makeup" />
+    <meta property="og:title" content="Bridal Makeup Tutorial - Jackie Wyers" />
+    <meta property="og:description" content="A detailed review of a trial run for Jackie's wedding makeup: what she loved, what she'll do differently on her big day." />
+    <meta property="og:image" content={title} />
+    <meta property="og:url" content="https://jackiewyers.beauty/bridalmakeup" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bridal Makeup Tutorial - Jackie Wyers" />
+    <meta name="twitter:description" content="A detailed review of a trial run for Jackie's wedding makeup: what she loved, what she'll do differently on her big day." />
+    <meta name="twitter:image" content={title} />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+    <script>
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG');
+        `}
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
+
       <div style={{ margin: '5rem', display: 'flex', justifyContent: 'center', alignItems: 'center', height: '5vh' }}>
         <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TRENDS

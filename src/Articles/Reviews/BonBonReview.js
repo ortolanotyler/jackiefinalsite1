@@ -62,19 +62,30 @@ const BonBonReview = () => {
 
   const blogContent = (
     <div className="container" style={{ width: '100%', padding: '1rem' }}>
-      <Helmet>
-        <title>BonBon Review - Jackie Wyers</title>
-        <meta name="description" content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure." />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
-      </Helmet>
+    <Helmet>
+  <title>BonBon Review - Jackie Wyers</title>
+  <meta name="description" content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure." />
+  <meta name="keywords" content="BonBon Review, Jackie Wyers, Viktor & Rolf, Perfume Review, Fragrance, Gourmand, Sweet Scents, Beauty Reviews" />
+  <meta property="og:title" content="BonBon Review - Jackie Wyers" />
+  <meta property="og:description" content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure." />
+  <meta property="og:image" content={title} />
+  <meta property="og:url" content="https://jackiewyers.beauty/bonbonreview" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="BonBon Review - Jackie Wyers" />
+  <meta name="twitter:description" content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure." />
+  <meta name="twitter:image" content={title} />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
+
       <AdSenseAd />
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>

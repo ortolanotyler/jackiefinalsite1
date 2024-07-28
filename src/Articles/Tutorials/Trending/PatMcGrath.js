@@ -58,20 +58,30 @@ const PatMcGrathPost = () => {
 
   const blogContent = (
     <div className="container">
-      <Helmet>
-                <title>Pat McGrath's Porcelain Doll</title>
-                <meta name="description" content="A detailed tutorial of how to properly execute Pat's iconic makeup trend, with images and video tutorials linked" />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-                <script>
-                    {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-RT6GR7JXYG');
-                    `}
-                </script>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-            </Helmet>
+     <Helmet>
+  <title>Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers</title>
+  <meta name="description" content="Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look." />
+  <meta name="keywords" content="Pat McGrath, Porcelain Doll Makeup, Maison Margiela, Spring/Summer '24, Makeup Tutorial, Jackie Wyers, Runway Makeup, Glass Skin, Airbrushed Makeup" />
+  <meta property="og:title" content="Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers" />
+  <meta property="og:description" content="Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look." />
+  <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathTitle.png`} />
+  <meta property="og:url" content="https://www.yourwebsite.com/patmcgrath" />
+  <meta name="twitter:title" content="Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers" />
+  <meta name="twitter:description" content="Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look." />
+  <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathTitle.png`} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
+
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TRENDS

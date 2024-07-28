@@ -135,19 +135,30 @@ const NewZealand = () => {
     const blogContent = (
         <div className="container">
             <Helmet>
-                <title>New Zealand | Aukland Vlog and Experience</title>
-                <meta name="description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-                <script>
-                    {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-RT6GR7JXYG');
-                    `}
-                </script>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-            </Helmet>
+    <title>New Zealand | Auckland Vlog and Experience</title>
+    <meta name="description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
+    <meta name="keywords" content="New Zealand, Auckland, Travel Blog, Jackie Wyers, Travel Vlog, Hotel Review, Fable Auckland" />
+    <meta property="og:title" content="New Zealand | Auckland Vlog and Experience" />
+    <meta property="og:description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
+    <meta property="og:image" content={title} />
+    <meta property="og:url" content="https://jackiewyers.beauty/newzealand" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="New Zealand | Auckland Vlog and Experience" />
+    <meta name="twitter:description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
+    <meta name="twitter:image" content={title} />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+    <script>
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG');
+        `}
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</Helmet>
+
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // ITINERARIES

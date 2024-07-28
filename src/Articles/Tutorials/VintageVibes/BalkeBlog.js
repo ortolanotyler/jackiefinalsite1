@@ -60,10 +60,30 @@ const BalkeBlog = () => {
   const blogContent = (
     <div className="container">
 
-      <Helmet>
-        <title>Ina Balke 1960s Makeup Tutorial - Jackie Wyers</title>
-        <meta name="description" content="Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell." />
-      </Helmet>
+<Helmet>
+  <title>Ina Balke 1960s Makeup Tutorial - Jackie Wyers</title>
+  <meta name="description" content="Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell." />
+  <meta name="keywords" content="Ina Balke makeup, 1960s makeup tutorial, vintage makeup, Jackie Wyers makeup tutorial, Ted Russell photography, 60s beauty, classic makeup looks" />
+  <meta property="og:title" content="Ina Balke 1960s Makeup Tutorial - Jackie Wyers" />
+  <meta property="og:description" content="Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell." />
+  <meta property="og:image" content={title} />
+  <meta property="og:url" content={window.location.href} />
+  <meta name="twitter:title" content="Ina Balke 1960s Makeup Tutorial - Jackie Wyers" />
+  <meta name="twitter:description" content="Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell." />
+  <meta name="twitter:image" content='https://jackiewyers.beauty/balkeblog'/>
+  <meta name="twitter:card" content="summary_large_image" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
+
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS

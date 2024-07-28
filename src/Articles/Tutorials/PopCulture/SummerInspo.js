@@ -6,6 +6,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import TextReveal from '../../../Components/TextReveal';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
+import { Helmet } from'react-helmet';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/SummerTitll.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/CleoH20Poster.jpg`;
@@ -57,6 +58,32 @@ const SummerInspo = () => {
 
   const blogContent = (
     <div className="container">
+      import { Helmet } from 'react-helmet';
+
+<Helmet>
+    <title>Summer Inspiration - Jackie Wyers</title>
+    <meta name="description" content="Explore Jackie Wyers' summer inspiration with mermaid looks from iconic characters like Cleo Sertori, Ariel, Vanessa, and more. Dive into the enchanting world of mermaid makeup and hairstyles." />
+    <meta name="keywords" content="Summer Beauty, Jackie Wyers, Makeup Tutorial, Beauty Blog, Pop Culture, Mermaid Looks, Cleo Sertori, The Little Mermaid, Ariel, Vanessa, Pirates of the Caribbean, Aquamarine" />
+    <meta property="og:title" content="Summer Inspiration - Jackie Wyers" />
+    <meta property="og:description" content="Explore Jackie Wyers' summer inspiration with mermaid looks from iconic characters like Cleo Sertori, Ariel, Vanessa, and more. Dive into the enchanting world of mermaid makeup and hairstyles." />
+    <meta property="og:image" content={title} />
+    <meta property="og:url" content="https://jackiewyers.beauty/summerinspo" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Summer Inspiration - Jackie Wyers" />
+    <meta name="twitter:description" content="Explore Jackie Wyers' summer inspiration with mermaid looks from iconic characters like Cleo Sertori, Ariel, Vanessa, and more. Dive into the enchanting world of mermaid makeup and hairstyles." />
+    <meta name="twitter:image" content={title} />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+    <script>
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG');
+        `}
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
+
       <div style={{ margin: '5rem', display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
           BEAUTY // POP CULTURE

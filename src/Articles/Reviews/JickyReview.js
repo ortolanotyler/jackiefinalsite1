@@ -67,10 +67,30 @@ const JickyReview = () => {
 
     const blogContent = (
         <div className="container" style={{ width: '100%', padding: '1rem' }}>
-            <Helmet>
-                <title>Jicky by Guerlain Perfume Review - Jackie Wyers</title>
-                <meta name="description" content="A comprehensive review of Jicky by Guerlain, exploring its history, fragrance profile, and personal impressions." />
-            </Helmet>
+           <Helmet>
+    <title>Jicky by Guerlain Perfume Review - Jackie Wyers</title>
+    <meta name="description" content="A comprehensive review of Jicky by Guerlain, exploring its history, fragrance profile, and personal impressions." />
+    <meta name="keywords" content="Jicky by Guerlain, Perfume Review, Fragrance Review, Guerlain Perfume, Classic Perfume, Jackie Wyers" />
+    <meta property="og:title" content="Jicky by Guerlain Perfume Review - Jackie Wyers" />
+    <meta property="og:description" content="A comprehensive review of Jicky by Guerlain, exploring its history, fragrance profile, and personal impressions." />
+    <meta property="og:image" content={title} />
+    <meta property="og:url" content="https://jackiewyers.beauty/jickyreview" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jicky by Guerlain Perfume Review - Jackie Wyers" />
+    <meta name="twitter:description" content="A comprehensive review of Jicky by Guerlain, exploring its history, fragrance profile, and personal impressions." />
+    <meta name="twitter:image" content={title} />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+    <script>
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG');
+        `}
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
+
             {ReactGA.pageview(window.location.pathname + window.location.search)}
 
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>

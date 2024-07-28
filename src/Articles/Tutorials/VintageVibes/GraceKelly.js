@@ -61,10 +61,30 @@ const GraceKelly = () => {
 
   const blogContent = (
     <div className="container">
-      <Helmet>
-        <title>Grace Kelly - Hollywood Glam Makeup Tutorial</title>
-        <meta name="description" content="Follow Jackie Wyers as she recreates the iconic Grace Kelly Hollywood Glam look with detailed tutorials and vintage vibes." />
-      </Helmet>
+    <Helmet>
+  <title>Grace Kelly - Hollywood Glam Makeup Tutorial</title>
+  <meta name="description" content="Follow Jackie Wyers as she recreates the iconic Grace Kelly Hollywood Glam look with detailed tutorials and vintage vibes." />
+  <meta name="keywords" content="Grace Kelly, Hollywood Glam, Makeup Tutorial, Jackie Wyers, Vintage Vibes, Beauty Blog, Time Travel Tutorials, Classic Beauty, Old Hollywood, Iconic Looks" />
+  <meta property="og:title" content="Grace Kelly - Hollywood Glam Makeup Tutorial" />
+  <meta property="og:description" content="Follow Jackie Wyers as she recreates the iconic Grace Kelly Hollywood Glam look with detailed tutorials and vintage vibes." />
+  <meta property="og:image" content={title} />
+  <meta property="og:url" content="https://jackiewyers.beauty/gracekelly" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Grace Kelly - Hollywood Glam Makeup Tutorial" />
+  <meta name="twitter:description" content="Follow Jackie Wyers as she recreates the iconic Grace Kelly Hollywood Glam look with detailed tutorials and vintage vibes." />
+  <meta name="twitter:image" content={title} />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+      {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RT6GR7JXYG');
+      `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
+
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS

@@ -63,20 +63,29 @@ const PeriodDrama = () => {
 
   const blogContent = (
     <div className="container">
-      <Helmet>
-                <title>No Makeup Makeup Period Drama and Historical Hairstyles  </title>
-                <meta name="description" content="Explore The Elegance of Period Drama Hair and Makeup " />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-                <script>
-                    {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-RT6GR7JXYG');
-                    `}
-                </script>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-            </Helmet>
+     <Helmet>
+  <title>No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers</title>
+  <meta name="description" content="Explore the elegance of period drama hair and makeup. Recreate historical hairstyles and no-makeup makeup looks inspired by various eras." />
+  <meta name="keywords" content="Period Drama, No Makeup Makeup, Historical Hairstyles, Jackie Wyers, Beauty Blog, Tudor Era, Regency Era, Edwardian Era, Victorian Era, Pirates of the Caribbean, Pride and Prejudice, Bridgerton" />
+  <meta property="og:title" content="No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers" />
+  <meta property="og:description" content="Explore the elegance of period drama hair and makeup. Recreate historical hairstyles and no-makeup makeup looks inspired by various eras." />
+  <meta property="og:image" content={title} />
+  <meta property="og:url" content="https://jackiewyers.beauty/perioddrama" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers" />
+  <meta name="twitter:description" content="Explore the elegance of period drama hair and makeup. Recreate historical hairstyles and no-makeup makeup looks inspired by various eras." />
+  <meta name="twitter:image" content={title} />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // POP CULTURE

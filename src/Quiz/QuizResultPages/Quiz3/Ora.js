@@ -82,20 +82,30 @@ const imageStyle = {
 
   const blogContent = (
     <div className="container">
-      <Helmet>
-      <title>Jackie Wyers Wedding - Ora Wedding Dress</title>
-      <meta name="description" content="Is the Ora dress for you? Take the quiz to find out!" />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-                <script>
-                    {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-RT6GR7JXYG');
-                    `}
-                </script>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-            </Helmet>
+  <Helmet>
+  <title>Jackie Wyers Wedding - Ora Wedding Dress</title>
+  <meta name="description" content="Is the Ora dress for you? Take the quiz to find out!" />
+  <meta name="keywords" content="wedding dress, Ora dress, Eva Lendel, bridal fashion, Jackie Wyers, old money wedding, beach wedding, elegant wedding" />
+  <meta property="og:title" content="Jackie Wyers Wedding - Ora Wedding Dress" />
+  <meta property="og:description" content="Is the Ora dress for you? Take the quiz to find out!" />
+  <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/oratitle.png`} />
+  <meta property="og:url" content="https://jackiewyers.beauty/ora" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jackie Wyers Wedding - Ora Wedding Dress" />
+  <meta name="twitter:description" content="Is the Ora dress for you? Take the quiz to find out!" />
+  <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/oratitle.png`} />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossOrigin="anonymous"></script>
+</Helmet>
+
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
         <a href="/bridal" style={{ fontFamily: 'Arapey', fontSize: '1em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // BRIDAL

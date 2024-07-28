@@ -63,19 +63,30 @@ const HalfetiReview = () => {
 
     const blogContent = (
         <div className="container" style={{ width: '100%', padding: '1rem' }}>
-            <Helmet>
-                <title>Penhaligon's Halfeti Review  Perfume</title>
-                <meta name="description" content="A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression." />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-                <script>
-                    {`
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-                        gtag('config', 'G-RT6GR7JXYG');
-                    `}
-                </script>
-            </Helmet>
+           <Helmet>
+  <title>Penhaligon's Halfeti Review - Jackie Wyers</title>
+  <meta name="description" content="A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression." />
+  <meta name="keywords" content="Penhaligon's Halfeti Review, Jackie Wyers, Perfume Review, Fragrance, Oriental Spicy, Luxury Perfume, Beauty Reviews" />
+  <meta property="og:title" content="Penhaligon's Halfeti Review - Jackie Wyers" />
+  <meta property="og:description" content="A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression." />
+  <meta property="og:image" content={title} />
+  <meta property="og:url" content="https://jackiewyers.beauty/halfetireview" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Penhaligon's Halfeti Review - Jackie Wyers" />
+  <meta name="twitter:description" content="A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression." />
+  <meta name="twitter:image" content={title} />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
+
             <AdSenseAd />
             <div style={{ textAlign: 'center', marginBottom: '1rem', height: '10vh' }}>
                 <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>

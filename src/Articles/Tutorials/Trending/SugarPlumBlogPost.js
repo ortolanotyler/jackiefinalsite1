@@ -58,6 +58,30 @@ const SugarPlumBlogPost = () => {
 
   const blogContent = (
     <div className="container">
+      <Helmet>
+  <title>Sugar Plum Fairy Makeup Tutorial - Jackie Wyers</title>
+  <meta name="description" content="Discover the whimsical Sugar Plum Fairy makeup trend inspired by the classic Nutcracker ballet. Follow Jackie Wyers' step-by-step guide to achieve this enchanting look." />
+  <meta name="keywords" content="Sugar Plum Fairy Makeup, Nutcracker Ballet Makeup, Jackie Wyers Makeup Tutorial, Whimsical Makeup, Holiday Makeup, Festive Makeup, Hailey Bieber Makeup, Chrome Eyeshadow" />
+  <meta property="og:title" content="Sugar Plum Fairy Makeup Tutorial - Jackie Wyers" />
+  <meta property="og:description" content="Discover the whimsical Sugar Plum Fairy makeup trend inspired by the classic Nutcracker ballet. Follow Jackie Wyers' step-by-step guide to achieve this enchanting look." />
+  <meta property="og:image" content={title} />
+  <meta property="og:url" content="https://www.yourwebsite.com/sugarplumfairy" />
+  <meta name="twitter:title" content="Sugar Plum Fairy Makeup Tutorial - Jackie Wyers" />
+  <meta name="twitter:description" content="Discover the whimsical Sugar Plum Fairy makeup trend inspired by the classic Nutcracker ballet. Follow Jackie Wyers' step-by-step guide to achieve this enchanting look." />
+  <meta name="twitter:image" content={title} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
+
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TRENDS

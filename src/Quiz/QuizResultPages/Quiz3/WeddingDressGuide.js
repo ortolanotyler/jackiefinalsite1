@@ -106,20 +106,30 @@ const imageStyle = {
 
   const blogContent = (
     <div className="container">
-      <Helmet>
-      <title>Jackie Wyers Wedding - The Ultimate 2025 Wedding Dress Guide</title>
-      <meta name="description" content="Styles, Themes, and & Trends for Brides-To-Be" />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-                <script>
-                    {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-RT6GR7JXYG');
-                    `}
-                </script>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-            </Helmet>
+   <Helmet>
+  <title>Jackie Wyers Wedding - The Ultimate 2025 Wedding Dress Guide</title>
+  <meta name="description" content="Styles, Themes, and Trends for Brides-To-Be" />
+  <meta name="keywords" content="wedding dress guide, 2025 wedding dresses, bridal fashion, Jackie Wyers, wedding themes, bridal trends" />
+  <meta property="og:title" content="Jackie Wyers Wedding - The Ultimate 2025 Wedding Dress Guide" />
+  <meta property="og:description" content="Styles, Themes, and Trends for Brides-To-Be" />
+  <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/weddingdressguidetitle.png`} />
+  <meta property="og:url" content="https://jackiewyers.beauty/weddingdressguide" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jackie Wyers Wedding - The Ultimate 2025 Wedding Dress Guide" />
+  <meta name="twitter:description" content="Styles, Themes, and Trends for Brides-To-Be" />
+  <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/weddingdressguidetitle.png`} />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossOrigin="anonymous"></script>
+</Helmet>
+
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
         <a href="/bridal" style={{ fontFamily: 'Arapey', fontSize: '1em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // BRIDAL

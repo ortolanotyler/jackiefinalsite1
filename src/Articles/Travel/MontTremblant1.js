@@ -69,20 +69,31 @@ const MontTremblantBlog = () => {
 
     const blogContent = (
         <div className="container">
-            <Helmet>
-                <title>Mont Tremblant Ski Resort Experience</title>
-                <meta name="description" content="A detailed review of the Mont Tremblant's legendary ski village with reccomendations for luxury or budget travel" />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-                <script>
-                    {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-RT6GR7JXYG');
-                    `}
-                </script>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-            </Helmet>
+         <Helmet>
+    <title>Mont Tremblant Travel Guide - Jackie Wyers</title>
+    <meta name="description" content="Discover the enchanting ski village of Mont Tremblant, Quebec with Jackie Wyers. Explore the best experiences, food, and adventures during a romantic getaway in the mountains." />
+    <meta name="keywords" content="Mont Tremblant, Travel Guide, Skiing, Quebec, Travel Blog, Jackie Wyers, Canada Travel" />
+    <meta property="og:title" content="Mont Tremblant Travel Guide - Jackie Wyers" />
+    <meta property="og:description" content="Discover the enchanting ski village of Mont Tremblant, Quebec with Jackie Wyers. Explore the best experiences, food, and adventures during a romantic getaway in the mountains." />
+    <meta property="og:image" content={title} />
+    <meta property="og:url" content="https://jackiewyers.beauty/tremblant" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mont Tremblant Travel Guide - Jackie Wyers" />
+    <meta name="twitter:description" content="Discover the enchanting ski village of Mont Tremblant, Quebec with Jackie Wyers. Explore the best experiences, food, and adventures during a romantic getaway in the mountains." />
+    <meta name="twitter:image" content={title} />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+    <script>
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG');
+        `}
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</Helmet>
+
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // ITINERARIES

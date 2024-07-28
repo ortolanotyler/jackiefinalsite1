@@ -70,19 +70,34 @@ const Disney2Post = () => {
 
     const blogContent = (
         <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: 'auto', marginTop: '5rem' }}>
-            <Helmet>
-                <title>Walt Disney World Beach Club Resort Review | Travel & Hotel Reviews</title>
-                <meta name="description" content="An in-depth review of Walt Disney World's Beach Club Resort, featuring first impressions, amenities, dining options, and more." />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-                <script>
-                    {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-RT6GR7JXYG');
-                    `}
-                </script>
-            </Helmet>
+          <Helmet>
+  <title>Walt Disney World Beach Club Resort Review | Travel & Hotel Reviews</title>
+  <meta name="description" content="An in-depth review of Walt Disney World's Beach Club Resort, featuring first impressions, amenities, dining options, and more." />
+  <meta name="keywords" content="Jackie Wyers, Walt Disney World, Beach Club Resort, Disney resort review, luxury hotel, travel blog, Disney vacation" />
+  
+  <meta property="og:title" content="Walt Disney World Beach Club Resort Review | Travel & Hotel Reviews" />
+  <meta property="og:description" content="An in-depth review of Walt Disney World's Beach Club Resort, featuring first impressions, amenities, dining options, and more." />
+  <meta property="og:image" content={title} />
+  <meta property="og:url" content="https://jackiewyers.beauty/disneybeachclubresort" />
+  <meta property="og:type" content="article" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Walt Disney World Beach Club Resort Review | Travel & Hotel Reviews" />
+  <meta name="twitter:description" content="An in-depth review of Walt Disney World's Beach Club Resort, featuring first impressions, amenities, dining options, and more." />
+  <meta name="twitter:image" content={title} />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
+
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
                 <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // HOTEL REVIEWS

@@ -1,10 +1,10 @@
 import React, {  useEffect } from 'react';
-import { Helmet } from 'react-helmet';
 import styles from './aaa.module.css'; // Import CSS Modules
 import TextReveal from '../../../Components/TextReveal';
 import { Paper } from '@mui/material';
 import RotatingText from '../../../Navigation/AppBar/RotatingText';
 import { initGA , logPageView } from '../../../analytics';
+
 
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
 const image7 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
@@ -76,10 +76,7 @@ const Card = ({ link, image, alt, title, description }) => {
 const PopCulture = () => {
   return (
     <>
-      <Helmet>
-        <title>Pop Culture Makeup Tutorials , Transformations, and More</title>
-        <meta name="description" content="Explore pop culture makeup tutorials by Jackie Wyers, including looks inspired by Barbie, Victoria's Secret, Lana Del Rey, and more." />
-      </Helmet>
+   
       <div>
         <div><TextReveal text='POP CULTURE OBSESSED' /></div>
         <Paper elevation={5} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: '#745B4F', textAlign: 'center' }}>

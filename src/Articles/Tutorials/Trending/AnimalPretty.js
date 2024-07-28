@@ -58,20 +58,30 @@ const AnimalPretty = () => {
 
   const blogContent = (
     <div className="container">
-      <Helmet>
-        <title>Animal Pretty - Which one are you?</title>
-        <meta name="description" content="Trend Report: Animal Pretty - Fabulous Fad" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-      </Helmet>
+     <Helmet>
+    <title>Animal Pretty - Which one are you? - Jackie Wyers</title>
+    <meta name="description" content="Explore the Animal Pretty makeup trends inspired by deer, cats, foxes, and bunnies. Learn how to achieve these adorable looks with step-by-step guides from Jackie Wyers." />
+    <meta name="keywords" content="Animal Pretty, Makeup Trends, Jackie Wyers, Deer Pretty, Cat Pretty, Fox Pretty, Bunny Pretty, Beauty Blog" />
+    <meta property="og:title" content="Animal Pretty - Which one are you? - Jackie Wyers" />
+    <meta property="og:description" content="Explore the Animal Pretty makeup trends inspired by deer, cats, foxes, and bunnies. Learn how to achieve these adorable looks with step-by-step guides from Jackie Wyers." />
+    <meta property="og:image" content={title} />
+    <meta property="og:url" content="https://jackiewyers.beauty/animalpretty" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Animal Pretty - Which one are you? - Jackie Wyers" />
+    <meta name="twitter:description" content="Explore the Animal Pretty makeup trends inspired by deer, cats, foxes, and bunnies. Learn how to achieve these adorable looks with step-by-step guides from Jackie Wyers." />
+    <meta name="twitter:image" content={title} />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+    <script>
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG');
+        `}
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
+
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
         <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TRENDS

@@ -6,6 +6,8 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import TextReveal from '../../../Components/TextReveal';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
+import { Helmet } from 'react-helmet';
+
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/SummerBeautyTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/BlueLagoon.jpg`;
@@ -59,6 +61,29 @@ const SummerBeauty = () => {
 
   const blogContent = (
     <div className="container">
+      <Helmet>
+    <title>Period Drama Hair and Makeup - Jackie Wyers</title>
+    <meta name="description" content="Explore the elegance of period drama hair and makeup with Jackie Wyers. Discover historical hairstyles and no-makeup makeup looks inspired by various eras." />
+    <meta name="keywords" content="Period Drama, Hair and Makeup, Historical Hairstyles, No-Makeup Makeup, Jackie Wyers, Beauty Blog, Tudor, Regency, Victorian, Edwardian" />
+    <meta property="og:title" content="Period Drama Hair and Makeup - Jackie Wyers" />
+    <meta property="og:description" content="Explore the elegance of period drama hair and makeup with Jackie Wyers. Discover historical hairstyles and no-makeup makeup looks inspired by various eras." />
+    <meta property="og:image" content={title} />
+    <meta property="og:url" content="https://jackiewyers.beauty/summerbeauty" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Period Drama Hair and Makeup - Jackie Wyers" />
+    <meta name="twitter:description" content="Explore the elegance of period drama hair and makeup with Jackie Wyers. Discover historical hairstyles and no-makeup makeup looks inspired by various eras." />
+    <meta name="twitter:image" content={title} />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+    <script>
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG');
+        `}
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
       <div style={{ margin: '5rem', display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
       <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
           BEAUTY // POP CULTURE

@@ -7,6 +7,8 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
+import { Helmet } from 'react-helmet';
+
  
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/barbietitle2.jpeg`;
@@ -57,6 +59,29 @@ const BarbieBlog = () => {
   };
   const blogContent = (
     <div className="container">
+      <Helmet>
+    <title>Margot Robbie Barbie Movie Makeup Tutorial - Jackie Wyers</title>
+    <meta name="description" content="Follow Jackie Wyers' step-by-step tutorial to recreate Margot Robbie's stunning Barbie makeup look from the Barbie Movie. Get the details on Barbiecore fashion and DIY costume ideas." />
+    <meta name="keywords" content="Barbie Movie, Margot Robbie, Barbie Makeup Tutorial, Jackie Wyers, Barbiecore, DIY Costume, Beauty Blog, Makeup Tutorial" />
+    <meta property="og:title" content="Margot Robbie Barbie Movie Makeup Tutorial - Jackie Wyers" />
+    <meta property="og:description" content="Follow Jackie Wyers' step-by-step tutorial to recreate Margot Robbie's stunning Barbie makeup look from the Barbie Movie. Get the details on Barbiecore fashion and DIY costume ideas." />
+    <meta property="og:image" content={title} />
+    <meta property="og:url" content="https://jackiewyers.beauty/margotbarbie" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Margot Robbie Barbie Movie Makeup Tutorial - Jackie Wyers" />
+    <meta name="twitter:description" content="Follow Jackie Wyers' step-by-step tutorial to recreate Margot Robbie's stunning Barbie makeup look from the Barbie Movie. Get the details on Barbiecore fashion and DIY costume ideas." />
+    <meta name="twitter:image" content={title} />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+    <script>
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG');
+        `}
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
           BEAUTY // POP CULTURE // MOVIES

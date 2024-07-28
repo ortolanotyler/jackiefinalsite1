@@ -8,6 +8,7 @@ import DropCap from '../../../Components/DropCap';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
+import { Helmet } from 'react-helmet';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSTitle.png`;
 const Victoria2 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VictoriaDouble.png`;
@@ -57,6 +58,32 @@ const VictoriaSecret = () => {
   
   const blogContent = (
     <div className="container">
+      import { Helmet } from 'react-helmet';
+
+<Helmet>
+    <title>Victoria's Secret Fashion Show 2013 - Jackie Wyers</title>
+    <meta name="description" content="Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014." />
+    <meta name="keywords" content="Victoria's Secret, Fashion Show, Beauty Tips, Jackie Wyers, Makeup Tutorial, 2013, Snow Angel, Beauty Blog" />
+    <meta property="og:title" content="Victoria's Secret Fashion Show 2013 - Jackie Wyers" />
+    <meta property="og:description" content="Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014." />
+    <meta property="og:image" content={title} />
+    <meta property="og:url" content="https://jackiewyers.beauty/victoriasecret" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Victoria's Secret Fashion Show 2013 - Jackie Wyers" />
+    <meta name="twitter:description" content="Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014." />
+    <meta name="twitter:image" content={title} />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+    <script>
+        {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG');
+        `}
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
+
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
           BEAUTY // POP CULTURE
