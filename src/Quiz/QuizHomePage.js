@@ -12,7 +12,7 @@ const QuizHomepage = () => {
         <div>
              <Helmet>
         <title>Jackie Wyers' Quiz Homepage</title>
-        <meta name="description" content="Starting with the legendary Animal Pretty Calculator, with more quizzes being added every week!" />
+        <meta name="description" content="It started with the legendary Animal Pretty Calculator, with more quizzes being added every week!" />
         <meta name="keywords" content="beauty quiz, wedding dress quiz, animal pretty, Jackie Wyers, makeup quiz, beauty styles" />
         <meta property="og:title" content="Jackie Wyers' Quiz Homepage" />
         <meta property="og:description" content="Discover your perfect wedding dress style and find your animal face type with Jackie Wyers' interactive quizzes!" />

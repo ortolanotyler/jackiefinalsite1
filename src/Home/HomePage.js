@@ -82,48 +82,48 @@ function HomePage() {
 
   return (
     <Box sx={{ width: '100%', backgroundColor: 'white' }}>
-     <Helmet>
-  <title>Jackie Wyers Beauty</title>
-  <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
-  <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
-  <meta property="og:title" content="Jackie Wyers Beauty" />
-  <meta property="og:description" content="Explore beauty tutorials, reviews, travel tips, and more." />
-  <meta property="og:image" content="https://jackiewyers.beauty/logo.png" />
-  <meta property="og:url" content="https://jackiewyers.beauty" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Jackie Wyers Beauty" />
-  <meta name="twitter:description" content="Explore beauty tutorials, reviews, travel tips, and more." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/logo.png" />
-  <script type="application/ld+json">
-    {`
-    {
-      "@context": "http://schema.org",
-      "@type": "WebPage",
-      "name": "Jackie Wyers Beauty",
-      "description": "Explore beauty tutorials, reviews, travel tips, and more.",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Jackie Wyers Beauty",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://jackiewyers.beauty/logo.png"
-        }
-      },
-      "image": "https://jackiewyers.beauty/logo.png",
-      "url": "https://jackiewyers.beauty"
-    }
-    `}
-  </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG');
-    `}
-  </script>
-</Helmet>
+      <Helmet>
+        <title>Jackie Wyers Beauty</title>
+        <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
+        <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
+        <meta property="og:title" content="Jackie Wyers Beauty" />
+        <meta property="og:description" content="Explore beauty tutorials, reviews, travel tips, and more." />
+        <meta property="og:image" content="https://jackiewyers.beauty/logo.png" />
+        <meta property="og:url" content="https://jackiewyers.beauty" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Jackie Wyers Beauty" />
+        <meta name="twitter:description" content="Explore beauty tutorials, reviews, travel tips, and more." />
+        <meta name="twitter:image" content="https://jackiewyers.beauty/logo.png" />
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "http://schema.org",
+            "@type": "WebPage",
+            "name": "Jackie Wyers Beauty",
+            "description": "Explore beauty tutorials, reviews, travel tips, and more.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Jackie Wyers Beauty",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://jackiewyers.beauty/logo.png"
+              }
+            },
+            "image": "https://jackiewyers.beauty/logo.png",
+            "url": "https://jackiewyers.beauty"
+          }
+          `}
+        </script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+        <script async>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG');
+          `}
+        </script>
+      </Helmet>
 
       <Grid container spacing={2} justifyContent="center">
         <Grid item xs={12}>
@@ -239,7 +239,7 @@ function HomePage() {
             <EmailSubscribe />
           </div>
         </Grid>
-        <AdSenseAd/>
+        <AdSenseAd />
       </Grid>
     </Box>
   );
