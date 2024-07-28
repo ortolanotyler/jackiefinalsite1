@@ -8,8 +8,8 @@ h1 {
 }
 
 .textReveal {
-  --animation-duration: 1s; /* Reduced duration for a smoother animation */
-  --animation-delay: 0s; /* Adjusted for smoother transition */
+  --animation-duration: 0.5s; /* Reduced duration for a faster animation */
+  --animation-delay: 0s; /* No delay for faster loading */
   
   --1-fill-color: transparent;
   --1-stroke-color: black;
