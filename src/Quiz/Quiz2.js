@@ -127,20 +127,31 @@ const Quiz2 = () => {
 
   return (
     <div className="quiz-container">
-      <Helmet>
-                <title>Jackie Wyers Beauty</title>
-                <meta name="description" content="Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty? Find out!" />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-                <script>
-                    {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-RT6GR7JXYG');
-                    `}
-                </script>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-            </Helmet>
+     <Helmet>
+  <title>Jackie Wyers Beauty</title>
+  <meta name="description" content="Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty? Find out with our fun and interactive quiz!" />
+  <meta name="keywords" content="beauty quiz, animal pretty, Jackie Wyers, makeup quiz, beauty styles, fox pretty, deer pretty, bunny pretty, cat pretty" />
+  <meta property="og:title" content="Jackie Wyers Beauty Quiz" />
+  <meta property="og:description" content="Discover which animal-inspired beauty style suits you best: Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty." />
+  <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/og-image.jpg`} />
+  <meta property="og:url" content="https://jackiewyers.beauty/quiz2" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jackie Wyers Beauty Quiz" />
+  <meta name="twitter:description" content="Find out if you're Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty with our interactive quiz!" />
+  <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/twitter-image.jpg`} />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
+
       {!showResults ? (
         <>
           <div className="question-section">

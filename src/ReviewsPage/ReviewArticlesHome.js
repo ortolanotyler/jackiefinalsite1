@@ -9,6 +9,16 @@ const ReviewHomePage = () => {
             <Helmet>
                 <title>Product Reviews - Jackie Wyers</title>
                 <meta name="description" content="Explore detailed product reviews by Jackie Wyers. Find the best beauty products and perfume profiles." />
+                <meta name="keywords" content="Jackie Wyers, product reviews, beauty reviews, perfume profiles, beauty products, recommendations" />
+                <meta property="og:title" content="Product Reviews - Jackie Wyers" />
+                <meta property="og:description" content="Explore detailed product reviews by Jackie Wyers. Find the best beauty products and perfume profiles." />
+                <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Reviews/og-image.jpg`} />
+                <meta property="og:url" content="https://jackiewyers.beauty/reviews" />
+                <meta property="og:type" content="website" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Product Reviews - Jackie Wyers" />
+                <meta name="twitter:description" content="Explore detailed product reviews by Jackie Wyers. Find the best beauty products and perfume profiles." />
+                <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Reviews/twitter-image.jpg`} />
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
             </Helmet>
             <TextReveal text="REVIEWS" />

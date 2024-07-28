@@ -8,11 +8,31 @@ import BookNowButton from '../Components/BookNowButton';
 const TravelArticlesHome = () => {
     return (
         <div>
-            <Helmet>
-                <title>Travel - Jackie Wyers</title>
-                <meta name="description" content="Explore travel articles and guides by Jackie Wyers. Find inspiration for your next travel destination." />
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-            </Helmet>
+        <Helmet>
+    <title>Travel - Jackie Wyers</title>
+    <meta name="description" content="Explore travel articles and guides by Jackie Wyers. Find inspiration for your next travel destination." />
+    <meta name="keywords" content="Jackie Wyers, travel, travel guides, travel articles, hotel reviews, itineraries, travel inspiration" />
+    <meta property="og:title" content="Travel - Jackie Wyers" />
+    <meta property="og:description" content="Explore travel articles and guides by Jackie Wyers. Find inspiration for your next travel destination." />
+    <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Travel/og-image.jpg`} />
+    <meta property="og:url" content="https://jackiewyers.beauty/travel" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Travel - Jackie Wyers" />
+    <meta name="twitter:description" content="Explore travel articles and guides by Jackie Wyers. Find inspiration for your next travel destination." />
+    <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Travel/twitter-image.jpg`} />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+    <script>
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-RT6GR7JXYG');
+        `}
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
+
             <div
                 style={{
                     marginTop: '1rem',
