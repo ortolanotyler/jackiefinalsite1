@@ -347,6 +347,14 @@ At Farmers, I picked up a whipped shower foam that looks like whipped cream from
 <div style={gridContainerStyle}>    
                 <img src={images[13]} alt="Maui market" style={imageStyle} />
                 <img src={images[14]} alt="Maui market 2" style={imageStyle} />
+                <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
                 <img src={images[15]} alt="Maui market 2" style={imageStyle} />
                 <img src={images[16]} alt="Maui market 2" style={imageStyle} />
 
@@ -358,6 +366,7 @@ We tried Bird on a Wire, which is a chain restaurant known for fried chicken and
 <div style={gridContainerStyle}>    
                 <img src={images[17]} alt="Maui market" style={imageStyle} />
                 <img src={images[18]} alt="Maui market 2" style={imageStyle} />
+                
                 <img src={images[19]} alt="Maui market 2" style={imageStyle} />
                 <img src={images[20]} alt="Maui market 2" style={imageStyle} />
 
@@ -384,7 +393,14 @@ were tons of seashells and trees growing out of the sides of the rocks, surround
                 <img src={images[22]} alt="Maui market 2" style={imageStyle} />
                 
             </div>
+            <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
             <div style={gridContainerStyle}>    
             <img src={images[23]} alt="Maui market 2" style={imageStyle} />
               </div>
@@ -439,6 +455,14 @@ style = {{
                         <h2 style={headingStyle}>👰 Day Four: Bridal Appointment in Parnell</h2>
                         <div style={gridContainerStyle}>    
   <img src={images[33]} alt="Maui market 2" style={{...imageStyle, float: 'left', marginRight: '1rem', marginBottom: '1rem'}} />
+  <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
   <p style={paragraphStyle}>
     The following day we headed to Parnell to visit Natalie Rose Bridal
     to get a peek at my dress that was being made and to try on a bunch of Eva Lendel’s latest bridal collection! For more details about each dress I tried & a get ready with me for my hair and makeup, check out my beauty breakdown here.
@@ -475,7 +499,14 @@ style = {{
             <img src={images[37]} alt="Maui market 2" style={imageStyle} />
               </div>
 
+              <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
             <h2 style={headingStyle}>🍫 Day Five: Winter Gardens, Auckland Zoo, Chocolate!!!
             </h2>
             <p style={paragraphStyle}>
@@ -498,7 +529,14 @@ The Wintergarden Pavilion was another amazing café with fresh food. While I was
             <img src={images[55]} alt="Maui market 2" style={imageStyle} />
               </div>
 
+              <div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
 
 <p style={paragraphStyle}>
 
@@ -552,6 +590,15 @@ style = {{
 crater, which offers panoramic views of the city. There were tons of tourists, and many were taking massive group TikToks, which was pretty funny to see.
         adorable top and a beautiful blue dress!            </p>
 
+        <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+
         <div style={gridContainerStyle}>    
             <img src={images[43]} alt="Maui market 2" style={imageStyle} />
 
@@ -599,6 +646,14 @@ I always try to eat at places unique to wherever I’m visiting and had to try B
 
 Are you from New Zealand? I would love to know, and I would love to go back in the summer as well because it truly was a magical place. I felt like I fit right in with the lovely locals that I spoke to. I also noticed the fashion was pretty vibrant, especially in older ladies with funky earrings, glasses, and prints. I met some quite fabulous older ladies on this trip who were bold as ever!
 </p>
+<div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
 <div style={gridContainerStyle}>
                 
                 <img src={images[54]} alt="Maui view 8" style={imageStyle} />
@@ -616,6 +671,14 @@ Let me know below if you have any places that you think I should travel to next.
         </a> 
       </div>
             <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+<div
 style = {{
   margin : '20px'
 }}
