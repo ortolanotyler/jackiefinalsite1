@@ -194,10 +194,7 @@ Channel the sophistication of old money elegance with a modern twist. Take inspi
     
 
       <Comments website-id={websiteId} page-id={"quiz3"} />
-
       <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div><div style={{margin: '20px'}}>
                 <AdSenseAd/>
                 </div><div style={{margin: '20px'}}>
                 <AdSenseAd/>

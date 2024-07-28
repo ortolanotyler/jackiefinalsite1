@@ -199,19 +199,11 @@ Speaking of Audrey, Ariana Grandeâ€™s bridal look is a modern take on the 1950â€
 
       <Comments website-id={websiteId} page-id={"quiz3"} />
 
-<div style = {{  marginTop: '2rem' }}>
-<AdSenseAd/>
-
-    </div>
-    <div style = {{  marginTop: '2rem' }}>
-<AdSenseAd/>
-
-    </div>
-    <div style = {{ marginTop: '2rem' }}>
-<AdSenseAd/>
-
-    </div>
-               
+      <div style={{margin: '20px'}}>
+                <AdSenseAd/>
+                </div><div style={{margin: '20px'}}>
+                <AdSenseAd/>
+                </div>  
       
     </div>
     

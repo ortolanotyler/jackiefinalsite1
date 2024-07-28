@@ -195,8 +195,6 @@ Channel the sophistication of old money elegance with a touch of Bridgerton's ro
                 <AdSenseAd/>
                 </div><div style={{margin: '20px'}}>
                 <AdSenseAd/>
-                </div><div style={{margin: '20px'}}>
-                <AdSenseAd/>
                 </div>
       
     </div>

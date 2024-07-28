@@ -441,12 +441,9 @@ I hope you enjoyed this read and it gave you some bridal ideas if you are a Brid
     
 
       <Comments website-id={websiteId} page-id={"quiz3"} />
-
-      <div style={{margin: '5px'}}>
+      <div style={{margin: '20px'}}>
                 <AdSenseAd/>
-                </div><div style={{margin: '5px'}}>
-                <AdSenseAd/>
-                </div><div style={{margin: '5px'}}>
+                </div><div style={{margin: '20px'}}>
                 <AdSenseAd/>
                 </div>
       

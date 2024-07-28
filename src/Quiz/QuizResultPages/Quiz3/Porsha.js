@@ -204,8 +204,6 @@ Channel a modern 1920s look with a darker smokey eye, but opt for a lighter lip 
                 <AdSenseAd/>
                 </div><div style={{margin: '20px'}}>
                 <AdSenseAd/>
-                </div><div style={{margin: '20px'}}>
-                <AdSenseAd/>
                 </div>
       
     </div>

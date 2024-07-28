@@ -196,13 +196,12 @@ Bridal Muse:
 
       <Comments website-id={websiteId} page-id={"quiz3"} />
 
+   
       <div style={{margin: '20px'}}>
                 <AdSenseAd/>
                 </div><div style={{margin: '20px'}}>
                 <AdSenseAd/>
-                </div><div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+                </div>  
       
     </div>
     
