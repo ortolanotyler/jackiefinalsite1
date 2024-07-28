@@ -9,11 +9,7 @@ const diaryEntries = [
     title: "My Experience With Fillers", 
     href: "/diaryfillers"  // Customize the href for each entry
   },
-  { 
-    src: `${process.env.PUBLIC_URL}/Images/Diary/Diary2.jpg`, 
-    title: "Bridesmaid Boxes How-To", 
-    href: "/bridesmaidboxes"  // Customize the href for each entry
-  },
+
   // Add more entries as needed
 ];
 

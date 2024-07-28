@@ -245,7 +245,8 @@ Method One: Best Big Bun
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/hl2f12fGJwg?si=o61hFs2iXQVE5J6G" title="Brigitte Bardot ‘60s Makeup Tutorial by Jackie Wyers" />
 
-
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '1em', maxWidth: '100%', fontStyle: 'italic' }}>
+Bun starts at 4:05    </p>
 
 <p style={paragraphStyle}>
 When I first attempted this style 10 years ago, I put my hair up into a high ponytail, and since sock buns were all the rage, I had a bun maker handy, which made the style fairly easy to do.
@@ -276,23 +277,14 @@ Method Two: Best Faux Bangs
 
 </h2>
 
-<div
-style = {{
-    textAlign: 'center',
-}}
->
 <iframe
-  style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
-  src="https://www.youtube.com/embed/7JuWiUbby4I"
-  title="YouTube video player"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-></iframe>
-
-
-</div>
-
+      style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
+      src="https://www.youtube.com/embed/7JuWiUbby4I"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
 
 
 <p style={paragraphStyle}>

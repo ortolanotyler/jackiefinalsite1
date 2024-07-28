@@ -205,7 +205,7 @@ function HomePage() {
           <ReviewFavorites />
         </Grid>
         <Grid item xs={12}>
-          <TextReveal text="THE ULTIMATE 2025 WEDDING DRESS QUIZ" style={{ backgroundColor: 'white' }} />
+          <TextReveal text="FIND YOUR DREAM WEDDING DRESS QUIZ!" style={{ backgroundColor: 'white' }} />
           <Quiz3 />
         </Grid>
         <Grid item xs={12}>

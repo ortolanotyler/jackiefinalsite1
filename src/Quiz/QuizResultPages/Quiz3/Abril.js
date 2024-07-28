@@ -180,12 +180,25 @@ Bridal Muse:
 Grace Kelly’s bridal look may be great inspiration for you! See article below on how to get her regal look. YouTube tutorial coming soon!
 </p>
 
+
+
 <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <a href="/gracekelly" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
           <img src={nextarticle} alt="Grace Kelly Tutorial by Jackie Wyers" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
           GRACE KELLY →
         </a>
       </div>
+
+      <p style={paragraphStyle}>
+
+Looking for more royal vibes? Check out the elegance of Mia Thermopolis’s royal transformation in The Princess Diaries for a timeless and sophisticated bridal look.
+</p>
+
+<ResponsiveYoutube src="https://www.youtube.com/embed/s8mla3HD_Xo?si=t6YiNIUUq8fjH7Jg" title="WEDDING DRESS SHOPPING & Bridal Makeup Trial with Jackie Wyers" />
+
+
+
+
 
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
 <TakeQuizButton />

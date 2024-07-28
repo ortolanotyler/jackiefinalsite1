@@ -393,6 +393,8 @@ The new restaurant renovations, summer menu, and the reopening of the nautical a
 <p style = {paragraphStyle}>
 One of the best tools for booking hotels is Plannin.com, where creators like me provide detailed reviews and pictures of our stays. Sign up for a free account to access exclusive membership deals and get up to 40% off your bookings! Most hotels offer flexible cancellation policies, making it a great site for planning your next adventure with confidence, knowing you've seen a legit review to help guide your choice.
 </p>
+<ResponsiveIframe src="https://shopmy.us/collections/public/693097?noHeader=true" title="Eye Makeup Essentials" />
+
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
                 <BookNowButton href="https://go.shopmy.us/p-6594014" target="_blank" rel="noopener noreferrer"/>
             </div>
