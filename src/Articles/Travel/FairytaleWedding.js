@@ -183,7 +183,7 @@ the International School of Brussels, where we became each other's first “real
      
   
 <p style={paragraphStyle}>
-In 2018, our paths crossed again in Manhattan—serendipity at its best! Tyler had moved to the city, and I was nearby on a brand trip. We went on a date, 11 years after we last said goodbye in person, and didn’t leave each other’s side since. After moving in together on the Upper West Side, Tyler orchestrated a <a href="https://www.youtube.com/watch?v=-LLQLc6imXA" target="_blank" rel="noreferrer" style={{ color: 'black' }}>surprise proposal</a>  in 2021 during a <a href = "https://www.instagram.com/lostlandscollections/?igsh=dmprdjJybWo5OWFx" style={{ color: 'black' }} target="_blank" rel="noreferrer" >@lostlandscollections</a> fairytale photo shoot in Connecticut which made me feel like a total princess.
+In 2018, our paths crossed again in Manhattan—serendipity at its best! Tyler had moved to the city, and I was nearby on a brand trip. We went on a date, 11 years after we last said goodbye in person, and didn’t leave each other’s side since. After moving in together on the Upper West Side, Tyler orchestrated a <a href="https://www.youtube.com/watch?v=-LLQLc6imXA" target="_blank" rel="noreferrer" style={{ color: 'black' }}>surprise proposal</a>  in 2021 during a <a href = "https://www.instagram.com/lostlandscollections/?igsh=dmprdjJybWo5OWFx" style={{ color: 'black' }}target="_blank" rel="noreferrer" >@lostlandscollections</a> fairytale photo shoot in Connecticut which made me feel like a total princess.
 </p>
 
 <div style={gridContainerStyle}>
@@ -262,7 +262,7 @@ Pop Culture Bridal Makeup & Hair Inspirations
    
 
   <p style={paragraphStyle}>
-    My bridal beauty style was a blend of whimsical enchantment and cinematic romance—echoing the regal elegance of Christine from "Phantom of the Opera," with a touch of beachy flair à la "Mamma Mia." I adorned my veil and bridesmaids' hair with handmade flower pins similar to Sophie’s. For a sheer flower pin tutorial, stay tuned on <a href = "https://www.instagram.com/jackiewyers/?hl=en" target="_blank" rel="noreferrer">Instagram</a>.
+    My bridal beauty style was a blend of whimsical enchantment and cinematic romance—echoing the regal elegance of Christine from "Phantom of the Opera," with a touch of beachy flair à la "Mamma Mia." I adorned my veil and bridesmaids' hair with handmade flower pins similar to Sophie’s. For a sheer flower pin tutorial, stay tuned on <a style={{ color: 'black' }} href = "https://www.instagram.com/jackiewyers/?hl=en" target="_blank" rel="noreferrer">Instagram</a>.
 </p>
 
 <div
@@ -282,7 +282,7 @@ style = {{
 
 
 <p style={paragraphStyle}>
-For makeup, I drew inspiration from <a href = "https://www.youtube.com/watch?v=LtTc3qCVtdE&t=332s" target = "_blank" rel="noreferrer">Taylor Hill’s wedding makeup</a>, emphasizing bold cheeks and deeper, pouty lips in romantic, blushy shades. I swept champagne across the lids with barely there winged liner and outer corner lashes. <a href="https://shopmy.us/collections/677004" target="_blank" rel="noreferrer">Charlotte Tilbury,</a>  Saie Beauty & Florasis were some of my top brands I chose to create my look.
+For makeup, I drew inspiration from <a style={{ color: 'black' }} href = "https://www.youtube.com/watch?v=LtTc3qCVtdE&t=332s" target = "_blank" rel="noreferrer">Taylor Hill’s wedding makeup</a>, emphasizing bold cheeks and deeper, pouty lips in romantic, blushy shades. I swept champagne across the lids with barely there winged liner and outer corner lashes. <a href="https://shopmy.us/collections/677004" target="_blank" rel="noreferrer">Charlotte Tilbury,</a>  Saie Beauty & Florasis were some of my top brands I chose to create my look.
 </p>
 
 <p style={paragraphStyle}>
@@ -290,7 +290,7 @@ Though pulling from several different beauty inspirations doesn’t always creat
 </p>
 
 <p style={paragraphStyle}>
-Finally for nails, I’m the biggest <a href = "https://oliveandjune.com/collections/press-on-nails/products/milky-syrup-gradient-press-on-medium-almond?irclickid=V71S4RwqwxyKThwTSETAVXaQUkC2AlW1rStwwQ0&utm_source=Impact&utm_medium=2340682&utm_campaign=Online%20Tracking%20Link&irgwc=1" target="_blank" rel= "noreferrer">Olive & June</a> fan and went with an almond, medium length nude manicure that lasted me 2 full weeks for $10. Forever wearing glue ons.
+Finally for nails, I’m the biggest <a style={{ color: 'black' }} href = "https://oliveandjune.com/collections/press-on-nails/products/milky-syrup-gradient-press-on-medium-almond?irclickid=V71S4RwqwxyKThwTSETAVXaQUkC2AlW1rStwwQ0&utm_source=Impact&utm_medium=2340682&utm_campaign=Online%20Tracking%20Link&irgwc=1" target="_blank" rel= "noreferrer">Olive & June</a> fan and went with an almond, medium length nude manicure that lasted me 2 full weeks for $10. Forever wearing glue ons.
 </p>
 
   <h2 style={headingStyle}>
@@ -298,7 +298,7 @@ Finally for nails, I’m the biggest <a href = "https://oliveandjune.com/collect
   </h2>
 
   <p style={paragraphStyle}>
-  My gown, a custom creation by <a href="https://www.instagram.com/veranderwest" target="_blank" rel= "noreferrer">Verander West</a> is called the "Elizabeth" and was inspired by Queen Elizabeth Tudor, featuring a dramatic shape I had never worn before. The opulence! I chose champagne ivory instead of classic white, as I love earthy shades and knew we would have the ceremony at golden hour, making for soft, dreamy photos.
+  My gown, a custom creation by <a  style={{ color: 'black' }} href="https://www.instagram.com/veranderwest" target="_blank" rel= "noreferrer">Verander West</a> is called the "Elizabeth" and was inspired by Queen Elizabeth Tudor, featuring a dramatic shape I had never worn before. The opulence! I chose champagne ivory instead of classic white, as I love earthy shades and knew we would have the ceremony at golden hour, making for soft, dreamy photos.
 </p>
            
 <div style={gridContainerStyle}>
@@ -328,7 +328,7 @@ style = {{
 </p>
 
 <p style={paragraphStyle}>
-I bought my wedding gown during a trip to New Zealand, visiting <a href = "https://www.instagram.com/natalierosebridal/" target="_blank" rel="noreferrer">Natalie Rose Bridal</a>. While I tried on many stunning gowns—see the contenders <a href="https://www.youtube.com/watch?v=UQU9Fufug4M&t=196s" target="_blank" rel = "noreferrer" style={{ color: 'black' }}>here</a>—what made this Verander West design special from the upcoming <a href="https://veranderwest.com/coronation/" target="_blank" rel="noreferrer"> Coronation Collection</a> was the removable skirt for a two-in-one look.
+I bought my wedding gown during a trip to New Zealand, visiting <a style={{ color: 'black' }} href = "https://www.instagram.com/natalierosebridal/" target="_blank" rel="noreferrer">Natalie Rose Bridal</a>. While I tried on many stunning gowns—see the contenders <a href="https://www.youtube.com/watch?v=UQU9Fufug4M&t=196s" target="_blank" rel = "noreferrer" style={{ color: 'black' }}>here</a>—what made this Verander West design special from the upcoming <a href="https://veranderwest.com/coronation/" target="_blank" rel="noreferrer"> Coronation Collection</a> was the removable skirt for a two-in-one look.
 </p>
 
 
