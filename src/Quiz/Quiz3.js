@@ -90,17 +90,17 @@ const Quiz3 = () => {
     const total = finalAnswers.reduce((acc, curr) => acc + curr, 0);
 
     let result;
-    if (total <= 7) {
+    if (total <= 10) {
       result = 'Fairytale Wedding - Bacarra';
-    } else if (total <= 14) {
-      result = 'Royal Wedding - Abril';
-    } else if (total <= 21) {
-      result = 'Vintage Glamour - Percy';
-    } else if (total <= 28) {
-      result = 'Old Money - Ora';
-    } else if (total <= 35) {
+    } else if (total <= 18) {
       result = 'Fairytale Wedding - Elizabeth';
+    } else if (total <= 26) {
+      result = 'Vintage Glamour - Percy';
+    } else if (total <= 34) {
+      result = 'Old Money - Ora';
     } else if (total <= 42) {
+      result = 'Royal Wedding - Abril';
+    } else if (total <= 48) {
       result = 'Vintage Glamour - Porsha';
     } else {
       result = 'Old Money - Zara';
@@ -109,10 +109,10 @@ const Quiz3 = () => {
     // Redirect to the result page based on the calculated result
     switch (result) {
       case 'Fairytale Wedding - Bacarra': navigate('/bacarra'); break;
-      case 'Royal Wedding - Abril': navigate('/abril'); break;
+      case 'Fairytale Wedding - Elizabeth': navigate('/elizabeth'); break;
       case 'Vintage Glamour - Percy': navigate('/percy'); break;
       case 'Old Money - Ora': navigate('/ora'); break;
-      case 'Fairytale Wedding - Elizabeth': navigate('/elizabeth'); break;
+      case 'Royal Wedding - Abril': navigate('/abril'); break;
       case 'Vintage Glamour - Porsha': navigate('/porsha'); break;
       case 'Old Money - Zara': navigate('/zara'); break;
       default: navigate('/');
@@ -182,3 +182,4 @@ const Quiz3 = () => {
 };
 
 export default Quiz3;
+
