@@ -210,7 +210,7 @@ Speaking of Audrey, Ariana Grandeâ€™s bridal look is a modern take on the 1950â€
     <div style = {{ marginTop: '2rem' }}>
 <AdSenseAd/>
 
-    </div>a
+    </div>
                
       
     </div>

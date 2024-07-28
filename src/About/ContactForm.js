@@ -55,7 +55,7 @@ const ContactForm = () => {
                 className={styles.input}
                 placeholder="Full name"
               />
-              {formik.touched.fullName && formik.errors.fullName ? <div>{formik.errors.fullName}</div> : null}
+              {formik.touched.fullName && formik.errors.fullName ? <div className={styles.error}>{formik.errors.fullName}</div> : null}
               
               <input
                 type="email"
@@ -66,7 +66,7 @@ const ContactForm = () => {
                 className={styles.input}
                 placeholder="Email address"
               />
-              {formik.touched.emailAddress && formik.errors.emailAddress ? <div>{formik.errors.emailAddress}</div> : null}
+              {formik.touched.emailAddress && formik.errors.emailAddress ? <div className={styles.error}>{formik.errors.emailAddress}</div> : null}
               
               <input
                 type="text"
@@ -77,7 +77,7 @@ const ContactForm = () => {
                 className={styles.input}
                 placeholder="Company name"
               />
-              {formik.touched.companyName && formik.errors.companyName ? <div>{formik.errors.companyName}</div> : null}
+              {formik.touched.companyName && formik.errors.companyName ? <div className={styles.error}>{formik.errors.companyName}</div> : null}
               
               <textarea
                 name="message"
@@ -87,7 +87,7 @@ const ContactForm = () => {
                 className={`${styles.input} ${styles.textarea}`}
                 placeholder="Message"
               />
-              {formik.touched.message && formik.errors.message ? <div>{formik.errors.message}</div> : null}
+              {formik.touched.message && formik.errors.message ? <div className={styles.error}>{formik.errors.message}</div> : null}
               
               <button type="submit" className={styles.button}>SEND</button>
             </form>
