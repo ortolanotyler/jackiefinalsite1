@@ -34,7 +34,7 @@ const QuizHomepage = () => {
         </script>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
       </Helmet>
-            <TextReveal text='THE ULTIMATE 2025 WEDDING DRESS QUIZ' style = {{backgroundColor: 'white', fontSize: '0.55rem'}} />
+            <TextReveal text='ULTIMATE WEDDING DRESS GUIDE - 2025' style = {{backgroundColor: 'white', fontSize: '0.25rem'}} />
             <Grid container justifyContent="center">
                
                
