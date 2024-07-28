@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Quiz1.css';
 import { Helmet } from 'react-helmet';
+import AdSenseAd from '../Advertising/Ads';
 
 const Quiz3 = () => {
   const navigate = useNavigate();
@@ -121,6 +122,7 @@ const Quiz3 = () => {
 
   return (
     <div className="quiz-container">
+      <div>
       <Helmet>
         <title>The Ultimate 2025 Wedding Dress Guide</title>
         <meta name="description" content="Find your perfect wedding dress style with our fun and interactive quiz! Discover which wedding dress matches your dream wedding location, style, and more." />
@@ -178,6 +180,9 @@ const Quiz3 = () => {
         </div>
       )}
     </div>
+  
+      <AdSenseAd/>
+      </div>
   );
 };
 
