@@ -6,6 +6,7 @@ import AdSenseAd from '../Advertising/Ads';
 import { Helmet } from'react-helmet';
 import Quiz3 from './Quiz3';
 import Quiz2 from './Quiz2';
+import EmailSubscribe from '../Components/EmailSubscribe';
 
 const QuizHomepage = () => {
     return (
@@ -34,7 +35,7 @@ const QuizHomepage = () => {
         </script>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
       </Helmet>
-            <TextReveal text='ULTIMATE WEDDING DRESS GUIDE - 2025' style = {{backgroundColor: 'white', fontSize: '0.25rem'}} />
+            <TextReveal text='FIND YOUR DREAM WEDDING DRESS QUIZ!' style = {{backgroundColor: 'white', fontSize: '0.25rem'}} />
             <Grid container justifyContent="center">
                
                
@@ -57,6 +58,10 @@ const QuizHomepage = () => {
             </Grid>
             <div style={{margin: '10px'}}>
                 <AdSenseAd/>
+                </div>
+
+<div style = {{marginBottom: '20px', marginTop: '20px' }}>
+                <EmailSubscribe/>
                 </div>
              
         </div>
