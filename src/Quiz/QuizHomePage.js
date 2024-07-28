@@ -58,11 +58,7 @@ const QuizHomepage = () => {
             <div style={{margin: '10px'}}>
                 <AdSenseAd/>
                 </div>
-                <div style={{margin: '10px'}}>
-                <AdSenseAd/>
-                </div> <div style={{margin: '10px'}}>
-                <AdSenseAd/>
-                </div>
+             
         </div>
     );
 };
