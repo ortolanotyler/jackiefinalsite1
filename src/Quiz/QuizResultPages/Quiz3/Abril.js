@@ -190,13 +190,10 @@ Grace Kelly’s bridal look may be great inspiration for you! See article below 
 
       <Comments website-id={websiteId} page-id={"quiz3"} />
 
-      <div style={{margin: '20px'}}>
+      
                 <AdSenseAd/>
-                </div><div style={{margin: '20px'}}>
                 <AdSenseAd/>
-                </div><div style={{margin: '20px'}}>
                 <AdSenseAd/>
-                </div>
       
     </div>
     
