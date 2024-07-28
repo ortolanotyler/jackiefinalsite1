@@ -59,7 +59,6 @@ export default function QuiltedImageList1() {
           <img
             src={item.img}
             alt={item.title}
-            loading="lazy"
           />
         </ImageListItem>
       ))}
