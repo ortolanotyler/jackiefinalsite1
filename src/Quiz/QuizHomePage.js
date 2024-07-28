@@ -41,6 +41,12 @@ const QuizHomepage = () => {
                 <Grid item xs={12}>
                     <Quiz3 />
                 </Grid>
+                <Grid item xs={12}>
+                <div style={{margin: '10px'}}>
+                <AdSenseAd/>
+                </div>
+                </Grid>
+              
                 <TextReveal text='🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊' style ={{backgroundColor:'white'}} />
                 <Grid item xs={12}>
                     <Quiz2 />
@@ -49,12 +55,12 @@ const QuizHomepage = () => {
            
                 
             </Grid>
-            <div style={{margin: '20px'}}>
+            <div style={{margin: '10px'}}>
                 <AdSenseAd/>
                 </div>
-                <div style={{margin: '20px'}}>
+                <div style={{margin: '10px'}}>
                 <AdSenseAd/>
-                </div> <div style={{margin: '20px'}}>
+                </div> <div style={{margin: '10px'}}>
                 <AdSenseAd/>
                 </div>
         </div>
