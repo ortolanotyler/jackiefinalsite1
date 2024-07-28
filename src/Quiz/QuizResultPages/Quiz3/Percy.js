@@ -13,9 +13,9 @@ import TakeQuizButton from '../../../Components/TakeQuizButton';
 
 const title = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/percytitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/percy1.jpg`;
-const image2 = `${process.env.PUBLIC_URL}/images/Quiz/Quiz3/percy2.jpeg`;
-const image3 = `${process.env.PUBLIC_URL}/images/Quiz/Quiz3/percy3.jpg`;
-const image4 = `${process.env.PUBLIC_URL}/images/Quiz/Quiz3/percy4.jpg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/percy2.jpeg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/percy3.jpg`;
+const image4 = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/percy4.jpg`;
 
 
 

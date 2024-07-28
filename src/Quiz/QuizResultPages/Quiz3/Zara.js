@@ -12,9 +12,9 @@ import AdSenseAd from '../../../Advertising/Ads';
 
 const title = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/zaratitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/zara1.jpg`;
-const image2 = `${process.env.PUBLIC_URL}/images/Quiz/Quiz3/zara2.jpg`;
-const image3 = `${process.env.PUBLIC_URL}/images/Quiz/Quiz3/zara3.jpg`;
-const image4 = `${process.env.PUBLIC_URL}/images/Quiz/Quiz3/zara4.jpg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/zara2.jpg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/zara3.jpg`;
+const image4 = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/zara4.jpg`;
 
 
 

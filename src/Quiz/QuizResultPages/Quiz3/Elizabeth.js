@@ -13,10 +13,10 @@ import TakeQuizButton from '../../../Components/TakeQuizButton';
 
 const title = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/elizabethtitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/elizabeth1.jpg`;
-const image2 = `${process.env.PUBLIC_URL}/images/Quiz/Quiz3/elizabeth2.jpg`;
-const image3 = `${process.env.PUBLIC_URL}/images/Quiz/Quiz3/elizabeth3.jpg`;
-const image4 = `${process.env.PUBLIC_URL}/images/Quiz/Quiz3/elizabeth5.jpg`;
-const image5 = `${process.env.PUBLIC_URL}/images/Quiz/Quiz3/elizabeth4.jpg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/elizabeth2.jpg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/elizabeth3.jpg`;
+const image4 = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/elizabeth5.jpg`;
+const image5 = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/elizabeth4.jpg`;
 
 
 
