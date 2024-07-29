@@ -62,7 +62,7 @@ const QuizHomepage = () => {
             </Grid>
           
 
-<div style = {{marginBottom: '20px', marginTop: '20px' }}>
+<div style = {{margin :'20px' }}>
                 <EmailSubscribe/>
                 </div>
              

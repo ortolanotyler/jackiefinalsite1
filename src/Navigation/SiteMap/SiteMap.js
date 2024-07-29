@@ -23,7 +23,6 @@ const Sitemap = () => {
         { path: "/nomakeupspring", title: "No Makeup Spring" },
         { path: "/bardothairstyles", title: "Bardot Hairstyles" },
         { path: "/animalpretty", title: "Animal Pretty" },
-
     ];
 
     const stylePosts = [
@@ -41,7 +40,6 @@ const Sitemap = () => {
         { path: "/cpsummer", title: "Cottagecore Princess Summer" },
         { path: "/sleekspring", title: "Sleek Spring" },
         { path: "/parisprincess", title: "Paris Princess" },
-
     ];
 
     const siteResources = [
@@ -52,6 +50,7 @@ const Sitemap = () => {
         { path: "/subscribe", title: "Newsletter Sign Up" },
         { path: "/quiz", title: "Quiz Home" },
         { path: "/quiz2", title: "Quiz 2" },
+        { path: "/quiz3", title: "Quiz 3" },
         { path: "/vlogs", title: "Vlogs Home" },
         { path: "/travel", title: "Travel Home" },
         { path: "/contact", title: "Contact" },
@@ -70,7 +69,6 @@ const Sitemap = () => {
         { path: "/newzealand", title: "New Zealand Travel Blog" },
         { path: "/fable", title: "Fable Auckland Review" },
         { path: "/fairytalewedding", title: "Jackie Wyers Wedding in Sorrento, Italy" },
-
     ];
 
     const reviewPosts = [
@@ -81,13 +79,18 @@ const Sitemap = () => {
     ];
 
     const additionalPosts = [
-     
         { path: "/summerbeauty", title: "Summer Beauty" },
         { path: "/bridesmaidboxes", title: "Diary Bridesmaids" },
-{ path: "/perioddrama", title: "Period Drama" },
-{ path: "/bridalmakeup", title: "Bridal Makeup" },
-
-       
+        { path: "/perioddrama", title: "Period Drama" },
+        { path: "/bridalmakeup", title: "Bridal Makeup" },
+        { path: "/bacarra", title: "Bacarra" },
+        { path: "/abril", title: "Abril" },
+        { path: "/percy", title: "Percy" },
+        { path: "/ora", title: "Ora" },
+        { path: "/zara", title: "Zara" },
+        { path: "/elizabeth", title: "Elizabeth" },
+        { path: "/porsha", title: "Porsha" },
+        { path: "/weddingdressguide", title: "Wedding Dress Guide" },
     ];
 
     return (
@@ -145,22 +148,23 @@ const Sitemap = () => {
                 <h2 className={`${styles.heading} ${styles.subHeading}`}>MyStyle</h2>
                 <ul className={styles.list}>
                     {stylePosts.map((post, index) => (
-                        <li key={index} className={styles.listItem}>
-                            <Link to={post.path} className={styles.link}>{post.title}</Link>
-                        </li>
-                    ))}
-                </ul>
-                <h2 className={`${styles.heading} ${styles.subHeading}`}>Additional Posts</h2>
-                <ul className={styles.list}>
-                    {additionalPosts.map((post, index) => (
-                        <li key={index} className={styles.listItem}>
-                            <Link to={post.path} className={styles.link}>{post.title}</Link>
-                        </li>
-                    ))}
-                </ul>
-            </div>
-        </>
-    );
+                        <li key={                        index} className={styles.listItem}>
+                        <Link to={post.path} className={styles.link}>{post.title}</Link>
+                    </li>
+                ))}
+            </ul>
+            <h2 className={`${styles.heading} ${styles.subHeading}`}>Additional Posts</h2>
+            <ul className={styles.list}>
+                {additionalPosts.map((post, index) => (
+                    <li key={index} className={styles.listItem}>
+                        <Link to={post.path} className={styles.link}>{post.title}</Link>
+                    </li>
+                ))}
+            </ul>
+        </div>
+    </>
+);
 };
 
 export default Sitemap;
+
