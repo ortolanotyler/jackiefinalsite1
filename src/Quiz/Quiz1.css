@@ -1,39 +1,40 @@
 .quiz-container {
-  max-width: 1000px; /* Set maximum width */
+  max-width: 800px; /* Adjusted maximum width */
   margin: auto;
-  padding: 30px;
+  padding: 20px; /* Reduced padding */
   text-align: center;
   background-color: #fdedef;
-  margin-bottom: 25px;
+  margin-bottom: 20px; /* Reduced margin */
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 100vh; /* Set maximum height */
 }
 
 .question-section {
-  margin-bottom: 20px;
+  margin-bottom: 15px; /* Reduced margin */
 }
 
 .question-count {
-  font-size: 18px;
+  font-size: 16px; /* Reduced font size */
   color: #745b4f;
 }
 
 .question-text {
-  font-size: 24px;
+  font-size: 15px; /* Reduced font size */
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 10px; /* Adjusted margin */
   color: #745b4f;
 }
 
 .answer-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2-column layout */
-  gap: 10px;
+  gap: 8px; /* Reduced gap */
 }
 
 .answer-button {
   color: white;
-  font-size: 18px;
+  font-size: 18px; /* Reduced font size */
   cursor: pointer;
   border: none;
   background-color: transparent;
@@ -45,6 +46,7 @@
   background-repeat: no-repeat;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9); /* Added a more prominent shadow */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 8px; /* Adjusted padding */
 }
 
 .answer-button:hover {
@@ -56,33 +58,33 @@
   max-width: 50%;
   margin: auto;
   text-align: center;
-  padding: 20px;
+  padding: 15px; /* Reduced padding */
   background-color: #f3f3f3;
   border-radius: 12px;
-  margin-top: 20px;
+  margin-top: 10px; /* Adjusted margin */
   box-shadow: 1 6px 8px rgba(0, 0, 0, 0.9);
 }
 
 @media (max-width: 800px) {
   .quiz-container {
     max-width: calc(100% - 20px); /* Make it wider and reduce margin */
-    margin: 15px; /* Small margin from sides */
-    padding: 20px; /* Adjust padding for smaller screens */
+    margin: 10px; /* Small margin from sides */
+    padding: 10px; /* Adjust padding for smaller screens */
   }
 
   .answer-section {
-    grid-template-columns: repeat(2, 1fr); /* 2-column layout */
+    grid-template-columns: 1fr; /* 1-column layout */
   }
 
   .answer-button {
-    min-height: 10vh; /* Set minimum height to 15% of viewport height */
-    padding: 15px;
+    min-height: 12vh; /* Set minimum height to 10% of viewport height */
+    padding: 10px; /* Adjusted padding */
   }
 }
 
 @media (min-width: 801px) {
   .answer-button {
-    min-height: 200px; /* Adjust min-height for larger screens */
+    min-height: 22.5vh; /* Set minimum height to 20% of viewport height */
   }
 }
 

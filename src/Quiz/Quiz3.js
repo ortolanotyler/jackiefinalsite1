@@ -9,7 +9,6 @@ const Quiz3 = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState([]);
   const [showResults, setShowResults] = useState(false);
-  const [buttonHeight, setButtonHeight] = useState('auto');
 
   const quizQuestions = [
     {
@@ -26,7 +25,7 @@ const Quiz3 = () => {
     {
       question: "Which dresses are you most drawn to?",
       options: [
-        { text: "Romantic and whimsical 💕", value: 1, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/6button.jpg` },
+        { text: "Romantic and whimsical 💕", value: 1, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/5button.jpg` },
         { text: "Princesscore 👑", value: 2, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/c.jpeg` },
         { text: "Simple & Timeless 🎩", value: 3, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/d.jpeg` },
         { text: "Elegant and sophisticated 💍", value: 4, backgroundImage: `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/8button.jpg` },
@@ -90,20 +89,7 @@ const Quiz3 = () => {
       ],
     },
   ];
-
-  useEffect(() => {
-    const updateButtonHeight = () => {
-      const vh = window.innerHeight;
-      const headerHeight = document.querySelector('.question-section').offsetHeight;
-      const remainingHeight = vh - headerHeight - 40; // Adjusting for padding and margins
-      const buttonHeight = Math.floor(remainingHeight / 3) - 10; // Adjusting for gap and 3 rows
-      setButtonHeight(buttonHeight);
-    };
-
-    updateButtonHeight();
-    window.addEventListener('resize', updateButtonHeight);
-    return () => window.removeEventListener('resize', updateButtonHeight);
-  }, [currentQuestionIndex]);
+  
 
   const handleAnswerClick = (value) => {
     setAnswers([...answers, value]);
@@ -136,7 +122,6 @@ const Quiz3 = () => {
       result = 'Bridgerton Vibes - Zara';
     }
 
-    // Redirect to the result page based on the calculated result
     switch (result) {
       case 'Fairytale Wedding - Bacarra': navigate('/bacarra'); break;
       case 'Fairytale Wedding 2 - Elizabeth': navigate('/elizabeth'); break;
@@ -179,7 +164,6 @@ const Quiz3 = () => {
       {!showResults ? (
         <>
           <div className="question-section">
-           
             <div className="question-text">{quizQuestions[currentQuestionIndex].question}</div>
           </div>
           <div className="answer-section">
@@ -187,13 +171,10 @@ const Quiz3 = () => {
               <button
                 key={index}
                 className="answer-button"
-                style={{
-                  height: `${buttonHeight}px`,
-                  backgroundImage: `url(${option.backgroundImage})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                }}
                 onClick={() => handleAnswerClick(option.value)}
+                style={{
+                  backgroundImage: `url(${option.backgroundImage})`,
+                }}
               >
                 {option.text}
               </button>
@@ -206,7 +187,7 @@ const Quiz3 = () => {
           <button onClick={() => navigate('/')}>Go Home</button>
         </div>
       )}
-      <AdSenseAd />
+    
     </div>
   );
 };

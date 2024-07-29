@@ -43,7 +43,9 @@ const QuizHomepage = () => {
                     <Quiz3 />
                 </Grid>
                 <Grid item xs={12}>
-               
+                <div style={{ marginTop: '20px' }}>
+        <AdSenseAd />
+      </div>
                 </Grid>
               
                 <TextReveal text='🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊' style ={{backgroundColor:'white'}} />
@@ -51,7 +53,11 @@ const QuizHomepage = () => {
                     <Quiz2 />
                 </Grid>
                 
-           
+           <Grid item xs={12}>
+           <div style={{ marginTop: '20px' }}>
+        <AdSenseAd />
+      </div>
+           </Grid>
                 
             </Grid>
           
