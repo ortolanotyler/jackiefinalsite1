@@ -1,5 +1,5 @@
 .quiz-container {
-  max-width: 50%; /* Default width for medium-sized screens */
+  max-width: 1000px; /* Set maximum width */
   margin: auto;
   padding: 30px;
   text-align: center;
@@ -27,13 +27,12 @@
 
 .answer-section {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr); /* 2-column layout */
   gap: 10px;
 }
 
 .answer-button {
   color: white;
-  min-height: 250px;
   font-size: 18px;
   cursor: pointer;
   border: none;
@@ -44,7 +43,7 @@
   background-position: center;
   font-family: GFS Didot;
   background-repeat: no-repeat;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9); /* Added a more prominent shadow */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -61,23 +60,29 @@
   background-color: #f3f3f3;
   border-radius: 12px;
   margin-top: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 1 6px 8px rgba(0, 0, 0, 0.9);
 }
 
 @media (max-width: 800px) {
   .quiz-container {
     max-width: calc(100% - 20px); /* Make it wider and reduce margin */
-    margin: 10px; /* Small margin from sides */
+    margin: 15px; /* Small margin from sides */
     padding: 20px; /* Adjust padding for smaller screens */
   }
 
   .answer-section {
-    grid-template-columns: 1fr; /* Single column layout for answer buttons */
+    grid-template-columns: repeat(2, 1fr); /* 2-column layout */
   }
 
   .answer-button {
-    min-height: 120px;
+    min-height: 10vh; /* Set minimum height to 15% of viewport height */
     padding: 15px;
+  }
+}
+
+@media (min-width: 801px) {
+  .answer-button {
+    min-height: 200px; /* Adjust min-height for larger screens */
   }
 }
 

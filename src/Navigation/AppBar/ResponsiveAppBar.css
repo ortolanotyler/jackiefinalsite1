@@ -34,8 +34,8 @@
 
 @media (max-width: 768px) {
   .responsive-button {
-    padding: 0.2rem;
-    font-size: 0.7rem;
+    padding: 0.1rem;
+    font-size: 0.5rem;
   }
 }
 
@@ -45,8 +45,3 @@
     font-size: 0.6rem;
   }
 }
-
-
-  
-  
-  
