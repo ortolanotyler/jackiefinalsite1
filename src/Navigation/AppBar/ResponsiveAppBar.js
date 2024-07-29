@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
   AppBar,
@@ -44,6 +44,7 @@ const shopOptions = [
 const tutorialOptions = [
   { name: 'All Tutorials', path: '/tutorials' },
   { name: 'Bridal', path: '/bridal' },
+
   { name: 'Trending Now', path: '/trends' },
   { name: 'Pop Culture', path: '/popculture' },
   { name: 'Vintage Vibes', path: '/timetraveltutorials' },
@@ -57,27 +58,6 @@ function ResponsiveAppBar() {
   const [anchorElBeyond, setAnchorElBeyond] = useState(null);
   const [anchorElAbout, setAnchorElAbout] = useState(null); // New state for About dropdown
   const [isSidebarOpen, setIsSidebarOpen] = useState(false); // Sidebar state
-  const [isNavbarVisible, setIsNavbarVisible] = useState(true); // State to control navbar visibility
-  const [lastScrollY, setLastScrollY] = useState(0); // State to keep track of last scroll position
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollY = window.scrollY;
-      if (currentScrollY > lastScrollY) {
-        // Scrolling down
-        setIsNavbarVisible(false);
-      } else {
-        // Scrolling up
-        setIsNavbarVisible(true);
-      }
-      setLastScrollY(currentScrollY);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, [lastScrollY]);
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
@@ -126,11 +106,9 @@ function ResponsiveAppBar() {
         sx={{
           fontFamily: 'GFS Didot, serif',
           backgroundColor: '#FDEDEF',
-          marginBottom: '1px',
+         marginBottom: '1px',
           width: '100%',
-          zIndex: 1200,
-          transition: 'top 0.3s',
-          top: isNavbarVisible ? '0' : '-80px', // Adjust the value of -80px based on your navbar height
+          zIndex: 1200, // Ensure it stays above other content but below the sidebar
         }}
       >
         <Container maxWidth="false" disableGutters>
