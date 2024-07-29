@@ -144,7 +144,7 @@ const imageStyle = {
 <SubscribeButton />
 </div>
 
-<BridalDropCap text="Welcome back for another bridal article! I had the trip of a lifetime visiting New Zealand with my mom, and we had the pleasure of booking a bridal appointment at the cutest fairytale-inspired bridal shop called Natalie Rose Bridal in Auckland! I tried on a bunch of dresses from Eva Mendel’s latest bridal collection, and I hope seeing these wedding dresses will be helpful for 2025 brides to get an idea of what shape and style you might like for your big day!" />
+<BridalDropCap text="Welcome back for another bridal article! I had the trip of a lifetime visiting New Zealand with my mom, and we had the pleasure of booking a bridal appointment at the cutest fairytale-inspired bridal shop called Natalie Rose Bridal in Auckland! I tried on a bunch of dresses from Eva Lendel’s latest bridal collection, and I hope seeing these wedding dresses will be helpful for 2025 brides to get an idea of what shape and style you might like for your big day!" />
 
 
 
