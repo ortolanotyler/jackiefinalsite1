@@ -35,9 +35,9 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
         className={styles.sidebar}
         sx={{
           width: '25vw',
-          height: '100vh',
+          height: '100%',
           backgroundColor: '#FDEDEF',
-          padding: '0.5rem',
+          padding: '2rem',
           fontFamily: 'GFS Didot, serif',
           position: 'relative',
           display: 'flex',

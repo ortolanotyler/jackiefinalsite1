@@ -21,7 +21,7 @@ const ImageContainer = styled('div')(({ theme }) => ({
 
 const StyledImage = styled('img')(({ theme }) => ({
   width: '100%',
-  maxWidth: '700px',
+  maxWidth: '800px',
   height: 'auto',
   borderRadius: '5px',
   boxShadow: '0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.5)',
