@@ -15,7 +15,7 @@ const image3 = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/3.JPG`;
 const image4 = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/4.JPG`;
 const image5 = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/5.JPG`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/6.JPG`;
-const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEBRIDAL.jpeg`;
+const diy = `${process.env.PUBLIC_URL}/Images/Articles/MammaMia/mammamiathumb.png`;
 
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
@@ -50,7 +50,7 @@ const DiaryBridesmaids = () => {
   const imageStyle = {
     display: 'block',
     margin: '0 auto',
-    maxWidth: '100%',
+    maxWidth: '600px',
     height: 'auto'
 };
 
@@ -159,7 +159,7 @@ style = {{
       I’ll share an article on how I went about planning the wedding, including details about my custom wedding dress and accessories. But for today’s article, let’s talk DIY bridesmaid proposal boxes!
      </p>
 
-     <div>
+     <div style = {imageStyle}>
         <img src={image1} alt="Signature" style={{ width: '100%' }} />
       </div>
       
@@ -179,8 +179,8 @@ If you are a bride-to-be looking for inspiration for your own bridesmaid boxes, 
 </p>
 
 
-<div>
-        <img src={image2} alt="Signature" style={{ width: '100%' }} />
+<div style = {imageStyle}>
+<img src={image2} alt="Signature" style={{ width: '100%' }} />
       </div>
       <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
 
@@ -372,10 +372,13 @@ I hope you got some inspiration from my bridesmaid box, and if you want to see m
 </p>
 
 <div style={{ textAlign: 'center' }}>
-        <a href="/SharonTateBridal" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={sharon} alt="Vintage Vibes Merch" style={{ width: '100%', maxWidth: '1000px', display: 'block' }} />
-         MORE BRIDAL →
+<div style = {imageStyle}>
+
+        <a href="/diy-flowers" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={diy} alt="Vintage Vibes Merch" style={{ width: '100%', maxWidth: '1000px', display: 'block' }} />
+         MORE BRIDAL DIY →
         </a>
+      </div>
       </div>
 
       <div>

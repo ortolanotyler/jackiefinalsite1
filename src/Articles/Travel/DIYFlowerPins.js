@@ -8,7 +8,6 @@ import SubscribeButton from '../../Components/SubscribeButton';
 import { initGA, logPageView } from '../../analytics';
 import BridalDropCap from '../../Components/BridalDropCap';
 import { Helmet } from 'react-helmet';
-import DropCap from '../../Components/DropCap';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 
 
@@ -337,6 +336,13 @@ Alternatively, you can attach the flowers with bobby pins through the burlap loo
 Even though we were in Italy, not Greece, these flower pins and veil totally give off Mamma Mia vibes in a subtle way and I loved how they looked, especially backlit at the sun was going down.
 
 </p>
+
+<iframe
+      title="Mamma Mia Inspired Flower Pins for Brides"
+      src="https://shopmy.us/collections/public/700467?noHeader=true"
+      style={{ width: '100%', minHeight: '1000px', border: 'none' , }}
+      scrolling='no'
+    ></iframe>
 
 <p style={paragraphStyle}>
 Did you like the flower crown or the DIY veil? Let me know in the comments and share your favorite cinematic bridal moment!
