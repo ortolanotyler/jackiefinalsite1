@@ -125,7 +125,7 @@ function HomePage() {
         </script>
       </Helmet>
 
-      <Grid container spacing={2} justifyContent="center">
+      <Grid container spacing={1} justifyContent="center">
         <Grid item xs={12}>
           <TextReveal text='JACKIE WYERS' />
         </Grid>
