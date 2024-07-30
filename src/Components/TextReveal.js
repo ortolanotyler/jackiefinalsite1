@@ -5,8 +5,7 @@ const TextReveal = (props) => {
   return (
     <div className={styles.hero} style={props.style}>
       <h1 className={styles.textReveal} style={{ fontFamily: props.fontFamily }}>
-        <span>{props.text}</span>
-        <span aria-hidden="true">{props.text}</span>
+        {props.text}
       </h1>
     </div>
   );

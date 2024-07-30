@@ -1,98 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arapey&family=GFS+Didot&family=Italianno&display=swap');
 
-h1 {
-  font-family: Arapey, serif;
-  font-size: 60px; /* Use viewport width for responsiveness */
-  text-align: center;
-  font-weight: 100; /* Adjusted for a lighter font weight */
-}
-
-.textReveal {
-  --animation-duration: 0.3s; /* Reduced duration for a faster animation */
-  --animation-delay: 0s; /* No delay for faster loading */
-  
-  --1-fill-color: transparent;
-  --1-stroke-color: black;
-  --1-stroke-size: 0.5px; /* Adjusted for a lighter appearance */
-  
-  --2-fill-color: black;
-  --2-stroke-color: black;
-  --2-stroke-size: 0.05px; /* Adjusted for a lighter appearance */
-
-  --lines-color: black;
-  --lines-size: 1px;
-  
-  --text-padding: 0.5rem 0.5rem;
-  
-  display: grid;
-}
-
-.textReveal::after, .textReveal > span { 
-  grid-area: 1/1;
-  animation: var(--animation-name) var(--animation-duration) ease-in-out var(--animation-delay) forwards;
-}
-
-.textReveal > span {
-  padding: var(--text-padding);
-  color: var(--color);
-  opacity: 0; 
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-  -webkit-mask-image: var(--mask-image);
-  -webkit-mask-composite: var(--mask-composite-webkit);
-  
-  mask-repeat: no-repeat;
-  mask-position: center;
-  mask-image: var(--mask-image);
-  mask-composite: var(--mask-composite);
-  
-  -webkit-text-stroke: var(--stroke-size) var(--stroke-color);
-}
-
-.textReveal > span:nth-child(1) {
-  -webkit-text-stroke: var(--1-stroke-size) var(--1-stroke-color);
-  --color: var(--1-fill-color);
-  --mask-image: linear-gradient(white 0 0), linear-gradient(white 0 0);
-  --mask-composite-webkit: destination-out;
-  --mask-composite: exclude;
-  --animation-name: text-reveal-1;
-}
-
-.textReveal > span:nth-child(2) {
-  -webkit-text-stroke: var(--2-stroke-size) var(--2-stroke-color);
-  --color: var (--2-fill-color);
-  --mask-image: linear-gradient(black 0 0);
-  --animation-name: text-reveal-2;
-}
-
-.textReveal::after {
-  content: "";
-  z-index: 2;
-  border: var(--lines-size) solid var(--lines-color);
-  border-block: none;
-  width: 100%;
-  justify-self: center;
-  opacity: 0; 
-  --animation-name: text-reveal-lines;
-}
-
-@keyframes text-reveal-1 { 
-  0%, 100% { -webkit-mask-size: 100% 100%, 100%; mask-size: 100% 100%, 100%; opacity: 1; }
-  50% { -webkit-mask-size: 0% 100%, 100%; mask-size: 0% 100%, 100%; } 
-}
-
-@keyframes text-reveal-2 { 
-  0%, 50% { -webkit-mask-size: 0% 100%; mask-size: 0% 100%; opacity: 1; }
-  100% { -webkit-mask-size: 100% 100%; mask-size: 100% 100%; opacity: 1; } 
-}
-
-@keyframes text-reveal-lines { 
-  5%, 95% { opacity: 1; } 
-  50% { width: 0; } 
-}
-
-*, *:before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-
 .hero { 
   width: 100%; 
   margin-top: 0;
@@ -100,6 +7,25 @@ h1 {
   background-color: #FDEDEF;
   display: grid;
   place-items: center;
+}
+
+.textReveal {
+  display: inline-block;
+  opacity: 0;
+  animation: fade-in 3s forwards; /* Fade-in animation with 1-second duration */
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 1;
+  }
+}
+
+h1 {
+  font-family: Arapey, serif;
+  font-size: 60px; /* Use viewport width for responsiveness */
+  text-align: center;
+  font-weight: 100; /* Adjusted for a lighter font weight */
 }
 
 /* Responsive font size adjustments */

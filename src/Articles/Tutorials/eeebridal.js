@@ -6,9 +6,16 @@ const sharontatebridal = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBr
 const bridesmaids = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/BridesmaidBoxThumb!.jpg`;
 const bridalmakeup = `${process.env.PUBLIC_URL}/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.jpg`;
 const guide = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/guidethumbnail.jpeg`;
+const diymamma = `${process.env.PUBLIC_URL}/Images/Articles/MammaMia/mammamiathumb.png`;
 
 
 const cardsData = [
+  {
+    link: "/diy-flowers",
+    image: diymamma,
+    alt: "Mamma Mia Inspired DIY Bridal Flower Pins 🕊",
+    title: "Mamma Mia Inspired DIY Bridal Flower Pins 🕊",
+  },
   {
     link: "/weddingdressguide",
     image: guide,

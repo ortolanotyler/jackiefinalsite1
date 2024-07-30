@@ -11,6 +11,11 @@ body {
   overflow-x: hidden;
 }
 
+.bridal-drop-cap-override {
+  max-width: 500px;
+}
+
+
 .card:hover {
   transform: none !important;
 }
