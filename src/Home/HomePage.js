@@ -1,6 +1,8 @@
+// src/pages/HomePage.js
 import React, { useEffect, useRef, useState } from 'react';
-import { Grid, Box, Paper, Typography, ThemeProvider, createTheme } from '@mui/material';
+import { Grid, Box, Paper, Typography, ThemeProvider, createTheme, useMediaQuery } from '@mui/material';
 import QuiltedImageList1 from './ImageGridTutorials';
+import HeaderImage from '../Components/HeaderImageMobile';  // Correct import path
 import TextReveal from '../Components/TextReveal';
 import QuoteBanner3 from './QuoteBanner3';
 import EmailSubscribe from '../Components/EmailSubscribe';
@@ -26,6 +28,7 @@ function HomePage() {
   const videoLinkRef = useRef(null);
   const [isJiggling, setIsJiggling] = useState(false);
   const [isVideoJiggling, setIsVideoJiggling] = useState(false);
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   useEffect(() => {
     initGA();
@@ -132,11 +135,10 @@ function HomePage() {
         <Grid item xs={12}>
           <Paper elevation={10} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '10px', color: '#745B4F', textAlign: 'center' }}>
             <RotatingText />
-            
           </Paper>
         </Grid>
         <Grid item xs={12}>
-          <QuiltedImageList1 />
+          {isMobile ? <HeaderImage /> : <QuiltedImageList1 />}
         </Grid>
         <Grid item xs={12}>
           <QuoteBanner3 />
