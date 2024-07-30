@@ -1,6 +1,5 @@
 import React from 'react';
 import './RotatingText.css';
-import { Paper } from '@mui/material';
 
 const RotatingText = () => {
   // Phrases array
