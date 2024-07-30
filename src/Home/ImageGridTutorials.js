@@ -50,18 +50,22 @@ const itemData = [
 export default function QuiltedImageList1() {
   return (
     <ImageList
-      sx={{ width: '100%', height: '55vh', boxShadow: '0 0 0 0 rgba(0, 0, 0, 0.9)' }}
+      sx={{ width: '100%', height: 'auto', boxShadow: '0 0 0 0 rgba(0, 0, 0, 0.9)' }}
       variant="quilted"
       cols={4}
+      gap={8}
     >
       {itemData.map((item, index) => (
         <ImageListItem key={index} cols={item.cols || 1} rows={item.rows || 1}>
           <img
             src={item.img}
             alt={item.title}
+            loading="auto"
+            style={{ width: '100%', height: 'auto' }}
           />
         </ImageListItem>
       ))}
     </ImageList>
   );
 }
+
