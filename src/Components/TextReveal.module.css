@@ -2,13 +2,13 @@
 
 h1 {
   font-family: Arapey, serif;
-  font-size: 70px; /* Use viewport width for responsiveness */
+  font-size: 60px; /* Use viewport width for responsiveness */
   text-align: center;
   font-weight: 100; /* Adjusted for a lighter font weight */
 }
 
 .textReveal {
-  --animation-duration: 0.5s; /* Reduced duration for a faster animation */
+  --animation-duration: 0.3s; /* Reduced duration for a faster animation */
   --animation-delay: 0s; /* No delay for faster loading */
   
   --1-fill-color: transparent;
