@@ -256,6 +256,13 @@ Let’s create a subtly inspired nod to the film with this easy DIY for the #DIY
     <li>A veil with comb</li>
 </ul>
 
+<iframe
+      title="Mamma Mia Inspired Flower Pins for Brides"
+      src="https://shopmy.us/collections/public/700467?noHeader=true"
+      style={{ width: '100%', minHeight: '1000px', border: 'none' , }}
+      scrolling='no'
+    ></iframe>
+
 <h2 style={headingStyle}>Flower Petals - A Step-by-Step Guide:</h2>
 
 
@@ -337,12 +344,7 @@ Even though we were in Italy, not Greece, these flower pins and veil totally giv
 
 </p>
 
-<iframe
-      title="Mamma Mia Inspired Flower Pins for Brides"
-      src="https://shopmy.us/collections/public/700467?noHeader=true"
-      style={{ width: '100%', minHeight: '1000px', border: 'none' , }}
-      scrolling='no'
-    ></iframe>
+
 
 <p style={paragraphStyle}>
 Did you like the flower crown or the DIY veil? Let me know in the comments and share your favorite cinematic bridal moment!
