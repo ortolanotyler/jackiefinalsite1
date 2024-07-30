@@ -292,7 +292,14 @@ Let’s create a subtly inspired nod to the film with this easy DIY for the #DIY
 <p style={paragraphStyle}>
 3. For the pins, I used burlap and lace ribbon because it grips the bobby pins really well and added a bit of brightness to the centre of the flower.
 </p>
+<div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
 <p style={paragraphStyle}>
     
 4. Create a small loop with the ribbon and secure it with a hot glue gun.
@@ -306,7 +313,14 @@ Let’s create a subtly inspired nod to the film with this easy DIY for the #DIY
 <div style={gridContainerStyle}>
     <img src={image3} alt="Jackie Wyers Wedding Photography" style={imageStyle} /> 
 </div>
+<div
+style = {{
+  margin : '20px'
+}}
+>
 
+  <AdSenseAd/>
+</div>
 <p style={paragraphStyle}>
 6. To add a touch of shimmer, I used champagne beads that my mom tied together. They really catch the light and match my champagne-coloured dress perfectly.
 </p>
@@ -335,6 +349,14 @@ Alternatively, you can attach the flowers with bobby pins through the burlap loo
 <div style={gridContainerStyle}>
     <img src={image6} alt="Jackie Wyers Wedding Photography" style={imageStyle} /> 
 </div>
+<div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
 <div style={gridContainerStyle}>
     <img src={image7} alt="Jackie Wyers Wedding Photography" style={imageStyle} /> 
 </div>
@@ -343,6 +365,15 @@ Alternatively, you can attach the flowers with bobby pins through the burlap loo
 Even though we were in Italy, not Greece, these flower pins and veil totally give off Mamma Mia vibes in a subtle way and I loved how they looked, especially backlit at the sun was going down.
 
 </p>
+
+<div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
 
 
 
