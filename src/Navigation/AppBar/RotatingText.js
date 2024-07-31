@@ -16,9 +16,7 @@ const RotatingText = () => {
 
   return (
     <div className="rotating-text-container">
-
       <div className="rotating-text">{repeatedPhrases}</div>
-    
     </div>
   );
 };

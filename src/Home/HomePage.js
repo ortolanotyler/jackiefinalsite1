@@ -20,6 +20,8 @@ import VideoEmbed from './VideoEmbed';
 import { initGA, logPageView } from '../analytics';
 import AdSenseAd from '../Advertising/Ads';
 import Quiz3 from '../Quiz/Quiz3';
+import HeaderImage2 from '../Components/HeaderImageMobile2';
+import QuiltedImageList from './ImageGridTutorials';
 
 const theme = createTheme();
 
@@ -133,13 +135,15 @@ function HomePage() {
           <TextReveal text='JACKIE WYERS' />
         </Grid>
         <Grid item xs={12}>
-          <Paper elevation={10} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '10px', color: '#745B4F', textAlign: 'center' }}>
+          <Paper elevation={0} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '5px', color: '#745B4F', textAlign: 'center' }}>
             <RotatingText />
           </Paper>
         </Grid>
+     
         <Grid item xs={12}>
-          {isMobile ? <HeaderImage /> : <QuiltedImageList1 />}
+          <HeaderImage />
         </Grid>
+     
         <Grid item xs={12}>
           <QuoteBanner3 />
         </Grid>
@@ -208,7 +212,6 @@ function HomePage() {
           <ReviewFavorites />
         </Grid>
         <Grid item xs={12}>
-          <TextReveal text="FIND YOUR DREAM WEDDING DRESS QUIZ!" style={{ backgroundColor: 'white' }} />
           <Quiz3 />
         </Grid>
         <Grid item xs={12}>

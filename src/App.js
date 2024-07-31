@@ -96,6 +96,7 @@ import Elizabeth from './Quiz/QuizResultPages/Quiz3/Elizabeth';
 import Porsha from './Quiz/QuizResultPages/Quiz3/Porsha';
 import WeddingDressGuide from './Quiz/QuizResultPages/Quiz3/WeddingDressGuide';
 import DIYFlowers from './Articles/Travel/DIYFlowerPins';
+import QuiltedImageList1 from './Home/ImageGridTutorials';
 
 function usePageTracking() {
   const location = useLocation();
@@ -219,6 +220,7 @@ function App() {
             <Route path="porsha" element={<Porsha/>} />
             <Route path="weddingdressguide" element={<WeddingDressGuide/>} />
             <Route path="diy-flowers" element={<DIYFlowers/>} />
+
 
             <Route path="*" element={<h1>404 Not Found</h1>} />
           </Route>

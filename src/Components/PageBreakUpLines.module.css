@@ -1,0 +1,15 @@
+.lineContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; /* Adjust the gap size as needed */
+    width: 100%; /* Make the container take the full width */
+  }
+  
+  .line {
+    width: 100%;
+    height: 0.1px;
+    border: none;
+    background-color: #745B4F;
+  }
+  

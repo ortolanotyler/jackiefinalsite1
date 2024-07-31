@@ -1,14 +1,13 @@
 import React from 'react';
+import styles from './PageBreakUpLines.module.css';
 
-const PageLines = ({ title, description, img }) => {
-    return (
-  <div><hr style={{ height: '0.2px', border: 'none', backgroundColor: '#745B4F', marginBottom: '0.91rem', marginTop: '0.91rem'}} />
-
-  <hr style={{ height: '0.2px', border: 'none', backgroundColor: '#745B4F' ,marginBottom: '0.91rem', marginTop: '0.91rem' }} />
-</div>
-
-  
-    );
+const PageLines = () => {
+  return (
+    <div className={styles.lineContainer}>
+      <hr className={styles.line} />
+      
+    </div>
+  );
 };
 
 export default PageLines;

@@ -35,21 +35,19 @@ const itemData = [
   },
   {
     img: image5,
-    title:'Jackie Wyers New York City',
+    title: 'Jackie Wyers Hair Tutorials',
   },
   {
     img: image6,
-    title:'Jackie Wyers Barbie Margot',
+    title: 'Jackie Wyers Hair Tutorials',
   },
-    {
-        img: image7,
-        title: 'Jackie Wyers in San Diego',
-    },
-    {
-        img: image8,
-        title:"Jackie Wyers Penhaligon's Campaign",
-    },
-
+  {
+    img: image7,
+    title: 'Jackie Wyers Hair Tutorials',
+  },  {
+    img: image8,
+    title: 'Jackie Wyers Hair Tutorials',
+  },
   // ... repeat for each image ...
 
 ];
@@ -57,7 +55,7 @@ const itemData = [
 export default function QuiltedImageList1() {
   return (
     <ImageList
-      sx={{ width: '100%', height: '90vh',  boxShadow: '0 0 0 5px rgba(0, 0, 0, 0.9}' }}
+      sx={{ width: '1000px', height: 'auto',  boxShadow: '0 1px 2.5px 5px rgba(0, 0, 0, 0.9}' }}
       variant="quilted"
       cols={4}
    

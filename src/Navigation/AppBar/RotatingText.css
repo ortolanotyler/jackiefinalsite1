@@ -1,26 +1,38 @@
 .rotating-text-container {
+
   background-color: white;
-    margin-top: 1rem;
-    font-family: 'Arapey, serif';
-   
-    overflow: hidden;
-    white-space: nowrap;
-  }
-  
+  font-family: 'Arapey, serif';
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.rotating-text {
+  padding: 1rem;
+  color: #745B4F;
+  display: inline-block;
+  animation: rotate-text 100s linear infinite;
+  letter-spacing: 0.075rem; /* Increases spacing between all characters */
+  font-size: 1rem; /* Default font size */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
   .rotating-text {
-    padding: 0.45rem;
-    color: #745B4F;
-    display: inline-block;
-    animation: rotate-text 100s linear infinite;
-    letter-spacing: 0.075rem; /* Increases spacing between all characters */
+    font-size: 0.75rem; /* Adjust font size for medium screens */
   }
-  
-  @keyframes rotate-text {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-50%);
-    }
+}
+
+@media (max-width: 480px) {
+  .rotating-text {
+    font-size: 0.5rem; /* Adjust font size for smaller screens */
   }
-  
+}
+
+@keyframes rotate-text {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

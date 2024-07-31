@@ -5,26 +5,27 @@ import { styled } from '@mui/system';
 const HeaderImage = () => {
   return (
     <ImageContainer>
-      <StyledImage src={`${process.env.PUBLIC_URL}/Images/Home/MobileHome.png`} alt="Header" />
+      <StyledImage src={`${process.env.PUBLIC_URL}/Images/Home/Header1.png`} alt="Header" />
     </ImageContainer>
   );
 };
 
 const ImageContainer = styled('div')(({ theme }) => ({
   display: 'flex',
+
   justifyContent: 'center',
   alignItems: 'center',
-  width: '100%',
-  marginTop: '1rem',
-  
+  maxWidth: '100%',
+
+
+
 }));
 
 const StyledImage = styled('img')(({ theme }) => ({
   width: '100%',
-  maxWidth: '800px',
-  height: 'auto',
-  borderRadius: '5px',
-  boxShadow: '0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.5)',
+  maxWidth: '1300px',
+  height: '100%',
+
 }));
 
 export default HeaderImage;
