@@ -1,5 +1,5 @@
 // src/pages/HomePage.js
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Grid, Box, Paper, Typography, ThemeProvider, createTheme, useMediaQuery } from '@mui/material';
 import QuiltedImageList1 from './ImageGridTutorials';
 import HeaderImage from '../Components/HeaderImageMobile';  // Correct import path
@@ -28,61 +28,11 @@ const theme = createTheme();
 function HomePage() {
   const linkRef = useRef(null);
   const videoLinkRef = useRef(null);
-  const [isJiggling, setIsJiggling] = useState(false);
-  const [isVideoJiggling, setIsVideoJiggling] = useState(false);
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   useEffect(() => {
     initGA();
     logPageView();
-
-    const currentLinkRef = linkRef.current;
-    const currentVideoLinkRef = videoLinkRef.current;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsJiggling(true);
-          setTimeout(() => {
-            setIsJiggling(false);
-          }, 4000);
-        }
-      },
-      {
-        threshold: 0.1,
-      }
-    );
-
-    const videoObserver = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVideoJiggling(true);
-          setTimeout(() => {
-            setIsVideoJiggling(false);
-          }, 4000);
-        }
-      },
-      {
-        threshold: 0.1,
-      }
-    );
-
-    if (currentLinkRef) {
-      observer.observe(currentLinkRef);
-    }
-
-    if (currentVideoLinkRef) {
-      videoObserver.observe(currentVideoLinkRef);
-    }
-
-    return () => {
-      if (currentLinkRef) {
-        observer.unobserve(currentLinkRef);
-      }
-      if (currentVideoLinkRef) {
-        videoObserver.unobserve(currentVideoLinkRef);
-      }
-    };
   }, []);
 
   return (
@@ -174,7 +124,6 @@ function HomePage() {
             <a
               href="/tutorials"
               ref={linkRef}
-              className={isJiggling ? 'jiggle' : ''}
               style={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
             >
               <Typography variant="body1" sx={{ fontSize: '1rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
@@ -197,7 +146,6 @@ function HomePage() {
             <a
               href="/videos"
               ref={videoLinkRef}
-              className={isVideoJiggling ? 'jiggle' : ''}
               style={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
             >
               <Typography variant="body1" sx={{ marginTop: '10px', fontSize: '1rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
