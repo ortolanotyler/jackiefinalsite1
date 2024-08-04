@@ -2,6 +2,7 @@ import React from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../Components/TextReveal';
 import ItemSlider from '../Shop/Slider';
+import HomeShopMy from '../Shop/HomeShopMy';
 
 
 const ShopMyHero2 = () => {
@@ -35,7 +36,7 @@ const ShopMyHero2 = () => {
   return (
     <div style={{ backgroundColor: 'white' }}>
       <div style={sectionStyle}></div>
-      <ItemSlider />
+      <HomeShopMy />
     
     </div>
   );
