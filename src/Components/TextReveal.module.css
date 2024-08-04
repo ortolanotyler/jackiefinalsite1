@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arapey&family=GFS+Didot&family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap'); /* Only Arapey font imported */
 
 .hero {
   width: 100%;
@@ -9,13 +9,24 @@
   opacity: 0.75;
   box-shadow: 0.1rem 0.2rem 0.4rem rgba(0, 0, 0, 0.25);
   text-align: center;
-  padding: 0 2rem; /* Add padding to ensure spacing */
+  padding: 0 2rem;
 }
 
 .textReveal {
   display: inline-block;
   opacity: 0;
-  animation: fade-in 1s forwards; /* Fade-in animation with 1-second duration */
+  animation: fade-in 1s forwards;
+  font-family: 'Arapey', serif; /* Set font to Arapey only */
+  font-size: clamp(0.75rem, 6vw, 4rem); /* Responsive font size */
+  text-align: center; /* Center-align the text */
+  font-weight: 100;
+  white-space: pre-wrap; /* Allow wrapping on spaces and break text to fit */
+  overflow-wrap: break-word; /* Break long words to fit within the container */
+  word-wrap: break-word;
+  hyphens: auto; /* Automatically hyphenate text if needed */
+  padding: 0 1rem;
+  max-width: 100%; /* Ensure the text stays within the container */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
 @keyframes fade-in {
@@ -24,26 +35,15 @@
   }
 }
 
-h1 {
-  font-family: Arapey, serif;
-  font-size: clamp(0.75rem, 6vw, 4rem); /* Use clamp for responsive font size */
-  text-align: left;
-  font-weight: 100; /* Adjusted for a lighter font weight */
-  white-space: nowrap; /* Ensure text stays on one line */
-  overflow: hidden; /* Prevent overflow */
-  text-overflow: ellipsis; /* Add ellipsis if text overflows */
-  padding: 0 1rem; /* Ensure some padding on the sides */
-}
-
 /* Responsive adjustments */
 @media (max-width: 600px) {
   .hero {
-    height: 14vh; /* Adjust height if needed */
+    height: 14vh;
   }
 }
 
 @media (max-width: 400px) {
   .hero {
-    height: 12vh; /* Further adjust height if needed */
+    height: 12vh;
   }
 }
