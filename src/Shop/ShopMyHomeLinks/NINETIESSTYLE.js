@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Helmet } from 'react-helmet';
 import TextReveal from '../../Components/TextReveal';
 import { Link, Typography, Box } from '@mui/material';
@@ -8,7 +8,6 @@ import AdSenseAd from '../../Advertising/Ads';
 const NinetiesStyle = () => {
   const iframeRef = useRef(null);
   const linkRef = useRef(null);
-  const [isJiggling, setIsJiggling] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -26,34 +25,6 @@ const NinetiesStyle = () => {
 
     return () => {
       window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
-  useEffect(() => {
-    const currentLinkRef = linkRef.current;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsJiggling(true);
-          setTimeout(() => {
-            setIsJiggling(false);
-          }, 4000); // Stop jiggling after 4 seconds
-        }
-      },
-      {
-        threshold: 0.1,
-      }
-    );
-
-    if (currentLinkRef) {
-      observer.observe(currentLinkRef);
-    }
-
-    return () => {
-      if (currentLinkRef) {
-        observer.unobserve(currentLinkRef);
-      }
     };
   }, []);
 
@@ -77,7 +48,6 @@ const NinetiesStyle = () => {
         <Link
           href="/mystyle"
           ref={linkRef}
-          className={isJiggling ? styles.jiggle : ''}
           sx={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
         >
           <Typography variant="body1" sx={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
@@ -92,16 +62,12 @@ const NinetiesStyle = () => {
           src="https://shopmy.us/collections/public/379874?noHeader=true"
           className={styles.parisPrincessIframe}
           ref={iframeRef}
+          scrolling="no"
         ></iframe>
       </div>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+      <div style={{ margin: '20px' }}>
+        <AdSenseAd />
+      </div>
     </div>
   );
 };

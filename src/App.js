@@ -97,6 +97,12 @@ import Porsha from './Quiz/QuizResultPages/Quiz3/Porsha';
 import WeddingDressGuide from './Quiz/QuizResultPages/Quiz3/WeddingDressGuide';
 import DIYFlowers from './Articles/Travel/DIYFlowerPins';
 import QuiltedImageList1 from './Home/ImageGridTutorials';
+import ParisianChic from './Shop/ShopMyHomeLinks/ParisianChic';
+import VaticanSlay from './Shop/ShopMyHomeLinks/VaticanSlay';
+import WalkingWaiheke from './Shop/ShopMyHomeLinks/WalkingWaiheke';
+import PrincessCoreParis from './Shop/ShopMyHomeLinks/PrincessCoreParis';
+import PolkaDotMoment from './Shop/ShopMyHomeLinks/PolkaDot';
+import ItalianFountain from './Shop/ShopMyHomeLinks/ItalianFountain';
 
 function usePageTracking() {
   const location = useLocation();
@@ -220,6 +226,12 @@ function App() {
             <Route path="porsha" element={<Porsha/>} />
             <Route path="weddingdressguide" element={<WeddingDressGuide/>} />
             <Route path="diy-flowers" element={<DIYFlowers/>} />
+            <Route path="parisianchic" element={<ParisianChic/>} />
+            <Route path="vaticanslay" element={<VaticanSlay/>} />
+            <Route path="walkingwaiheke" element={<WalkingWaiheke/>} />
+            <Route path="princesscoreparis" element={<PrincessCoreParis/>} />
+            <Route path="polkadotmoment" element={<PolkaDotMoment/>} />
+            <Route path="trevifountain" element={<ItalianFountain/>} />
 
 
             <Route path="*" element={<h1>404 Not Found</h1>} />

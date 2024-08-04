@@ -1,13 +1,12 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import TextReveal from '../../Components/TextReveal';
 import { Link, Typography, Box } from '@mui/material';
 import styles from './AboutHero.module.css'; // Importing the CSS module
 import AdSenseAd from '../../Advertising/Ads';
 
-const SleekSpring = () => {
+const PrincessCoreParis = () => {
   const iframeRef = useRef(null);
   const linkRef = useRef(null);
-  const [isJiggling, setIsJiggling] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -28,42 +27,13 @@ const SleekSpring = () => {
     };
   }, []);
 
-  useEffect(() => {
-    const currentLinkRef = linkRef.current;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsJiggling(true);
-          setTimeout(() => {
-            setIsJiggling(false);
-          }, 4000); // Stop jiggling after 4 seconds
-        }
-      },
-      {
-        threshold: 0.1,
-      }
-    );
-
-    if (currentLinkRef) {
-      observer.observe(currentLinkRef);
-    }
-
-    return () => {
-      if (currentLinkRef) {
-        observer.unobserve(currentLinkRef);
-      }
-    };
-  }, []);
-
   return (
     <div>
-      <TextReveal text="SLEEK SPRING" />
+      <TextReveal text="PRINCESS CORE PARIS" />
       <Box sx={{ textAlign: 'right', mt: 5, mr: 20 }}>
         <Link
           href="/mystyle"
           ref={linkRef}
-          className={isJiggling ? styles.jiggle : ''}
           sx={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
         >
           <Typography variant="body1" sx={{ fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
@@ -72,12 +42,13 @@ const SleekSpring = () => {
           <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
         </Link>
       </Box>
-      <div style={{ width: '100%', minHeight: '1200px', marginBottom: '2rem' }}>
+      <div style={{ width: '100%', minHeight: '2000px', marginBottom: '2rem' }}>
         <iframe
-          title="Sleek Spring"
-          src="https://shopmy.us/collections/public/379944?noHeader=true"
-          className={styles.parisPrincessIframe} // Using the correct class name
+          title="PRINCESS CORE PARIS"
+          src="https://shopmy.us/collections/public/711268?noHeader=true"
+          className={styles.parisPrincessIframe}
           ref={iframeRef}
+          scrolling="no"
         ></iframe>
       </div>
       <div style={{ margin: '20px' }}>
@@ -87,5 +58,4 @@ const SleekSpring = () => {
   );
 };
 
-export default SleekSpring;
-
+export default PrincessCoreParis;

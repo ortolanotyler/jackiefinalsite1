@@ -74,7 +74,7 @@ const DiarySlider = ({ entries }) => {
 
 const DiaryHome = () => (
   <div style={{ backgroundColor: '#fdedef', padding: '2rem' }}>
-    <TextReveal text="DIARY" style={{ color: 'black', height: '10vh' }} />
+    <TextReveal text="DIARY"  />
     <DiarySlider entries={diaryEntries} />
   </div>
 );

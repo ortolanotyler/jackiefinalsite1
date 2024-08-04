@@ -80,14 +80,9 @@ const PinkLeather = () => {
           ref={iframeRef}
         ></iframe>
       </div>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+      <div style={{ margin: '20px' }}>
+        <AdSenseAd />
+      </div>
     </div>
   );
 };

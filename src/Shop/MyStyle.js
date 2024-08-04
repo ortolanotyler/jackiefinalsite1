@@ -5,6 +5,8 @@ import AprilStyleSlider from './AprilStyleSlider';
 import FallWinterSlider from './FallWinterSlider';
 import PhotoShootSlider from './PhotoShootSlider';
 import TextReveal from '../Components/TextReveal';
+import MyStyleSlider1 from './MyStyleSlider1';
+import MyStyleSlider2 from './MyStyleSlider2';
 
 const MyStyle = () => {
   // Base style for anchor tags
@@ -44,6 +46,9 @@ const MyStyle = () => {
       </Helmet>
       <TextReveal text="SHOP MY STYLE" />
       <div style={sectionStyle}></div>
+      <MyStyleSlider1/>
+      <MyStyleSlider2/>
+
       <ItemSlider />
       <PhotoShootSlider />
       <AprilStyleSlider />
