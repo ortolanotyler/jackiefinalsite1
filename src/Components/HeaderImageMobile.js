@@ -12,7 +12,6 @@ const HeaderImage = () => {
 
 const ImageContainer = styled('div')(({ theme }) => ({
   display: 'flex',
-
   justifyContent: 'center',
   alignItems: 'center',
   maxWidth: '100%',
@@ -23,7 +22,7 @@ const ImageContainer = styled('div')(({ theme }) => ({
 
 const StyledImage = styled('img')(({ theme }) => ({
   width: '100%',
-  maxWidth: '1300px',
+  maxWidth: '2000px',
   height: '100%',
 
 }));

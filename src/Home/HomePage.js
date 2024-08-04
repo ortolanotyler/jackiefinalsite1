@@ -91,7 +91,7 @@ function HomePage() {
         </Grid>
      
         <Grid item xs={12}>
-          <QuiltedImageList />
+          <HeaderImage />
         </Grid>
      
         <Grid item xs={12}>
