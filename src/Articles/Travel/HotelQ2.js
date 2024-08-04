@@ -267,7 +267,7 @@ Our stay was in a Classic Suite, which costs approximately $500 CAD per night. T
 
 
 <p style = {paragraphStyle}>
-Our first evening began with cocktails at the hotel's restaurant, where I tried the refreshing Une Fraise À L’amer cocktail, and Tyler enjoyed the Dirty Detox, featuring a unique Quintessence ice cube.
+Our first evening began with cocktails at the hotel's restaurant, where I tried the refreshing "Ceci n’est pas une tisane" cocktail, and Tyler enjoyed the Yuzu Margarita, featuring a unique Quintessence ice cube.
 
 </p>
 

@@ -103,6 +103,9 @@ import WalkingWaiheke from './Shop/ShopMyHomeLinks/WalkingWaiheke';
 import PrincessCoreParis from './Shop/ShopMyHomeLinks/PrincessCoreParis';
 import PolkaDotMoment from './Shop/ShopMyHomeLinks/PolkaDot';
 import ItalianFountain from './Shop/ShopMyHomeLinks/ItalianFountain';
+import SummerSet from './Shop/ShopMyHomeLinks/SummerSet';
+import HoundstoothSet from './Shop/ShopMyHomeLinks/HoundstoothSet';
+import MetSteps from './Shop/ShopMyHomeLinks/MetSteps';
 
 function usePageTracking() {
   const location = useLocation();
@@ -232,6 +235,9 @@ function App() {
             <Route path="princesscoreparis" element={<PrincessCoreParis/>} />
             <Route path="polkadotmoment" element={<PolkaDotMoment/>} />
             <Route path="trevifountain" element={<ItalianFountain/>} />
+            <Route path="summerset" element={<SummerSet/>} />
+            <Route path="houndstooth" element={<HoundstoothSet/>} />
+            <Route path="metsteps" element={<MetSteps/>} />
 
 
             <Route path="*" element={<h1>404 Not Found</h1>} />

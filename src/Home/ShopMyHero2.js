@@ -1,7 +1,5 @@
 import React from 'react';
-import { Comments } from '@hyvor/hyvor-talk-react';
-import TextReveal from '../Components/TextReveal';
-import ItemSlider from '../Shop/Slider';
+
 import HomeShopMy from '../Shop/HomeShopMy';
 
 
