@@ -1,5 +1,4 @@
-// src/pages/HomePage.js
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, lazy, Suspense } from 'react';
 import { Grid, Box, Paper, Typography, ThemeProvider, createTheme, useMediaQuery } from '@mui/material';
 import HeaderImage from '../Components/HeaderImageMobile';  // Correct import path
 import TextReveal from '../Components/TextReveal';
@@ -15,11 +14,12 @@ import SiteExplorerBeyond from './SiteExplorerBeyond';
 import LifestyleFavorites from './LifestyleFavorites';
 import ShopMyHero2 from './ShopMyHero2';
 import { Helmet } from 'react-helmet';
-import VideoEmbed from './VideoEmbed';
 import { initGA, logPageView } from '../analytics';
-import AdSenseAd from '../Advertising/Ads';
-import Quiz3 from '../Quiz/Quiz3';
 
+// Lazy load components
+const VideoEmbed = lazy(() => import('./VideoEmbed'));
+const AdSenseAd = lazy(() => import('../Advertising/Ads'));
+const Quiz3 = lazy(() => import('../Quiz/Quiz3'));
 
 const theme = createTheme();
 
@@ -65,20 +65,6 @@ function HomePage() {
             "image": "https://jackiewyers.beauty/logo.png",
             "url": "https://jackiewyers.beauty"
           }
-          `}
-        </script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script async>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
-        <script id="mcjs">
-          {`
-            !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/3cbca49c11b826b9b0b709c2a/ac2a62fa7c3193153638d1a76.js");
           `}
         </script>
       </Helmet>
@@ -141,7 +127,9 @@ function HomePage() {
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center" sx={{ mt: 2 }}>
           <ThemeProvider theme={theme}>
-            <VideoEmbed />
+            <Suspense fallback={<div>Loading video...</div>}>
+              <VideoEmbed />
+            </Suspense>
           </ThemeProvider>
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="flex-end">
@@ -163,7 +151,9 @@ function HomePage() {
           <ReviewFavorites />
         </Grid>
         <Grid item xs={12}>
-          <Quiz3 />
+          <Suspense fallback={<div>Loading quiz...</div>}>
+            <Quiz3 />
+          </Suspense>
         </Grid>
         <Grid item xs={12}>
           <TextReveal text='SHOP MY STYLE' />
@@ -196,10 +186,32 @@ function HomePage() {
             <EmailSubscribe />
           </div>
         </Grid>
-        <AdSenseAd />
+        <Suspense fallback={<div>Loading ads...</div>}>
+          <AdSenseAd />
+        </Suspense>
       </Grid>
+
+      {/* Third-party scripts moved to the bottom */}
+      <Helmet>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG');
+          `}
+        </script>
+        <script async id="mcjs">
+          {`
+            !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/3cbca49c11b826b9b0b709c2a/ac2a62fa7c3193153638d1a76.js");
+          `}
+        </script>
+      </Helmet>
     </Box>
   );
 }
 
 export default HomePage;
+
+   
