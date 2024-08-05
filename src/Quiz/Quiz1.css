@@ -82,15 +82,3 @@
     padding: 10px; /* Adjusted padding */
   }
 }
-
-@media (min-width: 801px) {
-  .answer-button {
-    min-height: 20vh; /* Set minimum height to 20% of viewport height */
-  }
-}
-
-@media (min-width: 1200px) {
-  .quiz-container {
-    max-width: 65%; /* Increase width for larger screens by 15% */
-  }
-}
