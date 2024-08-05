@@ -127,21 +127,36 @@ export default function SiteExplorer() {
               </Button>
             </div>
           </Card>
-        
         </Grid>
       ))}
-        <Box sx={{ textAlign: 'right', mt: 1, mr: 10 }}>
-            <a
-              href="/tutorials"
-           
-              style={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
+      <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center', mt: 2 }}>
+        <Box sx={{ textAlign: 'center' }}>
+          <a
+            href="/tutorials"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              fontFamily: 'GFS Didot, serif',
+              color: 'black',
+              textDecoration: 'none',
+            }}
+          >
+            <Typography
+              variant="body1"
+              sx={{
+                fontSize: '1rem',
+                fontFamily: 'GFS Didot, serif',
+                color: 'black',
+              }}
             >
-              <Typography variant="body1" sx={{ fontSize: '1rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
-                VIEW ALL TUTORIALS
-              </Typography>
-              <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
-            </a>
-          </Box>
+              VIEW ALL TUTORIALS
+            </Typography>
+            <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>
+              &rarr;
+            </Box>
+          </a>
+        </Box>
+      </Grid>
     </Grid>
   );
 }
