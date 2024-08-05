@@ -163,9 +163,7 @@ function HomePage() {
         <Grid item xs={12}>
           <SiteExplorerBeyond />
         </Grid>
-        <Grid item xs={12}>
-          <TextReveal text='TRAVEL IN STYLE' />
-        </Grid>
+       
         <Grid item xs={12}>
           <LifestyleFavorites />
         </Grid>

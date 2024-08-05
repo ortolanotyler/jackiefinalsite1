@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import styles from './LifestyleFavorites.module.css';
+import TextReveal from '../Components/TextReveal';
 
 const LifestyleFavorites = () => {
   const iframeRef = useRef(null);
@@ -29,7 +30,9 @@ const LifestyleFavorites = () => {
   }, []);
 
   return (
-    <div className={styles.lifestyleFavoritesWrapper}>
+    <div> 
+      <TextReveal text="TRAVEL IN STYLE" />
+      <div className={styles.lifestyleFavoritesWrapper}>
       <iframe
         title="Jackie's Weekly Favs"
         src="https://shopmy.us/collections/public/555260?noHeader=true"
@@ -38,6 +41,8 @@ const LifestyleFavorites = () => {
         scrolling= 'no'
       ></iframe>
     </div>
+    </div>
+  
   );
 };
 
