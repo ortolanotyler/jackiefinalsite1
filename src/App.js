@@ -236,7 +236,7 @@ function App() {
             <Route path="vaticanslay" element={<VaticanSlay/>} />
             <Route path="walkingwaiheke" element={<WalkingWaiheke/>} />
             <Route path="princesscoreparis" element={<PrincessCoreParis/>} />
-            <Route path="polkadotmoment" element={<PolkaDotMoment/>} />
+            <Route path="polkadot" element={<PolkaDotMoment/>} />
             <Route path="trevifountain" element={<ItalianFountain/>} />
             <Route path="summerset" element={<SummerSet/>} />
             <Route path="houndstooth" element={<HoundstoothSet/>} />
