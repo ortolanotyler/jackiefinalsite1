@@ -4,6 +4,7 @@ import Card from '@mui/material/Card';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { useNavigate } from 'react-router-dom';
+import { Box } from '@mui/material';
 
 const cardDetails = [
   {
@@ -126,8 +127,21 @@ export default function SiteExplorer() {
               </Button>
             </div>
           </Card>
+        
         </Grid>
       ))}
+        <Box sx={{ textAlign: 'right', mt: 1, mr: 10 }}>
+            <a
+              href="/tutorials"
+           
+              style={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
+            >
+              <Typography variant="body1" sx={{ fontSize: '1rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
+                VIEW ALL TUTORIALS
+              </Typography>
+              <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
+            </a>
+          </Box>
     </Grid>
   );
 }

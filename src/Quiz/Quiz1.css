@@ -4,11 +4,9 @@
   padding: 20px; /* Reduced padding */
   text-align: center;
   background-color: #fdedef;
-  margin-bottom: 20px; /* Reduced margin */
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
   max-height: 100vh; /* Set maximum height */
-  margin-top: 10px;
 }
 
 .question-section {
@@ -29,7 +27,7 @@
 
 .answer-section {
   display: grid;
-  grid-template-columns: repeat(3, 3fr); /* 2-column layout */
+  grid-template-columns: repeat(2, 1fr); /* 2-column layout */
   gap: 10px; /* Reduced gap */
 }
 
@@ -80,5 +78,17 @@
   .answer-button {
     min-height: 10vh; /* Set minimum height to 10% of viewport height */
     padding: 10px; /* Adjusted padding */
+  }
+}
+
+@media (min-width: 801px) {
+  .answer-button {
+    min-height: 20.5vh; /* Set minimum height to 20% of viewport height */
+  }
+}
+
+@media (min-width: 1200px) {
+  .quiz-container {
+    max-width: 65%; /* Increase width for larger screens by 15% */
   }
 }

@@ -90,14 +90,9 @@ function HomePage() {
           <AboutHero />
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
-          <div
-            style={{
-              padding: '2rem',
-              margin: '1rem',
-            }}
-          >
+        
             <EmailSubscribe />
-          </div>
+       
         </Grid>
         <Grid item xs={12}>
           <div
@@ -108,20 +103,7 @@ function HomePage() {
             <SiteExplorer />
           </div>
         </Grid>
-        <Grid item xs={12} display="flex" justifyContent="flex-end">
-          <Box sx={{ textAlign: 'right', mt: -1, mr: 10 }}>
-            <a
-              href="/tutorials"
-              ref={linkRef}
-              style={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
-            >
-              <Typography variant="body1" sx={{ fontSize: '1rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
-                VIEW ALL TUTORIALS
-              </Typography>
-              <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
-            </a>
-          </Box>
-        </Grid>
+     
         <Grid item xs={12}>
           <TextReveal text="LATEST VIDEO" />
         </Grid>
