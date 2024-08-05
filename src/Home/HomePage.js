@@ -1,7 +1,6 @@
 // src/pages/HomePage.js
 import React, { useEffect, useRef } from 'react';
 import { Grid, Box, Paper, Typography, ThemeProvider, createTheme, useMediaQuery } from '@mui/material';
-import QuiltedImageList1 from './ImageGridTutorials';
 import HeaderImage from '../Components/HeaderImageMobile';  // Correct import path
 import TextReveal from '../Components/TextReveal';
 import QuoteBanner3 from './QuoteBanner3';
@@ -20,8 +19,7 @@ import VideoEmbed from './VideoEmbed';
 import { initGA, logPageView } from '../analytics';
 import AdSenseAd from '../Advertising/Ads';
 import Quiz3 from '../Quiz/Quiz3';
-import HeaderImage2 from '../Components/HeaderImageMobile2';
-import QuiltedImageList from './ImageGridTutorials';
+
 
 const theme = createTheme();
 
@@ -76,6 +74,11 @@ function HomePage() {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-RT6GR7JXYG');
+          `}
+        </script>
+        <script id="mcjs">
+          {`
+            !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/3cbca49c11b826b9b0b709c2a/ac2a62fa7c3193153638d1a76.js");
           `}
         </script>
       </Helmet>
