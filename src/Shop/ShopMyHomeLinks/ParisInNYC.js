@@ -4,7 +4,7 @@ import { Link, Typography, Box } from '@mui/material';
 import styles from './AboutHero.module.css'; // Importing the CSS module
 import AdSenseAd from '../../Advertising/Ads';
 
-const PrincessCoreParis = () => {
+const ParisInNYC = () => {
   const iframeRef = useRef(null);
   const linkRef = useRef(null);
 
@@ -29,7 +29,7 @@ const PrincessCoreParis = () => {
 
   return (
     <div>
-      <TextReveal text="PRINCESSCORE IN PARIS" />
+      <TextReveal text="PARIS IN NYC" />
       <Box sx={{ textAlign: 'right', mt: 5, mr: 20 }}>
         <Link
           href="/mystyle"
@@ -42,10 +42,10 @@ const PrincessCoreParis = () => {
           <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
         </Link>
       </Box>
-      <div style={{ width: '100%', minHeight: '2000px', marginBottom: '2rem' }}>
+      <div style={{ width: '100%', minHeight: '1200px', marginBottom: '2rem' }}>
         <iframe
-          title="PRINCESS CORE IN PARIS"
-          src="https://shopmy.us/collections/public/711268?noHeader=true"
+          title="PARIS IN NYC"
+          src="https://shopmy.us/collections/public/379977?noHeader=true"
           className={styles.parisPrincessIframe}
           ref={iframeRef}
           scrolling="no"
@@ -58,4 +58,4 @@ const PrincessCoreParis = () => {
   );
 };
 
-export default PrincessCoreParis;
+export default ParisInNYC;

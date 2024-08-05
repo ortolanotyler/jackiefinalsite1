@@ -40,8 +40,8 @@ const TravelArticlesHome = () => {
                 }}
             >
                 <TextReveal
-                    text="Hotel Reviews"
-                    style={{ backgroundColor: 'white' }}
+                    text="HOTEL REVIEWS"
+
                     fontFamily="Italianno, cursive"
                 />
             </div>
@@ -49,8 +49,8 @@ const TravelArticlesHome = () => {
                 <TravelArticlesList />
             </div>
             <TextReveal
-                text="Itineraries"
-                style={{ backgroundColor: 'white' }}
+                text="ITINERARIES"
+
                 fontFamily="Italianno, cursive"
             />
             <ExperiencesList />

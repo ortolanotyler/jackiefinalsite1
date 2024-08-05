@@ -106,6 +106,9 @@ import ItalianFountain from './Shop/ShopMyHomeLinks/ItalianFountain';
 import SummerSet from './Shop/ShopMyHomeLinks/SummerSet';
 import HoundstoothSet from './Shop/ShopMyHomeLinks/HoundstoothSet';
 import MetSteps from './Shop/ShopMyHomeLinks/MetSteps';
+import ParisInNYC from './Shop/ShopMyHomeLinks/ParisInNYC';
+import FloralMini from './Shop/ShopMyHomeLinks/FloralMini';
+import FolkloreFairy from './Shop/ShopMyHomeLinks/FolkloreFairy';
 
 function usePageTracking() {
   const location = useLocation();
@@ -238,6 +241,9 @@ function App() {
             <Route path="summerset" element={<SummerSet/>} />
             <Route path="houndstooth" element={<HoundstoothSet/>} />
             <Route path="metsteps" element={<MetSteps/>} />
+            <Route path="paris-in-nyc" element={<ParisInNYC/>} />
+            <Route path="floral-mini" element={<FloralMini/>} />
+            <Route path="folklore-fairy" element={<FolkloreFairy/>} />
 
 
             <Route path="*" element={<h1>404 Not Found</h1>} />

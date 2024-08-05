@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import { Grid, Box, Typography, Link } from '@mui/material';
 import './AboutHero.css'; // Import the CSS file
 
@@ -7,37 +7,6 @@ const AboutHero = () => {
   const placeholderImage = `${process.env.PUBLIC_URL}/Images/Home/MeetJackie.png`;
 
   const paragraphs = placeholderText.split('\n');
-
-  const linkRef = useRef(null);
-  const [isJiggling, setIsJiggling] = useState(false);
-
-  useEffect(() => {
-    const currentLinkRef = linkRef.current;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsJiggling(true);
-          setTimeout(() => {
-            setIsJiggling(false);
-          }, 4000); // Stop jiggling after 4 seconds
-        }
-      },
-      {
-        threshold: 0.1, // Adjust this value as needed
-      }
-    );
-
-    if (currentLinkRef) {
-      observer.observe(currentLinkRef);
-    }
-
-    return () => {
-      if (currentLinkRef) {
-        observer.unobserve(currentLinkRef);
-      }
-    };
-  }, []);
 
   return (
     <Box sx={{ width: '100%', padding: { xs: '1rem', sm: '2rem 0' }, backgroundColor: '#FDFDFD' }}>
@@ -59,8 +28,6 @@ const AboutHero = () => {
               <Box sx={{ textAlign: { xs: 'center', sm: 'right' }, mt: 2 }}>
                 <Link
                   href="/about"
-                  ref={linkRef}
-                  className={isJiggling ? 'jiggle' : ''}
                   sx={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
                 >
                   <Typography variant="body1" sx={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>
@@ -78,4 +45,3 @@ const AboutHero = () => {
 };
 
 export default AboutHero;
-

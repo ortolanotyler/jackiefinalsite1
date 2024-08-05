@@ -6,11 +6,11 @@
   background-color: #fdedef;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
-  max-height: 90vh; /* Set maximum height */
+  max-height: 80vh; /* Set maximum height */
 }
 
 .question-section {
-  margin-bottom: 15px; /* Reduced margin */
+  margin-bottom: 25px; /* Reduced margin */
 }
 
 .question-count {

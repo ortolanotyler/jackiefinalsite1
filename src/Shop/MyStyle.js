@@ -8,6 +8,7 @@ import TextReveal from '../Components/TextReveal';
 import MyStyleSlider1 from './MyStyleSlider1';
 import MyStyleSlider2 from './MyStyleSlider2';
 import MyStyleSlider3 from './MyStyleSlider3';
+import MyStyleSlider4 from './MyStyleSlider4';
 
 const MyStyle = () => {
   // Base style for anchor tags
@@ -49,6 +50,7 @@ const MyStyle = () => {
       <div style={sectionStyle}></div>
       <MyStyleSlider1/>
       <MyStyleSlider3/>
+      <MyStyleSlider4/>
 
       <MyStyleSlider2/>
 

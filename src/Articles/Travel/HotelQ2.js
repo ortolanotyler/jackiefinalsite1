@@ -283,10 +283,10 @@ Our first evening began with cocktails at the hotel's restaurant, where I tried 
 
 
 
-<p style = {paragraphStyle}>
-Dinner at Restaurant La Quintessence was a highlight, featuring live music that added to the romantic ambiance without overwhelming our conversation. The summer menu was exceptional, and I highly recommend the Lobster Risotto. Tyler's Oysters for an appetizer and Lamb entrée were equally impressive.
-                        </p>
-                      
+<p style={paragraphStyle}>
+Dinner at Restaurant La Quintessence was a highlight, featuring live music that added to the romantic ambiance without overwhelming our conversation. The summer menu was exceptional, starting with a rich lobster bisque and truffle risotto, complemented by fresh oysters and mullet caviar. For the main course, we enjoyed tender halibut paired with cider-braised apples, cauliflower purée, grilled asparagus, and basil butter, followed by a succulent deer sirloin steak served with smoked celery purée, king oyster mushrooms, maple-glazed cipollini onions, and a delicate honeysuckle berry sauce. The evening concluded with a decadent dark chocolate lava cake topped with vanilla ice cream. The food gets a 10/10 from me!
+</p>
+
                         
 <div style={gridContainerStyle}>
 <img src={image16} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
