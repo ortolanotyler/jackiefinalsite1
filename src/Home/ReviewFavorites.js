@@ -21,17 +21,17 @@ const ReviewFavorites = () => {
     <div>
                 <TextReveal text="JACKIE'S WEEKLY TOP 3" />
 
-      <div style={{ width: '100%', overflow: 'hidden' }}>
+      <div style={{ width: '100%' }}>
         <iframe
           title="Jackie's Weekly Favs"
           src="https://shopmy.us/collections/public/553108?noHeader=true"
           style={{
            
             width: '100%',
-            minHeight: '450px',
+            minHeight: '60vh',
             border: 'none',
-            marginTop: '10px',
-            overflow: 'hidden',
+            marginTop: '20px',
+            
           }}
           className="review-favorites-iframe"
           sandbox="allow-same-origin allow-scripts"
@@ -45,7 +45,7 @@ const ReviewFavorites = () => {
           style={{
            
             width: '100%',
-            minHeight: '450px',
+            minHeight: '60vh',
             border: 'none',
             overflow: 'hidden',
           }}
@@ -61,7 +61,7 @@ const ReviewFavorites = () => {
           style={{
             
             width: '100%',
-            minHeight: '520px',
+            minHeight: '60vh',
             border: 'none',
             overflow: 'hidden',
           }}

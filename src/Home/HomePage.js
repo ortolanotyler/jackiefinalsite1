@@ -16,6 +16,7 @@ import LifestyleFavorites from './LifestyleFavorites';
 import ShopMyHero2 from './ShopMyHero2';
 import { Helmet } from 'react-helmet';
 import { initGA, logPageView } from '../analytics';
+import QuiltedImageList1 from './ImageGridTutorials';
 
 // Lazy load components
 const VideoEmbed = lazy(() => import('./VideoEmbed'));
@@ -93,7 +94,7 @@ function HomePage() {
         </Grid>
      
         <Grid item xs={12}>
-          <HeaderImage />
+          <QuiltedImageList1 />
         </Grid>
      
         <Grid item xs={12}>
