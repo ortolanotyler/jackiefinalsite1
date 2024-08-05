@@ -33,8 +33,10 @@ const ShopMyHero2 = () => {
 
   return (
     <div style={{ backgroundColor: 'white' }}>
-      <div style={sectionStyle}></div>
+      <div style={sectionStyle}>
       <HomeShopMy />
+      </div>
+     
     
     </div>
   );
