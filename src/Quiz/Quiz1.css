@@ -1,7 +1,6 @@
 .quiz-container {
   max-width: 800px; /* Adjusted maximum width */
   margin: auto;
-  padding: 20px; /* Reduced padding */
   text-align: center;
   background-color: #fdedef;
   border-radius: 12px;
@@ -10,7 +9,7 @@
 }
 
 .question-section {
-  margin-bottom: 15px; /* Reduced margin */
+  margin-bottom: 1px; /* Reduced margin */
 }
 
 .question-count {
@@ -21,7 +20,6 @@
 .question-text {
   font-size: 20px; /* Reduced font size */
   font-weight: bold;
-  margin-bottom: 5px; /* Adjusted margin */
   color: #745b4f;
 }
 
@@ -60,7 +58,6 @@
   padding: 15px; /* Reduced padding */
   background-color: #f3f3f3;
   border-radius: 12px;
-  margin-top: 10px; /* Adjusted margin */
   box-shadow: 1 6px 8px rgba(0, 0, 0, 0.9);
 }
 
