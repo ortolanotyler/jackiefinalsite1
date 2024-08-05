@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import TextReveal from '../Components/TextReveal';
 
 const ReviewFavorites = () => {
   const [isScrollable, setIsScrollable] = useState(false);
@@ -18,6 +19,8 @@ const ReviewFavorites = () => {
 
   return (
     <div>
+                <TextReveal text="JACKIE'S WEEKLY TOP 3" />
+
       <div style={{ width: '100%', overflow: 'hidden' }}>
         <iframe
           title="Jackie's Weekly Favs"

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import HomeShopMy from '../Shop/HomeShopMy';
+import TextReveal from '../Components/TextReveal';
 
 
 const ShopMyHero2 = () => {
@@ -33,9 +34,10 @@ const ShopMyHero2 = () => {
 
   return (
     <div style={{ backgroundColor: 'white' }}>
-      <div style={sectionStyle}>
+      <TextReveal text="SHOP MY STYLE" />
+   
       <HomeShopMy />
-      </div>
+    
      
     
     </div>

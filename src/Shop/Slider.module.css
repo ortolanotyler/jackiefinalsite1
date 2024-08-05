@@ -30,7 +30,7 @@ body {
   display: inline-block;
   position: relative;
   left: 0px;
-  margin: 1em;
+  margin: 2em;
   flex-shrink: 0;
   flex-grow: 0;
   flex-basis: calc(33% - 2em);

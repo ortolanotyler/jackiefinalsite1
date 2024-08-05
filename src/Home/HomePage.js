@@ -125,22 +125,8 @@ function HomePage() {
             </Suspense>
           </ThemeProvider>
         </Grid>
-        <Grid item xs={12} display="flex" justifyContent="flex-end">
-          <Box sx={{ textAlign: 'right', mt: -1, mr: 10 }}>
-            <a
-              href="/videos"
-              ref={videoLinkRef}
-              style={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
-            >
-              <Typography variant="body1" sx={{ marginTop: '10px', fontSize: '1rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
-                VIEW ALL VIDEOS
-              </Typography>
-              <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
-            </a>
-          </Box>
-        </Grid>
+      
         <Grid item xs={12}>
-          <TextReveal text="JACKIE'S WEEKLY TOP 3" />
           <ReviewFavorites />
         </Grid>
         <Grid item xs={12}>
@@ -148,9 +134,7 @@ function HomePage() {
             <Quiz3 />
           </Suspense>
         </Grid>
-        <Grid item xs={12}>
-          <TextReveal text='SHOP MY STYLE' />
-        </Grid>
+       
         <Grid item xs={12}>
           <ShopMyHero2 />
         </Grid>

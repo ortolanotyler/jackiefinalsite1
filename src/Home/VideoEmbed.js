@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, useMediaQuery } from '@mui/material';
+import { Box, Grid, Typography, useMediaQuery } from '@mui/material';
 
 const VideoEmbed = () => {
   const originalWidth = 560;
@@ -13,17 +13,50 @@ const VideoEmbed = () => {
 
   return (
     <Grid item xs={12} display="flex" justifyContent="center" sx={{ mt: 1.5, ...(isSmallScreen && { p: 2.5 }) }}>
-      <iframe
-        width={newWidth}
-        height={newHeight}
-        src="https://www.youtube.com/embed/Uz03ReLZO9k?si=zWnzPrrt4i10KSxF&amp;controls=0"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerPolicy="strict-origin-when-cross-origin"
-        allowFullScreen
-        style={{ border: 'none', maxWidth: '100%' }}
-      />
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+        }}
+      >
+        <iframe
+          width={newWidth}
+          height={newHeight}
+          src="https://www.youtube.com/embed/Uz03ReLZO9k?si=zWnzPrrt4i10KSxF&amp;controls=0"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+          style={{ border: 'none', maxWidth: '100%' }}
+        />
+        <Box sx={{ textAlign: 'center', mt: 1 }}>
+          <a
+            href="/videos"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              fontFamily: 'GFS Didot, serif',
+              color: 'black',
+              textDecoration: 'none',
+            }}
+          >
+            <Typography
+              variant="body1"
+              sx={{
+                marginTop: '10px',
+                fontSize: '1rem',
+                fontFamily: 'GFS Didot, serif',
+                color: 'black',
+              }}
+            >
+              VIEW ALL VIDEOS
+            </Typography>
+            <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
+          </a>
+        </Box>
+      </Box>
     </Grid>
   );
 };
