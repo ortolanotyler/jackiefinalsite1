@@ -4,13 +4,15 @@
   padding: 20px; /* Reduced padding */
   text-align: center;
   background-color: #fdedef;
+  margin-bottom: 20px; /* Reduced margin */
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
-  max-height: 80vh; /* Set maximum height */
+  max-height: 100vh; /* Set maximum height */
+  margin-top: 10px;
 }
 
 .question-section {
-  margin-bottom: 25px; /* Reduced margin */
+  margin-bottom: 15px; /* Reduced margin */
 }
 
 .question-count {
