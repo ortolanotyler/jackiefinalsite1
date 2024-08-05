@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, lazy, Suspense } from 'react';
 import { Grid, Box, Paper, Typography, ThemeProvider, createTheme, useMediaQuery } from '@mui/material';
+import { debounce } from 'lodash';
 import HeaderImage from '../Components/HeaderImageMobile';  // Correct import path
 import TextReveal from '../Components/TextReveal';
 import QuoteBanner3 from './QuoteBanner3';
@@ -31,10 +32,22 @@ function HomePage() {
   useEffect(() => {
     initGA();
     logPageView();
+
+    const handleScroll = debounce(() => {
+      // Example of a scroll event handler
+      console.log('User scrolled');
+      // Any scroll related logic can go here
+    }, 200); // Adjust the debounce delay as necessary
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
 
   return (
-    <Box sx={{ width: '100%', backgroundColor: 'white' }}>
+    <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
       <Helmet>
         <title>Jackie Wyers Beauty</title>
         <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
@@ -90,9 +103,7 @@ function HomePage() {
           <AboutHero />
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center">
-        
-            <EmailSubscribe />
-       
+          <EmailSubscribe />
         </Grid>
         <Grid item xs={12}>
           <div
@@ -195,5 +206,6 @@ function HomePage() {
 }
 
 export default HomePage;
+
 
    
