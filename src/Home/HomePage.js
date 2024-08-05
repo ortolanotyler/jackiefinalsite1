@@ -169,16 +169,11 @@ function HomePage() {
         <Grid item xs={12}>
           <LifestyleFavorites />
         </Grid>
-        <Grid item xs={12}>
-          <div
-            style={{
-              padding: '2rem',
-              marginBottom: '1rem',
-            }}
-          >
+    
+       
             <EmailSubscribe />
-          </div>
-        </Grid>
+     
+       
         <Suspense fallback={<div>Loading ads...</div>}>
           <AdSenseAd />
         </Suspense>

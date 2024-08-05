@@ -1,13 +1,13 @@
 .lifestyleFavoritesWrapper {
     width: 100%;
-    min-height: 1000px;
+    min-height: 1200px;
     margin-bottom: 2rem;
   }
   
   .lifestyleFavoritesIframe {
     margin-top: 7rem;
     width: 100%;
-    min-height: 1000px;
+    min-height: 1200px;
     border: none;
     overflow: hidden;
     display: block;
