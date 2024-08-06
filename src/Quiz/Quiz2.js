@@ -140,16 +140,6 @@ const Quiz2 = () => {
   <meta name="twitter:title" content="Jackie Wyers Beauty Quiz" />
   <meta name="twitter:description" content="Find out if you're Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty with our interactive quiz!" />
   <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/twitter-image.jpg`} />
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG');
-    `}
-  </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
 
       {!showResults ? (

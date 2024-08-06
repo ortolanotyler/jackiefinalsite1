@@ -67,7 +67,7 @@ const BunnyPretty = () => {
       gtag('config', 'G-RT6GR7JXYG');
     `}
   </script>
-  <script data-ad-client="ca-pub-1234567890123456" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script data-ad-client="ca-pub-4660168246825318" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </Helmet>
 
       <div className={styles.linkContainer}>
