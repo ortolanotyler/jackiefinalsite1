@@ -11,6 +11,7 @@ import BridalDropCap from '../../Components/BridalDropCap';
 import { Helmet } from 'react-helmet';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import BookNowButton from '../../Components/BookNowButton';
+import SubscribeVlog from '../../Components/SubscribeVlog';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ2/HotelQTitle2.png`;
@@ -55,7 +56,6 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
   <div>
-    <div><TextReveal text='HOTEL QUINTESSANCE' /></div>
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
@@ -179,8 +179,15 @@ const imageStyle = {
         </a>
       </div>
       <img src={title} alt="A Summer Getaway at Hotel Quintessence" style={{ width: '100%' }} />
-   
+ 
+      <ResponsiveYoutube src="https://www.youtube.com/embed/X8CZPDupmNs?si=PfgHust_BquKsbkO" title="YouTube video player" />
 
+<div 
+style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '2rem' }}>
+
+<SubscribeVlog />
+
+</div>
 
 <div
 style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '2rem' }}
@@ -470,6 +477,7 @@ style = {{
 
   return (
     <div ref={blogRef}>
+      <TextReveal text = "HOTEL QUINTESSANCE" />
       <Card
         title="A Summer Getaway at Hotel Quintessence"
         description="A review of Hotel Quintessance at Tremblant"
