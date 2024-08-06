@@ -6,6 +6,8 @@
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
   max-height: 100vh; /* Set maximum height */
+  padding: 20px; /* Added padding */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
 .question-section {
@@ -73,7 +75,7 @@
   }
 
   .answer-button {
-    min-height: 10vh; /* Set minimum height to 10% of viewport height */
+    min-height: 12vh; /* Set minimum height to 10% of viewport height */
     padding: 10px; /* Adjusted padding */
   }
 }
