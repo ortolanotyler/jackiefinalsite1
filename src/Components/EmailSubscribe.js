@@ -97,7 +97,7 @@ export default function EmailSubscribe() {
                     />
                   }
                   label={
-                    <Typography variant="body2" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>
+                    <Typography variant="body2" style={{ fontSize: '0.75rem',fontFamily: 'GFS Didot, serif', color: 'black' }}>
                       I have read the <a href="/privacy" target="_blank" style={{ color: '#745B4F', textDecoration: 'underline' }}>Privacy Policy</a> and give consent to be a part of the newsletter. I understand that I can unsubscribe at any time via email.
                     </Typography>
                   }

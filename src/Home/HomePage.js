@@ -153,8 +153,10 @@ function HomePage() {
           <LifestyleFavorites />
         </Grid>
     
-       
-            <EmailSubscribe />
+        <Grid item xs={12}>
+        <EmailSubscribe />
+        </Grid>
+           
      
        
         <Suspense fallback={<div>Loading ads...</div>}>
