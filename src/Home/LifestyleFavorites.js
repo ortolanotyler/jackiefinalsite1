@@ -14,11 +14,30 @@ const LifestyleFavorites = () => {
       document.body.style.overflow = 'hidden';
     };
 
+    const loadIframe = () => {
+      const iframe = iframeRef.current;
+      if (iframe && !iframe.src) {
+        iframe.src = iframe.dataset.src;
+      }
+    };
+
     const iframe = iframeRef.current;
 
     if (iframe) {
       iframe.addEventListener('focus', handleIframeFocus);
       iframe.addEventListener('blur', handleIframeBlur);
+
+      // Lazy load the iframe when it's close to the viewport
+      const observer = new IntersectionObserver(
+        (entries) => {
+          if (entries[0].isIntersecting) {
+            loadIframe();
+            observer.disconnect();
+          }
+        },
+        { rootMargin: '200px' } // Load the iframe when it's within 200px of the viewport
+      );
+      observer.observe(iframe);
     }
 
     return () => {
@@ -33,16 +52,16 @@ const LifestyleFavorites = () => {
     <div> 
       <TextReveal text="TRAVEL IN STYLE" />
       <div className={styles.lifestyleFavoritesWrapper}>
-      <iframe
-        title="Jackie's Weekly Favs"
-        src="https://shopmy.us/collections/public/555260?noHeader=true"
-        className={styles.lifestyleFavoritesIframe}
-        ref={iframeRef}
-        scrolling= 'no'
-      ></iframe>
+        <iframe
+          title="Jackie's Weekly Favs"
+          data-src="https://shopmy.us/collections/public/555260?noHeader=true"
+          className={styles.lifestyleFavoritesIframe}
+          ref={iframeRef}
+          scrolling='no'
+          loading='lazy' // Native lazy loading fallback
+        ></iframe>
+      </div>
     </div>
-    </div>
-  
   );
 };
 
