@@ -137,6 +137,9 @@ function HomePage() {
           <ReviewFavorites1 />
         </Grid>
         <Grid item xs={12}>
+        <Grid item xs={12}>
+          <TextReveal text="ULTIMATE WEDDING DRESS QUIZ" />
+        </Grid>
           <Suspense fallback={<div style={{ minHeight: '400px' }}>Loading quiz...</div>}>
             <Quiz3 />
           </Suspense>

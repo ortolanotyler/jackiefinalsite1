@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import styles from './LifestyleFavorites.module.css';
+import styles from './ReviewFavorites.module.css';
 import TextReveal from '../Components/TextReveal';
 
 const ReviewFavorites1 = () => {

@@ -1,0 +1,45 @@
+.lifestyleFavoritesWrapper {
+    width: 100%;
+    min-height: 1000px;
+    margin-bottom: 2rem;
+  }
+  
+  .lifestyleFavoritesIframe {
+    margin-top: 7rem;
+    width: 100%;
+    min-height: 1000px;
+    border: none;
+    overflow: hidden;
+    display: block;
+  }
+  
+  @media (max-width: 1200px) {
+    .lifestyleFavoritesWrapper {
+      min-height: 1200px;
+    }
+  
+    .lifestyleFavoritesIframe {
+      min-height: 1200px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .lifestyleFavoritesWrapper {
+        min-height: 1400px;
+    }
+
+    .lifestyleFavoritesIframe {
+        min-height: 1400px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .lifestyleFavoritesWrapper {
+      min-height: 1400px;
+    }
+  
+    .lifestyleFavoritesIframe {
+      min-height: 1400px;
+    }
+  }
+  
