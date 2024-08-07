@@ -58,7 +58,6 @@ const SummerInspo = () => {
 
   const blogContent = (
     <div className="container">
-      import { Helmet } from 'react-helmet';
 
       <Helmet>
     <title>Summer Inspiration - Jackie Wyers</title>

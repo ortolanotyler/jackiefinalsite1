@@ -9,6 +9,7 @@ import { initGA, logPageView } from '../../analytics';
 import BridalDropCap from '../../Components/BridalDropCap';
 import { Helmet } from 'react-helmet';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
+import DropCap from '../../Components/DropCap';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/MammaMia/mammamiatitle.png`;
@@ -220,13 +221,14 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 <div style = {{textAlign: 'center', marginTop: '2rem' }}>
 <SubscribeButton />
 </div>
-<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '2rem' }}>
-  <BridalDropCap 
-    text="Hey lovelies and Brides-To-Be! Today, I'm sharing how I quickly made my flower crown veil and separate flower pins
-    inspired by Sophie from Mamma Mia that I wore on my wedding day."
-    className="bridal-drop-cap-override"
-  />
+<div style={{ marginTop: '2rem'}}>
+  <DropCap 
+    text="Hey lovelies and Brides-To-Be! Today, I'm sharing how I quickly made my flower crown veil and separate flower pins inspired by Sophie from Mamma Mia that I wore on my wedding day."
+    style={paragraphStyle} // Apply the paragraph style here
+  />  
 </div>
+
+
 
      
   

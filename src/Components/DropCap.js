@@ -1,10 +1,10 @@
 import React from 'react';
-import './DropCap.css'; // Import your CSS file for styling
+import styles from './DropCap.module.css'; // Import the CSS module
 
 const DropCap = ({ text }) => {
   return (
-    <p className="dropcap">
-      <span className="dropcap-letter">{text.charAt(0)}</span>
+    <p className={styles.dropcap}>
+      <span className={styles['dropcap-letter']}>{text.charAt(0)}</span>
       {text.slice(1)}
     </p>
   );
