@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Box, Grid, Typography, useMediaQuery } from '@mui/material';
 
 const VideoEmbed = () => {
@@ -10,6 +10,41 @@ const VideoEmbed = () => {
   const newHeight = originalHeight * scaleFactor;
 
   const isSmallScreen = useMediaQuery((theme) => theme.breakpoints.down('sm'));
+
+  const iframeRef = useRef(null);
+  const [iframeLoaded, setIframeLoaded] = useState(false);
+
+  useEffect(() => {
+    const iframe = iframeRef.current;
+
+    const loadIframe = () => {
+      if (iframe && !iframeLoaded) {
+        iframe.src = iframe.dataset.src;
+        setIframeLoaded(true);
+      }
+    };
+
+    // Use IntersectionObserver to lazy load the iframe
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          loadIframe();
+          observer.disconnect();
+        }
+      },
+      { rootMargin: '200px' } // Load the iframe when it's within 200px of the viewport
+    );
+
+    if (iframe) {
+      observer.observe(iframe);
+    }
+
+    return () => {
+      if (observer) {
+        observer.disconnect();
+      }
+    };
+  }, [iframeLoaded]);
 
   return (
     <Grid item xs={12} display="flex" justifyContent="center" sx={{ mt: 1.5, ...(isSmallScreen && { p: 2.5 }) }}>
@@ -23,13 +58,15 @@ const VideoEmbed = () => {
         <iframe
           width={newWidth}
           height={newHeight}
-          src="https://www.youtube.com/embed/Uz03ReLZO9k?si=zWnzPrrt4i10KSxF&amp;controls=0"
+          data-src="https://www.youtube.com/embed/Uz03ReLZO9k?si=zWnzPrrt4i10KSxF&amp;controls=0"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
+          ref={iframeRef}
           style={{ border: 'none', maxWidth: '100%' }}
+          loading="lazy" // Fallback for browsers that support native lazy loading
         />
         <Box sx={{ textAlign: 'center', mt: 1 }}>
           <a
