@@ -3,14 +3,14 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
 // Import your images
-const image1 = `${process.env.PUBLIC_URL}/Images/Home/homepage1.jpg`;
-const image2 = `${process.env.PUBLIC_URL}/Images/Home/homepage2.jpg`;
-const image3 = `${process.env.PUBLIC_URL}/Images/Home/homepage3.jpg`;
-const image4 = `${process.env.PUBLIC_URL}/Images/Home/homepage4.jpg`;
-const image5 = `${process.env.PUBLIC_URL}/Images/Home/homepage5.jpg`;
-const image6 = `${process.env.PUBLIC_URL}/Images/Home/homepage6.jpg`;
-const image7 = `${process.env.PUBLIC_URL}/Images/Home/homepage7.jpg`;
-const image8 = `${process.env.PUBLIC_URL}/Images/Home/homepage8.jpg`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Home/homepage1.webp`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Home/homepage2.webp`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Home/homepage3.webp`;
+const image4 = `${process.env.PUBLIC_URL}/Images/Home/homepage4.webp`;
+const image5 = `${process.env.PUBLIC_URL}/Images/Home/homepage5.webp`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Home/homepage6.webp`;
+const image7 = `${process.env.PUBLIC_URL}/Images/Home/homepage7.webp`;
+const image8 = `${process.env.PUBLIC_URL}/Images/Home/homepage8.webp`;
 
 const itemData = [
   { img: image1, title: 'Jackie Wyers as Sophia Loren' },
