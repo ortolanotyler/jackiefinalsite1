@@ -3,14 +3,14 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
 // Import your images
-const image1 = `${process.env.PUBLIC_URL}/Images/Home/HomePage1.jpg`;
-const image2 = `${process.env.PUBLIC_URL}/Images/Home/HomePage2.jpg`;
-const image3 = `${process.env.PUBLIC_URL}/Images/Home/HomePage3.jpg`;
-const image4 = `${process.env.PUBLIC_URL}/Images/Home/HomePage4.jpg`;
-const image5 = `${process.env.PUBLIC_URL}/Images/Home/HomePage5.jpg`;
-const image6 = `${process.env.PUBLIC_URL}/Images/Home/HomePage6.jpg`;
-const image7 = `${process.env.PUBLIC_URL}/Images/Home/HomePage7.jpg`;
-const image8 = `${process.env.PUBLIC_URL}/Images/Home/HomePage8.jpg`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Home/HomePage1.webp`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Home/HomePage2.webp`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Home/HomePage3.webp`;
+const image4 = `${process.env.PUBLIC_URL}/Images/Home/HomePage4.webp`;
+const image5 = `${process.env.PUBLIC_URL}/Images/Home/HomePage5.webp`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Home/HomePage6.webp`;
+const image7 = `${process.env.PUBLIC_URL}/Images/Home/HomePage7.webp`;
+const image8 = `${process.env.PUBLIC_URL}/Images/Home/HomePage8.webp`;
 
 
 
