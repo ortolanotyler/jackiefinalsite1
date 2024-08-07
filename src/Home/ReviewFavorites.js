@@ -1,107 +1,68 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
+import styles from './LifestyleFavorites.module.css';
 import TextReveal from '../Components/TextReveal';
 
-const ReviewFavorites = () => {
-  const [isScrollable, setIsScrollable] = useState(false);
-  const iframeRefs = useRef([]);
+const ReviewFavorites1 = () => {
+  const iframeRef = useRef(null);
 
   useEffect(() => {
-    const handleResize = () => {
-      setIsScrollable(window.innerWidth < 1000);
+    const handleIframeFocus = () => {
+      document.body.style.overflow = 'auto';
     };
 
-    handleResize(); // Set the initial state
-    window.addEventListener('resize', handleResize); // Update state on window resize
+    const handleIframeBlur = () => {
+      document.body.style.overflow = 'hidden';
+    };
 
-    const loadIframe = (iframe, src) => {
+    const loadIframe = () => {
+      const iframe = iframeRef.current;
       if (iframe && !iframe.src) {
-        iframe.src = src;
+        iframe.src = iframe.dataset.src;
       }
     };
 
-    // Lazy loading iframes using IntersectionObserver
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const index = entry.target.dataset.index;
-            loadIframe(iframeRefs.current[index], iframeRefs.current[index].dataset.src);
-            observer.unobserve(entry.target); // Stop observing once the iframe has loaded
-          }
-        });
-      },
-      { rootMargin: '200px' } // Load the iframe when it's within 200px of the viewport
-    );
+    const iframe = iframeRef.current;
 
-    iframeRefs.current.forEach((iframe, index) => {
+    if (iframe) {
+      iframe.addEventListener('focus', handleIframeFocus);
+      iframe.addEventListener('blur', handleIframeBlur);
+
+      // Lazy load the iframe when it's close to the viewport
+      const observer = new IntersectionObserver(
+        (entries) => {
+          if (entries[0].isIntersecting) {
+            loadIframe();
+            observer.disconnect();
+          }
+        },
+        { rootMargin: '200px' } // Load the iframe when it's within 200px of the viewport
+      );
       observer.observe(iframe);
-    });
+    }
 
     return () => {
-      window.removeEventListener('resize', handleResize); // Clean up the event listener on unmount
-      observer.disconnect(); // Clean up the observer on unmount
+      if (iframe) {
+        iframe.removeEventListener('focus', handleIframeFocus);
+        iframe.removeEventListener('blur', handleIframeBlur);
+      }
     };
   }, []);
 
   return (
-    <div>
+    <div> 
       <TextReveal text="JACKIE'S WEEKLY TOP 3" />
-      <div style={{ width: '100%' }}>
+      <div className={styles.lifestyleFavoritesWrapper}>
         <iframe
           title="Jackie's Weekly Favs"
-          data-src="https://shopmy.us/collections/public/553108?noHeader=true"
-          style={{
-            width: '100%',
-            minHeight: '60vh',
-            border: 'none',
-            marginTop: '20px',
-          }}
-          className="review-favorites-iframe"
-          sandbox="allow-same-origin allow-scripts"
-          scrolling="no"
-          data-index="0"
-          ref={(el) => (iframeRefs.current[0] = el)}
-          loading="lazy"
-        ></iframe>
-      </div>
-      <div style={{ width: '100%', overflow: 'hidden' }}>
-        <iframe
-          title="Jackie's Weekly Favs"
-          data-src="https://shopmy.us/collections/public/619136?noHeader=true"
-          style={{
-            width: '100%',
-            minHeight: '60vh',
-            border: 'none',
-            overflow: 'hidden',
-          }}
-          className="review-favorites-iframe"
-          sandbox="allow-same-origin allow-scripts"
-          scrolling="no"
-          data-index="1"
-          ref={(el) => (iframeRefs.current[1] = el)}
-          loading="lazy"
-        ></iframe>
-      </div>
-      <div style={{ width: '100%', overflow: 'hidden' }}>
-        <iframe
-          title="Jackie's Weekly Favs"
-          data-src="https://shopmy.us/collections/public/619137?noHeader=true"
-          style={{
-            width: '100%',
-            minHeight: '60vh',
-            border: 'none',
-            overflow: 'hidden',
-          }}
-          className="review-favorites-iframe"
-          sandbox="allow-same-origin allow-scripts"
-          scrolling="no"
-          data-index="2"
-          ref={(el) => (iframeRefs.current[2] = el)}
-          loading="lazy"
+          data-src="https://shopmy.us/collections/public/718451?noHeader=true"
+          className={styles.lifestyleFavoritesIframe}
+          ref={iframeRef}
+          scrolling='no'
+          loading='lazy' 
         ></iframe>
       </div>
     </div>
   );
 };
 
-export default ReviewFavorites;
+export default ReviewFavorites1;

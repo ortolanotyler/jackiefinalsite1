@@ -17,6 +17,7 @@ import ShopMyHero2 from './ShopMyHero2';
 import { Helmet } from 'react-helmet';
 import { initGA, logPageView } from '../analytics';
 import QuiltedImageList1 from './ImageGridTutorials';
+import ReviewFavorites1 from './ReviewFavorites';
 
 // Lazy load components
 const VideoEmbed = lazy(() => import('./VideoEmbed'));
@@ -133,7 +134,7 @@ function HomePage() {
         </Grid>
 
         <Grid item xs={12}>
-          <ReviewFavorites />
+          <ReviewFavorites1 />
         </Grid>
         <Grid item xs={12}>
           <Suspense fallback={<div style={{ minHeight: '400px' }}>Loading quiz...</div>}>
