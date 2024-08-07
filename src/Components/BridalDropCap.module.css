@@ -1,18 +1,19 @@
-.dropcap1 {
-    justify-content: center;
-    text-align: center;
-    max-width: 500px;
-    color: black;
-    font-size: 20px; /* Adjust font size as needed */
-    line-height: 1.5; /* Adjust line height as needed */
-  }
-  
-  .dropcap-letter1 {
-    color: #745B4F; /* Adjust color as needed */
-    font-size: 7.5rem; /* Adjust dropcap letter size as needed */
-  
-    float: left;
-    margin-right: 0.1em; /* Adjust margin as needed */
-    line-height: 1; /* Adjust line height as needed */
-  }
-  
+/* DropCap.module.css */
+
+.dropcap {
+
+  margin: 2.5rem;
+  padding: 0.1rem;
+  color: black;
+  font-size: 21.25px; /* Adjust font size as needed */
+  line-height: 1; /* Adjust line height as needed */
+}
+
+.dropcap-letter {
+  color: #745B4F; /* Adjust color as needed */
+  font-size: 7.5rem; /* Adjust dropcap letter size as needed */
+  margin-bottom: 0.25rem;
+  float: left;
+  margin-right: 0.15em; /* Adjust margin as needed */
+  line-height: 1; /* Adjust line height as needed */
+}
