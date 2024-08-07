@@ -3,8 +3,7 @@
   padding: 2.5rem;
   background-color: #FDEDEF; /* Example background color, adjust as needed */
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .blockquote {
