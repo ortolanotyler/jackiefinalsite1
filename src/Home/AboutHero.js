@@ -22,7 +22,6 @@ const AboutHero = () => {
                   width: '100%',
                   height: 'auto', // Maintain aspect ratio
                   borderRadius: '8px',
-                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
                   aspectRatio: '4/3', // Defines a ratio for the image to prevent layout shift
                 }}
               />
