@@ -1,39 +1,34 @@
 .quiz-container {
-  max-width: 800px; /* Adjusted maximum width */
+  max-width: 800px;
   margin: auto;
   text-align: center;
   background-color: #fdedef;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
-  max-height: 100vh; /* Set maximum height */
-  padding: 20px; /* Added padding */
-  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .question-section {
-  margin-bottom: 1px; /* Reduced margin */
-}
-
-.question-count {
-  font-size: 16px; /* Reduced font size */
-  color: #745b4f;
+  margin-bottom: 10px;
 }
 
 .question-text {
-  font-size: 20px; /* Reduced font size */
+  font-size: 25px;
   font-weight: bold;
   color: #745b4f;
 }
 
 .answer-section {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2-column layout */
-  gap: 10px; /* Reduced gap */
+  padding: auto;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
 
 .answer-button {
   color: white;
-  font-size: 18px; /* Reduced font size */
+  font-size: 18px;
   cursor: pointer;
   border: none;
   background-color: transparent;
@@ -43,9 +38,11 @@
   background-position: center;
   font-family: GFS Didot;
   background-repeat: no-repeat;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9); /* Added a more prominent shadow */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
-  padding: 8px; /* Adjusted padding */
+  padding: 8px;
+  height: 20vh; /* Adjust height relative to viewport height */
+  min-height: 10vh;
 }
 
 .answer-button:hover {
@@ -57,7 +54,7 @@
   max-width: 50%;
   margin: auto;
   text-align: center;
-  padding: 15px; /* Reduced padding */
+  padding: 15px;
   background-color: #f3f3f3;
   border-radius: 12px;
   box-shadow: 1 6px 8px rgba(0, 0, 0, 0.9);
@@ -65,29 +62,29 @@
 
 @media (max-width: 800px) {
   .quiz-container {
-    max-width: calc(100% - 20px); /* Make it wider and reduce margin */
-    margin: 10px; /* Small margin from sides */
-    padding: 10px; /* Adjust padding for smaller screens */
+    max-width: calc(100% - 20px);
+    margin: 10px;
+    padding: 10px;
   }
 
   .answer-section {
-    grid-template-columns: 1fr; /* 1-column layout */
+    grid-template-columns: 1fr; /* Switch to a single-column layout */
   }
 
   .answer-button {
-    min-height: 10vh; /* Set minimum height to 10% of viewport height */
-    padding: 10px; /* Adjusted padding */
+    height: calc(80vh / 7); /* Dynamically size buttons to fit within the viewport height */
+    padding: 10px;
   }
 }
 
 @media (min-width: 801px) {
   .answer-button {
-    min-height: 20.5vh; /* Set minimum height to 20% of viewport height */
+    height: 20vh; /* Set a fixed height for larger screens */
   }
 }
 
 @media (min-width: 1200px) {
   .quiz-container {
-    max-width: 65%; /* Increase width for larger screens by 15% */
+    max-width: 65%;
   }
 }

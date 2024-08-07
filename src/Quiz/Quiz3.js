@@ -88,7 +88,6 @@ const Quiz3 = () => {
       ],
     },
   ];
-  
 
   const handleAnswerClick = (value) => {
     setAnswers([...answers, value]);
@@ -135,30 +134,7 @@ const Quiz3 = () => {
 
   return (
     <div className="quiz-container">
-      <Helmet>
-        <title>The Ultimate 2025 Wedding Dress Guide</title>
-        <meta name="description" content="Find your perfect wedding dress style with our fun and interactive quiz! Discover which wedding dress matches your dream wedding location, style, and more." />
-        <meta name="keywords" content="wedding dress quiz, bridal style, wedding fashion, 2025 wedding dresses, find your wedding dress, bridal quiz, wedding style guide, Jackie Wyers" />
-        <meta property="og:title" content="The Ultimate 2025 Wedding Dress Guide" />
-        <meta property="og:description" content="Find your perfect wedding dress style with our fun and interactive quiz! Discover which wedding dress matches your dream wedding location, style, and more." />
-        <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/og-image.jpg`} />
-        <meta property="og:url" content="https://jackiewyers.beauty/quiz3" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="The Ultimate 2025 Wedding Dress Guide" />
-        <meta name="twitter:description" content="Find your perfect wedding dress style with our fun and interactive quiz! Discover which wedding dress matches your dream wedding location, style, and more." />
-        <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/twitter-image.jpg`} />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-      </Helmet>
+    
 
       {!showResults ? (
         <>
@@ -173,6 +149,8 @@ const Quiz3 = () => {
                 onClick={() => handleAnswerClick(option.value)}
                 style={{
                   backgroundImage: `url(${option.backgroundImage})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
                 }}
               >
                 {option.text}
