@@ -14,23 +14,64 @@ const AboutHero = () => {
         <Grid item xs={12} sm={10} md={8} lg={6}>
           <Grid container spacing={2} alignItems="center">
             <Grid item xs={12} sm={6}>
-              <Box component="img" src={placeholderImage} alt="About Us" sx={{ width: '100%', borderRadius: '8px' }} />
+              <Box
+                component="img"
+                src={placeholderImage}
+                alt="About Us"
+                sx={{
+                  width: '100%',
+                  height: 'auto', // Maintain aspect ratio
+                  borderRadius: '8px',
+                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                  aspectRatio: '4/3', // Defines a ratio for the image to prevent layout shift
+                }}
+              />
             </Grid>
             <Grid item xs={12} sm={6}>
-              <Typography variant="h4" component="h2" sx={{ textAlign: { xs: 'center', sm: 'left' }, fontFamily: 'Arapey', color: 'black', marginBottom: '1rem' }}>
+              <Typography
+                variant="h4"
+                component="h2"
+                sx={{
+                  textAlign: { xs: 'center', sm: 'left' },
+                  fontFamily: 'Arapey',
+                  color: 'black',
+                  marginBottom: '1rem',
+                }}
+              >
                 MEET JACKIE
               </Typography>
               {paragraphs.slice(0, -1).map((text, index) => (
-                <Typography key={index} variant="body1" sx={{ fontFamily: 'GFS Didot, serif', color: 'black', marginBottom: '1rem', textAlign: { xs: 'center', sm: 'left' } }}>
+                <Typography
+                  key={index}
+                  variant="body1"
+                  sx={{
+                    fontFamily: 'GFS Didot, serif',
+                    color: 'black',
+                    marginBottom: '1rem',
+                    textAlign: { xs: 'center', sm: 'left' },
+                  }}
+                >
                   {text}
                 </Typography>
               ))}
               <Box sx={{ textAlign: { xs: 'center', sm: 'right' }, mt: 2 }}>
                 <Link
                   href="/about"
-                  sx={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
+                  sx={{
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    fontFamily: 'GFS Didot, serif',
+                    color: 'black',
+                    textDecoration: 'none',
+                  }}
                 >
-                  <Typography variant="body1" sx={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>
+                  <Typography
+                    variant="body1"
+                    sx={{
+                      fontFamily: 'GFS Didot, serif',
+                      color: 'black',
+                    }}
+                  >
                     READ FULL BIO
                   </Typography>
                   <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
