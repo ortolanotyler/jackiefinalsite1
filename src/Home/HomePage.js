@@ -37,7 +37,7 @@ function HomePage() {
     const handleScroll = debounce(() => {
       // Example of a scroll event handler
       console.log('User scrolled');
-      // Any scroll related logic can go here
+      // Any scroll-related logic can go here
     }, 200); // Adjust the debounce delay as necessary
 
     window.addEventListener('scroll', handleScroll);
@@ -85,18 +85,27 @@ function HomePage() {
 
       <Grid container spacing={1} justifyContent="center">
         <Grid item xs={12}>
-          <TextReveal text='JACKIE WYERS' />
+          <TextReveal text="JACKIE WYERS" />
         </Grid>
         <Grid item xs={12}>
-          <Paper elevation={0} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '5px', color: '#745B4F', textAlign: 'center' }}>
+          <Paper
+            elevation={0}
+            sx={{
+              backgroundColor: 'white',
+              fontFamily: 'GFS Didot, serif',
+              borderRadius: '5px',
+              color: '#745B4F',
+              textAlign: 'center',
+            }}
+          >
             <RotatingText />
           </Paper>
         </Grid>
-     
+
         <Grid item xs={12}>
           <QuiltedImageList1 />
         </Grid>
-     
+
         <Grid item xs={12}>
           <QuoteBanner3 />
         </Grid>
@@ -107,40 +116,36 @@ function HomePage() {
           <EmailSubscribe />
         </Grid>
         <Grid item xs={12}>
-          <div
-            style={{
-              padding: '2rem',
-            }}
-          >
+          <div style={{ padding: '2rem' }}>
             <SiteExplorer />
           </div>
         </Grid>
-     
+
         <Grid item xs={12}>
           <TextReveal text="LATEST VIDEO" />
         </Grid>
         <Grid item xs={12} display="flex" justifyContent="center" sx={{ mt: 2 }}>
           <ThemeProvider theme={theme}>
-            <Suspense fallback={<div>Loading video...</div>}>
+            <Suspense fallback={<div style={{ minHeight: '300px' }}>Loading video...</div>}>
               <VideoEmbed />
             </Suspense>
           </ThemeProvider>
         </Grid>
-      
+
         <Grid item xs={12}>
           <ReviewFavorites />
         </Grid>
         <Grid item xs={12}>
-          <Suspense fallback={<div>Loading quiz...</div>}>
+          <Suspense fallback={<div style={{ minHeight: '400px' }}>Loading quiz...</div>}>
             <Quiz3 />
           </Suspense>
         </Grid>
-       
+
         <Grid item xs={12}>
           <ShopMyHero2 />
         </Grid>
         <Grid item xs={12}>
-          <TextReveal text='LIFESTYLE' />
+          <TextReveal text="LIFESTYLE" />
         </Grid>
         <Grid item xs={12}>
           <BeyondBeautyHero />
@@ -148,18 +153,14 @@ function HomePage() {
         <Grid item xs={12}>
           <SiteExplorerBeyond />
         </Grid>
-       
+
         <Grid item xs={12}>
           <LifestyleFavorites />
         </Grid>
-    
-        <Grid item xs={12}>
-        <EmailSubscribe />
-        </Grid>
-           
-     
-       
-        <Suspense fallback={<div>Loading ads...</div>}>
+
+      
+
+        <Suspense fallback={<div style={{ minHeight: '250px' }}>Loading ads...</div>}>
           <AdSenseAd />
         </Suspense>
       </Grid>
@@ -186,6 +187,3 @@ function HomePage() {
 }
 
 export default HomePage;
-
-
-   

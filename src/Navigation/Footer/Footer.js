@@ -21,10 +21,10 @@ const Footer = () => {
                 color: '#745B4F',
                 textAlign: 'center',
                 padding: '40px 20px',
-                margin: 0,  // Ensures no additional margin causing width issues
+                marginTop: 'auto',
                 boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'  // Same box shadow as AppBar
             }}>
-                <div style={{ fontSize: '40px', marginBottom: '20px' }}>
+                <div style={{ fontSize: '40px' }}>
                     <a href="https://youtube.com/@JackieWyers?si=sklULUqnNkzkmiaY" target="_blank" rel="noopener noreferrer">
                         <YouTubeIcon style={{ color: '#745B4F', fontSize: 70 }} />
                     </a>
