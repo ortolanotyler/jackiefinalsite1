@@ -141,6 +141,7 @@ const imageStyle = {
   <meta name="twitter:title" content="Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers" />
   <meta name="twitter:description" content="Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments." />
   <meta name="twitter:image" content={title} />
+  <link rel="canonical" href="https://jackiewyers.beauty/fairytalewedding" />
 
   <script type="application/ld+json">
     {`

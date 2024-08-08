@@ -84,7 +84,7 @@ const MontTremblantBlog = () => {
     <meta name="twitter:title" content="Mont Tremblant Travel Guide - Jackie Wyers" />
     <meta name="twitter:description" content="Discover the enchanting ski village of Mont Tremblant, Quebec with Jackie Wyers. Explore the best experiences, food, and adventures during a romantic getaway in the mountains." />
     <meta name="twitter:image" content={title} />
-
+<link rel="canonical" href="https://jackiewyers.beauty/tremblant "/>
     <script type="application/ld+json">
         {`
         {
