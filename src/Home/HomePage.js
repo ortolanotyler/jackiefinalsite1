@@ -4,12 +4,10 @@ import { debounce } from 'lodash';
 import TextReveal from '../Components/TextReveal';
 import QuoteBanner3 from './QuoteBanner3';
 import EmailSubscribe from '../Components/EmailSubscribe';
-import SiteExplorer from './SiteExplorer';
 import RotatingText from '../Navigation/AppBar/RotatingText';
 import AboutHero from './AboutHero';
 import './AboutHero.css';
 import BeyondBeautyHero from './BeyondBeautyHero';
-import SiteExplorerBeyond from './SiteExplorerBeyond';
 import LifestyleFavorites from './LifestyleFavorites';
 import ShopMyHero2 from './ShopMyHero2';
 import { Helmet } from 'react-helmet';
@@ -19,12 +17,10 @@ import ReviewFavorites1 from './ReviewFavorites';
 import HeroSection from './HeroSection';
 import ImageGrid from './ArticlesGrid';
 import LifestyleGrid from './ArticlesGrid2Lifestyle';
-import Quiz2 from '../Quiz/Quiz2';
 
 // Lazy load components
 const VideoEmbed = lazy(() => import('./VideoEmbed'));
-const AdSenseAd = lazy(() => import('../Advertising/Ads'));
-const Quiz3 = lazy(() => import('../Quiz/Quiz3'));
+const Quiz2 = lazy(() => import('../Quiz/Quiz2'));
 
 const theme = createTheme();
 
@@ -242,9 +238,6 @@ function HomePage() {
           <LifestyleFavorites />
         </Grid>
 
-        <Suspense fallback={<div style={{ minHeight: '250px' }}>Loading ads...</div>}>
-          <AdSenseAd />
-        </Suspense>
       </Grid>
 
       <Grid item xs={12}>
