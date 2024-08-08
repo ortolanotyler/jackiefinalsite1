@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './HeroSection.module.css';
 
-const image1 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fairytalethumbnail.webp`;  // Changed to WebP format
+const image1 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fairytalethumbnail.webp`;  // Ensure this image is optimized
 
 const HeroSection = () => {
   return (
