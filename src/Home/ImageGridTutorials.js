@@ -31,7 +31,7 @@ export default function QuiltedImageList1() {
         height: 'auto',
         maxHeight: '55vh',
         overflowY: 'auto', // Enables scrolling
-        boxShadow: '0 0 0 1px rgba(0, 0, 0, 0.9)',
+        
       }}
       variant="quilted"
       cols={4}
