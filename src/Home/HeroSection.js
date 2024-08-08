@@ -31,6 +31,7 @@ const HeroSection = () => {
     letterSpacing: '1px',
     marginBottom: '10px',
     fontFamily: 'GFS Didot, serif',  // Ensure consistency
+    minHeight: '20px',  // Reserve space for the feature text
   };
 
   const headlineStyle = {
@@ -38,6 +39,7 @@ const HeroSection = () => {
     lineHeight: 1.2,
     marginBottom: '20px',
     fontFamily: 'GFS Didot, serif',  // Ensure consistency
+    minHeight: '50px',  // Reserve space for the headline
   };
 
   const subtextStyle = {
@@ -46,6 +48,7 @@ const HeroSection = () => {
     marginBottom: '20px',
     fontFamily: 'GFS Didot, serif',  // Ensure consistency
     color: '#333',  // Simplified color for faster rendering
+    minHeight: '70px',  // Reserve space for the subtext
   };
 
   const authorStyle = {
@@ -53,6 +56,7 @@ const HeroSection = () => {
     fontStyle: 'italic',
     color: '#555',
     fontFamily: 'GFS Didot, serif',  // Ensure consistency
+    minHeight: '20px',  // Reserve space for the author text
   };
 
   const imageContentStyle = {
@@ -107,6 +111,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
-
-
