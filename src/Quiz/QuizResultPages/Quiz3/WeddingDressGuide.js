@@ -107,7 +107,7 @@ const imageStyle = {
 
   const blogContent = (
     <div className="container">
-   <Helmet>
+<Helmet>
   <title>Jackie Wyers Wedding - The Ultimate 2025 Wedding Dress Guide</title>
   <meta name="description" content="Styles, Themes, and Trends for Brides-To-Be" />
   <meta name="keywords" content="wedding dress guide, 2025 wedding dresses, bridal fashion, Jackie Wyers, wedding themes, bridal trends" />
@@ -119,6 +119,7 @@ const imageStyle = {
   <meta name="twitter:title" content="Jackie Wyers Wedding - The Ultimate 2025 Wedding Dress Guide" />
   <meta name="twitter:description" content="Styles, Themes, and Trends for Brides-To-Be" />
   <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/weddingdressguidetitle.png`} />
+  <link rel="canonical" href="https://jackiewyers.beauty/weddingdressguide" />
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script>
     {`
