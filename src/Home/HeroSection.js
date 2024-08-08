@@ -20,7 +20,7 @@ const HeroSection = () => {
           </p>
         </div>
         <div className={styles.imageContent}>
-          <img src={image1} alt="Fairytale Wedding" loading="lazy" />  {/* Implemented lazy loading */}
+          <img src={image1} alt="Fairytale Wedding" loading="lazy" />
         </div>
       </div>
     </a>
@@ -28,3 +28,5 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
+

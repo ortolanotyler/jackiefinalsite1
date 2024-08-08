@@ -1,6 +1,6 @@
 .heroLink {
   text-decoration: none;  /* Remove underline from link */
-  color: inherit;  /* Ensure text color stays black */
+  color: inherit;  /* Ensure text color stays consistent */
 }
 
 .heroSection {
@@ -9,6 +9,7 @@
   align-items: center;  /* Centers content vertically */
   padding: 60px 20px;  /* Adds padding to create more space around the content */
   min-height: 80vh;  /* Ensures the section takes up at least 80% of the viewport height */
+  flex-wrap: wrap;  /* Allow wrapping for better responsiveness */
 }
 
 .textContent {
@@ -16,6 +17,7 @@
   padding-right: 40px;
   max-width: 600px;  /* Limits the width of the text content */
   text-align: center;
+  font-family: 'GFS Didot', serif;  /* Use GFS Didot font */
 }
 
 .feature {
@@ -23,24 +25,29 @@
   font-weight: bold;
   letter-spacing: 1px;
   margin-bottom: 10px;
+  font-family: 'GFS Didot', serif;  /* Ensure consistency */
 }
 
 .headline {
   font-size: 32px;
   line-height: 1.2;
   margin-bottom: 20px;
+  font-family: 'GFS Didot', serif;  /* Ensure consistency */
 }
 
 .subtext {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
+  font-family: 'GFS Didot', serif;  /* Ensure consistency */
+  color: #333;  /* Simplified color for faster rendering */
 }
 
 .author {
   font-size: 14px;
   font-style: italic;
   color: #555;
+  font-family: 'GFS Didot', serif;  /* Ensure consistency */
 }
 
 .imageContent {
@@ -53,6 +60,7 @@
   width: 100%;
   height: auto;
   border-radius: 5px;
+  display: block; /* Prevents image from being inline and causing layout shifts */
 }
 
 /* Media Query for smaller screens */
@@ -72,3 +80,4 @@
     max-width: 100%;  /* Allow image to take full width */
   }
 }
+
