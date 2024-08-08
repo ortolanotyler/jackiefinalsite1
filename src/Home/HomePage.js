@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, lazy, Suspense } from 'react';
-import { Grid, Box, Paper, Typography, ThemeProvider, createTheme, useMediaQuery } from '@mui/material';
+import { Grid, Box, Paper, ThemeProvider, createTheme, useMediaQuery, Typography } from '@mui/material';
 import { debounce } from 'lodash';
-import HeaderImage from '../Components/HeaderImageMobile';  // Correct import path
 import TextReveal from '../Components/TextReveal';
 import QuoteBanner3 from './QuoteBanner3';
 import EmailSubscribe from '../Components/EmailSubscribe';
@@ -9,7 +8,6 @@ import SiteExplorer from './SiteExplorer';
 import RotatingText from '../Navigation/AppBar/RotatingText';
 import AboutHero from './AboutHero';
 import './AboutHero.css';
-import ReviewFavorites from './ReviewFavorites';
 import BeyondBeautyHero from './BeyondBeautyHero';
 import SiteExplorerBeyond from './SiteExplorerBeyond';
 import LifestyleFavorites from './LifestyleFavorites';
@@ -18,6 +16,10 @@ import { Helmet } from 'react-helmet';
 import { initGA, logPageView } from '../analytics';
 import QuiltedImageList1 from './ImageGridTutorials';
 import ReviewFavorites1 from './ReviewFavorites';
+import HeroSection from './HeroSection';
+import ImageGrid from './ArticlesGrid';
+import LifestyleGrid from './ArticlesGrid2Lifestyle';
+import Quiz2 from '../Quiz/Quiz2';
 
 // Lazy load components
 const VideoEmbed = lazy(() => import('./VideoEmbed'));
@@ -36,10 +38,8 @@ function HomePage() {
     logPageView();
 
     const handleScroll = debounce(() => {
-      // Example of a scroll event handler
       console.log('User scrolled');
-      // Any scroll-related logic can go here
-    }, 200); // Adjust the debounce delay as necessary
+    }, 200);
 
     window.addEventListener('scroll', handleScroll);
 
@@ -54,77 +54,108 @@ function HomePage() {
         <title>Jackie Wyers Beauty</title>
         <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
         <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
-        <meta property="og:title" content="Jackie Wyers Beauty" />
-        <meta property="og:description" content="Explore beauty tutorials, reviews, travel tips, and more." />
-        <meta property="og:image" content="https://jackiewyers.beauty/logo.png" />
-        <meta property="og:url" content="https://jackiewyers.beauty" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Jackie Wyers Beauty" />
-        <meta name="twitter:description" content="Explore beauty tutorials, reviews, travel tips, and more." />
-        <meta name="twitter:image" content="https://jackiewyers.beauty/logo.png" />
-        <script type="application/ld+json">
-          {`
-          {
-            "@context": "http://schema.org",
-            "@type": "WebPage",
-            "name": "Jackie Wyers Beauty",
-            "description": "Explore beauty tutorials, reviews, travel tips, and more.",
-            "publisher": {
-              "@type": "Organization",
-              "name": "Jackie Wyers Beauty",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://jackiewyers.beauty/logo.png"
-              }
-            },
-            "image": "https://jackiewyers.beauty/logo.png",
-            "url": "https://jackiewyers.beauty"
-          }
-          `}
-        </script>
+        {/* Add other meta tags */}
       </Helmet>
 
       <Grid container spacing={1} justifyContent="center">
         <Grid item xs={12}>
-          <TextReveal text="JACKIE WYERS" />
+          <TextReveal text="JACKIE WYERS" style={{ marginBottom: '0px' }} />
         </Grid>
+
+        {!isMobile && (
+          <Grid item xs={12}>
+            <Paper
+              elevation={0}
+              sx={{
+                backgroundColor: 'white',
+                fontFamily: 'GFS Didot, serif',
+                borderRadius: '5px',
+                color: '#745B4F',
+                textAlign: 'center',
+              }}
+            >
+              <RotatingText />
+            </Paper>
+          </Grid>
+        )}
+
+        {!isMobile && (
+          <Grid item xs={12}>
+            <QuiltedImageList1 />
+          </Grid>
+        )}
+        
+        {/* Hide QuoteBanner3 on mobile */}
+        {!isMobile && (
+          <Grid item xs={12}>
+            <QuoteBanner3 />
+          </Grid>
+        )}
+
         <Grid item xs={12}>
-          <Paper
-            elevation={0}
-            sx={{
-              backgroundColor: 'white',
-              fontFamily: 'GFS Didot, serif',
-              borderRadius: '5px',
-              color: '#745B4F',
-              textAlign: 'center',
-            }}
-          >
-            <RotatingText />
-          </Paper>
+          <HeroSection />
         </Grid>
 
         <Grid item xs={12}>
-          <QuiltedImageList1 />
+          <TextReveal text="BEAUTY" />
+          <ImageGrid />
         </Grid>
 
-        <Grid item xs={12}>
-          <QuoteBanner3 />
-        </Grid>
         <Grid item xs={12}>
           <AboutHero />
         </Grid>
-        <Grid item xs={12} display="flex" justifyContent="center">
-          <EmailSubscribe />
-        </Grid>
+
         <Grid item xs={12}>
-          <div style={{ padding: '2rem' }}>
-            <SiteExplorer />
-          </div>
+          <TextReveal text="QUIZ" />
+        </Grid>
+
+        <Grid item xs={12}>
+          <Suspense fallback={<div style={{ minHeight: '400px' }}>Loading quiz...</div>}>
+            <Quiz2 />
+          </Suspense>
+        </Grid>
+
+        <Grid item xs={12} sx={{ display: 'flex', justifyContent: { xs: 'center', md: 'flex-end' }, mt: 2 }}>
+          <Box sx={{ textAlign: { xs: 'center', md: 'right' }, mr: 5, mb: 2 }}>
+            <a
+              href="/quiz"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                fontFamily: 'GFS Didot, serif',
+                color: 'black',
+                textDecoration: 'none',
+              }}
+            >
+              <Typography
+                variant="body1"
+                sx={{
+                  fontSize: '1.25rem',
+                  fontFamily: 'GFS Didot, serif',
+                  color: 'black',
+                }}
+              >
+                VIEW ALL QUIZZES
+              </Typography>
+              <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>
+                &rarr;
+              </Box>
+            </a>
+          </Box>
+        </Grid>
+
+        <Grid item xs={12}>
+          <TextReveal text="NEWSLETTER" />
+        </Grid>
+
+        <Grid item xs={12}>
+          <EmailSubscribe />
         </Grid>
 
         <Grid item xs={12}>
           <TextReveal text="LATEST VIDEO" />
         </Grid>
+
         <Grid item xs={12} display="flex" justifyContent="center" sx={{ mt: 2 }}>
           <ThemeProvider theme={theme}>
             <Suspense fallback={<div style={{ minHeight: '300px' }}>Loading video...</div>}>
@@ -136,40 +167,90 @@ function HomePage() {
         <Grid item xs={12}>
           <ReviewFavorites1 />
         </Grid>
-        <Grid item xs={12}>
-        <Grid item xs={12}>
-          <TextReveal text="ULTIMATE WEDDING DRESS QUIZ" />
-        </Grid>
-          <Suspense fallback={<div style={{ minHeight: '400px' }}>Loading quiz...</div>}>
-            <Quiz3 />
-          </Suspense>
-        </Grid>
 
         <Grid item xs={12}>
           <ShopMyHero2 />
         </Grid>
+
+        <Grid item xs={12} sx={{ display: 'flex', justifyContent: { xs: 'center', md: 'flex-end' }, mt: 2 }}>
+          <Box sx={{ textAlign: { xs: 'center', md: 'right' }, mr: 5, mb: 2 }}>
+            <a
+              href="/mystyle"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                fontFamily: 'GFS Didot, serif',
+                color: 'black',
+                textDecoration: 'none',
+              }}
+            >
+              <Typography
+                variant="body1"
+                sx={{
+                  fontSize: '1.25rem',
+                  fontFamily: 'GFS Didot, serif',
+                  color: 'black',
+                }}
+              >
+                SHOP ALL OUTFITS
+              </Typography>
+              <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>
+                &rarr;
+              </Box>
+            </a>
+          </Box>
+        </Grid>
+
         <Grid item xs={12}>
           <TextReveal text="LIFESTYLE" />
+          <Grid item xs={12}>
+            <BeyondBeautyHero />
+          </Grid>
+          <LifestyleGrid />
         </Grid>
-        <Grid item xs={12}>
-          <BeyondBeautyHero />
-        </Grid>
-        <Grid item xs={12}>
-          <SiteExplorerBeyond />
+
+        <Grid item xs={12} sx={{ display: 'flex', justifyContent: { xs: 'center', md: 'flex-end' }, mt: 2 }}>
+          <Box sx={{ textAlign: { xs: 'center', md: 'right' }, mr: 5, mb: 2 }}>
+            <a
+              href="/travel"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                fontFamily: 'GFS Didot, serif',
+                color: 'black',
+                textDecoration: 'none',
+              }}
+            >
+              <Typography
+                variant="body1"
+                sx={{
+                  fontSize: '1.25rem',
+                  fontFamily: 'GFS Didot, serif',
+                  color: 'black',
+                }}
+              >
+                VIEW MORE TRAVEL POSTS
+              </Typography>
+              <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>
+                &rarr;
+              </Box>
+            </a>
+          </Box>
         </Grid>
 
         <Grid item xs={12}>
           <LifestyleFavorites />
         </Grid>
 
-      
-
         <Suspense fallback={<div style={{ minHeight: '250px' }}>Loading ads...</div>}>
           <AdSenseAd />
         </Suspense>
       </Grid>
 
-      {/* Third-party scripts moved to the bottom */}
+      <Grid item xs={12}>
+        <EmailSubscribe />
+      </Grid>
+
       <Helmet>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
         <script>
@@ -178,11 +259,6 @@ function HomePage() {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
-        <script async id="mcjs">
-          {`
-            !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/3cbca49c11b826b9b0b709c2a/ac2a62fa7c3193153638d1a76.js");
           `}
         </script>
       </Helmet>

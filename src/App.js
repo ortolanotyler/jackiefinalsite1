@@ -109,8 +109,8 @@ import MetSteps from './Shop/ShopMyHomeLinks/MetSteps';
 import ParisInNYC from './Shop/ShopMyHomeLinks/ParisInNYC';
 import FloralMini from './Shop/ShopMyHomeLinks/FloralMini';
 import FolkloreFairy from './Shop/ShopMyHomeLinks/FolkloreFairy';
-import HeroSection from './Home/HeroSection';
 import ImageGrid from './Home/ArticlesGrid';
+import HeroSection from './Home/HeroSection';
 
 function usePageTracking() {
   const location = useLocation();

@@ -8,6 +8,12 @@
   
   .gridItem {
     text-align: center;
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .gridItem a {
+    text-decoration: none; /* Ensure links have no underline */
+    color: inherit; /* Inherit color from parent */
   }
   
   .image {
@@ -22,6 +28,7 @@
     margin-top: 10px;
     font-size: 16px;
     font-weight: 500;
+    color: black; /* Set title color to black */
   }
   
   @media (max-width: 1024px) {

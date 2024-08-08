@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { Grid, Button, Box, FormControlLabel, Checkbox, Typography, Alert, TextField } from '@mui/material';
+import { Grid, Button, Box, Typography, Alert, TextField } from '@mui/material';
 import { EmailContext } from './EmailContext';
 import axios from 'axios';
 import './EmailSubscribe.module.css'; // Ensure this file exists
@@ -8,15 +8,14 @@ const image1 = `${process.env.PUBLIC_URL}/Images/Home/EmailSub.jpeg`;
 
 export default function EmailSubscribe() {
   const [email, setEmail] = useState('');
-  const [consent, setConsent] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [error, setError] = useState('');
   const { addEmail } = useContext(EmailContext);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!email || !consent) {
-      setError('Email and consent are required.');
+    if (!email) {
+      setError('Email is required.');
       return;
     }
 
@@ -25,7 +24,6 @@ export default function EmailSubscribe() {
       if (response.status === 200) {
         setIsSubmitted(true);
         setEmail('');
-        setConsent(false);
         setError('');
         addEmail(email);
       }
@@ -71,37 +69,25 @@ export default function EmailSubscribe() {
                   variant="contained"
                   className="button"
                   sx={{
-                    backgroundColor: consent ? '#fdedef' : 'black',
-                    color: consent ? '#745B4F' : 'white',
+                    backgroundColor: 'black',
+                    color: 'white',
                     borderRadius: '5px',
                     width: '100%',
                     fontFamily: 'GFS Didot, serif',
-                    padding: '0.5rem',
+                    padding: '0.25rem',
                     '&:hover': {
-                      backgroundColor: consent ? '#fdedef' : '#333',
-                      color: consent ? '#745B4F' : 'white',
+                      backgroundColor: '#333',
+                      color: 'white',
                     },
                   }}
                 >
                   Subscribe
                 </Button>
               </Grid>
-              <Grid item xs={12}>
-                <FormControlLabel
-                  control={
-                    <Checkbox
-                      checked={consent}
-                      onChange={(e) => setConsent(e.target.checked)}
-                      color="primary"
-                      required
-                    />
-                  }
-                  label={
-                    <Typography variant="body2" style={{ fontSize: '0.75rem',fontFamily: 'GFS Didot, serif', color: 'black' }}>
-                      I have read the <a href="/privacy" target="_blank" style={{ color: '#745B4F', textDecoration: 'underline' }}>Privacy Policy</a> and give consent to be a part of the newsletter. I understand that I can unsubscribe at any time via email.
-                    </Typography>
-                  }
-                />
+              <Grid item xs={12} sx={{ textAlign: 'center' }}>
+                <Typography variant="body2" style={{ fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
+                  By submitting, you agree that you have read the <a href="/privacy" target="_blank" style={{ color: '#745B4F', textDecoration: 'underline' }}>Privacy Policy</a>.
+                </Typography>
               </Grid>
               {error && (
                 <Grid item xs={12}>

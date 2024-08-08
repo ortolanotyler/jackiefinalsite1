@@ -5,23 +5,24 @@ const image1 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fairy
 
 const HeroSection = () => {
   return (
-    <div className={styles.heroSection}>
-      <div className={styles.textContent}>
-        <h2 className={styles.feature}>FEATURE</h2>
-        <h1 className={styles.headline}>
-          This CEO Helped Lead Antiabortion Clinics. Now She’s Exposing Them.
-        </h1>
-        <p className={styles.subtext}>
-          Obria Group, the crisis pregnancy center network that wants to be the pro-life answer to Planned Parenthood, said its clinics would provide women’s health care to millions. Its former CEO says that wasn’t the full story.
-        </p>
-        <p className={styles.author}>
-          BY ELIZABETH FLOCK AND ILLUSTRATIONS BY LIA KANTROWITZ
-        </p>
+    <a href="/fairytalewedding" className={styles.heroLink}>
+      <div className={styles.heroSection}>
+        <div className={styles.textContent}>
+          <h2 className={styles.feature}>FEATURE</h2>
+          <h1 className={styles.headline}>
+            Our Fairytale Wedding Overlooking Sorrento, Italy
+          </h1>
+          <p className={styles.subtext}>
+          Step into the magic of our fairytale wedding in Sorrento, Italy. Discover the iconic pop culture brides who inspired my bridal look, and get an inside look at the intimate ceremony that brought our love story—from middle school sweethearts to lifelong partners—to life. </p>
+          <p className={styles.author}>
+            BY JACKIE WYERS
+          </p>
+        </div>
+        <div className={styles.imageContent}>
+          <img src={image1} alt="Placeholder" />
+        </div>
       </div>
-      <div className={styles.imageContent}>
-        <img src={image1} alt="Placeholder" />
-      </div>
-    </div>
+    </a>
   );
 };
 

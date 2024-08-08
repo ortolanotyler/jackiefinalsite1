@@ -7,6 +7,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
   padding: 20px;
   box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
 .question-section {
@@ -15,7 +16,7 @@
 
 .question-text {
   font-size: 25px;
-  font-weight: bold;
+  font-weight: normal;
   color: #745b4f;
 }
 
