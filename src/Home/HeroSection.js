@@ -15,9 +15,7 @@ const HeroSection = () => {
           <p className={styles.subtext}>
             Step into the magic of our fairytale wedding in Sorrento, Italy. Discover the iconic pop culture brides who inspired my bridal look, and get an inside look at the intimate ceremony that brought our love story—from middle school sweethearts to lifelong partners—to life.
           </p>
-          <p className={styles.author}>
-            BY JACKIE WYERS
-          </p>
+          <p className={styles.author}>BY JACKIE WYERS</p>
         </div>
         <div className={styles.imageContent}>
           <img src={image1} alt="Fairytale Wedding" loading="lazy" />
