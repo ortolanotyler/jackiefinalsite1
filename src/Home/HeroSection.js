@@ -14,6 +14,7 @@ const HeroSection = () => {
     alignItems: 'center',  // Centers content vertically
     padding: '60px 20px',  // Adds padding to create more space around the content
     minHeight: '80vh',  // Ensures the section takes up at least 80% of the viewport height
+    flexDirection: 'row',  // Align text and image side by side by default
     flexWrap: 'wrap',  // Allow wrapping for better responsiveness
   };
 
@@ -73,7 +74,7 @@ const HeroSection = () => {
   };
 
   const heroSectionSmallScreenStyle = {
-    flexDirection: 'column',  // Stack the image and text vertically
+    flexDirection: 'column',  // Stack the image and text vertically on small screens
   };
 
   const textContentSmallScreenStyle = {
@@ -87,6 +88,7 @@ const HeroSection = () => {
     maxWidth: '100%',  // Allow image to take full width
   };
 
+  // Check if the screen width is less than or equal to 768px (considered small screen)
   const isSmallScreen = window.innerWidth <= 768;
 
   return (
