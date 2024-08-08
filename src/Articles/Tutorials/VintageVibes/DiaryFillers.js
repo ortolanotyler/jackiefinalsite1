@@ -13,7 +13,7 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
   <div>
-    <div><TextReveal text='DIARY' /></div>
+   
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
@@ -115,8 +115,8 @@ const DiaryPost1Fillers = () => {
 
 
     
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-        <a href="/diary" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '15vh' }}>
+        <a href="/diary" style={{ fontFamily: 'Arapey', fontSize: '20px', color: 'black', textDecoration: 'none' }}>
           DIARY
         </a>
       </div>

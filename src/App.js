@@ -111,6 +111,7 @@ import FloralMini from './Shop/ShopMyHomeLinks/FloralMini';
 import FolkloreFairy from './Shop/ShopMyHomeLinks/FolkloreFairy';
 import ImageGrid from './Home/ArticlesGrid';
 import HeroSection from './Home/HeroSection';
+import DiaryHome from './DiaryHome/diaryhome';
 
 function usePageTracking() {
   const location = useLocation();
@@ -190,7 +191,7 @@ function App() {
             <Route path="parisprincess" element={<RightOutfit />} />
             <Route path="vlogs" element={<Vlogs />} />
             <Route path="travel" element={<TravelArticlesHome />} />
-            <Route path="diary" element={<DiarySlider />} />
+            <Route path="diary" element={<DiaryHome />} />
             <Route path="diaryfillers" element={<DiaryPost1Fillers />} />
             <Route path="sitemap" element={<Sitemap />} />
             <Route path="subscribe" element={<EmailSubscribe />} />
