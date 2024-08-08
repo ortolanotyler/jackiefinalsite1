@@ -1,23 +1,5 @@
-@keyframes jiggle {
-  0%, 100% {
-    transform: translateX(0);
-  }
-  25% {
-    transform: translateX(-2px);
-  }
-  50% {
-    transform: translateX(2px);
-  }
-  75% {
-    transform: translateX(-2px);
-  }
-}
+/* Remove the jiggle animation */
 
-.jiggle-button:hover {
-  animation: jiggle 0.5s;
-}
-
-/* Add media queries for button resizing */
 @media (max-width: 1400px) {
   .responsive-button {
     padding: 0.4rem;

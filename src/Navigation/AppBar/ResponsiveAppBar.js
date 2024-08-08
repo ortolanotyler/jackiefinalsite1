@@ -106,7 +106,7 @@ function ResponsiveAppBar() {
         sx={{
           fontFamily: 'GFS Didot, serif',
           backgroundColor: '#FDEDEF',
-         marginBottom: '1px',
+          marginBottom: '1px',
           width: '100%',
           zIndex: 1200, // Ensure it stays above other content but below the sidebar
         }}
@@ -123,7 +123,14 @@ function ResponsiveAppBar() {
                 },
               }}
             >
-              <img src={logo} alt="Logo" style={{ height: '6rem' }} />
+              <img
+                src={logo}
+                alt="Logo"
+                style={{
+                  width: '100px', // Exact width for the logo
+                  height: '100px', // Exact height for the logo
+                }}
+              />
             </IconButton>
 
             {isCollapsed ? (
@@ -247,7 +254,7 @@ function ResponsiveAppBar() {
                     key={page.name}
                     component={Link}
                     to={page.path}
-                    className="jiggle-button responsive-button"
+                    className="responsive-button"
                     sx={{
                       my: 2,
                       color: '#745B4F',
@@ -267,7 +274,7 @@ function ResponsiveAppBar() {
                   aria-controls="about-menu"
                   aria-haspopup="true"
                   onClick={handleOpenAboutMenu}
-                  className="jiggle-button responsive-button"
+                  className="responsive-button"
                   sx={{
                     my: 2,
                     color: '#745B4F',
@@ -321,7 +328,7 @@ function ResponsiveAppBar() {
                   aria-controls="tutorials-menu"
                   aria-haspopup="true"
                   onClick={handleOpenTutorialsMenu}
-                  className="jiggle-button responsive-button"
+                  className="responsive-button"
                   sx={{
                     my: 2,
                     color: '#745B4F',
@@ -376,7 +383,7 @@ function ResponsiveAppBar() {
                     key={page.name}
                     component={Link}
                     to={page.path}
-                    className="jiggle-button responsive-button"
+                    className="responsive-button"
                     sx={{
                       my: 2,
                       color: '#745B4F',
@@ -396,7 +403,7 @@ function ResponsiveAppBar() {
                   aria-controls="shop-menu"
                   aria-haspopup="true"
                   onClick={handleOpenShopMenu}
-                  className="jiggle-button responsive-button"
+                  className="responsive-button"
                   sx={{
                     my: 2,
                     color: '#745B4F',
@@ -451,7 +458,7 @@ function ResponsiveAppBar() {
                     key={page.name}
                     component={Link}
                     to={page.path}
-                    className="jiggle-button responsive-button"
+                    className="responsive-button"
                     sx={{
                       my: 2,
                       color: '#745B4F',
@@ -471,7 +478,7 @@ function ResponsiveAppBar() {
                   aria-controls="beyond-beauty-menu"
                   aria-haspopup="true"
                   onClick={handleOpenBeyondMenu}
-                  className="jiggle-button responsive-button"
+                  className="responsive-button"
                   sx={{
                     my: 2,
                     color: '#745B4F',
