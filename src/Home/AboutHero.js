@@ -20,8 +20,8 @@ const AboutHero = () => {
               <Box
                 component="img"
                 src={placeholderImage}
-                srcset={`${process.env.PUBLIC_URL}/Images/Home/MeetJackie-400.webp 400w, 
-                         ${process.env.PUBLIC_URL}/Images/Home/MeetJackie-800.webp 800w, 
+                srcset={`${process.env.PUBLIC_URL}/Images/Home/MeetJackie.webp 400w, 
+                         ${process.env.PUBLIC_URL}/Images/Home/MeetJackie.webp 800w, 
                          ${placeholderImage} 1200w`}
                 sizes="(max-width: 600px) 400px, (max-width: 960px) 800px, 1200px"
                 alt="About Us"

@@ -109,6 +109,8 @@ import MetSteps from './Shop/ShopMyHomeLinks/MetSteps';
 import ParisInNYC from './Shop/ShopMyHomeLinks/ParisInNYC';
 import FloralMini from './Shop/ShopMyHomeLinks/FloralMini';
 import FolkloreFairy from './Shop/ShopMyHomeLinks/FolkloreFairy';
+import HeroSection from './Home/HeroSection';
+import ImageGrid from './Home/ArticlesGrid';
 
 function usePageTracking() {
   const location = useLocation();
@@ -244,6 +246,8 @@ function App() {
             <Route path="paris-in-nyc" element={<ParisInNYC/>} />
             <Route path="floral-mini" element={<FloralMini/>} />
             <Route path="folklore-fairy" element={<FolkloreFairy/>} />
+            <Route path="hero-section" element={<HeroSection/>} />
+            <Route path="articles-section" element={<ImageGrid/>} />
 
 
             <Route path="*" element={<h1>404 Not Found</h1>} />

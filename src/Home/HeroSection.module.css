@@ -1,0 +1,70 @@
+.heroSection {
+    display: flex;
+    justify-content: center;  /* Centers content horizontally */
+    align-items: center;  /* Centers content vertically */
+    padding: 60px 20px;  /* Adds padding to create more space around the content */
+    min-height: 80vh;  /* Ensures the section takes up at least 80% of the viewport height */
+  }
+  
+  .textContent {
+    flex: 1;
+    padding-right: 40px;
+    max-width: 600px;  /* Limits the width of the text content */
+    text-align: center;
+  }
+  
+  .feature {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  
+  .headline {
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  .subtext {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .author {
+    font-size: 14px;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .imageContent {
+    flex: 1;
+    text-align: right;
+    max-width: 600px;  /* Limits the width of the image content */
+  }
+  
+  .imageContent img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Media Query for smaller screens */
+  @media (max-width: 768px) {
+    .heroSection {
+      flex-direction: column;  /* Stack the image and text vertically */
+    }
+  
+    .textContent {
+      padding-right: 0;  /* Remove right padding */
+      padding-top: 20px;  /* Add some space between image and text */
+      text-align: center;  /* Center the text */
+    }
+  
+    .imageContent {
+      text-align: center;  /* Center the image */
+      max-width: 100%;  /* Allow image to take full width */
+    }
+  }
+  

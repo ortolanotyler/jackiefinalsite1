@@ -1,0 +1,38 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for large screens */
+    gap: 20px; /* Space between grid items */
+    padding: 20px;
+    justify-items: center; /* Center content horizontally */
+  }
+  
+  .gridItem {
+    text-align: center;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1; /* Ensures the image is always a square */
+    object-fit: cover; /* Ensures the image covers the entire square without distortion */
+    border-radius: 5px;
+  }
+  
+  .title {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 1024px) {
+    .gridContainer {
+      grid-template-columns: repeat(2, 1fr); /* 2x2 layout for medium screens */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .gridContainer {
+      grid-template-columns: 1fr; /* 1 column layout for small screens */
+    }
+  }
+  
