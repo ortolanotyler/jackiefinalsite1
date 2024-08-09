@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, lazy, Suspense } from 'react';
+import React, { useEffect, lazy, Suspense } from 'react';
 import { Grid, Box, Paper, ThemeProvider, createTheme, useMediaQuery, Typography } from '@mui/material';
 import { debounce } from 'lodash';
 import { Helmet } from 'react-helmet';
@@ -43,33 +43,33 @@ function HomePage() {
 
   return (
     <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
-    <Helmet>
-      <title>Jackie Wyers Beauty</title>
-      <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
-      <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
+      <Helmet>
+        <title>Jackie Wyers Beauty</title>
+        <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
+        <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
 
-      {/* Preload Google Font */}
-      <link rel="preload" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" as="style" />
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" />
+        {/* Preload Google Font */}
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" as="style" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" />
 
-      {/* Preload Homepage CSS */}
-      <link rel="preload" href="/css/HomePage.css" as="style" />
-      <link rel="stylesheet" href="/css/HomePage.css" />
+        {/* Preload Homepage CSS */}
+        <link rel="preload" href="/css/HomePage.css" as="style" />
+        <link rel="stylesheet" href="/css/HomePage.css" />
 
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-      <script>
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-RT6GR7JXYG');
-        `}
-      </script>
-    </Helmet>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG');
+          `}
+        </script>
+      </Helmet>
 
       <Grid container spacing={1} justifyContent="center">
         <Grid item xs={12}>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div className="spinner"></div>}>
             <TextReveal text="JACKIE WYERS" style={{ marginBottom: '0px' }} />
           </Suspense>
         </Grid>
@@ -86,7 +86,7 @@ function HomePage() {
                 textAlign: 'center',
               }}
             >
-              <Suspense fallback={<div>Loading...</div>}>
+              <Suspense fallback={<div className="spinner"></div>}>
                 <RotatingText />
               </Suspense>
             </Paper>
@@ -95,7 +95,7 @@ function HomePage() {
 
         {!isMobile && (
           <Grid item xs={12}>
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<div className="spinner"></div>}>
               <QuiltedImageList1 />
             </Suspense>
           </Grid>
@@ -103,39 +103,39 @@ function HomePage() {
 
         {!isMobile && (
           <Grid item xs={12}>
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<div className="spinner"></div>}>
               <QuoteBanner3 />
             </Suspense>
           </Grid>
         )}
 
         <Grid item xs={12}>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div className="spinner"></div>}>
             <HeroSection />
           </Suspense>
         </Grid>
 
         <Grid item xs={12}>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div className="spinner"></div>}>
             <TextReveal text="BEAUTY" />
             <ImageGrid />
           </Suspense>
         </Grid>
 
         <Grid item xs={12}>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div className="spinner"></div>}>
             <AboutHero />
           </Suspense>
         </Grid>
 
         <Grid item xs={12}>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div className="spinner"></div>}>
             <TextReveal text="QUIZ" />
           </Suspense>
         </Grid>
 
         <Grid item xs={12}>
-          <Suspense fallback={<div style={{ minHeight: '400px' }}>Loading quiz...</div>}>
+          <Suspense fallback={<div className="spinner" style={{ minHeight: '400px' }}></div>}>
             <Quiz2 />
           </Suspense>
         </Grid>
@@ -170,14 +170,14 @@ function HomePage() {
         </Grid>
 
         <Grid item xs={12}>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div className="spinner"></div>}>
             <TextReveal text="NEWSLETTER" />
             <EmailSubscribe />
           </Suspense>
         </Grid>
 
         <Grid item xs={12}>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div className="spinner"></div>}>
             <TextReveal text="LATEST VIDEO" />
             <ThemeProvider theme={theme}>
               <VideoEmbed />
@@ -186,13 +186,13 @@ function HomePage() {
         </Grid>
 
         <Grid item xs={12}>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div className="spinner"></div>}>
             <ReviewFavorites1 />
           </Suspense>
         </Grid>
 
         <Grid item xs={12}>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div className="spinner"></div>}>
             <ShopMyHero2 />
           </Suspense>
         </Grid>
@@ -227,44 +227,15 @@ function HomePage() {
         </Grid>
 
         <Grid item xs={12}>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div className="spinner"></div>}>
             <TextReveal text="LIFESTYLE" />
             <BeyondBeautyHero />
             <LifestyleGrid />
           </Suspense>
         </Grid>
 
-        <Grid item xs={12} sx={{ display: 'flex', justifyContent: { xs: 'center', md: 'flex-end' }, mt: 2 }}>
-          <Box sx={{ textAlign: { xs: 'center', md: 'right' }, mr: 5, mb: 2 }}>
-            <a
-              href="/travel"
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                fontFamily: 'GFS Didot, serif',
-                color: 'black',
-                textDecoration: 'none',
-              }}
-            >
-              <Typography
-                variant="body1"
-                sx={{
-                  fontSize: '1.25rem',
-                  fontFamily: 'GFS Didot, serif',
-                  color: 'black',
-                }}
-              >
-                VIEW MORE TRAVEL POSTS
-              </Typography>
-              <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>
-                &rarr;
-              </Box>
-            </a>
-          </Box>
-        </Grid>
-
         <Grid item xs={12}>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div className="spinner"></div>}>
             <LifestyleFavorites />
           </Suspense>
         </Grid>
@@ -272,7 +243,7 @@ function HomePage() {
       </Grid>
 
       <Grid item xs={12}>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div className="spinner"></div>}>
           <EmailSubscribe />
         </Suspense>
       </Grid>
