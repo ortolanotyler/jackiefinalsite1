@@ -101,6 +101,8 @@ const Quiz2 = () => {
       ],
     },
   ];
+  
+
   const handleAnswerClick = (value) => {
     const updatedScores = { ...scores, [value]: scores[value] + 1 };
     setScores(updatedScores);
@@ -127,20 +129,20 @@ const Quiz2 = () => {
 
   return (
     <div className="quiz-container">
-     <Helmet>
-  <title>Jackie Wyers Beauty</title>
-  <meta name="description" content="Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty? Find out with our fun and interactive quiz!" />
-  <meta name="keywords" content="beauty quiz, animal pretty, Jackie Wyers, makeup quiz, beauty styles, fox pretty, deer pretty, bunny pretty, cat pretty" />
-  <meta property="og:title" content="Jackie Wyers Beauty Quiz" />
-  <meta property="og:description" content="Discover which animal-inspired beauty style suits you best: Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty." />
-  <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/og-image.jpg`} />
-  <meta property="og:url" content="https://jackiewyers.beauty/quiz2" />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Jackie Wyers Beauty Quiz" />
-  <meta name="twitter:description" content="Find out if you're Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty with our interactive quiz!" />
-  <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/twitter-image.jpg`} />
-</Helmet>
+      <Helmet>
+        <title>Jackie Wyers Beauty</title>
+        <meta name="description" content="Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty? Find out with our fun and interactive quiz!" />
+        <meta name="keywords" content="beauty quiz, animal pretty, Jackie Wyers, makeup quiz, beauty styles, fox pretty, deer pretty, bunny pretty, cat pretty" />
+        <meta property="og:title" content="Jackie Wyers Beauty Quiz" />
+        <meta property="og:description" content="Discover which animal-inspired beauty style suits you best: Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty." />
+        <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/og-image.jpg`} />
+        <meta property="og:url" content="https://jackiewyers.beauty/quiz2" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Jackie Wyers Beauty Quiz" />
+        <meta name="twitter:description" content="Find out if you're Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty with our interactive quiz!" />
+        <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/twitter-image.jpg`} />
+      </Helmet>
 
       {!showResults ? (
         <>
@@ -157,8 +159,6 @@ const Quiz2 = () => {
                 className="answer-button"
                 style={{
                   backgroundImage: `url(${option.backgroundImage})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
                 }}
                 onClick={() => handleAnswerClick(option.value)}
               >

@@ -12,6 +12,7 @@
 
 .question-section {
   margin-bottom: 10px;
+  min-height: 80px; /* Ensure consistent height for question text */
 }
 
 .question-text {
@@ -22,9 +23,9 @@
 
 .answer-section {
   display: grid;
-  padding: auto;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+  margin-top: 20px;
 }
 
 .answer-button {
@@ -34,7 +35,7 @@
   border: none;
   background-color: transparent;
   border-radius: 5px;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
   background-size: cover;
   background-position: center;
   font-family: GFS Didot;
