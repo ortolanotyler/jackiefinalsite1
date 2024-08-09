@@ -38,27 +38,43 @@ const HeroSection = () => {
     height: 'auto',
     borderRadius: '5px',
     display: 'block',
-    aspectRatio: '4/3', // Maintain aspect ratio to prevent layout shifts
+    aspectRatio: '4/3',
   };
+
+  const heroSectionSmallScreenStyle = {
+    flexDirection: 'column', // Stack text and image vertically on small screens
+  };
+
+  const textContentSmallScreenStyle = {
+    paddingRight: '0', // Remove right padding on small screens
+    paddingBottom: '20px', // Add some space between the text and image
+    textAlign: 'center', // Center the text
+  };
+
+  const imageContentSmallScreenStyle = {
+    textAlign: 'center', // Center the image on small screens
+  };
+
+  const isSmallScreen = window.innerWidth <= 768;
 
   return (
     <a href="/fairytalewedding" style={heroLinkStyle}>
-      <div style={heroSectionStyle}>
-        <div style={textContentStyle}>
-          <h2 style={{ ...textContentStyle, fontWeight: 'bold' }}>FEATURE</h2>
-          <h1 style={{ ...textContentStyle, fontSize: '32px' }}>Our Fairytale Wedding Overlooking Sorrento, Italy</h1>
-          <p style={{ ...textContentStyle, fontSize: '16px', color: '#333' }}>
+      <div style={isSmallScreen ? { ...heroSectionStyle, ...heroSectionSmallScreenStyle } : heroSectionStyle}>
+        <div style={isSmallScreen ? { ...textContentStyle, ...textContentSmallScreenStyle } : textContentStyle}>
+          <h2 style={{ fontSize: '14px', fontWeight: 'bold', marginBottom: '10px' }}>FEATURE</h2>
+          <h1 style={{ fontSize: '32px', lineHeight: 1.2, marginBottom: '20px' }}>Our Fairytale Wedding Overlooking Sorrento, Italy</h1>
+          <p style={{ fontSize: '16px', lineHeight: 1.5, marginBottom: '20px', color: '#333' }}>
             Step into the magic of our fairytale wedding in Sorrento, Italy. Discover the iconic pop culture brides who inspired my bridal look, and get an inside look at the intimate ceremony that brought our love story—from middle school sweethearts to lifelong partners—to life.
           </p>
-          <p style={{ ...textContentStyle, fontSize: '14px', fontStyle: 'italic', color: '#555' }}>BY JACKIE WYERS</p>
+          <p style={{ fontSize: '14px', fontStyle: 'italic', color: '#555' }}>BY JACKIE WYERS</p>
         </div>
-        <div style={imageContentStyle}>
+        <div style={isSmallScreen ? { ...imageContentStyle, ...imageContentSmallScreenStyle } : imageContentStyle}>
           <img
             src={image1}
             alt="Fairytale Wedding"
             style={imageStyle}
             loading="lazy"
-            width="1200"  // Set explicit width and height to reserve space
+            width="1200" // Set explicit width and height to reserve space
             height="900"
           />
         </div>
