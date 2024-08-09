@@ -1,8 +1,6 @@
-import React from 'react';
-
-const image1 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fairytalethumbnail.webp`;
-
 const HeroSection = () => {
+  const image1 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fairytalethumbnail.webp`;
+
   const heroLinkStyle = {
     textDecoration: 'none',  // Remove underline from link
     color: 'inherit',  // Ensure text color stays consistent
@@ -105,7 +103,8 @@ const HeroSection = () => {
           <p style={authorStyle}>BY JACKIE WYERS</p>
         </div>
         <div style={isSmallScreen ? { ...imageContentStyle, ...imageContentSmallScreenStyle } : imageContentStyle}>
-          <img src={image1} alt="Fairytale Wedding" style={imageStyle} loading="lazy" />
+          {/* Define explicit width and height for the image */}
+          <img src={image1} alt="Fairytale Wedding" style={imageStyle} loading="lazy" width="600" height="400" />
         </div>
       </div>
     </a>
