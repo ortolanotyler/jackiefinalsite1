@@ -47,6 +47,8 @@ function HomePage() {
         <title>Jackie Wyers Beauty</title>
         <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
         <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
+        <link rel="preload" href="/path/to/critical/font.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+        <link rel="preload" href="/path/to/critical/css/file.css" as="style" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
         <script>
           {`
