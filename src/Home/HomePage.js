@@ -43,22 +43,29 @@ function HomePage() {
 
   return (
     <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
-      <Helmet>
-        <title>Jackie Wyers Beauty</title>
-        <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
-        <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
-        <link rel="preload" href="/path/to/critical/font.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
-        <link rel="preload" href="/path/to/critical/css/file.css" as="style" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
-      </Helmet>
+    <Helmet>
+      <title>Jackie Wyers Beauty</title>
+      <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
+      <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
+
+      {/* Preload Google Font */}
+      <link rel="preload" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" as="style" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" />
+
+      {/* Preload Homepage CSS */}
+      <link rel="preload" href="/css/Homepage.css" as="style" />
+      <link rel="stylesheet" href="/css/Homepage.css" />
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+      <script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RT6GR7JXYG');
+        `}
+      </script>
+    </Helmet>
 
       <Grid container spacing={1} justifyContent="center">
         <Grid item xs={12}>

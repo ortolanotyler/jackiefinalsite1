@@ -2,8 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
 
 html, body, #root {
-
   width: 100%;
   height: 100%;
   font-family: 'GFS Didot', serif;
+}
+
+/* Add font-display swap to ensure content is visible */
+@font-face {
+  font-family: 'GFS Didot';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
 }
