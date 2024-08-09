@@ -1,32 +1,29 @@
 import React, { useEffect, useRef, lazy, Suspense } from 'react';
 import { Grid, Box, Paper, ThemeProvider, createTheme, useMediaQuery, Typography } from '@mui/material';
 import { debounce } from 'lodash';
-import TextReveal from '../Components/TextReveal';
-import QuoteBanner3 from './QuoteBanner3';
-import EmailSubscribe from '../Components/EmailSubscribe';
-import RotatingText from '../Navigation/AppBar/RotatingText';
-import AboutHero from './AboutHero';
-import './AboutHero.css';
-import BeyondBeautyHero from './BeyondBeautyHero';
-import LifestyleFavorites from './LifestyleFavorites';
-import ShopMyHero2 from './ShopMyHero2';
 import { Helmet } from 'react-helmet';
 import { initGA, logPageView } from '../analytics';
-import QuiltedImageList1 from './ImageGridTutorials';
-import ReviewFavorites1 from './ReviewFavorites';
-import HeroSection from './HeroSection';
-import ImageGrid from './ArticlesGrid';
-import LifestyleGrid from './ArticlesGrid2Lifestyle';
 
 // Lazy load components
+const TextReveal = lazy(() => import('../Components/TextReveal'));
+const QuoteBanner3 = lazy(() => import('./QuoteBanner3'));
+const EmailSubscribe = lazy(() => import('../Components/EmailSubscribe'));
+const RotatingText = lazy(() => import('../Navigation/AppBar/RotatingText'));
+const AboutHero = lazy(() => import('./AboutHero'));
+const BeyondBeautyHero = lazy(() => import('./BeyondBeautyHero'));
+const LifestyleFavorites = lazy(() => import('./LifestyleFavorites'));
+const ShopMyHero2 = lazy(() => import('./ShopMyHero2'));
+const QuiltedImageList1 = lazy(() => import('./ImageGridTutorials'));
+const ReviewFavorites1 = lazy(() => import('./ReviewFavorites'));
+const HeroSection = lazy(() => import('./HeroSection'));
+const ImageGrid = lazy(() => import('./ArticlesGrid'));
+const LifestyleGrid = lazy(() => import('./ArticlesGrid2Lifestyle'));
 const VideoEmbed = lazy(() => import('./VideoEmbed'));
 const Quiz2 = lazy(() => import('../Quiz/Quiz2'));
 
 const theme = createTheme();
 
 function HomePage() {
-  const linkRef = useRef(null);
-  const videoLinkRef = useRef(null);
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   useEffect(() => {
@@ -50,12 +47,22 @@ function HomePage() {
         <title>Jackie Wyers Beauty</title>
         <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
         <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
-        {/* Add other meta tags */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG');
+          `}
+        </script>
       </Helmet>
 
       <Grid container spacing={1} justifyContent="center">
         <Grid item xs={12}>
-          <TextReveal text="JACKIE WYERS" style={{ marginBottom: '0px' }} />
+          <Suspense fallback={<div>Loading...</div>}>
+            <TextReveal text="JACKIE WYERS" style={{ marginBottom: '0px' }} />
+          </Suspense>
         </Grid>
 
         {!isMobile && (
@@ -70,39 +77,52 @@ function HomePage() {
                 textAlign: 'center',
               }}
             >
-              <RotatingText />
+              <Suspense fallback={<div>Loading...</div>}>
+                <RotatingText />
+              </Suspense>
             </Paper>
           </Grid>
         )}
 
         {!isMobile && (
           <Grid item xs={12}>
-            <QuiltedImageList1 />
+            <Suspense fallback={<div>Loading...</div>}>
+              <QuiltedImageList1 />
+            </Suspense>
           </Grid>
         )}
-        
-        {/* Hide QuoteBanner3 on mobile */}
+
         {!isMobile && (
           <Grid item xs={12}>
-            <QuoteBanner3 />
+            <Suspense fallback={<div>Loading...</div>}>
+              <QuoteBanner3 />
+            </Suspense>
           </Grid>
         )}
 
         <Grid item xs={12}>
-          <HeroSection />
+          <Suspense fallback={<div>Loading...</div>}>
+            <HeroSection />
+          </Suspense>
         </Grid>
 
         <Grid item xs={12}>
-          <TextReveal text="BEAUTY" />
-          <ImageGrid />
+          <Suspense fallback={<div>Loading...</div>}>
+            <TextReveal text="BEAUTY" />
+            <ImageGrid />
+          </Suspense>
         </Grid>
 
         <Grid item xs={12}>
-          <AboutHero />
+          <Suspense fallback={<div>Loading...</div>}>
+            <AboutHero />
+          </Suspense>
         </Grid>
 
         <Grid item xs={12}>
-          <TextReveal text="QUIZ" />
+          <Suspense fallback={<div>Loading...</div>}>
+            <TextReveal text="QUIZ" />
+          </Suspense>
         </Grid>
 
         <Grid item xs={12}>
@@ -141,31 +161,31 @@ function HomePage() {
         </Grid>
 
         <Grid item xs={12}>
-          <TextReveal text="NEWSLETTER" />
+          <Suspense fallback={<div>Loading...</div>}>
+            <TextReveal text="NEWSLETTER" />
+            <EmailSubscribe />
+          </Suspense>
         </Grid>
 
         <Grid item xs={12}>
-          <EmailSubscribe />
-        </Grid>
-
-        <Grid item xs={12}>
-          <TextReveal text="LATEST VIDEO" />
-        </Grid>
-
-        <Grid item xs={12} display="flex" justifyContent="center" sx={{ mt: 2 }}>
-          <ThemeProvider theme={theme}>
-            <Suspense fallback={<div style={{ minHeight: '300px' }}>Loading video...</div>}>
+          <Suspense fallback={<div>Loading...</div>}>
+            <TextReveal text="LATEST VIDEO" />
+            <ThemeProvider theme={theme}>
               <VideoEmbed />
-            </Suspense>
-          </ThemeProvider>
+            </ThemeProvider>
+          </Suspense>
         </Grid>
 
         <Grid item xs={12}>
-          <ReviewFavorites1 />
+          <Suspense fallback={<div>Loading...</div>}>
+            <ReviewFavorites1 />
+          </Suspense>
         </Grid>
 
         <Grid item xs={12}>
-          <ShopMyHero2 />
+          <Suspense fallback={<div>Loading...</div>}>
+            <ShopMyHero2 />
+          </Suspense>
         </Grid>
 
         <Grid item xs={12} sx={{ display: 'flex', justifyContent: { xs: 'center', md: 'flex-end' }, mt: 2 }}>
@@ -198,11 +218,11 @@ function HomePage() {
         </Grid>
 
         <Grid item xs={12}>
-          <TextReveal text="LIFESTYLE" />
-          <Grid item xs={12}>
+          <Suspense fallback={<div>Loading...</div>}>
+            <TextReveal text="LIFESTYLE" />
             <BeyondBeautyHero />
-          </Grid>
-          <LifestyleGrid />
+            <LifestyleGrid />
+          </Suspense>
         </Grid>
 
         <Grid item xs={12} sx={{ display: 'flex', justifyContent: { xs: 'center', md: 'flex-end' }, mt: 2 }}>
@@ -235,28 +255,20 @@ function HomePage() {
         </Grid>
 
         <Grid item xs={12}>
-          <LifestyleFavorites />
+          <Suspense fallback={<div>Loading...</div>}>
+            <LifestyleFavorites />
+          </Suspense>
         </Grid>
 
       </Grid>
 
       <Grid item xs={12}>
-        <EmailSubscribe />
+        <Suspense fallback={<div>Loading...</div>}>
+          <EmailSubscribe />
+        </Suspense>
       </Grid>
-
-      <Helmet>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
-      </Helmet>
     </Box>
   );
 }
 
-export default HomePage;
+export default React.memo(HomePage);
