@@ -53,8 +53,8 @@ function HomePage() {
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" />
 
       {/* Preload Homepage CSS */}
-      <link rel="preload" href="/css/Homepage.css" as="style" />
-      <link rel="stylesheet" href="/css/Homepage.css" />
+      <link rel="preload" href="/css/HomePage.css" as="style" />
+      <link rel="stylesheet" href="/css/HomePage.css" />
 
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
       <script>
