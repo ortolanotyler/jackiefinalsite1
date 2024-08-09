@@ -1,98 +1,116 @@
 import React from 'react';
-import { Grid, Box, Typography, Link } from '@mui/material';
 
-const AboutHero = () => {
-  const placeholderText = "Hello! I'm Jackie Wyers. Welcome to where beauty meets pop culture. I started my YouTube career in my teens, and growing & connecting with you has been a highlight of my life. \n As a professionally trained makeup artist with a passion for character design, I thrive on celebrating and recreating iconic looks. Life’s too short not to embrace both new trends and timeless styles, and my tutorials are here to break down how.  \n Ready to switch up your style with confidence?";
-  const placeholderImage = `${process.env.PUBLIC_URL}/Images/Home/MeetJackie.webp`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fairytalethumbnail.webp`;
 
-  const paragraphs = placeholderText.split('\n');
+const HeroSection = () => {
+  const heroLinkStyle = {
+    textDecoration: 'none',  // Remove underline from link
+    color: 'inherit',  // Ensure text color stays consistent
+  };
+
+  const heroSectionStyle = {
+    display: 'flex',
+    justifyContent: 'center',  // Centers content horizontally
+    alignItems: 'center',  // Centers content vertically
+    padding: '60px 20px',  // Adds padding to create more space around the content
+    minHeight: '80vh',  // Ensures the section takes up at least 80% of the viewport height
+    flexDirection: 'row',  // Align text and image side by side by default
+    flexWrap: 'wrap',  // Allow wrapping for better responsiveness
+  };
+
+  const textContentStyle = {
+    flex: 1,
+    paddingRight: '40px',
+    maxWidth: '600px',  // Limits the width of the text content
+    textAlign: 'center',
+    fontFamily: 'GFS Didot, serif',  // Use GFS Didot font
+  };
+
+  const featureStyle = {
+    fontSize: '14px',
+    fontWeight: 'bold',
+    letterSpacing: '1px',
+    marginBottom: '10px',
+    fontFamily: 'GFS Didot, serif',  // Ensure consistency
+    minHeight: '20px',  // Reserve space for the feature text
+  };
+
+  const headlineStyle = {
+    fontSize: '32px',
+    lineHeight: 1.2,
+    marginBottom: '20px',
+    fontFamily: 'GFS Didot, serif',  // Ensure consistency
+    minHeight: '50px',  // Reserve space for the headline
+  };
+
+  const subtextStyle = {
+    fontSize: '16px',
+    lineHeight: 1.5,
+    marginBottom: '20px',
+    fontFamily: 'GFS Didot, serif',  // Ensure consistency
+    color: '#333',  // Simplified color for faster rendering
+    minHeight: '70px',  // Reserve space for the subtext
+  };
+
+  const authorStyle = {
+    fontSize: '14px',
+    fontStyle: 'italic',
+    color: '#555',
+    fontFamily: 'GFS Didot, serif',  // Ensure consistency
+    minHeight: '20px',  // Reserve space for the author text
+  };
+
+  const imageContentStyle = {
+    flex: 1,
+    textAlign: 'right',
+    maxWidth: '600px',  // Limits the width of the image content
+  };
+
+  const imageStyle = {
+    width: '100%',
+    height: 'auto',
+    borderRadius: '5px',
+    display: 'block',  // Prevents image from being inline and causing layout shifts
+  };
+
+  const heroSectionSmallScreenStyle = {
+    flexDirection: 'column',  // Stack the image and text vertically on small screens
+  };
+
+  const textContentSmallScreenStyle = {
+    paddingRight: '0',  // Remove right padding
+    paddingTop: '20px',  // Add some space between image and text
+    textAlign: 'center',  // Center the text
+  };
+
+  const imageContentSmallScreenStyle = {
+    textAlign: 'center',  // Center the image
+    maxWidth: '100%',  // Allow image to take full width
+  };
+
+  // Check if the screen width is less than or equal to 768px (considered small screen)
+  const isSmallScreen = window.innerWidth <= 768;
 
   return (
-    <Box sx={{ width: '100%', padding: { xs: '1rem', sm: '2rem 0' }, backgroundColor: '#FDFDFD' }}>
-      {/* Preload the key image for better performance */}
-      <link rel="preload" href={placeholderImage} as="image" />
-
-      <Grid container spacing={2} justifyContent="center">
-        <Grid item xs={12} sm={10} md={8} lg={6}>
-          <Grid container spacing={2} alignItems="center">
-            {/* Text Section */}
-            <Grid item xs={12} md={6} order={{ xs: 2, md: 1 }}>
-              <Typography
-                variant="h4"
-                component="h2"
-                sx={{
-                  textAlign: { xs: 'center', sm: 'left' },
-                  fontFamily: 'Arapey',
-                  color: 'black',
-                  marginBottom: '1rem',
-                }}
-              >
-                MEET JACKIE
-              </Typography>
-              {paragraphs.map((text, index) => (
-                <Typography
-                  key={index}
-                  variant="body1"
-                  sx={{
-                    fontFamily: 'GFS Didot, serif',
-                    color: 'black',
-                    marginBottom: '1rem',
-                    textAlign: { xs: 'center', sm: 'left' },
-                  }}
-                >
-                  {text}
-                </Typography>
-              ))}
-              <Box sx={{ textAlign: { xs: 'center', sm: 'left' }, mt: 2 }}>
-                <Link
-                  href="/about"
-                  sx={{
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    fontFamily: 'GFS Didot, serif',
-                    color: 'black',
-                    textDecoration: 'none',
-                  }}
-                >
-                  <Typography
-                    variant="body1"
-                    sx={{
-                      fontFamily: 'GFS Didot, serif',
-                      color: 'black',
-                    }}
-                  >
-                    READ FULL BIO
-                  </Typography>
-                  <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
-                </Link>
-              </Box>
-            </Grid>
-
-            {/* Image Section */}
-            <Grid item xs={12} md={6} order={{ xs: 1, md: 2 }}>
-              <Box
-                component="img"
-                src={placeholderImage}
-                srcSet={`${process.env.PUBLIC_URL}/Images/Home/MeetJackie.webp 400w, 
-                         ${process.env.PUBLIC_URL}/Images/Home/MeetJackie.webp 800w, 
-                         ${placeholderImage} 1200w`}
-                sizes="(max-width: 600px) 100vw, (max-width: 960px) 50vw, 33vw"
-                alt="About Us"
-                sx={{
-                  width: '100%',
-                  height: 'auto', // Maintain aspect ratio
-                  borderRadius: '8px',
-                  marginBottom: { xs: '1rem', md: '0' },
-                }}
-                loading="lazy" // Lazy loading for performance
-              />
-            </Grid>
-          </Grid>
-        </Grid>
-      </Grid>
-    </Box>
+    <a href="/fairytalewedding" style={heroLinkStyle}>
+      <div style={isSmallScreen ? { ...heroSectionStyle, ...heroSectionSmallScreenStyle } : heroSectionStyle}>
+        <div style={isSmallScreen ? { ...textContentStyle, ...textContentSmallScreenStyle } : textContentStyle}>
+          <h2 style={featureStyle}>FEATURE</h2>
+          <h1 style={headlineStyle}>
+            Our Fairytale Wedding Overlooking Sorrento, Italy
+          </h1>
+          <p style={subtextStyle}>
+            Step into the magic of our fairytale wedding in Sorrento, Italy. Discover the iconic pop culture brides who inspired my bridal look, and get an inside look at the intimate ceremony that brought our love story—from middle school sweethearts to lifelong partners—to life.
+          </p>
+          <p style={authorStyle}>BY JACKIE WYERS</p>
+        </div>
+        <div style={isSmallScreen ? { ...imageContentStyle, ...imageContentSmallScreenStyle } : imageContentStyle}>
+          <img src={image1} alt="Fairytale Wedding" style={imageStyle} loading="lazy" />
+        </div>
+      </div>
+    </a>
   );
 };
 
-export default AboutHero;
+export default HeroSection;
 
