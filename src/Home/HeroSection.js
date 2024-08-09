@@ -1,29 +1,40 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fairytalethumbnail.webp`;
 
 const HeroSection = () => {
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   const heroLinkStyle = {
-    textDecoration: 'none',  // Remove underline from link
-    color: 'inherit',  // Ensure text color stays consistent
+    textDecoration: 'none',
+    color: 'inherit',
   };
 
   const heroSectionStyle = {
     display: 'flex',
-    justifyContent: 'center',  // Centers content horizontally
-    alignItems: 'center',  // Centers content vertically
-    padding: '60px 20px',  // Adds padding to create more space around the content
-    minHeight: '80vh',  // Ensures the section takes up at least 80% of the viewport height
-    flexDirection: 'row',  // Align text and image side by side by default
-    flexWrap: 'wrap',  // Allow wrapping for better responsiveness
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: '60px 20px',
+    minHeight: '80vh',
+    flexDirection: isSmallScreen ? 'column' : 'row',
+    flexWrap: 'wrap',
   };
 
   const textContentStyle = {
     flex: 1,
-    paddingRight: '40px',
-    maxWidth: '600px',  // Limits the width of the text content
-    textAlign: 'center',
-    fontFamily: 'GFS Didot, serif',  // Use GFS Didot font
+    paddingRight: isSmallScreen ? '0' : '40px',
+    maxWidth: '600px',
+    textAlign: 'center',  // Center text on all screens
+    fontFamily: 'GFS Didot, serif',
   };
 
   const featureStyle = {
@@ -31,70 +42,52 @@ const HeroSection = () => {
     fontWeight: 'bold',
     letterSpacing: '1px',
     marginBottom: '10px',
-    fontFamily: 'GFS Didot, serif',  // Ensure consistency
-    minHeight: '20px',  // Reserve space for the feature text
+    fontFamily: 'GFS Didot, serif',
+    minHeight: '20px',
   };
 
   const headlineStyle = {
     fontSize: '32px',
     lineHeight: 1.2,
     marginBottom: '20px',
-    fontFamily: 'GFS Didot, serif',  // Ensure consistency
-    minHeight: '50px',  // Reserve space for the headline
+    fontFamily: 'GFS Didot, serif',
+    minHeight: '50px',
   };
 
   const subtextStyle = {
     fontSize: '16px',
     lineHeight: 1.5,
     marginBottom: '20px',
-    fontFamily: 'GFS Didot, serif',  // Ensure consistency
-    color: '#333',  // Simplified color for faster rendering
-    minHeight: '70px',  // Reserve space for the subtext
+    fontFamily: 'GFS Didot, serif',
+    color: '#333',
+    minHeight: '70px',
   };
 
   const authorStyle = {
     fontSize: '14px',
     fontStyle: 'italic',
     color: '#555',
-    fontFamily: 'GFS Didot, serif',  // Ensure consistency
-    minHeight: '20px',  // Reserve space for the author text
+    fontFamily: 'GFS Didot, serif',
+    minHeight: '20px',
   };
 
   const imageContentStyle = {
     flex: 1,
-    textAlign: 'right',
-    maxWidth: '600px',  // Limits the width of the image content
+    textAlign: isSmallScreen ? 'center' : 'right',
+    maxWidth: '600px',
   };
 
   const imageStyle = {
     width: '100%',
     height: 'auto',
     borderRadius: '5px',
-    display: 'block',  // Prevents image from being inline and causing layout shifts
+    display: 'block',
   };
-
-  const heroSectionSmallScreenStyle = {
-    flexDirection: 'column',  // Stack the image and text vertically on small screens
-  };
-
-  const textContentSmallScreenStyle = {
-    paddingRight: '0',  // Remove right padding
-    paddingTop: '20px',  // Add some space between image and text
-    textAlign: 'center',  // Center the text
-  };
-
-  const imageContentSmallScreenStyle = {
-    textAlign: 'center',  // Center the image
-    maxWidth: '100%',  // Allow image to take full width
-  };
-
-  // Check if the screen width is less than or equal to 768px (considered small screen)
-  const isSmallScreen = window.innerWidth <= 768;
 
   return (
     <a href="/fairytalewedding" style={heroLinkStyle}>
-      <div style={isSmallScreen ? { ...heroSectionStyle, ...heroSectionSmallScreenStyle } : heroSectionStyle}>
-        <div style={isSmallScreen ? { ...textContentStyle, ...textContentSmallScreenStyle } : textContentStyle}>
+      <div style={heroSectionStyle}>
+        <div style={textContentStyle}>
           <h2 style={featureStyle}>FEATURE</h2>
           <h1 style={headlineStyle}>
             Our Fairytale Wedding Overlooking Sorrento, Italy
@@ -104,7 +97,7 @@ const HeroSection = () => {
           </p>
           <p style={authorStyle}>BY JACKIE WYERS</p>
         </div>
-        <div style={isSmallScreen ? { ...imageContentStyle, ...imageContentSmallScreenStyle } : imageContentStyle}>
+        <div style={imageContentStyle}>
           <img src={image1} alt="Fairytale Wedding" style={imageStyle} loading="lazy" />
         </div>
       </div>
@@ -113,4 +106,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
