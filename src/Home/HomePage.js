@@ -55,6 +55,7 @@ function HomePage() {
         {/* Preload Homepage CSS */}
         <link rel="preload" href="/css/HomePage.css" as="style" />
         <link rel="stylesheet" href="/css/HomePage.css" />
+        <link rel="canonical" href="https://jackiewyers.beauty/" />
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
         <script>
