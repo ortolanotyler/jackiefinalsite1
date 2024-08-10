@@ -61,7 +61,7 @@ const Yardley65 = () => {
 
   const blogContent = (
     <div className="container">
- <Helmet>
+<Helmet>
   <title>Jean Shrimpton - Yardley 1965 Makeup Tutorial - Jackie Wyers</title>
   <meta name="description" content="Follow Jackie Wyers as she recreates the iconic Jean Shrimpton Yardley 1965 makeup look with detailed tutorials and vintage vibes." />
   <meta name="keywords" content="Jean Shrimpton, Yardley 1965, Makeup Tutorial, Jackie Wyers, Vintage Makeup, Time Travel Tutorials, 1960s Beauty, MOD, Pop Culture" />
@@ -73,6 +73,10 @@ const Yardley65 = () => {
   <meta name="twitter:title" content="Jean Shrimpton - Yardley 1965 Makeup Tutorial - Jackie Wyers" />
   <meta name="twitter:description" content="Follow Jackie Wyers as she recreates the iconic Jean Shrimpton Yardley 1965 makeup look with detailed tutorials and vintage vibes." />
   <meta name="twitter:image" content={title} />
+  
+  {/* Canonical tag */}
+  <link rel="canonical" href="https://jackiewyers.beauty/yardley1965" />
+
   <script type="application/ld+json">
     {`
     {
@@ -113,6 +117,7 @@ const Yardley65 = () => {
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
+
 
 
 
