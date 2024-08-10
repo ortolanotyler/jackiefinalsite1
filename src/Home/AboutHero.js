@@ -14,8 +14,8 @@ const AboutHero = () => {
 
       <Grid container spacing={2} justifyContent="center">
         <Grid item xs={12} sm={10} md={8} lg={6}>
-          <Grid container spacing={2} alignItems="center">
-            <Grid item xs={12} sm={6}>
+          <Grid container spacing={2} alignItems="center" direction={{ xs: 'column', sm: 'row' }}>
+            <Grid item xs={12} sm={6} sx={{ display: 'flex', justifyContent: 'center' }}>
               <Box
                 component="img"
                 src={placeholderImage}
@@ -26,9 +26,10 @@ const AboutHero = () => {
                 alt="About Us"
                 sx={{
                   width: '100%',
-                  height: 'auto', // Maintain aspect ratio
-                  borderRadius: '8px',
-                  aspectRatio: '4/3', // Defines a ratio for the image to prevent layout shift
+                  maxWidth: '300px', // Adjust based on your layout needs
+                  maxHeight: '300px', // Ensure the height matches the width for circular appearance
+                  borderRadius: '50%', // Circular image
+                  objectFit: 'cover', // Cover the container while preserving aspect ratio
                 }}
                 loading="lazy" // Lazy loading for performance
               />
@@ -92,3 +93,4 @@ const AboutHero = () => {
 };
 
 export default AboutHero;
+
