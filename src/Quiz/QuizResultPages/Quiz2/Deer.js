@@ -44,7 +44,7 @@ const DeerPretty = () => {
 
   const blogContent = (
     <div className={styles.container}>
-    <Helmet>
+   <Helmet>
   <title>Deer Pretty | Jackie Wyers</title>
   <meta name="description" content="Discover how to achieve the Deer Pretty look with our detailed guide. Embrace soft, ethereal styles to capture the essence of the gentle and graceful deer." />
   <meta name="keywords" content="Jackie Wyers, Deer Pretty, makeup tutorial, beauty guide, ethereal style, natural beauty, makeup tips, animal-inspired beauty" />
@@ -60,6 +60,40 @@ const DeerPretty = () => {
   <meta name="twitter:description" content="Discover how to achieve the Deer Pretty look with our detailed guide. Embrace soft, ethereal styles to capture the essence of the gentle and graceful deer." />
   <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/DeerFinal1.jpg`} />
   
+  {/* Canonical tag to avoid duplicate content issues */}
+  <link rel="canonical" href="https://jackiewyers.beauty/deerpretty" />
+  
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://jackiewyers.beauty/deerpretty"
+      },
+      "headline": "Deer Pretty | Jackie Wyers",
+      "description": "Discover how to achieve the Deer Pretty look with our detailed guide. Embrace soft, ethereal styles to capture the essence of the gentle and graceful deer.",
+      "image": "${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/DeerFinal1.jpg",
+      "author": {
+        "@type": "Person",
+        "name": "Jackie Wyers"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Jackie Wyers Beauty",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://jackiewyers.beauty/logo.png"
+        }
+      },
+      "datePublished": "2024-08-09",
+      "dateModified": "2024-08-09"
+    }
+    `}
+  </script>
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script>
     {`
@@ -69,8 +103,10 @@ const DeerPretty = () => {
       gtag('config', 'G-RT6GR7JXYG');
     `}
   </script>
+  
   <script data-ad-client="ca-pub-4660168246825318" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </Helmet>
+
 
       <div className={styles.linkContainer}>
         <a href="/quiz2" className={styles.link}>BEAUTY // QUIZ // DEER PRETTY</a>
