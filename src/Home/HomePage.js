@@ -89,20 +89,7 @@ function HomePage() {
           </Suspense>
         </Grid>
 
-        {/* AdSense Ad Placement */}
-        <Grid item xs={12}>
-          <div style={{ margin: '20px' }}>
-            <ins className="adsbygoogle"
-              style={{ display: 'block' }}
-              data-ad-client="ca-pub-4660168246825318"
-              data-ad-slot="1234567890" // Replace with your actual Ad slot ID
-              data-ad-format="auto"
-              data-full-width-responsive="true"></ins>
-            <script>
-              {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-            </script>
-          </div>
-        </Grid>
+  
 
         {!isMobile && (
           <Grid item xs={12}>
