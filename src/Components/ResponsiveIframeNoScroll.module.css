@@ -1,0 +1,16 @@
+.responsiveIframeContainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Ensure no scrollbars appear */
+  }
+  
+  .responsiveIframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: none;
+    height: 100%;
+    overflow: hidden; /* Prevent scrolling inside the iframe */
+  }
+  

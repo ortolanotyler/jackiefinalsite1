@@ -10,6 +10,7 @@ import { Helmet } from'react-helmet';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 
 import ReactGA from 'react-ga';
+import ResponsiveIframeNoScroll from '../../../Components/ResponsiveIframeNoScroll';
 
 
 
@@ -323,7 +324,7 @@ When creating carousel posts, I usually lead with brighter images and include ni
       Canon G7x with flash example
 </p>
 
-<ResponsiveIframe src="https://shopmy.us/collections/public/726380?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+<ResponsiveIframeNoScroll src="https://shopmy.us/collections/public/726380?noHeader=true"  title="Shop My Victoria's Secret Favorites" />
 
 <div
 style = {{
