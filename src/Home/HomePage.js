@@ -29,15 +29,24 @@ function HomePage() {
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   useEffect(() => {
-    initGA();
+    // Initialize GA and log page view
+    const logPageView = () => {
+      if (window.gtag) {
+        window.gtag('config', 'G-RT6GR7JXYG', {
+          page_path: window.location.pathname,
+          page_title: document.title,
+        });
+      }
+    };
+  
     logPageView();
-
+  
     const handleScroll = debounce(() => {
       console.log('User scrolled');
     }, 200);
-
+  
     window.addEventListener('scroll', handleScroll);
-
+  
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -45,30 +54,32 @@ function HomePage() {
 
   return (
     <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
-      <Helmet>
-        <title>Jackie Wyers Beauty</title>
-        <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
-        <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
+   <Helmet>
+  <title>Jackie Wyers Beauty</title>
+  <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
+  <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
 
-        {/* Preload Google Font */}
-        <link rel="preload" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" as="style" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" />
+  {/* Google Analytics */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
 
-        {/* Preload Homepage CSS */}
-        <link rel="preload" href="/css/HomePage.css" as="style" />
-        <link rel="stylesheet" href="/css/HomePage.css" />
-        <link rel="canonical" href="https://jackiewyers.beauty/" />
+  {/* Preload Google Font */}
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" as="style" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" />
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
-      </Helmet>
+  {/* Preload Homepage CSS */}
+  <link rel="preload" href="/css/HomePage.css" as="style" />
+  <link rel="stylesheet" href="/css/HomePage.css" />
+  <link rel="canonical" href="https://jackiewyers.beauty/" />
+</Helmet>
+
 
       <Grid container spacing={1} justifyContent="center">
         <Grid item xs={12}>
