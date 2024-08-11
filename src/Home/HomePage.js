@@ -5,21 +5,21 @@ import { Helmet } from 'react-helmet';
 import { initGA, logPageView } from '../analytics';
 import TextRevealHomePage from '../Components/TextRevealHomePage';
 
-// Lazy load components
+import VideoEmbed from './VideoEmbed';
+import LifestyleFavorites from './LifestyleFavorites';
+import ReviewFavorites1 from './ReviewFavorites';
+
 const TextReveal = lazy(() => import('../Components/TextReveal'));
 const QuoteBanner3 = lazy(() => import('./QuoteBanner3'));
 const EmailSubscribe = lazy(() => import('../Components/EmailSubscribe'));
 const RotatingText = lazy(() => import('../Navigation/AppBar/RotatingText'));
 const AboutHero = lazy(() => import('./AboutHero'));
 const BeyondBeautyHero = lazy(() => import('./BeyondBeautyHero'));
-const LifestyleFavorites = lazy(() => import('./LifestyleFavorites'));
 const ShopMyHero2 = lazy(() => import('./ShopMyHero2'));
 const QuiltedImageList1 = lazy(() => import('./ImageGridTutorials'));
-const ReviewFavorites1 = lazy(() => import('./ReviewFavorites'));
 const HeroSection = lazy(() => import('./HeroSection'));
 const ImageGrid = lazy(() => import('./ArticlesGrid'));
 const LifestyleGrid = lazy(() => import('./ArticlesGrid2Lifestyle'));
-const VideoEmbed = lazy(() => import('./VideoEmbed'));
 const Quiz2 = lazy(() => import('../Quiz/Quiz2'));
 
 const theme = createTheme();
