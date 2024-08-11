@@ -2,6 +2,7 @@ import React, { useEffect, lazy, Suspense } from 'react';
 import { Grid, Box, Paper, ThemeProvider, createTheme, useMediaQuery, Typography } from '@mui/material';
 import { debounce } from 'lodash';
 import { Helmet } from 'react-helmet';
+import { initGA, logPageView } from '../analytics';
 import TextRevealHomePage from '../Components/TextRevealHomePage';
 
 import VideoEmbed from './VideoEmbed';
@@ -9,7 +10,6 @@ import LifestyleFavorites from './LifestyleFavorites';
 import ReviewFavorites1 from './ReviewFavorites';
 import HeroSection2 from './HeroSection2';
 
-// Lazy load components
 const TextReveal = lazy(() => import('../Components/TextReveal'));
 const QuoteBanner3 = lazy(() => import('./QuoteBanner3'));
 const EmailSubscribe = lazy(() => import('../Components/EmailSubscribe'));
@@ -29,6 +29,7 @@ function HomePage() {
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   useEffect(() => {
+    initGA();
     logPageView();
 
     const handleScroll = debounce(() => {
@@ -42,35 +43,12 @@ function HomePage() {
     };
   }, []);
 
-  const logPageView = () => {
-    if (window.gtag) {
-      window.gtag('config', 'G-RT6GR7JXYG', {
-        page_path: '/',
-        page_title: 'Home - Jackie Wyers Beauty',
-      });
-    }
-  };
-
   return (
     <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
       <Helmet>
         <title>Jackie Wyers Beauty</title>
         <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
         <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
-
-        {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
-
-        {/* Google AdSense */}
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 
         {/* Preload Google Font */}
         <link rel="preload" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" as="style" />
@@ -80,16 +58,24 @@ function HomePage() {
         <link rel="preload" href="/css/HomePage.css" as="style" />
         <link rel="stylesheet" href="/css/HomePage.css" />
         <link rel="canonical" href="https://jackiewyers.beauty/" />
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG');
+          `}
+        </script>
       </Helmet>
 
       <Grid container spacing={1} justifyContent="center">
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
-            <TextRevealHomePage text="JACKIE WYERS" />
+            <TextRevealHomePage text="JACKIE WYERS"  />
           </Suspense>
         </Grid>
-
-  
 
         {!isMobile && (
           <Grid item xs={12}>
@@ -133,7 +119,7 @@ function HomePage() {
         </Grid>
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
-            <HeroSection2 />
+            <HeroSection2/>
           </Suspense>
         </Grid>
 
@@ -142,21 +128,6 @@ function HomePage() {
             <TextReveal text="BEAUTY" />
             <ImageGrid />
           </Suspense>
-        </Grid>
-
-        {/* Another AdSense Ad Placement */}
-        <Grid item xs={12}>
-          <div style={{ margin: '20px' }}>
-            <ins className="adsbygoogle"
-              style={{ display: 'block' }}
-              data-ad-client="ca-pub-4660168246825318"
-              data-ad-slot="1234567890" // Replace with your actual Ad slot ID
-              data-ad-format="auto"
-              data-full-width-responsive="true"></ins>
-            <script>
-              {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-            </script>
-          </div>
         </Grid>
 
         <Grid item xs={12}>
@@ -222,21 +193,6 @@ function HomePage() {
           </Suspense>
         </Grid>
 
-        {/* Another AdSense Ad Placement */}
-        <Grid item xs={12}>
-          <div style={{ margin: '20px' }}>
-            <ins className="adsbygoogle"
-              style={{ display: 'block' }}
-              data-ad-client="ca-pub-4660168246825318"
-              data-ad-slot="1234567890" // Replace with your actual Ad slot ID
-              data-ad-format="auto"
-              data-full-width-responsive="true"></ins>
-            <script>
-              {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-            </script>
-          </div>
-        </Grid>
-
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
             <ReviewFavorites1 />
@@ -291,6 +247,7 @@ function HomePage() {
             <LifestyleFavorites />
           </Suspense>
         </Grid>
+
       </Grid>
 
       <Grid item xs={12}>
