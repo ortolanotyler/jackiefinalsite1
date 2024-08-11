@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
-const image1 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fairytalethumbnail.webp`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Articles/CameraSettings/coverphoot.jpg`;
 
-const HeroSection = () => {
+const HeroSection2 = () => {
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
 
   useEffect(() => {
@@ -85,15 +85,14 @@ const HeroSection = () => {
   };
 
   return (
-    <a href="/fairytalewedding" style={heroLinkStyle}>
+    <a href="/camera-settings" style={heroLinkStyle}>
       <div style={heroSectionStyle}>
         <div style={textContentStyle}>
-          <h2 style={featureStyle}>FEATURE</h2>
+          <h2 style={featureStyle}>CREATOR TIPS</h2>
           <h1 style={headlineStyle}>
-            Our Fairytale Wedding Overlooking Sorrento, Italy
-          </h1>
+          Best iPhone Camera Settings for Stunning Social Media Photos          </h1>
           <p style={subtextStyle}>
-            Step into the magic of our fairytale wedding in Sorrento, Italy. Discover the iconic pop culture brides who inspired my bridal look, and get an inside look at the intimate ceremony that brought our love story—from middle school sweethearts to lifelong partners—to life.
+          The iPhone is a powerhouse for mobile photography, and with a few simple tweaks to your camera settings, you can elevate your photos to a more professional level.
           </p>
           <p style={authorStyle}>BY JACKIE WYERS</p>
         </div>
@@ -105,4 +104,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default HeroSection2;
