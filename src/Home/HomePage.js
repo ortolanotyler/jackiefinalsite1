@@ -9,7 +9,12 @@ import VideoEmbed from './VideoEmbed';
 import LifestyleFavorites from './LifestyleFavorites';
 import ReviewFavorites1 from './ReviewFavorites';
 import HeroSection2 from './HeroSection2';
+// Import Google Analytics
+import ReactGA from 'react-ga';
 
+// Import AdSense component
+import AdSenseAd from '../Advertising/Ads';
+// Lazy load components
 const TextReveal = lazy(() => import('../Components/TextReveal'));
 const QuoteBanner3 = lazy(() => import('./QuoteBanner3'));
 const EmailSubscribe = lazy(() => import('../Components/EmailSubscribe'));
@@ -22,6 +27,8 @@ const HeroSection = lazy(() => import('./HeroSection'));
 const ImageGrid = lazy(() => import('./ArticlesGrid'));
 const LifestyleGrid = lazy(() => import('./ArticlesGrid2Lifestyle'));
 const Quiz2 = lazy(() => import('../Quiz/Quiz2'));
+
+
 
 const theme = createTheme();
 
@@ -50,15 +57,7 @@ function HomePage() {
         <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
         <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
 
-        {/* Preload Google Font */}
-        <link rel="preload" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" as="style" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" />
-
-        {/* Preload Homepage CSS */}
-        <link rel="preload" href="/css/HomePage.css" as="style" />
-        <link rel="stylesheet" href="/css/HomePage.css" />
-        <link rel="canonical" href="https://jackiewyers.beauty/" />
-
+        {/* Google Analytics */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
         <script>
           {`
@@ -68,13 +67,32 @@ function HomePage() {
             gtag('config', 'G-RT6GR7JXYG');
           `}
         </script>
+
+        {/* Google AdSense */}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+
+        {/* Preload Google Font */}
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" as="style" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" />
+
+        {/* Preload Homepage CSS */}
+        <link rel="preload" href="/css/HomePage.css" as="style" />
+        <link rel="stylesheet" href="/css/HomePage.css" />
+        <link rel="canonical" href="https://jackiewyers.beauty/" />
       </Helmet>
 
       <Grid container spacing={1} justifyContent="center">
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
-            <TextRevealHomePage text="JACKIE WYERS"  />
+            <TextRevealHomePage text="JACKIE WYERS" />
           </Suspense>
+        </Grid>
+
+        {/* AdSense Ad Placement */}
+        <Grid item xs={12}>
+          <div style={{ margin: '20px' }}>
+            <AdSenseAd />
+          </div>
         </Grid>
 
         {!isMobile && (
@@ -119,7 +137,7 @@ function HomePage() {
         </Grid>
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
-            <HeroSection2/>
+            <HeroSection2 />
           </Suspense>
         </Grid>
 
@@ -128,6 +146,13 @@ function HomePage() {
             <TextReveal text="BEAUTY" />
             <ImageGrid />
           </Suspense>
+        </Grid>
+
+        {/* Another AdSense Ad Placement */}
+        <Grid item xs={12}>
+          <div style={{ margin: '20px' }}>
+            <AdSenseAd />
+          </div>
         </Grid>
 
         <Grid item xs={12}>
@@ -191,6 +216,13 @@ function HomePage() {
               <VideoEmbed />
             </ThemeProvider>
           </Suspense>
+        </Grid>
+
+        {/* Another AdSense Ad Placement */}
+        <Grid item xs={12}>
+          <div style={{ margin: '20px' }}>
+            <AdSenseAd />
+          </div>
         </Grid>
 
         <Grid item xs={12}>
