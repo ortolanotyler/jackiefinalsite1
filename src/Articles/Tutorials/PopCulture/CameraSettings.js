@@ -9,6 +9,9 @@ import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from'react-helmet';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 
+import ReactGA from 'react-ga';
+
+
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/CameraSettings/cameratitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/CameraSettings/1.JPG`;
@@ -42,14 +45,21 @@ const Card = ({ blogContent }) => (
 );
 
 const CameraSettings = () => {
-  const websiteId = '10910';
-  const blogRef = useRef(null);
+    const websiteId = '10910';
+    const blogRef = useRef(null);
   
-
-  useEffect(() => {
-    initGA();
-    logPageView('/camerasettings');
-}, []);
+    useEffect(() => {
+      logPageView();
+    }, []);
+  
+    const logPageView = () => {
+      if (window.gtag) {
+        window.gtag('config', 'G-RT6GR7JXYG', {
+          page_path: '/camerasettings',
+          page_title: 'Camera Settings - A Guide to Scroll-Stopping iPhone Photos',
+        });
+      }
+    };
 
 
   const headingStyle = {

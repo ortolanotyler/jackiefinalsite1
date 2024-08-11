@@ -2,18 +2,13 @@ import React, { useEffect, lazy, Suspense } from 'react';
 import { Grid, Box, Paper, ThemeProvider, createTheme, useMediaQuery, Typography } from '@mui/material';
 import { debounce } from 'lodash';
 import { Helmet } from 'react-helmet';
-import { initGA, logPageView } from '../analytics';
 import TextRevealHomePage from '../Components/TextRevealHomePage';
 
 import VideoEmbed from './VideoEmbed';
 import LifestyleFavorites from './LifestyleFavorites';
 import ReviewFavorites1 from './ReviewFavorites';
 import HeroSection2 from './HeroSection2';
-// Import Google Analytics
-import ReactGA from 'react-ga';
 
-// Import AdSense component
-import AdSenseAd from '../Advertising/Ads';
 // Lazy load components
 const TextReveal = lazy(() => import('../Components/TextReveal'));
 const QuoteBanner3 = lazy(() => import('./QuoteBanner3'));
@@ -28,15 +23,12 @@ const ImageGrid = lazy(() => import('./ArticlesGrid'));
 const LifestyleGrid = lazy(() => import('./ArticlesGrid2Lifestyle'));
 const Quiz2 = lazy(() => import('../Quiz/Quiz2'));
 
-
-
 const theme = createTheme();
 
 function HomePage() {
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   useEffect(() => {
-    initGA();
     logPageView();
 
     const handleScroll = debounce(() => {
@@ -49,6 +41,15 @@ function HomePage() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  const logPageView = () => {
+    if (window.gtag) {
+      window.gtag('config', 'G-RT6GR7JXYG', {
+        page_path: '/',
+        page_title: 'Home - Jackie Wyers Beauty',
+      });
+    }
+  };
 
   return (
     <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
@@ -91,7 +92,15 @@ function HomePage() {
         {/* AdSense Ad Placement */}
         <Grid item xs={12}>
           <div style={{ margin: '20px' }}>
-            <AdSenseAd />
+            <ins className="adsbygoogle"
+              style={{ display: 'block' }}
+              data-ad-client="ca-pub-4660168246825318"
+              data-ad-slot="1234567890" // Replace with your actual Ad slot ID
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+            <script>
+              {`(adsbygoogle = window.adsbygoogle || []).push({});`}
+            </script>
           </div>
         </Grid>
 
@@ -151,7 +160,15 @@ function HomePage() {
         {/* Another AdSense Ad Placement */}
         <Grid item xs={12}>
           <div style={{ margin: '20px' }}>
-            <AdSenseAd />
+            <ins className="adsbygoogle"
+              style={{ display: 'block' }}
+              data-ad-client="ca-pub-4660168246825318"
+              data-ad-slot="1234567890" // Replace with your actual Ad slot ID
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+            <script>
+              {`(adsbygoogle = window.adsbygoogle || []).push({});`}
+            </script>
           </div>
         </Grid>
 
@@ -221,7 +238,15 @@ function HomePage() {
         {/* Another AdSense Ad Placement */}
         <Grid item xs={12}>
           <div style={{ margin: '20px' }}>
-            <AdSenseAd />
+            <ins className="adsbygoogle"
+              style={{ display: 'block' }}
+              data-ad-client="ca-pub-4660168246825318"
+              data-ad-slot="1234567890" // Replace with your actual Ad slot ID
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+            <script>
+              {`(adsbygoogle = window.adsbygoogle || []).push({});`}
+            </script>
           </div>
         </Grid>
 
@@ -279,7 +304,6 @@ function HomePage() {
             <LifestyleFavorites />
           </Suspense>
         </Grid>
-
       </Grid>
 
       <Grid item xs={12}>
