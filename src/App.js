@@ -112,6 +112,7 @@ import FolkloreFairy from './Shop/ShopMyHomeLinks/FolkloreFairy';
 import ImageGrid from './Home/ArticlesGrid';
 import HeroSection from './Home/HeroSection';
 import DiaryHome from './DiaryHome/diaryhome';
+import CameraSettings from './Articles/Tutorials/PopCulture/CameraSettings';
 
 function usePageTracking() {
   const location = useLocation();
@@ -249,6 +250,7 @@ function App() {
             <Route path="folklore-fairy" element={<FolkloreFairy/>} />
             <Route path="hero-section" element={<HeroSection/>} />
             <Route path="articles-section" element={<ImageGrid/>} />
+            <Route path="camera-settings" element={<CameraSettings/>} />
 
 
             <Route path="*" element={<h1>404 Not Found</h1>} />
