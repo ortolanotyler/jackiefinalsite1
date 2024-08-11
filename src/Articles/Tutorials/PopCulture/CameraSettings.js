@@ -29,7 +29,7 @@ const image15 = `${process.env.PUBLIC_URL}/Images/Articles/CameraSettings/15.JPG
 const image16 = `${process.env.PUBLIC_URL}/Images/Articles/CameraSettings/16.JPG`;
 const image17 = `${process.env.PUBLIC_URL}/Images/Articles/CameraSettings/17.jpg`;
 const vsco = `${process.env.PUBLIC_URL}/Images/Articles/CameraSettings/vsco.png`;
-const barbie = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/SQUAREMARGOT.jpeg`;
+const fairytale = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fairytalethumbnail.webp`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
@@ -215,7 +215,7 @@ style = {{
 
 
       <p style={paragraphStyle}>
-      It may sound simple, but keeping your lens clean is crucial for capturing clear, sharp photos. A dirty lens can cause your photos to appear blurry or hazy. Make it a habit to wipe your lens with a microfibre cloth before taking any photos. If you’re like me, you might find yourself wiping it off on whatever’s handy — like my husband’s shirt!
+      It may sound simple, but keeping your lens clean is crucial for capturing clear, sharp photos. A dirty lens can cause your photos to appear blurry or hazy. Make it a habit to wipe your lens with a <a style = {{color: 'black'}} href = 'https://www.amazon.com/MagicFiber-Microfiber-Cleaning-Cloths-PACK/dp/B0050R67U0?crid=1E69SSJQ76OIC&dib=eyJ2IjoiMSJ9.4pSiPsdYFjC4YihA-Ui4Y73QwVTS2N4-ydeeLa1zzAznub8qzGBRNMMYZj7rHBf6P82d2P-rfnLk77pKCJO29xLU6FlI1NMfzyIkAk1QpwkqqUIGMcYLjrIw0duDRkla31-MRMVNdbHOqmbFhEp9dMm1NEjDEJLfkLMcSw8PvPITzOIYvkMY47Jye8aL53D6OXWQLPyI3RqiAmhuLVfTb1hZE_Edcg1otO1FbfUO8mI.1cWUozSwkUT8-2MyRblp6V5-AtxjFa_aLywYgbnFiw0&dib_tag=se&keywords=microfiber%2Bcloth%2Bphotography&qid=1723394543&sprefix=microfiber%2Bcloth%2Bphotographt,aps,102&sr=8-3&th=1&returnFromLogin=1&linkCode=sl1&tag=jackiewyers-20&linkId=94bbea7fb1afd36fb47f7c21ced12a9b&language=en_US&ref_=as_li_ss_tl' target= 'blank' rel = 'noreferrer'> microfibre cloth</a> before taking any photos. If you’re like me, you might find yourself wiping it off on whatever’s handy — like my husband’s shirt!
       </p>
 
       <div style = {gridContainerStyle}>       
@@ -225,7 +225,6 @@ style = {{
 
 Taken with .5 zoom lens on iPhone 13 Pro Mac right after cleansing lens
 </p>
-      <ResponsiveIframe src="https://shopmy.us/collections/public/726377?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
 
       <div
@@ -475,7 +474,7 @@ These minor tweaks sharpen the image slightly and add a soft look with a subtle 
        </div>
 
 <p style = {{textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-   Sign up for a subscription <a href="https://www.youtube.com/watch?v=dQw4w9" target="_blank" rel='noreferrer'> here </a> 
+   Sign up for a subscription <a style = {{color:'black'}} href="https://www.youtube.com/watch?v=dQw4w9" target="_blank" rel='noreferrer'> here </a> 
     </p>
     <div
 style = {{
@@ -521,7 +520,12 @@ Why I Don’t Enable ProRAW for Higher Quality Photos
 </h2>
 
 <p style={paragraphStyle}>
-<span style = {{fontWeight:'bold'}}> ProRAW on the iPhone 13 Pro Max </span> allows you to capture photos with more detail and colour data, offering greater control over editing. However, I’ve found that the advantages of shooting in RAW format aren't as noticeable when sharing on social media and it takes up more space on the phone. Social platforms like Instagram and Facebook apply heavy compression to images, reducing quality and eliminating many of the finer details that ProRAW captures. Additionally, most social media content is viewed on smaller screens, where the enhanced dynamic range and subtle colour differences of RAW files aren't fully appreciated. The iPhone’s in- camera processing already optimizes JPEGs for immediate sharing, making the extra post-processing flexibility of RAW less essential for my needs. Plus, the smaller file sizes of JPEGs are more convenient for storage and sharing.
+<span style = {{fontWeight:'bold'}}> ProRAW on the iPhone 13 Pro Max </span> allows you to capture photos with more detail and colour data, offering greater control over editing. However, I’ve found that the advantages of shooting in RAW format aren't as noticeable when sharing on social media and it takes up more space on the phone. Social platforms like Instagram and Facebook apply heavy compression to images, reducing quality and eliminating many of the finer details that ProRAW captures. 
+</p>
+
+<p style={paragraphStyle}>
+
+Additionally, most social media content is viewed on smaller screens, where the enhanced dynamic range and subtle colour differences of RAW files aren't fully appreciated. The iPhone’s in- camera processing already optimizes JPEGs for immediate sharing, making the extra post-processing flexibility of RAW less essential for my needs. Plus, the smaller file sizes of JPEGs are more convenient for storage and sharing.
 
 </p>
 
@@ -549,7 +553,7 @@ However, if the lighting is lower, shooting from above will capture the most fla
 </p>
 
 <p style={paragraphStyle}>
-I still am not the best with poses and creating interesting shapes with my body, so I don’t have a ton of suggestions for “modelling,” but I’m working on it! That being said, by tweaking these settings and following these tips, you’ll be well on your way to capturing stunning photos with your iPhone 13 Pro Max. Remember, practice makes perfect, so don’t be afraid to experiment and find your unique style. I hope this guide was helpful and have fun shooting. Want more inspiration? Follow me on instagram here.
+I still am not the best with poses and creating interesting shapes with my body, so I don’t have a ton of suggestions for “modelling,” but I’m working on it! That being said, by tweaking these settings and following these tips, you’ll be well on your way to capturing stunning photos with your iPhone 13 Pro Max. Remember, practice makes perfect, so don’t be afraid to experiment and find your unique style. I hope this guide was helpful and have fun shooting. Want more inspiration? Follow me on instagram <a  style = {{color:'black'}}href= 'https://instagram.com/jackiewyers' target='blank' rel='noreferrer'>here</a>.
 
 </p>
 
@@ -558,10 +562,18 @@ Let me know if you found these tips and tricks helpful, and feel free to comment
 
 </p>
 
+<div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <a href="/fairytalewedding" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={fairytale} alt="fairytale" style={{ width: '100%', maxWidth: '500px', display: 'block', margin: '0 auto' }} />
+          OUR FAIRYTALE WEDDING →
+        </a>
+      </div>
+
 <div style = {gridContainerStyle}>        
     <img src={signature} alt="Elizabeth Bennet - Pride & Prejudice" style={{ width: '100%' }} />
     </div>
 
+    <Comments website-id={websiteId} page-id={"Camera-Settings"} />
 
 
       <div
