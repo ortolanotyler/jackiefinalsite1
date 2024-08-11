@@ -3,6 +3,7 @@ import { Grid, Box, Paper, ThemeProvider, createTheme, useMediaQuery, Typography
 import { debounce } from 'lodash';
 import { Helmet } from 'react-helmet';
 import { initGA, logPageView } from '../analytics';
+import TextRevealHomePage from '../Components/TextRevealHomePage';
 
 // Lazy load components
 const TextReveal = lazy(() => import('../Components/TextReveal'));
@@ -71,7 +72,7 @@ function HomePage() {
       <Grid container spacing={1} justifyContent="center">
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
-            <TextReveal text="JACKIE WYERS" style={{ marginBottom: '0px' }} />
+            <TextRevealHomePage text="JACKIE WYERS"  />
           </Suspense>
         </Grid>
 

@@ -23,7 +23,7 @@ const HeroSection = () => {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    padding: '60px 20px',
+    padding: '30px 30px',
     minHeight: '80vh',
     flexDirection: isSmallScreen ? 'column' : 'row',
     flexWrap: 'wrap',
