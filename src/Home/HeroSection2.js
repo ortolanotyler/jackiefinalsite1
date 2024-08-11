@@ -25,13 +25,14 @@ const HeroSection2 = () => {
     alignItems: 'center',
     padding: '30px 30px',
     minHeight: '80vh',
-    flexDirection: isSmallScreen ? 'column' : 'row',
+    flexDirection: isSmallScreen ? 'column' : 'row', // Normal order for larger screens
     flexWrap: 'wrap',
   };
 
   const textContentStyle = {
     flex: 1,
-    paddingRight: isSmallScreen ? '0' : '40px',
+    paddingLeft: isSmallScreen ? '0' : '40px',
+    paddingTop: isSmallScreen ? '20px' : '0', // Add padding on top for mobile
     maxWidth: '500px',
     textAlign: 'center',  // Center text on all screens
     fontFamily: 'GFS Didot, serif',
@@ -41,7 +42,7 @@ const HeroSection2 = () => {
     fontSize: '14px',
     fontWeight: 'bold',
     letterSpacing: '1px',
-    marginBottom: '10px',
+    marginBottom: isSmallScreen ? '20px' : '10px', // Increase margin for mobile
     fontFamily: 'GFS Didot, serif',
     minHeight: '20px',
   };
@@ -73,7 +74,7 @@ const HeroSection2 = () => {
 
   const imageContentStyle = {
     flex: 1,
-    textAlign: isSmallScreen ? 'center' : 'right',
+    textAlign: isSmallScreen ? 'center' : 'right', // Adjust the alignment for larger screens
     maxWidth: '600px',
   };
 
@@ -87,17 +88,18 @@ const HeroSection2 = () => {
   return (
     <a href="/camera-settings" style={heroLinkStyle}>
       <div style={heroSectionStyle}>
+        <div style={imageContentStyle}>
+          <img src={image1} alt="Fairytale Wedding" style={imageStyle} loading="lazy" />
+        </div>
         <div style={textContentStyle}>
           <h2 style={featureStyle}>CREATOR TIPS</h2>
           <h1 style={headlineStyle}>
-          Best iPhone Camera Settings for Stunning Social Media Photos          </h1>
+            Best iPhone Camera Settings for Stunning Social Media Photos
+          </h1>
           <p style={subtextStyle}>
-          The iPhone is a powerhouse for mobile photography, and with a few simple tweaks to your camera settings, you can elevate your photos to a more professional level.
+            The iPhone is a powerhouse for mobile photography, and with a few simple tweaks to your camera settings, you can elevate your photos to a more professional level.
           </p>
           <p style={authorStyle}>BY JACKIE WYERS</p>
-        </div>
-        <div style={imageContentStyle}>
-          <img src={image1} alt="Fairytale Wedding" style={imageStyle} loading="lazy" />
         </div>
       </div>
     </a>
