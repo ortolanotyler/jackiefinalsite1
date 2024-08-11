@@ -84,18 +84,19 @@ const CameraSettings = () => {
 
   const blogContent = (
     <div className="container">
-    <Helmet>
-  <title>No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers</title>
-  <meta name="description" content="Explore the elegance of period drama hair and makeup. Recreate historical hairstyles and no-makeup makeup looks inspired by various eras." />
-  <meta name="keywords" content="Period Drama, No Makeup Makeup, Historical Hairstyles, Jackie Wyers, Beauty Blog, Tudor Era, Regency Era, Edwardian Era, Victorian Era, Pirates of the Caribbean, Pride and Prejudice, Bridgerton" />
-  <meta property="og:title" content="No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers" />
-  <meta property="og:description" content="Explore the elegance of period drama hair and makeup. Recreate historical hairstyles and no-makeup makeup looks inspired by various eras." />
+  <Helmet>
+  <title>Camera Settings - A Guide to Scroll-Stopping iPhone Photos - Jackie Wyers</title>
+  <meta name="description" content="Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide." />
+  <meta name="keywords" content="iPhone Camera Settings, Mobile Photography, Jackie Wyers, Photography Tips, iPhone Photography, Camera Tips, Content Creator Tips" />
+  <meta property="og:title" content="Camera Settings - A Guide to Scroll-Stopping iPhone Photos - Jackie Wyers" />
+  <meta property="og:description" content="Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide." />
   <meta property="og:image" content={title} />
-  <meta property="og:url" content="https://jackiewyers.beauty/perioddrama" />
+  <meta property="og:url" content="https://jackiewyers.beauty/camera-settings" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers" />
-  <meta name="twitter:description" content="Explore the elegance of period drama hair and makeup. Recreate historical hairstyles and no-makeup makeup looks inspired by various eras." />
+  <meta name="twitter:title" content="Camera Settings - A Guide to Scroll-Stopping iPhone Photos - Jackie Wyers" />
+  <meta name="twitter:description" content="Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide." />
   <meta name="twitter:image" content={title} />
+  <link rel="canonical" href="https://jackiewyers.beauty/camera-settings" />
   <script type="application/ld+json">
     {`
     {
@@ -103,10 +104,10 @@ const CameraSettings = () => {
       "@type": "Article",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://jackiewyers.beauty/perioddrama"
+        "@id": "https://jackiewyers.beauty/camera-settings"
       },
-      "headline": "No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers",
-      "description": "Explore the elegance of period drama hair and makeup. Recreate historical hairstyles and no-makeup makeup looks inspired by various eras.",
+      "headline": "Camera Settings - A Guide to Scroll-Stopping iPhone Photos - Jackie Wyers",
+      "description": "Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide.",
       "image": "${title}",
       "author": {
         "@type": "Person",
@@ -120,8 +121,8 @@ const CameraSettings = () => {
           "url": "${title}"
         }
       },
-      "datePublished": "2024-07-27",
-      "dateModified": "2024-07-27"
+      "datePublished": "2024-08-11",
+      "dateModified": "2024-08-11"
     }
     `}
   </script>
@@ -136,6 +137,7 @@ const CameraSettings = () => {
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
+
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
         <p  style={{ fontFamily: 'Arapey', fontSize: '1em', color: 'black', textDecoration: 'none' }}>
