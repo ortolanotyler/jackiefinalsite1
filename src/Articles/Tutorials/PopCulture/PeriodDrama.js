@@ -32,12 +32,21 @@ const Card = ({ blogContent }) => (
 const PeriodDrama = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
-  
 
-  useEffect(() => {
-    initGA();
-    logPageView('/perioddrama');
-}, []);
+
+  
+    useEffect(() => {
+      logPageView();
+    }, []);
+  
+    const logPageView = () => {
+      if (window.gtag) {
+        window.gtag('config', 'G-RT6GR7JXYG', {
+          page_path: '/perioddrama',
+          page_title: 'Period Drama - Jackie Wyers',
+        });
+      }
+    };
 
 
   const headingStyle = {
