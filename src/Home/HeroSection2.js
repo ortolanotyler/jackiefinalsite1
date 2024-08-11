@@ -24,15 +24,14 @@ const HeroSection2 = () => {
     justifyContent: 'center',
     alignItems: 'center',
     padding: '30px 30px',
-    minHeight: '70vh',
+    minHeight: '80vh',
     flexDirection: isSmallScreen ? 'column' : 'row', // Column for mobile, row for larger screens
     flexWrap: 'wrap',
   };
 
   const textContentStyle = {
     flex: 1,
-    paddingRight: isSmallScreen ? '0' : '40px',
-    paddingBottom: isSmallScreen ? '20px' : '0', // Add padding below text on mobile
+    paddingLeft: isSmallScreen ? '0' : '40px', // Add padding on the left for larger screens
     maxWidth: '500px',
     textAlign: 'center',  // Center text on all screens
     fontFamily: 'GFS Didot, serif',
@@ -74,7 +73,7 @@ const HeroSection2 = () => {
 
   const imageContentStyle = {
     flex: 1,
-    textAlign: isSmallScreen ? 'center' : 'right', // Center the image on mobile, align right on larger screens
+    textAlign: isSmallScreen ? 'center' : 'left', // Center the image on mobile, align left on larger screens
     maxWidth: '600px',
   };
 
@@ -88,6 +87,9 @@ const HeroSection2 = () => {
   return (
     <a href="/camera-settings" style={heroLinkStyle}>
       <div style={heroSectionStyle}>
+        <div style={imageContentStyle}>
+          <img src={image1} alt="Camera Settings" style={imageStyle} loading="lazy" />
+        </div>
         <div style={textContentStyle}>
           <h2 style={featureStyle}>CREATOR TIPS</h2>
           <h1 style={headlineStyle}>
@@ -98,13 +100,11 @@ const HeroSection2 = () => {
           </p>
           <p style={authorStyle}>BY JACKIE WYERS</p>
         </div>
-        <div style={imageContentStyle}>
-          <img src={image1} alt="Fairytale Wedding" style={imageStyle} loading="lazy" />
-        </div>
       </div>
     </a>
   );
 };
 
 export default HeroSection2;
+
 
