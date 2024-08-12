@@ -23,6 +23,13 @@ const Sitemap = () => {
         { path: "/nomakeupspring", title: "No Makeup Spring" },
         { path: "/bardothairstyles", title: "Bardot Hairstyles" },
         { path: "/animalpretty", title: "Animal Pretty" },
+        { path: "/summerbeauty", title: "Summer Beauty" },
+        { path: "/bridalmakeup", title: "Bridal Makeup" },
+        { path: "/perioddrama", title: "Period Drama" },
+        { path: "/eeebridal", title: "Bridal Tutorials Home" },
+        { path: "/camera-settings", title: "Camera Settings" },
+        { path: "/sophialoren", title: "Sophia Loren" },
+        { path: "/sharontatebridal", title: "Sharon Tate Bridal" }
     ];
 
     const stylePosts = [
@@ -40,6 +47,18 @@ const Sitemap = () => {
         { path: "/cpsummer", title: "Cottagecore Princess Summer" },
         { path: "/sleekspring", title: "Sleek Spring" },
         { path: "/parisprincess", title: "Paris Princess" },
+        { path: "/parisianchic", title: "Parisian Chic" },
+        { path: "/vaticanslay", title: "Vatican Slay" },
+        { path: "/walkingwaiheke", title: "Walking Waiheke" },
+        { path: "/princesscoreparis", title: "Princess Core Paris" },
+        { path: "/polkadot", title: "Polka Dot Moment" },
+        { path: "/trevifountain", title: "Italian Fountain" },
+        { path: "/summerset", title: "Summer Set" },
+        { path: "/houndstooth", title: "Houndstooth Set" },
+        { path: "/metsteps", title: "Met Steps" },
+        { path: "/paris-in-nyc", title: "Paris in NYC" },
+        { path: "/floral-mini", title: "Floral Mini" },
+        { path: "/folklore-fairy", title: "Folklore Fairy" }
     ];
 
     const siteResources = [
@@ -69,6 +88,7 @@ const Sitemap = () => {
         { path: "/newzealand", title: "New Zealand Travel Blog" },
         { path: "/fable", title: "Fable Auckland Review" },
         { path: "/fairytalewedding", title: "Jackie Wyers Wedding in Sorrento, Italy" },
+        { path: "/hotelquintessancesummer", title: "Hotel Quintessence Summer" },
     ];
 
     const reviewPosts = [
@@ -91,6 +111,11 @@ const Sitemap = () => {
         { path: "/elizabeth", title: "Elizabeth" },
         { path: "/porsha", title: "Porsha" },
         { path: "/weddingdressguide", title: "Wedding Dress Guide" },
+        { path: "/videos", title: "Video Grid Page" },
+        { path: "/diary", title: "Diary Home" },
+        { path: "/diaryfillers", title: "Diary Fillers" },
+     
+        { path: "/diy-flowers", title: "DIY Flowers" }
     ];
 
     return (
@@ -148,23 +173,22 @@ const Sitemap = () => {
                 <h2 className={`${styles.heading} ${styles.subHeading}`}>MyStyle</h2>
                 <ul className={styles.list}>
                     {stylePosts.map((post, index) => (
-                        <li key={                        index} className={styles.listItem}>
-                        <Link to={post.path} className={styles.link}>{post.title}</Link>
-                    </li>
-                ))}
-            </ul>
-            <h2 className={`${styles.heading} ${styles.subHeading}`}>Additional Posts</h2>
-            <ul className={styles.list}>
-                {additionalPosts.map((post, index) => (
-                    <li key={index} className={styles.listItem}>
-                        <Link to={post.path} className={styles.link}>{post.title}</Link>
-                    </li>
-                ))}
-            </ul>
-        </div>
-    </>
-);
+                        <li key={index} className={styles.listItem}>
+                            <Link to={post.path} className={styles.link}>{post.title}</Link>
+                        </li>
+                    ))}
+                </ul>
+                <h2 className={`${styles.heading} ${styles.subHeading}`}>Additional Posts</h2>
+                <ul className={styles.list}>
+                    {additionalPosts.map((post, index) => (
+                        <li key={index} className={styles.listItem}>
+                            <Link to={post.path} className={styles.link}>{post.title}</Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </>
+    );
 };
 
 export default Sitemap;
-
