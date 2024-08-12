@@ -5,3 +5,5 @@ Disallow:
 
 User-agent: Mediapartners-Google
 Disallow:
+
+Sitemap: https://jackiewyers.beauty/sitemap.xml
