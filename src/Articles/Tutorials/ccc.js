@@ -15,8 +15,15 @@ const animalpretty = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/ani
 const summerinspo = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/mermaidthumbnail.jpg`;
 const summerbeauty = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/BlueLagoonThumbnail.jpg`;
 const perioddrama = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/ArticleThumb.jpg`;
+const emily = `${process.env.PUBLIC_URL}/Images/Articles/EmilyInParis/emilyinparis.jpg`;
 
 const cardsData = [
+  {
+    link: "/emily-in-paris",
+    image: emily,
+    alt: "Emily In Paris Style Evolution",
+    title: "Emily in Paris Style Evolution : Iconic Outfits, Makeup, and Hair",
+  },
   {
     link: "/perioddrama",
     image: perioddrama,

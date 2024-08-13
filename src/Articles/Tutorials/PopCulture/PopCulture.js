@@ -12,8 +12,15 @@ const image9 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/MARGOTBARB
 const nomakeup = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
 const summerinspo = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/mermaidthumbnail.jpg`;
 const perioddrama = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/ArticleThumb.jpg`;
+const emily = `${process.env.PUBLIC_URL}/Images/Articles/EmilyInParis/emilyinparis.jpg`;
 
 const cardsData = [
+  {
+    link: "/emily-in-paris",
+    image: emily,
+    alt: "Emily In Paris Style Evolution",
+    title: "Emily in Paris Style Evolution : Iconic Outfits, Makeup, and Hair",
+  },
  
  {
   link: "/perioddrama",
@@ -80,9 +87,7 @@ const PopCulture = () => {
    
       <div>
         <div><TextReveal text='POP CULTURE OBSESSED' /></div>
-        <Paper elevation={5} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: '#745B4F', textAlign: 'center' }}>
-            <RotatingText />
-          </Paper>
+        
         <ul className={styles.cardList}>
           {cardsData.map((card, index) => (
             <Card
