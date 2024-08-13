@@ -22,7 +22,7 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
   <div>
-    <div><TextReveal text='TRENDS' /></div>
+    <div><TextReveal text='POP CULTURE' /></div>
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
