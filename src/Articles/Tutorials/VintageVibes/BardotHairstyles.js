@@ -277,6 +277,7 @@ Method Two: Best Faux Bangs
 
 </h2>
 
+<div style = {{textAlign: 'center'}}>
 <iframe
       style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
       src="https://www.youtube.com/embed/7JuWiUbby4I"
@@ -285,7 +286,7 @@ Method Two: Best Faux Bangs
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
     ></iframe>
-
+</div>
 
 
 <p style={paragraphStyle}>
@@ -347,11 +348,17 @@ Combining Methods for The Best Bardot Bun
 
 </h2>
 
-<div style={gridContainerStyle}>
-  <a href = "https://www.youtube.com/shorts/WyP-Lco8BTA" target="_blank" rel = "noreferrer" > 
-  <img src={image9} alt="Jackie Wyers Bardot Hairstyles" style={imageStyle} />
-  </a>
- </div>
+<div style={{ textAlign: 'center' }}>
+  <iframe
+    style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
+    src="https://www.youtube.com/embed/WyP-Lco8BTA"
+    title="YouTube video player"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
 
 <p style={paragraphStyle}>
 Now that we’ve covered the best way to achieve the bangs and the easiest way to get that big, voluminous bun, let’s combine the two methods. Here’s to creating the biggest and best Bardot bun as seen in this ad I created with Marc Anthony above!
@@ -364,14 +371,10 @@ I used the Marc Anthony Style Flex 2-in-1 Adjustable Texture Spray for extra gri
 
 </p>
 
-<div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+<ResponsiveIframe
+        src="https://shopmy.us/collections/public/730923?noHeader=true"
+        title="Shop My Victoria's Secret Favorites"
+      />
 
 <p style={paragraphStyle}>
 For those with thicker hair, consider using a strong- hold hairspray to keep your bun in place all day like OGX Bamboo Fibre Full hairspray. If your hair is on the finer side, a bit of texturizing spray can add the necessary grip and volume as is.

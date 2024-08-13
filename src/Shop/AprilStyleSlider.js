@@ -39,7 +39,7 @@ const AprilStyleSlider = () => {
     const logPageView = () => {
       if (window.gtag) {
         window.gtag('config', 'G-RT6GR7JXYG', {
-          page_path: '/camerasettings',
+          page_path: '/aprilstyle',
           page_title: 'Camera Settings - A Guide to Scroll-Stopping iPhone Photos',
         });
       }
