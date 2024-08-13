@@ -5,7 +5,6 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
 import TextReveal from '../../../Components/TextReveal';
 import AdSenseAd from '../../../Advertising/Ads';
-import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from'react-helmet';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
@@ -71,7 +70,7 @@ const EmilyInParis = () => {
     marginTop: '1rem',
     marginBottom: '1rem',
     maxWidth: '500px',
-    lineHeight: '1.75',
+    lineHeight: '1.5',
     marginLeft: 'auto',
     marginRight: 'auto',
   };
