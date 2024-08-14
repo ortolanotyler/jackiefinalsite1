@@ -19,6 +19,7 @@ const image4 = `${process.env.PUBLIC_URL}/Images/Articles/EmilyInParis/4.jpg`;
 const image5 = `${process.env.PUBLIC_URL}/Images/Articles/EmilyInParis/5.jpg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/EmilyInParis/6.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+const period = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/ArticleThumb.jpg`;
 
 const Card = ({ blogContent }) => (
   <div>
@@ -313,6 +314,12 @@ style = {{
 
 <p style={paragraphStyle}>Thanks for reading, and happy binge-watching Emily in Paris season four! If you love all things beauty and pop culture, subscribe to the newsletter to be updated weekly on new articles uploaded to the site.</p>
 <EmailSubscribe/>
+      <div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <a href="/perioddrama" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={period} alt="Sharon Tate Bridal" style={{ width: '100%', maxWidth: '500px', display: 'block', margin: '0 auto' }} />
+          MORE POP CULTURE →
+        </a>
+      </div>
 <div style = {imageStyle}>
 <img src={signature} alt="Signature" style={{ width: '100%' }} />
       </div>

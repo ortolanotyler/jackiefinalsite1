@@ -58,7 +58,6 @@ const VictoriaSecret = () => {
   
   const blogContent = (
     <div className="container">
-      import { Helmet } from 'react-helmet';
       <Helmet>
     <title>Victoria's Secret Fashion Show 2013 - Jackie Wyers</title>
     <meta name="description" content="Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014." />
