@@ -178,6 +178,9 @@ style = {{
 </div>
 <h2 style={headingStyle}>Season One: Where It All Began</h2>
 
+<ResponsiveYoutube src="https://www.youtube.com/embed/b_e98iV-TdM?si=Xm2aB5vvNmTYawYo" title="Lana Del Ray X Skims Makeup Tutorial - Jackie Wyers" />
+
+
 <p style={paragraphStyle}>Season one introduced us to Emily Cooper's bubbly and ambitious personality, perfectly reflected in her vibrant fashion choices, mixing prints and textures. Her makeup often featured a classic red lip, bold brows, and a fresh, dewy complexion—a look that was more American, with a polished and put-together appearance contrasting with the more understated Parisian style. Her hair was almost always perfect, usually styled in stunning bouncy waves that added to her all-American charm.</p>
 <div
 style = {{
