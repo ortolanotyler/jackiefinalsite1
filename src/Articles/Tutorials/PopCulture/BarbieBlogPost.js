@@ -8,6 +8,7 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
+import DropCap1 from '../../Travel/DropCap1';
 
  
 
@@ -39,7 +40,7 @@ const BarbieBlog = () => {
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '30px',
+    fontSize: '28px',
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',
@@ -47,7 +48,7 @@ const BarbieBlog = () => {
   };
 
   const paragraphStyle = {
-    fontSize: '22px',
+    fontSize: '20px',
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
     marginTop: '1rem',
@@ -131,7 +132,7 @@ const BarbieBlog = () => {
         </p>
       </div>
 
-      <DropCap text="In the dazzling world of the Barbie Movie, directed by Greta Gerwig and starring Margot Robbie as endearing Barbie and Ryan Gosling as the hilarious Ken, we must not forget to pay tribute to the brilliant artists who brought these iconic characters to life. Ivana Primorac, the creative force leading the movie’s hair and makeup teams, created Margot’s Barbie pink makeup look that appeared fresh and modern. The 'Barbie' costume designer Jacqueline Durran played an equally crucial role in fuelling the 'Barbiecore' fashion trend with the iconic Barbie looks featured in the film. Hello Barbiecore summer of 2023 - everywhere you looked, it was all about PINK!" />
+      <DropCap1 text="In the dazzling world of the Barbie Movie, directed by Greta Gerwig and starring Margot Robbie as endearing Barbie and Ryan Gosling as the hilarious Ken, we must not forget to pay tribute to the brilliant artists who brought these iconic characters to life. Ivana Primorac, the creative force leading the movie’s hair and makeup teams, created Margot’s Barbie pink makeup look that appeared fresh and modern. The 'Barbie' costume designer Jacqueline Durran played an equally crucial role in fuelling the 'Barbiecore' fashion trend with the iconic Barbie looks featured in the film. Hello Barbiecore summer of 2023 - everywhere you looked, it was all about PINK!" />
       <div
 style = {{
   margin : '20px'

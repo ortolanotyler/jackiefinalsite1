@@ -9,6 +9,7 @@ import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
+import DropCap1 from './DropCap1';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceTitle.png`;
 
@@ -130,8 +131,8 @@ const PrinceOfWales = () => {
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </Helmet>
 
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-                <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
+                <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // HOTEL REVIEWS
                 </a>
             </div>
@@ -149,7 +150,7 @@ const PrinceOfWales = () => {
                 </p>
             </div>
 
-            <DropCap text="Welcome back for a special hotel review of the enchanting Prince of Wales Hotel in Niagara-On-The-Lake, Ontario, Canada. To celebrate my birthday this year, my husband Tyler and I indulged in a luxurious weekend at this stunning hotel, renowned for its Victorian elegance and romantic charm. Nestled in the heart of one of Canada's most picturesque towns, the Prince of Wales provided the perfect backdrop for a celebration filled with beauty, history, and a touch of magic." />
+            <DropCap1 text="Welcome back for a special hotel review of the enchanting Prince of Wales Hotel in Niagara-On-The-Lake, Ontario, Canada. To celebrate my birthday this year, my husband Tyler and I indulged in a luxurious weekend at this stunning hotel, renowned for its Victorian elegance and romantic charm. Nestled in the heart of one of Canada's most picturesque towns, the Prince of Wales provided the perfect backdrop for a celebration filled with beauty, history, and a touch of magic." />
             <div
 style = {{
   margin : '20px'

@@ -7,6 +7,7 @@ import TextReveal from '../../../Components/TextReveal';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
+import DropCap1 from '../../Travel/DropCap1';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/SummerBeautyTitle.png`;
@@ -127,7 +128,7 @@ const SummerBeauty = () => {
         </p>
       </div>
 
-      <DropCap text="Looking for easy breezy summer hairstyles, makeup & style to try this
+      <DropCap1 text="Looking for easy breezy summer hairstyles, makeup & style to try this
 summer? Here’s my top 6 inspirations pulled from some of pop
 culture's most iconic characters. From the sun-kissed shores of 'The
 Blue Lagoon' to the chic streets of 'Emily In Paris,' join me as I recreate and

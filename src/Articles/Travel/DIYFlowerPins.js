@@ -6,10 +6,10 @@ import AdSenseAd from '../../Advertising/Ads';
 
 import SubscribeButton from '../../Components/SubscribeButton';
 import { initGA, logPageView } from '../../analytics';
-import BridalDropCap from '../../Components/BridalDropCap';
 import { Helmet } from 'react-helmet';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import DropCap from '../../Components/DropCap';
+import DropCap1 from './DropCap1';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/MammaMia/mammamiatitle.png`;
@@ -20,14 +20,15 @@ const image4 = `${process.env.PUBLIC_URL}/Images/Articles/MammaMia/4.png`;
 const image5 = `${process.env.PUBLIC_URL}/Images/Articles/MammaMia/5.jpg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/MammaMia/6.jpg`;
 const image7 = `${process.env.PUBLIC_URL}/Images/Articles/MammaMia/7.jpg`;
-const image8 = `${process.env.PUBLIC_URL}/Images/Articles/MammaMia/8.jpg`;
-const image9 = `${process.env.PUBLIC_URL}/Images/Articles/MammaMia/9.jpg`;
+
 
 
 
 
 const nextarticle = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+
+
 
 const Card = ({ blogContent }) => (
   <div>
@@ -55,10 +56,11 @@ const DIYFlowers = () => {
     color: 'black',
     fontWeight: 'bold',
     margin: '1rem 0',
-    lineHeight: '1.2',
+    lineHeight: '1',
   
     fontSize: 'calc(16px + 2vw)',
   };
+
   const descriptionStyle = {
     fontFamily: 'Arapey, serif',
     textAlign: 'left',
@@ -66,7 +68,7 @@ const DIYFlowers = () => {
     color: 'black',
     fontWeight: 'normal',
     margin: '1rem 0',
-    lineHeight: '1.2',
+    lineHeight: '1',
   
     fontSize: 'calc(16px + 2vw)',
   };
@@ -89,10 +91,9 @@ const DIYFlowers = () => {
     fontSize: '20px',
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
-    marginTop: '1rem',
-    marginBottom: '1rem',
+ 
     maxWidth: '500px',
-    lineHeight: '1.75',
+    lineHeight: '1.25',
     marginLeft: 'auto',
     marginRight: 'auto',
   };
@@ -190,7 +191,7 @@ const listStyle = {
 
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
-        <a href="/bridal" style={{ fontFamily: 'Arapey', fontSize: '1em', color: 'black', textDecoration: 'none' }}>
+        <a href="/bridal" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
           BEAUTY // BRIDAL
         </a>
       </div>
@@ -221,12 +222,12 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 <div style = {{textAlign: 'center', marginTop: '2rem' }}>
 <SubscribeButton />
 </div>
-<div style={{ marginTop: '2rem'}}>
-  <DropCap 
+<div style={{ marginTop: '2rem', ...paragraphStyle }}>
+  <DropCap1 
     text="Hey lovelies and Brides-To-Be! Today, I'm sharing how I quickly made my flower crown veil and separate flower pins inspired by Sophie from Mamma Mia that I wore on my wedding day."
-    style={paragraphStyle} // Apply the paragraph style here
   />  
 </div>
+
 
 
 

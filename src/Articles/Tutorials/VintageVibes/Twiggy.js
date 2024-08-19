@@ -8,6 +8,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
+import DropCap1 from '../../Travel/DropCap1';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TWIGGYEYESTUTORIAL.JPG`;
@@ -127,7 +128,7 @@ const TwiggyBlog = () => {
         </p>
       </div>
 
-      <DropCap text="Welcome back to the blog, vintage beauty lovers! Today’s Time Travel Tutorials is dedicated to the doe-eyed darling of the decade: Twiggy. Known affectionately as “The Face of ‘66,” she redefined beauty standards with her waifish figure, striking lashes, and androgynous looks. Twiggy, born Lesley Lawson, wasn't just a trendsetter; she was a cultural phenomenon. With her slender frame, cropped hair, and captivating gaze, Twiggy became the emblem of the mod movement in fashion. She adorned the era's most fashionable spreads, turning the world’s eyes to London’s “youthquake.” Twiggy’s playful innocence and charm perfectly captured the spirit of the sixties, a stark contrast to the older, more mature appearance of stars like Marilyn Monroe. Her distinctive allure danced between girlish simplicity and the era’s vibrant liberation." />
+      <DropCap1 text="Welcome back to the blog, vintage beauty lovers! Today’s Time Travel Tutorials is dedicated to the doe-eyed darling of the decade: Twiggy. Known affectionately as “The Face of ‘66,” she redefined beauty standards with her waifish figure, striking lashes, and androgynous looks. Twiggy, born Lesley Lawson, wasn't just a trendsetter; she was a cultural phenomenon. With her slender frame, cropped hair, and captivating gaze, Twiggy became the emblem of the mod movement in fashion. She adorned the era's most fashionable spreads, turning the world’s eyes to London’s “youthquake.” Twiggy’s playful innocence and charm perfectly captured the spirit of the sixties, a stark contrast to the older, more mature appearance of stars like Marilyn Monroe. Her distinctive allure danced between girlish simplicity and the era’s vibrant liberation." />
       <div
 style = {{
   margin : '20px'

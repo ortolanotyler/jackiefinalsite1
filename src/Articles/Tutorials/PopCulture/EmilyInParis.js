@@ -9,6 +9,7 @@ import { Helmet } from'react-helmet';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import EmailSubscribe from '../../../Components/EmailSubscribe';
+import DropCap1 from '../../Travel/DropCap1';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/EmilyInParis/emilytitle.png`;
@@ -161,7 +162,7 @@ const EmilyInParis = () => {
    
    
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', maxWidth:'600px', margin:'auto' }}>
-  <DropCap text="Bonjour mes amies, parlons Pop Culture! Season four of Emily in Paris has finally arrived, and I couldn’t be more thrilled. Emily Cooper's colourful and bold outfit choices, paired with her upbeat and optimistic personality, create a character & show worth binging on Netflix. The show's idealized version of Paris, filled with chic cafes, stunning architecture, and, of course, fabulous fashion, has captivated audiences worldwide. And let's not forget about the sexy love interests!" />
+  <DropCap1 text="Bonjour mes amies, parlons Pop Culture! Season four of Emily in Paris has finally arrived, and I couldn’t be more thrilled. Emily Cooper's colourful and bold outfit choices, paired with her upbeat and optimistic personality, create a character & show worth binging on Netflix. The show's idealized version of Paris, filled with chic cafes, stunning architecture, and, of course, fabulous fashion, has captivated audiences worldwide. And let's not forget about the sexy love interests!" />
 </div>
 
 <p style={paragraphStyle}>Behind the stunning Emily in Paris fashion that has become synonymous with the show is the legendary Patricia Field, the iconic costume designer behind Sex and the City, who set the tone in season one.</p>

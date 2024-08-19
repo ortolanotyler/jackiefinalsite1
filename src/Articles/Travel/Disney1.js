@@ -9,6 +9,7 @@ import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
+import DropCap1 from './DropCap1';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclubtitle.png`;
@@ -41,7 +42,7 @@ const Disney2Post = () => {
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '30px',
+        fontSize: '28px',
         fontWeight: 'normal',
         fontFamily: 'Arapey, serif',
         color: '#333',
@@ -49,7 +50,7 @@ const Disney2Post = () => {
     };
 
     const paragraphStyle = {
-        fontSize: '22px',
+        fontSize: '20px',
         fontFamily: 'GFS Didot, serif',
         margin: '1rem 1.5rem',
         marginTop: '1rem',
@@ -160,7 +161,7 @@ const Disney2Post = () => {
             <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
                 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
-            <DropCap text="Welcome to Part One of my magical recap of an unforgettable time at Walt Disney World, FL in 2023. My best friend Lauren and I chose Disney's Beach Club Resort for our stay, marking her first visit and my first return since 2002. This article focuses on our resort experience, offering a glimpse into the luxury and leisure that awaited us at this colonial resort and why we chose to book!" />
+            <DropCap1 text="Welcome to Part One of my magical recap of an unforgettable time at Walt Disney World, FL in 2023. My best friend Lauren and I chose Disney's Beach Club Resort for our stay, marking her first visit and my first return since 2002. This article focuses on our resort experience, offering a glimpse into the luxury and leisure that awaited us at this colonial resort and why we chose to book!" />
            
             <div
 style = {{

@@ -8,6 +8,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import { Helmet } from 'react-helmet';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
+import DropCap1 from '../../Travel/DropCap1';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/GraceKellyTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/JackieWyersGraceKellyInspired.jpg`;
@@ -130,7 +131,7 @@ const GraceKelly = () => {
         All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 
-      <DropCap text="Welcome back for another Time Travel Tutorials, the series where we celebrate and recreate the iconic beauty looks of the past. This edition is dedicated to Grace Kelly, a beacon of Old Hollywood elegance and a true silver screen legend. Grace Kelly, known for her roles in 'Rear Window' and 'To Catch a Thief' captivated audiences with her poised performances and became a real-life princess when she married Prince Rainier III of Monaco." />
+      <DropCap1 text="Welcome back for another Time Travel Tutorials, the series where we celebrate and recreate the iconic beauty looks of the past. This edition is dedicated to Grace Kelly, a beacon of Old Hollywood elegance and a true silver screen legend. Grace Kelly, known for her roles in 'Rear Window' and 'To Catch a Thief' captivated audiences with her poised performances and became a real-life princess when she married Prince Rainier III of Monaco." />
       <div
 style = {{
   margin : '20px'

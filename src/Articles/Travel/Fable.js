@@ -8,6 +8,7 @@ import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
+import DropCap1 from './DropCap1';
 
 
 const images = [
@@ -59,7 +60,7 @@ const Fable = () => {
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '30px',
+        fontSize: '1.5rem',
         fontWeight: 'normal',
         fontFamily: 'Arapey, serif',
         color: '#333',
@@ -67,13 +68,13 @@ const Fable = () => {
     };
 
     const paragraphStyle = {
-        fontSize: '22px',
+        fontSize: '20px',
         fontFamily: 'GFS Didot, serif',
         margin: '1rem 1.5rem',
         marginTop: '1rem',
         marginBottom: '1rem',
-        maxWidth: '900px',
-        lineHeight: '1.75',
+        maxWidth: '700px',
+        lineHeight: '1.25',
         marginLeft: 'auto',
         marginRight: 'auto',
     };
@@ -164,8 +165,9 @@ const Fable = () => {
 </Helmet>
 
 
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-                <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
+       
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
+        <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // ITINERARIES
                 </a>
             </div>
@@ -177,7 +179,7 @@ const Fable = () => {
             <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
                 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
-            <DropCap text={`Welcome back for a special hotel review of the enchanting Fable Auckland on Queen Street in Auckland, New Zealand. My mom and I embarked on a mother-daughter trip to explore the city and have a dream bridal appointment at Natalie Rose Bridal in Parnell. To see everything we got up to during the week, check out my travel diary/ itinerary at the link below as well as my vlog (it’s a fun one!👰 ).`} />
+            <DropCap1 text={`Welcome back for a special hotel review of the enchanting Fable Auckland on Queen Street in Auckland, New Zealand. My mom and I embarked on a mother-daughter trip to explore the city and have a dream bridal appointment at Natalie Rose Bridal in Parnell. To see everything we got up to during the week, check out my travel diary/ itinerary at the link below as well as my vlog (it’s a fun one!👰 ).`} />
 
 <p style={paragraphStyle}>
     <div style = {{textAlign: 'center', fontSize: '1rem'}}>

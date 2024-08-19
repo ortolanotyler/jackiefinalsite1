@@ -9,6 +9,7 @@ import SubscribeButton from '../../Components/SubscribeButton';
 import { initGA, logPageView } from '../../analytics';
 import BridalDropCap from '../../Components/BridalDropCap';
 import { Helmet } from 'react-helmet';
+import DropCap1 from './DropCap1';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/WeddingTitle.png`;
@@ -75,53 +76,49 @@ const Card = ({ blogContent }) => (
 );
 
 const FairytaleWedding = () => {
-
-  useEffect(() => {
-    initGA();
-    logPageView('/fairytalewedding');
-  }, []);
-
-
   const websiteId = '10910';
   const blogRef = useRef(null);
 
-  const headingStyle = {
-    textAlign: 'center',
-    fontSize: '32px',
-    fontWeight: 'normal',
-    fontFamily: 'GFS Didot, serif',
-    color: 'black',
-    margin: '1rem',
-    lineHeight: '1.25',
+  useEffect(() => {
+      initGA();
+      logPageView('/fairytalewedding');
+  }, []);
 
+  const headingStyle = {
+      textAlign: 'center',
+      fontSize: '1.5rem', // Updated to match Fable
+      fontWeight: 'normal',
+      fontFamily: 'Arapey, serif', // Updated to match Fable
+      color: '#333', // Updated to match Fable
+      margin: '1.5rem', // Updated to match Fable
   };
 
   const paragraphStyle = {
-    fontSize: '20px',
-    fontFamily: 'GFS Didot, serif',
-    margin: '1rem 1.5rem',
-    marginTop: '1rem',
-    marginBottom: '1rem',
-    maxWidth: '800px',
-    lineHeight: '1.5',
-    marginLeft: 'auto',
-    marginRight: 'auto',
+      fontSize: '20px',
+
+      fontFamily: 'GFS Didot, serif',
+      margin: '1rem 1.5rem',
+      marginTop: '1rem',
+      marginBottom: '1rem',
+      maxWidth: '700px', // Updated to match Fable
+      lineHeight: '1.5rem', // Updated to match Fable
+      marginLeft: 'auto',
+      marginRight: 'auto',
   };
 
   const gridContainerStyle = {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-    gap: '1rem',
-    margin: '1rem 0'
-};
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+      gap: '1rem',
+      margin: '1rem 0'
+  };
 
-const imageStyle = {
-  display: 'block',
-  margin: '0 auto',
-  maxWidth: '700px',
-  height: 'auto'
-};
-
+  const imageStyle = {
+      display: 'block',
+      margin: '0 auto',
+      maxWidth: '100%', // Updated to match Fable
+      height: 'auto'
+  };
 
 
   const blogContent = (
@@ -189,7 +186,7 @@ const imageStyle = {
 
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
-        <a href="/bridal" style={{ fontFamily: 'Arapey', fontSize: '1em', color: 'black', textDecoration: 'none' }}>
+        <a href="/bridal" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
           BEAUTY // BRIDAL
         </a>
       </div>
@@ -213,18 +210,15 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 
 </div>
 
-<div style = {{textAlign: 'center', marginTop: '2rem' }}>
+<div style = {{textAlign: 'center', marginTop: '1rem' }}>
 <SubscribeButton />
 </div>
-<div
-style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '2rem' }}
-> 
 
 
-<BridalDropCap text="On July 11th, Tyler and I celebrated two years of marriage with a dreamy ceremony in Sorrento, Italy. If you haven’t caught up with our backstory, here’s a quick recap: We first met in middle school at
+<div style = {{lineHeight: '1.5rem',maxWidth: '700px', marginLeft: 'auto', marginRight: 'auto'}}>
+<DropCap1 text="On July 11th, Tyler and I celebrated two years of marriage with a dreamy ceremony in Sorrento, Italy. If you haven’t caught up with our backstory, here’s a quick recap: We first met in middle school at
 the International School of Brussels, where we became each other's first “real” boyfriend and girlfriend. Originally from Atlanta, Georgia, and Ontario, Canada, our families both moved to Belgium in 2007, and we were the new kids at the international school that same year. What started as a middle school crush blossomed into a lifelong connection, surviving long distances as friends for over 10 years, and culminating in an epic reunion in the Big Apple!" />
-
-      </div>
+</div>
 
 
 

@@ -8,6 +8,7 @@ import DropCap from '../../Components/DropCap';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
+import DropCap1 from './DropCap1';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/hotelQtitle.png`;
 
@@ -154,7 +155,7 @@ const HotelQ = () => {
         </p>
       </div>
 
-      <DropCap text="For our anniversary, Tyler and I escaped to the enchanting Hotel Quintessence in Mont Tremblant, Quebec, craving a blend of adventure and relaxation. Nestled beside the sparkling Lake Tremblant and a stone's throw from the vibrant ski village, this luxurious boutique hotel promised a serene getaway in the heart of Quebec's natural beauty." />
+      <DropCap1 text="For our anniversary, Tyler and I escaped to the enchanting Hotel Quintessence in Mont Tremblant, Quebec, craving a blend of adventure and relaxation. Nestled beside the sparkling Lake Tremblant and a stone's throw from the vibrant ski village, this luxurious boutique hotel promised a serene getaway in the heart of Quebec's natural beauty." />
       <div
 style = {{
   margin : '20px'

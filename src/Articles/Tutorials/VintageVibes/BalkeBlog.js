@@ -9,6 +9,7 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import DropCap from '../../../Components/DropCap';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
+import DropCap1 from '../../Travel/DropCap1';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeTitle.png`;
 const Balke2 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeDouble.png`;
@@ -130,7 +131,7 @@ const BalkeBlog = () => {
         All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 
-      <DropCap text="Welcome back to another Time Travel Tutorials, where we admire and recreate beauty icons from the past. Today, let's delve into the 1960s through the portrait of model Ina Balke by the renowned photographer Ted Russell. For those of you who've ever searched on Pinterest for '60s makeup, chances are you've stumbled upon this stunning photograph. This article is your step-by-step guide on how to get the vintage makeup and styling as seen on Ina to try out yourself!" />
+      <DropCap1 text="Welcome back to another Time Travel Tutorials, where we admire and recreate beauty icons from the past. Today, let's delve into the 1960s through the portrait of model Ina Balke by the renowned photographer Ted Russell. For those of you who've ever searched on Pinterest for '60s makeup, chances are you've stumbled upon this stunning photograph. This article is your step-by-step guide on how to get the vintage makeup and styling as seen on Ina to try out yourself!" />
       <div
 style = {{
   margin : '20px'

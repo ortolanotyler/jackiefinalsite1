@@ -9,6 +9,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
+import DropCap1 from '../../Travel/DropCap1';
 
 const Sophia1 = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenTitle.png`;
 const SophiaTwo = `${process.env.PUBLIC_URL}/Images/SophiaDoubl.jpeg`;
@@ -133,7 +134,7 @@ const SophiaLorenPost = () => {
         All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 
-      <DropCap text="Welcome back to my favorite series, Time Travel Tutorials, where we delve into the glamorous world of beauty icons from the past. Today's spotlight is on the mesmerizing Italian beauty, Sophia Loren. Born on September 20th, 1934, in Rome, Italy, Sophia Loren is a megastar in both Hollywood and Italian cinema. Her career, spanning over six decades, is a testament to her immense talent, charisma, and iconic makeup style, which continues to inspire admiration (and imitation) today." />
+      <DropCap1 text="Welcome back to my favorite series, Time Travel Tutorials, where we delve into the glamorous world of beauty icons from the past. Today's spotlight is on the mesmerizing Italian beauty, Sophia Loren. Born on September 20th, 1934, in Rome, Italy, Sophia Loren is a megastar in both Hollywood and Italian cinema. Her career, spanning over six decades, is a testament to her immense talent, charisma, and iconic makeup style, which continues to inspire admiration (and imitation) today." />
       <div
 style = {{
   margin : '20px'

@@ -9,6 +9,7 @@ import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
+import DropCap1 from './DropCap1';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/westgatetitle.png`;
 
@@ -47,7 +48,7 @@ const WestGateHotelBlog = () => {
 
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '30px',
+        fontSize: '28px',
         fontWeight: 'normal',
         fontFamily: 'Arapey, serif',
         color: '#333',
@@ -55,7 +56,7 @@ const WestGateHotelBlog = () => {
     };
 
     const paragraphStyle = {
-        fontSize: '22px',
+        fontSize: '20px',
         fontFamily: 'GFS Didot, serif',
         margin: '1rem 1.5rem',
         marginTop: '1rem',
@@ -151,7 +152,7 @@ const WestGateHotelBlog = () => {
             <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
               All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
-            <DropCap text="Hello, lovely viewers! Today, I’m excited to share my enchanting experience at the Westgate Hotel in San Diego, where Tyler and I indulged in the luxuriously themed Westgate's Whistledown Tea and Package. This Bridgerton-inspired getaway was filled with regal elegance, featuring Chandon champagne, delightful macarons, and an atmosphere so richly detailed, it felt as if we had stepped straight into the series itself." />
+            <DropCap1 text="Hello, lovely viewers! Today, I’m excited to share my enchanting experience at the Westgate Hotel in San Diego, where Tyler and I indulged in the luxuriously themed Westgate's Whistledown Tea and Package. This Bridgerton-inspired getaway was filled with regal elegance, featuring Chandon champagne, delightful macarons, and an atmosphere so richly detailed, it felt as if we had stepped straight into the series itself." />
             <div
 style = {{
   margin : '20px'

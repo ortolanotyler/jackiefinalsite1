@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import styles from './ArticlesGrid.module.css';
+import { Grid, Box, Typography } from '@mui/material';
 
 // Importing images
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ2/1.jpg`;
@@ -15,15 +16,67 @@ const LifestyleGrid = () => {
     { id: 4, title: 'Beyond The Surface : Self-Acceptance', img: image4, link: '/diaryfillers' },
   ];
 
+  const viewTravelRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (viewTravelRef.current) {
+        const rect = viewTravelRef.current.getBoundingClientRect();
+        if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+          viewTravelRef.current.classList.add(styles.jiggle);
+        } else {
+          viewTravelRef.current.classList.remove(styles.jiggle);
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className={styles.gridContainer}>
-      {items.map(item => (
-        <a key={item.id} href={item.link} className={styles.gridItem}>
-          <img src={item.img} alt={item.title} className={styles.image} />
-          <p className={styles.title}>{item.title}</p>
-        </a>
-      ))}
-    </div>
+    <>
+      <div className={styles.gridContainer}>
+        {items.map(item => (
+          <div key={item.id} className={styles.gridItem}>
+            <a href={item.link}>
+              <img src={item.img} alt={item.title} className={styles.image} />
+              <div className={styles.overlay}>
+                <span className={styles.readButton}>Read</span>
+              </div>
+            </a>
+            <p className={styles.title}>{item.title}</p>
+          </div>
+        ))}
+      </div>
+
+      <Grid item xs={12} sx={{ display: 'flex', justifyContent: { xs: 'center', md: 'flex-end' }, mt: 2 }}>
+        <Box sx={{ textAlign: { xs: 'center', md: 'right' }, mr: 5, mb: 2 }}>
+          <a
+            href="/travel"
+            className={styles.viewAllLink}
+            ref={viewTravelRef}
+          >
+            <Typography
+              variant="body1"
+              sx={{
+                fontSize: '1.25rem',
+                fontFamily: 'GFS Didot, serif',
+                color: 'black',
+              }}
+            >
+              VIEW ALL TRAVEL
+            </Typography>
+            <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>
+              &rarr;
+            </Box>
+          </a>
+        </Box>
+      </Grid>
+    </>
   );
 };
 

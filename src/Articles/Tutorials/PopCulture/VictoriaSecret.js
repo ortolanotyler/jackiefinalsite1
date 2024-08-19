@@ -9,6 +9,7 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
+import DropCap1 from '../../Travel/DropCap1';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSTitle.png`;
 const Victoria2 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VictoriaDouble.png`;
@@ -112,8 +113,8 @@ const VictoriaSecret = () => {
 </Helmet>
 
 
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-        <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
+        <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
           BEAUTY // POP CULTURE
         </a>
       </div>
@@ -131,7 +132,7 @@ const VictoriaSecret = () => {
         </p>
       </div>
 
-      <DropCap text="Welcome Back, Beauties! I don’t know about you, but I could definitely use a pick-me-up in the middle of winter. My go-to remedy is a mini shopping spree paired with a fabulous beauty routine! Let’s reminisce about the Victoria’s Secret Fashion Show of 2013, particularly the breathtaking Snow Angel segment. Remember the dazzling white lingerie, extravagant diamond necklaces, voluminous textured hair, and the understated yet glamorous makeup? Absolutely iconic. It was also Taylor Swift’s first Victoria’s Secret performance, looking as much of a supermodel as the angels on the winter wonderland-themed runway." />
+      <DropCap1 text="Welcome Back, Beauties! I don’t know about you, but I could definitely use a pick-me-up in the middle of winter. My go-to remedy is a mini shopping spree paired with a fabulous beauty routine! Let’s reminisce about the Victoria’s Secret Fashion Show of 2013, particularly the breathtaking Snow Angel segment. Remember the dazzling white lingerie, extravagant diamond necklaces, voluminous textured hair, and the understated yet glamorous makeup? Absolutely iconic. It was also Taylor Swift’s first Victoria’s Secret performance, looking as much of a supermodel as the angels on the winter wonderland-themed runway." />
       <div
 style = {{
   margin : '20px'

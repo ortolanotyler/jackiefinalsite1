@@ -9,6 +9,7 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
+import DropCap1 from '../../Travel/DropCap1';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaTitle.png`;
@@ -133,7 +134,7 @@ const LanaBlog = () => {
         </p>
       </div>
 
-      <DropCap text="Welcome back, Beauties! If your Twitter feed is anything like mine, it's filled with photos from Lana Del Rey's new SKIMS campaign for Valentine's Day, plus memes of little girls praying to a photo of Lana above their bed, worshipping their coquette queen. You've got to love the internet! Seriously though, as a fan of Lana Del Rey's entire discography and aesthetic, I was inspired to recreate the campaign pictures and provide a breakdown of an updated Lana Del Rey makeup look." />
+      <DropCap1 text="Welcome back, Beauties! If your Twitter feed is anything like mine, it's filled with photos from Lana Del Rey's new SKIMS campaign for Valentine's Day, plus memes of little girls praying to a photo of Lana above their bed, worshipping their coquette queen. You've got to love the internet! Seriously though, as a fan of Lana Del Rey's entire discography and aesthetic, I was inspired to recreate the campaign pictures and provide a breakdown of an updated Lana Del Rey makeup look." />
       <div
 style = {{
   margin : '20px'

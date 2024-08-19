@@ -9,6 +9,7 @@ import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
+import DropCap1 from '../../Travel/DropCap1';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonDouble.png`;
@@ -140,7 +141,7 @@ const Yardley65 = () => {
         </p>
       </div>
 
-      <DropCap text="Welcome back to the blog, fellow vintage beauty enthusiasts! We have another Time Travel Tutorials today, and we are covering the iconic Jean Shrimpton - dubbed “The Shrimp” & face of the 1960s. Jean Shrimpton, an English model and actress, was not just a prominent figure in the fashion world but also a symbol of the Swinging Sixties. Known for her striking beauty, long legs, and big eyes, Shrimpton graced the covers of leading fashion magazines, becoming one of the world's first supermodels." />
+      <DropCap1 text="Welcome back to the blog, fellow vintage beauty enthusiasts! We have another Time Travel Tutorials today, and we are covering the iconic Jean Shrimpton - dubbed “The Shrimp” & face of the 1960s. Jean Shrimpton, an English model and actress, was not just a prominent figure in the fashion world but also a symbol of the Swinging Sixties. Known for her striking beauty, long legs, and big eyes, Shrimpton graced the covers of leading fashion magazines, becoming one of the world's first supermodels." />
       <div
 style = {{
   margin : '20px'

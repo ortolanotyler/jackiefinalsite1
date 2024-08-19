@@ -154,7 +154,7 @@ const Disney2Post = () => {
       </Helmet>
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
-        <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1em', color: 'black', textDecoration: 'none' }}>
+        <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
           TRAVEL // ITINERARIES
         </a>
       </div>
@@ -172,7 +172,7 @@ const Disney2Post = () => {
       </p>
 
       <p style={paragraphStyle}>
-        <span style={{ color: '#745B4F', float: 'left', fontSize: '5rem', lineHeight: '0.9', marginRight: '0.05em', marginTop: '0.01em' }}>W</span>
+        <span style={{ color: '#745B4F', float: 'left', fontSize: '5rem', lineHeight: '0.9', marginRight: '0.5rem', marginTop: '0.01em' }}>W</span>
         elcome to part two of my experience at Walt Disney World in 2023! Over in part one, I reviewed Walt Disney's Beach Club Resort but now let’s talk Epcot, Magic Kingdom and Animal Kingdom! My best friend Lauren and I had such an enchanting experience together, and I hope this travel diary of two 20-somethings can help you plan your Disney trip. I don’t have tips about traveling with children, so consider this our adult 3-day guide to Walt Disney World!
       </p>
 

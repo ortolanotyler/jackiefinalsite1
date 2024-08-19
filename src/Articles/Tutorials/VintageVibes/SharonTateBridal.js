@@ -9,6 +9,7 @@ import DropCap from '../../../Components/DropCap';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
+import DropCap1 from '../../Travel/DropCap1';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SharonBridalTitle.png`;
 const Sharon2 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SharonBridalDouble.png`;
@@ -130,7 +131,7 @@ const SharonTatePost = () => {
         All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 
-      <DropCap text="Welcome back to Time Travel Tutorials - the series where we embrace the vintage vibes from the beauties of the past. In this edition, we're shining the spotlight on the stunning Sharon Tate. Renowned as an American actress and model, Tate left a lasting impression with her role in 'Valley of the Dolls' (1967). Hailed as Hollywood's most promising starlet of her time, Sharon's distinctive makeup, hair, and fashion sense continue to captivate and inspire women to this day." />
+      <DropCap1 text="Welcome back to Time Travel Tutorials - the series where we embrace the vintage vibes from the beauties of the past. In this edition, we're shining the spotlight on the stunning Sharon Tate. Renowned as an American actress and model, Tate left a lasting impression with her role in 'Valley of the Dolls' (1967). Hailed as Hollywood's most promising starlet of her time, Sharon's distinctive makeup, hair, and fashion sense continue to captivate and inspire women to this day." />
       <div
 style = {{
   margin : '20px'

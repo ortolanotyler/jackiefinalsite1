@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Grid, Box, Typography } from '@mui/material';
 import styles from './ArticlesGrid.module.css';
 
@@ -16,28 +16,49 @@ const ImageGrid = () => {
     { id: 3, title: "Grace Kelly's Old Hollywood Glam", img: image3, link: '/gracekelly' },
   ];
 
+  const viewAllRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (viewAllRef.current) {
+        const rect = viewAllRef.current.getBoundingClientRect();
+        if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+          viewAllRef.current.classList.add(styles.jiggle);
+        } else {
+          viewAllRef.current.classList.remove(styles.jiggle);
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <div className={styles.gridContainer}>
         {items.map(item => (
-          <a key={item.id} href={`https://jackiewyers.beauty${item.link}`} className={styles.gridItem}>
-            <img src={item.img} alt={item.title} className={styles.image} />
+          <div key={item.id} className={styles.gridItem}>
+            <a href={item.link}>
+              <img src={item.img} alt={item.title} className={styles.image} />
+              <div className={styles.overlay}>
+                <span className={styles.readButton}>Read</span>
+              </div>
+            </a>
             <p className={styles.title}>{item.title}</p>
-          </a>
+          </div>
         ))}
       </div>
 
       <Grid item xs={12} sx={{ display: 'flex', justifyContent: { xs: 'center', md: 'flex-end' }, mt: 2 }}>
-        <Box sx={{ textAlign: { xs: 'center', md: 'right' }, mr: 5, mb : 2 }}>
+        <Box sx={{ textAlign: { xs: 'center', md: 'right' }, mr: 5, mb: 2 }}>
           <a
             href="/tutorials"
-            style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              fontFamily: 'GFS Didot, serif',
-              color: 'black',
-              textDecoration: 'none',
-            }}
+            className={styles.viewAllLink}
+            ref={viewAllRef}
           >
             <Typography
               variant="body1"

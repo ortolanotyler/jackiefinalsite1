@@ -12,6 +12,7 @@ import { Helmet } from 'react-helmet';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import BookNowButton from '../../Components/BookNowButton';
 import SubscribeVlog from '../../Components/SubscribeVlog';
+import DropCap1 from './DropCap1';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ2/HotelQTitle2.png`;
@@ -193,7 +194,7 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', marg
 style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '2rem' }}
 > 
 
-<BridalDropCap text="Welcome to another travel post! As a lover of Canadian adventures, I was thrilled when Tyler and I had the opportunity to revisit the enchanting Mont Tremblant, Quebec, for a summer stay at the luxurious Hotel Quintessence. After our winter trip there skiing, experiencing this beautiful location in the warmer months was a delightful contrast. Join me as I share our unforgettable summer getaway and all that Hotel Quintessence has to offer." />
+<DropCap1 text="Welcome to another travel post! As a lover of Canadian adventures, I was thrilled when Tyler and I had the opportunity to revisit the enchanting Mont Tremblant, Quebec, for a summer stay at the luxurious Hotel Quintessence. After our winter trip there skiing, experiencing this beautiful location in the warmer months was a delightful contrast. Join me as I share our unforgettable summer getaway and all that Hotel Quintessence has to offer." />
 </div>
 
 

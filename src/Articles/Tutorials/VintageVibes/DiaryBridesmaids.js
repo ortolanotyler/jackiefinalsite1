@@ -7,6 +7,7 @@ import TextReveal from '../../../Components/TextReveal';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
+import DropCap1 from '../../Travel/DropCap1';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/BridesmaidsTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/1.jpg`;
@@ -141,7 +142,7 @@ const DiaryBridesmaids = () => {
         </p>
       </div>
 
-      <DropCap text="Welcome back to All Things Bridal! If you are new to my channel, here’s a bit of backstory about my upcoming wedding ceremony in July. My husband Tyler and I have been legally married for two years which is why I call his my husband and not fiancé, but we held off on having a wedding ceremony to save up for a celebration in Sorrento, Italy. We're also planning a trip afterward to Belgium, where we met in middle school many years ago. Excited is an understatement! " />
+      <DropCap1 text="Welcome back to All Things Bridal! If you are new to my channel, here’s a bit of backstory about my upcoming wedding ceremony in July. My husband Tyler and I have been legally married for two years which is why I call his my husband and not fiancé, but we held off on having a wedding ceremony to save up for a celebration in Sorrento, Italy. We're also planning a trip afterward to Belgium, where we met in middle school many years ago. Excited is an understatement! " />
       <div
 style = {{
   margin : '20px'

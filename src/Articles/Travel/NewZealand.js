@@ -10,6 +10,7 @@ import SubscribeVlog from '../../Components/SubscribeVlog';
 import AdSenseAd from '../../Advertising/Ads';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import { initGA, logPageView } from '../../analytics';
+import DropCap1 from './DropCap1';
 
 
 const images = [
@@ -194,8 +195,8 @@ const NewZealand = () => {
 </Helmet>
 
 
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-                <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
+                <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // ITINERARIES
                 </a>
             </div>
@@ -207,7 +208,7 @@ const NewZealand = () => {
             <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
                 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
-            <DropCap text="Welcome to an epic travel vlog of my experience, flying from Toronto all the way to Auckland, New Zealand for a magical week halfway around the
+            <DropCap1 text="Welcome to an epic travel vlog of my experience, flying from Toronto all the way to Auckland, New Zealand for a magical week halfway around the
 world! I stayed at a whimsical hotel called Fable Auckland on Queen Street, and I have a full review of my experience at the link below. But first, let’s talk about everything I did in the unforgettable week." />
 
 

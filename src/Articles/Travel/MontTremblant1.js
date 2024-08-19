@@ -8,6 +8,7 @@ import DropCap from '../../Components/DropCap';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
+import DropCap1 from './DropCap1';
 
 
 
@@ -148,7 +149,7 @@ const MontTremblantBlog = () => {
                 </p>
             </div>
 
-            <DropCap text="Welcome to another travel post! I adore traveling in Canada, and for Tyler and my anniversary trip, we visited the enchanting ski village of Mont Tremblant, Quebec. For this post, let’s talk about the best experiences and food during our romantic getaway in the mountains." />
+            <DropCap1 text="Welcome to another travel post! I adore traveling in Canada, and for Tyler and my anniversary trip, we visited the enchanting ski village of Mont Tremblant, Quebec. For this post, let’s talk about the best experiences and food during our romantic getaway in the mountains." />
 
             <h2 style={headingStyle}>⛰ First: A Detour in Toronto</h2>
             <p style={paragraphStyle}>

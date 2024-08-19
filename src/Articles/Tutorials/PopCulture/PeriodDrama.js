@@ -7,6 +7,7 @@ import TextReveal from '../../../Components/TextReveal';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from'react-helmet';
+import DropCap1 from '../../Travel/DropCap1';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/periodtitle.png`;
@@ -142,7 +143,7 @@ const PeriodDrama = () => {
 
    
 
-      <DropCap text="There's something magical about period dramas—they transport us to different times and places, allowing us to experience the elegance and charm of bygone eras. I love seeing how these shows and filmsinterpret no-makeup makeup and historical hairstyles, often with a modern twist for real-life inspiration. If you enjoyed my previous article on no- makeup makeup spring inspiration, you're going to love this deep dive into period drama styles." />
+      <DropCap1 text="There's something magical about period dramas—they transport us to different times and places, allowing us to experience the elegance and charm of bygone eras. I love seeing how these shows and filmsinterpret no-makeup makeup and historical hairstyles, often with a modern twist for real-life inspiration. If you enjoyed my previous article on no- makeup makeup spring inspiration, you're going to love this deep dive into period drama styles." />
       <div
 style = {{
   margin : '20px'

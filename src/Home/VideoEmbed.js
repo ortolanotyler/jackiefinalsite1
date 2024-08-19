@@ -13,6 +13,8 @@ const VideoEmbed = () => {
 
   const iframeRef = useRef(null);
   const [iframeLoaded, setIframeLoaded] = useState(false);
+  const viewAllRef = useRef(null);
+  const [isJiggling, setIsJiggling] = useState(false);
 
   useEffect(() => {
     const iframe = iframeRef.current;
@@ -46,6 +48,46 @@ const VideoEmbed = () => {
     };
   }, [iframeLoaded]);
 
+  useEffect(() => {
+    const keyframes = `
+      @keyframes jiggle {
+        0% { transform: rotate(0deg); }
+        25% { transform: rotate(-3deg); }
+        50% { transform: rotate(3deg); }
+        75% { transform: rotate(-3deg); }
+        100% { transform: rotate(0deg); }
+      }
+    `;
+    const styleSheet = document.createElement("style");
+    styleSheet.type = "text/css";
+    styleSheet.innerText = keyframes;
+    document.head.appendChild(styleSheet);
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setIsJiggling(true);
+          setTimeout(() => {
+            setIsJiggling(false);
+          }, 4000); // Stop jiggling after 4 seconds
+        }
+      },
+      {
+        threshold: 0.1, // Adjust the threshold as needed
+      }
+    );
+
+    if (viewAllRef.current) {
+      observer.observe(viewAllRef.current);
+    }
+
+    return () => {
+      if (observer) {
+        observer.disconnect();
+      }
+    };
+  }, []);
+
   return (
     <Grid item xs={12} display="flex" justifyContent="center" sx={{ mt: 1.5, ...(isSmallScreen && { p: 2.5 }) }}>
       <Box
@@ -71,12 +113,14 @@ const VideoEmbed = () => {
         <Box sx={{ textAlign: 'center', mt: 1 }}>
           <a
             href="/videos"
+            ref={viewAllRef}
             style={{
               display: 'inline-flex',
               alignItems: 'center',
               fontFamily: 'GFS Didot, serif',
               color: 'black',
               textDecoration: 'none',
+              animation: isJiggling ? 'jiggle 0.5s ease-in-out' : 'none',
             }}
           >
             <Typography
@@ -84,13 +128,14 @@ const VideoEmbed = () => {
               sx={{
                 marginTop: '10px',
                 fontSize: '1rem',
+                margin: '1rem',
                 fontFamily: 'GFS Didot, serif',
                 color: 'black',
               }}
             >
               VIEW ALL VIDEOS
             </Typography>
-            <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
+            <Box component="span" sx={{  ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
           </a>
         </Box>
       </Box>
@@ -99,3 +144,4 @@ const VideoEmbed = () => {
 };
 
 export default VideoEmbed;
+
