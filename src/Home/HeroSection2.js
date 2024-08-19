@@ -25,7 +25,7 @@ const HeroSection2 = () => {
     alignItems: 'center',
     padding: '30px 30px',
     minHeight: '80vh',
-    flexDirection: isSmallScreen ? 'column' : 'row', // Column for mobile, row for larger screens
+    flexDirection: isSmallScreen ? 'column-reverse' : 'row', // Change to column-reverse for small screens
     flexWrap: 'wrap',
   };
 
@@ -106,5 +106,3 @@ const HeroSection2 = () => {
 };
 
 export default HeroSection2;
-
-
