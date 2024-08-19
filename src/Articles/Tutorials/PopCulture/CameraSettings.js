@@ -63,14 +63,7 @@ const CameraSettings = () => {
     };
 
 
-  const headingStyle = {
-    textAlign: 'center',
-    fontSize: '30px',
-    fontWeight: 'bold',
-    fontFamily: 'Arapey, serif',
-    color: '#333',
-    margin: '1.5rem'
-  };
+  
 
   const gridContainerStyle = {
     display: 'grid',
@@ -81,18 +74,27 @@ const CameraSettings = () => {
     textAlign: 'center', // Center content inside the grid cells
   };
 
-  const paragraphStyle = {
-    fontSize: '22px',
+ 
+  const headingStyle = {
+    textAlign: 'center',
+    fontSize: '1.5rem',
+    fontWeight: 'normal',
+    fontFamily: 'Arapey, serif',
+    color: '#333',
+    margin: '1.5rem'
+};
+
+const paragraphStyle = {
+    fontSize: '20px',
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
     marginTop: '1rem',
     marginBottom: '1rem',
-    maxWidth: '500px',
-    lineHeight: '1.75',
+    maxWidth: '700px',
+    lineHeight: '1.25',
     marginLeft: 'auto',
     marginRight: 'auto',
-  };
-
+};
   const blogContent = (
     <div className="container">
   <Helmet>

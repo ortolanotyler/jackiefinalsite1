@@ -9,6 +9,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
+import DropCap1 from '../../Travel/DropCap1';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/AnimalPrettyTitle.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
@@ -35,27 +36,28 @@ const AnimalPretty = () => {
     logPageView('/animalpretty');
 }, []);
 
-  const headingStyle = {
-    textAlign: 'center',
-    fontSize: '30px',
-    fontWeight: 'normal',
-    fontFamily: 'Arapey, serif',
-    color: '#333',
-    margin: '1.5rem'
-  };
 
-  const paragraphStyle = {
-    fontSize: '22px',
-    fontFamily: 'GFS Didot, serif',
-    margin: '1rem 1.5rem',
-    marginTop: '1rem',
-    marginBottom: '1rem',
-    maxWidth: '500px',
-    lineHeight: '1.75',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-  };
 
+const headingStyle = {
+  textAlign: 'center',
+  fontSize: '1.5rem',
+  fontWeight: 'normal',
+  fontFamily: 'Arapey, serif',
+  color: '#333',
+  margin: '1.5rem'
+};
+
+const paragraphStyle = {
+  fontSize: '20px',
+  fontFamily: 'GFS Didot, serif',
+  margin: '1rem 1.5rem',
+  marginTop: '1rem',
+  marginBottom: '1rem',
+  maxWidth: '700px',
+  lineHeight: '1.25',
+  marginLeft: 'auto',
+  marginRight: 'auto',
+};
   const blogContent = (
     <div className="container">
     <Helmet>
@@ -126,7 +128,7 @@ const AnimalPretty = () => {
           All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
         </p>
       </div>
-      <DropCap text="Hey beauties, it’s Jackie! Today, we're diving into a fun and fresh way to explore beauty styles with my 'Types of Pretty' makeup series inspired by adorable animals like deer, cats, foxes, and bunnies. Whether you saw this trend on TikTok or my latest YouTube tutorial, I’m thrilled to bring this unique concept to the blog where we break down each style with detailed makeup guides." />
+      <DropCap1 text="Hey beauties, it’s Jackie! Today, we're diving into a fun and fresh way to explore beauty styles with my 'Types of Pretty' makeup series inspired by adorable animals like deer, cats, foxes, and bunnies. Whether you saw this trend on TikTok or my latest YouTube tutorial, I’m thrilled to bring this unique concept to the blog where we break down each style with detailed makeup guides." />
       
       <div
 style = {{

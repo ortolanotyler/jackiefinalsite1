@@ -8,6 +8,7 @@ import TextReveal from '../../../Components/TextReveal';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
+import DropCap1 from '../../Travel/DropCap1';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/NoMakeUpTitl.jpeg`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersElizabethBennetInspiredMakeup.JPG`;
@@ -38,26 +39,27 @@ const NoMakeUpSpring = () => {
     logPageView('/nomakeupspring');
 }, []);
 
-  const headingStyle = {
-    textAlign: 'center',
-    fontSize: '30px',
-    fontWeight: 'normal',
-    fontFamily: 'Arapey, serif',
-    color: '#333',
-    margin: '1.5rem'
-  };
 
-  const paragraphStyle = {
-    fontSize: '22px',
-    fontFamily: 'GFS Didot, serif',
-    margin: '1rem 1.5rem',
-    marginTop: '1rem',
-    marginBottom: '1rem',
-    maxWidth: '500px',
-    lineHeight: '1.75',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-  };
+const headingStyle = {
+  textAlign: 'center',
+  fontSize: '1.5rem',
+  fontWeight: 'normal',
+  fontFamily: 'Arapey, serif',
+  color: '#333',
+  margin: '1.5rem'
+};
+
+const paragraphStyle = {
+  fontSize: '20px',
+  fontFamily: 'GFS Didot, serif',
+  margin: '1rem 1.5rem',
+  marginTop: '1rem',
+  marginBottom: '1rem',
+  maxWidth: '700px',
+  lineHeight: '1.25',
+  marginLeft: 'auto',
+  marginRight: 'auto',
+};
 
   const blogContent = (
     <div className="container">
@@ -130,7 +132,7 @@ const NoMakeUpSpring = () => {
         </p>
       </div>
 
-      <DropCap text="Welcome back for some quick no-makeup makeup inspiration for spring, inspired by timeless beauty icons from beloved tv & film. Now that it's spring, I find myself drawn to the artful simplicity of the no-makeup makeup look, inspired by some of pop culture's most enduring female characters. Their spirit, captured in timeless stories, now breathes life into my spring beauty routine." />
+      <DropCap1 text="Welcome back for some quick no-makeup makeup inspiration for spring, inspired by timeless beauty icons from beloved tv & film. Now that it's spring, I find myself drawn to the artful simplicity of the no-makeup makeup look, inspired by some of pop culture's most enduring female characters. Their spirit, captured in timeless stories, now breathes life into my spring beauty routine." />
       <div
 style = {{
   margin : '20px'

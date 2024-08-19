@@ -9,6 +9,7 @@ import TextReveal from '../../../Components/TextReveal';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import Helmet from'react-helmet';
+import DropCap1 from '../../Travel/DropCap1';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteTitle.png`;
 const Latte2 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteDouble.png`;
@@ -34,26 +35,27 @@ const LatteMakeupBlogPost = () => {
     logPageView('/lattemakeup');
 }, []);
 
-  const headingStyle = {
-    textAlign: 'center',
-    fontSize: '30px',
-    fontWeight: 'normal',
-    fontFamily: 'Arapey, serif',
-    color: '#333',
-    margin: '1.5rem'
-  };
+ 
+const headingStyle = {
+  textAlign: 'center',
+  fontSize: '1.5rem',
+  fontWeight: 'normal',
+  fontFamily: 'Arapey, serif',
+  color: '#333',
+  margin: '1.5rem'
+};
 
-  const paragraphStyle = {
-    fontSize: '22px',
-    fontFamily: 'GFS Didot, serif',
-    margin: '1rem 1.5rem',
-    marginTop: '1rem',
-    marginBottom: '1rem',
-    maxWidth: '500px',
-    lineHeight: '1.75',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-  };
+const paragraphStyle = {
+  fontSize: '20px',
+  fontFamily: 'GFS Didot, serif',
+  margin: '1rem 1.5rem',
+  marginTop: '1rem',
+  marginBottom: '1rem',
+  maxWidth: '700px',
+  lineHeight: '1.25',
+  marginLeft: 'auto',
+  marginRight: 'auto',
+};
   
   const blogContent = (
     <div className="container">
@@ -129,7 +131,7 @@ const LatteMakeupBlogPost = () => {
         All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 
-      <DropCap text="Hello, beauties! It's Jackie here with another trend report driven by the TikTok algorithm. The latte makeup look is all about embracing warm, tawny tones to create a '90s-inspired glam with a cozy vibe. Imagine a caramel-toned smokey eye, no foundation, faux freckles, and a milky lip. An artist whose work has been continuously referenced when creating this style of makeup is none other than Australia-based makeup artist Tanielle Jai. If you've ever shopped on Princess Polly and admired the campaign images with sultry, smokey makeup—that's all the makeup artisty of Tanielle Jai!" />
+      <DropCap1 text="Hello, beauties! It's Jackie here with another trend report driven by the TikTok algorithm. The latte makeup look is all about embracing warm, tawny tones to create a '90s-inspired glam with a cozy vibe. Imagine a caramel-toned smokey eye, no foundation, faux freckles, and a milky lip. An artist whose work has been continuously referenced when creating this style of makeup is none other than Australia-based makeup artist Tanielle Jai. If you've ever shopped on Princess Polly and admired the campaign images with sultry, smokey makeup—that's all the makeup artisty of Tanielle Jai!" />
       <div
 style = {{
   margin : '20px'

@@ -9,6 +9,7 @@ import DropCap from '../../../Components/DropCap';
 
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
+import DropCap1 from '../../Travel/DropCap1';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathTitle.png`;
 const pat = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
@@ -35,26 +36,27 @@ const PatMcGrathPost = () => {
     logPageView('/patmcgrath');
 }, []);
 
-  const headingStyle = {
-    textAlign: 'center',
-    fontSize: '30px',
-    fontWeight: 'normal',
-    fontFamily: 'Arapey, serif',
-    color: '#333',
-    margin: '1.5rem'
-  };
+ 
+const headingStyle = {
+  textAlign: 'center',
+  fontSize: '1.5rem',
+  fontWeight: 'normal',
+  fontFamily: 'Arapey, serif',
+  color: '#333',
+  margin: '1.5rem'
+};
 
-  const paragraphStyle = {
-    fontSize: '22px',
-    fontFamily: 'GFS Didot, serif',
-    margin: '1rem 1.5rem',
-    marginTop: '1rem',
-    marginBottom: '1rem',
-    maxWidth: '500px',
-    lineHeight: '1.75',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-  };
+const paragraphStyle = {
+  fontSize: '20px',
+  fontFamily: 'GFS Didot, serif',
+  margin: '1rem 1.5rem',
+  marginTop: '1rem',
+  marginBottom: '1rem',
+  maxWidth: '700px',
+  lineHeight: '1.25',
+  marginLeft: 'auto',
+  marginRight: 'auto',
+};
 
   const blogContent = (
     <div className="container">
@@ -131,7 +133,7 @@ const PatMcGrathPost = () => {
         All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 
-      <DropCap text="Welcome back, beauties! Let's break down the incredible (and uber-viral) Porcelain Doll makeup looks by Pat McGrath & team, created for the Maison Margiela Spring/Summer '24 runway extravaganza. In a display of sheer genius, Pat McGrath and her team devised a groundbreaking technique, meticulously layering and airbrushing several peel-off masks over the makeup for a truly haute-couture spectacle, creating live porcelain dolls to grace the runway." />
+      <DropCap1 text="Welcome back, beauties! Let's break down the incredible (and uber-viral) Porcelain Doll makeup looks by Pat McGrath & team, created for the Maison Margiela Spring/Summer '24 runway extravaganza. In a display of sheer genius, Pat McGrath and her team devised a groundbreaking technique, meticulously layering and airbrushing several peel-off masks over the makeup for a truly haute-couture spectacle, creating live porcelain dolls to grace the runway." />
       <div
 style = {{
   margin : '20px'

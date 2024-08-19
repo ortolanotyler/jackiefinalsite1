@@ -46,9 +46,10 @@ const WestGateHotelBlog = () => {
         logPageView('/westgatesandiego');
     }, []);
 
+  
     const headingStyle = {
         textAlign: 'center',
-        fontSize: '28px',
+        fontSize: '1.5rem',
         fontWeight: 'normal',
         fontFamily: 'Arapey, serif',
         color: '#333',
@@ -61,8 +62,8 @@ const WestGateHotelBlog = () => {
         margin: '1rem 1.5rem',
         marginTop: '1rem',
         marginBottom: '1rem',
-        maxWidth: '500px',
-        lineHeight: '1.75',
+        maxWidth: '700px',
+        lineHeight: '1.25',
         marginLeft: 'auto',
         marginRight: 'auto',
     };

@@ -85,26 +85,25 @@ const FairytaleWedding = () => {
   }, []);
 
   const headingStyle = {
-      textAlign: 'center',
-      fontSize: '1.5rem', // Updated to match Fable
-      fontWeight: 'normal',
-      fontFamily: 'Arapey, serif', // Updated to match Fable
-      color: '#333', // Updated to match Fable
-      margin: '1.5rem', // Updated to match Fable
-  };
+    textAlign: 'center',
+    fontSize: '1.5rem',
+    fontWeight: 'normal',
+    fontFamily: 'Arapey, serif',
+    color: '#333',
+    margin: '1.5rem'
+};
 
-  const paragraphStyle = {
-      fontSize: '20px',
-
-      fontFamily: 'GFS Didot, serif',
-      margin: '1rem 1.5rem',
-      marginTop: '1rem',
-      marginBottom: '1rem',
-      maxWidth: '700px', // Updated to match Fable
-      lineHeight: '1.5rem', // Updated to match Fable
-      marginLeft: 'auto',
-      marginRight: 'auto',
-  };
+const paragraphStyle = {
+    fontSize: '20px',
+    fontFamily: 'GFS Didot, serif',
+    margin: '1rem 1.5rem',
+    marginTop: '1rem',
+    marginBottom: '1rem',
+    maxWidth: '700px',
+    lineHeight: '1.25',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+};
 
   const gridContainerStyle = {
       display: 'grid',

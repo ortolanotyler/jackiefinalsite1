@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet';
 import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../../Components/TextReveal';
-import DropCap from '../../Components/DropCap';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeVlog from '../../Components/SubscribeVlog';
@@ -62,26 +61,27 @@ const AndazMauiReview = () => {
     const websiteId = '10910';
     const blogRef = useRef(null);
 
-    const headingStyle = {
-        textAlign: 'center',
-        fontSize: '30px',
-        fontWeight: 'normal',
-        fontFamily: 'Arapey, serif',
-        color: '#333',
-        margin: '1.5rem'
-    };
 
-    const paragraphStyle = {
-        fontSize: '22px',
-        fontFamily: 'GFS Didot, serif',
-        margin: '1rem 1.5rem',
-        marginTop: '1rem',
-        marginBottom: '1rem',
-        maxWidth: '500px',
-        lineHeight: '1.75',
-        marginLeft: 'auto',
-        marginRight: 'auto',
-    };
+    const headingStyle = {
+      textAlign: 'center',
+      fontSize: '1.5rem',
+      fontWeight: 'normal',
+      fontFamily: 'Arapey, serif',
+      color: '#333',
+      margin: '1.5rem'
+  };
+
+  const paragraphStyle = {
+      fontSize: '20px',
+      fontFamily: 'GFS Didot, serif',
+      margin: '1rem 1.5rem',
+      marginTop: '1rem',
+      marginBottom: '1rem',
+      maxWidth: '700px',
+      lineHeight: '1.25',
+      marginLeft: 'auto',
+      marginRight: 'auto',
+  };
 
     const imageStyle = {
         display: 'block',
@@ -174,8 +174,8 @@ const AndazMauiReview = () => {
 </Helmet>
 
 
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-                <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
+                <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
                     TRAVEL // HOTEL REVIEWS
                 </a>
             </div>

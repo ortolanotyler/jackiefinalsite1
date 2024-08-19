@@ -6,13 +6,15 @@ const DropCap1 = ({ text, style }) => {
       <span style={{ 
         fontSize: '4em', 
         float: 'left', 
-        margin: '1rem',  // Set margin to 1rem for all sides
-        lineHeight: '1.5rem', // Match lineHeight with paragraphStyle
-        color: '#745B4F' // Explicitly set the color to #745B4F
+        margin: '1rem',  
+        lineHeight: '1.5rem', 
+        color: '#745B4F'
       }}>
         {text.charAt(0)}
       </span>
-      {text.slice(1)}
+      <span style={{ lineHeight: '1.5' }}>
+        {text.slice(1)}
+      </span>
     </p>
   );
 };

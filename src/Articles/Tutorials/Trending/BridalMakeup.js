@@ -9,6 +9,7 @@ import AdSenseAd from '../../../Advertising/Ads';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from'react-helmet';
+import DropCap1 from '../../Travel/DropCap1';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/BridalMakeup/BridalTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/BridalMakeup/Bridal1.png`;
@@ -37,25 +38,28 @@ const BridalMakeup = () => {
     logPageView('/bridalmakeup');
 }, []);
 
-  const headingStyle = {
-    textAlign: 'center',
-    fontSize: '30px',
-    fontWeight: 'normal',
-    fontFamily: 'Arapey, serif',
-    color: '#333',
-    margin: '2.5rem 0'
-  };
 
-  const paragraphStyle = {
-    fontSize: '22px',
-    fontFamily: 'GFS Didot, serif',
-    margin: '1rem 1.5rem',
-    maxWidth: '700px',
-    lineHeight: '1.75',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-  };
 
+const headingStyle = {
+  textAlign: 'center',
+  fontSize: '1.5rem',
+  fontWeight: 'normal',
+  fontFamily: 'Arapey, serif',
+  color: '#333',
+  margin: '1.5rem'
+};
+
+const paragraphStyle = {
+  fontSize: '20px',
+  fontFamily: 'GFS Didot, serif',
+  margin: '1rem 1.5rem',
+  marginTop: '1rem',
+  marginBottom: '1rem',
+  maxWidth: '700px',
+  lineHeight: '1.25',
+  marginLeft: 'auto',
+  marginRight: 'auto',
+};
   const blogContent = (
     <div className="container" style={{ maxWidth: '800px', margin: '0 auto', padding: '1rem' }}>
      <Helmet>
@@ -125,7 +129,7 @@ const BridalMakeup = () => {
           All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
         </p>
       </div>
-      <DropCap text="I recently had a fabulous time trying on wedding dresses at Natalie Rose Bridal, and I took the opportunity to attempt a makeup trial to see how everything would look and feel in videos and photos. In this post, I’ll break down the products used and share my thoughts on what worked and what I might tweak for the big day." />
+      <DropCap1 text="I recently had a fabulous time trying on wedding dresses at Natalie Rose Bridal, and I took the opportunity to attempt a makeup trial to see how everything would look and feel in videos and photos. In this post, I’ll break down the products used and share my thoughts on what worked and what I might tweak for the big day." />
       <div style={{ margin: '20px' }}>
         <AdSenseAd />
       </div>

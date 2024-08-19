@@ -47,24 +47,27 @@ const Disney2Post = () => {
     logPageView('/epcot');
   }, []);
 
+
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '32px',
+    fontSize: '1.5rem',
     fontWeight: 'normal',
-    fontFamily: 'GFS Didot, serif',
-    color: 'black',
-    margin: '1rem',
-    lineHeight: '1.25',
-  };
+    fontFamily: 'Arapey, serif',
+    color: '#333',
+    margin: '1.5rem'
+};
 
-  const paragraphStyle = {
+const paragraphStyle = {
     fontSize: '20px',
     fontFamily: 'GFS Didot, serif',
-    margin: '1rem auto',
-    maxWidth: '650px',
-    lineHeight: '1.5',
-    textAlign: 'left',
-  };
+    margin: '1rem 1.5rem',
+    marginTop: '1rem',
+    marginBottom: '1rem',
+    maxWidth: '700px',
+    lineHeight: '1.25',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+};
 
   const gridContainerStyle = {
     display: 'grid',
