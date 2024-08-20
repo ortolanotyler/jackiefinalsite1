@@ -136,7 +136,7 @@ function HomePage() {
               sx={{
                 backgroundColor: 'white',
                 fontFamily: 'GFS Didot, serif',
-                borderRadius: '5px',
+                borderRadius: '20px',
                 color: '#745B4F',
                 textAlign: 'center',
               }}
