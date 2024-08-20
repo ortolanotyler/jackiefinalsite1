@@ -6,7 +6,7 @@
   gap: 0.25rem;
   width: 100%;
   max-width: 400px;  
-  margin: 1 auto; /* Center horizontally */
+  margin: 0 auto; /* Center horizontally */
 }
 
 .input {
@@ -17,7 +17,6 @@
 }
 
 .button {
-  padding: 0.2rem;
   background-color: #007bff;
   color: white;
   border: none;

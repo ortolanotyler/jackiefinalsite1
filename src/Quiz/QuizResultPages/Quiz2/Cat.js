@@ -25,19 +25,23 @@ const CatPretty = () => {
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '2rem',
+    fontSize: '1.5rem',
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',
     margin: '1.5rem'
   };
-
+  
   const paragraphStyle = {
-    fontSize: '1rem',
+    fontSize: '20px',
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
-    maxWidth: '100%',
-    lineHeight: '1.5'
+    marginTop: '1rem',
+    marginBottom: '1rem',
+    maxWidth: '700px',
+    lineHeight: '1.25',
+    marginLeft: 'auto',
+    marginRight: 'auto',
   };
 
   const blogContent = (
@@ -156,7 +160,7 @@ style = {{
       <img src={signature} alt="Jackie Wyers Signature" className={styles.signatureImage} />
       
       
-      <Comments website-id={websiteId} pageId={"Cat-Pretty-Results"} />
+      <Comments website-id={websiteId} page-id={"Animal-Prizznizzle"} />
       <div
 style = {{
   margin : '20px'

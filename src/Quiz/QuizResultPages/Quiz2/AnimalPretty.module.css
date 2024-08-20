@@ -27,7 +27,7 @@
 
 .blog-content {
   text-align: left;
-  line-height: 1.5rem;
+  line-height: 1.5;
   margin-bottom: 1rem;
   padding: 0 1rem;
   overflow-wrap: break-word;

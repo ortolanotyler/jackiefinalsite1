@@ -65,7 +65,7 @@ export default function EmailSubscribe2() {
 
   return (
     <Box display="flex" justifyContent="center" alignItems="center" width="100%" height="50vh">
-      <Grid container spacing={3} alignItems="center" justifyContent="center" sx={{ maxWidth: '700px' , width: '90%' }}>
+      <Grid container spacing={3} alignItems="center" justifyContent="center" sx={{ maxWidth: '700px' , width: '100%' }}>
         {isSubmitted ? (
           <Grid item xs={12}>
             <Alert severity="success">Email subscribed successfully!</Alert>

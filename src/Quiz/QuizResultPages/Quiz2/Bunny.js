@@ -25,21 +25,24 @@ const BunnyPretty = () => {
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '2rem',
+    fontSize: '1.5rem',
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',
     margin: '1.5rem'
   };
-
+  
   const paragraphStyle = {
-    fontSize: '1rem',
+    fontSize: '20px',
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
-    maxWidth: '100%',
-    lineHeight: '1.5'
+    marginTop: '1rem',
+    marginBottom: '1rem',
+    maxWidth: '700px',
+    lineHeight: '1.25',
+    marginLeft: 'auto',
+    marginRight: 'auto',
   };
-
   const blogContent = (
     <div className={styles.container}>
       <Helmet>
@@ -156,16 +159,28 @@ style = {{
       <p style={paragraphStyle}>
         Additionally, accessories from Fable England, such as bunny-themed jewelry, can add a whimsical touch to complete your outfit as mentioned in the looks above.
       </p>
+      <div style={{ position: 'relative', paddingBottom: '100%', height: 0, overflow: 'hidden', maxWidth: '100%' }}>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/552860?noHeader=true" title="Bunny-Themed Jewelry" />
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
-
+      <iframe
+        src="https://shopmy.us/collections/public/552860?noHeader=true"
+        title="Bunny-Themed Jewelry"
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          minHeight: '100rem',
+          border: 0,
+        }}
+        allowFullScreen
+      />
+    </div>     
       <p style={paragraphStyle}>
         I hope this quiz inspires you to play with these animal-inspired beauty looks. Which "Type of Pretty" are you leaning towards? Dive into the quiz on my website and I hope the full length tutorials on my channel inspire you to try a new look <a href='/tutorials' alt=''>here</a>!
       </p>
 
       <img src={signature} alt="Jackie Wyers Signature" className={styles.signatureImage} />
-      <Comments website-id={websiteId} pageId={"Bunny-Pretty-Results"} />
+      <Comments website-id={websiteId} page-id={"Animal-Prizznizzle"} />
     </div>
   );
 

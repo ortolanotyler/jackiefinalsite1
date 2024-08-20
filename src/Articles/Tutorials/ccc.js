@@ -22,7 +22,7 @@ const cardsData = [
     link: "/emily-in-paris",
     image: emily,
     alt: "Emily In Paris Style Evolution",
-    title: "Emily in Paris Style Evolution : Iconic Outfits, Makeup, and Hair",
+    title: "Emily in Paris Style Evolution - Iconic Outfits, Makeup, and Hair",
   },
   {
     link: "/perioddrama",

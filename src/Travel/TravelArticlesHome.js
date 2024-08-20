@@ -4,6 +4,7 @@ import TextReveal from '../Components/TextReveal';
 import TravelArticlesList from './TravelArticleList';
 import ExperiencesList from './ExperiencesList';
 import BookNowButton from '../Components/BookNowButton';
+import LatestTravelGrid from '../Home/LatestTutorialGridTravel';
 
 const TravelArticlesHome = () => {
     return (
@@ -32,7 +33,7 @@ const TravelArticlesHome = () => {
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
-
+<LatestTravelGrid/>
             <div
                 style={{
                     marginTop: '1rem',

@@ -7,6 +7,8 @@ import { Paper } from '@mui/material';
 import TextReveal from '../../Components/TextReveal';
 import RotatingText from '../../Navigation/AppBar/RotatingText';
 import Eeebridal from './eeebridal';
+import ImageGrid from '../../Home/ArticlesGrid';
+import LatestGrid from '../../Home/LatestTutorialsGrid';
 
 const HomeTutorials = () => {
   return (
@@ -15,11 +17,13 @@ const HomeTutorials = () => {
         <title>Makeup Tutorials Home - Jackie Wyers</title>
         <meta name="description" content="Explore makeup tutorials from pop culture, trends, and vintage vibes by Jackie Wyers. Find inspiration and step-by-step guides for various looks." />
       </Helmet>
+      <LatestGrid/>
       <div>
+      <TextReveal text="POP CULTURE" />
+      <Ccc />
       <TextReveal text='BRIDAL' />
       <Eeebridal />
-        <TextReveal text="POP CULTURE" />
-        <Ccc />
+      
         <TextReveal text='MAKEUP TRENDS' />
         <Slider2 />
         <TextReveal text='VINTAGE VIBES' />

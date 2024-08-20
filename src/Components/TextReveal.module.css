@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap'); /* Only Arapey font imported */
 
 .hero {
-  width: 100%;
+  width:100vw;
   height: 22vh;
   background-color: #FDEDEF;
   margin-bottom: 1rem;
   display: grid;
   place-items: center;
-  box-shadow: 0.1rem 0.2rem 0.4rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0.1rem 0.2rem 0.4rem rgba(0, 0, 0, 0.125);
   text-align: center;
   padding: 0 2rem;
 }

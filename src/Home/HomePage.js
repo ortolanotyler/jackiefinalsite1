@@ -11,6 +11,7 @@ import ReviewFavorites1 from './ReviewFavorites';
 import HeroSection2 from './HeroSection2';
 import HeroSection3 from './HeroSection3';
 import HeroSection from './HeroSection';
+import NewsletterSection from './NewsletterSection';
 
 const TextReveal = lazy(() => import('../Components/TextReveal'));
 const QuoteBanner3 = lazy(() => import('./QuoteBanner3'));
@@ -231,11 +232,11 @@ function HomePage() {
         </Grid>
 
         <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
-            <TextReveal text="NEWSLETTER" />
-            <EmailSubscribe />
-          </Suspense>
-        </Grid>
+  <Suspense fallback={<div className="spinner"></div>}>
+    <TextReveal text="NEWSLETTER" />
+    <NewsletterSection />
+  </Suspense>
+</Grid>
 
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>

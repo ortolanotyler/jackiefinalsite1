@@ -5,6 +5,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import styles from './AnimalPretty.module.css';
 import AdSenseAd from '../../../Advertising/Ads';
+import { Comments } from '@hyvor/hyvor-talk-react';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxTitleResults.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxPretty.png`;
@@ -24,19 +25,23 @@ const FoxPretty = () => {
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '2rem',
+    fontSize: '1.5rem',
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',
     margin: '1.5rem'
   };
-
+  
   const paragraphStyle = {
-    fontSize: '1rem',
+    fontSize: '20px',
     fontFamily: 'GFS Didot, serif',
     margin: '1rem 1.5rem',
-    maxWidth: '100%',
-    lineHeight: '1.5'
+    marginTop: '1rem',
+    marginBottom: '1rem',
+    maxWidth: '700px',
+    lineHeight: '1.25',
+    marginLeft: 'auto',
+    marginRight: 'auto',
   };
 
   const blogContent = (
@@ -162,6 +167,8 @@ style = {{
       </p>
 
       <img src={signature} alt="Jackie Wyers Signature" className={styles.signatureImage} />
+      <Comments website-id={websiteId} page-id={"Animal-Prizznizzle"} />
+
       <div
 style = {{
   margin : '20px'

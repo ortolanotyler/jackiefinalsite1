@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import { Grid, Button, Box, Typography, Alert, TextField } from '@mui/material';
 import { EmailContext } from './EmailContext';
 import axios from 'axios';
-import './EmailSubscribe.module.css'; // Ensure this file exists
+import './EmailSubscribe.module.css';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Home/EmailSub.jpeg`;
 
@@ -33,19 +33,19 @@ export default function EmailSubscribe() {
   };
 
   return (
-    <Box display="flex" justifyContent="center" alignItems="center" width="100%" height="50vh">
-      <Grid container spacing={3} alignItems="center" justifyContent="center" sx={{ ml: '10px', mt: '10px', maxWidth: '800px', width: '100%' }}>
+    <Box display="flex" justifyContent="center" alignItems="center" width="100%" height="50vh" px={2}>
+      <Grid container alignItems="center" justifyContent="center" maxWidth="600px">
         {isSubmitted ? (
           <Grid item xs={12}>
             <Alert severity="success">Email subscribed successfully!</Alert>
           </Grid>
         ) : (
           <form onSubmit={handleSubmit} className="form">
-            <Grid container spacing={3} alignItems="center" justifyContent="center">
+            <Grid container spacing={2}>
               <Grid item xs={12}>
-                <img src={image1} alt="Email Subscribe" style={{ width: '100%' }} />
+                <img src={image1} alt="Email Subscribe" style={{ width: '100%', borderRadius: '5px' }} />
               </Grid>
-              <Grid item xs={6}>
+              <Grid item xs={12}>
                 <TextField
                   type="email"
                   value={email}
@@ -74,7 +74,7 @@ export default function EmailSubscribe() {
                     borderRadius: '5px',
                     width: '100%',
                     fontFamily: 'GFS Didot, serif',
-                    padding: '0.25rem',
+                    padding: '0.5rem',
                     '&:hover': {
                       backgroundColor: '#333',
                       color: 'white',
@@ -85,8 +85,8 @@ export default function EmailSubscribe() {
                 </Button>
               </Grid>
               <Grid item xs={12} sx={{ textAlign: 'center' }}>
-                <Typography variant="body2" style={{ fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
-                  By submitting, you agree that you have read the <a href="/privacy" target="_blank" style={{ color: '#745B4F', textDecoration: 'underline' }}>Privacy Policy</a>.
+                <Typography variant="body2" sx={{ fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
+                  By submitting, you agree to our <a href="/privacy" target="_blank" style={{ color: '#745B4F', textDecoration: 'underline' }}>Privacy Policy</a>.
                 </Typography>
               </Grid>
               {error && (
