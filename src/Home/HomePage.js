@@ -11,7 +11,6 @@ import ReviewFavorites1 from './ReviewFavorites';
 import HeroSection2 from './HeroSection2';
 import HeroSection3 from './HeroSection3';
 import HeroSection from './HeroSection';
-import NewsletterSection from './NewsletterSection';
 
 const TextReveal = lazy(() => import('../Components/TextReveal'));
 const EmailSubscribe = lazy(() => import('../Components/EmailSubscribe'));
@@ -27,6 +26,14 @@ const Quiz2 = lazy(() => import('../Quiz/Quiz2'));
 const theme = createTheme();
 
 function HomePage() {
+  useEffect(() => {
+    if (window.gtag) {
+      window.gtag('config', 'G-RT6GR7JXYG', {
+        page_path: window.location.pathname,
+      });
+    }
+  }, []);
+  
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   const viewAllRefs = {
@@ -103,6 +110,7 @@ function HomePage() {
         <title>Jackie Wyers Beauty</title>
         <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
         <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
+        <script data-ad-client="ca-pub-4660168246825318" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
         <script>
