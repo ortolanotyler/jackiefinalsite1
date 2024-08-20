@@ -60,17 +60,16 @@ const PeriodDrama = () => {
   };
 
   const paragraphStyle = {
-      fontSize: '20px',
-      fontFamily: 'GFS Didot, serif',
-      margin: '1rem 1.5rem',
-      marginTop: '1rem',
-      marginBottom: '1rem',
-      maxWidth: '700px',
-      lineHeight: '1.25',
-      marginLeft: 'auto',
-      marginRight: 'auto',
+    fontSize: '20px',
+    fontFamily: 'GFS Didot, serif',
+    margin: '1rem 1.5rem',
+    marginTop: '1rem',
+    marginBottom: '1rem',
+    maxWidth: '500px',
+    lineHeight: '1.5',
+    marginLeft: 'auto',
+    marginRight: 'auto',
   };
-
   const blogContent = (
     <div className="container">
     <Helmet>
@@ -142,8 +141,10 @@ const PeriodDrama = () => {
       </div>
 
    
+<div style = {{maxWidth: '500px', margin: 'auto'}}>
+<DropCap1 text="There's something magical about period dramas—they transport us to different times and places, allowing us to experience the elegance and charm of bygone eras. I love seeing how these shows and filmsinterpret no-makeup makeup and historical hairstyles, often with a modern twist for real-life inspiration. If you enjoyed my previous article on no- makeup makeup spring inspiration, you're going to love this deep dive into period drama styles." />
 
-      <DropCap1 text="There's something magical about period dramas—they transport us to different times and places, allowing us to experience the elegance and charm of bygone eras. I love seeing how these shows and filmsinterpret no-makeup makeup and historical hairstyles, often with a modern twist for real-life inspiration. If you enjoyed my previous article on no- makeup makeup spring inspiration, you're going to love this deep dive into period drama styles." />
+</div>
       <div
 style = {{
   margin : '20px'

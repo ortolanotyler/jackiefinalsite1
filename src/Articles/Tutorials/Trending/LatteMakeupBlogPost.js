@@ -51,8 +51,8 @@ const paragraphStyle = {
   margin: '1rem 1.5rem',
   marginTop: '1rem',
   marginBottom: '1rem',
-  maxWidth: '700px',
-  lineHeight: '1.25',
+  maxWidth: '500px',
+  lineHeight: '1.5',
   marginLeft: 'auto',
   marginRight: 'auto',
 };

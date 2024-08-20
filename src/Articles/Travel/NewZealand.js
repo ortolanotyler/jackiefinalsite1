@@ -108,15 +108,15 @@ const NewZealand = () => {
   };
 
   const paragraphStyle = {
-      fontSize: '20px',
-      fontFamily: 'GFS Didot, serif',
-      margin: '1rem 1.5rem',
-      marginTop: '1rem',
-      marginBottom: '1rem',
-      maxWidth: '700px',
-      lineHeight: '1.25',
-      marginLeft: 'auto',
-      marginRight: 'auto',
+    fontSize: '20px',
+    fontFamily: 'GFS Didot, serif',
+    margin: '1rem 1.5rem',
+    marginTop: '1rem',
+    marginBottom: '1rem',
+    maxWidth: '500px',
+    lineHeight: '1.5',
+    marginLeft: 'auto',
+    marginRight: 'auto',
   };
 
     const imageStyle = {

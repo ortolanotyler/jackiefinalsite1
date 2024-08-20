@@ -67,17 +67,16 @@ const EmilyInParis = () => {
     color: '#333',
     margin: '1.5rem'
 };
-
 const paragraphStyle = {
-    fontSize: '20px',
-    fontFamily: 'GFS Didot, serif',
-    margin: '1rem 1.5rem',
-    marginTop: '1rem',
-    marginBottom: '1rem',
-    maxWidth: '700px',
-    lineHeight: '1.25',
-    marginLeft: 'auto',
-    marginRight: 'auto',
+  fontSize: '20px',
+  fontFamily: 'GFS Didot, serif',
+  margin: '1rem 1.5rem',
+  marginTop: '1rem',
+  marginBottom: '1rem',
+  maxWidth: '500px',
+  lineHeight: '1.5',
+  marginLeft: 'auto',
+  marginRight: 'auto',
 };
 
   const blogContent = (
@@ -164,7 +163,7 @@ const paragraphStyle = {
       </div>
    
    
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', maxWidth:'600px', margin:'auto' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', maxWidth:'500px', margin:'auto' }}>
   <DropCap1 text="Bonjour mes amies, parlons Pop Culture! Season four of Emily in Paris has finally arrived, and I couldn’t be more thrilled. Emily Cooper's colourful and bold outfit choices, paired with her upbeat and optimistic personality, create a character & show worth binging on Netflix. The show's idealized version of Paris, filled with chic cafes, stunning architecture, and, of course, fabulous fashion, has captivated audiences worldwide. And let's not forget about the sexy love interests!" />
 </div>
 

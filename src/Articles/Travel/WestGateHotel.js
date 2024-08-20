@@ -55,19 +55,17 @@ const WestGateHotelBlog = () => {
         color: '#333',
         margin: '1.5rem'
     };
-
     const paragraphStyle = {
         fontSize: '20px',
         fontFamily: 'GFS Didot, serif',
         margin: '1rem 1.5rem',
         marginTop: '1rem',
         marginBottom: '1rem',
-        maxWidth: '700px',
-        lineHeight: '1.25',
+        maxWidth: '500px',
+        lineHeight: '1.5',
         marginLeft: 'auto',
         marginRight: 'auto',
-    };
-
+      };
     const imageStyle = {
         display: 'block',
         margin: '0 auto',

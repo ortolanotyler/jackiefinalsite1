@@ -53,8 +53,8 @@ const paragraphStyle = {
   margin: '1rem 1.5rem',
   marginTop: '1rem',
   marginBottom: '1rem',
-  maxWidth: '700px',
-  lineHeight: '1.25',
+  maxWidth: '500px',
+  lineHeight: '1.5',
   marginLeft: 'auto',
   marginRight: 'auto',
 };
@@ -133,7 +133,12 @@ const paragraphStyle = {
         </p>
       </div>
 
-      <DropCap1 text="In the dazzling world of the Barbie Movie, directed by Greta Gerwig and starring Margot Robbie as endearing Barbie and Ryan Gosling as the hilarious Ken, we must not forget to pay tribute to the brilliant artists who brought these iconic characters to life. Ivana Primorac, the creative force leading the movie’s hair and makeup teams, created Margot’s Barbie pink makeup look that appeared fresh and modern. The 'Barbie' costume designer Jacqueline Durran played an equally crucial role in fuelling the 'Barbiecore' fashion trend with the iconic Barbie looks featured in the film. Hello Barbiecore summer of 2023 - everywhere you looked, it was all about PINK!" />
+<div style = {{maxWidth: '700px', margin: 'auto' }}>
+<DropCap1 text="In the dazzling world of the Barbie Movie, directed by Greta Gerwig and starring Margot Robbie as endearing Barbie and Ryan Gosling as the hilarious Ken, we must not forget to pay tribute to the brilliant artists who brought these iconic characters to life. Ivana Primorac, the creative force leading the movie’s hair and makeup teams, created Margot’s Barbie pink makeup look that appeared fresh and modern. The 'Barbie' costume designer Jacqueline Durran played an equally crucial role in fuelling the 'Barbiecore' fashion trend with the iconic Barbie looks featured in the film. Hello Barbiecore summer of 2023 - everywhere you looked, it was all about PINK!" />
+
+</div>
+      
+      
       <div
 style = {{
   margin : '20px'
@@ -295,7 +300,7 @@ style = {{
   );
 
   return (
-    <div ref={blogRef}>
+    <div style = {{padding: '2rem'}} ref={blogRef}>
       <Card blogContent={blogContent} />
     </div>
   );
