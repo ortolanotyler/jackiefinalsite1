@@ -23,66 +23,69 @@ const HeroSection = () => {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    padding: '30px 30px',
+    padding: '1rem 2rem',
     minHeight: '80vh',
     flexDirection: isSmallScreen ? 'column' : 'row',
     flexWrap: 'wrap',
   };
-
+  
   const textContentStyle = {
     flex: 1,
     paddingRight: isSmallScreen ? '0' : '40px',
-    maxWidth: '500px',
+    maxWidth: isSmallScreen ? '100%' : '600px', // Adjusted max-width to ensure proper centering
+    margin: '0 auto',  // Ensures content is centered
     textAlign: 'center',  // Center text on all screens
     fontFamily: 'GFS Didot, serif',
   };
-
+  
   const featureStyle = {
     fontSize: '14px',
+    textAlign: 'center',
     fontWeight: 'bold',
     letterSpacing: '1px',
     marginBottom: '10px',
     fontFamily: 'GFS Didot, serif',
-    minHeight: '20px',
   };
-
+  
   const headlineStyle = {
     fontSize: '32px',
     lineHeight: 1.2,
     marginBottom: '20px',
     fontFamily: 'GFS Didot, serif',
-    minHeight: '50px',
+    textAlign: 'center',  // Ensures headline is centered
   };
-
+  
   const subtextStyle = {
     fontSize: '16px',
     lineHeight: 1.5,
     marginBottom: '20px',
     fontFamily: 'GFS Didot, serif',
     color: '#333',
-    minHeight: '70px',
+    textAlign: 'center',  // Ensures subtext is centered
   };
-
+  
   const authorStyle = {
     fontSize: '14px',
     fontStyle: 'italic',
     color: '#555',
     fontFamily: 'GFS Didot, serif',
-    minHeight: '20px',
+    textAlign: 'center',  // Ensures author is centered
   };
-
+  
   const imageContentStyle = {
     flex: 1,
     textAlign: isSmallScreen ? 'center' : 'right',
-    maxWidth: '600px',
+    maxWidth: '500px',
   };
-
+  
   const imageStyle = {
-    width: '100%',
+    margin: '0 auto',
+    width: '100%',  // Ensures the image takes up the proper space
     height: 'auto',
     borderRadius: '5px',
     display: 'block',
   };
+  
 
   return (
     <a href="/fairytalewedding" style={heroLinkStyle}>

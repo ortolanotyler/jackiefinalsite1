@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Box, IconButton } from '@mui/material';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
-import styles from './NewsletterSlider.module.css';
+import styles from './NewsletterSlider.module.css'; // Import the CSS module
 
 const images = [
   `${process.env.PUBLIC_URL}/Images/Home/1.png`,
@@ -22,8 +22,12 @@ const NewsletterSlider = () => {
   };
 
   return (
-    <Box className={styles.sliderContainer}>
-      <Box className={styles.sliderImages}>
+    <Box 
+      className={styles.sliderContainer} 
+    >
+      <Box
+        className={styles.sliderImages}
+      >
         <img
           src={images[currentIndex]}
           alt={`Slide ${currentIndex + 1}`}
@@ -31,15 +35,21 @@ const NewsletterSlider = () => {
         />
         <img
           src={images[(currentIndex + 1) % images.length]}
-          alt={`Slide ${(currentIndex + 2)}`}
+          alt={`Slide ${currentIndex + 2}`}
           className={styles.sliderImage}
         />
       </Box>
 
-      <IconButton className={styles.prevButton} onClick={handlePrevClick}>
+      <IconButton
+        className={styles.prevButton}
+        onClick={handlePrevClick}
+      >
         <ArrowBack />
       </IconButton>
-      <IconButton className={styles.nextButton} onClick={handleNextClick}>
+      <IconButton
+        className={styles.nextButton}
+        onClick={handleNextClick}
+      >
         <ArrowForward />
       </IconButton>
     </Box>

@@ -23,7 +23,7 @@ const HeroSection2 = () => {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    padding: '30px 30px',
+    padding: '1rem 1rem',
     minHeight: '80vh',
     flexDirection: isSmallScreen ? 'column-reverse' : 'row', // Change to column-reverse for small screens
     flexWrap: 'wrap',
@@ -74,7 +74,7 @@ const HeroSection2 = () => {
   const imageContentStyle = {
     flex: 1,
     textAlign: isSmallScreen ? 'center' : 'left', // Center the image on mobile, align left on larger screens
-    maxWidth: '600px',
+    maxWidth: '500px',
   };
 
   const imageStyle = {

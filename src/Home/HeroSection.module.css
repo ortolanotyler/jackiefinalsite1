@@ -14,7 +14,7 @@
 
 .textContent {
   flex: 1;
-  padding-right: 40px;
+  margin : 0 auto;
   max-width: 600px;  /* Limits the width of the text content */
   text-align: center;
   font-family: 'GFS Didot', serif;  /* Use GFS Didot font */
