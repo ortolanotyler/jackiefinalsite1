@@ -176,8 +176,8 @@ const Fable = () => {
             <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <SubscribeVlog />
             </div>
-            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
-                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+            <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
+            All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
             <DropCap1 text={`Welcome back for a special hotel review of the enchanting Fable Auckland on Queen Street in Auckland, New Zealand. My mom and I embarked on a mother-daughter trip to explore the city and have a dream bridal appointment at Natalie Rose Bridal in Parnell. To see everything we got up to during the week, check out my travel diary/ itinerary at the link below as well as my vlog (it’s a fun one!👰 ).`} />
 

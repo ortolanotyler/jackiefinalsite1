@@ -46,17 +46,16 @@ const TwiggyBlog = () => {
 };
 
 const paragraphStyle = {
-    fontSize: '20px',
-    fontFamily: 'GFS Didot, serif',
-    margin: '1rem 1.5rem',
-    marginTop: '1rem',
-    marginBottom: '1rem',
-    maxWidth: '700px',
-    lineHeight: '1.25',
-    marginLeft: 'auto',
-    marginRight: 'auto',
+  fontSize: '20px',
+  fontFamily: 'GFS Didot, serif',
+  margin: '1rem 1.5rem',
+  marginTop: '1rem',
+  marginBottom: '1rem',
+  maxWidth: '500px',
+  lineHeight: '1.5',
+  marginLeft: 'auto',
+  marginRight: 'auto',
 };
-
   const blogContent = (
     <div className="container">
     <Helmet>
@@ -124,8 +123,8 @@ const paragraphStyle = {
 
      
       <div>
-        <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '1em', maxWidth: '100%', fontStyle: 'italic' }}>
-          All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
+      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
         </p>
       </div>
 

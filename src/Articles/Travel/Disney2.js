@@ -170,8 +170,8 @@ const paragraphStyle = {
         <SubscribeVlog />
       </div>
 
-      <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
-        All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
+      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 
       <p style={paragraphStyle}>

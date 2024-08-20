@@ -183,8 +183,8 @@ const AndazMauiReview = () => {
             <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <SubscribeVlog />
             </div>
-            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
-                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+            <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
+            All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
             <DropCap1 text="Welcome back as we reminisce about the stunning Andaz Maui at Wailea Resort in Hawaii. This trip not only showcased pristine beaches and exquisite hotel amenities but also created unforgettable memories with my best friend Lauren and the amazing team from Benefit Cosmetics Canada." />
             <div

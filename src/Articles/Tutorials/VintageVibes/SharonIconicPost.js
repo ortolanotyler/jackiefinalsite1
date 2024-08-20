@@ -49,15 +49,15 @@ const SharonIconicPost = () => {
 };
 
 const paragraphStyle = {
-    fontSize: '20px',
-    fontFamily: 'GFS Didot, serif',
-    margin: '1rem 1.5rem',
-    marginTop: '1rem',
-    marginBottom: '1rem',
-    maxWidth: '700px',
-    lineHeight: '1.25',
-    marginLeft: 'auto',
-    marginRight: 'auto',
+  fontSize: '20px',
+  fontFamily: 'GFS Didot, serif',
+  margin: '1rem 1.5rem',
+  marginTop: '1rem',
+  marginBottom: '1rem',
+  maxWidth: '500px',
+  lineHeight: '1.5',
+  marginLeft: 'auto',
+  marginRight: 'auto',
 };
   
   const blogContent = (
@@ -129,8 +129,8 @@ const paragraphStyle = {
         <SubscribeButton />
       </div>
 
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
-        All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
+      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 
       <DropCap1 text="Welcome back to another installment of Time Travel Tutorials, this time featuring the iconic '60s figure, Sharon Tate. A promising actress and model of the 1960s, Tate was celebrated for her roles in films like 'Valley of the Dolls', captivating audiences with her talent and ethereal beauty. Her tragic and untimely death solidified her status as an era icon, profoundly influencing pop culture, fashion, and beauty standards of the 1960s. Let's celebrate the beautiful Sharon Tate by emulating her signature style, which remains influential today. Also covered on blog is Sharon’s Bridal style as well." />

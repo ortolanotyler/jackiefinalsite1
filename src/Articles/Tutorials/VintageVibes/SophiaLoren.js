@@ -48,15 +48,15 @@ const SophiaLorenPost = () => {
 };
 
 const paragraphStyle = {
-    fontSize: '20px',
-    fontFamily: 'GFS Didot, serif',
-    margin: '1rem 1.5rem',
-    marginTop: '1rem',
-    marginBottom: '1rem',
-    maxWidth: '700px',
-    lineHeight: '1.25',
-    marginLeft: 'auto',
-    marginRight: 'auto',
+  fontSize: '20px',
+  fontFamily: 'GFS Didot, serif',
+  margin: '1rem 1.5rem',
+  marginTop: '1rem',
+  marginBottom: '1rem',
+  maxWidth: '500px',
+  lineHeight: '1.5',
+  marginLeft: 'auto',
+  marginRight: 'auto',
 };
 
   const blogContent = (
@@ -131,8 +131,8 @@ const paragraphStyle = {
         <SubscribeButton />
       </div>
 
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-        All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
+      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 
       <DropCap1 text="Welcome back to my favorite series, Time Travel Tutorials, where we delve into the glamorous world of beauty icons from the past. Today's spotlight is on the mesmerizing Italian beauty, Sophia Loren. Born on September 20th, 1934, in Rome, Italy, Sophia Loren is a megastar in both Hollywood and Italian cinema. Her career, spanning over six decades, is a testament to her immense talent, charisma, and iconic makeup style, which continues to inspire admiration (and imitation) today." />

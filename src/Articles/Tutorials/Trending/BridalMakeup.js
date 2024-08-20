@@ -125,8 +125,8 @@ const paragraphStyle = {
         <SubscribeButton />
       </div>
       <div>
-        <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '20px', maxWidth: '100%', fontStyle: 'italic' }}>
-          All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
+      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
         </p>
       </div>
       <DropCap1 text="I recently had a fabulous time trying on wedding dresses at Natalie Rose Bridal, and I took the opportunity to attempt a makeup trial to see how everything would look and feel in videos and photos. In this post, I’ll break down the products used and share my thoughts on what worked and what I might tweak for the big day." />

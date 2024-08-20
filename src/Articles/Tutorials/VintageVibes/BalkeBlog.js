@@ -53,12 +53,11 @@ const paragraphStyle = {
   margin: '1rem 1.5rem',
   marginTop: '1rem',
   marginBottom: '1rem',
-  maxWidth: '700px',
-  lineHeight: '1.25',
+  maxWidth: '500px',
+  lineHeight: '1.5',
   marginLeft: 'auto',
   marginRight: 'auto',
 };
-
   const blogContent = (
     <div className="container">
 
@@ -128,8 +127,8 @@ const paragraphStyle = {
         <SubscribeButton />
       </div>
 
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
-        All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
+      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 
       <DropCap1 text="Welcome back to another Time Travel Tutorials, where we admire and recreate beauty icons from the past. Today, let's delve into the 1960s through the portrait of model Ina Balke by the renowned photographer Ted Russell. For those of you who've ever searched on Pinterest for '60s makeup, chances are you've stumbled upon this stunning photograph. This article is your step-by-step guide on how to get the vintage makeup and styling as seen on Ina to try out yourself!" />

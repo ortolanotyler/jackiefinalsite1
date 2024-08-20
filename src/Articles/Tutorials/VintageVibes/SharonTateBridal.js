@@ -46,17 +46,16 @@ const SharonTatePost = () => {
     color: '#333',
     margin: '1.5rem'
 };
-
 const paragraphStyle = {
-    fontSize: '20px',
-    fontFamily: 'GFS Didot, serif',
-    margin: '1rem 1.5rem',
-    marginTop: '1rem',
-    marginBottom: '1rem',
-    maxWidth: '700px',
-    lineHeight: '1.25',
-    marginLeft: 'auto',
-    marginRight: 'auto',
+  fontSize: '20px',
+  fontFamily: 'GFS Didot, serif',
+  margin: '1rem 1.5rem',
+  marginTop: '1rem',
+  marginBottom: '1rem',
+  maxWidth: '500px',
+  lineHeight: '1.5',
+  marginLeft: 'auto',
+  marginRight: 'auto',
 };
   
   const blogContent = (
@@ -128,8 +127,8 @@ const paragraphStyle = {
         <SubscribeButton />
       </div>
 
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-        All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
+      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 
       <DropCap1 text="Welcome back to Time Travel Tutorials - the series where we embrace the vintage vibes from the beauties of the past. In this edition, we're shining the spotlight on the stunning Sharon Tate. Renowned as an American actress and model, Tate left a lasting impression with her role in 'Valley of the Dolls' (1967). Hailed as Hollywood's most promising starlet of her time, Sharon's distinctive makeup, hair, and fashion sense continue to captivate and inspire women to this day." />

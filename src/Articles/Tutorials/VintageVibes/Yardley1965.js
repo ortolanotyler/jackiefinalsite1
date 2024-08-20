@@ -48,15 +48,14 @@ const headingStyle = {
   color: '#333',
   margin: '1.5rem'
 };
-
 const paragraphStyle = {
   fontSize: '20px',
   fontFamily: 'GFS Didot, serif',
   margin: '1rem 1.5rem',
   marginTop: '1rem',
   marginBottom: '1rem',
-  maxWidth: '700px',
-  lineHeight: '1.25',
+  maxWidth: '500px',
+  lineHeight: '1.5',
   marginLeft: 'auto',
   marginRight: 'auto',
 };
@@ -137,7 +136,7 @@ const paragraphStyle = {
       <ResponsiveYoutube src="https://www.youtube.com/embed/OrlZinEp4AI?si=pn69Z9dtya3RuV2G" title="Jean Shrimpton Makeup Tutorial - Yardley 1965" />
 
       <div>
-        <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+        <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
           All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
         </p>
       </div>

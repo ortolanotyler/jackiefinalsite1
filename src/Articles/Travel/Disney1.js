@@ -158,8 +158,8 @@ const Disney2Post = () => {
             <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <SubscribeVlog />
             </div>
-            <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
-                All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+            <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
+            All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
             <DropCap1 text="Welcome to Part One of my magical recap of an unforgettable time at Walt Disney World, FL in 2023. My best friend Lauren and I chose Disney's Beach Club Resort for our stay, marking her first visit and my first return since 2002. This article focuses on our resort experience, offering a glimpse into the luxury and leisure that awaited us at this colonial resort and why we chose to book!" />
            

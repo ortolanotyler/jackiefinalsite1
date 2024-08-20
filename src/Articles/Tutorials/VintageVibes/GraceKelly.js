@@ -46,17 +46,16 @@ const GraceKelly = () => {
     color: '#333',
     margin: '1.5rem'
 };
-
 const paragraphStyle = {
-    fontSize: '20px',
-    fontFamily: 'GFS Didot, serif',
-    margin: '1rem 1.5rem',
-    marginTop: '1rem',
-    marginBottom: '1rem',
-    maxWidth: '700px',
-    lineHeight: '1.25',
-    marginLeft: 'auto',
-    marginRight: 'auto',
+  fontSize: '20px',
+  fontFamily: 'GFS Didot, serif',
+  margin: '1rem 1.5rem',
+  marginTop: '1rem',
+  marginBottom: '1rem',
+  maxWidth: '500px',
+  lineHeight: '1.5',
+  marginLeft: 'auto',
+  marginRight: 'auto',
 };
 
 
@@ -127,8 +126,8 @@ const paragraphStyle = {
         <SubscribeButton />
       </div>
 
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-        All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
+      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 
       <DropCap1 text="Welcome back for another Time Travel Tutorials, the series where we celebrate and recreate the iconic beauty looks of the past. This edition is dedicated to Grace Kelly, a beacon of Old Hollywood elegance and a true silver screen legend. Grace Kelly, known for her roles in 'Rear Window' and 'To Catch a Thief' captivated audiences with her poised performances and became a real-life princess when she married Prince Rainier III of Monaco." />

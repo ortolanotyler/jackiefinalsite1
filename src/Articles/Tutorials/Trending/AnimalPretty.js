@@ -124,8 +124,8 @@ const paragraphStyle = {
       </div>
       <ResponsiveYoutube src="https://www.youtube.com/embed/hIGr8Gj4kQA?si=8N-JgnQ-JeRTk5Gm" title="YouTube video player" />
       <div>
-        <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-          All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
+      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
         </p>
       </div>
       <DropCap1 text="Hey beauties, it’s Jackie! Today, we're diving into a fun and fresh way to explore beauty styles with my 'Types of Pretty' makeup series inspired by adorable animals like deer, cats, foxes, and bunnies. Whether you saw this trend on TikTok or my latest YouTube tutorial, I’m thrilled to bring this unique concept to the blog where we break down each style with detailed makeup guides." />
