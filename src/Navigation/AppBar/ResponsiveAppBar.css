@@ -1,13 +1,9 @@
-/* Remove the jiggle animation */
-
-@media (max-width: 1500px) {
-  .responsive-button {
-    padding: 0.4rem;
-    font-size: 0.9rem;
-  }
+.responsive-button {
+  padding: 0.4rem;
+  font-size: 0.9rem;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
   .responsive-button {
     padding: 0.3rem;
     font-size: 0.8rem;
@@ -16,8 +12,8 @@
 
 @media (max-width: 768px) {
   .responsive-button {
-    padding: 0.1rem;
-    font-size: 0.5rem;
+    padding: 0.2rem;
+    font-size: 0.7rem;
   }
 }
 

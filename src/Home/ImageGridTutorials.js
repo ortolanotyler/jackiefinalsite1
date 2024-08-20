@@ -27,8 +27,8 @@ export default function QuiltedImageList1() {
   return (
     <ImageList
       sx={{
+        marginTop: '-.1rem',
         width: '100',
-        height: '100%',
         maxHeight: '100vh',
         overflowY: 'auto', // Enables scrolling
         borderRadius: '20px',

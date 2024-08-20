@@ -122,10 +122,10 @@ function HomePage() {
         <link rel="canonical" href="https://jackiewyers.beauty/" />
       </Helmet>
 
-      <Grid container spacing={0} justifyContent="center">
+      <Grid container spacing={1} justifyContent="center">
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
-            <TextRevealHomePage text="JACKIE WYERS" />
+            <TextRevealHomePage text="JACKIE WYERS" style = {{margin:'0 auto'}} />
           </Suspense>
         </Grid>
 

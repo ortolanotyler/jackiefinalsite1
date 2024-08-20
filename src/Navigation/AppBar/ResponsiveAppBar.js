@@ -51,7 +51,7 @@ const tutorialOptions = [
 ];
 
 function ResponsiveAppBar() {
-  const isCollapsed = useMediaQuery('(max-width: 1150px)');
+  const isCollapsed = useMediaQuery('(max-width: 1250px)');
   const [anchorElNav, setAnchorElNav] = useState(null);
   const [anchorElShop, setAnchorElShop] = useState(null);
   const [anchorElTutorials, setAnchorElTutorials] = useState(null);
@@ -111,7 +111,7 @@ function ResponsiveAppBar() {
           zIndex: 1200, // Ensure it stays above other content but below the sidebar
         }}
       >
-        <Container maxWidth="false" disableGutters>
+        <Container maxWidth="50%" disableGutters>
           <Toolbar disableGutters sx={{ justifyContent: 'space-between', flexWrap: 'wrap', alignItems: 'center' }}>
             <IconButton
               onClick={toggleSidebar}
