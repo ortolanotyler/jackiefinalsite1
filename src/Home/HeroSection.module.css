@@ -8,7 +8,7 @@
   justify-content: center;  /* Centers content horizontally */
   align-items: center;  /* Centers content vertically */
   padding: 40px 20px;  /* Adds padding to create more space around the content */
-  min-height: 80vh;  /* Ensures the section takes up at least 80% of the viewport height */
+  min-height: 40vh;  /* Ensures the section takes up at least 80% of the viewport height */
   flex-wrap: wrap;  /* Allow wrapping for better responsiveness */
 }
 
