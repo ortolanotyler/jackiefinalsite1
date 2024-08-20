@@ -1,0 +1,57 @@
+.sliderContainer {
+    position: relative;
+    width: 80%;
+    max-width: 1200px; /* Adjusted to fit two images side by side */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .sliderImages {
+    display: flex;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 0px;
+    position: relative;
+  }
+  
+  .sliderImage {
+    width: 50%; /* Set each image to take up half the slider's width */
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .prevButton,
+  .nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    z-index: 2;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .prevButton {
+    left: -25px;
+  }
+  
+  .nextButton {
+    right: -25px;
+  }
+  
+  .prevButton svg,
+  .nextButton svg {
+    width: 25px;
+    height: 35px;
+    fill: white;
+  }
+  

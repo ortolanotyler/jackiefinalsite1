@@ -14,7 +14,6 @@ import HeroSection from './HeroSection';
 import NewsletterSection from './NewsletterSection';
 
 const TextReveal = lazy(() => import('../Components/TextReveal'));
-const QuoteBanner3 = lazy(() => import('./QuoteBanner3'));
 const EmailSubscribe = lazy(() => import('../Components/EmailSubscribe'));
 const RotatingText = lazy(() => import('../Navigation/AppBar/RotatingText'));
 const AboutHero = lazy(() => import('./AboutHero'));
