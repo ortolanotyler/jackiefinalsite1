@@ -11,7 +11,7 @@
   display: inline-block;
   animation: rotate-text 100s linear infinite;
   letter-spacing: 0.075rem; /* Increases spacing between all characters */
-  font-size: 1.25rem; /* Default font size */
+  font-size: 1rem; /* Default font size */
 }
 
 /* Responsive adjustments */

@@ -28,8 +28,8 @@ export default function QuiltedImageList1() {
     <ImageList
       sx={{
         width: '100%',
-        height: 'auto',
-        maxHeight: '55vh',
+        height: '100%',
+        maxHeight: '100vh',
         overflowY: 'auto', // Enables scrolling
         
       }}
