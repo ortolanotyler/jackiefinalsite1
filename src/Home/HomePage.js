@@ -227,7 +227,7 @@ function HomePage() {
         <Grid item xs={12}>
   <Suspense fallback={<div className="spinner"></div>}>
     <TextReveal text="NEWSLETTER" />
-    <NewsletterSection />
+    <EmailSubscribe />
   </Suspense>
 </Grid>
 

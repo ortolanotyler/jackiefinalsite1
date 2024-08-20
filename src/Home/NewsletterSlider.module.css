@@ -1,57 +1,35 @@
-.sliderContainer {
-    position: relative;
-    width: 100%;
-    max-width: 1200px; /* Adjusted to fit two images side by side */
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.mediaKitSlider {
+    max-width: 600px;
+    padding: 1rem;
+  
     margin: 0 auto;
   }
   
-  .sliderImages {
-    display: flex;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    border-radius: 0px;
-    position: relative;
-  }
-  
   .sliderImage {
-    width: 50%; /* Set each image to take up half the slider's width */
-    height: auto;
-    object-fit: cover;
-  }
-  
-  .prevButton,
-  .nextButton {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    z-index: 2;
-    width: 35px;
-    height: 35px;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    cursor: pointer;
+    width: 50%;
+    height: auto;
   }
   
-  .prevButton {
-    left: -25px;
+  .slick-prev, .slick-next {
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    background-color: transparent; /* Set background to transparent */
+    border: none; /* Remove border if any */
   }
   
-  .nextButton {
-    right: -25px;
+  .slick-prev {
+    left: -50px; /* Adjust this value to move the arrow farther left */
   }
   
-  .prevButton svg,
-  .nextButton svg {
-    width: 25px;
-    height: 35px;
-    fill: white;
+  .slick-next {
+    right: -50px; /* Adjust this value to move the arrow farther right */
+  }
+  
+  .slick-prev::before, .slick-next::before {
+    font-size: 50px;
+    color: black; /* Adjust arrow color */
+    content: ''; /* Remove default content */
   }
   

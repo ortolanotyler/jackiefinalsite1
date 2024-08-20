@@ -10,7 +10,7 @@ const NewsletterSection = () => {
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   return (
-    <Box sx={{ width: '100%', backgroundColor: 'white', padding: '2rem' }}>
+    <Box sx={{ width: '100%', backgroundColor: 'white', margin: '0 auto' }}>
       <Grid
         container
         spacing={isMobile ? 2 : 4}

@@ -2,17 +2,9 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import styles from './NewsletterSlider.module.css'; // Import CSS module
+import styles from './MediaKitSlider.module.css'; // Import CSS module
 
-const NewsletterSlider = () => { // Removed the `images` prop
-
-  const images = [
-    `${process.env.PUBLIC_URL}/Images/Home/1.png`,
-    `${process.env.PUBLIC_URL}/Images/Home/2.png`,
-    `${process.env.PUBLIC_URL}/Images/Home/3.png`,
-    `${process.env.PUBLIC_URL}/Images/Home/4.png`,
-  ];
-
+const NewsletterSlider = ({ images }) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -71,6 +63,7 @@ const SamplePrevArrow = (props) => {
         fill="#745B4F"
         width="25px"
         height="35px"
+        
       >
         <path d="M12 24l1.41-1.41L5.83 15H24v-2H5.83l7.58-7.59L12 0 0 12z" />
       </svg>
