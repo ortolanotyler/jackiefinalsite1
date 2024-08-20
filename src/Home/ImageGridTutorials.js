@@ -27,11 +27,11 @@ export default function QuiltedImageList1() {
   return (
     <ImageList
       sx={{
-        width: '100%',
+        width: '100',
         height: '100%',
         maxHeight: '100vh',
         overflowY: 'auto', // Enables scrolling
-        
+        borderRadius: '20px',
       }}
       variant="quilted"
       cols={4}

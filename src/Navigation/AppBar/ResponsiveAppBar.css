@@ -1,6 +1,6 @@
 /* Remove the jiggle animation */
 
-@media (max-width: 1400px) {
+@media (max-width: 1500px) {
   .responsive-button {
     padding: 0.4rem;
     font-size: 0.9rem;

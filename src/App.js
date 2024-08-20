@@ -133,7 +133,7 @@ function App() {
   useEffect(() => {
     initGA();
     logPageView('');
-  }, []);
+}, []);
 
 
   return (
@@ -146,11 +146,9 @@ function App() {
           <link rel="canonical" href="http://jackiewyers.beauty" />
         </Helmet>
         <Routes>
-          <Route path="/" element={<Layout isHomePage={true} />}>
+          <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />} />
-          </Route>
-          <Route path="about" element={<Layout isHomePage={false} />}>
-            <Route index element={<About />} />
+            <Route path="about" element={<About />} />
             <Route path="tutorials" element={<NewTutorials />} />
             <Route path="popculture" element={<PopCultureView />} />
             <Route path="timetraveltutorials" element={<VintageVibes />} />

@@ -149,20 +149,14 @@ function HomePage() {
         )}
 
         {!isMobile && (
-          <Grid item xs={12}>
+          <Grid item xs={12} >
             <Suspense fallback={<div className="spinner"></div>}>
               <QuiltedImageList1 />
             </Suspense>
           </Grid>
         )}
 
-        {!isMobile && (
-          <Grid item xs={12}>
-            <Suspense fallback={<div className="spinner"></div>}>
-              <QuoteBanner3 />
-            </Suspense>
-          </Grid>
-        )}
+
 
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>

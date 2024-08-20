@@ -1,6 +1,7 @@
 .quoteBanner {
   width: 100%;
-  padding: 2.5rem;
+  min-height: 2rem;
+  padding: 5rem 0;
   background-color: #FDEDEF; /* Example background color, adjust as needed */
   text-align: center;
   border-radius: 5px;
