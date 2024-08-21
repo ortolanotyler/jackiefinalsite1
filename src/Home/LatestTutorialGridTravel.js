@@ -11,10 +11,10 @@ const image4 = `${process.env.PUBLIC_URL}/Images/Articles/DiaryPost1/DIARYSQUARE
 
 const LatestTravelGrid = () => {
   const items = [
-    { id: 1, title: 'The Ultimate 2025 Wedding Dress Guide', img: image1, link: '/weddingdressguide' },
-    { id: 2, title: 'No-Makeup Makeup from Period Dramas', img: image2, link: '/perioddrama' },
-    { id: 4, title: 'Trend Report : Latte Makeup', img: image4, link: '/lattemakeup' },
-    { id: 3, title: "Grace Kelly's Old Hollywood Glam", img: image3, link: '/gracekelly' },
+    { id: 1, title: 'A Summer Getaway At Hotel Quintessence', img: image1, link: '/hotelquintessance' },
+    { id: 2, title: 'A Whimsical Week Exploring Auckland', img: image2, link: '/newzealand' },
+    { id: 3, title: 'A Magical Visit to Epcot', img: image3, link: '/epcot' },
+    { id: 4, title: "Beyond The Surface : Self-Acceptance", img: image4, link: '/diaryfillers' },
   ];
 
   const viewAllRef = useRef(null);
