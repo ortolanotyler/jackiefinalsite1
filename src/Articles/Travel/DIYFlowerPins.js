@@ -194,10 +194,7 @@ const listStyle = {
           BEAUTY // BRIDAL
         </a>
       </div>
-      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
-      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-
-</p>
+    
 
       <img src={title} alt="DIY Flower Pins for a Mamma Mia Inspired Wedding" style={{ marginBottom: '2rem',width: '100%' }} />
    
@@ -219,7 +216,10 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 
 </div>
 
+<p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
+      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
 
+</p>
 
 <div style = {{textAlign: 'center', marginTop: '2rem' }}>
 <SubscribeButton />

@@ -89,7 +89,7 @@ export default function EmailSubscribe() {
                   By submitting, you agree to our <a href="/privacy" target="_blank" style={{ color: '#745B4F', textDecoration: 'underline' }}>Privacy Policy</a>.
                 </Typography>
               </Grid>
-              {error && (
+              {error && ( 
                 <Grid item xs={12}>
                   <Alert severity="error">{error}</Alert>
                 </Grid>

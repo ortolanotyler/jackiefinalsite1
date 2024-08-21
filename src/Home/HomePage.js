@@ -1,4 +1,7 @@
-import React, { useEffect, lazy, Suspense, useRef, useState } from 'react';
+import React, { useEffect, lazy, Suspense, useRef, useState, useMemo } from 'react';
+
+
+
 import { Grid, Box, Paper, ThemeProvider, createTheme, useMediaQuery, Typography } from '@mui/material';
 import { debounce } from 'lodash';
 import { Helmet } from 'react-helmet';
@@ -26,20 +29,17 @@ const Quiz2 = lazy(() => import('../Quiz/Quiz2'));
 const theme = createTheme();
 
 function HomePage() {
-  useEffect(() => {
-    if (window.gtag) {
-      window.gtag('config', 'G-RT6GR7JXYG', {
-        page_path: window.location.pathname,
-      });
-    }
-  }, []);
-  
+ 
+  const quizzesRef = useRef(null);
+  const outfitsRef = useRef(null);
+
+  // Memoize the viewAllRefs object itself, not the refs inside
+  const viewAllRefs = useMemo(() => ({
+    quizzes: quizzesRef,
+    outfits: outfitsRef,
+  }), []);
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
-  const viewAllRefs = {
-    quizzes: useRef(null),
-    outfits: useRef(null),
-  };
 
   const [isJiggling, setIsJiggling] = useState({
     quizzes: false,
@@ -72,9 +72,9 @@ function HomePage() {
     styleSheet.type = "text/css";
     styleSheet.innerText = keyframes;
     document.head.appendChild(styleSheet);
-
+  
     const observers = {};
-
+  
     Object.keys(viewAllRefs).forEach((key) => {
       observers[key] = new IntersectionObserver(
         ([entry]) => {
@@ -89,12 +89,12 @@ function HomePage() {
           threshold: 0.1,
         }
       );
-
+  
       if (viewAllRefs[key].current) {
         observers[key].observe(viewAllRefs[key].current);
       }
     });
-
+  
     return () => {
       Object.keys(observers).forEach((key) => {
         if (viewAllRefs[key].current) {
@@ -107,27 +107,29 @@ function HomePage() {
   return (
     <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
       <Helmet>
-        <title>Jackie Wyers Beauty</title>
-        <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
-        <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
-        <script data-ad-client="ca-pub-4660168246825318" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <title>Jackie Wyers Beauty</title>
+  <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
+  <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG', {
+        page_path: window.location.pathname,
+      });
+    `}
+  </script>
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" as="style" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" />
+  <link rel="preload" href="/css/HomePage.css" as="style" />
+  <link rel="stylesheet" href="/css/HomePage.css" />
+  <link rel="canonical" href="https://jackiewyers.beauty/" />
+</Helmet>
 
-        <link rel="preload" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" as="style" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" />
-        <link rel="preload" href="/css/HomePage.css" as="style" />
-        <link rel="stylesheet" href="/css/HomePage.css" />
-        <link rel="canonical" href="https://jackiewyers.beauty/" />
-      </Helmet>
 
       <Grid container spacing={1} justifyContent="center">
         <Grid item xs={12}>
