@@ -94,6 +94,7 @@ import Elizabeth from './Quiz/QuizResultPages/Quiz3/Elizabeth';
 import Porsha from './Quiz/QuizResultPages/Quiz3/Porsha';
 import WeddingDressGuide from './Quiz/QuizResultPages/Quiz3/WeddingDressGuide';
 import DIYFlowers from './Articles/Travel/DIYFlowerPins';
+import QuiltedImageList1 from './Home/ImageGridTutorials';
 import ParisianChic from './Shop/ShopMyHomeLinks/ParisianChic';
 import VaticanSlay from './Shop/ShopMyHomeLinks/VaticanSlay';
 import WalkingWaiheke from './Shop/ShopMyHomeLinks/WalkingWaiheke';
