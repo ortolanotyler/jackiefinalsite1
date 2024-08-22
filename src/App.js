@@ -38,6 +38,7 @@ import Quiz1 from './Quiz/Quiz1';
 import NewTutorials from './Articles/Tutorials/HomeTutorials';
 import VintageVibes from './Articles/Tutorials/VintageVibes/VintageHome';
 import PopCultureView from './Articles/Tutorials/PopCulture/PopCulture';
+import ReviewHomePage from './ReviewsPage/ReviewArticlesHome';
 import TravelArticlesHome from './Travel/TravelArticlesHome';
 import MyStyle from './Shop/MyStyle';
 import VintageVibesMerch from './Shop/VintageVibesMerch';
@@ -81,6 +82,7 @@ import ReviewArticleListHome from './ReviewsPage/ReviewArticleListHomePage';
 import BridalMakeup from './Articles/Tutorials/Trending/BridalMakeup';
 import PeriodDrama from './Articles/Tutorials/PopCulture/PeriodDrama';
 import FairytaleWedding from './Articles/Travel/FairytaleWedding';
+import Eeebridal from './Articles/Tutorials/eeebridal';
 import BridalHome from './Articles/Tutorials/BridalHome';
 import BardotHairstyles from './Articles/Tutorials/VintageVibes/BardotHairstyles';
 import HotelQ2 from './Articles/Travel/HotelQ2';
@@ -194,7 +196,6 @@ function App() {
             <Route path="diaryfillers" element={<DiaryPost1Fillers />} />
             <Route path="sitemap" element={<Sitemap />} />
             <Route path="subscribe" element={<EmailSubscribe />} />
-
             <Route path="emailsubscribe" element={<EmailSubscribe />} />
             <Route path="email123" element={<EmailList />} />
             <Route path="press" element={<MediaKit />} />
@@ -213,7 +214,7 @@ function App() {
             <Route path="summerinspo" element={<SummerInspo />} />
             <Route path="videos" element={<VideoGridPage />} />
             <Route path="newzealand" element={<NewZealand />} />
-            <Route path="fable" element={<Fable/>} />
+            <Route path="fable" element={<Fable />} />
             <Route path="summerbeauty" element={<SummerBeauty />} />
             <Route path="bridesmaidboxes" element={<DiaryBridesmaids />} />
             <Route path="latestexplorer" element={<LatestExplorer />} />
@@ -223,35 +224,33 @@ function App() {
             <Route path="bridal" element={<BridalHome />} />
             <Route path="bridalmakeup" element={<BridalMakeup />} />
             <Route path="bardothairstyles" element={<BardotHairstyles />} />
-            <Route path="hotelquintessancesummer" element={<HotelQ2/>} />
-            <Route path="quiz3" element={<Quiz3/>} />
-            <Route path="bacarra" element={<Bacarra/>} />
-            <Route path="abril" element={<Abril/>} />
-            <Route path="percy" element={<Percy/>} />
-            <Route path="ora" element={<Ora/>} />
-            <Route path="zara" element={<Zara/>} />
-            <Route path="elizabeth" element={<Elizabeth/>} />
-            <Route path="porsha" element={<Porsha/>} />
-            <Route path="weddingdressguide" element={<WeddingDressGuide/>} />
-            <Route path="diy-flowers" element={<DIYFlowers/>} />
-            <Route path="parisianchic" element={<ParisianChic/>} />
-            <Route path="vaticanslay" element={<VaticanSlay/>} />
-            <Route path="walkingwaiheke" element={<WalkingWaiheke/>} />
-            <Route path="princesscoreparis" element={<PrincessCoreParis/>} />
-            <Route path="polkadot" element={<PolkaDotMoment/>} />
-            <Route path="trevifountain" element={<ItalianFountain/>} />
-            <Route path="summerset" element={<SummerSet/>} />
-            <Route path="houndstooth" element={<HoundstoothSet/>} />
-            <Route path="metsteps" element={<MetSteps/>} />
-            <Route path="paris-in-nyc" element={<ParisInNYC/>} />
-            <Route path="floral-mini" element={<FloralMini/>} />
-            <Route path="folklore-fairy" element={<FolkloreFairy/>} />
-            <Route path="hero-section" element={<HeroSection/>} />
-            <Route path="articles-section" element={<ImageGrid/>} />
-            <Route path="camera-settings" element={<CameraSettings/>} />
-            <Route path="emily-in-paris" element={<EmilyInParis/>} />
-
-
+            <Route path="hotelquintessancesummer" element={<HotelQ2 />} />
+            <Route path="quiz3" element={<Quiz3 />} />
+            <Route path="bacarra" element={<Bacarra />} />
+            <Route path="abril" element={<Abril />} />
+            <Route path="percy" element={<Percy />} />
+            <Route path="ora" element={<Ora />} />
+            <Route path="zara" element={<Zara />} />
+            <Route path="elizabeth" element={<Elizabeth />} />
+            <Route path="porsha" element={<Porsha />} />
+            <Route path="weddingdressguide" element={<WeddingDressGuide />} />
+            <Route path="diy-flowers" element={<DIYFlowers />} />
+            <Route path="parisianchic" element={<ParisianChic />} />
+            <Route path="vaticanslay" element={<VaticanSlay />} />
+            <Route path="walkingwaiheke" element={<WalkingWaiheke />} />
+            <Route path="princesscoreparis" element={<PrincessCoreParis />} />
+            <Route path="polkadot" element={<PolkaDotMoment />} />
+            <Route path="trevifountain" element={<ItalianFountain />} />
+            <Route path="summerset" element={<SummerSet />} />
+            <Route path="houndstooth" element={<HoundstoothSet />} />
+            <Route path="metsteps" element={<MetSteps />} />
+            <Route path="paris-in-nyc" element={<ParisInNYC />} />
+            <Route path="floral-mini" element={<FloralMini />} />
+            <Route path="folklore-fairy" element={<FolkloreFairy />} />
+            <Route path="hero-section" element={<HeroSection />} />
+            <Route path="articles-section" element={<ImageGrid />} />
+            <Route path="camera-settings" element={<CameraSettings />} />
+            <Route path="emily-in-paris" element={<EmilyInParis />} />
             <Route path="*" element={<h1>404 Not Found</h1>} />
           </Route>
         </Routes>
