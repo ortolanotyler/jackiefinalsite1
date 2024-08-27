@@ -40,7 +40,13 @@ const TravelArticlesHome = () => {
                     marginBottom: '1rem',
                 }}
             >
-                <TextReveal
+                   <TextReveal
+                text="ITINERARIES"
+
+                fontFamily="Italianno, cursive"
+            />
+            <ExperiencesList />
+            <TextReveal
                     text="HOTEL REVIEWS"
 
                     fontFamily="Italianno, cursive"
@@ -49,12 +55,7 @@ const TravelArticlesHome = () => {
             <div>
                 <TravelArticlesList />
             </div>
-            <TextReveal
-                text="ITINERARIES"
-
-                fontFamily="Italianno, cursive"
-            />
-            <ExperiencesList />
+         
             <TextReveal text="SAVE MONEY BOOKING WITH PLANNIN'" />
             <div style={{
                 textAlign: 'center',

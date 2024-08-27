@@ -11,7 +11,16 @@ const westgate = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/
 const prince = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWalesThumbnail.jpeg`;
 const aukland = `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/NZThumbnail.jpg`;
 const hotelq2 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ2/1.jpg`;
+const rome = `${process.env.PUBLIC_URL}/Images/Articles/Rome/47.JPG`;
+
+
 const articles = [
+    {
+        date: '21/08/2024',
+        title: 'Our Romantic Three Day Rome Itinerary  ',
+        image: rome,
+        path: '/rome',
+    },
     {
         date: '04/07/2024',
         title: 'Mont Tremblant | A Summertime Gem',

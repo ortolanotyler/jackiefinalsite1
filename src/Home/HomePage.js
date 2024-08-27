@@ -14,6 +14,7 @@ import ReviewFavorites1 from './ReviewFavorites';
 import HeroSection2 from './HeroSection2';
 import HeroSection3 from './HeroSection3';
 import HeroSection from './HeroSection';
+import HeroSection4 from './HeroSection4';
 
 const TextReveal = lazy(() => import('../Components/TextReveal'));
 const EmailSubscribe = lazy(() => import('../Components/EmailSubscribe'));
@@ -177,9 +178,15 @@ function HomePage() {
             <HeroSection2 />
           </Suspense>
         </Grid>
+        
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
             <HeroSection3 />
+          </Suspense>
+        </Grid>
+        <Grid item xs={12}>
+          <Suspense fallback={<div className="spinner"></div>}>
+            <HeroSection4 />
           </Suspense>
         </Grid>
 

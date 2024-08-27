@@ -1,0 +1,39 @@
+   
+   
+  
+  
+ 
+
+ 
+
+   
+ 
+  
+
+    <h2 style={headingStyle}>Day 3: Souvenir Shopping & Farewell Rome</h2>
+    <p style={paragraphStyle}>
+      On our last day in Rome, we took it easy, wandering around to pick up souvenirs. I always wait until the last day to make sure I’m confident in my purchases. I found adorable party favours for the wedding, like little limoncello bottles and lemon candies, at a store called Limon’e. While the store was super fun, I later discovered that similar items were much cheaper in Sorrento, so if you’re traveling to multiple destinations in Italy, keep that in mind!
+    </p>
+    <p style={paragraphStyle}>
+      Some classic souvenirs from Rome include leather goods, handmade sandals, Murano glass (originating from Venice but found in Rome as well) and beautiful postcards—perfect for journaling. If you’re into quirky finds, there’s a shop full of rubber ducks near the Trevi Fountain that’s worth a visit! Luckily, I waited to purchase leather goods in Sorrento!
+    </p>
+    <p style={paragraphStyle}>
+      My Rome Souvenirs
+    </p>
+    <p style={paragraphStyle}>
+      After one last stroll around the city, we capped off our Roman adventure by taking a taxi to the train station. From there, we hopped on a train to Naples. If you’re looking to splurge on a souvenir, there’s a Bricks Milano store at the Naples terminal for gorgeous leather luggage, but I decided to save it for another trip.
+    </p>
+    <p style={paragraphStyle}>
+      <a href="your-shop-link" style={{ color: 'blue', textDecoration: 'underline' }}>Shop my link</a>
+    </p>
+    <p style={paragraphStyle}>
+      We took a cab to the ferry and made our way to the breathtaking shores of Sorrento. Cab drivers may pressure you into taking them the whole way, but I recommend sticking to the ferry—it’s cheaper and offers stunning views as you approach Sorrento. The driving in Naples is nuts!
+    </p>
+
+    <h2 style={headingStyle}>Capturing the Romance of Rome 🇮🇹</h2>
+    <p style={paragraphStyle}>
+      If you’re visiting Rome, take the time to slow down and truly savour the experience—there’s so much beauty, incredible Italian food, and while it’s undeniably touristy, the vibes are amazing. People from all over the world are sharing in the joy of what, for many, is a once-in-a-lifetime trip. Be sure to toss a coin into the fountain to come back again! The love in the air is palpable and we found that people were always happy to offer to take a photo of Tyler and me, and we gladly returned the favour. Rome is filled with smiles and good vibes.
+    </p>
+    <p style={paragraphStyle}>
+      Stay tuned for all the details on what we got up to in Sorrento. I hope you enjoyed this read and picked up a few travel tips from our experience. If you have any tips, tricks, or suggestions for travellers in Rome, be sure to comment down below—I’d love to hear your thoughts!
+    </p>

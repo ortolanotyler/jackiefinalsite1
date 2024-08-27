@@ -46,13 +46,13 @@
   font-family: "GFS Didot", sans-serif;
   font-size: 1.25rem;
   color: #745B4F;
-  margin-bottom: 0.25rem;
+  margin-bottom: 1rem;
 }
 
 .read-more {
   font-family: "GFS Didot", sans-serif;
   font-size: 0.95rem;
-  padding: 1rem 1.5rem;
+  padding: 0.75rem 1.25rem;
   cursor: pointer;
   border: none;
   border-radius: 0.5rem;

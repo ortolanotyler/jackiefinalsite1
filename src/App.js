@@ -114,6 +114,7 @@ import HeroSection from './Home/HeroSection';
 import DiaryHome from './DiaryHome/diaryhome';
 import CameraSettings from './Articles/Tutorials/PopCulture/CameraSettings';
 import EmilyInParis from './Articles/Tutorials/PopCulture/EmilyInParis';
+import Rome from './Articles/Travel/Rome';
 
 function usePageTracking() {
   const location = useLocation();
@@ -251,6 +252,8 @@ function App() {
             <Route path="articles-section" element={<ImageGrid />} />
             <Route path="camera-settings" element={<CameraSettings />} />
             <Route path="emily-in-paris" element={<EmilyInParis />} />
+            <Route path="rome" element={<Rome />} />
+
             <Route path="*" element={<h1>404 Not Found</h1>} />
           </Route>
         </Routes>
