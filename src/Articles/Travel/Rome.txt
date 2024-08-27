@@ -10,25 +10,10 @@
  
   
 
-    <h2 style={headingStyle}>Day 3: Souvenir Shopping & Farewell Rome</h2>
-    <p style={paragraphStyle}>
-      On our last day in Rome, we took it easy, wandering around to pick up souvenirs. I always wait until the last day to make sure I’m confident in my purchases. I found adorable party favours for the wedding, like little limoncello bottles and lemon candies, at a store called Limon’e. While the store was super fun, I later discovered that similar items were much cheaper in Sorrento, so if you’re traveling to multiple destinations in Italy, keep that in mind!
-    </p>
-    <p style={paragraphStyle}>
-      Some classic souvenirs from Rome include leather goods, handmade sandals, Murano glass (originating from Venice but found in Rome as well) and beautiful postcards—perfect for journaling. If you’re into quirky finds, there’s a shop full of rubber ducks near the Trevi Fountain that’s worth a visit! Luckily, I waited to purchase leather goods in Sorrento!
-    </p>
-    <p style={paragraphStyle}>
-      My Rome Souvenirs
-    </p>
-    <p style={paragraphStyle}>
-      After one last stroll around the city, we capped off our Roman adventure by taking a taxi to the train station. From there, we hopped on a train to Naples. If you’re looking to splurge on a souvenir, there’s a Bricks Milano store at the Naples terminal for gorgeous leather luggage, but I decided to save it for another trip.
-    </p>
-    <p style={paragraphStyle}>
-      <a href="your-shop-link" style={{ color: 'blue', textDecoration: 'underline' }}>Shop my link</a>
-    </p>
-    <p style={paragraphStyle}>
-      We took a cab to the ferry and made our way to the breathtaking shores of Sorrento. Cab drivers may pressure you into taking them the whole way, but I recommend sticking to the ferry—it’s cheaper and offers stunning views as you approach Sorrento. The driving in Naples is nuts!
-    </p>
+  
+
+   
+ 
 
     <h2 style={headingStyle}>Capturing the Romance of Rome 🇮🇹</h2>
     <p style={paragraphStyle}>
