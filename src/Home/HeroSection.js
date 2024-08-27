@@ -31,6 +31,8 @@ const HeroSection = () => {
   
   const textContentStyle = {
     flex: 1,
+    maxWidth: '500px',
+
     paddingRight: isSmallScreen ? '0' : '40px',
     maxWidth: isSmallScreen ? '100%' : '600px', // Adjusted max-width to ensure proper centering
     margin: '0 auto',  // Ensures content is centered
