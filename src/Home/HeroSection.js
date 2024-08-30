@@ -23,70 +23,67 @@ const HeroSection = () => {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    padding: '1rem 2rem',
+    padding: '1rem 1rem',
     minHeight: '80vh',
-    flexDirection: isSmallScreen ? 'column' : 'row',
+    flexDirection: isSmallScreen ? 'column-reverse' : 'row', // Change to column-reverse for small screens
     flexWrap: 'wrap',
   };
-  
+
   const textContentStyle = {
     flex: 1,
+    paddingLeft: isSmallScreen ? '0' : '40px', // Add padding on the left for larger screens
     maxWidth: '500px',
-
-    paddingRight: isSmallScreen ? '0' : '40px',
-    maxWidth: isSmallScreen ? '100%' : '600px', // Adjusted max-width to ensure proper centering
-    margin: '0 auto',  // Ensures content is centered
     textAlign: 'center',  // Center text on all screens
     fontFamily: 'GFS Didot, serif',
   };
-  
+
   const featureStyle = {
     fontSize: '14px',
-    textAlign: 'center',
     fontWeight: 'bold',
     letterSpacing: '1px',
     marginBottom: '10px',
     fontFamily: 'GFS Didot, serif',
+    minHeight: '20px',
   };
-  
+
   const headlineStyle = {
     fontSize: '32px',
     lineHeight: 1.2,
     marginBottom: '20px',
     fontFamily: 'GFS Didot, serif',
-    textAlign: 'center',  // Ensures headline is centered
+    minHeight: '50px',
   };
-  
+
   const subtextStyle = {
     fontSize: '16px',
     lineHeight: 1.5,
     marginBottom: '20px',
     fontFamily: 'GFS Didot, serif',
     color: '#333',
-    textAlign: 'center',  // Ensures subtext is centered
+    minHeight: '70px',
   };
-  
+
   const authorStyle = {
     fontSize: '14px',
     fontStyle: 'italic',
     color: '#555',
     fontFamily: 'GFS Didot, serif',
-    textAlign: 'center',  // Ensures author is centered
+    minHeight: '20px',
   };
-  
+
   const imageContentStyle = {
     flex: 1,
-    textAlign: isSmallScreen ? 'center' : 'right',
+    textAlign: isSmallScreen ? 'center' : 'left', // Center the image on mobile, align left on larger screens
     maxWidth: '500px',
   };
-  
+
   const imageStyle = {
-    margin: '0 auto',
-    width: '100%',  // Ensures the image takes up the proper space
+    width: '100%',
     height: 'auto',
     borderRadius: '5px',
     display: 'block',
   };
+
   
 
   return (
