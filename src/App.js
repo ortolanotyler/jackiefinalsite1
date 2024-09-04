@@ -115,7 +115,7 @@ import DiaryHome from './DiaryHome/diaryhome';
 import CameraSettings from './Articles/Tutorials/PopCulture/CameraSettings';
 import EmilyInParis from './Articles/Tutorials/PopCulture/EmilyInParis';
 import Rome from './Articles/Travel/Rome';
-
+import './App.css';
 function usePageTracking() {
   const location = useLocation();
 

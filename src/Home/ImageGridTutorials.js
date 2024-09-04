@@ -29,9 +29,9 @@ export default function QuiltedImageList1() {
       sx={{
         marginTop: '-.1rem',
         width: '100',
-        maxHeight: '100vh',
-        overflowY: 'auto', // Enables scrolling
-        borderRadius: '20px',
+        maxHeight: '110vh',
+        overflowY: 'hidden', // Enables scrolling
+        borderRadius: '1px',
       }}
       variant="quilted"
       cols={4}
