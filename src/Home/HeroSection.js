@@ -23,15 +23,15 @@ const HeroSection = () => {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    padding: '1rem 1rem',
+    padding: '30px 30px',
     minHeight: '80vh',
-    flexDirection: isSmallScreen ? 'column-reverse' : 'row', // Change to column-reverse for small screens
+    flexDirection: isSmallScreen ? 'column' : 'row',
     flexWrap: 'wrap',
   };
 
   const textContentStyle = {
     flex: 1,
-    paddingLeft: isSmallScreen ? '0' : '40px', // Add padding on the left for larger screens
+    paddingRight: isSmallScreen ? '0' : '40px',
     maxWidth: '500px',
     textAlign: 'center',  // Center text on all screens
     fontFamily: 'GFS Didot, serif',
@@ -73,8 +73,8 @@ const HeroSection = () => {
 
   const imageContentStyle = {
     flex: 1,
-    textAlign: isSmallScreen ? 'center' : 'left', // Center the image on mobile, align left on larger screens
-    maxWidth: '500px',
+    textAlign: isSmallScreen ? 'center' : 'right',
+    maxWidth: '600px',
   };
 
   const imageStyle = {

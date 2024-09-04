@@ -1,0 +1,417 @@
+import React, { useRef, useEffect } from 'react';
+import '../ExampleTutorial1.css';
+import { Comments } from '@hyvor/hyvor-talk-react';
+import TextReveal from '../../Components/TextReveal';
+import AdSenseAd from '../../Advertising/Ads';
+import WeddingCarousel from '../../Components/WeddingCarousel';
+import ResponsiveIframe from '../../Components/ResponsiveIframe';
+import SubscribeButton from '../../Components/SubscribeButton';
+import { initGA, logPageView } from '../../analytics';
+import BridalDropCap from '../../Components/BridalDropCap';
+import { Helmet } from 'react-helmet';
+import DropCap1 from './DropCap1';
+
+
+const title = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/WeddingTitle.png`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/1.jpg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/2.jpg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/3.jpg`;
+const image4 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/4.jpg`;
+const image5 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/5.jpg`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/6.jpg`;
+const image7 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/7.jpg`;
+const image8 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/8.jpg`;
+const image9 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/9.jpg`;
+const image10 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/10.jpg`;
+const image11 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/11.jpg`;
+const image12 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/12.jpg`;
+const image13 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/13.jpg`;
+const image14 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/14.jpg`;
+const image15 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/15.jpg`;
+const image16 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/16.jpg`;
+const image17 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/17.jpg`;
+const image18 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/18.jpg`;
+const image19 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/19.jpg`;
+const image20 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/20.jpg`;
+const image21 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/21.jpg`;
+const image22 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/22.jpg`;
+const image24 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/24.jpg`;
+const image25 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/25.jpg`;
+const image26 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/26.jpg`;
+const image27 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/27.jpg`;
+const image28 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/28.jpg`;
+const image29 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/29.jpg`;
+const image30 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/30.jpg`;
+const image31 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/31.jpg`;
+const image32 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/32.jpg`;
+const image33 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/33.jpg`;
+const image34 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/34.jpg`;
+const image35 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/35.jpg`;
+const image36 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/36.jpg`;
+const image37 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/37.jpg`;
+const image38 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/38.jpg`;
+const image39 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/39.jpg`;
+const image40 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/40.jpg`;
+const image41 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/41.jpg`;
+const image42 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/42.jpg`;
+const image43 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/43.jpg`;
+const image44 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/44.jpg`;
+const image45 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/45.jpg`;
+const image46 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/46.jpg`;
+const image47 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/PressedFlowers.png`;
+const image99 = `${process.env.PUBLIC_URL}/Images/Articles/WeddingCarousel/96.jpg`;
+
+
+
+const bridesmaid = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/BridesmaidBoxThumb!.jpg`;
+const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+
+const Card = ({ blogContent }) => (
+  <div>
+    <div><TextReveal text='BRIDAL' /></div>
+    <div className="card">
+      <div className="blog-content">{blogContent}</div>
+    </div>
+  </div>
+);
+
+const FairytaleWedding = () => {
+  const websiteId = '10910';
+  const blogRef = useRef(null);
+
+  useEffect(() => {
+      initGA();
+      logPageView('/fairytalewedding');
+  }, []);
+
+  const headingStyle = {
+    textAlign: 'center',
+    fontSize: '1.5rem',
+    fontWeight: 'normal',
+    fontFamily: 'Arapey, serif',
+    color: '#333',
+    margin: '1.5rem'
+};
+
+const paragraphStyle = {
+  fontSize: '20px',
+  fontFamily: 'GFS Didot, serif',
+  margin: '1rem 1.5rem',
+  marginTop: '1rem',
+  marginBottom: '1rem',
+  maxWidth: '500px',
+  lineHeight: '1.5',
+  marginLeft: 'auto',
+  marginRight: 'auto',
+};
+
+  const gridContainerStyle = {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+      gap: '1rem',
+      margin: '1rem 0'
+  };
+
+  const imageStyle = {
+      display: 'block',
+      margin: '0 auto',
+      maxWidth: '100%', // Updated to match Fable
+      height: 'auto'
+  };
+
+
+  const blogContent = (
+    <div className="container">
+<Helmet>
+  <title>Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers</title>
+  <meta name="description" content="Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments." />
+  <meta name="keywords" content="Jackie Wyers, wedding, Sorrento, Italy, fairytale wedding, bridal beauty, wedding photography, wedding dress, wedding inspiration, bridal makeup, bridal hair, wedding planning, destination wedding" />
+  
+  <meta property="og:title" content="Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers" />
+  <meta property="og:description" content="Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments." />
+  <meta property="og:image" content={title} />
+  <meta property="og:url" content="https://jackiewyers.beauty/fairytalewedding" />
+  <meta property="og:type" content="article" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers" />
+  <meta name="twitter:description" content="Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments." />
+  <meta name="twitter:image" content={title} />
+  <link rel="canonical" href="https://jackiewyers.beauty/fairytalewedding" />
+
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://jackiewyers.beauty/fairytalewedding"
+      },
+      "headline": "Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers",
+      "description": "Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments.",
+      "image": "${title}",
+      "author": {
+        "@type": "Person",
+        "name": "Jackie Wyers"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Jackie Wyers",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "${title}"
+        }
+      },
+      "datePublished": "2024-07-27",
+      "dateModified": "2024-07-27"
+    }
+    `}
+  </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
+
+
+
+
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
+        <a href="/bridal" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
+          BEAUTY // BRIDAL
+        </a>
+      </div>
+      <img src={title} alt="Our Fairytale Wedding Overlooking Sorrento, Italy" style={{ width: '100%' }} />
+      
+<div style={gridContainerStyle}>
+    <img src={image1} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+</div>
+
+
+<div style = {{textAlign: 'center', marginTop: '1rem' }}>
+<SubscribeButton />
+</div>
+
+
+<div style = {{lineHeight: '1.5rem',maxWidth: '700px', marginLeft: 'auto', marginRight: 'auto'}}>
+<DropCap1 text="If there’s one thing about me, it’s that I take my souvenir purchases
+seriously! I like to browse items for several days when I’m on a trip and
+really think about what I will use the most, what is iconic to the area,
+and what won’t break the bank. While I was deciding what to buy from
+Sorrento, Italy, I actually looked up the best souvenirs in Sorrento. Now that
+I’m back from my trip, I thought I would create my own guide. I hope it’s
+helpful!"
+/>
+</div>
+
+
+
+     
+
+<h2 style={headingStyle}>Why Sorrento? 🍋</h2>
+
+      <p style={paragraphStyle}>
+        Sorrento is one of the most picturesque places in Italy, known for its stunning landscapes, rich cultural heritage, and vibrant shopping scene. My husband Tyler and I had our wedding here, and if you want to read all about that, check out our fairytale wedding article here. We loved Sorrento so much that we extended our stay, which was perfect because it gave me more time to think about my purchases!
+      </p>
+
+      <div style={gridContainerStyle}>
+    <img src={image2} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+</div>
+
+      <h2 style={headingStyle}>Painterly Postcards 🎨</h2>
+      <p style={paragraphStyle}>
+        One of the most inexpensive souvenirs—and one of my favorite keepsakes—are the stunning painterly postcards you can find in Sorrento. There are many different styles, but I was particularly drawn to the landscapes. I love adding these to photo albums and journals. They also make beautiful gifts for family and friends, especially if you write heartfelt notes on the back. It’s a simple yet meaningful souvenir, and Sorrento’s postcards are a cut above those you might find elsewhere.
+      </p>
+
+      <div style={gridContainerStyle}>
+    <img src={image3} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+</div>
+
+      <h2 style={headingStyle}>Sorrento Music Boxes 🎶</h2>
+      <p style={paragraphStyle}>
+        A Sorrento music box is a beautiful and timeless keepsake. These can range in price, from moderate to very luxurious. I chose a smaller box featuring ballerinas because the dress reminded me of my second wedding dress. I instantly knew I had to have it! Now, it holds my sentimental jewelry from the wedding. These boxes are famous for their intricate designs with inlaid wood, representing the artistic heritage of Sorrento.
+      </p>
+ <div style={gridContainerStyle}>
+    <img src={image4} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+    <img src={image5} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+</div>
+    
+      <h2 style={headingStyle}>Leather Goods 🧳</h2>
+      <p style={paragraphStyle}>
+        If you’re willing to haggle, visiting a leather store for items like a travel bag can be a fantastic purchase—high-quality and perfect for future trips. My husband chose a leather travel bag as his souvenir. My first thought when I saw this jacket and scarf combo was - that is so Serena van der Woodsen in the pilot episode!
+      </p>
+      <p style={paragraphStyle}>
+
+      Speaking of Italy and leather goods, if you’re passing through
+Naples Airport, you can find luxurious leather suitcases from
+Bric’s Milano at a much lower price than you would in North
+America. 
+</p>
+
+SHOP MY 
+
+<div style={gridContainerStyle}>
+    <img src={image6} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+</div>
+<div style={gridContainerStyle}>
+    <img src={image7} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+</div>
+<div style={gridContainerStyle}>
+    <img src={image8} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+</div>
+
+
+
+      <h2 style={headingStyle}>Ballerina Flats from Balleri 🩰</h2>
+      <p style={paragraphStyle}>
+        A cute shop that stands out in Sorrento is Balleri, which offers beautiful leather flats, bags, and scarves. If you’re looking for shoes with European flair, flats are a great investment—they always look chic, whether you’re wearing a cute dress or jeans.
+      </p>
+
+    <div style={gridContainerStyle}>
+    <img src={image9} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+</div>
+<div style={gridContainerStyle}>
+    <img src={image10} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+</div>
+
+
+      <h2 style={headingStyle}>Positano Shopping 🌺</h2>
+      <p style={paragraphStyle}>
+        If you’re in Sorrento, a trip to Positano is a must. The shopping can be quite expensive along the strip, but you’ll find amazing lemon-scented candles and perfume box sets. Don’t miss CB Positano, a viral store on Instagram that embodies the chic, bohemian vibe of the Amalfi Coast. I’m obsessed! I’ve been using my comfortable patchwork purse all summer, and it reminds me of the fun shopping day I had there.
+      </p>
+
+      <div style={gridContainerStyle}>
+    <img src={image11} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+</div>
+<div style={gridContainerStyle}>
+    <img src={image12} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+</div>
+
+
+      <h2 style={headingStyle}>Ceramics and Majolica 🍇</h2>
+      <p style={paragraphStyle}>
+        You can also find beautiful colorful ceramics and majolica (a type of glazed pottery). These beautifully painted items range from plates and bowls to decorative tiles and vases, often featuring traditional Mediterranean designs. They make stunning decorative pieces for any home and are a true representation of Sorrento’s artistic heritage.
+      </p>
+
+      <div style={gridContainerStyle}>
+    <img src={image13} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+</div>
+<div style={gridContainerStyle}>
+    <img src={image14} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+</div>
+
+      <h2 style={headingStyle}>Capri Bell Charms 🔔</h2>
+      <p style={paragraphStyle}>
+        Another awesome day trip is taking a ferry to Capri! You’ll find the Capri Bell store in both Sorrento and Capri, offering a variety of bell charms and other dainty, lemon-themed jewelry. According to local lore, the Capri bell is a symbol of good luck, rooted in a legend where a shepherd boy was guided to safety by the sound of a bell.
+      </p>
+
+      <h2 style={headingStyle}>Additional Must-Have Souvenirs!</h2>
+
+
+      <div style={gridContainerStyle}>
+    <img src={image15} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+</div>
+<div style={gridContainerStyle}>
+    <img src={image16} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+</div>
+
+<h2 style = {headingStyle}>
+Anything Lemon Themed!🍋 
+</h2>
+        
+        <p style={paragraphStyle}>
+        No visit to Sorrento is complete without trying its famous limoncello. This sweet lemon liqueur is a perfect souvenir to bring home if you are a fan of alcohol. Available in beautifully packaged bottles, limoncello makes a delightful gift or a personal indulgence to enjoy later. Not a fan of alcohol like me? Try the lemon scented candles and fragrances as well!
+      </p>
+
+      <h2 style={headingStyle}>Olive Oil and Gourmet Food Items 🫒</h2>
+      <p style={paragraphStyle}>
+        If you’re shopping for a foodie, olive oil and gourmet food items are fantastic purchases! The region produces high-quality olive oil, which is a fantastic culinary souvenir. Additionally, you can find other gourmet items such as locally made pasta, pesto, and preserves.
+      </p>
+
+      <div style={gridContainerStyle}>
+    <img src={image17} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+</div>
+
+<p style={paragraphStyle}>
+
+I hope this guide helps you narrow down your souvenir choices
+in Sorrento and that you are having an amazing trip! Let me
+know if you found something special on your travels by
+commenting below.
+
+</p>
+
+
+<p style={paragraphStyle}>
+
+If you want to keep reading, my husband and I got married in
+Sorrento and you can see all the details from planning, details,
+wedding dresses and more in the following article below.
+</p>
+
+<div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={next} alt="Travel Content" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          MORE TRAVEL CONTENT →
+        </a>
+      </div>
+
+
+       <div>
+        <img src={signature} alt="Jackie Wyers Signature XoXo" style={{ width: '100%' }} />
+      </div>
+     
+    
+
+      <Comments website-id={websiteId} page-id={"Sorrento-Souvenirs"} />
+
+      <div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+
+<div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+<div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+      
+    </div>
+    
+  );
+
+  return (
+    <div ref={blogRef}>
+      <Card
+        title="Best Sorrento Souvenirs"
+        description="Leather, Music Boxes, Flats, Oh Me!"
+        blogContent={blogContent}
+      />
+    </div>
+  );
+};
+
+export default Sorrento1;
