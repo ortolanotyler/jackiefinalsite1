@@ -9,6 +9,7 @@ import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
  
 
@@ -119,8 +120,14 @@ const paragraphStyle = {
           BEAUTY // POP CULTURE // MOVIES
         </a>
       </div>
-      <img src={title} alt="Barbie Movie Title" style={{ width: '100%' }} />
-
+      <div>
+      <ArticleTitle
+  mainTitle="Margot Robbie Barbie Movie Makeup Tutorial"
+  subTitle="Recreate the Iconic Barbie Makeup Look with Jackie Wyers"
+  author="Jackie Wyers"
+/>
+      </div>
+      
       <ResponsiveYoutube src="https://www.youtube.com/embed/JfaND9n9ZCU?si=NfJyPeNlC3qzl6tp" title="Margot Robbie Barbie Movie - Jackie Wyers" />
 
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>

@@ -13,6 +13,7 @@ import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import BookNowButton from '../../Components/BookNowButton';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import DropCap1 from './DropCap1';
+import ArticleTitle from '../../Components/ArticleTitle';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ2/HotelQTitle2.png`;
@@ -178,8 +179,14 @@ const imageStyle = {
           TRAVEL // QUEBEC
         </a>
       </div>
-      <img src={title} alt="A Summer Getaway at Hotel Quintessence" style={{ width: '100%' }} />
- 
+      <div>
+      <ArticleTitle
+  mainTitle="Hotel Quintessence"
+  subTitle="A hidden gem of summer in Canada"
+  author="Jackie Wyers"
+/> 
+      </div>
+     
       <ResponsiveYoutube src="https://www.youtube.com/embed/X8CZPDupmNs?si=PfgHust_BquKsbkO" title="YouTube video player" />
 
 <div 

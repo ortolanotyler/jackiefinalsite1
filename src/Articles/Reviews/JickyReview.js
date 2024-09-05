@@ -7,6 +7,7 @@ import TextReveal from '../../Components/TextReveal';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
+import ArticleTitle from '../../Components/ArticleTitle';
 
 
 ReactGA.initialize('UA-8215441435-Y'); // Replace with your actual Google Analytics tracking ID
@@ -136,8 +137,11 @@ const JickyReview = () => {
             BEAUTY // REVIEWS
                 </a>
             </div>
-            <img src={title} alt="Sophia Loren in Arabesque" style={imageStyle} />
-
+            <ArticleTitle
+  mainTitle="Jicky by Guerlain Perfume Review"
+  subTitle="A Timeless Elegance and Pioneering Spirit"
+  author="Jackie Wyers"
+/>
             <div style={imageContainerStyle}>
                 <img src={jicky2} alt="Sophia Loren in Arabesque" style={imageStyle} />
             </div>

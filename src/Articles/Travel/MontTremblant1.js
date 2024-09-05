@@ -9,6 +9,7 @@ import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
+import ArticleTitle from '../../Components/ArticleTitle';
 
 
 
@@ -134,8 +135,14 @@ const MontTremblantBlog = () => {
                     TRAVEL // ITINERARIES
                 </a>
             </div>
-            <img src={title} alt="Mont Tremblant" style={{ width: '100%' }} />
-
+            <div> 
+            <ArticleTitle
+  mainTitle="Mont Tremblant Travel Guide"
+  subTitle="A Romantic Getaway in Quebec's Ski Village"
+  author="Jackie Wyers"
+/>
+            </div>
+           
             <ResponsiveYoutube src="https://www.youtube.com/embed/4lDCreVFqAw?si=0X5e_MzsoCeTGhxM" title="YouTube video player" />
 
             <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>

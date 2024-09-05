@@ -10,6 +10,7 @@ import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
+import ArticleTitle from '../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceTitle.png`;
 
@@ -136,8 +137,14 @@ const PrinceOfWales = () => {
                     TRAVEL // HOTEL REVIEWS
                 </a>
             </div>
-            <img src={title} alt="Prince of Wales Hotel" style={{ width: '100%' }} />
-
+            <div>
+            <ArticleTitle
+  mainTitle="Prince of Wales Hotel Review"
+  subTitle="A luxurious weekend getaway at Niagara-on-the-Lake"
+  author="Jackie Wyers"
+/>
+            </div>
+           
             <ResponsiveYoutube src="https://www.youtube.com/embed/qIAMUI6Enz0?si=IODG7kkuWSOxLfIa" title="YouTube video player" />
 
             <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>

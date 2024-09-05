@@ -10,6 +10,7 @@ import SubscribeVlog from '../../Components/SubscribeVlog';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
+import ArticleTitle from '../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/westgatetitle.png`;
 
@@ -143,8 +144,11 @@ const WestGateHotelBlog = () => {
                     TRAVEL // HOTEL REVIEWS
                 </a>
             </div>
-            <img src={title} alt="Westgate Hotel Title" style={{ width: '100%' }} />
-
+            <ArticleTitle
+  mainTitle="The Westgate Hotel - San Diego Review"
+  subTitle="A luxurious weekend getaway filled with Bridgerton-inspired elegance"
+  author="Jackie Wyers"
+/>
             <ResponsiveYoutube src="https://www.youtube.com/embed/H1VUDOqCo3s?si=Ej5ug_TV3qatoDOk" title="YouTube video player" />
 
             <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>

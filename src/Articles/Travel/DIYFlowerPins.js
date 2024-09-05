@@ -10,6 +10,7 @@ import { Helmet } from 'react-helmet';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import DropCap from '../../Components/DropCap';
 import DropCap1 from './DropCap1';
+import ArticleTitle from '../../Components/ArticleTitle';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/MammaMia/mammamiatitle.png`;
@@ -196,8 +197,12 @@ const listStyle = {
       </div>
     
 
-      <img src={title} alt="DIY Flower Pins for a Mamma Mia Inspired Wedding" style={{ marginBottom: '2rem',width: '100%' }} />
-   
+      <ArticleTitle
+  mainTitle="DIY Flower Pins for a Mamma Mia Inspired Wedding"
+  subTitle="How to Make Your Own Flower Crown and Pins"
+  author="Jackie Wyers"
+/>
+​⬤   
 <div
 style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 > 

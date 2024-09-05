@@ -9,6 +9,7 @@ import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
+import ArticleTitle from '../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/hotelQtitle.png`;
 
@@ -142,8 +143,11 @@ const paragraphStyle = {
           TRAVEL // HOTEL REVIEWS
         </a>
       </div>
-      <img src={title} alt="Hotel Quintessence" style={{ width: '100%' }} />
-
+      <ArticleTitle
+  mainTitle="Hotel Quintessence Review"
+  subTitle="A Luxurious Escape in Mont Tremblant, Quebec"
+  author="Jackie Wyers"
+/>
       <ResponsiveYoutube src="https://www.youtube.com/embed/4lDCreVFqAw?si=0X5e_MzsoCeTGhxM" title="YouTube video player" />
 
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>

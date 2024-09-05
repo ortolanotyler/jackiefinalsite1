@@ -10,6 +10,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonDouble.png`;
@@ -127,8 +128,14 @@ const paragraphStyle = {
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
       </div>
-      <img src={title} alt="Jean Shrimpton - Time Travel Tutorials" style={{ width: '100%' }} />
-
+      <div>
+      <ArticleTitle
+  mainTitle="Jean Shrimpton - Yardley 1965 Makeup Tutorial"
+  subTitle="Recreate the Iconic Yardley 1965 Look of Jean Shrimpton"
+  author="Jackie Wyers"
+/>
+      </div>
+    
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <SubscribeButton />
       </div>

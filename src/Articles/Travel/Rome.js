@@ -13,6 +13,7 @@ import DropCap1 from './DropCap1';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import BookNowButton from '../../Components/BookNowButton';
 import EmbeddedGuide from './PlanninEmbed';
+import ArticleTitle from '../../Components/ArticleTitle';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Rome/RomeTitle.png`;
@@ -185,8 +186,14 @@ const paragraphStyle = {
           TRAVEL // ITALY
         </a>
       </div>
-      <img src={title} alt="Our Fairytale Wedding Overlooking Sorrento, Italy" style={{ width: '100%' }} />
-   
+      <div> 
+      <ArticleTitle
+  mainTitle="72 Hours in Rome: From the Vatican to the Colosseum"
+  subTitle="Exploring Rome’s iconic landmarks, hidden gems, and culinary delights"
+  author="Jackie Wyers"
+/>   
+      </div>
+      
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/qQGjPdTekyA?si=-I5TwMWKoRljXxxW" title="YouTube video player" />
 

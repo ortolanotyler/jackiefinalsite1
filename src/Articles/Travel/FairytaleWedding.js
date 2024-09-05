@@ -10,6 +10,7 @@ import { initGA, logPageView } from '../../analytics';
 import BridalDropCap from '../../Components/BridalDropCap';
 import { Helmet } from 'react-helmet';
 import DropCap1 from './DropCap1';
+import ArticleTitle from '../../Components/ArticleTitle';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/WeddingTitle.png`;
@@ -189,8 +190,11 @@ const paragraphStyle = {
           BEAUTY // BRIDAL
         </a>
       </div>
-      <img src={title} alt="Our Fairytale Wedding Overlooking Sorrento, Italy" style={{ width: '100%' }} />
-   
+      <ArticleTitle
+  mainTitle="Our Fairytale Wedding Overlooking Sorrento, Italy"
+  subTitle="All the enchanting details, prep & planning"
+  author="Jackie Wyers"
+/>   
 <div
 style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 > 

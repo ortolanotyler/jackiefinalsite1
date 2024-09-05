@@ -10,6 +10,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import EmailSubscribe from '../../../Components/EmailSubscribe';
 import DropCap1 from '../../Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/EmilyInParis/emilytitle.png`;
@@ -142,8 +143,14 @@ const paragraphStyle = {
           BEAUTY // POP CULTURE
         </a>
       </div>
-      <img src={title} alt="No Makeup-Makeup Spring Edition Title" style={{ width: '100%' }} />
-      <div style = {{marginBottom:'30px',marginTop: '20px', textAlign: 'center' }}>
+      <div>
+      <ArticleTitle
+  mainTitle="Emily in Paris Style Evolution"
+  subTitle="Makeup, Hair, and Fashion Recap with Jackie Wyers"
+  author="Jackie Wyers"
+/>     
+      </div>
+       <div style = {{marginBottom:'30px',marginTop: '20px', textAlign: 'center' }}>
 <iframe
       style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
       src="https://www.youtube.com/embed/X55RB0hZugE"

@@ -9,6 +9,7 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TWIGGYEYESTUTORIAL.JPG`;
@@ -137,11 +138,14 @@ style = {{
 
   <AdSenseAd/>
 </div>
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <a href="https://www.instagram.com/reel/C5ycO9WOEiK/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
-          <img src={image1} alt="Twiggy Eye Tutorial Jackie Wyers" style={{ width: '100%', maxWidth: '650px' }} />
-        </a>
+     <div>
+     <ArticleTitle
+  mainTitle="Time Travel Tutorials: Twiggy"
+  subTitle="Explore Jackie Wyers' MOD Makeup Tutorial"
+  author="Jackie Wyers"
+/>
       </div>
+
 
       <p style={paragraphStyle}>
         While I recreated a Twiggy look about 7 years ago, I’ve since pinned one of my favorite Twiggy portraits on Pinterest so often that I'm compelled to revisit the icon again. Let’s dive into a tutorial that pays homage to Twiggy’s iconic pastel blue eyeshadow and those legendary drawn-on lower lashes. And while the cropped cut isn’t my personal choice, this look features adorable curly buns adorned with flowers, offering a stunning springtime style that’s right up my alley. Let's recreate the magic of the 1960s It-girl, celebrating an era of fashion that continues to enchant and inspire. Here's how to channel the iconic Twiggy vibe using modern products that retain the quintessential vintage flair.

@@ -9,6 +9,7 @@ import SubscribeVlog from '../../Components/SubscribeVlog';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
+import ArticleTitle from '../../Components/ArticleTitle';
 
 
 const images = [
@@ -171,8 +172,11 @@ const Fable = () => {
                     TRAVEL // ITINERARIES
                 </a>
             </div>
-            <img src={title} alt="Andaz Maui Title" style={{ width: '100%' }} />
-            <ResponsiveYoutube src="https://www.youtube.com/embed/-eLreMotKEs?si=5VvA8ay_d6aymnOQ" title="YouTube video player" />
+            <ArticleTitle
+  mainTitle="Fable Auckland Hotel Review"
+  subTitle="A Luxurious Stay in the Heart of Auckland"
+  author="Jackie Wyers"
+/>            <ResponsiveYoutube src="https://www.youtube.com/embed/-eLreMotKEs?si=5VvA8ay_d6aymnOQ" title="YouTube video player" />
             <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <SubscribeVlog />
             </div>

@@ -10,6 +10,7 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 const Sophia1 = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenTitle.png`;
 const SophiaTwo = `${process.env.PUBLIC_URL}/Images/SophiaDoubl.jpeg`;
@@ -120,11 +121,14 @@ const paragraphStyle = {
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
       </div>
-
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={Sophia1} alt="Sophia Loren in Arabesque" style={{ width: '100%' }} />
-      </div>
-
+<div>
+<ArticleTitle
+  mainTitle="Sophia Loren Makeup Tutorial"
+  subTitle="Recreate the Timeless Glam of Sophia Loren"
+  author="Jackie Wyers"
+/>
+</div>
+      
       <ResponsiveYoutube src="https://www.youtube.com/embed/o8_dfwGNXAc?si=q2_GxBp3sClXnUUB" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
 
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>

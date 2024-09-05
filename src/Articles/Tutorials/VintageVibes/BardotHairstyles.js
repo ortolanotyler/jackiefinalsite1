@@ -10,6 +10,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import Carousel from '../../../Components/Carousel';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 
 
@@ -153,8 +154,15 @@ const pinterestGridStyle = {
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
       </div>
-      <img src={title} alt="Mastering the Bardot Bun 🌸" style={{ width: '100%' }} />
-   
+      <div>
+      <ArticleTitle
+  mainTitle="Mastering the Bardot Bun"
+  subTitle="My Many Attempts At The Iconic 60s Style"
+  author="Jackie Wyers"
+/>   
+      </div>
+
+      
       <ResponsiveYoutube src="https://www.youtube.com/embed/i8wHU_XsM2A?si=ASPsSodw8bM_vliD" title="Brigitte Bardot ‘60s Makeup Tutorial by Jackie Wyers" />
 
 <div style = {{textAlign: 'center', marginTop: '1rem' }}>

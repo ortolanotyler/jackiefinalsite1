@@ -10,6 +10,7 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SharonBridalTitle.png`;
 const Sharon2 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SharonBridalDouble.png`;
@@ -119,8 +120,14 @@ const paragraphStyle = {
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
       </div>
-      <img src={title} alt="Sharon Tate Bridal Look" style={{ width: '100%' }} />
-
+      <div>
+      <ArticleTitle
+  mainTitle="Sharon Tate Bridal Look"
+  subTitle="Recreate the Timeless Bridal Glam of Sharon Tate"
+  author="Jackie Wyers"
+/>
+      </div>
+     
       <ResponsiveYoutube src="https://www.youtube.com/embed/y0vHs6pRC3Y?si=LJlIhHJgDm0pehAu" title="Sharon Tate Iconic 60's Bridal Makeup Tutorial" />
 
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>

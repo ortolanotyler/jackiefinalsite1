@@ -7,6 +7,7 @@ import TextReveal from '../../Components/TextReveal';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
+import ArticleTitle from '../../Components/ArticleTitle';
 
 // Image imports
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcottitle.png`;
@@ -162,7 +163,11 @@ const paragraphStyle = {
         </a>
       </div>
 
-      <img src={title} alt="Epcot Title" style={{ width: '100%' }} />
+      <ArticleTitle
+  mainTitle="My Magical Walt Disney World Experience"
+  subTitle="Best of Epcot, Magic Kingdom, and Animal Kingdom"
+  author="Jackie Wyers"
+/>
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/XRI-IpWb37E?si=X6l3RAxsPGC_bS88" title="YouTube video player" />
 

@@ -10,6 +10,7 @@ import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSTitle.png`;
 const Victoria2 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VictoriaDouble.png`;
@@ -119,8 +120,14 @@ const paragraphStyle = {
           BEAUTY // POP CULTURE
         </a>
       </div>
-      <img src={title} alt="Victoria's Secret Fashion Show 2013" style={{ width: '100%' }} />
-
+      <div>
+      <ArticleTitle
+  mainTitle="Victoria's Secret Fashion Show 2013"
+  subTitle="Beauty and Glamour of the Snow Angel Look"
+  author="Jackie Wyers"
+/>
+      </div>
+     
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <SubscribeButton />
       </div>

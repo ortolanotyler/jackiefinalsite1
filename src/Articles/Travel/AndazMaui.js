@@ -9,6 +9,7 @@ import SubscribeVlog from '../../Components/SubscribeVlog';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
+import ArticleTitle from '../../Components/ArticleTitle';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/AndazTitle.png`;
@@ -178,7 +179,11 @@ const AndazMauiReview = () => {
                     TRAVEL // HOTEL REVIEWS
                 </a>
             </div>
-            <img src={title} alt="Andaz Maui Title" style={{ width: '100%' }} />
+            <ArticleTitle
+  mainTitle="Andaz Maui Review"
+  subTitle="Luxury Resort Experience in Wailea"
+  author="Jackie Wyers"
+/>
             <ResponsiveYoutube src="https://www.youtube.com/embed/ec7hauzrWWk?si=YpA6V8we20uEB1Kr" title="YouTube video player" />
             <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <SubscribeVlog />

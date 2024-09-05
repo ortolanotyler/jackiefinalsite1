@@ -10,6 +10,7 @@ import DropCap from '../../../Components/DropCap';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathTitle.png`;
 const pat = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
@@ -117,8 +118,15 @@ const paragraphStyle = {
           BEAUTY // TRENDS
         </a>
       </div>
-      <img src={title} alt="Pat McGrath's Porcelain Doll" style={{ width: '100%' }} />
+      <div>
+      <ArticleTitle
+  mainTitle="Pat McGrath's Porcelain Doll Makeup Tutorial"
+  subTitle="Step-by-step guide to recreate the iconic runway look"
+  author="Jackie Wyers"
+/>
+      </div>
 
+     
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <a href="https://www.instagram.com/p/C5dsVStuCqT/?img_index=1" target="_blank" rel="noopener noreferrer">
           <img src={pat} alt="Pat McGrath's Porcelain Doll" style={{ width: '100%' }} />

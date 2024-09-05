@@ -18,14 +18,14 @@ const styles = {
   container: {
     textAlign: 'left', // Align the text to the left
     marginBottom: '2rem',
-    maxWidth: '600px', // Optional: limit the width of the container if needed
+    maxWidth: '1000px', // Optional: limit the width of the container if needed
     marginLeft: 'auto', // Center the container within its parent
     marginRight: 'auto', // Center the container within its parent
   },
   mainTitle: {
     fontFamily: 'Arapey, serif',
     fontWeight: 'normal',
-    fontSize: '60px', // Adjust as needed for responsiveness
+    fontSize: '70px', // Adjust as needed for responsiveness
     margin: '1rem 0',
     lineHeight: '1',
     color: '#000000',

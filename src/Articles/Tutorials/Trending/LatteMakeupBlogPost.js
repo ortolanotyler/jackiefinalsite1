@@ -10,6 +10,7 @@ import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import Helmet from'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteTitle.png`;
 const Latte2 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteDouble.png`;
@@ -117,10 +118,15 @@ const paragraphStyle = {
           BEAUTY // TRENDS
         </a>
       </div>
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={title} alt="Latte Makeup Trend" style={{ width: '100%', maxWidth: '650px' }} />
-      </div>
+      <div>
+      <ArticleTitle
+  mainTitle="Latte Makeup Tutorial"
+  subTitle="Makeup Tutorial by Jackie Wyers"
+  author="Jackie Wyers"
+/>
 
+      </div>
+    
       <ResponsiveYoutube src="https://www.youtube.com/embed/Jm0BdU88kr4?si=q_f9U-l_aZqaY83s" title="YouTube video player" />
 
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>

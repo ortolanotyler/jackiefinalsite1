@@ -10,6 +10,7 @@ import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
+import ArticleTitle from '../../Components/ArticleTitle';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclubtitle.png`;
@@ -151,9 +152,11 @@ const Disney2Post = () => {
                     TRAVEL // HOTEL REVIEWS
                 </a>
             </div>
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src={title} alt="Beach Club Title" style={imageStyle} />
-            </div>
+            <ArticleTitle
+  mainTitle="Walt Disney World Beach Club Resort Review"
+  subTitle="Luxury, Comfort, and Disney Magic in One Resort"
+  author="Jackie Wyers"
+/>
             <ResponsiveYoutube src="https://www.youtube.com/embed/XRI-IpWb37E?si=X6l3RAxsPGC_bS88" title="YouTube video player" />
             <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <SubscribeVlog />

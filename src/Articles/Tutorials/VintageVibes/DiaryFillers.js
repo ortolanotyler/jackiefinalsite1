@@ -7,6 +7,7 @@ import { Helmet } from 'react-helmet';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/DiaryPost1/DiaryPostTitle.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/DiaryPost1/Diary2.png`;
@@ -121,8 +122,14 @@ const paragraphStyle = {
           DIARY
         </a>
       </div>
-      <img src={title} alt="Diary Post Title" style={{ width: '100%' }} />
-
+      <div>
+      <ArticleTitle
+  mainTitle="Diary Post #1: My Journey with Injectable Fillers"
+  subTitle="Reflecting on Insecurities, Decisions, and Personal Growth"
+  author="Jackie Wyers"
+/>
+      </div>
+      
 
 
       <DropCap1 text="Welcome back to my blog for my first-ever diary entry, where I dive deep into my personal experience with getting injectable fillers at a young age. In today's social media-driven world, it's increasingly common to see teens and young women experimenting with cosmetic enhancements. Platforms like Instagram flood us with transformation reels and personal stories from influencers, making such procedures seem both normal and desirable. While this transparency can be enlightening, it also carries significant influence, shaping perceptions and expectations about beauty." />

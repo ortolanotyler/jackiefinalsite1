@@ -11,6 +11,7 @@ import AdSenseAd from '../../Advertising/Ads';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
+import ArticleTitle from '../../Components/ArticleTitle';
 
 
 const images = [
@@ -200,8 +201,14 @@ const NewZealand = () => {
                     TRAVEL // ITINERARIES
                 </a>
             </div>
-            <img src={title} alt="Andaz Maui Title" style={{ width: '100%' }} />
-            <ResponsiveYoutube src="https://www.youtube.com/embed/-eLreMotKEs?si=5VvA8ay_d6aymnOQ" title="YouTube video player" />
+            <div> 
+            <ArticleTitle
+  mainTitle="New Zealand | Auckland Vlog and Experience"
+  subTitle="A magical week halfway around the world"
+  author="Jackie Wyers"
+/>      
+            </div>
+                <ResponsiveYoutube src="https://www.youtube.com/embed/-eLreMotKEs?si=5VvA8ay_d6aymnOQ" title="YouTube video player" />
             <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <SubscribeVlog />
             </div>
