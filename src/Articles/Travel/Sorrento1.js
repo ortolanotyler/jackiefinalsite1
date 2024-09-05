@@ -3,63 +3,32 @@ import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../../Components/TextReveal';
 import AdSenseAd from '../../Advertising/Ads';
-import WeddingCarousel from '../../Components/WeddingCarousel';
-import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import SubscribeButton from '../../Components/SubscribeButton';
 import { initGA, logPageView } from '../../analytics';
-import BridalDropCap from '../../Components/BridalDropCap';
 import { Helmet } from 'react-helmet';
 import DropCap1 from './DropCap1';
+import ArticleTitle from '../../Components/ArticleTitle';
+import DropCap from '../../Components/DropCap';
 
 
-const title = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/WeddingTitle.png`;
-const image1 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/1.jpg`;
-const image2 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/2.jpg`;
-const image3 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/3.jpg`;
-const image4 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/4.jpg`;
-const image5 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/5.jpg`;
-const image6 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/6.jpg`;
-const image7 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/7.jpg`;
-const image8 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/8.jpg`;
-const image9 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/9.jpg`;
-const image10 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/10.jpg`;
-const image11 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/11.jpg`;
-const image12 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/12.jpg`;
-const image13 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/13.jpg`;
-const image14 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/14.jpg`;
-const image15 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/15.jpg`;
-const image16 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/16.jpg`;
-const image17 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/17.jpg`;
-const image18 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/18.jpg`;
-const image19 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/19.jpg`;
-const image20 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/20.jpg`;
-const image21 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/21.jpg`;
-const image22 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/22.jpg`;
-const image24 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/24.jpg`;
-const image25 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/25.jpg`;
-const image26 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/26.jpg`;
-const image27 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/27.jpg`;
-const image28 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/28.jpg`;
-const image29 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/29.jpg`;
-const image30 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/30.jpg`;
-const image31 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/31.jpg`;
-const image32 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/32.jpg`;
-const image33 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/33.jpg`;
-const image34 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/34.jpg`;
-const image35 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/35.jpg`;
-const image36 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/36.jpg`;
-const image37 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/37.jpg`;
-const image38 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/38.jpg`;
-const image39 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/39.jpg`;
-const image40 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/40.jpg`;
-const image41 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/41.jpg`;
-const image42 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/42.jpg`;
-const image43 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/43.jpg`;
-const image44 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/44.jpg`;
-const image45 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/45.jpg`;
-const image46 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/46.jpg`;
-const image47 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/PressedFlowers.png`;
-const image99 = `${process.env.PUBLIC_URL}/Images/Articles/WeddingCarousel/96.jpg`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/WeddingTitle.png`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/1.jpg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/2.jpg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/3.jpg`;
+const image4 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/4.jpg`;
+const image5 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/5.jpg`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/6.jpg`;
+const image7 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/7.jpg`;
+const image8 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/8.jpg`;
+const image9 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/9.jpg`;
+const image10 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/10.jpg`;
+const image11 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/11.jpg`;
+const image12 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/12.jpg`;
+const image13 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/13.jpg`;
+const image14 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/14.jpg`;
+const image15 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/15.jpg`;
+const image16 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/16.jpg`;
+const image17 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/17.jpg`;
 
 
 
@@ -75,13 +44,13 @@ const Card = ({ blogContent }) => (
   </div>
 );
 
-const FairytaleWedding = () => {
+const Sorrento1 = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
 
   useEffect(() => {
       initGA();
-      logPageView('/fairytalewedding');
+      logPageView('/sorrento1');
   }, []);
 
   const headingStyle = {
@@ -90,16 +59,15 @@ const FairytaleWedding = () => {
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',
-    margin: '1.5rem'
+    margin: '1.25rem'
 };
 
 const paragraphStyle = {
   fontSize: '20px',
   fontFamily: 'GFS Didot, serif',
-  margin: '1rem 1.5rem',
-  marginTop: '1rem',
-  marginBottom: '1rem',
-  maxWidth: '500px',
+  margin: '20px auto',
+
+  maxWidth: '600px',
   lineHeight: '1.5',
   marginLeft: 'auto',
   marginRight: 'auto',
@@ -109,7 +77,9 @@ const paragraphStyle = {
       display: 'grid',
       gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
       gap: '1rem',
-      margin: '1rem 0'
+      margin: '1rem 0',
+      maxWidth: '600px',
+      margin: '0 auto',
   };
 
   const imageStyle = {
@@ -123,21 +93,21 @@ const paragraphStyle = {
   const blogContent = (
     <div className="container">
 <Helmet>
-  <title>Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers</title>
-  <meta name="description" content="Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments." />
-  <meta name="keywords" content="Jackie Wyers, wedding, Sorrento, Italy, fairytale wedding, bridal beauty, wedding photography, wedding dress, wedding inspiration, bridal makeup, bridal hair, wedding planning, destination wedding" />
+  <title>Ultimate Sorrento Souvenir Guide - Jackie Wyers</title>
+  <meta name="description" content="Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy." />
+  <meta name="keywords" content="Sorrento souvenirs, Italy souvenirs, Jackie Wyers, Sorrento, travel shopping, music boxes, leather goods, ceramics, lemon souvenirs, Capri bell, Sorrento shopping, souvenir guide" />
   
-  <meta property="og:title" content="Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers" />
-  <meta property="og:description" content="Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments." />
-  <meta property="og:image" content={title} />
-  <meta property="og:url" content="https://jackiewyers.beauty/fairytalewedding" />
+  <meta property="og:title" content="Ultimate Sorrento Souvenir Guide - Jackie Wyers" />
+  <meta property="og:description" content="Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy." />
+  <meta property="og:image" content={image1} />
+  <meta property="og:url" content="https://jackiewyers.beauty/sorrento-souvenirs" />
   <meta property="og:type" content="article" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers" />
-  <meta name="twitter:description" content="Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments." />
-  <meta name="twitter:image" content={title} />
-  <link rel="canonical" href="https://jackiewyers.beauty/fairytalewedding" />
+  <meta name="twitter:title" content="Ultimate Sorrento Souvenir Guide - Jackie Wyers" />
+  <meta name="twitter:description" content="Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy." />
+  <meta name="twitter:image" content={image1} />
+  <link rel="canonical" href="https://jackiewyers.beauty/sorrento-souvenirs" />
 
   <script type="application/ld+json">
     {`
@@ -146,11 +116,11 @@ const paragraphStyle = {
       "@type": "Article",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://jackiewyers.beauty/fairytalewedding"
+        "@id": "https://jackiewyers.beauty/sorrento-souvenirs"
       },
-      "headline": "Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers",
-      "description": "Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments.",
-      "image": "${title}",
+      "headline": "Ultimate Sorrento Souvenir Guide - Jackie Wyers",
+      "description": "Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy.",
+      "image": "${image1}",
       "author": {
         "@type": "Person",
         "name": "Jackie Wyers"
@@ -160,11 +130,11 @@ const paragraphStyle = {
         "name": "Jackie Wyers",
         "logo": {
           "@type": "ImageObject",
-          "url": "${title}"
+          "url": "${signature}"
         }
       },
-      "datePublished": "2024-07-27",
-      "dateModified": "2024-07-27"
+      "datePublished": "2024-09-04",
+      "dateModified": "2024-09-04"
     }
     `}
   </script>
@@ -185,14 +155,22 @@ const paragraphStyle = {
 
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
-        <a href="/bridal" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
-          BEAUTY // BRIDAL
+        <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
+          TRAVEL // ITALY
         </a>
       </div>
-      <img src={title} alt="Our Fairytale Wedding Overlooking Sorrento, Italy" style={{ width: '100%' }} />
+      <div>
+      <ArticleTitle
+        mainTitle="The Best Souvenirs to Bring Home from Sorrento"
+        subTitle="Leather, Music Boxes, Flats, Oh Me!"
+        author="Jackie Wyers"
+        publishDate="August 30th, 2024"
+      />
+    </div>
       
 <div style={gridContainerStyle}>
-    <img src={image1} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+    <img src={image1} alt="The Best Souvenirs to Bring Home
+from Sorrento" style={imageStyle} /> 
 </div>
 
 
@@ -254,6 +232,7 @@ helpful!"
 Naples Airport, you can find luxurious leather suitcases from
 Bric’s Milano at a much lower price than you would in North
 America. 
+
 </p>
 
 SHOP MY 
@@ -359,7 +338,6 @@ wedding dresses and more in the following article below.
 
 <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={next} alt="Travel Content" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
           MORE TRAVEL CONTENT →
         </a>
       </div>
@@ -404,7 +382,9 @@ style = {{
   );
 
   return (
-    <div ref={blogRef}>
+    <div ref={blogRef}
+    style = {{boxShadow: 'none'}}
+    >
       <Card
         title="Best Sorrento Souvenirs"
         description="Leather, Music Boxes, Flats, Oh Me!"
