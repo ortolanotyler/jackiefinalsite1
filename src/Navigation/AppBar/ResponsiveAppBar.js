@@ -112,7 +112,7 @@ function ResponsiveAppBar() {
         }}
       >
         <Container maxWidth="50%" disableGutters>
-          <Toolbar disableGutters sx={{ justifyContent: 'space-between', flexWrap: 'wrap', alignItems: 'center' }}>
+          <Toolbar disableGutters sx={{ justifyContent: 'center', flexWrap: 'wrap', alignItems: 'center' }}>
             <IconButton
               onClick={toggleSidebar}
               sx={{
