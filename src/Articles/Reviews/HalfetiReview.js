@@ -5,6 +5,7 @@ import './ExampleTutorial.css';
 import TextReveal from '../../Components/TextReveal';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
+import ArticleTitle from '../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/halfetititle.png`;
 const profile = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/halfetiprofile.png`;
@@ -132,9 +133,11 @@ const HalfetiReview = () => {
                 </a>
             </div>
             <img src={title} alt="Halfeti Perfume Review" style={imageStyle} />
-            <div style={imageContainerStyle}>
-                <img src={halfeti1} alt="Halfeti Perfume" style={imageStyle} />
-            </div>
+       <div>     <ArticleTitle
+  mainTitle="Penhaligon's Halfeti Review"
+  subTitle="An Aromatic Voyage"
+  author="Jackie Wyers"
+/></div>
             <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '1rem 0', fontStyle: 'italic' }}>
                 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>

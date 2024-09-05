@@ -6,6 +6,7 @@ import './ExampleTutorial.css';
 import AdSenseAd from '../../Advertising/Ads.js';
 import { Helmet } from 'react-helmet';
 import { initGA, logPageView } from '../../analytics';
+import ArticleTitle from '../../Components/ArticleTitle.js';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/bonbontitle2.png`;
 const BonBon2 = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBon2.jpg`;
@@ -130,8 +131,14 @@ const BonBonReview = () => {
           BEAUTY // REVIEWS
         </a>
       </div>
-      <img src={title} alt="BonBon Review Title" style={imageStyle} />
-      <div style={imageContainerStyle}>
+      <div> 
+      <ArticleTitle
+  mainTitle="BonBon Review"
+  subTitle="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments."
+  author="Jackie Wyers"
+/>  
+      </div>
+         <div style={imageContainerStyle}>
         <img src={BonBon2} alt="BonBon 2" style={imageStyle} />
       </div>
       <div style={{ margin: '20px' }}>

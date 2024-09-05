@@ -12,23 +12,23 @@ import ResponsiveIframe from '../../Components/ResponsiveIframe';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/WeddingTitle.png`;
-const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/1.jpg`;
-const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/2.jpg`;
-const image3 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/3.jpg`;
-const image4 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/4.jpg`;
-const image5 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/5.jpg`;
-const image6 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/6.jpg`;
-const image7 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/7.jpg`;
-const image8 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/8.jpg`;
-const image9 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/9.jpg`;
-const image10 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/10.jpg`;
-const image11 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/11.jpg`;
-const image12 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/12.jpg`;
-const image13 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/13.jpg`;
-const image14 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/14.jpg`;
-const image15 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/15.jpg`;
-const image16 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/16.jpg`;
-const image17 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/17.jpg`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/1.JPG`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/2.JPG`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/3.JPG`;
+const image4 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/4.JPG`;
+const image5 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/5.JPG`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/6.JPG`;
+const image7 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/7.JPG`;
+const image8 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/8.JPG`;
+const image9 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/9.JPG`;
+const image10 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/10.JPG`;
+const image11 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/11.JPG`;
+const image12 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/12.JPG`;
+const image13 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/13.JPG`;
+const image14 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/14.JPG`;
+const image15 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/15.JPG`;
+const image16 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/16.JPG`;
+const image17 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/17.JPG`;
 
 
 

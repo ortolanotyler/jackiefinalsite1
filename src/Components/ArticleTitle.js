@@ -9,7 +9,6 @@ const ArticleTitle = ({ mainTitle, subTitle, author, publishDate }) => {
       <h2 style={styles.subTitle}>{subTitle}</h2>
       <div style={styles.authorContainer}>
         <span style={styles.author}>BY {author}</span>
-        <span style={styles.date}>PUBLISHED: {publishDate}</span>
       </div>
     </div>
   );
@@ -26,24 +25,25 @@ const styles = {
   mainTitle: {
     fontFamily: 'Arapey, serif',
     fontWeight: 'normal',
-    fontSize: '2.95rem', // Adjust as needed for responsiveness
+    fontSize: '60px', // Adjust as needed for responsiveness
     margin: '1rem 0',
     lineHeight: '1',
     color: '#000000',
   },
   subTitle: {
     fontFamily: 'Dancing Script, cursive', // Similar to the italic font in the image
-    fontSize: '1.75rem',
+    fontSize: '16px',
     fontStyle: 'italic',
-    margin: '1rem 0',
+    margin: 'auto 0',
+    marginBottom: '20px',
     color: '#3a3a3a',
   },
   authorContainer: {
     display: 'flex',
     justifyContent: 'flex-start', // Aligns the text left
-    gap: '1rem',
+    gap: '400px',
     fontFamily: 'Nunito, sans-serif', // Font for the author and date text
-    fontSize: '0.95rem',
+    fontSize: '12px',
   },
   author: {
     textTransform: 'uppercase',

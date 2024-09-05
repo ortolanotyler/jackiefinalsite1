@@ -12,6 +12,7 @@ import BridalDropCap from '../../../Components/BridalDropCap';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 import DropCap from '../../../Components/DropCap';
 import DropCap1 from '../../../Articles/Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/weddingdressguidetitle.png`;
@@ -138,8 +139,14 @@ const imageStyle = {
           BEAUTY // BRIDAL
         </a>
       </div>
-      <img src={title} alt="The Ultimate 2025 Wedding Dress Guide" style={{ width: '100%' }} />
-   
+      <div>
+      <ArticleTitle
+  mainTitle="The Ultimate 2025 Wedding Dress Guide"
+  subTitle="Leather, Music Boxes, Flats, Oh Me!"
+  author="Jackie Wyers"
+  
+/>
+    </div>   
       <ResponsiveYoutube src="https://www.youtube.com/embed/UQU9Fufug4M?si=WUaFXipbTuAIKW_9" title="WEDDING DRESS SHOPPING & Bridal Makeup Trial with Jackie Wyers" />
 
 
