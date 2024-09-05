@@ -12,9 +12,17 @@ const prince = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOf
 const aukland = `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/NZThumbnail.jpg`;
 const hotelq2 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ2/1.jpg`;
 const rome = `${process.env.PUBLIC_URL}/Images/Articles/Rome/47.JPG`;
+const sorrento1 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/SorrentoThumbnail.jpg`;
 
 
 const articles = [
+    {
+        date: '30/08/2024',
+        title: 'The Best Souvenirs to bring home from Sorrento',
+        image: sorrento1,
+        path: '/sorrento-gift-guide',
+    },
+    
     {
         date: '21/08/2024',
         title: 'Our Romantic Three Day Rome Itinerary  ',

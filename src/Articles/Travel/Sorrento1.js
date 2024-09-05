@@ -8,7 +8,7 @@ import { initGA, logPageView } from '../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
-import DropCap from '../../Components/DropCap';
+import ResponsiveIframe from '../../Components/ResponsiveIframe';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/WeddingTitle.png`;
@@ -59,15 +59,16 @@ const Sorrento1 = () => {
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',
-    margin: '1.25rem'
+    margin: '2.5rem 0'
 };
 
 const paragraphStyle = {
   fontSize: '20px',
   fontFamily: 'GFS Didot, serif',
-  margin: '20px auto',
-
-  maxWidth: '600px',
+  margin: '1rem 1.5rem',
+  marginTop: '1rem',
+  marginBottom: '1rem',
+  maxWidth: '500px',
   lineHeight: '1.5',
   marginLeft: 'auto',
   marginRight: 'auto',
@@ -84,7 +85,7 @@ const paragraphStyle = {
 
   const imageStyle = {
       display: 'block',
-      margin: '0 auto',
+      margin: '10px auto',
       maxWidth: '100%', // Updated to match Fable
       height: 'auto'
   };
@@ -197,11 +198,11 @@ helpful!"
 <h2 style={headingStyle}>Why Sorrento? 🍋</h2>
 
       <p style={paragraphStyle}>
-        Sorrento is one of the most picturesque places in Italy, known for its stunning landscapes, rich cultural heritage, and vibrant shopping scene. My husband Tyler and I had our wedding here, and if you want to read all about that, check out our fairytale wedding article here. We loved Sorrento so much that we extended our stay, which was perfect because it gave me more time to think about my purchases!
+        Sorrento is one of the most picturesque places in Italy, known for its stunning landscapes, rich cultural heritage, and vibrant shopping scene. My husband Tyler and I had our wedding here, and if you want to read all about that, check out our fairytale wedding article <a href='/fairytalewedding' style = {{textdecoration: 'none', color: '#3a3a3a'}}> here</a>. We loved Sorrento so much that we extended our stay, which was perfect because it gave me more time to think about my purchases!
       </p>
 
       <div style={gridContainerStyle}>
-    <img src={image2} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+    <img src={image2} alt="Postcards in Sorrento" style={imageStyle} /> 
 </div>
 
       <h2 style={headingStyle}>Painterly Postcards 🎨</h2>
@@ -210,7 +211,7 @@ helpful!"
       </p>
 
       <div style={gridContainerStyle}>
-    <img src={image3} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+    <img src={image3} alt="Sorrento Music Box" style={imageStyle} /> 
 </div>
 
       <h2 style={headingStyle}>Sorrento Music Boxes 🎶</h2>
@@ -218,8 +219,8 @@ helpful!"
         A Sorrento music box is a beautiful and timeless keepsake. These can range in price, from moderate to very luxurious. I chose a smaller box featuring ballerinas because the dress reminded me of my second wedding dress. I instantly knew I had to have it! Now, it holds my sentimental jewelry from the wedding. These boxes are famous for their intricate designs with inlaid wood, representing the artistic heritage of Sorrento.
       </p>
  <div style={gridContainerStyle}>
-    <img src={image4} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
-    <img src={image5} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+    <img src={image4} alt="Serena Leather Jacket Gossip Girl>" style={imageStyle} /> 
+    <img src={image5} alt="Men's Leather Duffel Bags Sorrento" style={imageStyle} /> 
 </div>
     
       <h2 style={headingStyle}>Leather Goods 🧳</h2>
@@ -235,16 +236,16 @@ America.
 
 </p>
 
-SHOP MY 
+<ResponsiveIframe src="https://shopmy.us/collections/public/782009?noHeader=true" title="Hand-Painted Leather Wedding Photo Album" />
 
 <div style={gridContainerStyle}>
-    <img src={image6} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+    <img src={image6} alt="Balleri Sorrento" style={imageStyle} /> 
 </div>
 <div style={gridContainerStyle}>
-    <img src={image7} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+    <img src={image7} alt="Balleri Sorrento" style={imageStyle} /> 
 </div>
 <div style={gridContainerStyle}>
-    <img src={image8} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+    <img src={image8} alt="Shoe Shopping in Sorrento" style={imageStyle} /> 
 </div>
 
 
@@ -255,10 +256,10 @@ SHOP MY
       </p>
 
     <div style={gridContainerStyle}>
-    <img src={image9} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+    <img src={image9} alt="CB Positano Cute Bags " style={imageStyle} /> 
 </div>
 <div style={gridContainerStyle}>
-    <img src={image10} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+    <img src={image10} alt="Sorrento Souvenirs" style={imageStyle} /> 
 </div>
 
 
@@ -268,10 +269,10 @@ SHOP MY
       </p>
 
       <div style={gridContainerStyle}>
-    <img src={image11} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+    <img src={image11} alt="Sorrento Souvenirs" style={imageStyle} /> 
 </div>
 <div style={gridContainerStyle}>
-    <img src={image12} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+    <img src={image12} alt="Breakfast at an Italian Villa" style={imageStyle} /> 
 </div>
 
 
@@ -281,10 +282,10 @@ SHOP MY
       </p>
 
       <div style={gridContainerStyle}>
-    <img src={image13} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+    <img src={image13} alt="Capri Bell Italy" style={imageStyle} /> 
 </div>
 <div style={gridContainerStyle}>
-    <img src={image14} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+    <img src={image14} alt="Capri Bell Jewelry" style={imageStyle} /> 
 </div>
 
       <h2 style={headingStyle}>Capri Bell Charms 🔔</h2>
@@ -296,10 +297,10 @@ SHOP MY
 
 
       <div style={gridContainerStyle}>
-    <img src={image15} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+    <img src={image15} alt="Sorrento Souvenirs" style={imageStyle} /> 
 </div>
 <div style={gridContainerStyle}>
-    <img src={image16} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+    <img src={image16} alt="Sorrento Souvenirs" style={imageStyle} /> 
 </div>
 
 <h2 style = {headingStyle}>
@@ -316,7 +317,7 @@ Anything Lemon Themed!🍋
       </p>
 
       <div style={gridContainerStyle}>
-    <img src={image17} alt="Ultimate Sorrento Gift Guide" style={imageStyle} /> 
+    <img src={image17} alt="Disney Dress" style={imageStyle} /> 
 </div>
 
 <p style={paragraphStyle}>
@@ -336,7 +337,7 @@ Sorrento and you can see all the details from planning, details,
 wedding dresses and more in the following article below.
 </p>
 
-<div style={{ textAlign: 'center', margin: '2rem 0' }}>
+<div style={{ textAlign: 'center', margin: '1.5rem 0' }}>
         <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
           MORE TRAVEL CONTENT →
         </a>

@@ -10,6 +10,8 @@ const maui = `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUITHUMBNAIL.
 const westgate = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATETHUMBNAIL.jpg`;
 const prince = `${process.env.PUBLIC_URL}/Images/Articles/PrinceOfWales/PrinceOfWalesthumbnail.jpeg`;
 const fable = `${process.env.PUBLIC_URL}/Images/Articles/Fable/FableAucklandThumbnail.jpg`;
+const sorrento1 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/SorrentoThumbnail.jpg`;
+
 
 const articles = [
     {
