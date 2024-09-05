@@ -142,7 +142,7 @@ const imageStyle = {
       <div>
       <ArticleTitle
   mainTitle="The Ultimate 2025 Wedding Dress Guide"
-  subTitle="Leather, Music Boxes, Flats, Oh Me!"
+  subTitle="Styles, Themes, and & Trends for Brides-To-Be"
   author="Jackie Wyers"
   
 />

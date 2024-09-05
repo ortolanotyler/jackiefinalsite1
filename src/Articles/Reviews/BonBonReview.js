@@ -136,6 +136,7 @@ const BonBonReview = () => {
   mainTitle="BonBon Review"
   subTitle="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments."
   author="Jackie Wyers"
+  
 />  
       </div>
          <div style={imageContainerStyle}>
