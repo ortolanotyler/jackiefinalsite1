@@ -288,7 +288,7 @@ style = {{
 
 </div>
 <p style={paragraphStyle}>
-      Did you know that Vatican City is technically a separate state? Inside, you’ll find the most incredible artwork and sculptures, including masterpieces by Michelangelo, especially in the Sistine Chapel. I’m glad I experienced Vatican City—its art is truly angelic—but I think I would have felt overwhelmed during the day when it can get quite crowded. If you don’t like feeling like sardines in the summer heat, I’d recommend going later in the day when it’s starting to clear out.
+      Did you know that Vatican City is technically a separate country? Inside, you’ll find the most incredible artwork and sculptures, including masterpieces by Michelangelo, especially in the Sistine Chapel. I’m glad I experienced Vatican City—its art is truly angelic—but I think I would have felt overwhelmed during the day when it can get quite crowded. If you don’t like feeling like sardines in the summer heat, I’d recommend going later in the day when it’s starting to clear out.
     </p>
     <p style={paragraphStyle}>
       <span style = {{fontWeight: 'bold'}}> Dress Code Faux Pas:</span> I wore a little red dress that showed both my knees and shoulders, which, in hindsight, wasn’t the best choice. While no one gave me strange looks and I wasn’t denied entry, I was asked to cover my shoulders with a shawl before entering the Sistine Chapel. The staff were really kind about it, but I’ve heard stories of people being turned away for not dressing modestly or even scolded by nuns! It’s better to be prepared. Modesty is expected due to the religious significance of the site.
