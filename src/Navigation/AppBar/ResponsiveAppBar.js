@@ -193,7 +193,7 @@ function ResponsiveAppBar() {
                     sx={{
                       '.MuiPaper-root': {
                         bgcolor: 'white',
-                        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+                        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.01)',
                         borderRadius: '8px',
                       },
                       '.MuiMenuItem-root': {

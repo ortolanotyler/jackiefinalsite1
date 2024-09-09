@@ -1,130 +1,202 @@
 /* Main gallery container */
 .gallery {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* Increased gap for better spacing */
+  max-width: 900px; /* Slightly wider for larger screens */
+  margin: 0 auto;
+  border-top: 1px solid #bbb;
+  padding: 2rem 1rem; /* Add padding for consistent spacing */
+}
 
-    max-width: 800px;
-    margin: 0 auto;
-    border-top: 1px solid #bbb;
+/* Card layout for each video/text pair */
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+  position: relative;
+  padding-bottom: 2rem;
+  border-bottom: 3px solid #FCEDEF;
+  padding-top: 2rem;
+}
+
+/* Normal layout: Video on the left */
+.normal {
+  flex-direction: row;
+}
+
+/* Reversed layout: Video on the right */
+.reversed {
+  flex-direction: row-reverse;
+}
+
+/* Video section */
+.video {
+  margin: 0 auto;
+  flex: 1;
+  max-width: 50%;
+  position: relative;
+}
+
+.videoWrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.videoFrame {
+  border-radius: 5px;
+  width: 100%;
+  max-width: 340px; /* Increase max-width for larger screens */
+  height: 535px;
+  border: 1px solid #ddd;
+}
+
+/* Text section */
+.text {
+  flex: 1;
+  max-width: 50%;
+}
+
+/* Heading (h2) for each card */
+h2 {
+  font-size: 3rem; /* Adjusted size for better scaling across screens */
+  margin-bottom: 1rem;
+  font-family: 'Arapey', serif;
+  font-weight: normal;
+  color: #333;
+}
+
+/* Description (p) */
+p {
+  margin-bottom: 1rem;
+  font-size: 1.4rem; /* Slightly larger font size */
+  font-family: 'GFS-Didot', serif;
+  color: #000;
+  line-height: 1.5;
+}
+
+/* Link (a) */
+a {
+  color: #3a3a3a;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: 'Arapey', serif;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ShopMy wrapper */
+.shopmyWrapper {
+  margin-top: 20px;
+}
+
+/* Horizontal line for New York Times feel */
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #bbb;
+  margin: 0;
+}
+
+/* Main heading for the gallery */
+.heading {
+  font-size: 4rem; /* Adjusted for better scaling */
+  padding: 2rem;
+  margin: 1rem;
+  font-family: 'Georgia', serif;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 1rem;
+}
+
+/* Responsive design */
+
+/* Large screens (above 1200px) */
+@media screen and (min-width: 1200px) {
+  .gallery {
+      max-width: 1000px;
+      padding: 3rem;
   }
-  
-  /* Card layout for each video/text pair */
-  .card {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 2rem;
-    flex-wrap: wrap;
-    position: relative;
-    padding-bottom: 1rem;
-    border-bottom: 3px solid #FCEDEF;
-    padding-top: 2rem;
-  }
-  
-  /* Normal layout: Video on the left */
-  .normal {
-    flex-direction: row;
-  }
-  
-  /* Reversed layout: Video on the right */
-  .reversed {
-    flex-direction: row-reverse;
-  }
-  
-  /* Video section */
-  .video {
-    margin: 0 auto;
-    flex: 1;
-    max-width: 50%;
-    position: relative;
-  }
-  
-  .videoWrapper {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
+
   .videoFrame {
-    border-radius: 5px;
-    width: 100%;
-    max-width: 301px;
-    height: 535px;
-    border: 1px solid #ddd;
+      max-width: 380px;
   }
-  
-  /* Text section */
-  .text {
-    flex: 1;
-    max-width: 50%;
-  }
-  
+
   h2 {
-    font-size: 4.5rem;
-    margin-bottom: 1rem;
-    font-family: 'Arapey', serif;
-    font-weight: normal;
-    color: #333;
+      font-size: 4rem;
   }
-  
+
   p {
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-    font-family: 'GFS-Didot', serif;
-    color: #000;
-    line-height: 1.5;
+      font-size: 1.6rem;
   }
-  
-  a {
-    color: #3a3a3a;
-    text-decoration: none;
-    font-weight: normal;
-    font-family: 'Arapey', serif;
+}
+
+/* Medium screens (960px to 1199px) */
+@media screen and (max-width: 1199px) {
+  .gallery {
+      padding: 2rem 1rem;
   }
-  
-  a:hover {
-    text-decoration: underline;
+
+  .videoFrame {
+      max-width: 320px;
   }
-  
-  /* ShopMy wrapper */
-  .shopmyWrapper {
-    margin-top: 20px;
+
+  h2 {
+      font-size: 3.5rem;
   }
-  
-  /* Horizontal line for New York Times feel */
-  hr {
-    border: 0;
-    height: px;
-    background-color: #bbb;
-    margin: 0;
+
+  p {
+      font-size: 1.4rem;
   }
-  
-  .heading {
-    font-size: 5rem;
-    padding: 2rem ;
-    margin: 1rem;
-    font-family: 'Georgia', serif;
-    text-align: center;
-    margin-bottom: 2rem;
-    border-bottom: 1px solid #bbb;
-    padding-bottom: 1rem;
-  }
-  
-  /* Responsive design for smaller screens */
-  @media screen and (max-width: 960px) {
-    .card {
+}
+
+/* Small screens (below 960px) */
+@media screen and (max-width: 960px) {
+  .card {
       flex-direction: column;
       text-align: center;
       border-bottom: none;
-    }
-  
-    .video,
-    .text {
-      max-width: 100%;
-    }
-  
-    iframe {
-      width: 100%;
-    }
   }
+
+  .video,
+  .text {
+      max-width: 100%;
+  }
+
+  iframe {
+      width: 100%;
+      max-width: 100%; /* Full width for small screens */
+  }
+
+  h2 {
+      font-size: 3rem;
+  }
+
+  p {
+      font-size: 1.3rem;
+  }
+
+  .gallery {
+      padding: 1.5rem;
+  }
+}
+
+/* Extra small screens (below 600px) */
+@media screen and (max-width: 600px) {
+  .gallery {
+      padding: 1rem;
+  }
+
+  h2 {
+      font-size: 2.5rem;
+  }
+
+  p {
+      font-size: 1.2rem;
+  }
+}
