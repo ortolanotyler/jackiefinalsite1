@@ -117,6 +117,7 @@ import EmilyInParis from './Articles/Tutorials/PopCulture/EmilyInParis';
 import Rome from './Articles/Travel/Rome';
 import './App.css';
 import Sorrento1 from './Articles/Travel/Sorrento1';
+import PastWorkGallery from './Components/PastWorkGallery';
 function usePageTracking() {
   const location = useLocation();
 
@@ -256,7 +257,7 @@ function App() {
             <Route path="rome" element={<Rome />} />
             <Route path="sorrento-gift-guide" element={<Sorrento1 />} />
             <Route path="hotelquintessance" element={<HotelQ2 />} />
-
+            <Route path="test" element={<PastWorkGallery />} />
             <Route path="*" element={<h1>404 Not Found</h1>} />
           </Route>
         </Routes>

@@ -2,16 +2,17 @@ import React from 'react';
 
 // Import images
 const images = [];
-for (let i = 1; i <= 20; i++) {
+for (let i = 1; i <= 31; i++) {
   images.push(require(`./BrandImages/${i}.png`));
 }
 
 const BrandCarousel = () => {
   // Inline styles
   const carouselStyle = {
-    marginTop: '1rem',
+    margin: '5rem auto',
     overflow: 'hidden',
     whiteSpace: 'nowrap',
+    marginBottom: '1rem',
   };
 
   const imageStyle = {
@@ -19,6 +20,7 @@ const BrandCarousel = () => {
     width: 'auto',   // Width is automatic to maintain aspect ratio
     display: 'inline-block',
     marginRight: '1px',
+    
     objectFit: 'cover', // This ensures the image covers the area, might crop if not the exact aspect ratio
   };
   
@@ -31,7 +33,7 @@ const BrandCarousel = () => {
         {`
           @keyframes scroll {
             0% { transform: translateX(0); }
-            100% { transform: translateX(calc(-150px * ${images.length})); }
+            100% { transform: translateX(calc(-100px * ${images.length})); }
           }
           .scrolling-track {
             animation: scroll 30s linear infinite;
