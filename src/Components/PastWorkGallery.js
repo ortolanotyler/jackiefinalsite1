@@ -127,7 +127,7 @@ const PastWorkGallery = () => {
   return (
     <>
       <div>
-        <h1 className={styles.heading}>Past Work Gallery</h1>
+        <h1 className={styles.heading}>My Work</h1>
       </div>
 
       <div>

@@ -9,7 +9,7 @@ for (let i = 1; i <= 31; i++) {
 const BrandCarousel = () => {
   // Inline styles
   const carouselStyle = {
-    margin: '5rem auto',
+    margin: '1rem auto',
     overflow: 'hidden',
     whiteSpace: 'nowrap',
     marginBottom: '1rem',
@@ -36,7 +36,7 @@ const BrandCarousel = () => {
             100% { transform: translateX(calc(-100px * ${images.length})); }
           }
           .scrolling-track {
-            animation: scroll 30s linear infinite;
+            animation: scroll 55s linear infinite;
           }
         `}
       </style>
