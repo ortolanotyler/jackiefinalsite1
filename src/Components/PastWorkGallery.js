@@ -118,7 +118,7 @@ const PastWorkGallery = () => {
       title: 'Dyson Professional (Hair Tools)',
       description: 'Showcased the Dyson Corrale™ straightener and demonstrated how to use the Dyson Supersonic™ hair dryer.',
       links: [{ description: 'YouTube Video', href: 'https://www.youtube.com/watch?v=4zl7DbeiL5s' }],
-      shopmy: '7610430',
+      shopmy: '794287',
       isShort: false, // Full-length YouTube video
     },
   ];
