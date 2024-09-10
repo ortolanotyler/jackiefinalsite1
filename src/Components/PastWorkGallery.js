@@ -11,7 +11,7 @@ const PastWorkGallery = () => {
       description: 'Instagram Reel promoting the 2-in-1 Adjustable Texture Spray with a vintage hair tutorial 🩵',
       links: [{ description: 'IG Reel', href: 'https://www.instagram.com/p/C92O5QRuhWb/' }],
       shopmy: '792948',
-      isShort: true, // This indicates it's a YouTube short
+      isShort: true, // YouTube short
     },
     {
       video: 'https://www.youtube.com/embed/GfDelZvU5MI',
@@ -57,7 +57,7 @@ const PastWorkGallery = () => {
     },
     {
       video: 'https://www.youtube.com/embed/RNAgsqacUs0',
-      title: 'Wondery',
+      title: 'Wandery',
       description: 'Promoted the Even The Royals podcast while showcasing a Grace Kelly makeup tutorial 👑',
       links: [
         { description: 'IG Reel', href: 'https://www.instagram.com/reel/C7HZ8wxOusn/' },
@@ -95,7 +95,7 @@ const PastWorkGallery = () => {
       description: 'Incorporated OSEA Malibu Holiday Sets into a vintage-inspired tutorial.',
       links: [{ description: 'YouTube Video', href: 'https://www.youtube.com/watch?v=i8wHU_XsM2A' }],
       shopmy: '792962',
-      isShort: false, // Full YouTube video
+      isShort: false, // Full-length YouTube video
     },
     {
       video: 'https://www.youtube.com/embed/6Z1Li8tueAY',
@@ -103,7 +103,7 @@ const PastWorkGallery = () => {
       description: 'Dedicated K-Beauty-inspired tutorial for OLIVE YOUNG GLOBAL\'s BigBang sale.',
       links: [{ description: 'YouTube Video', href: 'https://www.youtube.com/watch?v=6Z1Li8tueAY' }],
       shopmy: '792995',
-      isShort: false, // Full YouTube video
+      isShort: false, // Full-length YouTube video
     },
     {
       video: 'https://www.youtube.com/embed/BHCzJuLw1qE',
@@ -111,7 +111,7 @@ const PastWorkGallery = () => {
       description: 'Sponsored integration in my updated haircare routine featuring Nécessaire\'s The Hair Essentials Kit.',
       links: [{ description: 'YouTube Video', href: 'https://www.youtube.com/watch?v=BHCzJuLw1qE' }],
       shopmy: '793002',
-      isShort: false, // Full YouTube video
+      isShort: false, // Full-length YouTube video
     },
     {
       video: 'https://www.youtube.com/embed/4zl7DbeiL5s',
@@ -119,7 +119,7 @@ const PastWorkGallery = () => {
       description: 'Showcased the Dyson Corrale™ straightener and demonstrated how to use the Dyson Supersonic™ hair dryer.',
       links: [{ description: 'YouTube Video', href: 'https://www.youtube.com/watch?v=4zl7DbeiL5s' }],
       shopmy: '7610430',
-      isShort: false, // Full YouTube video
+      isShort: false, // Full-length YouTube video
     },
   ];
 
@@ -151,7 +151,7 @@ const PastWorkGallery = () => {
   return (
     <>
       <div>
-        <h1 className={styles.heading}>Recent Sponsored Work</h1>
+        <h1 className={styles.heading}>My Work</h1>
       </div>
 
       <div>
@@ -184,27 +184,15 @@ const PastWorkGallery = () => {
                     ></iframe>
                   </div>
                 ) : (
-                  <>
-                    <ResponsiveYoutube
-                      className={styles.videoFrame}
-                      src={card.video}
-                      title="YouTube video player"
-                    />
-                    {card.shopmy && (
-                      <div className={styles.shopmyWrapper} style={{ textAlign: 'center', margin: '20px 0' }}>
-                        <iframe
-                          src={`https://shopmy.us/collections/public/${card.shopmy}?noHeader=true`}
-                          title={`Shop My ${card.title}`}
-                          style={{ width: '100%', height: '400px', border: 'none' }}
-                          frameBorder="0"
-                          scrolling="no" // Disable scrolling here
-                        ></iframe>
-                      </div>
-                    )}
-                  </>
+                  <ResponsiveYoutube
+                    className={styles.videoFrame}
+                    src={card.video}
+                    title="YouTube video player"
+                  />
                 )}
               </div>
             </div>
+
             <div className={styles.text}>
               <h2>{card.title}</h2>
               <p>{card.description}</p>
@@ -220,6 +208,19 @@ const PastWorkGallery = () => {
                   {link.description}
                 </a>
               ))}
+
+              {/* ShopMy embed for all videos, now always placed below the text */}
+              {card.shopmy && (
+                <div className={styles.shopmyWrapper} style={{ textAlign: 'center', margin: '20px 0' }}>
+                  <iframe
+                    src={`https://shopmy.us/collections/public/${card.shopmy}?noHeader=true`}
+                    title={`Shop My ${card.title}`}
+                    style={{ width: '100%', height: '350px', border: 'none' }}
+                    frameBorder="0"
+                    scrolling="no"
+                  ></iframe>
+                </div>
+              )}
             </div>
           </div>
         ))}
