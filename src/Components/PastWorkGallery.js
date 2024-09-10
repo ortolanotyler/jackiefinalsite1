@@ -57,7 +57,7 @@ const PastWorkGallery = () => {
     },
     {
       video: 'https://www.youtube.com/embed/RNAgsqacUs0',
-      title: 'Wandery',
+      title: 'Wondery',
       description: 'Promoted the Even The Royals podcast while showcasing a Grace Kelly makeup tutorial 👑',
       links: [
         { description: 'IG Reel', href: 'https://www.instagram.com/reel/C7HZ8wxOusn/' },
