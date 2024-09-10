@@ -6,7 +6,6 @@ const ArticleTitle = ({ mainTitle, subTitle, author, publishDate }) => {
       <h1 style={styles.mainTitle}>
         {mainTitle}
       </h1>
-      <h2 style={styles.subTitle}>{subTitle}</h2>
       <div style={styles.authorContainer}>
         <span style={styles.author}>BY {author}</span>
       </div>
