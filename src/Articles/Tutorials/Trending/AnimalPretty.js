@@ -10,7 +10,6 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
-import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/AnimalPrettyTitle.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
@@ -119,14 +118,8 @@ const paragraphStyle = {
           BEAUTY // TRENDS
         </a>
       </div>
-      <div>
-      <ArticleTitle
-  mainTitle="Animal Pretty - Which one are you?"
-  subTitle="Trend Report: Animal Pretty - Fabulous Fad"
-  author="Jackie Wyers"
-/>   
-      </div>
-        <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <img src={title} alt="Animal Pretty Title" style={{ width: '100%' }} />
+      <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <SubscribeButton />
       </div>
       <ResponsiveYoutube src="https://www.youtube.com/embed/hIGr8Gj4kQA?si=8N-JgnQ-JeRTk5Gm" title="YouTube video player" />

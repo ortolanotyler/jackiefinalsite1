@@ -9,7 +9,6 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import TextReveal from '../../../Components/TextReveal';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
-import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SugarPlumFairyTitle.png`;
 const Sugar2 = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SugarPlumDouble.png`;
@@ -118,11 +117,8 @@ const paragraphStyle = {
           BEAUTY // TRENDS
         </a>
       </div>
-      <ArticleTitle
-  mainTitle="Sugar Plum Fairy Makeup Tutorial"
-  subTitle="Whimsical and Festive Makeup Inspired by the Nutcracker"
-  author="Jackie Wyers"
-/>
+      <img src={title} alt="Sugar Plum Fairy" style={{ width: '100%' }} />
+
       <ResponsiveYoutube src="https://www.youtube.com/embed/Vy6e7k5uur8?si=-3GFPhHdf3DLAOyu" title="YouTube video player" />
 
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>

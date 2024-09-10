@@ -11,7 +11,6 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 
 import ReactGA from 'react-ga';
 import ResponsiveIframeNoScroll from '../../../Components/ResponsiveIframeNoScroll';
-import ArticleTitle from '../../../Components/ArticleTitle';
 
 
 
@@ -158,14 +157,8 @@ const paragraphStyle = {
           CREATOR TIPS // PHOTOGRAPHY
         </p>
       </div>
+      <img src={title} alt="No Makeup-Makeup Spring Edition Title" style={{ width: '100%' }} />
       <div>
-      <ArticleTitle
-  mainTitle="Camera Settings - A Guide to Scroll-Stopping iPhone Photos"
-  subTitle="Discover tips to elevate your mobile photography with Jackie Wyers"
-  author="Jackie Wyers"
-/>  
-      </div>
-         <div>
         <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
           All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
         </p>

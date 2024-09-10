@@ -8,7 +8,6 @@ import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
-import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/BridesmaidsTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/1.jpg`;
@@ -134,14 +133,8 @@ const paragraphStyle = {
           DIARY // BRIDAL
         </a>
       </div>
-      <div>
-      <ArticleTitle
-  mainTitle="Bridesmaid Boxes How - To"
-  subTitle="Creative and Budget-Friendly Ideas for Your Bridesmaids Gifts"
-  author="Jackie Wyers"
-/>
-      </div>
-     
+      <img src={title} alt="Bridesmaids Title" style={{ width: '100%' }} />
+
       <div>
       <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
       All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.

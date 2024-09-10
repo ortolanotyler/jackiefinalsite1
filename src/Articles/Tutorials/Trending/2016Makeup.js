@@ -9,7 +9,6 @@ import TextReveal from '../../../Components/TextReveal';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
-import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016Title.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016Double.png`;
@@ -118,14 +117,8 @@ const paragraphStyle = {
           BEAUTY // TRENDS
         </a>
       </div>
-      <div>
-      <ArticleTitle
-  mainTitle="2016 Makeup Trends"
-  subTitle="Bold Glamour Looks Inspired by Kylie Jenner"
-  author="Jackie Wyers"
-/>
-      </div>
-      
+      <img src={title} alt="2016 Makeup Trends" style={{ width: '100%' }} />
+
       <ResponsiveYoutube src="https://www.youtube.com/embed/HtEPH6RUEZg?si=8RIeZhrp-luWJTSI" title="2016 Makeup Tutorial" />
 
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>

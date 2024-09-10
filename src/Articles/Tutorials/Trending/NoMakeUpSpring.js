@@ -9,7 +9,6 @@ import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
-import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/NoMakeUpTitl.jpeg`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersElizabethBennetInspiredMakeup.JPG`;
@@ -121,14 +120,8 @@ const paragraphStyle = {
           BEAUTY // TRENDS
         </a>
       </div>
-      <div>
-      <ArticleTitle
-  mainTitle="No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition!"
-  subTitle="Just a hint of color, just in time for spring"
-  author="Jackie Wyers"
-/>
-      </div>
-   
+      <img src={title} alt="No Makeup-Makeup Spring Edition Title" style={{ width: '100%' }} />
+
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <SubscribeButton />
       </div>

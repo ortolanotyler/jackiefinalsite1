@@ -9,7 +9,6 @@ import { Helmet } from 'react-helmet';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
-import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/GraceKellyTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/JackieWyersGraceKellyInspired.jpg`;
@@ -121,14 +120,8 @@ const paragraphStyle = {
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
       </div>
-      <div>
-      <ArticleTitle
-  mainTitle="Grace Kelly - Hollywood Glam Makeup Tutorial"
-  subTitle="Recreate the Timeless Elegance of Old Hollywood Glam"
-  author="Jackie Wyers"
-/>
-      </div>
-     
+      <img src={title} alt="Grace Kelly's Hollywood Glam" style={{ width: '100%' }} />
+
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <SubscribeButton />
       </div>

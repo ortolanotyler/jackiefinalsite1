@@ -11,7 +11,6 @@ import TextReveal from '../../../Components/TextReveal';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
-import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/IconicTitle.png`;
 const Sharon2 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/JackieAsSharon.jpg`;
@@ -122,14 +121,8 @@ const paragraphStyle = {
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
       </div>
-      <div>
-      <ArticleTitle
-  mainTitle="Sharon Tate Iconic 60's Makeup Tutorial"
-  subTitle="Recreate the Timeless Glamour of Sharon Tate"
-  author="Jackie Wyers"
-/>
-      </div>
-      
+      <img src={title} alt="Sharon Tate Iconic Look" style={{ width: '100%' }} />
+
       <ResponsiveYoutube src="https://www.youtube.com/embed/t1jJtpsxes4?si=sHOkPYVUOvEbXk2m" title="Sharon Tate Iconic 60's Makeup Tutorial - Jackie Wyers on Youtube" />
 
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>

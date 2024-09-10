@@ -1,13 +1,13 @@
 import React, { useRef, useEffect } from 'react';
 import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
+import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import TextReveal from '../../../Components/TextReveal';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
-import ArticleTitle from '../../../Components/ArticleTitle';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/SummerBeautyTitle.png`;
@@ -119,14 +119,8 @@ const paragraphStyle = {
           BEAUTY // POP CULTURE
         </a>
       </div>
-      <div>
-      <ArticleTitle
-  mainTitle="Summer Beauty Inspiration"
-  subTitle="Iconic Hairstyles and Makeup Looks from Pop Culture's Best"
-  author="Jackie Wyers"
-/>
-      </div>
-     
+      <img src={title} alt="No Makeup-Makeup Spring Edition Title" style={{ width: '100%' }} />
+
       <div>
       <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
       All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.

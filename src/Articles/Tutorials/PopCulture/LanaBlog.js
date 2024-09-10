@@ -10,7 +10,6 @@ import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
-import ArticleTitle from '../../../Components/ArticleTitle';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaTitle.png`;
@@ -121,11 +120,8 @@ const paragraphStyle = {
           BEAUTY // POP CULTURE
         </a>
       </div>
-      <ArticleTitle
-  mainTitle="Lana Del Rey SKIMS Makeup Tutorial"
-  subTitle="Coquette Meets '60s Glamour - A Step-by-Step Guide"
-  author="Jackie Wyers"
-/>
+      <img src={title} alt="Lana Del Rey X SKIMS" style={{ width: '100%' }} />
+
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <SubscribeButton />
       </div>

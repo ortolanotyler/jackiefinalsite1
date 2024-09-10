@@ -10,7 +10,6 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
-import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/BridalMakeup/BridalTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/BridalMakeup/Bridal1.png`;
@@ -120,14 +119,8 @@ const paragraphStyle = {
           BEAUTY // TRENDS
         </a>
       </div>
-      <div>
-      <ArticleTitle
-  mainTitle="Bridal Makeup Tutorial"
-  subTitle="Bridal Makeup Tutorial"
-  author="Jackie Wyers"
-/>   
-      </div>
-        <ResponsiveYoutube src="https://www.youtube.com/embed/UQU9Fufug4M?si=5b2wn8qqbcRo1GVG" title="YouTube video player" />
+      <img src={title} alt="Bridesmaids Title" style={{ width: '100%' }} />
+      <ResponsiveYoutube src="https://www.youtube.com/embed/UQU9Fufug4M?si=5b2wn8qqbcRo1GVG" title="YouTube video player" />
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <SubscribeButton />
       </div>

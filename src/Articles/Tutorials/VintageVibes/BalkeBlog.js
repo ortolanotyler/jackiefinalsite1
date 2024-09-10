@@ -10,7 +10,6 @@ import DropCap from '../../../Components/DropCap';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
-import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeTitle.png`;
 const Balke2 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeDouble.png`;
@@ -120,14 +119,8 @@ const paragraphStyle = {
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
       </div>
-      <div>
-      <ArticleTitle
-  mainTitle="Ina Balke 1960s Makeup Tutorial"
-  subTitle="Recreate the Vintage Glamour of the 1960s"
-  author="Jackie Wyers"
-/>
-      </div>
-     
+      <img src={title} alt="Ina Balke 1960s Makeup Tutorial" style={{ width: '100%' }} />
+
       <ResponsiveYoutube src="https://www.youtube.com/embed/7HoL0rVmZHI?si=__Llh9tI2-K62uRQ" title="Ina Balke 1960s Makeup Tutorial - Jackie Wyers on Youtube" />
 
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
