@@ -184,11 +184,24 @@ const PastWorkGallery = () => {
                     ></iframe>
                   </div>
                 ) : (
-                  <ResponsiveYoutube
-                    className={styles.videoFrame}
-                    src={card.video}
-                    title="YouTube video player"
-                  />
+                  <>
+                    <ResponsiveYoutube
+                      className={styles.videoFrame}
+                      src={card.video}
+                      title="YouTube video player"
+                    />
+                    {card.shopmy && (
+                      <div className={styles.shopmyWrapper} style={{ textAlign: 'center', margin: '20px 0' }}>
+                        <iframe
+                          src={`https://shopmy.us/collections/public/${card.shopmy}?noHeader=true`}
+                          title={`Shop My ${card.title}`}
+                          style={{ width: '100%', height: '400px', border: 'none' }}
+                          frameBorder="0"
+                          scrolling="no" // Disable scrolling here
+                        ></iframe>
+                      </div>
+                    )}
+                  </>
                 )}
               </div>
             </div>
@@ -207,17 +220,6 @@ const PastWorkGallery = () => {
                   {link.description}
                 </a>
               ))}
-              {card.shopmy && (
-                <div className={styles.shopmyWrapper}>
-                  <iframe
-                    src={`https://shopmy.us/collections/public/${card.shopmy}?noHeader=true`}
-                    title={`Shop My ${card.title}`}
-                    style={{ width: '100%', height: '370px', border: 'none' }}
-                    frameBorder="0"
-                    scrolling="no" // Disable scrolling here
-                  ></iframe>
-                </div>
-              )}
             </div>
           </div>
         ))}
