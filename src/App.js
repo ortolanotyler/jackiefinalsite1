@@ -257,7 +257,7 @@ function App() {
             <Route path="rome" element={<Rome />} />
             <Route path="sorrento-gift-guide" element={<Sorrento1 />} />
             <Route path="hotelquintessance" element={<HotelQ2 />} />
-            <Route path="test" element={<PastWorkGallery />} />
+            <Route path="recently-sponsored" element={<PastWorkGallery />} />
             <Route path="*" element={<h1>404 Not Found</h1>} />
           </Route>
         </Routes>
