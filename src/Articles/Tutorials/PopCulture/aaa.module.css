@@ -97,7 +97,7 @@
 .cardDescriptionHover,
 .cardDescriptionFocus {
     text-decoration: none;
-    font-family: 'GFS Didot';
+    font-family: 'GFS-Didot, serif';
 }
 
 .readHereBtn {
@@ -112,7 +112,7 @@
     font-size: 16px;
     color: black; /* Initial text color */
     transition: background-color 0.4s, color 0.3s;
-    font-family: 'GFS Didot';
+    font-family: 'GFS-Didot, serif';
 }
 
 .readHereBtn:hover {
@@ -121,7 +121,7 @@
 }
 
 a {
-    font-family: 'GFS Didot', serif;
+    font-family: 'GFS-Didot', serif;
     color: inherit; /* Make sure they inherit the color from the parent element */
     text-decoration: none; /* Remove underline */
 }

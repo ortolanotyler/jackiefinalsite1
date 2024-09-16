@@ -16,8 +16,16 @@ const summerinspo = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/merma
 const summerbeauty = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/BlueLagoonThumbnail.jpg`;
 const perioddrama = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/ArticleThumb.jpg`;
 const emily = `${process.env.PUBLIC_URL}/Images/Articles/EmilyInParis/emilyinparis.jpg`;
+const fran = `${process.env.PUBLIC_URL}/Images/Articles/Francesca/FrancescaThumb.jpg`;
 
 const cardsData = [
+  {
+    link: "/francesca-bridgerton",
+    image: fran,
+    alt: "Francesca Bridgerton Recreation by Jackie Wyers",
+    title: "Francesca Bridgerton Makeup, Hair, and Dress",
+  },
+
   {
     link: "/emily-in-paris",
     image: emily,

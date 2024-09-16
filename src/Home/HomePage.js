@@ -15,6 +15,7 @@ import HeroSection2 from './HeroSection2';
 import HeroSection3 from './HeroSection3';
 import HeroSection from './HeroSection';
 import HeroSection4 from './HeroSection4';
+import HeroSection5 from './HeroSection5';
 
 const TextReveal = lazy(() => import('../Components/TextReveal'));
 const EmailSubscribe = lazy(() => import('../Components/EmailSubscribe'));
@@ -132,7 +133,7 @@ function HomePage() {
 </Helmet>
 
 
-      <Grid container spacing={1} justifyContent="center">
+      <Grid container spacing={2} justifyContent="center">
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
             <TextRevealHomePage text="JACKIE WYERS" style = {{margin:'0 auto'}} />
@@ -187,6 +188,11 @@ function HomePage() {
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
             <HeroSection4 />
+          </Suspense>
+        </Grid>
+        <Grid item xs={12}>
+          <Suspense fallback={<div className="spinner"></div>}>
+            <HeroSection5 />
           </Suspense>
         </Grid>
 

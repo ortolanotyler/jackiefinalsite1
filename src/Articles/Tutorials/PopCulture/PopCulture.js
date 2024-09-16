@@ -1,8 +1,7 @@
 import React, {  useEffect } from 'react';
 import styles from './aaa.module.css'; // Import CSS Modules
 import TextReveal from '../../../Components/TextReveal';
-import { Paper } from '@mui/material';
-import RotatingText from '../../../Navigation/AppBar/RotatingText';
+
 import { initGA , logPageView } from '../../../analytics';
 
 
@@ -13,8 +12,15 @@ const nomakeup = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomak
 const summerinspo = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/mermaidthumbnail.jpg`;
 const perioddrama = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/ArticleThumb.jpg`;
 const emily = `${process.env.PUBLIC_URL}/Images/Articles/EmilyInParis/emilyinparis.jpg`;
+const fran = `${process.env.PUBLIC_URL}/Images/Articles/Francesca/FrancescaThumb.jpg`;
 
 const cardsData = [
+  {
+    link: "/francesca-bridgerton",
+    image: fran,
+    alt: "Francesca Bridgerton Recreation by Jackie Wyers",
+    title: "Francesca Bridgerton Makeup, Hair, and Dress",
+  },
   {
     link: "/emily-in-paris",
     image: emily,

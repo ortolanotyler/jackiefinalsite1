@@ -45,6 +45,13 @@ const TwiggyBlog = () => {
     margin: '1.5rem'
 };
 
+const linkStyle = {
+  textDecoration: 'none', // Removes underline from links
+  fontFamily: 'GFS Didot, serif',
+
+  color: '#3a3a3a', // Inherits the color of the surrounding text
+};
+
 const paragraphStyle = {
   fontSize: '20px',
   fontFamily: 'GFS Didot, serif',
@@ -144,19 +151,20 @@ style = {{
       </div>
 
       <p style={paragraphStyle}>
-        While I recreated a Twiggy look about 7 years ago, I’ve since pinned one of my favorite Twiggy portraits on Pinterest so often that I'm compelled to revisit the icon again. Let’s dive into a tutorial that pays homage to Twiggy’s iconic pastel blue eyeshadow and those legendary drawn-on lower lashes. And while the cropped cut isn’t my personal choice, this look features adorable curly buns adorned with flowers, offering a stunning springtime style that’s right up my alley. Let's recreate the magic of the 1960s It-girl, celebrating an era of fashion that continues to enchant and inspire. Here's how to channel the iconic Twiggy vibe using modern products that retain the quintessential vintage flair.
-      </p>
+  While I recreated a <a style={linkStyle} href="https://en.wikipedia.org/wiki/Twiggy" target="_blank" rel="noreferrer">Twiggy</a> look about 7 years ago, I’ve since pinned one of my favorite Twiggy portraits on <a style={linkStyle} href="https://www.pinterest.com/" target="_blank" rel="noreferrer">Pinterest</a> so often that I'm compelled to revisit the icon again. Let’s dive into a tutorial that pays homage to Twiggy’s iconic pastel blue eyeshadow and those legendary drawn-on lower lashes. And while the cropped cut isn’t my personal choice, this look features adorable curly buns adorned with flowers, offering a stunning springtime style that’s right up my alley. Let's recreate the magic of the 1960s It-girl, celebrating an era of fashion that continues to enchant and inspire. Here's how to channel the iconic Twiggy vibe using modern products that retain the quintessential vintage flair.
+</p>
 
-      <h2 style={headingStyle}>A Twiggy Beauty Breakdown</h2>
+<h2 style={headingStyle}>A Twiggy Beauty Breakdown</h2>
 
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={image2} alt="Twiggy Eye Tutorial Jackie Wyers" style={{ width: '100%', maxWidth: '650px' }} />
-      </div>
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+  <img src={image2} alt="Twiggy Eye Tutorial Jackie Wyers" style={{ width: '100%', maxWidth: '650px' }} />
+</div>
 
-      <p style={paragraphStyle}>
-        Twiggy's iconic makeup style was known for its bold, graphic eyeshadow in various hues. This featured look showcases a pastel blue shade that's perfectly en vogue for Spring/Summer 2024. It pairs a youthful glow with subtle freckles and a minimalist lip to round out the ensemble. And of course, the dramatic, drawn-on lower lashes are essential for that quintessential pop-art impact. Let's begin, shall we?
-      </p>
-      <div
+<p style={paragraphStyle}>
+  <a style={linkStyle} href="https://en.wikipedia.org/wiki/Twiggy" target="_blank" rel="noreferrer">Twiggy's</a> iconic makeup style was known for its bold, graphic eyeshadow in various hues. This featured look showcases a pastel blue shade that's perfectly en vogue for Spring/Summer 2024. It pairs a youthful glow with subtle freckles and a minimalist lip to round out the ensemble. And of course, the dramatic, drawn-on lower lashes are essential for that quintessential pop-art impact. Let's begin, shall we?
+</p>
+
+<div
 style = {{
   margin : '20px'
 }}
@@ -164,22 +172,24 @@ style = {{
 
   <AdSenseAd/>
 </div>
-      <h2 style={headingStyle}>Youthful Base & Anna Sui Cosmetics Feature</h2>
 
-      <p style={paragraphStyle}>
-        For Twiggy's youthful glow, begin with a flawless base. The Anna Sui Rich Lotion and Gel Foundation Primer—with its hydrating formula and adorable packaging—is the perfect first step. I worked with Anna Sui on this tutorial and have several beautiful products to showcase throughout this tutorial. Its water-based gel texture and plumping effect prepare the skin beautifully for foundation, concealing pores and ensuring a smooth, healthy canvas.
-      </p>
+<h2 style={headingStyle}>Youthful Base & Anna Sui Cosmetics Feature</h2>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/542136?noHeader=true" title="Rich Lotion - Ana Sui" />
+<p style={paragraphStyle}>
+  For Twiggy's youthful glow, begin with a flawless base. The <a style={linkStyle} href="https://www.annasui.com/" target="_blank" rel="noreferrer">Anna Sui Rich Lotion</a> and Gel Foundation Primer—with its hydrating formula and adorable packaging—is the perfect first step. I worked with <a style={linkStyle} href="https://www.annasui.com/" target="_blank" rel="noreferrer">Anna Sui</a> on this tutorial and have several beautiful products to showcase throughout. Its water-based gel texture and plumping effect prepare the skin beautifully for foundation, concealing pores and ensuring a smooth, healthy canvas.
+</p>
 
-      <h2 style={headingStyle}>Barely There Foundation</h2>
+<ResponsiveIframe src="https://shopmy.us/collections/public/542136?noHeader=true" title="Rich Lotion - Ana Sui" />
 
-      <p style={paragraphStyle}>
-        Twiggy’s look was all about fresh-faced beauty, so I follow up with Makeup Forever's HD Skin Hydro Glow foundation, infused with hyaluronic acid, to maintain that natural, hydrated look. For a subtle contour, Makeup Forever’s palette allows me to add dimension with minimal product—essential for this fresh and luminous style.
-      </p>
+<h2 style={headingStyle}>Barely There Foundation</h2>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/551116?noHeader=true" title="Foundation - Makeup Forever" />
-      <div
+<p style={paragraphStyle}>
+  Twiggy’s look was all about fresh-faced beauty, so I follow up with <a style={linkStyle} href="https://www.makeupforever.com" target="_blank" rel="noreferrer">Makeup Forever's HD Skin Hydro Glow foundation</a>, infused with hyaluronic acid, to maintain that natural, hydrated look. For a subtle contour, <a style={linkStyle} href="https://www.makeupforever.com" target="_blank" rel="noreferrer">Makeup Forever’s</a> palette allows me to add dimension with minimal product—essential for this fresh and luminous style.
+</p>
+
+<ResponsiveIframe src="https://shopmy.us/collections/public/551116?noHeader=true" title="Foundation - Makeup Forever" />
+
+<div
 style = {{
   margin : '20px'
 }}
@@ -187,20 +197,24 @@ style = {{
 
   <AdSenseAd/>
 </div>
-      <h2 style={headingStyle}>Faux Freckles & Peachy Cheeks</h2>
 
-      <p style={paragraphStyle}>
-        Before we move on to setting the foundation, let's add some playful dimension with two cream-based products. Start by taking the KimChiBeauty Candy Girl Fake Freckle pen to delicately dot along the bridge of the nose and sweep up toward the cheekbones, emulating that sun-kissed look Twiggy was known for. Then, with a dab of cream blush, infuse a healthy pop of colour into the cheeks to bring the whole look together.
-      </p>
+<h2 style={headingStyle}>Faux Freckles & Peachy Cheeks</h2>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/551119?noHeader=true" title="Fake Freckles - KimChiBeauty" />
+<p style={paragraphStyle}>
+  Before we move on to setting the foundation, let's add some playful dimension with two cream-based products. Start by taking the <a style={linkStyle} href="https://kimchichicbeauty.com" target="_blank" rel="noreferrer">KimChiBeauty Candy Girl Fake Freckle pen</a> to delicately dot along the bridge of the nose and sweep up toward the cheekbones, emulating that sun-kissed look Twiggy was known for. Then, with a dab of cream blush, infuse a healthy pop of colour into the cheeks to bring the whole look together.
+</p>
 
-      <h2 style={headingStyle}>Anna Sui’s New Brightening Powder</h2>
+<ResponsiveIframe src="https://shopmy.us/collections/public/551119?noHeader=true" title="Fake Freckles - KimChiBeauty" />
 
-      <p style={paragraphStyle}>
-        To further achieve the Twiggy-inspired 'doll skin', I turn to the reformulated Anna Sui Loose Face Powder. Available in lavender and pink—shades famed for their brightening effects—I chose lavender to enhance my complexion. With a few sweeps, it works to blur imperfections and conceal pores, maintaining skin's natural luminosity without a heavy makeup look. Plus, the joy of using the plush powder puff adds a touch of vintage glam to the routine. Available on Amazon, this powder is a transformative step, ensuring a polished and radiant finish. More of a pressed powder girl? Try the stunning Anna Sui Rose Pressed Powder, also in lavender or pink.
-      </p>
-      <div
+<h2 style={headingStyle}>Anna Sui’s New Brightening Powder</h2>
+
+<p style={paragraphStyle}>
+  To further achieve the Twiggy-inspired 'doll skin', I turn to the reformulated <a style={linkStyle} href="https://www.annasui.com" target="_blank" rel="noreferrer">Anna Sui Loose Face Powder</a>. Available in lavender and pink—shades famed for their brightening effects—I chose lavender to enhance my complexion. With a few sweeps, it works to blur imperfections and conceal pores, maintaining skin's natural luminosity without a heavy makeup look. More of a pressed powder girl? Try the stunning <a style={linkStyle} href="https://www.annasui.com" target="_blank" rel="noreferrer">Anna Sui Rose Pressed Powder</a>, also in lavender or pink.
+</p>
+
+<ResponsiveIframe src="https://shopmy.us/collections/public/551123?noHeader=true" title="Brightening Powder - Ana Sui" />
+
+<div
 style = {{
   margin : '20px'
 }}
@@ -208,22 +222,24 @@ style = {{
 
   <AdSenseAd/>
 </div>
-      <ResponsiveIframe src="https://shopmy.us/collections/public/551123?noHeader=true" title="Brightening Powder - Ana Sui" />
 
-      <h2 style={headingStyle}>The Twiggy Eyeshadow Look: The First Steps</h2>
+<h2 style={headingStyle}>The Twiggy Eyeshadow Look: The First Steps</h2>
 
-      <p style={paragraphStyle}>
-        Start by warming up the crease with a light brown shadow for depth, complementing it with a matte highlight on the brow bone.
-      </p>
+<p style={paragraphStyle}>
+  Start by warming up the crease with a light brown shadow for depth, complementing it with a matte highlight on the brow bone.
+</p>
 
-      <p style={paragraphStyle}>
-        Next, I channeled Twiggy's quintessential MOD eye using a creamy navy blue eyeliner to define a half-moon crease well above my natural fold. For precision, a tiny Pretty Vulgar brush that looks like a tiny paintbrush was my tool of choice for this essential step.
-      </p>
+<p style={paragraphStyle}>
+  Next, I channeled Twiggy's quintessential MOD eye using a creamy navy blue eyeliner to define a half-moon crease well above my natural fold. For precision, a tiny <a style={linkStyle} href="https://prettyvulgar.com" target="_blank" rel="noreferrer">Pretty Vulgar brush</a> that looks like a tiny paintbrush was my tool of choice for this essential step.
+</p>
 
-      <p style={paragraphStyle}>
-        For the lids, I chose a pastel blue cream shadow, sourced from Amazon, to achieve that iconic pop of colour. Blue eyeshadow might seem bold, but a pastel hue is approachable and wearable, especially for those new to the world of vibrant shadows.
-      </p>
-      <div
+<p style={paragraphStyle}>
+  For the lids, I chose a pastel blue cream shadow, sourced from <a style={linkStyle} href="https://www.amazon.com" target="_blank" rel="noreferrer">Amazon</a>, to achieve that iconic pop of colour. Blue eyeshadow might seem bold, but a pastel hue is approachable and wearable, especially for those new to the world of vibrant shadows.
+</p>
+
+<ResponsiveIframe src="https://shopmy.us/collections/public/551124?noHeader=true" title="Eyeshadow - Makeup By Mario" />
+
+<div
 style = {{
   margin : '20px'
 }}
@@ -231,28 +247,20 @@ style = {{
 
   <AdSenseAd/>
 </div>
-      <ResponsiveIframe src="https://shopmy.us/collections/public/551124?noHeader=true" title="Eyeshadow - Makeup By Mario" />
 
-      <h2 style={headingStyle}>Liner & Drawn on Twiggy Lashes</h2>
+<h2 style={headingStyle}>Liner & Drawn on Twiggy Lashes</h2>
 
-      <p style={paragraphStyle}>
-        A light eyeliner pencil was used sparingly to maintain the doll-like eyes Twiggy was renowned for. With Anna Sui's Perfect Eyeliner in black, thinly trace the lash line seamlessly connecting to the exaggerated crease.
-      </p>
+<p style={paragraphStyle}>
+  A light eyeliner pencil was used sparingly to maintain the doll-like eyes Twiggy was renowned for. With <a style={linkStyle} href="https://www.annasui.com" target="_blank" rel="noreferrer">Anna Sui's Perfect Eyeliner</a> in black, thinly trace the lash line seamlessly connecting to the exaggerated crease.
+</p>
 
-      <p style={paragraphStyle}>
-        After curling the lashes, apply Anna Sui's Volumizing Mascara before attaching authentic Twiggy-style false lashes from Yardley - preserved from the 1960’s. You can use any full-strip with fluttery lashes! For those famous Twiggy bottom lashes, I carefully drew them on, tapering them off as I moved towards the inner corner.
-      </p>
+<p style={paragraphStyle}>
+  After curling the lashes, apply <a style={linkStyle} href="https://www.annasui.com" target="_blank" rel="noreferrer">Anna Sui's Volumizing Mascara</a> before attaching authentic Twiggy-style false lashes from Yardley - preserved from the 1960’s. You can use any full-strip with fluttery lashes! For those famous Twiggy bottom lashes, I carefully drew them on, tapering them off as I moved towards the inner corner.
+</p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/551126?noHeader=true" title="Eyeliner - Ana Sui" />
+<ResponsiveIframe src="https://shopmy.us/collections/public/551126?noHeader=true" title="Eyeliner - Ana Sui" />
 
-      <h2 style={headingStyle}>Twiggy’s Pale Pout</h2>
-
-      <p style={paragraphStyle}>
-        Shaping my lips to mirror Twiggy's, I started with Charlotte Tilbury’s Iconic Nude Lip Liner. The goal was a slightly widened Cupid's bow and a fuller upper lip, all softly blended for a natural edge. The Anna Sui lipsticks, tapped gently over the lips and brightened with a pinker tone in the centre, created the perfect vintage-inspired pout.
-      </p>
-
-      <ResponsiveIframe src="https://shopmy.us/collections/public/565773?noHeader=true" title="Eyeliner - Ana Sui" />
-      <div
+<div
 style = {{
   margin : '20px'
 }}
@@ -260,23 +268,41 @@ style = {{
 
   <AdSenseAd/>
 </div>
-      <h2 style={headingStyle}>Twiggy’s Spring Hairstyle</h2>
 
-      <p style={paragraphStyle}>
-        No Twiggy ensemble is complete without an attention-grabbing hairstyle. While I steer clear of her signature cropped cut, I simply can’t pull it off, I chose to recreate this portrait to try out this charming curly buns with delicate flowers.
-      </p>
+<h2 style={headingStyle}>Twiggy’s Pale Pout</h2>
 
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={image3} alt="Twiggy Hair Tutorial Jackie Wyers" style={{ width: '100%', maxWidth: '650px' }} />
-      </div>
+<p style={paragraphStyle}>
+  Shaping my lips to mirror Twiggy's, I started with <a style={linkStyle} href="https://www.charlottetilbury.com" target="_blank" rel="noreferrer">Charlotte Tilbury’s Iconic Nude Lip Liner</a>. The goal was a slightly widened Cupid's bow and a fuller upper lip, all softly blended for a natural edge. The <a style={linkStyle} href="https://www.annasui.com" target="_blank" rel="noreferrer">Anna Sui</a> lipsticks, tapped gently over the lips and brightened with a pinker tone in the centre, created the perfect vintage-inspired pout.
+</p>
 
-      <p style={paragraphStyle}>
-        I hope you enjoyed another Time Travel Tutorials for all the vintage vibes, and I do have “vintage vibes” merchandise available if you are interested, browse <a href="/vintagevibesmerch" style={{ color: 'black' }}>here!</a>
-      </p>
+<ResponsiveIframe src="https://shopmy.us/collections/public/565773?noHeader=true" title="Eyeliner - Ana Sui" />
 
-      <p style={paragraphStyle}>
-        Thank you for reading and if you want to be featured on my site, try out this look and please tag me as I’d love to see it and share your rendition! I love to see you switch up your style with confidence.
-      </p>
+<div
+style = {{
+  margin : '20px'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+
+<h2 style={headingStyle}>Twiggy’s Spring Hairstyle</h2>
+
+<p style={paragraphStyle}>
+  No <a style={linkStyle} href="https://en.wikipedia.org/wiki/Twiggy" target="_blank" rel="noreferrer">Twiggy</a> ensemble is complete without an attention-grabbing hairstyle. While I steer clear of her signature cropped cut, I simply can’t pull it off, I chose to recreate this portrait to try out this charming curly buns with delicate flowers.
+</p>
+
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+  <img src={image3} alt="Twiggy Hair Tutorial Jackie Wyers" style={{ width: '100%', maxWidth: '650px' }} />
+</div>
+
+<p style={paragraphStyle}>
+  I hope you enjoyed another Time Travel Tutorials for all the vintage vibes, and I do have “vintage vibes” merchandise available if you are interested, browse <a href="/vintagevibesmerch" style={{ color: 'black' }}>here!</a>
+</p>
+
+<p style={paragraphStyle}>
+  Thank you for reading and if you want to be featured on my site, try out this look and please tag me as I’d love to see it and share your rendition! I love to see you switch up your style with confidence.
+</p>
 
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <a href="/yardley1965" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
