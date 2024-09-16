@@ -50,16 +50,15 @@ const CameraSettings = () => {
     const blogRef = useRef(null);
   
     useEffect(() => {
+      // Initialize Google Analytics
+      ReactGA.initialize('G-RT6GR7JXYG');
+      
+      // Log the page view when the component mounts
       logPageView();
     }, []);
   
     const logPageView = () => {
-      if (window.gtag) {
-        window.gtag('config', 'G-RT6GR7JXYG', {
-          page_path: '/camerasettings',
-          page_title: 'Camera Settings - A Guide to Scroll-Stopping iPhone Photos',
-        });
-      }
+      ReactGA.pageview('/camerasettings', null, 'Camera Settings - A Guide to Scroll-Stopping iPhone Photos');
     };
 
 
