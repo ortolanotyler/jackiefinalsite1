@@ -539,8 +539,8 @@ function ResponsiveAppBar() {
                   to="/subscribe" // Replace with your subscription link
                   className="responsive-button"
                   sx={{
-                    backgroundColor: 'black',
-                    color: 'white',
+                    backgroundColor: '#000000',
+                    color: '#fcfaf4',
                     borderRadius: '5px',
                     width: '100%',
                     fontFamily: 'GFS Didot, serif',
@@ -551,7 +551,7 @@ function ResponsiveAppBar() {
                       backgroundColor: '#745B4F',
                       color: '#745B4F',
                     },
-                    marginRight: '20px', // Add some margin to the right
+                    marginRight: '30px', // Add some margin to the right
                   }}
                 >
                   Subscribe
