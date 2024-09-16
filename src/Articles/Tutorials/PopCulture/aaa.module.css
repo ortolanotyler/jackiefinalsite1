@@ -119,3 +119,17 @@
     background-color: black; /* Change background color on hover */
     color: white; /* Change text color on hover */
 }
+
+a {
+    font-family: 'GFS Didot', serif;
+    color: inherit; /* Make sure they inherit the color from the parent element */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover,
+a:focus,
+a:visited {
+    font-family: 'GFS Didot', serif;
+    text-decoration: none; /* Ensure it remains without underline */
+    color: inherit; /* Keep the color the same on hover/focus/visited */
+}

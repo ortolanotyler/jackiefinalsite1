@@ -2,17 +2,19 @@ import React from 'react';
 
 const DropCap1 = ({ text, style }) => {
   return (
-    <p style={{maxWidth: '500px', margin: '1rem auto'}}>
+    <p style={style}>
       <span style={{ 
-        fontSize: '4em', 
+        fontSize: '5rem', 
+        fontFamily: 'GFS-Didot, sans-serif',
         float: 'left', 
-        margin: '1rem',  
+        margin: '1rem',
+        paddingRight: '1rem',  
         lineHeight: '1.5rem', 
         color: '#745B4F'
       }}>
         {text.charAt(0)}
       </span>
-      <span style={{ lineHeight: '1.5' }}>
+      <span style={{ lineHeight: '1.25',  fontSize: '22px' }}>
         {text.slice(1)}
       </span>
     </p>

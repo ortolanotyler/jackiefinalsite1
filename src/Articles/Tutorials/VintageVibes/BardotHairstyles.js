@@ -454,7 +454,7 @@ Pin my Bardot looks on Pinterest to your inspiration board!
       </div>
       <div
 style = {{
-  margin : '20px'
+  margin : '1rem'
 }}
 >
 

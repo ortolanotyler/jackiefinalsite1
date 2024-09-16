@@ -6,8 +6,14 @@ const ArticleTitle = ({ mainTitle, subTitle, author, publishDate }) => {
       <h1 style={styles.mainTitle}>
         {mainTitle}
       </h1>
+      {subTitle && (
+        <h2 style={styles.subTitle}>
+          {subTitle}
+        </h2>
+      )}
       <div style={styles.authorContainer}>
         <span style={styles.author}>BY {author}</span>
+        <span style={styles.date}>PUBLISHED {publishDate}</span>
       </div>
     </div>
   );
@@ -39,22 +45,19 @@ const styles = {
   },
   authorContainer: {
     display: 'flex',
-    justifyContent: 'flex-start', // Aligns the text left
-    gap: '400px',
+    justifyContent: 'space-between', // Spreads author and date to opposite sides
     fontFamily: 'Nunito, sans-serif', // Font for the author and date text
     fontSize: '12px',
+    marginTop: '10px',
   },
   author: {
     textTransform: 'uppercase',
     fontFamily: 'Georgia, serif', // Font for the author and date text
-
     fontWeight: 'normal',
   },
   date: {
-    fontFamily: 'Georgia, serif', // Font for the author and date tex
+    fontFamily: 'Georgia, serif', // Font for the author and date text
     fontWeight: 'normal',
-    fontFamily: 'Nunito, sans-serif', // Font for the author and date text
-
   },
 };
 

@@ -118,6 +118,7 @@ import Rome from './Articles/Travel/Rome';
 import './App.css';
 import Sorrento1 from './Articles/Travel/Sorrento1';
 import PastWorkGallery from './Components/PastWorkGallery';
+import Francesca from './Articles/Tutorials/VintageVibes/Francesca';
 function usePageTracking() {
   const location = useLocation();
 
@@ -258,6 +259,8 @@ function App() {
             <Route path="sorrento-gift-guide" element={<Sorrento1 />} />
             <Route path="hotelquintessance" element={<HotelQ2 />} />
             <Route path="recently-sponsored" element={<PastWorkGallery />} />
+            <Route path="francesca-bridgerton" element={<Francesca />} />
+
             <Route path="*" element={<h1>404 Not Found</h1>} />
           </Route>
         </Routes>

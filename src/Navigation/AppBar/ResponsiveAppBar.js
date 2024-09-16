@@ -105,6 +105,7 @@ function ResponsiveAppBar() {
         position="fixed"
         sx={{
           fontFamily: 'GFS Didot, serif',
+          color: '#745B4F',
           backgroundColor: '#FDEDEF',
           marginBottom: '1px',
           width: '100%',
@@ -112,7 +113,7 @@ function ResponsiveAppBar() {
         }}
       >
         <Container maxWidth="50%" disableGutters>
-          <Toolbar disableGutters sx={{ justifyContent: 'center', flexWrap: 'wrap', alignItems: 'center' }}>
+          <Toolbar disableGutters sx={{ justifyContent: 'space-between', flexWrap: 'wrap', alignItems: 'center' }}>
             <IconButton
               onClick={toggleSidebar}
               sx={{
@@ -193,7 +194,7 @@ function ResponsiveAppBar() {
                     sx={{
                       '.MuiPaper-root': {
                         bgcolor: 'white',
-                        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.01)',
+                        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
                         borderRadius: '8px',
                       },
                       '.MuiMenuItem-root': {
@@ -547,10 +548,10 @@ function ResponsiveAppBar() {
                     fontSize: '1rem', // Smaller font size
                     boxShadow: '0 4px 8px rgba(0, 0.5, 0.5, 0.25)', // Add a shadow
                     '&:hover': {
-                      backgroundColor: '#fdedef',
+                      backgroundColor: '#745B4F',
                       color: '#745B4F',
                     },
-                    marginRight: '5rem', // Add some margin to the right
+                    marginRight: '20px', // Add some margin to the right
                   }}
                 >
                   Subscribe

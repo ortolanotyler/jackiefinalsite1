@@ -160,8 +160,8 @@ style = {{
       </div>
 
       <p style={{ ...paragraphStyle, maxWidth: '500px', margin: '0 auto' }}>
-        Among the film's many breathtaking fashion moments, the iconic pink gingham dress stole the hearts of fans. However, one look, in my opinion, outshone the rest—the unforgettable roller skate Barbie ensemble!
-      </p>
+  Among the film's many breathtaking fashion moments, the iconic <a href='https://www.vogue.com/article/barbie-gingham-dress' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none', color: 'black' }}>pink gingham dress</a> stole the hearts of fans. However, one look, in my opinion, outshone the rest—the unforgettable <a href='https://www.hollywoodreporter.com/news/general-news/barbie-movie-roller-skating-costumes-1235168086/' target='_blank' rel='noopener noreferrer' style={{ textDecoration: 'none', color: 'inherit' }}>roller skate Barbie ensemble</a>!
+</p>
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
         <a href='https://www.instagram.com/p/CtfWF2oMk7p' target="_blank" rel="noopener noreferrer">

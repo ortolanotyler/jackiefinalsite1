@@ -37,7 +37,7 @@ const PeriodDrama = () => {
 
   
     useEffect(() => {
-      logPageView();
+      logPageView('/perioddrama');
     }, []);
   
     const logPageView = () => {
