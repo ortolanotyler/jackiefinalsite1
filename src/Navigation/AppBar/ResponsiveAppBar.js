@@ -20,21 +20,18 @@ const logo = `${process.env.PUBLIC_URL}/Images/Home/jwlogo3.png`;
 
 const pages = [
   { name: 'Home', path: '/' },
-  { name: 'About', path: '/about' },
   { name: 'Travel', path: '/travel' },
+  
   { name: 'Quiz', path: '/quiz' },
 ];
 
 const aboutOptions = [
-  { name: 'Meet Jackie', path: '/about' },
-  { name: 'Media Kit', path: '/press' },
   { name: 'Contact', path: '/contact' },
+  { name: 'Media Kit', path: '/press' },
+  { name: 'Fan Art Gallery', path: '/fan-art' },
 ];
 
-const beyondBeautyOptions = [
-  { name: 'Travel', path: '/travel' },
-  { name: 'Diary', path: '/diary' },
-];
+
 
 const shopOptions = [
   { name: 'Shop My Style', path: '/mystyle' },
@@ -182,7 +179,7 @@ function ResponsiveAppBar() {
                     </MenuItem>
                   ))}
                   <MenuItem onClick={handleOpenTutorialsMenu}>
-                    <Typography textAlign="center">Tutorials</Typography>
+                    <Typography textAlign="center">Beauty</Typography>
                   </MenuItem>
                   <Menu
                     id="tutorials-submenu"
@@ -211,36 +208,8 @@ function ResponsiveAppBar() {
                       </MenuItem>
                     ))}
                   </Menu>
-                  <MenuItem onClick={handleOpenBeyondMenu}>
-                    <Typography textAlign="center">Beyond Beauty</Typography>
-                  </MenuItem>
-                  <Menu
-                    id="beyond-beauty-submenu"
-                    anchorEl={anchorElBeyond}
-                    open={Boolean(anchorElBeyond)}
-                    onClose={handleCloseBeyondMenu}
-                    anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
-                    transformOrigin={{ vertical: 'top', horizontal: 'right' }}
-                    sx={{
-                      '.MuiPaper-root': {
-                        bgcolor: 'white',
-                        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                        borderRadius: '8px',
-                      },
-                      '.MuiMenuItem-root': {
-                        fontFamily: 'GFS Didot, sans-serif',
-                        '&:hover': {
-                          bgcolor: 'transparent',
-                        },
-                      },
-                    }}
-                  >
-                    {beyondBeautyOptions.map((option) => (
-                      <MenuItem key={option.name} onClick={handleCloseBeyondMenu} component={Link} to={option.path}>
-                        <Typography textAlign="center">{option.name}</Typography>
-                      </MenuItem>
-                    ))}
-                  </Menu>
+               
+               
                   {shopOptions.map((option) => (
                     <MenuItem key={option.name} onClick={handleCloseNavMenu} component={Link} to={option.path}>
                       <Typography textAlign="center">{option.name}</Typography>
@@ -494,41 +463,7 @@ function ResponsiveAppBar() {
                 >
                   Beyond Beauty
                 </Button>
-                <Menu
-                  id="beyond-beauty-menu"
-                  anchorEl={anchorElBeyond}
-                  anchorOrigin={{
-                    vertical: 'bottom',
-                    horizontal: 'right',
-                  }}
-                  transformOrigin={{
-                    vertical: 'top',
-                    horizontal: 'right',
-                  }}
-                  open={Boolean(anchorElBeyond)}
-                  onClose={handleCloseBeyondMenu}
-                  sx={{
-                    '.MuiPaper-root': {
-                      bgcolor: 'white',
-                      color: '#f8f8f8',
-                   
-                      borderRadius: '8px',
-                    },
-                    '.MuiMenuItem-root': {
-                      fontFamily: 'GFS Didot, sans-serif',
-                      fontSize: '1rem',
-                      '&:hover': {
-                        bgcolor: 'transparent',
-                      },
-                    },
-                  }}
-                >
-                  {beyondBeautyOptions.map((option) => (
-                    <MenuItem key={option.name} onClick={handleCloseBeyondMenu} component={Link} to={option.path} sx={{ '&:hover': { bgcolor: 'transparent' } }}>
-                      {option.name}
-                    </MenuItem>
-                  ))}
-                </Menu>
+               
               </Box>
             )}
 
