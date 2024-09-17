@@ -279,8 +279,7 @@ function HomePage() {
 
 
 
-        <HorizontalLine />
-
+        
 
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
