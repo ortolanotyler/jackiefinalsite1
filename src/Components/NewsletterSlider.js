@@ -34,7 +34,7 @@ const NewsletterSlider = () => {
           color: '#000000', 
         }}
       >
-        Sign Up for the weekly newsletter!
+        Sign up for the weekly newsletter!
       </Typography>
       <Box 
         className="sliderContainer" 
