@@ -115,7 +115,7 @@ const paragraphStyle = {
   const imageStyle = {
       display: 'block',
       margin: '0 auto',
-      maxWidth: '100%', // Updated to match Fable
+      maxWidth: '700px', // Updated to match Fable
       height: 'auto'
   };
 
@@ -217,7 +217,7 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 </div>
 
 
-<div style = {{lineHeight: '1.5rem',maxWidth: '700px', marginLeft: 'auto', marginRight: 'auto'}}>
+<div style = {{lineHeight: '1.25rem',maxWidth: '500px', margin:'0 auto'}}>
 <DropCap1 text="On July 11th, Tyler and I celebrated two years of marriage with a dreamy ceremony in Sorrento, Italy. If you haven’t caught up with our backstory, here’s a quick recap: We first met in middle school at
 the International School of Brussels, where we became each other's first “real” boyfriend and girlfriend. Originally from Atlanta, Georgia, and Ontario, Canada, our families both moved to Belgium in 2007, and we were the new kids at the international school that same year. What started as a middle school crush blossomed into a lifelong connection, surviving long distances as friends for over 10 years, and culminating in an epic reunion in the Big Apple!" />
 </div>
