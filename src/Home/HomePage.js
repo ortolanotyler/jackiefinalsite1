@@ -232,6 +232,44 @@ function HomePage() {
           </Suspense>
         </Grid>
 
+
+        <Grid item xs={12} md={6}>
+          <Suspense fallback={<div className="spinner"></div>}>
+         
+      
+          <HeroSection
+  featureText="HOW-TO : IPHONE"
+  headlineText="Camera Settings - A Guide to Scroll-Stopping iPhone Photos"
+  subtext="Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide."
+  author="BY JACKIE WYERS"
+  imagePath="CameraSettings/coverphoot.jpg"
+  linkUrl="/camera-settings"
+  isFlipped={false}
+/>
+
+        
+          </Suspense>
+        </Grid>
+
+
+
+        <HorizontalLine />
+
+        <Grid item xs={12} md={6}>
+          <Suspense fallback={<div className="spinner"></div>}>
+          
+<HeroSection
+  featureText="QUIZ"
+  headlineText="Animal Pretty - Which one are you?"
+  subtext="Explore the Animal Pretty makeup trends inspired by deer, cats, foxes, and bunnies. Learn how to achieve these adorable looks with step-by-step guides from Jackie Wyers."
+  author="BY JACKIE WYERS"
+  imagePath="AnimalPretty/animals.jpg"
+  linkUrl="/quiz2"
+  isFlipped={true}
+/>
+          </Suspense>
+        </Grid>
+
         <HorizontalLine />
 
 
@@ -244,7 +282,8 @@ function HomePage() {
      
 
 
-        
+                <HorizontalLine />
+
 
  
 
@@ -256,13 +295,14 @@ function HomePage() {
 
         <Grid item xs={12} md={6}>
         <Suspense fallback={<div className="spinner"></div>}>
+     
         <HeroSection
-  featureText="TIME TRAVEL TUTORIALS"
-  headlineText="Twiggy - The MOD Sixties Icon"
-  subtext="Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe."
+  featureText="VINTAGE VIBES"
+  headlineText="Mastering the Bardot Bun"
+  subtext="My Many Attempts At The Iconic 60s Style. Step into vintage beauty with Jackie Wyers' take on Brigitte Bardot's iconic hairstyles."
   author="BY JACKIE WYERS"
-  imagePath="Twiggy/TwiggyMODThumbnail.jpeg"
-  linkUrl="/twiggy"
+  imagePath="BardotHairstyles/BardotThumbnail.jpg"
+  linkUrl="/bardot-hairstyles"
   isFlipped={false}
 />
 </Suspense>
@@ -287,22 +327,9 @@ function HomePage() {
 
         <HorizontalLine />
 
-        <Grid item xs={12} md={6}>
-          <Suspense fallback={<div className="spinner"></div>}>
-          
-<HeroSection
-  featureText="QUIZ"
-  headlineText="Animal Pretty - Which one are you?"
-  subtext="Explore the Animal Pretty makeup trends inspired by deer, cats, foxes, and bunnies. Learn how to achieve these adorable looks with step-by-step guides from Jackie Wyers."
-  author="BY JACKIE WYERS"
-  imagePath="AnimalPretty/animals.jpg"
-  linkUrl="/quiz2"
-  isFlipped={true}
-/>
-          </Suspense>
-        </Grid>
+    
 
-        <HorizontalLine />
+      
 
        
 
@@ -424,12 +451,12 @@ function HomePage() {
 <Grid item xs={12} md={6}>
 <Suspense fallback={<div className="spinner"></div>}>
 <HeroSection
-  featureText="POP CULTURE"
-  headlineText="Emily in Paris Style Evolution: Makeup, Hair, and Fashion Recap"
-  subtext="Explore the style evolution of Emily Cooper from Emily in Paris. Discover iconic fashion, makeup, and hair moments from the series."
+  featureText="TIME TRAVEL TUTORIALS"
+  headlineText="Twiggy - The MOD Sixties Icon"
+  subtext="Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe."
   author="BY JACKIE WYERS"
-  imagePath="EmilyInParis/emilyinparis.jpg"
-  linkUrl="/emilyinparis"
+  imagePath="Twiggy/TwiggyMODThumbnail.jpeg"
+  linkUrl="/twiggy"
   isFlipped={false}
 />
 
