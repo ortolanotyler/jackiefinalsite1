@@ -21,8 +21,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    padding: '10px',
-    margin: '0 auto',
+    margin: '1rem 2rem',
    
     flexDirection: isSmallScreen ? 'column' : isFlipped ? 'row-reverse' : 'row',
     flexWrap: 'wrap',
@@ -32,13 +31,13 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     flex: 1,
     paddingRight: isSmallScreen ? '0' : isFlipped ? '0' : '40px',
     paddingLeft: isFlipped && !isSmallScreen ? '40px' : '0',
-    maxWidth: '500px',
+    maxWidth: '600px',
     textAlign: 'center',
     fontFamily: 'GFS Didot, serif',
   };
 
   const featureStyle = {
-    fontSize: '18px',
+    fontSize: '20px',
     fontWeight: '100',
     letterSpacing: '1px',
     marginBottom: '1rem',
@@ -49,7 +48,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
   const headlineStyle = {
     fontSize: '32px',
     lineHeight: 1,
-    marginBottom: '20px',
+   
     fontFamily: 'GFS Didot, serif',
     minHeight: '10px',
   };
@@ -57,7 +56,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
   const subtextStyle = {
     fontSize: '16px',
     lineHeight: 1.5,
-    marginBottom: '20px',
+  
     fontFamily: 'GFS Didot, serif',
     color: '#000000',
     minHeight: '10vh',
@@ -74,11 +73,12 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
   const imageContentStyle = {
     flex: 1,
     textAlign: isSmallScreen ? 'center' : isFlipped ? 'left' : 'right',
-    maxWidth: '400px',
+    maxWidth: '500px',
   };
 
   const imageStyle = {
     width: '100%',
+    margin: '0 auto',
     height: 'auto',
     borderRadius: '5px',
     display: 'block',
