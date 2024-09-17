@@ -1,7 +1,7 @@
 .sliderContainer {
   position: relative;
   width: 100%;
-  max-width: 600px;
+  max-width: 1000px;
   height: auto;
   margin: '0 auto';
   justify-content: center;
@@ -18,7 +18,7 @@
 }
 
 .sliderImage {
-  width: 50%;
+  width: 100%;
   height: auto;
   object-fit: cover;
 }
@@ -27,6 +27,7 @@
 .nextButton {
   position: absolute;
   top: 50%;
+  
   transform: translateY(-50%);
   color: white;
   background-color: rgba(0, 0, 0, 0.5);

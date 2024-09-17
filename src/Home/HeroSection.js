@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const image1 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fairytalethumbnail.webp`;
-
-const HeroSection = () => {
+const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, linkUrl, isFlipped }) => {
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
 
   useEffect(() => {
@@ -23,35 +21,36 @@ const HeroSection = () => {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    padding: '30px 30px',
-    minHeight: '80vh',
-    flexDirection: isSmallScreen ? 'column' : 'row',
+    padding: '1rem auto',
+    minHeight: '40vh',
+    flexDirection: isSmallScreen ? 'column' : isFlipped ? 'row-reverse' : 'row',
     flexWrap: 'wrap',
   };
 
   const textContentStyle = {
     flex: 1,
-    paddingRight: isSmallScreen ? '0' : '40px',
+    paddingRight: isSmallScreen ? '0' : isFlipped ? '0' : '40px',
+    paddingLeft: isFlipped && !isSmallScreen ? '40px' : '0',
     maxWidth: '500px',
-    textAlign: 'center',  // Center text on all screens
+    textAlign: 'center',
     fontFamily: 'GFS Didot, serif',
   };
 
   const featureStyle = {
     fontSize: '14px',
-    fontWeight: 'bold',
+    fontWeight: '100',
     letterSpacing: '1px',
-    marginBottom: '10px',
+    marginBottom: '1rem',
     fontFamily: 'GFS Didot, serif',
-    minHeight: '20px',
+    
   };
 
   const headlineStyle = {
-    fontSize: '32px',
-    lineHeight: 1.2,
+    fontSize: '28px',
+    lineHeight: 1,
     marginBottom: '20px',
     fontFamily: 'GFS Didot, serif',
-    minHeight: '50px',
+    minHeight: '10px',
   };
 
   const subtextStyle = {
@@ -59,22 +58,22 @@ const HeroSection = () => {
     lineHeight: 1.5,
     marginBottom: '20px',
     fontFamily: 'GFS Didot, serif',
-    color: '#333',
-    minHeight: '70px',
+    color: '#000000',
+    minHeight: '10vh',
   };
 
   const authorStyle = {
     fontSize: '14px',
     fontStyle: 'italic',
-    color: '#555',
+    color: '#000000',
     fontFamily: 'GFS Didot, serif',
     minHeight: '20px',
   };
 
   const imageContentStyle = {
     flex: 1,
-    textAlign: isSmallScreen ? 'center' : 'right',
-    maxWidth: '600px',
+    textAlign: isSmallScreen ? 'center' : isFlipped ? 'left' : 'right',
+    maxWidth: '500px',
   };
 
   const imageStyle = {
@@ -84,23 +83,17 @@ const HeroSection = () => {
     display: 'block',
   };
 
-  
-
   return (
-    <a href="/fairytalewedding" style={heroLinkStyle}>
+    <a href={linkUrl} style={heroLinkStyle}>
       <div style={heroSectionStyle}>
         <div style={textContentStyle}>
-          <h2 style={featureStyle}>FEATURE</h2>
-          <h1 style={headlineStyle}>
-            Our Fairytale Wedding Overlooking Sorrento, Italy
-          </h1>
-          <p style={subtextStyle}>
-            Step into the magic of our fairytale wedding in Sorrento, Italy. Discover the iconic pop culture brides who inspired my bridal look, and get an inside look at the intimate ceremony that brought our love story—from middle school sweethearts to lifelong partners—to life.
-          </p>
-          <p style={authorStyle}>BY JACKIE WYERS</p>
+          <h2 style={featureStyle}>{featureText}</h2>
+          <h1 style={headlineStyle}>{headlineText}</h1>
+          <p style={subtextStyle}>{subtext}</p>
+          <p style={authorStyle}>{author}</p>
         </div>
         <div style={imageContentStyle}>
-          <img src={image1} alt="Fairytale Wedding" style={imageStyle} loading="lazy" />
+          <img src={`${process.env.PUBLIC_URL}/Images/Articles/${imagePath}`} alt={headlineText} style={imageStyle} loading="lazy" />
         </div>
       </div>
     </a>

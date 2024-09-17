@@ -1,0 +1,82 @@
+.heroLink {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .heroSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+    min-height: 80vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .heroSectionSmallScreen {
+    flex-direction: column;
+  }
+  
+  .textContent {
+    flex: 1;
+    padding-right: 40px;
+    max-width: 450px;
+    text-align: left;
+    font-family: 'GFS-Didot, serif';
+  }
+  
+  .textContentSmallScreen {
+    padding-right: 0;
+  }
+  
+  .feature {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    font-family: 'GFS Didot, serif';
+    min-height: 20px;
+  }
+  
+  .headline {
+    font-size: 28px;
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 1rem;
+    font-family: 'GFS Didot, serif';
+    min-height: 50px;
+  }
+  
+  .subtext {
+    font-size: 14px;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+    font-family: 'GFS Didot, serif';
+    color: #000000;
+    min-height: 1rem;
+  }
+  
+  .author {
+    font-size: 14px;
+    font-style: underline;
+    color: #000000;
+    font-family: 'GFS Didot, serif';
+    min-height: 20px;
+  }
+  
+  .imageContent {
+    flex: 1;
+    text-align: right;
+    max-width: 600px;
+  }
+  
+  .imageContentSmallScreen {
+    text-align: center;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+  }

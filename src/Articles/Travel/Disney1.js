@@ -53,7 +53,6 @@ const Disney2Post = () => {
     const linkStyle = {
       textDecoration: 'none', // Removes underline from links
       fontFamily: 'GFS Didot, serif',
-  
       color: '#3a3a3a', // Inherits the color of the surrounding text
     };
 

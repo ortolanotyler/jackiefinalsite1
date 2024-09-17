@@ -8,7 +8,6 @@ import SubscribeButton from '../../Components/SubscribeButton';
 import { initGA, logPageView } from '../../analytics';
 import { Helmet } from 'react-helmet';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
-import DropCap from '../../Components/DropCap';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 

@@ -49,7 +49,7 @@ const Francesca = () => {
     fontSize: '1.5rem',
     fontWeight: 'normal',
     fontFamily: 'GFS Didot, serif',
-    color: '#333',
+    color: '#000000',
     margin: '1rem auto'
 };
 const paragraphStyle = {

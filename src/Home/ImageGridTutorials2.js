@@ -3,21 +3,20 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
 // Import your images
-const image1 = `${process.env.PUBLIC_URL}/Images/Home/homepage1.webp`;
-const image2 = `${process.env.PUBLIC_URL}/Images/Home/homepage2.webp`;
-const image3 = `${process.env.PUBLIC_URL}/Images/Home/homepage3.webp`;
-const image4 = `${process.env.PUBLIC_URL}/Images/Home/homepage4.webp`;
 
+const image1 = `${process.env.PUBLIC_URL}/Images/Home/homepage5.webp`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Home/homepage6.webp`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Home/homepage7.webp`;
+const image4 = `${process.env.PUBLIC_URL}/Images/Home/homepage8.webp`;
 
 const itemData = [
-  { img: image1, title: 'Jackie Wyers as Sophia Loren' },
-  { img: image2, title: 'Jackie Wyers as Margot Robbie' },
-  { img: image3, title: 'Jackie Wyers Latte Makeup Headhot' },
-  { img: image4, title: 'Jackie Wyers Hair Tutorials' },
-
+  { img: image1, title: 'Jackie Wyers New York City' },
+  { img: image2, title: 'Jackie Wyers Barbie Margot' },
+  { img: image3, title: 'Jackie Wyers in San Diego' },
+  { img: image4, title: "Jackie Wyers Penhaligon's Campaign" },
 ];
 
-export default function QuiltedImageList1() {
+export default function QuiltedImageList2() {
   return (
     <ImageList
       sx={{

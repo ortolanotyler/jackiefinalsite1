@@ -1,7 +1,4 @@
 import React, { useEffect, lazy, Suspense, useRef, useState, useMemo } from 'react';
-
-
-
 import { Grid, Box, Paper, ThemeProvider, createTheme, useMediaQuery, Typography } from '@mui/material';
 import { debounce } from 'lodash';
 import { Helmet } from 'react-helmet';
@@ -11,11 +8,9 @@ import TextRevealHomePage from '../Components/TextRevealHomePage';
 import VideoEmbed from './VideoEmbed';
 import LifestyleFavorites from './LifestyleFavorites';
 import ReviewFavorites1 from './ReviewFavorites';
-import HeroSection2 from './HeroSection2';
-import HeroSection3 from './HeroSection3';
 import HeroSection from './HeroSection';
-import HeroSection4 from './HeroSection4';
-import HeroSection5 from './HeroSection5';
+import HorizontalLine from '../Components/HorizontalLine';
+import NewsletterSlider from '../Components/NewsletterSlider';
 
 const TextReveal = lazy(() => import('../Components/TextReveal'));
 const EmailSubscribe = lazy(() => import('../Components/EmailSubscribe'));
@@ -31,7 +26,6 @@ const Quiz2 = lazy(() => import('../Quiz/Quiz2'));
 const theme = createTheme();
 
 function HomePage() {
- 
   const quizzesRef = useRef(null);
   const outfitsRef = useRef(null);
 
@@ -40,8 +34,8 @@ function HomePage() {
     quizzes: quizzesRef,
     outfits: outfitsRef,
   }), []);
+  
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-
 
   const [isJiggling, setIsJiggling] = useState({
     quizzes: false,
@@ -54,7 +48,6 @@ function HomePage() {
     }, 200);
 
     window.addEventListener('scroll', handleScroll);
-
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -109,31 +102,27 @@ function HomePage() {
   return (
     <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
       <Helmet>
-  <title>Jackie Wyers Beauty</title>
-  <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
-  <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
-  
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG', {
-        page_path: window.location.pathname,
-      });
-    `}
-  </script>
+        <title>Jackie Wyers Beauty</title>
+        <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
+        <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RT6GR7JXYG', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </script>
 
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" as="style" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" />
-  <link rel="preload" href="/css/HomePage.css" as="style" />
-  <link rel="stylesheet" href="/css/HomePage.css" />
-  <link rel="canonical" href="https://jackiewyers.beauty/" />
-</Helmet>
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" as="style" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" />
+        <link rel="canonical" href="https://jackiewyers.beauty/" />
+      </Helmet>
 
-
-      <Grid container spacing={2} justifyContent="center">
+      <Grid container spacing={0} justifyContent="center">
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
             <TextRevealHomePage text="JACKIE WYERS" style = {{margin:'0 auto'}} />
@@ -147,52 +136,137 @@ function HomePage() {
               sx={{
                 backgroundColor: 'white',
                 fontFamily: 'GFS Didot, serif',
-                borderRadius: '20px',
+              
                 color: '#745B4F',
                 textAlign: 'center',
               }}
             >
               <Suspense fallback={<div className="spinner"></div>}>
                 <RotatingText />
+                       
+
               </Suspense>
             </Paper>
           </Grid>
         )}
 
         {!isMobile && (
-          <Grid item xs={12} >
+          <Grid item xs={12}>
             <Suspense fallback={<div className="spinner"></div>}>
               <QuiltedImageList1 />
             </Suspense>
+            <HorizontalLine />
+            
+
+            <HeroSection
+  featureText="BRIDAL"
+  headlineText="DIY Flower Pins for a Mamma Mia Inspired Wedding"
+  subtext="Learn how to create your own DIY bridal flower pins inspired by Mamma Mia for your wedding day. Jackie Wyers shares a step-by-step guide to make these beautiful accessories."
+  author="BY JACKIE WYERS"
+  imagePath="MammaMia/mammamiathumb.png"
+  linkUrl="/diy-flowers"
+/>
+            <Suspense fallback={<div className="spinner"></div>}>
+              <ImageGrid />
+            </Suspense>
           </Grid>
+
+          
+
+          
         )}
 
 
+<HorizontalLine />
+
+<Grid item xs={12} >
+          <Suspense fallback={<div className="spinner"></div>}>
+            <NewsletterSlider />
+          </Suspense>
+        </Grid>
+  <Grid item xs={12} >
+          <Suspense fallback={<div className="spinner"></div>}>
+            <EmailSubscribe />
+          </Suspense>
+        </Grid>
+       
+
+        <HorizontalLine />
+
+
+<Grid item xs={12} md={6}>
+<Suspense fallback={<div className="spinner"></div>}>
+<HeroSection
+  featureText="TRAVEL // ITINERARIES"
+  headlineText="Fable Auckland Hotel Review"
+  subtext="Join Jackie Wyers as she reviews the luxurious Fable Auckland in New Zealand. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities."
+  author="BY JACKIE WYERS"
+  imagePath="Fable/FableAucklandThumbnail.jpg"
+  linkUrl="/fable"
+  isFlipped={true}
+/>
+          </Suspense>
+        </Grid>
+
+      
+
+        
+
+    
+
+
+        <Grid item xs={12} md={6}>
+          <Suspense fallback={<div className="spinner"></div>}>
+            <HeroSection
+              featureText="POP CULTURE"
+              headlineText="Francesca Bridgerton Makeup, Hair, and Dress"
+              subtext="From bold blush to a signature half-up half-down style similar to princess Belle, I’m breaking down all the steps."
+              author="BY JACKIE WYERS"
+              imagePath="Francesca/FrancescaThumb.jpg"
+              linkUrl="/francesca-bridgerton"
+              isFlipped={true}
+            />
+          </Suspense>
+        </Grid>
+
+      
+
+
+        <Grid item xs={12} md={6}>
+          <Suspense fallback={<div className="spinner"></div>}>
+            <HeroSection
+              featureText="TRAVEL"
+              headlineText="Our Three Day Romantic Getaway in Rome, Italy"
+              subtext="From early morning strolls to late-night gelato runs, we made the most of every moment in this enchanting city."
+              author="BY JACKIE WYERS"
+              imagePath="Rome/47.jpeg"
+              linkUrl="/rome"
+              isFlipped={true}
+            />
+          </Suspense>
+        </Grid>
+
+        <HorizontalLine />
+
 
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
-            <HeroSection />
+            <ShopMyHero2 />
           </Suspense>
         </Grid>
-        <Grid item xs={12}>
+
+
+        <Grid item xs={12} md={6}>
           <Suspense fallback={<div className="spinner"></div>}>
-            <HeroSection2 />
-          </Suspense>
-        </Grid>
-        
-        <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
-            <HeroSection3 />
-          </Suspense>
-        </Grid>
-        <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
-            <HeroSection4 />
-          </Suspense>
-        </Grid>
-        <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
-            <HeroSection5 />
+          <HeroSection
+  featureText="VINTAGE VIBES"
+  headlineText="Mastering the Bardot Bun - Jackie Wyers"
+  subtext="Step into the glamorous ‘60s with Brigitte Bardot's iconic big bun! I've got you covered with my tried-and-tested techniques featuring faux bangs and more."
+  author="BY JACKIE WYERS"
+  imagePath="BardotHairstyles/BardotThumbnail.jpg"
+  linkUrl="/bardothairstyles"
+  isFlipped={true}
+/>
           </Suspense>
         </Grid>
 
@@ -202,6 +276,42 @@ function HomePage() {
             <ImageGrid />
           </Suspense>
         </Grid>
+
+
+        <Grid item xs={12} md={6}>
+        <Suspense fallback={<div className="spinner"></div>}>
+     
+        <HeroSection
+  featureText="POP CULTURE OBSESSED"
+  headlineText="Victoria's Secret Fashion Show 2013 - Jackie Wyers"
+  subtext="Relive the glamour of the Victoria's Secret Fashion Show 2013 with beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014."
+  author="BY JACKIE WYERS"
+  imagePath="VictoriaSecret2014/VSThumbnail.jpeg"
+  linkUrl="/victoriasecret"
+/>
+</Suspense>
+</Grid>
+
+     
+
+   
+<Grid item xs={12} md={6}>
+<Suspense fallback={<div className="spinner"></div>}>
+<HeroSection
+  featureText="POP CULTURE"
+  headlineText="Emily in Paris Style Evolution: Makeup, Hair, and Fashion Recap"
+  subtext="Explore the style evolution of Emily Cooper from Emily in Paris. Discover iconic fashion, makeup, and hair moments from the series."
+  author="BY JACKIE WYERS"
+  imagePath="EmilyInParis/emilyinparis.jpg"
+  linkUrl="/emilyinparis"
+  isFlipped={true}
+/>
+
+</Suspense>
+</Grid>
+
+
+      
 
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
@@ -216,43 +326,7 @@ function HomePage() {
           </Suspense>
         </Grid>
 
-        <Grid item xs={12} sx={{ display: 'flex', justifyContent: { xs: 'center', md: 'flex-end' }, mt: 2 }}>
-          <Box sx={{ textAlign: { xs: 'center', md: 'right' }, mr: 5, mb: 2 }}>
-            <a
-              href="/quiz"
-              ref={viewAllRefs.quizzes}
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                fontFamily: 'GFS Didot, serif',
-                color: 'black',
-                textDecoration: 'none',
-                animation: isJiggling.quizzes ? 'jiggle 0.5s ease-in-out' : 'none',
-              }}
-            >
-              <Typography
-                variant="body1"
-                sx={{
-                  fontSize: '1.25rem',
-                  fontFamily: 'GFS Didot, serif',
-                  color: 'black',
-                }}
-              >
-                VIEW ALL QUIZZES
-              </Typography>
-              <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>
-                &rarr;
-              </Box>
-            </a>
-          </Box>
-        </Grid>
-
-        <Grid item xs={12}>
-  <Suspense fallback={<div className="spinner"></div>}>
-    <TextReveal text="NEWSLETTER" />
-    <EmailSubscribe />
-  </Suspense>
-</Grid>
+      
 
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
@@ -269,11 +343,7 @@ function HomePage() {
           </Suspense>
         </Grid>
 
-        <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
-            <ShopMyHero2 />
-          </Suspense>
-        </Grid>
+      
 
         <Grid item xs={12} sx={{ display: 'flex', justifyContent: { xs: 'center', md: 'flex-end' }, mt: 2 }}>
           <Box sx={{ textAlign: { xs: 'center', md: 'right' }, mr: 5, mb: 2 }}>

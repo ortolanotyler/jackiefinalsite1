@@ -1,23 +1,22 @@
 
-
 .form {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 1rem;
   width: 100%;
   max-width: 400px;  
-  margin: 0 auto; /* Center horizontally */
+  margin: 0 auto;
 }
 
 .input {
-  padding: 0.5rem;
+  padding: 0.75rem;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 1rem;
 }
 
 .button {
-  background-color: #007bff;
+  background-color: black;
   color: white;
   border: none;
   border-radius: 4px;
@@ -33,9 +32,8 @@
 @media (max-width: 600px) {
   .form {
     width: 100%;
-    max-width: 400px;
-    margin: 0 auto; /* Center horizontally */
-    padding: 1rem; /* Add padding for space around the form */
+    max-width: 100%;
+    padding: 1rem;
     box-sizing: border-box;
   }
 
