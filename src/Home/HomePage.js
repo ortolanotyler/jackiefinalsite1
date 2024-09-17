@@ -213,6 +213,8 @@ function HomePage() {
             />
           </Suspense>
         </Grid>
+
+
         <Grid item xs={12} md={6}>
           <Suspense fallback={<div className="spinner"></div>}>
          
@@ -233,7 +235,12 @@ function HomePage() {
         <HorizontalLine />
 
 
+<Grid item xs={12} >
+          <Suspense fallback={<div className="spinner"></div>}>
+            <NewsletterSlider />
 
+          </Suspense>
+        </Grid>
      
 
 
@@ -264,13 +271,15 @@ function HomePage() {
 
         <Grid item xs={12} md={6}>
           <Suspense fallback={<div className="spinner"></div>}>
+          
+
           <HeroSection
-  featureText="PERFUME REVIEW"
-  headlineText="BonBon Perfume Review"
-  subtext="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments with BonBon by Viktor & Rolf."
+  featureText="TRAVEL"
+  headlineText="The Best Souvenirs to Bring Home from Sorrento"
+  subtext="Leather, Music Boxes, Flats, Oh Me! Discover the top Sorrento souvenirs with Jackie Wyers."
   author="BY JACKIE WYERS"
-  imagePath="BonBonReview/BonBonthumbnail.png"
-  linkUrl="/bonbonreview"
+  imagePath="Sorrento1/SorrentoThumbnail.jpg"
+  linkUrl="/sorrento-souvenirs"
   isFlipped={false}
 />
           </Suspense>
@@ -358,12 +367,7 @@ function HomePage() {
 
      
 
-<Grid item xs={12} >
-          <Suspense fallback={<div className="spinner"></div>}>
-            <NewsletterSlider />
 
-          </Suspense>
-        </Grid>
         <HorizontalLine />
   
 
@@ -403,13 +407,13 @@ function HomePage() {
         <Suspense fallback={<div className="spinner"></div>}>
        
         <HeroSection
-  featureText="POP CULTURE OBSESSED"
-  headlineText="Victoria's Secret Fashion Show 2013 - Jackie Wyers"
-  subtext="Relive the glamour of the Victoria's Secret Fashion Show 2013 with beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014."
+  featureText="PERFUME REVIEW"
+  headlineText="BonBon Perfume Review"
+  subtext="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments with BonBon by Viktor & Rolf."
   author="BY JACKIE WYERS"
-  imagePath="VictoriaSecret2014/VSThumbnail.jpeg"
-  linkUrl="/victoriasecret"
-  isFlipped={true}
+  imagePath="BonBonReview/BonBonthumbnail.png"
+  linkUrl="/bonbonreview"
+  isFlipped={false}
 />
 </Suspense>
 </Grid>
