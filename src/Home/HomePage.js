@@ -465,7 +465,7 @@ function HomePage() {
 
           <HeroSection
   featureText="POP CULTURE OBSESSED"
-  headlineText="Victoria's Secret Fashion Show 2013 - Jackie Wyers"
+  headlineText="Victoria's Secret Fashion Show 2013 "
   subtext="Relive the glamour of the Victoria's Secret Fashion Show 2013 with beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014."
   author="BY JACKIE WYERS"
   imagePath="VictoriaSecret2014/VSThumbnail.jpeg"
