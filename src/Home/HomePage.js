@@ -393,8 +393,7 @@ function HomePage() {
 
 
 
-        <HorizontalLine />
-
+      
        
 
         <HorizontalLine />
@@ -565,7 +564,7 @@ function HomePage() {
   headlineText="BonBon Perfume Review"
   subtext="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments with BonBon by Viktor & Rolf."
   author="BY JACKIE WYERS"
-  imagePath="BonBonReview/BonBonthumbnail.png"
+  imagePath="BonBonReview/BonBonThumbnail.png"
   linkUrl="/bonbonreview"
   isFlipped={false}
 />
