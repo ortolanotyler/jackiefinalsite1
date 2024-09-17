@@ -237,7 +237,7 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
 <div style={{ margin: '0 auto' }}>
         <AdSenseAd />
       </div>
-      <HorizontalLine/>
+  
 
 
 <h2 style={headingStyle}>Soft Brows and Bold Blush</h2>
@@ -255,7 +255,7 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
 <HorizontalLine/>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/794100?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-<HorizontalLine/>
+
 
  <div style={{ margin: '0 auto' }}>
         <AdSenseAd />
