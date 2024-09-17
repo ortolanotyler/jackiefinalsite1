@@ -39,7 +39,7 @@ export default function EmailSubscribe() {
           </Grid>
         ) : (
           <form onSubmit={handleSubmit} className="form">
-            <Grid container spacing={2}>
+            <Grid container spacing={4}>
               <Grid item xs={12}>
                 <TextField
                   type="email"
