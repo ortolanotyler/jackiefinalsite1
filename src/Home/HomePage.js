@@ -166,6 +166,8 @@ function HomePage() {
   linkUrl="/fairytalewedding"
   isFlipped={true}
 />
+<HorizontalLine />
+
             <HeroSection
   featureText="BRIDAL"
   headlineText="DIY Flower Pins for a Mamma Mia Inspired Wedding"
@@ -174,14 +176,30 @@ function HomePage() {
   imagePath="MammaMia/mammamiathumb.png"
   linkUrl="/diy-flowers"
 />
-
-
 <HorizontalLine />
+
+<HeroSection
+  featureText="DIARY"
+  headlineText="Bridesmaid Boxes How-To"
+  subtext="Get creative with budget-friendly bridesmaid proposal boxes featuring heartfelt gifts and whimsical touches. Learn how Jackie Wyers made her bridesmaid proposal extra special."
+  author="BY JACKIE WYERS"
+  imagePath="/Bridesmaids/BridesmaidBoxThumb!.jpg"
+  linkUrl="/bridesmaidsboxes"
+  isFlipped={true}
+/>
+<HorizontalLine />
+
+
+
+
+
             <Suspense fallback={<div className="spinner"></div>}>
               <ImageGrid />
             </Suspense>
         
           </Grid>
+
+          <HorizontalLine />
 
 
           <Grid item xs={12}>
@@ -231,6 +249,9 @@ function HomePage() {
         
           </Suspense>
         </Grid>
+     
+
+        <HorizontalLine />
 
 
         <Grid item xs={12} md={6}>
@@ -250,6 +271,26 @@ function HomePage() {
         
           </Suspense>
         </Grid>
+
+        <Grid item xs={12} md={6}>
+          <Suspense fallback={<div className="spinner"></div>}>
+         
+     
+<HeroSection
+  featureText="NEW ZEALAND"
+  headlineText="New Zealand | Auckland Vlog and Experience"
+  subtext="Explore Jackie Wyers' travel journey in Auckland, New Zealand. From visiting Waiheke Island and the Auckland Zoo to trying local cafes, it's a magical week halfway around the world."
+  author="BY JACKIE WYERS"
+  imagePath="NewZealand/NZThumbnail.jpg"
+  linkUrl="/newzealand"
+  isFlipped={false}
+/>
+        
+          </Suspense>
+        </Grid>
+
+
+        
 
 
 

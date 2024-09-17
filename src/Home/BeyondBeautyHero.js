@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Grid, Box, Typography, Link } from '@mui/material';
-import './AboutHero.css'; // Import the CSS file
 
 const BeyondBeautyHero = () => {
   const placeholderText = "While makeup, hair, and style remain my core passions, 'Beyond Beauty' is where I dive into travel, offering hotel reviews, crafting detailed itineraries, and sharing my experiences.\n\nThis section also serves as a glimpse into my mind, featuring diary-style posts that reflect my innermost thoughts. From love stories and personal milestones to life lessons, I hope we can get to know each other better, one post at a time.";

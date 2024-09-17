@@ -1,11 +1,11 @@
 /* App.css */
 .main-content {
-  margin-top: 100px; /* Adjust this value based on the height of your AppBar */
+  margin-top: 80px; /* Adjust this value based on the height of your AppBar */
 
 }
 
 html, body {
   overflow-x: hidden;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 1rem auto;
 }
