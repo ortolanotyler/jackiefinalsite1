@@ -37,7 +37,7 @@ const NewsletterSlider = () => {
       >
         Sign up for the weekly newsletter!
       </Typography>
-      <EmailSubscribe />
+     
 
       <Box 
         className="sliderContainer" 
@@ -82,7 +82,7 @@ const NewsletterSlider = () => {
           <ArrowForward />
         </IconButton>
       </Box>
-
+      <EmailSubscribe />
  
     </React.Fragment>
   );

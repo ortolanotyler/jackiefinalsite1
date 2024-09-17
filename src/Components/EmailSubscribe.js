@@ -31,7 +31,7 @@ export default function EmailSubscribe() {
   };
 
   return (
-    <Box display="flex" justifyContent="center" alignItems="center" width="100%" height="50vh" px={2}>
+    <Box  display="flex" justifyContent="center" alignItems="center" width="100%" height="50vh" px={2}>
       <Grid container alignItems="center" justifyContent="center" maxWidth="500px">
         {isSubmitted ? (
           <Grid item xs={12}>

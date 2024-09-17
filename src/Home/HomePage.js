@@ -181,19 +181,9 @@ function HomePage() {
 
 <HorizontalLine />
 
-<Grid item xs={12} md={6}>
-          <Suspense fallback={<div className="spinner"></div>}>
-          <HeroSection
-  featureText="VINTAGE VIBES"
-  headlineText="Mastering the Bardot Bun - Jackie Wyers"
-  subtext="Step into the glamorous ‘60s with Brigitte Bardot's iconic big bun! I've got you covered with my tried-and-tested techniques featuring faux bangs and more."
-  author="BY JACKIE WYERS"
-  imagePath="BardotHairstyles/BardotThumbnail.jpg"
-  linkUrl="/bardothairstyles"
-  isFlipped={true}
-/>
-          </Suspense>
-        </Grid>
+
+
+       
 
 
         <Grid item xs={12} md={6}>
@@ -209,42 +199,6 @@ function HomePage() {
             />
           </Suspense>
         </Grid>
-
-        <HorizontalLine />
-
-        <HorizontalLine />
-
-<Grid item xs={10} md={6}>
-          <Suspense fallback={<div className="spinner"></div>}>
-          <HeroSection
-  featureText="VINTAGE VIBES"
-  headlineText="Mastering the Bardot Bun - Jackie Wyers"
-  subtext="Step into the glamorous ‘60s with Brigitte Bardot's iconic big bun! I've got you covered with my tried-and-tested techniques featuring faux bangs and more."
-  author="BY JACKIE WYERS"
-  imagePath="BardotHairstyles/BardotThumbnail.jpg"
-  linkUrl="/bardothairstyles"
-  isFlipped={false}
-/>
-          </Suspense>
-        </Grid>
-
-
-        <Grid item xs={12} md={6}>
-          <Suspense fallback={<div className="spinner"></div>}>
-            <HeroSection
-              featureText="POP CULTURE"
-              headlineText="Francesca Bridgerton Makeup, Hair, and Dress"
-              subtext="From bold blush to a signature half-up half-down style similar to princess Belle, I’m breaking down all the steps."
-              author="BY JACKIE WYERS"
-              imagePath="Francesca/FrancescaThumb.jpg"
-              linkUrl="/francesca-bridgerton"
-              isFlipped={false}
-            />
-          </Suspense>
-        </Grid>
-
-        <HorizontalLine />
-
 
         <Grid item xs={12} md={6}>
           <Suspense fallback={<div className="spinner"></div>}>
@@ -260,9 +214,60 @@ function HomePage() {
           </Suspense>
         </Grid>
 
+        <HorizontalLine />
+
       
 
+<Grid item xs={10} md={6}>
+          <Suspense fallback={<div className="spinner"></div>}>
+          <HeroSection
+  featureText="PERFUME REVIEW"
+  headlineText="Jicky by Guerlain Perfume Review"
+  subtext="A Timeless Elegance and Pioneering Spirit. Exploring the historical significance and unique scent profile of Jicky, a masterpiece from Guerlain."
+  author="BY JACKIE WYERS"
+  imagePath="JickyReview/jickyguerlainthumbnail.png"
+  linkUrl="/jickyreview"
+  isFlipped={true}
+/>
+          </Suspense>
+        </Grid>
         <HorizontalLine />
+
+
+        <Grid item xs={12} md={6}>
+          <Suspense fallback={<div className="spinner"></div>}>
+          <HeroSection
+  featureText="PERFUME REVIEW"
+  headlineText="BonBon Perfume Review"
+  subtext="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments with BonBon by Viktor & Rolf."
+  author="BY JACKIE WYERS"
+  imagePath="BonBonReview/bonbonthumbnail.png"
+  linkUrl="/bonbonreview"
+  isFlipped={false}
+/>
+          </Suspense>
+        </Grid>
+
+        <HorizontalLine />
+
+
+        <Grid item xs={12} md={6}>
+          <Suspense fallback={<div className="spinner"></div>}>
+            <HeroSection
+              featureText="TRAVEL"
+              headlineText="Our Three Day Romantic Getaway in Rome, Italy"
+              subtext="From early morning strolls to late-night gelato runs, we made the most of every moment in this enchanting city."
+              author="BY JACKIE WYERS"
+              imagePath="Rome/47.jpeg"
+              linkUrl="/rome"
+              isFlipped={false}
+            />
+          </Suspense>
+        </Grid>
+
+      
+
+  
 
     
 
