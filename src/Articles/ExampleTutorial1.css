@@ -6,8 +6,8 @@
 }
 
 body {
-  margin: 0; /* Reset margin */
-  padding: 1rem;
+  margin: 1rem 0; /* Reset margin */
+  padding: 1rem auto;
   overflow-x: hidden;
 }
 
@@ -28,7 +28,7 @@ body {
 
 .container {
   max-width: 100%;
-  padding: 1rem;
+ 
   margin: 0 auto;
 }
 
@@ -48,14 +48,13 @@ body {
 
 .card {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
   background-color: white;
   color: black;
   font-family: 'GFS Didot', sans-serif;
   text-align: left;
   margin: 0 auto; /* Center the card */
-  padding: 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem auto;
   border-radius: 8px;
 }
 
@@ -69,8 +68,8 @@ body {
 .blog-content {
   text-align: left;
   line-height: 1;
-  margin-bottom: 1rem;
-  padding: 0 1rem;
+  margin: 1rem auto;
+  padding: 2rem auto;
   overflow-wrap: break-word;
 }
 
