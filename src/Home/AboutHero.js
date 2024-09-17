@@ -8,7 +8,7 @@ const AboutHero = () => {
   const paragraphs = placeholderText.split('\n');
 
   return (
-    <Box sx={{ width: '100%', padding: { xs: '1rem', sm: '2rem 0' }, backgroundColor: '#FDFDFD' }}>
+    <Box sx={{ width: '100%', backgroundColor: '#FDFDFD' }}>
       {/* Preload the key image for better performance */}
       <link rel="preload" href={placeholderImage} as="image" />
 
@@ -26,9 +26,9 @@ const AboutHero = () => {
                 alt="About Us"
                 sx={{
                   width: '100%',
-                  maxWidth: '300px', // Adjust based on your layout needs
-                  maxHeight: '300px', // Ensure the height matches the width for circular appearance
-                  borderRadius: '50%', // Circular image
+                  margin: '0 auto', // Adjust based on your layout needs
+                  maxHeight: '400px', // Ensure the height matches the width for circular appearance
+                  borderRadius: '0px', // Circular image
                   objectFit: 'cover', // Cover the container while preserving aspect ratio
                 }}
                 loading="lazy" // Lazy loading for performance
@@ -36,7 +36,7 @@ const AboutHero = () => {
             </Grid>
             <Grid item xs={12} sm={6}>
               <Typography
-                variant="h4"
+                variant="h6"
                 component="h2"
                 sx={{
                   textAlign: { xs: 'center', sm: 'left' },

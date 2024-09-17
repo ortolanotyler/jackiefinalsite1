@@ -65,7 +65,7 @@
 }
 
 .about-right-image {
-  margin-top: 1rem;
+  margin: '1rem auto'; 
   width: 100%;
   height: auto;
   object-fit: cover; /* Ensures the image covers the container */

@@ -241,7 +241,7 @@ const BonBonReview = () => {
         Have you tried Viktor & Rolf fragrances? Let me know your thoughts below, I’d love to hear your experience.
       </p>
       <img src={Signature} alt="Signature" style={{ width: '100%' }} />
-      <div style={{ margin: '20px' }}>
+      <div style={{ margin: '0 auto' }}>
         <AdSenseAd />
       </div>
       <Comments website-id={websiteId} page-id="BonBon" />
