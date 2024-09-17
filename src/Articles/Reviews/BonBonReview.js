@@ -38,7 +38,7 @@ const BonBonReview = () => {
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',
-    margin: '1.5rem'
+    margin: '1.5rem '
   };
 
   const paragraphStyle = {
@@ -62,7 +62,7 @@ const BonBonReview = () => {
   };
 
   const blogContent = (
-    <div className="container" style={{ width: '100%', padding: '1rem' }}>
+    <div className="container" style={{ width: '100%' }}>
   <Helmet>
   <title>BonBon Review - Jackie Wyers</title>
   <meta name="description" content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure." />
@@ -125,7 +125,7 @@ const BonBonReview = () => {
 </Helmet>
 
 
-      <AdSenseAd />
+    
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
           BEAUTY // REVIEWS
@@ -142,7 +142,7 @@ const BonBonReview = () => {
          <div style={imageContainerStyle}>
         <img src={BonBon2} alt="BonBon 2" style={imageStyle} />
       </div>
-      <div style={{ margin: '20px' }}>
+      <div style={{ margin: '20px auto' }}>
         <AdSenseAd />
       </div>
       <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '1rem 0', fontStyle: 'italic' }}>
