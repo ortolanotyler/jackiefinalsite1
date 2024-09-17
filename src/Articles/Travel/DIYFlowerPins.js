@@ -79,7 +79,7 @@ const DIYFlowers = () => {
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '1.5rem',
+    fontSize: '30px',
     fontWeight: 'normal',
     fontFamily: 'Arapey, serif',
     color: '#333',
@@ -87,21 +87,19 @@ const DIYFlowers = () => {
 };
 
 const paragraphStyle = {
-  fontSize: '20px',
+  fontSize: '24px',
   fontFamily: 'GFS Didot, serif',
-  margin: '1rem 1.5rem',
-  marginTop: '1rem',
-  marginBottom: '1rem',
+  margin: '1rem auto',
+
   maxWidth: '500px',
   lineHeight: '1.5',
-  marginLeft: 'auto',
-  marginRight: 'auto',
+ 
 };
   const gridContainerStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     gap: '1rem',
-    margin: '1rem 0'
+    margin: '1rem auto'
 };
 
 const imageStyle = {
@@ -242,11 +240,8 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 </div>
 
 <p style={paragraphStyle}>
-  I blended several inspirations to achieve my whimsical bridal look: 
-  <a style={linkStyle} href="https://www.imdb.com/title/tt0308674/" target="_blank" rel="noreferrer">
-    Christine Daae’s corseted style
-  </a> 
-  and big hair, 
+  I blended several inspirations to achieve my whimsical bridal look:  <a style={linkStyle} href="https://www.imdb.com/title/tt0308674/" target="_blank" rel="noreferrer"> Christine Daae’s corseted style
+  </a> and big hair, 
   <a style={linkStyle} href="https://www.instagram.com/taylor_hill/" target="_blank" rel="noreferrer">
     Taylor Hill-inspired makeup
   </a>, 

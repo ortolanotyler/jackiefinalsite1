@@ -279,7 +279,7 @@ function ResponsiveAppBar() {
                   sx={{
                     my: 2,
                     color: '#745B4F',
-                    display: 'block',
+                    display: 'flex',
                     fontSize: '1rem',
                     fontFamily: 'GFS Didot, sans-serif',
                     mx: 2,
@@ -546,10 +546,10 @@ function ResponsiveAppBar() {
                     fontFamily: 'GFS Didot, serif',
                     padding: '0.5rem', // Half the padding of the original button
                     fontSize: '1rem', // Smaller font size
-                    boxShadow: '0 4px 8px rgba(0, 0.5, 0.5, 0.25)', // Add a shadow
+                    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)', // Add a shadow
                     '&:hover': {
-                      backgroundColor: '#745B4F',
-                      color: '#745B4F',
+                      backgroundColor: '#f8f8f8',
+                      color: '#000000',
                     },
                     marginRight: '30px', // Add some margin to the right
                   }}

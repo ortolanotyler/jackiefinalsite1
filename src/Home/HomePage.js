@@ -159,7 +159,7 @@ function HomePage() {
             
 
             <HeroSection
-  featureText="BRIDAL"
+  featureText="FEATURED"
   headlineText="DIY Flower Pins for a Mamma Mia Inspired Wedding"
   subtext="Learn how to create your own DIY bridal flower pins inspired by Mamma Mia for your wedding day. Jackie Wyers shares a step-by-step guide to make these beautiful accessories."
   author="BY JACKIE WYERS"
@@ -309,6 +309,14 @@ function HomePage() {
 </Suspense>
 </Grid>
 
+<Grid item xs={12}>
+          <Suspense fallback={<div className="spinner"></div>}>
+            <TextReveal text="LIFESTYLE" />
+            <BeyondBeautyHero />
+            <LifestyleGrid />
+          </Suspense>
+        </Grid>
+
 
       
 
@@ -375,13 +383,7 @@ function HomePage() {
           </Box>
         </Grid>
 
-        <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
-            <TextReveal text="LIFESTYLE" />
-            <BeyondBeautyHero />
-            <LifestyleGrid />
-          </Suspense>
-        </Grid>
+       
 
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
