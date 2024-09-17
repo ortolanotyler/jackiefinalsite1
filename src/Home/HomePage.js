@@ -278,7 +278,7 @@ function HomePage() {
   subtext="Get creative with budget-friendly bridesmaid proposal boxes featuring heartfelt gifts and whimsical touches. Learn how Jackie Wyers made her bridesmaid proposal extra special."
   author="BY JACKIE WYERS"
   imagePath="/Bridesmaids/BridesmaidBoxThumb!.jpg"
-  linkUrl="/bridesmaidsboxes"
+  linkUrl="/bridesmaidboxes"
   isFlipped={true}
 />
 <HorizontalLine />

@@ -444,25 +444,7 @@ function ResponsiveAppBar() {
                     {page.name}
                   </Button>
                 ))}
-                <Button
-                  aria-controls="beyond-beauty-menu"
-                  aria-haspopup="true"
-                  onClick={handleOpenBeyondMenu}
-                  className="responsive-button"
-                  sx={{
-                    my: 2,
-                    color: '#745B4F',
-                    display: 'block',
-                    fontSize: '1rem',
-                    fontFamily: 'GFS Didot, sans-serif',
-                    mx: 2,
-                    '&:hover': {
-                      backgroundColor: 'transparent',
-                    },
-                  }}
-                >
-                  Beyond Beauty
-                </Button>
+               
                
               </Box>
             )}
