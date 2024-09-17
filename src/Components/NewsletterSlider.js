@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Box, IconButton, Typography } from '@mui/material';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
 import './NewsletterSlider.module.css'; // Ensure this file exists
+import EmailSubscribe from './EmailSubscribe';
 
 const images = [
   `${process.env.PUBLIC_URL}/Images/1.png`,
@@ -36,6 +37,8 @@ const NewsletterSlider = () => {
       >
         Sign up for the weekly newsletter!
       </Typography>
+      <EmailSubscribe />
+
       <Box 
         className="sliderContainer" 
         sx={{ 

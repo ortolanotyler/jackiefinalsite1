@@ -166,12 +166,14 @@ function HomePage() {
   imagePath="MammaMia/mammamiathumb.png"
   linkUrl="/diy-flowers"
 />
+<HorizontalLine />
             <Suspense fallback={<div className="spinner"></div>}>
               <ImageGrid />
             </Suspense>
+        
           </Grid>
 
-          
+
 
           
         )}
@@ -182,37 +184,14 @@ function HomePage() {
 <Grid item xs={12} >
           <Suspense fallback={<div className="spinner"></div>}>
             <NewsletterSlider />
-          </Suspense>
-        </Grid>
-  <Grid item xs={12} >
-          <Suspense fallback={<div className="spinner"></div>}>
-            <EmailSubscribe />
-          </Suspense>
-        </Grid>
-       
 
+          </Suspense>
+        </Grid>
         <HorizontalLine />
+  
 
 
-<Grid item xs={12} md={6}>
-<Suspense fallback={<div className="spinner"></div>}>
-<HeroSection
-  featureText="TRAVEL // ITINERARIES"
-  headlineText="Fable Auckland Hotel Review"
-  subtext="Join Jackie Wyers as she reviews the luxurious Fable Auckland in New Zealand. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities."
-  author="BY JACKIE WYERS"
-  imagePath="Fable/FableAucklandThumbnail.jpg"
-  linkUrl="/fable"
-  isFlipped={true}
-/>
-          </Suspense>
-        </Grid>
 
-      
-
-        
-
-    
 
 
         <Grid item xs={12} md={6}>
@@ -231,7 +210,6 @@ function HomePage() {
 
       
 
-
         <Grid item xs={12} md={6}>
           <Suspense fallback={<div className="spinner"></div>}>
             <HeroSection
@@ -245,6 +223,27 @@ function HomePage() {
             />
           </Suspense>
         </Grid>
+
+      
+
+        <HorizontalLine />
+
+    
+
+        <Grid item xs={12} md={6}>
+<Suspense fallback={<div className="spinner"></div>}>
+<HeroSection
+  featureText="TRAVEL // ITINERARIES"
+  headlineText="Fable Auckland Hotel Review"
+  subtext="Join Jackie Wyers as she reviews the luxurious Fable Auckland in New Zealand. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities."
+  author="BY JACKIE WYERS"
+  imagePath="Fable/FableAucklandThumbnail.jpg"
+  linkUrl="/fable"
+  isFlipped={true}
+/>
+          </Suspense>
+        </Grid>
+
 
         <HorizontalLine />
 
