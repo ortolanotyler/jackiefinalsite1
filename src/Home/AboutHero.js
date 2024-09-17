@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Box, Typography, Link } from '@mui/material';
+import TextReveal from '../Components/TextReveal';
 
 const AboutHero = () => {
   const placeholderText = "Hello! I'm Jackie Wyers. Welcome to where beauty meets pop culture. I started my YouTube career in my teens, and growing & connecting with you has been a highlight of my life. \n As a professionally trained makeup artist with a passion for character design, I thrive on celebrating and recreating iconic looks. Life’s too short not to embrace both new trends and timeless styles, and my tutorials are here to break down how.  \n Ready to switch up your style with confidence?";
@@ -9,6 +10,7 @@ const AboutHero = () => {
 
   return (
     <Box sx={{ width: '100%', backgroundColor: '#FDFDFD' }}>
+      <TextReveal text='MEET JACKIE'/> 
       {/* Preload the key image for better performance */}
       <link rel="preload" href={placeholderImage} as="image" />
 
@@ -35,18 +37,7 @@ const AboutHero = () => {
               />
             </Grid>
             <Grid item xs={12} sm={6}>
-              <Typography
-                variant="h6"
-                component="h2"
-                sx={{
-                  textAlign: { xs: 'center', sm: 'left' },
-                  fontFamily: 'Arapey',
-                  color: 'black',
-                  marginBottom: '1rem',
-                }}
-              >
-                MEET JACKIE
-              </Typography>
+          
               {paragraphs.slice(0, -1).map((text, index) => (
                 <Typography
                   key={index}
@@ -54,7 +45,7 @@ const AboutHero = () => {
                   sx={{
                     fontFamily: 'GFS Didot, serif',
                     color: 'black',
-                    marginBottom: '1rem',
+                    margin: '1rem auto',
                     textAlign: { xs: 'center', sm: 'left' },
                   }}
                 >
