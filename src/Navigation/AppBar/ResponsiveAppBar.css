@@ -1,6 +1,7 @@
 .responsive-button {
   padding: 0.4rem;
   font-size: 0.9rem;
+  color: #ffffff
 }
 
 @media (max-width: 1000px) {

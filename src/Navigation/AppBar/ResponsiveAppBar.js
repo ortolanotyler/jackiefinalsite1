@@ -510,8 +510,8 @@ function ResponsiveAppBar() {
                   sx={{
                     '.MuiPaper-root': {
                       bgcolor: 'white',
-                      color: '#745B4F',
-                      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+                      color: '#f8f8f8',
+                   
                       borderRadius: '8px',
                     },
                     '.MuiMenuItem-root': {
@@ -534,28 +534,23 @@ function ResponsiveAppBar() {
 
             {!isCollapsed && (
               <Box sx={{ display: 'flex', flexGrow: 0, alignItems: 'center' }}>
-                <Button
-                  component={Link}
-                  to="/subscribe" // Replace with your subscription link
-                  className="responsive-button"
-                  sx={{
-                    backgroundColor: '#000000',
-                    color: '#fcfaf4',
-                    borderRadius: '5px',
-                    width: '100%',
-                    fontFamily: 'GFS Didot, serif',
-                    padding: '0.5rem', // Half the padding of the original button
-                    fontSize: '1rem', // Smaller font size
-                    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)', // Add a shadow
-                    '&:hover': {
-                      backgroundColor: '#f8f8f8',
-                      color: '#000000',
-                    },
-                    marginRight: '30px', // Add some margin to the right
-                  }}
-                >
-                  Subscribe
-                </Button>
+               <Button
+  component={Link}
+  to="/subscribe"
+  className="subscribe-button" // Rename the class for specificity
+  sx={{
+    backgroundColor: '#000000',
+    color: '#ffffff !important',  // Adding !important to force the color
+    borderRadius: '0px',
+    width: '100%',
+    fontFamily: 'GFS Didot, serif',
+    padding: '0.5rem',
+    fontSize: '1rem',
+    marginRight: '30px',
+  }}
+>
+  Subscribe
+</Button>
               </Box>
             )}
           </Toolbar>
