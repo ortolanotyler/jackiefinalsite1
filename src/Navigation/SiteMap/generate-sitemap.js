@@ -1,7 +1,7 @@
 const { SitemapStream, streamToPromise } = require('sitemap');
 const { createWriteStream } = require('fs');
 
-const sitemap = new SitemapStream({ hostname: 'https://yourdomain.com' });
+const sitemap = new SitemapStream({ hostname: 'https://buildmeawebsite.ca' });
 
 // List all the pages
 const pages = [

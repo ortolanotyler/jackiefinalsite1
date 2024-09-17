@@ -11,6 +11,7 @@ import ReviewFavorites1 from './ReviewFavorites';
 import HeroSection from './HeroSection';
 import HorizontalLine from '../Components/HorizontalLine';
 import NewsletterSlider from '../Components/NewsletterSlider';
+import TextBanner2 from '../Components/TextBanner2';
 
 const TextReveal = lazy(() => import('../Components/TextReveal'));
 const EmailSubscribe = lazy(() => import('../Components/EmailSubscribe'));
@@ -244,23 +245,43 @@ function HomePage() {
   author="BY JACKIE WYERS"
   imagePath="FairytaleWedding/fairytalethumbnail.webp"
   linkUrl="/fairytalewedding"
-  isFlipped={true}
+  isFlipped={false}
 />
 <HorizontalLine />
 
            
 
 
+<TextBanner2 text="BEAUTY" height="200px" width="100%" fontSize="80px" />
 
+<HorizontalLine />
 
 
             <Suspense fallback={<div className="spinner"></div>}>
               <ImageGrid />
             </Suspense>
+
+        <HorizontalLine />
+
+<Grid item xs={12}>
+  <Suspense fallback={<div className="spinner"></div>}>
+  
+<HeroSection
+featureText="QUIZ"
+headlineText="Animal Pretty - Which one are you?"
+subtext="Explore the Animal Pretty makeup trends inspired by deer, cats, foxes, and bunnies. Learn how to achieve these adorable looks with step-by-step guides from Jackie Wyers."
+author="BY JACKIE WYERS"
+imagePath="AnimalPretty/animals.jpg"
+linkUrl="/quiz2"
+isFlipped={true}
+/>
+  </Suspense>
+</Grid>
+
+<HorizontalLine />
         
           </Grid>
 
-          <HorizontalLine />
 
           <HeroSection
   featureText="BRIDAL"
@@ -281,19 +302,36 @@ function HomePage() {
   linkUrl="/bridesmaidboxes"
   isFlipped={true}
 />
+
 <HorizontalLine />
+
+
+<HeroSection
+              featureText="POP CULTURE"
+              headlineText="Francesca Bridgerton Makeup, Hair, and Dress"
+              subtext="From bold blush to a signature half-up half-down style similar to princess Belle, I’m breaking down all the steps."
+              author="BY JACKIE WYERS"
+              imagePath="Francesca/FrancescaThumb.jpg"
+              linkUrl="/francesca-bridgerton"
+              isFlipped={false}
+            />
+
 
 
           <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
+          <HorizontalLine />
             <AboutHero />
+            <HorizontalLine />
           </Suspense>
         </Grid>
           
-      
+<TextBanner2 text="LIFESTYLE" height="200px" width="100%" fontSize="80px" />
 
 
 <HorizontalLine />
+
+
 
 
 
@@ -302,15 +340,15 @@ function HomePage() {
 
         <Grid item xs={12} md={6}>
           <Suspense fallback={<div className="spinner"></div>}>
-            <HeroSection
-              featureText="POP CULTURE"
-              headlineText="Francesca Bridgerton Makeup, Hair, and Dress"
-              subtext="From bold blush to a signature half-up half-down style similar to princess Belle, I’m breaking down all the steps."
-              author="BY JACKIE WYERS"
-              imagePath="Francesca/FrancescaThumb.jpg"
-              linkUrl="/francesca-bridgerton"
-              isFlipped={true}
-            />
+          <HeroSection
+  featureText="TRAVEL"
+  headlineText="The Best Souvenirs to Bring Home from Sorrento"
+  subtext="Leather, Music Boxes, Flats, Oh Me! Discover the top Sorrento souvenirs with Jackie Wyers."
+  author="BY JACKIE WYERS"
+  imagePath="Sorrento1/SorrentoThumbnail.jpg"
+  linkUrl="/sorrento-souvenirs"
+  isFlipped={false}
+/>
           </Suspense>
         </Grid>
 
@@ -333,24 +371,6 @@ function HomePage() {
         </Grid>
      
 
-        <HorizontalLine />
-
-        <Grid item xs={12} md={6}>
-          <Suspense fallback={<div className="spinner"></div>}>
-          
-<HeroSection
-  featureText="QUIZ"
-  headlineText="Animal Pretty - Which one are you?"
-  subtext="Explore the Animal Pretty makeup trends inspired by deer, cats, foxes, and bunnies. Learn how to achieve these adorable looks with step-by-step guides from Jackie Wyers."
-  author="BY JACKIE WYERS"
-  imagePath="AnimalPretty/animals.jpg"
-  linkUrl="/quiz2"
-  isFlipped={true}
-/>
-          </Suspense>
-        </Grid>
-
-        <HorizontalLine />
 
 
         <Grid item xs={12} md={6}>
@@ -359,7 +379,7 @@ function HomePage() {
       
           <HeroSection
   featureText="HOW-TO : IPHONE"
-  headlineText="Camera Settings - A Guide to Scroll-Stopping iPhone Photos"
+  headlineText="A Guide to Scroll-Stopping iPhone Photos"
   subtext="Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide."
   author="BY JACKIE WYERS"
   imagePath="CameraSettings/coverphoot.jpg"
@@ -382,7 +402,7 @@ function HomePage() {
   author="BY JACKIE WYERS"
   imagePath="NewZealand/NZThumbnail.jpg"
   linkUrl="/newzealand"
-  isFlipped={false}
+  isFlipped={true}
 />
         
           </Suspense>
@@ -555,7 +575,7 @@ function HomePage() {
 
       
 
-        <HorizontalLine />
+    
 
        
 
