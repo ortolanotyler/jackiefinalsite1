@@ -22,7 +22,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     justifyContent: 'center',
     alignItems: 'center',
     padding: '1rem auto',
-    minHeight: '40vh',
+   
     flexDirection: isSmallScreen ? 'column' : isFlipped ? 'row-reverse' : 'row',
     flexWrap: 'wrap',
   };
@@ -31,13 +31,13 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     flex: 1,
     paddingRight: isSmallScreen ? '0' : isFlipped ? '0' : '40px',
     paddingLeft: isFlipped && !isSmallScreen ? '40px' : '0',
-    maxWidth: '500px',
+    maxWidth: '650px',
     textAlign: 'center',
     fontFamily: 'GFS Didot, serif',
   };
 
   const featureStyle = {
-    fontSize: '14px',
+    fontSize: '18px',
     fontWeight: '100',
     letterSpacing: '1px',
     marginBottom: '1rem',
@@ -46,7 +46,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
   };
 
   const headlineStyle = {
-    fontSize: '28px',
+    fontSize: '32px',
     lineHeight: 1,
     marginBottom: '20px',
     fontFamily: 'GFS Didot, serif',

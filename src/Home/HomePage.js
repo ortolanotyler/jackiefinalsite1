@@ -122,7 +122,7 @@ function HomePage() {
         <link rel="canonical" href="https://jackiewyers.beauty/" />
       </Helmet>
 
-      <Grid container spacing={0} justifyContent="center">
+      <Grid container spacing={1} justifyContent="center">
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
             <TextRevealHomePage text="JACKIE WYERS" style = {{margin:'0 auto'}} />
@@ -181,17 +181,19 @@ function HomePage() {
 
 <HorizontalLine />
 
-<Grid item xs={12} >
+<Grid item xs={12} md={6}>
           <Suspense fallback={<div className="spinner"></div>}>
-            <NewsletterSlider />
-
+          <HeroSection
+  featureText="VINTAGE VIBES"
+  headlineText="Mastering the Bardot Bun - Jackie Wyers"
+  subtext="Step into the glamorous ‘60s with Brigitte Bardot's iconic big bun! I've got you covered with my tried-and-tested techniques featuring faux bangs and more."
+  author="BY JACKIE WYERS"
+  imagePath="BardotHairstyles/BardotThumbnail.jpg"
+  linkUrl="/bardothairstyles"
+  isFlipped={true}
+/>
           </Suspense>
         </Grid>
-        <HorizontalLine />
-  
-
-
-
 
 
         <Grid item xs={12} md={6}>
@@ -208,7 +210,8 @@ function HomePage() {
           </Suspense>
         </Grid>
 
-      
+        <HorizontalLine />
+
 
         <Grid item xs={12} md={6}>
           <Suspense fallback={<div className="spinner"></div>}>
@@ -245,15 +248,18 @@ function HomePage() {
         </Grid>
 
 
-        <HorizontalLine />
 
 
-        <Grid item xs={12}>
+     
+
+<Grid item xs={12} >
           <Suspense fallback={<div className="spinner"></div>}>
-            <ShopMyHero2 />
+            <NewsletterSlider />
+
           </Suspense>
         </Grid>
-
+        <HorizontalLine />
+  
 
         <Grid item xs={12} md={6}>
           <Suspense fallback={<div className="spinner"></div>}>
@@ -269,6 +275,37 @@ function HomePage() {
           </Suspense>
         </Grid>
 
+        <HorizontalLine />
+
+
+
+        <HorizontalLine />
+
+
+        <Grid item xs={12}>
+          <Suspense fallback={<div className="spinner"></div>}>
+            <ShopMyHero2 />
+          </Suspense>
+        </Grid>
+
+        <HorizontalLine />
+
+        <Grid item xs={12} md={6}>
+          <Suspense fallback={<div className="spinner"></div>}>
+          <HeroSection
+  featureText="VINTAGE VIBES"
+  headlineText="Mastering the Bardot Bun - Jackie Wyers"
+  subtext="Step into the glamorous ‘60s with Brigitte Bardot's iconic big bun! I've got you covered with my tried-and-tested techniques featuring faux bangs and more."
+  author="BY JACKIE WYERS"
+  imagePath="BardotHairstyles/BardotThumbnail.jpg"
+  linkUrl="/bardothairstyles"
+  isFlipped={true}
+/>
+          </Suspense>
+        </Grid>
+
+        <HorizontalLine />
+
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
             <TextReveal text="BEAUTY" />
@@ -279,7 +316,7 @@ function HomePage() {
 
         <Grid item xs={12} md={6}>
         <Suspense fallback={<div className="spinner"></div>}>
-     
+        <HorizontalLine />
         <HeroSection
   featureText="POP CULTURE OBSESSED"
   headlineText="Victoria's Secret Fashion Show 2013 - Jackie Wyers"
@@ -308,6 +345,8 @@ function HomePage() {
 
 </Suspense>
 </Grid>
+
+<HorizontalLine />
 
 <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
