@@ -26,6 +26,11 @@ const Quiz2 = lazy(() => import('../Quiz/Quiz2'));
 const theme = createTheme();
 
 function HomePage() {
+  useEffect(() => {
+    initGA();              
+    logPageView('/');  
+  }, []);
+
   const quizzesRef = useRef(null);
   const outfitsRef = useRef(null);
 
@@ -101,26 +106,101 @@ function HomePage() {
 
   return (
     <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
-      <Helmet>
-        <title>Jackie Wyers Beauty</title>
-        <meta name="description" content="Explore beauty tutorials, reviews, travel tips, and more." />
-        <meta name="keywords" content="beauty, tutorials, reviews, travel, Jackie Wyers, makeup, style" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG', {
-              page_path: window.location.pathname,
-            });
-          `}
-        </script>
+   <Helmet>
+  <title>Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips</title>
+  <meta name="description" content="Explore beauty tutorials, reviews, travel tips, makeup looks, product reviews, and style guides from Jackie Wyers." />
+  <meta name="keywords" content="beauty, makeup, tutorials, product reviews, travel tips, Jackie Wyers, style, makeup looks, fashion" />
 
-        <link rel="preload" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" as="style" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" />
-        <link rel="canonical" href="https://jackiewyers.beauty/" />
-      </Helmet>
+  <meta property="og:title" content="Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips" />
+  <meta property="og:description" content="Discover makeup tutorials, product reviews, beauty tips, and travel guides by Jackie Wyers." />
+  <meta property="og:image" content="https://jackiewyers.beauty/images/jackie-og-image.jpg" />
+  <meta property="og:url" content="https://jackiewyers.beauty/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Jackie Wyers Beauty" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips" />
+  <meta name="twitter:description" content="Explore beauty tutorials, product reviews, and travel tips by Jackie Wyers." />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/images/jackie-twitter-image.jpg" />
+  <meta name="twitter:site" content="@JackieWyers" />
+
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" as="style" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" />
+
+  <link rel="canonical" href="https://jackiewyers.beauty/" />
+
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Jackie Wyers Beauty",
+        "url": "https://jackiewyers.beauty",
+        "description": "Explore beauty tutorials, reviews, travel tips, makeup looks, product reviews, and style guides from Jackie Wyers.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://jackiewyers.beauty/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/images/logo.png",
+            "width": 600,
+            "height": 60
+          }
+        }
+      }
+    `}
+  </script>
+
+ 
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips",
+        "image": "https://jackiewyers.beauty/images/jackie-og-image.jpg",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/images/logo.png"
+          }
+        },
+        "datePublished": "2024-09-01",
+        "dateModified": "2024-09-01",
+        "description": "Explore beauty tutorials, product reviews, and travel tips from Jackie Wyers.",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/"
+        }
+      }
+    `}
+  </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG', {
+        page_path: window.location.pathname,
+      });
+    `}
+  </script>
+  
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+</Helmet>
 
       <Grid container spacing={1} justifyContent="center">
         <Grid item xs={12}>
