@@ -318,13 +318,7 @@ isFlipped={true}
 
 
 
-          <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
-          <HorizontalLine />
-            <AboutHero />
-            <HorizontalLine />
-          </Suspense>
-        </Grid>
+      
           
 <TextBanner2 text="LIFESTYLE" height="200px" width="100%" fontSize="80px" />
 
@@ -460,12 +454,12 @@ isFlipped={true}
           
 
           <HeroSection
-  featureText="TRAVEL"
-  headlineText="The Best Souvenirs to Bring Home from Sorrento"
-  subtext="Leather, Music Boxes, Flats, Oh Me! Discover the top Sorrento souvenirs with Jackie Wyers."
+  featureText="PERFUME REVIEW"
+  headlineText="BonBon Perfume Review"
+  subtext="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments with BonBon by Viktor & Rolf."
   author="BY JACKIE WYERS"
-  imagePath="Sorrento1/SorrentoThumbnail.jpg"
-  linkUrl="/sorrento-souvenirs"
+  imagePath="BonBonReview/BonBonThumbnail.png"
+  linkUrl="/bonbonreview"
   isFlipped={false}
 />
           </Suspense>
@@ -490,7 +484,7 @@ isFlipped={true}
   author="BY JACKIE WYERS"
   imagePath="VictoriaSecret2014/VSThumbnail.jpeg"
   linkUrl="/victoriasecret"
-  isFlipped={true}
+  isFlipped={false}
 />
           </Suspense>
         </Grid>
@@ -514,8 +508,7 @@ isFlipped={true}
           </Suspense>
         </Grid>
 
-      
-        <HorizontalLine />
+
 
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
@@ -524,95 +517,9 @@ isFlipped={true}
         </Grid>
 
   
-        <HorizontalLine />
-
-    
-
-        <Grid item xs={12} md={6}>
-<Suspense fallback={<div className="spinner"></div>}>
-<HeroSection
-  featureText="TRAVEL // ITINERARIES"
-  headlineText="Fable Auckland Hotel Review"
-  subtext="Join Jackie Wyers as she reviews the luxurious Fable Auckland in New Zealand. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities."
-  author="BY JACKIE WYERS"
-  imagePath="Fable/FableAucklandThumbnail.jpg"
-  linkUrl="/fable"
-  isFlipped={true}
-/>
-          </Suspense>
-        </Grid>
 
 
 
-
-     
-
-
-        <HorizontalLine />
-  
-
-        <Grid item xs={12} md={6}>
-          <Suspense fallback={<div className="spinner"></div>}>
-          <HeroSection
-  featureText="TIME TRAVEL TUTORIALS"
-  headlineText="Grace Kelly - Hollywood Glam Makeup Tutorial"
-  subtext="Follow Jackie Wyers as she recreates the iconic Grace Kelly Hollywood Glam look with detailed tutorials and vintage vibes."
-  author="BY JACKIE WYERS"
-  imagePath="GraceKelly/GraceKellyJackieWyers.jpg"
-  linkUrl="/gracekelly"
-  isFlipped={false}
-/>
-          </Suspense>
-        </Grid>
-
-        <HorizontalLine />
-
-
-
-        
-
-       
-
-      
-
-    
-
-       
-
-        <Grid item xs={12} md={6}>
-        <Suspense fallback={<div className="spinner"></div>}>
-       
-        <HeroSection
-  featureText="PERFUME REVIEW"
-  headlineText="BonBon Perfume Review"
-  subtext="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments with BonBon by Viktor & Rolf."
-  author="BY JACKIE WYERS"
-  imagePath="BonBonReview/BonBonThumbnail.png"
-  linkUrl="/bonbonreview"
-  isFlipped={false}
-/>
-</Suspense>
-</Grid>
-
-     
-
-   
-<Grid item xs={12} md={6}>
-<Suspense fallback={<div className="spinner"></div>}>
-<HeroSection
-  featureText="TIME TRAVEL TUTORIALS"
-  headlineText="Twiggy - The MOD Sixties Icon"
-  subtext="Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe."
-  author="BY JACKIE WYERS"
-  imagePath="Twiggy/TwiggyMODThumbnail.jpeg"
-  linkUrl="/twiggy"
-  isFlipped={false}
-/>
-
-</Suspense>
-</Grid>
-
-<HorizontalLine />
 
 
       
