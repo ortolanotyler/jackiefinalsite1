@@ -239,24 +239,11 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
   />  
 </div>
 
-<p style={paragraphStyle}>
-  I blended several inspirations to achieve my whimsical bridal look:  <a style={linkStyle} href="https://www.imdb.com/title/tt0308674/" target="_blank" rel="noreferrer"> Christine Daae’s corseted style
-  </a> and big hair, 
-  <a style={linkStyle} href="https://www.instagram.com/taylor_hill/" target="_blank" rel="noreferrer">
-    Taylor Hill-inspired makeup
-  </a>, 
-  and of course, a touch of Sophie with DIY flower pins. 
-  <a style={linkStyle} href="https://www.imdb.com/title/tt0795421/" target="_blank" rel="noreferrer">
-    Mamma Mia
-  </a> 
-  has always been one of my favorite cinematic bridal looks, as seen in the throwback tutorial below!
-</p>
+<p style={paragraphStyle}>I blended several inspirations to achieve my whimsical bridal look: <a style={linkStyle} href="https://www.imdb.com/title/tt0308674/" target="_blank" rel="noreferrer">Christine Daae’s corseted style</a> and big hair, <a style={linkStyle} href="https://www.instagram.com/taylor_hill/" target="_blank" rel="noreferrer">Taylor Hill-inspired makeup</a>, and of course, a touch of Sophie with DIY flower pins. <a style={linkStyle} href="https://www.imdb.com/title/tt0795421/" target="_blank" rel="noreferrer">Mamma Mia</a> has always been one of my favorite cinematic bridal looks, as seen in the throwback tutorial below!</p>
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/2mjLtM5DBz8?si=baVLKPYFUeVbJjvY" title="Sharon Tate Iconic 60's Bridal Makeup Tutorial" />
 
-<p style={paragraphStyle}>
-  Let’s create a subtly inspired nod to the film with this easy DIY for the <a style={linkStyle} href="https://www.pinterest.com/ideas/diy-wedding-decor/" target="_blank" rel="noreferrer">#DIYBride</a>.
-</p>
+<p style={paragraphStyle}>Let’s create a subtly inspired nod to the film with this easy DIY for the <a style={linkStyle} href="https://www.pinterest.com/ideas/diy-wedding-decor/" target="_blank" rel="noreferrer">#DIYBride</a>.</p>
 
 <h2 style={headingStyle}>Materials Needed:</h2>
 
@@ -268,107 +255,57 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
   <li>A veil with comb</li>
 </ul>
 
-<iframe
-  title="Mamma Mia Inspired Flower Pins for Brides"
-  src="https://shopmy.us/collections/public/700467?noHeader=true"
-  style={{ width: '100%', minHeight: '1000px', border: 'none' }}
-  scrolling="no"
-></iframe>
+<iframe title="Mamma Mia Inspired Flower Pins for Brides" src="https://shopmy.us/collections/public/700467?noHeader=true" style={{ width: '100%', minHeight: '1000px', border: 'none' }} scrolling="no"></iframe>
 
 <h2 style={headingStyle}>Flower Petals - A Step-by-Step Guide:</h2>
 
-<div style={gridContainerStyle}>
-  <img src={image1} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
-</div>
+<div style={gridContainerStyle}><img src={image1} alt="Jackie Wyers Wedding Photography" style={imageStyle} /></div>
 
-<p style={paragraphStyle}>
-  1. Take your sheer ribbon and fold it over five times.
-</p>
+<p style={paragraphStyle}>1. Take your sheer ribbon and fold it over five times.</p>
 
-<p style={paragraphStyle}>
-  2. Cut an irregular U shape to create your petals. You should get three layers of petals in just a few seconds! 
-  (If you want more volume, add more petals, but I found this amount lets a lot of light shine through beautifully.)
-</p>
+<p style={paragraphStyle}>2. Cut an irregular U shape to create your petals. You should get three layers of petals in just a few seconds! (If you want more volume, add more petals, but I found this amount lets a lot of light shine through beautifully.)</p>
 
 <h2 style={headingStyle}>Making The Flower Pins:</h2>
 
-<div style={gridContainerStyle}>
-  <img src={image2} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
-</div>
+<div style={gridContainerStyle}><img src={image2} alt="Jackie Wyers Wedding Photography" style={imageStyle} /></div>
 
-<p style={paragraphStyle}>
-  3. For the pins, I used burlap and lace ribbon because it grips the bobby pins really well and added a bit of brightness to the center of the flower.
-</p>
+<p style={paragraphStyle}>3. For the pins, I used burlap and lace ribbon because it grips the bobby pins really well and added a bit of brightness to the center of the flower.</p>
 
-<div style={{ margin: '20px' }}>
-  <AdSenseAd />
-</div>
+<div style={{ margin: '20px' }}><AdSenseAd /></div>
 
-<p style={paragraphStyle}>
-  4. Create a small loop with the ribbon and secure it with a hot glue gun.
-</p>
+<p style={paragraphStyle}>4. Create a small loop with the ribbon and secure it with a hot glue gun.</p>
 
-<p style={paragraphStyle}>
-  5. Next, glue the petals onto the loop. Ideally, use six petals, but five works too! (I ran out of ribbon as I filmed only the last flower I made! 🤣)
-</p>
+<p style={paragraphStyle}>5. Next, glue the petals onto the loop. Ideally, use six petals, but five works too! (I ran out of ribbon as I filmed only the last flower I made! 🤣)</p>
 
-<div style={gridContainerStyle}>
-  <img src={image3} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
-</div>
+<div style={gridContainerStyle}><img src={image3} alt="Jackie Wyers Wedding Photography" style={imageStyle} /></div>
 
-<div style={{ margin: '20px' }}>
-  <AdSenseAd />
-</div>
+<div style={{ margin: '20px' }}><AdSenseAd /></div>
 
-<p style={paragraphStyle}>
-  6. To add a touch of shimmer, I used champagne beads that my mom tied together. They really catch the light and match my champagne-colored dress perfectly.
-</p>
+<p style={paragraphStyle}>6. To add a touch of shimmer, I used champagne beads that my mom tied together. They really catch the light and match my champagne-colored dress perfectly.</p>
 
 <h2 style={headingStyle}>Attaching To The Veil:</h2>
 
-<p style={paragraphStyle}>
-  7. For the veil, glue or sew the flowers around the comb without the burlap loops. This softens the look of the comb in your hair and gives you a unique flower crown.
-</p>
+<p style={paragraphStyle}>7. For the veil, glue or sew the flowers around the comb without the burlap loops. This softens the look of the comb in your hair and gives you a unique flower crown.</p>
 
-<div style={gridContainerStyle}>
-  <img src={image4} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
-</div>
+<div style={gridContainerStyle}><img src={image4} alt="Jackie Wyers Wedding Photography" style={imageStyle} /></div>
 
-<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '1em', maxWidth: '100%', fontStyle: 'italic' }}>
-  Flower veil vs. Flower crown with each flower pinned in with bobby pins.
-</p>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '1em', maxWidth: '100%', fontStyle: 'italic' }}>Flower veil vs. Flower crown with each flower pinned in with bobby pins.</p>
 
-<p style={paragraphStyle}>
-  Alternatively, you can attach the flowers with bobby pins through the burlap loops to create a flower crown or accent flowers in your bridesmaids' hair.
-</p>
+<p style={paragraphStyle}>Alternatively, you can attach the flowers with bobby pins through the burlap loops to create a flower crown or accent flowers in your bridesmaids' hair.</p>
 
-<div style={gridContainerStyle}>
-  <img src={image5} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
-</div>
+<div style={gridContainerStyle}><img src={image5} alt="Jackie Wyers Wedding Photography" style={imageStyle} /></div>
 
-<div style={gridContainerStyle}>
-  <img src={image6} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
-</div>
+<div style={gridContainerStyle}><img src={image6} alt="Jackie Wyers Wedding Photography" style={imageStyle} /></div>
 
-<div style={{ margin: '20px' }}>
-  <AdSenseAd />
-</div>
+<div style={{ margin: '20px' }}><AdSenseAd /></div>
 
-<div style={gridContainerStyle}>
-  <img src={image7} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
-</div>
+<div style={gridContainerStyle}><img src={image7} alt="Jackie Wyers Wedding Photography" style={imageStyle} /></div>
 
-<p style={paragraphStyle}>
-  Even though we were in Italy, not Greece, these flower pins and veil totally give off <a style={linkStyle} href="https://www.mammamia.com/" target="_blank" rel="noreferrer">Mamma Mia</a> vibes in a subtle way and I loved how they looked, especially backlit as the sun was going down.
-</p>
+<p style={paragraphStyle}>Even though we were in Italy, not Greece, these flower pins and veil totally give off <a style={linkStyle} href="https://www.mammamia.com/" target="_blank" rel="noreferrer">Mamma Mia</a> vibes in a subtle way and I loved how they looked, especially backlit as the sun was going down.</p>
 
-<div style={{ margin: '20px' }}>
-  <AdSenseAd />
-</div>
+<div style={{ margin: '20px' }}><AdSenseAd /></div>
 
-<p style={paragraphStyle}>
-  Did you like the flower crown or the DIY veil? Let me know in the comments and share your favorite cinematic bridal moment!
-</p>
+<p style={paragraphStyle}>Did you like the flower crown or the DIY veil? Let me know in the comments and share your favorite cinematic bridal moment!</p>
 
 
        <div>

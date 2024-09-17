@@ -212,6 +212,39 @@ function HomePage() {
 
         <HorizontalLine />
 
+        <HorizontalLine />
+
+<Grid item xs={10} md={6}>
+          <Suspense fallback={<div className="spinner"></div>}>
+          <HeroSection
+  featureText="VINTAGE VIBES"
+  headlineText="Mastering the Bardot Bun - Jackie Wyers"
+  subtext="Step into the glamorous ‘60s with Brigitte Bardot's iconic big bun! I've got you covered with my tried-and-tested techniques featuring faux bangs and more."
+  author="BY JACKIE WYERS"
+  imagePath="BardotHairstyles/BardotThumbnail.jpg"
+  linkUrl="/bardothairstyles"
+  isFlipped={false}
+/>
+          </Suspense>
+        </Grid>
+
+
+        <Grid item xs={12} md={6}>
+          <Suspense fallback={<div className="spinner"></div>}>
+            <HeroSection
+              featureText="POP CULTURE"
+              headlineText="Francesca Bridgerton Makeup, Hair, and Dress"
+              subtext="From bold blush to a signature half-up half-down style similar to princess Belle, I’m breaking down all the steps."
+              author="BY JACKIE WYERS"
+              imagePath="Francesca/FrancescaThumb.jpg"
+              linkUrl="/francesca-bridgerton"
+              isFlipped={false}
+            />
+          </Suspense>
+        </Grid>
+
+        <HorizontalLine />
+
 
         <Grid item xs={12} md={6}>
           <Suspense fallback={<div className="spinner"></div>}>
