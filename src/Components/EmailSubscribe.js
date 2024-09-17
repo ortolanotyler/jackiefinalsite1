@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { Grid, Button, Box, Typography, Alert, TextField } from '@mui/material';
+import { Grid, Button, Box, Typography, Alert, TextField, Paper } from '@mui/material';
 import { EmailContext } from './EmailContext';
 import axios from 'axios';
 import './EmailSubscribe.module.css';
@@ -31,72 +31,106 @@ export default function EmailSubscribe() {
   };
 
   return (
-    <Box  display="flex" justifyContent="center" alignItems="center" width="100%" height="50vh" px={2}>
-      <Grid container alignItems="center" justifyContent="center" maxWidth="500px">
-        {isSubmitted ? (
-          <Grid item xs={12}>
-            <Alert severity="success">Email subscribed successfully!</Alert>
-          </Grid>
-        ) : (
-          <form onSubmit={handleSubmit} className="form">
-            <Grid container spacing={4}>
-              <Grid item xs={12}>
-                <TextField
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Enter your email"
-                  fullWidth
-                  variant="outlined"
-                  required
-                  className="input"
-                  sx={{
-                    '& input': {
-                      fontFamily: 'GFS Didot, serif',
-                      color: '#745B4F',
-                    },
-                  }}
-                />
-              </Grid>
-              <Grid item xs={12}>
-                <Button
-                  type="submit"
-                  variant="contained"
-                  className="button"
-                  sx={{
-                    backgroundColor: 'black',
-                    color: 'white',
-                    borderRadius: '5px',
-                    width: '100%',
-                    fontFamily: 'GFS Didot, serif',
-                    padding: '0.75rem',
-                    '&:hover': {
-                      backgroundColor: '#333',
-                      color: 'white',
-                    },
-                  }}
-                >
-                  Subscribe
-                </Button>
-              </Grid>
-              <Grid item xs={12} sx={{ textAlign: 'center' }}>
-                <Typography variant="body2" sx={{ fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', color: 'black' }}>
-                  By submitting, you agree to our{' '}
-                  <a href="/privacy" target="_blank" style={{ color: '#745B4F', textDecoration: 'underline' }}>
-                    Privacy Policy
-                  </a>.
-                </Typography>
-              </Grid>
-              {error && (
-                <Grid item xs={12}>
-                  <Alert severity="error">{error}</Alert>
-                </Grid>
-              )}
+    <Box
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+      width="100%"
+      height="40vh"
+      px={2}
+      sx={{
+        position: 'relative',
+        backgroundColor: '#f5f5f5', // Use a plain background color instead
+      }}
+    >
+      {/* Form inside a white card */}
+      <Paper
+        elevation={3}
+        sx={{
+          position: 'relative',
+          zIndex: 2,
+          padding: '2rem',
+          maxWidth: '500px',
+          backgroundColor: 'white', // White card background
+          borderRadius: '10px',
+        }}
+      >
+        <Grid container alignItems="center" justifyContent="center">
+          {isSubmitted ? (
+            <Grid item xs={12}>
+              <Alert severity="success">Email subscribed successfully!</Alert>
             </Grid>
-          </form>
-        )}
-      </Grid>
+          ) : (
+            <form onSubmit={handleSubmit} className="form">
+              <Grid container spacing={2}>
+                <Grid item xs={12}>
+                  <TextField
+                    type="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    placeholder="Enter your email"
+                    fullWidth
+                   
+                    required
+                    className="input"
+                    sx={{
+                      '& input': {
+                        fontFamily: 'GFS Didot, serif',
+                        color: '#745B4F',
+                      },
+                    }}
+                  />
+                </Grid>
+                <Grid item xs={12}>
+                  <Button
+                    type="submit"
+                    variant="contained"
+                    className="button"
+                    sx={{
+                      backgroundColor: 'black',
+                      color: 'white',
+                      borderRadius: '0px',
+                      width: '100%',
+                      fontFamily: 'GFS Didot, serif',
+                      padding: '1rem',
+                      '&:hover': {
+                        backgroundColor: '#333',
+                        color: 'white',
+                      },
+                    }}
+                  >
+                    Subscribe
+                  </Button>
+                </Grid>
+                <Grid item xs={12} sx={{ textAlign: 'center' }}>
+                  <Typography
+                    variant="body2"
+                    sx={{
+                      fontSize: '1rem',
+                      fontFamily: 'GFS Didot, serif',
+                      color: 'black',
+                    }}
+                  >
+                    By submitting, you agree to our{' '}
+                    <a
+                      href="/privacy"
+                      target="_blank"
+                      style={{ color: '#745B4F', textDecoration: 'underline' }}
+                    >
+                      Privacy Policy
+                    </a>.
+                  </Typography>
+                </Grid>
+                {error && (
+                  <Grid item xs={12}>
+                    <Alert severity="error">{error}</Alert>
+                  </Grid>
+                )}
+              </Grid>
+            </form>
+          )}
+        </Grid>
+      </Paper>
     </Box>
   );
 }
-

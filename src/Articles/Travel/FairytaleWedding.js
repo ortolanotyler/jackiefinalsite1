@@ -7,7 +7,6 @@ import WeddingCarousel from '../../Components/WeddingCarousel';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import SubscribeButton from '../../Components/SubscribeButton';
 import { initGA, logPageView } from '../../analytics';
-import BridalDropCap from '../../Components/BridalDropCap';
 import { Helmet } from 'react-helmet';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';

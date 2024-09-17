@@ -10,10 +10,10 @@ const image4 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteThumb
 
 const ImageGrid = () => {
   const items = [
-    { id: 1, title: 'The Ultimate 2025 Wedding Dress Guide', img: image1, link: '/weddingdressguide' },
-    { id: 2, title: 'No-Makeup Makeup from Period Dramas', img: image2, link: '/perioddrama' },
-    { id: 4, title: 'Trend Report : Latte Makeup', img: image4, link: '/lattemakeup' },
-    { id: 3, title: "Grace Kelly's Old Hollywood Glam", img: image3, link: '/gracekelly' },
+    { id: 1, title: 'The Ultimate 2025 Wedding Dress Guide', img: image1, link: '/bridal', buttonText: 'Explore Bridal' },
+    { id: 2, title: 'No-Makeup Makeup from Period Dramas', img: image2, link: '/perioddrama', buttonText: 'Pop Culture Obsessed' },
+    { id: 4, title: 'Trend Report : Latte Makeup', img: image4, link: '/lattemakeup', buttonText: 'Trend Report' },
+    { id: 3, title: "Grace Kelly's Old Hollywood Glam", img: image3, link: '/gracekelly', buttonText: 'Time Travel Tutorials' },
   ];
 
   const viewAllRef = useRef(null);
@@ -45,7 +45,7 @@ const ImageGrid = () => {
             <a href={item.link}>
               <img src={item.img} alt={item.title} className={styles.image} />
               <div className={styles.overlay}>
-                <span className={styles.readButton}>Read</span>
+                <span className={styles.readButton}>{item.buttonText}</span>
               </div>
             </a>
             <p className={styles.title}>{item.title}</p>
@@ -63,14 +63,14 @@ const ImageGrid = () => {
             <Typography
               variant="body1"
               sx={{
-                fontSize: '1.25rem',
+                fontSize: '12px',
                 fontFamily: 'GFS Didot, serif',
                 color: 'black',
               }}
             >
               VIEW ALL ARTICLES
             </Typography>
-            <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>
+            <Box component="span" sx={{ ml: 1, fontWeight: 'normal' }}>
               &rarr;
             </Box>
           </a>
@@ -81,4 +81,3 @@ const ImageGrid = () => {
 };
 
 export default ImageGrid;
-

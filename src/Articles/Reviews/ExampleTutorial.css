@@ -3,6 +3,7 @@
 /* General styles for the whole component */
 * {
   box-sizing: border-box;
+  box-shadow: none !important;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
 }
 
 .container {
-  max-width: 100%;
+  max-width: 1500vw;
   padding: 1rem;
   margin: 0 auto;
 }
