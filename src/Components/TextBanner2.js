@@ -20,13 +20,26 @@ const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', font
       height,
       width,
       fontWeight: '100',
-      backgroundColor: '#fff', // Set the background color to white
+      backgroundColor: '#fff',
+      flexWrap: 'wrap', // Allows letters to wrap on smaller screens
+      overflow: 'hidden', // Prevents content from overflowing
+      textAlign: 'center', // Centers the content for smaller screens
     },
     letter: {
       transition: 'transform 0.3s ease', // Smooth transition for enlargement
     },
     hoveredLetter: {
       transform: 'scale(1.2)', // Enlarge letter on hover
+    },
+  };
+
+  const dynamicFontSize = {
+    fontSize,
+    '@media (max-width: 768px)': {
+      fontSize: '30px', // Reduce font size for medium screens
+    },
+    '@media (max-width: 480px)': {
+      fontSize: '24px', // Further reduce font size for smaller screens
     },
   };
 
@@ -38,8 +51,8 @@ const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', font
           style={{
             ...styles.letter,
             ...(hoveredIndex === index ? styles.hoveredLetter : {}),
-            fontSize,
-            margin: '1rem 0', // Space between the letters
+            ...dynamicFontSize, // Apply responsive font size
+            margin: '0 0.5rem', // Space between letters
           }}
           onMouseEnter={() => handleMouseEnter(index)}
           onMouseLeave={handleMouseLeave}
