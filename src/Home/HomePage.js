@@ -316,6 +316,7 @@ isFlipped={true}
               isFlipped={false}
             />
 
+<HorizontalLine />
 
 
       

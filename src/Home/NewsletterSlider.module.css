@@ -1,13 +1,13 @@
 .mediaKitSlider {
-    max-width: 600px;
-    padding: 1rem;
+    max-width: 500px;
+    padding: 2rem;
   
     margin: 0 auto;
   }
   
   .sliderImage {
     justify-content: center;
-    width: 50%;
+    width: 30%;
     height: auto;
   }
   

@@ -13,7 +13,7 @@
 .viewAllLink, .viewTravelLink {
   display: inline-flex;
   align-items: center;
-  font-family: 'GFS Didot, serif';
+  font-family: 'GFS Didot, sans-serif';
   color: black;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -62,9 +62,10 @@
 }
 
 .title {
-  margin-top: 10px;
-  font-size: 16px;
-  font-weight: 500;
+  margin-top: 1rem;
+  font-family: 'GFS Didot', sans-serif;
+  font-size: 1.25rem;
+  font-weight: normal;
   color: black; /* Set title color to black */
 }
 
@@ -95,7 +96,7 @@
 
 .readButton {
   font-family: 'Arapey, serif';
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: white;
   text-decoration: none;
   border-radius: 10px;
