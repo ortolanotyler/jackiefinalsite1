@@ -125,6 +125,7 @@ const imageStyle = {
   <meta property="og:image" content={title} />
   <meta property="og:url" content="https://jackiewyers.beauty/hotelquintessance-summer" />
   <meta property="og:type" content="article" />
+  <link rel="canonical" href="https://jackiewyers.beauty/hotelquintessance-summer" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Hotel Quintessence | A hidden gem of summer in Canada" />

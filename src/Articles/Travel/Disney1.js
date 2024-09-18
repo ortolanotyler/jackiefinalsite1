@@ -93,6 +93,8 @@ const Disney2Post = () => {
   <meta name="twitter:title" content="Walt Disney World Beach Club Resort Review | Travel & Hotel Reviews" />
   <meta name="twitter:description" content="An in-depth review of Walt Disney World's Beach Club Resort, featuring first impressions, amenities, dining options, and more." />
   <meta name="twitter:image" content={title} />
+  <link rel="canonical" href="https://jackiewyers.beauty/disneybeachclubresort" />
+
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script>

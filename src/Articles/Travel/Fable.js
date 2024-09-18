@@ -98,6 +98,8 @@ const Fable = () => {
         <div className="container">
            <Helmet>
     <title>Fable Auckland | Hotel Review</title>
+    <link rel="canonical" href="https://jackiewyers.beauty/fable" />
+
     <meta name="description" content="Join Jackie Wyers as she reviews the luxurious Fable Auckland in New Zealand. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities." />
     <meta name="keywords" content="Fable Auckland, Luxury Hotel, Auckland Travel, Jackie Wyers, Hotel Review, New Zealand" />
     <meta property="og:title" content="Fable Auckland | Hotel Review" />

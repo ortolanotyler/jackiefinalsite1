@@ -105,6 +105,8 @@ const paragraphStyle = {
         <meta name="twitter:title" content="My Magical Walt Disney World Experience" />
         <meta name="twitter:description" content="Best of Epcot, Magic Kingdom and Animal Kingdom" />
         <meta name="twitter:image" content={title} />
+        <link rel="canonical" href="https://jackiewyers.beauty/epcot" />
+
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
         <script>
           {`

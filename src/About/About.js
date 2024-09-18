@@ -32,6 +32,8 @@ const About = () => {
         <meta name="twitter:title" content="About Jackie Wyers | Beauty and Pop Culture" />
         <meta name="twitter:description" content="Get to know Jackie Wyers, a professionally trained makeup artist with a passion for beauty and pop culture. Discover her journey, inspirations, and collaborations." />
         <meta name="twitter:image" content={AboutEmily} />
+        <link rel="canonical" href="https://jackiewyers.beauty/about" />
+
       </Helmet>
      
       <Grid item xs={12}>

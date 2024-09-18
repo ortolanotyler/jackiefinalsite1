@@ -109,6 +109,7 @@ const AndazMauiReview = () => {
   <meta property="og:image" content={title} />
   <meta property="og:url" content="https://jackiewyers.beauty/andazmaui" />
   <meta property="og:type" content="article" />
+  <link rel="canonical" href="https://jackiewyers.beauty/andazmaui" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Andaz Maui Review | Luxury Resort Experience" />

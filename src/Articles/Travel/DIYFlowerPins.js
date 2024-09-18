@@ -142,6 +142,7 @@ const listStyle = {
   <meta property="og:image" content={title} />
   <meta property="og:url" content="https://jackiewyers.beauty/diy-flowers" />
   <meta property="og:type" content="article" />
+  <link rel="canonical" href="https://jackiewyers.beauty/diy-flowers" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="DIY Flower Pins for a Mamma Mia Inspired Wedding - Jackie Wyers" />
