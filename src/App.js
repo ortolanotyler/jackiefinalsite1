@@ -147,7 +147,7 @@ function App() {
           <meta charSet="utf-8" />
           <title>Jackie Wyers - Beauty Tutorials and Reviews</title>
           <meta name="description" content="Explore beauty tutorials, product reviews, and the latest trends with Jackie Wyers." />
-          <link rel="canonical" href="http://jackiewyers.beauty" />
+          
         </Helmet>
         <Routes>
           <Route path="/" element={<Layout />}>
