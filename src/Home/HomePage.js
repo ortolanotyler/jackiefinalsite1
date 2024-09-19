@@ -443,7 +443,7 @@ isFlipped={true}
   subtext="My Many Attempts At The Iconic 60s Style. Step into vintage beauty with Jackie Wyers' take on Brigitte Bardot's iconic hairstyles."
   author="BY JACKIE WYERS"
   imagePath="BardotHairstyles/BardotThumbnail.jpg"
-  linkUrl="/bardot-hairstyles"
+  linkUrl="/bardothairstyles"
   isFlipped={false}
 />
 </Suspense>

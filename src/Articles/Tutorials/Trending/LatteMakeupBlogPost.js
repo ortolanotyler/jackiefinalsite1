@@ -61,6 +61,8 @@ const paragraphStyle = {
     <div className="container">
      <Helmet>
     <title>Latte Makeup Tutorial - Makeup Tutorial by Jackie Wyers</title>
+    <link rel="canonical" href="https://jackiewyers.beauty/lattemakeup" />
+
     <meta name="description" content="Want to get the Latte Makeup look just right in time for fall? This article has you covered!" />
     <meta name="keywords" content="Latte Makeup, Makeup Tutorial, Fall Makeup, Jackie Wyers, Makeup Trends, Beauty Tips" />
     <meta property="og:title" content="Latte Makeup Tutorial - Makeup Tutorial by Jackie Wyers" />

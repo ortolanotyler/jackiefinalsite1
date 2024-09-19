@@ -62,6 +62,8 @@ const paragraphStyle = {
     <div className="container">
     <Helmet>
   <title>Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/patmcgrath" />
+
   <meta name="description" content="Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look." />
   <meta name="keywords" content="Pat McGrath, Porcelain Doll Makeup, Maison Margiela, Spring/Summer '24, Makeup Tutorial, Jackie Wyers, Runway Makeup, Glass Skin, Airbrushed Makeup" />
   <meta property="og:title" content="Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers" />

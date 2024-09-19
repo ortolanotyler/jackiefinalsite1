@@ -65,6 +65,8 @@ const paragraphStyle = {
     <div className="container">
     <Helmet>
   <title>No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition!</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/nomakeupspring" />
+
   <meta name="description" content="Explore timeless no-makeup makeup looks inspired by beloved TV and film characters for a fresh and natural spring beauty routine." />
   <meta name="keywords" content="No-Makeup Makeup, Spring Beauty, Elizabeth Bennet Makeup, Daphne Bridgerton Makeup, Rose Dawson Makeup, Amy March Makeup, Rosie Dunne Makeup, Alaska Young Makeup, Winnie Foster Makeup, Pop Culture Beauty, Spring Makeup Trends" />
   <meta property="og:title" content="No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition!" />

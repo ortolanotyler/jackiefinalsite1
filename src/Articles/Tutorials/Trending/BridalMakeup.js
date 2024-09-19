@@ -64,6 +64,8 @@ const paragraphStyle = {
     <div className="container" style={{ maxWidth: '800px', margin: '0 auto', padding: '1rem' }}>
      <Helmet>
     <title>Bridal Makeup Tutorial - Jackie Wyers</title>
+    <link rel="canonical" href="https://jackiewyers.beauty/bridalmakeup" />
+
     <meta name="description" content="A detailed review of a trial run for Jackie's wedding makeup: what she loved, what she'll do differently on her big day." />
     <meta name="keywords" content="Bridal Makeup, Wedding Makeup, Makeup Tutorial, Jackie Wyers, Bridal Beauty, Wedding Day Makeup" />
     <meta property="og:title" content="Bridal Makeup Tutorial - Jackie Wyers" />

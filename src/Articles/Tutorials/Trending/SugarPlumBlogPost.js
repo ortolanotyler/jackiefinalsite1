@@ -61,6 +61,8 @@ const paragraphStyle = {
     <div className="container">
       <Helmet>
   <title>Sugar Plum Fairy Makeup Tutorial - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/sugarplumfairy" />
+
   <meta name="description" content="Discover the whimsical Sugar Plum Fairy makeup trend inspired by the classic Nutcracker ballet. Follow Jackie Wyers' step-by-step guide to achieve this enchanting look." />
   <meta name="keywords" content="Sugar Plum Fairy Makeup, Nutcracker Ballet Makeup, Jackie Wyers Makeup Tutorial, Whimsical Makeup, Holiday Makeup, Festive Makeup, Hailey Bieber Makeup, Chrome Eyeshadow" />
   <meta property="og:title" content="Sugar Plum Fairy Makeup Tutorial - Jackie Wyers" />
