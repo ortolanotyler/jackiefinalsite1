@@ -10,7 +10,7 @@
   place-items: center;
   box-shadow: 0.1rem 0.2rem 0.4rem rgba(0, 0, 0, 0.125);
   text-align: center;
-  padding: 0 2rem;
+  padding: 0 1px;
 }
 
 .textReveal {

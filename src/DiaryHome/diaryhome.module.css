@@ -1,0 +1,73 @@
+.heroLink {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .heroSection {
+    padding: 30px 30px;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .textContent {
+    padding-right: 40px;
+    max-width: 500px;
+    text-align: center;
+    font-family: 'GFS Didot', serif;
+  }
+  
+  .feature {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  
+  .headline {
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-family: 'GFS Didot', serif;
+  }
+  
+  .subtext {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: 'GFS Didot', serif;
+    color: #333;
+  }
+  
+  .author {
+    font-size: 14px;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .imageContent {
+    text-align: right;
+    max-width: 200px;
+  }
+  
+  .image {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    .heroSection {
+      flex-direction: column;
+    }
+  
+    .textContent {
+      padding-right: 0;
+    }
+  
+    .imageContent {
+      text-align: center;
+    }
+  }

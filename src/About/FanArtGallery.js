@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './FanArtGallery.css'; // Assuming you move your SCSS into a separate file
+import TextReveal from '../Components/TextReveal';
 const image1 = `${process.env.PUBLIC_URL}/Images/About/FanArt/1.jpg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/About/FanArt/2.jpg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/About/FanArt/3.jpg`;
@@ -225,7 +226,10 @@ const FanArt = () => {
   };
 
   return (
-    <div id="gallery">
+    <>
+          <TextReveal text='FAN ART GALLERY' />
+
+          <div id="gallery">
       <ul id="frame">
         {galleryImages.map((image, index) => (
           <li key={index} className={index === activeIndex ? 'active' : ''}>
@@ -250,6 +254,8 @@ const FanArt = () => {
           <button className="next" onClick={goNext}>&#10095;</button>
         </div>
     </div>
+    </>
+   
   );
 };
 export default FanArt;
