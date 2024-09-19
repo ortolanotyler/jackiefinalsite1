@@ -69,6 +69,8 @@ const paragraphStyle = {
     <meta property="og:image" content={title} />
     <meta property="og:url" content="https://jackiewyers.beauty/victoriasecret" />
     <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://jackiewyers.beauty/victoriasecret" />
+
     <meta name="twitter:title" content="Victoria's Secret Fashion Show 2013 - Jackie Wyers" />
     <meta name="twitter:description" content="Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014." />
     <meta name="twitter:image" content={title} />

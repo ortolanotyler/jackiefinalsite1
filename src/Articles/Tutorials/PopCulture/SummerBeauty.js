@@ -63,6 +63,8 @@ const paragraphStyle = {
     <div className="container">
      <Helmet>
   <title>Summer Beauty Inspiration - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/summerbeauty" />
+
   <meta name="description" content="Explore summer beauty inspiration with Jackie Wyers. Discover iconic hairstyles, makeup looks, and fashion tips from pop culture's beloved characters." />
   <meta name="keywords" content="Summer Beauty, Hair and Makeup, Jackie Wyers, Beauty Blog, Pop Culture, The Blue Lagoon, Barbie Movie, Emily In Paris, Winx Club, H2O: Just Add Water, Outer Banks" />
   <meta property="og:title" content="Summer Beauty Inspiration - Jackie Wyers" />

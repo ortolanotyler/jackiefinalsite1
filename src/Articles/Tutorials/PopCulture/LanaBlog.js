@@ -69,6 +69,8 @@ const paragraphStyle = {
     <meta property="og:title" content="Lana Del Rey SKIMS Makeup Tutorial - Jackie Wyers" />
     <meta property="og:description" content="Explore Jackie Wyers' Lana Del Rey SKIMS Makeup Tutorial. Recreate Lana's look with step-by-step guidance, featuring top beauty products and style tips." />
     <meta property="og:image" content={title} />
+    <link rel="canonical" href="https://jackiewyers.beauty/lanablog" />
+
     <meta property="og:url" content="https://jackiewyers.beauty/lanablog" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Lana Del Rey SKIMS Makeup Tutorial - Jackie Wyers" />

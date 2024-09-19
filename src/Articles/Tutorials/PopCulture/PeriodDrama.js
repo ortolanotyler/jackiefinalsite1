@@ -74,6 +74,8 @@ const PeriodDrama = () => {
     <div className="container">
     <Helmet>
   <title>No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/disneybeachclubresort" />
+
   <meta name="description" content="Explore the elegance of period drama hair and makeup. Recreate historical hairstyles and no-makeup makeup looks inspired by various eras." />
   <meta name="keywords" content="Period Drama, No Makeup Makeup, Historical Hairstyles, Jackie Wyers, Beauty Blog, Tudor Era, Regency Era, Edwardian Era, Victorian Era, Pirates of the Caribbean, Pride and Prejudice, Bridgerton" />
   <meta property="og:title" content="No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers" />

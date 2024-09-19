@@ -66,6 +66,8 @@ const HalfetiReview = () => {
         <div className="container" style={{ width: '100%', padding: '1rem' }}>
           <Helmet>
   <title>Penhaligon's Halfeti Review - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/halfetireview" />
+
   <meta name="description" content="A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression." />
   <meta name="keywords" content="Penhaligon's Halfeti Review, Jackie Wyers, Perfume Review, Fragrance, Oriental Spicy, Luxury Perfume, Beauty Reviews" />
   <meta property="og:title" content="Penhaligon's Halfeti Review - Jackie Wyers" />
@@ -126,7 +128,7 @@ const HalfetiReview = () => {
 </Helmet>
 
 
-            <AdSenseAd />
+        
             <div style={{ textAlign: 'center', marginBottom: '1rem', height: '10vh' }}>
                 <a href="/reviews" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
                     BEAUTY // REVIEWS

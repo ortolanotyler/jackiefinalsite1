@@ -140,7 +140,8 @@ const NewZealand = () => {
     <title>New Zealand | Auckland Vlog and Experience</title>
     <meta name="description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
     <meta name="keywords" content="New Zealand, Auckland, Travel Blog, Jackie Wyers, Travel Vlog, Hotel Review, Fable Auckland, Shopping in Auckland, Waiheke Island, Ponsonby, Mount Eden, Auckland Art Gallery" />
-    
+    <link rel="canonical" href="https://jackiewyers.beauty/newzealand" />
+
     <meta property="og:title" content="New Zealand | Auckland Vlog and Experience" />
     <meta property="og:description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
     <meta property="og:image" content={title} />

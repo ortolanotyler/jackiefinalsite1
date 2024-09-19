@@ -70,6 +70,8 @@ const JickyReview = () => {
         <div className="container" style={{ width: '100%', padding: '1rem' }}>
           <Helmet>
   <title>Jicky by Guerlain Perfume Review - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/jickyreview" />
+
   <meta name="description" content="A comprehensive review of Jicky by Guerlain, exploring its history, fragrance profile, and personal impressions." />
   <meta name="keywords" content="Jicky by Guerlain, Perfume Review, Fragrance Review, Guerlain Perfume, Classic Perfume, Jackie Wyers" />
   <meta property="og:title" content="Jicky by Guerlain Perfume Review - Jackie Wyers" />

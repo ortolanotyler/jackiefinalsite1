@@ -90,6 +90,8 @@ const PrinceOfWales = () => {
     <meta name="twitter:title" content="Prince of Wales Hotel Review - Jackie Wyers" />
     <meta name="twitter:description" content="Read Jackie Wyers' review of the Prince of Wales Hotel in Niagara-on-the-Lake. Discover the Victorian charm and romantic experiences offered by this historic hotel." />
     <meta name="twitter:image" content={title} />
+    <link rel="canonical" href="https://jackiewyers.beauty/princeofwales" />
+
     <script type="application/ld+json">
         {`
         {

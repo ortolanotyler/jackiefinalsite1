@@ -64,6 +64,8 @@ const paragraphStyle = {
       <Helmet>
     <title>Summer Inspiration - Jackie Wyers</title>
     <meta name="description" content="Explore Jackie Wyers' summer inspiration with mermaid looks from iconic characters like Cleo Sertori, Ariel, Vanessa, and more. Dive into the enchanting world of mermaid makeup and hairstyles." />
+    <link rel="canonical" href="https://jackiewyers.beauty/summerinspo" />
+
     <meta name="keywords" content="Summer Beauty, Jackie Wyers, Makeup Tutorial, Beauty Blog, Pop Culture, Mermaid Looks, Cleo Sertori, The Little Mermaid, Ariel, Vanessa, Pirates of the Caribbean, Aquamarine" />
     <meta property="og:title" content="Summer Inspiration - Jackie Wyers" />
     <meta property="og:description" content="Explore Jackie Wyers' summer inspiration with mermaid looks from iconic characters like Cleo Sertori, Ariel, Vanessa, and more. Dive into the enchanting world of mermaid makeup and hairstyles." />

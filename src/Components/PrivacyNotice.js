@@ -9,7 +9,7 @@ const PrivacyNotice = () => {
                 <title>Privacy Notice - Jackie Wyers</title>
                 <meta name="description" content="Read our privacy notice to understand how we collect, use, and protect your personal information." />
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-              
+            
             </Helmet>
             <h2 className={`${styles.heading} ${styles.mainHeading}`}>Privacy Notice</h2>
             <h3 className={`${styles.heading} ${styles.subHeading}`}>Information Collection</h3>

@@ -1,8 +1,33 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
-const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', fontSize = '50px' }) => {
+const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', maxFontSize = '50px', minFontSize = '20px' }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [fontSize, setFontSize] = useState(maxFontSize);
+
+  // Dynamically calculate the font size based on the window width
+  const updateFontSize = () => {
+    const screenWidth = window.innerWidth;
+    let calculatedFontSize = parseFloat(maxFontSize);
+
+    if (screenWidth < 1200) {
+      calculatedFontSize = Math.max(screenWidth / 10, parseFloat(minFontSize)); // Adjust the formula as needed
+    }
+    setFontSize(`${calculatedFontSize}px`);
+  };
+
+  useEffect(() => {
+    // Calculate font size when the component mounts
+    updateFontSize();
+
+    // Update font size on window resize
+    window.addEventListener('resize', updateFontSize);
+
+    return () => {
+      // Cleanup event listener on component unmount
+      window.removeEventListener('resize', updateFontSize);
+    };
+  }, []);
 
   const handleMouseEnter = (index) => {
     setHoveredIndex(index);
@@ -33,16 +58,6 @@ const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', font
     },
   };
 
-  const dynamicFontSize = {
-    fontSize,
-    '@media (max-width: 768px)': {
-      fontSize: '30px', // Reduce font size for medium screens
-    },
-    '@media (max-width: 480px)': {
-      fontSize: '24px', // Further reduce font size for smaller screens
-    },
-  };
-
   return (
     <div style={styles.container}>
       {text.split('').map((letter, index) => (
@@ -51,7 +66,7 @@ const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', font
           style={{
             ...styles.letter,
             ...(hoveredIndex === index ? styles.hoveredLetter : {}),
-            ...dynamicFontSize, // Apply responsive font size
+            fontSize, // Apply dynamic font size
             margin: '0 0.5rem', // Space between letters
           }}
           onMouseEnter={() => handleMouseEnter(index)}
@@ -69,7 +84,8 @@ TextBanner2.propTypes = {
   text: PropTypes.string,
   height: PropTypes.string,
   width: PropTypes.string,
-  fontSize: PropTypes.string,
+  maxFontSize: PropTypes.string, // Maximum font size
+  minFontSize: PropTypes.string, // Minimum font size for smaller screens
 };
 
 export default TextBanner2;

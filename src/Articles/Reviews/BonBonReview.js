@@ -65,6 +65,8 @@ const BonBonReview = () => {
     <div className="container" style={{ width: '100%' }}>
   <Helmet>
   <title>BonBon Review - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/bonbonreview" />
+
   <meta name="description" content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure." />
   <meta name="keywords" content="BonBon Review, Jackie Wyers, Viktor & Rolf, Perfume Review, Fragrance, Gourmand, Sweet Scents, Beauty Reviews" />
   <meta property="og:title" content="BonBon Review - Jackie Wyers" />
@@ -75,6 +77,7 @@ const BonBonReview = () => {
   <meta name="twitter:title" content="BonBon Review - Jackie Wyers" />
   <meta name="twitter:description" content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure." />
   <meta name="twitter:image" content={title} />
+  
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script>
     {`
