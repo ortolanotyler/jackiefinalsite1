@@ -62,6 +62,8 @@ const paragraphStyle = {
     <div className="container">
      <Helmet>
   <title>Sharon Tate Bridal Look - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/sharontatebridal" />
+
   <meta name="description" content="Explore Jackie Wyers' Sharon Tate bridal makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
   <meta name="keywords" content="Sharon Tate, 60s Bridal Look, Jackie Wyers, Bridal Makeup Tutorial, Vintage Beauty, Iconic Looks, Time Travel Tutorials, Classic Beauty, Old Hollywood" />
   <meta property="og:title" content="Sharon Tate Bridal Look - Jackie Wyers" />
@@ -127,7 +129,7 @@ const paragraphStyle = {
         <SubscribeButton />
       </div>
 
-      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
+      <p style={{ margin: '1rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
       All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 

@@ -67,6 +67,8 @@ const paragraphStyle = {
     <div className="container">
     <Helmet>
   <title>Time Travel Tutorials: Twiggy - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/twiggy" />
+
   <meta name="description" content="Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe." />
   <meta name="keywords" content="Twiggy, Jackie Wyers, Makeup Tutorial, MOD, Sixties Makeup, Vintage Beauty, Time Travel Tutorials, Blue Eyeshadow, Drawn-on Lashes" />
   <meta property="og:title" content="Time Travel Tutorials: Twiggy - Jackie Wyers" />

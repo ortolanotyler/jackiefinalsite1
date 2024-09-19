@@ -63,6 +63,8 @@ const paragraphStyle = {
     <div className="container">
    <Helmet>
   <title>Grace Kelly - Hollywood Glam Makeup Tutorial</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/gracekelly" />
+
   <meta name="description" content="Follow Jackie Wyers as she recreates the iconic Grace Kelly Hollywood Glam look with detailed tutorials and vintage vibes." />
   <meta name="keywords" content="Grace Kelly, Hollywood Glam, Makeup Tutorial, Jackie Wyers, Vintage Vibes, Beauty Blog, Time Travel Tutorials, Classic Beauty, Old Hollywood, Iconic Looks" />
   <meta property="og:title" content="Grace Kelly - Hollywood Glam Makeup Tutorial" />

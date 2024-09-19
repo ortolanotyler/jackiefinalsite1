@@ -63,6 +63,8 @@ const paragraphStyle = {
     <div className="container">
     <Helmet>
   <title>Sophia Loren Makeup Tutorial - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/sophialoren" />
+
   <meta name="description" content="Explore Jackie Wyers' Sophia Loren makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
   <meta name="keywords" content="Sophia Loren, Makeup Tutorial, Jackie Wyers, 60s Makeup, Vintage Beauty, Iconic Looks, Time Travel Tutorials, Classic Beauty, Old Hollywood" />
   <meta property="og:title" content="Sophia Loren Makeup Tutorial - Jackie Wyers" />

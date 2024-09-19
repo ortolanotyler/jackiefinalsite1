@@ -96,6 +96,8 @@ const pinterestGridStyle = {
     <div className="container">
   <Helmet>
   <title>Mastering the Bardot Bun - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/bardothairstyles" />
+
   <meta name="description" content="Step-by-step guide on how to recreate Brigitte Bardot's iconic '60s hairstyles, featuring tips and tricks by Jackie Wyers." />
   <meta name="keywords" content="Brigitte Bardot hairstyles, Bardot bun tutorial, '60s hairstyles, vintage hairstyles, Jackie Wyers hair tutorial, Bardot bun, faux bangs tutorial" />
   <meta property="og:title" content="Mastering the Bardot Bun - Jackie Wyers" />

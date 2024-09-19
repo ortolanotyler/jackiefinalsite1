@@ -56,7 +56,7 @@
   height: auto;
   aspect-ratio: 1 / 1; /* Ensures the image is always a square */
   object-fit: cover; /* Ensures the image covers the entire square without distortion */
-  border-radius: 5px;
+ 
   transition: transform 0.3s ease, opacity 0.3s ease;
   display: block; /* Ensure image behaves like a block element */
 }
@@ -83,7 +83,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.05);
   opacity: 0;
   transition: opacity 0.3s ease;
   pointer-events: none; /* Ensure the overlay doesn't affect the link */

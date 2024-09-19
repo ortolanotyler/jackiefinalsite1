@@ -63,6 +63,8 @@ const paragraphStyle = {
 
 <Helmet>
   <title>Ina Balke 1960s Makeup Tutorial - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/balkeblog" />
+
   <meta name="description" content="Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell." />
   <meta name="keywords" content="Ina Balke makeup, 1960s makeup tutorial, vintage makeup, Jackie Wyers makeup tutorial, Ted Russell photography, 60s beauty, classic makeup looks" />
   <meta property="og:title" content="Ina Balke 1960s Makeup Tutorial - Jackie Wyers" />
@@ -114,7 +116,7 @@ const paragraphStyle = {
 </Helmet>
 
 
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>

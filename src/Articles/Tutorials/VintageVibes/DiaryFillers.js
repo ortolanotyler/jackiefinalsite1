@@ -63,6 +63,8 @@ const paragraphStyle = {
     <div className="container">
     <Helmet>
   <title>Diary Post #1: My Journey with Injectable Fillers - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/diaryfillers" />
+
   <meta name="description" content="Jackie Wyers shares her personal experience with getting injectable fillers at a young age, reflecting on insecurities, decisions, and growth." />
   <meta name="keywords" content="Diary, Injectable Fillers, Jackie Wyers, Personal Experience, Beauty Blog, Cosmetic Enhancements, Self-Esteem, Beauty Standards, Personal Growth, Beauty Journey" />
   <meta property="og:title" content="Diary Post: My Journey with Injectable Fillers - Jackie Wyers" />

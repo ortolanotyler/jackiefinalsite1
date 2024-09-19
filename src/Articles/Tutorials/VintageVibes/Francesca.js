@@ -95,6 +95,8 @@ const imageStyle = {
     <div className="container">
   <Helmet>
   <title>Francesca Bridgerton Makeup, Hair, and Dress - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/francesca" />
+
   <meta name="description" content="Step-by-step guide on how to recreate Francesca Bridgerton's soft, romantic makeup look from Bridgerton Season 3, with hair and dress tips for a modern Regency-era look by Jackie Wyers." />
   <meta name="keywords" content="Francesca Bridgerton makeup, Bridgerton Season 3 beauty, Regency hair tutorials, Bridgerton hairstyles, Francesca makeup tutorial, modern Regency style, Bridgerton fashion, auburn hair makeup tips, Jackie Wyers makeup tutorials" />
   <meta property="og:title" content="Francesca Bridgerton Makeup, Hair, and Dress - Jackie Wyers" />

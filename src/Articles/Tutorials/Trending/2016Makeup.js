@@ -62,6 +62,8 @@ const paragraphStyle = {
     <div className="container">
      <Helmet>
         <title>2016 Makeup Trends - Jackie Wyers</title>
+        <link rel="canonical" href="https://jackiewyers.beauty/2016makeup" />
+
         <meta name="description" content="Explore the makeup trends of 2016 with Jackie Wyers. Learn how to achieve bold glamour looks inspired by Kylie Jenner and other beauty icons." />
         <meta name="keywords" content="2016 Makeup Trends, Jackie Wyers, Kylie Jenner Makeup, Bold Glamour, Makeup Tutorial, Beauty Blog" />
         <meta property="og:title" content="2016 Makeup Trends - Jackie Wyers" />
