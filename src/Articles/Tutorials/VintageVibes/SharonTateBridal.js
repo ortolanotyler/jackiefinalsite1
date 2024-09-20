@@ -4,8 +4,6 @@ import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
-import TextReveal from '../../../Components/TextReveal';
-import DropCap from '../../../Components/DropCap';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
@@ -20,67 +18,125 @@ const sophia = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLore
 const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
 
 const Card = ({ blogContent }) => (
-  <div>
-    <div><TextReveal text='TIME TRAVEL TUTORIALS' /></div>
-    <div className="card">
-      <div className="blog-content">{blogContent}</div>
-    </div>
-  </div>
-);
-
-const SharonTatePost = () => {
-  const websiteId = '10910';
-  const blogRef = useRef(null);
-
-  useEffect(() => {
-    initGA();
-    logPageView('/sharontatebridal');
-  }, []);
-
-
-  const headingStyle = {
+ 
+  <div style = {{
+    padding: '10px',
+    margin: '0 auto',
+  }}>
+  
+      <div className="card">
+        <div className="blog-content">{blogContent}</div>
+      </div>
+      </div>
+  
+    
+  );
+  
+  const SharonTatePost = () => {
+  
+    useEffect(() => {
+      initGA();
+      logPageView('/sharontatebridal');
+    }, []);
+  
+  
+    const websiteId = '10910';
+    const blogRef = useRef(null);
+  
+   
+    const headingStyle = {
+      textAlign: 'center',
+      fontSize: '2.5rem',
+      fontWeight: 'normal',
+      fontFamily: 'GFS Didot, serif',
+      color: '#000000',
+      margin: '30px auto'
+  };
+  
+  
+  const paragraphStyle = {
+    fontSize: '22px',
+    color: '#000000',
+  
+    fontFamily: 'GFS Didot, serif',
+    margin: '2rem auto',
+  
+    maxWidth: '500px', // Consistent with the other paragraphs
+    lineHeight: '1.6',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+  };
+  
+  const linkStyle = {
+    textDecoration: 'none', // Removes underline from links
+    fontFamily: 'GFS Didot, serif',
+    color: '#000000', // Inherits the color of the surrounding text
+  };
+  
+  const gridContainerStyle = {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+      gap: '10px',
+      margin: '1rem auto'
+  };
+  
+  const imageStyle = {
+    display: 'block',
+    margin: '1rem auto',
+    borderRadius: '0px',
+    maxWidth: '500px',
+    height: 'auto'
+  };
+  
+  const pinterestGridStyle = {
+    display: 'grid',
+    gap: '1rem',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+    justifyItems: 'center',
+    margin: '1rem 0',
+  };
+  
+  const iframeStyle = {
+    width: '100%',
+    maxWidth: '236px',
+    height: '520px', // Maintains original height
+    border: 'none',
+    scrolling: 'no',
+  };
+  
+  const captionStyle = {
     textAlign: 'center',
-    fontSize: '1.5rem',
-    fontWeight: 'normal',
-    fontFamily: 'Arapey, serif',
-    color: '#333',
-    margin: '1.5rem'
-};
-const paragraphStyle = {
-  fontSize: '20px',
-  fontFamily: 'GFS Didot, serif',
-  margin: '1rem 1.5rem',
-  marginTop: '1rem',
-  marginBottom: '1rem',
-  maxWidth: '500px',
-  lineHeight: '1.5',
-  marginLeft: 'auto',
-  marginRight: 'auto',
-};
+    fontSize: '1.1rem',
+    fontFamily: 'Playfair Display, serif',
+    margin: '1rem auto',
+    maxWidth: '100%',
+    fontStyle: 'italic',
+  };
+  
   
   const blogContent = (
     <div className="container">
      <Helmet>
-  <title>Sharon Tate Bridal Look - Jackie Wyers</title>
+  <title>Sharon Tate's Coquette 1960's Bridal Makeup</title>
   <link rel="canonical" href="https://jackiewyers.beauty/sharontatebridal" />
 
-  <meta name="description" content="Explore Jackie Wyers' Sharon Tate bridal makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
+  <meta name="description" content="A vintage step-by-step guide." />
   <meta name="keywords" content="Sharon Tate, 60s Bridal Look, Jackie Wyers, Bridal Makeup Tutorial, Vintage Beauty, Iconic Looks, Time Travel Tutorials, Classic Beauty, Old Hollywood" />
-  <meta property="og:title" content="Sharon Tate Bridal Look - Jackie Wyers" />
-  <meta property="og:description" content="Explore Jackie Wyers' Sharon Tate bridal makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
+  <meta property="og:title" content="Sharon Tate's Coquette 1960's Bridal Makeup" />
+  <meta property="og:description" content="A vintage step-by-step guide." />
   <meta property="og:image" content={title} />
   <meta property="og:url" content="https://jackiewyers.beauty/sharontatebridal" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Sharon Tate Bridal Look - Jackie Wyers" />
-  <meta name="twitter:description" content="Explore Jackie Wyers' Sharon Tate bridal makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
+  <meta name="twitter:title" content="Sharon Tate's Coquette 1960's Bridal Makeup" />
+  <meta name="twitter:description" content="A vintage step-by-step guide." />
   <meta name="twitter:image" content={title} />
   <script type="application/ld+json">
     {`
       {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Sharon Tate Bridal Look - Jackie Wyers",
-        "description": "Explore Jackie Wyers' Sharon Tate bridal makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide.",
+        "headline": "Sharon Tate's Coquette 1960's Bridal Makeup",
+        "description": "A vintage step-by-step guide.",
         "image": "${title}",
         "author": {
           "@type": "Person",
