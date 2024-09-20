@@ -150,7 +150,7 @@ const pinterestGridStyle = {
 </Helmet>
 
 
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '1em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
