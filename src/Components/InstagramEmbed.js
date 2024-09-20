@@ -1,8 +1,8 @@
 import React from 'react';
 
-const InstagramEmbed = ({ src, title, width = '400', height = '900' }) => {
+const InstagramEmbed = ({ src, title, width = '500', height = '900' }) => {
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', margin: '1rem 0' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', margin: '1rem 2rem' }}>
       <iframe
         src={src}
         width={width}

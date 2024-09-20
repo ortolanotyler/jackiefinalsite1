@@ -217,9 +217,11 @@ Bardot's iconic big bun! Whether you're looking for a chic everyday look or a sh
 <p style={paragraphStyle}>
   One of my first videos 10 years ago was attempting to recreate a Bardot-inspired half-up, half-down 
   <a style={linkStyle} href="https://en.wikipedia.org/wiki/Half_up,_half_down_hairstyle" target="_blank" rel="noreferrer">'do</a> 
+  </p>
+  <p style={paragraphStyle}>
   and her big bun updo. It wasn't perfect, few too many bobby pins to be practical, but it sparked a decade-long journey to master this iconic style. Fast forward to today, and I've discovered some amazing tricks that make achieving this look a breeze, without necessarily committing to her iconic 
   <a style={linkStyle} href="https://en.wikipedia.org/wiki/Brigitte_Bardot" target="_blank" rel="noreferrer">curtain bang haircut</a>.
-</p>
+  </p>
 
 
 <div style={{ display: 'flex', justifyContent: 'center',  flexWrap: 'wrap',}}>

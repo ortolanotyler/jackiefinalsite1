@@ -11,8 +11,6 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import InstagramEmbed from '../../../Components/InstagramEmbed';
 import NextArticle from '../../../Components/NextArticleComponent';
 
-const title = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyTitle.png`;
-const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TWIGGYEYESTUTORIAL.JPG`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyFaceChart.png`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TWIGGYFINALHEADSHOT.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
@@ -137,7 +135,7 @@ const Card = ({ blogContent }) => (
       {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Time Travel Tutorials: Twiggy - Jackie Wyers",
+        "headline": "ICONIC '60s Twiggy Makeup: MOD Blue Eyeshadow",
         "description": "Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe.",
         "image": "https://jackiewyers.beauty/Images/Articles/Twiggy/TwiggyMODThumbnail.png",
         "author": {
@@ -200,16 +198,23 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
     
 
-      <DropCap1 text="Welcome back to the blog, vintage beauty lovers! Today’s Time Travel Tutorials is dedicated to the doe-eyed darling of the decade: Twiggy. Known affectionately as “The Face of ‘66,” she redefined beauty standards with her waifish figure, striking lashes, and androgynous looks. Twiggy, born Lesley Lawson, wasn't just a trendsetter; she was a cultural phenomenon. With her slender frame, cropped hair, and captivating gaze, Twiggy became the emblem of the mod movement in fashion. She adorned the era's most fashionable spreads, turning the world’s eyes to London’s “youthquake.” Twiggy’s playful innocence and charm perfectly captured the spirit of the sixties, a stark contrast to the older, more mature appearance of stars like Marilyn Monroe. Her distinctive allure danced between girlish simplicity and the era’s vibrant liberation." />
-    
-     <div style = {{ margin : '1rem auto'}}>
+      <DropCap1 text="Welcome back to the blog, vintage beauty lovers! Today’s Time Travel Tutorials is dedicated to the doe-eyed darling of the decade: Twiggy. Known affectionately as “The Face of ‘66,” she redefined beauty standards with her waifish figure, striking lashes, and androgynous looks. Twiggy, born Lesley Lawson, wasn't just a trendsetter; she was a cultural phenomenon. "/>
+      
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
+
+      <p style={paragraphStyle}>
+
+      With her slender frame, cropped hair, and captivating gaze, Twiggy became the emblem of the mod movement in fashion. She adorned the era's most fashionable spreads, turning the world’s eyes to London’s “youthquake.” Twiggy’s playful innocence and charm perfectly captured the spirit of the sixties, a stark contrast to the older, more mature appearance of stars like Marilyn Monroe. Her distinctive allure danced between girlish simplicity and the era’s vibrant liberation." 
+      </p>
+    
 
 <InstagramEmbed 
         src="https://www.instagram.com/reel/C5ycO9WOEiK/embed" 
         title="Instagram Reel" 
-        width="50%" 
+
+        width="70%" 
         height="1000" 
       />
 
@@ -367,16 +372,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
   return (
     <div ref={blogRef}>
-      <Card blogContent={blogContent} />
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      <Card
+        title="ICONIC '60s Twiggy Makeup: MOD Blue Eyeshadow"
+        description="A 1960's Guide to Glamour"
+        blogContent={blogContent}
+      />
+     
     </div>
   );
 };
