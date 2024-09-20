@@ -193,6 +193,9 @@ fontStyle: 'italic',
   </script>
 </Helmet>
 
+
+
+
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
         <a href="/travel" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
                     TRAVEL // HOTEL REVIEWS

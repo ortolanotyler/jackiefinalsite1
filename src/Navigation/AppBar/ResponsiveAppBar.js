@@ -20,8 +20,9 @@ const logo = `${process.env.PUBLIC_URL}/Images/Home/jwlogo3.png`;
 
 const pages = [
   { name: 'Home', path: '/' },
-  { name: 'Travel', path: '/travel' },
+  
   { name: 'Beauty', path: '/tutorials' },
+  { name: 'Travel', path: '/travel' },
   { name: 'Quiz', path: '/quiz' },
 ];
 
@@ -314,7 +315,7 @@ function ResponsiveAppBar() {
                     },
                   }}
                 >
-                  Tutorials
+                  Beauty
                 </Button>
                 <Menu
                   id="tutorials-menu"
