@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import './ExampleTutorial.css';
+import '../ExampleTutorial1.css';
 import TextReveal from '../../Components/TextReveal';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';

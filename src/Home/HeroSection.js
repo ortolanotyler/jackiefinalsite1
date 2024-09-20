@@ -80,7 +80,8 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
 
   const imageStyle = {
     width: '100%',
-    margin: '0 auto',
+    padding: '20px',
+    margin: '1rem auto',
     height: 'auto',
     borderRadius: '0px',
     display: 'block',

@@ -1,12 +1,154 @@
-/* Add this CSS in your stylesheet */
-@media (max-width: 1000px) {
-  .card {
-    max-width: 100%;
-    justify-content: center;
-    
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+/* General styles for the whole component */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.card:hover {
+  transform: none !important;
+}
+
+.iframeStyle {
+  width: 100%;
+  height: 525px;
+  border: 0;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.embed-container {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100%;
+  height: calc(55vh + 16px);
+  border: none;
+  overflow: hidden;
+}
+
+.large-text {
+  text-align: left !important;
+}
+
+.card {
+  width: 100%;
+  max-width: 1100px;
+  background-color: white;
+  color: black;
+  font-family: 'GFS Didot', sans-serif;
+  text-align: left; /* Center align text */
+  margin: 0 auto;
+  padding: 0; /* Add padding to create space inside the card */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center all items within the card */
+  justify-content: center; /* Center content vertically */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+
+}
+
+.blog-content {
+  text-align: left; /* Center text within the blog content */
+  line-height: 1.5;
+  margin: 1rem auto;
+  padding: 1rem; /* Add padding to space content evenly */
+  overflow-wrap: break-word;
+  max-width: 600px; /* Limit width to keep content readable */
+}
+
+.paragraph {
+  max-width: 500px; 
+  margin: 0 auto; 
+}
+
+@media screen and (max-width: 1200px) {
+  .container, .card, .blog-content {
+    margin: 0;
+    padding: 1rem ;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container, .card, .blog-content {
+    padding: 1rem;
   }
 
-  .container {
-    margin: 1rem auto !important;;
+  .card img {
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container, .card, .blog-content {
+    padding: 0.5rem;
+  }
+
+  .card img {
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+
+  .paragraph {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container, .card, .blog-content {
+    padding: 0.75rem;
+    text-align: left; /* Ensure text stays centered */
+  }
+
+  .card {
+    align-items: center;
+  }
+
+  .card img {
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+  }
+
+  .iframeStyle {
+    height: 300px;
+  }
+
+  .paragraph {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container, .card, .blog-content {
+    padding: 0.75rem;
+    text-align: left;
+  }
+
+  .card img {
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+  }
+
+  .iframeStyle {
+    height: 250px;
+  }
+
+  .paragraph {
+    max-width: 100%;
   }
 }

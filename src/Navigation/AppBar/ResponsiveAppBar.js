@@ -100,16 +100,17 @@ function ResponsiveAppBar() {
   return (
     <>
       <AppBar
-        position="fixed"
-        sx={{
-          fontFamily: 'GFS Didot, serif',
-          color: '#745B4F',
-          backgroundColor: '#FDEDEF',
-          marginBottom: '1px',
-          width: '100%',
-          zIndex: 1200, // Ensure it stays above other content but below the sidebar
-        }}
-      >
+  position="fixed"
+  sx={{
+    fontFamily: 'Playfair Display, serif',
+    color: '#745B4F',
+    backgroundColor: '#FDEDEF',
+    
+    width: '100%',
+    zIndex: 1200,
+    boxShadow: 'none', // Remove the shadow here
+  }}
+>
         <Container maxWidth="50%" disableGutters>
           <Toolbar disableGutters sx={{ justifyContent: 'space-between', flexWrap: 'wrap', alignItems: 'center' }}>
             <IconButton
@@ -126,6 +127,7 @@ function ResponsiveAppBar() {
                 src={logo}
                 alt="Logo"
                 style={{
+                  
                   width: '100px', // Exact width for the logo
                   height: '100px', // Exact height for the logo
                 }}
@@ -166,8 +168,8 @@ function ResponsiveAppBar() {
                     display: { xs: 'block', md: 'none' },
                     '.MuiPaper-root': {},
                     '.MuiMenuItem-root': {
-                      fontFamily: 'GFS Didot, sans-serif',
-                      fontSize: '1rem',
+                      fontFamily: 'Playfair Display, serif',
+                      fontSize: '1.5rem',
                       '&:hover': {
                         bgcolor: 'transparent',
                       },
@@ -196,7 +198,7 @@ function ResponsiveAppBar() {
                         borderRadius: '8px',
                       },
                       '.MuiMenuItem-root': {
-                        fontFamily: 'GFS Didot, sans-serif',
+                        fontFamily: 'Playfair Display, serif',
                         '&:hover': {
                           bgcolor: 'transparent',
                         },
@@ -231,7 +233,7 @@ function ResponsiveAppBar() {
                       color: '#745B4F',
                       display: 'block',
                       fontSize: '1rem',
-                      fontFamily: 'GFS Didot, sans-serif',
+                      fontFamily: 'Playfair Display, serif',
                       mx: 2,
                       '&:hover': {
                         backgroundColor: 'transparent',
@@ -251,7 +253,7 @@ function ResponsiveAppBar() {
                     color: '#745B4F',
                     display: 'flex',
                     fontSize: '1rem',
-                    fontFamily: 'GFS Didot, sans-serif',
+                    fontFamily: 'Playfair Display, serif',
                     mx: 2,
                     '&:hover': {
                       backgroundColor: 'transparent',
@@ -281,7 +283,7 @@ function ResponsiveAppBar() {
                       borderRadius: '8px',
                     },
                     '.MuiMenuItem-root': {
-                      fontFamily: 'GFS Didot, sans-serif',
+                      fontFamily: 'Playfair Display, serif',
                       fontSize: '1rem',
                       '&:hover': {
                         bgcolor: 'transparent',
@@ -305,7 +307,7 @@ function ResponsiveAppBar() {
                     color: '#745B4F',
                     display: 'block',
                     fontSize: '1rem',
-                    fontFamily: 'GFS Didot, sans-serif',
+                    fontFamily: 'Playfair Display, serif',
                     mx: 2,
                     '&:hover': {
                       backgroundColor: 'transparent',
@@ -335,7 +337,7 @@ function ResponsiveAppBar() {
                       borderRadius: '8px',
                     },
                     '.MuiMenuItem-root': {
-                      fontFamily: 'GFS Didot, sans-serif',
+                      fontFamily: 'Playfair Display, serif',
                       fontSize: '1rem',
                       '&:hover': {
                         bgcolor: 'transparent',
@@ -360,7 +362,7 @@ function ResponsiveAppBar() {
                       color: '#745B4F',
                       display: 'block',
                       fontSize: '1rem',
-                      fontFamily: 'GFS Didot, sans-serif',
+                      fontFamily: 'Playfair Display, serif',
                       mx: 2,
                       '&:hover': {
                         backgroundColor: 'transparent',
@@ -380,7 +382,7 @@ function ResponsiveAppBar() {
                     color: '#745B4F',
                     display: 'block',
                     fontSize: '1rem',
-                    fontFamily: 'GFS Didot, sans-serif',
+                    fontFamily: 'Playfair Display, serif',
                     mx: 2,
                     '&:hover': {
                       backgroundColor: 'transparent',
@@ -404,13 +406,13 @@ function ResponsiveAppBar() {
                   onClose={handleCloseShopMenu}
                   sx={{
                     '.MuiPaper-root': {
-                      bgcolor: 'white',
+                    
                       color: '#745B4F',
                       boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
                       borderRadius: '8px',
                     },
                     '.MuiMenuItem-root': {
-                      fontFamily: 'GFS Didot, sans-serif',
+                      fontFamily: 'Playfair Display, serif',
                       fontSize: '1rem',
                       '&:hover': {
                         bgcolor: 'transparent',
@@ -435,7 +437,7 @@ function ResponsiveAppBar() {
                       color: '#745B4F',
                       display: 'block',
                       fontSize: '1rem',
-                      fontFamily: 'GFS Didot, sans-serif',
+                      fontFamily: 'Playfair Display, serif',
                       mx: 2,
                       '&:hover': {
                         backgroundColor: 'transparent',
@@ -461,7 +463,7 @@ function ResponsiveAppBar() {
     color: '#ffffff !important',  // Adding !important to force the color
     borderRadius: '50px',
     width: '100%',
-    fontFamily: 'GFS Didot, serif',
+    fontFamily: 'Playfair Display, serif',
     padding: '10px 25px',
     fontSize: '1rem',
     marginRight: '30px',

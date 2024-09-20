@@ -238,6 +238,10 @@ function HomePage() {
             </Suspense>
             <HorizontalLine />
             
+
+            <Grid item xs={12}>
+  <Suspense fallback={<div className="spinner"></div>}>
+  
             <HeroSection
   featureText="FEATURED"
   headlineText="Our Fairytale Wedding Overlooking Sorrento, Italy"
@@ -247,6 +251,8 @@ function HomePage() {
   linkUrl="/fairytalewedding"
   isFlipped={false}
 />
+</Suspense>
+</Grid>
 <HorizontalLine />
 
            

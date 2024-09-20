@@ -399,15 +399,9 @@ I hope you got some inspiration from my bridesmaid box, and if you want to see m
         <img src={signature} alt="Signature" style={{ width: '100%' }} />
       </div>
 
-      <Comments website-id={websiteId} page-id={"Las-nozzlestronsonberries"} />
 
 
-      <InstagramEmbed 
-  src="https://www.instagram.com/p/C7dQo8TIlpd/embed" 
-  title="Jackie Wyers Instagram Post" 
-  width="300" 
-  height="900" 
-/>
+      
 
       
       
@@ -422,6 +416,14 @@ I hope you got some inspiration from my bridesmaid box, and if you want to see m
         description="Creative and Budget-Friendly Ideas for a Memorable Touch"
         blogContent={blogContent}
       />
+       <div style = {{padding: '1rem 2rem'}}>
+       <Comments website-id={websiteId} page-id={"Las-nozzlestronsonberries"} />
+       </div>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div> <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
     </div>
   );

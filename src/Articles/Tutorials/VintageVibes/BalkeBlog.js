@@ -398,7 +398,16 @@ const captionStyle = {
         description="A '60s wink is a sexy wink"
         blogContent={blogContent}
       />
+      <div style = {{padding: '1rem 2rem'}}>
+      <Comments website-id={websiteId} page-id={'balke-blog'} />
+</div>
           
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>

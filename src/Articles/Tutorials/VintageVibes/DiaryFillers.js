@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import DropCap from '../../../Components/DropCap';
-import TextReveal from '../../../Components/TextReveal';
+
 import '../../ExampleTutorial1.css';
 import { Helmet } from 'react-helmet';
 import AdSenseAd from '../../../Advertising/Ads';
