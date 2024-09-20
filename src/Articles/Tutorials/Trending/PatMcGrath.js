@@ -4,12 +4,12 @@ import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
-import TextReveal from '../../../Components/TextReveal';
-import DropCap from '../../../Components/DropCap';
+
 
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathTitle.png`;
 const pat = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
@@ -19,61 +19,128 @@ const makeup2016 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016MakeupThu
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-  <div>
-    <div><TextReveal text='TRENDS' /></div>
-    <div className="card">
-      <div className="blog-content">{blogContent}</div>
-    </div>
-  </div>
-);
-
-const PatMcGrathPost = () => {
-  const websiteId = '10910';
-  const blogRef = useRef(null);
-
-  useEffect(() => {
-    initGA();
-    logPageView('/patmcgrath');
-}, []);
-
  
-const headingStyle = {
-  textAlign: 'center',
-  fontSize: '1.5rem',
-  fontWeight: 'normal',
-  fontFamily: 'Arapey, serif',
-  color: '#333',
-  margin: '1.5rem'
-};
-
-const paragraphStyle = {
-  fontSize: '20px',
-  fontFamily: 'GFS Didot, serif',
-  margin: '1rem 1.5rem',
-  marginTop: '1rem',
-  marginBottom: '1rem',
-  maxWidth: '500px',
-  lineHeight: '1.5',
-  marginLeft: 'auto',
-  marginRight: 'auto',
-};
-
+  <div style = {{
+   padding: '10px 20px',
+    margin: '0 auto',
+  }}>
+  
+      <div className="card">
+        <div className="blog-content">{blogContent}</div>
+      </div>
+      </div>
+  
+    
+  );
+  
+  const PatMcGrathPost = () => {
+  
+    useEffect(() => {
+      initGA();
+      logPageView('/patmcgrath');
+    }, []);
+  
+  
+    const websiteId = '10910';
+    const blogRef = useRef(null);
+  
+   
+    const headingStyle = {
+      textAlign: 'center',
+      fontSize: '2.5rem',
+      fontWeight: 'normal',
+      fontFamily: 'GFS Didot, serif',
+      color: '#000000',
+      margin: '30px auto'
+  };
+  
+  
+  const paragraphStyle = {
+    fontSize: '22px',
+    color: '#000000',
+  
+    fontFamily: 'GFS Didot, serif',
+    margin: '2rem auto',
+  
+    maxWidth: '500px', // Consistent with the other paragraphs
+    lineHeight: '1.6',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+  };
+  
+  const linkStyle = {
+    textDecoration: 'none', // Removes underline from links
+    fontFamily: 'GFS Didot, serif',
+    color: '#000000', // Inherits the color of the surrounding text
+  };
+  
+  const gridContainerStyle = {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+      gap: '10px',
+      margin: '1rem auto'
+  };
+  
+  const imageStyle = {
+    display: 'block',
+    margin: '1rem auto',
+    borderRadius: '0px',
+    maxWidth: '500px',
+    height: 'auto'
+  };
+  
+  const pinterestGridStyle = {
+    display: 'grid',
+    gap: '1rem',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+    justifyItems: 'center',
+    margin: '1rem 0',
+  };
+  
+  const iframeStyle = {
+    width: '100%',
+    maxWidth: '236px',
+    height: '520px', // Maintains original height
+    border: 'none',
+    scrolling: 'no',
+  };
+  
+  const captionStyle = {
+    textAlign: 'center',
+    fontSize: '1.1rem',
+    fontFamily: 'Playfair Display, serif',
+    margin: '1rem auto',
+    maxWidth: '100%',
+    fontStyle: 'italic',
+  };
+  
   const blogContent = (
     <div className="container">
-    <Helmet>
-  <title>Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers</title>
+<Helmet>
+  <title>Pat McGrath's Viral Porcelain DOLL with Glass Skin - Jackie Wyers</title>
   <link rel="canonical" href="https://jackiewyers.beauty/patmcgrath" />
 
   <meta name="description" content="Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look." />
-  <meta name="keywords" content="Pat McGrath, Porcelain Doll Makeup, Maison Margiela, Spring/Summer '24, Makeup Tutorial, Jackie Wyers, Runway Makeup, Glass Skin, Airbrushed Makeup" />
+  <meta name="keywords" content="Pat McGrath, Porcelain Doll Makeup, Maison Margiela, Spring/Summer '24, Makeup Tutorial, Jackie Wyers, Runway Makeup, Glass Skin, Airbrushed Makeup, Pat McGrath Labs, Divine Blush, Mothership Palette, beauty trends, iconic runway looks, avant-garde makeup, haute couture makeup, doll-like makeup, peel-off mask technique, fashion week makeup, editorial makeup, glass skin tutorial, backstage beauty secrets" />
+
   <meta property="og:title" content="Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers" />
   <meta property="og:description" content="Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look." />
-  <meta property="og:image" content={title} />
-  <meta property="og:url" content={window.location.href} />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/PatMcGrath/JackieWyersPatMcgrath.jpeg" />
+  <meta property="og:url" content="https://jackiewyers.beauty/patmcgrath" />
+
   <meta name="twitter:title" content="Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers" />
   <meta name="twitter:description" content="Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look." />
-  <meta name="twitter:image" content={title} />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/PatMcGrath/JackieWyersPatMcgrath.jpeg" />
   <meta name="twitter:card" content="summary_large_image" />
+
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+
+  {/* Google Ads Script */}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+
+  {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
     {`
       {
@@ -81,49 +148,48 @@ const paragraphStyle = {
         "@type": "BlogPosting",
         "headline": "Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers",
         "description": "Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look.",
-        "image": "${title}",
+        "image": "https://jackiewyers.beauty/Images/Articles/PatMcGrath/JackieWyersPatMcgrath.jpeg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Jackie Wyers",
+          "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "${title}"
+            "url": "https://jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-07-27",
+        "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "${window.location.href}"
+          "@id": "https://jackiewyers.beauty/patmcgrath"
         }
       }
     `}
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG');
-    `}
-  </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
 
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-        <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
+        <a href="/trends" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
           BEAUTY // TRENDS
         </a>
+  
       </div>
-      <img src={title} alt="Pat McGrath's Porcelain Doll" style={{ width: '100%' }} />
+
+      <ArticleTitle
+  mainTitle="Pat McGrath's Viral Porcelain DOLL with Glass Skin"
+  subTitle="An otherwordly look for the history books"
+  author="Jackie Wyers"
+  publishDate="Feb 5th, 2024"
+/>
+
 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <a href="https://www.instagram.com/p/C5dsVStuCqT/?img_index=1" target="_blank" rel="noopener noreferrer">
-          <img src={pat} alt="Pat McGrath's Porcelain Doll" style={{ width: '100%' }} />
+          <img src={pat} alt="Pat McGrath's Porcelain Doll" style={{ width: '100%' , height: 'auto', margin: 'auto 0' }} />
         </a>
       </div>
 
@@ -136,22 +202,21 @@ const paragraphStyle = {
       </p>
 
       <DropCap1 text="Welcome back, beauties! Let's break down the incredible (and uber-viral) Porcelain Doll makeup looks by Pat McGrath & team, created for the Maison Margiela Spring/Summer '24 runway extravaganza. In a display of sheer genius, Pat McGrath and her team devised a groundbreaking technique, meticulously layering and airbrushing several peel-off masks over the makeup for a truly haute-couture spectacle, creating live porcelain dolls to grace the runway." />
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       
-      <p style={paragraphStyle}>
-        The TikTok beauty community was buzzing with speculation about how the iconic Pat McGrath achieved such doll-like skin perfection prior to Pat’s Masterclass over the weekend - and astoundingly, Erin Parsons—a celebrated makeup artist and makeup historian in her own right—hit the nail on the head with her prediction of this inventive technique.
-      </p>
-      <p style={paragraphStyle}>
-        As I watched the Margiela Masterclass this Saturday, I was glued to my screen, attentively watching and simultaneously recreating one of my favorite looks from the show as seen above. Here’s the scoop on what I learned and a step-by-step account of how I transformed myself into a hauntingly beautiful, poetic Victorian doll. Tap image below to be taken to my mini tutorial.
-      </p>
+<p style={paragraphStyle}>
+  The <a href="https://www.tiktok.com" style={linkStyle} target="_blank" rel="noopener noreferrer">TikTok beauty community</a> was buzzing with speculation about how the iconic <a href="https://www.patmcgrath.com" style={linkStyle} target="_blank" rel="noopener noreferrer">Pat McGrath</a> achieved such doll-like skin perfection prior to Pat’s Masterclass over the weekend - and astoundingly, <a href="https://www.instagram.com/erinparsonsmakeup/" style={linkStyle} target="_blank" rel="noopener noreferrer">Erin Parsons</a>—a celebrated makeup artist and makeup historian in her own right—hit the nail on the head with her prediction of this inventive technique.
+</p>
 
+<p style={paragraphStyle}>
+  As I watched the <a href="https://www.maisonmargiela.com" style={linkStyle} target="_blank" rel="noopener noreferrer">Margiela Masterclass</a> this Saturday, I was glued to my screen, attentively watching and simultaneously recreating one of my favorite looks from the show as seen above. Here’s the scoop on what I learned and a step-by-step account of how I transformed myself into a hauntingly beautiful, poetic Victorian doll. Tap image below to be taken to my <a href="https://jackiewyers.beauty/mini-tutorials" style={linkStyle} target="_blank" rel="noopener noreferrer">mini tutorial</a>.
+</p>
+
+ <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
       <a href="https://www.instagram.com/jackiewyers/reel/C24-VgZOcOl/" target="_blank" rel="noopener noreferrer">
         <img src={Pat2} alt="Pat McGrath Double" style={{ width: '100%' }} />
       </a>
@@ -161,34 +226,24 @@ style = {{
       </p>
 
       <img src={Pat3} alt='Pat McGrath Face Chart' style={{ width: '100%', height: 'auto' }} />
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>Preparation and Base</h2>
       <p style={paragraphStyle}>
-        In the masterclass, it was demonstrated that PAT MCGRATH LABS | Divine Skin Rose 001 The Essence was applied to ensure hydration and longevity of makeup, along with the Skin Fetish: Sublime Perfection Primer. For models with paler complexions, a white shade from Kryolan was mixed into the Skin Fetish: Sublime Perfection Foundation and Concealer to enhance the porcelain effect.
-      </p>
+  In the masterclass, it was demonstrated that <a href="https://www.patmcgrath.com/products/divine-skin-rose-001-the-essence" style={linkStyle} target="_blank" rel="noopener noreferrer">PAT MCGRATH LABS | Divine Skin Rose 001 The Essence</a> was applied to ensure hydration and longevity of makeup, along with the <a href="https://www.patmcgrath.com/products/skin-fetish-sublime-perfection-primer" style={linkStyle} target="_blank" rel="noopener noreferrer">Skin Fetish: Sublime Perfection Primer</a>. For models with paler complexions, a white shade from <a href="https://us.kryolan.com/product/486/ultra-foundation" style={linkStyle} target="_blank" rel="noopener noreferrer">Kryolan</a> was mixed into the <a href="https://www.patmcgrath.com/products/skin-fetish-sublime-perfection-foundation" style={linkStyle} target="_blank" rel="noopener noreferrer">Skin Fetish: Sublime Perfection Foundation</a> and <a href="https://www.patmcgrath.com/products/skin-fetish-sublime-perfection-concealer" style={linkStyle} target="_blank" rel="noopener noreferrer">Concealer</a> to enhance the porcelain effect.
+</p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/494232?noHeader=true" title="Pat McGrath Products" />
+      <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
+      
 
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
-
-      <p style={paragraphStyle}>
-        Models with deeper complexions kept their skin tone true to themselves, allowing each model to personify a unique porcelain doll in a makeup look that was flattering on each person.
-      </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+<p style={paragraphStyle}>
+  Models with deeper complexions kept their skin tone true to themselves, allowing each model to personify a unique porcelain doll in a makeup look that was flattering on each person. The face wasn't powdered after foundation, as the airbrushed peel-off mask adhered better to cream-based products. However, the <a href="https://www.patmcgrath.com/products/skin-fetish-sublime-perfection-blurring-under-eye-powder" style={linkStyle} target="_blank" rel="noopener noreferrer">Skin Fetish: Sublime Perfection Blurring Under-Eye Powder</a> was used for setting the area directly under the eyes. A new light pink powder was teased on the live, which is worth trying upon its release!
+</p>
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>
@@ -197,26 +252,19 @@ style = {{
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/494244?noHeader=true" title="Pat McGrath Products" />
 
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
+      <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
       <h2 style={headingStyle}>Blushing Dolls</h2>
       <p style={paragraphStyle}>
-        Blush was emphasized as a key element in each look. The Divine Blush: Legendary Glow Colour Balm in Peach Lotus was a popular choice throughout the show. To intensify the cheek color and ensure long wear, the Skin Fetish: Divine Blush was applied. The blush should extend from the apple of the cheek upwards, nearing the eye, allowing the eyeshadow to seamlessly transition into the blush for an avant-garde style.
-      </p>
+  Blush was emphasized as a key element in each look. The <a href="https://www.patmcgrath.com/products/divine-blush" style={linkStyle} target="_blank" rel="noopener noreferrer">Divine Blush: Legendary Glow Colour Balm in Peach Lotus</a> was a popular choice throughout the show. To intensify the cheek color and ensure long wear, the <a href="https://www.patmcgrath.com/products/divine-blush" style={linkStyle} target="_blank" rel="noopener noreferrer">Skin Fetish: Divine Blush</a> was applied. The blush should extend from the apple of the cheek upwards, nearing the eye, allowing the eyeshadow to seamlessly transition into the blush for an avant-garde style.
+</p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/494255?noHeader=true" title="Pat McGrath Products" />
 
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>Brows & Painterly Eyes</h2>
@@ -227,14 +275,9 @@ style = {{
         Then, high half-moon shapes were drawn for eyebrows using Pat McGrath Permagel Ultra Glide Eye Pencil in Blk Coffee. Instead of a solid line, try delicate brow strokes.
       </p>
       <p style={paragraphStyle}>
-        For the eyeshadow, dimension was emphasized on the inner and outer portion of the lid. Blk Coffee Liner was applied as a base, smudging it with a finger for a softer effect.
-      </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+  For the eyeshadow, dimension was emphasized on the inner and outer portion of the lid. <a href="https://www.patmcgrath.com/products/permagel-ultra-glide-eye-pencil-blk-coffee" style={linkStyle} target="_blank" rel="noopener noreferrer">Blk Coffee Liner</a> was applied as a base, smudging it with a finger for a softer effect. The <a href="https://www.patmcgrath.com/products/mothership-i-eyeshadow-palette-subliminal" style={linkStyle} target="_blank" rel="noopener noreferrer">Mothership I Eyeshadow Palette in Subliminal</a> was frequently used behind the scenes. However, I thought the <a href="https://www.patmcgrath.com/products/mothership-vi-eyeshadow-palette-midnight-sun" style={linkStyle} target="_blank" rel="noopener noreferrer">Mothership VI Eyeshadow Palette in Midnight Sun</a>'s grungy green, champagne, gold, and taupe shades were quite fitting for my inspired look.
+</p>
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>
@@ -246,20 +289,13 @@ style = {{
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/494263?noHeader=true" title="Pat McGrath Products" />
 
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
+    
 
       <h2 style={headingStyle}>Blurred Lips</h2>
       <p style={paragraphStyle}>
-        For the lips, start with a deeper lip liner, blending through the center of the parted lips. Then, using Pat's finger-blurring technique, apply MatteTrance Lipstick in Guinevere, a crimson shade, focusing on the center to mimic a porcelain doll's lips. For those inspired by a model with fuller lips, try lining the entire lip and patting on the lipstick from there. Slightly blurring the edges was recommended to soften the overall appearance if you go this route!
-      </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+  For the lips, start with a deeper lip liner, blending through the center of the parted lips. Then, using Pat's finger-blurring technique, apply <a href="https://www.patmcgrath.com/products/mattetrance-lipstick-guinevere" style={linkStyle} target="_blank" rel="noopener noreferrer">MatteTrance Lipstick in Guinevere</a>, a crimson shade, focusing on the center to mimic a porcelain doll's lips. For those inspired by a model with fuller lips, try lining the entire lip and patting on the lipstick from there. Slightly blurring the edges was recommended to soften the overall appearance if you go this route!
+</p>
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>
@@ -268,15 +304,8 @@ style = {{
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/494266?noHeader=true" title="Pat McGrath Products" />
 
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>Iconic Glass Skin</h2>
@@ -292,14 +321,12 @@ style = {{
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/494277?noHeader=true" title="Pat McGrath Products" />
 
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
+      
 
       <h2 style={headingStyle}>Tip: Patience with the Layers!</h2>
       <p style={paragraphStyle}>
-        From trying this look out myself, I recommend avoiding rushing the layers. I wanted to make sure I could take a quality picture while I had some natural sunlight, so I only did three layers as the sun was going down. However, what really gives the porcelain doll effect is being patient and allowing each layer to dry. Use a medium heat flow dryer to let the mask dry before going in and adding as many layers as possible.
-      </p>
+  From trying this look out myself, I recommend avoiding rushing the layers. I wanted to make sure I could take a quality picture while I had some natural sunlight, so I only did three layers as the sun was going down. However, what really gives the porcelain doll effect is being patient and allowing each layer to dry. Use a medium heat flow dryer to let the mask dry before going in and adding as many layers as possible. If there is texture to the skin (like peach fuzz sticking up), a tip is to use a <a href="https://www.beautyblender.com" style={linkStyle} target="_blank" rel="noopener noreferrer">Beauty Blender</a> to softly pat down onto the skin post-spray.
+</p>
       <p style={paragraphStyle}>
         If there is texture to the skin (like peach fuzz sticking up), a tip is to use a Beauty Blender to softly pat down onto the skin post-spray.
       </p>
@@ -309,21 +336,14 @@ style = {{
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/494282?noHeader=true" title="Pat McGrath Products" />
 
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em', maxWidth: '100%', marginLeft: '0em' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>A New Pat McGrath Labs Product Coming Soon?</h2>
       <p style={paragraphStyle}>
-        This iconic look, three years in the making, was crafted to experiment and find an amazing glazing effect that would bring porcelain doll skin to life. Pat teased a new Pat McGrath Labs product coming soon that will provide this effect, eliminating the need to create a mix. Stay tuned!
-      </p>
+  This iconic look, three years in the making, was crafted to experiment and find an amazing glazing effect that would bring porcelain doll skin to life. Pat teased a new <a href="https://www.patmcgrath.com" style={linkStyle} target="_blank" rel="noopener noreferrer">Pat McGrath Labs</a> product coming soon that will provide this effect, eliminating the need to create a mix. Stay tuned!
+</p>
       <p style={paragraphStyle}>
         I hope you enjoyed this 1930s-meets-porcelain-doll otherworldly look. Comment your thoughts below, and if you want to be featured on my site, submit your recreations of this look anywhere on my socials! I’d love to see how you switch up your style and practice your artistry.
       </p>
@@ -340,26 +360,11 @@ style = {{
       </div>
      
       <Comments website-id={websiteId} page-id="PatMcGrathhy" />
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
-</div><div
-style = {{
-  margin : '20px'
-}}
->
-
+</div><div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
-</div><div
-style = {{
-  margin : '20px'
-}}
->
-
+</div><div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
     </div>
@@ -367,21 +372,15 @@ style = {{
 
   return (
     <div ref={blogRef}>
-      <Helmet>
-        <title>Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers</title>
-        <meta name="description" content="Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look." />
-        <meta property="og:title" content="Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers" />
-        <meta property="og:description" content="Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look." />
-        <meta property="og:image" content={title} />
-        <meta property="og:url" content={window.location.href} />
-        <meta name="twitter:title" content="Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers" />
-        <meta name="twitter:description" content="Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look." />
-        <meta name="twitter:image" content={title} />
-        <meta name="twitter:card" content="summary_large_image" />
-      </Helmet>
-      <Card blogContent={blogContent} />
+    
+    <Card
+        title="Pat McGrath's Viral Porcelain DOLL with Glass Skin"
+        description="An otherwordly look for the history books"
+        blogContent={blogContent}
+      />
     </div>
   );
 };
 
 export default PatMcGrathPost;
+
