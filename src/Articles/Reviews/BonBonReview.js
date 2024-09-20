@@ -32,8 +32,9 @@ const BonBonReview = () => {
 
 useEffect(() => {
   initGA();
-  logPageView('/bardothairstyles');
+  logPageView('/bonbonreview');
 }, []);
+
 
 
 const websiteId = '10910';
@@ -109,6 +110,8 @@ maxWidth: '100%',
 fontStyle: 'italic',
 };
 
+
+
   const blogContent = (
     <div className="container" style={{ width: '100%' }}>
   <Helmet>
@@ -116,8 +119,7 @@ fontStyle: 'italic',
   <link rel="canonical" href="https://jackiewyers.beauty/bonbonreview" />
 
   <meta name="description" content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure." />
-  <meta name="keywords" content="BonBon Review, Jackie Wyers, Viktor & Rolf, Perfume Review, Fragrance, Gourmand, Sweet Scents, Beauty Reviews" />
-  <meta property="og:title" content="BonBon Review - Jackie Wyers" />
+  <meta name="keywords" content="BonBon Review, Jackie Wyers, Viktor & Rolf BonBon, Perfume Review, Fragrance Review, Sweet Scents, Gourmand Perfume, Luxury Perfume, Women's Fragrance, Best Sweet Perfumes, Perfume for Teens, Scented Beauty, Caramel Perfume, Amber Fragrance, Peach Perfume, High-End Perfume, Signature Scents, Perfume Collection, Beauty Influencer Review, Scent Profile, Warm Woody Perfume, Perfume Recommendations, Sweet and Sophisticated Fragrances, Perfume for Young Adults" />  <meta property="og:title" content="BonBon Review - Jackie Wyers" />
   <meta property="og:description" content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure." />
   <meta property="og:image" content={title} />
   <meta property="og:url" content="https://jackiewyers.beauty/bonbonreview" />
@@ -194,7 +196,7 @@ fontStyle: 'italic',
 />  
       </div>
          <div style={gridContainerStyle}>
-        <img src={BonBon2} alt="BonBon 2" style={imageStyle} />
+        <img src={BonBon2} alt="BonBon Fragrance by Viktor & Rolf " style={imageStyle} />
       </div>
     
       <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '1rem 0', fontStyle: 'italic' }}>
@@ -253,17 +255,18 @@ fontStyle: 'italic',
       </p>
       <h2 style={headingStyle}>🎀 Personal First Impressions</h2>
       <p style={paragraphStyle}>
-        My first brush with Bonbon took place in a Nordstrom back in 2015. Before that moment, the realm of high-end perfumes was uncharted territory for me. Yet, as I passed by the counter, the luxurious packaging caught my eye—a whimsically wrapped candy in deep magenta hues, cradled in an equally charming pink and black box. It was love at first sight!
-      </p>
+  My first brush with <a href="https://www.viktor-rolf.com/en/bonbon" style={linkStyle} target="_blank" rel="noopener noreferrer">Bonbon</a> took place in a Nordstrom back in 2015. Before that moment, the realm of <a href="https://www.nordstrom.com/browse/beauty/fragrance/womens-perfume" style={linkStyle} target="_blank" rel="noopener noreferrer">high-end perfumes</a> was uncharted territory for me. Yet, as I passed by the counter, the luxurious packaging caught my eye—a whimsically wrapped candy in deep magenta hues, cradled in an equally charming pink and black box. It was love at first sight!
+</p>
+
       <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
-      <p style={paragraphStyle}>
-        Upon the first whiff of Bonbon's sweet, sophisticated aroma, I was hooked. This eau de parfum is described as a gourmand fragrance with notes of Peach, Caramel, and Amber. I eagerly picked up a bottle, and the staff sent me on my way with a bag filled with tissue paper lightly spritzed with the fragrance. Walking through the mall that day, the number of compliments I received was unparalleled 🎀 🍬
-      </p>
-      <p style={paragraphStyle}>
-        As a young adult at the time with a fondness for sweet, playful scents, I steered away from body sprays and anything too fruity. I’ve always been drawn to fragrances that lay on a foundation of sandalwood as they feel warm, woody, and inviting alongside the sweetness. This is why Bonbon was the perfect, first-luxury perfume buy that I’d recommend for teens or young adults who love a mature, but sweet scent.
-      </p>
+<p style={paragraphStyle}>
+    Upon the first whiff of <a href="https://www.viktor-rolf.com/fragrance/bonbon" target="_blank" rel="noopener noreferrer" style={linkStyle}>Bonbon's</a> sweet, sophisticated aroma, I was hooked. This eau de parfum is described as a gourmand fragrance with notes of <a href="https://www.fragrantica.com/notes/Peach-18.html" target="_blank" rel="noopener noreferrer" style={linkStyle}>Peach</a>, <a href="https://www.fragrantica.com/notes/Caramel-25.html" target="_blank" rel="noopener noreferrer" style={linkStyle}>Caramel</a>, and <a href="https://www.fragrantica.com/notes/Amber-7.html" target="_blank" rel="noopener noreferrer" style={linkStyle}>Amber</a>. I eagerly picked up a bottle, and the staff sent me on my way with a bag filled with tissue paper lightly spritzed with the fragrance. Walking through the mall that day, the number of compliments I received was unparalleled 🎀 🍬
+</p>
+<p style={paragraphStyle}>
+    As a young adult at the time with a fondness for sweet, playful scents, I steered away from body sprays and anything too fruity. I’ve always been drawn to fragrances that lay on a foundation of <a href="https://www.fragrantica.com/notes/Sandalwood-15.html" target="_blank" rel="noopener noreferrer" style={linkStyle}>Sandalwood</a> as they feel warm, woody, and inviting alongside the sweetness. This is why <a href="https://www.viktor-rolf.com/fragrance/bonbon" target="_blank" rel="noopener noreferrer" style={linkStyle}>Bonbon</a> was the perfect, first-luxury perfume buy that I’d recommend for teens or young adults who love a mature, but sweet scent.
+</p>
       <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
