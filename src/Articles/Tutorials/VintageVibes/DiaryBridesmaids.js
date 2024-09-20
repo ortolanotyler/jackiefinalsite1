@@ -1,13 +1,12 @@
 import React, { useRef, useEffect } from 'react';
 import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import TextReveal from '../../../Components/TextReveal';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/BridesmaidsTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/1.jpg`;
@@ -21,91 +20,127 @@ const diy = `${process.env.PUBLIC_URL}/Images/Articles/MammaMia/mammamiathumb.pn
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-  <div>
-    <div><TextReveal text='DIARY' /></div>
-    <div className="card">
-      <div className="blog-content">{blogContent}</div>
-    </div>
+  
+  <div className="card">
+    <div className="blog-content">{blogContent}</div>
   </div>
+
 );
 
 const DiaryBridesmaids = () => {
-  const websiteId = '10910';
-  const blogRef = useRef(null);
 
-  useEffect(() => {
-    initGA();
-    logPageView('/bridesmaidsboxes');
+useEffect(() => {
+  initGA();
+  logPageView('/bridesmaidboxes');
 }, []);
+
+const websiteId = '10910';
+const blogRef = useRef(null);
 
 
 const headingStyle = {
   textAlign: 'center',
-  fontSize: '1.5rem',
+  fontSize: '2.5rem',
   fontWeight: 'normal',
-  fontFamily: 'Arapey, serif',
-  color: '#333',
-  margin: '1.5rem'
-};
-const paragraphStyle = {
-  fontSize: '20px',
   fontFamily: 'GFS Didot, serif',
-  margin: '1rem 1.5rem',
-  marginTop: '1rem',
-  marginBottom: '1rem',
-  maxWidth: '500px',
-  lineHeight: '1.5',
-  marginLeft: 'auto',
-  marginRight: 'auto',
-};
-  const imageStyle = {
-    display: 'block',
-    margin: '0 auto',
-    maxWidth: '600px',
-    height: 'auto'
+  color: '#000000',
+  margin: '30px auto'
 };
 
 
-  const gridContainerStyle = {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-    gap: '1rem',
-    margin: '1rem 0'
+const paragraphStyle = {
+fontSize: '22px',
+color: '#000000',
+
+fontFamily: 'GFS Didot, serif',
+margin: '2rem auto',
+
+maxWidth: '525px', // Consistent with the other paragraphs
+lineHeight: '1.6',
+marginLeft: 'auto',
+marginRight: 'auto',
 };
+
+const linkStyle = {
+textDecoration: 'none', // Removes underline from links
+fontFamily: 'GFS Didot, serif',
+color: '#000000', // Inherits the color of the surrounding text
+};
+
+const gridContainerStyle = {
+  display: 'grid',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+  gap: '10px',
+  margin: '1rem auto'
+};
+
+const imageStyle = {
+display: 'block',
+margin: '1rem auto',
+borderRadius: '0px',
+maxWidth: '500px',
+height: 'auto'
+};
+
+const pinterestGridStyle = {
+display: 'flex',
+justifyContent: 'center',
+gap: '1rem',
+flexWrap: 'wrap',
+margin: '1rem 0'
+};
+
+const captionStyle = {
+textAlign: 'center',
+fontSize: '1.1rem',
+fontFamily: 'Playfair Display, serif',
+margin: '1rem auto',
+maxWidth: '100%',
+fontStyle: 'italic',
+};
+
   const blogContent = (
     <div className="container">
-      <Helmet>
-  <title>Bridesmaid Boxes How - To</title>
+    <Helmet>
+  <title>Bridesmaid Boxes How-To - Jackie Wyers</title>
   <link rel="canonical" href="https://jackiewyers.beauty/bridesmaidsboxes" />
 
-  <meta name="description" content="Creative and budget-friendly ideas for your bridesmaids gifts" />
-  <meta name="keywords" content="Bridesmaid Boxes, Jackie Wyers, Bridal Gifts, DIY Bridesmaid Gifts, Budget-Friendly Bridesmaid Gifts, Bridal Blog, Bridesmaid Proposal, Wedding Planning, Wedding Gifts, Bridesmaid Ideas" />
-  <meta property="og:title" content="Bridesmaid Boxes How - To" />
-  <meta property="og:description" content="Creative and budget-friendly ideas for your bridesmaids gifts" />
-  <meta property="og:image" content={title} />
+  <meta name="description" content="Creative and budget-friendly ideas for your bridesmaids gifts, featuring DIY tips by Jackie Wyers." />
+  <meta name="keywords" content="Bridesmaid Boxes, Jackie Wyers, Bridal Gifts, DIY Bridesmaid Gifts, Budget-Friendly Bridesmaid Gifts, Bridal Blog, Bridesmaid Proposal, Wedding Planning, Wedding Gifts, Bridesmaid Ideas, Bridesmaids How-To" />
+
+  <meta property="og:title" content="Bridesmaid Boxes How-To - Jackie Wyers" />
+  <meta property="og:description" content="Creative and budget-friendly ideas for your bridesmaids gifts, featuring DIY tips by Jackie Wyers." />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/Bridesmaids/BridesmaidsTitle.png" />
   <meta property="og:url" content="https://jackiewyers.beauty/bridesmaidsboxes" />
+
+  <meta name="twitter:title" content="Bridesmaid Boxes How-To - Jackie Wyers" />
+  <meta name="twitter:description" content="Creative and budget-friendly ideas for your bridesmaids gifts, featuring DIY tips by Jackie Wyers." />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Bridesmaids/BridesmaidsTitle.png" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Bridesmaid Boxes How - To" />
-  <meta name="twitter:description" content="Creative and budget-friendly ideas for your bridesmaids gifts" />
-  <meta name="twitter:image" content={title} />
+
+  {/* Google Analytics Script */}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script>
-      {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-RT6GR7JXYG');
-      `}
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG');
+    `}
   </script>
+
+  {/* Google Ads Script */}
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+
+  {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
     {`
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "Bridesmaid Boxes How - To",
-        "description": "Creative and budget-friendly ideas for your bridesmaids gifts",
-        "image": "${title}",
+        "headline": "Bridesmaid Boxes How-To",
+        "description": "Creative and budget-friendly ideas for your bridesmaids gifts, featuring DIY tips by Jackie Wyers.",
+        "image": "https://jackiewyers.beauty/Images/Articles/Bridesmaids/BridesmaidBoxThumb!.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -119,7 +154,7 @@ const paragraphStyle = {
           }
         },
         "datePublished": "2024-07-27",
-        "dateModified": "2024-07-27",
+        "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "https://jackiewyers.beauty/bridesmaidsboxes"
@@ -129,37 +164,37 @@ const paragraphStyle = {
   </script>
 </Helmet>
 
-
-      <div style={{ margin: '5rem',display: 'flex', justifyContent: 'center', alignItems: 'center', height: '5vh' }}>
-        <a href="/diary" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '75px' }}>
+        <a href="/bridal" style={{ fontFamily: 'GFS Didot, serif', fontSize: '0.8rem', color: '#000000', textDecoration: 'none' }}>
           DIARY // BRIDAL
         </a>
       </div>
-      <img src={title} alt="Bridesmaids Title" style={{ width: '100%' }} />
 
-      <div>
-      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
-      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-        </p>
-      </div>
+      <ArticleTitle
+  mainTitle="Whimsical DIY Bridesmaid Proposal Boxes"
+  subTitle="Creative and Budget-Friendly Ideas for a Memorable Touch"
+  author="Jackie Wyers"
+  publishDate="June 22nd, 2024"
+/>
+
+
+     
 
       <DropCap1 text="Welcome back to All Things Bridal! If you are new to my channel, here’s a bit of backstory about my upcoming wedding ceremony in July. My husband Tyler and I have been legally married for two years which is why I call his my husband and not fiancé, but we held off on having a wedding ceremony to save up for a celebration in Sorrento, Italy. We're also planning a trip afterward to Belgium, where we met in middle school many years ago. Excited is an understatement! " />
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
-
-     
-     
-  
       <p style={paragraphStyle}>
       I’ll share an article on how I went about planning the wedding, including details about my custom wedding dress and accessories. But for today’s article, let’s talk DIY bridesmaid proposal boxes!
      </p>
+
+
+     <p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
+      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+      </p>
+
 
      <div style = {imageStyle}>
         <img src={image1} alt="Signature" style={{ width: '100%' }} />
@@ -167,31 +202,34 @@ style = {{
       
 
    
-      <p style={paragraphStyle}>
-
-      I didn’t know this was a thing until fairy recently, so if you haven’t been in a wedding party before, these are gift boxes that brides-to-be give their bridesmaids as a special way of asking them to be part of their wedding party.
+   <p style={paragraphStyle}>
+  I didn’t know this was a thing until <a style={linkStyle} href="https://www.brides.com/story/how-to-ask-bridesmaids" target="_blank" rel="noreferrer">fairly recently</a>, so if you haven’t been in a wedding party before, these are <a style={linkStyle} href="https://www.theknot.com/content/bridesmaid-proposal-ideas" target="_blank" rel="noreferrer">gift boxes</a> that brides-to-be give their bridesmaids as a special way of asking them to be part of their wedding party.
 </p>
 
 <p style={paragraphStyle}>
-You can go in many directions when crafting your own bridesmaid proposal boxes, but they typically contain personalized items like jewelry, picture frames, beauty items and a heartfelt note or card.
+  You can go in many directions when crafting your own <a style={linkStyle} href="https://www.weddingwire.com/wedding-ideas/bridesmaid-box-ideas" target="_blank" rel="noreferrer">bridesmaid proposal boxes</a>, but they typically contain personalized items like <a style={linkStyle} href="https://www.etsy.com/market/bridesmaid_jewelry" target="_blank" rel="noreferrer">jewelry</a>, <a style={linkStyle} href="https://www.pinterest.com/search/pins/?q=picture%20frames" target="_blank" rel="noreferrer">picture frames</a>, <a style={linkStyle} href="https://www.sephora.com/shop/beauty-products" target="_blank" rel="noreferrer">beauty items</a>, and a heartfelt <a style={linkStyle} href="https://www.shutterfly.com/designs/cards-stationery/bridesmaid-cards" target="_blank" rel="noreferrer">note or card</a>.
 </p>
 
 <p style={paragraphStyle}>
-If you are a bride-to-be looking for inspiration for your own bridesmaid boxes, I hope this is helpful.
+  If you are a bride-to-be looking for <a style={linkStyle} href="https://www.bridalguide.com/planning/bridesmaids/proposal-box-ideas" target="_blank" rel="noreferrer">inspiration for your own bridesmaid boxes</a>, I hope this is helpful.
 </p>
 
 
-<div style = {imageStyle}>
-<img src={image2} alt="Signature" style={{ width: '100%' }} />
-      </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+<div style={gridContainerStyle}>
+      <a href='https://www.instagram.com/reel/C3nim61u_4Q/?hl=en'>
+          <img src={image2} alt="Bridesmaid Box Idea How-To" style={{ width: '100%', height: 'auto' }} />
+        </a>
+ </div>
 
-      Please keep in mind that you can create a bridesmaid proposal box on a budget. I only had three bridesmaids, so I was able to spend a little more, but it is not necessary by any means. I also see a lot of influencer proposal boxes with many gifted items through PR, so don’t feel like you need to spend a ton of money to make a special box for your potential bridesmaids. It should be a fun experience putting these together, not a stressful one!
+
+
+
+ <p style={captionStyle}>
+        Please keep in mind that you can create a bridesmaid proposal box on a budget. I only had three bridesmaids, so I was able to spend a little more, but it is not necessary by any means. I also see a lot of influencer proposal boxes with many gifted items through PR, so don’t feel like you need to spend a ton of money to make a special box for your potential bridesmaids. It should be a fun experience putting these together, not a stressful one!
 </p>
 
 <h2 style = { headingStyle }> 
     🕊 How to Create Your Bridesmaid Proposal Boxes
-
 </h2>
 
 <p style={paragraphStyle}>
@@ -199,10 +237,8 @@ If you are a bride-to-be looking for inspiration for your own bridesmaid boxes, 
 1. Choose Your Box: First, you will need a box! You can get them in bulk on Amazon, but I found three boxes from Winners, a discount store in Canada. I loved the sage green whimsical pattern, which matched my bridesmaids' dresses. These sturdy boxes can double as memory boxes.
 </p>
 
-<ResponsiveIframe src="https://shopmy.us/collections/public/619635?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
+<ResponsiveIframe src="https://shopmy.us/collections/public/619635?noHeader=true" title="Bridesmaid Box Collection" />
+   
 
 
 <p style={paragraphStyle}>
@@ -211,7 +247,7 @@ If you are a bride-to-be looking for inspiration for your own bridesmaid boxes, 
 layer over some pretty tissue paper. I chose tissue paper with gold bees to match an earthy, fairytale aesthetic. Satin napkins can also create a more luxurious feel if that suits your vibe.
 </p>
 
-<ResponsiveIframe src="https://shopmy.us/collections/public/619672?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+<ResponsiveIframe src="https://shopmy.us/collections/public/619672?noHeader=true" title="Bridesmaid Box Collection" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
@@ -232,7 +268,7 @@ style = {{
   <AdSenseAd/>
 </div>
 
-<ResponsiveIframe src="https://shopmy.us/collections/public/619621?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+<ResponsiveIframe src="https://shopmy.us/collections/public/619621?noHeader=true" title="Bridesmaid Box Collection" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
@@ -245,7 +281,7 @@ with a beautiful pen. I love the Noda brand from Indigo or Chapters. The pens I 
 the green and gold theme and had gold flakes and purple flowers floating around the top.
 </p>
 
-<ResponsiveIframe src="https://shopmy.us/collections/public/621130?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+<ResponsiveIframe src="https://shopmy.us/collections/public/621130?noHeader=true" title="Bridesmaid Box Collection" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
@@ -256,7 +292,7 @@ the green and gold theme and had gold flakes and purple flowers floating around 
 5. Body Care: Since we will be traveling, I thought a hand cream would be a nice touch. I chose my favorite scent from L’Occitane. You can’t go wrong with their Almond range!
 </p>
 
-<ResponsiveIframe src="https://shopmy.us/collections/public/619704?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+<ResponsiveIframe src="https://shopmy.us/collections/public/619704?noHeader=true" title="Bridesmaid Box Collection" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
@@ -275,7 +311,7 @@ style = {{
   <AdSenseAd/>
 </div>
 
-<ResponsiveIframe src="https://shopmy.us/collections/public/619706?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+<ResponsiveIframe src="https://shopmy.us/collections/public/619706?noHeader=true" title="Bridesmaid Box Collection" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
@@ -286,7 +322,7 @@ style = {{
 
 </p>
 
-<ResponsiveIframe src="https://shopmy.us/collections/public/619709?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+<ResponsiveIframe src="https://shopmy.us/collections/public/619709?noHeader=true" title="Bridesmaid Box Collection" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
@@ -297,7 +333,7 @@ style = {{
 to mind. I added mini sample sets to each box. These samples are adorable mini versions of the actual aesthetically pleasing bottles, allowing your bridesmaids to try them out without much risk if it’s not their fav scent. I’ve seen adorable perfume mini’s by Marc Jacobs and Dior too that are tiny versions of the full size bottle.
 </p>
 
-<ResponsiveIframe src="https://shopmy.us/collections/public/619720?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+<ResponsiveIframe src="https://shopmy.us/collections/public/619720?noHeader=true" title="Bridesmaid Box Collection" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
         CONTAINS: AFFILIATE LINKS
       </p>
@@ -323,12 +359,8 @@ style = {{
 handwritten letter to each bridesmaid and my maid of honour (my sister), placed in an envelope with a gold sticker. I also used cursive gold stickers to write out their names and added 3-D butterfly stickers, also in gold, from Michael’s. (Shopmy)
 
 </p>
-<ResponsiveIframe src="https://shopmy.us/collections/public/619722?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
-
-
+<ResponsiveIframe src="https://shopmy.us/collections/public/619722?noHeader=true" title="Bridesmaid Box Collection" />
+    
 
 <p style={paragraphStyle}>
 
@@ -343,10 +375,10 @@ A Look at My Finished Bridesmaid Boxes
 </h2>
 
 <div style={gridContainerStyle}>
-                <img src={image3} alt="Maui room 1" style={imageStyle} />
-                <img src={image4} alt="Maui room 2" style={imageStyle} />
-                <img src={image5} alt="Maui room 1" style={imageStyle} />
-                <img src={image6} alt="Maui room 2" style={imageStyle} />
+                <img src={image3} alt="Bridesmaid Boxes How-To" style={imageStyle} />
+                <img src={image4} alt="Bridesmaid Box Ideas" style={imageStyle} />
+                <img src={image5} alt="Bridesmaid Box Cards" style={imageStyle} />
+                <img src={image6} alt="Fable England Bridesmaid Earrings" style={imageStyle} />
             </div>
 
 
@@ -359,13 +391,13 @@ Here are some final photos of my version of a bridesmaid proposal box before I s
 Additional Ideas:
 </h2>
 
-<ResponsiveIframe src="https://shopmy.us/collections/public/628197?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
+<ResponsiveIframe src="https://shopmy.us/collections/public/628197?noHeader=true" title="Anaïs Candle Anaïs Candle Double Layer Creamy Vintage Cake"  />
 
-<ResponsiveIframe src="https://shopmy.us/collections/public/628200?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
-<ResponsiveIframe src="https://shopmy.us/collections/public/628186?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
-<ResponsiveIframe src="https://shopmy.us/collections/public/628191?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
-<ResponsiveIframe src="https://shopmy.us/collections/public/628192?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
-<ResponsiveIframe src="https://shopmy.us/collections/public/628195?noHeader=true" title="Shop My Victoria's Secret Favorites"  />
+<ResponsiveIframe src="https://shopmy.us/collections/public/628200?noHeader=true" title="Freixenet Italian Sparkling Rose"  />
+<ResponsiveIframe src="https://shopmy.us/collections/public/628186?noHeader=true" title="FEMALE | Baublebar Think Pink Crystal Rose Bottle Drop Earrings"  />
+<ResponsiveIframe src="https://shopmy.us/collections/public/628191?noHeader=true" title="CHARLOTTE TILBURY | Pillow Talk On The Go Kit"  />
+<ResponsiveIframe src="https://shopmy.us/collections/public/628192?noHeader=true" title="KITSCH | Satin Sleep Scrunchies"  />
+<ResponsiveIframe src="https://shopmy.us/collections/public/628195?noHeader=true" title="OLIVE AND JUNE | CCt Bridal Edition"  />
 
 
 <p style={paragraphStyle}>

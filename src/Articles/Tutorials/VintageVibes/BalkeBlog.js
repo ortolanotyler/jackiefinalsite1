@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import TextReveal from '../../../Components/TextReveal';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
@@ -11,11 +10,8 @@ import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 
-const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeTitle.png`;
-const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeDouble.png`;
 const Balke3 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeFaceChart.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
-const yardley = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg`;
 const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
 
 const Card = ({ blogContent }) => (
@@ -111,12 +107,12 @@ const captionStyle = {
 
   <meta property="og:title" content="Ina Balke 1960s Makeup Tutorial - Jackie Wyers" />
   <meta property="og:description" content="Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/Balke/BalkeTitle.png" />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/Balke/BALKETHUMBNAIL.jpeg" />
   <meta property="og:url" content="https://jackiewyers.beauty/balkeblog" />
 
   <meta name="twitter:title" content="Ina Balke 1960s Makeup Tutorial - Jackie Wyers" />
   <meta name="twitter:description" content="Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Balke/BalkeTitle.png" />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Balke/BALKETHUMBNAIL.jpeg" />
   <meta name="twitter:card" content="summary_large_image" />
 
   {/* Google Analytics Script */}
@@ -180,13 +176,13 @@ const captionStyle = {
   publishDate="Feb 20th, 2024"
 />
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
+
+
+<div>
+<ResponsiveYoutube src="https://www.youtube.com/embed/7HoL0rVmZHI?si=__Llh9tI2-K62uRQ" title="Ina Balke 1960s Makeup Tutorial - Jackie Wyers on Youtube" />
 </div>
 
-      <ResponsiveYoutube src="https://www.youtube.com/embed/7HoL0rVmZHI?si=__Llh9tI2-K62uRQ" title="Ina Balke 1960s Makeup Tutorial - Jackie Wyers on Youtube" />
-
-      <div style = {{textAlign: 'center', margin: '10px auto' }}>
+      <div style = {{ margin: '1rem auto' , textAlign: 'center'}}>
       <SubscribeButton />
       </div>
 
@@ -377,10 +373,6 @@ const captionStyle = {
 </p>
 
   
-
-      
-
-
       <div style={{ textAlign: 'center' }}>
         <a href="/vintagevibesmerch" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
           <img src={teespring} alt="Vintage Vibes Merchandise" style={{ width: '100%', maxWidth: '100%', display: 'block' }} />
