@@ -9,6 +9,8 @@ import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
+import NextArticle from '../../../Components/NextArticleComponent';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/NoMakeUpTitl.jpeg`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersElizabethBennetInspiredMakeup.JPG`;
@@ -22,69 +24,138 @@ const barbie = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/SQUAREMARG
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-  <div>
-    <div><TextReveal text='TRENDS' /></div>
-    <div className="card">
-      <div className="blog-content">{blogContent}</div>
-    </div>
-  </div>
-);
-
-const NoMakeUpSpring = () => {
-  const websiteId = '10910';
-  const blogRef = useRef(null);
-
-  useEffect(() => {
-    initGA();
-    logPageView('/nomakeupspring');
-}, []);
-
-
-const headingStyle = {
-  textAlign: 'center',
-  fontSize: '1.5rem',
-  fontWeight: 'normal',
-  fontFamily: 'Arapey, serif',
-  color: '#333',
-  margin: '1.5rem'
-};
-
-const paragraphStyle = {
-  fontSize: '20px',
-  fontFamily: 'GFS Didot, serif',
-  margin: '1rem 1.5rem',
-  marginTop: '1rem',
-  marginBottom: '1rem',
-  maxWidth: '500px',
-  lineHeight: '1.5',
-  marginLeft: 'auto',
-  marginRight: 'auto',
-};
+ 
+  <div style = {{
+   padding: '10px 20px',
+    margin: '0 auto',
+  }}>
+  
+      <div className="card">
+        <div className="blog-content">{blogContent}</div>
+      </div>
+      </div>
+  
+    
+  );
+  
+  const NoMakeUpSpring = () => {
+  
+    useEffect(() => {
+      initGA();
+      logPageView('/nomakeupspring');
+    }, []);
+  
+  
+    const websiteId = '10910';
+    const blogRef = useRef(null);
+  
+   
+    const headingStyle = {
+      textAlign: 'center',
+      fontSize: '2.5rem',
+      fontWeight: 'normal',
+      fontFamily: 'GFS Didot, serif',
+      color: '#000000',
+      margin: '30px auto'
+  };
+  
+  
+  const paragraphStyle = {
+    fontSize: '22px',
+    color: '#000000',
+  
+    fontFamily: 'GFS Didot, serif',
+    margin: '2rem auto',
+  
+    maxWidth: '500px', // Consistent with the other paragraphs
+    lineHeight: '1.6',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+  };
+  
+  const linkStyle = {
+    textDecoration: 'none', // Removes underline from links
+    fontFamily: 'GFS Didot, serif',
+    color: '#000000', // Inherits the color of the surrounding text
+  };
+  
+  const gridContainerStyle = {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+      gap: '10px',
+      margin: '1rem auto'
+  };
+  
+  const imageStyle = {
+    display: 'block',
+    margin: '1rem auto',
+    borderRadius: '0px',
+    maxWidth: '500px',
+    height: 'auto'
+  };
+  
+  const pinterestGridStyle = {
+    display: 'grid',
+    gap: '1rem',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+    justifyItems: 'center',
+    margin: '1rem 0',
+  };
+  
+  const iframeStyle = {
+    width: '100%',
+    maxWidth: '236px',
+    height: '520px', // Maintains original height
+    border: 'none',
+    scrolling: 'no',
+  };
+  
+  const captionStyle = {
+    textAlign: 'center',
+    fontSize: '1.1rem',
+    fontFamily: 'Playfair Display, serif',
+    margin: '1rem auto',
+    maxWidth: '100%',
+    fontStyle: 'italic',
+  };
+  
+  
 
   const blogContent = (
     <div className="container">
-    <Helmet>
-  <title>No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition!</title>
+  <Helmet>
+  <title>No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition! - Jackie Wyers</title>
   <link rel="canonical" href="https://jackiewyers.beauty/nomakeupspring" />
 
-  <meta name="description" content="Explore timeless no-makeup makeup looks inspired by beloved TV and film characters for a fresh and natural spring beauty routine." />
-  <meta name="keywords" content="No-Makeup Makeup, Spring Beauty, Elizabeth Bennet Makeup, Daphne Bridgerton Makeup, Rose Dawson Makeup, Amy March Makeup, Rosie Dunne Makeup, Alaska Young Makeup, Winnie Foster Makeup, Pop Culture Beauty, Spring Makeup Trends" />
-  <meta property="og:title" content="No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition!" />
-  <meta property="og:description" content="Explore timeless no-makeup makeup looks inspired by beloved TV and film characters for a fresh and natural spring beauty routine." />
-  <meta property="og:image" content={title} />
+  <meta name="description" content="Explore timeless no-makeup makeup looks inspired by beloved TV and film characters for a fresh and natural spring beauty routine. Featuring iconic looks from Elizabeth Bennet, Daphne Bridgerton, Rose Dawson, and more." />
+  <meta name="keywords" content="No-Makeup Makeup, Spring Beauty, Elizabeth Bennet Makeup, Daphne Bridgerton Makeup, Rose Dawson Makeup, Amy March Makeup, Rosie Dunne Makeup, Alaska Young Makeup, Winnie Foster Makeup, Pop Culture Beauty, Spring Makeup Trends, natural makeup, TV and film inspired looks, Jackie Wyers tutorials, vintage makeup inspiration, soft makeup, fresh makeup looks, subtle makeup, spring beauty inspiration, character makeup" />
+
+  <meta property="og:title" content="No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition! - Jackie Wyers" />
+  <meta property="og:description" content="Explore timeless no-makeup makeup looks inspired by beloved TV and film characters for a fresh and natural spring beauty routine. Featuring iconic looks from Elizabeth Bennet, Daphne Bridgerton, Rose Dawson, and more." />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg" />
   <meta property="og:url" content="https://jackiewyers.beauty/nomakeupspring" />
-  <meta name="twitter:title" content="No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition!" />
-  <meta name="twitter:description" content="Explore timeless no-makeup makeup looks inspired by beloved TV and film characters for a fresh and natural spring beauty routine." />
-  <meta name="twitter:image" content={title} />
+
+  <meta name="twitter:title" content="No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition! - Jackie Wyers" />
+  <meta name="twitter:description" content="Explore timeless no-makeup makeup looks inspired by beloved TV and film characters for a fresh and natural spring beauty routine. Featuring iconic looks from Elizabeth Bennet, Daphne Bridgerton, Rose Dawson, and more." />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg" />
   <meta name="twitter:card" content="summary_large_image" />
+
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+
+  {/* Google Ads Script */}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+
+  {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
     {`
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition!",
+        "headline": "No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition! - Jackie Wyers",
         "description": "Explore timeless no-makeup makeup looks inspired by beloved TV and film characters for a fresh and natural spring beauty routine.",
-        "image": "${title}",
+        "image": "https://jackiewyers.beauty/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -94,10 +165,11 @@ const paragraphStyle = {
           "name": "Jackie Wyers",
           "logo": {
             "@type": "ImageObject",
-            "url": "${title}"
+            "url": "https://jackiewyers.beauty/jw3logo.png"
           }
         },
         "datePublished": "2024-07-27",
+        "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "https://jackiewyers.beauty/nomakeupspring"
@@ -105,42 +177,33 @@ const paragraphStyle = {
       }
     `}
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG');
-    `}
-  </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
 
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-        <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
+        <a href="/trends" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
           BEAUTY // TRENDS
         </a>
       </div>
-      <img src={title} alt="No Makeup-Makeup Spring Edition Title" style={{ width: '100%' }} />
 
-      <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <SubscribeButton />
-      </div>
+      <ArticleTitle
+  mainTitle="No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition!"
+  subTitle="Just a hint of color"
+  author="Jackie Wyers"
+  publishDate="March 31st, 2024"
+/>
 
-      <div>
-      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
-      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-        </p>
-      </div>
+
+
+<div style = {{textAlign: 'center', margin: '10px auto' }}>
+<SubscribeButton />
+</div>
+
+<p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
 
       <DropCap1 text="Welcome back for some quick no-makeup makeup inspiration for spring, inspired by timeless beauty icons from beloved tv & film. Now that it's spring, I find myself drawn to the artful simplicity of the no-makeup makeup look, inspired by some of pop culture's most enduring female characters. Their spirit, captured in timeless stories, now breathes life into my spring beauty routine." />
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>The Looks: Elizabeth Bennet - Pride & Prejudice</h2>
@@ -149,24 +212,21 @@ style = {{
           <img src={image1} alt="Elizabeth Bennet - Pride & Prejudice" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-        Original Makeup & Hair Design by Fae Hammond from the 2005 film 'Pride and Prejudice,' recreation by Jackie Wyers.
+
+      <p style={captionStyle}>
+      Original Makeup & Hair Design by Fae Hammond from the 2005 film 'Pride and Prejudice,' recreation by Jackie Wyers.
       </p>
 
       <p style={paragraphStyle}>
         Capturing Elizabeth Bennet's classic poise, this look draws on her quintessential English rose complexion. Gentle hues enhance the cheeks, and the eyes are softly defined with warm browns. <a href="https://www.youtube.com/watch?v=1NAwgv09ctY&t=219s" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>Dive into the full makeup and hair tutorial on my YouTube channel</a>, or tap below to shop main products used.
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/524423?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      <ResponsiveIframe 
+  src="https://shopmy.us/collections/public/524423?noHeader=true" 
+  title="Elizabeth Bennet Pride & Prejudice Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
+  alt="Shop Elizabeth Bennet-inspired no-makeup makeup products used in the recreation of her look from Pride & Prejudice by Jackie Wyers"
+/>     
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>Daphne Bridgerton - Bridgerton:</h2>
@@ -175,7 +235,8 @@ style = {{
           <img src={image2} alt="Daphne Bridgerton - Bridgerton" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+
+<p style={captionStyle}>
         Original Makeup & Hair Design by Marc Pilcher from the Netflix series 'Bridgerton,' Season 1, recreation by Jackie Wyers.
       </p>
 
@@ -183,10 +244,14 @@ style = {{
         Daphne’s allure waltzes between innocence and sophistication. Using the Bridgerton x Pat McGrath Labs collection, dust a soft rose over the eyelids and mascara for that wide-eyed effect. To enhance the lips, Négligée from the collection is the perfect finish. Experience crafting the essence of Regency beauty with a modern twist in my <a href="https://www.youtube.com/watch?v=WZ7aJmJAcbU" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>step-by-step tutorial.</a>
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/524425?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
+      <ResponsiveIframe 
+  src="https://shopmy.us/collections/public/524425?noHeader=true" 
+  title="Daphne Bridgerton Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
+  alt="Shop Daphne Bridgerton-inspired no-makeup makeup products used in the recreation of her look from Bridgerton by Jackie Wyers"
+/>      <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
+
 
       <h2 style={headingStyle}>Rose Dawson - Titanic:</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -194,25 +259,24 @@ style = {{
           <img src={image3} alt="Rose Dawson - Titanic" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-        Original Makeup & Hair Design by Tina Earnshaw from the 1997 film 'Titanic,' recreation by Jackie Wyers.
+      
+      <p style={captionStyle}>
+      Original Makeup & Hair Design by Tina Earnshaw from the 1997 film 'Titanic,' recreation by Jackie Wyers.
       </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>
         Channel Rose's iconic look from Titanic, embodying Edwardian charm. The eyes are sculpted with rustic tones, cheeks are graced with a hint of colour, and lips are stained a deep, rich burgundy red. Perfect for a bride or a fanciful spring afternoon. <a href="https://www.youtube.com/watch?v=0M_JRs-fYt4&t=109s" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>Get the elegant updo and makeup right here.</a>
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/524428?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
+      <ResponsiveIframe 
+  src="https://shopmy.us/collections/public/524428?noHeader=true" 
+  title="Rose Dawson Titanic Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
+  alt="Shop Rose Dawson-inspired no-makeup makeup products used in the recreation of her look from Titanic by Jackie Wyers"
+/>      <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
       <h2 style={headingStyle}>Amy March - Little Women:</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -220,25 +284,23 @@ style = {{
           <img src={image4} alt="Amy March - Little Women" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-        Original Makeup & Hair Design by Ivana Primorac from the 2019 film 'Little Women,' recreation by Jackie Wyers.
+      <p style={captionStyle}>
+      Original Makeup & Hair Design by Ivana Primorac from the 2019 film 'Little Women,' recreation by Jackie Wyers.
       </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>
         Reflecting Amy March's artistic spirit, her look is understated yet intentional. Barely-there foundation pairs with a nude peach blush and neutral lips looks effortless, yet sophisticated. Amy's updos, intricate with twists and braids, adds to the artistic style. <a href="https://www.youtube.com/watch?v=BuElhuhaMXw&t=501s" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>See the full Amy March hair and makeup guide.</a>
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/524428?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
+      <ResponsiveIframe 
+  src="https://shopmy.us/collections/public/524428?noHeader=true" 
+  title="Amy March Little Women Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
+  alt="Shop Amy March-inspired no-makeup makeup products used in the recreation of her look from Little Women by Jackie Wyers"
+/>      <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
       <h2 style={headingStyle}>Rosie Dunne - Love, Rosie:</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -246,18 +308,21 @@ style = {{
           <img src={image5} alt="Rosie Dunne - Love, Rosie" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-        Original Makeup & Hair Design by Einat Korman from the 2014 film 'Love, Rosie,' recreation by Jackie Wyers.
+      <p style={captionStyle}>
+      Original Makeup & Hair Design by Einat Korman from the 2014 film 'Love, Rosie,' recreation by Jackie Wyers.
       </p>
 
       <p style={paragraphStyle}>
         Rosie’s makeup is as radiant and sweet as her character. The fresh-faced glow with coral cheeks, a touch of pink on the eyes, and full brows looks amazing on Lilly Collins, and I’m sure on you too! The voluminous bob frames the face with elegance. Uncover the series of “Love, Rosie” makeup and hairstyles <a href="https://www.youtube.com/watch?v=BuElhuhaMXw&t=501s" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>here.</a>
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/524432?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
+      <ResponsiveIframe 
+  src="https://shopmy.us/collections/public/524432?noHeader=true" 
+  title="Rosie Dunne Love, Rosie Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
+  alt="Shop Rosie Dunne-inspired no-makeup makeup products used in the recreation of her look from Love, Rosie by Jackie Wyers"
+/>      <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
       <h2 style={headingStyle}>Alaska Young - Looking For Alaska:</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -265,25 +330,21 @@ style = {{
           <img src={image6} alt="Alaska Young - Looking For Alaska" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-        Original Makeup & Hair Design by Lana Horochowski from the Hulu series 'Looking for Alaska,' recreation by Jackie Wyers.
+      <p style={captionStyle}>
+      Original Makeup & Hair Design by Lana Horochowski from the Hulu series 'Looking for Alaska,' recreation by Jackie Wyers.
       </p>
 
       <p style={paragraphStyle}>
         Alaska Young's effortless look from "Looking for Alaska" pairs a rebellious spirit with girl-next-door charm. Her '70s influenced style features long hair with a centre part and full brows. Makeup is soft, smudged, with natural pops of colour enhancing cheeks and lips. Master the Alaska Young inspired look <a href="https://www.youtube.com/watch?v=AePBFzlyNpo&t=16s" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>here.</a>
       </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
-      <ResponsiveIframe src="https://shopmy.us/collections/public/524436?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
+<ResponsiveIframe 
+  src="https://shopmy.us/collections/public/524436?noHeader=true" 
+  title="Alaska Young Looking For Alaska Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
+  alt="Shop Alaska Young-inspired no-makeup makeup products used in the recreation of her look from Looking for Alaska by Jackie Wyers"
+/>     
 
       <h2 style={headingStyle}>Winnie Foster - Tuck Everlasting:</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -291,18 +352,24 @@ style = {{
           <img src={image7} alt="Winnie Foster - Tuck Everlasting" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-        Original Makeup & Hair Design by Hallie D'Amore from the 2002 film 'Tuck Everlasting,' recreation by Jackie Wyers.
+      <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
+      <p style={captionStyle}>
+      Original Makeup & Hair Design by Hallie D'Amore from the 2002 film 'Tuck Everlasting,' recreation by Jackie Wyers.
       </p>
 
       <p style={paragraphStyle}>
         Winnie Foster's makeup pays homage to the fleeting innocence of youth. Soft, subtle coverage with a rosy glow on the cheeks and a touch of moisture on the lips with a balm evokes a time of simplicity and wonder. Relive the movie’s magic with long hairstyles recreated <a href="https://www.youtube.com/watch?v=AePBFzlyNpo&t=16s" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>in this tutorial.</a>
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/524438?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
+      <ResponsiveIframe 
+  src="https://shopmy.us/collections/public/524438?noHeader=true" 
+  title="Winnie Foster Tuck Everlasting Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
+  alt="Shop Winnie Foster-inspired no-makeup makeup products used in the recreation of her look from Tuck Everlasting by Jackie Wyers"
+/>      <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
       <h2 style={headingStyle}>A Final Note</h2>
       <p style={paragraphStyle}>
@@ -311,46 +378,31 @@ style = {{
       <p style={paragraphStyle}>
         For more beauty musings and discussions around the artistry behind some of film and literature’s most cherished characters, stay tuned. Here’s to embracing the season's gentle renewal and finding your own natural beauty!
       </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
-      <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-        <a href="/margotbarbie" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={barbie} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
-          MORE POP CULTURE BEAUTY →
-        </a>
-      </div>
+   
+
+      <NextArticle
+      link="/margotbarbie"
+      imgSrc={barbie}
+      altText="Margot Robbie - Barbie Movie Makeup Tutorial and Article"
+      linkText="MORE POP CULTURE BEAUTY →"
+      containerStyle={{ margin: '1rem 0' }} // customize as needed
+      linkStyle={{ color: '#000000', fontSize: '1.05rem' }} // customize as needed
+      imgStyle={{ borderRadius: '10px' }} // customize as needed
+    />
 
       <div>
-        <img src={signature} alt="Victoria's Secret Fashion Show 2013" style={{ width: '100%' }} />
+        <img src={signature} alt="Jackie Wyers' Signature" style={{ width: '100%' }} />
       </div>
    
       <Comments website-id={websiteId} page-id={"No-Makeup-Spring"} />
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
-</div>   <div
-style = {{
-  margin : '20px'
-}}
->
-
+</div>   <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
-</div>   <div
-style = {{
-  margin : '20px'
-}}
->
-
+</div>   <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
     </div>
