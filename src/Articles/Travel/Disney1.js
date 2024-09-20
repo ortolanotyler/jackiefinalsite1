@@ -20,7 +20,7 @@ const beachclub6 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/b
 const beachclub8 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub8.png`;
 const beachclub9 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub9.png`;
 const beachclub10 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub10.png`;
-const signature = `${process.env.PUBLIC_URL}/Images/Articles/signature.png`;
+const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 
 
