@@ -10,6 +10,8 @@ import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import Helmet from'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
+import NextArticle from '../../../Components/NextArticleComponent';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteTitle.png`;
 const Latte2 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteDouble.png`;
@@ -18,150 +20,210 @@ const Latte16 = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const sugar = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg`;
 
 const Card = ({ blogContent }) => (
-  <div>
-    <div><TextReveal text='LATTÉ ANYONE?' /></div>
-    <div className="card">
-      <div className="blog-content">{blogContent}</div>
-    </div>
-  </div>
-);
-
-const LatteMakeupBlogPost = () => {
-  const websiteId = '10910';
-  const blogRef = useRef(null);
-
-  useEffect(() => {
-    initGA();
-    logPageView('/lattemakeup');
-}, []);
-
  
-const headingStyle = {
-  textAlign: 'center',
-  fontSize: '1.5rem',
-  fontWeight: 'normal',
-  fontFamily: 'Arapey, serif',
-  color: '#333',
-  margin: '1.5rem'
-};
-
-const paragraphStyle = {
-  fontSize: '20px',
-  fontFamily: 'GFS Didot, serif',
-  margin: '1rem 1.5rem',
-  marginTop: '1rem',
-  marginBottom: '1rem',
-  maxWidth: '500px',
-  lineHeight: '1.5',
-  marginLeft: 'auto',
-  marginRight: 'auto',
-};
+  <div style = {{
+   padding: '10px 20px',
+    margin: '0 auto',
+  }}>
+  
+      <div className="card">
+        <div className="blog-content">{blogContent}</div>
+      </div>
+      </div>
+  
+    
+  );
+  
+  const LatteMakeupBlogPost = () => {
+  
+    useEffect(() => {
+      initGA();
+      logPageView('/lattemakeup');
+    }, []);
+  
+  
+    const websiteId = '10910';
+    const blogRef = useRef(null);
+  
+   
+    const headingStyle = {
+      textAlign: 'center',
+      fontSize: '2.5rem',
+      fontWeight: 'normal',
+      fontFamily: 'GFS Didot, serif',
+      color: '#000000',
+      margin: '30px auto'
+  };
+  
+  
+  const paragraphStyle = {
+    fontSize: '22px',
+    color: '#000000',
+  
+    fontFamily: 'GFS Didot, serif',
+    margin: '2rem auto',
+  
+    maxWidth: '500px', // Consistent with the other paragraphs
+    lineHeight: '1.6',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+  };
+  
+  const linkStyle = {
+    textDecoration: 'none', // Removes underline from links
+    fontFamily: 'GFS Didot, serif',
+    color: '#000000', // Inherits the color of the surrounding text
+  };
+  
+  const gridContainerStyle = {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+      gap: '10px',
+      margin: '1rem auto'
+  };
+  
+  const imageStyle = {
+    display: 'block',
+    margin: '1rem auto',
+    borderRadius: '0px',
+    maxWidth: '500px',
+    height: 'auto'
+  };
+  
+  const pinterestGridStyle = {
+    display: 'grid',
+    gap: '1rem',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+    justifyItems: 'center',
+    margin: '1rem 0',
+  };
+  
+  const iframeStyle = {
+    width: '100%',
+    maxWidth: '236px',
+    height: '520px', // Maintains original height
+    border: 'none',
+    scrolling: 'no',
+  };
+  
+  const captionStyle = {
+    textAlign: 'center',
+    fontSize: '1.1rem',
+    fontFamily: 'Playfair Display, serif',
+    margin: '1rem auto',
+    maxWidth: '100%',
+    fontStyle: 'italic',
+  };
+  
   
   const blogContent = (
     <div className="container">
-     <Helmet>
-    <title>Latte Makeup Tutorial - Makeup Tutorial by Jackie Wyers</title>
-    <link rel="canonical" href="https://jackiewyers.beauty/lattemakeup" />
+   <Helmet>
+  <title>Trend Report: How to Get The Latte Makeup Look - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/lattemakeup" />
 
-    <meta name="description" content="Want to get the Latte Makeup look just right in time for fall? This article has you covered!" />
-    <meta name="keywords" content="Latte Makeup, Makeup Tutorial, Fall Makeup, Jackie Wyers, Makeup Trends, Beauty Tips" />
-    <meta property="og:title" content="Latte Makeup Tutorial - Makeup Tutorial by Jackie Wyers" />
-    <meta property="og:description" content="Want to get the Latte Makeup look just right in time for fall? This article has you covered!" />
-    <meta property="og:image" content={title} />
-    <meta property="og:url" content="https://jackiewyers.beauty/lattemakeup" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Latte Makeup Tutorial - Makeup Tutorial by Jackie Wyers" />
-    <meta name="twitter:description" content="Want to get the Latte Makeup look just right in time for fall? This article has you covered!" />
-    <meta name="twitter:image" content={title} />
-    <script type="application/ld+json">
-        {`
-        {
-            "@context": "https://schema.org",
-            "@type": "BlogPosting",
-            "headline": "Latte Makeup Tutorial - Makeup Tutorial by Jackie Wyers",
-            "description": "Want to get the Latte Makeup look just right in time for fall? This article has you covered!",
-            "image": "${title}",
-            "author": {
-                "@type": "Person",
-                "name": "Jackie Wyers"
-            },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Jackie Wyers",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "${title}"
-                }
-            },
-            "datePublished": "2024-07-27",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://jackiewyers.beauty/lattemakeup"
-            }
+  <meta name="description" content="Learn how to master the trending Latte Makeup look with Jackie Wyers. This guide covers everything from tanned and natural bases to bronzed eyes for a cozy fall makeup vibe." />
+  <meta name="keywords" content="Latte Makeup, Jackie Wyers, Makeup Tutorial, Fall Makeup Trends, Beauty Tips, Warm Toned Makeup, Tanielle Jai Makeup, Smokey Eye, Faux Freckles, Caramel Makeup, Contouring, Highlighting, Bronzer, Latte Beauty, Makeup Artist Tips, '90s Makeup, No Foundation Makeup, Glowy Skin, Makeup Techniques, Fall Beauty, Makeup for Warm Skin Tones" />
+
+  <meta property="og:title" content="Latte Makeup Tutorial - Jackie Wyers" />
+  <meta property="og:description" content="Learn how to master the trending Latte Makeup look with Jackie Wyers. This guide covers everything from tanned and natural bases to bronzed eyes for a cozy fall makeup vibe." />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/LatteMakeup/LatteMakeupThumbnail.jpg" />
+  <meta property="og:url" content="https://jackiewyers.beauty/lattemakeup" />
+
+  <meta name="twitter:title" content="Latte Makeup Tutorial - Jackie Wyers" />
+  <meta name="twitter:description" content="Learn how to master the trending Latte Makeup look with Jackie Wyers. This guide covers everything from tanned and natural bases to bronzed eyes for a cozy fall makeup vibe." />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/LatteMakeup/LatteMakeupThumbnail.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+
+  {/* Google Ads Script */}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Latte Makeup Tutorial - Jackie Wyers",
+        "description": "Learn how to master the trending Latte Makeup look with Jackie Wyers. This guide covers everything from tanned and natural bases to bronzed eyes for a cozy fall makeup vibe.",
+        "image": "https://jackiewyers.beauty/Images/Articles/LatteMakeup/LatteMakeupThumbnail.jpg",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/logo.png"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "dateModified": "2024-09-20",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/lattemakeup"
         }
-        `}
-    </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-    <script>
-        {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-        `}
-    </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+      }
+    `}
+  </script>
 </Helmet>
 
 
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '25vh' }}>
-        <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
+        <a href="/trends" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
           BEAUTY // TRENDS
         </a>
       </div>
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={title} alt="Latte Makeup Trend" style={{ width: '100%', maxWidth: '650px' }} />
-      </div>
 
-      <ResponsiveYoutube src="https://www.youtube.com/embed/Jm0BdU88kr4?si=q_f9U-l_aZqaY83s" title="YouTube video player" />
 
-      <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <SubscribeButton />
-      </div>
+  <ArticleTitle
+  mainTitle="Trend Report: How to Get The Latte Makeup Look"
+  subTitle="Think cozy, warm, and chic!"
+  author="Jackie Wyers"
+  publishDate="Jan 22nd, 2024"
+/>
+  
 
-      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
-      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-      </p>
+      <ResponsiveYoutube src="https://www.youtube.com/embed/Jm0BdU88kr4?si=q_f9U-l_aZqaY83s" title="The LATTE MAKEUP TREND🧸☕️ A Talk-Through Makeup Tutorial🤎" />
+
+      <div style = {{textAlign: 'center', margin: '10px auto' }}>
+<SubscribeButton />
+</div>
+
+<p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
+
 
       <DropCap1 text="Hello, beauties! It's Jackie here with another trend report driven by the TikTok algorithm. The latte makeup look is all about embracing warm, tawny tones to create a '90s-inspired glam with a cozy vibe. Imagine a caramel-toned smokey eye, no foundation, faux freckles, and a milky lip. An artist whose work has been continuously referenced when creating this style of makeup is none other than Australia-based makeup artist Tanielle Jai. If you've ever shopped on Princess Polly and admired the campaign images with sultry, smokey makeup—that's all the makeup artisty of Tanielle Jai!" />
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
+<div style={gridContainerStyle}>
         <a href="https://www.instagram.com/p/CvFsHXNO7nf/?img_index=1" target="_blank" rel="noopener noreferrer">
           <img src={Latte2} alt='Detailed Latte Makeup' style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
 
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-        See <a href="https://www.instagram.com/taniellejaimua/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>Tanielle Jai</a>'s work on Instagram.
+      <p style={captionStyle}>
+      See <a href="https://www.instagram.com/taniellejaimua/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>Tanielle Jai</a>'s work on Instagram.
       </p>
 
       <h2 style={headingStyle}>Get The Latte Makeup Look</h2>
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={Latte3} alt='Latte Makeup Application' style={{ width: '100%', maxWidth: '650px' }} />
-      </div>
-      <div
-style = {{
-  margin : '20px'
-}}
->
+      
+      <div style={gridContainerStyle}>
 
+      <img src={Latte3} alt='Latte Makeup Application' style={{ width: '100%', maxWidth: '650px' }} />
+      
+      </div>
+
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>The Base: Tanned and Natural</h2>
@@ -175,15 +237,8 @@ style = {{
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493598?noHeader=true" title="Highlight and Contour Products" />
 
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%', marginLeft: '0em' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>Yellow Based Bronzer</h2>
@@ -204,12 +259,7 @@ style = {{
       <p style={paragraphStyle}>
         Next, add a brown liner pencil to rim the lash line and softly fade into the crease. The ColourPop lipliner I used called BFF 3 is really creamy and easy to blend for this step, plus it is lighter than most traditional eyeliners on the market, making it appear softer. Make sure you're not using the eyeliner on the lips and eyes and sanitize between uses if you do opt for a lipliner on the eyes!
       </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>
@@ -218,9 +268,7 @@ style = {{
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493604?noHeader=true" title="Eye Makeup Products" />
 
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%', marginLeft: '0em' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
+      
 
       <h2 style={headingStyle}>Brows</h2>
       <p style={paragraphStyle}>
@@ -232,15 +280,8 @@ style = {{
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493609?noHeader=true" title="Brow Products" />
 
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%', marginLeft: '0em' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>Lips & Finishing Touches</h2>
@@ -253,33 +294,41 @@ style = {{
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493611?noHeader=true" title="Lips & Finishing Touches Products" />
 
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em', maxWidth: '100%', marginLeft: '0em' }}>
-        CONTAINS: AFFILIATE LINKS
-      </p>
+      
 
       <p style={paragraphStyle}>
         Want to be featured on my site? Tag me in your recreation or version of this look on Insta <a href="https://www.instagram.com/jackiewyers/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}><strong>@jackiewyers</strong></a>. I’d love to see you switch up your style with confidence!
       </p>
 
-      <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-        <a href="/sugarplumfairy" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={sugar} alt="More Beauty Trends" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
-          MORE BEAUTY TRENDS →
-        </a>
+      <div style={gridContainerStyle}>
+      <img src={Latte16} alt='Jackie Wyers Signature' style={{ width: '100%', maxWidth: '1300px' }} />
       </div>
+      <NextArticle
+      link="/sugarplumfairy" 
+      imgSrc={sugar}
+      altText="Sugar Plum Fairy Trend Report Link"
+      linkText="MORE BEAUTY TRENDS →"
+      containerStyle={{ margin: '1rem 0' }} // customize as needed
+      linkStyle={{ color: '#000000', fontSize: '1.05rem' }} // customize as needed
+      imgStyle={{ borderRadius: '10px' }} // customize as needed
+    />
 
-      <div style={{ textAlign: 'center' }}>
-        <img src={Latte16} alt='Signature' style={{ width: '100%', maxWidth: '650px' }} />
-      </div>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     
+    
+      <Comments website-id={websiteId} page-id="latte" />
+  
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
-      <Comments website-id={websiteId} page-id="latte" />
+  
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
+  
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
+
     </div>
   );
 
