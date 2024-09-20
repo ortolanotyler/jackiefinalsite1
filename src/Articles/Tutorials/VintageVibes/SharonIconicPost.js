@@ -64,6 +64,8 @@ const paragraphStyle = {
     <div className="container">
    <Helmet>
   <title>Sharon Tate Iconic 60's Makeup Tutorial - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/iconicsharontate" />
+
   <meta name="description" content="Follow Jackie Wyers' tutorial to recreate Sharon Tate's iconic 60's makeup look. Dive into the step-by-step guide and discover modern products to achieve this timeless style." />
   <meta name="keywords" content="Sharon Tate, 60s Makeup, Jackie Wyers, Makeup Tutorial, Vintage Beauty, Iconic Looks, Time Travel Tutorials, Classic Beauty, Old Hollywood" />
   <meta property="og:title" content="Sharon Tate Iconic 60's Makeup Tutorial - Jackie Wyers" />

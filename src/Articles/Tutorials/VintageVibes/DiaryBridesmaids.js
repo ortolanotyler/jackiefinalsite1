@@ -76,6 +76,8 @@ const paragraphStyle = {
     <div className="container">
       <Helmet>
   <title>Bridesmaid Boxes How - To</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/bridesmaidsboxes" />
+
   <meta name="description" content="Creative and budget-friendly ideas for your bridesmaids gifts" />
   <meta name="keywords" content="Bridesmaid Boxes, Jackie Wyers, Bridal Gifts, DIY Bridesmaid Gifts, Budget-Friendly Bridesmaid Gifts, Bridal Blog, Bridesmaid Proposal, Wedding Planning, Wedding Gifts, Bridesmaid Ideas" />
   <meta property="og:title" content="Bridesmaid Boxes How - To" />

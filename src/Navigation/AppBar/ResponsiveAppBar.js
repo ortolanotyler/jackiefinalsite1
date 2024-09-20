@@ -456,14 +456,16 @@ function ResponsiveAppBar() {
   to="/subscribe"
   className="subscribe-button" // Rename the class for specificity
   sx={{
-    backgroundColor: '#000000',
+    backgroundColor: '#3a3a3a',
     color: '#ffffff !important',  // Adding !important to force the color
-    borderRadius: '0px',
+    borderRadius: '50px',
     width: '100%',
     fontFamily: 'GFS Didot, serif',
-    padding: '0.5rem',
+    padding: '10px 25px',
     fontSize: '1rem',
     marginRight: '30px',
+    boxShadow: '0 2px 2px rgba(0, 0, 0, 0.15)',
+
   }}
 >
   Subscribe
