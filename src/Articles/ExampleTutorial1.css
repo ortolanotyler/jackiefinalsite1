@@ -6,12 +6,10 @@
 }
 
 body {
-  margin: 0 auto; /* Reset margin */
-  padding: 0 auto;
+  margin: auto; /* Reset margin */
+  padding: auto;
   overflow-x: hidden;
 }
-
-
 
 
 .card:hover {
@@ -45,15 +43,15 @@ body {
 }
 
 .card {
-  width: 100%;
+  width: 90%;
   max-width: 1500px;
   background-color: white;
   color: black;
   font-family: 'GFS Didot', sans-serif;
   text-align: left;
   margin: 0 auto; /* Center the card */
-  padding: 1rem auto;
-  border-radius: 8px;
+  padding: 2rem auto;
+ 
 }
 
 .card img {

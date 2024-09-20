@@ -11,8 +11,8 @@ import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 
-const title = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeTitle.png`;
-const Balke2 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeDouble.png`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeTitle.png`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeDouble.png`;
 const Balke3 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeFaceChart.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const yardley = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg`;
@@ -52,7 +52,7 @@ const paragraphStyle = {
   color: '#000000',
 
   fontFamily: 'GFS Didot, serif',
-  margin: '0 auto',
+  margin: '2rem auto',
 
   maxWidth: '525px', // Consistent with the other paragraphs
   lineHeight: '1.6',
@@ -165,14 +165,7 @@ const captionStyle = {
   </script>
 </Helmet>
 
-<div
-style = {{
-  margin : '1rem auto'
-}}
->
 
-  <AdSenseAd/>
-</div>
 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '75px' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'GFS Didot, serif', fontSize: '0.8rem', color: '#000000', textDecoration: 'none' }}>
@@ -199,11 +192,16 @@ style = {{
 
       <DropCap1 text="Welcome back to another Time Travel Tutorials, where we admire and recreate beauty icons from the past. Today, let's delve into the 1960s through the portrait of model Ina Balke by the renowned photographer Ted Russell. For those of you who've ever searched on Pinterest for '60s makeup, chances are you've stumbled upon this stunning photograph. This article is your step-by-step guide on how to get the vintage makeup and styling as seen on Ina to try out yourself!" />
       
+      <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
+
+
       <div style={{ display: 'flex', justifyContent: 'center' }}>
       <iframe
     src="https://www.instagram.com/reel/C3nim61u_4Q/embed"
-    width="500"
-    height="900"
+    width="550"
+    height="1000"
     frameBorder="0"
     scrolling="no"
     allowtransparency="true"
@@ -217,20 +215,20 @@ style = {{
 
       <h2 style={headingStyle}>The Essence of 1960s Makeup</h2>
 
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <a href='https://www.instagram.com/reel/C3nim61u_4Q/?hl=en'>
+     
+
+      <div style={gridContainerStyle}>
+      <a href='https://www.instagram.com/reel/C3nim61u_4Q/?hl=en'>
           <img src={Balke3} alt="Close-up of Ina Balke's makeup" style={{ width: '100%', height: 'auto' }} />
         </a>
-      </div>
+ </div>
 
 
 <p style={paragraphStyle}>
   Ina Balke’s iconic wink showcases a classic '60s <a style={linkStyle} href="https://en.wikipedia.org/wiki/Cut_crease" target="_blank" rel="noreferrer">cut crease</a> complemented by <a style={linkStyle} href="https://en.wikipedia.org/wiki/Matte_finish" target="_blank" rel="noreferrer">matte skin</a> and a peach lip. Her styling feels very <a style={linkStyle} href="https://en.wikipedia.org/wiki/Audrey_Hepburn" target="_blank" rel="noreferrer">Hepburn</a>, with a sophisticated black dress and both a cigarette and wine glass held up to her mouth. Her look is complete with a chic, brunette bob with blunt bangs, which I recreated with a fabulous <a style={linkStyle} href="https://www.vogue.com/article/best-wigs" target="_blank" rel="noreferrer">wig</a>! If you decide to give this tutorial a try, please be sure to tag me or send a photo to be featured on the blog - I'd love to see you in this glamorous style 🖤 .
 </p>
 
-
-
-      <h2 style={headingStyle}>The Skin: Keep It Matte & Bright</h2>
+<h2 style={headingStyle}>The Skin: Keep It Matte & Bright</h2>
 
       <p style={paragraphStyle}>
   This look is very glamorous, so let’s use a <a style={linkStyle} href="https://www.nyxcosmetics.com/face/concealer/cant-stop-wont-stop-contour-concealer/NYX_639.html" target="_blank" rel="noreferrer">high-coverage foundation</a> for a flawless base. Ina’s face looks bright and highlighted through the center, so go with a lighter high-coverage concealer overtop of your foundation base. I used the <a style={linkStyle} href="https://www.nyxcosmetics.com/face/concealer/cant-stop-wont-stop-contour-concealer/NYX_639.html" target="_blank" rel="noreferrer">NYX Can't Stop Won't Stop Concealer</a> in a V-shape under my eyes, which is a great drugstore option for a posh look!
@@ -238,7 +236,7 @@ style = {{
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493363?noHeader=true" title="Concealer Makeup Reccomendations 60s inspired" />
 
-      <div style = {{ margin : '1rem auto'}}>
+  <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -250,6 +248,9 @@ style = {{
   To add dimension and mature the face, use a <a style={linkStyle} href="https://www.byrdie.com/best-contour-palettes-4586694" target="_blank" rel="noreferrer">cool-toned contour</a> under the cheekbones and jawline. Keep the <a style={linkStyle} href="https://www.wikihow.com/Contour-Your-Nose" target="_blank" rel="noreferrer">nose contour</a> subtle to balance the soon-to-be dramatic eyes.
 </p>
 
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
 <p style={paragraphStyle}>
   For setting the highlighted areas, the <a style={linkStyle} href="https://www.hourglasscosmetics.com/products/ambient-lighting-powder" target="_blank" rel="noreferrer">Hourglass Radiant Powder</a> is my go-to for a luminous finish, but the <a style={linkStyle} href="https://www.revlon.com/makeup/face/primer-photo-ready-translucent-finisher" target="_blank" rel="noreferrer">Revlon Photoready Translucent Finisher</a> is a great budget-friendly option. Adding a powder that reflects light helps create that hyper-real base when photographed, as seen in the inspiration photo.
@@ -287,9 +288,8 @@ style = {{
   Blend a <a style={linkStyle} href="https://www.sephora.com/shop/yellow-eyeshadow" target="_blank" rel="noreferrer">yellow gold</a> and a <a style={linkStyle} href="https://www.sephora.com/shop/green-bronze-eyeshadow" target="_blank" rel="noreferrer">dingy green-bronze</a> through the crease, fading towards the brow bone. When we <a style={linkStyle} href="https://www.wikihow.com/Cut-a-Crease" target="_blank" rel="noreferrer">cut the crease</a> next, we will achieve that classic <a style={linkStyle} href="https://en.wikipedia.org/wiki/1960s" target="_blank" rel="noreferrer">60s shape</a>, but having these rustic tones peeking above softens the look and makes any <a style={linkStyle} href="https://www.byrdie.com/eye-makeup-for-every-eye-color-345849" target="_blank" rel="noreferrer">eye color pop</a>.
 </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/493455?noHeader=true" title="Collection name here" />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/493455?noHeader=true" title="Eyeshadow Makeup Recommendations" />
 
-    
 
       <h2 style={headingStyle}>Cut That Crease!</h2>
 
@@ -355,9 +355,7 @@ style = {{
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493470?noHeader=true" title="Collection name here" />
     
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
       <h2 style={headingStyle}>The Finishing Touches</h2>
 
       <p style={paragraphStyle}>
@@ -377,9 +375,7 @@ style = {{
   
 
       
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
       <div style={{ textAlign: 'center' }}>
         <a href="/vintagevibesmerch" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>

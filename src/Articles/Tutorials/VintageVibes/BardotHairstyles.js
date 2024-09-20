@@ -10,6 +10,7 @@ import Carousel from '../../../Components/Carousel';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import NextArticle from '../../../Components/NextArticleComponent';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/BardotHairstyles/1.jpg`;
@@ -60,7 +61,7 @@ const paragraphStyle = {
   color: '#000000',
 
   fontFamily: 'GFS Didot, serif',
-  margin: '0 auto',
+  margin: '2rem auto',
 
   maxWidth: '525px', // Consistent with the other paragraphs
   lineHeight: '1.6',
@@ -90,11 +91,19 @@ const imageStyle = {
 };
 
 const pinterestGridStyle = {
-  display: 'flex',
-  justifyContent: 'center',
+  display: 'grid',
   gap: '1rem',
-  flexWrap: 'wrap',
-  margin: '1rem 0'
+  gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+  justifyItems: 'center',
+  margin: '1rem 0',
+};
+
+const iframeStyle = {
+  width: '100%',
+  maxWidth: '236px',
+  height: '520px', // Maintains original height
+  border: 'none',
+  scrolling: 'no',
 };
 
 const captionStyle = {
@@ -466,57 +475,47 @@ Pin my Bardot looks on Pinterest to your inspiration board!
 </p>
 
 <div style={pinterestGridStyle}>
-        <iframe
-          src="https://assets.pinterest.com/ext/embed.html?id=794463190524256496"
-          height="520"
-          width="236"
-          title="pin1"
-          frameBorder="0"
-          scrolling="no"
-        ></iframe>
-        <iframe
-          src="https://assets.pinterest.com/ext/embed.html?id=794463190540664022"
-          height="520"
-          width="236"
-          frameBorder="0"
-          scrolling="no"
-            title="pin2"
-        ></iframe>
-        <iframe
-          src="https://assets.pinterest.com/ext/embed.html?id=794463190512567046"
-         height="520"
-          width="236"
-          frameBorder="0"
-          scrolling="no"
-          title="pin3"
-
-        ></iframe>
-      </div>
+  <iframe
+    src="https://assets.pinterest.com/ext/embed.html?id=794463190524256496"
+    style={iframeStyle}
+    title="pin1"
+  ></iframe>
+  <iframe
+    src="https://assets.pinterest.com/ext/embed.html?id=794463190540664022"
+    style={iframeStyle}
+    title="pin2"
+  ></iframe>
+  <iframe
+    src="https://assets.pinterest.com/ext/embed.html?id=794463190512567046"
+    style={iframeStyle}
+    title="pin3"
+  ></iframe>
+</div>
 
 
 
 
-       <div>
-        <img src={signature} alt="Jackie Wyers Signature XoXo" style={{ width: '100%' }} />
-      </div>
       
      
-      <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-        <a href="/iconicsharon" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={sharon} alt="Sharon Tate's Bohemian Style Tutorial" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
-          MORE TIME TRAVEL TUTORIALS →
-        </a>
+      <NextArticle
+      link="/iconicsharon"
+      imgSrc={sharon}
+      altText="Sharon Tate's Bohemian Style Tutorial"
+      linkText="MORE TIME TRAVEL TUTORIALS →"
+      containerStyle={{ margin: '1rem 0' }} // customize as needed
+      linkStyle={{ color: '#000000', fontSize: '1.05rem' }} // customize as needed
+      imgStyle={{ borderRadius: '10px' }} // customize as needed
+    />
+
+<div>
+        <img src={signature} alt="Jackie Wyers Signature XoXo" style={{ width: '100%' }} />
       </div>
+
 
       <Comments website-id={websiteId} page-id={"bardot-hairstyles"} />
 
       
-      <div
-style = {{
-  margin : '1rem auto'
-}}
->
-
+    <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       
@@ -531,12 +530,7 @@ style = {{
         description="My Many Attempts At The Iconic 60s Style"
         blogContent={blogContent}
       />
-      <div
-style = {{
-  margin : '1rem auto'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
     </div>
