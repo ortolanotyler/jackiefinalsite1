@@ -282,30 +282,29 @@ isFlipped={true}
         
           </Grid>
 
-
-          <HeroSection
-  featureText="BRIDAL"
-  headlineText="DIY Flower Pins for a Mamma Mia Inspired Wedding"
-  subtext="Learn how to create your own DIY bridal flower pins inspired by Mamma Mia for your wedding day. Jackie Wyers shares a step-by-step guide to make these beautiful accessories."
+          <Grid item xs={12} md={6}>
+        <Suspense fallback={<div className="spinner"></div>}>
+     
+        <HeroSection
+  featureText="VINTAGE VIBES"
+  headlineText="Mastering the Bardot Bun"
+  subtext="My Many Attempts At The Iconic 60s Style. Step into vintage beauty with Jackie Wyers' take on Brigitte Bardot's iconic hairstyles."
   author="BY JACKIE WYERS"
-  imagePath="MammaMia/mammamiathumb.png"
-  linkUrl="/diy-flowers"
+  imagePath="BardotHairstyles/BardotThumbnail.jpg"
+  linkUrl="/bardothairstyles"
+  isFlipped={false}
 />
+</Suspense>
+</Grid>
+
+      
+
+
+
 <HorizontalLine />
 
-<HeroSection
-  featureText="DIARY"
-  headlineText="Bridesmaid Boxes How-To"
-  subtext="Get creative with budget-friendly bridesmaid proposal boxes featuring heartfelt gifts and whimsical touches. Learn how Jackie Wyers made her bridesmaid proposal extra special."
-  author="BY JACKIE WYERS"
-  imagePath="/Bridesmaids/BridesmaidBoxThumb!.jpg"
-  linkUrl="/bridesmaidboxes"
-  isFlipped={true}
-/>
-
-<HorizontalLine />
-
-
+<Grid item xs={12} md={6}>
+<Suspense fallback={<div className="spinner"></div>}>
 <HeroSection
               featureText="POP CULTURE"
               headlineText="Francesca Bridgerton Makeup, Hair, and Dress"
@@ -317,7 +316,8 @@ isFlipped={true}
             />
 
 <HorizontalLine />
-
+</Suspense>
+</Grid>
 
       
           
@@ -434,20 +434,7 @@ isFlipped={true}
 
       
 
-        <Grid item xs={12} md={6}>
-        <Suspense fallback={<div className="spinner"></div>}>
-     
-        <HeroSection
-  featureText="VINTAGE VIBES"
-  headlineText="Mastering the Bardot Bun"
-  subtext="My Many Attempts At The Iconic 60s Style. Step into vintage beauty with Jackie Wyers' take on Brigitte Bardot's iconic hairstyles."
-  author="BY JACKIE WYERS"
-  imagePath="BardotHairstyles/BardotThumbnail.jpg"
-  linkUrl="/bardothairstyles"
-  isFlipped={false}
-/>
-</Suspense>
-</Grid>
+    
 
 
         <Grid item xs={12} md={6}>
@@ -523,7 +510,15 @@ isFlipped={true}
 
 
 
-      
+        <HeroSection
+  featureText="BRIDAL"
+  headlineText="DIY Flower Pins for a Mamma Mia Inspired Wedding"
+  subtext="Learn how to create your own DIY bridal flower pins inspired by Mamma Mia for your wedding day. Jackie Wyers shares a step-by-step guide to make these beautiful accessories."
+  author="BY JACKIE WYERS"
+  imagePath="MammaMia/mammamiathumb.png"
+  linkUrl="/diy-flowers"
+/>
+<HorizontalLine />
 
 
      

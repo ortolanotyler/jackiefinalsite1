@@ -14,15 +14,16 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
 
   const heroLinkStyle = {
     textDecoration: 'none',
-    color: 'inherit',
+    color: '#000000',
   };
 
   const heroSectionStyle = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    margin: '1rem 1rem',
-   
+    margin: '1rem auto',
+    color: '#000000',
+
     flexDirection: isSmallScreen ? 'column' : isFlipped ? 'row-reverse' : 'row',
     flexWrap: 'wrap',
   };
@@ -37,19 +38,20 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
   };
 
   const featureStyle = {
-    fontSize: '20px',
+    fontSize: '1rem',
     fontWeight: '100',
-    letterSpacing: '1px',
-    marginBottom: '1rem',
-    fontFamily: 'GFS Didot, serif',
-    
+    letterSpacing: '0.05rem',
+   color: '#000000',
+    margin: '0 auto',
+    fontFamily: 'Playfair Display, serif',
+    textDecoration: 'underline',
   };
 
   const headlineStyle = {
     fontSize: '32px',
     lineHeight: 1,
    
-    fontFamily: 'GFS Didot, serif',
+    fontFamily: 'Playfair Display, serif',
     minHeight: '10px',
   };
 
@@ -57,7 +59,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     fontSize: '16px',
     lineHeight: 1.5,
   
-    fontFamily: 'GFS Didot, serif',
+    fontFamily: 'Playfair Display, serif',
     color: '#000000',
     minHeight: '10vh',
   };
@@ -66,7 +68,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     fontSize: '14px',
     fontStyle: 'italic',
     color: '#000000',
-    fontFamily: 'GFS Didot, serif',
+    fontFamily: 'Playfair Display, serif',
     minHeight: '20px',
   };
 
@@ -80,7 +82,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     width: '100%',
     margin: '0 auto',
     height: 'auto',
-    borderRadius: '5px',
+    borderRadius: '0px',
     display: 'block',
   };
 

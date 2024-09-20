@@ -20,7 +20,6 @@ const image5 = `${process.env.PUBLIC_URL}/Images/Articles/BardotHairstyles/5.jpg
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/BardotHairstyles/6.jpg`;
 const image7 = `${process.env.PUBLIC_URL}/Images/Articles/BardotHairstyles/7.jpg`;
 const image8 = `${process.env.PUBLIC_URL}/Images/Articles/BardotHairstyles/8.jpg`;
-const image9 = `${process.env.PUBLIC_URL}/Images/Articles/BardotHairstyles/9.png`;
 
 const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
@@ -61,7 +60,7 @@ const paragraphStyle = {
   color: '#000000',
 
   fontFamily: 'GFS Didot, serif',
-  margin: '1rem 1.5rem',
+  margin: '0 auto',
 
   maxWidth: '525px', // Consistent with the other paragraphs
   lineHeight: '1.6',
@@ -75,7 +74,7 @@ const linkStyle = {
   color: '#000000', // Inherits the color of the surrounding text
 };
 
-  const gridContainerStyle = {
+const gridContainerStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     gap: '10px',
@@ -166,7 +165,14 @@ const captionStyle = {
   </script>
 </Helmet>
 
+<div
+style = {{
+  margin : '1rem auto'
+}}
+>
 
+  <AdSenseAd/>
+</div>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '75px' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'GFS Didot, serif', fontSize: '0.8rem', color: '#000000', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS
@@ -290,6 +296,14 @@ style = {{
   Initially, I moved part of my ponytail forward and laid the ends as faux bangs, securing them around the hairline with bobby pins. Through the years, I found a better method that really makes the hairstyle stay put, even if there’s some wind outside, without worrying about bobby pins becoming loose.
 </p>
 
+<div
+style = {{
+  margin : '1rem auto'
+}}
+>
+
+  <AdSenseAd/>
+</div>
 
 <p style={paragraphStyle}>
   What I loved about my initial attempt though, was how I created the <a style={linkStyle} href="https://www.hair.com/tease-and-curl-techniques" target="_blank" rel="noreferrer">voluminous base bun</a>. It is super easy to take pieces from around the <a style={linkStyle} href="https://www.sallybeauty.com/tools-and-brushes/hair-rollers-and-pins/hair-buns/donut-bun-makers/SLONYN58.html" target="_blank" rel="noreferrer">bun maker</a>, curl, tease, and pin in loops. When you already have a bun maker as a base shape, you can go big, and wedging <a style={linkStyle} href="https://www.goodhousekeeping.com/beauty-products/hair-accessories/g27726179/best-bobby-pins/" target="_blank" rel="noreferrer">bobby pins</a> into it will keep it in place. Kudos to little me for recreating this iconic style in an easy way!
@@ -325,6 +339,14 @@ Method Two: Best Faux Bangs
   When I recreated a <a style={linkStyle} href="https://www.biography.com/actor/brigitte-bardot" target="_blank" rel="noreferrer">Brigitte Bardot</a> inspired look many years later using a different inspiration photo, I came up with another method to shorten the hair for the bang section. For my new technique, section the hair into three ponytails: two smaller pigtails at the front with a centre part, and the rest of the hair in a super high ponytail.
 </p>
 
+<div
+style = {{
+  margin : '1rem auto'
+}}
+>
+
+  <AdSenseAd/>
+</div>
 
 <p style={paragraphStyle}>
   Instead of using a bun maker, I <a style={linkStyle} href="https://www.allure.com/story/how-to-tease-hair" target="_blank" rel="noreferrer">teased</a> my ponytail, wrapped it into a simple bun, and added some very textured <a style={linkStyle} href="https://www.byrdie.com/how-to-pin-curls" target="_blank" rel="noreferrer">pin curls</a> at the front of the updo for more height and interest. This style wasn’t quite as voluminous as the first attempt, so I recommend using a bun maker if you want to go even bigger like in the first tutorial. We will combine these methods next, but first, here’s a guide to creating the best <a style={linkStyle} href="https://www.harpersbazaar.com/beauty/hair/g3996/how-to-style-faux-bangs/" target="_blank" rel="noreferrer">faux bangs</a>.
@@ -351,7 +373,14 @@ My Take On A Brunette Bardot Updo
 <p style={paragraphStyle}>
   After the base bun is complete, I created faux bangs with the two mini pigtails sectioned off.
 </p>
+<div
+style = {{
+  margin : '1rem auto'
+}}
+>
 
+  <AdSenseAd/>
+</div>
 
 <p style={paragraphStyle}>
   Tease and twist each pigtail, hold it high in the air, and cross it over to the opposite side, behind the second pigtail, pinning with an X to keep in place. This not only adds to the updo but also allows you to pull the leftover ends from the pigtail underneath the twist, creating a <a style={linkStyle} href="https://www.instyle.com/how-to-get-curtain-bangs" target="_blank" rel="noreferrer">fluffy curtain bang</a> on each side.
@@ -370,6 +399,7 @@ style = {{
 <p style={paragraphStyle}>
   You can adjust the length of your new bangs, styling them with a <a style={linkStyle} href="https://www.ulta.com/p/hot-tools-professional-curling-iron-pimprod2002102" target="_blank" rel="noreferrer">curling iron</a>, teasing comb, and hairspray. The tight twist allows for fewer bobby pins to keep them in place. If your hair is long like mine, loop the excess length and blend it into the bun and be sure to set with <a style={linkStyle} href="https://www.sephora.com/shop/hairspray" target="_blank" rel="noreferrer">hairspray</a>.
 </p>
+
 
 <p style={paragraphStyle}>
   I’m really not sure how I came up with this technique, but it’s kind of genius, if I do say so myself! 🤣 If you try it out, please <a style={linkStyle} href="https://www.instagram.com/jackiewyers/" target="_blank" rel="noreferrer">tag me</a> because I would love to see how it looks on you.
