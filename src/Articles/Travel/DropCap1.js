@@ -10,22 +10,20 @@ const DropCap1 = ({ text }) => {
 };
 
 const dropCapStyle = {
-  fontSize: '5rem', // Adjusted for a more balanced look
-  lineHeight: '0.8', // Aligns with the top of the paragraph
+  fontSize: '22px', // Match paragraph font size
+  fontWeight: 'bold', // Slight boldness to emphasize
   float: 'left',
-  marginRight: '0.5rem', // Adds spacing between drop cap and text
-  fontFamily: 'GFS Didot, serif',
+  marginRight: '0.3rem', // Adjust space between drop cap and text
+  fontFamily: 'GFS Didot, serif', // Ensure the font matches
   color: '#745B4F',
-  fontWeight: 'bold',
 };
 
 const paragraphStyle = {
   fontSize: '22px',
   color: '#000000',
-margin: '1rem auto',
+  margin: '1rem auto',
   fontFamily: 'GFS Didot, serif',
-
-  maxWidth: '525px', // Consistent with the other paragraphs
+  maxWidth: '525px',
   lineHeight: '1.6',
   marginLeft: 'auto',
   marginRight: 'auto',

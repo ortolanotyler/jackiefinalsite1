@@ -180,6 +180,10 @@ const captionStyle = {
   publishDate="Feb 20th, 2024"
 />
 
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
+
       <ResponsiveYoutube src="https://www.youtube.com/embed/7HoL0rVmZHI?si=__Llh9tI2-K62uRQ" title="Ina Balke 1960s Makeup Tutorial - Jackie Wyers on Youtube" />
 
       <div style = {{textAlign: 'center', margin: '10px auto' }}>
