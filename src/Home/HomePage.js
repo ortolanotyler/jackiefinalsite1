@@ -12,6 +12,7 @@ import HeroSection from './HeroSection';
 import HorizontalLine from '../Components/HorizontalLine';
 import NewsletterSlider from '../Components/NewsletterSlider';
 import TextBanner2 from '../Components/TextBanner2';
+import AdSenseAd from '../Advertising/Ads';
 
 const TextReveal = lazy(() => import('../Components/TextReveal'));
 const EmailSubscribe = lazy(() => import('../Components/EmailSubscribe'));
@@ -29,7 +30,7 @@ const theme = createTheme();
 function HomePage() {
   useEffect(() => {
     initGA();              
-    logPageView('/');  
+    logPageView('/homepage');  
   }, []);
 
   const quizzesRef = useRef(null);
@@ -435,10 +436,13 @@ isFlipped={true}
  
 
 
+                <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
 
+<HorizontalLine />
 
-      
 
     
 
