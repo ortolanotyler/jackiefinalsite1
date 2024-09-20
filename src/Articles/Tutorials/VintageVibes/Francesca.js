@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from 'react';
 import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import { initGA, logPageView } from '../../../analytics';
-import TextReveal from '../../../Components/TextReveal';
 import AdSenseAd from '../../../Advertising/Ads';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import SubscribeButton from '../../../Components/SubscribeButton';
@@ -10,7 +9,7 @@ import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import HorizontalLine from '../../../Components/HorizontalLine';
+import NextArticle from '../../../Components/NextArticleComponent';
 
 
 
@@ -21,98 +20,135 @@ const image4 = `${process.env.PUBLIC_URL}/Images/Articles/Francesca/4.jpeg`;
 
 
 
-const emily = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/ArticleThumb.jpg`;
+const period = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/ArticleThumb.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
+ 
   <div style = {{
-    padding: '10px 20px',
-     margin: '0 auto',
-   }}>
+   padding: '10px 20px',
+    margin: '0 auto',
+  }}>
   
       <div className="card">
         <div className="blog-content">{blogContent}</div>
       </div>
-      
-
+      </div>
   
-  </div>
-);
-
-const Francesca = () => {
-
-  useEffect(() => {
-    initGA();
-    logPageView('/francesca-bridgerton');
-  }, []);
-
-
-  const websiteId = '10910';
-  const blogRef = useRef(null);
-
- 
-  const headingStyle = {
-    textAlign: 'center',
-    fontSize: '1.5rem',
-    fontWeight: 'normal',
-    fontFamily: 'GFS Didot, serif',
+    
+  );
+  
+  const Francesca = () => {
+  
+    useEffect(() => {
+      initGA();
+      logPageView('/francesca-bridgerton');
+    }, []);
+  
+  
+    const websiteId = '10910';
+    const blogRef = useRef(null);
+  
+   
+    const headingStyle = {
+      textAlign: 'center',
+      fontSize: '2.5rem',
+      fontWeight: 'normal',
+      fontFamily: 'GFS Didot, serif',
+      color: '#000000',
+      margin: '30px auto'
+  };
+  
+  
+  const paragraphStyle = {
+    fontSize: '22px',
     color: '#000000',
-    margin: '1rem auto'
-};
-const paragraphStyle = {
-    fontSize: '20px',
+  
     fontFamily: 'GFS Didot, serif',
-    margin: '1rem auto',
-    marginTop: '1rem',
-    marginBottom: '1rem',
-    maxWidth: '500px',
-    lineHeight: '1.5',
+    margin: '2rem auto',
+  
+    maxWidth: '500px', // Consistent with the other paragraphs
+    lineHeight: '1.6',
     marginLeft: 'auto',
     marginRight: 'auto',
-    textDecoration: 'none', // Removes underline from links
-    color: '#000000', // Ensures link text inherits the color from the parent element
   };
   
   const linkStyle = {
     textDecoration: 'none', // Removes underline from links
     fontFamily: 'GFS Didot, serif',
-
-    color: '#3a3a3a', // Inherits the color of the surrounding text
+    color: '#000000', // Inherits the color of the surrounding text
   };
-
+  
   const gridContainerStyle = {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+      gap: '10px',
+      margin: '1rem auto'
+  };
+  
+  const imageStyle = {
+    display: 'block',
+    margin: '1rem auto',
+    borderRadius: '0px',
+    maxWidth: '500px',
+    height: 'auto'
+  };
+  
+  const pinterestGridStyle = {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     gap: '1rem',
-    margin: '1rem 0'
-};
-
-const imageStyle = {
-  display: 'block',
-  margin: '0 auto',
-  maxWidth: '500px',
-  height: 'auto'
-};
-
+    gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+    justifyItems: 'center',
+    margin: '1rem 0',
+  };
+  
+  const iframeStyle = {
+    width: '100%',
+    maxWidth: '236px',
+    height: '520px', // Maintains original height
+    border: 'none',
+    scrolling: 'no',
+  };
+  
+  const captionStyle = {
+    textAlign: 'center',
+    fontSize: '1.1rem',
+    fontFamily: 'Playfair Display, serif',
+    margin: '1rem auto',
+    maxWidth: '100%',
+    fontStyle: 'italic',
+  };
+  
 
 
 
   const blogContent = (
     <div className="container">
-  <Helmet>
+ <Helmet>
   <title>Francesca Bridgerton Makeup, Hair, and Dress - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/francesca" />
+  <link rel="canonical" href="https://jackiewyers.beauty/francesca-bridgerton" />
 
   <meta name="description" content="Step-by-step guide on how to recreate Francesca Bridgerton's soft, romantic makeup look from Bridgerton Season 3, with hair and dress tips for a modern Regency-era look by Jackie Wyers." />
-  <meta name="keywords" content="Francesca Bridgerton makeup, Bridgerton Season 3 beauty, Regency hair tutorials, Bridgerton hairstyles, Francesca makeup tutorial, modern Regency style, Bridgerton fashion, auburn hair makeup tips, Jackie Wyers makeup tutorials" />
+  <meta name="keywords" content="Francesca Bridgerton makeup, Bridgerton Season 3 beauty, Regency hair tutorials, Bridgerton hairstyles, Francesca makeup tutorial, modern Regency style, Bridgerton fashion, auburn hair makeup tips, Jackie Wyers makeup tutorials, period drama makeup, Bridgerton fashion guide, romantic beauty looks, vintage makeup tutorials, Jackie Wyers beauty blog, Bridgerton beauty inspiration" />
+
   <meta property="og:title" content="Francesca Bridgerton Makeup, Hair, and Dress - Jackie Wyers" />
   <meta property="og:description" content="Learn how to achieve Francesca Bridgerton's makeup, hair, and style from Bridgerton Season 3, inspired by the modern Regency era. Step-by-step breakdown by Jackie Wyers." />
-  <meta property="og:image" content={image1} />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/Francesca/FrancescaThumb.jpg" />
   <meta property="og:url" content="https://jackiewyers.beauty/francesca-bridgerton" />
+
   <meta name="twitter:title" content="Francesca Bridgerton Makeup, Hair, and Dress - Jackie Wyers" />
   <meta name="twitter:description" content="A detailed tutorial by Jackie Wyers on recreating Francesca Bridgerton's signature beauty look from Bridgerton Season 3." />
-  <meta name="twitter:image" content={image1} />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Francesca/FrancescaThumb.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
+
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+
+  {/* Google Ads Script */}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+
+  {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
     {`
       {
@@ -120,7 +156,7 @@ const imageStyle = {
         "@type": "BlogPosting",
         "headline": "Francesca Bridgerton Makeup, Hair, and Dress - Jackie Wyers",
         "description": "Recreate Francesca Bridgerton's iconic look from Bridgerton Season 3 with makeup, hair, and fashion tips by Jackie Wyers.",
-        "image": "${image1}",
+        "image": "https://jackiewyers.beauty/Images/Articles/Francesca/FrancescaThumb.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -134,7 +170,7 @@ const imageStyle = {
           }
         },
         "datePublished": "2024-07-27",
-        "dateModified": "2024-07-27",
+        "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "https://jackiewyers.beauty/francesca-bridgerton"
@@ -145,9 +181,9 @@ const imageStyle = {
 </Helmet>
 
 
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '30px' }}>
-        <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1em', color: 'black', textDecoration: 'none' }}>
-          BEAUTY // POP CULTURE
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
+        <a href="/popculture" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
+          BEAUTY // POP CULUTRE
         </a>
       </div>
 
@@ -157,44 +193,38 @@ const imageStyle = {
   author="Jackie Wyers"
   publishDate="September 08, 2024"
 />
-<HorizontalLine/>
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/Bkt-bffs_aQ?si=4KfZAeGRqPEGLR8A" title="FRANCESCA BRIDGERTON inspired makeup tutorial jackie wyers" />
   
-
-      <p style={{ margin: '1rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
-All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-   </p>
-
-<div style = {{textAlign: 'center', margin: '1rem 0' }}>
+      <div style = {{textAlign: 'center', margin: '10px auto' }}>
 <SubscribeButton />
 </div>
-<HorizontalLine/>
 
-<DropCap1 style = {{maxWidth: '550px', margin: '0 auto'}} text="In the opulent world of Bridgerton Season 3, we’re introduced to the ethereal beauty of Francesca
+<p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
+
+
+
+<DropCap1 text="In the opulent world of Bridgerton Season 3, we’re introduced to the ethereal beauty of Francesca
   Bridgerton, whose soft yet striking makeup looks and elegant hairstyles capture modern Regency-era
   glamour Bridgerton has become known for. From bold blush to a signature half-up half-down style
   similar to princess Belle, I’m breaking down all the steps. Plus, I’ll be sharing some of my favorite
   products at the moment and what is really used on set, as seen on @faithmakeupartist Instagram,
   showcasing behind the scenes!"/>
-  <HorizontalLine/>
 
-<div
-style = {{
-  margin : '20px'
-}}
->
 
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
-<HorizontalLine/>
 
 
 <h2 style={headingStyle}>Get the Francesca-Inspired Look</h2>
 <div style={gridContainerStyle}>
   <img src={image1} alt="Jackie Wyers as Francesca Bridgerton" style={imageStyle} />
 </div>
-<p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
+
+<p style={captionStyle}>
 See behind the scenes of Francesca’s look from makeup artist @faithmakeupartist on IG for a product breakdown! Original design by Erika Ökvist.
 </p>
 
@@ -204,12 +234,10 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
   clothing, as well as <a style={linkStyle} href="https://en.wikipedia.org/wiki/Bridgerton" target="_blank" rel="noreferrer">Bridgerton</a> blue of course, with decorated updos similar to her sister, Daphne
   Bridgerton. Let’s get the look!
 </p>
-<HorizontalLine/>
 
-<div style={{ margin: '0 auto' }}>
-        <AdSenseAd />
-      </div>
-      <HorizontalLine/>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
 <h2 style={headingStyle}>A Youthful Base</h2>
 <p style={paragraphStyle}>
@@ -220,12 +248,9 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
   worth every penny along with the <a style={linkStyle} href="https://www.giorgioarmanibeauty-usa.com" target="_blank" rel="noreferrer">Armani Luminous Silk concealer</a> for highlighting and concealing.
 </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/794081?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-<HorizontalLine/>
-
-<div style={{ margin: '0 auto' }}>
-        <AdSenseAd />
-      </div>
-      <HorizontalLine/>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
 <h2 style={headingStyle}>Dewy, Highlighted Cheekbones</h2>
 <p style={paragraphStyle}>
@@ -240,11 +265,9 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
   round cheekbones and defined nose bridge. The subtle transformation steps are totally optional!
 </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/794089?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-<HorizontalLine/>
-
-<div style={{ margin: '0 auto' }}>
-        <AdSenseAd />
-      </div>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
   
 
 
@@ -260,7 +283,6 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
   collection! I mixed the coral shade along the cheekbone with the deepest rose applied in an
   upward flick from the contour, creating a snatched, period-drama-meets-<a style={linkStyle} href="https://www.charlottetilbury.com" target="_blank" rel="noreferrer">Charlotte Tilbury</a> look.
 </p>
-<HorizontalLine/>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/794100?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
@@ -280,31 +302,24 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
   and if you have the <a style={linkStyle} href="https://www.patmcgrath.com" target="_blank" rel="noreferrer">Bridgerton collections from Pat McGrath</a>, you can repurpose the maroon and
   cranberry shades as well.
 </p>
-<HorizontalLine/>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/794107?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-<HorizontalLine/>
 
 <p style={paragraphStyle}>
   Tight line with black liner and if you like to extend the eyes slightly, add a soft, faint wing for a subtle,
   defined look.
 </p>
-<HorizontalLine/>
-
-<div style={{ margin: '0 auto' }}>
-        <AdSenseAd />
-      </div>
-      <HorizontalLine/>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
 <p style={paragraphStyle}>
   For mascara, try <a style={linkStyle} href="https://www.toofaced.com" target="_blank" rel="noreferrer">Too Faced Better Than Sex</a>, paired
   with either individual lashes from <a style={linkStyle} href="https://www.sweedlashes.com" target="_blank" rel="noreferrer">Sweed</a>, or for a
   quicker application, lash clusters.
 </p>
-<HorizontalLine/>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/794110?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-<HorizontalLine/>
 
 <h2 style={headingStyle}>Medium Pink Toned Lip</h2>
 <p style={paragraphStyle}>
@@ -313,20 +328,15 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
   Pink. Often lip colour will look different from person to person, so I used what I thought looked
   most similar to my inspiration photos!
 </p>
-<HorizontalLine/>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/794113?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-<HorizontalLine/>
 
 <div style={gridContainerStyle}>
   <img src={image2} alt="Jackie Wyers as Francesca Bridgerton Hair and Makeup" style={imageStyle} />
 </div>
-<HorizontalLine/>
-
-<div style={{ margin: '0 auto' }}>
-        <AdSenseAd />
-      </div>
-      <HorizontalLine/>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
 <h2 style={headingStyle}>A Bridgerton-Inspired Haul</h2>
 <p style={paragraphStyle}>
@@ -334,24 +344,18 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
   little Bridgerton-inspired haul! I couldn’t resist the <a style={linkStyle} href="https://www.bathandbodyworks.com" target="_blank" rel="noreferrer">Bridgerton candles from Bath & Body Works</a>. See
   the collection linked below - my personal favorite is the scent Bridgerton Study, which smells like “smooth amber, oakwood and dried orchids.”
 </p>
-<HorizontalLine/>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/794136?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-<HorizontalLine/>
 
 <div style={gridContainerStyle}>
   <img src={image3} alt="Jackie Wyers as Francesca Bridgerton Wearing Ivy City Co Tessie Dress in Champagne" style={imageStyle} />
 </div>
-<HorizontalLine/>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/794145?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
-<HorizontalLine/>
-
-<div style={{ margin: '0 auto' }}>
-        <AdSenseAd />
-      </div>
-      <HorizontalLine/>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
 
 <div style={gridContainerStyle}>
@@ -363,12 +367,9 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/794138?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-<HorizontalLine/>
-
-<div style={{ margin: '0 auto' }}>
-        <AdSenseAd />
-      </div>
-      <HorizontalLine/>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
 <p style={paragraphStyle}>
   Lastly, I have to mention the <a  style={linkStyle} href="https://www.kikocosmetics.com" target="_blank" rel="noreferrer">Kiko Milano x Bridgerton</a> makeup collection. I had a hard time
@@ -377,15 +378,11 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
   palettes, lipsticks, and blushes in vintage-inspired packaging, perfect for creating a Regency-era look
   like <a  style={linkStyle} href="https://www.netflix.com/title/80232398" target="_blank" rel="noreferrer">Francesca’s</a>.
 </p>
-<HorizontalLine/>
-
-<div style={{ margin: '0 auto' }}>
-        <AdSenseAd />
-      </div>
-      <HorizontalLine/>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/794141?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-<HorizontalLine/>
 
 <h2 style={headingStyle}>Francesca’s Signature Half-Up Hairstyle</h2>
 <p style={paragraphStyle}>
@@ -395,7 +392,6 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
   hairstyle! I used extensions to shorten my hair so the curls would sit higher, but they are totally
   optional!
 </p>
-<HorizontalLine/>
 
 <div
 style = {{
@@ -412,15 +408,12 @@ style = {{
       allowFullScreen
     ></iframe>
 
-<HorizontalLine/>
 
 
+</div><div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
 </div>
-<div style={{ margin: '0 auto' }}>
-        <AdSenseAd />
-      </div>
 
-      <HorizontalLine/>
 
 <h2 style={headingStyle}>A Champagne Dress fit for a Bridgerton</h2>
 <p style={paragraphStyle}>
@@ -432,40 +425,41 @@ style = {{
   on <a style={linkStyle} href="https://www.youtube.com/c/JackieWyers" target="_blank" rel="noreferrer">YouTube</a> listed below.
 </p>
 
-<HorizontalLine/>
 
 
 
 <div style={gridContainerStyle}>
 <ResponsiveYoutube src="https://www.youtube.com/embed/WZ7aJmJAcbU?si=ocWWrYggY8iiHGYD" title="FRANCESCA BRIDGERTON inspired makeup tutorial jackie wyers" />
 </div>
-<HorizontalLine/>
 
 <div style={gridContainerStyle}>
 <ResponsiveYoutube src="https://www.youtube.com/embed/DZw0obZLIb8?si=vMXV78ssKOVT2lnr" title="FRANCESCA BRIDGERTON inspired makeup tutorial jackie wyers" />
 </div>
-<HorizontalLine/>
 
 <div style={gridContainerStyle}>
 <ResponsiveYoutube src="https://www.youtube.com/embed/IIjMH5bnq8k?si=HwHMwkLZXQJ29CE3" title="FRANCESCA BRIDGERTON inspired makeup tutorial jackie wyers" />
 </div>
 
-<HorizontalLine/>
 
 
        <div>
         <img src={signature} alt="Jackie Wyers Signature XoXo" style={{ width: '100%' }} />
       </div>
-      <div style={{ margin: '0 auto' }}>
-        <AdSenseAd />
-      </div>
+
+
      
-      <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-        <a href="/perioddrama" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={emily} alt="Emily In Paris" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
-          MORE POP CULTURE TUTORIALS →
-        </a>
-      </div>
+     
+   
+
+      <NextArticle
+      link="/perioddrama"
+      imgSrc={period}
+      altText="No Makeup Makeup from Period Dramas"
+      linkText="MORE POP CULTURE →"
+      containerStyle={{ margin: '1rem 0' }} // customize as needed
+      linkStyle={{ color: '#000000', fontSize: '1.05rem' }} // customize as needed
+      imgStyle={{ borderRadius: '10px' }} // customize as needed
+    />
 
       <Comments website-id={websiteId} page-id={"francesca-hairstyle1"} />
 
