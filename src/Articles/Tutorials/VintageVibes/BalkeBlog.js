@@ -16,10 +16,11 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
 
 const Card = ({ blogContent }) => (
   
-  <div style = {{
-    padding: '10px',
-    mardin: '0 auto',
-  }}>
+   
+<div style = {{
+ padding: '10px 20px',
+  margin: '0 auto',
+}}>
   
       <div className="card">
         <div className="blog-content">{blogContent}</div>

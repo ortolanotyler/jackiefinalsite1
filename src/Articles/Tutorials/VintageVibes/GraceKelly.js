@@ -20,13 +20,19 @@ const sophia = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLore
 const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
 
 const Card = ({ blogContent }) => (
-  <div>
-    <div><TextReveal text='TIME TRAVEL TUTORIALS' /></div>
-    <div className="card">
-      <div className="blog-content">{blogContent}</div>
-    </div>
-  </div>
-);
+ 
+  <div style = {{
+    padding: '10px 20px',
+    margin: '0 auto',
+  }}>
+  
+      <div className="card">
+        <div className="blog-content">{blogContent}</div>
+      </div>
+      </div>
+  
+    
+  );
 
 const GraceKelly = () => {
   const websiteId = '10910';

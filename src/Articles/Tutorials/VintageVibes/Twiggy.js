@@ -18,10 +18,10 @@ const yardley = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShr
 
 const Card = ({ blogContent }) => (
  
-  <div style = {{
-    padding: '10px',
-    margin: '0 auto',
-  }}>
+<div style = {{
+ padding: '10px 20px',
+  margin: '0 auto',
+}}>
   
       <div className="card">
         <div className="blog-content">{blogContent}</div>
