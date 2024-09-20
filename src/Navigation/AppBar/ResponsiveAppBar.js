@@ -29,6 +29,7 @@ const aboutOptions = [
   { name: 'Contact', path: '/contact' },
   { name: 'Media Kit', path: '/press' },
   { name: 'Fan Art Gallery', path: '/fan-art' },
+  
 ];
 
 
