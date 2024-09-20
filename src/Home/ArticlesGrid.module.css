@@ -1,32 +1,12 @@
-@keyframes jiggle {
-  0% { transform: rotate(0deg); }
-  25% { transform: rotate(-3deg); }
-  50% { transform: rotate(3deg); }
-  75% { transform: rotate(-3deg); }
-  100% { transform: rotate(0deg); }
+/* General styles for the component */
+* {
+  box-sizing: border-box;
 }
 
-.jiggle {
-  animation: jiggle 0.5s ease-in-out;
-}
-
-.viewAllLink, .viewTravelLink {
-  display: inline-flex;
-  align-items: center;
-  font-family: 'GFS Didot, sans-serif';
-  color: black;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.viewAllArrow, .viewTravelArrow {
-  margin-left: 8px;
-  font-weight: bold;
-  transition: transform 0.3s ease;
-}
-
-.viewAllLink:hover .viewAllArrow, .viewTravelLink:hover .viewTravelArrow {
-  transform: translateX(5px);
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .gridContainer {
@@ -34,39 +14,36 @@
   grid-template-columns: repeat(4, 1fr); /* 4 columns for large screens */
   gap: 20px; /* Space between grid items */
   padding: 20px;
-  justify-items: center; /* Center content horizontally */
+  justify-items: center;
 }
 
 .gridItem {
   position: relative;
   text-align: center;
-  text-decoration: none; /* Remove underline from links */
   width: 100%;
 }
 
 .gridItem a {
-  text-decoration: none; /* Ensure links have no underline */
-  color: black; /* Inherit color from parent */
-  display: block; /* Ensure the link occupies the full grid item */
+  text-decoration: none;
+  color: black;
+  display: block;
   position: relative;
 }
 
 .image {
   width: 100%;
   height: auto;
-  aspect-ratio: 1 / 1; /* Ensures the image is always a square */
-  object-fit: cover; /* Ensures the image covers the entire square without distortion */
- 
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   transition: transform 0.3s ease, opacity 0.3s ease;
-  display: block; /* Ensure image behaves like a block element */
+  display: block;
 }
 
 .title {
   margin-top: 1rem;
   font-family: 'GFS Didot', sans-serif;
   font-size: 1.25rem;
-  font-weight: normal;
-  color: black; /* Set title color to black */
+  color: black;
 }
 
 .gridItem:hover .image {
@@ -86,8 +63,7 @@
   background: rgba(0, 0, 0, 0.05);
   opacity: 0;
   transition: opacity 0.3s ease;
-  pointer-events: none; /* Ensure the overlay doesn't affect the link */
-  border-radius: 5px; /* Match image border radius */
+  pointer-events: none;
 }
 
 .gridItem:hover .overlay {
@@ -110,20 +86,36 @@
   color: black;
 }
 
-.viewTravelContainer {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+.viewAllLink {
+  display: inline-flex;
+  align-items: center;
+  font-family: 'GFS Didot, sans-serif';
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Jiggle animation */
+@keyframes jiggle {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+  75% { transform: rotate(-3deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.jiggle {
+  animation: jiggle 0.5s ease-in-out;
 }
 
 @media (max-width: 1024px) {
   .gridContainer {
-    grid-template-columns: repeat(2, 1fr); /* 2x2 layout for medium screens */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 600px) {
   .gridContainer {
-    grid-template-columns: 1fr; /* 1 column layout for small screens */
+    grid-template-columns: 1fr;
   }
 }

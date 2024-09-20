@@ -155,7 +155,7 @@ const paragraphStyle = {
                 "name": "Jackie Wyers Beauty",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "${process.env.PUBLIC_URL}/Images/Home/jackielogo.png"
+            "url": "${process.env.PUBLIC_URL}/Images/Home/jwlogo3.png"
                 }
               },
               "datePublished": "2024-07-27",

@@ -121,20 +121,19 @@ fontStyle: 'italic',
          <Helmet>
   <title>Walt Disney World Beach Club Resort Review | Travel & Hotel Reviews</title>
   <meta name="description" content="An in-depth review of Walt Disney World's Beach Club Resort, featuring first impressions, amenities, dining options, and more." />
-  <meta name="keywords" content="Jackie Wyers, Walt Disney World, Beach Club Resort, Disney resort review, luxury hotel, travel blog, Disney vacation" />
-  
+  <meta name="keywords" content="Jackie Wyers, Walt Disney World, Beach Club Resort, Disney resort review, luxury hotel, travel blog, Disney vacation, Disney World resorts, family-friendly hotels, Epcot resorts, Disney Deluxe resorts, Disney hotel reviews, Orlando vacation, Disney trip planning, Disney dining, Beaches & Cream Soda Shop, Yachtsman Steakhouse, Disney World amenities, Disney World pools, Disney transportation, Disney vacation tips, Disney World experiences, Disney resort rooms, Disney World travel guide" />
+
   <meta property="og:title" content="Walt Disney World Beach Club Resort Review | Travel & Hotel Reviews" />
   <meta property="og:description" content="An in-depth review of Walt Disney World's Beach Club Resort, featuring first impressions, amenities, dining options, and more." />
-  <meta property="og:image" content={title} />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/DisneyBeachClub/BeachClubThumbnail.jpg" />
   <meta property="og:url" content="https://jackiewyers.beauty/disneybeachclubresort" />
   <meta property="og:type" content="article" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Walt Disney World Beach Club Resort Review | Travel & Hotel Reviews" />
   <meta name="twitter:description" content="An in-depth review of Walt Disney World's Beach Club Resort, featuring first impressions, amenities, dining options, and more." />
-  <meta name="twitter:image" content={title} />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/DisneyBeachClub/BeachClubThumbnail.jpg" />
   <link rel="canonical" href="https://jackiewyers.beauty/disneybeachclubresort" />
-
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script>
@@ -154,7 +153,7 @@ fontStyle: 'italic',
         "itemReviewed": {
           "@type": "Hotel",
           "name": "Walt Disney World Beach Club Resort",
-          "image": "${title}",
+          "image": "https://jackiewyers.beauty/Images/Articles/Disney/BeachClub/BEACHCLUBTHUMBNAIL.jpg",
           "description": "An in-depth review of Walt Disney World's Beach Club Resort, featuring first impressions, amenities, dining options, and more.",
           "address": {
             "@type": "PostalAddress",
@@ -184,7 +183,7 @@ fontStyle: 'italic',
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "${process.env.PUBLIC_URL}/Images/Home/jackielogo.png"
+            "url": "${process.env.PUBLIC_URL}/Images/Home/jwlogo3.png"
           }
         },
         "datePublished": "2024-07-27",
