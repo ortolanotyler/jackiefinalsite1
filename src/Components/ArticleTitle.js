@@ -24,14 +24,14 @@ const styles = {
     textAlign: 'left', // Align the text to the left
     marginBottom: '1rem',
     maxWidth: '1000px', // Optional: limit the width of the container if needed
-    padding: '10px',
+    padding: '0px',
 
   },
   mainTitle: {
     fontFamily: 'GFS Didot, serif',
     fontWeight: 'normal',
-    fontSize: '4rem', // Adjust as needed for responsiveness
-    margin: '1rem auto',
+    fontSize: '52px', // Adjust as needed for responsiveness
+    margin: '10px auto',
     lineHeight: '1',
     color: '#000000',
   },
