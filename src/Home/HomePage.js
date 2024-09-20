@@ -264,7 +264,7 @@ function HomePage() {
 <HorizontalLine />
 
 
-        
+        x
 
 <Grid item xs={12}>
   <Suspense fallback={<div className="spinner"></div>}>
@@ -345,7 +345,7 @@ isFlipped={true}
   author="BY JACKIE WYERS"
   imagePath="Sorrento1/SorrentoThumbnail.jpg"
   linkUrl="/sorrento-souvenirs"
-  isFlipped={false}
+  isFlipped={true}
 />
           </Suspense>
         </Grid>
@@ -361,7 +361,7 @@ isFlipped={true}
               author="BY JACKIE WYERS"
               imagePath="Rome/47.jpeg"
               linkUrl="/rome"
-              isFlipped={true}
+              isFlipped={false}
             />
 
         
@@ -374,7 +374,8 @@ isFlipped={true}
         <Grid item xs={12} md={6}>
           <Suspense fallback={<div className="spinner"></div>}>
          
-      
+          <HorizontalLine />
+
           <HeroSection
   featureText="HOW-TO : IPHONE"
   headlineText="A Guide to Scroll-Stopping iPhone Photos"
@@ -382,12 +383,13 @@ isFlipped={true}
   author="BY JACKIE WYERS"
   imagePath="CameraSettings/coverphoot.jpg"
   linkUrl="/camera-settings"
-  isFlipped={false}
+  isFlipped={true}
 />
 
         
           </Suspense>
         </Grid>
+        <HorizontalLine />
 
         <Grid item xs={12} md={6}>
           <Suspense fallback={<div className="spinner"></div>}>
@@ -400,7 +402,7 @@ isFlipped={true}
   author="BY JACKIE WYERS"
   imagePath="NewZealand/NZThumbnail.jpg"
   linkUrl="/newzealand"
-  isFlipped={true}
+  isFlipped={false}
 />
         
           </Suspense>

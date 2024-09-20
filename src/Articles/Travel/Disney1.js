@@ -254,13 +254,15 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
   <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
 </div>
+<br />
+
 <p style={paragraphStyle}>
   When browsing the various resorts, the Beach Club’s design caught my eye. While I'm all for a fun and goofy <a style={linkStyle} href="https://disneyworld.disney.go.com/" target="_blank" rel="noreferrer">Disney</a> experience, I wanted to stay somewhere elegant as an adult. The light blue building, adorned with beautiful Victorian trim, the gardens with pops of bright pink flowers, and a view of the <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/boardwalk/" target="_blank" rel="noreferrer">boardwalk</a> offered something truly magical to wake up to.
 </p>
 <p style={paragraphStyle}>
   We chose a <strong>standard room with a garden view</strong>, and although the rooms' interior decor slightly paled in comparison to the exterior's enchantment, the Disney-themed touches and the overall nostalgic beach vibe more than compensated for it, in my opinion. The Mickey ears towel display and Disney-themed toiletries were exciting for us to see!
 </p>
-
+<br />
 <p style={paragraphStyle}>
   For larger families or those seeking extra comfort, expansive <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/beach-club-resort/rates-rooms/" target="_blank" rel="noreferrer">Suites</a> have separate living areas. You can choose <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/beach-club-resort/rates-rooms/" target="_blank" rel="noreferrer">Garden, Woods or Water View Rooms</a>.
 </p>
