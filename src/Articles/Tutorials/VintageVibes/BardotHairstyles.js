@@ -176,8 +176,8 @@ const captionStyle = {
 
 
 
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '75px' }}>
-        <a href="/timetraveltutorials" style={{ fontFamily: 'GFS Didot, serif', fontSize: '0.8rem', color: '#000000', textDecoration: 'none' }}>
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
+        <a href="/timetraveltutorials" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
       </div>
