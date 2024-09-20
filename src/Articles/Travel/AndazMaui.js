@@ -357,16 +357,18 @@ fontStyle: 'italic',
             <p style={paragraphStyle}>
                 The Andaz Maui at Wailea Resort stands out for its commitment to environmental sustainability and cultural integration. Notably, the resort was constructed using 93% recycled materials and incorporates solar energy and electric equipment to minimize its carbon footprint. By supporting local wildlife preservation and showcasing local art, the resort contributes positively to the cultural and environmental stewardship of Maui.
             </p>
-            <p style={paragraphStyle}>
-                Being mindful of these issues, it's crucial for visitors to choose accommodations and activities that support local communities and sustainable practices. Whether it’s participating in cultural programs, respecting sacred sites, or supporting local businesses, every small action contributes to a more ethical travel experience.
-            </p>
-            <p style={paragraphStyle}>
-                Thank you for joining me on this breathtaking escape to the Andaz Maui at Wailea Resort. Lauren and I had a marvellous time soaking in the beauty and culture of Maui and a huge thank you to the Benefit Canada team for the gifted experience. Have you travelled to Hawaii or stayed at the Andaz Maui? I’d love to hear your experience in the comments below and I look forward to bringing you along on more travels! For more travel insights and lifestyle tips, stay tuned to my blog and YouTube channel!
-            </p>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '1rem 0' }}>
                 <BookNowButton href="https://plannin.com/en/hotel/f7ed1125-3205-4916-881e-e865acca3608?refId=jackiewyers" target="_blank" rel="noopener noreferrer"/>
             </div>
        
+            <p style={paragraphStyle}>
+                Being mindful of these issues, it's crucial for visitors to choose accommodations and activities that support local communities and sustainable practices. Whether it’s participating in cultural programs, respecting sacred sites, or supporting local businesses, every small action contributes to a more ethical travel experience.
+            </p>
+            
+            <p style={paragraphStyle}>
+                Thank you for joining me on this breathtaking escape to the Andaz Maui at Wailea Resort. Lauren and I had a marvellous time soaking in the beauty and culture of Maui and a huge thank you to the Benefit Canada team for the gifted experience. Have you travelled to Hawaii or stayed at the Andaz Maui? I’d love to hear your experience in the comments below and I look forward to bringing you along on more travels! For more travel insights and lifestyle tips, stay tuned to my blog and YouTube channel!
+            </p>
+           
             <img src={signature} alt="Signature" style={{ width: '100%' }} />
             <div style = {{padding: '1rem 2rem'}}>
 <Comments website-id={websiteId} page-id={"andaz-maui-review"} />

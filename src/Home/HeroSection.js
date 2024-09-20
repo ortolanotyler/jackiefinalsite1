@@ -61,15 +61,15 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
   
     fontFamily: 'Playfair Display, serif',
     color: '#000000',
-    minHeight: '10vh',
+   
   };
 
   const authorStyle = {
-    fontSize: '14px',
+    fontSize: '.75rem',
     fontStyle: 'italic',
     color: '#000000',
     fontFamily: 'Playfair Display, serif',
-    minHeight: '20px',
+  
   };
 
   const imageContentStyle = {
@@ -80,8 +80,8 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
 
   const imageStyle = {
     width: '100%',
-    padding: '20px',
-    margin: '1rem auto',
+    padding: '1rem 2rem',
+    margin: '1rem 0',
     height: 'auto',
     borderRadius: '0px',
     display: 'block',

@@ -4,7 +4,6 @@ import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import TextReveal from '../../Components/TextReveal';
 import SubscribeVlog from '../../Components/SubscribeVlog';
-import DropCap from '../../Components/DropCap';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../Advertising/Ads';
@@ -25,56 +24,97 @@ const beachclub9 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/b
 const beachclub10 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub10.png`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/signature.png`;
 
+
+
 const Card = ({ blogContent }) => (
-    <div className="card" style={{ maxWidth: '100%', textAlign: 'left', backgroundColor: 'white', color: 'black', fontFamily: 'GFS Didot, sans-serif' }}>
-        <div className="blog-content" style={{ lineHeight: '1.25' }}>{blogContent}</div>
-    </div>
+ 
+
+  <div className="card">
+    <div className="blog-content">{blogContent}</div>
+  </div>
+
 );
 
 const Disney2Post = () => {
-    const websiteId = '10910';
-    const blogRef = useRef(null);
 
-    useEffect(() => {
-        initGA();
-        logPageView('/disneybeachclubresort');
-      }, []);
+useEffect(() => {
+  initGA();
+  logPageView('/disneybeachclubresort');
+}, []);
 
 
-      const headingStyle = {
-        textAlign: 'center',
-        fontSize: '1.5rem',
-        fontWeight: 'normal',
-        fontFamily: 'Arapey, serif',
-        color: '#333',
-        margin: '1.5rem'
-    };
+const websiteId = '10910';
+const blogRef = useRef(null);
 
-    const linkStyle = {
-      textDecoration: 'none', // Removes underline from links
-      fontFamily: 'GFS Didot, serif',
-      color: '#3a3a3a', // Inherits the color of the surrounding text
-    };
 
-    const paragraphStyle = {
-      fontSize: '20px',
-      fontFamily: 'GFS Didot, serif',
-      margin: '1rem auto',
-      marginTop: '1rem',
-      marginBottom: '1rem',
-      maxWidth: '500px',
-      lineHeight: '1.5',
-      marginLeft: 'auto',
-      marginRight: 'auto',
-    };
+const headingStyle = {
+  textAlign: 'center',
+  fontSize: '2.5rem',
+  fontWeight: 'normal',
+  fontFamily: 'GFS Didot, serif',
+  color: '#000000',
+  margin: '30px auto'
+};
 
-    const imageStyle = {
-        display: 'block',
-        margin: '1rem auto',
-        maxWidth: '800px',
-        height: 'auto',
-        objectFit: 'cover',
-    };
+
+const paragraphStyle = {
+fontSize: '22px',
+color: '#000000',
+
+fontFamily: 'GFS Didot, serif',
+margin: '2rem auto',
+
+maxWidth: '525px', // Consistent with the other paragraphs
+lineHeight: '1.6',
+marginLeft: 'auto',
+marginRight: 'auto',
+};
+
+const linkStyle = {
+textDecoration: 'none', // Removes underline from links
+fontFamily: 'GFS Didot, serif',
+color: '#000000', // Inherits the color of the surrounding text
+};
+
+const gridContainerStyle = {
+  display: 'grid',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+  gap: '10px',
+  margin: '1rem auto'
+};
+
+const imageStyle = {
+display: 'block',
+margin: '1rem auto',
+borderRadius: '0px',
+maxWidth: '500px',
+height: 'auto'
+};
+
+const pinterestGridStyle = {
+display: 'grid',
+gap: '1rem',
+gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+justifyItems: 'center',
+margin: '1rem 0',
+};
+
+const iframeStyle = {
+width: '100%',
+maxWidth: '236px',
+height: '520px', // Maintains original height
+border: 'none',
+scrolling: 'no',
+};
+
+const captionStyle = {
+textAlign: 'center',
+fontSize: '1.1rem',
+fontFamily: 'Playfair Display, serif',
+margin: '1rem auto',
+maxWidth: '100%',
+fontStyle: 'italic',
+};
 
     const blogContent = (
         <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: 'auto', marginTop: '5rem' }}>
@@ -154,9 +194,8 @@ const Disney2Post = () => {
   </script>
 </Helmet>
 
-
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-                <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
+        <a href="/travel" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
                     TRAVEL // HOTEL REVIEWS
                 </a>
             </div>
