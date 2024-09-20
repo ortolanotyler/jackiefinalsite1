@@ -384,8 +384,9 @@ const captionStyle = {
       <div>
         <img src={signature} alt="Jackie Wyers Signature XoXo" style={{ width: '100%' }} />
       </div>
+      <div style = {{padding: '1rem 2rem'}}>
       <Comments website-id={websiteId} page-id={'balke-blog'} />
-
+</div>
     </div>
   );
 
@@ -398,9 +399,7 @@ const captionStyle = {
         description="A '60s wink is a sexy wink"
         blogContent={blogContent}
       />
-      <div style = {{padding: '1rem 2rem'}}>
-      <Comments website-id={websiteId} page-id={'balke-blog'} />
-</div>
+     
           
 <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>

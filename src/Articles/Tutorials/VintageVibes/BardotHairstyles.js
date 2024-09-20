@@ -513,10 +513,9 @@ Pin my Bardot looks on Pinterest to your inspiration board!
 
 
 
-      
-    <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      <div style = {{padding: '1rem 2rem'}}>
+     <Comments website-id={websiteId} page-id={"bardot-hairstyles"} />
+     </div>
       
     </div>
     
@@ -529,9 +528,7 @@ Pin my Bardot looks on Pinterest to your inspiration board!
         description="My Many Attempts At The Iconic 60s Style"
         blogContent={blogContent}
       />
-     <div style = {{padding: '1rem 2rem'}}>
-     <Comments website-id={websiteId} page-id={"bardot-hairstyles"} />
-     </div>
+ 
           
 <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
