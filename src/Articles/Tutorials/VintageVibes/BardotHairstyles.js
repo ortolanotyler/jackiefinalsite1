@@ -141,7 +141,7 @@ const captionStyle = {
         "@type": "BlogPosting",
         "headline": "Mastering the Bardot Bun - Jackie Wyers",
         "description": "Step-by-step guide on how to recreate Brigitte Bardot's iconic '60s hairstyles, featuring tips and tricks by Jackie Wyers.",
-        "image": "https://jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg",
+        "image": "https://jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.png",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -165,14 +165,8 @@ const captionStyle = {
   </script>
 </Helmet>
 
-<div
-style = {{
-  margin : '1rem auto'
-}}
->
 
-  <AdSenseAd/>
-</div>
+
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '75px' }}>
         <a href="/timetraveltutorials" style={{ fontFamily: 'GFS Didot, serif', fontSize: '0.8rem', color: '#000000', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS
@@ -190,6 +184,10 @@ style = {{
 
 <div style = {{textAlign: 'center', margin: '10px auto' }}>
 <SubscribeButton />
+</div>
+
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
 </div>
 
 <p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
@@ -235,12 +233,8 @@ Bardot's iconic big bun! Whether you're looking for a chic everyday look or a sh
 Inspired Muse - Tap image for Sabrina Carpenter inspired makeup tutorial.
 </p>
 
-<div
-style = {{
-  margin : '1rem auto'
-}}
->
 
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -256,14 +250,11 @@ style = {{
 Updated Bardot Bun on Natural Hair
  
 </p>
-<div
-style = {{
-  margin : '1rem auto'
-}}
->
 
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
+
 <h2 style={headingStyle}>
 Method One: Best Big Bun
 </h2>
@@ -273,6 +264,7 @@ Method One: Best Big Bun
 </p>
 
 <div style={headingStyle}>
+
 <ResponsiveYoutube src="https://www.youtube.com/embed/hl2f12fGJwg?si=o61hFs2iXQVE5J6G" title="Brigitte Bardot ‘60s Makeup Tutorial by Jackie Wyers" />
 
 </div>
@@ -282,12 +274,8 @@ Bun starts at 4:05    </p>
 
 
 
-<div
-style = {{
-  margin : '1rem auto'
-}}
->
 
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -296,15 +284,10 @@ style = {{
   Initially, I moved part of my ponytail forward and laid the ends as faux bangs, securing them around the hairline with bobby pins. Through the years, I found a better method that really makes the hairstyle stay put, even if there’s some wind outside, without worrying about bobby pins becoming loose.
 </p>
 
-<div
-style = {{
-  margin : '1rem auto'
-}}
->
 
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
-
 <p style={paragraphStyle}>
   What I loved about my initial attempt though, was how I created the <a style={linkStyle} href="https://www.hair.com/tease-and-curl-techniques" target="_blank" rel="noreferrer">voluminous base bun</a>. It is super easy to take pieces from around the <a style={linkStyle} href="https://www.sallybeauty.com/tools-and-brushes/hair-rollers-and-pins/hair-buns/donut-bun-makers/SLONYN58.html" target="_blank" rel="noreferrer">bun maker</a>, curl, tease, and pin in loops. When you already have a bun maker as a base shape, you can go big, and wedging <a style={linkStyle} href="https://www.goodhousekeeping.com/beauty-products/hair-accessories/g27726179/best-bobby-pins/" target="_blank" rel="noreferrer">bobby pins</a> into it will keep it in place. Kudos to little me for recreating this iconic style in an easy way!
 </p>
