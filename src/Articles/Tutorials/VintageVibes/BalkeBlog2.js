@@ -10,6 +10,7 @@ import Carousel from '../../../Components/Carousel';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import BalkeBlog from './BalkeBlog';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/BardotHairstyles/1.jpg`;
@@ -33,7 +34,7 @@ const Card = ({ blogContent }) => (
   
 );
 
-const BardotHairstyles = () => {
+const BalkeBlog = () => {
 
   useEffect(() => {
     initGA();
@@ -141,7 +142,7 @@ const captionStyle = {
         "@type": "BlogPosting",
         "headline": "Mastering the Bardot Bun - Jackie Wyers",
         "description": "Step-by-step guide on how to recreate Brigitte Bardot's iconic '60s hairstyles, featuring tips and tricks by Jackie Wyers.",
-        "image": "https://jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg",
+        "image": "https://jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotTitle.png",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -180,13 +181,13 @@ style = {{
       </div>
 
   <ArticleTitle
-  mainTitle="Mastering the Bardot Bun 🌸"
-  subTitle="My Many Attempts At The Iconic 60s Style"
+  mainTitle="Iconic 60s Makeup Tutorial"
+  subTitle="A '60s wink is a sexy wink"
   author="Jackie Wyers"
-  publishDate="July 25th, 2024"
+  publishDate="February 20th, 2024"
 />
   
-<ResponsiveYoutube src="https://www.youtube.com/embed/i8wHU_XsM2A?si=ASPsSodw8bM_vliD" title="Brigitte Bardot ‘60s Makeup Tutorial👱🏼‍♀️🎀 (perf for hooded eyes!)" />
+<ResponsiveYoutube src="https://www.youtube.com/embed/7HoL0rVmZHI?si=__Llh9tI2-K62uRQ" title="Ina Balke 1960s Makeup Tutorial - Jackie Wyers on Youtube" />
 
 <div style = {{textAlign: 'center', margin: '10px auto' }}>
 <SubscribeButton />
@@ -197,8 +198,20 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 
-<DropCap1 text="Welcome back to Time Travel Tutorials! Step back into the glamorous ‘60s with Brigitte
-Bardot's iconic big bun! Whether you're looking for a chic everyday look or a show-stopping updo for a special occasion, I've got you covered with my tried- and-tested techniques featuring faux bangs, using the ends of your own hair. Let's dive into vintage beauty and master the Bardot bun together!" />
+<DropCap1 text="Welcome back to another Time Travel Tutorials, where we admire and recreate beauty icons from the past. Today, let's delve into the 1960s through the portrait of model Ina Balke by the renowned photographer Ted Russell. For those of you who've ever searched on Pinterest for '60s makeup, chances are you've stumbled upon this stunning photograph. This article is your step-by-step guide on how to get the vintage makeup and styling as seen on Ina to try out yourself!" />
+
+
+
+<div style={gridContainerStyle}>
+   <a href="https://www.youtube.com/watch?v=3zCKE1yS7Yw&t=346s" target="_blank" rel = "noreferrer" >
+   <img src={image3} alt="Sabrina Carpenter Makeup Tutorial" style={imageStyle} />
+   </a>
+ </div>
+
+
+
+
+
 
 <p style={paragraphStyle}>
   One of my first videos 10 years ago was attempting to recreate a Bardot-inspired half-up, half-down 
@@ -480,6 +493,8 @@ I hope you enjoyed another <a href="timetraveltutorials" target="_blank" rel="no
 Pin my Bardot looks on Pinterest to your inspiration board!
 </p>
 
+
+
 <div style={pinterestGridStyle}>
         <iframe
           src="https://assets.pinterest.com/ext/embed.html?id=794463190524256496"
@@ -509,23 +524,11 @@ Pin my Bardot looks on Pinterest to your inspiration board!
       </div>
 
 
-
-
-       <div>
+      <div>
         <img src={signature} alt="Jackie Wyers Signature XoXo" style={{ width: '100%' }} />
       </div>
-      
-     
-      <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-        <a href="/iconicsharon" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={sharon} alt="Sharon Tate's Bohemian Style Tutorial" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
-          MORE TIME TRAVEL TUTORIALS →
-        </a>
-      </div>
 
-      <Comments website-id={websiteId} page-id={"bardot-hairstyles"} />
-
-      
+   
       <div
 style = {{
   margin : '1rem auto'
@@ -534,9 +537,18 @@ style = {{
 
   <AdSenseAd/>
 </div>
+     
+      <div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <a href="/iconicsharon" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={sharon} alt="Sharon Tate's Bohemian Style Tutorial" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          MORE TIME TRAVEL TUTORIALS →
+        </a>
+      </div>
+
+
+ 
       
     </div>
-    
   );
 
   return (
@@ -546,16 +558,13 @@ style = {{
         description="My Many Attempts At The Iconic 60s Style"
         blogContent={blogContent}
       />
-      <div
-style = {{
-  margin : '1rem auto'
-}}
->
+            <Comments website-id={websiteId} page-id={"bardot-hairstyles"} />
 
-  <AdSenseAd/>
-</div>
     </div>
   );
 };
 
-export default BardotHairstyles;
+export default BalkeBlog;
+
+
+

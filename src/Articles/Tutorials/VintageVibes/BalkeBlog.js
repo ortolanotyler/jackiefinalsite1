@@ -6,7 +6,6 @@ import TextReveal from '../../../Components/TextReveal';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import DropCap from '../../../Components/DropCap';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
@@ -14,7 +13,7 @@ import DropCap1 from '../../Travel/DropCap1';
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeTitle.png`;
 const Balke2 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeDouble.png`;
 const Balke3 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeFaceChart.jpg`;
-const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const yardley = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg`;
 const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
 
@@ -28,36 +27,78 @@ const Card = ({ blogContent }) => (
 );
 
 const BalkeBlog = () => {
-  const websiteId = '10910';
-  const blogRef = useRef(null);
 
   useEffect(() => {
     initGA();
-    logPageView('/sugarplumfairy');
-}, []);
+    logPageView('/balkeblog');
+  }, []);
 
+  const websiteId = '10910';
+  const blogRef = useRef(null);
 
  
-const headingStyle = {
-  textAlign: 'center',
-  fontSize: '1.5rem',
-  fontWeight: 'normal',
-  fontFamily: 'Arapey, serif',
-  color: '#333',
-  margin: '1.5rem'
+  const headingStyle = {
+    textAlign: 'center',
+    fontSize: '2.5rem',
+    fontWeight: 'normal',
+    fontFamily: 'GFS Didot, serif',
+    color: '#000000',
+    margin: '30px auto'
 };
 
+
 const paragraphStyle = {
-  fontSize: '20px',
+  fontSize: '22px',
+  color: '#000000',
+
   fontFamily: 'GFS Didot, serif',
-  margin: '1rem 1.5rem',
-  marginTop: '1rem',
-  marginBottom: '1rem',
-  maxWidth: '500px',
-  lineHeight: '1.5',
+  margin: '0 auto',
+
+  maxWidth: '525px', // Consistent with the other paragraphs
+  lineHeight: '1.6',
   marginLeft: 'auto',
   marginRight: 'auto',
 };
+
+const linkStyle = {
+  textDecoration: 'none', // Removes underline from links
+  fontFamily: 'GFS Didot, serif',
+  color: '#000000', // Inherits the color of the surrounding text
+};
+
+const gridContainerStyle = {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+    gap: '10px',
+    margin: '1rem auto'
+};
+
+const imageStyle = {
+  display: 'block',
+  margin: '1rem auto',
+  borderRadius: '0px',
+  maxWidth: '500px',
+  height: 'auto'
+};
+
+const pinterestGridStyle = {
+  display: 'flex',
+  justifyContent: 'center',
+  gap: '1rem',
+  flexWrap: 'wrap',
+  margin: '1rem 0'
+};
+
+const captionStyle = {
+  textAlign: 'center',
+  fontSize: '1.1rem',
+  fontFamily: 'Playfair Display, serif',
+  margin: '1rem auto',
+  maxWidth: '100%',
+  fontStyle: 'italic',
+};
+
+
   const blogContent = (
     <div className="container">
 
@@ -66,43 +107,19 @@ const paragraphStyle = {
   <link rel="canonical" href="https://jackiewyers.beauty/balkeblog" />
 
   <meta name="description" content="Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell." />
-  <meta name="keywords" content="Ina Balke makeup, 1960s makeup tutorial, vintage makeup, Jackie Wyers makeup tutorial, Ted Russell photography, 60s beauty, classic makeup looks" />
+  <meta name="keywords" content="Ina Balke makeup, 1960s makeup tutorial, vintage makeup, Jackie Wyers makeup tutorial, Ted Russell photography, 60s beauty, classic makeup looks, retro makeup, Ina Balke style, how to do 60s makeup, vintage beauty, Jackie Wyers tutorials, vintage glamour, old Hollywood makeup, vintage hair and makeup, classic 60s style, iconic makeup looks" />
+
   <meta property="og:title" content="Ina Balke 1960s Makeup Tutorial - Jackie Wyers" />
   <meta property="og:description" content="Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell." />
-  <meta property="og:image" content={title} />
-  <meta property="og:url" content={window.location.href} />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/Balke/BalkeTitle.png" />
+  <meta property="og:url" content="https://jackiewyers.beauty/balkeblog" />
+
   <meta name="twitter:title" content="Ina Balke 1960s Makeup Tutorial - Jackie Wyers" />
   <meta name="twitter:description" content="Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell." />
-  <meta name="twitter:image" content={title} />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Balke/BalkeTitle.png" />
   <meta name="twitter:card" content="summary_large_image" />
-  <script type="application/ld+json">
-    {`
-      {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "headline": "Ina Balke 1960s Makeup Tutorial - Jackie Wyers",
-        "description": "Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell.",
-        "image": "${title}",
-        "author": {
-          "@type": "Person",
-          "name": "Jackie Wyers"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "Jackie Wyers",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "${title}"
-          }
-        },
-        "datePublished": "2024-07-27",
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "${window.location.href}"
-        }
-      }
-    `}
-  </script>
+
+  {/* Google Analytics Script */}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script>
     {`
@@ -112,7 +129,40 @@ const paragraphStyle = {
       gtag('config', 'G-RT6GR7JXYG');
     `}
   </script>
+
+  {/* Google Ads Script */}
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Ina Balke 1960s Makeup Tutorial - Jackie Wyers",
+        "description": "Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell.",
+        "image": "https://jackiewyers.beauty/Images/Articles/Balke/BALKETHUMBNAIL.jpeg",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/logo.png"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "dateModified": "2024-09-20",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/balkeblog"
+        }
+      }
+    `}
+  </script>
 </Helmet>
 
 
@@ -123,7 +173,13 @@ const paragraphStyle = {
       </div>
       <img src={title} alt="Ina Balke 1960s Makeup Tutorial" style={{ width: '100%' }} />
 
+
+
+
+
       <ResponsiveYoutube src="https://www.youtube.com/embed/7HoL0rVmZHI?si=__Llh9tI2-K62uRQ" title="Ina Balke 1960s Makeup Tutorial - Jackie Wyers on Youtube" />
+
+
 
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <SubscribeButton />
@@ -156,15 +212,24 @@ style = {{
         </a>
       </div>
 
-      <p style={paragraphStyle}>
-        Ina Balke’s iconic wink showcases a classic '60s cut crease complimented by matte skin and a peach lip. Her styling feels very Hepburn, with a sophisticated black dress and both a cigarette and wine glass held up to her mouth. Her look is complete with a chic, brunette bob with blunt bangs, which I recreated with a fabulous wig! If you decide to give this tutorial a try, please be sure to tag me or send a photo to be featured on the blog - I'd love to see you in this glamorous style 🖤 .
-      </p>
+     
+
+
+
+
+
+
+<p style={paragraphStyle}>
+  Ina Balke’s iconic wink showcases a classic '60s <a style={linkStyle} href="https://en.wikipedia.org/wiki/Cut_crease" target="_blank" rel="noreferrer">cut crease</a> complemented by <a style={linkStyle} href="https://en.wikipedia.org/wiki/Matte_finish" target="_blank" rel="noreferrer">matte skin</a> and a peach lip. Her styling feels very <a style={linkStyle} href="https://en.wikipedia.org/wiki/Audrey_Hepburn" target="_blank" rel="noreferrer">Hepburn</a>, with a sophisticated black dress and both a cigarette and wine glass held up to her mouth. Her look is complete with a chic, brunette bob with blunt bangs, which I recreated with a fabulous <a style={linkStyle} href="https://www.vogue.com/article/best-wigs" target="_blank" rel="noreferrer">wig</a>! If you decide to give this tutorial a try, please be sure to tag me or send a photo to be featured on the blog - I'd love to see you in this glamorous style 🖤 .
+</p>
+
+
 
       <h2 style={headingStyle}>The Skin: Keep It Matte & Bright</h2>
 
       <p style={paragraphStyle}>
-        This look is very glamorous, so let’s use a high-coverage foundation for a flawless base. Ina’s face looks bright and highlighted through the center, so go with a lighter high coverage concealer overtop of your foundation base. I used the NYX Can't Stop Won't Stop Concealer in a V-shape under my eyes, which is a great drugstore option for a posh look!
-      </p>
+  This look is very glamorous, so let’s use a <a style={linkStyle} href="https://www.nyxcosmetics.com/face/concealer/cant-stop-wont-stop-contour-concealer/NYX_639.html" target="_blank" rel="noreferrer">high-coverage foundation</a> for a flawless base. Ina’s face looks bright and highlighted through the center, so go with a lighter high-coverage concealer overtop of your foundation base. I used the <a style={linkStyle} href="https://www.nyxcosmetics.com/face/concealer/cant-stop-wont-stop-contour-concealer/NYX_639.html" target="_blank" rel="noreferrer">NYX Can't Stop Won't Stop Concealer</a> in a V-shape under my eyes, which is a great drugstore option for a posh look!
+</p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493363?noHeader=true" title="Collection name here" />
 
@@ -182,18 +247,20 @@ style = {{
       <h2 style={headingStyle}>Contour & Set The Skin</h2>
 
       <p style={paragraphStyle}>
-        To add dimension and mature the face, use a cool-toned contour under the cheekbones and jawline. Keep the nose contour subtle to balance the soon-to-be dramatic eyes.
-      </p>
+  To add dimension and mature the face, use a <a style={linkStyle} href="https://www.byrdie.com/best-contour-palettes-4586694" target="_blank" rel="noreferrer">cool-toned contour</a> under the cheekbones and jawline. Keep the <a style={linkStyle} href="https://www.wikihow.com/Contour-Your-Nose" target="_blank" rel="noreferrer">nose contour</a> subtle to balance the soon-to-be dramatic eyes.
+</p>
 
-      <p style={paragraphStyle}>
-        For setting the highlighted areas, the Hourglass radiant powder is my go-to for a luminous finish, but the Revlon Photoready translucent finisher is a great budget-friendly option. Adding a powder that reflects light helps create that hyper-real base when photographed, as seen in the inspiration photo.
-      </p>
+
+<p style={paragraphStyle}>
+  For setting the highlighted areas, the <a style={linkStyle} href="https://www.hourglasscosmetics.com/products/ambient-lighting-powder" target="_blank" rel="noreferrer">Hourglass Radiant Powder</a> is my go-to for a luminous finish, but the <a style={linkStyle} href="https://www.revlon.com/makeup/face/primer-photo-ready-translucent-finisher" target="_blank" rel="noreferrer">Revlon Photoready Translucent Finisher</a> is a great budget-friendly option. Adding a powder that reflects light helps create that hyper-real base when photographed, as seen in the inspiration photo.
+</p>
+
 
       <h2 style={headingStyle}>Touch of Bronzer & Blush</h2>
 
       <p style={paragraphStyle}>
-        The Charlotte Tilbury Filmstar Bronze & Glow contour duo helps soften the contour and adds a natural glow. For blush, CHANEL's warm pink blush, shade 440 - QUINTESSENCE, adds the perfect touch of color. Remember, it's all about creating a natural, yet defined look for this sophisticated style!
-      </p>
+  The <a style={linkStyle} href="https://www.charlottetilbury.com/us/product/filmstar-bronze-and-glow-medium-to-dark" target="_blank" rel="noreferrer">Charlotte Tilbury Filmstar Bronze & Glow Contour Duo</a> helps soften the contour and adds a natural glow. For blush, <a style={linkStyle} href="https://www.chanel.com/us/makeup/p/187440/les-tissages-de-chanel-blush-duo-tweed-effect/" target="_blank" rel="noreferrer">CHANEL's warm pink blush, shade 440 - QUINTESSENCE</a>, adds the perfect touch of color. Remember, it's all about creating a natural, yet defined look for this sophisticated style!
+</p>
       <div
 style = {{
   margin : '20px'
@@ -332,38 +399,48 @@ style = {{
         Thank you for reading and if you want to be featured on my site, submit your recreation or version of this look to me on IG! I’d love to see you switch up your style with confidence!
       </p>
 
-      <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-        <a href="/yardley1965" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={yardley} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
-          MORE VINTAGE VIBES →
-        </a>
-      </div>
+  
+
       <div
 style = {{
   margin : '20px'
 }}
 >
-
   <AdSenseAd/>
 </div>
       <div style={{ textAlign: 'center' }}>
         <a href="/vintagevibesmerch" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={teespring} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '1400px', display: 'block' }} />
+          <img src={teespring} alt="Vintage Vibes Merchandise" style={{ width: '100%', maxWidth: '100%', display: 'block' }} />
           SHOP VINTAGE VIBES MERCH →
         </a>
       </div>
 
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={Signature} alt="Soft pink blush for a natural Barbie-inspired cheek flush" style={{ width: '100%' }} />
-      </div>
 
+      <div>
+        <img src={signature} alt="Jackie Wyers Signature XoXo" style={{ width: '100%' }} />
+      </div>
       <Comments website-id={websiteId} page-id={'balke-blog'} />
+
     </div>
   );
 
+
+
   return (
-    <div>
-      <Card blogContent={blogContent} />
+    <div ref={blogRef}>
+      <Card
+        title="Iconic 60s Makeup Tutorial"
+        description="A '60s wink is a sexy wink"
+        blogContent={blogContent}
+      />
+            <div
+style = {{
+  margin : '1rem auto'
+}}
+>
+
+  <AdSenseAd/>
+</div>
     </div>
   );
 };
