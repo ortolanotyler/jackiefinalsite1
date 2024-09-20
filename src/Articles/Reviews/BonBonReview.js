@@ -81,7 +81,7 @@ const imageStyle = {
 display: 'block',
 margin: '1rem auto',
 borderRadius: '0px',
-maxWidth: '500px',
+maxWidth: '700px',
 height: 'auto'
 };
 
@@ -121,12 +121,12 @@ fontStyle: 'italic',
   <meta name="description" content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure." />
   <meta name="keywords" content="BonBon Review, Jackie Wyers, Viktor & Rolf BonBon, Perfume Review, Fragrance Review, Sweet Scents, Gourmand Perfume, Luxury Perfume, Women's Fragrance, Best Sweet Perfumes, Perfume for Teens, Scented Beauty, Caramel Perfume, Amber Fragrance, Peach Perfume, High-End Perfume, Signature Scents, Perfume Collection, Beauty Influencer Review, Scent Profile, Warm Woody Perfume, Perfume Recommendations, Sweet and Sophisticated Fragrances, Perfume for Young Adults" />  <meta property="og:title" content="BonBon Review - Jackie Wyers" />
   <meta property="og:description" content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure." />
-  <meta property="og:image" content={title} />
+  <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/BonBonThumbnail.png`} />
   <meta property="og:url" content="https://jackiewyers.beauty/bonbonreview" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="BonBon Review - Jackie Wyers" />
   <meta name="twitter:description" content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure." />
-  <meta name="twitter:image" content={title} />
+  <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/BonBonThumbnail.png`} />
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script>
@@ -146,7 +146,7 @@ fontStyle: 'italic',
         "itemReviewed": {
           "@type": "Product",
           "name": "BonBon Perfume",
-          "image": "${title}",
+  "image": "${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/BonBonThumbnail.png",
           "description": "A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure.",
           "brand": {
             "@type": "Brand",
@@ -199,8 +199,8 @@ fontStyle: 'italic',
         <img src={BonBon2} alt="BonBon Fragrance by Viktor & Rolf " style={imageStyle} />
       </div>
     
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '1rem 0', fontStyle: 'italic' }}>
-        All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+      <p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
+      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 
       <h2 style={headingStyle}>🍊 Perfume Profile</h2>
