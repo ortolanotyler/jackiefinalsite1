@@ -174,7 +174,7 @@ function HomePage() {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/images/logo.png"
+            "url": "https://jackiewyers.beauty/images/jwlogo3.png"
           }
         },
         "datePublished": "2024-09-01",

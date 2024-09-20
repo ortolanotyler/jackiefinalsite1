@@ -1,20 +1,36 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'GFS Didot', serif;
+  background-color: #f4f4f4;
+  color: #000;
+}
+
+/* Hero Section */
 .heroLink {
   text-decoration: none;
   color: inherit;
 }
 
 .heroSection {
-  padding: 30px 30px;
+  padding: 1.5rem;
   min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem; /* Add gap for consistent spacing */
 }
 
 .textContent {
-  padding-right: 40px;
   max-width: 500px;
   text-align: center;
+  padding: 1rem;
   font-family: 'GFS Didot', serif;
 }
 
@@ -23,21 +39,19 @@
   font-weight: bold;
   letter-spacing: 1px;
   margin-bottom: 10px;
+  text-decoration: underline;
 }
 
 .headline {
-  font-size: 32px;
+  font-size: 28px;
   line-height: 1.2;
   margin-bottom: 20px;
-  font-family: 'GFS Didot', serif;
 }
 
 .subtext {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
-  font-family: 'GFS Didot', serif;
-  color: #333;
 }
 
 .author {
@@ -47,8 +61,8 @@
 }
 
 .imageContent {
-  text-align: right;
-  max-width: 600px;
+  max-width: 500px;
+  text-align: center;
 }
 
 .image {
@@ -56,6 +70,7 @@
   height: auto;
   border-radius: 5px;
   display: block;
+  padding: 1rem 0;
 }
 
 @media (max-width: 768px) {
@@ -63,11 +78,9 @@
     flex-direction: column;
   }
 
-  .textContent {
-    padding-right: 0;
-  }
-
+  .textContent,
   .imageContent {
     text-align: center;
+    padding: 1rem 0; /* Ensure consistent padding */
   }
 }
