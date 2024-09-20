@@ -1,107 +1,88 @@
-/* General styles for the whole component */
+/* Reset CSS */
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
+/* Body and Container Styles */
 body {
+  font-family: 'Georgia', serif;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-}
-
-.card:hover {
-  transform: none !important;
+  background-color: #f4f4f4;
 }
 
 .container {
-  max-width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 1rem;
 }
 
+/* Card Styles */
 .card {
-  width: 100%;
-  max-width: 100%; /* Allow the card to expand fully */
   background-color: white;
-  color: black;
-  font-family: 'Georgia', serif;
-  text-align: left;
-  margin: 0 auto;
-  padding: 1rem; /* Add some padding for spacing */
+  color: #333;
+  margin: 1rem auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
+/* Blog Content Styles */
 .blog-content {
   text-align: left;
   line-height: 1.5;
+  max-width: 100%;
   margin: 1rem auto;
   padding: 1rem;
   overflow-wrap: break-word;
-  max-width: 600px; /* Limit width for readability */
 }
 
+/* Paragraph Styles */
 .paragraph {
-  max-width: 500px;
-  margin: 0 auto;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 1rem auto;
+  line-height: 1.6;
 }
 
+/* Image Styles */
+.image {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Responsive Styles */
 @media screen and (max-width: 1200px) {
-  .container, .card, .blog-content {
-    margin: 0;
-    padding: 1rem;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .container, .card, .blog-content {
-    padding: 1rem;
-  }
-  .card img {
-    margin-bottom: 1rem;
-    border-radius: 8px;
+  .container {
+    padding: 1rem 1.5rem;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .container, .card, .blog-content {
-    padding: 0.5rem;
-  }
-  .card img {
-    margin-bottom: 1rem;
-    border-radius: 8px;
+  .card {
+    padding: 1rem 1.5rem;
   }
   .paragraph {
-    max-width: 90%; /* Allow more width on smaller screens */
+    max-width: 90%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .container, .card, .blog-content {
-    padding: 0.5rem;
-  }
   .card {
-    align-items: center;
-  }
-  .card img {
-    margin-bottom: 0.5rem;
-    border-radius: 8px;
+    padding: 1rem 1.5rem;
   }
   .paragraph {
     max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .container, .card, .blog-content {
-    padding: 0.5rem;
-  }
-  .card img {
-    margin-bottom: 0.5rem;
-    border-radius: 8px;
-  }
-  .paragraph {
-    max-width: 100%;
+    font-size: 16px;
   }
 }

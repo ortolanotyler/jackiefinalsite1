@@ -12,7 +12,6 @@ import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 
 
-const title = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclubtitle.png`;
 const beachclub1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub1.png`;
 const beachclub2 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub2.png`;
 const beachclub3 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub3.png`;
@@ -47,11 +46,12 @@ const websiteId = '10910';
 const blogRef = useRef(null);
 
 
+
 const headingStyle = {
   textAlign: 'center',
   fontSize: '2.5rem',
   fontWeight: 'normal',
-  fontFamily: 'GFS Didot, serif',
+  fontFamily: 'Fairweather Display, serif',
   color: '#000000',
   margin: '30px auto'
 };
@@ -116,8 +116,10 @@ maxWidth: '100%',
 fontStyle: 'italic',
 };
 
+
+
     const blogContent = (
-        <div className="container" style={{ lineHeight: '2.25rem', maxWidth: '100%', margin: 'auto', marginTop: '5rem' }}>
+      <div className="container">
          <Helmet>
   <title>Walt Disney World Beach Club Resort Review | Travel & Hotel Reviews</title>
   <meta name="description" content="An in-depth review of Walt Disney World's Beach Club Resort, featuring first impressions, amenities, dining options, and more." />
@@ -200,44 +202,36 @@ fontStyle: 'italic',
         <a href="/travel" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
                     TRAVEL // HOTEL REVIEWS
                 </a>
+
+
             </div>
             <ArticleTitle
-  mainTitle="Walt Disney World Beach Club Resort Review"
-  subTitle="Luxury, Comfort, and Disney Magic in One Resort"
+  mainTitle="Disney's Beach Club Resort Review"
+  subTitle="Colonial style, luxury, and leisure at the Happiest Place on Earth"
   author="Jackie Wyers"
-  publishDate='2024-05-30'
+  publishDate='2024-03-03'
 />
-<div style = {{
-  maxWidth: '700px',
-  margin: '0 auto',
-  textAlign: 'center',
-}}>
 
-<ResponsiveYoutube src="https://www.youtube.com/embed/XRI-IpWb37E?si=X6l3RAxsPGC_bS88" title="YouTube video player" />
 
+<ResponsiveYoutube src="https://www.youtube.com/embed/XRI-IpWb37E?si=X6l3RAxsPGC_bS88" title="Walt Disney World Beach Club Resort & Epcot Vlog" />
+
+
+<div style = {{textAlign: 'center', margin: '10px auto' }}>
+<SubscribeVlog />
 </div>
-            <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                <SubscribeVlog />
-            </div>
-            <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
-            All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-            </p>
-            <div style = {{
-  maxWidth: '500px',
-  margin: '0 auto',
-  textAlign: 'left',
-}}>
+
+<p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
+
+
+          
             <DropCap1 text="Welcome to Part One of my magical recap of an unforgettable time at Walt Disney World, FL in 2023. My best friend Lauren and I chose Disney's Beach Club Resort for our stay, marking her first visit and my first return since 2002. This article focuses on our resort experience, offering a glimpse into the luxury and leisure that awaited us at this colonial resort and why we chose to book!" />
 
 
-</div>
-           
-            <div
-style = {{
-  margin : '20px'
-}}
->
 
+           
+         <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
            
@@ -245,13 +239,15 @@ style = {{
 <p style={paragraphStyle}>
   Driving in from <a style={linkStyle} href="https://www.visitstaugustine.com/" target="_blank" rel="noreferrer">Saint Augustine, Florida</a> we were immediately captivated by the <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/beach-club-resort/" target="_blank" rel="noreferrer">Beach Club Resort</a>'s charm, reminiscent of a New England dream. This deluxe resort, inspired by 1800s beach cottages, has amenities such as the <a style={linkStyle} href="https://disneyworld.disney.go.com/recreation/stormalong-bay/" target="_blank" rel="noreferrer">Storm-Along Bay Water Park</a>, the convenient <a style={linkStyle} href="https://disneyworld.disney.go.com/dining/beach-club-resort/beach-club-marketplace/" target="_blank" rel="noreferrer">Beach Club Marketplace</a>, and the nostalgic <a style={linkStyle} href="https://disneyworld.disney.go.com/dining/beach-club-resort/beaches-and-cream-soda-shop/" target="_blank" rel="noreferrer">Beaches & Cream Soda Shop</a>, making it the perfect base for our Disney adventures.
 </p>
+
 <h2 style={headingStyle}>💵 Cost Considerations: Weighing the Pros and Cons</h2>
 <p style={paragraphStyle}>
   This resort is a deluxe option, so it comes with a higher price tag. Check prices as they fluctuate greatly depending on the time of year, ranging from <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/beach-club-resort/rates-rooms/" target="_blank" rel="noreferrer">390 USD to 990 USD</a> 😳 a night.
 </p>
-<div style={{ margin: '20px' }}>
-  <AdSenseAd />
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
 </div>
+
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
   <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
 </div>
@@ -268,11 +264,12 @@ style = {{
 <p style={paragraphStyle}>
   For the price tag, I’ve seen several complaints about being disappointed by the interior decor. However, I feel it still captures a nostalgic beach vibe, and I doubt you’ll spend too much time in the room with all there is to do! The other resort we considered but was out of our budget was the <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/polynesian-village-resort/" target="_blank" rel="noreferrer">Polynesian Village Resort</a>. This may be a better option for you if the room theme matters a lot for your experience, it features a tropical aesthetic rather than a beach cottage.
 </p>
-<div style={{ margin: '20px' }}>
-  <AdSenseAd />
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
 </div>
+
 <h2 style={headingStyle}>🛥 Unique Amenities and Shared Experiences with Yacht Club</h2>
-<img src={beachclub2} alt='Yacht Club' style={imageStyle} />
+<img src={beachclub2} alt='Disney Yacht Club' style={imageStyle} />
 <p style={paragraphStyle}>
   Adjacent to the Beach Club is the <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/yacht-club-resort/" target="_blank" rel="noreferrer">Yacht Club</a>, where we explored additional dining and shopping options as the resorts share amenities. If you are staying at <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/beach-club-resort/" target="_blank" rel="noreferrer">Disney's Beach Club Resort</a> or the <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/yacht-club-resort/" target="_blank" rel="noreferrer">Yacht Club Resort</a>, the top dining options to check out are the <a style={linkStyle} href="https://disneyworld.disney.go.com/dining/beach-club-resort/beaches-and-cream-soda-shop/" target="_blank" rel="noreferrer">Beaches & Cream Soda Shop</a>, famous for its "Kitchen Sink" sundae, and the <a style={linkStyle} href="https://disneyworld.disney.go.com/dining/yacht-club-resort/yachtsman-steakhouse/" target="_blank" rel="noreferrer">Yachtsman Steakhouse</a>, known for premium steaks and seafood in a New England yacht club atmosphere.
 </p>
@@ -283,9 +280,10 @@ style = {{
 <p style={paragraphStyle}>
   The <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/beach-club-resort/" target="_blank" rel="noreferrer">Beach and Yacht Club resorts</a> both offer activities like movies under the stars, tennis, volleyball, campfires, and different watercraft rentals for enjoyment on <a style={linkStyle} href="https://disneyworld.disney.go.com/recreation/boating/" target="_blank" rel="noreferrer">Crescent Lake</a>. You can also enjoy state-of-the-art fitness centers and book spa services for relaxation.
 </p>
-<div style={{ margin: '20px' }}>
-  <AdSenseAd />
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
 </div>
+
 <h2 style={headingStyle}>🍹 Storm-Along Bay Pool, Hurricane Hannah’s Waterside Bar & Grill</h2>
 <p style={paragraphStyle}>
   A bit about my personal experience, upon check-in, Lauren and I grabbed a quick bite at the <a style={linkStyle} href="https://disneyworld.disney.go.com/dining/yacht-club-resort/ale-compass-lounge/" target="_blank" rel="noreferrer">Ale & Compass Lounge</a> (great appetizers, fries and burgers) and dedicated our first day to enjoying <a style={linkStyle} href="https://disneyworld.disney.go.com/recreation/stormalong-bay/" target="_blank" rel="noreferrer">Storm-Along Bay</a>.
@@ -302,9 +300,10 @@ style = {{
 <p style={paragraphStyle}>
   Our evening continued with a leisurely walk along the beach, where we enjoyed the sunset from swings and strolled down the lively <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/boardwalk/" target="_blank" rel="noreferrer">Disney BoardWalk</a>.
 </p>
-<div style={{ margin: '20px' }}>
-  <AdSenseAd />
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
 </div>
+
 <p style={paragraphStyle}>
   If <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/epcot/" target="_blank" rel="noreferrer">Epcot</a> is on your park bucket list, it is only a 5-10 minute walk from the resort. You can also take a quick boat ride to the park.
 </p>
@@ -312,9 +311,10 @@ style = {{
 <p style={paragraphStyle}>
   For <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/hollywood-studios/" target="_blank" rel="noreferrer">Hollywood Studios</a> (the second closest park) you can walk along a scenic path that takes about 15 to 20 minutes or catch the Skyliner to other parks like <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/disneys-riviera-resort/" target="_blank" rel="noreferrer">Disney’s Riviera Resort</a>.
 </p>
-<div style={{ margin: '20px' }}>
-  <AdSenseAd />
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
 </div>
+
 <h2 style={headingStyle}>🍦 A Final Dessert at Beaches & Cream Soda Shop</h2>
 <p style={paragraphStyle}>
   Our last day at the Beach Club Resort was bittersweet, with a final, decadent sundae at the famous <a style={linkStyle} href="https://disneyworld.disney.go.com/dining/beach-club-resort/beaches-and-cream-soda-shop/" target="_blank" rel="noreferrer">Beaches & Cream Soda Shop</a>.
@@ -323,66 +323,69 @@ style = {{
 <p style={paragraphStyle}>
   The ice cream shop is often booked up if you don’t reserve a table in advance, but luckily there is a window shop where you can get many of the items without a long wait time.
 </p>
-<div style={{ margin: '20px' }}>
-  <AdSenseAd />
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
 </div>
+
 <h2 style={headingStyle}>🌊 Walt Disney World Resort Comparison for a Nautical Experience</h2>
-<img src={beachclub9} alt='Beach Club' style={{ maxWidth: '50%', height: 'auto' }} />
+
+
+<img src={beachclub9} alt='Scenes from Epcot and Hollywood Studios' style={{ maxWidth: '100%', height: 'auto', padding: '20px 2rem', margin: '0 auto' }} />
+
+
 <p style={paragraphStyle}>
   If you enjoy a nautical theme, you may be choosing between the <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/beach-club-resort/" target="_blank" rel="noreferrer">Beach Club</a>, <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/yacht-club-resort/" target="_blank" rel="noreferrer">Yacht Club</a>, and <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/polynesian-village-resort/" target="_blank" rel="noreferrer">Polynesian Village Resort</a>.
 </p>
-<img src={beachclub10} alt='Beach Club Final' style={imageStyle} />
+
+<img src={beachclub10} alt='Disney Gift Shop and Ice Cream' style={imageStyle} />
+
+
 <p style={paragraphStyle}>
   <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/beach-club-resort/" target="_blank" rel="noreferrer">Disney's Beach Club Resort</a> is fully accessible to guests with disabilities, offering features like accessible rooms with widened doors and roll-in showers, wheelchair-accessible pathways, and service animal accommodations.
 </p>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '1rem 0' }}>
                 <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
             </div>
-            <img src={signature} alt='Signature' style={{ width: '100%' }} />
-            <div
-style = {{
-  margin : '20px'
-}}
->
 
+            <img src={signature} alt='Jackie Wyers Signature' style={{ width: '100%' }} />
+
+
+         <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
+
+            <div style = {{padding: '1rem 2rem'}}>
             <Comments website-id={websiteId} page-id={"beachclubresort"} />
+     </div>
         </div>
     );
 
     return (
-        <div>
-            <Helmet>
-                <title>Walt Disney World Beach Club Resort Review | Travel & Hotel Reviews</title>
-                <meta name="description" content="An in-depth review of Walt Disney World's Beach Club Resort, featuring first impressions, amenities, dining options, and more." />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-                <script>
-                    {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-RT6GR7JXYG');
-                    `}
-                </script>
-            </Helmet>
-            <div style={{ width: '100%', marginBottom: '2rem' }}>
-                <TextReveal text='THE HAPPIEST PLACE ON EARTH' />
-            </div>
-            <div ref={blogRef}>
+        
+           
+        
+          <div ref={blogRef}>
                 <Card
                     title="Walt Disney World Beach Club Resort Review"
-                    description="Walt Disney World Beach Club Resort Review - JW"
+                    description="Colonial style luxury at The Happiest Place on Earth"
                     blogContent={blogContent}
-                    style={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'flex-start',
-                        textAlign: 'center'
-                    }}
+          
                 />
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
+
             </div>
-        </div>
+            
+      
+          
+       
     );
 };
 
