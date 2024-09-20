@@ -21,10 +21,15 @@ const nextarticle = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/jicky
 
 const Card = ({ blogContent }) => (
  
+<div style = {{
+  padding: '10px',
+  margin: '0 auto',
+}}>
 
-  <div className="card">
-    <div className="blog-content">{blogContent}</div>
-  </div>
+    <div className="card">
+      <div className="blog-content">{blogContent}</div>
+    </div>
+    </div>
 
 );
 
@@ -311,7 +316,6 @@ fontStyle: 'italic',
       <p style={paragraphStyle}>
         Have you tried Viktor & Rolf fragrances? Let me know your thoughts below, I’d love to hear your experience.
       </p>
-      <img src={Signature} alt="Signature" style={{ width: '100%' }} />
 
       <NextArticle
       link="/jickyreview"
@@ -322,28 +326,25 @@ fontStyle: 'italic',
       linkStyle={{ color: '#000000', fontSize: '1.05rem' }} // customize as needed
       imgStyle={{ borderRadius: '0px' }} // customize as needed
     />
+
+          <img src={Signature} alt="Signature" style={{ width: '100%' }} />
+
+    <Comments website-id={websiteId} page-id="BonBon" />
+
     </div>
   );
 
   return (
     <div>
         <Card
-        style = {{boxShadow: 'none'}}
+       
           title="BonBon Review"
           description="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure."
           blogContent={blogContent}
         />
-       <div style = {{padding: '1rem 2rem'}}>
-<Comments website-id={websiteId} page-id="BonBon" />
 </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div> <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div> <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
-      </div>
+
+  
   );
 };
 

@@ -12,9 +12,15 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const nextArticle = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/jickyguerlainthumbnail.png`;
 
 const Card = ({ blogContent }) => (
-  <div className="card">
-    <div className="blog-content">{blogContent}</div>
-  </div>
+  <div style = {{
+    padding: '10px',
+    margin: '0 auto',
+  }}>
+  
+      <div className="card">
+        <div className="blog-content">{blogContent}</div>
+      </div>
+      </div>
 );
 
 const HalfetiReview = () => {
@@ -327,7 +333,11 @@ const HalfetiReview = () => {
 
   return (
     <div>
-      <Card blogContent={blogContent} />
+       <Card
+                    title="Halfeti By Penhaligon's Review"
+                    description="A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression."
+                    blogContent={blogContent}
+                />
       
       <div style={{ margin: '1rem auto' }}>
         <AdSenseAd />

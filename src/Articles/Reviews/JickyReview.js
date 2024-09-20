@@ -17,10 +17,15 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
  
+<div style = {{
+  padding: '10px',
+  margin: '0 auto',
+}}>
 
-  <div className="card">
-    <div className="blog-content">{blogContent}</div>
-  </div>
+    <div className="card">
+      <div className="blog-content">{blogContent}</div>
+    </div>
+    </div>
 
 );
 
@@ -357,16 +362,9 @@ fontStyle: 'italic',
                     blogContent={blogContent}
                 />
 
-<div style = {{padding: '1rem 2rem'}}>
 <Comments website-id={websiteId} page-id="jicky" />
      </div>
-     <div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
-            </div>
+  
         
     );
 };
