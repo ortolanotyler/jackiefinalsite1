@@ -264,11 +264,7 @@ function HomePage() {
 <HorizontalLine />
 
 
-            <Suspense fallback={<div className="spinner"></div>}>
-              <ImageGrid />
-            </Suspense>
-
-        <HorizontalLine />
+        
 
 <Grid item xs={12}>
   <Suspense fallback={<div className="spinner"></div>}>

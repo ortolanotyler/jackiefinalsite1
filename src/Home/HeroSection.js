@@ -21,7 +21,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    margin: '0 auto',
+    margin: '0 1.25rem',
     color: '#000000',
 
     flexDirection: isSmallScreen ? 'column' : isFlipped ? 'row-reverse' : 'row',
