@@ -10,6 +10,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonDouble.png`;
@@ -19,45 +20,94 @@ const image5 = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/VintageC
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEBRIDAL.JPEG`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
-
 const Card = ({ blogContent }) => (
-  <div>
-    <div><TextReveal text='TIME TRAVEL TUTORIALS' /></div>
-    <div className="card">
-      <div className="blog-content">{blogContent}</div>
-    </div>
+ 
+
+  <div className="card">
+    <div className="blog-content">{blogContent}</div>
   </div>
+
 );
 
 const Yardley65 = () => {
-  const websiteId = '10910';
-  const blogRef = useRef(null);
 
-  useEffect(() => {
-    initGA();
-    logPageView('/yardley1965');
+useEffect(() => {
+  initGA();
+  logPageView('/yardley1965');
 }, []);
 
 
- 
+const websiteId = '10910';
+const blogRef = useRef(null);
+
+
 const headingStyle = {
   textAlign: 'center',
-  fontSize: '1.5rem',
+  fontSize: '2.5rem',
   fontWeight: 'normal',
-  fontFamily: 'Arapey, serif',
-  color: '#333',
-  margin: '1.5rem'
-};
-const paragraphStyle = {
-  fontSize: '20px',
   fontFamily: 'GFS Didot, serif',
-  margin: '1rem 1.5rem',
-  marginTop: '1rem',
-  marginBottom: '1rem',
-  maxWidth: '500px',
-  lineHeight: '1.5',
-  marginLeft: 'auto',
-  marginRight: 'auto',
+  color: '#000000',
+  margin: '30px auto'
+};
+
+
+const paragraphStyle = {
+fontSize: '22px',
+color: '#000000',
+
+fontFamily: 'GFS Didot, serif',
+margin: '2rem auto',
+
+maxWidth: '525px', // Consistent with the other paragraphs
+lineHeight: '1.6',
+marginLeft: 'auto',
+marginRight: 'auto',
+};
+
+const linkStyle = {
+textDecoration: 'none', // Removes underline from links
+fontFamily: 'GFS Didot, serif',
+color: '#000000', // Inherits the color of the surrounding text
+};
+
+const gridContainerStyle = {
+  display: 'grid',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+  gap: '10px',
+  margin: '1rem auto'
+};
+
+const imageStyle = {
+display: 'block',
+margin: '1rem auto',
+borderRadius: '0px',
+maxWidth: '500px',
+height: 'auto'
+};
+
+const pinterestGridStyle = {
+display: 'grid',
+gap: '1rem',
+gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+justifyItems: 'center',
+margin: '1rem 0',
+};
+
+const iframeStyle = {
+width: '100%',
+maxWidth: '236px',
+height: '520px', // Maintains original height
+border: 'none',
+scrolling: 'no',
+};
+
+const captionStyle = {
+textAlign: 'center',
+fontSize: '1.1rem',
+fontFamily: 'Playfair Display, serif',
+margin: '1rem auto',
+maxWidth: '100%',
+fontStyle: 'italic',
 };
 
 
@@ -65,17 +115,17 @@ const paragraphStyle = {
   const blogContent = (
     <div className="container">
 <Helmet>
-  <title>Jean Shrimpton - Yardley 1965 Makeup Tutorial - Jackie Wyers</title>
+  <title>Recreating Jean Shrimpton's Iconic Yardley Ad</title>
   <meta name="description" content="Follow Jackie Wyers as she recreates the iconic Jean Shrimpton Yardley 1965 makeup look with detailed tutorials and vintage vibes." />
   <meta name="keywords" content="Jean Shrimpton, Yardley 1965, Makeup Tutorial, Jackie Wyers, Vintage Makeup, Time Travel Tutorials, 1960s Beauty, MOD, Pop Culture" />
   <meta property="og:title" content="Jean Shrimpton - Yardley 1965 Makeup Tutorial - Jackie Wyers" />
   <meta property="og:description" content="Follow Jackie Wyers as she recreates the iconic Jean Shrimpton Yardley 1965 makeup look with detailed tutorials and vintage vibes." />
-  <meta property="og:image" content={title} />
+  <meta property="og:image" content="/Images/Articles/JeanShrimpton/ShrimptonTitle.png" />
   <meta property="og:url" content="https://jackiewyers.beauty/yardley1965" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Jean Shrimpton - Yardley 1965 Makeup Tutorial - Jackie Wyers" />
   <meta name="twitter:description" content="Follow Jackie Wyers as she recreates the iconic Jean Shrimpton Yardley 1965 makeup look with detailed tutorials and vintage vibes." />
-  <meta name="twitter:image" content={title} />
+  <meta name="twitter:image" content="/Images/Articles/JeanShrimpton/ShrimptonTitle.png" />
   
   {/* Canonical tag */}
   <link rel="canonical" href="https://jackiewyers.beauty/yardley1965" />
@@ -91,7 +141,7 @@ const paragraphStyle = {
       },
       "headline": "Jean Shrimpton - Yardley 1965 Makeup Tutorial - Jackie Wyers",
       "description": "Follow Jackie Wyers as she recreates the iconic Jean Shrimpton Yardley 1965 makeup look with detailed tutorials and vintage vibes.",
-      "image": "${title}",
+      "image": "https://jackiewyers.beauty/Images/Articles/JeanShrimpton/ShrimptonTitle.png",
       "author": {
         "@type": "Person",
         "name": "Jackie Wyers"
@@ -101,11 +151,11 @@ const paragraphStyle = {
         "name": "Jackie Wyers Beauty",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://jackiewyers.beauty/logo.png"
+          "url": "https://jackiewyers.beauty/jwlogo3.png"
         }
       },
       "datePublished": "2024-07-30",
-      "dateModified": "2024-07-30"
+      "dateModified": "2024-09-20"
     }
     `}
   </script>
@@ -124,11 +174,19 @@ const paragraphStyle = {
 
 
 
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-        <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
+        <a href="/timetraveltutorials" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
       </div>
+
+      <ArticleTitle
+  mainTitle="Recreating Jean Shrimpton's Iconic Yardley Ad"
+  subTitle="A Makeup Tutorial to look straight out of a 1960's magazine!"
+  author="Jackie Wyers"
+  publishDate="March 31st, 2024"
+/>
+
       <img src={title} alt="Jean Shrimpton - Time Travel Tutorials" style={{ width: '100%' }} />
 
       <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -183,8 +241,7 @@ style = {{
 <p style={paragraphStyle}>
   I began with the application of faux bangs and extensions, setting the stage for a transformative look. For the base makeup, I chose a radiant primer to minimize pores and prepare my skin for the foundation—a natural velvet matte finish foundation that evokes the era's flawless complexion, paired with a yellow-based concealer to brighten and balance the skin tone.
 </p>
-
-<div style={{ margin: '20px' }}>
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -215,8 +272,7 @@ style = {{
 <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>
   CONTAINS: AFFILIATE LINKS
 </p>
-
-<div style={{ margin: '20px' }}>
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -241,8 +297,7 @@ style = {{
 <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5rem' }}>
   CONTAINS: AFFILIATE LINKS
 </p>
-
-<div style={{ margin: '20px' }}>
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -269,8 +324,7 @@ style = {{
 <div style={{ display: 'flex', justifyContent: 'center' }}>
   <img src={image5} alt="Vintage Collection" style={{ width: '100%', maxWidth: '650px' }} />
 </div>
-
-<div style={{ margin: '20px' }}>
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -297,12 +351,7 @@ style = {{
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <img src={signature} alt="Jackie Wyers Signature" style={{ width: '100%', maxWidth: '650px' }} />
       </div>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <Comments website-id={websiteId} page-id={"Yardlizz-65fizz"} />

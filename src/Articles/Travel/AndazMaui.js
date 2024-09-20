@@ -46,9 +46,15 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
  
 
-  <div className="card">
-    <div className="blog-content">{blogContent}</div>
-  </div>
+<div style = {{
+  padding: '10px',
+  margin: '0 auto',
+}}>
+
+    <div className="card">
+      <div className="blog-content">{blogContent}</div>
+    </div>
+    </div>
 
 );
 

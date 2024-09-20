@@ -25,11 +25,17 @@ const emily = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/ArticleThum
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-  <div>
-    <div><TextReveal text='POP CULTURE' /></div>
-    <div className="card">
-      <div className="blog-content">{blogContent}</div>
-    </div>
+  <div style = {{
+    padding: '10px',
+    mardin: '0 auto',
+  }}>
+  
+      <div className="card">
+        <div className="blog-content">{blogContent}</div>
+      </div>
+      
+
+  
   </div>
 );
 

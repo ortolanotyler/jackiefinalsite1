@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from 'react';
-import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import { initGA, logPageView } from '../../../analytics';
 import AdSenseAd from '../../../Advertising/Ads';
@@ -27,10 +26,16 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
  
+<div style = {{
+  padding: '10px',
+  margin: '0 auto',
+}}>
 
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
+    </div>
+
   
 );
 
@@ -63,7 +68,7 @@ const paragraphStyle = {
   fontFamily: 'GFS Didot, serif',
   margin: '2rem auto',
 
-  maxWidth: '525px', // Consistent with the other paragraphs
+  maxWidth: '500px', // Consistent with the other paragraphs
   lineHeight: '1.6',
   marginLeft: 'auto',
   marginRight: 'auto',
@@ -513,9 +518,9 @@ Pin my Bardot looks on Pinterest to your inspiration board!
 
 
 
-      <div style = {{padding: '1rem 2rem'}}>
+     
      <Comments website-id={websiteId} page-id={"bardot-hairstyles"} />
-     </div>
+    
       
     </div>
     
@@ -530,15 +535,7 @@ Pin my Bardot looks on Pinterest to your inspiration board!
       />
  
           
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
     </div>
   );
 };

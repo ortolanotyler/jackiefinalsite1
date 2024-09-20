@@ -22,10 +22,10 @@ const ArticleTitle = ({ mainTitle, subTitle, author, publishDate }) => {
 const styles = {
   container: {
     textAlign: 'left', // Align the text to the left
-    marginBottom: '2rem',
+    marginBottom: '1rem',
     maxWidth: '1000px', // Optional: limit the width of the container if needed
-    marginLeft: 'auto', // Center the container within its parent
-    marginRight: 'auto', // Center the container within its parent
+    padding: '10px',
+
   },
   mainTitle: {
     fontFamily: 'GFS Didot, serif',

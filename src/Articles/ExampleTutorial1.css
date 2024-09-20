@@ -17,7 +17,7 @@ body {
 .container {
   max-width: 100%;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1rem 20px;
 }
 
 /* Card Styles */
@@ -25,7 +25,7 @@ body {
   background-color: white;
   color: #333;
   margin: 1rem auto;
-  padding: 1.5rem;
+  padding: 10px 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -71,7 +71,7 @@ body {
 
 @media screen and (max-width: 800px) {
   .card {
-    padding: 1rem 1.5rem;
+    padding: 1rem 2.5rem;
   }
   .paragraph {
     max-width: 90%;
@@ -80,7 +80,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .container {
-    padding: 0.5rem 1rem; /* Adds padding to the left and right */
+    padding: 1rem 2rem; /* Adds padding to the left and right */
   }
   .card {
     padding: 1rem;
