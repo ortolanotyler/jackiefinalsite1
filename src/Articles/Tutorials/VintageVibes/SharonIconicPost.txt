@@ -1,0 +1,75 @@
+
+
+
+
+<p style={paragraphStyle}>
+  The photoshoot that serves as my inspiration, taken by Orlando Suero in 1965, captures Sharon Tate's quintessential bohemian style like no other, showcasing the very essence of her iconic beauty.
+</p>
+
+<p style={paragraphStyle}>
+  To channel that quintessential Cali girl vibe, a good starting point is a self-tanner. My go-to self-tanning line for the body is <a href="https://www.cocoandeve.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Coco and Eve</a>, but for the face, I'm particularly fond of the <a href="https://www.lovingtan.com/products/deluxe-face-tan" target="_blank" rel="noopener noreferrer" style={linkStyle}>Loving Tan Deluxe Face Tan Tinted Self-Tanning Cream</a>. It leaves a gorgeous sun-kissed tint to the skin even before makeup application. Sharon Tate's skin looked very natural, so for my recreation, I chose <a href="https://www.charlottetilbury.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Charlotte Tilbury's light foundation</a>, sheered out to achieve that barely-there look.
+</p>
+
+<p style={paragraphStyle}>
+  In the tutorial, I blended two different foundations, primarily to attain the perfect shade match. However, for simplicity and effectiveness, I highly recommend sticking with the Charlotte Tilbury foundation for that flawless, natural finish.
+</p>
+
+<p style={paragraphStyle}>
+  To emulate Sharon Tate's stunning bone structure, including her high cheekbones and defined chin, sculpting with a lighter concealer is key. If your skin tone is similar to hers, the <a href="https://www.toofaced.com/product/23450/66048/concealer/born-this-way-super-coverage-multi-use-sculpting-concealer" target="_blank" rel="noopener noreferrer" style={linkStyle}>Too Faced Born This Way Concealer in Swan</a> is an excellent option. However, if your skin tone differs, opt for a concealer that's two shades lighter than your foundation. After enhancing the chin, jawline, area around the nose, and under the eyes with brightness, lightly set these areas with powder before applying a powder bronzer to finalize the sculpted look. This technique ensures a natural yet defined finish, mirroring Sharon Tate's iconic beauty.
+</p>
+
+<p style={paragraphStyle}>
+  For a natural bronze and blushed appearance, sticking with powder products and matte formulas works best. The <a href="https://www.toofaced.com/product/23459/49686/bronzer/milk-chocolate-soleil-matte-bronzer" target="_blank" rel="noopener noreferrer" style={linkStyle}>Too Faced Milk Chocolate Bronzer</a> is an excellent choice for this purpose. Apply it beneath the cheekbones, blending slightly onto the cheeks, across the nose, and onto the forehead to achieve a soft, sun-kissed look. To enhance the effect with a touch of sunburnt realism and add depth to the cheeks, the <a href="https://www.rimmellondon.com/products/face/maxi-blush" target="_blank" rel="noopener noreferrer" style={linkStyle}>Rimmel London Maxi Blush in Wildcard</a> is perfect. This product helps to mimic that slightly flushed, vibrant look, evoking a natural radiance and depth that complements the bronzed base beautifully.
+</p>
+
+<p style={paragraphStyle}>
+  When it comes to brows, while my goal is to recreate iconic looks as closely as possible, my brows are much fuller than Sharon Tate’s, so I've had to adapt accordingly. To emulate Sharon's brow style, I recommend brushing up the front (head) of the brows and setting them in place with a brow gel. Aim to maintain the arch and tail of the brows rounded and relatively thin, if possible. Fortunately, having bangs helped me camouflage the differences between our brow shapes, but it's essential to remember that these tutorials are about capturing the essence of the icon's style rather than becoming their exact duplicate. After all, our uniqueness is what truly defines us!
+</p>
+
+<p style={paragraphStyle}>
+  Moving on to the eyes, let's craft a bold, graphic-style cut crease using a <a href="https://www.maybelline.com/eye-makeup/eyeliner" target="_blank" rel="noopener noreferrer" style={linkStyle}>gel brown liner</a> to capture Sharon Tate's signature deep-set eyes, a hallmark of her beauty. The shape we're aiming for diverges slightly from the perfect half-moon typically associated with cut creases. Begin by drawing a straight, slightly diagonal line from the inner corner of the eye upwards to just underneath the brow's head. From this point, curve the line to follow just above your natural crease, creating a distinct and dramatic effect, tailing downwards. So much of today’s beauty standards feature an upturned cat eye, but sleepy-doe eyes have such a beautiful charm as well!
+</p>
+
+<p style={paragraphStyle}>
+  To further enhance the cut crease and emulate the depth and dimension of Sharon's eyes, apply a dark purple liner to the inner portion of the crease. This adds a layer of complexity and richness to the look. Keep the eyelid and brow bone bright to maintain a fresh, open appearance. Finally, incorporate some deeper matte eyeshadow as a liner along the lash line for added intensity and definition, completing the homage to Sharon Tate's iconic eye makeup.
+</p>
+
+<p style={paragraphStyle}>
+  It was revealed in auction Sharon used a brown liner from Maybelline and a White Revlon Eyeliner for the waterline, though in the inspiration photos the waterline appeared more natural. I noticed, however, that underneath the upper and lower lashes, there was a pop of light shimmer. I used a <a href="https://www.charlottetilbury.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>shimmery Charlotte Tilbury pencil liner</a> to catch the light.
+</p>
+
+<p style={paragraphStyle}>
+  Let’s create dainty Twiggy-inspired lashes - and lots of them! Add an extra flick on the outer corners for that mesmerizing '60s flair. Sharon’s take on Twiggy’s signature drawn-on bottom lash was more subtle, blending well into her natural bottom lashes. For this look, I opted for the <a href="https://www.kissusa.com/products/looks-so-natural-lashes" target="_blank" rel="noopener noreferrer" style={linkStyle}>Kiss Looks So Natural lashes in Sultry</a>, which resemble Sharon’s delicate lashes perfectly. To elevate these lashes further, we'll layer them with plenty of mascara. The <a href="https://www.toofaced.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Too Faced Better Than Sex mascara</a> is my go-to for thickening up these wispy falsies, adding an extra dose of drama and volume.
+</p>
+
+<p style={paragraphStyle}>
+  To finish the look, I've chosen a nude lip liner (<a href="https://www.charlottetilbury.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Charlotte Tilbury Iconic Nude</a>) and added a pop of nude-peach with <a href="https://www.toofaced.com/product/23465/47430/lip-gloss/sweet-peach-cream-peach-oil-lip-gloss" target="_blank" rel="noopener noreferrer" style={linkStyle}>Too Faced Sweet Peach Lip Gloss in Peach</a>.
+</p>
+
+<p style={paragraphStyle}>
+  Sharon Tate's beauty regime was elegantly simple, incorporating a <a href="https://www.maxfactor.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Max Factor Brown liner</a> for both her brows and lips. Surprisingly, one of her go-to products was Vaseline! Many drugstore brands that are still available today, such as the <a href="https://www.maybelline.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Maybelline Brown Eyeliner Pencil</a> and <a href="https://www.revlon.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Revlon White Eyeliner</a>, were used by Tate to highlight her enchanting eyes and were showcased at auction. My personal favorite from the ‘60s, <a href="/yardley1965" target="_blank" rel="noopener noreferrer" style={linkStyle}>Yardley</a>, offered the most exquisite pearly lipsticks, which were also a part of Sharon’s makeup collection.
+</p>
+
+<p style={paragraphStyle}>
+  For skincare, Sharon placed her trust in <a href="https://www.ernolaszlo.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Erno Laszlo products</a>, alongside a popular ‘60s beauty facial steamer, and the luxurious <a href="https://www.jovan.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Jovan Mink & Pearls bath oil beads</a>. For a closer examination of her beauty collection, <a href="https://bid.juliensauctions.com/?status=2" target="_blank" rel="noopener noreferrer" style={linkStyle}>explore the auction</a> where her belongings were sold.
+</p>
+
+<p style={paragraphStyle}>
+  In terms of perfumes, Sharon Tate had a fondness for fragrances, especially <a href="https://www.chanel.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Chanel No. 5</a> and <a href="https://www.guerlain.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Guerlain's Jicky</a>. These classic scents are celebrated for their enduring allure. For those interested, a review of Jicky fragrance is available <a href="/jickyreview" target="_blank" rel="noopener noreferrer" style={linkStyle}>here</a>.
+</p>
+
+<p style={paragraphStyle}>
+  In the tutorial, I hosted a giveaway of an amazing Sharon Tate coffee table book, “<a href="https://www.amazon.com/Sharon-Tate-Recollection-Debra/dp/076245234X" target="_blank" rel="noopener noreferrer" style={linkStyle}>Sharon Tate Recollection</a>” by her sister, Deborah Tate that celebrates her style. The winner has received their prize, but you can buy the book on Amazon <a href="https://www.amazon.com/Sharon-Tate-Recollection-Debra/dp/076245234X" target="_blank" rel="noopener noreferrer" style={linkStyle}>here</a> - a must for Sharon fans!
+</p>
+
+<p style={paragraphStyle}>
+  Beyond cosmetics, Sharon’s style featured mini skirts, mini dresses, floral prints, and big accessories. She kept footwear simple, loving classic ballet pink and black slippers, though she often expressed a desire to be barefoot. Her most frequent accessories were big hoops, emphasizing her bohemian and effortlessly chic aesthetic.
+</p>
+
+<p style={paragraphStyle}>
+  Sharon Tate seamlessly blended elements of '60s mod with a bohemian chic flair. Her effortless yet mesmerizing makeup style continues to captivate and inspire, proving that true beauty transcends generations.
+</p>
+
+<p style={paragraphStyle}>
+  Thank you for reading and if you want to be featured on my site, try out this look and please tag me as I’d love to share your rendition on my socials! I love to see you switch up your style with confidence.
+</p>
