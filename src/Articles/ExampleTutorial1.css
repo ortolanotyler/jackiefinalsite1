@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 1rem;
 }
@@ -32,6 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 /* Blog Content Styles */
@@ -47,7 +48,7 @@ body {
 /* Paragraph Styles */
 .paragraph {
   font-size: 18px;
-  max-width: 600px;
+  max-width: 100%;
   margin: 1rem auto;
   line-height: 1.6;
 }
@@ -78,11 +79,17 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  .container {
+    padding: 0.5rem 1rem; /* Adds padding to the left and right */
+  }
   .card {
-    padding: 1rem 1.5rem;
+    padding: 1rem;
   }
   .paragraph {
     max-width: 100%;
     font-size: 16px;
+  }
+  .image {
+    margin: 0.5rem auto;
   }
 }

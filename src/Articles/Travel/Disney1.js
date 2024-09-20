@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import TextReveal from '../../Components/TextReveal';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
@@ -62,9 +61,9 @@ fontSize: '22px',
 color: '#000000',
 
 fontFamily: 'GFS Didot, serif',
-margin: '2rem auto',
+margin: '0 20px',
 
-maxWidth: '525px', // Consistent with the other paragraphs
+maxWidth: '500px', // Consistent with the other paragraphs
 lineHeight: '1.6',
 marginLeft: 'auto',
 marginRight: 'auto',
