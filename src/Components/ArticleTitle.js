@@ -28,16 +28,16 @@ const styles = {
     marginRight: 'auto', // Center the container within its parent
   },
   mainTitle: {
-    fontFamily: 'Arapey, serif',
+    fontFamily: 'GFS Didot, serif',
     fontWeight: 'normal',
-    fontSize: '70px', // Adjust as needed for responsiveness
-    margin: '1rem 0',
+    fontSize: '4rem', // Adjust as needed for responsiveness
+    margin: '1rem auto',
     lineHeight: '1',
     color: '#000000',
   },
   subTitle: {
-    fontFamily: 'Dancing Script, cursive', // Similar to the italic font in the image
-    fontSize: '16px',
+    fontFamily: '"Playfair Display", serif',
+    fontSize: '24px',
     fontStyle: 'italic',
     margin: 'auto 0',
     marginBottom: '20px',

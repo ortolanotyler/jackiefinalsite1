@@ -6,14 +6,12 @@
 }
 
 body {
-  margin: 1rem 0; /* Reset margin */
-  padding: 1rem auto;
+  margin: 0 auto; /* Reset margin */
+  padding: 0 auto;
   overflow-x: hidden;
 }
 
-.bridal-drop-cap-override {
-  max-width: 500px;
-}
+
 
 
 .card:hover {
@@ -34,7 +32,7 @@ body {
 
 .embed-container {
   display: block;
-  margin: 1rem auto;
+  margin: 0 auto;
   width: 100%;
   min-height: 100%;
   height: calc(55vh + 16px);
@@ -48,7 +46,7 @@ body {
 
 .card {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1500px;
   background-color: white;
   color: black;
   font-family: 'GFS Didot', sans-serif;
@@ -59,7 +57,7 @@ body {
 }
 
 .card img {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin: 1rem auto;
   border-radius: 8px;

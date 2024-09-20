@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import styles from './ResponsiveIframe.module.css';
 
 const ResponsiveIframe = ({ src, title }) => {
   const [allowScrolling, setAllowScrolling] = useState(false);
@@ -7,8 +6,7 @@ const ResponsiveIframe = ({ src, title }) => {
   useEffect(() => {
     const checkResize = () => {
       const screenWidth = window.innerWidth;
-      // Allow scrolling if screen width is below 900px
-      setAllowScrolling(screenWidth <= 900);
+      // Logic for resizing can be added if needed in future
     };
 
     window.addEventListener('resize', checkResize);
@@ -19,14 +17,34 @@ const ResponsiveIframe = ({ src, title }) => {
     };
   }, []);
 
+  // Inline styles for container and iframe
+  const containerStyle = {
+    position: 'relative',
+    width: '100%',
+    height: '600px',
+    overflow: 'hidden', // Prevent scrolling
+    paddingTop: allowScrolling ? '0' : '56.25%', // Aspect ratio 16:9
+  };
+
+  const iframeStyle = {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    minHeight: '600px',
+    border: 'none', // Remove border
+    overflow: 'hidden', // Ensure no scrolling
+  };
+
   return (
-    <div className={styles.responsiveIframeContainer} style={{ height: allowScrolling ? 'auto' : '0', paddingBottom: allowScrolling ? '0' : '56.25%' }}>
+    <div style={containerStyle}>
       <iframe
         title={title}
-        src={src}ß
-        scrolling={allowScrolling ? 'no' : 'no'}
-        className={styles.responsiveIframe}
-        tabIndex="-1" // This allows users to scroll away if not focusing on it
+        src={src}
+        scrolling="no"
+        style={iframeStyle}
+        tabIndex="-1" // Prevent iframe focus issues
+        seamless // Allows the iframe to be more integrated visually
       ></iframe>
     </div>
   );

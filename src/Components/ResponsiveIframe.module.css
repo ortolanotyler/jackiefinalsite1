@@ -1,9 +1,8 @@
 .responsiveIframeContainer {
   position: relative;
   width: 100%;
-  margin: '0 auto';
-  overflow: hidden;
-  min-height: 400px;
+  overflow: hidden; /* Prevents scrolling */
+  padding-top: 100px; /* Aspect ratio of 16:9, adjust as needed */
 }
 
 .responsiveIframe {
@@ -11,20 +10,22 @@
   top: 0;
   left: 0;
   width: 100%;
-  border: none;
-  height: 100%;
+  height: 400px;
+  border: none; /* Removes border around the iframe */
+  overflow: hidden; /* Additional overflow setting to prevent scrolling */
 }
 
-
-
-@media (max-width: 900px) {
+/* Responsive adjustments */
+@media (max-width: 768px) {
   .responsiveIframeContainer {
-    overflow: auto;
+    padding-top: 10px; /* Adjust aspect ratio for smaller screens */
+    height: 400px;
   }
-  
-  .responsiveIframe {
-    position: relative;
-    height: auto; /* Ensures the height adjusts based on content */
-    min-height: 500px; /* Ensures a minimum height on smaller screens */
+}
+
+@media (max-width: 480px) {
+  .responsiveIframeContainer {
+    padding-top: 8px; /* Adjust aspect ratio for mobile */
+    height: 400px;
   }
 }
