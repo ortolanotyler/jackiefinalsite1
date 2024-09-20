@@ -1,13 +1,15 @@
 import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import TextReveal from '../../../Components/TextReveal';
-import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
+import SubscribeButton from '../../../Components/SubscribeButton';
+import InstagramEmbed from '../../../Components/InstagramEmbed';
+import NextArticle from '../../../Components/NextArticleComponent';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TWIGGYEYESTUTORIAL.JPG`;
@@ -15,7 +17,6 @@ const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyFaceChart
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TWIGGYFINALHEADSHOT.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const yardley = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg`;
-const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
 
 const Card = ({ blogContent }) => (
  
@@ -118,19 +119,19 @@ const Card = ({ blogContent }) => (
   const blogContent = (
     <div className="container">
     <Helmet>
-  <title>Time Travel Tutorials: Twiggy - Jackie Wyers</title>
+  <title>ICONIC '60s Twiggy Makeup: MOD Blue Eyeshadow</title>
   <link rel="canonical" href="https://jackiewyers.beauty/twiggy" />
 
-  <meta name="description" content="Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe." />
+  <meta name="description" content="A 1960's Guide to Glamour" />
   <meta name="keywords" content="Twiggy, Jackie Wyers, Makeup Tutorial, MOD, Sixties Makeup, Vintage Beauty, Time Travel Tutorials, Blue Eyeshadow, Drawn-on Lashes" />
-  <meta property="og:title" content="Time Travel Tutorials: Twiggy - Jackie Wyers" />
+  <meta property="og:title" content="ICONIC '60s Twiggy Makeup: MOD Blue Eyeshadow" />
   <meta property="og:description" content="Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe." />
-  <meta property="og:image" content={title} />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/Twiggy/TwiggyMODThumbnail.png" />
   <meta property="og:url" content="https://jackiewyers.beauty/twiggy" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Time Travel Tutorials: Twiggy - Jackie Wyers" />
+  <meta name="twitter:title" content="ICONIC '60s Twiggy Makeup: MOD Blue Eyeshadow" />
   <meta name="twitter:description" content="Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe." />
-  <meta name="twitter:image" content={title} />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Twiggy/TwiggyMODThumbnail.png"/>
   <script type="application/ld+json">
     {`
       {
@@ -138,7 +139,7 @@ const Card = ({ blogContent }) => (
         "@type": "BlogPosting",
         "headline": "Time Travel Tutorials: Twiggy - Jackie Wyers",
         "description": "Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe.",
-        "image": "${title}",
+        "image": "https://jackiewyers.beauty/Images/Articles/Twiggy/TwiggyMODThumbnail.png",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -156,7 +157,7 @@ const Card = ({ blogContent }) => (
           "@id": "https://jackiewyers.beauty/twiggy"
         },
         "datePublished": "2024-07-27",
-        "dateModified": "2024-07-27"
+        "dateModified": "2024-09-20"
       }
     `}
   </script>
@@ -173,57 +174,67 @@ const Card = ({ blogContent }) => (
 </Helmet>
 
 
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-        <a href="/timetraveltutorials" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
+        <a href="/timetraveltutorials" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
           BEAUTY // TIME TRAVEL TUTORIALS
         </a>
       </div>
-      <img src={title} alt="Iconic Sixties Twiggy Look with MOD Blue Eyeshadow" style={{ width: '100%' }} />
+
+      <ArticleTitle
+  mainTitle="ICONIC '60s Twiggy Makeup: MOD Blue Eyeshadow"
+  subTitle="A 1960's Guide to Glamour"
+  author="Jackie Wyers"
+  publishDate="April 13, 2024"
+/>
+
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/1WPhwXOdSSw?si=rk3Kj1nEi1rXYMsr" title="Jackie Wyers Twiggy Blue Mod Eyeshadow Youtube Tutorial" />
 
-     
-      <div>
-      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
-      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-        </p>
-      </div>
+      <div style = {{textAlign: 'center', margin: '10px auto' }}>
+<SubscribeButton />
+</div>
+      
+
+   <p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
+    
 
       <DropCap1 text="Welcome back to the blog, vintage beauty lovers! Today’s Time Travel Tutorials is dedicated to the doe-eyed darling of the decade: Twiggy. Known affectionately as “The Face of ‘66,” she redefined beauty standards with her waifish figure, striking lashes, and androgynous looks. Twiggy, born Lesley Lawson, wasn't just a trendsetter; she was a cultural phenomenon. With her slender frame, cropped hair, and captivating gaze, Twiggy became the emblem of the mod movement in fashion. She adorned the era's most fashionable spreads, turning the world’s eyes to London’s “youthquake.” Twiggy’s playful innocence and charm perfectly captured the spirit of the sixties, a stark contrast to the older, more mature appearance of stars like Marilyn Monroe. Her distinctive allure danced between girlish simplicity and the era’s vibrant liberation." />
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+    
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <a href="https://www.instagram.com/reel/C5ycO9WOEiK/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>
-          <img src={image1} alt="Twiggy Eye Tutorial Jackie Wyers" style={{ width: '100%', maxWidth: '650px' }} />
-        </a>
-      </div>
 
-      <p style={paragraphStyle}>
+<InstagramEmbed 
+        src="https://www.instagram.com/reel/C5ycO9WOEiK/embed" 
+        title="Instagram Reel" 
+        width="50%" 
+        height="1000" 
+      />
+
+<p style={paragraphStyle}>
   While I recreated a <a style={linkStyle} href="https://en.wikipedia.org/wiki/Twiggy" target="_blank" rel="noreferrer">Twiggy</a> look about 7 years ago, I’ve since pinned one of my favorite Twiggy portraits on <a style={linkStyle} href="https://www.pinterest.com/" target="_blank" rel="noreferrer">Pinterest</a> so often that I'm compelled to revisit the icon again. Let’s dive into a tutorial that pays homage to Twiggy’s iconic pastel blue eyeshadow and those legendary drawn-on lower lashes. And while the cropped cut isn’t my personal choice, this look features adorable curly buns adorned with flowers, offering a stunning springtime style that’s right up my alley. Let's recreate the magic of the 1960s It-girl, celebrating an era of fashion that continues to enchant and inspire. Here's how to channel the iconic Twiggy vibe using modern products that retain the quintessential vintage flair.
 </p>
+  
+      <div style={gridContainerStyle}>
+   <a href="https://youtu.be/1WPhwXOdSSw?si=qt6KGxADnAs2w_lU" target="_blank" rel = "noreferrer" >
+   <img src={image3} alt="Twiggy Iconic 60's Makeup Tutorial" style={imageStyle} />
+   </a>
+ </div>
+
+      
 
 <h2 style={headingStyle}>A Twiggy Beauty Breakdown</h2>
 
-<div style={{ display: 'flex', justifyContent: 'center' }}>
-  <img src={image2} alt="Twiggy Eye Tutorial Jackie Wyers" style={{ width: '100%', maxWidth: '650px' }} />
+<div style={gridContainerStyle}>
+<img src={image2} alt="Twiggy Eye Tutorial Jackie Wyers" style={{ width: '100%', maxWidth: '650px' }} />
 </div>
 
 <p style={paragraphStyle}>
   <a style={linkStyle} href="https://en.wikipedia.org/wiki/Twiggy" target="_blank" rel="noreferrer">Twiggy's</a> iconic makeup style was known for its bold, graphic eyeshadow in various hues. This featured look showcases a pastel blue shade that's perfectly en vogue for Spring/Summer 2024. It pairs a youthful glow with subtle freckles and a minimalist lip to round out the ensemble. And of course, the dramatic, drawn-on lower lashes are essential for that quintessential pop-art impact. Let's begin, shall we?
 </p>
-
-<div
-style = {{
-  margin : '20px'
-}}
->
-
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -233,7 +244,7 @@ style = {{
   For Twiggy's youthful glow, begin with a flawless base. The <a style={linkStyle} href="https://www.annasui.com/" target="_blank" rel="noreferrer">Anna Sui Rich Lotion</a> and Gel Foundation Primer—with its hydrating formula and adorable packaging—is the perfect first step. I worked with <a style={linkStyle} href="https://www.annasui.com/" target="_blank" rel="noreferrer">Anna Sui</a> on this tutorial and have several beautiful products to showcase throughout. Its water-based gel texture and plumping effect prepare the skin beautifully for foundation, concealing pores and ensuring a smooth, healthy canvas.
 </p>
 
-<ResponsiveIframe src="https://shopmy.us/collections/public/542136?noHeader=true" title="Rich Lotion - Ana Sui" />
+<ResponsiveIframe src="https://shopmy.us/collections/public/542136?noHeader=true" title="The Anna Sui Rich Lotion and Gel Foundation Primer" />
 
 <h2 style={headingStyle}>Barely There Foundation</h2>
 
@@ -243,12 +254,7 @@ style = {{
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/551116?noHeader=true" title="Foundation - Makeup Forever" />
 
-<div
-style = {{
-  margin : '20px'
-}}
->
-
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -268,12 +274,7 @@ style = {{
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/551123?noHeader=true" title="Brightening Powder - Ana Sui" />
 
-<div
-style = {{
-  margin : '20px'
-}}
->
-
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -293,12 +294,7 @@ style = {{
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/551124?noHeader=true" title="Eyeshadow - Makeup By Mario" />
 
-<div
-style = {{
-  margin : '20px'
-}}
->
-
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -314,12 +310,7 @@ style = {{
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/551126?noHeader=true" title="Eyeliner - Ana Sui" />
 
-<div
-style = {{
-  margin : '20px'
-}}
->
-
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -331,12 +322,7 @@ style = {{
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/565773?noHeader=true" title="Eyeliner - Ana Sui" />
 
-<div
-style = {{
-  margin : '20px'
-}}
->
-
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -346,7 +332,7 @@ style = {{
   No <a style={linkStyle} href="https://en.wikipedia.org/wiki/Twiggy" target="_blank" rel="noreferrer">Twiggy</a> ensemble is complete without an attention-grabbing hairstyle. While I steer clear of her signature cropped cut, I simply can’t pull it off, I chose to recreate this portrait to try out this charming curly buns with delicate flowers.
 </p>
 
-<div style={{ display: 'flex', justifyContent: 'center' }}>
+<div style={gridContainerStyle}>
   <img src={image3} alt="Twiggy Hair Tutorial Jackie Wyers" style={{ width: '100%', maxWidth: '650px' }} />
 </div>
 
@@ -358,37 +344,39 @@ style = {{
   Thank you for reading and if you want to be featured on my site, try out this look and please tag me as I’d love to see it and share your rendition! I love to see you switch up your style with confidence.
 </p>
 
-      <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-        <a href="/yardley1965" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={yardley} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
-          MORE VINTAGE VIBES →
-        </a>
-      </div>
-      <div style={{ textAlign: 'center' }}>
-        <a href="/vintagevibesmerch" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={teespring} alt="Margot Robbie - Barbie Movie" style={{ width: '100%', maxWidth: '1400px', display: 'block' }} />
-          SHOP VINTAGE VIBES MERCH →
-        </a>
-      </div>
 
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <img src={signature} alt="Twiggy Hair Tutorial Jackie Wyers" style={{ width: '100%', maxWidth: '650px' }} />
-      </div>
-      <div
-style = {{
-  margin : '20px'
-}}
->
 
-  <AdSenseAd/>
-</div>
+      <NextArticle
+      link="/yardley1965"
+      imgSrc={yardley}
+      altText="Jean Shrimpton Hair Tutorial Jackie Wyers"
+      linkText="MORE TIME TRAVEL TUTORIALS →"
+      containerStyle={{ margin: '1rem 0' }} // customize as needed
+      linkStyle={{ color: '#000000', fontSize: '1.05rem' }} // customize as needed
+      imgStyle={{ borderRadius: '10px' }} // customize as needed
+    />
+
+      <div style={gridContainerStyle}>
+      <img src={signature} alt="Jackie Wyers' Signature" style={{ width: '100%', maxWidth: '650px' }} />
+      </div>
+     
       <Comments website-id={websiteId} page-id={"Twiggy"} />
+      
     </div>
   );
 
   return (
     <div ref={blogRef}>
       <Card blogContent={blogContent} />
+      <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
     </div>
   );
 };
