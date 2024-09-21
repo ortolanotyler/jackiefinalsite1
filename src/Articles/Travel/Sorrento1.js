@@ -230,7 +230,9 @@ helpful!"
 />
 </div>
 
-
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
      
 
@@ -248,6 +250,8 @@ helpful!"
       <p style={paragraphStyle}>
     One of the most inexpensive souvenirs—and one of my favorite keepsakes—are the stunning painterly postcards you can find in Sorrento. There are many different styles, but I was particularly drawn to the landscapes. I love adding these to photo albums and journals. They also make beautiful gifts for family and friends, especially if you write heartfelt notes on the back. It’s a simple yet meaningful souvenir, and Sorrento’s postcards are a cut above those you might find elsewhere. Check out more of my <a href='/travel-journal' style={linkStyle}>travel journal tips</a>.
 </p>
+
+
 
       <div style={gridContainerStyle}>
     <img src={image3} alt="Sorrento Music Box" style={imageStyle} /> 
@@ -288,7 +292,9 @@ helpful!"
       <p style={paragraphStyle}>
     A cute shop that stands out in Sorrento is Balleri, which offers beautiful leather flats, bags, and scarves. If you’re looking for shoes with European flair, flats are a great investment—they always look chic, whether you’re wearing a cute dress or jeans. See more about <a href='/balleri-flats' style={linkStyle}>Balleri flats</a> in my complete shopping guide.
 </p>
-
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
     <div style={gridContainerStyle}>
     <img src={image9} alt="CB Positano Cute Bags " style={imageStyle} /> 
 </div>
@@ -308,7 +314,9 @@ helpful!"
 <div style={gridContainerStyle}>
     <img src={image12} alt="Breakfast at an Italian Villa" style={imageStyle} /> 
 </div>
-
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
       <h2 style={headingStyle}>Ceramics and Majolica 🍇</h2>
       <p style={paragraphStyle}>
@@ -322,7 +330,9 @@ helpful!"
 <div style={gridContainerStyle}>
     <img src={image14} alt="Capri Bell Jewelry" style={imageStyle} /> 
 </div>
-
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Capri Bell Charms 🔔</h2>
       <p style={paragraphStyle}>
     Another awesome day trip is taking a ferry to Capri! You’ll find the Capri Bell store in both Sorrento and Capri, offering a variety of bell charms and other dainty, lemon-themed jewelry. According to local lore, the Capri bell is a symbol of good luck, rooted in a legend where a shepherd boy was guided to safety by the sound of a bell. Learn more about the <a href='/capri-bell-charms' style={linkStyle}>Capri bell charms</a>.
@@ -350,11 +360,15 @@ Anything Lemon Themed!🍋
       <p style={paragraphStyle}>
     If you’re shopping for a foodie, olive oil and gourmet food items are fantastic purchases! The region produces high-quality olive oil, which is a fantastic culinary souvenir. Additionally, you can find other gourmet items such as locally made pasta, pesto, and preserves. Explore more on <a href='/sorrento-gourmet' style={linkStyle}>Sorrento gourmet finds</a>.
 </p>
-
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
       <div style={gridContainerStyle}>
     <img src={image17} alt="Disney Dress" style={imageStyle} /> 
 </div>
-
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 <p style={paragraphStyle}>
     I hope this guide helps you narrow down your souvenir choices in Sorrento and that you are having an amazing trip! Let me know if you found something special on your travels by commenting below. Share your finds in my <a href='/travel-community' style={linkStyle}>travel community</a>.
 </p>
@@ -387,7 +401,7 @@ Anything Lemon Themed!🍋
 
   return (
     <div ref={blogRef}
-    style = {{boxShadow: 'none'}}
+    
     >
       <Card
         title="Best Sorrento Souvenirs"
