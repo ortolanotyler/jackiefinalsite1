@@ -134,7 +134,7 @@ const captionStyle = {
   const blogContent = (
     <div className="container">
 <Helmet>
-  <title>Ultimate Sorrento Souvenir Guide - Jackie Wyers</title>
+  <title>Ultimate Sorrento Souvenir Guide</title>
   <link rel="canonical" href="https://jackiewyers.beauty/sorrento" />
 
   <meta name="description" content="Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy." />
@@ -143,7 +143,7 @@ const captionStyle = {
   <meta property="og:title" content="Ultimate Sorrento Souvenir Guide - Jackie Wyers" />
   <meta property="og:description" content="Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy." />
   <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/sorrento-souvenirs" />
+  <meta property="og:url" content="https://jackiewyers.beauty/sorrento" />
   <meta property="og:type" content="article" />
 
   <meta name="twitter:card" content="summary_large_image" />
@@ -210,8 +210,7 @@ const captionStyle = {
     </div>
       
 <div style={gridContainerStyle}>
-    <img src={image1} alt="The Best Souvenirs to Bring Home
-from Sorrento" style={imageStyle} /> 
+    <img src={image1} alt="The Best Souvenirs to Bring Home from Sorrento" style={imageStyle} /> 
 </div>
 
 
@@ -376,17 +375,12 @@ Anything Lemon Themed!🍋
       imgStyle={{ borderRadius: '10px' }} // customize as needed
     />
 
-
        <div>
         <img src={signature} alt="Jackie Wyers Signature XoXo" style={{ width: '100%' }} />
       </div>
-     
-    
-
+ 
       <Comments website-id={websiteId} page-id={"Sorrento-Souvenirs"} />
 
- 
-      
     </div>
     
   );
