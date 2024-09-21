@@ -27,7 +27,7 @@ const image14 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/14.JPG`;
 const image15 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/15.JPG`;
 const image16 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/16.JPG`;
 const image17 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/17.JPG`;
-const ski = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblent/hello.png`;
+const ski = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg`;
 
 
 
@@ -135,61 +135,59 @@ const captionStyle = {
     <div className="container">
 <Helmet>
   <title>Ultimate Sorrento Souvenir Guide - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/sorrento" />
+
   <meta name="description" content="Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy." />
-  <meta name="keywords" content="Sorrento souvenirs, Italy souvenirs, Jackie Wyers, Sorrento, travel shopping, music boxes, leather goods, ceramics, lemon souvenirs, Capri bell, Sorrento shopping, souvenir guide" />
-  
+  <meta name="keywords" content="Sorrento souvenirs, Italy souvenirs, Jackie Wyers, Sorrento travel guide, best souvenirs from Italy, music boxes Sorrento, Italian leather goods, lemon-themed gifts, Sorrento ceramics, Capri bell charm, Sorrento shopping, souvenir shopping in Italy, travel shopping guide, must-buy items Sorrento, unique Italian keepsakes, Italian artisan products, local crafts Sorrento, traditional souvenirs, handmade gifts Sorrento, shopping in Amalfi Coast, luxury souvenirs Italy, Sorrento guide, best shops Sorrento, Jackie Wyers travel tips, travel blog, Italy travel tips, Sorrento tourist guide" />
+
   <meta property="og:title" content="Ultimate Sorrento Souvenir Guide - Jackie Wyers" />
   <meta property="og:description" content="Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy." />
-  <meta property="og:image" content={image1} />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg" />
   <meta property="og:url" content="https://jackiewyers.beauty/sorrento-souvenirs" />
   <meta property="og:type" content="article" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Ultimate Sorrento Souvenir Guide - Jackie Wyers" />
   <meta name="twitter:description" content="Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy." />
-  <meta name="twitter:image" content={image1} />
-  <link rel="canonical" href="https://jackiewyers.beauty/sorrento-souvenirs" />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg" />
 
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+
+  {/* Google Ads Script */}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+
+  {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
     {`
-    {
-      "@context": "http://schema.org",
-      "@type": "Article",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://jackiewyers.beauty/sorrento-souvenirs"
-      },
-      "headline": "Ultimate Sorrento Souvenir Guide - Jackie Wyers",
-      "description": "Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy.",
-      "image": "${image1}",
-      "author": {
-        "@type": "Person",
-        "name": "Jackie Wyers"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Jackie Wyers",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "${signature}"
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Ultimate Sorrento Souvenir Guide - Jackie Wyers",
+        "description": "Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy.",
+        "image": "https://jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/jwlogo3.png"
+          }
+        },
+        "datePublished": "2024-08-30",
+        "dateModified": "2024-09-21",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/sorrento"
         }
-      },
-      "datePublished": "2024-09-04",
-      "dateModified": "2024-09-04"
-    }
+      }
     `}
   </script>
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-RT6GR7JXYG');
-    `}
-  </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
 
 
@@ -239,9 +237,9 @@ helpful!"
 
 <h2 style={headingStyle}>Why Sorrento? 🍋</h2>
 
-      <p style={paragraphStyle}>
-        Sorrento is one of the most picturesque places in Italy, known for its stunning landscapes, rich cultural heritage, and vibrant shopping scene. My husband Tyler and I had our wedding here, and if you want to read all about that, check out our fairytale wedding article <a href='/fairytalewedding' style = {{textdecoration: 'none', color: '#3a3a3a'}}> here</a>. We loved Sorrento so much that we extended our stay, which was perfect because it gave me more time to think about my purchases!
-      </p>
+<p style={paragraphStyle}>
+    Sorrento is one of the most picturesque places in Italy, known for its stunning landscapes, rich cultural heritage, and vibrant shopping scene. My husband Tyler and I had our wedding here, and if you want to read all about that, check out our fairytale wedding article <a href='/fairytalewedding' style={linkStyle}>here</a>. We loved Sorrento so much that we extended our stay, which was perfect because it gave me more time to think about my purchases!
+</p>
 
       <div style={gridContainerStyle}>
     <img src={image2} alt="Postcards in Sorrento" style={imageStyle} /> 
@@ -249,8 +247,8 @@ helpful!"
 
       <h2 style={headingStyle}>Painterly Postcards 🎨</h2>
       <p style={paragraphStyle}>
-        One of the most inexpensive souvenirs—and one of my favorite keepsakes—are the stunning painterly postcards you can find in Sorrento. There are many different styles, but I was particularly drawn to the landscapes. I love adding these to photo albums and journals. They also make beautiful gifts for family and friends, especially if you write heartfelt notes on the back. It’s a simple yet meaningful souvenir, and Sorrento’s postcards are a cut above those you might find elsewhere.
-      </p>
+    One of the most inexpensive souvenirs—and one of my favorite keepsakes—are the stunning painterly postcards you can find in Sorrento. There are many different styles, but I was particularly drawn to the landscapes. I love adding these to photo albums and journals. They also make beautiful gifts for family and friends, especially if you write heartfelt notes on the back. It’s a simple yet meaningful souvenir, and Sorrento’s postcards are a cut above those you might find elsewhere. Check out more of my <a href='/travel-journal' style={linkStyle}>travel journal tips</a>.
+</p>
 
       <div style={gridContainerStyle}>
     <img src={image3} alt="Sorrento Music Box" style={imageStyle} /> 
@@ -258,8 +256,8 @@ helpful!"
 
       <h2 style={headingStyle}>Sorrento Music Boxes 🎶</h2>
       <p style={paragraphStyle}>
-        A Sorrento music box is a beautiful and timeless keepsake. These can range in price, from moderate to very luxurious. I chose a smaller box featuring ballerinas because the dress reminded me of my second wedding dress. I instantly knew I had to have it! Now, it holds my sentimental jewelry from the wedding. These boxes are famous for their intricate designs with inlaid wood, representing the artistic heritage of Sorrento.
-      </p>
+    A Sorrento music box is a beautiful and timeless keepsake. These can range in price, from moderate to very luxurious. I chose a smaller box featuring ballerinas because the dress reminded me of my second wedding dress. I instantly knew I had to have it! Now, it holds my sentimental jewelry from the wedding. These boxes are famous for their intricate designs with inlaid wood, representing the artistic heritage of Sorrento. Discover more about <a href='/sorrento-music-box' style={linkStyle}>music box collections</a>.
+</p>
  <div style={gridContainerStyle}>
     <img src={image4} alt="Serena Leather Jacket Gossip Girl>" style={imageStyle} /> 
     <img src={image5} alt="Men's Leather Duffel Bags Sorrento" style={imageStyle} /> 
@@ -267,15 +265,10 @@ helpful!"
     
       <h2 style={headingStyle}>Leather Goods 🧳</h2>
       <p style={paragraphStyle}>
-        If you’re willing to haggle, visiting a leather store for items like a travel bag can be a fantastic purchase—high-quality and perfect for future trips. My husband chose a leather travel bag as his souvenir. My first thought when I saw this jacket and scarf combo was - that is so Serena van der Woodsen in the pilot episode!
-      </p>
-      <p style={paragraphStyle}>
-
-      Speaking of Italy and leather goods, if you’re passing through
-Naples Airport, you can find luxurious leather suitcases from
-Bric’s Milano at a much lower price than you would in North
-America. 
-
+    If you’re willing to haggle, visiting a leather store for items like a travel bag can be a fantastic purchase—high-quality and perfect for future trips. My husband chose a leather travel bag as his souvenir. My first thought when I saw this jacket and scarf combo was - that is so Serena van der Woodsen in the pilot episode! For more on leather finds, check out <a href='/italy-leather-guide' style={linkStyle}>my guide to Italian leather</a>.
+</p>
+<p style={paragraphStyle}>
+    Speaking of Italy and leather goods, if you’re passing through Naples Airport, you can find luxurious leather suitcases from Bric’s Milano at a much lower price than you would in North America. Explore more about <a href='/brics-milano' style={linkStyle}>Bric’s Milano luggage</a> and other travel essentials.
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/782009?noHeader=true" title="Hand-Painted Leather Wedding Photo Album" />
@@ -294,8 +287,8 @@ America.
 
       <h2 style={headingStyle}>Ballerina Flats from Balleri 🩰</h2>
       <p style={paragraphStyle}>
-        A cute shop that stands out in Sorrento is Balleri, which offers beautiful leather flats, bags, and scarves. If you’re looking for shoes with European flair, flats are a great investment—they always look chic, whether you’re wearing a cute dress or jeans.
-      </p>
+    A cute shop that stands out in Sorrento is Balleri, which offers beautiful leather flats, bags, and scarves. If you’re looking for shoes with European flair, flats are a great investment—they always look chic, whether you’re wearing a cute dress or jeans. See more about <a href='/balleri-flats' style={linkStyle}>Balleri flats</a> in my complete shopping guide.
+</p>
 
     <div style={gridContainerStyle}>
     <img src={image9} alt="CB Positano Cute Bags " style={imageStyle} /> 
@@ -307,8 +300,8 @@ America.
 
       <h2 style={headingStyle}>Positano Shopping 🌺</h2>
       <p style={paragraphStyle}>
-        If you’re in Sorrento, a trip to Positano is a must. The shopping can be quite expensive along the strip, but you’ll find amazing lemon-scented candles and perfume box sets. Don’t miss CB Positano, a viral store on Instagram that embodies the chic, bohemian vibe of the Amalfi Coast. I’m obsessed! I’ve been using my comfortable patchwork purse all summer, and it reminds me of the fun shopping day I had there.
-      </p>
+    If you’re in Sorrento, a trip to Positano is a must. The shopping can be quite expensive along the strip, but you’ll find amazing lemon-scented candles and perfume box sets. Don’t miss CB Positano, a viral store on Instagram that embodies the chic, bohemian vibe of the Amalfi Coast. I’m obsessed! I’ve been using my comfortable patchwork purse all summer, and it reminds me of the fun shopping day I had there. Discover more about <a href='/positano-shopping' style={linkStyle}>shopping in Positano</a>.
+</p>
 
       <div style={gridContainerStyle}>
     <img src={image11} alt="Sorrento Souvenirs" style={imageStyle} /> 
@@ -320,8 +313,9 @@ America.
 
       <h2 style={headingStyle}>Ceramics and Majolica 🍇</h2>
       <p style={paragraphStyle}>
-        You can also find beautiful colorful ceramics and majolica (a type of glazed pottery). These beautifully painted items range from plates and bowls to decorative tiles and vases, often featuring traditional Mediterranean designs. They make stunning decorative pieces for any home and are a true representation of Sorrento’s artistic heritage.
-      </p>
+    You can also find beautiful colorful ceramics and majolica (a type of glazed pottery). These beautifully painted items range from plates and bowls to decorative tiles and vases, often featuring traditional Mediterranean designs. They make stunning decorative pieces for any home and are a true representation of Sorrento’s artistic heritage. Read about my favorite <a href='/sorrento-ceramics' style={linkStyle}>Sorrento ceramics</a>.
+</p>
+
 
       <div style={gridContainerStyle}>
     <img src={image13} alt="Capri Bell Italy" style={imageStyle} /> 
@@ -332,8 +326,8 @@ America.
 
       <h2 style={headingStyle}>Capri Bell Charms 🔔</h2>
       <p style={paragraphStyle}>
-        Another awesome day trip is taking a ferry to Capri! You’ll find the Capri Bell store in both Sorrento and Capri, offering a variety of bell charms and other dainty, lemon-themed jewelry. According to local lore, the Capri bell is a symbol of good luck, rooted in a legend where a shepherd boy was guided to safety by the sound of a bell.
-      </p>
+    Another awesome day trip is taking a ferry to Capri! You’ll find the Capri Bell store in both Sorrento and Capri, offering a variety of bell charms and other dainty, lemon-themed jewelry. According to local lore, the Capri bell is a symbol of good luck, rooted in a legend where a shepherd boy was guided to safety by the sound of a bell. Learn more about the <a href='/capri-bell-charms' style={linkStyle}>Capri bell charms</a>.
+</p>
 
       <h2 style={headingStyle}>Additional Must-Have Souvenirs!</h2>
 
@@ -349,43 +343,34 @@ America.
 Anything Lemon Themed!🍋 
 </h2>
         
-        <p style={paragraphStyle}>
-        No visit to Sorrento is complete without trying its famous limoncello. This sweet lemon liqueur is a perfect souvenir to bring home if you are a fan of alcohol. Available in beautifully packaged bottles, limoncello makes a delightful gift or a personal indulgence to enjoy later. Not a fan of alcohol like me? Try the lemon scented candles and fragrances as well!
-      </p>
+<p style={paragraphStyle}>
+    No visit to Sorrento is complete without trying its famous limoncello. This sweet lemon liqueur is a perfect souvenir to bring home if you are a fan of alcohol. Available in beautifully packaged bottles, limoncello makes a delightful gift or a personal indulgence to enjoy later. Not a fan of alcohol like me? Try the lemon scented candles and fragrances as well! Check out my <a href='/lemon-themed-souvenirs' style={linkStyle}>guide to lemon-themed souvenirs</a>.
+</p>
 
       <h2 style={headingStyle}>Olive Oil and Gourmet Food Items 🫒</h2>
       <p style={paragraphStyle}>
-        If you’re shopping for a foodie, olive oil and gourmet food items are fantastic purchases! The region produces high-quality olive oil, which is a fantastic culinary souvenir. Additionally, you can find other gourmet items such as locally made pasta, pesto, and preserves.
-      </p>
+    If you’re shopping for a foodie, olive oil and gourmet food items are fantastic purchases! The region produces high-quality olive oil, which is a fantastic culinary souvenir. Additionally, you can find other gourmet items such as locally made pasta, pesto, and preserves. Explore more on <a href='/sorrento-gourmet' style={linkStyle}>Sorrento gourmet finds</a>.
+</p>
 
       <div style={gridContainerStyle}>
     <img src={image17} alt="Disney Dress" style={imageStyle} /> 
 </div>
 
 <p style={paragraphStyle}>
-
-I hope this guide helps you narrow down your souvenir choices
-in Sorrento and that you are having an amazing trip! Let me
-know if you found something special on your travels by
-commenting below.
-
+    I hope this guide helps you narrow down your souvenir choices in Sorrento and that you are having an amazing trip! Let me know if you found something special on your travels by commenting below. Share your finds in my <a href='/travel-community' style={linkStyle}>travel community</a>.
 </p>
 
 
 <p style={paragraphStyle}>
-
-If you want to keep reading, my husband and I got married in
-Sorrento and you can see all the details from planning, details,
-wedding dresses and more in the following article below.
+    If you want to keep reading, my husband and I got married in Sorrento and you can see all the details from planning, details, wedding dresses, and more in the following article below. For more inspiration, visit my <a href='/sorrento-wedding' style={linkStyle}>Sorrento wedding page</a>.
 </p>
 
 
-
       <NextArticle
-      link="/tremblant"
+      link="/fairytalewedding"
       imgSrc={ski}
-      altText="Ski Vacation in Quebec"
-      linkText="MORE TRAVEL →"
+      altText="Jackie Wyers Wedding in Italy - Read more"
+      linkText="MORE BRIDAL →"
       containerStyle={{ margin: '1rem 0' }} // customize as needed
       linkStyle={{ color: '#000000', fontSize: '1.05rem' }} // customize as needed
       imgStyle={{ borderRadius: '10px' }} // customize as needed
