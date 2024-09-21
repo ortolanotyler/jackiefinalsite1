@@ -6,7 +6,7 @@
 }
 
 .rotating-text {
-  padding: 1rem;
+
   color: #745B4F;
   display: inline-block;
   animation: rotate-text 100s linear infinite;
