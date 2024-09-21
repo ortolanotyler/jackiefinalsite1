@@ -21,49 +21,104 @@ const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARO
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-  <div>
-    <div><TextReveal text='BRIDAL' /></div>
-    <div className="card">
-      <div className="blog-content">{blogContent}</div>
-    </div>
-  </div>
-);
-
-const BridalMakeup = () => {
-  const websiteId = '10910';
-  const blogRef = useRef(null);
-
-  useEffect(() => {
-    initGA();
-    logPageView('/bridalmakeup');
-}, []);
-
-
-
-const headingStyle = {
-  textAlign: 'center',
-  fontSize: '1.5rem',
-  fontWeight: 'normal',
-  fontFamily: 'Arapey, serif',
-  color: '#333',
-  margin: '1.5rem'
-};
-
-const paragraphStyle = {
-  fontSize: '20px',
-  fontFamily: 'GFS Didot, serif',
-  margin: '1rem 1.5rem',
-  marginTop: '1rem',
-  marginBottom: '1rem',
-  maxWidth: '500px',
-  lineHeight: '1.5',
-  marginLeft: 'auto',
-  marginRight: 'auto',
-};
+ 
+  <div style = {{
+   padding: '10px 20px',
+    margin: '0 auto',
+  }}>
+  
+      <div className="card">
+        <div className="blog-content">{blogContent}</div>
+      </div>
+      </div>
+  
+    
+  );
+  
+  const BridalMakeup = () => {
+  
+    useEffect(() => {
+      initGA();
+      logPageView('/bridalmakeup');
+    }, []);
+  
+  
+    const websiteId = '10910';
+    const blogRef = useRef(null);
+  
+   
+    const headingStyle = {
+      textAlign: 'center',
+      fontSize: '2.5rem',
+      fontWeight: 'normal',
+      fontFamily: 'GFS Didot, serif',
+      color: '#000000',
+      margin: '30px auto'
+  };
+  
+  
+  const paragraphStyle = {
+    fontSize: '22px',
+    color: '#000000',
+  
+    fontFamily: 'GFS Didot, serif',
+    margin: '2rem auto',
+  
+    maxWidth: '500px', // Consistent with the other paragraphs
+    lineHeight: '1.6',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+  };
+  
+  const linkStyle = {
+    textDecoration: 'none', // Removes underline from links
+    fontFamily: 'GFS Didot, serif',
+    color: '#000000', // Inherits the color of the surrounding text
+  };
+  
+  const gridContainerStyle = {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+      gap: '10px',
+      margin: '1rem auto'
+  };
+  
+  const imageStyle = {
+    display: 'block',
+    margin: '1rem auto',
+    borderRadius: '0px',
+    maxWidth: '500px',
+    height: 'auto'
+  };
+  
+  const pinterestGridStyle = {
+    display: 'grid',
+    gap: '1rem',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+    justifyItems: 'center',
+    margin: '1rem 0',
+  };
+  
+  const iframeStyle = {
+    width: '100%',
+    maxWidth: '236px',
+    height: '520px', // Maintains original height
+    border: 'none',
+    scrolling: 'no',
+  };
+  
+  const captionStyle = {
+    textAlign: 'center',
+    fontSize: '1.1rem',
+    fontFamily: 'Playfair Display, serif',
+    margin: '1rem auto',
+    maxWidth: '100%',
+    fontStyle: 'italic',
+  };
   const blogContent = (
     <div className="container" style={{ maxWidth: '800px', margin: '0 auto', padding: '1rem' }}>
      <Helmet>
-    <title>Bridal Makeup Tutorial - Jackie Wyers</title>
+    <title>Bridal Makeup Trial: What I loved and What I'll Change!</title>
     <link rel="canonical" href="https://jackiewyers.beauty/bridalmakeup" />
 
     <meta name="description" content="A detailed review of a trial run for Jackie's wedding makeup: what she loved, what she'll do differently on her big day." />
@@ -271,8 +326,8 @@ const paragraphStyle = {
   return (
     <div ref={blogRef}>
       <Card
-        title="Bridal Makeup Tutorial"
-        description="Bridal Makeup Tutorial"
+        title="Bridal Makeup Trial: What I loved and What I'll Change!"
+        description="Perfect products for a princess inspired bridal look"
         blogContent={blogContent}
       />
     </div>
