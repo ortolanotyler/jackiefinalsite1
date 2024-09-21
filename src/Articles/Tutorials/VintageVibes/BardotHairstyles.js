@@ -522,11 +522,7 @@ Pin my Bardot looks on Pinterest to your inspiration board!
 
      
      <Comments website-id={websiteId} page-id={"bardot-hairstyles"} />
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div> <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
       
     </div>
     

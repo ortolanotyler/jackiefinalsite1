@@ -47,7 +47,7 @@ const SummerInspo = () => {
  
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '2.5rem',
+    fontSize: '50px',
     fontWeight: 'normal',
     fontFamily: 'GFS Didot, serif',
     color: '#000000',
