@@ -1,13 +1,8 @@
 import React, { useRef, useEffect } from 'react';
-import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import TextReveal from '../../Components/TextReveal';
 import AdSenseAd from '../../Advertising/Ads';
-import WeddingCarousel from '../../Components/WeddingCarousel';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
-import SubscribeButton from '../../Components/SubscribeButton';
 import { initGA, logPageView } from '../../analytics';
-import BridalDropCap from '../../Components/BridalDropCap';
 import { Helmet } from 'react-helmet';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import BookNowButton from '../../Components/BookNowButton';
@@ -56,12 +51,20 @@ const hotelq1 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/HOTELQTHUMBNAI
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-  <div>
-    <div className="card">
-      <div className="blog-content">{blogContent}</div>
-    </div>
-  </div>
-);
+  <div style={{
+    padding: '10px 40px', // Consistent padding to prevent content from touching edges
+    margin: '0 auto',
+    maxWidth: '100%', // Ensure card doesn’t exceed screen width
+    boxSizing: 'border-box', // Prevent padding from affecting width
+  }}>
+  
+      <div className="card">
+        <div className="blog-content">{blogContent}</div>
+      </div>
+      </div>
+  
+    
+  );
 
 const HotelQ2 = () => {
 
@@ -477,7 +480,6 @@ style = {{
 
   return (
     <div ref={blogRef}>
-      <TextReveal text = "HOTEL QUINTESSANCE" />
       <Card
         title="A Summer Getaway at Hotel Quintessence"
         description="A review of Hotel Quintessance at Tremblant"
