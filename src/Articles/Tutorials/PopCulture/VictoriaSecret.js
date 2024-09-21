@@ -1,15 +1,14 @@
 import React, { useRef, useEffect } from 'react';
-import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import TextReveal from '../../../Components/TextReveal';
-import DropCap from '../../../Components/DropCap';
+
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSTitle.png`;
 const Victoria2 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VictoriaDouble.png`;
@@ -19,129 +18,186 @@ const latte = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteThumbn
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-  <div>
-    <div><TextReveal text='POP CULTURE OBSESSED' /></div>
+ 
+  <div style={{
+    padding: '10px 20px', // Consistent padding to prevent content from touching edges
+    margin: '0 auto',
+  }}>
+
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
-  </div>
+    </div>
+
+  
 );
 
 const VictoriaSecret = () => {
-  const websiteId = '10910';
-  const blogRef = useRef(null);
 
   useEffect(() => {
     initGA();
     logPageView('/victoriasecret');
-}, []);
+  }, []);
 
-  
-const headingStyle = {
-  textAlign: 'center',
-  fontSize: '1.5rem',
-  fontWeight: 'normal',
-  fontFamily: 'Arapey, serif',
-  color: '#333',
-  margin: '1.5rem'
+
+  const websiteId = '10910';
+  const blogRef = useRef(null);
+
+ 
+  const headingStyle = {
+    textAlign: 'center',
+    fontSize: '2.5rem',
+    fontWeight: 'normal',
+    fontFamily: 'GFS Didot, serif',
+    color: '#000000',
+    margin: '30px auto'
 };
 
+
 const paragraphStyle = {
-  fontSize: '20px',
+  fontSize: '22px',
+  color: '#000000',
+
   fontFamily: 'GFS Didot, serif',
-  margin: '1rem 1.5rem',
-  marginTop: '1rem',
-  marginBottom: '1rem',
-  maxWidth: '500px',
-  lineHeight: '1.5',
+  margin: '2rem auto',
+
+  maxWidth: '500px', // Consistent with the other paragraphs
+  lineHeight: '1.6',
   marginLeft: 'auto',
   marginRight: 'auto',
 };
+
+const linkStyle = {
+  textDecoration: 'none', // Removes underline from links
+  fontFamily: 'GFS Didot, serif',
+  color: '#000000', // Inherits the color of the surrounding text
+};
+
+const gridContainerStyle = {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+    gap: '10px',
+    margin: '1rem auto'
+};
+
+const imageStyle = {
+  display: 'block',
+  margin: '1rem auto',
+  borderRadius: '0px',
+  maxWidth: '500px',
+  height: 'auto'
+};
+
+const pinterestGridStyle = {
+  display: 'grid',
+  gap: '1rem',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+  justifyItems: 'center',
+  margin: '1rem 0',
+};
+
+const iframeStyle = {
+  width: '100%',
+  maxWidth: '236px',
+  height: '520px', // Maintains original height
+  border: 'none',
+  scrolling: 'no',
+};
+
+const captionStyle = {
+  textAlign: 'center',
+  fontSize: '1.1rem',
+  fontFamily: 'Playfair Display, serif',
+  margin: '1rem auto',
+  maxWidth: '100%',
+  fontStyle: 'italic',
+};
+
   
   const blogContent = (
     <div className="container">
-      <Helmet>
-    <title>Victoria's Secret Fashion Show 2013 - Jackie Wyers</title>
-    <meta name="description" content="Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014." />
-    <meta name="keywords" content="Victoria's Secret, Fashion Show, Beauty Tips, Jackie Wyers, Makeup Tutorial, 2013, Snow Angel, Beauty Blog" />
-    <meta property="og:title" content="Victoria's Secret Fashion Show 2013 - Jackie Wyers" />
-    <meta property="og:description" content="Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014." />
-    <meta property="og:image" content={title} />
-    <meta property="og:url" content="https://jackiewyers.beauty/victoriasecret" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="canonical" href="https://jackiewyers.beauty/victoriasecret" />
+<Helmet>
+<title>The Victoria's Secret SNOW ANGEL Look at VSFS 2013 </title>
 
-    <meta name="twitter:title" content="Victoria's Secret Fashion Show 2013 - Jackie Wyers" />
-    <meta name="twitter:description" content="Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014." />
-    <meta name="twitter:image" content={title} />
-    <script type="application/ld+json">
-        {`
-        {
-            "@context": "http://schema.org",
-            "@type": "Article",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://jackiewyers.beauty/victoriasecret"
-            },
-            "headline": "Victoria's Secret Fashion Show 2013 - Jackie Wyers",
-            "description": "Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014.",
-            "image": "${title}",
-            "author": {
-                "@type": "Person",
-                "name": "Jackie Wyers"
-            },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Jackie Wyers",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "${title}"
-                }
-            },
-            "datePublished": "2024-07-27",
-            "dateModified": "2024-07-27"
+  <link rel="canonical" href="https://jackiewyers.beauty/victoriasecret" />
+
+  <meta name="description" content="Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014." />
+  <meta name="keywords" content="Victoria's Secret Fashion Show, Victoria's Secret Makeup, Snow Angel Look, 2013 Fashion Show, Beauty Tips, Jackie Wyers, Makeup Tutorial, Lingerie Fashion Show, Beauty Blog, 2014 beauty products, Taylor Swift VSFS, iconic beauty looks, girly Tumblr vibe, bronzed skin, Victoria's Secret glosses, COCO & EVE Self Tan, Bed-Head Blowout, Too Faced Hangover Primer, Luminous Silk Foundation, Armani Beauty, Hoola Bronzer, NARS Orgasm Blush, Charlotte Tilbury Highlighter, Victoria's Secret robes" />
+
+  <meta property="og:title" content="Victoria's Secret Fashion Show 2013 - Jackie Wyers" />
+  <meta property="og:description" content="Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014." />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/VictoriaSecret2014/VSTitle.png" />
+  <meta property="og:url" content="https://jackiewyers.beauty/victoriasecret" />
+  <meta name="twitter:title" content="Victoria's Secret Fashion Show 2013 - Jackie Wyers" />
+  <meta name="twitter:description" content="Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014." />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/VictoriaSecret2014/VSTitle.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+
+  {/* Google Ads Script */}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "The Victoria's Secret SNOW ANGEL Look at VSFS 2013 ",
+        "description": "Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014.",
+        "image": "https://jackiewyers.beauty/Images/Articles/VictoriaSecret2014/VSTitle.png",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/Images/Articles/Signature.png"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "dateModified": "2024-09-20",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/victoriasecret"
         }
-        `}
-    </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-    <script>
-        {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-        `}
-    </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+      }
+    `}
+  </script>
 </Helmet>
 
-
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
-        <a href="/popculture" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
-          BEAUTY // POP CULTURE
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
+        <a href="/popculture" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
+          BEAUTY // POP CULTURE // TRENDS
         </a>
       </div>
-      <img src={title} alt="Victoria's Secret Fashion Show 2013" style={{ width: '100%' }} />
 
-      <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <SubscribeButton />
-      </div>
+      <ArticleTitle
+  mainTitle="The Victoria's Secret SNOW ANGEL Look at VSFS 2013 "
+  subTitle="Using 2014 Girly Tumblr Products"
+  author="Jackie Wyers"
+  publishDate="Feb 18th, 2024"
+/>
 
-      <ResponsiveYoutube src="https://www.youtube.com/embed/Uz03ReLZO9k?start=3" title="Lana Del Ray X Skims Makeup Tutorial - Jackie Wyers" />
 
-      <div>
-      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
-      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-        </p>
-      </div>
+<div style = {{textAlign: 'center', margin: '10px auto' }}>
+<SubscribeButton />
+</div>
+
+      <ResponsiveYoutube src="https://www.youtube.com/embed/Uz03ReLZO9k?start=3" title="VICTORIA’S SECRET ANGEL makeup🎀 2014 girly tumblr aesthetic!" />
+
+      <p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
 
       <DropCap1 text="Welcome Back, Beauties! I don’t know about you, but I could definitely use a pick-me-up in the middle of winter. My go-to remedy is a mini shopping spree paired with a fabulous beauty routine! Let’s reminisce about the Victoria’s Secret Fashion Show of 2013, particularly the breathtaking Snow Angel segment. Remember the dazzling white lingerie, extravagant diamond necklaces, voluminous textured hair, and the understated yet glamorous makeup? Absolutely iconic. It was also Taylor Swift’s first Victoria’s Secret performance, looking as much of a supermodel as the angels on the winter wonderland-themed runway." />
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>Rediscovering Beauty Favorites</h2>
@@ -149,7 +205,8 @@ style = {{
       <p style={paragraphStyle}>
         Although I'm drawing inspiration from the 2013 VSFS show, behind the scenes photos from the runway were a staple of girly Tumblr throughout 2014. Let’s revisit some beloved beauty products from 2014 and I’ll introduce some contemporary alternatives that capture a similar, girly Tumblr vibe. Walking down beauty memory lane has been so much fun, and I hope to revive some love of products you may have used 10 years ago!
       </p>
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
+
+<div style={gridContainerStyle}>
         <a href='https://www.instagram.com/p/C3amrWou7Li/' alt='Instagram Link'>
           <img src={Victoria2} alt="Victoria's Secret Beauty Products" style={{ width: '100%' }} />
         </a>
@@ -161,20 +218,21 @@ style = {{
         First, I treated myself to a bit of shopping at Victoria's Secret, where I found a gorgeous white push-up bra from PINK as pictured above, the newest version of their iconic fashion show robe, and a new scent! After testing all the fragrances, the Tease Crème Cloud Eau de Parfum stood out as my favorite along with the matching body lotion. My top beauty must-have though? The VS glosses. I picked up a set including Caramel Kiss gloss. The sweet smell and bold shine is an instant mood booster and has been a go-to for years!
       </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/494316?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+
+
+
+
+      
+      
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
 
       <h2 style={headingStyle}>Achieving the Victoria's Secret SNOW ANGEL Look</h2>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '20px' }}>
-        <img src={Victoria6} alt='Snow Angel Look' style={{ width: '100%' }} />
+      <div style={gridContainerStyle}>
+      <img src={Victoria6} alt='Snow Angel Look' style={{ width: '100%' }} />
       </div>
 
       
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>Glowing Bronze, Healthy Skin</h2>
@@ -188,13 +246,10 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/494318?noHeader=true" title="More Beauty Products" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
- <div
-style = {{
-  margin : '20px'
-}}
->
 
+      
+      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
+ <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>Bed-Head Meets Blowout Hair</h2>
@@ -215,18 +270,13 @@ style = {{
       <p style={paragraphStyle}>
         The minimalist approach was key for the skin, so I used Armani Beauty Luminous Silk Foundation sheered out for a natural finish. The L’Oréal True Match Lumi products are great alternatives from the drugstore!
       </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>
         A touch of Maybelline Age Rewind concealer only one shade lighter than the foundation brightens the center of the face. Avoid too bright of a concealer as the skin wasn’t too heavily highlighted and contoured, unlike upcoming makeup trends. (Looking at you, 2016!)
       </p>
-      <ResponsiveIframe src="https://shopmy.us/collections/public/494324?noHeader=true" title="Skin Care Essentials" />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/494324?noHeader=true" title="Skin Care Essentials for a Glowy Look" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
 
       <p style={paragraphStyle}>
@@ -255,12 +305,7 @@ style = {{
       <p style={paragraphStyle}>
         For highlighter, I used the Charlotte Tilbury Bar of Gold. Taking the lightest shade, apply to the cheekbones, nose, and inner corner of the eye. I remember saving up for this highlighter palette in 2014 and still love it.
       </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>
@@ -280,12 +325,7 @@ style = {{
       <p style={paragraphStyle}>
         Echoing the 2013 show's "birds of a feather" theme, I crafted angel wings from paper cutouts and floral wire. Would be a fun idea for a Halloween costume! A shimmering body cream or oil will complete your supermodel glow.
       </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>The Iconic Pink Robes & A 2014 Tumblr Girl Gift Guide</h2>
@@ -303,12 +343,7 @@ style = {{
         </a>
       </div>
       <img src={Signature} alt='xoxo - Jackie Wyers' style={{ width: '100%' }} />
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <Comments website-id={websiteId} page-id={"Victoria-Secret-Review"} />
@@ -318,8 +353,8 @@ style = {{
   return (
     <div ref={blogRef}>
       <Card
-        title="2014 Victoria Secret with 2013 Makeup"
-        description="Time to strut our stuff like a Victoria's Secret Angel!"
+        title="2013 Victoria Secret with 2013 Makeup"
+        description="Using 2014 girly tumbler products!"
         blogContent={blogContent}
       />
     </div>
