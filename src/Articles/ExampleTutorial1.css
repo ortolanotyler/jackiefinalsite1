@@ -10,7 +10,7 @@ body {
   font-family: 'Georgia', serif;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
   background-color: #f4f4f4;
 }
 
@@ -18,6 +18,7 @@ body {
   max-width: 100%;
   margin: 0 auto;
   padding: 1rem 20px;
+  overflow-x: hidden; /* Ensures content stays within the screen */
 }
 
 /* Card Styles */
@@ -32,6 +33,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  max-width: 1200px; /* Ensures it doesn’t exceed the viewport on larger screens */
 }
 
 /* Blog Content Styles */
@@ -41,7 +43,7 @@ body {
   max-width: 100%;
   margin: 1rem auto;
   padding: 1rem;
-  overflow-wrap: break-word;
+  overflow-wrap: break-word; /* Ensures text doesn't overflow */
 }
 
 /* Paragraph Styles */
@@ -50,13 +52,14 @@ body {
   max-width: 100%;
   margin: 1rem auto;
   line-height: 1.6;
+  padding: 0 10px; /* Adds padding to avoid text touching the edges */
 }
 
 /* Image Styles */
 .image {
   display: block;
   margin: 1rem auto;
-  max-width: 100%;
+  max-width: 100%; /* Ensures images are fully responsive */
   height: auto;
   border-radius: 8px;
 }
@@ -65,6 +68,9 @@ body {
 @media screen and (max-width: 1200px) {
   .container {
     padding: 1rem 1.5rem;
+  }
+  .card {
+    max-width: 100%; /* Allows card to adapt to screen size */
   }
 }
 
@@ -79,7 +85,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .container {
-    padding: 1rem 2rem; /* Adds padding to the left and right */
+    padding: 1rem 1rem; /* Adds padding to avoid text touching the screen edges */
   }
   .card {
     padding: 1rem;
@@ -87,6 +93,7 @@ body {
   .paragraph {
     max-width: 100%;
     font-size: 16px;
+    padding: 0 5px; /* Ensure padding to avoid text touching edges */
   }
   .image {
     margin: 0.5rem auto;

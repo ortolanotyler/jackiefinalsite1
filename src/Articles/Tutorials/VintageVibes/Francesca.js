@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from 'react';
-import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import { initGA, logPageView } from '../../../analytics';
 import AdSenseAd from '../../../Advertising/Ads';
