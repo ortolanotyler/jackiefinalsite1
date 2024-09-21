@@ -350,7 +350,7 @@ const Card = ({ blogContent }) => (
 
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <a href="/2016makeup" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={makeup2016} alt="More Beauty Trends" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+          <img src={makeup2016} alt="2016 Makeup Trend Article" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
           MORE BEAUTY TRENDS →
         </a>
       </div>
