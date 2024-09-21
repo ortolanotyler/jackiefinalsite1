@@ -4,7 +4,6 @@ import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../Components/SubscribeButton';
 import TextReveal from '../../Components/TextReveal';
-import DropCap from '../../Components/DropCap';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
@@ -31,42 +30,101 @@ const tremblant14 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tre
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-    <div>
-        <div><TextReveal text='MONT-TREMBLANT' /></div>
-        <div className="card">
-            <div className="blog-content">{blogContent}</div>
-        </div>
-    </div>
-);
-
-const MontTremblantBlog = () => {
+ 
+    <div style={{
+      padding: '10px 20px', // Consistent padding to prevent content from touching edges
+      margin: '0 auto',
+    }}>
+  
+      <div className="card">
+        <div className="blog-content">{blogContent}</div>
+      </div>
+      </div>
+  
+    
+  );
+  
+  const MontTremblantBlog = () => {
+  
+    useEffect(() => {
+      initGA();
+      logPageView('/tremblant');
+    }, []);
+  
+  
     const websiteId = '10910';
     const blogRef = useRef(null);
-
-    useEffect(() => {
-        initGA();
-        logPageView('/tremblant');
-      }, []);
-
+  
+   
     const headingStyle = {
-        textAlign: 'center',
-        fontSize: '30px',
-        fontWeight: 'normal',
-        fontFamily: 'Arapey, serif',
-        color: '#333',
-        margin: '1.5rem'
-    };
-    const paragraphStyle = {
-        fontSize: '20px',
-        fontFamily: 'GFS Didot, serif',
-        margin: '1rem 1.5rem',
-        marginTop: '1rem',
-        marginBottom: '1rem',
-        maxWidth: '500px',
-        lineHeight: '1.5',
-        marginLeft: 'auto',
-        marginRight: 'auto',
-      };
+      textAlign: 'center',
+      fontSize: '2.5rem',
+      fontWeight: 'normal',
+      fontFamily: 'GFS Didot, serif',
+      color: '#000000',
+      margin: '30px auto'
+  };
+  
+  
+  const paragraphStyle = {
+    fontSize: '22px',
+    color: '#000000',
+  
+    fontFamily: 'GFS Didot, serif',
+    margin: '2rem auto',
+  
+    maxWidth: '500px', // Consistent with the other paragraphs
+    lineHeight: '1.6',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+  };
+  
+  const linkStyle = {
+    textDecoration: 'none', // Removes underline from links
+    fontFamily: 'GFS Didot, serif',
+    color: '#000000', // Inherits the color of the surrounding text
+  };
+  
+  const gridContainerStyle = {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+      gap: '10px',
+      margin: '1rem auto'
+  };
+  
+  const imageStyle = {
+    display: 'block',
+    margin: '1rem auto',
+    borderRadius: '0px',
+    maxWidth: '500px',
+    height: 'auto'
+  };
+  
+  const pinterestGridStyle = {
+    display: 'grid',
+    gap: '1rem',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+    justifyItems: 'center',
+    margin: '1rem 0',
+  };
+  
+  const iframeStyle = {
+    width: '100%',
+    maxWidth: '236px',
+    height: '520px', // Maintains original height
+    border: 'none',
+    scrolling: 'no',
+  };
+  
+  const captionStyle = {
+    textAlign: 'center',
+    fontSize: '1.1rem',
+    fontFamily: 'Playfair Display, serif',
+    margin: '1rem auto',
+    maxWidth: '100%',
+    fontStyle: 'italic',
+  };
+  
 
     const blogContent = (
         <div className="container">

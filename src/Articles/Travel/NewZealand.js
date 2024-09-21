@@ -173,64 +173,61 @@ const captionStyle = {
 
     const blogContent = (
         <div className="container">
-           <Helmet>
-    <title>New Zealand | Auckland Vlog and Experience</title>
-    <meta name="description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
-    <meta name="keywords" content="New Zealand, Auckland, Travel Blog, Jackie Wyers, Travel Vlog, Hotel Review, Fable Auckland, Shopping in Auckland, Waiheke Island, Ponsonby, Mount Eden, Auckland Art Gallery" />
-    <link rel="canonical" href="https://jackiewyers.beauty/newzealand" />
+  <Helmet>
+  <title>New Zealand | Auckland Vlog and Experience - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/newzealand" />
 
-    <meta property="og:title" content="New Zealand | Auckland Vlog and Experience" />
-    <meta property="og:description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
-    <meta property="og:image" content={title} />
-    <meta property="og:url" content="https://jackiewyers.beauty/newzealand" />
-    <meta property="og:type" content="article" />
+  <meta name="description" content="Explore Auckland with Jackie Wyers in this detailed travel vlog and review, featuring top spots, travel tips, and hidden gems around the city." />
+  <meta name="keywords" content="New Zealand travel, Auckland vlog, Jackie Wyers, Fable Auckland, shopping in Auckland, Waiheke Island, Ponsonby, Mount Eden, Auckland Art Gallery, travel tips, luxury hotels, New Zealand travel blog, Auckland experiences, best places to visit in Auckland, Auckland travel guide, New Zealand attractions, city tours, scenic walks, cafes in Auckland, Little and Friday, travel with Jackie Wyers, Auckland photography, New Zealand lifestyle, local experiences, Auckland scenic spots, iconic landmarks, New Zealand itinerary, Auckland city guide" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="New Zealand | Auckland Vlog and Experience" />
-    <meta name="twitter:description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
-    <meta name="twitter:image" content={title} />
+  <meta property="og:title" content="New Zealand | Auckland Vlog and Experience - Jackie Wyers" />
+  <meta property="og:description" content="Explore Auckland with Jackie Wyers in this detailed travel vlog and review, featuring top spots, travel tips, and hidden gems around the city." />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/NewZealand/NZThumbnail.jpg" />
+  <meta property="og:url" content="https://jackiewyers.beauty/newzealand" />
+  <meta property="og:type" content="article" />
 
-    <script type="application/ld+json">
-        {`
-        {
-            "@context": "http://schema.org",
-            "@type": "Article",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://jackiewyers.beauty/newzealand"
-            },
-            "headline": "New Zealand | Auckland Vlog and Experience",
-            "description": "A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience.",
-            "image": "${title}",
-            "author": {
-                "@type": "Person",
-                "name": "Jackie Wyers"
-            },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Jackie Wyers",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "${title}"
-                }
-            },
-            "datePublished": "2024-07-27",
-            "dateModified": "2024-07-27"
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="New Zealand | Auckland Vlog and Experience - Jackie Wyers" />
+  <meta name="twitter:description" content="Explore Auckland with Jackie Wyers in this detailed travel vlog and review, featuring top spots, travel tips, and hidden gems around the city." />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/NewZealand/NZThumbnail.jpg" />
+
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+
+  {/* Google Ads Script */}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "New Zealand | Auckland Vlog and Experience - Jackie Wyers",
+        "description": "Explore Auckland with Jackie Wyers in this detailed travel vlog and review, featuring top spots, travel tips, and hidden gems around the city.",
+        "image": "https://jackiewyers.beauty/Images/Articles/NewZealand/NZThumbnail.jpg",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/logo.png"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "dateModified": "2024-09-20",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/newzealand"
         }
-        `}
-    </script>
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-    <script>
-        {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-RT6GR7JXYG');
-        `}
-    </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+      }
+    `}
+  </script>
 </Helmet>
 
 
@@ -292,12 +289,12 @@ Rose Bridal on Instagram and decided to go there for a fitting! It may seem extr
 up being nice because it was a beautiful day, and we walked around downtown. Vancouver is magical on a beautiful summer day, and we walked along the Vancouver seawall and shared a thin-crust pizza from Cafe Villaggio.
 </p>
 <div style = {gridContainerStyle}>
-<img src={images[0]} alt="Maui view 1" style={imageStyle} />
+<img src={images[0]} alt="Auckland view 1" style={imageStyle} />
 
 </div>
 <div style={gridContainerStyle}>
-                <img src={images[1]} alt="Maui room 1" style={imageStyle} />
-                <img src={images[2]} alt="Maui room 2" style={imageStyle} />
+                <img src={images[1]} alt="Auckland room 1" style={imageStyle} />
+                <img src={images[2]} alt="Auckland room 2" style={imageStyle} />
             </div>
 <p style = {paragraphStyle}>
 
@@ -316,10 +313,10 @@ I came across the Hello Kitty Café in Vancouver, which was adorable, and I shop
             </p>
 
             <div style={gridContainerStyle}>    
-            <img src={images[3]} alt="Maui room 4" style={imageStyle} />
-                <img src={images[4]} alt="Maui room 4" style={imageStyle} />
-                <img src={images[5]} alt="Maui room 4" style={imageStyle} />
-                <img src={images[6]} alt="Maui room 4" style={imageStyle} />
+            <img src={images[3]} alt="Auckland room 4" style={imageStyle} />
+                <img src={images[4]} alt="Auckland room 4" style={imageStyle} />
+                <img src={images[5]} alt="Auckland room 4" style={imageStyle} />
+                <img src={images[6]} alt="Auckland room 4" style={imageStyle} />
                 
             </div>
            
@@ -333,16 +330,16 @@ I came across the Hello Kitty Café in Vancouver, which was adorable, and I shop
             <p style={paragraphStyle}>
             We landed in the morning and, after freshening up, we walked around Queen Street. There’s a beautiful mall atrium on Elliot Street across from the central square we explored. We were looking for a couple of items from the drugstore and checked out Life Pharmacy, Farmers, and Chemist Warehouse, New Zealand’s version of Shopper’s Drug Mart from Canada, and CVS in the US. I fell in love with some local shops like Creative & Brave and found so many earthy jewelry pieces with a fairy-like vibe, which is my favorite. We walked down to see the waterfront and got familiar with our new home for the week.
             <div style={gridContainerStyle}>    
-                <img src={images[7]} alt="Maui market" style={imageStyle} />
-                <img src={images[8]} alt="Maui market 2" style={imageStyle} />
+                <img src={images[7]} alt="Auckland market" style={imageStyle} />
+                <img src={images[8]} alt="Auckland market 2" style={imageStyle} />
             </div>
             
             <p style={paragraphStyle}>
 Chemist Warehouse was a bit overwhelming with so many products packed in there, but I did pick up a couple of McoBeauty items, an Australian brand known for duping Charlotte Tilbury!
 </p>
 <div style={gridContainerStyle}>    
-                <img src={images[9]} alt="Maui market" style={imageStyle} />
-                <img src={images[10]} alt="Maui market 2" style={imageStyle} />
+                <img src={images[9]} alt="Auckland market" style={imageStyle} />
+                <img src={images[10]} alt="Auckland market 2" style={imageStyle} />
             </div>
 <p style={paragraphStyle}>
 
@@ -354,8 +351,8 @@ After forcing ourselves to stay up as long as possible, we had a great night’s
      </p>
 
 <div style={gridContainerStyle}>    
-                <img src={images[11]} alt="Maui market" style={imageStyle} />
-                <img src={images[12]} alt="Maui market 2" style={imageStyle} />
+                <img src={images[11]} alt="Auckland market" style={imageStyle} />
+                <img src={images[12]} alt="Auckland market 2" style={imageStyle} />
             </div>
 
 
@@ -390,13 +387,13 @@ At Farmers, I picked up a whipped shower foam that looks like whipped cream from
 </p>
 
 <div style={gridContainerStyle}>    
-                <img src={images[13]} alt="Maui market" style={imageStyle} />
-                <img src={images[14]} alt="Maui market 2" style={imageStyle} />
+                <img src={images[13]} alt="Auckland market" style={imageStyle} />
+                <img src={images[14]} alt="Auckland market 2" style={imageStyle} />
                 <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
-                <img src={images[15]} alt="Maui market 2" style={imageStyle} />
-                <img src={images[16]} alt="Maui market 2" style={imageStyle} />
+                <img src={images[15]} alt="Auckland market 2" style={imageStyle} />
+                <img src={images[16]} alt="Auckland market 2" style={imageStyle} />
 
             </div>
 
@@ -404,11 +401,11 @@ At Farmers, I picked up a whipped shower foam that looks like whipped cream from
 We tried Bird on a Wire, which is a chain restaurant known for fried chicken and chicken dishes but was also exceptional. I really enjoyed the Eggs Benedict. You really can’t go wrong in New Zealand for brunch food! We took a walk to the Auckland Art Gallery to see some local art as well. I picked up a card from their beautiful array of gifts at the museum, and we caught the ferry at the last minute and headed to Waiheke Island. Waiheke is now one of my favorite places I’ve ever been!            </p>
 
 <div style={gridContainerStyle}>    
-                <img src={images[17]} alt="Maui market" style={imageStyle} />
-                <img src={images[18]} alt="Maui market 2" style={imageStyle} />
+                <img src={images[17]} alt="Auckland market" style={imageStyle} />
+                <img src={images[18]} alt="Auckland market 2" style={imageStyle} />
                 
-                <img src={images[19]} alt="Maui market 2" style={imageStyle} />
-                <img src={images[20]} alt="Maui market 2" style={imageStyle} />
+                <img src={images[19]} alt="Auckland market 2" style={imageStyle} />
+                <img src={images[20]} alt="Auckland market 2" style={imageStyle} />
 
             </div>
 
@@ -424,15 +421,15 @@ We tried Bird on a Wire, which is a chain restaurant known for fried chicken and
 were tons of seashells and trees growing out of the sides of the rocks, surrounded by beautiful crystal clear water. Truly a breathtaking view. I can only imagine how nice it would be to swim here in the summer.
 </p>
 <div style={gridContainerStyle}>    
-                <img src={images[21]} alt="Maui market" style={imageStyle} />
-                <img src={images[22]} alt="Maui market 2" style={imageStyle} />
+                <img src={images[21]} alt="Auckland market" style={imageStyle} />
+                <img src={images[22]} alt="Auckland market 2" style={imageStyle} />
                 
             </div>
             <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
             <div style={gridContainerStyle}>    
-            <img src={images[23]} alt="Maui market 2" style={imageStyle} />
+            <img src={images[23]} alt="Auckland market 2" style={imageStyle} />
               </div>
 
 
@@ -441,18 +438,18 @@ were tons of seashells and trees growing out of the sides of the rocks, surround
 The island is quite big, but we chose to walk from the beach through the surf town to the countryside to see the beautiful vineyards on our way to Mudbrick Vineyard and Restaurant. This was said to be one of the best
 </p>
 <div style={gridContainerStyle}>    
-            <img src={images[24]} alt="Maui market 2" style={imageStyle} />
+            <img src={images[24]} alt="Auckland market 2" style={imageStyle} />
               </div>
 
 <p style={paragraphStyle}>
 
 wineries in the world according to reviews, and I too had a great experience. While the restaurant was closed for a private event, my mom and I had an amazing drink outside watching the sunset and then had dinner at The Archive Bistro. The ambiance was candlelit with a beautiful fireplace. It was cozy, and the food was incredible, and my mom and I had great chats sitting by the fire. It was a public holiday when we went, so there was a surcharge, but it was definitely worth it. I’m not a wine drinker, so I had a cocktail, but my mom really enjoyed her red wine. An Uber took us back to the ferry to head back to the hotel.            </p>
 <div style={gridContainerStyle}>    
-            <img src={images[25]} alt="Maui market 2" style={imageStyle} />
-            <img src={images[26]} alt="Maui market 2" style={imageStyle} />
+            <img src={images[25]} alt="Auckland market 2" style={imageStyle} />
+            <img src={images[26]} alt="Auckland market 2" style={imageStyle} />
 
-            <img src={images[27]} alt="Maui market 2" style={imageStyle} />
-            <img src={images[28]} alt="Maui market 2" style={imageStyle} />
+            <img src={images[27]} alt="Auckland market 2" style={imageStyle} />
+            <img src={images[28]} alt="Auckland market 2" style={imageStyle} />
 
             
               </div>
@@ -469,17 +466,17 @@ wineries in the world according to reviews, and I too had a great experience. Wh
             out Ponsonby, which is a hip neighbourhood, and to go to Little & Friday, a local bakery. My mom and I split a breakfast quiche and their famous doughnut. I’m not typically a donut person, but it was an incredible pastry, and I can totally see why it is such a hit with the locals. The shopping strip had a bunch of eclectic shops like thrift stores, boutiques, and trendy cafés! I even went to a second cafe for another cappuccino since I’m a bit of a coffee addict, and the coffee here is superior. There were so many items that I loved in the Ponsonby shops.
                         </p>
                         <div style={gridContainerStyle}>    
-            <img src={images[29]} alt="Maui market 2" style={imageStyle} />
-            <img src={images[30]} alt="Maui market 2" style={imageStyle} />
+            <img src={images[29]} alt="Auckland market 2" style={imageStyle} />
+            <img src={images[30]} alt="Auckland market 2" style={imageStyle} />
 
-            <img src={images[31]} alt="Maui market 2" style={imageStyle} />
-            <img src={images[32]} alt="Maui market 2" style={imageStyle} />
+            <img src={images[31]} alt="Auckland market 2" style={imageStyle} />
+            <img src={images[32]} alt="Auckland market 2" style={imageStyle} />
 
             
               </div>
                         <h2 style={headingStyle}>👰 Day Four: Bridal Appointment in Parnell</h2>
                         <div style={gridContainerStyle}>    
-  <img src={images[33]} alt="Maui market 2" style={{...imageStyle, float: 'left', marginRight: '1rem', marginBottom: '1rem'}} />
+  <img src={images[33]} alt="Auckland market 2" style={{...imageStyle, float: 'left', marginRight: '1rem', marginBottom: '1rem'}} />
   <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
@@ -496,8 +493,8 @@ wineries in the world according to reviews, and I too had a great experience. Wh
 
 
 <div style={gridContainerStyle}>    
-            <img src={images[34]} alt="Maui market 2" style={imageStyle} />
-            <img src={images[35]} alt="Maui market 2" style={imageStyle} />
+            <img src={images[34]} alt="Auckland market 2" style={imageStyle} />
+            <img src={images[35]} alt="Auckland market 2" style={imageStyle} />
 
 
             
@@ -510,8 +507,8 @@ Pavlova is my favorite dessert, and my mom makes a great version that I always r
   <AdSenseAd/>
 </div>
 <div style={gridContainerStyle}>    
-            <img src={images[36]} alt="Maui market 2" style={imageStyle} />
-            <img src={images[37]} alt="Maui market 2" style={imageStyle} />
+            <img src={images[36]} alt="Auckland market 2" style={imageStyle} />
+            <img src={images[37]} alt="Auckland market 2" style={imageStyle} />
               </div>
 
               <div style = {{ margin : '1rem auto'}}>
@@ -526,8 +523,8 @@ Pavlova is my favorite dessert, and my mom makes a great version that I always r
             While I didn’t feel like I had jetlag, I almost always get a cold from traveling long distances. I asked over on Instagram what I should do while I was in New Zealand and got a lot of suggestions to go further out from the city and see Hobbiton and the South Island. We decided to keep it more low-key and see the Auckland Domain Wintergardens, the Auckland War Memorial Museum, and then head to the Auckland zoo as they were all about a 10-15 minute drive away from each other.
 </p>
 <div style={gridContainerStyle}>    
-            <img src={images[38]} alt="Maui market 2" style={imageStyle} />
-            <img src={images[39]} alt="Maui market 2" style={imageStyle} />
+            <img src={images[38]} alt="Auckland market 2" style={imageStyle} />
+            <img src={images[39]} alt="Auckland market 2" style={imageStyle} />
               </div>
 
 <p style={paragraphStyle}>
@@ -536,7 +533,7 @@ The Wintergarden Pavilion was another amazing café with fresh food. While I was
 </p>
 
 <div style={gridContainerStyle}>    
-            <img src={images[55]} alt="Maui market 2" style={imageStyle} />
+            <img src={images[55]} alt="Auckland market 2" style={imageStyle} />
               </div>
 
               <div style = {{ margin : '1rem auto'}}>
@@ -555,7 +552,7 @@ was a kiwi bird, but they are nocturnal and endangered, so it was nice to see wh
 </p>
 <div style={gridContainerStyle}>    
 
-<img src={images[41]} alt="Maui market 2" style={imageStyle} />
+<img src={images[41]} alt="Auckland market 2" style={imageStyle} />
 </div>
 
           
@@ -595,7 +592,7 @@ crater, which offers panoramic views of the city. There were tons of tourists, a
 </div>
 
         <div style={gridContainerStyle}>    
-            <img src={images[43]} alt="Maui market 2" style={imageStyle} />
+            <img src={images[43]} alt="Auckland market 2" style={imageStyle} />
 
             </div>
        
@@ -609,10 +606,10 @@ I saw a shop called Ruby, a New Zealand brand that focuses on eco-friendly fashi
 </div>
            
             <div style={gridContainerStyle}>
-                <img src={images[49]} alt="Maui view 6" style={imageStyle} />
-                <img src={images[50]} alt="Maui view 7" style={imageStyle} />
-                <img src={images[51]} alt="Maui view 8" style={imageStyle} />
-                <img src={images[52]} alt="Maui view 8" style={imageStyle} />
+                <img src={images[49]} alt="Auckland view 6" style={imageStyle} />
+                <img src={images[50]} alt="Auckland view 7" style={imageStyle} />
+                <img src={images[51]} alt="Auckland view 8" style={imageStyle} />
+                <img src={images[52]} alt="Auckland view 8" style={imageStyle} />
             </div>
             <p style={paragraphStyle}>
     While I bought a couple of souvenirs, I wanted to bring back something for Tyler. There is an All Blacks Experience nearby in the SkyCity precinct, close to the base of the Sky Tower. This attraction is dedicated to New Zealand's iconic rugby team, the All Blacks, who are known for their winning legacy. I got him a golf shirt with the logo and safe to say he loved it. The airport has options for All Blacks fans at a cheaper price, but it was cool to see the experience before we headed back to the airport.
@@ -624,7 +621,7 @@ I always try to eat at places unique to wherever I’m visiting and had to try B
       
             <div style={gridContainerStyle}>
                 
-                <img src={images[53]} alt="Maui view 8" style={imageStyle} />
+                <img src={images[53]} alt="Auckland view 8" style={imageStyle} />
             </div>
 
             <h2 style={headingStyle}>🐦 A Final Note</h2>
@@ -641,7 +638,7 @@ Are you from New Zealand? I would love to know, and I would love to go back in t
 </div>
 <div style={gridContainerStyle}>
                 
-                <img src={images[54]} alt="Maui view 8" style={imageStyle} />
+                <img src={images[54]} alt="Auckland view 8" style={imageStyle} />
             </div>
 <p style={paragraphStyle}>
 

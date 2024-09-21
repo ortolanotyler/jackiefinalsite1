@@ -32,7 +32,7 @@ const images = [
 ];
 
 
-const signature = `${process.env.PUBLIC_URL}/Images/Articles/signature.png`;
+const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
  
