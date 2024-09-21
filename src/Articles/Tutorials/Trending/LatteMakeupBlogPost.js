@@ -1,11 +1,8 @@
 import React, { useRef, useEffect } from 'react';
-import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
-import DropCap from '../../../Components/DropCap';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import TextReveal from '../../../Components/TextReveal';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import Helmet from'react-helmet';
@@ -127,12 +124,12 @@ const Card = ({ blogContent }) => (
 
   <meta property="og:title" content="Latte Makeup Tutorial - Jackie Wyers" />
   <meta property="og:description" content="Learn how to master the trending Latte Makeup look with Jackie Wyers. This guide covers everything from tanned and natural bases to bronzed eyes for a cozy fall makeup vibe." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/LatteMakeup/LatteMakeupThumbnail.jpg" />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/LatteMakeup/LatteThumbnail.jpg" />
   <meta property="og:url" content="https://jackiewyers.beauty/lattemakeup" />
 
   <meta name="twitter:title" content="Latte Makeup Tutorial - Jackie Wyers" />
   <meta name="twitter:description" content="Learn how to master the trending Latte Makeup look with Jackie Wyers. This guide covers everything from tanned and natural bases to bronzed eyes for a cozy fall makeup vibe." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/LatteMakeup/LatteMakeupThumbnail.jpg" />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/LatteMakeup/LatteThumbnail.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
   {/* Google Analytics Script */}
@@ -150,7 +147,7 @@ const Card = ({ blogContent }) => (
         "@type": "BlogPosting",
         "headline": "Latte Makeup Tutorial - Jackie Wyers",
         "description": "Learn how to master the trending Latte Makeup look with Jackie Wyers. This guide covers everything from tanned and natural bases to bronzed eyes for a cozy fall makeup vibe.",
-        "image": "https://jackiewyers.beauty/Images/Articles/LatteMakeup/LatteMakeupThumbnail.jpg",
+        "image": "https://jackiewyers.beauty/Images/Articles/LatteMakeup/LatteThumbnail.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -228,12 +225,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </div>
       <h2 style={headingStyle}>The Base: Tanned and Natural</h2>
       <p style={paragraphStyle}>
-        Applying self-tanner the night before can really help create a harmonious, warm canvas. Make sure you’ve moisturized the skin before makeup, and we are going with no foundation for this style, but I gave my skin a boost with Charlotte Tilbury Hollywood Flawless Filter for a sheer glow with a hint of coverage.
-      </p>
+  Applying self-tanner the night before can really help create a harmonious, warm canvas. Make sure you’ve moisturized the skin before makeup, and we are going with no foundation for this style, but I gave my skin a boost with <a href="https://www.charlottetilbury.com" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>Charlotte Tilbury Hollywood Flawless Filter</a> for a sheer glow with a hint of coverage.
+</p>
       <h2 style={headingStyle}>Highlight and Contour</h2>
       <p style={paragraphStyle}>
-        My favorite palette for warming up the skin and highlighting is the Make Up For Ever HD Skin sculpting palette. These shades are sheer, so again the base won’t appear too heavy. While the foundation is natural, this style of makeup does call for contour and highlight!
-      </p>
+  My favorite palette for warming up the skin and highlighting is the <a href="https://www.makeupforever.com" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>Make Up For Ever HD Skin sculpting palette</a>. These shades are sheer, so again the base won’t appear too heavy. While the foundation is natural, this style of makeup does call for contour and highlight!
+</p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493598?noHeader=true" title="Highlight and Contour Products" />
 
@@ -246,8 +243,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
         Unlike the typical warm, red-toned bronzers, this look calls for a yellow-based bronzer to add warmth to the skin and complement the caramel-toned eyeshadows coming up.
       </p>
       <p style={paragraphStyle}>
-        Benefit Cosmetics Hoola Caramel is a great pick if you are fair-medium in skin tone. You can rock this look no matter your complexion, but it will suit warmer coloring best. <a href="https://www.youtube.com/watch?v=okXpvzknH9w&t=555s" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>See the espresso look for cool-toned skin</a>!
-      </p>
+  Benefit Cosmetics <a href="https://www.benefitcosmetics.com/en-us/product/hoola-caramel" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>Hoola Caramel</a> is a great pick if you are fair-medium in skin tone. You can rock this look no matter your complexion, but it will suit warmer coloring best. <a href="https://www.youtube.com/watch?v=okXpvzknH9w&t=555s" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>See the espresso look for cool-toned skin</a>!
+</p>
       <p style={paragraphStyle}>
         Apply the bronzer over the top of the subtle contouring to amp up the tanned goddess effect!
       </p>
@@ -257,14 +254,14 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
         For the eyes, continue to use the Hoola Bronzer in Caramel into the crease and under the lash line for a soft smokey effect.
       </p>
       <p style={paragraphStyle}>
-        Next, add a brown liner pencil to rim the lash line and softly fade into the crease. The ColourPop lipliner I used called BFF 3 is really creamy and easy to blend for this step, plus it is lighter than most traditional eyeliners on the market, making it appear softer. Make sure you're not using the eyeliner on the lips and eyes and sanitize between uses if you do opt for a lipliner on the eyes!
-      </p>
+  Next, add a brown liner pencil to rim the lash line and softly fade into the crease. The <a href="https://colourpop.com" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>ColourPop</a> lipliner I used called BFF 3 is really creamy and easy to blend for this step, plus it is lighter than most traditional eyeliners on the market, making it appear softer. Make sure you're not using the eyeliner on the lips and eyes and sanitize between uses if you do opt for a lipliner on the eyes!
+</p>
      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
-      <p style={paragraphStyle}>
-        Continue by picking a palette that has warm matte and shimmer tones like ONE/SIZE BY PATRICK STARRR | Visionary Eyeshadow Palette to deepen up the outer corner of the eye and add a bronzer shimmer to the lid to pick up the light.
-      </p>
+<p style={paragraphStyle}>
+  Continue by picking a palette that has warm matte and shimmer tones like <a href="https://www.onesizebeauty.com" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>ONE/SIZE BY PATRICK STARRR | Visionary Eyeshadow Palette</a> to deepen up the outer corner of the eye and add a bronzer shimmer to the lid to pick up the light.
+</p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493604?noHeader=true" title="Eye Makeup Products" />
 
@@ -272,11 +269,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <h2 style={headingStyle}>Brows</h2>
       <p style={paragraphStyle}>
-        Inspired by Tanielle Jai’s work, her models typically rock very bold, Brooke Shields-esque brows. Fill your brows in with natural strokes and set in place with a brow gel. I went REALLY bold, so feel free to tone the brow down to suit your preferences!
-      </p>
-      <p style={paragraphStyle}>
-        Using a liquid liner, create more drama on the lash line and use this same liner to add beauty marks or faux freckles. This is a Tanielle Jai signature step that is super fun to try out. Pop on an outer corner lash, and the eyes are complete!
-      </p>
+  Inspired by <a href="https://www.instagram.com/taniellejaimua" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>Tanielle Jai</a>’s work, her models typically rock very bold, Brooke Shields-esque brows. Fill your brows in with natural strokes and set in place with a brow gel. I went REALLY bold, so feel free to tone the brow down to suit your preferences!
+</p>
+
+<p style={paragraphStyle}>
+  Using a liquid liner, create more drama on the lash line and use this same liner to add beauty marks or faux freckles. This is a <a href="https://www.instagram.com/taniellejaimua" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>Tanielle Jai</a> signature step that is super fun to try out. Pop on an outer corner lash, and the eyes are complete!
+</p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493609?noHeader=true" title="Brow Products" />
 
@@ -286,8 +284,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </div>
       <h2 style={headingStyle}>Lips & Finishing Touches</h2>
       <p style={paragraphStyle}>
-        For the lips, over-line them with a medium-toned caramel brown shade, and blur out again for no harsh lines. Add a lip plumper for a fuller look in a milky pink or nude shade.
-      </p>
+  For the lips, over-line them with a medium-toned caramel brown shade, and blur out again for no harsh lines. Add a lip plumper for a fuller look in a milky pink or nude shade.
+</p>
       <p style={paragraphStyle}>
         The finishing touch to bring this glamorous look all together is to use a golden highlighter on the cheeks, chin, nose, and even collarbones for a radiant glow. Paired with gold jewelry and a simple white top, the makeup truly embraced the Golden Goddess aesthetic with the new trending title of “Latte Makeup.”
       </p>
@@ -297,8 +295,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       
 
       <p style={paragraphStyle}>
-        Want to be featured on my site? Tag me in your recreation or version of this look on Insta <a href="https://www.instagram.com/jackiewyers/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}><strong>@jackiewyers</strong></a>. I’d love to see you switch up your style with confidence!
-      </p>
+  Want to be featured on my site? Tag me in your recreation or version of this look on Insta <a href="https://www.instagram.com/jackiewyers/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}><strong>@jackiewyers</strong></a>. I’d love to see you switch up your style with confidence!
+</p>
 
       <div style={gridContainerStyle}>
       <img src={Latte16} alt='Jackie Wyers Signature' style={{ width: '100%', maxWidth: '1300px' }} />
@@ -334,7 +332,13 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
   return (
     <div ref={blogRef}>
-      <Card blogContent={blogContent} />
+      <Card
+        title="Trend Report: How to Get The Latte Makeup Look"
+        description="Think cozy, warm, and chic!"
+        blogContent={blogContent}
+      />
+
+ 
     </div>
   );
 };
