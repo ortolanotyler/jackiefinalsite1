@@ -1,8 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import TextReveal from '../../Components/TextReveal';
-import DropCap from '../../Components/DropCap';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeVlog from '../../Components/SubscribeVlog';
@@ -71,9 +69,6 @@ const images = [
     `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/55.png`,
     `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/56.png`,
 
-
-
-    
 ];
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/NewZealandTitle.png`;
@@ -81,57 +76,100 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const fable = `${process.env.PUBLIC_URL}/Images/Articles/Fable/FableAucklandThumbnail.jpg`;
 
 const Card = ({ blogContent }) => (
-    <div>
-        <div><TextReveal text='NEW ZEALAND' /></div>
-        <div className="card">
-            <div className="blog-content">{blogContent}</div>
-        </div>
+ 
+  <div style={{
+    padding: '10px 20px', // Consistent padding to prevent content from touching edges
+    margin: '0 auto',
+  }}>
+
+    <div className="card">
+      <div className="blog-content">{blogContent}</div>
     </div>
+    </div>
+
+  
 );
 
 const NewZealand = () => {
-    const websiteId = '10910';
-    const blogRef = useRef(null);
 
-    useEffect(() => {
-      initGA();
-      logPageView('/newzealand');
-    }, []);
+  useEffect(() => {
+    initGA();
+    logPageView('/newzealand');
+  }, []);
 
-    const headingStyle = {
-      textAlign: 'center',
-      fontSize: '1.5rem',
-      fontWeight: 'normal',
-      fontFamily: 'Arapey, serif',
-      color: '#333',
-      margin: '1.5rem'
-  };
 
-  const paragraphStyle = {
-    fontSize: '20px',
+  const websiteId = '10910';
+  const blogRef = useRef(null);
+
+ 
+  const headingStyle = {
+    textAlign: 'center',
+    fontSize: '2.5rem',
+    fontWeight: 'normal',
     fontFamily: 'GFS Didot, serif',
-    margin: '1rem 1.5rem',
-    marginTop: '1rem',
-    marginBottom: '1rem',
-    maxWidth: '500px',
-    lineHeight: '1.5',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-  };
+    color: '#000000',
+    margin: '30px auto'
+};
 
-    const imageStyle = {
-        display: 'block',
-        margin: '0 auto',
-        maxWidth: '100%',
-        height: 'auto'
-    };
 
-    const gridContainerStyle = {
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-        gap: '1rem',
-        margin: '1rem 0'
-    };
+const paragraphStyle = {
+  fontSize: '22px',
+  color: '#000000',
+
+  fontFamily: 'GFS Didot, serif',
+  margin: '2rem auto',
+
+  maxWidth: '500px', // Consistent with the other paragraphs
+  lineHeight: '1.6',
+  marginLeft: 'auto',
+  marginRight: 'auto',
+};
+
+const linkStyle = {
+  textDecoration: 'none', // Removes underline from links
+  fontFamily: 'GFS Didot, serif',
+  color: '#000000', // Inherits the color of the surrounding text
+};
+
+const gridContainerStyle = {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+    gap: '10px',
+    margin: '1rem auto'
+};
+
+const imageStyle = {
+  display: 'block',
+  margin: '1rem auto',
+  borderRadius: '0px',
+  maxWidth: '500px',
+  height: 'auto'
+};
+
+const pinterestGridStyle = {
+  display: 'grid',
+  gap: '1rem',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+  justifyItems: 'center',
+  margin: '1rem 0',
+};
+
+const iframeStyle = {
+  width: '100%',
+  maxWidth: '236px',
+  height: '520px', // Maintains original height
+  border: 'none',
+  scrolling: 'no',
+};
+
+const captionStyle = {
+  textAlign: 'center',
+  fontSize: '1.1rem',
+  fontFamily: 'Playfair Display, serif',
+  margin: '1rem auto',
+  maxWidth: '100%',
+  fontStyle: 'italic',
+};
 
     const blogContent = (
         <div className="container">
@@ -196,32 +234,41 @@ const NewZealand = () => {
 </Helmet>
 
 
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
-                <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
-                    TRAVEL // ITINERARIES
-                </a>
-            </div>
-            <div> 
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
+        <a href="/travel" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
+          TRAVEL // ITINERARIES
+        </a>
+      </div>
+
+
+          
             <ArticleTitle
-  mainTitle="New Zealand | Auckland Vlog and Experience"
-  subTitle="A magical week halfway around the world"
+  mainTitle="A Whimsical Week Exploring Auckland, New Zealand"
+  subTitle="Waiheke Island, Queen Street Shopping & Dream Appointment!"
   author="Jackie Wyers"
+  publishDate='June 21st,2024'
 />      
-            </div>
-                <ResponsiveYoutube src="https://www.youtube.com/embed/-eLreMotKEs?si=5VvA8ay_d6aymnOQ" title="YouTube video player" />
-            <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                <SubscribeVlog />
-            </div>
-            <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
-            All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-            </p>
+           
+
+
+                <ResponsiveYoutube src="https://www.youtube.com/embed/-eLreMotKEs?si=5VvA8ay_d6aymnOQ" title="NEW ZEALAND TRAVEL VLOG 🇳🇿 Dream Bridal Fitting, Waiheke Island, Shopping & More! 🕊️" />
+            
+                <div style = {{textAlign: 'center', margin: '10px auto' }}>
+<SubscribeVlog />
+</div>
+
+<p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
+
+
             <DropCap1 text="Welcome to an epic travel vlog of my experience, flying from Toronto all the way to Auckland, New Zealand for a magical week halfway around the
 world! I stayed at a whimsical hotel called Fable Auckland on Queen Street, and I have a full review of my experience at the link below. But first, let’s talk about everything I did in the unforgettable week." />
 
 
 <p style={paragraphStyle}>
-    <div style = {{textAlign: 'center', fontSize: '2rem'}}>
-    <a href="/fableaukland" style = {{fontSize: '2rem'}}> Fable Auckland Review</a>
+    <div style = {{textAlign: 'center'}}>
+    <a href="/fableaukland" style = {{ textAlign: 'center', color: '#000000',fontSize: '1.5rem' }}> Fable Auckland Review</a>
 
     </div>
 </p>
@@ -234,12 +281,7 @@ Rose Bridal on Instagram and decided to go there for a fitting! It may seem extr
 </p>
 
 
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
+            <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
           
@@ -284,12 +326,7 @@ I came across the Hello Kitty Café in Vancouver, which was adorable, and I shop
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
             <BookNowButton href="https://plannin.com/en/hotel/f776fea4-a8ec-41f7-bd2f-2830ca7b615e?currency=USD" target="_blank" rel="noopener noreferrer"/>
             </div>
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
+            <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
             <h2 style={headingStyle}>🛍 Day One: Shopping and Beating Jet lag</h2>
@@ -355,12 +392,7 @@ At Farmers, I picked up a whipped shower foam that looks like whipped cream from
 <div style={gridContainerStyle}>    
                 <img src={images[13]} alt="Maui market" style={imageStyle} />
                 <img src={images[14]} alt="Maui market 2" style={imageStyle} />
-                <div
-style = {{
-  margin : '20px'
-}}
->
-
+                <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
                 <img src={images[15]} alt="Maui market 2" style={imageStyle} />
@@ -381,12 +413,7 @@ We tried Bird on a Wire, which is a chain restaurant known for fried chicken and
             </div>
 
            
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
+            <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
        
@@ -401,12 +428,7 @@ were tons of seashells and trees growing out of the sides of the rocks, surround
                 <img src={images[22]} alt="Maui market 2" style={imageStyle} />
                 
             </div>
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
+            <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
             <div style={gridContainerStyle}>    
@@ -435,12 +457,7 @@ wineries in the world according to reviews, and I too had a great experience. Wh
             
               </div>
           
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
+            <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
        
@@ -463,12 +480,7 @@ style = {{
                         <h2 style={headingStyle}>👰 Day Four: Bridal Appointment in Parnell</h2>
                         <div style={gridContainerStyle}>    
   <img src={images[33]} alt="Maui market 2" style={{...imageStyle, float: 'left', marginRight: '1rem', marginBottom: '1rem'}} />
-  <div
-style = {{
-  margin : '20px'
-}}
->
-
+  <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
   <p style={paragraphStyle}>
@@ -494,12 +506,7 @@ style = {{
             My mom was such a trooper, taking some behind-the-scenes footage and photos as I tried on beautiful gowns. We walked from Natalie Rose Bridal to
 Cibo for fish and chips and our first taste of New Zealand Pavlova!
 Pavlova is my favorite dessert, and my mom makes a great version that I always request on my birthday or Christmas! My best friend’s dad made it when I was at her house as a teen, and I had to get him to give my mom the recipe. While we were used to a lot of fruit, which is typical on top of Pavlova, at this restaurant the salted caramel/peanut was the most popular, and we devoured it. Best. Dessert. Ever.            </p>
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
+            <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 <div style={gridContainerStyle}>    
@@ -507,12 +514,7 @@ style = {{
             <img src={images[37]} alt="Maui market 2" style={imageStyle} />
               </div>
 
-              <div
-style = {{
-  margin : '20px'
-}}
->
-
+              <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
             <h2 style={headingStyle}>🍫 Day Five: Winter Gardens, Auckland Zoo, Chocolate!!!
@@ -537,12 +539,7 @@ The Wintergarden Pavilion was another amazing café with fresh food. While I was
             <img src={images[55]} alt="Maui market 2" style={imageStyle} />
               </div>
 
-              <div
-style = {{
-  margin : '20px'
-}}
->
-
+              <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -575,12 +572,7 @@ For dinner, I came across Ortolana’s on Tyler Street and my husband’s name i
     
          
            
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
+            <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -598,12 +590,7 @@ style = {{
 crater, which offers panoramic views of the city. There were tons of tourists, and many were taking massive group TikToks, which was pretty funny to see.
         adorable top and a beautiful blue dress!            </p>
 
-        <div
-style = {{
-  margin : '20px'
-}}
->
-
+        <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -617,12 +604,7 @@ style = {{
 I saw a shop called Ruby, a New Zealand brand that focuses on eco-friendly fashion. A couple of their new collection pieces really stood out to me, so I tried on an
             </p>
 
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
+            <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
            
@@ -654,12 +636,7 @@ I always try to eat at places unique to wherever I’m visiting and had to try B
 
 Are you from New Zealand? I would love to know, and I would love to go back in the summer as well because it truly was a magical place. I felt like I fit right in with the lovely locals that I spoke to. I also noticed the fashion was pretty vibrant, especially in older ladies with funky earrings, glasses, and prints. I met some quite fabulous older ladies on this trip who were bold as ever!
 </p>
-<div
-style = {{
-  margin : '20px'
-}}
->
-
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 <div style={gridContainerStyle}>
@@ -678,31 +655,29 @@ Let me know below if you have any places that you think I should travel to next.
           FABLE AUCKLAND HOTEL REVIEW →
         </a> 
       </div>
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
-<div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+           
             <img src={signature} alt="Signature" style={{ width: '100%' }} />
             <Comments website-id={websiteId} page-id={"auklandstrizzlebeans"} />
+            <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
         </div>
     );
 
     return (
         <div ref={blogRef}>
-            <Card blogContent={blogContent} />
-        </div>
+ <Card
+        title="A Whimsical Week Exploring Auckland, New Zealand"
+        description="Waiheke Island, Queen Street Shopping & Dream Appointment!"
+        blogContent={blogContent}
+      />     
+    
+      
+      
+         </div>
     );
 };
 
