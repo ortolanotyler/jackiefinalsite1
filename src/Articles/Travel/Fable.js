@@ -147,7 +147,7 @@ const Fable = () => {
                 "name": "Jackie Wyers Beauty",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "${process.env.PUBLIC_URL}/Images/Home/jackielogo.png"
+                      "url": "${process.env.PUBLIC_URL}/jwlogo3.png"
                 }
             },
             "datePublished": "2024-07-27",
@@ -378,22 +378,7 @@ style = {{
 
   return (
     <div>
-      <Helmet>
-        <title>Fable Aukland Hotel Review</title>
-        <meta name="description" content="Join Jackie Wyers as she reviews the luxurious Hotel Quintessence in Mont Tremblant, Quebec. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities." />
-        <meta name="keywords" content="Hotel Quintessence, Mont Tremblant, Luxury Hotel, Quebec Travel, Jackie Wyers, Hotel Review" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-      </Helmet>
+     
       <div ref={blogRef}>
         <Card blogContent={blogContent} />
       </div>

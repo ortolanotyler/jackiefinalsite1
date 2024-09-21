@@ -194,7 +194,7 @@ fontStyle: 'italic',
                 "name": "Jackie Wyers Beauty",
                 "logo": {
                   "@type": "ImageObject",
-            "url": "${process.env.PUBLIC_URL}/Images/Home/jwlogo3.png"
+              "url": "${process.env.PUBLIC_URL}/jwlogo3.png"
                 }
               },
               "datePublished": "2024-07-27",

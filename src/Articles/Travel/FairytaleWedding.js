@@ -11,7 +11,7 @@ import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 
 
-const title = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/WeddingTitle.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/1.jpg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/2.jpg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/3.jpg`;
@@ -165,61 +165,59 @@ const Card = ({ blogContent }) => (
     <div className="container">
 <Helmet>
   <title>Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/fairytalewedding" />
+
   <meta name="description" content="Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments." />
-  <meta name="keywords" content="Jackie Wyers, wedding, Sorrento, Italy, fairytale wedding, bridal beauty, wedding photography, wedding dress, wedding inspiration, bridal makeup, bridal hair, wedding planning, destination wedding" />
-  
+  <meta name="keywords" content="Jackie Wyers, wedding, Sorrento, Italy, fairytale wedding, bridal beauty, wedding photography, wedding dress, wedding inspiration, bridal makeup, bridal hair, wedding planning, destination wedding, romantic wedding, whimsical wedding, wedding ceremony, wedding decorations, bridal party, intimate wedding, wedding venue, Italian wedding, wedding photographer, fairytale-inspired wedding, custom wedding decor, wedding aesthetics, wedding planning tips, elopement in Italy, luxury wedding, fairycore bridesmaids, custom wedding menus, wedding favors, private villa wedding" />
+
   <meta property="og:title" content="Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers" />
   <meta property="og:description" content="Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments." />
-  <meta property="og:image" content={title} />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg" />
   <meta property="og:url" content="https://jackiewyers.beauty/fairytalewedding" />
   <meta property="og:type" content="article" />
 
-  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers" />
   <meta name="twitter:description" content="Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments." />
-  <meta name="twitter:image" content={title} />
-  <link rel="canonical" href="https://jackiewyers.beauty/fairytalewedding" />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
 
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+
+  {/* Google Ads Script */}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+
+  {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
     {`
-    {
-      "@context": "http://schema.org",
-      "@type": "Article",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://jackiewyers.beauty/fairytalewedding"
-      },
-      "headline": "Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers",
-      "description": "Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments.",
-      "image": "${title}",
-      "author": {
-        "@type": "Person",
-        "name": "Jackie Wyers"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Jackie Wyers",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "${title}"
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers",
+        "description": "Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments.",
+        "image": "https://jackiewyers.beauty/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/jw3logo.png"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "dateModified": "2024-09-20",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/fairytalewedding"
         }
-      },
-      "datePublished": "2024-07-27",
-      "dateModified": "2024-07-27"
-    }
+      }
     `}
   </script>
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-RT6GR7JXYG');
-    `}
-  </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
 
 

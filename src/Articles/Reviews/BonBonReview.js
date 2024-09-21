@@ -171,8 +171,7 @@ fontStyle: 'italic',
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "${process.env.PUBLIC_URL}/Images/Home/jwlogo3.png"
-          }
+     "url": "${process.env.PUBLIC_URL}/jwlogo3.png"          }
         },
         "datePublished": "2024-09-20",
         "reviewBody": "Bonbon is a celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure. A luscious peach opening gives way to a heart overflowing with caramel's sweet embrace, followed by a touch of delicate florals. The base, a comforting blend of warm woods, anchors the fragrance in sophistication."

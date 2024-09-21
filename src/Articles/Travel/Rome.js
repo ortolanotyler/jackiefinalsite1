@@ -210,7 +210,7 @@ const captionStyle = {
           "name": "Jackie Wyers",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://jackiewyers.beauty/jw3logo.png"
           }
         },
         "datePublished": "2024-07-27",

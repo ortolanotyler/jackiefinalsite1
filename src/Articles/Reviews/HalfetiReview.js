@@ -161,7 +161,7 @@ const HalfetiReview = () => {
          "name": "Jackie Wyers Beauty",
          "logo": {
            "@type": "ImageObject",
-           "url": "${process.env.PUBLIC_URL}/Images/Home/jackielogo.png"
+                "url": "${process.env.PUBLIC_URL}/jwlogo3.png"
          }
        },
        "datePublished": "2024-02-05",

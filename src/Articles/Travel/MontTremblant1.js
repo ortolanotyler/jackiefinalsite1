@@ -12,7 +12,7 @@ import ArticleTitle from '../../Components/ArticleTitle';
 
 
 
-const title = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/hello.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/TREMBLANTTHUMBNAIL.jpeg`;
 const tremblant1 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant1.png`;
 const tremblant2 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant2.png`;
 const tremblant3 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant3.png`;
@@ -128,63 +128,61 @@ const Card = ({ blogContent }) => (
 
     const blogContent = (
         <div className="container">
-         <Helmet>
-    <title>Mont Tremblant Travel Guide - Jackie Wyers</title>
-    <meta name="description" content="Discover the enchanting ski village of Mont Tremblant, Quebec with Jackie Wyers. Explore the best experiences, food, and adventures during a romantic getaway in the mountains." />
-    <meta name="keywords" content="Mont Tremblant, Travel Guide, Skiing, Quebec, Travel Blog, Jackie Wyers, Canada Travel, Romantic Getaway, Winter Sports, Ski Resort, Mont Tremblant Village, Travel Tips" />
-    
-    <meta property="og:title" content="Mont Tremblant Travel Guide - Jackie Wyers" />
-    <meta property="og:description" content="Discover the enchanting ski village of Mont Tremblant, Quebec with Jackie Wyers. Explore the best experiences, food, and adventures during a romantic getaway in the mountains." />
-    <meta property="og:image" content={title} />
-    <meta property="og:url" content="https://jackiewyers.beauty/tremblant" />
-    <meta property="og:type" content="article" />
+      <Helmet>
+  <title>Mont Tremblant Travel Guide - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/tremblant" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Mont Tremblant Travel Guide - Jackie Wyers" />
-    <meta name="twitter:description" content="Discover the enchanting ski village of Mont Tremblant, Quebec with Jackie Wyers. Explore the best experiences, food, and adventures during a romantic getaway in the mountains." />
-    <meta name="twitter:image" content={title} />
-<link rel="canonical" href="https://jackiewyers.beauty/tremblant "/>
-    <script type="application/ld+json">
-        {`
-        {
-            "@context": "http://schema.org",
-            "@type": "Article",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://jackiewyers.beauty/tremblant"
-            },
-            "headline": "Mont Tremblant Travel Guide - Jackie Wyers",
-            "description": "Discover the enchanting ski village of Mont Tremblant, Quebec with Jackie Wyers. Explore the best experiences, food, and adventures during a romantic getaway in the mountains.",
-            "image": "${title}",
-            "author": {
-                "@type": "Person",
-                "name": "Jackie Wyers"
-            },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Jackie Wyers",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "${title}"
-                }
-            },
-            "datePublished": "2024-07-27",
-            "dateModified": "2024-07-27"
+  <meta name="description" content="Discover the enchanting ski village of Mont Tremblant, Quebec with Jackie Wyers. Explore the best experiences, food, and adventures during a romantic getaway in the mountains." />
+  <meta name="keywords" content="Mont Tremblant, Travel Guide, Skiing, Quebec, Travel Blog, Jackie Wyers, Canada Travel, Romantic Getaway, Winter Sports, Ski Resort, Mont Tremblant Village, Travel Tips, Ski Rentals, Après Ski, Gondola Ride, Québécoise Pizza, Roots Store, La Maison de la Crêpe, Le Vieux Four, Cabane à Sucre, luxury hotel, Hotel Quintessence, slopes, family travel, Canadian destinations, Laurentian Mountains, ski equipment, ski slopes, best ski resorts, snowboarding, scenic views, hiking trails, maple syrup, Canadian cuisine, local shops, poutine, ski and snowboard gear" />
+
+  <meta property="og:title" content="Mont Tremblant Travel Guide - Jackie Wyers" />
+  <meta property="og:description" content="Discover the enchanting ski village of Mont Tremblant, Quebec with Jackie Wyers. Explore the best experiences, food, and adventures during a romantic getaway in the mountains." />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/MontTremblant/TREMBLANTTHUMBNAIL.jpeg" />
+  <meta property="og:url" content="https://jackiewyers.beauty/tremblant" />
+  <meta property="og:type" content="article" />
+
+  <meta name="twitter:title" content="Mont Tremblant Travel Guide - Jackie Wyers" />
+  <meta name="twitter:description" content="Discover the enchanting ski village of Mont Tremblant, Quebec with Jackie Wyers. Explore the best experiences, food, and adventures during a romantic getaway in the mountains." />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/MontTremblant/TREMBLANTTHUMBNAIL.jpeg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+
+  {/* Google Ads Script */}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Mont Tremblant Travel Guide - Jackie Wyers",
+        "description": "Discover the enchanting ski village of Mont Tremblant, Quebec with Jackie Wyers. Explore the best experiences, food, and adventures during a romantic getaway in the mountains.",
+        "image": "https://jackiewyers.beauty/Images/Articles/MontTremblant/TREMBLANTTHUMBNAIL.jpeg",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/jw3logo.png"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "dateModified": "2024-09-20",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/tremblant"
         }
-        `}
-    </script>
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-    <script>
-        {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-RT6GR7JXYG');
-        `}
-    </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+      }
+    `}
+  </script>
 </Helmet>
 
 
