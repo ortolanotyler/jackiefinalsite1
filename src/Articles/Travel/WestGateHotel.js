@@ -180,34 +180,30 @@ const Card = ({ blogContent }) => (
 </Helmet>
 
 
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-                <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '15px', color: 'black', textDecoration: 'none' }}>
-                    TRAVEL // HOTEL REVIEWS
-                </a>
-            </div>
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
+        <a href="/travel" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
+          TRAVEL // HOTEL REVIEWS
+        </a>
+      </div>
             <ArticleTitle
   mainTitle="The Westgate Hotel Review: A Bridgerton Experience Fit for Royalty in San Diego"
   subTitle="A Regency Retreat fit for a Queen"
   author="Jackie Wyers"
   publishDate="May 13,2024"
 />
-            <ResponsiveYoutube src="https://www.youtube.com/embed/H1VUDOqCo3s?si=Ej5ug_TV3qatoDOk" title="YouTube video player" />
+<ResponsiveYoutube src="https://www.youtube.com/embed/H1VUDOqCo3s?si=Ej5ug_TV3qatoDOk" title="YouTube video player" />
 
-            <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                <SubscribeVlog />
-            </div>
-        <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
-              All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-            </p>
-            <DropCap1 text="Hello, lovely viewers! Today, I’m excited to share my enchanting experience at the Westgate Hotel in San Diego, where Tyler and I indulged in the luxuriously themed Westgate's Whistledown Tea and Package. This Bridgerton-inspired getaway was filled with regal elegance, featuring Chandon champagne, delightful macarons, and an atmosphere so richly detailed, it felt as if we had stepped straight into the series itself." />
-          <div
-style = {{
-  margin : '1rem auto'
-}}
->
-
-  <AdSenseAd/>
+            <div style = {{textAlign: 'center', margin: '1rem auto' }}>
+<SubscribeVlog />
 </div>
+       
+<p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
+
+
+            <DropCap1 text="Hello, lovely viewers! Today, I’m excited to share my enchanting experience at the Westgate Hotel in San Diego, where Tyler and I indulged in the luxuriously themed Westgate's Whistledown Tea and Package. This Bridgerton-inspired getaway was filled with regal elegance, featuring Chandon champagne, delightful macarons, and an atmosphere so richly detailed, it felt as if we had stepped straight into the series itself." />
+       
             <h2 style={headingStyle}>First Impressions and Ambiance</h2>
             <p style={paragraphStyle}>
   Upon entering the grand lobby of the Westgate Hotel, we were immediately struck by its opulent decor, which perfectly encapsulates the Regency era's lavish aesthetic. The hotel offers an array of Instagram-worthy spots, with each corner meticulously designed to evoke the elegance of early 19th-century English nobility. Discover more about Regency-style decor at <a href="https://www.architecturaldigest.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Architectural Digest</a>.
@@ -215,12 +211,7 @@ style = {{
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
                 <BookNowButton href="https://plannin.com/en/hotel/ce895da3-45d5-4bd0-a8cf-fdc1425d0a44?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
             </div>
-          <div
-style = {{
-  margin : '1rem auto'
-}}
->
-
+        <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -249,12 +240,7 @@ style = {{
                 <img src={westgate10} alt="The Westgate Hotel - San Diego" style={imageStyle} />
             </div>
 
-          <div
-style = {{
-  margin : '1rem auto'
-}}
->
-
+        <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -279,12 +265,7 @@ style = {{
                 The Whistledown Tea, held in the hotel’s ornate Grand Lobby, includes champagne or apple cider, a selection of tea sandwiches, savouries, sweet pastries, and a take-home jar of Whistledown White Ambrosia Tea.
             </p>
             <img src={westgate9} alt="The Westgate Hotel - San Diego" style={imageStyle} />
-          <div
-style = {{
-  margin : '1rem auto'
-}}
->
-
+        <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
             <p style={paragraphStyle}>
@@ -300,12 +281,7 @@ style = {{
             <p style={paragraphStyle}>
                 There’s also a beautiful pool on the terrace with views of San Diego. Sadly it was a rainy day, but I would be swimming for hours otherwise.
             </p>
-          <div
-style = {{
-  margin : '1rem auto'
-}}
->
-
+        <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
             <h2 style={headingStyle}>Final Thoughts and Recommendations</h2>
@@ -325,12 +301,7 @@ style = {{
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
                 <BookNowButton href="https://plannin.com/en/hotel/ce895da3-45d5-4bd0-a8cf-fdc1425d0a44?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
             </div>
-            <div
-style = {{
-  margin : '1rem auto'
-}}
->
-
+          <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 <p style={paragraphStyle}>

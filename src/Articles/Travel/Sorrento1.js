@@ -7,6 +7,7 @@ import { Helmet } from 'react-helmet';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
+import NextArticle from '../../Components/NextArticleComponent';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/1.JPG`;
@@ -26,6 +27,7 @@ const image14 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/14.JPG`;
 const image15 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/15.JPG`;
 const image16 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/16.JPG`;
 const image17 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/17.JPG`;
+const ski = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblent/hello.png`;
 
 
 
@@ -33,58 +35,100 @@ const bridesmaid = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/Brides
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-  <div>
+ 
+  <div style={{
+    padding: '10px 20px', // Consistent padding to prevent content from touching edges
+    margin: '0 auto',
+  }}>
+
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
-  </div>
+    </div>
+
+  
 );
 
 const Sorrento1 = () => {
+
+  useEffect(() => {
+    initGA();
+    logPageView('/sorrento');
+  }, []);
+
+
   const websiteId = '10910';
   const blogRef = useRef(null);
 
-  useEffect(() => {
-      initGA();
-      logPageView('/sorrento');
-  }, []);
-
+ 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '1.5rem',
+    fontSize: '2.5rem',
     fontWeight: 'normal',
-    fontFamily: 'Arapey, serif',
-    color: '#333',
-    margin: '2.5rem 0'
+    fontFamily: 'GFS Didot, serif',
+    color: '#000000',
+    margin: '30px auto'
 };
 
+
 const paragraphStyle = {
-  fontSize: '20px',
+  fontSize: '22px',
+  color: '#000000',
+
   fontFamily: 'GFS Didot, serif',
-  margin: '1rem 1.5rem',
-  marginTop: '1rem',
-  marginBottom: '1rem',
-  maxWidth: '500px',
-  lineHeight: '1.5',
+  margin: '2rem auto',
+
+  maxWidth: '500px', // Consistent with the other paragraphs
+  lineHeight: '1.6',
   marginLeft: 'auto',
   marginRight: 'auto',
 };
 
-  const gridContainerStyle = {
-      display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-      gap: '1rem',
-      margin: '1rem 0',
-      maxWidth: '600px',
-      margin: '0 auto',
-  };
+const linkStyle = {
+  textDecoration: 'none', // Removes underline from links
+  fontFamily: 'GFS Didot, serif',
+  color: '#000000', // Inherits the color of the surrounding text
+};
 
-  const imageStyle = {
-      display: 'block',
-      margin: '10px auto',
-      maxWidth: '100%', // Updated to match Fable
-      height: 'auto'
-  };
+const gridContainerStyle = {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+    gap: '10px',
+    margin: '1rem auto'
+};
+
+const imageStyle = {
+  display: 'block',
+  margin: '1rem auto',
+  borderRadius: '0px',
+  maxWidth: '500px',
+  height: 'auto'
+};
+
+const pinterestGridStyle = {
+  display: 'grid',
+  gap: '1rem',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+  justifyItems: 'center',
+  margin: '1rem 0',
+};
+
+const iframeStyle = {
+  width: '100%',
+  maxWidth: '236px',
+  height: '520px', // Maintains original height
+  border: 'none',
+  scrolling: 'no',
+};
+
+const captionStyle = {
+  textAlign: 'center',
+  fontSize: '1.1rem',
+  fontFamily: 'Playfair Display, serif',
+  margin: '1rem auto',
+  maxWidth: '100%',
+  fontStyle: 'italic',
+};
 
 
   const blogContent = (
@@ -151,11 +195,13 @@ const paragraphStyle = {
 
 
 
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
-        <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
+        <a href="/travel" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
           TRAVEL // ITALY
         </a>
       </div>
+
+
       <div>
       <ArticleTitle
         mainTitle="The Best Souvenirs to Bring Home from Sorrento"
@@ -333,11 +379,17 @@ Sorrento and you can see all the details from planning, details,
 wedding dresses and more in the following article below.
 </p>
 
-<div style={{ textAlign: 'center', margin: '1.5rem 0' }}>
-        <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          MORE TRAVEL CONTENT →
-        </a>
-      </div>
+
+
+      <NextArticle
+      link="/tremblant"
+      imgSrc={ski}
+      altText="Ski Vacation in Quebec"
+      linkText="MORE TRAVEL →"
+      containerStyle={{ margin: '1rem 0' }} // customize as needed
+      linkStyle={{ color: '#000000', fontSize: '1.05rem' }} // customize as needed
+      imgStyle={{ borderRadius: '10px' }} // customize as needed
+    />
 
 
        <div>
@@ -348,31 +400,7 @@ wedding dresses and more in the following article below.
 
       <Comments website-id={websiteId} page-id={"Sorrento-Souvenirs"} />
 
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
-
-<div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
-<div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+ 
       
     </div>
     
