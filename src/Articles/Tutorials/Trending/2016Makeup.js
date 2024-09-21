@@ -1,14 +1,13 @@
 import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
-import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import TextReveal from '../../../Components/TextReveal';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016Title.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016Double.png`;
@@ -19,125 +18,194 @@ const lana = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThu
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-  <div>
-    <div><TextReveal text='TRENDS' /></div>
+ 
+  <div style={{
+    padding: '10px 20px', // Consistent padding to prevent content from touching edges
+    margin: '0 auto',
+   
+  }}>
+
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
-  </div>
+    </div>
+
+  
 );
 
 const Makeup2016 = () => {
-  const websiteId = '10910';
-  const blogRef = useRef(null);
 
   useEffect(() => {
     initGA();
     logPageView('/2016makeup');
-}, []);
+  }, []);
 
 
+  const websiteId = '10910';
+  const blogRef = useRef(null);
 
-const headingStyle = {
-  textAlign: 'center',
-  fontSize: '1.5rem',
-  fontWeight: 'normal',
-  fontFamily: 'Arapey, serif',
-  color: '#333',
-  margin: '1.5rem'
+ 
+  const headingStyle = {
+    textAlign: 'center',
+    fontSize: '2.5rem',
+    fontWeight: 'normal',
+    fontFamily: 'GFS Didot, serif',
+    color: '#000000',
+    margin: '30px auto'
 };
 
+
 const paragraphStyle = {
-  fontSize: '20px',
+  fontSize: '22px',
+  color: '#000000',
+
   fontFamily: 'GFS Didot, serif',
-  margin: '1rem 1.5rem',
-  marginTop: '1rem',
-  marginBottom: '1rem',
-  maxWidth: '500px',
-  lineHeight: '1.5',
+  margin: '2rem auto',
+
+  maxWidth: '500px', // Consistent with the other paragraphs
+  lineHeight: '1.6',
   marginLeft: 'auto',
   marginRight: 'auto',
+};
+
+const linkStyle = {
+  textDecoration: 'none', // Removes underline from links
+  fontFamily: 'GFS Didot, serif',
+  color: '#000000', // Inherits the color of the surrounding text
+};
+
+const gridContainerStyle = {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+    gap: '10px',
+    margin: '1rem auto'
+};
+
+const imageStyle = {
+  display: 'block',
+  margin: '1rem auto',
+  borderRadius: '0px',
+  maxWidth: '500px',
+  height: 'auto'
+};
+
+const pinterestGridStyle = {
+  display: 'grid',
+  gap: '1rem',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+  justifyItems: 'center',
+  margin: '1rem 0',
+};
+
+const iframeStyle = {
+  width: '100%',
+  maxWidth: '236px',
+  height: '520px', // Maintains original height
+  border: 'none',
+  scrolling: 'no',
+};
+
+const captionStyle = {
+  textAlign: 'center',
+  fontSize: '1.1rem',
+  fontFamily: 'Playfair Display, serif',
+  margin: '1rem auto',
+  maxWidth: '100%',
+  fontStyle: 'italic',
 };
   const blogContent = (
     <div className="container">
      <Helmet>
-        <title>2016 Makeup Trends - Jackie Wyers</title>
-        <link rel="canonical" href="https://jackiewyers.beauty/2016makeup" />
+        <title>A Quintessential 2016 Makeup Tutorial</title>
+    
+  <link rel="canonical" href="https://jackiewyers.beauty/2016makeup" />
 
-        <meta name="description" content="Explore the makeup trends of 2016 with Jackie Wyers. Learn how to achieve bold glamour looks inspired by Kylie Jenner and other beauty icons." />
-        <meta name="keywords" content="2016 Makeup Trends, Jackie Wyers, Kylie Jenner Makeup, Bold Glamour, Makeup Tutorial, Beauty Blog" />
-        <meta property="og:title" content="2016 Makeup Trends - Jackie Wyers" />
-        <meta property="og:description" content="Explore the makeup trends of 2016 with Jackie Wyers. Learn how to achieve bold glamour looks inspired by Kylie Jenner and other beauty icons." />
-        <meta property="og:image" content={title} />
-        <meta property="og:url" content="https://jackiewyers.beauty/2016makeup" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="2016 Makeup Trends - Jackie Wyers" />
-        <meta name="twitter:description" content="Explore the makeup trends of 2016 with Jackie Wyers. Learn how to achieve bold glamour looks inspired by Kylie Jenner and other beauty icons." />
-        <meta name="twitter:image" content={title} />
-        <script type="application/ld+json">
-          {`
-          {
-            "@context": "http://schema.org",
-            "@type": "Article",
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": "https://jackiewyers.beauty/2016makeup"
-            },
-            "headline": "2016 Makeup Trends - Jackie Wyers",
-            "description": "Explore the makeup trends of 2016 with Jackie Wyers. Learn how to achieve bold glamour looks inspired by Kylie Jenner and other beauty icons.",
-            "image": "${title}",
-            "author": {
-              "@type": "Person",
-              "name": "Jackie Wyers"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "Jackie Wyers",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "${title}"
-              }
-            },
-            "datePublished": "2024-07-27",
-            "dateModified": "2024-07-27"
+  <meta name="description" content="Explore the makeup trends of 2016 with Jackie Wyers. Learn how to achieve bold glamour looks inspired by Kylie Jenner and other beauty icons." />
+  <meta name="keywords" content="2016 Makeup Trends, Jackie Wyers, Kylie Jenner Makeup, Bold Glamour, Makeup Tutorial, Beauty Blog, High-coverage foundation, Dip brows, Glittery cut creases, Voluminous mink lashes, Matte lip combinations, Makeup tips, Beauty influencer, Beauty trends 2016, Retro beauty, Time Travel Tutorials, Smoky eyes, Instagram makeup, Flash photography makeup, Makeup looks, Kylie Lip Kits, Bold makeup, Highlighting and contouring, Laura Mercier Setting Powder, Becca Champagne Pop, Jaclyn Hill, Too Faced Peach Palette, IG Baddie makeup, Anastasia Dip Brow, Tarte Shape Tape, Benefit Hoola Bronzer, Ben Nye Luxury Powder, Painted By Spencer" />
+
+  <meta property="og:title" content="2016 Makeup Trends - Jackie Wyers" />
+  <meta property="og:description" content="Explore the makeup trends of 2016 with Jackie Wyers. Learn how to achieve bold glamour looks inspired by Kylie Jenner and other beauty icons." />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/2016/2016MakeupThumbnail.jpg" />
+  <meta property="og:url" content="https://jackiewyers.beauty/2016makeup" />
+  <meta name="twitter:title" content="2016 Makeup Trends - Jackie Wyers" />
+  <meta name="twitter:description" content="Explore the makeup trends of 2016 with Jackie Wyers. Learn how to achieve bold glamour looks inspired by Kylie Jenner and other beauty icons." />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/2016/2016MakeupThumbnail.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG');
+    `}
+  </script>
+
+  {/* Google Ads Script */}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "2016 Makeup Trends - Jackie Wyers",
+        "description": "Explore the makeup trends of 2016 with Jackie Wyers. Learn how to achieve bold glamour looks inspired by Kylie Jenner and other beauty icons.",
+        "image": "https://jackiewyers.beauty/Images/Articles/2016/2016MakeupThumbnail.jpg",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/logo.png"
           }
-          `}
-        </script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-      </Helmet>
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-        <a href="/trends" style={{ fontFamily: 'Arapey', fontSize: '1.5em', color: 'black', textDecoration: 'none' }}>
+        },
+        "datePublished": "2024-07-27",
+        "dateModified": "2024-09-20",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/2016makeup"
+        }
+      }
+    `}
+  </script>
+</Helmet>
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
+        <a href="/trends" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
           BEAUTY // TRENDS
         </a>
       </div>
-      <img src={title} alt="2016 Makeup Trends" style={{ width: '100%' }} />
 
-      <ResponsiveYoutube src="https://www.youtube.com/embed/HtEPH6RUEZg?si=8RIeZhrp-luWJTSI" title="2016 Makeup Tutorial" />
+      <ArticleTitle
+  mainTitle="A Quintessential 2016 Makeup Tutorial"
+  subTitle="All Matte Everything... The Nostalgia!"
+  author="Jackie Wyers"
+  publishDate="March 1, 2024"
+/>
 
-      <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <SubscribeButton />
-      </div>
 
-      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
-      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-      </p>
+      <ResponsiveYoutube src="https://www.youtube.com/embed/HtEPH6RUEZg?si=8RIeZhrp-luWJTSI" title="2016 Makeup Tutorial Jackie Wyers Beauty" />
+
+      <div style = {{textAlign: 'center', margin: '10px auto' }}>
+<SubscribeButton />
+</div>
+
+
+
+<p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
 
       <DropCap text="Welcome back to another installment of Time Travel Tutorials...though this time, we're not journeying too far back in time! The makeup trends of 2016 were significantly influenced by the young Kylie Jenner, the undeniable 'IT' girl for teens. High-coverage foundations, LOTS of setting powder, sharp and bold dip brows, warm smokey eyes, glittery cut creases, voluminous mink lashes, and deep, matte lip combinations had beauty enthusiasts captivated!" />
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>
@@ -145,24 +213,24 @@ style = {{
       </p>
 
       <a href="https://www.instagram.com/p/C43O7Q7OFuw/?hl=en" target="_blank" rel="noopener noreferrer">
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <img src={image1} alt="2016 Makeup Tutorial via Jackie Wyers on Instagram" style={{ width: '100%', maxWidth: '650px' }} />
+     
+      <div style={gridContainerStyle}>
+      
+      
+      <img src={image1} alt="2016 Makeup Tutorial via Jackie Wyers on Instagram" style={{ width: '100%', maxWidth: '650px' }} />
         </div>
       </a>
 
       <h2 style={headingStyle}>The Essence of 2016 Makeup</h2>
 
-      <a href="https://www.youtube.com/watch?v=HtEPH6RUEZg&feature=youtu.be" target="_blank" rel="noopener noreferrer">
         <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <img src={image2} alt="2016 Face Chart" style={{ width: '100%', maxWidth: '650px' }} />
-        </div>
-      </a>
-      <div
-style = {{
-  margin : '20px'
-}}
->
+        <a href="https://www.youtube.com/watch?v=HtEPH6RUEZg&feature=youtu.be" target="_blank" rel="noopener noreferrer">
 
+          <img src={image2} alt="James" style={{ width: '100%', maxWidth: '650px' }} />
+          </a>
+        </div>
+    
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>
@@ -188,12 +256,7 @@ style = {{
       <p style={paragraphStyle}>
         The beauty blender has been a staple since 2005, initially launching in collaboration with Victoria’s Secret. It transitioned to Sephora in 2011, garnering numerous awards, especially in 2014 and 2016, showcasing impressive brand longevity. Worth the money if you can spare it in my opinion!
       </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>Embrace Bold Brows and A Bright Highlight</h2>
@@ -217,12 +280,7 @@ style = {{
       <p style={paragraphStyle}>
         Use the matte Hoola Bronzer for contouring and bronzing. It's perfect for sculpting under the cheekbones, jawline, and forehead. To match Kylie’s tan, I self-tanned, making this bronzer shade ideal. Benefit offers a range of bronzers for various skin tones, and Fenty Beauty has an extensive collection of contour sticks.
       </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>Set and Bake Your Makeup</h2>
@@ -254,12 +312,7 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/542398?noHeader=true" title="Rich Lotion - Ana Sui" />
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>Create a Soft Smoky Eye</h2>
@@ -281,12 +334,7 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/542404?noHeader=true" title="Rich Lotion - Ana Sui" />
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>Line Your Eyes and Apply Mascara</h2>
@@ -328,12 +376,7 @@ style = {{
       <p style={paragraphStyle}>
         Finish off by setting your makeup. If your skin feels too matte, rejuvenate it with a refreshing spray like the d'Alba spray, which can also double as a setting spray.
       </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>2016 Makeup Memories</h2>
@@ -370,12 +413,7 @@ style = {{
       <div style={{ textAlign: 'center' }}>
         <img src={signature} alt="Signature" style={{ width: '100%', maxWidth: '650px' }} />
       </div>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <Comments website-id={websiteId} page-id={"Makeup-2016"} />
