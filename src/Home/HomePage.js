@@ -344,7 +344,7 @@ isFlipped={true}
   subtext="Leather, Music Boxes, Flats, Oh Me! Discover the top Sorrento souvenirs with Jackie Wyers."
   author="BY JACKIE WYERS"
   imagePath="Sorrento1/SorrentoThumbnail.jpg"
-  linkUrl="/sorrento-souvenirs"
+  linkUrl="/sorrento"
   isFlipped={true}
 />
           </Suspense>

@@ -257,7 +257,7 @@ function App() {
             <Route path="camera-settings" element={<CameraSettings />} />
             <Route path="emily-in-paris" element={<EmilyInParis />} />
             <Route path="rome" element={<Rome />} />
-            <Route path="sorrento-gift-guide" element={<Sorrento1 />} />
+            <Route path="sorrento" element={<Sorrento1 />} />
             <Route path="hotelquintessance" element={<HotelQ2 />} />
             <Route path="recently-sponsored" element={<PastWorkGallery />} />
             <Route path="francesca-bridgerton" element={<Francesca />} />

@@ -200,12 +200,7 @@ const captionStyle = {
       </div>
       <DropCap1 text="Hey beauties, it’s Jackie! Today, we're diving into a fun and fresh way to explore beauty styles with my 'Types of Pretty' makeup series inspired by adorable animals like deer, cats, foxes, and bunnies. Whether you saw this trend on TikTok or my latest YouTube tutorial, I’m thrilled to bring this unique concept to the blog where we break down each style with detailed makeup guides." />
       
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>Deer Pretty: Soft and Ethereal 🦌</h2>
@@ -214,12 +209,7 @@ style = {{
       </div>
       <p style={paragraphStyle}>Inspired by the gentle features of a deer, this makeup style is all about soft, doe-like eyes and a warm, glowing complexion. If you are in the Soft or Deep Autumn colour season, this look is a great fit.</p>
       <p style={paragraphStyle}>Celebrity Inspirations: Jessica Alba, Leighton Meester, Emmy Russum, Tessa Thompson and Charithra Chandran rock this look with their big, round eyes and stunning skin tones.</p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>Achieve the Deer Pretty Look</h2>
@@ -229,12 +219,7 @@ style = {{
       <p style={paragraphStyle}>Lashes: A full, wispy set of falsies suit the doe-eyed style. Try ISOPIA Iso-Gentle Touch Lashes.</p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552928?noHeader=true" title="ISOPIA Iso-Gentle Touch Lashes" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>Cheeks: Use a peachy blush on the tops of your cheeks to bring warmth and brightness to your face along with a champagne highlight.</p>
@@ -244,23 +229,13 @@ style = {{
       <ResponsiveIframe src="https://shopmy.us/collections/public/552889?noHeader=true" title="Matte Peach Lip Colour" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
       <p style={paragraphStyle}>Outfit Inspiration: To fully embody the Deer Pretty theme, choose dainty and whimsical styles. Try outfits in earthy and pastel palettes that resonate with the natural and soft aesthetics of a deer. Fabrics like lace and florals are perfect for this look, adding a touch of femininity and grace. Free People is a great store to try.</p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>Want to really showcase your animal inspiration? Fable England has beautiful enamel earrings, necklaces, and embroidered bags featuring fawn designs.</p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552834?noHeader=true" title="Fable England Accessories" style = {{height: "1000px"}}/>
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <h2 style={headingStyle}>Cat Pretty: Bold and Intense 🐈‍⬛</h2>
@@ -274,23 +249,13 @@ style = {{
       <p style={paragraphStyle}>Eyes: Sweep cool toned shimmers, like silver and white, across your lids and deepen up with taupe in the crease. Victoria Beckham Beauty Smoky Eye Brick in Tuxedo is the perfect palette. Draw a bold, winged eyeliner that extends beyond the outer corners to enhance the cat-eye illusion and enhance the outer corner with a black shadow.</p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552837?noHeader=true" title="Victoria Beckham Beauty Smoky Eye Brick in Tuxedo" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>Lashes: Go for dramatic, fanned-out lashes that complement the bold liner, amplifying the overall eye makeup. Try ISOPIA Iso-Gentle Echo Lashes.</p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552911?noHeader=true" title="ISOPIA Iso-Gentle Echo Lashes" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>Cheeks: Sculpt your cheeks with a cool toned contour powder to add depth and enhance your natural bone structure, mimicking the chiseled look typical of a sleek feline.</p>
@@ -299,12 +264,7 @@ style = {{
       <p style={paragraphStyle}>Lips: Select deep mauve tones for a seductively pouty effect or go for a nude lip combo. A high-shine gloss can add dimension and a touch of glamour.</p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552839?noHeader=true" title="Deep Mauve Lip Colour" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>Outfit Inspiration: Channel '90s off-duty supermodel vibes with structured yet casual elements. Think fitted black tanks paired with low-waisted baggy jeans. Explore Revolve for trendy, contemporary pieces and local thrift stores for genuine '90s gems like sleek sunglasses.</p>
@@ -321,12 +281,7 @@ style = {{
       <p style={paragraphStyle}>Eyes: Choose warm, copper shades smoked out in a soft v, and use minimal liner to keep the eyes striking yet natural. The Bareminerals Warmth Minerals Palette is perfect to create this style. This approach enhances the eyes without overshadowing the inherent beauty of your features.</p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552844?noHeader=true" title="Bareminerals Warmth Minerals Palette" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>Lashes: Extend the lash line along the winged out shadow. Try ISOPIA Iso-Gentle Healing Lashes for a subtle effect.</p>
@@ -335,12 +290,7 @@ style = {{
       <p style={paragraphStyle}>Cheeks: Apply dual blush tones—a rose shade for a vibrant pop of colour and a deeper rose to define the cheekbones.</p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552846?noHeader=true" title="Dual Blush Tones" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>Lips: A matte berry or a rustic red lip, smudged out for a softer, more approachable look. Add a touch of golden metallic highlight to the cheekbones and pat over the centre of the lip for a unique, textured finish.</p>
@@ -348,12 +298,7 @@ style = {{
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
      
       <p style={paragraphStyle}>Outfit Inspiration: Dive into a bohemian vibe with lively prints. Anthropologie is an excellent starting point for this style. Select paisley or other small prints in rustic tones to complement the boho aesthetic beautifully. This style not only matches the rich-toned makeup but also ties the whole look together.</p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>Don't forget to check out Fable England for fox-themed accessories that add a charming final touch.</p>
@@ -366,12 +311,7 @@ style = {{
       <p style={paragraphStyle}>Channel the delicate charm of the bunny with shades of pink that mirror a bunny's tongue, creating a look that is both cute and angelic. This style is perfect for experimenting with the viral Sephora “bunny tongue” lip gloss that's taking social media by storm.</p>
       
       <p style={paragraphStyle}>This style complements those in Spring and Summer colour palettes, altering the look to either a warm or cool toned pink.</p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>Celebrity Inspirations: Elle Fanning is the epitome of Bunny Pretty with her angelic presence. Other stars like Amandla Stenberg and Zendaya also beautifully pull off this style, showcasing how versatile and flattering it can be across different skin tones.</p>
@@ -386,12 +326,7 @@ style = {{
       <p style={paragraphStyle}>Cheeks: Embrace a rosy flush with a heavier application of blush. Milani Coral Cove is an excellent choice for a warmer pink, while Rare Beauty's blush in Happy suits cooler undertones. Don't be shy with the blush to achieve that vibrant, youthful glow.</p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552854?noHeader=true" title="Milani Coral Cove Blush" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <p style={paragraphStyle}>Lips: Start with a nude pink lip liner to define your lips, then layer on the Sephora Collection Outrageous Plumping Lip Gloss in Pink Pout for a glossy, vibrant finish that complements the blushy cheeks.</p>
@@ -409,12 +344,7 @@ style = {{
       <div>
         <img src={signature} alt="Signature" style={{ width: '100%', marginBottom: '2rem' }} />
       </div>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
+     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
       <Comments website-id={websiteId} page-id={"Animal-Prizznizzle"} />
