@@ -4,10 +4,10 @@ const DropCap1 = ({ text, style }) => {
   return (
     <p style={{maxWidth: '500px', margin: '0 auto'}}>
       <span style={{ 
-        fontSize: '4rem', 
+        fontSize: '5em', 
         float: 'left', 
         margin: '1rem',  
-        lineHeight: '1.5', 
+        lineHeight: '1.2', 
         color: '#000000'
       }}>
         {text.charAt(0)}
