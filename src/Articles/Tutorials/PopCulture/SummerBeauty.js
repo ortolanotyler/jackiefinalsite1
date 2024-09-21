@@ -182,7 +182,7 @@ const captionStyle = {
       </div>
 
       <ArticleTitle
-  mainTitle="Summer Beauty : Pop Culture Icons Edition"
+  mainTitle="Summer Beauty: Pop Culture Icons Edition"
   subTitle="Sun-kissed skin & wind swept hair"
   author="Jackie Wyers"
   publishDate="June 11th, 2024"
@@ -372,7 +372,7 @@ Original Makeup by Stacy Butterworth and Hair Design by Ann Minahan from 'Outer 
   return (
     <div ref={blogRef}>
       <Card
-        title="Summer Beauty : Pop Culture Icons Edition!"
+        title="Summer Beauty: Pop Culture Icons Edition!"
         description="Sun-kissed skin & wind-swept hair"
         blogContent={blogContent}
       />
