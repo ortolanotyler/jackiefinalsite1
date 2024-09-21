@@ -1,13 +1,11 @@
 import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import '../ExampleTutorial1.css';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import ArticleTitle from '../../Components/ArticleTitle';
 import NextArticle from '../../Components/NextArticleComponent';
 
-const profile = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/halfetiprofile.png`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const nextArticle = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/jickyguerlainthumbnail.png`;
 

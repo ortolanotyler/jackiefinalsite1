@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import ReactGA from 'react-ga';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import '../ExampleTutorial1.css';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
