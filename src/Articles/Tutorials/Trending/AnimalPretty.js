@@ -207,8 +207,10 @@ const captionStyle = {
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <img src={image3} alt="Deer Pretty - Jackie Wyers" style={{ width: '100%' }} />
       </div>
-      <p style={paragraphStyle}>Inspired by the gentle features of a deer, this makeup style is all about soft, doe-like eyes and a warm, glowing complexion. If you are in the Soft or Deep Autumn colour season, this look is a great fit.</p>
-      <p style={paragraphStyle}>Celebrity Inspirations: Jessica Alba, Leighton Meester, Emmy Russum, Tessa Thompson and Charithra Chandran rock this look with their big, round eyes and stunning skin tones.</p>
+      <p style={paragraphStyle}>
+  Inspired by the gentle features of a deer, this makeup style is all about soft, doe-like eyes and a warm, glowing complexion. If you are in the Soft or Deep Autumn colour season, this look is a great fit. Explore more about seasonal color palettes on 
+  <a href="https://www.colorwise.me/" style={linkStyle}>Colorwise.me</a>.
+</p>      <p style={paragraphStyle}>Celebrity Inspirations: Jessica Alba, Leighton Meester, Emmy Russum, Tessa Thompson and Charithra Chandran rock this look with their big, round eyes and stunning skin tones.</p>
      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
