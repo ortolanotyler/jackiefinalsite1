@@ -20,7 +20,7 @@ const articles = [
         date: '30/08/2024',
         title: 'The Best Souvenirs to bring home from Sorrento',
         image: sorrento1,
-        path: '/sorrento-gift-guide',
+        path: '/sorrento',
     },
     
     {
