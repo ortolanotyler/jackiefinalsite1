@@ -1,7 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import TextReveal from '../../Components/TextReveal';
 import AdSenseAd from '../../Advertising/Ads';
 import SubscribeButton from '../../Components/SubscribeButton';
 import { initGA, logPageView } from '../../analytics';
@@ -11,7 +9,6 @@ import ArticleTitle from '../../Components/ArticleTitle';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 
 
-const title = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/WeddingTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/1.JPG`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/2.JPG`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/3.JPG`;
@@ -37,7 +34,6 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
   <div>
-    <div><TextReveal text='BRIDAL' /></div>
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
@@ -50,7 +46,7 @@ const Sorrento1 = () => {
 
   useEffect(() => {
       initGA();
-      logPageView('/sorrento1');
+      logPageView('/sorrento');
   }, []);
 
   const headingStyle = {
