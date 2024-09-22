@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import { Helmet } from 'react-helmet';
-import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import TextReveal from '../../Components/TextReveal';

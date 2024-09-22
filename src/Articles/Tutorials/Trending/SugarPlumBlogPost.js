@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
-import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';

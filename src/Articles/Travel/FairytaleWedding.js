@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from 'react';
-import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import AdSenseAd from '../../Advertising/Ads';
 import WeddingCarousel from '../../Components/WeddingCarousel';
@@ -206,7 +205,7 @@ const Card = ({ blogContent }) => (
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jw3logo.png"
+                      "url": "${process.env.PUBLIC_URL}/jwlogo3.png"
           }
         },
         "datePublished": "2024-07-27",

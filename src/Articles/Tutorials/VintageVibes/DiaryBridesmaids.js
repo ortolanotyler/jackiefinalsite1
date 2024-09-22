@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from 'react';
-import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import AdSenseAd from '../../../Advertising/Ads';
