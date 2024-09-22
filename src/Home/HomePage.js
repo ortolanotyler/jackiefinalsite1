@@ -238,7 +238,21 @@ function HomePage() {
               <QuiltedImageList1 />
             </Suspense>
             <HorizontalLine />
-            
+            <Grid item xs={12}>
+  <Suspense fallback={<div className="spinner"></div>}>
+  
+            <HeroSection
+  featureText="FEATURED"
+  headlineText="Girly Pop Culture Halloween Costume Ideas 2024🎀"
+  subtext="Britney, Barbie, Bridgerton, Oh My!"
+  author="BY JACKIE WYERS"
+  imagePath="Halloween/HalloweenThumb.jpg"
+  linkUrl="/girly-pop-halloween"
+  isFlipped={true}
+/>
+</Suspense>
+</Grid>
+<HorizontalLine />
 
             <Grid item xs={12}>
   <Suspense fallback={<div className="spinner"></div>}>
