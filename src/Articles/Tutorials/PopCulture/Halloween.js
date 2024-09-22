@@ -56,8 +56,8 @@ const Halloween = () => {
   const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',
-    fontWeight: '400',
-    fontFamily: 'Playfair Display, serif',
+    fontWeight: '100',
+    fontFamily: 'Lora, sans-serif',
     color: '#000000',
     margin: '30px auto'
 };
