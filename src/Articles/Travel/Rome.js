@@ -522,7 +522,7 @@ My Rome Souvenirs
             </div>
     <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <a href="/hotelquintessance" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={hotelq1} alt="Bridesmaids Boxes How To" style={{ width: '500px', maxWidth: '400px', height: '500px' ,margin: '0 auto', display: 'block' }} />
+          <img src={hotelq1} alt="Hotel Quintessance" style={{ width: '500px', maxWidth: '400px', height: '500px' ,margin: '0 auto', display: 'block' }} />
           <br/>
           MORE TRAVEL →
         </a>

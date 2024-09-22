@@ -123,6 +123,7 @@ import PastWorkGallery from './Components/PastWorkGallery';
 import Francesca from './Articles/Tutorials/VintageVibes/Francesca';
 import FanArt from './About/FanArtGallery';
 import Halloween from './Articles/Tutorials/PopCulture/Halloween';
+import Brussels from './Articles/Travel/Brussels';
 function usePageTracking() {
   const location = useLocation();
 
@@ -266,6 +267,7 @@ function App() {
             <Route path="francesca-bridgerton" element={<Francesca />} />
             <Route path="fan-art" element={<FanArt />} />
             <Route path="girly-pop-halloween" element={<Halloween />} />
+            <Route path="paris-brussels-travel-guide" element={<Brussels />} />
 
             <Route path="*" element={<h1>404 Not Found</h1>} />
           </Route>
