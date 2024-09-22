@@ -10,7 +10,6 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import PollComponent from '../../../Components/PollComponent1';
-import InstagramEmbed from '../../../Components/InstagramEmbed';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Halloween/1.jpeg`;
@@ -57,7 +56,7 @@ const Halloween = () => {
     textAlign: 'center',
     fontSize: '2.5rem',
     fontWeight: '100',
-    fontFamily: 'Lora, sans-serif',
+    fontFamily: 'Playfair Display, serif',
     color: '#000000',
     margin: '30px auto'
 };
@@ -119,7 +118,7 @@ const captionStyle = {
   textAlign: 'center',
   fontSize: '1.1rem',
   fontFamily: 'Raleway, serif',
-  fontWeight: 'bold',
+  fontWeight: 'normal',
   margin: '1rem auto',
   maxWidth: '100%',
   fontStyle: 'italic',
