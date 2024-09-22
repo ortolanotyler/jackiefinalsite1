@@ -21,7 +21,7 @@ const PollComponent = () => {
     if (selectedOption) {
       try {
         // Make a POST request to your backend to save the selected option
-        const response = await fetch('https://poll-backend.herokuapp.com/api/polls/vote', {
+        const response = await fetch('https://poll-backend-c6d1e64f9b30.herokuapp.com/', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
