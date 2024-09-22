@@ -56,8 +56,8 @@ const Halloween = () => {
   const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',
-    fontWeight: 'normal',
-    fontFamily: 'GFS Didot, serif',
+    fontWeight: '400',
+    fontFamily: 'Playfair Display, serif',
     color: '#000000',
     margin: '30px auto'
 };
@@ -67,7 +67,9 @@ const paragraphStyle = {
   fontSize: '22px',
   color: '#000000',
 
-  fontFamily: 'GFS Didot, serif',
+  fontFamily: 'Georgia, serif',
+  fontWeight: 'regular',
+
   margin: '2rem auto',
 
   maxWidth: '500px', // Consistent with the other paragraphs
@@ -78,7 +80,7 @@ const paragraphStyle = {
 
 const linkStyle = {
   textDecoration: 'none', // Removes underline from links
-  fontFamily: 'GFS Didot, serif',
+  fontFamily: 'Playfair Display, serif',
   color: '#000000', // Inherits the color of the surrounding text
 };
 
@@ -116,7 +118,8 @@ const iframeStyle = {
 const captionStyle = {
   textAlign: 'center',
   fontSize: '1.1rem',
-  fontFamily: 'Playfair Display, serif',
+  fontFamily: 'Raleway, serif',
+  fontWeight: 'bold',
   margin: '1rem auto',
   maxWidth: '100%',
   fontStyle: 'italic',
@@ -237,29 +240,29 @@ down all the makeup, hair, and outfit details.
 </p>
 
 
-<h2 style = {headingStyle}>
+
+
+
+<p style = {captionStyle}>
 Halloween Costume Ideas 2024 with Easy
+
 Halloween Makeup Tutorials
-</h2>
+</p>
 
 
-<h3 style = {headingStyle}>
+<h6 style = {headingStyle}>
 ✨ Britney Spears
 “…Baby One More Time” 🎀
-</h3>
+</h6>
 
 
 
 
 
 
-
- <InstagramEmbed 
-        src="https://www.instagram.com/p/DAJGlPNuOBy/embed/captioned" 
-        title="Instagram Post Example"
-        width="500" 
-        height="1100" 
-      />
+<div style={gridContainerStyle}>
+  <img src={image1} alt="Jackie Wyers as Britney" style={imageStyle} />
+</div>
 
 <p style={captionStyle}>
  Original costume styling influenced by Britney Spears with direction by Nigel Dick, using
