@@ -26,7 +26,7 @@ const PollComponent = () => {
           headers: {
             'Content-Type': 'application/json',
           },
-          body: JSON.stringify({ option: selectedOption }),
+          body: JSON.stringify({ option_name: selectedOption }), // Update key to match your DB schema
         });
   
         // Check if the response is OK
@@ -44,6 +44,8 @@ const PollComponent = () => {
         console.error('Error submitting vote:', error);
         alert('There was a network error. Please try again later.');
       }
+    } else {
+      alert('Please select an option before submitting.');
     }
   };
 
