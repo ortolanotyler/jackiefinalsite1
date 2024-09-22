@@ -7,6 +7,7 @@ import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from'react-helmet';
 
 import ResponsiveIframeNoScroll from '../../../Components/ResponsiveIframeNoScroll';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 
 
@@ -160,7 +161,7 @@ const captionStyle = {
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "Camera Settings - A Guide to Scroll-Stopping iPhone Photos - Jackie Wyers",
+        "headline": "Camera Settings - A Guide to Scroll-Stopping iPhone Photos",
         "description": "Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide.",
         "image": "https://jackiewyers.beauty/Images/Articles/CameraSettings/coverphoot.jpg",
         "author": {
@@ -186,12 +187,20 @@ const captionStyle = {
   </script>
 </Helmet>
 
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
-        <p  style={{ fontFamily: 'Arapey', fontSize: '1em', color: 'black', textDecoration: 'none' }}>
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
+        <a href="/" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
           CREATOR TIPS // PHOTOGRAPHY
-        </p>
+        </a>
       </div>
-      <img src={title} alt="No Makeup-Makeup Spring Edition Title" style={{ width: '100%' }} />
+
+
+      <ArticleTitle
+  mainTitle="Camera Settings - A Guide to Scroll-Stopping iPhone Photos"
+  subTitle="My Guide to Scroll-Stopping iPhone Photos"
+  author="Jackie Wyers"
+  publishDate="Aug 11th, 2024"
+/>
+
       <div>
         <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
           All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
