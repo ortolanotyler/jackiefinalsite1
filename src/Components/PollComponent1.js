@@ -16,12 +16,34 @@ const PollComponent = () => {
     "Original Barbie - 1950s Glam"
   ];
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (selectedOption) {
-      setSubmitted(true);
-      // Here you can add any logic to send the poll result to your backend or analytics platform
-      console.log(`User selected: ${selectedOption}`);
+      try {
+        // Make a POST request to your backend to save the selected option
+        const response = await fetch('https://poll-backend.herokuapp.com/api/polls/vote', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ option: selectedOption }),
+        });
+  
+        // Check if the response is OK
+        if (response.ok) {
+          setSubmitted(true);
+          console.log(`User selected: ${selectedOption}`);
+        } else {
+          // Handle errors if the response is not OK
+          const errorData = await response.json();
+          console.error('Error submitting vote:', errorData);
+          alert('There was an error submitting your vote. Please try again.');
+        }
+      } catch (error) {
+        // Handle network errors or other unexpected errors
+        console.error('Error submitting vote:', error);
+        alert('There was a network error. Please try again later.');
+      }
     }
   };
 
