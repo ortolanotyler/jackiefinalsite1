@@ -51,7 +51,7 @@ const CameraSettings = () => {
 
   useEffect(() => {
     initGA();
-    logPageView('/bardothairstyles');
+    logPageView('/camera-settings');
   }, []);
 
 
@@ -139,12 +139,12 @@ const captionStyle = {
 
   <meta property="og:title" content="Camera Settings - A Guide to Scroll-Stopping iPhone Photos - Jackie Wyers" />
   <meta property="og:description" content="Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/CameraSettings/cameratitle.png" />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/CameraSettings/coverphoot.jpg" />
   <meta property="og:url" content="https://jackiewyers.beauty/camera-settings" />
 
   <meta name="twitter:title" content="Camera Settings - A Guide to Scroll-Stopping iPhone Photos - Jackie Wyers" />
   <meta name="twitter:description" content="Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/CameraSettings/cameratitle.png" />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/CameraSettings/coverphoot.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
   {/* Google Analytics Script */}
@@ -162,7 +162,7 @@ const captionStyle = {
         "@type": "BlogPosting",
         "headline": "Camera Settings - A Guide to Scroll-Stopping iPhone Photos - Jackie Wyers",
         "description": "Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide.",
-        "image": "https://jackiewyers.beauty/Images/Articles/CameraSettings/cameratitle.png",
+        "image": "https://jackiewyers.beauty/Images/Articles/CameraSettings/coverphoot.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
