@@ -131,60 +131,61 @@ const captionStyle = {
 
   const blogContent = (
     <div className="container">
-  <Helmet>
+ <Helmet>
   <title>Camera Settings - A Guide to Scroll-Stopping iPhone Photos - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/camera-settings" />
+
   <meta name="description" content="Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide." />
-  <meta name="keywords" content="iPhone Camera Settings, Mobile Photography, Jackie Wyers, Photography Tips, iPhone Photography, Camera Tips, Content Creator Tips" />
+  <meta name="keywords" content="iPhone Camera Settings, Mobile Photography, Jackie Wyers, Photography Tips, iPhone Photography, Camera Tips, Content Creator Tips, iPhone 13 Pro Max, photography hacks, camera settings guide, how to take better photos on iPhone, Vibrant setting, rule of thirds, portrait mode, HDR mode, night mode photography, bokeh effect, lighting tips, natural light photography, Instagram photography, mobile editing tips" />
+
   <meta property="og:title" content="Camera Settings - A Guide to Scroll-Stopping iPhone Photos - Jackie Wyers" />
   <meta property="og:description" content="Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide." />
-  <meta property="og:image" content={title} />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/CameraSettings/cameratitle.png" />
   <meta property="og:url" content="https://jackiewyers.beauty/camera-settings" />
-  <meta name="twitter:card" content="summary_large_image" />
+
   <meta name="twitter:title" content="Camera Settings - A Guide to Scroll-Stopping iPhone Photos - Jackie Wyers" />
   <meta name="twitter:description" content="Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide." />
-  <meta name="twitter:image" content={title} />
-  <link rel="canonical" href="https://jackiewyers.beauty/camera-settings" />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/CameraSettings/cameratitle.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+
+  {/* Google Ads Script */}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+
+  {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
     {`
-    {
-      "@context": "http://schema.org",
-      "@type": "Article",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://jackiewyers.beauty/camera-settings"
-      },
-      "headline": "Camera Settings - A Guide to Scroll-Stopping iPhone Photos - Jackie Wyers",
-      "description": "Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide.",
-      "image": "${title}",
-      "author": {
-        "@type": "Person",
-        "name": "Jackie Wyers"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Jackie Wyers",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "${title}"
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Camera Settings - A Guide to Scroll-Stopping iPhone Photos - Jackie Wyers",
+        "description": "Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide.",
+        "image": "https://jackiewyers.beauty/Images/Articles/CameraSettings/cameratitle.png",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/jw3logo.png"
+          }
+        },
+        "datePublished": "2024-08-11",
+        "dateModified": "2024-08-11",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/camera-settings"
         }
-      },
-      "datePublished": "2024-08-11",
-      "dateModified": "2024-08-11"
-    }
+      }
     `}
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG');
-    `}
-  </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
-
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
         <p  style={{ fontFamily: 'Arapey', fontSize: '1em', color: 'black', textDecoration: 'none' }}>

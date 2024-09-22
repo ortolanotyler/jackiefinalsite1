@@ -141,7 +141,7 @@ const captionStyle = {
             },
             "headline": "Lana Del Rey SKIMS Makeup Tutorial - Jackie Wyers",
             "description": "Explore Jackie Wyers' Lana Del Rey SKIMS Makeup Tutorial. Recreate Lana's look with step-by-step guidance, featuring top beauty products and style tips.",
-            "image": "${title}",
+            "image": "https://jackiewyers.beauty/jw3logo.png"
             "author": {
                 "@type": "Person",
                 "name": "Jackie Wyers"
@@ -151,11 +151,11 @@ const captionStyle = {
                 "name": "Jackie Wyers",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "${title}"
+            "url": "https://jackiewyers.beauty/jw3logo.png"
                 }
             },
             "datePublished": "2024-07-27",
-            "dateModified": "2024-07-27"
+            "dateModified": "2024-09-21"
         }
         `}
     </script>

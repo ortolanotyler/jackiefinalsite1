@@ -6,7 +6,6 @@ import AdSenseAd from '../../../Advertising/Ads';
 import { Helmet } from'react-helmet';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import EmailSubscribe from '../../../Components/EmailSubscribe';
 import DropCap1 from '../../Travel/DropCap1';
 import { initGA, logPageView } from '../../../analytics';
 import ArticleTitle from '../../../Components/ArticleTitle';
@@ -125,61 +124,61 @@ const captionStyle = {
 
   const blogContent = (
     <div className="container">
-   <Helmet>
+ <Helmet>
   <title>Emily in Paris Style Evolution: Iconic Outfits, Makeup, Hair</title>
-  <meta name="description" content="Explore the style evolution of Emily Cooper from Emily in Paris. Discover iconic fashion, makeup, and hair moments from the series." />
-  <meta name="keywords" content="Emily in Paris, Makeup, Hair, Fashion, Style Evolution, Jackie Wyers, Beauty Blog, Netflix, Patricia Field, Marylin Fitoussi, Lily Collins" />
-  <meta property="og:title" content="Emily in Paris Style Evolution: Makeup, Hair, and Fashion Recap - Jackie Wyers" />
-  <meta property="og:description" content="Explore the style evolution of Emily Cooper from Emily in Paris. Discover iconic fashion, makeup, and hair moments from the series." />
-  <meta property="og:image" content={title} />
-  <meta property="og:url" content="https://jackiewyers.beauty/emilyinparis" />
   <link rel="canonical" href="https://jackiewyers.beauty/emily-in-paris" />
 
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="description" content="Explore the style evolution of Emily Cooper from Emily in Paris. Discover iconic fashion, makeup, and hair moments from the series." />
+  <meta name="keywords" content="Emily in Paris, Makeup, Hair, Fashion, Style Evolution, Jackie Wyers, Beauty Blog, Netflix, Patricia Field, Marylin Fitoussi, Lily Collins, Emily Cooper style, pop culture fashion, beauty tutorials, Emily in Paris fashion, American in Paris, Netflix fashion, iconic TV outfits, TV beauty inspiration, Emily Cooper makeup, TV character style evolution, TV show hairstyles, bold fashion choices, Parisian fashion, celebrity fashion" />
+
+  <meta property="og:title" content="Emily in Paris Style Evolution: Makeup, Hair, and Fashion Recap - Jackie Wyers" />
+  <meta property="og:description" content="Explore the style evolution of Emily Cooper from Emily in Paris. Discover iconic fashion, makeup, and hair moments from the series." />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/EmilyInParis/emilytitle.png" />
+  <meta property="og:url" content="https://jackiewyers.beauty/emily-in-paris" />
+
   <meta name="twitter:title" content="Emily in Paris Style Evolution: Makeup, Hair, and Fashion Recap - Jackie Wyers" />
   <meta name="twitter:description" content="Explore the style evolution of Emily Cooper from Emily in Paris. Discover iconic fashion, makeup, and hair moments from the series." />
-  <meta name="twitter:image" content={title} />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/EmilyInParis/emilytitle.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+
+  {/* Google Ads Script */}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+
+  {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
     {`
-    {
-      "@context": "http://schema.org",
-      "@type": "Article",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://jackiewyers.beauty/emilyinparis"
-      },
-      "headline": "Emily in Paris Style Evolution: Makeup, Hair, and Fashion Recap - Jackie Wyers",
-      "description": "Explore the style evolution of Emily Cooper from Emily in Paris. Discover iconic fashion, makeup, and hair moments from the series.",
-      "image": "${title}",
-      "author": {
-        "@type": "Person",
-        "name": "Jackie Wyers"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Jackie Wyers",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "${title}"
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Emily in Paris Style Evolution: Makeup, Hair, and Fashion Recap - Jackie Wyers",
+        "description": "Explore the style evolution of Emily Cooper from Emily in Paris. Discover iconic fashion, makeup, and hair moments from the series.",
+        "image": "https://jackiewyers.beauty/Images/Articles/EmilyInParis/emilytitle.png",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/jw3logo.png"
+          }
+        },
+        "datePublished": "2024-08-13",
+        "dateModified": "2024-08-13",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/emily-in-paris"
         }
-      },
-      "datePublished": "2024-08-13",
-      "dateModified": "2024-08-13"
-    }
+      }
     `}
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG');
-    `}
-  </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
-
 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
         <a href="/popculture" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>

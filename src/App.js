@@ -115,11 +115,14 @@ import DiaryHome from './DiaryHome/diaryhome';
 import CameraSettings from './Articles/Tutorials/PopCulture/CameraSettings';
 import EmilyInParis from './Articles/Tutorials/PopCulture/EmilyInParis';
 import Rome from './Articles/Travel/Rome';
+
+
 import './App.css';
 import Sorrento1 from './Articles/Travel/Sorrento1';
 import PastWorkGallery from './Components/PastWorkGallery';
 import Francesca from './Articles/Tutorials/VintageVibes/Francesca';
 import FanArt from './About/FanArtGallery';
+import Halloween from './Articles/Tutorials/PopCulture/Halloween';
 function usePageTracking() {
   const location = useLocation();
 
@@ -262,6 +265,7 @@ function App() {
             <Route path="recently-sponsored" element={<PastWorkGallery />} />
             <Route path="francesca-bridgerton" element={<Francesca />} />
             <Route path="fan-art" element={<FanArt />} />
+            <Route path="girly-pop-halloween" element={<Halloween />} />
 
             <Route path="*" element={<h1>404 Not Found</h1>} />
           </Route>
