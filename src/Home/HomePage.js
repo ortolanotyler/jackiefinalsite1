@@ -316,11 +316,11 @@ isFlipped={true}
               isFlipped={true}
             />
 
-<HorizontalLine />
+
 </Suspense>
 </Grid>
 
-      
+<HorizontalLine />
           
 <TextBanner2 text="LIFESTYLE" height="200px" width="100%" fontSize="80px" />
 
@@ -328,51 +328,10 @@ isFlipped={true}
 <HorizontalLine />
 
 
-
-
-
-       
-
-
-        <Grid item xs={12} md={6}>
-          <Suspense fallback={<div className="spinner"></div>}>
-          <HeroSection
-  featureText="TRAVEL"
-  headlineText="The Best Souvenirs to Bring Home from Sorrento"
-  subtext="Leather, Music Boxes, Flats, Oh Me! Discover the top Sorrento souvenirs with Jackie Wyers."
-  author="BY JACKIE WYERS"
-  imagePath="Sorrento1/SorrentoThumbnail.jpg"
-  linkUrl="/sorrento"
-  isFlipped={true}
-/>
-          </Suspense>
-        </Grid>
-
-
-        <Grid item xs={12} md={6}>
+<Grid item xs={12} md={6}>
           <Suspense fallback={<div className="spinner"></div>}>
          
-          <HeroSection
-              featureText="TRAVEL"
-              headlineText="Our Three Day Romantic Getaway in Rome, Italy"
-              subtext="From early morning strolls to late-night gelato runs, we made the most of every moment in this enchanting city."
-              author="BY JACKIE WYERS"
-              imagePath="Rome/47.jpeg"
-              linkUrl="/rome"
-              isFlipped={false}
-            />
 
-        
-          </Suspense>
-        </Grid>
-     
-
-
-
-        <Grid item xs={12} md={6}>
-          <Suspense fallback={<div className="spinner"></div>}>
-         
-          <HorizontalLine />
 
           <HeroSection
   featureText="HOW-TO : IPHONE"
@@ -388,6 +347,49 @@ isFlipped={true}
           </Suspense>
         </Grid>
         <HorizontalLine />
+
+
+       
+
+
+        <Grid item xs={12} md={6}>
+          <Suspense fallback={<div className="spinner"></div>}>
+          <HeroSection
+  featureText="TRAVEL"
+  headlineText="The Best Souvenirs to Bring Home from Sorrento"
+  subtext="Leather, Music Boxes, Flats, Oh Me! Discover the top Sorrento souvenirs with Jackie Wyers."
+  author="BY JACKIE WYERS"
+  imagePath="Sorrento1/SorrentoThumbnail.jpg"
+  linkUrl="/sorrento"
+  isFlipped={false}
+/>
+          </Suspense>
+        </Grid>
+
+        
+
+
+        <Grid item xs={12} md={6}>
+          <Suspense fallback={<div className="spinner"></div>}>
+         
+          <HeroSection
+              featureText="TRAVEL"
+              headlineText="Our Three Day Romantic Getaway in Rome, Italy"
+              subtext="From early morning strolls to late-night gelato runs, we made the most of every moment in this enchanting city."
+              author="BY JACKIE WYERS"
+              imagePath="Rome/47.jpeg"
+              linkUrl="/rome"
+              isFlipped={true}
+            />
+
+        
+          </Suspense>
+        </Grid>
+     
+
+
+
+  
 
         <Grid item xs={12} md={6}>
           <Suspense fallback={<div className="spinner"></div>}>
