@@ -2,16 +2,13 @@ import React from 'react';
 import styles from './aaa.module.css'; // Import CSS Modules
 
 
-import { Paper } from '@mui/material';
-import TextReveal from '../../Components/TextReveal';
-import RotatingText from '../../Navigation/AppBar/RotatingText';
+
 
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
 const image7 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
 const image9 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/SQUAREMARGOT.jpeg`;
 const nomakeup = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
-const animalpretty = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.jpg`;
 const summerinspo = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/mermaidthumbnail.jpg`;
 const summerbeauty = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/BlueLagoonThumbnail.jpg`;
 const perioddrama = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/ArticleThumb.jpg`;

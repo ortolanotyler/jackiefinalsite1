@@ -1,17 +1,20 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Box, Button, Menu, MenuItem, Typography } from '@mui/material';
-import menuOptions from './menuOptions'; // Import your menu options (pages, tutorialOptions, etc.)
+import menuOptions from './menuOptions'; // Import your menu options
 
 const NavButtons = () => {
   const [anchorEl, setAnchorEl] = useState(null);
+  const [submenu, setSubmenu] = useState([]);
 
-  const handleOpenMenu = (event) => {
+  const handleOpenMenu = (event, subMenu) => {
     setAnchorEl(event.currentTarget);
+    setSubmenu(subMenu || []);
   };
 
   const handleCloseMenu = () => {
     setAnchorEl(null);
+    setSubmenu([]);
   };
 
   return (
@@ -28,10 +31,11 @@ const NavButtons = () => {
             fontSize: '1rem',
             fontFamily: 'Playfair Display, serif',
             mx: 2,
-            '&:hover': { backgroundColor: 'transparent' },
-            '&:active': { backgroundColor: 'transparent' }, // Remove background on press
+            backgroundColor: 'transparent',
           }}
-          onClick={option.subMenu ? handleOpenMenu : handleCloseMenu}
+          onClick={(event) =>
+            option.subMenu ? handleOpenMenu(event, option.subMenu) : handleCloseMenu()
+          }
         >
           {option.name}
         </Button>
@@ -42,32 +46,40 @@ const NavButtons = () => {
         onClose={handleCloseMenu}
         sx={{
           '.MuiPaper-root': {
-            bgcolor: 'white',
+            backgroundColor: '#FDEDEF',
             color: '#745B4F',
-            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-            borderRadius: '8px',
+            boxShadow: 'none',
+            borderRadius: '0',
+            fontFamily: 'Playfair Display, serif',
+            padding: 0,
+            marginTop: '0.5rem',
           },
           '.MuiMenuItem-root': {
-            fontFamily: 'Playfair Display, serif',
-            fontSize: '1rem',
-            '&:hover': { bgcolor: 'transparent' },
+            fontFamily: 'Playfair Display, serif !important',
+            fontSize: '16px !important',
+            color: '#745B4F !important',
+            padding: '0.5rem 1rem',
+            backgroundColor: 'transparent !important',
           },
         }}
       >
-        {anchorEl &&
-          menuOptions
-            .find((option) => option.name === anchorEl.textContent)
-            .subMenu.map((subOption) => (
-              <MenuItem
-                key={subOption.name}
-                onClick={handleCloseMenu}
-                component={Link}
-                to={subOption.path}
-                sx={{ '&:hover': { bgcolor: 'transparent' } }}
-              >
-                <Typography>{subOption.name}</Typography>
-              </MenuItem>
-            ))}
+        {submenu.map((subOption) => (
+          <MenuItem
+            key={subOption.name}
+            onClick={handleCloseMenu}
+            component={Link}
+            to={subOption.path}
+            sx={{
+              fontFamily: 'Playfair Display, serif !important',
+              fontSize: '16px !important',
+              color: '#745B4F !important',
+              textTransform: 'uppercase',
+              backgroundColor: 'transparent',
+            }}
+          >
+            <Typography>{subOption.name}</Typography>
+          </MenuItem>
+        ))}
       </Menu>
     </Box>
   );

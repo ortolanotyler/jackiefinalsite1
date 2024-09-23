@@ -2,8 +2,7 @@ import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import styles from '../aaa.module.css'; // Import CSS Modules
 import TextReveal from '../../../Components/TextReveal';
-import RotatingText from '../../../Navigation/AppBar/RotatingText';
-import { Paper } from '@mui/material';
+
 import { initGA, logPageView } from '../../../analytics';
 
 // Importing the images
