@@ -36,11 +36,11 @@ export default function EmailSubscribe() {
       justifyContent="center"
       alignItems="center"
       width="100%"
-      height="40vh"
+      height="400px"
       px={2}
       sx={{
         position: 'relative',
-        backgroundColor: '#f5f5f5', // Use a plain background color instead
+        backgroundColor: 'white', // Use a plain background color instead
       }}
     >
       {/* Form inside a white card */}
@@ -51,7 +51,7 @@ export default function EmailSubscribe() {
           zIndex: 2,
           padding: '2rem',
           maxWidth: '500px',
-          backgroundColor: 'white', // White card background
+          backgroundColor: '#fdedef', // Use a plain background color instead
           borderRadius: '10px',
         }}
       >
@@ -62,7 +62,7 @@ export default function EmailSubscribe() {
             </Grid>
           ) : (
             <form onSubmit={handleSubmit} className="form">
-              <Grid container spacing={2}>
+              <Grid container spacing={3}>
                 <Grid item xs={12}>
                   <TextField
                     type="email"

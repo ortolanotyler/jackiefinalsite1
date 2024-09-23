@@ -37,6 +37,8 @@ const NewsletterSlider = () => {
       >
         Sign up for the weekly newsletter!
       </Typography>
+
+      <EmailSubscribe />
      
 
       <Box 
@@ -45,7 +47,7 @@ const NewsletterSlider = () => {
           position: 'relative', 
         
           width: '100%', 
-          maxWidth: '1200px', 
+          maxWidth: '800px', 
           maxHeight: '100%', 
           display: 'flex', 
           alignItems: 'center', 
@@ -82,7 +84,7 @@ const NewsletterSlider = () => {
           <ArrowForward />
         </IconButton>
       </Box>
-      <EmailSubscribe />
+ 
  
     </React.Fragment>
   );
