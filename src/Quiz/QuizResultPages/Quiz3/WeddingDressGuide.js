@@ -112,26 +112,57 @@ const imageStyle = {
   <title>The Ultimate 2025 Wedding Dress Guide - Jackie Wyers</title>
   <link rel="canonical" href="https://jackiewyers.beauty/weddingdressguide" />
 
-  <meta name="description" content="Explore the ultimate 2025 wedding dress guide with Jackie Wyers, featuring bridal styles, themes, and trends perfect for every bride-to-be." />
-  <meta name="keywords" content="2025 wedding dress guide, bridal fashion, Jackie Wyers, wedding themes, bridal trends, fairytale wedding dresses, modern minimalist dresses, vintage glamour wedding dresses, bohemian wedding dresses, old money wedding, beach wedding dresses, garden party wedding dresses, wedding dress shopping, wedding fashion, bridal style tips, wedding gown inspiration, Eva Lendel bridal collection, Natalie Rose Bridal, historical elegance wedding, wedding dress trends 2025, classic elegance wedding dress, tulle overskirt, corseted wedding dresses, trumpet wedding dress, pearl wedding dress, lace-up bridal gown, fairytale bridal guide, Jackie Wyers bridal guide" />
+  <meta 
+    name="description" 
+    content="Explore the ultimate 2025 wedding dress guide with Jackie Wyers, featuring bridal styles, themes, and trends perfect for every bride-to-be." 
+  />
+  <meta 
+    name="keywords" 
+    content="2025 wedding dress guide, bridal fashion, Jackie Wyers, wedding themes, bridal trends, fairytale wedding dresses, modern minimalist dresses, vintage glamour wedding dresses, bohemian wedding dresses, old money wedding, beach wedding dresses, garden party wedding dresses, wedding dress shopping, wedding fashion, bridal style tips, wedding gown inspiration, Eva Lendel bridal collection, Natalie Rose Bridal, historical elegance wedding, wedding dress trends 2025, classic elegance wedding dress, tulle overskirt, corseted wedding dresses, trumpet wedding dress, pearl wedding dress, lace-up bridal gown, fairytale bridal guide, Jackie Wyers bridal guide, timeless wedding styles, luxurious bridal looks, trendy wedding gowns"
+  />
 
+  {/* Open Graph Meta Tags */}
   <meta property="og:title" content="The Ultimate 2025 Wedding Dress Guide - Jackie Wyers" />
-  <meta property="og:description" content="Explore the ultimate 2025 wedding dress guide with Jackie Wyers, featuring bridal styles, themes, and trends perfect for every bride-to-be." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Quiz/Quiz3/guidethumbnail.jpeg" />
+  <meta 
+    property="og:description" 
+    content="Explore the ultimate 2025 wedding dress guide with Jackie Wyers, featuring bridal styles, themes, and trends perfect for every bride-to-be." 
+  />
+  <meta 
+    property="og:image" 
+    content="https://jackiewyers.beauty/Images/Quiz/Quiz3/guidethumbnail.jpeg" 
+  />
   <meta property="og:url" content="https://jackiewyers.beauty/weddingdressguide" />
   <meta property="og:type" content="article" />
 
+  {/* Twitter Meta Tags */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="The Ultimate 2025 Wedding Dress Guide - Jackie Wyers" />
-  <meta name="twitter:description" content="Explore the ultimate 2025 wedding dress guide with Jackie Wyers, featuring bridal styles, themes, and trends perfect for every bride-to-be." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Quiz/Quiz3/guidethumbnail.jpeg" />
+  <meta 
+    name="twitter:description" 
+    content="Explore the ultimate 2025 wedding dress guide with Jackie Wyers, featuring bridal styles, themes, and trends perfect for every bride-to-be." 
+  />
+  <meta 
+    name="twitter:image" 
+    content="https://jackiewyers.beauty/Images/Quiz/Quiz3/guidethumbnail.jpeg" 
+  />
 
   {/* Google Analytics Script */}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG', { page_path: window.location.pathname });
+    `}
+  </script>
 
   {/* Google Ads Script */}
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+  <script 
+    async 
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" 
+    crossorigin="anonymous">
+  </script>
 
   {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
@@ -148,7 +179,7 @@ const imageStyle = {
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Jackie Wyers",
+          "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
             "url": "https://jackiewyers.beauty/jwlogo3.png"

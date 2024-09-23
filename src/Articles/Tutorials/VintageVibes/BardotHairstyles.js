@@ -124,28 +124,61 @@ const captionStyle = {
 
   const blogContent = (
     <div className="container">
- <Helmet>
+<Helmet>
   <title>Mastering the Bardot Bun - Jackie Wyers</title>
   <link rel="canonical" href="https://jackiewyers.beauty/bardothairstyles" />
 
-  <meta name="description" content="Step-by-step guide on how to recreate Brigitte Bardot's iconic '60s hairstyles, featuring tips and tricks by Jackie Wyers." />
-  <meta name="keywords" content="Bardot bun, Brigitte Bardot hairstyle, 60s hair tutorial, vintage hairstyles, faux bangs, Bardot-inspired bun, Jackie Wyers, how to create Bardot bun, big voluminous bun, curtain bangs, hair tutorial, Sabrina Carpenter hair, updo hairstyles, teasing hair, pin curls, textured bun, sock bun, bun maker, hair accessories, Marc Anthony Style Flex, OGX Bamboo Fibre Full hairspray, texturizing spray, Bardot bangs, beauty tutorials, retro hairstyles, 1960s makeup, vintage glamour, iconic hairstyles, faux bangs tutorial, hair styling tips, Brigitte Bardot look, Bardot-inspired makeup, Sabrina Carpenter inspired, hair teasing techniques, pin curls tutorial, fluffy curtain bangs, blonde wig, retro beauty, Time Travel Tutorials, Jackie Wyers hair, vintage beauty, Brigitte Bardot bun without haircut, Bardot hair inspiration, hair volume tips, retro updo, hairspray, styling products for Bardot look, hairstyling tips, beauty influencer tutorials, vintage vibes, classic beauty looks, iconic 60s style, Bridgerton beauty, Sharon Tate style, faux bangs styling, big bun tutorial, textured hairstyles, beauty inspiration, styling with hairspray, beauty and style, vintage beauty tutorials" />
+  <meta 
+    name="description" 
+    content="Step-by-step guide on how to recreate Brigitte Bardot's iconic '60s hairstyles, featuring tips and tricks by Jackie Wyers." 
+  />
+  <meta 
+    name="keywords" 
+    content="Bardot bun, Brigitte Bardot hairstyle, 60s hair tutorial, vintage hairstyles, faux bangs, Bardot-inspired bun, Jackie Wyers, how to create Bardot bun, big voluminous bun, curtain bangs, hair tutorial, Sabrina Carpenter hair, updo hairstyles, teasing hair, pin curls, textured bun, sock bun, bun maker, hair accessories, Marc Anthony Style Flex, OGX Bamboo Fibre Full hairspray, texturizing spray, Bardot bangs, beauty tutorials, retro hairstyles, 1960s makeup, vintage glamour, iconic hairstyles, faux bangs tutorial, hair styling tips, Brigitte Bardot look, Bardot-inspired makeup, Sabrina Carpenter inspired, hair teasing techniques, pin curls tutorial, fluffy curtain bangs, blonde wig, retro beauty, Time Travel Tutorials, Jackie Wyers hair, vintage beauty, Brigitte Bardot bun without haircut, Bardot hair inspiration, hair volume tips, retro updo, hairspray, styling products for Bardot look, hairstyling tips, beauty influencer tutorials, vintage vibes, classic beauty looks, iconic 60s style, Bridgerton beauty, Sharon Tate style, faux bangs styling, big bun tutorial, textured hairstyles, beauty inspiration, styling with hairspray, beauty and style, vintage beauty tutorials, retro chic, elegant hairstyles, 60s glam, DIY Bardot bun" 
+  />
 
+  {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Mastering the Bardot Bun - Jackie Wyers" />
-  <meta property="og:description" content="Step-by-step guide on how to recreate Brigitte Bardot's iconic '60s hairstyles, featuring tips and tricks by Jackie Wyers." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg" />
+  <meta 
+    property="og:description" 
+    content="Step-by-step guide on how to recreate Brigitte Bardot's iconic '60s hairstyles, featuring tips and tricks by Jackie Wyers." 
+  />
+  <meta 
+    property="og:image" 
+    content="https://jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg" 
+  />
   <meta property="og:url" content="https://jackiewyers.beauty/bardothairstyles" />
+  <meta property="og:type" content="article" />
+
+  {/* Twitter Meta Tags */}
   <meta name="twitter:title" content="Mastering the Bardot Bun - Jackie Wyers" />
-  <meta name="twitter:description" content="Step-by-step guide on how to recreate Brigitte Bardot's iconic '60s hairstyles, featuring tips and tricks by Jackie Wyers." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg" />
+  <meta 
+    name="twitter:description" 
+    content="Step-by-step guide on how to recreate Brigitte Bardot's iconic '60s hairstyles, featuring tips and tricks by Jackie Wyers." 
+  />
+  <meta 
+    name="twitter:image" 
+    content="https://jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg" 
+  />
   <meta name="twitter:card" content="summary_large_image" />
 
   {/* Google Analytics Script */}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG', { page_path: window.location.pathname });
+    `}
+  </script>
 
   {/* Google Ads Script */}
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+  <script 
+    async 
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" 
+    crossorigin="anonymous">
+  </script>
 
   {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
@@ -155,7 +188,7 @@ const captionStyle = {
         "@type": "BlogPosting",
         "headline": "Mastering the Bardot Bun - Jackie Wyers",
         "description": "Step-by-step guide on how to recreate Brigitte Bardot's iconic '60s hairstyles, featuring tips and tricks by Jackie Wyers.",
-        "image": "https://jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.png",
+        "image": "https://jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -178,7 +211,6 @@ const captionStyle = {
     `}
   </script>
 </Helmet>
-
 
 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>

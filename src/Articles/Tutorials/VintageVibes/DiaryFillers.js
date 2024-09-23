@@ -256,7 +256,7 @@ const Card = ({ blogContent }) => (
       </div>
 
       <NextArticle
-      link="/bridesmaidsboxes"
+      link="/bridesmaidboxes"
       imgSrc={bridesmaid}
       altText="DIY Bridesmaid Boxes"
       linkText="MORE DIARY POSTS →"

@@ -6,7 +6,6 @@ import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
-import InstagramEmbed from '../../../Components/InstagramEmbed';
 import NextArticle from '../../../Components/NextArticleComponent';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/1.jpg`;
@@ -107,21 +106,42 @@ fontStyle: 'italic',
 
   const blogContent = (
     <div className="container">
-    <Helmet>
-  <title>Bridesmaid Boxes How-To - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/bridesmaidsboxes" />
+<Helmet>
+  <title>Bridesmaid Boxes How-To </title>
+  <link rel="canonical" href="https://jackiewyers.beauty/bridesmaidboxes" />
 
-  <meta name="description" content="Creative and budget-friendly ideas for your bridesmaids gifts, featuring DIY tips by Jackie Wyers." />
-  <meta name="keywords" content="Bridesmaid Boxes, Jackie Wyers, Bridal Gifts, DIY Bridesmaid Gifts, Budget-Friendly Bridesmaid Gifts, Bridal Blog, Bridesmaid Proposal, Wedding Planning, Wedding Gifts, Bridesmaid Ideas, Bridesmaids How-To" />
+  <meta 
+    name="description" 
+    content="Creative and budget-friendly ideas for your bridesmaids gifts, featuring DIY tips by Jackie Wyers." 
+  />
+  <meta 
+    name="keywords" 
+    content="Bridesmaid Boxes, Jackie Wyers, Bridal Gifts, DIY Bridesmaid Gifts, Budget-Friendly Bridesmaid Gifts, Bridal Blog, Bridesmaid Proposal, Wedding Planning, Wedding Gifts, Bridesmaid Ideas, Bridesmaids How-To, personalized bridesmaid gifts, DIY gift ideas, wedding planning tips, unique bridesmaid boxes, cost-effective bridesmaid proposals" 
+  />
 
+  {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Bridesmaid Boxes How-To - Jackie Wyers" />
-  <meta property="og:description" content="Creative and budget-friendly ideas for your bridesmaids gifts, featuring DIY tips by Jackie Wyers." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/Bridesmaids/BridesmaidsTitle.png" />
-  <meta property="og:url" content="https://jackiewyers.beauty/bridesmaidsboxes" />
+  <meta 
+    property="og:description" 
+    content="Creative and budget-friendly ideas for your bridesmaids gifts, featuring DIY tips by Jackie Wyers." 
+  />
+  <meta 
+    property="og:image" 
+    content="https://jackiewyers.beauty/Images/Articles/Bridesmaids/BridesmaidsTitle.png" 
+  />
+  <meta property="og:url" content="https://jackiewyers.beauty/bridesmaidboxes" />
+  <meta property="og:type" content="article" />
 
+  {/* Twitter Meta Tags */}
   <meta name="twitter:title" content="Bridesmaid Boxes How-To - Jackie Wyers" />
-  <meta name="twitter:description" content="Creative and budget-friendly ideas for your bridesmaids gifts, featuring DIY tips by Jackie Wyers." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Bridesmaids/BridesmaidsTitle.png" />
+  <meta 
+    name="twitter:description" 
+    content="Creative and budget-friendly ideas for your bridesmaids gifts, featuring DIY tips by Jackie Wyers." 
+  />
+  <meta 
+    name="twitter:image" 
+    content="https://jackiewyers.beauty/Images/Articles/Bridesmaids/BridesmaidsTitle.png" 
+  />
   <meta name="twitter:card" content="summary_large_image" />
 
   {/* Google Analytics Script */}
@@ -131,12 +151,16 @@ fontStyle: 'italic',
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG');
+      gtag('config', 'G-RT6GR7JXYG', { page_path: window.location.pathname });
     `}
   </script>
 
   {/* Google Ads Script */}
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+  <script 
+    async 
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" 
+    crossorigin="anonymous">
+  </script>
 
   {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
@@ -144,7 +168,7 @@ fontStyle: 'italic',
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "Bridesmaid Boxes How-To",
+        "headline": "Bridesmaid Boxes How-To - Jackie Wyers",
         "description": "Creative and budget-friendly ideas for your bridesmaids gifts, featuring DIY tips by Jackie Wyers.",
         "image": "https://jackiewyers.beauty/Images/Articles/Bridesmaids/BridesmaidBoxThumb!.jpg",
         "author": {
@@ -163,7 +187,7 @@ fontStyle: 'italic',
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/bridesmaidsboxes"
+          "@id": "https://jackiewyers.beauty/bridesmaidboxes"
         }
       }
     `}
