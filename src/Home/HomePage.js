@@ -163,7 +163,7 @@ function HomePage() {
     `}
   </script>
 </Helmet>
-      <Grid container spacing={1} justifyContent="center">
+      <Grid container spacing={2} justifyContent="center">
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
             <TextRevealHomePage text="JACKIE WYERS" style = {{margin:'0 auto'}} />
