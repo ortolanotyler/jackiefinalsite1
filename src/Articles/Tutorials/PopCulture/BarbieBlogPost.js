@@ -12,7 +12,6 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 
  
 
-const title = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/barbietitle2.jpeg`;
 const Barbie2 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/Barbie2.JPG`;
 const barbienew = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/barbienew.jpeg`;
 const Barbie3 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/Barbie3.jpeg`;
