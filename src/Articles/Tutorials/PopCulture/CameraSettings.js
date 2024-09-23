@@ -11,7 +11,6 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 
 
 
-const title = `${process.env.PUBLIC_URL}/Images/Articles/CameraSettings/cameratitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/CameraSettings/1.JPG`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/CameraSettings/2.JPG`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/CameraSettings/3.JPG`;

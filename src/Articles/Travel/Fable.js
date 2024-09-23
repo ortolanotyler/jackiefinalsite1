@@ -176,7 +176,7 @@ const Fable = () => {
   mainTitle="Fable Auckland Hotel Review"
   subTitle="A Luxurious Stay in the Heart of Auckland"
   author="Jackie Wyers"
-/>            <ResponsiveYoutube src="https://www.youtube.com/embed/-eLreMotKEs?si=5VvA8ay_d6aymnOQ" title="YouTube video player" />
+/>            <ResponsiveYoutube src="https://www.youtube.com/embed/-eLreMotKEs?si=5VvA8ay_d6aymnOQ" title="Fable Auckland" />
             <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <SubscribeVlog />
             </div>

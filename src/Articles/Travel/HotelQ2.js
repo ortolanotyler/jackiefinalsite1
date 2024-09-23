@@ -154,7 +154,7 @@ const imageStyle = {
         "name": "Jackie Wyers",
         "logo": {
           "@type": "ImageObject",
-          "url": "${title}"
+                      "url": "${process.env.PUBLIC_URL}/jwlogo3.png"
         }
       },
       "datePublished": "2024-07-27",

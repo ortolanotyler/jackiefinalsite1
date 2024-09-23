@@ -259,7 +259,7 @@ const captionStyle = {
 
 
 <div style = {{lineHeight: '1.5rem',maxWidth: '700px', marginLeft: 'auto', marginRight: 'auto'}}>
-<DropCap1 text="Welcome back to another travel article!       This time, it's all about our whirlwind 72 hours in Rome, the first stop on our European adventure before heading to Sorrento, Italy, for our wedding! Tyler and I had visited Rome when we were younger, but experiencing such a romantic city together as adults was beyond exciting. Over the course of three days, we explored iconic landmarks like the Vatican, the Trevi Fountain, and the Colosseum, indulged in mouthwatering Italian cuisine, and soaked in the vibrant atmosphere of Rome’s charming neighbourhoods. " />
+<DropCap1 text="Welcome back to another travel article! This time, it's all about our whirlwind 72 hours in Rome, the first stop on our European adventure before heading to Sorrento, Italy, for our wedding! Tyler and I had visited Rome when we were younger, but experiencing such a romantic city together as adults was beyond exciting. Over the course of three days, we explored iconic landmarks like the Vatican, the Trevi Fountain, and the Colosseum, indulged in mouthwatering Italian cuisine, and soaked in the vibrant atmosphere of Rome’s charming neighbourhoods. " />
 
 </div>
 
