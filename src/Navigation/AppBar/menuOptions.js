@@ -41,7 +41,7 @@ const menuOptions = [
     { name: 'Travel', path: '/travel' },
     { name: 'Quiz', path: '/quiz' },
     { name: 'About', path: '/about' },
-    { name: 'Style', path: '/style' },
+    { name: 'Style', path: '/mystyle' },
   ];
   
   export default menuOptions;
