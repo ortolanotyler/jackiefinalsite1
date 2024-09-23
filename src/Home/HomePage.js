@@ -17,13 +17,10 @@ import AdSenseAd from '../Advertising/Ads';
 const TextReveal = lazy(() => import('../Components/TextReveal'));
 const EmailSubscribe = lazy(() => import('../Components/EmailSubscribe'));
 const RotatingText = lazy(() => import('../Navigation/AppBar/RotatingText'));
-const AboutHero = lazy(() => import('./AboutHero'));
-const BeyondBeautyHero = lazy(() => import('./BeyondBeautyHero'));
+
 const ShopMyHero2 = lazy(() => import('./ShopMyHero2'));
 const QuiltedImageList1 = lazy(() => import('./ImageGridTutorials'));
-const ImageGrid = lazy(() => import('./ArticlesGrid'));
-const LifestyleGrid = lazy(() => import('./ArticlesGrid2Lifestyle'));
-const Quiz2 = lazy(() => import('../Quiz/Quiz2'));
+
 
 const theme = createTheme();
 
@@ -366,7 +363,7 @@ isFlipped={true}
           </Suspense>
         </Grid>
 
-        
+        <HorizontalLine />
 
 
         <Grid item xs={12} md={6}>
@@ -387,7 +384,7 @@ isFlipped={true}
         </Grid>
      
 
-
+        <HorizontalLine />
 
   
 

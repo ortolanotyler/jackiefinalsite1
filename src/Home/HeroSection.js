@@ -21,7 +21,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    margin: '0 auto',
+    margin: '1rem auto',
     maxWidth: '1000px',
     color: '#000000',
 
@@ -33,10 +33,10 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     flex: 1,
     paddingRight: isSmallScreen ? '0' : isFlipped ? '0' : '40px',
     paddingLeft: isFlipped && !isSmallScreen ? '40px' : '0',
-    maxWidth: '80%',
-    margin: '1rem',
+    maxWidth: '100%',
+    margin: '1rem 2rem',
 
-    textAlign: 'center',
+    textAlign: 'left',
     fontFamily: 'GFS Didot, serif',
   };
 
@@ -45,7 +45,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     fontWeight: '100',
     letterSpacing: '0.05rem',
    color: '#000000',
-    margin: '1rem auto',
+    margin: '1rem 0',
     fontFamily: 'Playfair Display, serif',
     textDecoration: 'underline',
   };
@@ -69,6 +69,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
   };
 
   const authorStyle = {
+    textAlign: 'right',
     fontSize: '.75rem',
     fontStyle: 'italic',
     color: '#000000',
@@ -84,8 +85,8 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
 
   const imageStyle = {
     width: '100%',
-    padding: '1rem',
-    margin: '0 auto',
+    
+   
     height: 'auto',
     borderRadius: '0px',
     display: 'block',
