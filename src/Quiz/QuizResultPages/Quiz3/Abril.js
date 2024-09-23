@@ -8,6 +8,7 @@ import TextReveal from '../../../Components/TextReveal';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/guidethumbnail.jpeg`;
@@ -173,7 +174,12 @@ const imageStyle = {
           BEAUTY // BRIDAL
         </a>
       </div>
-      <img src={title} alt="Is your dream wedding dress the abril dress?" style={{ width: '100%' }} />
+      <ArticleTitle
+  mainTitle="Is your dream wedding dress the Abril?"
+  subTitle="Your Wedding Dress Quiz Results Say So!"
+  author="Jackie Wyers"
+  publishDate="June 25th, 2024"
+/>
    
       <ResponsiveYoutube src="https://www.youtube.com/embed/UQU9Fufug4M?si=WUaFXipbTuAIKW_9" title="WEDDING DRESS SHOPPING & Bridal Makeup Trial with Jackie Wyers" />
 

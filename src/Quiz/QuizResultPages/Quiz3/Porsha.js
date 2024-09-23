@@ -1,14 +1,13 @@
 import React, { useRef, useEffect } from 'react';
-import '../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import SubscribeButton from '../../../Components/SubscribeButton';
-import TextReveal from '../../../Components/TextReveal';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/porshatitle.png`;
@@ -24,12 +23,18 @@ const image5 = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/porsha5.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-  <div>
-    <div><TextReveal text='PORSHA' /></div>
+ 
+  <div style={{
+    padding: '10px 20px', // Consistent padding to prevent content from touching edges
+    margin: '0 auto',
+  }}>
+
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
-  </div>
+    </div>
+
+  
 );
 
 const Porsha = () => {
@@ -43,41 +48,77 @@ const Porsha = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
 
+ 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '32px',
-    fontWeight: 'normal',
-    fontFamily: 'GFS Didot, serif',
-    color: 'black',
-    margin: '1rem',
-    lineHeight: '1.25',
+    fontSize: '2.5rem',
+    fontWeight: '100',
+    fontFamily: 'Playfair Display, serif',
+    color: '#000000',
+    margin: '30px auto'
+};
 
-  };
 
-  const paragraphStyle = {
-    fontSize: '20px',
-    fontFamily: 'GFS Didot, serif',
-    margin: '1rem 1.5rem',
-    marginTop: '1rem',
-    marginBottom: '1rem',
-    maxWidth: '600px',
-    lineHeight: '1.5',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-  };
+const paragraphStyle = {
+  fontSize: '22px',
+  color: '#000000',
 
-  const gridContainerStyle = {
+  fontFamily: 'Georgia, serif',
+  fontWeight: 'regular',
+
+  margin: '2rem auto',
+
+  maxWidth: '500px', // Consistent with the other paragraphs
+  lineHeight: '1.6',
+  marginLeft: 'auto',
+  marginRight: 'auto',
+};
+
+const linkStyle = {
+  textDecoration: 'none', // Removes underline from links
+  fontFamily: 'Playfair Display, serif',
+  color: '#000000', // Inherits the color of the surrounding text
+};
+
+const gridContainerStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-    gap: '1rem',
-    margin: '1rem 0'
+    gap: '10px',
+    margin: '1rem auto'
 };
 
 const imageStyle = {
   display: 'block',
-  margin: '0 auto',
-  maxWidth: '600px',
+  margin: '1rem auto',
+  borderRadius: '0px',
+  maxWidth: '500px',
   height: 'auto'
+};
+
+const pinterestGridStyle = {
+  display: 'grid',
+  gap: '1rem',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+  justifyItems: 'center',
+  margin: '1rem 0',
+};
+
+const iframeStyle = {
+  width: '100%',
+  maxWidth: '236px',
+  height: '520px', // Maintains original height
+  border: 'none',
+  scrolling: 'no',
+};
+
+const captionStyle = {
+  textAlign: 'center',
+  fontSize: '1.1rem',
+  fontFamily: 'Raleway, serif',
+  fontWeight: 'normal',
+  margin: '1rem auto',
+  maxWidth: '100%',
+  fontStyle: 'italic',
 };
 
 
@@ -113,7 +154,13 @@ const imageStyle = {
           BEAUTY // BRIDAL
         </a>
       </div>
-      <img src={title} alt="Is your dream wedding dress the Porsha dress?" style={{ width: '100%' }} />
+
+<ArticleTitle
+  mainTitle="Is your dream wedding dress the Porsha?"
+  subTitle="Your Wedding Dress Quiz Results Say So!"
+  author="Jackie Wyers"
+  publishDate="June 25th, 2024"
+/>
    
       <ResponsiveYoutube src="https://www.youtube.com/embed/UQU9Fufug4M?si=WUaFXipbTuAIKW_9" title="WEDDING DRESS SHOPPING & Bridal Makeup Trial with Jackie Wyers" />
 
