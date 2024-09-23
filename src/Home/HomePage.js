@@ -108,14 +108,16 @@ function HomePage() {
 
   return (
     <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
-   <Helmet>
+  <Helmet>
   <title>Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/" />
+
   <meta name="description" content="Explore beauty tutorials, reviews, travel tips, makeup looks, product reviews, and style guides from Jackie Wyers." />
-  <meta name="keywords" content="beauty, makeup, tutorials, product reviews, travel tips, Jackie Wyers, style, makeup looks, fashion" />
+  <meta name="keywords" content="beauty tutorials, makeup reviews, travel tips, Jackie Wyers, beauty influencer, makeup looks, style guides, product reviews, fashion tips, skincare, hair tutorials, beauty trends, travel guides, girly style, pop culture beauty, vintage hairstyles, Jackie Wyers YouTube, beauty influencer tips, lifestyle content, beauty reviews, product recommendations, skincare tips, girly beauty trends, makeup inspiration, hair styling, beauty influencer reviews, classic beauty, retro beauty, travel vlogs, girly makeup looks, trendy makeup tutorials, period makeup, beauty and style, travel recommendations, makeup products, girly style tips, fashion advice, beauty advice, influencer travel tips, pop culture inspired beauty" />
 
   <meta property="og:title" content="Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips" />
   <meta property="og:description" content="Discover makeup tutorials, product reviews, beauty tips, and travel guides by Jackie Wyers." />
-  <meta property="og:image" content="https://jackiewyers.beauty/images/jackie-og-image.jpg" />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/jw3logo.png" />
   <meta property="og:url" content="https://jackiewyers.beauty/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Jackie Wyers Beauty" />
@@ -123,14 +125,17 @@ function HomePage() {
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips" />
   <meta name="twitter:description" content="Explore beauty tutorials, product reviews, and travel tips by Jackie Wyers." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/images/jackie-twitter-image.jpg" />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/jw3logo.png" />
   <meta name="twitter:site" content="@JackieWyers" />
 
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" as="style" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" />
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
 
-  <link rel="canonical" href="https://jackiewyers.beauty/" />
+  {/* Google Ads Script */}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 
+  {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
     {`
       {
@@ -149,7 +154,7 @@ function HomePage() {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/images/logo.png",
+            "url": "https://jackiewyers.beauty/Images/jw3logo.png",
             "width": 600,
             "height": 60
           }
@@ -157,54 +162,8 @@ function HomePage() {
       }
     `}
   </script>
-
- 
-  <script type="application/ld+json">
-    {`
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips",
-        "image": "https://jackiewyers.beauty/images/jackie-og-image.jpg",
-        "author": {
-          "@type": "Person",
-          "name": "Jackie Wyers"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "Jackie Wyers Beauty",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/images/jwlogo3.png"
-          }
-        },
-        "datePublished": "2024-09-01",
-        "dateModified": "2024-09-01",
-        "description": "Explore beauty tutorials, product reviews, and travel tips from Jackie Wyers.",
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/"
-        }
-      }
-    `}
-  </script>
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG', {
-        page_path: window.location.pathname,
-      });
-    `}
-  </script>
-  
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
-
-      <Grid container spacing={2} justifyContent="center">
+      <Grid container spacing={1} justifyContent="center">
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
             <TextRevealHomePage text="JACKIE WYERS" style = {{margin:'0 auto'}} />
@@ -252,6 +211,8 @@ function HomePage() {
 />
 </Suspense>
 </Grid>
+
+
 <HorizontalLine />
 
             <Grid item xs={12}>
@@ -266,8 +227,31 @@ function HomePage() {
   linkUrl="/fairytalewedding"
   isFlipped={false}
 />
+
 </Suspense>
 </Grid>
+
+<HorizontalLine />
+
+<Grid item xs={12}>
+  <Suspense fallback={<div className="spinner"></div>}>
+  
+  <HeroSection
+  featureText="TRAVEL"
+  headlineText="Best of Brussels: Top Things to See, Eat, and Experience + Train To Paris!"
+  subtext="Belgian Chocolate, Waffles, and A Walk Down Memory Lane"
+  author="BY JACKIE WYERS"
+  imagePath="Brussels/paristhumbnail.jpg"
+  linkUrl="/paris-brussels-travel-guide"
+  isFlipped={true}
+/>
+
+</Suspense>
+</Grid>
+
+
+
+
 <HorizontalLine />
 
            
@@ -329,7 +313,7 @@ isFlipped={true}
               author="BY JACKIE WYERS"
               imagePath="Francesca/FrancescaThumb.jpg"
               linkUrl="/francesca-bridgerton"
-              isFlipped={false}
+              isFlipped={true}
             />
 
 <HorizontalLine />
