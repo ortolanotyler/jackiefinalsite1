@@ -463,9 +463,23 @@ isFlipped={true}
         <HorizontalLine />
 
     
+        <Grid item xs={12} md={6}>
+        <Suspense fallback={<div className="spinner"></div>}>
+        <HeroSection
+  featureText="BRIDAL"
+  headlineText="DIY Flower Pins for a Mamma Mia Inspired Wedding"
+  subtext="Learn how to create your own DIY bridal flower pins inspired by Mamma Mia for your wedding day. Jackie Wyers shares a step-by-step guide to make these beautiful accessories."
+  author="BY JACKIE WYERS"
+  imagePath="MammaMia/mammamiathumb.png"
+  linkUrl="/diy-flowers"
+/>
 
-      
 
+
+</Suspense>
+        </Grid>
+
+        <HorizontalLine />
        
 
         <Grid item xs={12} md={6}>
@@ -517,15 +531,6 @@ isFlipped={true}
 
 
 
-        <HeroSection
-  featureText="BRIDAL"
-  headlineText="DIY Flower Pins for a Mamma Mia Inspired Wedding"
-  subtext="Learn how to create your own DIY bridal flower pins inspired by Mamma Mia for your wedding day. Jackie Wyers shares a step-by-step guide to make these beautiful accessories."
-  author="BY JACKIE WYERS"
-  imagePath="MammaMia/mammamiathumb.png"
-  linkUrl="/diy-flowers"
-/>
-<HorizontalLine />
 
 
      
