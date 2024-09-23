@@ -90,7 +90,8 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           key="subscribe-button"
           component={Link}
           to="/subscribe"
-          className={styles.subscribeButton} // Apply consistent className
+          className={styles.subscribeButton}
+          onClick={toggleDrawer} // Close the sidebar when clicking the Subscribe button
         >
           Subscribe
         </Button>
