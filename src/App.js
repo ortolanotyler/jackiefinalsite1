@@ -38,7 +38,6 @@ import Quiz1 from './Quiz/Quiz1';
 import NewTutorials from './Articles/Tutorials/HomeTutorials';
 import VintageVibes from './Articles/Tutorials/VintageVibes/VintageHome';
 import PopCultureView from './Articles/Tutorials/PopCulture/PopCulture';
-import ReviewHomePage from './ReviewsPage/ReviewArticlesHome';
 import TravelArticlesHome from './Travel/TravelArticlesHome';
 import MyStyle from './Shop/MyStyle';
 import VintageVibesMerch from './Shop/VintageVibesMerch';
@@ -59,7 +58,6 @@ import BunnyPretty from './Quiz/QuizResultPages/Quiz2/Bunny';
 import CatPretty from './Quiz/QuizResultPages/Quiz2/Cat';
 import DeerPretty from './Quiz/QuizResultPages/Quiz2/Deer';
 import Quiz2 from './Quiz/Quiz2';
-import DiarySlider from './DiaryHome/diaryhome';
 import BusinessContact from './Components/BusinessContact';
 import NinetiesStyle from './Shop/ShopMyHomeLinks/NINETIESSTYLE';
 import PinkLeather from './Shop/ShopMyHomeLinks/PinkLeather';
@@ -82,7 +80,6 @@ import ReviewArticleListHome from './ReviewsPage/ReviewArticleListHomePage';
 import BridalMakeup from './Articles/Tutorials/Trending/BridalMakeup';
 import PeriodDrama from './Articles/Tutorials/PopCulture/PeriodDrama';
 import FairytaleWedding from './Articles/Travel/FairytaleWedding';
-import Eeebridal from './Articles/Tutorials/eeebridal';
 import BridalHome from './Articles/Tutorials/BridalHome';
 import BardotHairstyles from './Articles/Tutorials/VintageVibes/BardotHairstyles';
 import HotelQ2 from './Articles/Travel/HotelQ2';
@@ -96,7 +93,6 @@ import Elizabeth from './Quiz/QuizResultPages/Quiz3/Elizabeth';
 import Porsha from './Quiz/QuizResultPages/Quiz3/Porsha';
 import WeddingDressGuide from './Quiz/QuizResultPages/Quiz3/WeddingDressGuide';
 import DIYFlowers from './Articles/Travel/DIYFlowerPins';
-import QuiltedImageList1 from './Home/ImageGridTutorials';
 import ParisianChic from './Shop/ShopMyHomeLinks/ParisianChic';
 import VaticanSlay from './Shop/ShopMyHomeLinks/VaticanSlay';
 import WalkingWaiheke from './Shop/ShopMyHomeLinks/WalkingWaiheke';
@@ -141,7 +137,7 @@ function App() {
 
   useEffect(() => {
     initGA();
-    logPageView();
+    logPageView('/');
   }, []);
 
   return (
