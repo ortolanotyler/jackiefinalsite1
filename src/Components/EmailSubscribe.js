@@ -40,7 +40,7 @@ export default function EmailSubscribe() {
       px={2}
       sx={{
         position: 'relative',
-        backgroundColor: 'white', // Use a plain background color instead
+        backgroundColor: 'white',
       }}
     >
       {/* Form inside a white card */}
@@ -51,7 +51,7 @@ export default function EmailSubscribe() {
           zIndex: 2,
           padding: '2rem',
           maxWidth: '500px',
-          backgroundColor: '#fdedef', // Use a plain background color instead
+          backgroundColor: '#fdedef',
           borderRadius: '10px',
         }}
       >
@@ -63,6 +63,22 @@ export default function EmailSubscribe() {
           ) : (
             <form onSubmit={handleSubmit} className="form">
               <Grid container spacing={3}>
+                {/* Title above the email input */}
+                <Grid item xs={12}>
+                  <Typography
+                    variant="h6"
+                    sx={{
+                      fontFamily: 'GFS Didot, serif',
+                      color: '#745B4F',
+                      textAlign: 'center',
+                      marginBottom: '0.5rem',
+                      fontSize: { xs: '1rem', sm: '1.25rem' }, // Responsive font size
+                    }}
+                  >
+                    Subscribe to our weekly newsletter
+                  </Typography>
+                </Grid>
+
                 <Grid item xs={12}>
                   <TextField
                     type="email"
@@ -70,7 +86,6 @@ export default function EmailSubscribe() {
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Enter your email"
                     fullWidth
-                   
                     required
                     className="input"
                     sx={{

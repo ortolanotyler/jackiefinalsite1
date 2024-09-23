@@ -583,7 +583,8 @@ isFlipped={true}
           </Box>
         </Grid>
 
-       
+        <HorizontalLine />
+
 
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
@@ -591,6 +592,9 @@ isFlipped={true}
           </Suspense>
         </Grid>
       </Grid>
+
+      <HorizontalLine />
+
 
       <Grid item xs={12}>
         <Suspense fallback={<div className="spinner"></div>}>

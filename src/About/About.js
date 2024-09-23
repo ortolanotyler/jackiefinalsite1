@@ -37,7 +37,12 @@ const About = () => {
       </Helmet>
      
       <Grid item xs={12}>
-        <TextReveal text="COLLABORATIONS" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
+        <TextReveal text="COLLABORATIONS" style={{ backgroundColor: '#fdedef', color: '#000000', fontFamily: 'GFS Didot' }} />
+      </Grid>
+      <Grid item xs={12}>
+        <Paper elevation={0} style={{ padding: '2rem' }}>
+          <BrandCarousel />
+        </Paper>
       </Grid>
       <Grid item xs={12} md={6}>
         <img src={leftImage} alt="Left" className={styles['about-collaborations-left-image']} />
@@ -45,16 +50,12 @@ const About = () => {
       <Grid item xs={12} md={6}>
         <ContactForm />
       </Grid>
+     
       <Grid item xs={12}>
-        <Paper elevation={1} style={{ padding: '2rem' }}>
-          <BrandCarousel />
-        </Paper>
+    <FanArt/>
+     
       </Grid>
-      <Grid item xs={12}>
-        <TextReveal text='FAN ART GALLERY' />
-        <FanArt />
-      </Grid>
-      <Box sx={{ textAlign: 'center', margin: '2rem auto' }}>
+      <Box sx={{ backgroundColor: 'white', textAlign: 'center', margin: '2rem auto' }}>
             <a href="https://youtube.com/@JackieWyers?si=sklULUqnNkzkmiaY" target="_blank" rel="noopener noreferrer">
               <YouTubeIcon style={{ color: '#745B4F', fontSize: 50, margin: '0 10px' }} />
             </a>
