@@ -130,78 +130,110 @@ fontStyle: 'italic',
 
   const blogContent = (
     <div className="container">
-      <Helmet>
-        <title>My Magical Walt Disney World Experience!</title>
-        <meta name="description" content="Best of Epcot, Magic Kingdom and Animal Kingdom" />
-        <meta name="keywords" content="Jackie Wyers, Disney World, Epcot, Magic Kingdom, Animal Kingdom, travel guide, Disney parks, travel blog, Disney vacation" />
-        <meta property="og:title" content="My Magical Walt Disney World Experience" />
-        <meta property="og:description" content="Best of Epcot, Magic Kingdom and Animal Kingdom" />
-        <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg"/>
-        <meta property="og:url" content="https://jackiewyers.beauty/epcot" />
-        <meta property="og:type" content="article" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="My Magical Walt Disney World Experience" />
-        <meta name="twitter:description" content="Best of Epcot, Magic Kingdom and Animal Kingdom" />
-        <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg"/>
-        <link rel="canonical" href="https://jackiewyers.beauty/epcot" />
+ <Helmet>
+  <title>My Magical Walt Disney World Experience!</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/epcot" />
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "Review",
-              "itemReviewed": {
-                "@type": "Place",
-                "name": "Walt Disney World",
-                "image": "https://jackiewyers.beauty/Images/Articles/Disney/Epcot/EPCOTTHUMBNAIL.jpeg",
-                "description": "Best of Epcot, Magic Kingdom and Animal Kingdom",
-                "address": {
-                  "@type": "PostalAddress",
-                  "streetAddress": "1375 E Buena Vista Dr",
-                  "addressLocality": "Lake Buena Vista",
-                  "addressRegion": "FL",
-                  "postalCode": "32830",
-                  "addressCountry": "US"
-                },
-                "aggregateRating": {
-                  "@type": "AggregateRating",
-                  "ratingValue": "5",
-                  "reviewCount": "1"
-                }
-              },
-              "author": {
-                "@type": "Person",
-                "name": "Jackie Wyers"
-              },
-              "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5"
-              },
-              "publisher": {
-                "@type": "Organization",
-                "name": "Jackie Wyers Beauty",
-                "logo": {
-                  "@type": "ImageObject",
-              "url": "${process.env.PUBLIC_URL}/jwlogo3.png"
-                }
-              },
-              "datePublished": "2024-07-27",
-              "reviewBody": "Best of Epcot, Magic Kingdom and Animal Kingdom. This travel guide covers the highlights of my trip to Walt Disney World, including favorite pavilions, rides, dining experiences, and tips for making the most of your visit."
-            }
-          `}
-        </script>
-      </Helmet>
+  <meta 
+    name="description" 
+    content="Best of Epcot, Magic Kingdom and Animal Kingdom" 
+  />
+  <meta 
+    name="keywords" 
+    content="Jackie Wyers, Disney World, Epcot, Magic Kingdom, Animal Kingdom, travel guide, Disney parks, Disney vacation, Disney dining, Disney rides, Disney trip, Disney tips, family vacation, Disney travel blog, Orlando travel, theme parks, Disney experiences, top Disney attractions, Disney trip planning, Disney itineraries, Walt Disney World tips, best Disney parks, Disney adventure, Disney highlights, EPCOT guide, Magic Kingdom tips, Animal Kingdom guide, Disney vlogs, Disney content creator, Disney influencer, theme park guides" 
+  />
+
+  {/* Open Graph Meta Tags */}
+  <meta property="og:title" content="My Magical Walt Disney World Experience" />
+  <meta 
+    property="og:description" 
+    content="Best of Epcot, Magic Kingdom and Animal Kingdom" 
+  />
+  <meta 
+    property="og:image" 
+    content="https://jackiewyers.beauty/Images/Articles/Disney/Epcot/EPCOTTHUMBNAIL.jpeg" 
+  />
+  <meta property="og:url" content="https://jackiewyers.beauty/epcot" />
+  <meta property="og:type" content="article" />
+
+  {/* Twitter Meta Tags */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="My Magical Walt Disney World Experience" />
+  <meta 
+    name="twitter:description" 
+    content="Best of Epcot, Magic Kingdom and Animal Kingdom" 
+  />
+  <meta 
+    name="twitter:image" 
+    content="https://jackiewyers.beauty/Images/Articles/Disney/Epcot/EPCOTTHUMBNAIL.jpeg" 
+  />
+
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG', { page_path: window.location.pathname });
+    `}
+  </script>
+
+  {/* Google Ads Script */}
+  <script 
+    async 
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" 
+    crossorigin="anonymous">
+  </script>
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "LocalBusiness",
+          "name": "Walt Disney World",
+          "image": "https://jackiewyers.beauty/Images/Articles/Disney/Epcot/EPCOTTHUMBNAIL.jpeg",
+          "description": "Best of Epcot, Magic Kingdom and Animal Kingdom",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1375 E Buena Vista Dr",
+            "addressLocality": "Lake Buena Vista",
+            "addressRegion": "FL",
+            "postalCode": "32830",
+            "addressCountry": "US"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "1"
+          }
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/jwlogo3.png"
+          }
+        },
+        "datePublished": "2024-07-27",
+        "reviewBody": "Best of Epcot, Magic Kingdom and Animal Kingdom. This travel guide covers the highlights of my trip to Walt Disney World, including favorite pavilions, rides, dining experiences, and tips for making the most of your visit."
+      }
+    `}
+  </script>
+</Helmet>
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
       <a href="/travel" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
