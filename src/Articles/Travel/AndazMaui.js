@@ -140,33 +140,43 @@ fontStyle: 'italic',
 
     const blogContent = (
         <div className="container">
-         <Helmet>
+    <Helmet>
   <title>Andaz Maui Review | Luxury Resort Experience</title>
   <meta name="description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
-  <meta name="keywords" content="Jackie Wyers, Andaz Maui, Maui resort, luxury hotel, hotel review, Wailea resort, travel blog, Maui vacation" />
+  <meta name="keywords" content="Jackie Wyers, Andaz Maui, Maui resort, luxury hotel, hotel review, Wailea resort, travel blog, Maui vacation, luxury resort, oceanfront resort, Hawaii vacation, best Maui hotels, Andaz Maui review, luxury travel, beachfront resort, Hawaiian luxury resort, top resorts in Maui, Wailea beach hotels, Morimoto Maui, Hawaiian Luaus, infinity pools, tropical getaway, resort amenities, spa, fitness center, golf courses, dining options" />
 
+  {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Andaz Maui Review | Luxury Resort Experience" />
   <meta property="og:description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
   <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/AndazMaui/MAUITHUMBNAIL.jpg" />
   <meta property="og:url" content="https://jackiewyers.beauty/andazmaui" />
   <meta property="og:type" content="article" />
-  <link rel="canonical" href="https://jackiewyers.beauty/andazmaui" />
 
+  {/* Twitter Meta Tags */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Andaz Maui Review | Luxury Resort Experience" />
   <meta name="twitter:description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
   <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/AndazMaui/MAUITHUMBNAIL.jpg" />
 
+  <link rel="canonical" href="https://jackiewyers.beauty/andazmaui" />
+
+  {/* Google Analytics Script */}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script>
     {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-RT6GR7JXYG');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG', {
+        page_path: window.location.pathname,
+      });
     `}
   </script>
+
+  {/* Google Ads Script */}
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+
+  {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
     {`
       {
@@ -205,7 +215,7 @@ fontStyle: 'italic',
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-             "url": "${process.env.PUBLIC_URL}/jwlogo3.png"
+            "url": "https://jackiewyers.beauty/jwlogo3.png"
           }
         },
         "datePublished": "2024-05-13",

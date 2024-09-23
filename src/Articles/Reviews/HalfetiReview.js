@@ -72,105 +72,113 @@ const HalfetiReview = () => {
 
   const blogContent = (
     <div className="container" style={{ width: '100%', padding: '1rem' }}>
-      <Helmet>
-        <title>Penhaligon's Halfeti Review - Jackie Wyers</title>
-        <link rel="canonical" href="https://jackiewyers.beauty/halfetireview" />
+<Helmet>
+  <title>Penhaligon's Halfeti Review - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/halfetireview" />
 
-        <meta
-          name="description"
-          content="A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression."
-        />
-        <meta
-          name="keywords"
-          content="Penhaligon's Halfeti Review, Jackie Wyers, Perfume Review, Luxury Perfume, Fragrance Review, Oriental Spicy Perfume, High-End Fragrance, Halfeti by Penhaligon's, Niche Perfume, Long-Lasting Perfume, Best Luxury Scents, Oud Perfume, Amber Fragrance, Woody Scent, Perfume Longevity, Perfume Sillage, Signature Scent, Exotic Perfume, Turkish Rose Perfume, Beauty Influencer Reviews, Sophisticated Scents"
-        />
-        <meta
-          property="og:title"
-          content="Penhaligon's Halfeti Review - Jackie Wyers"
-        />
-        <meta
-          property="og:description"
-          content="A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression."
-        />
-        <meta
-          property="og:image"
-          content={`${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/HalfetiThumbnail.png`}
-        />
-        <meta
-          property="og:url"
-          content="https://jackiewyers.beauty/halfetireview"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Penhaligon's Halfeti Review - Jackie Wyers"
-        />
-        <meta
-          name="twitter:description"
-          content="A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression."
-        />
-        <meta
-          name="twitter:image"
-          content={`${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/HalfetiThumbnail.png`}
-        />
-        {/* Google Analytics Script */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-RT6GR7JXYG');
-        `}
-        </script>
+  <meta
+    name="description"
+    content="A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression."
+  />
+  <meta
+    name="keywords"
+    content="Penhaligon's Halfeti Review, Jackie Wyers, Perfume Review, Luxury Perfume, Fragrance Review, Oriental Spicy Perfume, High-End Fragrance, Halfeti by Penhaligon's, Niche Perfume, Long-Lasting Perfume, Best Luxury Scents, Oud Perfume, Amber Fragrance, Woody Scent, Perfume Longevity, Perfume Sillage, Signature Scent, Exotic Perfume, Turkish Rose Perfume, Beauty Influencer Reviews, Sophisticated Scents, Black Rose Perfume, Spicy Floral Perfume, Leather Scent"
+  />
 
-        {/* Google Ads Script */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318"
-          crossorigin="anonymous"
-        ></script>
+  {/* Open Graph Meta Tags */}
+  <meta
+    property="og:title"
+    content="Penhaligon's Halfeti Review - Jackie Wyers"
+  />
+  <meta
+    property="og:description"
+    content="A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression."
+  />
+  <meta
+    property="og:image"
+    content="https://jackiewyers.beauty/Images/Articles/HalfetiReview/HalfetiThumbnail.png"
+  />
+  <meta
+    property="og:url"
+    content="https://jackiewyers.beauty/halfetireview"
+  />
+  <meta property="og:type" content="article" />
 
-        {/* JSON-LD Structured Data */}
-        <script type="application/ld+json">
-          {`
+  {/* Twitter Meta Tags */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta
+    name="twitter:title"
+    content="Penhaligon's Halfeti Review - Jackie Wyers"
+  />
+  <meta
+    name="twitter:description"
+    content="A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression."
+  />
+  <meta
+    name="twitter:image"
+    content="https://jackiewyers.beauty/Images/Articles/HalfetiReview/HalfetiThumbnail.png"
+  />
+
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG', {
+        page_path: window.location.pathname,
+      });
+    `}
+  </script>
+
+  {/* Google Ads Script */}
+  <script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318"
+    crossorigin="anonymous"
+  ></script>
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
       {
-       "@context": "https://schema.org",
-       "@type": "Review",
-       "itemReviewed": {
-         "@type": "Product",
-         "name": "Halfeti",
-         "image": "${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/HalfetiThumbnail.png",
-         "description": "A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression.",
-         "brand": {
-           "@type": "Brand",
-           "name": "Penhaligon's"
-         }
-       },
-       "author": {
-         "@type": "Person",
-         "name": "Jackie Wyers"
-       },
-       "reviewRating": {
-         "@type": "Rating",
-         "ratingValue": "5",
-         "bestRating": "5"
-       },
-       "publisher": {
-         "@type": "Organization",
-         "name": "Jackie Wyers Beauty",
-         "logo": {
-           "@type": "ImageObject",
-                "url": "${process.env.PUBLIC_URL}/jwlogo3.png"
-         }
-       },
-       "datePublished": "2024-02-05",
-       "dateUpdated": "2024-09-20",
-       "reviewBody": "Halfeti by Penhaligon's is an aromatic voyage to the exotic trade routes of the East, capturing the essence of the rare black roses of Halfeti, Turkey. It's an opulent and heady scent that exudes luxury and mystery. Halfeti opens with a burst of citrus freshness, dominated by grapefruit and bergamot, before evolving into a spicy and floral heart. The base is warm and woody, with prominent notes of leather, oud, and amber, creating a rich and sophisticated scent that lingers on the skin."
+        "@context": "https://schema.org",
+        "@type": "Review",
+        "itemReviewed": {
+          "@type": "Product",
+          "name": "Halfeti",
+          "image": "https://jackiewyers.beauty/Images/Articles/HalfetiReview/HalfetiThumbnail.png",
+          "description": "A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression.",
+          "brand": {
+            "@type": "Brand",
+            "name": "Penhaligon's"
+          }
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/jwlogo3.png"
+          }
+        },
+        "datePublished": "2024-02-05",
+        "dateModified": "2024-09-20",
+        "reviewBody": "Halfeti by Penhaligon's is an aromatic voyage to the exotic trade routes of the East, capturing the essence of the rare black roses of Halfeti, Turkey. It's an opulent and heady scent that exudes luxury and mystery. Halfeti opens with a burst of citrus freshness, dominated by grapefruit and bergamot, before evolving into a spicy and floral heart. The base is warm and woody, with prominent notes of leather, oud, and amber, creating a rich and sophisticated scent that lingers on the skin."
       }
     `}
-        </script>
-      </Helmet>
+  </script>
+</Helmet>
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
         <a href="/reviews" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>

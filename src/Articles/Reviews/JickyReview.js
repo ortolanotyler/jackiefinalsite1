@@ -112,7 +112,7 @@ fontStyle: 'italic',
 
     const blogContent = (
         <div className="container" style={{ width: '100%', padding: '1rem' }}>
-       <Helmet>
+<Helmet>
   <title>Jicky by Guerlain Perfume Review - Jackie Wyers</title>
   <link rel="canonical" href="https://jackiewyers.beauty/jickyreview" />
 
@@ -125,6 +125,7 @@ fontStyle: 'italic',
     content="Jicky by Guerlain, Perfume Review, Fragrance Review, Guerlain Perfume, Classic Perfume, Jackie Wyers, Vintage Perfume, 19th Century Perfume, French Perfume, Lavender Perfume, Spicy Fragrance, Woody Perfume, Citrus Perfume, Guerlain History, Iconic Perfumes, Timeless Scents, Niche Perfume, Long-Lasting Perfume, Elegant Fragrance, Perfume Enthusiast, Perfume Blog, Beauty Influencer Review, Signature Scent, Vanilla Fragrance, Spicy Lavender, Modern Perfumery, Scent Evolution, Classic Fragrance, Iconic Scent, Scent Layering, Perfume Longevity, Best Guerlain Scents, Luxury Fragrance, Historical Perfume, Romantic Perfume, Sensual Fragrance, Perfume Collection, Top Rated Perfumes, Perfume Recommendations, Unique Fragrance, Scent Review, Perfume Influencer"
   />
 
+  {/* Open Graph Meta Tags */}
   <meta
     property="og:title"
     content="Jicky by Guerlain Perfume Review - Jackie Wyers"
@@ -141,10 +142,10 @@ fontStyle: 'italic',
     property="og:url"
     content="https://jackiewyers.beauty/jickyreview"
   />
-  <meta
-    name="twitter:card"
-    content="summary_large_image"
-  />
+  <meta property="og:type" content="article" />
+
+  {/* Twitter Meta Tags */}
+  <meta name="twitter:card" content="summary_large_image" />
   <meta
     name="twitter:title"
     content="Jicky by Guerlain Perfume Review - Jackie Wyers"
@@ -160,7 +161,16 @@ fontStyle: 'italic',
 
   {/* Google Analytics Script */}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG', {
+        page_path: window.location.pathname,
+      });
+    `}
+  </script>
 
   {/* Google Ads Script */}
   <script
@@ -199,7 +209,7 @@ fontStyle: 'italic',
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-          "url": "${process.env.PUBLIC_URL}/jwlogo3.png"
+            "url": "https://jackiewyers.beauty/jwlogo3.png"
           }
         },
         "datePublished": "2024-07-27",

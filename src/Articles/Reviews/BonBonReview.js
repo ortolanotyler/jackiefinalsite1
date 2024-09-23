@@ -122,26 +122,61 @@ fontStyle: 'italic',
   <title>BonBon Review - Jackie Wyers</title>
   <link rel="canonical" href="https://jackiewyers.beauty/bonbonreview" />
 
-  <meta name="description" content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure." />
-  <meta name="keywords" content="BonBon Review, Jackie Wyers, Viktor & Rolf BonBon, Perfume Review, Fragrance Review, Sweet Scents, Gourmand Perfume, Luxury Perfume, Women's Fragrance, Best Sweet Perfumes, Perfume for Teens, Scented Beauty, Caramel Perfume, Amber Fragrance, Peach Perfume, High-End Perfume, Signature Scents, Perfume Collection, Beauty Influencer Review, Scent Profile, Warm Woody Perfume, Perfume Recommendations, Sweet and Sophisticated Fragrances, Perfume for Young Adults" />  <meta property="og:title" content="BonBon Review - Jackie Wyers" />
-  <meta property="og:description" content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure." />
-  <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/BonBonThumbnail.png`} />
+  <meta
+    name="description"
+    content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure."
+  />
+  <meta
+    name="keywords"
+    content="BonBon Review, Jackie Wyers, Viktor & Rolf BonBon, Perfume Review, Fragrance Review, Sweet Scents, Gourmand Perfume, Luxury Perfume, Women's Fragrance, Best Sweet Perfumes, Perfume for Teens, Scented Beauty, Caramel Perfume, Amber Fragrance, Peach Perfume, High-End Perfume, Signature Scents, Perfume Collection, Beauty Influencer Review, Scent Profile, Warm Woody Perfume, Perfume Recommendations, Sweet and Sophisticated Fragrances, Perfume for Young Adults, Sensual Perfume, Long-Lasting Fragrance"
+  />
+
+  {/* Open Graph Meta Tags */}
+  <meta property="og:title" content="BonBon Review - Jackie Wyers" />
+  <meta
+    property="og:description"
+    content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure."
+  />
+  <meta
+    property="og:image"
+    content="https://jackiewyers.beauty/Images/Articles/BonBonReview/BonBonThumbnail.png"
+  />
   <meta property="og:url" content="https://jackiewyers.beauty/bonbonreview" />
+  <meta property="og:type" content="article" />
+
+  {/* Twitter Meta Tags */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="BonBon Review - Jackie Wyers" />
-  <meta name="twitter:description" content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure." />
-  <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/BonBonThumbnail.png`} />
-  
+  <meta
+    name="twitter:description"
+    content="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure."
+  />
+  <meta
+    name="twitter:image"
+    content="https://jackiewyers.beauty/Images/Articles/BonBonReview/BonBonThumbnail.png"
+  />
+
+  {/* Google Analytics Script */}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script>
     {`
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG');
+      gtag('config', 'G-RT6GR7JXYG', {
+        page_path: window.location.pathname,
+      });
     `}
   </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+
+  {/* Google Ads Script */}
+  <script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318"
+    crossorigin="anonymous"
+  ></script>
+
+  {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
     {`
       {
@@ -150,7 +185,7 @@ fontStyle: 'italic',
         "itemReviewed": {
           "@type": "Product",
           "name": "BonBon Perfume",
-  "image": "${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/BonBonThumbnail.png",
+          "image": "https://jackiewyers.beauty/Images/Articles/BonBonReview/BonBonThumbnail.png",
           "description": "A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure.",
           "brand": {
             "@type": "Brand",
@@ -171,7 +206,8 @@ fontStyle: 'italic',
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-     "url": "${process.env.PUBLIC_URL}/jwlogo3.png"          }
+            "url": "https://jackiewyers.beauty/jwlogo3.png"
+          }
         },
         "datePublished": "2024-09-20",
         "reviewBody": "Bonbon is a celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure. A luscious peach opening gives way to a heart overflowing with caramel's sweet embrace, followed by a touch of delicate florals. The base, a comforting blend of warm woods, anchors the fragrance in sophistication."
