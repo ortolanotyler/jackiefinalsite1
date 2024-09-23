@@ -6,7 +6,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import styles from './Sidebar.module.css'; // Import the CSS module
+import styles from './Sidebar.module.css'; // Import the updated CSS module
 
 const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
@@ -17,11 +17,8 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'QUIZ', path: '/quiz' },
     { name: 'MERCH', path: '/vintagevibesmerch' },
     { name: 'SHOP MY STYLE', path: '/mystyle' },
-    // Marker for subscribe button
     { name: 'TRAVEL', path: '/travel' },
     { name: 'REVIEWS', path: '/reviews' },
-
-
     { name: 'DIARY', path: '/diary' },
     { name: 'CONTACT', path: '/contact' },
     { name: 'PRESS', path: '/press' },
@@ -30,36 +27,28 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
   ];
 
   return (
-    <Drawer anchor="left" open={isOpen} onClose={toggleDrawer} PaperProps={{ style: { zIndex: 1400 } }}>
-      <Box
-        className={styles.sidebar}
-        sx={{
-          width: '25vw',
-          height: '100%',
-          backgroundColor: '#FDEDEF',
-          padding: '2rem',
-          fontFamily: 'GFS Didot, serif',
-          position: 'relative',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'space-between',
-          '@media (max-width: 1200px)': {
-            width: '40vw',
-          },
-          '@media (max-width: 600px)': {
-            width: '70vw',
-          },
-        }}
-        role="presentation"
-      >
-        <div>
-          <IconButton
-            onClick={toggleDrawer}
-            sx={{ position: 'absolute', top: '1rem', right: '1rem', color: '#745B4F' }}
-          >
-            <CloseIcon />
-          </IconButton>
-          {menuItems.map((item, index) => (
+    <Drawer
+      anchor="left"
+      open={isOpen}
+      onClose={toggleDrawer}
+      PaperProps={{ style: { zIndex: 1400, overflow: 'hidden' } }}
+    >
+      <Box className={styles.sidebar} role="presentation">
+        <IconButton
+          onClick={toggleDrawer}
+          sx={{
+            position: 'absolute',
+            top: '1rem',
+            right: '1rem',
+            color: '#745B4F',
+            fontFamily: 'Playfair Display, serif',
+          }}
+        >
+          <CloseIcon />
+        </IconButton>
+
+        <Box>
+          {menuItems.map((item) => (
             <Button
               key={item.name}
               component={Link}
@@ -72,28 +61,8 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
               </Typography>
             </Button>
           ))}
-        </div>
-        <Button
-          key="subscribe-button"
-          component={Link}
-          to="/subscribe" // Replace with your subscription link
-          sx={{
-            backgroundColor: 'black',
-            margin: '1rem 0',
-            color: 'white',
-            borderRadius: '5px',
-            width: '100%',
-            fontFamily: 'GFS Didot, serif',
-            fontSize: '1rem', // Smaller font size
-            boxShadow: '0 4px 8px rgba(0, 0.5, 0.5, 0.25)', // Add a shadow
-            '&:hover': {
-              backgroundColor: '#fdedef',
-              color: '#745B4F',
-            },
-          }}
-        >
-          Subscribe
-        </Button>
+        </Box>
+
         <Box
           sx={{
             display: 'flex',
@@ -116,6 +85,15 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
             <MailOutlineIcon style={{ color: '#745B4F', fontSize: 24 }} />
           </a>
         </Box>
+
+        <Button
+          key="subscribe-button"
+          component={Link}
+          to="/subscribe"
+          className={styles.subscribeButton} // Apply consistent className
+        >
+          Subscribe
+        </Button>
       </Box>
     </Drawer>
   );

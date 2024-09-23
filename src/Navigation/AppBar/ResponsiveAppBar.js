@@ -5,7 +5,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Sidebar from './Sidebar'; // Import the Sidebar component
 import Logo from './Logo'; // Separate Logo component
 import NavButtons from './NavButtons'; // Separate NavButtons component
-import './ResponsiveAppBar.css'; // Import the CSS file for custom styles
 
 const ResponsiveAppBar = () => {
   const isCollapsed = useMediaQuery('(max-width: 870px)');
@@ -20,7 +19,7 @@ const ResponsiveAppBar = () => {
       <AppBar
         position="fixed"
         sx={{
-          fontFamily: 'Playfair Display, serif',
+          fontFamily: 'Arapey, sans-serif',
           color: '#745B4F',
           backgroundColor: '#FDEDEF',
           width: '100%',
@@ -63,13 +62,13 @@ const ResponsiveAppBar = () => {
                 to="/subscribe"
                 sx={{
                   backgroundColor: '#3a3a3a',
-                  color: '#ffffff !important',
-                  borderRadius: '50px',
-                  padding: '10px 25px',
+                  color: '#f8f8f8 !important',
+                  borderRadius: '25px',
+                  padding: '0.5rem 1.5rem',
                   fontFamily: 'Playfair Display, serif',
-                  marginLeft: 'auto',
+                  marginLeft: '2rem',
                   boxShadow: '0 2px 2px rgba(0, 0, 0, 0.15)',
-                  '&:hover': { backgroundColor: '#3a3a3a' }, // Ensuring no hover background color change
+                  '&:hover': { backgroundColor: '#745B4F' }, // Ensuring no hover background color change
                 }}
               >
                 Subscribe

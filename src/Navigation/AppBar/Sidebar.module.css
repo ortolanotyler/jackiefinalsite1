@@ -3,42 +3,91 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  background-color: #fdedef;
+  padding: 2rem;
+  font-family: 'Playfair Display', serif;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: width 0.2s ease;
 }
 
 .sidebarButton {
   font-family: 'GFS Didot', serif !important;
   text-transform: none;
   display: block;
-  background-color: #fdedef;
+  background-color: transparent;
   color: #745B4F;
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
   width: 100%;
-  padding: 2rem 1rem;
-  justify-content: flex-start; /* Align text to the left */
+  padding: 1rem 0.5rem;
+  justify-content: flex-start;
+  border: none;
+  border-bottom: 1px solid rgba(116, 91, 79, 0.125);
+  transition: color 0.2s ease;
+}
+
+.sidebarButton:hover {
+  color: #745B4F;
 }
 
 .sidebarTypography {
   font-family: 'GFS Didot', serif !important;
-  font-size: 25px;
+  font-size: 20px;
   color: #745B4F;
   font-weight: bold;
-  text-align: left; /* Ensure text inside Typography is left aligned */
+}
+
+.subscribeButton {
+  background-color: #3a3a3a !important;
+  color: #ffffff !important;
+  margin: 1.25rem 0;
+  border-radius: 5px;
+  width: 100%;
+  font-family: 'Playfair Display', serif !important; /* Ensure Playfair Display is always applied */
+  font-size: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease;
+}
+
+.subscribeButton:hover {
+  background-color: #545454;
 }
 
 @media (max-width: 1200px) {
   .sidebar {
-    width: 50vw;
+    width: 40vw;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .sidebar {
-    width: 70vw;
+    width: 60vw;
+    padding: 1rem;
   }
 
   .sidebarButton {
-    font-size: 25px;
-    padding: 1.5rem 1rem;
+    font-size: 16px;
+    padding: 1rem 0.5rem;
+  }
+
+  .sidebarTypography {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sidebar {
+    width: 80vw;
+    padding: 1rem;
+  }
+
+  .sidebarButton {
+    font-size: 15px;
+    padding: 0.8rem 0.4rem;
+  }
+
+  .sidebarTypography {
+    font-size: 16px;
   }
 }
