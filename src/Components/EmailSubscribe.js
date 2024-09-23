@@ -40,19 +40,20 @@ export default function EmailSubscribe() {
       px={2}
       sx={{
         position: 'relative',
-        backgroundColor: 'white',
+        
+        backgroundColor: '#fdedef',
       }}
     >
       {/* Form inside a white card */}
       <Paper
-        elevation={3}
+        elevation={10}
         sx={{
           position: 'relative',
           zIndex: 2,
           padding: '2rem',
           maxWidth: '500px',
-          backgroundColor: '#fdedef',
-          borderRadius: '10px',
+          backgroundColor: 'white',
+          borderRadius: '2px',
         }}
       >
         <Grid container alignItems="center" justifyContent="center">
@@ -75,7 +76,7 @@ export default function EmailSubscribe() {
                       fontSize: { xs: '1rem', sm: '1.25rem' }, // Responsive font size
                     }}
                   >
-                    Subscribe to our weekly newsletter
+                    Enter your email to subscribe !
                   </Typography>
                 </Grid>
 

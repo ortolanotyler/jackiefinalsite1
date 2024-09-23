@@ -32,6 +32,7 @@ const NewsletterSlider = () => {
           
      
           fontFamily: 'GFS Didot, serif', 
+          margin: '1rem auto',
           color: '#000000', 
         }}
       >

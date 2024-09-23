@@ -410,7 +410,6 @@ isFlipped={true}
       
        
 
-        <HorizontalLine />
 
 
 
