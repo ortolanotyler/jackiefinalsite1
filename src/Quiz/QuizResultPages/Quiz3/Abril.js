@@ -10,7 +10,7 @@ import AdSenseAd from '../../../Advertising/Ads';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 
 
-const title = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/AbrilTitle.png`;
+const title = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/guidethumbnail.jpeg`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/abril1.jpg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/abril2.jpg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/abril3.jpg`;
@@ -82,28 +82,90 @@ const imageStyle = {
 
   const blogContent = (
     <div className="container">
-    <Helmet>
+<Helmet>
   <title>Jackie Wyers Wedding - Abril Wedding Dress</title>
-  <meta name="description" content="Is the Abril dress for you? Take the quiz to find out!" />
-  <meta name="keywords" content="wedding dress, Abril dress, Eva Lendel, bridal fashion, Jackie Wyers, royal wedding, luxurious wedding, romantic wedding" />
+  <link rel="canonical" href="https://jackiewyers.beauty/abril" />
+
+  <meta
+    name="description"
+    content="Discover if the Abril dress is your dream wedding dress! Take the quiz and explore the romantic, luxurious, and royal bridal style of the Abril dress by Eva Lendel with Jackie Wyers."
+  />
+  <meta
+    name="keywords"
+    content="Abril dress, wedding dress, Eva Lendel, Jackie Wyers, bridal fashion, luxurious wedding, royal wedding, romantic wedding, lace-up corset dress, heart-shaped neckline, cold-shoulder dress, royal bridal style, historic castle wedding, grand ballroom wedding, royal wedding inspiration, wedding decor, regal wedding dresses, lace wedding dress, luxury bridal gowns, royal wedding ideas, grand floral arrangements, wedding styling tips, elegant bridal fashion, classic wedding styles, castle wedding venues, bridal muse, Grace Kelly bridal look, wedding dress shopping, bridal quiz, wedding quiz, bridal inspiration, sophisticated bridal looks, Jackie Wyers wedding, bridal beauty, wedding dress guide, timeless wedding dresses, fairytale wedding, wedding planning tips, royal wedding themes, iconic bridal looks, elegant bridal gowns, Jackie Wyers beauty, wedding styling tips, Jackie Wyers blog"
+  />
+
   <meta property="og:title" content="Jackie Wyers Wedding - Abril Wedding Dress" />
-  <meta property="og:description" content="Is the Abril dress for you? Take the quiz to find out!" />
-  <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/AbrilTitle.png`} />
+  <meta
+    property="og:description"
+    content="Discover if the Abril dress is your dream wedding dress! Take the quiz and explore the romantic, luxurious, and royal bridal style of the Abril dress by Eva Lendel with Jackie Wyers."
+  />
+  <meta
+    property="og:image"
+    content="https://jackiewyers.beauty/Images/Quiz/Quiz3/abril1.jpg"
+  />
   <meta property="og:url" content="https://jackiewyers.beauty/abril" />
+  <meta property="og:type" content="article" />
+
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Jackie Wyers Wedding - Abril Wedding Dress" />
-  <meta name="twitter:description" content="Is the Abril dress for you? Take the quiz to find out!" />
-  <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/AbrilTitle.png`} />
+  <meta
+    name="twitter:description"
+    content="Discover if the Abril dress is your dream wedding dress! Take the quiz and explore the romantic, luxurious, and royal bridal style of the Abril dress by Eva Lendel with Jackie Wyers."
+  />
+  <meta
+    name="twitter:image"
+    content="https://jackiewyers.beauty/Images/Quiz/Quiz3/abril1.jpg"
+  />
+
+  {/* Google Analytics Script */}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script>
     {`
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG');
+      gtag('config', 'G-RT6GR7JXYG', { page_path: window.location.pathname });
     `}
   </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossOrigin="anonymous"></script>
+
+  {/* Google Ads Script */}
+  <script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318"
+    crossorigin="anonymous"
+  ></script>
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Jackie Wyers Wedding - Abril Wedding Dress",
+        "description": "Discover if the Abril dress is your dream wedding dress! Take the quiz and explore the romantic, luxurious, and royal bridal style of the Abril dress by Eva Lendel with Jackie Wyers.",
+        "image": "https://jackiewyers.beauty/Images/Quiz/Quiz3/abril1.jpg",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/jw3logo.png"
+          }
+        },
+        "datePublished": "2024-09-21",
+        "dateModified": "2024-09-22",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/abril"
+        }
+      }
+    `}
+  </script>
 </Helmet>
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>

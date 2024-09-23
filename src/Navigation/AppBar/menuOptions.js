@@ -1,6 +1,6 @@
 const pages = [
     { name: 'Home', path: '/' },
-    { name: 'Beauty', path: '/tutorials', subMenu: null },
+ 
     { name: 'Travel', path: '/travel', subMenu: null },
     { name: 'Quiz', path: '/quiz', subMenu: null },
   ];
@@ -24,11 +24,24 @@ const pages = [
     { name: 'Vintage Vibes', path: '/timetraveltutorials' },
   ];
   
-  const menuOptions = [
-    ...pages,
-    { name: 'About', path: '#', subMenu: aboutOptions },
-    { name: 'Style', path: '#', subMenu: shopOptions },
-    
+// menuOptions.js
+const menuOptions = [
+    { name: 'Home', path: '/' },
+    {
+      name: 'Beauty',
+      path: '/tutorials',
+      subMenu: [
+        { name: 'Read All Beauty', path: '/tutorials' },
+        { name: 'Trending Now', path: '/trends' },
+        { name: 'Pop Culture', path: '/popculture' },
+        { name: 'Vintage Vibes', path: '/timetraveltutorials' },
+        { name: 'Reviews', path: '/reviews' },
+      ],
+    },
+    { name: 'Travel', path: '/travel' },
+    { name: 'Quiz', path: '/quiz' },
+    { name: 'About', path: '/about' },
+    { name: 'Style', path: '/style' },
   ];
   
   export default menuOptions;
