@@ -423,7 +423,7 @@ const captionStyle = {
 <div style={gridContainerStyle}>
 <img src={image28} alt="Santa Maria in Trastevere - Iconic Roman Church" style={imageStyle} loading="lazy" />  
 <img src={image29} alt="Street Musicians and Nightlife in Trastevere - Local Vibes" style={imageStyle} loading="lazy" />  
-<img src={image30} alt="Sunset at the Colosseum with Live Violin Music - Jackie Wyers" style={imageStyle} loading="lazy" />      <img src={image31} alt="Jackie Wyers Rome Vlog and Travel Article" style={imageStyle} loading="lazy" />  
+<img src={image30} alt="Sunset at the Colosseum with Live Violin Music - Jackie Wyers" style={imageStyle} loading="lazy" />     
 <img src={image31} alt="Exploring the Colosseum’s Ruins - A History Buff’s Dream" style={imageStyle} loading="lazy" />  
 </div>
 
