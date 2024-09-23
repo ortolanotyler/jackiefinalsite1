@@ -5,17 +5,14 @@ import { Helmet } from 'react-helmet';
 import { initGA, logPageView } from '../analytics';
 import TextRevealHomePage from '../Components/TextRevealHomePage';
 
-import VideoEmbed from './VideoEmbed';
-import LifestyleFavorites from './LifestyleFavorites';
-import ReviewFavorites1 from './ReviewFavorites';
+
 import HeroSection from './HeroSection';
 import HorizontalLine from '../Components/HorizontalLine';
 import NewsletterSlider from '../Components/NewsletterSlider';
 import TextBanner2 from '../Components/TextBanner2';
 import AdSenseAd from '../Advertising/Ads';
 
-const TextReveal = lazy(() => import('../Components/TextReveal'));
-const EmailSubscribe = lazy(() => import('../Components/EmailSubscribe'));
+
 const RotatingText = lazy(() => import('../Navigation/AppBar/RotatingText'));
 
 const ShopMyHero2 = lazy(() => import('./ShopMyHero2'));
@@ -525,7 +522,7 @@ isFlipped={true}
           </Suspense>
         </Grid>
 
-  
+  </Grid>
 
 
 
@@ -536,76 +533,14 @@ isFlipped={true}
      
       
 
-      
-
-        <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
-            <TextReveal text="LATEST VIDEO" />
-            <ThemeProvider theme={theme}>
-              <VideoEmbed />
-            </ThemeProvider>
-          </Suspense>
-        </Grid>
+   
 
 
-        <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
-            <ReviewFavorites1 />
-          </Suspense>
-        </Grid>
 
-        <HorizontalLine />
+  
 
 
-        <Grid item xs={12} sx={{ display: 'flex', justifyContent: { xs: 'center', md: 'flex-end' }, mt: 2 }}>
-          <Box sx={{ textAlign: { xs: 'center', md: 'right' }, mr: 5, mb: 2 }}>
-            <a
-              href="/mystyle"
-              ref={viewAllRefs.outfits}
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                fontFamily: 'GFS Didot, serif',
-                color: 'black',
-                textDecoration: 'none',
-                animation: isJiggling.outfits ? 'jiggle 0.5s ease-in-out' : 'none',
-              }}
-            >
-              <Typography
-                variant="body1"
-                sx={{
-                  fontSize: '1.25rem',
-                  fontFamily: 'GFS Didot, serif',
-                  color: 'black',
-                }}
-              >
-                SHOP ALL OUTFITS
-              </Typography>
-              <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>
-                &rarr;
-              </Box>
-            </a>
-          </Box>
-        </Grid>
-
-        <HorizontalLine />
-
-
-        <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
-            <LifestyleFavorites />
-          </Suspense>
-        </Grid>
-      </Grid>
-
-      <HorizontalLine />
-
-
-      <Grid item xs={12}>
-        <Suspense fallback={<div className="spinner"></div>}>
-          <EmailSubscribe />
-        </Suspense>
-      </Grid>
+     
     </Box>
   );
 }
