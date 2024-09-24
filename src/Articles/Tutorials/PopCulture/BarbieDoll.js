@@ -78,7 +78,8 @@ const BarbieDoll = () => {
     marginBottom: '10px',
     maxWidth: '500px', // Consistent with the other paragraphs
     lineHeight: '1.6',
-  margin: '20px 10px',
+    padding: '5px auto',
+  margin: '20px auto',
     '@media (max-width: 768px)': {
       padding: '0 1rem', // Adjust padding for mobile devices for better readability
     },
