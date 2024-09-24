@@ -31,6 +31,7 @@ const styles = {
   },
   mainTitle: {
     fontFamily: 'Playfair Display, serif',
+
     fontWeight: 'normal',
     fontSize: '48px', // Adjust as needed for responsiveness
     margin: '10px 5px 0 0',
@@ -40,12 +41,13 @@ const styles = {
     color: '#000000',
   },
   subTitle: {
-    fontFamily: 'Lora, sans-serif',
+    fontFamily: 'Playfair Display, serif',
+
     fontSize: '24px',
     fontStyle: 'italic',
     margin: '20px 5px 0 0',
     marginBottom: '20px',
-    color: '#745B4F',
+    color: '#3a3a3a',
   },
   authorContainer: {
     display: 'flex',

@@ -61,7 +61,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     lineHeight: 1.5,
     margin: '10px auto',
     fontStyle: 'italic',
-    fontFamily: 'Playfair Display, serif',
+    fontFamily: 'GFS Didot, sans-serif',
     color: '#000000',
   };
 
