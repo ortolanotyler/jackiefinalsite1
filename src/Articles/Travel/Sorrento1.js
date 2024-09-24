@@ -35,18 +35,18 @@ const bridesmaid = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/Brides
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
- 
-  <div style={{
-    padding: '10px 20px', // Consistent padding to prevent content from touching edges
-    margin: '0 auto',
-  }}>
-
+  <div
+    style={{
+      padding: '10px 20px', // Existing padding
+      margin: '1rem auto',
+      maxWidth: '800px', // Control max width to center the content
+      padding: '1rem', // Add padding to prevent text from touching the edges
+    }}
+  >
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
-    </div>
-
-  
+  </div>
 );
 
 const Sorrento1 = () => {
