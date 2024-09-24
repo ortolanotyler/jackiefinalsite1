@@ -388,7 +388,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </h2>
 
 <ResponsiveIframe
-  src="https://shopmy.us/collections/public/832103?"
+  src="https://shopmy.us/collections/public/832103?noHeader=true" 
   title="Cherry Pie Picnic Barbie Inspired Fashion and Makeup Collection"
 />
 
@@ -460,7 +460,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   Shop The Barbie, Shop The Style:
 </h2>
 <ResponsiveIframe
-  src="https://shopmy.us/collections/public]/832187?"
+  src="https://shopmy.us/collections/public/832187?noHeader=true"
   title="Malibu Barbie Beachy Makeup and Accessories Collection"
 />
 <div style = {{ margin : '1rem auto'}}>
@@ -493,7 +493,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   Shop The Barbie, Shop The Style:
 </h2>
 <ResponsiveIframe
-  src="https://shopmy.us/collections/public/832227?"
+  src="https://shopmy.us/collections/public/832227?noHeader=true"
   title="The Original Barbie Makeup and Retro Fashion Collection"
 />
 <div style = {{ margin : '1rem auto'}}>
