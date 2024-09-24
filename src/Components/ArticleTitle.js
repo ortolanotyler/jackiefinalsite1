@@ -22,21 +22,21 @@ const ArticleTitle = ({ mainTitle, subTitle, author, publishDate }) => {
 const styles = {
   container: {
     textAlign: 'left', // Align the text to the left
-    marginBottom: '1rem',
+    marginBottom: '10px',
     maxWidth: '1000px', // Optional: limit the width of the container if needed
     padding: '0px',
 
   },
   mainTitle: {
-    fontFamily: 'GFS Didot, serif',
+    fontFamily: 'Playfair Display, sans-serif',
     fontWeight: 'normal',
-    fontSize: '52px', // Adjust as needed for responsiveness
-    margin: '10px 1rem',
+    fontSize: '48px', // Adjust as needed for responsiveness
+    margin: '10px 15px',
     lineHeight: '1',
     color: '#000000',
   },
   subTitle: {
-    fontFamily: '"Playfair Display", serif',
+    fontFamily: '"Georgia", serif',
     fontSize: '24px',
     fontStyle: 'italic',
     margin: 'auto',
