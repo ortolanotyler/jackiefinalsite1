@@ -25,21 +25,17 @@ const image8 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/8.jpeg`;
 const next = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/SQUAREMARGOT.jpeg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
+
 const Card = ({ blogContent }) => (
   <div
     style={{
-     margin: '0 auto',
-      maxWidth: '1000px', // Control max width to center the content
-   padding: '1rem',
+      padding: '10px 20px', // Existing padding
+      margin: '1rem 1rem',
+      maxWidth: '800px', // Control max width to center the content
+      padding: '10px', // Add padding to prevent text from touching the edges
     }}
   >
-    <div className="card"
- style={{
-     
-padding: '1rem',
-}}
-    
-    >
+    <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
   </div>
@@ -76,8 +72,8 @@ const BarbieDoll = () => {
   
   const paragraphStyle = {
     fontSize: '22px',
-    margin: '1rem auto',
-    padding: '1rem auto',
+   
+   
     color: '#000000',
     fontFamily: 'Playfair Display, serif',
     fontWeight: 'regular',
@@ -85,9 +81,9 @@ const BarbieDoll = () => {
     maxWidth: '500px', // Consistent with the other paragraphs
     lineHeight: '1.6',
 
-  margin: '20px auto',
+  margin: '1rem 1.25rem',
     '@media (max-width: 768px)': {
-      padding: '0 1rem', // Adjust padding for mobile devices for better readability
+      padding: '0 2rem', // Adjust padding for mobile devices for better readability
     },
   };
   
