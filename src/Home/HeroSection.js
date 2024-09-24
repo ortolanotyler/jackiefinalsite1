@@ -22,7 +22,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    margin: '1rem auto',
+    margin: '10px auto',
     maxWidth: '1000px',
     color: '#000000',
     flexDirection: isSmallScreen ? 'column' : isFlipped ? 'row-reverse' : 'row',
@@ -40,26 +40,26 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
   };
 
   const featureStyle = {
-    fontSize: '1rem',
-    fontWeight: '100',
-    letterSpacing: '0.05rem',
+    fontSize: '12px',
+    fontWeight: 'normal',
+    letterSpacing: '1px',
     color: '#000000',
-    margin: '1rem 0',
-    fontFamily: 'Lora, serif',
+    margin: '5px',
+    fontFamily: 'Lora, sans-serif',
     textDecoration: 'underline',
   };
 
   const headlineStyle = {
-    fontSize: '32px',
+    fontSize: '34px',
     lineHeight: 1,
     margin: '1rem auto',
     fontFamily: 'Playfair Display, serif',
   };
 
   const subtextStyle = {
-    fontSize: '16px',
+    fontSize: '14px',
     lineHeight: 1.5,
-    margin: '1rem auto',
+    margin: '10px auto',
     fontStyle: 'italic',
     fontFamily: 'Playfair Display, serif',
     color: '#000000',
@@ -70,7 +70,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     fontSize: '.75rem',
     fontStyle: 'italic',
     color: '#000000',
-    fontFamily: 'Playfair Display, serif',
+    fontFamily: 'Lora, sans-serif',
   };
 
   const imageContentStyle = {
