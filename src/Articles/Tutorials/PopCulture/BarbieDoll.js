@@ -67,15 +67,17 @@ const BarbieDoll = () => {
     fontWeight: '100',
     fontFamily: 'GFS Didot, sans-serif',
     color: '#000000',
-    margin: '10px 20px',
+    margin: '20px auto',
   };
   
   const paragraphStyle = {
     fontSize: '22px',
+    margin: '1rem auto',
+    padding: '1rem auto',
     color: '#000000',
     fontFamily: 'Playfair Display, serif',
     fontWeight: 'regular',
-    marginBottom: '10px',
+    marginBottom: '20px',
     maxWidth: '500px', // Consistent with the other paragraphs
     lineHeight: '1.6',
 
