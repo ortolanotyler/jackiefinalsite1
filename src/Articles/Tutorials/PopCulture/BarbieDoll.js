@@ -49,6 +49,8 @@ const BarbieDoll = () => {
 
   const websiteId = '10910';
   const blogRef = useRef(null);
+
+
   const heading2Style = {
     textAlign: 'center',
     fontSize: '1.5rem',
@@ -65,7 +67,7 @@ const BarbieDoll = () => {
     fontWeight: '100',
     fontFamily: 'GFS Didot, sans-serif',
     color: '#000000',
-    margin: '10px auto',
+    margin: '10px 20px',
   };
   
   const paragraphStyle = {
@@ -76,7 +78,7 @@ const BarbieDoll = () => {
     marginBottom: '10px',
     maxWidth: '500px', // Consistent with the other paragraphs
     lineHeight: '1.6',
-  margin: '1rem auto',
+  margin: '20px 10px',
     '@media (max-width: 768px)': {
       padding: '0 1rem', // Adjust padding for mobile devices for better readability
     },
