@@ -72,7 +72,7 @@ const Card = ({ blogContent }) => (
     }}
   >
     <div className="card"
-    
+    style = {{margin :  '1rem' }} 
     >
       <div className="blog-content">{blogContent}</div>
     </div>

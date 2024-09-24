@@ -72,8 +72,8 @@ const paragraphStyle = {
   fontSize: '22px',
   color: '#000000',
 
-  fontFamily: 'Georgia, serif',
-  fontWeight: 'regular',
+
+  fontWeight: '100',
 
   margin: '2rem auto',
 
