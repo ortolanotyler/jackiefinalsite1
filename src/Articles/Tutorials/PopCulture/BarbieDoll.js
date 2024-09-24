@@ -27,7 +27,7 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
  
   <div style={{
-    padding: '10px 20px', // Consistent padding to prevent content from touching edges
+    padding: '10px 50px', // Consistent padding to prevent content from touching edges
     margin: '0 auto',
   }}>
 
