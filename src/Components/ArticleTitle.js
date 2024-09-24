@@ -28,7 +28,7 @@ const styles = {
 
   },
   mainTitle: {
-    fontFamily: 'Playfair Display, sans-serif',
+    fontFamily: 'Playfair Display, serif',
     fontWeight: 'normal',
     fontSize: '48px', // Adjust as needed for responsiveness
     margin: '10px 15px',
