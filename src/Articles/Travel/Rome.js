@@ -73,7 +73,7 @@ const Card = ({ blogContent }) => (
       padding: '10px 20px', // Existing padding
       margin: '1rem auto',
       maxWidth: '800px', // Control max width to center the content
-      padding: '1rem', // Add padding to prevent text from touching the edges
+      padding: '1.5rem', // Add padding to prevent text from touching the edges
     }}
   >
     <div className="card">
@@ -107,9 +107,9 @@ const Rome = () => {
 const paragraphStyle = {
   fontSize: '22px',
   color: '#000000',
-  padding: '1rem auto',
+  padding: '1rem 2rem',
   fontFamily: 'GFS Didot, serif',
-  margin: '2rem auto',
+ 
 
   maxWidth: '500px', // Consistent with the other paragraphs
   lineHeight: '1.6',
