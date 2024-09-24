@@ -28,13 +28,15 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
   <div
     style={{
-      padding: '10px 20px', // Existing padding
       margin: '1rem auto',
       maxWidth: '800px', // Control max width to center the content
-      padding: '10px', // Add padding to prevent text from touching the edges
+   padding: '1.25rem',
     }}
   >
-    <div className="card">
+    <div className="card"
+
+    
+    >
       <div className="blog-content">{blogContent}</div>
     </div>
   </div>
@@ -532,10 +534,10 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       
      
       <NextArticle
-      link="/girly-pop-halloween"
+      link="/margotbarbie"
       imgSrc={next}
-      altText="Girly Pop Culture Halloween Costume Ideas 2024🎀"
-      linkText="MORE POP CULTURE →"
+      altText="Margot Robbie Barbie"
+      linkText="MORE BARBIE →"
       containerStyle={{ margin: '1rem 0' }} // customize as needed
       linkStyle={{ color: '#000000', fontSize: '1.05rem' }} // customize as needed
       imgStyle={{ borderRadius: '10px' }} // customize as needed
@@ -559,8 +561,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   return (
     <div ref={blogRef}>
       <Card
-        title="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll🎀
-"
+        title="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll🎀"
         description="Barbie Makeup Tutorial & Iconic Doll Inspiration"
         blogContent={blogContent}
       />
