@@ -60,7 +60,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.05);
+  background: 'transparent';
   opacity: 0;
   transition: opacity 0.3s ease;
   pointer-events: none;

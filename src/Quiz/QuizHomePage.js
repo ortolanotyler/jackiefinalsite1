@@ -52,7 +52,7 @@ const QuizHomepage = () => {
                 </Grid>
                 
            <Grid item xs={12}>
-           <div style={{ marginTop: '20px' }}>
+           <div style={{ paddingTop :'100px' }}>
         <AdSenseAd />
       </div>
            </Grid>
@@ -60,7 +60,7 @@ const QuizHomepage = () => {
             </Grid>
           
 
-<div style = {{margin :'20px' }}>
+<div style = {{margin :'10px auto' }}>
                 <EmailSubscribe/>
                 </div>
              
