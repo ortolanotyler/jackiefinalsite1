@@ -1,4 +1,5 @@
 import React from 'react';
+import HorizontalLine from './HorizontalLine';
 
 const ArticleTitle = ({ mainTitle, subTitle, author, publishDate }) => {
   return (
@@ -15,6 +16,7 @@ const ArticleTitle = ({ mainTitle, subTitle, author, publishDate }) => {
         <span style={styles.author}>BY {author}</span>
         <span style={styles.date}>PUBLISHED {publishDate}</span>
       </div>
+      <HorizontalLine/>
     </div>
   );
 };
@@ -22,7 +24,7 @@ const ArticleTitle = ({ mainTitle, subTitle, author, publishDate }) => {
 const styles = {
   container: {
     textAlign: 'left', // Align the text to the left
-    marginBottom: '10px',
+    marginBottom: '30px',
     maxWidth: '1000px', // Optional: limit the width of the container if needed
     padding: '0px',
 
@@ -31,7 +33,7 @@ const styles = {
     fontFamily: 'Playfair Display, serif',
     fontWeight: 'normal',
     fontSize: '48px', // Adjust as needed for responsiveness
-    margin: '10px 15px',
+    margin: '10px 5px',
     lineHeight: '1',
     color: '#000000',
   },
@@ -39,20 +41,19 @@ const styles = {
     fontFamily: '"Georgia", serif',
     fontSize: '24px',
     fontStyle: 'italic',
-    margin: 'auto',
+    margin: '20px 5px',
     marginBottom: '20px',
-    color: '#3a3a3a',
+    color: '#745B4F',
   },
   authorContainer: {
     display: 'flex',
     justifyContent: 'space-between', // Spreads author and date to opposite sides
-    fontFamily: 'Nunito, sans-serif', // Font for the author and date text
     fontSize: '12px',
     marginTop: '15px',
   },
   author: {
     textTransform: 'uppercase',
-    fontFamily: 'Playfair Display, serif', // Font for the author and date text
+    fontFamily: 'Georgia, serif', // Font for the author and date text
     fontWeight: 'normal',
   },
   date: {
