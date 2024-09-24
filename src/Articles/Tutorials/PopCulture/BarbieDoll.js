@@ -52,7 +52,7 @@ const BarbieDoll = () => {
     textAlign: 'center',
     fontSize: '1.5rem',
     fontWeight: '100',
-    fontFamily: 'Playfair Display, serif',
+    fontFamily: 'GFS Didot, serif',
     fontWeight: 'bold',
     color: '#000000',
     margin: '20px 10px',
@@ -62,7 +62,7 @@ const BarbieDoll = () => {
     textAlign: 'center',
     fontSize: '2.5rem',
     fontWeight: '100',
-    fontFamily: 'Playfair Display, serif',
+    fontFamily: 'GFS Didot, sans-serif',
     color: '#000000',
     margin: '20px 10px',
   };
@@ -70,12 +70,11 @@ const BarbieDoll = () => {
   const paragraphStyle = {
     fontSize: '22px',
     color: '#000000',
-    fontFamily: 'Georgia, serif',
+    fontFamily: 'Playfair Display, serif',
     fontWeight: 'regular',
     marginBottom: '10px',
     maxWidth: '500px', // Consistent with the other paragraphs
     lineHeight: '1.6',
-    padding: '0 1rem', // Add padding to the sides to prevent text from touching edges
     marginLeft: 'auto',
     marginRight: 'auto',
     '@media (max-width: 768px)': {
@@ -99,7 +98,7 @@ const BarbieDoll = () => {
   
   const imageStyle = {
     display: 'block',
-    margin: '1rem auto',
+    
     borderRadius: '0px',
     maxWidth: '500px',
     height: 'auto',
