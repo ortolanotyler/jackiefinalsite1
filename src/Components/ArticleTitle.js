@@ -26,22 +26,24 @@ const styles = {
     textAlign: 'left', // Align the text to the left
     marginBottom: '30px',
     maxWidth: '1000px', // Optional: limit the width of the container if needed
-    padding: '0px',
+    padding: '10px',
 
   },
   mainTitle: {
     fontFamily: 'Playfair Display, serif',
     fontWeight: 'normal',
     fontSize: '48px', // Adjust as needed for responsiveness
-    margin: '10px 5px',
+    margin: '10px 5px 0 0',
+    marginBotom: '20px',
+
     lineHeight: '1',
     color: '#000000',
   },
   subTitle: {
-    fontFamily: '"GFS Didot", sans-serif',
+    fontFamily: '"Lora", sans-serif',
     fontSize: '24px',
     fontStyle: 'italic',
-    margin: '20px 15px',
+    margin: '20px 5px 0 0',
     marginBottom: '20px',
     color: '#745B4F',
   },

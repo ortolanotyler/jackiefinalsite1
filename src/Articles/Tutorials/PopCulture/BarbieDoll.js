@@ -27,13 +27,13 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
   <div
     style={{
-      padding: '20px',
+      
       margin: '0 auto',
       maxWidth: '800px',
     }}
   >
     <div className="card"
-    style = {{margin: '10px 5px'}}
+    style = {{margin: '5px 10px'}}
     >
       <div className="blog-content">{blogContent}</div>
     </div>
@@ -84,7 +84,7 @@ const BarbieDoll = () => {
   
   const linkStyle = {
     textDecoration: 'none', // Removes underline from links
-    fontFamily: 'Playfair Display, serif',
+    fontFamily: 'GFS Didot, sans-serif',
     color: '#000000', // Inherits the color of the surrounding text
   };
   
@@ -92,15 +92,15 @@ const BarbieDoll = () => {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     gap: '1rem',
-    margin: '1rem auto',
+    margin: '0',
     color: '#000000', // Inherits the color of the surrounding text
   };
   
   const imageStyle = {
     display: 'block',
-    
+    margin: '0',
     borderRadius: '0px',
-    maxWidth: '500px',
+    maxWidth: '700px',
     height: 'auto',
   };
   
