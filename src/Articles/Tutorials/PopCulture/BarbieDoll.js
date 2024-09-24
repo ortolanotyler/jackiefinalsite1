@@ -76,7 +76,7 @@ const paragraphStyle = {
   fontSize: '22px',
   color: '#000000',
 
-  fontFamily: 'Playfair Display, sans-serif',
+  fontFamily: 'Playfair Display, serif',
   fontWeight: 'regular',
 
   margin: '1rem auto',
