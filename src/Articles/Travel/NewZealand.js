@@ -71,7 +71,6 @@ const images = [
 
 ];
 
-const title = `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/NewZealandTitle.png`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const fable = `${process.env.PUBLIC_URL}/Images/Articles/Fable/FableAucklandThumbnail.jpg`;
 

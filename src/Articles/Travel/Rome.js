@@ -107,7 +107,7 @@ const Rome = () => {
 const paragraphStyle = {
   fontSize: '22px',
   color: '#000000',
-
+  padding: '1rem auto',
   fontFamily: 'GFS Didot, serif',
   margin: '2rem auto',
 
