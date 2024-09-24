@@ -219,7 +219,7 @@ function HomePage() {
   author="BY JACKIE WYERS"
   imagePath="BarbieDoll/JackieWyersBarbieThumb.jpeg"
   linkUrl="/barbie-doll"
-  isFlipped={false}
+  isFlipped={true}
 />
 
 </Suspense>
