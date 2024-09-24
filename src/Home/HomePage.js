@@ -206,6 +206,25 @@ function HomePage() {
 />
 </Suspense>
 </Grid>
+<HorizontalLine />
+
+
+<Grid item xs={12}>
+  <Suspense fallback={<div className="spinner"></div>}>
+  
+  <HeroSection
+  featureText="LATEST"
+  headlineText="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll"
+  subtext="Barbie Makeup Tutorial & Iconic Doll Inspiration"
+  author="BY JACKIE WYERS"
+  imagePath="BarbieDoll/JackieWyersBarbieThumb.jpeg"
+  linkUrl="/barbie-doll"
+  isFlipped={false}
+/>
+
+</Suspense>
+</Grid>
+
 
 
 <HorizontalLine />
@@ -233,7 +252,7 @@ function HomePage() {
   <Suspense fallback={<div className="spinner"></div>}>
   
   <HeroSection
-  featureText="LATEST"
+  featureText="TRAVEL"
   headlineText="Best of Brussels: Top Things to See, Eat, and Experience + Train To Paris!"
   subtext="Belgian Chocolate, Waffles, and A Walk Down Memory Lane"
   author="BY JACKIE WYERS"
