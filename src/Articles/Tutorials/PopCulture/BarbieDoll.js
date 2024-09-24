@@ -75,7 +75,7 @@ const BarbieDoll = () => {
     margin: '1rem auto',
     maxWidth: '500px', // Consistent with the other paragraphs
     lineHeight: '1.6',
-    padding: '0 2rem', // Add padding to the sides to prevent text from touching edges
+    padding: '0 1rem', // Add padding to the sides to prevent text from touching edges
     marginLeft: 'auto',
     marginRight: 'auto',
     '@media (max-width: 768px)': {
