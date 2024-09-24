@@ -15,17 +15,19 @@ const jicky3 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky3.png
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
- 
-<div style = {{
-  padding: '10px',
-  margin: '0 auto',
-}}>
-
-    <div className="card">
+  <div
+    style={{
+    margin: '5px 10px',
+      margin: '0 auto',
+      maxWidth: '900px',
+    }}
+  >
+    <div className="card"
+    
+    >
       <div className="blog-content">{blogContent}</div>
     </div>
-    </div>
-
+  </div>
 );
 
 const JickyReview = () => {
