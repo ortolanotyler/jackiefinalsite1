@@ -10,7 +10,6 @@ import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
-import HorizontalLine from '../../../Components/HorizontalLine';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/1.JPG`;
@@ -25,119 +24,118 @@ const image8 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/8.jpeg`;
 const next = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/SQUAREMARGOT.jpeg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
-
 const Card = ({ blogContent }) => (
-  <div
-    style={{
-      padding: '10px 20px', // Existing padding
-      margin: '1rem 1rem',
-      maxWidth: '800px', // Control max width to center the content
-      padding: '10px', // Add padding to prevent text from touching the edges
-    }}
-  >
+ 
+  <div style={{
+    padding: '10px 20px', // Consistent padding to prevent content from touching edges
+    margin: '0 auto',
+  }}>
+
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
-  </div>
+    </div>
+
+  
 );
 
 const BarbieDoll = () => {
+
   useEffect(() => {
     initGA();
     logPageView('/barbie-doll');
   }, []);
 
+
   const websiteId = '10910';
   const blogRef = useRef(null);
 
-
+ 
   const heading2Style = {
     textAlign: 'center',
     fontSize: '1.5rem',
     fontWeight: '100',
-    fontFamily: 'GFS Didot, serif',
+    fontFamily: 'Playfair Display, serif',
     fontWeight: 'bold',
     color: '#000000',
-    margin: '20px auto',
-  };
-  
-  const headingStyle = {
+    margin: '30px auto'
+};
+ 
+const headingStyle = {
     textAlign: 'center',
-    fontSize: '30px',
+    fontSize: '2.5rem',
     fontWeight: '100',
-    fontFamily: 'GFS Didot, sans-serif',
-    color: '#000000',
-    margin: '20px auto',
-  };
-  
-  const paragraphStyle = {
-    fontSize: '22px',
-   
-   
-    color: '#000000',
     fontFamily: 'Playfair Display, serif',
-    fontWeight: 'regular',
-    marginBottom: '20px',
-    maxWidth: '500px', // Consistent with the other paragraphs
-    lineHeight: '1.6',
+    color: '#000000',
+    margin: '30px auto'
+};
 
-  margin: '1rem 1.25rem',
-    '@media (max-width: 768px)': {
-      padding: '0 2rem', // Adjust padding for mobile devices for better readability
-    },
-  };
-  
-  const linkStyle = {
-    textDecoration: 'none', // Removes underline from links
-    fontFamily: 'GFS Didot, sans-serif',
-    color: '#000000', // Inherits the color of the surrounding text
-  };
-  
-  const gridContainerStyle = {
+
+
+const paragraphStyle = {
+  fontSize: '22px',
+  color: '#000000',
+
+  fontFamily: 'Playfair Display, sans-serif',
+  fontWeight: 'regular',
+
+  margin: '1rem auto',
+
+  maxWidth: '500px', // Consistent with the other paragraphs
+  lineHeight: '1.6',
+  marginLeft: 'auto',
+  marginRight: 'auto',
+};
+
+const linkStyle = {
+  textDecoration: 'none', // Removes underline from links
+  fontFamily: 'Playfair Display, serif',
+  color: '#000000', // Inherits the color of the surrounding text
+};
+
+const gridContainerStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     gap: '1rem',
-    margin: '0',
+    margin: '1rem auto',
     color: '#000000', // Inherits the color of the surrounding text
-  };
-  
-  const imageStyle = {
-    display: 'block',
-    margin: '0',
-    borderRadius: '0px',
-    maxWidth: '700px',
-    height: 'auto',
-  };
-  
-  const pinterestGridStyle = {
-    display: 'grid',
-    gap: '1rem',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
-    justifyItems: 'center',
-    margin: '1rem 0',
-  };
-  
-  const iframeStyle = {
-    width: '100%',
-    maxWidth: '236px',
-    height: '520px', // Maintains original height
-    border: 'none',
-    scrolling: 'no',
-  };
-  
-  const captionStyle = {
-    textAlign: 'center',
-    fontSize: '1.1rem',
-    fontFamily: 'Raleway, serif',
-    fontWeight: 'normal',
-    margin: '1rem 20px',
-    maxWidth: '100%',
-    fontStyle: 'italic',
-    padding: '0 2rem', // Add padding to the sides to prevent text from touching edges
-    '@media (max-width: 768px)': {
-      padding: '0 1rem', // Increase padding on mobile devices for better readability
-    },
-  };
+
+};
+
+const imageStyle = {
+  display: 'block',
+  margin: '1rem auto',
+  borderRadius: '0px',
+  maxWidth: '500px',
+  height: 'auto'
+};
+
+const pinterestGridStyle = {
+  display: 'grid',
+  gap: '1rem',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+  justifyItems: 'center',
+  margin: '1rem 0',
+};
+
+const iframeStyle = {
+  width: '100%',
+  maxWidth: '236px',
+  height: '520px', // Maintains original height
+  border: 'none',
+  scrolling: 'no',
+};
+
+const captionStyle = {
+  textAlign: 'center',
+  fontSize: '1.1rem',
+  fontFamily: 'Raleway, serif',
+  fontWeight: 'normal',
+  margin: '1rem auto',
+  maxWidth: '100%',
+  fontStyle: 'italic',
+};
+
 
   const blogContent = (
     <div className="container">
@@ -235,8 +233,6 @@ const BarbieDoll = () => {
           BEAUTY // POP CULTURE
         </a>
       </div>
-<HorizontalLine/>
-
 
   <ArticleTitle
   mainTitle="Barbie Beauty Makeup Looks:
@@ -263,10 +259,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 
-<div style = {paragraphStyle}>
-<DropCap1 text="Hello and welcome back to another Barbie-inspired makeup article! Barbie isn’t just a doll—she’s a global icon of style, glamour, and endless creativity. From her glamorous debut in 1959 to her latest movie-inspired renditions, Barbie continues to inspire fans with her evolving fashion and beauty trends. In a previous post, I covered the best Barbie product collaborations of 2024, but today, we’re diving into the most iconic Barbie makeup looks ever—at least, in my opinion! Each style is inspired by different eras and dolls that have shaped Barbie’s legendary legacy, giving you the perfect opportunity to transform into your favorite version of this fashion queen." />
 
-</div>
+<DropCap1 text="Hello and welcome back to another Barbie-inspired makeup article! Barbie isn’t just a doll—she’s a global icon of style, glamour, and endless creativity. From her glamorous debut in 1959 to her latest movie-inspired renditions, Barbie continues to inspire fans with her evolving fashion and beauty trends. In a previous post, I covered the best Barbie product collaborations of 2024, but today, we’re diving into the most iconic Barbie makeup looks ever—at least, in my opinion! Each style is inspired by different eras and dolls that have shaped Barbie’s legendary legacy, giving you the perfect opportunity to transform into your favorite version of this fashion queen." />
 
 <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
@@ -274,10 +268,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 
 <p style={paragraphStyle}>
-  Whether you’re channeling the vibrant <a href="https://en.wikipedia.org/wiki/Fashion" style={linkStyle}>90s vibes</a> of Roller Skate Barbie, embracing the sweet nostalgia of Cherry Pie Picnic Barbie, or exuding the timeless elegance of the <a href="https://www.vogue.com/" style={linkStyle}>Original Barbie</a>, these stunning makeup looks will help you bring your inner doll to life. Go all out for a real-life doll transformation or keep it subtle for a Barbie IRL vibe—perfect for <a href="https://www.cosmopolitan.com/" style={linkStyle}>Halloween</a>, themed parties, or any day you feel like living your best Barbie life. These looks blend vintage inspiration with a modern twist, inviting you to step into Barbie’s world of fun and fashion. So, grab your <a href="https://www.sephora.com/" style={linkStyle}>makeup brushes</a> and get ready to doll up—because there’s a Barbie look for everyone!
+  Whether you’re channeling the vibrant <a href="https://en.wikipedia.org/wiki/1990s_in_fashion" style={linkStyle}>90s vibes</a> of Roller Skate Barbie, embracing the sweet nostalgia of Cherry Pie Picnic Barbie, or exuding the timeless elegance of the <a href="https://www.theguardian.com/fashion/2019/mar/09/original-barbie-1959-cultural-icon-inspiration" style={linkStyle}>Original Barbie</a>, these stunning makeup looks will help you bring your inner doll to life. Go all out for a real-life doll transformation or keep it subtle for a Barbie IRL vibe—perfect for <a href="https://www.cosmopolitan.com/style-beauty/fashion/a30357125/barbie-halloween-costumes/" style={linkStyle}>Halloween</a>, themed parties, or any day you feel like living your best Barbie life. These looks blend vintage inspiration with a modern twist, inviting you to step into Barbie’s world of fun and fashion. So, grab your <a href="https://www.sephora.com/shop/makeup-brushes" style={linkStyle}>makeup brushes</a> and get ready to doll up—because there’s a Barbie look for everyone!
 </p>
-
-
 <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
@@ -287,7 +279,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </h2>
 
 <p style={paragraphStyle}>
-  Recreate the dreamy style of <a href="https://www.mattel.com/" style={linkStyle}>Peaches ‘N Cream Barbie</a>, one of the most iconic dolls of the 80s, known for her soft pastel palette and glamorous, romantic vibe. Peaches ‘N Cream Barbie became an instant classic with her stunning chiffon gown, delicate accessories, and unforgettable makeup, making her one of the most beloved and sought-after Barbies of all time. For my rendition of this look, I drew inspiration from the doll’s pastel purple eyeshadow, coral-orange cheeks, and lips, and for the hair, I pulled inspiration from the vintage Barbie illustration by the late Mary Christine Tuveson (Chris Tuveson) as seen on the new <a href="https://www.stanley1913.com/" style={linkStyle}>Stanley x Barbie Just Peachy packaging</a>. Together, these influences create a style that echoes the <a href="https://www.britannica.com/" style={linkStyle}>60s</a>, reminiscent of <a href="https://www.biography.com/" style={linkStyle}>Sharon Tate’s</a> beautiful bridal look. See a breakdown of this look <a href="https://www.elle.com/" style={linkStyle}>here</a>—one of my favourites!
+  Recreate the dreamy style of <a href="https://www.barbiemedia.com/about-barbie/peaches-n-cream-barbie.html" style={linkStyle}>Peaches ‘N Cream Barbie</a>, one of the most iconic dolls of the 80s, known for her soft pastel palette and glamorous, romantic vibe. Peaches ‘N Cream Barbie became an instant classic with her stunning chiffon gown, delicate accessories, and unforgettable makeup, making her one of the most beloved and sought-after Barbies of all time. For my rendition of this look, I drew inspiration from the doll’s pastel purple eyeshadow, coral-orange cheeks, and lips, and for the hair, I pulled inspiration from the vintage Barbie illustration by the late Mary Christine Tuveson (Chris Tuveson) as seen on the new <a href="https://www.stanley1913.com/collections/barbie" style={linkStyle}>Stanley x Barbie Just Peachy packaging</a>. Together, these influences create a style that echoes the <a href="https://www.britannica.com/topic/history-of-the-motion-picture-598474" style={linkStyle}>60s</a>, reminiscent of <a href="https://www.biography.com/actor/sharon-tate" style={linkStyle}>Sharon Tate’s</a> beautiful bridal look. See a breakdown of this look <a href="https://jackiewyers.beauty/peaches-n-cream-barbie" style={linkStyle}>here</a>—one of my favourites!
 </p>
 
 <div style={gridContainerStyle}>
@@ -295,7 +287,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </div>
 
 <p style={paragraphStyle}>
-  This Barbie style features soft curls, delicate pink bows, and pastel florals that are visually stunning and evoke a sense of whimsy. If you’ve ever wanted to try <a href="https://www.allure.com/" style={linkStyle}>pastel purple eyeshadow</a>, now is the perfect time! For the full effect, wear the iconic new Peaches ‘N Cream dress from <a href="https://www.revolve.com/" style={linkStyle}>Revolve’s Barbie Fashion Collection</a> to complete your Barbie Halloween costume, or rock the makeup on its own for a creative, standout look that celebrates the essence of this unforgettable doll.
+  This Barbie style features soft curls, delicate pink bows, and pastel florals that are visually stunning and evoke a sense of whimsy. If you’ve ever wanted to try <a href="https://www.allure.com/story/best-pastel-eyeshadow-palettes" style={linkStyle}>pastel purple eyeshadow</a>, now is the perfect time! For the full effect, wear the iconic new Peaches ‘N Cream dress from <a href="https://www.revolve.com/barbie-fashion/br/48f360/" style={linkStyle}>Revolve’s Barbie Fashion Collection</a> to complete your Barbie Halloween costume, or rock the makeup on its own for a creative, standout look that celebrates the essence of this unforgettable doll.
 </p>
 
 <h2 style={heading2Style}>
@@ -322,9 +314,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <h2 style={headingStyle}>
   🌈 🛼 Roller Skate Barbie Makeup | Barbie Halloween Costume 🛼 🌈
 </h2>
-
 <p style={paragraphStyle}>
-  Roll into the vibrant world of <a href="https://www.mattel.com/" style={linkStyle}>Roller Skate Barbie</a> with a look that captures the fun, carefree spirit of the 90s! This makeup and style are inspired by the vintage 1994 Mattel Hot Skatin' Barbie Doll and <a href="https://www.vogue.com/" style={linkStyle}>Margot Robbie’s iconic portrayal</a> of Roller Skate Barbie in the Barbie Movie. Known for her bold neon accents, playful visor, and voluminous half-up, half-down hair, this Barbie embodies an active and stylish lifestyle.
+  Roll into the vibrant world of <a href="https://www.mattel.com/roller-skate-barbie" style={linkStyle}>Roller Skate Barbie</a> with a look that captures the fun, carefree spirit of the 90s! This makeup and style are inspired by the vintage 1994 Mattel Hot Skatin' Barbie Doll and <a href="https://www.vogue.com/article/margot-robbie-barbie-movie-fashion" style={linkStyle}>Margot Robbie’s iconic portrayal</a> of Roller Skate Barbie in the Barbie Movie. Known for her bold neon accents, playful visor, and voluminous half-up, half-down hair, this Barbie embodies an active and stylish lifestyle. With a mix of 90s nostalgia from the original doll and Margot’s fresh, understated makeup, this look stands out as a bold, fun, and eye-catching way to rock the <a href="https://www.harpersbazaar.com/fashion/trends/a36418208/barbiecore-trend/" style={linkStyle}>Barbiecore trend</a>. The pink lips and vibrant attire make this style the perfect choice for a Barbie-themed Halloween costume, but the makeup alone is also totally wearable for any day you want to channel your inner doll!
 </p>
 <div style={gridContainerStyle}>
   <img src={image3} alt="Jackie Wyers as Roller Skate Barbie" style={imageStyle} />
@@ -360,13 +351,13 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   🥧 🍒 Cherry Pie Picnic Barbie Aesthetic 🥧 🍒
 </h2>
 <p style={paragraphStyle}>
-  Embrace the sweetness of Cherry Pie Picnic Barbie, a look inspired by the nostalgic and playful aesthetics of one of my favorite lines of Barbie, the Silkstone dolls. The <a href="https://www.mattel.com/" style={linkStyle}>Silkstone collection</a>, launched in 2000, was designed specifically for adult collectors and is known for its elegant vintage-inspired fashions, sophisticated styling, and high-quality, porcelain-like material that gives the dolls a luxurious feel.
+  Embrace the sweetness of Cherry Pie Picnic Barbie, a look inspired by the nostalgic and playful aesthetics of one of my favorite lines of Barbie, the Silkstone dolls. The <a href="https://www.mattel.com/silkstone-barbie" style={linkStyle}>Silkstone collection</a>, launched in 2000, was designed specifically for adult collectors and is known for its elegant vintage-inspired fashions, sophisticated styling, and high-quality, porcelain-like material that gives the dolls a luxurious feel. Popular Silkstone Barbies include <a href="https://www.mattel.com/silkstone-lingerie-barbie" style={linkStyle}>"Lingerie Barbie,"</a> <a href="https://www.mattel.com/silkstone-fashion-model" style={linkStyle}>"Fashion Model Collection,"</a> and <a href="https://www.mattel.com/classic-camel-coat-barbie" style={linkStyle}>"Classic Camel Coat Barbie,"</a> all of which capture the essence of mid-century glamour and timeless style. These dolls pay homage to Barbie’s fashion heritage, featuring beautifully tailored outfits, intricate accessories, and impeccable attention to detail.
 </p>
 <div style={gridContainerStyle}>
   <img src={image4} alt="Jackie Wyers as Cherry Pie Picnic Barbie" style={imageStyle} />
 </div>
 <p style={paragraphStyle}>
-  This Silkstone-inspired look features adorable pigtails with red bows and a cherry-print top, capturing a 50s picnic vibe that’s playful and charming. While this particular Cherry Pie Picnic Barbie style didn’t grace the pink carpet on the Barbie Movie press tour, <a href="https://www.vanityfair.com/style/2023/06/margot-robbie-barbie-press-tour" style={linkStyle}>Margot Robbie</a> and designer Andrew Mukamal’s coffee table book featured a modern take on the doll. As soon as I saw the picnic-themed rendition in the book, I knew I wanted to recreate it with my own twist! My take on the makeup look is a bit bolder, with red lips, perfect for those who adore vintage-inspired fashion and want to add a touch of retro charm to their Barbie-themed costume.
+  This Silkstone-inspired look features adorable pigtails with red bows and a cherry-print top, capturing a 50s picnic vibe that’s playful and charming. While this particular Cherry Pie Picnic Barbie style didn’t grace the pink carpet on the Barbie Movie press tour, <a href="https://www.vanityfair.com/style/2023/06/margot-robbie-barbie-press-tour" style={linkStyle}>Margot Robbie</a> and designer Andrew McAmal’s coffee table book featured a modern take on the doll. As soon as I saw the picnic-themed rendition in the book, I knew I wanted to recreate it with my own twist! My take on the makeup look is a bit bolder, with red lips, perfect for those who adore vintage-inspired fashion and want to add a touch of retro charm to their Barbie-themed costume.
 </p>
 
 <h2 style={heading2Style}>
@@ -405,7 +396,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   🎀 🤎 Brunette Barbicore Aesthetic 🎀 🤎
 </h2>
 <p style={paragraphStyle}>
-  While the most famous Barbie is a blonde, the Barbie brand has come a long way, so don’t think you need to wear a wig like I did to fit the aesthetic! Explore a fresh twist on Barbiecore with Brunette Barbicore looks, or whatever your hair color may be, inspired by Barbie's evolving styles as seen in the <a href="https://www.vanityfair.com/" style={linkStyle}>recent Barbie movie</a>. The Barbie movie aesthetic also pulls from <a href="https://www.elle.com/" style={linkStyle}>‘60s fashion</a>.
+  While the most famous Barbie is a blonde, the Barbie brand has come a long way, so don’t think you need to wear a wig like I did to fit the aesthetic! Explore a fresh twist on Barbiecore with Brunette Barbicore looks, or whatever your hair color may be, inspired by Barbie's evolving styles as seen in the <a href="https://www.vanityfair.com/hollywood/2023/06/barbie-movie-hairstyles" style={linkStyle}>recent Barbie movie</a>. The Barbie movie aesthetic also pulls from <a href="https://www.elle.com/fashion/a39482460/1960s-fashion/" style={linkStyle}>‘60s fashion</a>, and the beachy styles were so much fun on the big screen. Try a chic polka-dot headband or a pink gingham print to become your own Barbie. Lucky for Barbie movie fans and enthusiasts, there are so many new Barbies with outfits pulled directly from the film that are worth <a href="https://www.mattel.com/barbie-collectibles" style={linkStyle}>collecting</a>!
 </p>
 <div style={gridContainerStyle}>
   <img src={image5} alt="Jackie Wyers styled as Brunette Barbie from The Barbie Movie" style={imageStyle} />
@@ -441,7 +432,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   🧴 🏄 Malibu Barbie Aesthetic 🧴 🏄
 </h2>
 <p style={paragraphStyle}>
-  Speaking of a beach Barbie aesthetic, we can’t forget about <a href="https://www.barbiemedia.com/" style={linkStyle}>Malibu Barbie</a>! First released in 1971, Malibu Barbie became an instant icon, capturing the carefree, sun-kissed <a href="https://www.latimes.com/" style={linkStyle}>California lifestyle</a> like no other. Known for her glowing skin, soft pink lips, and teal eyeshadow, Malibu Barbie set the tone for decades of Barbie’s sun-soaked adventures.
+  Speaking of a beach Barbie aesthetic, we can’t forget about <a href="https://www.barbiemedia.com/about-barbie/malibu-barbie.html" style={linkStyle}>Malibu Barbie</a>! First released in 1971, Malibu Barbie became an instant icon, capturing the carefree, sun-kissed <a href="https://www.latimes.com/archives/la-xpm-1971-01-01-me-8792-story.html" style={linkStyle}>California lifestyle</a> like no other. With her golden tan, long blonde hair, and vibrant turquoise swimsuit, she shifted Barbie’s image from a glamorous fashion model to a laid-back beach babe, perfectly reflecting the <a href="https://www.rollingstone.com/culture/culture-features/the-70s-beach-culture-revolution-1208707/" style={linkStyle}>70s beach culture</a>. Known for her glowing skin, soft pink lips, and teal eyeshadow, Malibu Barbie set the tone for decades of Barbie’s sun-soaked adventures.
 </p>
 <div style={gridContainerStyle}>
   <img src={image6} alt="Jackie Wyers trying Barbie AI Movie Poster as Malibu Barbie" style={imageStyle} />
@@ -451,7 +442,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </div>
 
 <p style={paragraphStyle}>
-  I even tried this look with my own sandy brunette twist using the <a href="https://www.colourpop.com/" style={linkStyle}>ColourPop x Malibu Barbie collection</a>—though the video is hidden on YouTube because my tan developed a bit too dark but I’ve embedded it <a href="https://jackiewyers.beauty/malibu-barbie-look" style={linkStyle}>here</a> anyways! Malibu Barbie is a timeless favorite for anyone who loves a breezy, beachy, California cool look.
+  I even tried this look with my own sandy brunette twist using the <a href="https://www.colourpop.com/collections/malibu-barbie" style={linkStyle}>ColourPop x Malibu Barbie collection</a>—though the video is hidden on YouTube because my tan developed a bit too dark but I’ve embedded it <a href="https://jackiewyers.beauty/malibu-barbie-look" style={linkStyle}>here</a> anyways! Malibu Barbie is a timeless favorite for anyone who loves a breezy, beachy, California cool look.
 </p>
 <h2 style={heading2Style}>
   Watch My Take on Malibu Barbie Makeup Here:
@@ -480,7 +471,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   🖤 💋 The Original Barbie Aesthetic 💋 🖤
 </h2>
 <p style={paragraphStyle}>
-  We can’t have a Barbie beauty list without talking about the <a href="https://www.barbiemedia.com/" style={linkStyle}>iconic first Barbie</a> introduced in 1959, who started it all! The first Barbie, known as the "Teenage Fashion Model," was created by <a href="https://www.britannica.com/" style={linkStyle}>Ruth Handler</a> and made her debut at the American International Toy Fair in New York City. Dressed in a black and white striped swimsuit, bold red lips, and stylish ponytail, Barbie was an instant hit and revolutionized the toy industry, setting the standard for style and glamour.
+  We can’t have a Barbie beauty list without talking about the <a href="https://www.barbiemedia.com/about-barbie/the-original-barbie.html" style={linkStyle}>iconic first Barbie</a> introduced in 1959, who started it all! The first Barbie, known as the "Teenage Fashion Model," was created by <a href="https://www.britannica.com/biography/Ruth-Handler" style={linkStyle}>Ruth Handler</a> and made her debut at the American International Toy Fair in New York City. Dressed in a black and white striped swimsuit, bold red lips, and stylish ponytail, Barbie was an instant hit and revolutionized the toy industry, setting the standard for style and glamour. This look celebrates classic elegance and vintage glamour with bold red lips, cat-eye makeup with a pop of blue and retro bang curls. Perfect for anyone looking to recreate the ultimate vintage Barbie look, it’s a timeless choice for <a href="https://www.popsugar.com/beauty/vintage-barbie-costumes-48503912" style={linkStyle}>Halloween</a> or any themed event. While I wore a tiny swimsuit for my version, you can always add pants to make it more wearable—please, add pants, LOL.
 </p>
 <div style={gridContainerStyle}>
   <img src={image7} alt="Jackie Wyers as original 50s Barbie" style={imageStyle} />
@@ -491,16 +482,6 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <h2 style={heading2Style}>
   Watch My Ad For The Barbie Movie with Warner Brothers Here!
 </h2>
-<div style={{ marginBottom: '30px', marginTop: '20px', textAlign: 'center' }}>
-  <iframe
-    style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
-    src="https://www.youtube.com/embed/pTCLYNMVG7M" 
-    title="YouTube Shorts video player"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-  ></iframe>
-</div>
 <h2 style={heading2Style}>
   Key Features:
 
@@ -520,7 +501,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </div>
 
 <p style={paragraphStyle}>
-  Each look captures the essence of iconic Barbie styles and provides a unique and stylish option for Halloween, themed events, or even everyday wear if you’re ready to serve Barbiecore! Whether you’re drawn to vintage vibes, modern twists, or classic Barbie glamour, these makeup looks help you channel your inner doll in a fun and fashionable way. While I recreated looks inspired by the white and blonde Barbie, Barbie’s world has beautifully evolved to celebrate diversity in <a href="https://www.barbie.com/" style={linkStyle}>skin tones, body types, and styles</a>.
+  Each look captures the essence of iconic Barbie styles and provides a unique and stylish option for Halloween, themed events, or even everyday wear if you’re ready to serve Barbiecore! Whether you’re drawn to vintage vibes, modern twists, or classic Barbie glamour, these makeup looks help you channel your inner doll in a fun and fashionable way. While I recreated looks inspired by the white and blonde Barbie, Barbie’s world has beautifully evolved to celebrate diversity in <a href="https://www.barbie.com/en-us/diversity" style={linkStyle}>skin tones, body types, and styles</a>. I hope these makeup looks inspire you to rock these styles in a way that is uniquely you! Which is your favorite makeup look? I hope these photos sparked some inspiration, and if there’s a favorite Barbie I didn’t cover, <a href="https://www.instagram.com/jackiewyers" style={linkStyle}>comment below</a>—I’d love to hear from you!
 </p>
 
 
@@ -533,10 +514,10 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       
      
       <NextArticle
-      link="/margotbarbie"
+      link="/girly-pop-halloween"
       imgSrc={next}
-      altText="Margot Robbie Barbie"
-      linkText="MORE BARBIE →"
+      altText="Girly Pop Culture Halloween Costume Ideas 2024🎀"
+      linkText="MORE POP CULTURE →"
       containerStyle={{ margin: '1rem 0' }} // customize as needed
       linkStyle={{ color: '#000000', fontSize: '1.05rem' }} // customize as needed
       imgStyle={{ borderRadius: '10px' }} // customize as needed
@@ -560,7 +541,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   return (
     <div ref={blogRef}>
       <Card
-        title="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll🎀"
+        title="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll🎀
+"
         description="Barbie Makeup Tutorial & Iconic Doll Inspiration"
         blogContent={blogContent}
       />
