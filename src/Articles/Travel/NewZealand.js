@@ -116,8 +116,7 @@ const paragraphStyle = {
   color: '#000000',
 
   fontFamily: 'GFS Didot, serif',
-  margin: '2rem auto',
-  padding: '1rem auto',
+  margin: '1rem 2rem',
   maxWidth: '500px', // Consistent with the other paragraphs
   lineHeight: '1.6',
   marginLeft: 'auto',
