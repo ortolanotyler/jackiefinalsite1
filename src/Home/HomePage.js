@@ -191,12 +191,26 @@ function HomePage() {
               <QuiltedImageList1 />
             </Suspense>
             <HorizontalLine />
+            <Grid item xs={12}>
+  <Suspense fallback={<div className="spinner"></div>}>
+  
+  <HeroSection
+  featureText="LATEST"
+  headlineText="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll"
+  subtext="Barbie Makeup Tutorial & Iconic Doll Inspiration"
+  author="BY JACKIE WYERS"
+  imagePath="BarbieDoll/JackieWyersBarbieThumb.jpg"
+  linkUrl="/barbie-doll"
+  isFlipped={true}
+/>
 
+</Suspense>
+</Grid>
 
             <Grid item xs={12}>
   <Suspense fallback={<div className="spinner"></div>}>
   
-            <HeroSection
+  <HeroSection
   featureText="FEATURED"
   headlineText="Girly Pop Culture Halloween Costume Ideas 2024🎀"
   subtext="Britney, Barbie, Bridgerton, Oh My!"
@@ -214,7 +228,7 @@ function HomePage() {
             <Grid item xs={12}>
   <Suspense fallback={<div className="spinner"></div>}>
   
-            <HeroSection
+  <HeroSection
   featureText="FEATURED"
   headlineText="Our Fairytale Wedding Overlooking Sorrento, Italy"
   subtext="All the enchanting details, prep & planning"
@@ -264,14 +278,14 @@ function HomePage() {
 <Grid item xs={12}>
   <Suspense fallback={<div className="spinner"></div>}>
   
-<HeroSection
-featureText="QUIZ"
-headlineText="Animal Pretty - Which one are you?"
-subtext="Explore the Animal Pretty makeup trends inspired by deer, cats, foxes, and bunnies. Learn how to achieve these adorable looks with step-by-step guides from Jackie Wyers."
-author="BY JACKIE WYERS"
-imagePath="AnimalPretty/animals.jpg"
-linkUrl="/quiz2"
-isFlipped={true}
+  <HeroSection
+  featureText="QUIZ"
+  headlineText="Animal Pretty - Which one are you?"
+  subtext="Explore the Animal Pretty makeup trends inspired by deer, cats, foxes, and bunnies. Learn how to achieve these adorable looks with step-by-step guides."
+  author="BY JACKIE WYERS"
+  imagePath="AnimalPretty/animals.jpg"
+  linkUrl="/quiz2"
+  isFlipped={true}
 />
   </Suspense>
 </Grid>
@@ -286,7 +300,7 @@ isFlipped={true}
         <HeroSection
   featureText="VINTAGE VIBES"
   headlineText="Mastering the Bardot Bun"
-  subtext="My Many Attempts At The Iconic 60s Style. Step into vintage beauty with Jackie Wyers' take on Brigitte Bardot's iconic hairstyles."
+  subtext="My Many Attempts At The Iconic 60s Style. Step into vintage beauty with take on Brigitte Bardot's iconic hairstyles."
   author="BY JACKIE WYERS"
   imagePath="BardotHairstyles/BardotThumbnail.jpg"
   linkUrl="/bardothairstyles"
@@ -304,14 +318,14 @@ isFlipped={true}
 <Grid item xs={12} md={6}>
 <Suspense fallback={<div className="spinner"></div>}>
 <HeroSection
-              featureText="POP CULTURE"
-              headlineText="Francesca Bridgerton Makeup, Hair, and Dress"
-              subtext="From bold blush to a signature half-up half-down style similar to princess Belle, I’m breaking down all the steps."
-              author="BY JACKIE WYERS"
-              imagePath="Francesca/FrancescaThumb.jpg"
-              linkUrl="/francesca-bridgerton"
-              isFlipped={true}
-            />
+  featureText="POP CULTURE"
+  headlineText="Francesca Bridgerton Makeup, Hair, and Dress"
+  subtext="From bold blush to a signature half-up half-down style similar to princess Belle, breaking down all the steps."
+  author="BY JACKIE WYERS"
+  imagePath="Francesca/FrancescaThumb.jpg"
+  linkUrl="/francesca-bridgerton"
+  isFlipped={true}
+/>
 
 
 </Suspense>
@@ -333,7 +347,7 @@ isFlipped={true}
           <HeroSection
   featureText="HOW-TO : IPHONE"
   headlineText="A Guide to Scroll-Stopping iPhone Photos"
-  subtext="Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide."
+  subtext="Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with guide."
   author="BY JACKIE WYERS"
   imagePath="CameraSettings/coverphoot.jpg"
   linkUrl="/camera-settings"
@@ -354,7 +368,7 @@ isFlipped={true}
           <HeroSection
   featureText="TRAVEL"
   headlineText="The Best Souvenirs to Bring Home from Sorrento"
-  subtext="Leather, Music Boxes, Flats, Oh Me! Discover the top Sorrento souvenirs with Jackie Wyers."
+  subtext="Leather, Music Boxes, Flats, Oh Me!"
   author="BY JACKIE WYERS"
   imagePath="Sorrento1/SorrentoThumbnail.jpg"
   linkUrl="/sorrento"
@@ -370,14 +384,14 @@ isFlipped={true}
           <Suspense fallback={<div className="spinner"></div>}>
          
           <HeroSection
-              featureText="TRAVEL"
-              headlineText="Our Three Day Romantic Getaway in Rome, Italy"
-              subtext="From early morning strolls to late-night gelato runs, we made the most of every moment in this enchanting city."
-              author="BY JACKIE WYERS"
-              imagePath="Rome/47.jpeg"
-              linkUrl="/rome"
-              isFlipped={true}
-            />
+  featureText="TRAVEL"
+  headlineText="Our Three Day Romantic Getaway in Rome, Italy"
+  subtext="From early morning strolls to late-night gelato runs, we made the most of every moment in this enchanting city."
+  author="BY JACKIE WYERS"
+  imagePath="Rome/47.jpeg"
+  linkUrl="/rome"
+  isFlipped={true}
+/>
 
         
           </Suspense>
@@ -395,7 +409,7 @@ isFlipped={true}
 <HeroSection
   featureText="NEW ZEALAND"
   headlineText="New Zealand | Auckland Vlog and Experience"
-  subtext="Explore Jackie Wyers' travel journey in Auckland, New Zealand. From visiting Waiheke Island and the Auckland Zoo to trying local cafes, it's a magical week halfway around the world."
+  subtext="Explore my travel journey in Auckland, New Zealand. From visiting Waiheke Island and the Auckland Zoo to trying local cafes, it's a magical week halfway around the world."
   author="BY JACKIE WYERS"
   imagePath="NewZealand/NZThumbnail.jpg"
   linkUrl="/newzealand"
@@ -465,12 +479,11 @@ isFlipped={true}
         <HeroSection
   featureText="BRIDAL"
   headlineText="DIY Flower Pins for a Mamma Mia Inspired Wedding"
-  subtext="Learn how to create your own DIY bridal flower pins inspired by Mamma Mia for your wedding day. Jackie Wyers shares a step-by-step guide to make these beautiful accessories."
+  subtext="Learn how to create your own DIY bridal flower pins inspired by Mamma Mia for your wedding day. Shares a step-by-step guide to make these beautiful accessories."
   author="BY JACKIE WYERS"
   imagePath="MammaMia/mammamiathumb.png"
   linkUrl="/diy-flowers"
 />
-
 
 
 </Suspense>
@@ -485,7 +498,7 @@ isFlipped={true}
 
           <HeroSection
   featureText="POP CULTURE OBSESSED"
-  headlineText="Victoria's Secret Fashion Show 2013 "
+  headlineText="Victoria's Secret Fashion Show 2013"
   subtext="Relive the glamour of the Victoria's Secret Fashion Show 2013 with beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014."
   author="BY JACKIE WYERS"
   imagePath="VictoriaSecret2014/VSThumbnail.jpeg"
@@ -502,7 +515,7 @@ isFlipped={true}
           <Suspense fallback={<div className="spinner"></div>}>
          
 
-<HeroSection
+          <HeroSection
   featureText="BRIDAL"
   headlineText="Bridal Makeup Tutorial"
   subtext="A detailed review of my wedding makeup trial run: what I loved and what I'll tweak for the big day."
