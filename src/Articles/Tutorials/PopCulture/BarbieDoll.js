@@ -28,8 +28,8 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
   <div
     style={{
-    padding: '20px',
-      margin: '1rem auto',
+    padding: '1rem 1rem',
+      margin: '0 20px',
       maxWidth: '1600px',
     }}
   >
@@ -78,7 +78,7 @@ const BarbieDoll = () => {
     marginBottom: '10px',
     maxWidth: '500px', // Consistent with the other paragraphs
     lineHeight: '1.6',
-    padding: '5px auto',
+
   margin: '20px auto',
     '@media (max-width: 768px)': {
       padding: '0 1rem', // Adjust padding for mobile devices for better readability
