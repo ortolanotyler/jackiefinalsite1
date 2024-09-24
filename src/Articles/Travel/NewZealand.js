@@ -118,7 +118,7 @@ const paragraphStyle = {
 
   fontFamily: 'GFS Didot, serif',
   margin: '2rem auto',
-
+  padding: '1rem auto',
   maxWidth: '500px', // Consistent with the other paragraphs
   lineHeight: '1.6',
   marginLeft: 'auto',

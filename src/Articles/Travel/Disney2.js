@@ -47,6 +47,7 @@ const Card = ({ blogContent }) => (
     </div>
   </div>
 );
+
 const Disney2Post = () => {
 
 useEffect(() => {
