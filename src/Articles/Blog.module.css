@@ -1,0 +1,86 @@
+/* Blog.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 900px;
+    font-family: 'Playfair Display, serif';
+  }
+  
+  .mainTitle {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 30px auto;
+    color: #000000;
+    font-family: 'Playfair Display, serif';
+  }
+  
+  .subTitle {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin: 30px auto;
+    color: #000000;
+    font-family: 'Playfair Display, serif';
+  }
+  
+  .paragraph {
+    font-size: 22px;
+    color: #000000;
+    font-family: 'Playfair Display, serif';
+    margin: 2rem auto;
+    max-width: 500px;
+    line-height: 1.6;
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin: 1rem auto;
+    color: #000000;
+  }
+  
+  .image {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 0;
+    max-width: 525px;
+    height: auto;
+  }
+  
+  .caption {
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Raleway, serif';
+    font-weight: normal;
+    margin: 1rem auto;
+    max-width: 100%;
+    font-style: italic;
+  }
+  
+  .youtubeContainer {
+    margin: 10px auto;
+    text-align: center;
+  }
+  
+  .centerText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  .centerTextLink {
+    font-family: 'GFS Didot, serif';
+    font-size: 1rem;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .adContainer {
+    margin: 1rem auto;
+  }

@@ -20,19 +20,18 @@ const lana = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThu
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-  <div
-    style={{
-    margin: '5px 10px',
-      margin: '0 auto',
-      maxWidth: '900px',
-    }}
-  >
-    <div className="card"
-    
-    >
+ 
+  <div style={{
+    padding: '10px 20px', // Consistent padding to prevent content from touching edges
+    margin: '0 auto',
+  }}>
+
+    <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
-  </div>
+    </div>
+
+  
 );
 
 const BarbieBlog = () => {
@@ -43,95 +42,93 @@ const BarbieBlog = () => {
   }, []);
 
 
+
   const websiteId = '10910';
   const blogRef = useRef(null);
-
- 
   const heading2Style = {
     textAlign: 'center',
     fontSize: '1.5rem',
     fontWeight: '100',
-    fontFamily: 'Playfair Display, serif',
+    fontFamily: 'GFS Didot, serif',
     fontWeight: 'bold',
     color: '#000000',
-    margin: '30px auto'
-};
- 
-const headingStyle = {
+    margin: '10px auto',
+  };
+  
+  const headingStyle = {
     textAlign: 'center',
-    fontSize: '2.5rem',
+    fontSize: '28px',
     fontWeight: '100',
-    fontFamily: 'Playfair Display, serif',
+    fontFamily: 'GFS Didot, sans-serif',
     color: '#000000',
-    margin: '30px auto'
-};
-
-
-
-const paragraphStyle = {
-  fontSize: '22px',
-  color: '#000000',
-
-
-  fontWeight: '100',
-
-  margin: '2rem auto',
-
-  maxWidth: '500px', // Consistent with the other paragraphs
-  lineHeight: '1.6',
-  marginLeft: 'auto',
-  marginRight: 'auto',
-};
-
-const linkStyle = {
-  textDecoration: 'none', // Removes underline from links
-  fontFamily: 'Playfair Display, serif',
-  color: '#000000', // Inherits the color of the surrounding text
-};
-
-const gridContainerStyle = {
+    margin: '10px auto',
+  };
+  
+  const paragraphStyle = {
+    fontSize: '22px',
+    color: '#000000',
+    fontFamily: 'Playfair Display, serif',
+    fontWeight: 'regular',
+    marginBottom: '10px',
+    maxWidth: '500px', // Consistent with the other paragraphs
+    lineHeight: '1.6',
+  margin: '1rem auto',
+    '@media (max-width: 768px)': {
+      padding: '0 1rem', // Adjust padding for mobile devices for better readability
+    },
+  };
+  
+  const linkStyle = {
+    textDecoration: 'none', // Removes underline from links
+    fontFamily: 'GFS Didot, sans-serif',
+    color: '#000000', // Inherits the color of the surrounding text
+  };
+  
+  const gridContainerStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     gap: '1rem',
-    margin: '1rem auto',
+    margin: '0',
     color: '#000000', // Inherits the color of the surrounding text
-
-};
-
-const imageStyle = {
-  display: 'block',
-  margin: '1rem auto',
-  borderRadius: '0px',
-  maxWidth: '525px',
-  height: 'auto'
-};
-
-const pinterestGridStyle = {
-  display: 'grid',
-  gap: '1rem',
-  gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
-  justifyItems: 'center',
-  margin: '1rem 0',
-};
-
-const iframeStyle = {
-  width: '100%',
-  maxWidth: '236px',
-  height: '520px', // Maintains original height
-  border: 'none',
-  scrolling: 'no',
-};
-
-const captionStyle = {
-  textAlign: 'center',
-  fontSize: '1.1rem',
-  fontFamily: 'Raleway, serif',
-  fontWeight: 'normal',
-  margin: '1rem auto',
-  maxWidth: '100%',
-  fontStyle: 'italic',
-};
-
+  };
+  
+  const imageStyle = {
+    display: 'block',
+    margin: '0',
+    borderRadius: '0px',
+    maxWidth: '700px',
+    height: 'auto',
+  };
+  
+  const pinterestGridStyle = {
+    display: 'grid',
+    gap: '1rem',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+    justifyItems: 'center',
+    margin: '1rem 0',
+  };
+  
+  const iframeStyle = {
+    width: '100%',
+    maxWidth: '236px',
+    height: '520px', // Maintains original height
+    border: 'none',
+    scrolling: 'no',
+  };
+  
+  const captionStyle = {
+    textAlign: 'center',
+    fontSize: '1.1rem',
+    fontFamily: 'Raleway, serif',
+    fontWeight: 'normal',
+    margin: '1rem 20px',
+    maxWidth: '100%',
+    fontStyle: 'italic',
+    padding: '0 2rem', // Add padding to the sides to prevent text from touching edges
+    '@media (max-width: 768px)': {
+      padding: '0 1rem', // Increase padding on mobile devices for better readability
+    },
+  };
 
   const blogContent = (
     <div className="container">
@@ -381,3 +378,4 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 };
 
 export default BarbieBlog;
+
