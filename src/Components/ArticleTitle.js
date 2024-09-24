@@ -40,7 +40,7 @@ const styles = {
     color: '#000000',
   },
   subTitle: {
-    fontFamily: '"Lora", sans-serif',
+    fontFamily: 'Lora, sans-serif',
     fontSize: '24px',
     fontStyle: 'italic',
     margin: '20px 5px 0 0',

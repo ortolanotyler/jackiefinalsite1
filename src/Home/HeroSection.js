@@ -36,7 +36,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     maxWidth: '100%',
     margin: '1rem 2rem',
     textAlign: 'left',
-    fontFamily: 'GFS Didot, serif',
+    fontFamily: 'GFS Didot, sans-serif',
   };
 
   const featureStyle = {
@@ -45,7 +45,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     letterSpacing: '0.05rem',
     color: '#000000',
     margin: '1rem 0',
-    fontFamily: 'Playfair Display, serif',
+    fontFamily: 'Lora, serif',
     textDecoration: 'underline',
   };
 
