@@ -46,8 +46,6 @@ const BarbieDoll = () => {
 
   const websiteId = '10910';
   const blogRef = useRef(null);
-
-  // Styles for different elements
   const heading2Style = {
     textAlign: 'center',
     fontSize: '1.5rem',
@@ -55,7 +53,7 @@ const BarbieDoll = () => {
     fontFamily: 'Playfair Display, serif',
     fontWeight: 'bold',
     color: '#000000',
-    margin: '30px auto',
+    margin: '30px 20px',
   };
   
   const headingStyle = {
@@ -64,7 +62,7 @@ const BarbieDoll = () => {
     fontWeight: '100',
     fontFamily: 'Playfair Display, serif',
     color: '#000000',
-    margin: '30px auto',
+    margin: '30px 20px',
   };
   
   const paragraphStyle = {
