@@ -513,7 +513,8 @@ isFlipped={true}
           </Suspense>
         </Grid>
 
-      
+        <HorizontalLine />
+
 
 
         <Grid item xs={12} md={6}>

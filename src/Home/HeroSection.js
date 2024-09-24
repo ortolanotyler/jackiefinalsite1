@@ -24,7 +24,6 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     margin: '1rem auto',
     maxWidth: '1000px',
     color: '#000000',
-
     flexDirection: isSmallScreen ? 'column' : isFlipped ? 'row-reverse' : 'row',
     flexWrap: 'wrap',
   };
@@ -35,7 +34,6 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     paddingLeft: isFlipped && !isSmallScreen ? '40px' : '0',
     maxWidth: '100%',
     margin: '1rem 2rem',
-
     textAlign: 'left',
     fontFamily: 'GFS Didot, serif',
   };
@@ -44,7 +42,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     fontSize: '1rem',
     fontWeight: '100',
     letterSpacing: '0.05rem',
-   color: '#000000',
+    color: '#000000',
     margin: '1rem 0',
     fontFamily: 'Playfair Display, serif',
     textDecoration: 'underline',
@@ -54,7 +52,6 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     fontSize: '32px',
     lineHeight: 1,
     margin: '1rem auto',
-
     fontFamily: 'Playfair Display, serif',
   };
 
@@ -62,10 +59,9 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     fontSize: '16px',
     lineHeight: 1.5,
     margin: '1rem auto',
-fontStyle : 'italic',
+    fontStyle: 'italic',
     fontFamily: 'Playfair Display, serif',
     color: '#000000',
-   
   };
 
   const authorStyle = {
@@ -74,7 +70,6 @@ fontStyle : 'italic',
     fontStyle: 'italic',
     color: '#000000',
     fontFamily: 'Playfair Display, serif',
-  
   };
 
   const imageContentStyle = {
@@ -85,12 +80,17 @@ fontStyle : 'italic',
 
   const imageStyle = {
     width: '100%',
-    
-    
-
     height: 'auto',
     borderRadius: '0px',
     display: 'block',
+  };
+
+  const dividerStyle = {
+    width: '1px',
+    backgroundColor: '#2b2d2b',
+    height: '50%',
+    margin: isSmallScreen ? '20px 0' : '0 20px',
+    alignSelf: 'center',
   };
 
   return (
@@ -102,8 +102,14 @@ fontStyle : 'italic',
           <p style={subtextStyle}>{subtext}</p>
           <p style={authorStyle}>{author}</p>
         </div>
+        {!isSmallScreen && <div style={dividerStyle}></div>} {/* Divider line */}
         <div style={imageContentStyle}>
-          <img src={`${process.env.PUBLIC_URL}/Images/Articles/${imagePath}`} alt={headlineText} style={imageStyle} loading="lazy" />
+          <img
+            src={`${process.env.PUBLIC_URL}/Images/Articles/${imagePath}`}
+            alt={headlineText}
+            style={imageStyle}
+            loading="lazy"
+          />
         </div>
       </div>
     </a>

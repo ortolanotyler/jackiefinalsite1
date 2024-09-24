@@ -35,8 +35,10 @@ const QuizHomepage = () => {
         </script>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
       </Helmet>
-            <TextReveal text='FIND YOUR DREAM WEDDING DRESS QUIZ!' />
-            <Grid container justifyContent="center">
+            <TextReveal  text='FIND YOUR DREAM WEDDING DRESS QUIZ!' />
+            <Grid container justifyContent="center"
+            style = {{paddingTop: '10px', paddingBottom: '10px'}}
+            >
                
                
                 <Grid item xs={12}>
