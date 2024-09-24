@@ -56,12 +56,12 @@ const BarbieDoll = () => {
     fontFamily: 'GFS Didot, serif',
     fontWeight: 'bold',
     color: '#000000',
-    margin: '10px auto',
+    margin: '20px auto',
   };
   
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '28px',
+    fontSize: '30px',
     fontWeight: '100',
     fontFamily: 'GFS Didot, sans-serif',
     color: '#000000',
