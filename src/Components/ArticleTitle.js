@@ -38,10 +38,10 @@ const styles = {
     color: '#000000',
   },
   subTitle: {
-    fontFamily: '"Georgia", serif',
+    fontFamily: '"GFS Didot", sans-serif',
     fontSize: '24px',
     fontStyle: 'italic',
-    margin: '20px 5px',
+    margin: '20px 15px',
     marginBottom: '20px',
     color: '#745B4F',
   },
@@ -49,7 +49,7 @@ const styles = {
     display: 'flex',
     justifyContent: 'space-between', // Spreads author and date to opposite sides
     fontSize: '12px',
-    marginTop: '15px',
+    marginTop: '20px',
   },
   author: {
     textTransform: 'uppercase',

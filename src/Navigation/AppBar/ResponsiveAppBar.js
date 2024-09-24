@@ -51,7 +51,10 @@ const ResponsiveAppBar = () => {
                 onClick={toggleSidebar}
                 sx={{
                   color: '#745B4F',
-                  '&:hover': { backgroundColor: 'transparent' },
+                  '&:hover': {
+                    backgroundColor: 'transparent', // Prevent hover background change
+                    color: '#745B4F', // Prevent hover text color change
+                  },
                 }}
               >
                 <MenuIcon />
@@ -67,8 +70,7 @@ const ResponsiveAppBar = () => {
                   padding: '0.5rem 1.5rem',
                   fontFamily: 'Playfair Display, serif',
                   marginLeft: '2rem',
-                  boxShadow: '0 2px 2px rgba(0, 0, 0, 0.15)',
-                  '&:hover': { backgroundColor: '#745B4F' }, // Ensuring no hover background color change
+               
                 }}
               >
                 Subscribe
