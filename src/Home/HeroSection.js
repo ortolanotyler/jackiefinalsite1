@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import VerticalLine from './VerticalLine'; // Import your VerticalLine component
 
 const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, linkUrl, isFlipped }) => {
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
@@ -26,7 +27,6 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     color: '#000000',
     flexDirection: isSmallScreen ? 'column' : isFlipped ? 'row-reverse' : 'row',
     flexWrap: 'wrap',
-    position: 'relative', // Added to enable z-index usage
   };
 
   const textContentStyle = {
@@ -77,6 +77,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     flex: 1,
     textAlign: isSmallScreen ? 'center' : isFlipped ? 'left' : 'right',
     maxWidth: '500px',
+    position: 'relative',
   };
 
   const imageStyle = {
@@ -84,17 +85,15 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     height: 'auto',
     borderRadius: '0px',
     display: 'block',
+    objectFit: 'cover', // Ensures images cover their container without distorting
   };
 
   const dividerStyle = {
-    width: '2px',
+    width: '1px',
     backgroundColor: '#2b2d2b',
     height: '50%',
-    margin: isSmallScreen ? '10px 0' : '0 20px',
+    margin: isSmallScreen ? '20px 0' : '0 20px',
     alignSelf: 'center',
-    opacity: 0.7,
-    zIndex: 10, // Added z-index to bring the line to the front
-    position: 'relative', // Ensures z-index works as intended
   };
 
   return (
@@ -106,13 +105,15 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
           <p style={subtextStyle}>{subtext}</p>
           <p style={authorStyle}>{author}</p>
         </div>
-        {!isSmallScreen && <div style={dividerStyle}></div>} {/* Divider line */}
+        {!isSmallScreen && <VerticalLine />} {/* Using the VerticalLine component */}
         <div style={imageContentStyle}>
           <img
             src={`${process.env.PUBLIC_URL}/Images/Articles/${imagePath}`}
             alt={headlineText}
             style={imageStyle}
-            loading="lazy"
+            width="500" // Explicit width to reserve space
+            height="auto" // Explicit height to reserve space, adjust based on aspect ratio
+            loading={isFlipped ? 'lazy' : 'eager'} // Use eager loading for first images to prevent CLS
           />
         </div>
       </div>
