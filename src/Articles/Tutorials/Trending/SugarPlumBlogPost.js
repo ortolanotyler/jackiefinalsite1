@@ -16,19 +16,19 @@ const makeup2016 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016MakeupThu
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
- 
-  <div style = {{
-   padding: '10px 20px',
-    margin: '0 auto',
-  }}>
-  
-      <div className="card">
-        <div className="blog-content">{blogContent}</div>
-      </div>
-      </div>
-  
-    
-  );
+  <div
+    style={{
+      padding: '10px 20px', // Existing padding
+      margin: '1rem auto',
+      maxWidth: '800px', // Control max width to center the content
+      padding: '10px', // Add padding to prevent text from touching the edges
+    }}
+  >
+    <div className="card">
+      <div className="blog-content">{blogContent}</div>
+    </div>
+  </div>
+);
   
   const SugarPlumBlogPost = () => {
   

@@ -17,20 +17,20 @@ const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
 const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
 
-const Card = ({ blogContent }) => (
  
- 
-<div style = {{
- padding: '10px 20px',
-  margin: '0 auto',
-}}>
-  
+  const Card = ({ blogContent }) => (
+    <div
+      style={{
+        padding: '10px 20px', // Existing padding
+        margin: '1rem auto',
+        maxWidth: '800px', // Control max width to center the content
+        padding: '10px', // Add padding to prevent text from touching the edges
+      }}
+    >
       <div className="card">
         <div className="blog-content">{blogContent}</div>
       </div>
-      </div>
-  
-    
+    </div>
   );
   
   const SophiaLorenPost = () => {
