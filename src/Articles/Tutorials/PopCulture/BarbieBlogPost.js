@@ -25,7 +25,7 @@ const Card = ({ blogContent }) => (
       padding: '10px 20px', // Existing padding
       margin: '1rem auto',
       maxWidth: '800px', // Control max width to center the content
-      padding: '1rem', // Add padding to prevent text from touching the edges
+      padding: '10px', // Add padding to prevent text from touching the edges
     }}
   >
     <div className="card">
