@@ -485,6 +485,16 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <h2 style={heading2Style}>
   Watch My Ad For The Barbie Movie with Warner Brothers Here!
 </h2>
+<div style={{ marginBottom: '30px', marginTop: '20px', textAlign: 'center' }}>
+  <iframe
+    style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
+    src="https://www.youtube.com/embed/pTCLYNMVG7M" 
+    title="YouTube Shorts video player"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
 <h2 style={heading2Style}>
   Key Features:
 
