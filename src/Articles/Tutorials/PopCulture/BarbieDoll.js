@@ -55,7 +55,7 @@ const BarbieDoll = () => {
     fontFamily: 'Playfair Display, serif',
     fontWeight: 'bold',
     color: '#000000',
-    margin: '30px 20px',
+    margin: '20px 10px',
   };
   
   const headingStyle = {
@@ -64,7 +64,7 @@ const BarbieDoll = () => {
     fontWeight: '100',
     fontFamily: 'Playfair Display, serif',
     color: '#000000',
-    margin: '30px 20px',
+    margin: '20px 10px',
   };
   
   const paragraphStyle = {
@@ -79,7 +79,7 @@ const BarbieDoll = () => {
     marginLeft: 'auto',
     marginRight: 'auto',
     '@media (max-width: 768px)': {
-      padding: '0 1.5rem', // Adjust padding for mobile devices for better readability
+      padding: '0 1rem', // Adjust padding for mobile devices for better readability
     },
   };
   
