@@ -53,7 +53,18 @@ const Halloween = () => {
   const blogRef = useRef(null);
 
  
-  const headingStyle = {
+  
+  const heading2Style = {
+    textAlign: 'center',
+    fontSize: '1.5rem',
+    fontWeight: '100',
+    fontFamily: 'Playfair Display, serif',
+    fontWeight: 'bold',
+    color: '#000000',
+    margin: '30px auto'
+};
+ 
+const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',
     fontWeight: '100',
@@ -61,6 +72,7 @@ const Halloween = () => {
     color: '#000000',
     margin: '30px auto'
 };
+
 
 
 const paragraphStyle = {
@@ -87,8 +99,10 @@ const linkStyle = {
 const gridContainerStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-    gap: '10px',
-    margin: '1rem auto'
+    gap: '1rem',
+    margin: '1rem auto',
+    color: '#000000', // Inherits the color of the surrounding text
+
 };
 
 const imageStyle = {
@@ -124,6 +138,7 @@ const captionStyle = {
   maxWidth: '100%',
   fontStyle: 'italic',
 };
+
 
 
 

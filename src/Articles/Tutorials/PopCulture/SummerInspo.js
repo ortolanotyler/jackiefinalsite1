@@ -45,21 +45,35 @@ const SummerInspo = () => {
   const blogRef = useRef(null);
 
  
-  const headingStyle = {
+ 
+  const heading2Style = {
     textAlign: 'center',
-    fontSize: '50px',
-    fontWeight: 'normal',
-    fontFamily: 'GFS Didot, serif',
+    fontSize: '1.5rem',
+    fontWeight: '100',
+    fontFamily: 'Playfair Display, serif',
+    fontWeight: 'bold',
     color: '#000000',
     margin: '30px auto'
 };
+ 
+const headingStyle = {
+    textAlign: 'center',
+    fontSize: '2.5rem',
+    fontWeight: '100',
+    fontFamily: 'Playfair Display, serif',
+    color: '#000000',
+    margin: '30px auto'
+};
+
 
 
 const paragraphStyle = {
   fontSize: '22px',
   color: '#000000',
 
-  fontFamily: 'GFS Didot, serif',
+  fontFamily: 'Georgia, serif',
+  fontWeight: 'regular',
+
   margin: '2rem auto',
 
   maxWidth: '500px', // Consistent with the other paragraphs
@@ -70,15 +84,17 @@ const paragraphStyle = {
 
 const linkStyle = {
   textDecoration: 'none', // Removes underline from links
-  fontFamily: 'GFS Didot, serif',
+  fontFamily: 'Playfair Display, serif',
   color: '#000000', // Inherits the color of the surrounding text
 };
 
 const gridContainerStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-    gap: '10px',
-    margin: '1rem auto'
+    gap: '1rem',
+    margin: '1rem auto',
+    color: '#000000', // Inherits the color of the surrounding text
+
 };
 
 const imageStyle = {
@@ -108,7 +124,8 @@ const iframeStyle = {
 const captionStyle = {
   textAlign: 'center',
   fontSize: '1.1rem',
-  fontFamily: 'Playfair Display, serif',
+  fontFamily: 'Raleway, serif',
+  fontWeight: 'normal',
   margin: '1rem auto',
   maxWidth: '100%',
   fontStyle: 'italic',
