@@ -31,7 +31,7 @@ const styles = {
     fontFamily: 'GFS Didot, serif',
     fontWeight: 'normal',
     fontSize: '52px', // Adjust as needed for responsiveness
-    margin: '10px auto',
+    margin: '10px 1rem',
     lineHeight: '1',
     color: '#000000',
   },
@@ -39,7 +39,7 @@ const styles = {
     fontFamily: '"Playfair Display", serif',
     fontSize: '24px',
     fontStyle: 'italic',
-    margin: 'auto 0',
+    margin: 'auto',
     marginBottom: '20px',
     color: '#3a3a3a',
   },
@@ -48,11 +48,11 @@ const styles = {
     justifyContent: 'space-between', // Spreads author and date to opposite sides
     fontFamily: 'Nunito, sans-serif', // Font for the author and date text
     fontSize: '12px',
-    marginTop: '10px',
+    marginTop: '15px',
   },
   author: {
     textTransform: 'uppercase',
-    fontFamily: 'Georgia, serif', // Font for the author and date text
+    fontFamily: 'Playfair Display, serif', // Font for the author and date text
     fontWeight: 'normal',
   },
   date: {

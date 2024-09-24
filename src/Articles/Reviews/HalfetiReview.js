@@ -28,40 +28,56 @@ const HalfetiReview = () => {
   }, []);
 
   const websiteId = '10910';
-
+  const blogRef = useRef(null);
+  const heading2Style = {
+    textAlign: 'center',
+    fontSize: '1.5rem',
+    fontWeight: '100',
+    fontFamily: 'Playfair Display, serif',
+    fontWeight: 'bold',
+    color: '#000000',
+    margin: '20px 10px',
+  };
+  
   const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',
-    fontWeight: 'normal',
+    fontWeight: '100',
     fontFamily: 'Playfair Display, serif',
     color: '#000000',
-    margin: '100px auto',
+    margin: '20px 10px',
   };
-
+  
   const paragraphStyle = {
     fontSize: '22px',
     color: '#000000',
-    fontFamily: 'Playfair Display, serif',
-    margin: '2rem auto',
-    maxWidth: '525px',
+    fontFamily: 'Georgia, serif',
+    fontWeight: 'regular',
+    marginBottom: '10px',
+    maxWidth: '500px', // Consistent with the other paragraphs
     lineHeight: '1.6',
+    padding: '0 1rem', // Add padding to the sides to prevent text from touching edges
     marginLeft: 'auto',
     marginRight: 'auto',
+    '@media (max-width: 768px)': {
+      padding: '0 1rem', // Adjust padding for mobile devices for better readability
+    },
   };
-
+  
   const linkStyle = {
-    textDecoration: 'none',
+    textDecoration: 'none', // Removes underline from links
     fontFamily: 'Playfair Display, serif',
-    color: '#000000',
+    color: '#000000', // Inherits the color of the surrounding text
   };
-
+  
   const gridContainerStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-    gap: '10px',
+    gap: '1rem',
     margin: '1rem auto',
+    color: '#000000', // Inherits the color of the surrounding text
   };
-
+  
   const imageStyle = {
     display: 'block',
     margin: '1rem auto',
@@ -69,6 +85,37 @@ const HalfetiReview = () => {
     maxWidth: '500px',
     height: 'auto',
   };
+  
+  const pinterestGridStyle = {
+    display: 'grid',
+    gap: '1rem',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+    justifyItems: 'center',
+    margin: '1rem 0',
+  };
+  
+  const iframeStyle = {
+    width: '100%',
+    maxWidth: '236px',
+    height: '520px', // Maintains original height
+    border: 'none',
+    scrolling: 'no',
+  };
+  
+  const captionStyle = {
+    textAlign: 'center',
+    fontSize: '1.1rem',
+    fontFamily: 'Raleway, serif',
+    fontWeight: 'normal',
+    margin: '1rem auto',
+    maxWidth: '100%',
+    fontStyle: 'italic',
+    padding: '0 2rem', // Add padding to the sides to prevent text from touching edges
+    '@media (max-width: 768px)': {
+      padding: '0 1rem', // Increase padding on mobile devices for better readability
+    },
+  };
+
 
   const blogContent = (
     <div className="container" style={{ width: '100%', padding: '1rem' }}>

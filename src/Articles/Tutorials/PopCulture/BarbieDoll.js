@@ -72,7 +72,7 @@ const BarbieDoll = () => {
     color: '#000000',
     fontFamily: 'Georgia, serif',
     fontWeight: 'regular',
-    margin: '1rem auto',
+    marginBottom: '10px',
     maxWidth: '500px', // Consistent with the other paragraphs
     lineHeight: '1.6',
     padding: '0 1rem', // Add padding to the sides to prevent text from touching edges
