@@ -294,7 +294,7 @@ const captionStyle = {
 
 <p style={paragraphStyle}>
   Unica Suites was the perfect choice for us. The rooms were clean, well-equipped with excellent air conditioning, and featured modern bathrooms. We were thrilled with the great view, all at a reasonable price. The building itself exuded old-world charm, though the elevator was a bit tricky. If the doors weren’t closed properly, you’d have to use the stairs, which can be challenging if you’re lugging suitcases. I’d recommend a different hotel if you have a lot of luggage, but for backpackers, this is a solid option. The location is unbeatable—just a short walk from the 
-  <a href="https://www.italyguides.it/en/lazio/rome/spanish-steps" style={linkStyle}>Spanish Steps</a>, Barberini Metro Station, and the <a href="https://www.rome.net/trevi-fountain" style={linkStyle}>Trevi Fountain</a>.
+  <a href="https://www.italyguides.it" style={linkStyle}>Spanish Steps</a>, Barberini Metro Station, and the <a href="https://www.rome.net/trevi-fountain" style={linkStyle}>Trevi Fountain</a>.
 </p>
 
 
