@@ -11,7 +11,7 @@ import NextArticle from '../../../Components/NextArticleComponent';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/SummerBeautyTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/BlueLagoon.jpg`;
-const image2 = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/barbiewpolaroid.JPG`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/barbiewpolaroid copy.JPG`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/EmilyInParis.jpg`;
 const image4 = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/floracopy.jpg`;
 const image5 = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/H2Hair.jpg`;
