@@ -304,7 +304,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 
 <ResponsiveIframe
-  src="https://shopmy.us/collections/embed/831968?noHeader=true"
+  src="https://shopmy.us/collections/public/831968?noHeader=true"
   title="Shop The Peaches ‘N Cream Barbie Makeup Collection"
 />
 
