@@ -77,9 +77,9 @@ const paragraphStyle = {
   color: '#000000',
 
   fontFamily: 'Playfair Display, serif',
-  fontWeight: 'regular',
+  fontWeight: '100',
 
-  margin: '1rem auto',
+  margin: '0 auto',
 
   maxWidth: '500px', // Consistent with the other paragraphs
   lineHeight: '1.6',
@@ -128,8 +128,8 @@ const iframeStyle = {
 
 const captionStyle = {
   textAlign: 'center',
-  fontSize: '1.1rem',
-  fontFamily: 'Raleway, serif',
+  fontSize: '1rem',
+  fontFamily: 'GFS Didot, sans serif',
   fontWeight: 'normal',
   margin: '1rem auto',
   maxWidth: '100%',
