@@ -150,6 +150,8 @@ const captionStyle = {
         <a href="/bridal" style={{ fontFamily: 'Arapey', fontSize: '1em', color: 'black', textDecoration: 'none' }}>
           BEAUTY // BRIDAL
         </a>
+
+        
       </div>
       <ArticleTitle
   mainTitle="Is your dream wedding dress the Percy?"

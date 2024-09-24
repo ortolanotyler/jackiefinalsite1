@@ -191,6 +191,7 @@ function HomePage() {
               <QuiltedImageList1 />
             </Suspense>
             <HorizontalLine />
+
             <Grid item xs={12}>
   <Suspense fallback={<div className="spinner"></div>}>
   
@@ -227,11 +228,12 @@ function HomePage() {
 
 <HorizontalLine />
 
+
 <Grid item xs={12}>
   <Suspense fallback={<div className="spinner"></div>}>
   
   <HeroSection
-  featureText="TRAVEL"
+  featureText="LATEST"
   headlineText="Best of Brussels: Top Things to See, Eat, and Experience + Train To Paris!"
   subtext="Belgian Chocolate, Waffles, and A Walk Down Memory Lane"
   author="BY JACKIE WYERS"
@@ -423,8 +425,6 @@ isFlipped={true}
      
 
 
-                <HorizontalLine />
-
 
  
 
@@ -434,7 +434,7 @@ isFlipped={true}
 </div>
 
 
-<HorizontalLine />
+
 
 
     

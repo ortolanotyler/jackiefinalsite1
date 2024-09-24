@@ -4,7 +4,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import SubscribeButton from '../../../Components/SubscribeButton';
-import TextReveal from '../../../Components/TextReveal';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
@@ -23,12 +22,15 @@ const nextarticle = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/GraceK
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-  <div>
-    <div><TextReveal text='ABRIL' /></div>
+  <div style={{
+    padding: '10px 20px', // Consistent padding to prevent content from touching edges
+    margin: '0 auto',
+  }}>
+
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
-  </div>
+    </div>
 );
 
 const Abril = () => {

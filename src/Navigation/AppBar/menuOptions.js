@@ -31,7 +31,7 @@ const menuOptions = [
       name: 'Beauty',
       path: '/tutorials',
       subMenu: [
-        { name: 'Read All Beauty', path: '/tutorials' },
+  
         { name: 'Trending Now', path: '/trends' },
         { name: 'Pop Culture', path: '/popculture' },
         { name: 'Vintage Vibes', path: '/timetraveltutorials' },
