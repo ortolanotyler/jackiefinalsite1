@@ -33,7 +33,7 @@ const Card = ({ blogContent }) => (
     }}
   >
     <div className="card"
-    style = {{margin: '20px 0'}}
+    style = {{margin: '10px 5px'}}
     >
       <div className="blog-content">{blogContent}</div>
     </div>
