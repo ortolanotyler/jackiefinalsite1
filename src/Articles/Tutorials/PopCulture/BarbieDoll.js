@@ -126,7 +126,7 @@ const BarbieDoll = () => {
     fontSize: '1.1rem',
     fontFamily: 'Raleway, serif',
     fontWeight: 'normal',
-    margin: '1rem auto',
+    margin: '1rem 20px',
     maxWidth: '100%',
     fontStyle: 'italic',
     padding: '0 2rem', // Add padding to the sides to prevent text from touching edges
