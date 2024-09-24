@@ -219,7 +219,7 @@ function HomePage() {
   author="BY JACKIE WYERS"
   imagePath="BarbieDoll/JackieWyersBarbieThumb.jpeg"
   linkUrl="/barbie-doll"
-  isFlipped={true}
+  isFlipped={false}
 />
 
 </Suspense>
@@ -239,7 +239,7 @@ function HomePage() {
   author="BY JACKIE WYERS"
   imagePath="FairytaleWedding/fairytalethumbnail.webp"
   linkUrl="/fairytalewedding"
-  isFlipped={false}
+  isFlipped={true}
 />
 
 </Suspense>
@@ -258,7 +258,7 @@ function HomePage() {
   author="BY JACKIE WYERS"
   imagePath="Brussels/paristhumbnail.jpg"
   linkUrl="/paris-brussels-travel-guide"
-  isFlipped={true}
+  isFlipped={false}
 />
 
 </Suspense>
