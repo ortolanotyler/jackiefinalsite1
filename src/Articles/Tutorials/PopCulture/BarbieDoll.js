@@ -25,18 +25,18 @@ const next = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/SQUAREMARGOT
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
- 
-  <div style={{
-    padding: '10px 50px', // Consistent padding to prevent content from touching edges
-    margin: '0 auto',
-  }}>
-
+  <div
+    style={{
+      padding: '10px 20px', // Existing padding
+      margin: '1rem auto',
+      maxWidth: '800px', // Control max width to center the content
+      padding: '1rem', // Add padding to prevent text from touching the edges
+    }}
+  >
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
-    </div>
-
-  
+  </div>
 );
 
 const BarbieDoll = () => {
@@ -75,18 +75,20 @@ const headingStyle = {
 const paragraphStyle = {
   fontSize: '22px',
   color: '#000000',
-
   fontFamily: 'Georgia, serif',
   fontWeight: 'regular',
-
   margin: '2rem auto',
-
   maxWidth: '500px', // Consistent with the other paragraphs
   lineHeight: '1.6',
+  padding: '0 1rem', // Add padding to the sides to prevent text from touching edges
   marginLeft: 'auto',
   marginRight: 'auto',
-};
 
+  // Add media query for smaller screens
+  '@media (max-width: 768px)': {
+    padding: '0 1.5rem', // Increase padding on mobile devices for better readability
+  },
+};
 const linkStyle = {
   textDecoration: 'none', // Removes underline from links
   fontFamily: 'Playfair Display, serif',
