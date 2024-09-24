@@ -27,13 +27,13 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
   <div
     style={{
-      
+    margin: '5px 10px',
       margin: '0 auto',
       maxWidth: '900px',
     }}
   >
     <div className="card"
-    style = {{margin: '5px 10px'}}
+    
     >
       <div className="blog-content">{blogContent}</div>
     </div>
@@ -55,16 +55,16 @@ const BarbieDoll = () => {
     fontFamily: 'GFS Didot, serif',
     fontWeight: 'bold',
     color: '#000000',
-    margin: '20px 10px',
+    margin: '10px auto',
   };
   
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '2.5rem',
+    fontSize: '28px',
     fontWeight: '100',
     fontFamily: 'GFS Didot, sans-serif',
     color: '#000000',
-    margin: '20px 10px',
+    margin: '10px auto',
   };
   
   const paragraphStyle = {
