@@ -298,6 +298,21 @@ isFlipped={true}
         
           </Grid>
 
+
+
+
+
+
+<Grid item xs={12} >
+          <Suspense fallback={<div className="spinner"></div>}>
+            <NewsletterSlider />
+
+          </Suspense>
+        </Grid>
+     
+
+
+
           <Grid item xs={12} md={6}>
         <Suspense fallback={<div className="spinner"></div>}>
      
@@ -432,25 +447,7 @@ isFlipped={true}
        
 
 
-
-
-
-<Grid item xs={12} >
-          <Suspense fallback={<div className="spinner"></div>}>
-            <NewsletterSlider />
-
-          </Suspense>
-        </Grid>
-     
-
-
-
  
-
-
-                <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
 
 
 

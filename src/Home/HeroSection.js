@@ -26,12 +26,13 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     color: '#000000',
     flexDirection: isSmallScreen ? 'column' : isFlipped ? 'row-reverse' : 'row',
     flexWrap: 'wrap',
+    position: 'relative', // Added to enable z-index usage
   };
 
   const textContentStyle = {
     flex: 1,
-    paddingRight: isSmallScreen ? '0' : isFlipped ? '0' : '40px',
-    paddingLeft: isFlipped && !isSmallScreen ? '40px' : '0',
+    paddingRight: isSmallScreen ? '0' : isFlipped ? '0' : '20px',
+    paddingLeft: isFlipped && !isSmallScreen ? '20px' : '0',
     maxWidth: '100%',
     margin: '1rem 2rem',
     textAlign: 'left',
@@ -86,11 +87,14 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
   };
 
   const dividerStyle = {
-    width: '1px',
+    width: '2px',
     backgroundColor: '#2b2d2b',
     height: '50%',
-    margin: isSmallScreen ? '20px 0' : '0 20px',
+    margin: isSmallScreen ? '10px 0' : '0 20px',
     alignSelf: 'center',
+    opacity: 0.7,
+    zIndex: 10, // Added z-index to bring the line to the front
+    position: 'relative', // Ensures z-index works as intended
   };
 
   return (
