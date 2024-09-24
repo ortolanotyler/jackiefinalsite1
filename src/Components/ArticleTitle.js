@@ -41,7 +41,7 @@ const styles = {
     color: '#000000',
   },
   subTitle: {
-    fontFamily: 'Playfair Display, serif',
+    fontFamily: 'Georgia, serif',
 
     fontSize: '22px',
     fontStyle: 'italic',
