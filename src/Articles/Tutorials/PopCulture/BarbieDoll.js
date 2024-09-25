@@ -28,10 +28,13 @@ const Card = ({ blogContent }) => (
  
   <div style={{
     padding: '10px 20px', // Consistent padding to prevent content from touching edges
-    margin: '0 auto',
+   
   }}>
 
-    <div className="card">
+    <div className="card"
+   style={{     margin: '1rem auto', // Consistent padding to prevent content from touching edges
+
+   }}>
       <div className="blog-content">{blogContent}</div>
     </div>
     </div>
@@ -79,7 +82,7 @@ const paragraphStyle = {
   fontFamily: 'Playfair Display, serif',
   fontWeight: '100',
 
-  margin: '0 auto',
+  margin: '1rem auto',
 
   maxWidth: '500px', // Consistent with the other paragraphs
   lineHeight: '1.6',
