@@ -44,6 +44,23 @@ const QuizHomepage = () => {
                 <Grid item xs={12}>
                       <Quiz2 />
                 </Grid>
+                  
+                <Grid item xs={6}>
+                  <div
+                  style = {{
+                    margin: '10px auto',
+                    width: '100%',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                
+                  }}
+                  >
+
+                  </div>
+                      <AdSenseAd />
+                </Grid>
+
         
                 <TextReveal  text='FIND YOUR DREAM WEDDING DRESS QUIZ!' />
                
@@ -51,14 +68,12 @@ const QuizHomepage = () => {
                     <Quiz3 />
                 </Grid>
           
-                
+             
            
               
           
                 
-           <Grid item xs={12}>
-       
-           </Grid>
+      
                 
             </Grid>
           
@@ -66,6 +81,22 @@ const QuizHomepage = () => {
 <div style = {{margin :'10px auto' }}>
                 <EmailSubscribe/>
                 </div>
+
+                <Grid item xs={6}>
+                  <div
+                  style = {{
+                    margin: '10px auto',
+                    width: '100%',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                
+                  }}
+                  >
+
+                  </div>
+                      <AdSenseAd />
+                </Grid>
              
         </div>
     );

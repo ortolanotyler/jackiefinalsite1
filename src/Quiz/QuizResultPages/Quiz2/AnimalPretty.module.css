@@ -6,14 +6,13 @@
 }
 
 .card {
-  width: 100%;
+  width: 95%;
   max-width: 1000px;
   background-color: white;
   color: black;
   font-family: 'GFS Didot', sans-serif;
   text-align: left;
-  margin: 0 auto; /* Center the card */
-  padding: 1rem;
+  margin: 1rem ; /* Center the card */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }

@@ -225,7 +225,25 @@ function HomePage() {
 </Suspense>
 </Grid>
 
+<HorizontalLine />
 
+            <Grid item xs={12}>
+  <Suspense fallback={<div className="spinner"></div>}>
+  
+            <HeroSection
+  featureText="FEATURED"
+  headlineText="Our Fairytale Wedding Overlooking Sorrento, Italy"
+  subtext="All the enchanting details, prep & planning"
+  author="BY JACKIE WYERS"
+  imagePath="FairytaleWedding/fairytalethumbnail.webp"
+  linkUrl="/fairytalewedding"
+  isFlipped={true}
+/>
+
+</Suspense>
+</Grid>
+
+<HorizontalLine />
 
 <HorizontalLine />
 
@@ -312,8 +330,9 @@ isFlipped={true}
 
         <HorizontalLine />
      
+<AdSenseAd/>
 
-
+<HorizontalLine />
 
           <Grid item xs={12} md={6}>
         <Suspense fallback={<div className="spinner"></div>}>

@@ -1,0 +1,23 @@
+.tvContainer {
+    position: relative;
+    width: 600px; /* Adjust width as needed */
+    margin: 0 auto;
+  }
+  
+  .tvFrame {
+    position: relative;
+    background-image: url('../assets/old-tv-frame.png'); /* Update the path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 75%; /* This maintains the aspect ratio */
+  }
+  
+  .tvScreen {
+    position: absolute;
+    top: 22%;   /* Adjust to fit the screen area */
+    left: 16%;  /* Adjust to fit the screen area */
+    width: 68%; /* Adjust to fit the screen area */
+    height: 56%; /* Adjust to fit the screen area */
+    border: none;
+  }
