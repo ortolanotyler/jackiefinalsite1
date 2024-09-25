@@ -70,8 +70,7 @@ const paragraphStyle = {
 
   maxWidth: '500px', // Consistent with the other paragraphs
   lineHeight: '1.6',
-  marginLeft: 'auto',
-  marginRight: 'auto',
+
 };
 
 const linkStyle = {
