@@ -38,6 +38,7 @@ const Card = ({ blogContent }) => (
   </div>
 );
 
+
 const EmilyInParis = () => {
 
   useEffect(() => {
@@ -49,6 +50,7 @@ const EmilyInParis = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
  
+
   const heading2Style = {
     textAlign: 'center',
     fontSize: '1.5rem',
@@ -113,6 +115,7 @@ const EmilyInParis = () => {
     padding: '0 20px', // Add padding for readability
     boxSizing: 'border-box',
   };
+
 
 
 
