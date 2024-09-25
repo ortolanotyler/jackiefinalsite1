@@ -68,7 +68,7 @@ const paragraphStyle = {
   fontFamily: 'Georgia, serif',
   fontWeight: 'regular',
 
-  margin: '0 auto',
+  margin: '1rem 1rem',
 
   maxWidth: '95%',
     lineHeight: '1.6',
