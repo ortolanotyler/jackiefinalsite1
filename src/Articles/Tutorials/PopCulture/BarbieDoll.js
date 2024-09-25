@@ -20,7 +20,7 @@ const image6 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/6.jpeg`;
 const image7 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/7.JPG`;
 const image8 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/8.jpeg`;
 
-const next = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/SQUAREMARGOT.jpeg`;
+const next = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/MARGOTBARBIESTHUMBNAIL.png`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
@@ -512,7 +512,6 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   Each look captures the essence of iconic Barbie styles and provides a unique and stylish option for Halloween, themed events, or even everyday wear if you’re ready to serve Barbiecore! Whether you’re drawn to vintage vibes, modern twists, or classic Barbie glamour, these makeup looks help you channel your inner doll in a fun and fashionable way. While I recreated looks inspired by the white and blonde Barbie, Barbie’s world has beautifully evolved to celebrate diversity in skin tones, body types, and styles. I hope these makeup looks inspire you to rock these styles in a way that is uniquely you! Which is your favorite makeup look? I hope these photos sparked some inspiration, and if there’s a favorite Barbie I didn’t cover, comment below—I’d love to hear from you!
 </p>
-
 
 
 
