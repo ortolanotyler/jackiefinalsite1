@@ -64,39 +64,73 @@ const Fable = () => {
     }, []);
 
    
-    const headingStyle = {
+
+    const heading2Style = {
       textAlign: 'center',
       fontSize: '1.5rem',
-      fontWeight: 'normal',
-      fontFamily: 'Arapey, serif',
-      color: '#333',
-      margin: '1.5rem'
-  };
-
-  const paragraphStyle = {
-    fontSize: '20px',
-    fontFamily: 'GFS Didot, serif',
-    margin: '1rem 1.5rem',
-    marginTop: '1rem',
-    marginBottom: '1rem',
-    maxWidth: '500px',
-    lineHeight: '1.5',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-  };
-    const imageStyle = {
-        display: 'block',
-        margin: '0 auto',
-        maxWidth: '100%',
-        height: 'auto'
+      fontWeight: 'bold',
+      fontFamily: 'Playfair Display, serif',
+      color: '#000000',
+      margin: '30px auto',
+      maxWidth: '100%', // Allow space for margins
     };
-
+  
+    const headingStyle = {
+      textAlign: 'center',
+      fontSize: '2.5rem',
+      fontWeight: '100',
+      fontFamily: 'Playfair Display, serif',
+      color: '#000000',
+      margin: '10px auto',
+      maxWidth: '100%', // Adjust max width for responsiveness
+    };
+  
+    const paragraphStyle = {
+      fontSize: '22px',
+      color: '#000000',
+      fontFamily: 'Playfair Display, serif',
+      fontWeight: '100',
+      margin: '0 auto',
+      lineHeight: '1.6',
+      margin: '0 auto',
+      padding: '1rem 1rem', // Add padding to prevent cutoff
+      boxSizing: 'border-box', // Include padding in the width
+    };
+  
+    const linkStyle = {
+      textDecoration: 'none',
+      fontFamily: 'Playfair Display, serif',
+      color: '#000000',
+    };
+  
     const gridContainerStyle = {
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-        gap: '1rem',
-        margin: '1rem 0'
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+      gap: '1rem',
+      margin: '1rem auto',
+      boxSizing: 'border-box',
     };
+  
+    const imageStyle = {
+      display: 'block',
+      margin: '1rem auto',
+      borderRadius: '0px',
+      height: 'auto',
+    };
+  
+    const captionStyle = {
+      textAlign: 'center',
+      fontSize: '1rem',
+      fontFamily: 'GFS Didot, sans-serif',
+      fontWeight: 'normal',
+      margin: '1rem auto',
+   
+      fontStyle: 'italic',
+      padding: '0 20px', // Add padding for readability
+      boxSizing: 'border-box',
+    };
+  
+  
 
     const blogContent = (
         <div className="container">
