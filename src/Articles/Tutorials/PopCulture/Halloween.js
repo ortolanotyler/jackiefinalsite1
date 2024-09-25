@@ -76,7 +76,8 @@ const Halloween = () => {
     fontWeight: '100',
     margin: '1rem auto',
     lineHeight: '1.6',
-    padding: '0 20px', // Add padding to prevent cutoff
+    margin: '0 auto',
+    padding: '1rem 1rem', // Add padding to prevent cutoff
     boxSizing: 'border-box', // Include padding in the width
   };
 
@@ -91,7 +92,6 @@ const Halloween = () => {
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     gap: '1rem',
     margin: '1rem auto',
-    maxWidth: '100%', // Full-width grid for better scaling
     boxSizing: 'border-box',
   };
 
@@ -99,7 +99,6 @@ const Halloween = () => {
     display: 'block',
     margin: '1rem auto',
     borderRadius: '0px',
-    maxWidth: '100%', // Allow images to adapt within container
     height: 'auto',
   };
 
