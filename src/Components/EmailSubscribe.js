@@ -46,7 +46,7 @@ export default function EmailSubscribe() {
     >
       {/* Form inside a white card */}
       <Paper
-        elevation={5}
+        elevation={0}
         sx={{
           position: 'relative',
           zIndex: 2,
