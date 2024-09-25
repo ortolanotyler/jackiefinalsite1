@@ -46,14 +46,14 @@ export default function EmailSubscribe() {
     >
       {/* Form inside a white card */}
       <Paper
-        elevation={10}
+        elevation={5}
         sx={{
           position: 'relative',
           zIndex: 2,
-          padding: '2rem',
-          maxWidth: '500px',
+          padding: '1rem',
+          maxWidth: '80%',
           backgroundColor: 'white',
-          borderRadius: '2px',
+          borderRadius: '0px',
         }}
       >
         <Grid container alignItems="center" justifyContent="center">

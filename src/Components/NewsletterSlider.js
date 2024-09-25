@@ -50,7 +50,7 @@ const NewsletterSlider = () => {
           position: 'relative', 
         
           width: '100%', 
-          maxWidth: '800px', 
+          maxWidth: '600px', 
           maxHeight: '100%', 
           display: 'flex', 
           alignItems: 'center', 
