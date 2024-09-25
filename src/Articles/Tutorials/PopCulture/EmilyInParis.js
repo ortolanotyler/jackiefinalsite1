@@ -263,12 +263,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <p style={paragraphStyle}>
   Behind the stunning Emily in Paris fashion that has become synonymous with the show is the legendary Patricia Field, the iconic costume designer behind Sex and the City, who set the tone in season one. Learn more about her work on 
-  <a href="https://www.patriciafield.com/" target="_blank" style={linkStyle}>Patricia Field's official website</a>.
+  <a href="https://www.patriciafield.com/" target="_blank" style={linkStyle}> Patricia Field's official website</a>.
 </p>
 
 <p style={paragraphStyle}>
   From season two onward, Marylin Fitoussi took the reins, pushing Emily's style in new and exciting directions. Let’s take a look back at Emily Cooper style, makeup, and hair throughout the show so far. You can find Marylin’s latest works on 
-  <a href="https://www.vogue.com/fashion-shows" target="_blank" style={linkStyle}>Vogue Fashion Shows</a>.
+  <a href="https://www.vogue.com" target="_blank" style={linkStyle}> Vogue Fashion Shows</a>.
 </p>
 
 <div style = {{ margin : '1rem auto'}}>

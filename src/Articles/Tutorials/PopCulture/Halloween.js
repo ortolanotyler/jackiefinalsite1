@@ -315,7 +315,7 @@ movie is Jacqueline Durran, Barbie Movie Costume by
 
 
  <p style={paragraphStyle}>
-  Pop culture costumes and Barbie dolls go hand in hand! Bring back <a style={linkStyle} href="https://en.wikipedia.org/wiki/Barbiecore" target="_blank" rel="noreferrer">barbiecore</a> summer by channeling your inner Barbie with <a style={linkStyle} href="https://en.wikipedia.org/wiki/Margot_Robbie" target="_blank" rel="noreferrer">Margot Robbie’s</a> bright and bubbly take on everyone’s favorite doll. This costume is all about the vibrant pinks and over-the-top hair and accessories. Think voluminous hair in a half up half down style, a pop of subtle pink in the eyeshadow, cheeks, and lips, and a doll-like shine to the skin. Add some chunky accessories to a pink gingham dress or 90’s roller skate barbie style, and you’re ready to live your best Barbie dreamhouse life. My tutorial covering the full makeup breakdown, hair, outfits, and the best Barbie collabs below.
+  Pop culture costumes and Barbie dolls go hand in hand! Bring back <a style={linkStyle} href="https://en.wikipedia.org/wiki/Barbiecore" target="_blank" rel="noreferrer">barbiecore</a> summer by channeling your inner Barbie with <a style={linkStyle} href="https://www.imdb.com/name/nm3053338/" target="_blank" rel="noreferrer"> Margot Robbie’s</a> bright and bubbly take on everyone’s favorite doll. This costume is all about the vibrant pinks and over-the-top hair and accessories. Think voluminous hair in a half up half down style, a pop of subtle pink in the eyeshadow, cheeks, and lips, and a doll-like shine to the skin. Add some chunky accessories to a pink gingham dress or 90’s roller skate barbie style, and you’re ready to live your best Barbie dreamhouse life. My tutorial covering the full makeup breakdown, hair, outfits, and the best Barbie collabs below.
 </p>
 
 
@@ -354,7 +354,7 @@ Wyers. Costume design by Colleen Atwood.
  </p>
 
  <p style={paragraphStyle}>
-  Make a splash this Halloween as the enchanting <a style={linkStyle} href="https://en.wikipedia.org/wiki/Ariel_(The_Little_Mermaid)" target="_blank" rel="noreferrer">Ariel</a> from the live-action ‘<a style={linkStyle} href="https://en.wikipedia.org/wiki/The_Little_Mermaid_(2023_film)" target="_blank" rel="noreferrer">The Little Mermaid</a>.’ <a style={linkStyle} href="https://en.wikipedia.org/wiki/Halle_Bailey" target="_blank" rel="noreferrer">Halle Bailey’s</a> modern take on the classic Disney princess includes soft beachy waves, a rose-gold hair tint, and natural, glowing makeup with bronzed tones. Add some rope braids, a thick pink headband, and pearls to capture Ariel’s whimsical ocean vibes along with a light blue dress, points for a vintage princess aesthetic! Check out my full-length tutorial for all the steps to achieve this stunning mermaid transformation. I’ve linked some beautiful Ariel Little Mermaid costumes from Etsy I found as well.
+  Make a splash this Halloween as the enchanting <a style={linkStyle} href="https://www.imdb.com/title/tt5971474/" target="_blank" rel="noreferrer"> Ariel</a> from the live-action ‘<a style={linkStyle} href="https://en.wikipedia.org/wiki/The_Little_Mermaid_(2023_film)" target="_blank" rel="noreferrer">The Little Mermaid</a>.’ <a style={linkStyle} href="https://www.imdb.com/name/nm1782991/?ref_=fn_al_nm_1" target="_blank" rel="noreferrer">Halle Bailey’s</a> modern take on the classic Disney princess includes soft beachy waves, a rose-gold hair tint, and natural, glowing makeup with bronzed tones. Add some rope braids, a thick pink headband, and pearls to capture Ariel’s whimsical ocean vibes along with a light blue dress, points for a vintage princess aesthetic! Check out my full-length tutorial for all the steps to achieve this stunning mermaid transformation. I’ve linked some beautiful Ariel Little Mermaid costumes from Etsy I found as well.
 </p>
 
 
@@ -387,7 +387,7 @@ design by John Glaser.
  </p>
 
  <p style={paragraphStyle}>
-  For a costume that combines regency elegance with modern flair, look no further than <a style={linkStyle} href="https://en.wikipedia.org/wiki/Bridgerton" target="_blank" rel="noreferrer">Francesca Bridgerton</a>. With soft updos, romantic curls, and delicate makeup featuring soft pink tones, this look is perfect for those wanting to channel a high-society aesthetic. Add some pearl accessories and a Regency-style dress to fully capture Francesca’s refined yet youthful vibe. This Bridgerton Halloween Outfit / costume is perfect for a girly Halloween soirée or tea party, and I have all the hair and makeup deets on my channel along with various Bridgerton tutorials throughout the seasons so far.
+  For a costume that combines regency elegance with modern flair, look no further than <a style={linkStyle} href="https://www.netflix.com/tudum/bridgerton" target="_blank" rel="noreferrer"> Francesca Bridgerton</a>. With soft updos, romantic curls, and delicate makeup featuring soft pink tones, this look is perfect for those wanting to channel a high-society aesthetic. Add some pearl accessories and a Regency-style dress to fully capture Francesca’s refined yet youthful vibe. This Bridgerton Halloween Outfit / costume is perfect for a girly Halloween soirée or tea party, and I have all the hair and makeup deets on my channel along with various Bridgerton tutorials throughout the seasons so far.
 </p>
 
 <ResponsiveYoutube 
@@ -414,7 +414,7 @@ design by John Glaser.
 
 <p style={captionStyle}>
 Original Makeup, Hair, and Styling by Taylor Swift for
-the 'Cardigan' music video, recreation by Jackie Wyers.
+the <a style={linkStyle} href="https://www.youtube.com/watch?v=K-a8s8OLBSE" target="_blank" rel="noreferrer"> 'Cardigan' </a> music video, recreation by Jackie Wyers.
  </p>
 
 
@@ -422,7 +422,7 @@ the 'Cardigan' music video, recreation by Jackie Wyers.
 <p style={paragraphStyle}>
 
 Step into folklore with Taylor Swift’s “Betty” look
-inspired by her album "Folklore". This cozy
+inspired by her album <a style={linkStyle} href="https://en.wikipedia.org/wiki/Folklore_(Taylor_Swift_album)" target="_blank" rel="noreferrer"> "Folklore" </a>. This cozy
 autumnal aesthetic features tousled hair in two low
 pigtail buns, soft makeup, and the iconic Taylor Swift
 cardigan, perfect for the fall season. I love using
@@ -546,7 +546,7 @@ Wyers.
 </p>
 
 <p style={paragraphStyle}>
-  For a Barbie look with a vintage twist, channel the iconic 1950s black and white bathing suit Barbie style. This classic version of Barbie is all about retro glamour, and I took styling cues from the Barbie movie, but added a personal touch with my brunette hair this time. While I didn’t film a full tutorial for this look, my classic red lip and winged liner tutorial is the perfect match to recreate this timeless, vintage vibe.
+  For a Barbie look with a vintage twist, channel the iconic 1950s black and white bathing suit Barbie style. This classic version of Barbie is all about retro glamour, and I took styling cues from the <a style={linkStyle} href="https://www.imdb.com/title/tt1517268/" target="_blank" rel="noreferrer"> Barbie movie </a> , but added a personal touch with my brunette hair this time. While I didn’t film a full tutorial for this look, my classic red lip and winged liner tutorial is the perfect match to recreate this timeless, vintage vibe.
 </p>
 
 <ResponsiveIframe 
