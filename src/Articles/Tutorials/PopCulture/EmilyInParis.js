@@ -264,10 +264,12 @@ const captionStyle = {
 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
 </p>
    
-   
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', maxWidth:'500px', margin:'auto' }}>
+   <div>
+   <p style={paragraphStyle}>
   <DropCap1 text="Bonjour mes amies, parlons Pop Culture! Season four of Emily in Paris has finally arrived, and I couldn’t be more thrilled. Emily Cooper's colourful and bold outfit choices, paired with her upbeat and optimistic personality, create a character & show worth binging on Netflix. The show's idealized version of Paris, filled with chic cafes, stunning architecture, and, of course, fabulous fashion, has captivated audiences worldwide. And let's not forget about the sexy love interests!" />
-</div>
+</p>
+   </div>
+
 
 <p style={paragraphStyle}>
   Behind the stunning Emily in Paris fashion that has become synonymous with the show is the legendary Patricia Field, the iconic costume designer behind Sex and the City, who set the tone in season one. Learn more about her work on 
