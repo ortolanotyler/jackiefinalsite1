@@ -72,10 +72,10 @@ const BarbieDoll = () => {
     color: '#000000',
     fontFamily: 'Playfair Display, serif',
     fontWeight: '100',
-    margin: '1rem auto',
-    maxWidth: '90%', // Ensure paragraphs are not too constrained
+    margin: '0 auto',
     lineHeight: '1.6',
-    padding: '0 20px', // Add padding to prevent cutoff
+    margin: '0 auto',
+    padding: '1rem 1rem', // Add padding to prevent cutoff
     boxSizing: 'border-box', // Include padding in the width
   };
 
@@ -90,7 +90,6 @@ const BarbieDoll = () => {
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     gap: '1rem',
     margin: '1rem auto',
-    maxWidth: '100%', // Full-width grid for better scaling
     boxSizing: 'border-box',
   };
 
@@ -98,7 +97,6 @@ const BarbieDoll = () => {
     display: 'block',
     margin: '1rem auto',
     borderRadius: '0px',
-    maxWidth: '100%', // Allow images to adapt within container
     height: 'auto',
   };
 
@@ -108,7 +106,7 @@ const BarbieDoll = () => {
     fontFamily: 'GFS Didot, sans-serif',
     fontWeight: 'normal',
     margin: '1rem auto',
-    maxWidth: '90%',
+ 
     fontStyle: 'italic',
     padding: '0 20px', // Add padding for readability
     boxSizing: 'border-box',
