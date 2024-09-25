@@ -113,6 +113,10 @@ const BarbieDoll = () => {
     padding: '0 20px', // Add padding for readability
     boxSizing: 'border-box',
   };
+
+
+
+  
   const blogContent = (
     <div className="container">
 <Helmet>
