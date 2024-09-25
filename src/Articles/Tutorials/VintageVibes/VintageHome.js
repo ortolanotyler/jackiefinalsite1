@@ -103,9 +103,7 @@ const VintageVibes = () => {
   return (
     <div>
       <div><TextReveal text= 'TIME TRAVEL TUTORIALS' /></div>
-      <Paper elevation={3} style={{ padding: '1rem', margin: '1rem 0' }}>
-        <RotatingText />
-      </Paper>
+   
       <ul className={styles.cardList}>
         {cardsData.map((card, index) => (
           <Card

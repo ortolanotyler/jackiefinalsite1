@@ -19,10 +19,10 @@ const HomeTutorials = () => {
           content="Explore makeup tutorials from pop culture, trends, and vintage vibes by Jackie Wyers. Find inspiration and step-by-step guides for various looks." 
         />
       </Helmet>
-      <TextReveal text="POP CULTURE" />
+      <TextReveal text="BEAUTY" />
       <Container maxWidth="lg">
    
-        <Grid container spacing={4}>
+        <Grid container spacing={1}>
           <Grid item xs={12}>
            
             <HorizontalLine />
@@ -56,11 +56,11 @@ const HomeTutorials = () => {
 
           <HorizontalLine />
 
-      
-
+          <Ccc />
+          <TextReveal text="BRIDAL" />
           <Grid item xs={12}>
-            <Ccc />
-            <TextReveal text="BRIDAL" />
+          
+        
             <Eeebridal />
           </Grid>
 
