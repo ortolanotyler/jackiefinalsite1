@@ -324,6 +324,15 @@ As for the evening's aesthetic, I wanted to maintain the fairytale theme from ou
 
 </p>
 
+<div
+style = {{
+  margin : '10px auto'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+
 <p style={paragraphStyle}>
 Fortunately, I had help from an amazing Sorrento local who assisted with ordering everything for our event. I handled smaller details like our custom menus, place cards, and wedding sign from Papier, as well as putting together party favors while Selena did the rest.
 </p>
@@ -381,10 +390,28 @@ style = {{
 For makeup, I drew inspiration from <a style={{ color: 'black' }} href = "https://www.youtube.com/watch?v=LtTc3qCVtdE&t=332s" target = "_blank" rel="noreferrer">Taylor Hill’s wedding makeup</a>, emphasizing bold cheeks and deeper, pouty lips in romantic, blushy shades. I swept champagne across the lids with barely there winged liner and outer corner lashes. <a href="https://shopmy.us/collections/677004" target="_blank" rel="noreferrer">Charlotte Tilbury,</a>  Saie Beauty & Florasis were some of my top brands I chose to create my look.
 </p>
 
+
+<div
+style = {{
+  margin : '10px auto'
+}}
+>
+
+  <AdSenseAd/>
+</div>
+
 <p style={paragraphStyle}>
 Though pulling from several different beauty inspirations doesn’t always create a harmonious look, the big hair with loose curls, regal corseted top, and dainty flower crown embodied the fairytale style I felt most myself in on my big day without feeling like cosplay which was important to me.
 </p>
 
+<div
+style = {{
+  margin : '10px auto'
+}}
+>
+
+  <AdSenseAd/>
+</div>
 <p style={paragraphStyle}>
 Finally for nails, I’m the biggest <a style={{ color: 'black' }} href = "https://oliveandjune.com/collections/press-on-nails/products/milky-syrup-gradient-press-on-medium-almond?irclickid=V71S4RwqwxyKThwTSETAVXaQUkC2AlW1rStwwQ0&utm_source=Impact&utm_medium=2340682&utm_campaign=Online%20Tracking%20Link&irgwc=1" target="_blank" rel= "noreferrer">Olive & June</a> fan and went with an almond, medium length nude manicure that lasted me 2 full weeks for $10. Forever wearing glue ons.
 </p>
@@ -491,6 +518,14 @@ A look at the DIY veil
 The second flower crown version using same DIY pinned flowers
    </p>
 
+   <div
+style = {{
+  margin : '10px auto'
+}}
+>
+
+  <AdSenseAd/>
+</div>
 <h2 style={headingStyle}>
 My Fairycore Bridesmaids
 </h2>
