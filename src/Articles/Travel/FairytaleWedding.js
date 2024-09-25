@@ -65,18 +65,18 @@ const bridesmaid = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/Brides
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
- 
-  <div style={{
-    padding: '10px 20px', // Consistent padding to prevent content from touching edges
-    margin: '0 auto',
-  }}>
-
+  <div
+    style={{
+      padding: '0 1rem', // Consistent padding to prevent content from touching edges
+      margin: '0 auto',
+      maxWidth: '95%', // Use percentage for responsive scaling
+      boxSizing: 'border-box', // Include padding in width calculations
+    }}
+  >
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
-    </div>
-
-  
+  </div>
 );
   
   const FairytaleWedding = () => {
@@ -89,90 +89,74 @@ const Card = ({ blogContent }) => (
   const blogRef = useRef(null);
 
  
+
   const heading2Style = {
     textAlign: 'center',
     fontSize: '1.5rem',
-    fontWeight: '100',
-    fontFamily: 'Playfair Display, serif',
     fontWeight: 'bold',
+    fontFamily: 'Playfair Display, serif',
     color: '#000000',
-    margin: '30px auto'
-};
- 
-const headingStyle = {
+    margin: '30px auto',
+    maxWidth: '90%', // Allow space for margins
+  };
+
+  const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',
     fontWeight: '100',
     fontFamily: 'Playfair Display, serif',
     color: '#000000',
-    margin: '30px auto'
-};
+    margin: '30px auto',
+    maxWidth: '90%', // Adjust max width for responsiveness
+  };
 
+  const paragraphStyle = {
+    fontSize: '22px',
+    color: '#000000',
+    fontFamily: 'Playfair Display, serif',
+    fontWeight: '100',
+    margin: '0 auto',
+    lineHeight: '1.6',
+    margin: '0 auto',
+    padding: '1rem 1rem', // Add padding to prevent cutoff
+    boxSizing: 'border-box', // Include padding in the width
+  };
 
+  const linkStyle = {
+    textDecoration: 'none',
+    fontFamily: 'Playfair Display, serif',
+    color: '#000000',
+  };
 
-const paragraphStyle = {
-  fontSize: '22px',
-  color: '#000000',
-
-  fontFamily: 'Playfair Display, serif',
-  fontWeight: '100',
-
-  margin: '1rem auto',
-
-  maxWidth: '500px', // Consistent with the other paragraphs
-  lineHeight: '1.6',
-  marginLeft: 'auto',
-  marginRight: 'auto',
-};
-
-const linkStyle = {
-  textDecoration: 'none', // Removes underline from links
-  fontFamily: 'Playfair Display, serif',
-  color: '#000000', // Inherits the color of the surrounding text
-};
-
-const gridContainerStyle = {
+  const gridContainerStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     gap: '1rem',
     margin: '1rem auto',
-    color: '#000000', // Inherits the color of the surrounding text
+    boxSizing: 'border-box',
+  };
 
-};
+  const imageStyle = {
+    display: 'block',
+    margin: '1rem auto',
+    borderRadius: '0px',
+    height: 'auto',
+  };
 
-const imageStyle = {
-  display: 'block',
-  margin: '1rem auto',
-  borderRadius: '0px',
-  maxWidth: '500px',
-  height: 'auto'
-};
+  const captionStyle = {
+    textAlign: 'center',
+    fontSize: '1rem',
+    fontFamily: 'GFS Didot, sans-serif',
+    fontWeight: 'normal',
+    margin: '1rem auto',
+ 
+    fontStyle: 'italic',
+    padding: '0 20px', // Add padding for readability
+    boxSizing: 'border-box',
+  };
 
-const pinterestGridStyle = {
-  display: 'grid',
-  gap: '1rem',
-  gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
-  justifyItems: 'center',
-  margin: '1rem 0',
-};
 
-const iframeStyle = {
-  width: '100%',
-  maxWidth: '236px',
-  height: '520px', // Maintains original height
-  border: 'none',
-  scrolling: 'no',
-};
 
-const captionStyle = {
-  textAlign: 'center',
-  fontSize: '1rem',
-  fontFamily: 'GFS Didot, sans serif',
-  fontWeight: 'normal',
-  margin: '1rem auto',
-  maxWidth: '100%',
-  fontStyle: 'italic',
-};
 
   const blogContent = (
     <div className="container">

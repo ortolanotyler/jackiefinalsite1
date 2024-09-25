@@ -10,7 +10,6 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import PollComponent from '../../../Components/PollComponent1';
-import HorizontalLine from '../../../Components/HorizontalLine';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Halloween/1.jpeg`;
