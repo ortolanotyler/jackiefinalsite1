@@ -204,6 +204,7 @@ Costume Ideas 2024🎀"
 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
 </p>
 
+<p style={paragraphStyle}>
 
 <DropCap1 text="Hey beauties, it’s Jackie! 🎀 🎃 💅
 Halloween is just around the corner, and I
@@ -218,6 +219,8 @@ length tutorials on my YouTube channel that break
 down all the makeup, hair, and outfit details.
 "
 />
+
+</p>
 
 
 
