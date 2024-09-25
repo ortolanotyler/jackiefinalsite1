@@ -303,7 +303,7 @@ isFlipped={true}
 
 
 
-<Grid item xs={8} >
+<Grid item xs={12} >
           <Suspense fallback={<div className="spinner"></div>}>
             <NewsletterSlider />
 

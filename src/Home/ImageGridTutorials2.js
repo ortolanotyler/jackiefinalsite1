@@ -1,8 +1,6 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
-
-// Import your images
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Home/homepage5.webp`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Home/homepage6.webp`;
@@ -17,36 +15,62 @@ const itemData = [
 ];
 
 export default function QuiltedImageList2() {
+  const imageListRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const images = imageListRef.current.querySelectorAll('.parallax-item');
+      images.forEach((image) => {
+        const speed = image.getAttribute('data-speed');
+        const offset = window.scrollY * speed;
+        image.style.transform = `translateY(${offset}px)`;
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <ImageList
+      ref={imageListRef}
       sx={{
         marginTop: '-.1rem',
-        width: '100',
+        width: '100%',
         maxHeight: '110vh',
-        overflowY: 'hidden', // Enables scrolling
+        overflowY: 'hidden',
         borderRadius: '1px',
+        position: 'relative',
       }}
       variant="quilted"
       cols={4}
-      gap={2} // Adjust gap between images
+      gap={2}
     >
       {itemData.map((item, index) => (
         <ImageListItem
           key={index}
-          cols={1} // Ensures a consistent 4 columns
-          rows={1} // Ensures a consistent 2 rows
+          cols={1}
+          rows={1}
           sx={{
-            overflow: 'hidden', // Hide any overflow from the images
+            overflow: 'hidden',
+            position: 'relative',
           }}
         >
           <img
             src={item.img}
             alt={item.title}
             loading="lazy"
+            className="parallax-item"
+            data-speed="0.1" // Adjust speed for each image as needed
             style={{
               width: '100%',
               height: '100%',
-              objectFit: 'cover', // Ensure images cover the entire tile without distortion
+              objectFit: 'cover',
+              transform: 'translateY(0px)', // Initial position
+              transition: 'transform 0.1s linear', // Smooth transition effect
             }}
           />
         </ImageListItem>
