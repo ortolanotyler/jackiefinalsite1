@@ -279,51 +279,29 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <ResponsiveYoutube src="https://www.youtube.com/embed/b_e98iV-TdM?si=Xm2aB5vvNmTYawYo" title="Lana Del Ray X Skims Makeup Tutorial - Jackie Wyers" />
 
 
-<p style={paragraphStyle}>
-  Season one introduced us to Emily Cooper's bubbly and ambitious personality, perfectly reflected in her vibrant fashion choices, mixing prints and textures. Her makeup often featured a classic red lip, bold brows, and a fresh, dewy complexion—a look that was more American, with a polished and put-together appearance contrasting with the more understated Parisian style. Discover more about the iconic looks at 
-  <a href="https://www.elle.com/fashion/a35645892/emily-in-paris-season-2-costume-designer-interview/" target="_blank" style={linkStyle}>Elle's interview with Marylin Fitoussi</a>.
-</p>
+<p style={paragraphStyle}>Season one introduced us to Emily Cooper's bubbly and ambitious personality, perfectly reflected in her vibrant fashion choices, mixing prints and textures. Her makeup often featured a classic red lip, bold brows, and a fresh, dewy complexion—a look that was more American, with a polished and put-together appearance contrasting with the more understated Parisian style. Her hair was almost always perfect, usually styled in stunning bouncy waves that added to her all-American charm.</p>
+<div
+style = {{
+  margin : '20px'
+}}
+>
 
-<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
-<p style={paragraphStyle}>
-  One of Emily's most iconic fashion moments from this season is her black-and-white checkered outfit, paired with a red beret and a quirky camera phone case. I recreated this look in New York at Bryant Park, and even though it was shot in the Big Apple, it definitely channels Parisian energy. Find similar styles on 
-  <a href="https://www.farfetch.com" target="_blank" style={linkStyle}>Farfetch</a>.
-</p>
+<p style={paragraphStyle}>One of Emily's most iconic fashion moments from this season is her black-and-white checkered outfit, paired with a red beret and a quirky camera phone case. I recreated this look in New York at Bryant Park, and even though it was shot in the Big Apple, it definitely channels Parisian energy. If you're looking to shop similar styles, I’ve linked options under each outfit!</p>
 <div style = {imageStyle}>
 <img src={image1} alt="Signature" style={{ width: '100%' }} />
       </div>
-      <ResponsiveIframe 
-  src="https://shopmy.us/collections/public/731159?noHeader=true" 
-  title="Shop My Favorites - Emily's Black-and-White Checkered Outfit Recreation" 
-  alt="Shop options for recreating Emily in Paris black and white checkered outfit with red beret." 
-/>
-
-<ResponsiveIframe 
-  src="https://shopmy.us/collections/public/731163?noHeader=true" 
-  title="Shop My Favorites - Emily's Black-and-White Checkered Outfit Recreation Accessories" 
-  alt="Accessories for recreating Emily's iconic black and white checkered outfit, including red beret and quirky phone case." 
-/>
-
-      <p style={paragraphStyle}>
-  Another memorable fashion moment is when Emily (Lily Collins’) bears a striking resemblance to Audrey Hepburn in her ode to Funny Face. With a sleek bun, rhinestone hair accessories, a classic red lip, and a stunning black dress, this look exudes elegance. I couldn't resist trying it out myself as an Audrey fan! Watch my recreation on 
-  <a href="https://www.youtube.com/user/JackieWyers" target="_blank" style={linkStyle}>YouTube</a>.
-</p>
+      <ResponsiveIframe src="https://shopmy.us/collections/public/731159?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/731163?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+    
+<p style={paragraphStyle}>Another memorable fashion moment is when Emily (Lily Collins’) bears a striking resemblance to Audrey Hepburn in her ode to Funny Face. With a sleek bun, rhinestone hair accessories, a classic red lip, and a stunning black dress, this look exudes elegance. I couldn't resist trying it out myself as an Audrey fan! For the full makeup and hair tutorials, checkout the playlist on YouTube or watch throughout this article.</p>
 <div style = {imageStyle}>
 <img src={image2} alt="Signature" style={{ width: '100%' }} />
       </div>
-<ResponsiveIframe 
-  src="https://shopmy.us/collections/public/731192?noHeader=true" 
-  title="Shop My Favorites - Audrey Hepburn Inspired Looks" 
-  alt="Shop accessories and beauty products to recreate Audrey Hepburn inspired looks from Emily in Paris." 
-/>
+      <ResponsiveIframe src="https://shopmy.us/collections/public/731192?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/731196?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
-<ResponsiveIframe 
-  src="https://shopmy.us/collections/public/731196?noHeader=true" 
-  title="Shop My Favorites - Funny Face Inspired Fashion" 
-  alt="Recreate the sleek bun and classic red lip look inspired by Audrey Hepburn in Funny Face seen in Emily in Paris." 
-/>
     
 <h2 style={headingStyle}>Season Two: Hair Goals and Subtle Shifts</h2>
 <ResponsiveYoutube src="https://www.youtube.com/embed/dBC8lWhrWWs?si=Z5pNURYPmP7m41dm" title="Lana Del Ray X Skims Makeup Tutorial - Jackie Wyers" />
@@ -331,48 +309,30 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 
       
-<p style={paragraphStyle}>
-  Season two continued to push the boundaries of Emily’s fashion and beauty looks, with some of my personal favorite hair moments defining this season. The wearable pretty ponytails and intricate updos to go with Emily’s bold style give major hair inspiration. Check out tutorials for these styles on 
-  <a href="https://www.youtube.com/user/JackieWyers" target="_blank" style={linkStyle}>Jackie Wyers YouTube Channel</a>.
-</p>
+<p style={paragraphStyle}>Season two continued to push the boundaries of Emily’s fashion and beauty looks, with some of my personal favorite hair moments defining this season. The wearable pretty ponytails and intricate updos to go with Emily’s bold style giving major hair inspiration.</p>
+<div
+style = {{
+  margin : '20px'
+}}
+>
 
-<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
-<p style={paragraphStyle}>
-  One of my all-time favorite behind the scenes shots from shooting season two is Emily strutting through the streets of Paris in knee-high brown boots and a bucket hat, reminiscent of her iconic checkered look from season one. Find similar looks on 
-  <a href="https://www.zara.com" target="_blank" style={linkStyle}>Zara</a>.
-</p>
-
+<p style={paragraphStyle}>One of my all-time favorite behind the scenes shots from shooting season two is Emily strutting through the streets of Paris in knee-high brown boots and a bucket hat, reminiscent of her iconic checkered look from season one. While her neon yellow-accented floral jacket was a bit bold for my taste, I toned it down in my recreation and finished the look with a deep red lip like Emily.</p>
 <div style = {imageStyle}>
 <img src={image3} alt="Signature" style={{ width: '100%' }} />
       </div>
-      <ResponsiveIframe 
-  src="https://shopmy.us/collections/public/731200?noHeader=true" 
-  title="Shop My Favorites - Knee-High Boots and Bucket Hat Look" 
-  alt="Shop Emily in Paris inspired knee-high brown boots and bucket hat outfit from Season Two." />
-  <ResponsiveIframe 
-  src="https://shopmy.us/collections/public/731202?noHeader=true" 
-  title="Shop My Favorites - Emily in Paris Season 2 Fashion" 
-  alt="Find fashion pieces inspired by Emily's knee-high boots and bucket hat from Season Two." 
-/>
+      <ResponsiveIframe src="https://shopmy.us/collections/public/731200?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/731202?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+
     
-      <p style={paragraphStyle}>
-  While the Emily in Paris x Lancome collaboration promoted during season 2 isn’t available anymore, you can find similar lip shades from the new Makeup Revolution x Emily In Paris collection at 
-  <a href="https://www.revolutionbeauty.com" target="_blank" style={linkStyle}>Revolution Beauty</a>.
-</p>
+<p style={paragraphStyle}>While the Emily in Paris x Lancome collaboration promoted during season 2 isn’t available anymore, you can find similar lip shades from the new Makeup Revolution x Emily In Paris collection.</p>
+
+<ResponsiveIframe src="https://shopmy.us/collections/public/731234?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
 
-<ResponsiveIframe 
-  src="https://shopmy.us/collections/public/731234?noHeader=true" 
-  title="Shop My Favorites - Makeup Revolution x Emily In Paris Collection" 
-  alt="Shop makeup products inspired by the Makeup Revolution x Emily In Paris collection." 
-/>
+<p style={paragraphStyle}>Another fashion moment worth highlighting was Emily’s over-the-top pink bow dress, paired with pearl drop earrings and a super cute high ponytail with ringlet curls. Though the night didn’t end too well for Emily, she sure looked stunning!</p>
 
-<p style={paragraphStyle}>
-  Another fashion moment worth highlighting was Emily’s over-the-top pink bow dress, paired with pearl drop earrings and a super cute high ponytail with ringlet curls. Though the night didn’t end too well for Emily, she sure looked stunning! Find similar accessories on 
-  <a href="https://www.anthropologie.com" target="_blank" style={linkStyle}>Anthropologie</a>.
-</p>
 
 <div style = {imageStyle}>
 <img src={image4} alt="Signature" style={{ width: '100%' }} />
@@ -390,27 +350,15 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <div style = {imageStyle}>
 <img src={image5} alt="Signature" style={{ width: '100%' }} />
       </div>
-      
-      <ResponsiveIframe 
-  src="https://shopmy.us/collections/public/731207?noHeader=true" 
-  title="Shop My Favorites - Emily's High Ponytail and Ringlet Curls" 
-  alt="Beauty products to achieve Emily's high ponytail with ringlet curls from Emily in Paris." 
-/>
+      <ResponsiveIframe src="https://shopmy.us/collections/public/731210?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/731211?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
-<ResponsiveIframe 
-  src="https://shopmy.us/collections/public/731209?noHeader=true" 
-  title="Shop My Favorites - Bold Pink Lipsticks" 
-  alt="Bold pink lipstick shades inspired by Emily's magenta lip color in Emily in Paris." 
-/>
+     
 <h2 style={headingStyle}>Season Three: The Transformation</h2>
 <div style = {imageStyle}>
 <img src={image6} alt="Signature" style={{ width: '100%' }} />
       </div>
-      <p style={paragraphStyle}>
-  Season three marked a transformation in Emily's style, both in fashion and beauty. This season, Emily undergoes a hair transformation with the infamous post-mental-breakdown bangs. Her hair becomes a little less polished and more laid-back, inspired by authentic Parisian style. Read more about this style evolution at 
-  <a href="https://www.harpersbazaar.com/fashion/" target="_blank" style={linkStyle}>Harper's Bazaar</a>.
-</p>
-
+<p style={paragraphStyle}>Season three marked a transformation in Emily's style, both in fashion and beauty. This season, Emily undergoes a hair transformation with the infamous post-mental-breakdown bangs. Her hair becomes a little less polished and more laid-back, inspired by authentic Parisian style.</p>
 <div style = {{textAlign: 'center' }}>
 <iframe
       style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
@@ -421,92 +369,53 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       allowFullScreen
     ></iframe>
 </div>
-<ResponsiveIframe 
-  src="https://shopmy.us/collections/public/731210?noHeader=true" 
-  title="Shop My Favorites - Fishtail Braided Updo Accessories" 
-  alt="Shop hair accessories to recreate the fishtail-braided updo from Emily in Paris." 
-/>
+<ResponsiveIframe src="https://shopmy.us/collections/public/731212?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
-<p style={paragraphStyle}>
-  The shift in her hair was accompanied by a subtle evolution in her makeup. Emily’s lip colour in this season shifted to more mauve and purple shades, moving away from her signature red. The show’s makeup artist, Aurélie Payen, mentioned that these choices were meant to reflect Emily's more settled and confident persona in Paris, perfectly complementing her evolving style. For makeup tips, visit 
-  <a href="https://www.vogue.com/beauty" target="_blank" style={linkStyle}>Vogue Beauty</a>.
-</p>
 
-<div style = {{ margin : '1rem auto'}}>
+<p style={paragraphStyle}>The shift in her hair was accompanied by a subtle evolution in her makeup. Emily’s lip colour in this season shifted to more mauve and purple shades, moving away from her signature red. The show’s makeup artist, Aurélie Payen, mentioned that these choices were meant to reflect Emily's more settled and confident persona in Paris, perfectly complementing her evolving style.</p>
+<div
+style = {{
+  margin : '20px'
+}}
+>
+
   <AdSenseAd/>
 </div>
+<p style={paragraphStyle}>Emily wears a lot of green throughout the seasons, especially in season three! A green cardigan is a great way to add a pop of colour to your wardrobe in a wearable way. You may have noticed my style guides inspired by Emily are much more toned down, but if you want to rock several patterns and bold colours at once? Go for it!</p>
+<ResponsiveIframe src="https://shopmy.us/collections/public/731217?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+<ResponsiveIframe src="https://shopmy.us/collections/public/731218?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
-
-
-<p style={paragraphStyle}>
-  Emily wears a lot of green throughout the seasons, especially in season three! A green cardigan is a great way to add a pop of colour to your wardrobe in a wearable way. Find similar styles on 
-  <a href="https://www.asos.com" target="_blank" style={linkStyle}>ASOS</a>.
-</p>
-
-<ResponsiveIframe 
-  src="https://shopmy.us/collections/public/731217?noHeader=true" 
-  title="Shop My Favorites - Green Cardigan Styles" 
-  alt="Green cardigans inspired by Emily in Paris Season Three for adding a pop of color to your wardrobe." 
-/>
-
-<ResponsiveIframe 
-  src="https://shopmy.us/collections/public/731218?noHeader=true" 
-  title="Shop My Favorites - Green Fashion Pieces" 
-  alt="Find green fashion pieces inspired by Emily's colorful wardrobe from Emily in Paris Season Three." 
-/>
 
 
 
 
 <h2 style={headingStyle}>Looking Ahead: Season Four and Beyond</h2>
 
-<p style={paragraphStyle}>
-  As we dive into season four, I can't wait to see what new fashion, makeup, and hair moments Emily will serve up. With Marylin Fitoussi continuing to lead the charge on costume design, we can expect even more bold and chic looks that push the boundaries of American-In-Paris style, completely unique to the show. Stay updated on the latest fashion news on 
-  <a href="https://www.wmagazine.com/fashion" target="_blank" style={linkStyle}>W Magazine</a>.
-</p>
+<p style={paragraphStyle}>As we dive into season four, I can't wait to see what new fashion, makeup, and hair moments Emily will serve up. With Marylin Fitoussi continuing to lead the charge on costume design, we can expect even more bold and chic looks that push the boundaries of American-In-Paris style, completely unique to the show.</p>
+<div
+style = {{
+  margin : '20px'
+}}
+>
 
-<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 <h2 style={headingStyle}>Shop the Look</h2>
 
-<p style={paragraphStyle}>
-  I’ve put together a list of new collaborations and past Emily in Paris collections that are still available for purchase. These are generally quite affordable, in contrast to Emily’s designer wardrobe. While I listed many inspired outfits at a mid-higher price range, thrifting on Poshmark for similar items is another great option. Explore options on 
-  <a href="https://www.poshmark.com" target="_blank" style={linkStyle}>Poshmark</a>.
-</p>
+<p style={paragraphStyle}>I’ve put together a list of new collaborations and past Emily in Paris collections that are still available for purchase. These are generally quite affordable, in contrast to Emily’s designer wardrobe. While I listed many inspired outfits at a mid-higher price range, thrifting on Poshmark for similar items is another great option. Happy shopping!</p>
+<ResponsiveIframe src="https://shopmy.us/collections/public/731220?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+<ResponsiveIframe src="https://shopmy.us/collections/public/731222?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+<ResponsiveIframe src="https://shopmy.us/collections/public/731225?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
-<ResponsiveIframe 
-  src="https://shopmy.us/collections/public/731220?noHeader=true" 
-  title="Shop My Favorites - Emily in Paris Collaborations" 
-  alt="Shop new collaborations and collections inspired by Emily in Paris for affordable fashion." 
-/>
 
-<ResponsiveIframe 
-  src="https://shopmy.us/collections/public/731222?noHeader=true" 
-  title="Shop My Favorites - Affordable Emily in Paris Inspired Outfits" 
-  alt="Affordable outfits inspired by Emily in Paris, perfect for stylish yet budget-friendly fashion." 
-/>
 
-<ResponsiveIframe 
-  src="https://shopmy.us/collections/public/731225?noHeader=true" 
-  title="Shop My Favorites - Past Emily in Paris Collections" 
-  alt="Browse past Emily in Paris collections still available for purchase and elevate your wardrobe." 
-/>
-
-<p style={paragraphStyle}>
-  Do you have any favorite looks from the show so far? Let me know in the comments below! If there are specific looks from season four you'd like to see me recreate, please comment—I’d love to know what you're interested in.
-</p>
+<p style={paragraphStyle}>Do you have any favorite looks from the show so far? Let me know in the comments below! If there are specific looks from season four you'd like to see me recreate, please comment—I’d love to know what you're interested in.</p>
 
 <p style={paragraphStyle}>Ps. Are you team Emily and Alfie, or do you prefer Emily with Gabriel? Personally, I’m a Gabriel fan—I think they’re better suited for each other, but I guess only time will tell 😉</p>
 
-<p style={paragraphStyle}>
-  Thanks for reading, and happy binge-watching Emily in Paris season four! If you love all things beauty and pop culture, subscribe to the newsletter to be updated weekly on new articles uploaded to the site. Subscribe via 
-  <a href="https://jackiewyers.beauty/subscribe" target="_blank" style={linkStyle}>Jackie Wyers Beauty Newsletter</a>.
-</p>
+<p style={paragraphStyle}>Thanks for reading, and happy binge-watching Emily in Paris season four! If you love all things beauty and pop culture, subscribe to the newsletter to be updated weekly on new articles uploaded to the site.</p>
 
-
-
-      <NextArticle
+<NextArticle
       link="/perioddrama"
       imgSrc={period}
       altText="No Make Up Make Up from Period Dramas"
@@ -516,10 +425,13 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       imgStyle={{ borderRadius: '10px' }} // customize as needed
     />
 
+<div style = {imageStyle}>
+<img src={signature} alt="Signature" style={{ width: '100%' }} />
+      </div>
+
 
       
 
-<img src={signature} alt="Signature" style={{ width: '100%' }} />
     
 
       <Comments website-id={websiteId} page-id={"Las-Emily"} />
