@@ -38,7 +38,6 @@ const QuizHomepage = () => {
       <Grid container justifyContent="center"
             style = {{paddingTop: '20px', paddingBottom: '10px'}}
             >
-            <TextReveal text='🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊' />
            
                 
                 <Grid item xs={12}>
@@ -62,7 +61,6 @@ const QuizHomepage = () => {
                 </Grid>
 
         
-                <TextReveal  text='FIND YOUR DREAM WEDDING DRESS QUIZ!' />
                
                 <Grid item xs={12}>
                     <Quiz3 />

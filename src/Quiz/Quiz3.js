@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Quiz1.css';
 import { Helmet } from 'react-helmet';
+import TextReveal from '../Components/TextReveal';
 
 const Quiz3 = () => {
   const navigate = useNavigate();
@@ -133,39 +134,43 @@ const Quiz3 = () => {
   };
 
   return (
-    <div className="quiz-container">
+    <>
+           <TextReveal  text='FIND YOUR DREAM WEDDING DRESS QUIZ!' />
+           <div className="quiz-container">
     
 
-      {!showResults ? (
-        <>
-          <div className="question-section">
-            <div className="question-text">{quizQuestions[currentQuestionIndex].question}</div>
-          </div>
-          <div className="answer-section">
-            {quizQuestions[currentQuestionIndex].options.map((option, index) => (
-              <button
-                key={index}
-                className="answer-button"
-                onClick={() => handleAnswerClick(option.value)}
-                style={{
-                  backgroundImage: `url(${option.backgroundImage})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                }}
-              >
-                {option.text}
-              </button>
-            ))}
-          </div>
-        </>
-      ) : (
-        <div className="results-section">
-          <h2>Quiz Completed!</h2>
-          <button onClick={() => navigate('/')}>Go Home</button>
+    {!showResults ? (
+      <>
+        <div className="question-section">
+          <div className="question-text">{quizQuestions[currentQuestionIndex].question}</div>
         </div>
-      )}
-    
-    </div>
+        <div className="answer-section">
+          {quizQuestions[currentQuestionIndex].options.map((option, index) => (
+            <button
+              key={index}
+              className="answer-button"
+              onClick={() => handleAnswerClick(option.value)}
+              style={{
+                backgroundImage: `url(${option.backgroundImage})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }}
+            >
+              {option.text}
+            </button>
+          ))}
+        </div>
+      </>
+    ) : (
+      <div className="results-section">
+        <h2>Quiz Completed!</h2>
+        <button onClick={() => navigate('/')}>Go Home</button>
+      </div>
+    )}
+  
+  </div>
+    </>
+   
   );
 };
 

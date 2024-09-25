@@ -190,7 +190,7 @@ function HomePage() {
             <Suspense fallback={<div className="spinner"></div>}>
               <QuiltedImageList1 />
             </Suspense>
-            <HorizontalLine />
+        
 
             <Grid item xs={12}>
   <Suspense fallback={<div className="spinner"></div>}>
@@ -199,6 +199,7 @@ function HomePage() {
 
   <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px" />
 
+  <HorizontalLine />
   <HorizontalLine />
 
 
@@ -302,50 +303,13 @@ isFlipped={true}
           </Suspense>
         </Grid>
 
-        <HorizontalLine />
+  
      
 <AdSenseAd/>
 
-<HorizontalLine />
-
-          <Grid item xs={12} md={6}>
-        <Suspense fallback={<div className="spinner"></div>}>
-     
-        <HeroSection
-  featureText="VINTAGE VIBES"
-  headlineText="Mastering the Bardot Bun"
-  subtext="My Many Attempts At The Iconic 60s Style. Step into vintage beauty with Jackie Wyers' take on Brigitte Bardot's iconic hairstyles."
-  author="BY JACKIE WYERS"
-  imagePath="BardotHairstyles/BardotThumbnail.jpg"
-  linkUrl="/bardothairstyles"
-  isFlipped={false}
-/>
-</Suspense>
-</Grid>
-
-      
 
 
 
-<HorizontalLine />
-
-<Grid item xs={12} md={6}>
-<Suspense fallback={<div className="spinner"></div>}>
-<HeroSection
-              featureText="POP CULTURE"
-              headlineText="Francesca Bridgerton Makeup, Hair, and Dress"
-              subtext="From bold blush to a signature half-up half-down style similar to princess Belle, I’m breaking down all the steps."
-              author="BY JACKIE WYERS"
-              imagePath="Francesca/FrancescaThumb.jpg"
-              linkUrl="/francesca-bridgerton"
-              isFlipped={true}
-            />
-
-
-</Suspense>
-</Grid>
-
-<HorizontalLine /> 
           
 <TextBanner2 text="LIFESTYLE" height="200px" width="100%" fontSize="80px" />
 
@@ -529,43 +493,6 @@ isFlipped={true}
         <HorizontalLine />
        
 
-        <Grid item xs={12} md={6}>
-          <Suspense fallback={<div className="spinner"></div>}>
-         
-
-          <HeroSection
-  featureText="POP CULTURE OBSESSED"
-  headlineText="Victoria's Secret Fashion Show 2013 "
-  subtext="Relive the glamour of the Victoria's Secret Fashion Show 2013 with beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014."
-  author="BY JACKIE WYERS"
-  imagePath="VictoriaSecret2014/VSThumbnail.jpeg"
-  linkUrl="/victoriasecret"
-  isFlipped={true}
-/>
-          </Suspense>
-        </Grid>
-
-        <HorizontalLine />
-
-
-
-        <Grid item xs={12} md={6}>
-          <Suspense fallback={<div className="spinner"></div>}>
-         
-
-<HeroSection
-  featureText="BRIDAL"
-  headlineText="Bridal Makeup Tutorial"
-  subtext="A detailed review of my wedding makeup trial run: what I loved and what I'll tweak for the big day."
-  author="BY JACKIE WYERS"
-  imagePath="BridalMakeup/BridalTrialMakeupThumb.jpg"
-  linkUrl="/bridalmakeup"
-  isFlipped={true}
-/>
-          </Suspense>
-        </Grid>
-
-        <HorizontalLine />
 
 
         <Grid item xs={12}>

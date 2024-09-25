@@ -1,0 +1,91 @@
+.beautySection {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .headline {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .mainArticle {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mainImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .mainTitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .mainDescription {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .author {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #777;
+  }
+  
+  .sideArticles {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .sideArticle {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .sideImage {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .sideText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .sideTitle {
+    font-size: 1rem;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .sideAuthor {
+    font-size: 0.8rem;
+    margin-top: 5px;
+    font-family: 'Arial', sans-serif;
+    color: #777;
+  }

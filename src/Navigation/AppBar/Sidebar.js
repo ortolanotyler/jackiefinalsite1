@@ -57,7 +57,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           <CloseIcon />
         </IconButton>
 
-        <Box sx={{ flexGrow: 1, overflowY: 'auto', paddingBottom: '2rem' }}>
+        <Box sx={{ flexGrow: 1, overflowY: 'auto', paddingBottom: '1rem' }}>
           {menuItems.map((item) => (
             <Button
               key={item.name}
@@ -76,6 +76,19 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
             </Button>
           ))}
         </Box>
+        <Button
+          key="subscribe-button"
+          component={Link}
+          to="/subscribe"
+          className={styles.subscribeButton}
+          onClick={toggleDrawer}
+          sx={{
+            marginBottom: '5rem', // Ensure the button has enough space at the bottom
+            padding: '0.8rem', // Add padding to make the button more clickable
+          }}
+        >
+          Subscribe
+        </Button>
 
         <Box
           sx={{
@@ -112,19 +125,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           </a>
         </Box>
 
-        <Button
-          key="subscribe-button"
-          component={Link}
-          to="/subscribe"
-          className={styles.subscribeButton}
-          onClick={toggleDrawer}
-          sx={{
-            marginBottom: '1rem', // Ensure the button has enough space at the bottom
-            padding: '0.8rem', // Add padding to make the button more clickable
-          }}
-        >
-          Subscribe
-        </Button>
+     
       </Box>
     </Drawer>
   );

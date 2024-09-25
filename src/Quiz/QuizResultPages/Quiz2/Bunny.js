@@ -11,13 +11,20 @@ const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/bunnytitle
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
-const Card = ({ blogContent }) => {
-  return (
-    <div className={styles.card}>
-      <div className={styles.blogContent}>{blogContent}</div>
+const Card = ({ blogContent }) => (
+  <div
+    style={{
+      margin: '0 auto',
+      maxWidth: '95%', // Control max width to center the content
+      padding: '10px', // Add padding to prevent text from touching the edges
+    }}
+  >
+    <div className="card">
+      <div className="blog-content">{blogContent}</div>
     </div>
-  );
-};
+  </div>
+);
+
 
 const BunnyPretty = () => {
   const websiteId = '10910';
@@ -25,24 +32,77 @@ const BunnyPretty = () => {
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '1.5rem',
-    fontWeight: 'normal',
-    fontFamily: 'Arapey, serif',
-    color: '#333',
-    margin: '1.5rem'
-  };
-  
-  const paragraphStyle = {
-    fontSize: '20px',
-    fontFamily: 'GFS Didot, serif',
-    margin: '1rem 1.5rem',
-    marginTop: '1rem',
-    marginBottom: '1rem',
-    maxWidth: '700px',
-    lineHeight: '1.25',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-  };
+    fontSize: '2.5rem',
+    fontWeight: '100',
+    fontFamily: 'Playfair Display, serif',
+    color: '#000000',
+    maxWidth: '95%',
+
+    margin: '30px auto'
+};
+
+
+const paragraphStyle = {
+  fontSize: '22px',
+  color: '#000000',
+
+  fontFamily: 'Georgia, serif',
+  fontWeight: 'regular',
+
+  margin: '1rem 1rem',
+
+  maxWidth: '95%',
+    lineHeight: '1.6',
+
+};
+
+const linkStyle = {
+  textDecoration: 'none', // Removes underline from links
+  fontFamily: 'Playfair Display, serif',
+  color: '#000000', // Inherits the color of the surrounding text
+};
+
+const gridContainerStyle = {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+    gap: '10px',
+    maxWidth: '95%',
+    margin: '0 2rem'
+};
+
+const imageStyle = {
+  display: 'block',
+  margin: '1rem auto',
+  borderRadius: '0px',
+  maxWidth: '95%',
+  height: 'auto'
+};
+
+const pinterestGridStyle = {
+  display: 'grid',
+  gap: '1rem',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+  justifyItems: 'center',
+  margin: '1rem 0',
+};
+
+const iframeStyle = {
+  width: '100%',
+  maxWidth: '95%',
+  height: '520px', // Maintains original height
+  border: 'none',
+  scrolling: 'no',
+};
+
+const captionStyle = {
+  textAlign: 'center',
+  fontSize: '1.1rem',
+  fontFamily: 'Raleway, serif',
+  fontWeight: 'normal',
+  margin: '0 auto',
+  maxWidth: '85%',
+  fontStyle: 'italic',
+};
   const blogContent = (
     <div className={styles.container}>
       <Helmet>

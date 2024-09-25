@@ -9,6 +9,12 @@ const images = [
   `${process.env.PUBLIC_URL}/Images/2.png`,
   `${process.env.PUBLIC_URL}/Images/3.png`,
   `${process.env.PUBLIC_URL}/Images/4.png`,
+  `${process.env.PUBLIC_URL}/Images/5.png`,
+  `${process.env.PUBLIC_URL}/Images/6.png`,
+  `${process.env.PUBLIC_URL}/Images/7.png`,
+  `${process.env.PUBLIC_URL}/Images/8.png`,
+  `${process.env.PUBLIC_URL}/Images/9.png`,
+
 ];
 
 const NewsletterSlider = () => {

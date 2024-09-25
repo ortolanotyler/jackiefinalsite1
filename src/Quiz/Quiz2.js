@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Quiz1.css';
 import { Helmet } from 'react-helmet';
+import TextReveal from '../Components/TextReveal';
 
 const Quiz2 = () => {
   const navigate = useNavigate();
@@ -128,52 +129,61 @@ const Quiz2 = () => {
   };
 
   return (
-    <div className="quiz-container">
-      <Helmet>
-        <title>Jackie Wyers Beauty</title>
-        <meta name="description" content="Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty? Find out with our fun and interactive quiz!" />
-        <meta name="keywords" content="beauty quiz, animal pretty, Jackie Wyers, makeup quiz, beauty styles, fox pretty, deer pretty, bunny pretty, cat pretty" />
-        <meta property="og:title" content="Jackie Wyers Beauty Quiz" />
-        <meta property="og:description" content="Discover which animal-inspired beauty style suits you best: Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty." />
-        <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/og-image.jpg`} />
-        <meta property="og:url" content="https://jackiewyers.beauty/quiz2" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Jackie Wyers Beauty Quiz" />
-        <meta name="twitter:description" content="Find out if you're Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty with our interactive quiz!" />
-        <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/twitter-image.jpg`} />
-      </Helmet>
+    <>
+                      <TextReveal text='🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊' />
 
-      {!showResults ? (
-        <>
-          <div className="question-section">
-            <div className="question-count">
-              <span>QUESTION {currentQuestionIndex + 1}</span>/{quizQuestions.length}
-            </div>
-            <div className="question-text">{quizQuestions[currentQuestionIndex].question}</div>
-          </div>
-          <div className="answer-section">
-            {quizQuestions[currentQuestionIndex].options.map((option, index) => (
-              <button
-                key={index}
-                className="answer-button"
-                style={{
-                  backgroundImage: `url(${option.backgroundImage})`,
-                }}
-                onClick={() => handleAnswerClick(option.value)}
-              >
-                {option.text}
-              </button>
-            ))}
-          </div>
-        </>
-      ) : (
-        <div className="results-section">
-          <h2>Quiz Completed!</h2>
-          <button onClick={() => navigate('/')}>Go Home</button>
-        </div>
-      )}
+                      <div className="quiz-container">
+
+<Helmet>
+  <title>Jackie Wyers Beauty</title>
+  <meta name="description" content="Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty? Find out with our fun and interactive quiz!" />
+  <meta name="keywords" content="beauty quiz, animal pretty, Jackie Wyers, makeup quiz, beauty styles, fox pretty, deer pretty, bunny pretty, cat pretty" />
+  <meta property="og:title" content="Jackie Wyers Beauty Quiz" />
+  <meta property="og:description" content="Discover which animal-inspired beauty style suits you best: Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty." />
+  <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/og-image.jpg`} />
+  <meta property="og:url" content="https://jackiewyers.beauty/quiz2" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jackie Wyers Beauty Quiz" />
+  <meta name="twitter:description" content="Find out if you're Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty with our interactive quiz!" />
+  <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/twitter-image.jpg`} />
+</Helmet>
+
+{!showResults ? (
+  <>
+    <div className="question-section">
+      <div className="question-count">
+        <span>QUESTION {currentQuestionIndex + 1}</span>/{quizQuestions.length}
+      </div>
+      <div className="question-text">{quizQuestions[currentQuestionIndex].question}</div>
     </div>
+    <div className="answer-section">
+      {quizQuestions[currentQuestionIndex].options.map((option, index) => (
+        <button
+          key={index}
+          className="answer-button"
+          style={{
+            backgroundImage: `url(${option.backgroundImage})`,
+          }}
+          onClick={() => handleAnswerClick(option.value)}
+        >
+          {option.text}
+        </button>
+      ))}
+    </div>
+  </>
+) : (
+  <div className="results-section">
+    <h2>Quiz Completed!</h2>
+    <button onClick={() => navigate('/')}>Go Home</button>
+  </div>
+)}
+</div>
+    
+    
+    
+    </>
+   
   );
 };
 

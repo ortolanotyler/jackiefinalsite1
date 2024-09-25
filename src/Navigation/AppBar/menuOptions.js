@@ -26,22 +26,34 @@ const pages = [
   
 // menuOptions.js
 const menuOptions = [
-    { name: 'Home', path: '/' },
-    {
-      name: 'Beauty',
-  
-      subMenu: [
-        { name: 'All Tutorials', path: '/tutorials' },
-        { name: 'Trending Now', path: '/trends' },
-        { name: 'Pop Culture', path: '/popculture' },
-        { name: 'Vintage Vibes', path: '/timetraveltutorials' },
-        { name: 'Reviews', path: '/reviews' },
-      ],
-    },
-    { name: 'Travel', path: '/travel' },
-    { name: 'Quiz', path: '/quiz' },
-    { name: 'About', path: '/about' },
-    { name: 'Style', path: '/mystyle' },
-  ];
-  
-  export default menuOptions;
+  { name: 'Home', path: '/' },
+  {
+    name: 'Beauty',
+    subMenu: [
+      { name: 'All Tutorials', path: '/tutorials' },
+      { name: 'Trending Now', path: '/trends' },
+      { name: 'Pop Culture', path: '/popculture' },
+      { name: 'Vintage Vibes', path: '/timetraveltutorials' },
+      { name: 'Reviews', path: '/reviews' },
+    ],
+  },
+  {
+    name: 'Travel',
+    subMenu: [
+      { name: 'Read Latest', path: '/sorrento' },
+      { name: 'Travel Home', path: '/travel' }, // Replace with the actual path dynamically if needed
+    ],
+  },
+  {
+    name: 'Quiz',
+    subMenu: [
+      { name: 'Quiz Homepage', path: '/quiz' },
+      { name: 'What Animal Pretty Are You?', path: '/quiz2' },
+      { name: '2025 Ultimate Wedding Dress Guide', path: '/quiz3' },
+    ],
+  },
+  { name: 'About', path: '/about' },
+  { name: 'Style', path: '/mystyle' },
+];
+
+export default menuOptions;
