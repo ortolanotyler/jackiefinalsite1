@@ -133,10 +133,10 @@ const captionStyle = {
     name="description" 
     content="Discover the best Barbie-inspired products and collectibles for adult fans in 2024. Explore iconic collaborations and must-have items curated by Jackie Wyers." 
   />
-  <meta 
-    name="keywords" 
-    content="Barbie collaborations, Barbie 2024, Barbie collectors, adult Barbie fans, Barbie products, Barbie accessories, Barbie x Stanley, Barbie coffee table book, Barbie pool floaties, Barbie x FUNBOY, Barbie x Aldo, Silkstone Barbie, Barbie fashion history, Barbie decor, Barbie gifts, Barbie collectibles, vintage Barbie, Barbiecore, Barbie-inspired, pop culture collectibles, Barbie fashion, limited edition Barbie, Jackie Wyers, beauty influencer, Barbie-inspired makeup, Barbie trends, Barbie decor ideas, Barbie collector items, chic Barbie accessories, nostalgic Barbie, fashion dolls, pop culture icons, stylish Barbie items, iconic Barbie collabs, Barbie styling, Barbie merchandise" 
-  />
+<meta 
+  name="keywords" 
+  content="Top Barbie Collaborations 2024, Must-Have Barbie Products, Adult Barbie Collectors, Barbie x Stanley, Barbie x FUNBOY, Silkstone Barbie, Barbie x Aldo, Barbie Coffee Table Book, Barbiecore Trends, Jackie Wyers, Barbie Fashion Accessories, Barbie Collectibles 2024" 
+/>
 
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀 " />
