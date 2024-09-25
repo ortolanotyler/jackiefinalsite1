@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Box, Button, Menu, MenuItem, Typography } from '@mui/material';
-import menuOptions from './menuOptions'; // Import your menu options (pages, tutorialOptions, etc.)
+import menuOptions from './menuOptions'; // Import your menu options
 
 const NavButtons = () => {
   const [anchorEl, setAnchorEl] = useState(null);
 
-  const handleOpenMenu = (event) => {
-    setAnchorEl(event.currentTarget);
+  const handleOpenMenu = (event, option) => {
+    // Only open the menu without navigation if the option has a submenu
+    if (option.subMenu) {
+      setAnchorEl(event.currentTarget);
+    }
   };
 
   const handleCloseMenu = () => {
@@ -19,8 +22,8 @@ const NavButtons = () => {
       {menuOptions.map((option, index) => (
         <Button
           key={index}
-          component={Link}
-          to={option.path}
+          component={!option.subMenu ? Link : 'button'} // Only link when there is no submenu
+          to={!option.subMenu ? option.path : undefined}
           sx={{
             my: 2,
             color: '#745B4F',
@@ -28,10 +31,8 @@ const NavButtons = () => {
             fontSize: '1rem',
             fontFamily: 'Playfair Display, serif',
             mx: 2,
-            '&:hover': { backgroundColor: 'transparent' },
-            '&:active': { backgroundColor: 'transparent' }, // Remove background on press
           }}
-          onClick={option.subMenu ? handleOpenMenu : handleCloseMenu}
+          onClick={(event) => handleOpenMenu(event, option)}
         >
           {option.name}
         </Button>
@@ -57,13 +58,13 @@ const NavButtons = () => {
         {anchorEl &&
           menuOptions
             .find((option) => option.name === anchorEl.textContent)
-            .subMenu.map((subOption) => (
+            ?.subMenu.map((subOption) => (
               <MenuItem
                 key={subOption.name}
                 onClick={handleCloseMenu}
                 component={Link}
                 to={subOption.path}
-                sx={{ '&:hover': { bgcolor: 'transparent' } }}
+              
               >
                 <Typography>{subOption.name}</Typography>
               </MenuItem>

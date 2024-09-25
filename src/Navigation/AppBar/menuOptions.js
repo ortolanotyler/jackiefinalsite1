@@ -29,9 +29,9 @@ const menuOptions = [
     { name: 'Home', path: '/' },
     {
       name: 'Beauty',
-      path: '/tutorials',
-      subMenu: [
   
+      subMenu: [
+        { name: 'All Tutorials', path: '/tutorials' },
         { name: 'Trending Now', path: '/trends' },
         { name: 'Pop Culture', path: '/popculture' },
         { name: 'Vintage Vibes', path: '/timetraveltutorials' },

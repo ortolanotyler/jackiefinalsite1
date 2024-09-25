@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -5,14 +7,14 @@
   height: 100%;
   background-color: #fdedef;
   padding: 2rem;
-  font-family: 'Playfair Display', serif;
+  font-family: Playfair Display, serif;
   position: relative;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: width 0.2s ease;
 }
 
 .sidebarButton {
-  font-family: 'GFS Didot', serif !important;
+  font-family: 'Playfair Display', serif;
   text-transform: none;
   display: block;
   background-color: transparent;
@@ -32,7 +34,7 @@
 }
 
 .sidebarTypography {
-  font-family: 'GFS Didot', serif !important;
+  font-family: 'Playfair Display', serif;
   font-size: 20px;
   color: #745B4F;
   font-weight: bold;
