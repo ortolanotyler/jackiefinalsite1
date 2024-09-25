@@ -567,8 +567,9 @@ A Final Note 👑
 
 
 <p style={paragraphStyle}>
-  Don’t forget to subscribe to my <a style={linkStyle} href="https://www.youtube.com/c/JackieWyers" target="_blank" rel="noreferrer">YouTube channel</a> for all the Halloween makeup inspo. And remember, you can rock these looks beyond Halloween for a dash of everyday glam. ✨ Are these the Best Halloween Looks 2024? Vote in the poll on which style is your favorite or share your vote on <a style={linkStyle} href="https://www.instagram.com/jackiewyers/" target="_blank" rel="noreferrer">Instagram</a> here.
+  Don’t forget to subscribe to my <a style={linkStyle} href="https://www.youtube.com/c/JackieWyers" target="_blank" rel="noreferrer"> YouTube channel</a> for all the Halloween makeup inspo. And remember, you can rock these looks beyond Halloween for a dash of everyday glam. ✨ Are these the Best Halloween Looks 2024? Vote in the poll on which style is your favorite or share your vote on <a style={linkStyle} href="https://www.instagram.com/jackiewyers/" target="_blank" rel="noreferrer"> Instagram</a> here.
 </p>
+
 
 <PollComponent/>
 
@@ -578,7 +579,7 @@ A Final Note 👑
       imgSrc={next}
       altText="2016 Makeup Trend Report Article"
       linkText="MORE POP CULTURE →"
-      containerStyle={{ margin: '1rem 0' }} // customize as needed
+      containerStyle={{ margin: '1rem auto' }} // customize as needed
       linkStyle={{ color: '#000000', fontSize: '1.05rem' }} // customize as needed
       imgStyle={{ borderRadius: '10px' }} // customize as needed
     />
