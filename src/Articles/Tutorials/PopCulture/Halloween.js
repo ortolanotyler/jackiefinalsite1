@@ -308,7 +308,9 @@ movie is Jacqueline Durran, Barbie Movie Costume by
  </p>
 
 
-
+ <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
 
 
