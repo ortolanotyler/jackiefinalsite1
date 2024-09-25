@@ -27,7 +27,7 @@ const image14 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/14.JPG`;
 const image15 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/15.JPG`;
 const image16 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/16.JPG`;
 const image17 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/17.JPG`;
-const ski = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblent/hello.png`;
+const ski = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblent/TREMBLANTTHUMBNAIL.jpeg`;
 
 
 

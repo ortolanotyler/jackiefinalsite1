@@ -91,7 +91,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
   const dividerStyle = {
     width: '1px',
     backgroundColor: '#2b2d2b',
-    height: '50%',
+    height: '100%',
     margin: isSmallScreen ? '20px 0' : '0 20px',
     alignSelf: 'center',
   };
