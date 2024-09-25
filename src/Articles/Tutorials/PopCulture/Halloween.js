@@ -76,7 +76,6 @@ const Halloween = () => {
     fontFamily: 'Playfair Display, serif',
     fontWeight: '100',
     margin: '1rem auto',
-    maxWidth: '90%', // Ensure paragraphs are not too constrained
     lineHeight: '1.6',
     padding: '0 20px', // Add padding to prevent cutoff
     boxSizing: 'border-box', // Include padding in the width
@@ -187,7 +186,6 @@ const Halloween = () => {
         </a>
       </div>
 
-      <HorizontalLine/>
 
   <ArticleTitle
   mainTitle="Girly Pop Culture Halloween
