@@ -195,6 +195,33 @@ function HomePage() {
             <Grid item xs={12}>
   <Suspense fallback={<div className="spinner"></div>}>
   
+
+
+  <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px" />
+
+  <HorizontalLine />
+
+
+  <HeroSection
+  featureText="LATEST"
+  headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀"
+  subtext="The Best Barbie-Inspired Products and Collectibles Every Grown-Up Barbie Lover Needs on Their Wishlist"
+  author="BY JACKIE WYERS"
+  imagePath="/halloweenthumb12.jpg"
+  linkUrl="/barbie-roundup"
+  isFlipped={true}
+/>
+
+</Suspense>
+</Grid>
+
+
+
+<HorizontalLine />
+
+            <Grid item xs={12}>
+  <Suspense fallback={<div className="spinner"></div>}>
+  
             <HeroSection
   featureText="FEATURED"
   headlineText="Girly Pop Culture Halloween Costume Ideas 2024🎀"
@@ -202,13 +229,11 @@ function HomePage() {
   author="BY JACKIE WYERS"
   imagePath="Halloween/HalloweenThumb.jpg"
   linkUrl="/girly-pop-halloween"
-  isFlipped={true}
+  isFlipped={false}
 />
 </Suspense>
 </Grid>
 <HorizontalLine />
-
-
 <Grid item xs={12}>
   <Suspense fallback={<div className="spinner"></div>}>
   
@@ -219,68 +244,17 @@ function HomePage() {
   author="BY JACKIE WYERS"
   imagePath="BarbieDoll/JackieWyersBarbieThumb.jpeg"
   linkUrl="/barbie-doll"
-  isFlipped={false}
-/>
-
-</Suspense>
-</Grid>
-
-<HorizontalLine />
-
-            <Grid item xs={12}>
-  <Suspense fallback={<div className="spinner"></div>}>
-  
-            <HeroSection
-  featureText="FEATURED"
-  headlineText="Our Fairytale Wedding Overlooking Sorrento, Italy"
-  subtext="All the enchanting details, prep & planning"
-  author="BY JACKIE WYERS"
-  imagePath="FairytaleWedding/fairytalethumbnail.webp"
-  linkUrl="/fairytalewedding"
   isFlipped={true}
 />
 
 </Suspense>
 </Grid>
 
-<HorizontalLine />
-
-<HorizontalLine />
-
-            <Grid item xs={12}>
-  <Suspense fallback={<div className="spinner"></div>}>
-  
-            <HeroSection
-  featureText="FEATURED"
-  headlineText="Our Fairytale Wedding Overlooking Sorrento, Italy"
-  subtext="All the enchanting details, prep & planning"
-  author="BY JACKIE WYERS"
-  imagePath="FairytaleWedding/fairytalethumbnail.webp"
-  linkUrl="/fairytalewedding"
-  isFlipped={true}
-/>
-
-</Suspense>
-</Grid>
-
-<HorizontalLine />
 
 
-<Grid item xs={12}>
-  <Suspense fallback={<div className="spinner"></div>}>
-  
-  <HeroSection
-  featureText="TRAVEL"
-  headlineText="Best of Brussels: Top Things to See, Eat, and Experience + Train To Paris!"
-  subtext="Belgian Chocolate, Waffles, and A Walk Down Memory Lane"
-  author="BY JACKIE WYERS"
-  imagePath="Brussels/paristhumbnail.jpg"
-  linkUrl="/paris-brussels-travel-guide"
-  isFlipped={false}
-/>
 
-</Suspense>
-</Grid>
+
+
 
 
 
@@ -377,6 +351,43 @@ isFlipped={true}
 
 
 <HorizontalLine />
+
+<Grid item xs={12}>
+  <Suspense fallback={<div className="spinner"></div>}>
+  
+            <HeroSection
+  featureText="FEATURED"
+  headlineText="Our Fairytale Wedding Overlooking Sorrento, Italy"
+  subtext="All the enchanting details, prep & planning"
+  author="BY JACKIE WYERS"
+  imagePath="FairytaleWedding/fairytalethumbnail.webp"
+  linkUrl="/fairytalewedding"
+  isFlipped={true}
+/>
+
+</Suspense>
+</Grid>
+
+<HorizontalLine />
+
+
+
+
+<Grid item xs={12}>
+  <Suspense fallback={<div className="spinner"></div>}>
+  
+  <HeroSection
+  featureText="TRAVEL"
+  headlineText="Best of Brussels: Top Things to See, Eat, and Experience + Train To Paris!"
+  subtext="Belgian Chocolate, Waffles, and A Walk Down Memory Lane"
+  author="BY JACKIE WYERS"
+  imagePath="Brussels/paristhumbnail.jpg"
+  linkUrl="/paris-brussels-travel-guide"
+  isFlipped={false}
+/>
+
+</Suspense>
+</Grid>
 
 
 <Grid item xs={12} md={6}>
