@@ -195,11 +195,11 @@ function HomePage() {
             <Grid item xs={12}>
   <Suspense fallback={<div className="spinner"></div>}>
   
+  <HorizontalLine />
 
 
   <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px" />
 
-  <HorizontalLine />
   <HorizontalLine />
 
 
@@ -278,11 +278,16 @@ function HomePage() {
 <HeroSection
 featureText="QUIZ"
 headlineText="Animal Pretty - Which one are you?"
-subtext="Explore the Animal Pretty makeup trends inspired by deer, cats, foxes, and bunnies. Learn how to achieve these adorable looks with step-by-step guides from Jackie Wyers."
-author="BY JACKIE WYERS"
 imagePath="AnimalPretty/animals.jpg"
-linkUrl="/quiz"
+linkUrl="/quiz-2-home"
 isFlipped={true}
+/>
+<HeroSection
+featureText="QUIZ"
+headlineText="The Ultimate Wedding Dress Quiz for 2025"
+imagePath="BridalMakeup/guidethumbnail.jpeg"
+linkUrl="/quiz-3-home"
+isFlipped={false}
 />
   </Suspense>
 </Grid>
@@ -309,6 +314,7 @@ isFlipped={true}
 
 
 
+<HorizontalLine />
 
           
 <TextBanner2 text="LIFESTYLE" height="200px" width="100%" fontSize="80px" />
