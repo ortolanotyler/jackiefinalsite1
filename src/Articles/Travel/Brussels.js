@@ -89,7 +89,7 @@ const Card = ({ blogContent }) => (
     const websiteId = '10910';
     const blogRef = useRef(null);
   
-   
+
     const heading2Style = {
       textAlign: 'center',
       fontSize: '1.5rem',
@@ -97,7 +97,7 @@ const Card = ({ blogContent }) => (
       fontFamily: 'Playfair Display, serif',
       color: '#000000',
       margin: '30px auto',
-      maxWidth: '90%', // Allow space for margins
+      maxWidth: '100%', // Allow space for margins
     };
   
     const headingStyle = {
@@ -106,8 +106,8 @@ const Card = ({ blogContent }) => (
       fontWeight: '100',
       fontFamily: 'Playfair Display, serif',
       color: '#000000',
-      margin: '30px auto',
-      maxWidth: '90%', // Adjust max width for responsiveness
+      margin: '10px auto',
+      maxWidth: '100%', // Adjust max width for responsiveness
     };
   
     const paragraphStyle = {
@@ -154,6 +154,7 @@ const Card = ({ blogContent }) => (
       padding: '0 20px', // Add padding for readability
       boxSizing: 'border-box',
     };
+  
   
   
   

@@ -10,6 +10,7 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import PollComponent from '../../../Components/PollComponent1';
+import HorizontalLine from '../../../Components/HorizontalLine';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Halloween/1.jpeg`;
@@ -55,7 +56,7 @@ const Halloween = () => {
     fontFamily: 'Playfair Display, serif',
     color: '#000000',
     margin: '30px auto',
-    maxWidth: '90%', // Allow space for margins
+    maxWidth: '100%', // Allow space for margins
   };
 
   const headingStyle = {
@@ -64,8 +65,8 @@ const Halloween = () => {
     fontWeight: '100',
     fontFamily: 'Playfair Display, serif',
     color: '#000000',
-    margin: '30px auto',
-    maxWidth: '90%', // Adjust max width for responsiveness
+    margin: '10px auto',
+    maxWidth: '100%', // Adjust max width for responsiveness
   };
 
   const paragraphStyle = {
