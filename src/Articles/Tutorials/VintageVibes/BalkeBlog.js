@@ -38,12 +38,11 @@ const BalkeBlog = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
 
- 
   const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',
-    fontWeight: 'normal',
-    fontFamily: 'GFS Didot, serif',
+    fontWeight: '100',
+    fontFamily: 'Playfair Display, serif',
     color: '#000000',
     margin: '30px auto'
 };
@@ -53,10 +52,12 @@ const paragraphStyle = {
   fontSize: '22px',
   color: '#000000',
 
-  fontFamily: 'GFS Didot, serif',
+  fontFamily: 'Georgia, serif',
+  fontWeight: 'regular',
+
   margin: '2rem auto',
 
-  maxWidth: '525px', // Consistent with the other paragraphs
+  maxWidth: '500px', // Consistent with the other paragraphs
   lineHeight: '1.6',
   marginLeft: 'auto',
   marginRight: 'auto',
@@ -64,7 +65,7 @@ const paragraphStyle = {
 
 const linkStyle = {
   textDecoration: 'none', // Removes underline from links
-  fontFamily: 'GFS Didot, serif',
+  fontFamily: 'Playfair Display, serif',
   color: '#000000', // Inherits the color of the surrounding text
 };
 
@@ -84,22 +85,30 @@ const imageStyle = {
 };
 
 const pinterestGridStyle = {
-  display: 'flex',
-  justifyContent: 'center',
+  display: 'grid',
   gap: '1rem',
-  flexWrap: 'wrap',
-  margin: '1rem 0'
+  gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+  justifyItems: 'center',
+  margin: '1rem 0',
+};
+
+const iframeStyle = {
+  width: '100%',
+  maxWidth: '236px',
+  height: '520px', // Maintains original height
+  border: 'none',
+  scrolling: 'no',
 };
 
 const captionStyle = {
   textAlign: 'center',
   fontSize: '1.1rem',
-  fontFamily: 'Playfair Display, serif',
+  fontFamily: 'Raleway, serif',
+  fontWeight: 'normal',
   margin: '1rem auto',
   maxWidth: '100%',
   fontStyle: 'italic',
 };
-
 
   const blogContent = (
     <div className="container">

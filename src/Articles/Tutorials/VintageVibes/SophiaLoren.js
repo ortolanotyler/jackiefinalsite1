@@ -115,7 +115,7 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
     maxWidth: '100%',
     fontStyle: 'italic',
   };
-  
+
   const blogContent = (
     <div className="container">
     <Helmet>
@@ -152,7 +152,7 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "${Signature}"
+            "url": "https://jackiewyers.beauty/sophialoren"
           }
         },
         "mainEntityOfPage": {

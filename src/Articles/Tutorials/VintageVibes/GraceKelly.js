@@ -44,12 +44,11 @@ const Card = ({ blogContent }) => (
     const websiteId = '10910';
     const blogRef = useRef(null);
   
-   
     const headingStyle = {
       textAlign: 'center',
       fontSize: '2.5rem',
-      fontWeight: 'normal',
-      fontFamily: 'GFS Didot, serif',
+      fontWeight: '100',
+      fontFamily: 'Playfair Display, serif',
       color: '#000000',
       margin: '30px auto'
   };
@@ -59,7 +58,9 @@ const Card = ({ blogContent }) => (
     fontSize: '22px',
     color: '#000000',
   
-    fontFamily: 'GFS Didot, serif',
+    fontFamily: 'Georgia, serif',
+    fontWeight: 'regular',
+  
     margin: '2rem auto',
   
     maxWidth: '500px', // Consistent with the other paragraphs
@@ -70,7 +71,7 @@ const Card = ({ blogContent }) => (
   
   const linkStyle = {
     textDecoration: 'none', // Removes underline from links
-    fontFamily: 'GFS Didot, serif',
+    fontFamily: 'Playfair Display, serif',
     color: '#000000', // Inherits the color of the surrounding text
   };
   
@@ -108,12 +109,13 @@ const Card = ({ blogContent }) => (
   const captionStyle = {
     textAlign: 'center',
     fontSize: '1.1rem',
-    fontFamily: 'Playfair Display, serif',
+    fontFamily: 'Raleway, serif',
+    fontWeight: 'normal',
     margin: '1rem auto',
     maxWidth: '100%',
     fontStyle: 'italic',
   };
-
+  
 
   const blogContent = (
     <div className="container">
