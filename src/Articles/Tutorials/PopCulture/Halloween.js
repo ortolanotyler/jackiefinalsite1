@@ -25,13 +25,12 @@ const image8 = `${process.env.PUBLIC_URL}/Images/Articles/Halloween/8.jpeg`;
 
 const next = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016MakeupThumbnail.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
-
 const Card = ({ blogContent }) => (
   <div
     style={{
-      padding: '1rem', // Consistent padding to prevent content from touching edges
-  
-    
+      padding: '20px', // Consistent padding to prevent content from touching edges
+      margin: '0 auto',
+      maxWidth: '95%', // Use percentage for responsive scaling
       boxSizing: 'border-box', // Include padding in width calculations
     }}
   >
