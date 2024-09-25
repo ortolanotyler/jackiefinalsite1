@@ -49,7 +49,6 @@ const Halloween = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
 
-  
   const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',
