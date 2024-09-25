@@ -49,24 +49,14 @@ const Halloween = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
 
-  const heading2Style = {
-    textAlign: 'center',
-    fontSize: '1.5rem',
-    fontWeight: 'bold',
-    fontFamily: 'Playfair Display, serif',
-    color: '#000000',
-    margin: '30px auto',
-    maxWidth: '100%', // Allow space for margins
-  };
+  
   const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',
     fontWeight: '100',
     fontFamily: 'Playfair Display, serif',
     color: '#000000',
-    margin: '30px auto',
-    maxWidth: '100%', // Allow space for margins
-
+    margin: '30px auto'
 };
 
 
@@ -131,7 +121,6 @@ const captionStyle = {
   maxWidth: '100%',
   fontStyle: 'italic',
 };
-
 
 
   const blogContent = (
