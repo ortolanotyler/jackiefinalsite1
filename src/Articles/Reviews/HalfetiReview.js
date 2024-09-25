@@ -9,13 +9,13 @@ import NextArticle from '../../Components/NextArticleComponent';
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const nextArticle = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/jickyguerlainthumbnail.png`;
 
+
 const Card = ({ blogContent }) => (
   <div
     style={{
-      padding: '0 1rem', // Consistent padding to prevent content from touching edges
       margin: '0 auto',
-      maxWidth: '95%', // Use percentage for responsive scaling
-      boxSizing: 'border-box', // Include padding in width calculations
+      maxWidth: '95%', // Control max width to center the content
+      padding: '10px', // Add padding to prevent text from touching the edges
     }}
   >
     <div className="card">
@@ -23,6 +23,7 @@ const Card = ({ blogContent }) => (
     </div>
   </div>
 );
+
 
 const HalfetiReview = () => {
   useEffect(() => {
@@ -41,64 +42,82 @@ const HalfetiReview = () => {
     margin: '30px auto',
     maxWidth: '100%', // Allow space for margins
   };
-
+  
+  
   const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',
     fontWeight: '100',
     fontFamily: 'Playfair Display, serif',
     color: '#000000',
-    margin: '10px auto',
-    maxWidth: '100%', // Adjust max width for responsiveness
+    maxWidth: '95%',
+  
+    margin: '30px auto'
   };
-
+  
+  
   const paragraphStyle = {
-    fontSize: '22px',
-    color: '#000000',
-    fontFamily: 'Playfair Display, serif',
-    fontWeight: '100',
-    margin: '0 auto',
+  fontSize: '22px',
+  color: '#000000',
+  
+  fontFamily: 'Georgia, serif',
+  fontWeight: 'regular',
+  
+  margin: '1rem 1rem',
+  
+  maxWidth: '95%',
     lineHeight: '1.6',
-    margin: '0 auto',
-    padding: '1rem 1rem', // Add padding to prevent cutoff
-    boxSizing: 'border-box', // Include padding in the width
+  
   };
-
+  
   const linkStyle = {
-    textDecoration: 'none',
-    fontFamily: 'Playfair Display, serif',
-    color: '#000000',
+  textDecoration: 'none', // Removes underline from links
+  fontFamily: 'Playfair Display, serif',
+  color: '#000000', // Inherits the color of the surrounding text
   };
-
+  
   const gridContainerStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-    gap: '1rem',
-    margin: '1rem auto',
-    boxSizing: 'border-box',
+    gap: '10px',
+    maxWidth: '95%',
+    margin: '1rem auto'
   };
-
+  
   const imageStyle = {
-    display: 'block',
-    margin: '1rem auto',
-    borderRadius: '0px',
-    height: 'auto',
+  display: 'block',
+  margin: '1rem auto',
+  borderRadius: '0px',
+  maxWidth: '95%',
+  height: 'auto'
   };
-
+  
+  const pinterestGridStyle = {
+  display: 'grid',
+  gap: '1rem',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+  justifyItems: 'center',
+  margin: '1rem 0',
+  };
+  
+  const iframeStyle = {
+  width: '100%',
+  maxWidth: '95%',
+  height: '520px', // Maintains original height
+  border: 'none',
+  scrolling: 'no',
+  };
+  
   const captionStyle = {
-    textAlign: 'center',
-    fontSize: '1rem',
-    fontFamily: 'GFS Didot, sans-serif',
-    fontWeight: 'normal',
-    margin: '1rem auto',
- 
-    fontStyle: 'italic',
-    padding: '0 20px', // Add padding for readability
-    boxSizing: 'border-box',
+  textAlign: 'center',
+  fontSize: '1.1rem',
+  fontFamily: 'Raleway, serif',
+  fontWeight: 'normal',
+  margin: '1rem auto',
+  maxWidth: '95%',
+  fontStyle: 'italic',
   };
-
-
-
+  
   const blogContent = (
     <div className="container" style={{ width: '100%', padding: '1rem' }}>
 <Helmet>
@@ -226,9 +245,10 @@ const HalfetiReview = () => {
 
       <p
         style={{
-          margin: '20px auto',
+          margin: '20px 5px',
+          
           textAlign: 'center',
-          fontSize: '1.1rem',
+          fontSize: '1rem',
           fontFamily: 'Playfair Display, serif',
           fontStyle: 'italic',
         }}
@@ -236,38 +256,41 @@ const HalfetiReview = () => {
         All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
 
-      <h2 style={headingStyle}>🍃 Fragrance Profile</h2>
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'flex-start',
-          fontSize: '1.25rem',
-          fontFamily: 'Playfair Display, serif',
-          margin: '1rem auto',
-          maxWidth: '500px',
-        }}
-      >
-        <div style={{ marginBottom: '0.5rem' }}>
-          <strong>Concentration:</strong> Eau de Parfum Spray
-        </div>
-        <div style={{ marginBottom: '0.5rem' }}>
-          <strong>Fragrance Family:</strong> Oriental Spicy
-        </div>
-        <div style={{ marginBottom: '0.5rem' }}>
-          <strong>Top Notes:</strong> Grapefruit, Bergamot, Green Notes, Artemisia, Cypress, Saffron
-        </div>
-        <div style={{ marginBottom: '0.5rem' }}>
-          <strong>Heart/Middle Notes:</strong> Geranium, Jasmine, Rose, Nutmeg, Cardamom, Lavender, Cumin
-        </div>
-        <div style={{ marginBottom: '0.5rem' }}>
-          <strong>Base Notes:</strong> Leather, Oud, Amber, Vetiver, Cedar, Myrrh, Tonka Bean, Vanilla, Patchouli
-        </div>
-      </div>
+<h2 style={headingStyle}>🍃 Fragrance Profile</h2>
+<div
+  style={{
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    margin: '0 auto',
+    maxWidth: '600px',
+    padding: '1rem',
+    border: '1px solid #e0e0e0',
+    borderRadius: '0px',
+    backgroundColor: '#fdedef',
+    boxSizing: 'border-box',
+  }}
+>
+  <ul style={{ listStyleType: 'none', padding: '0', margin: '0', width: '100%' }}>
+    <li style={{ marginBottom: '10px', fontFamily: 'Playfair Display, serif', fontSize: '18px', color: '#000000', lineHeight: '1.6' }}>
+      <em>Concentration:</em> Eau de Parfum Spray
+    </li>
+    <li style={{ marginBottom: '10px', fontFamily: 'Playfair Display, serif', fontSize: '18px', color: '#000000', lineHeight: '1.6' }}>
+      <em>Fragrance Family:</em> Oriental Spicy
+    </li>
+    <li style={{ marginBottom: '10px', fontFamily: 'Playfair Display, serif', fontSize: '18px', color: '#000000', lineHeight: '1.6' }}>
+      <em>Top Notes:</em> Grapefruit, Bergamot, Green Notes, Artemisia, Cypress, Saffron
+    </li>
+    <li style={{ marginBottom: '10px', fontFamily: 'Playfair Display, serif', fontSize: '18px', color: '#000000', lineHeight: '1.6' }}>
+      <em>Heart/Middle Notes:</em> Geranium, Jasmine, Rose, Nutmeg, Cardamom, Lavender, Cumin
+    </li>
+    <li style={{ marginBottom: '10px', fontFamily: 'Playfair Display, serif', fontSize: '18px', color: '#000000', lineHeight: '1.6' }}>
+      <em>Base Notes:</em> Leather, Oud, Amber, Vetiver, Cedar, Myrrh, Tonka Bean, Vanilla, Patchouli
+    </li>
+  </ul>
+</div>
 
       <div style={{ margin: '1rem auto' }}>
         <AdSenseAd />
@@ -290,10 +313,16 @@ const HalfetiReview = () => {
       <p style={paragraphStyle}>
         My first encounter with Penhaligon's fragrances was when I received a tester set featuring a variety of scents from this iconic British perfume house. Among them, Halfeti stood out and quickly became a favorite for both my husband and I. As a unisex fragrance, it boasts a rich, exotic, and distinct aroma. The "Trade Routes" collection from Penhaligon's draws inspiration from various destinations, and although I've never visited Halfeti, Turkey, this particular fragrance transports me to what I imagine a warm and vibrant night bazaar might smell like.
       </p>
-
+      <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         Out of the many Penhaligon's perfumes I've tried, Halfeti is one that I've often chosen as a gift for other women, particularly older women as it is quite a mature scent, and it's the one I've personally depleted most frequently. Its uniqueness and relative obscurity often earn me compliments and inquisitive queries about the scent I'm wearing. I don’t gatekeep, but you sure can 😉
       </p>
+
+      <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
       <p style={paragraphStyle}>
         I recommend visiting a Penhaligon’s boutique or your nearest Nordstrom or Saks Fifth Avenue to experience Halfeti for yourself. It might be challenging to envision how the enchanting combination of notes comes together, but they do so in a bold and alluring manner that is simply irresistible. You’ll smell expensive with this deeply rich scent, and that is what you pay for with Penhaligon’s!
@@ -305,15 +334,15 @@ const HalfetiReview = () => {
 
       <h2 style={headingStyle}>❤️ Review & Recommendations</h2>
       <p style={paragraphStyle}>
-        <strong>Longevity:</strong> Halfeti boasts excellent longevity, lasting well throughout the day with just a few spritzes. The fragrance develops beautifully over time, revealing different facets while maintaining its captivating aroma.
+        <em>Longevity:</em> Halfeti boasts excellent longevity, lasting well throughout the day with just a few spritzes. The fragrance develops beautifully over time, revealing different facets while maintaining its captivating aroma.
       </p>
 
       <p style={paragraphStyle}>
-        <strong>Sillage:</strong> The sillage of Halfeti is moderate to heavy, enveloping you in a fragrant cloud that garners compliments wherever you go. It leaves a lasting impression without being overpowering, making it suitable for various occasions.
+        <em>Sillage:</em> The sillage of Halfeti is moderate to heavy, enveloping you in a fragrant cloud that garners compliments wherever you go. It leaves a lasting impression without being overpowering, making it suitable for various occasions.
       </p>
 
       <p style={paragraphStyle}>
-        <strong>Occasions and Seasonality:</strong> Halfeti's depth and warmth make it perfect for cooler seasons, and its boldness suits formal events or evenings when you want to make a statement.
+        <em>Occasions and Seasonality:</em> Halfeti's depth and warmth make it perfect for cooler seasons, and its boldness suits formal events or evenings when you want to make a statement.
       </p>
 
       <div style={{ margin: '1rem auto' }}>
@@ -337,6 +366,10 @@ const HalfetiReview = () => {
       <p style={paragraphStyle}>
         <strong>Value for Money:</strong> Given its complexity and longevity, Halfeti is a worthy indulgence for those who appreciate niche perfumery.
       </p>
+
+      <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
       <p style={paragraphStyle}>
         <strong>Who Would Enjoy It:</strong> A signature scent for the bold and adventurous, it's for those who aren't afraid to stand out. I personally feel like this is a more mature fragrance.
