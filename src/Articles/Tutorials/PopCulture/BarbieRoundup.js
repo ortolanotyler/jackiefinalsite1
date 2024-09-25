@@ -147,7 +147,7 @@ const captionStyle = {
   />
   <meta 
     property="og:image" 
-    content="https://jackiewyers.beauty/Images/Articles/BarbieRoundup/BarbieRoundupThumbnail.jpg" 
+    content="https://jackiewyers.beauty/Images/Articles/BarbieRoundup/BarbieCollabsThumbnail.jpg" 
   />
   <meta property="og:url" content="https://jackiewyers.beauty/barbie-roundup" />
   <meta property="og:type" content="article" />
@@ -160,7 +160,7 @@ const captionStyle = {
   />
   <meta 
     name="twitter:image" 
-    content="https://jackiewyers.beauty/Images/Articles/BarbieRoundup/BarbieRoundupThumbnail.jpg" 
+    content="https://jackiewyers.beauty/Images/Articles/BarbieRoundup/BarbieCollabsThumbnail.jpg" 
   />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -190,7 +190,7 @@ const captionStyle = {
         "@type": "BlogPosting",
         "headline": "Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀 - Jackie Wyers",
         "description": "Discover the best Barbie-inspired products and collectibles for adult fans in 2024. Explore iconic collaborations and must-have items curated by Jackie Wyers.",
-        "image": "https://jackiewyers.beauty/Images/Articles/BarbieRoundup/BarbieRoundupThumbnail.jpg",
+        "image": "https://jackiewyers.beauty/Images/Articles/BarbieRoundup/BarbieCollabsThumbnail.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -240,42 +240,20 @@ Wishlist"
 
 
 <p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
-All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+  All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
 </p>
 
 
 <div style={paragraphStyle}>
-
-<DropCap1 text="Hey Barbie Lovers! It’s Jackie and welcome Back to the Top 5 Barbie Products for Adult Barbie Fans! Ever since the early days of creating YouTube tutorials, Barbie—the world’s most iconic doll—has been a major inspiration to me. Surprisingly, I didn’t grow up surrounded by Barbie dolls. My best friend was a tomboy, and I felt shy sharing my love for Barbie’s pink, sparkly world. But as an adult, I’ve embraced my inner Barbie girl and am all things obsessed with her chic, feminine energy, fashion history, and the brand’s incredible product collaborations that capture the trends of every era. With the 2023 Barbie movie release and the whirlwind Barbiecore summer that followed, we saw countless Barbie product collaborations lighting up our feeds. Now that the initial movie buzz has simmered, I wanted to spotlight the most iconic Barbie collaborations of 2024—those that have stood the test of time and some exciting new releases. So, if you’re a die-hard Barbie fan, keep reading for my top five collector items and collabs that are perfect for adult Barbie lovers. And don’t forget to comment with your favorites or any collabs I missed!"
-/>
-
+  <DropCap1 text="Hey Barbie Lovers! It’s Jackie and welcome Back to the Top 5 Barbie Products for Adult Barbie Fans! Ever since the early days of creating YouTube tutorials, Barbie—the world’s most iconic doll—has been a major inspiration to me. Surprisingly, I didn’t grow up surrounded by Barbie dolls. My best friend was a tomboy, and I felt shy sharing my love for Barbie’s pink, sparkly world. But as an adult, I’ve embraced my inner Barbie girl and am all things obsessed with her chic, feminine energy, fashion history, and the brand’s incredible product collaborations that capture the trends of every era. With the 2023 Barbie movie release and the whirlwind Barbiecore summer that followed, we saw countless Barbie product collaborations lighting up our feeds. Now that the initial movie buzz has simmered, I wanted to spotlight the most iconic Barbie collaborations of 2024—those that have stood the test of time and some exciting new releases. So, if you’re a die-hard Barbie fan, keep reading for my top five collector items and collabs that are perfect for adult Barbie lovers. And don’t forget to comment with your favorites or any collabs I missed!" />
 </div>
 
 <p style={paragraphStyle}>
-Ever since the early days of creating YouTube
-tutorials, Barbie—the world’s most iconic doll—has
-been a major inspiration to me. Surprisingly, I didn’t
-grow up surrounded by Barbie dolls. My best friend
-was a tomboy, and I felt shy sharing my love for
-Barbie’s pink, sparkly world. But as an adult, I’ve
-embraced my inner Barbie girl and am all things
-obsessed with her chic, feminine energy, fashion
-history, and the brand’s incredible product
-collaborations that capture the trends of every era.
+  Ever since the early days of creating YouTube tutorials, <a href="https://barbie.mattel.com/" target="_blank" style={{ color: '#000000', textDecoration: 'underline' }}>Barbie—the world’s most iconic doll—</a> has been a major inspiration to me. Surprisingly, I didn’t grow up surrounded by Barbie dolls. My best friend was a tomboy, and I felt shy sharing my love for Barbie’s pink, sparkly world. But as an adult, I’ve embraced my inner Barbie girl and am all things obsessed with her chic, feminine energy, fashion history, and the brand’s incredible product collaborations that capture the trends of every era.
 </p>
 
 <p style={paragraphStyle}>
-With the 2023 Barbie movie release and the
-whirlwind Barbiecore summer that followed, we saw
-countless Barbie product collaborations lighting up
-our feeds. Now that the initial movie buzz has
-simmered, I wanted to spotlight the most iconic
-Barbie collaborations of 2024—those that have stood
-the test of time and some exciting new releases. So,
-if you’re a die-hard Barbie fan, keep reading for my
-top five collector items and collabs that are perfect
-for adult Barbie lovers. And don’t forget to comment
-with your favorites or any collabs I missed!
+  With the 2023 <a href="https://www.imdb.com/title/tt1517268/" target="_blank" style={{ color: '#000000', textDecoration: 'underline' }}>Barbie movie release</a> and the whirlwind Barbiecore summer that followed, we saw countless Barbie product collaborations lighting up our feeds. Now that the initial movie buzz has simmered, I wanted to spotlight the most iconic Barbie collaborations of 2024—those that have stood the test of time and some exciting new releases. So, if you’re a die-hard Barbie fan, keep reading for my top five collector items and collabs that are perfect for adult Barbie lovers. And don’t forget to comment with your favorites or any collabs I missed!
 </p>
 
 
@@ -288,18 +266,7 @@ with your favorites or any collabs I missed!
 </h2>
 
 <p style={paragraphStyle}>
-If you’re obsessed with Barbie’s fashion evolution,
-you need the "Barbie: The World Tour' book on your
-coffee table. The Barbie Press Tour was an absolute
-style moment, with stunning looks by stylist Andrew
-Mukamal worn by the talented Margot Robbie. The
-book showcases everything a Barbie lover dreams of,
-from vintage illustrations from the Mattel archives to
-modern takes on iconic outfits, all captured in
-stunning photography by Craig McDean. This book
-not only celebrates Barbie’s fashion history but also
-doubles as a chic decor piece. Trust me, flipping
-through these pages will inspire your next outfit
+  If you’re obsessed with Barbie’s fashion evolution, you need the "Barbie: The World Tour' book on your coffee table. The Barbie Press Tour was an absolute style moment, with stunning looks by stylist Andrew Mukamal worn by the talented <a href="https://www.imdb.com/name/nm3053338/" target="_blank" style={{ color: '#000000', textDecoration: 'underline' }}>Margot Robbie</a>. The book showcases everything a Barbie lover dreams of, from <a href="https://www.officetimeline.com/blog/history-of-barbie-timeline" target="_blank" style={{ color: '#000000', textDecoration: 'underline' }}>vintage illustrations from the Mattel archives</a> to modern takes on iconic outfits, all captured in stunning photography by Craig McDean. This book not only celebrates Barbie’s fashion history but also doubles as a chic decor piece. Trust me, flipping through these pages will inspire your next outfit
 </p>
 
 <div style = {{textAlign: 'center',margin: "0 auto"}}>
@@ -324,8 +291,19 @@ through these pages will inspire your next outfit
 </h2>
 
 <p style={paragraphStyle}>
-  Two iconic brands teamed up to create the ultimate hydration accessory for Barbie lovers: Stanley x Barbie tumblers. Released for Barbie’s 65th anniversary, these tumblers feature designs inspired by iconic Barbie dolls and are as practical as they are pretty. From the unboxing experience that feels like opening a giant Barbie doll to the high-quality tumblers that keep your drinks cool, this collaboration is every Barbie fan’s dream.
+  Two iconic brands teamed up to create the ultimate hydration accessory for Barbie lovers: <a href="https://ca.stanley1913.com/collections/barbie-x-stanley" target="_blank" style={{ color: '#000000', textDecoration: 'underline' }}>Stanley x Barbie tumblers</a>. Released for Barbie’s 65th anniversary, these tumblers feature designs inspired by iconic Barbie dolls and are as practical as they are pretty. From the unboxing experience that feels like opening a giant Barbie doll to the high-quality tumblers that keep your drinks cool, this collaboration is every Barbie fan’s dream.
 </p>
+
+<div style={{ textAlign: 'center', margin: '0 auto' }}>
+  <iframe
+    style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
+    src="https://www.youtube.com/embed/NPuNSb80jVQ"
+    title="Barbie x Stanley tumblers"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
 
 <p style={paragraphStyle}>
   My personal faves? The Just Peachy design and the classic pink tumbler with the Barbie logo—they’re perfect for adding a little glam to your everyday hydration routine. At $60 USD, they’re an investment, but the joy of sipping from a Barbie-themed Stanley cup is totally worth it. Check out my full unboxing video above to see the magic unfold!
@@ -336,7 +314,14 @@ through these pages will inspire your next outfit
 
 
 <p style={paragraphStyle}>
-  Want a closer look at Barbie inspired makeup looks? See article here!
+  Want a closer look at Barbie inspired makeup looks? 
+  <a href="/barbie-doll" target="_blank" style={{ color: '#000000', textDecoration: 'italic' }}>
+    See article here!
+  </a>
+</p>
+
+<p style={paragraphStyle}>
+  Check out the official <a href="https://creations.mattel.com/products/barbie-in-inline-skating-outfit-barbie-the-movie-hrb04" target="_blank" style={{ color: '#000000', textDecoration: 'underline' }}>Mattel Roller Skate Barbie</a> inspired by the movie.
 </p>
 
 <div style={gridContainerStyle}>
@@ -348,7 +333,7 @@ through these pages will inspire your next outfit
 </h2>
 
 <p style={paragraphStyle}>
-  Silkstone Barbies are the crown jewels of adult Barbie collectibles, blending timeless elegance with the fashion-forward aesthetic we adore. Unlike regular Barbies, Silkstones are made from a unique material that gives them a porcelain-like finish, and their outfits are nothing short of runway-worthy. These dolls often come with intricate, vintage-inspired fashions that are total wardrobe goals. One of my all-time favorite finds is the Highland Fling Barbie with her stunning plaid ensemble—she’s like a mini fashion icon on my shelf!
+  <a href="https://www.myvintagebarbies.com/silkstonebarbies.htm" target="_blank" style={{ color: '#000000', textDecoration: 'underline' }}>Silkstone Barbies</a> are the crown jewels of adult Barbie collectibles, blending timeless elegance with the fashion-forward aesthetic we adore. Unlike regular Barbies, Silkstones are made from a unique material that gives them a porcelain-like finish, and their outfits are nothing short of runway-worthy. These dolls often come with intricate, vintage-inspired fashions that are total wardrobe goals. One of my all-time favorite finds is the Highland Fling Barbie with her stunning plaid ensemble—she’s like a mini fashion icon on my shelf!
 </p>
 
 <div style={gridContainerStyle}>
@@ -359,7 +344,7 @@ through these pages will inspire your next outfit
   While Silkstones can be pricey, they’re a worthy investment for true Barbie enthusiasts. I’ve found some gems through thrifting, and they’re also beautifully featured in the Barbie: The World Tour' Book. So, if you’re up for the hunt, keep an eye out for these stunning collectibles!
 </p>
 
-<ResponsiveIframe title="null" src="https://shopmy.us/collections/public/833105?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}/>
+<ResponsiveIframe title="null" src="https://shopmy.us/collections/public/833105?noHeader=true" style={{ width: '100%', minHeight: '1500px', border: 'none' }}/>
 
 
 <h2 style={headingStyle}>
@@ -442,14 +427,14 @@ through these pages will inspire your next outfit
   Kitsch x Barbie Hair Accessories: I can’t get enough of my Barbie claw clip and heatless curlers—they make every day feel a bit more fabulous.
 </p>
 
-<ResponsiveIframe title="null" src="https://shopmy.us/collections/public/833940?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}/>
+<ResponsiveIframe title="null" src="https://shopmy.us/collections/public/833940?noHeader=true" style={{ width: '100%', minHeight: '1500px', border: 'none' }}/>
 
 
 <p style={paragraphStyle}>
   Hillary MacMillian x Barbie Ready-to-Wear: With sizes ranging from XS to 4X, celebrate Barbie through the decades with high quality fashion. The brand focuses on cruelty-free materials in bold colours and exceptional textures, with 60% of production happening in Canada. This Barbie collaboration is all about celebrating every body with fun, fashionable, and feel-good pieces.
 </p>
 
-<ResponsiveIframe title="null" src="https://shopmy.us/collections/public/832615?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}/>
+<ResponsiveIframe title="null" src="https://shopmy.us/collections/public/832615?noHeader=true" style={{ width: '100%', minHeight: '1500px', border: 'none' }}/>
 
 
 <p style={paragraphStyle}>
