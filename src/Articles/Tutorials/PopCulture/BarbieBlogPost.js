@@ -419,7 +419,7 @@ NYX’s makeup collab with Barbie for more pink lip combos!
 </div>
 
 <p style={paragraphStyle}>
-  Want to be featured on my site? Submit your recreation or version of this look <a href="https://jackiewyers.beauty/submit" target="_blank" rel="noopener noreferrer" style={linkStyle}>here</a>. I’d love to see you switch up your style with confidence!
+  Want to be featured on my site? Submit your recreation or version of this look to my Insta! I’d love to see you switch up your style with confidence!
 </p>
 
      
