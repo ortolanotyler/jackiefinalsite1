@@ -471,7 +471,7 @@ fall outfit!
 <p style={captionStyle}>
 Original Makeup and Hair Styling not specifically
 credited, with the dress designed by Yves Saint Laurent
-for the Spring-Summer 1999 Haute Couture collection,
+for the <a style={linkStyle} href="https://www.youtube.com/watch?v=zYLHCdbO5Uk" target="_blank" rel="noreferrer"> Spring-Summer 1999 Haute Couture collection </a>,
 modelled by Laetitia Casta. Recreation by Jackie Wyers.
 </p>
 
