@@ -10,7 +10,6 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import PollComponent from '../../../Components/PollComponent1';
-import HorizontalLine from '../../../Components/HorizontalLine';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Halloween/1.jpeg`;
@@ -91,7 +90,7 @@ const imageStyle = {
   display: 'block',
   margin: '1rem auto',
   borderRadius: '0px',
-  maxWidth: '500px',
+  maxWidth: '100%',
   height: 'auto'
 };
 
@@ -188,7 +187,7 @@ const captionStyle = {
         </a>
       </div>
 
-<HorizontalLine/>
+
   <ArticleTitle
   mainTitle="Girly Pop Culture Halloween
 Costume Ideas 2024🎀"
@@ -228,7 +227,7 @@ down all the makeup, hair, and outfit details.
   <AdSenseAd/>
 </div>
 
-<HorizontalLine/>
+
 
 <p style={paragraphStyle}>
   The best part? These looks are not just for Halloween—they’re super wearable all year round (well, maybe not all the outfits, lol). Let’s dive in and find the perfect costume to make your Halloween unforgettable.
