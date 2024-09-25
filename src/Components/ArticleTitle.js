@@ -26,7 +26,7 @@ const styles = {
     textAlign: 'left', // Align the text to the left
     marginBottom: '10px',
     maxWidth: '1000px', // Optional: limit the width of the container if needed
-    padding: '0',
+    margin: '0 5px',
 
   },
   mainTitle: {
