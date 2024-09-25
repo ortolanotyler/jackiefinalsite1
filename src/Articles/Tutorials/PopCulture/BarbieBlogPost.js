@@ -12,7 +12,7 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 
  
 
-const Barbie2 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/MARGOBARBIETHUMBNAIL.png`;
+const Barbie2 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/Barbie2.JPG`;
 const barbienew = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/barbienew.jpeg`;
 const Barbie3 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/Barbie3.jpeg`;
 const Barbie4 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/BarbieFaceChart.jpg`;
