@@ -314,7 +314,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <p style={paragraphStyle}>
-  For even better nighttime images, I’d recommend the <a style={linkStyle} href="https://www.canon.com/cameras/powershot-g7-x" target="_blank" rel="noreferrer">Canon G7x</a> with flash for very crisp photos that have a bit of a retro feel. This style of photo has been growing in popularity on social media, especially for vacation pictures.
+  For even better nighttime images, I’d recommend the Canon G7x with flash for very crisp photos that have a bit of a retro feel. This style of photo has been growing in popularity on social media, especially for vacation pictures.
 </p>
 
 <div style={gridContainerStyle}>
