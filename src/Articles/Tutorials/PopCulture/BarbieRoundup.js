@@ -406,34 +406,29 @@ With the 2023 Barbie movie release and the whirlwind Barbiecore summer that foll
 <p style={paragraphStyle}>
   Can’t get enough Barbie? Here are a few more fabulous collaborations to keep on your radar:
 </p>
-
 <p style={paragraphStyle}>
-  Barefoot Dreams x Barbie: Cozy meets chic in this luxury collection that’s on my wish list. It’s pricey, but the snuggly factor is off the charts! This has been on my wish list for quite some time.
+  <strong>Barefoot Dreams x Barbie</strong>: Cozy meets chic in this luxury collection that’s on my wish list. It’s pricey, but the snuggly factor is off the charts! This has been on my wish list for quite some time.
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/833931?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}/>
 
-
 <p style={paragraphStyle}>
-  BARBIE™ X SOL KYST: This collaboration redefines size inclusivity by bringing it to where it matters most—the face! Mini, Midi, and Wide—designed to fit and flatter various face shapes. The collection includes premium materials such as acetate frames and nylon polarized lenses, ensuring both comfort and stylish. The styles are so retro and fun!
+  <em>BARBIE™ X SOL KYST</em>: This collaboration redefines size inclusivity by bringing it to where it matters most—the face! Mini, Midi, and Wide—designed to fit and flatter various face shapes. The collection includes premium materials such as acetate frames and nylon polarized lenses, ensuring both comfort and stylish. The styles are so retro and fun!
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/832605?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}/>
 
-
 <p style={paragraphStyle}>
-  Barbie On-the-Go Hair Kit: Perfect for the hair enthusiasts, this set features the cutest Barbie-themed styling tools and accessories in the funkiest totally hair barbie print.
+  <em>Barbie On-the-Go Hair Kit</em>: Perfect for the hair enthusiasts, this set features the cutest Barbie-themed styling tools and accessories in the funkiest totally hair barbie print.
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/833939?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}/>
 
-
 <p style={paragraphStyle}>
-  Kitsch x Barbie Hair Accessories: I can’t get enough of my Barbie claw clip and heatless curlers—they make every day feel a bit more fabulous.
+  <em>Kitsch x Barbie Hair Accessories</em>: I can’t get enough of my Barbie claw clip and heatless curlers—they make every day feel a bit more fabulous.
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/833940?noHeader=true" style={{ width: '100%', minHeight: '1500px', border: 'none' }}/>
-
 
 <p style={paragraphStyle}>
   Hillary MacMillian x Barbie Ready-to-Wear: With sizes ranging from XS to 4X, celebrate Barbie through the decades with high quality fashion. The brand focuses on cruelty-free materials in bold colours and exceptional textures, with 60% of production happening in Canada. This Barbie collaboration is all about celebrating every body with fun, fashionable, and feel-good pieces.
