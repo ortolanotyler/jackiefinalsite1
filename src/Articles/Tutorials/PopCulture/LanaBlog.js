@@ -19,18 +19,18 @@ const Lana23 = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEBRIDAL.jpeg`;
 
 const Card = ({ blogContent }) => (
-  <div
-    style={{
-      padding: '10px 20px', // Existing padding
-      margin: '1rem auto',
-      maxWidth: '800px', // Control max width to center the content
-      padding: '10px', // Add padding to prevent text from touching the edges
-    }}
-  >
+ 
+  <div style={{
+    padding: '10px 20px', // Consistent padding to prevent content from touching edges
+    margin: '0 auto',
+  }}>
+
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
-  </div>
+    </div>
+
+  
 );
 
 const LanaBlog = () => {
@@ -70,10 +70,10 @@ const paragraphStyle = {
   fontSize: '22px',
   color: '#000000',
 
-  fontFamily: 'Georgia, serif',
-  fontWeight: 'regular',
+  fontFamily: 'Playfair Display, serif',
+  fontWeight: '100',
 
-  margin: '2rem auto',
+  margin: '0 auto',
 
   maxWidth: '500px', // Consistent with the other paragraphs
   lineHeight: '1.6',
@@ -122,8 +122,8 @@ const iframeStyle = {
 
 const captionStyle = {
   textAlign: 'center',
-  fontSize: '1.1rem',
-  fontFamily: 'Raleway, serif',
+  fontSize: '1rem',
+  fontFamily: 'GFS Didot, sans serif',
   fontWeight: 'normal',
   margin: '1rem auto',
   maxWidth: '100%',
