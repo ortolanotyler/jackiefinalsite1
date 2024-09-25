@@ -273,9 +273,6 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   Whether you’re channeling the vibrant 90s vibes of Roller Skate Barbie, embracing the sweet nostalgia of Cherry Pie Picnic Barbie, or exuding the timeless elegance of the Original Barbie, these stunning makeup looks will help you bring your inner doll to life. Go all out for a real-life doll transformation or keep it subtle for a Barbie IRL vibe—perfect for Halloween, themed parties, or any day you feel like living your best Barbie life. These looks blend vintage inspiration with a modern twist, inviting you to step into Barbie’s world of fun and fashion. So, grab your makeup brushes and get ready to doll up—because there’s a Barbie look for everyone!
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
 
 <h2 style={headingStyle}>
   🍑 🎀 Peaches ‘N Cream Barbie Aesthetic 🍑 🎀
@@ -284,6 +281,9 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   Recreate the dreamy style of Peaches ‘N Cream Barbie, one of the most iconic dolls of the 80s, known for her soft pastel palette and glamorous, romantic vibe. Peaches ‘N Cream Barbie became an instant classic with her stunning chiffon gown, delicate accessories, and unforgettable makeup, making her one of the most beloved and sought-after Barbies of all time. For my rendition of this look, I drew inspiration from the doll’s pastel purple eyeshadow, coral-orange cheeks, and lips, and for the hair, I pulled inspiration from the vintage Barbie illustration by the late Mary Christine Tuveson (Chris Tuveson) as seen on the new Stanley x Barbie Just Peachy packaging. Together, these influences create a style that echoes the 60s, reminiscent of Sharon Tate’s beautiful bridal look. See a breakdown of this look here—one of my favourites!
 </p>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
 <div style={gridContainerStyle}>
   <img src={image2} alt="Jackie Wyers as Peaches ’N Cream Barbie Makeup" style={imageStyle} />
@@ -301,6 +301,10 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={captionStyle}>
   Soft curls, pastel purple eyeshadow, peachy cheeks and lips, delicate pink bows, and floral accents.
 </p>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
+
 <h2 style={heading2Style}>
   Shop The Barbie, Shop The Style:
 </h2>
@@ -323,6 +327,10 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <div style={gridContainerStyle}>
   <img src={image3} alt="Jackie Wyers as Roller Skate Barbie" style={imageStyle} />
 </div>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
+
 <h2 style={heading2Style}>
   Watch My Take on Roller Skate Barbie’s Makeup Here:
 </h2>
@@ -341,6 +349,10 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={captionStyle}>
   Pink lips, defined eyes and brows, voluminous hair with a visor, and bright neon accessories.
 </p>
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
+
 <h2 style={heading2Style}>
   Shop The Barbie, Shop The Style:
 </h2>
