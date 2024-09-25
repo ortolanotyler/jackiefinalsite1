@@ -49,7 +49,7 @@ const Card = ({ blogContent }) => (
   <div
     style={{
       padding: '10px 20px', // Existing padding
-      margin: '1rem 1rem',
+      margin: '0 auto',
       maxWidth: '800px', // Control max width to center the content
       padding: '10px', // Add padding to prevent text from touching the edges
     }}
