@@ -19,20 +19,22 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
  
  
-  const Card = ({ blogContent }) => (
-    <div
-      style={{
-        padding: '10px 20px', // Existing padding
-        margin: '1rem auto',
-        maxWidth: '800px', // Control max width to center the content
-        padding: '10px', // Add padding to prevent text from touching the edges
-      }}
-    >
-      <div className="card">
-        <div className="blog-content">{blogContent}</div>
-      </div>
+
+const Card = ({ blogContent }) => (
+  <div
+    style={{
+      padding: '10px 20px', // Existing padding
+      margin: '1rem auto',
+      maxWidth: '800px', // Control max width to center the content
+      padding: '10px', // Add padding to prevent text from touching the edges
+    }}
+  >
+    <div className="card">
+      <div className="blog-content">{blogContent}</div>
     </div>
-  );
+  </div>
+);
+
 
 const Yardley65 = () => {
 
@@ -49,8 +51,8 @@ const blogRef = useRef(null);
 const headingStyle = {
   textAlign: 'center',
   fontSize: '2.5rem',
-  fontWeight: 'normal',
-  fontFamily: 'GFS Didot, serif',
+  fontWeight: '100',
+  fontFamily: 'Playfair Display, serif',
   color: '#000000',
   margin: '30px auto'
 };
@@ -60,7 +62,9 @@ const paragraphStyle = {
 fontSize: '22px',
 color: '#000000',
 
-fontFamily: 'GFS Didot, serif',
+fontFamily: 'Georgia, serif',
+fontWeight: 'regular',
+
 margin: '2rem auto',
 
 maxWidth: '500px', // Consistent with the other paragraphs
@@ -71,7 +75,7 @@ marginRight: 'auto',
 
 const linkStyle = {
 textDecoration: 'none', // Removes underline from links
-fontFamily: 'GFS Didot, serif',
+fontFamily: 'Playfair Display, serif',
 color: '#000000', // Inherits the color of the surrounding text
 };
 
@@ -109,11 +113,14 @@ scrolling: 'no',
 const captionStyle = {
 textAlign: 'center',
 fontSize: '1.1rem',
-fontFamily: 'Playfair Display, serif',
+fontFamily: 'Raleway, serif',
+fontWeight: 'normal',
 margin: '1rem auto',
 maxWidth: '100%',
 fontStyle: 'italic',
 };
+
+
 
 
 

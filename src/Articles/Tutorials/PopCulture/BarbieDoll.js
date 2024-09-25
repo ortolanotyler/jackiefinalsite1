@@ -26,10 +26,10 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
   <div
     style={{
-      padding: '0 1rem', // Consistent padding to prevent content from touching edges
-      margin: '0 auto',
-      maxWidth: '95%', // Use percentage for responsive scaling
-      boxSizing: 'border-box', // Include padding in width calculations
+      padding: '10px 20px', // Existing padding
+      margin: '1rem auto',
+      maxWidth: '800px', // Control max width to center the content
+      padding: '10px', // Add padding to prevent text from touching the edges
     }}
   >
     <div className="card">
@@ -64,54 +64,71 @@ const BarbieDoll = () => {
     fontWeight: '100',
     fontFamily: 'Playfair Display, serif',
     color: '#000000',
-    margin: '10px auto',
-    maxWidth: '100%', // Adjust max width for responsiveness
-  };
+    margin: '30px auto'
+};
 
-  const paragraphStyle = {
-    fontSize: '22px',
-    color: '#000000',
-    fontFamily: 'Playfair Display, serif',
-    fontWeight: '100',
-    margin: '0 auto',
-    lineHeight: '1.6',
-    margin: '0 auto',
-    padding: '1rem 1rem', // Add padding to prevent cutoff
-    boxSizing: 'border-box', // Include padding in the width
-  };
 
-  const linkStyle = {
-    textDecoration: 'none',
-    fontFamily: 'Playfair Display, serif',
-    color: '#000000',
-  };
+const paragraphStyle = {
+  fontSize: '22px',
+  color: '#000000',
 
-  const gridContainerStyle = {
+  fontFamily: 'Georgia, serif',
+  fontWeight: 'regular',
+
+  margin: '2rem auto',
+
+  maxWidth: '500px', // Consistent with the other paragraphs
+  lineHeight: '1.6',
+  marginLeft: 'auto',
+  marginRight: 'auto',
+};
+
+const linkStyle = {
+  textDecoration: 'none', // Removes underline from links
+  fontFamily: 'Playfair Display, serif',
+  color: '#000000', // Inherits the color of the surrounding text
+};
+
+const gridContainerStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-    gap: '1rem',
-    margin: '1rem auto',
-    boxSizing: 'border-box',
-  };
+    gap: '10px',
+    margin: '1rem auto'
+};
 
-  const imageStyle = {
-    display: 'block',
-    margin: '1rem auto',
-    borderRadius: '0px',
-    height: 'auto',
-  };
+const imageStyle = {
+  display: 'block',
+  margin: '1rem auto',
+  borderRadius: '0px',
+  maxWidth: '500px',
+  height: 'auto'
+};
 
-  const captionStyle = {
-    textAlign: 'center',
-    fontSize: '1rem',
-    fontFamily: 'GFS Didot, sans-serif',
-    fontWeight: 'normal',
-    margin: '1rem auto',
- 
-    fontStyle: 'italic',
-    padding: '0 20px', // Add padding for readability
-    boxSizing: 'border-box',
-  };
+const pinterestGridStyle = {
+  display: 'grid',
+  gap: '1rem',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+  justifyItems: 'center',
+  margin: '1rem 0',
+};
+
+const iframeStyle = {
+  width: '100%',
+  maxWidth: '236px',
+  height: '520px', // Maintains original height
+  border: 'none',
+  scrolling: 'no',
+};
+
+const captionStyle = {
+  textAlign: 'center',
+  fontSize: '1.1rem',
+  fontFamily: 'Raleway, serif',
+  fontWeight: 'normal',
+  margin: '1rem auto',
+  maxWidth: '100%',
+  fontStyle: 'italic',
+};
 
 
 
@@ -484,6 +501,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
+
 
 <p style={paragraphStyle}>
   Each look captures the essence of iconic Barbie styles and provides a unique and stylish option for Halloween, themed events, or even everyday wear if you’re ready to serve Barbiecore! Whether you’re drawn to vintage vibes, modern twists, or classic Barbie glamour, these makeup looks help you channel your inner doll in a fun and fashionable way. While I recreated looks inspired by the white and blonde Barbie, Barbie’s world has beautifully evolved to celebrate diversity in <a href="https://www.barbie.com/en-us/diversity" style={linkStyle}>skin tones, body types, and styles</a>. I hope these makeup looks inspire you to rock these styles in a way that is uniquely you! Which is your favorite makeup look? I hope these photos sparked some inspiration, and if there’s a favorite Barbie I didn’t cover, <a href="https://www.barbie.com/en-us/diversity" style={linkStyle}>comment below</a>—I’d love to hear from you!

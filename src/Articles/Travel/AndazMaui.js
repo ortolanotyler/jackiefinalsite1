@@ -77,7 +77,7 @@ const heading2Style = {
   fontFamily: 'Playfair Display, serif',
   color: '#000000',
   margin: '30px auto',
-  maxWidth: '100%', // Allow space for margins
+  maxWidth: '90%', // Allow space for margins
 };
 
 const headingStyle = {
@@ -86,8 +86,8 @@ const headingStyle = {
   fontWeight: '100',
   fontFamily: 'Playfair Display, serif',
   color: '#000000',
-  margin: '10px auto',
-  maxWidth: '100%', // Adjust max width for responsiveness
+  margin: '30px auto',
+  maxWidth: '90%', // Adjust max width for responsiveness
 };
 
 const paragraphStyle = {
@@ -134,7 +134,6 @@ const captionStyle = {
   padding: '0 20px', // Add padding for readability
   boxSizing: 'border-box',
 };
-
 
 
     const blogContent = (
