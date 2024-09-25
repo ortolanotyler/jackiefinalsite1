@@ -39,20 +39,19 @@ const title = `${process.env.PUBLIC_URL}/Images/Articles/Fable/FableTitle.png`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const aukland =  `${process.env.PUBLIC_URL}/Images/Articles/NewZealand/NZThumbnail.jpg`;
 
-const Card = ({ blogContent }) => (
-  <div
-    style={{
-      padding: '10px 20px', // Existing padding
-      margin: '1rem auto',
-      maxWidth: '800px', // Control max width to center the content
-      padding: '10px', // Add padding to prevent text from touching the edges
-    }}
-  >
-    <div className="card">
-      <div className="blog-content">{blogContent}</div>
+  const Card = ({ blogContent }) => (
+    <div
+      style={{
+        margin: '0 auto',
+        maxWidth: '95%', // Control max width to center the content
+        padding: '10px', // Add padding to prevent text from touching the edges
+      }}
+    >
+      <div className="card">
+        <div className="blog-content">{blogContent}</div>
+      </div>
     </div>
-  </div>
-);
+  );
 
 const Fable = () => {
     const websiteId = '10910';
@@ -74,79 +73,79 @@ const Fable = () => {
       margin: '30px auto',
       maxWidth: '100%', // Allow space for margins
     };
-    const headingStyle = {
-      textAlign: 'center',
-      fontSize: '2.5rem',
-      fontWeight: '100',
-      fontFamily: 'Playfair Display, serif',
-      color: '#000000',
-      margin: '30px auto'
-  };
-  
-  
-  const paragraphStyle = {
-    fontSize: '22px',
-    color: '#000000',
-  
-    fontFamily: 'Georgia, serif',
-    fontWeight: 'regular',
-  
-    margin: '2rem auto',
-  
-    maxWidth: '500px', // Consistent with the other paragraphs
-    lineHeight: '1.6',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-  };
-  
-  const linkStyle = {
-    textDecoration: 'none', // Removes underline from links
-    fontFamily: 'Playfair Display, serif',
-    color: '#000000', // Inherits the color of the surrounding text
-  };
-  
-  const gridContainerStyle = {
-      display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-      gap: '10px',
-      margin: '1rem auto'
-  };
-  
-  const imageStyle = {
-    display: 'block',
-    margin: '1rem auto',
-    borderRadius: '0px',
-    maxWidth: '500px',
-    height: 'auto'
-  };
-  
-  const pinterestGridStyle = {
-    display: 'grid',
-    gap: '1rem',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
-    justifyItems: 'center',
-    margin: '1rem 0',
-  };
-  
-  const iframeStyle = {
-    width: '100%',
-    maxWidth: '236px',
-    height: '520px', // Maintains original height
-    border: 'none',
-    scrolling: 'no',
-  };
-  
-  const captionStyle = {
+  const headingStyle = {
     textAlign: 'center',
-    fontSize: '1.1rem',
-    fontFamily: 'Raleway, serif',
-    fontWeight: 'normal',
-    margin: '1rem auto',
-    maxWidth: '100%',
-    fontStyle: 'italic',
-  };
-  
-  
+    fontSize: '2.5rem',
+    fontWeight: '100',
+    fontFamily: 'Playfair Display, serif',
+    color: '#000000',
+    maxWidth: '95%',
+
+    margin: '30px auto'
+};
+
+
+const paragraphStyle = {
+  fontSize: '22px',
+  color: '#000000',
+
+  fontFamily: 'Georgia, serif',
+  fontWeight: 'regular',
+
+  margin: '1rem 1rem',
+
+  maxWidth: '95%',
+    lineHeight: '1.6',
+
+};
+
+const linkStyle = {
+  textDecoration: 'none', // Removes underline from links
+  fontFamily: 'Playfair Display, serif',
+  color: '#000000', // Inherits the color of the surrounding text
+};
+
+const gridContainerStyle = {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+    gap: '10px',
+    maxWidth: '95%',
+    margin: '1rem auto'
+};
+
+const imageStyle = {
+  display: 'block',
+  margin: '1rem auto',
+  borderRadius: '0px',
+  maxWidth: '95%',
+  height: 'auto'
+};
+
+const pinterestGridStyle = {
+  display: 'grid',
+  gap: '1rem',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+  justifyItems: 'center',
+  margin: '1rem 0',
+};
+
+const iframeStyle = {
+  width: '100%',
+  maxWidth: '95%',
+  height: '520px', // Maintains original height
+  border: 'none',
+  scrolling: 'no',
+};
+
+const captionStyle = {
+  textAlign: 'center',
+  fontSize: '1.1rem',
+  fontFamily: 'Raleway, serif',
+  fontWeight: 'normal',
+  margin: '1rem auto',
+  maxWidth: '95%',
+  fontStyle: 'italic',
+};
 
     const blogContent = (
         <div className="container">
