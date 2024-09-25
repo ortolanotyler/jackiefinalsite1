@@ -121,6 +121,7 @@ import FanArt from './About/FanArtGallery';
 import Halloween from './Articles/Tutorials/PopCulture/Halloween';
 import Brussels from './Articles/Travel/Brussels';
 import BarbieDoll from './Articles/Tutorials/PopCulture/BarbieDoll';
+import BarbieRoundup from './Articles/Tutorials/PopCulture/BarbieRoundup';
 function usePageTracking() {
   const location = useLocation();
 
@@ -266,6 +267,7 @@ function App() {
             <Route path="girly-pop-halloween" element={<Halloween />} />
             <Route path="paris-brussels-travel-guide" element={<Brussels />} />
             <Route path="barbie-doll" element={<BarbieDoll />} />
+            <Route path="barbie-roundup" element={<BarbieRoundup />} />
 
             <Route path="*" element={<h1>404 Not Found</h1>} />
           </Route>
