@@ -64,7 +64,9 @@ const Halloween = () => {
     fontWeight: '100',
     fontFamily: 'Playfair Display, serif',
     color: '#000000',
-    margin: '30px auto'
+    margin: '30px auto',
+    maxWidth: '100%', // Allow space for margins
+
 };
 
 

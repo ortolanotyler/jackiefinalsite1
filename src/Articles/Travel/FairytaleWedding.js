@@ -175,7 +175,6 @@ const captionStyle = {
 
 
 
-
   const blogContent = (
     <div className="container">
 <Helmet>
