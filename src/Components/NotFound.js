@@ -34,7 +34,7 @@ const NotFound = () => {
           color: '#3a3a3a',
         }}
       >
-        Oops! The page you're looking for doesn't exist.
+        This is awkward! The page you're looking for doesn't exist. Let's get you home
       </Typography>
       <Button
         component={Link}
