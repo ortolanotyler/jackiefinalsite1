@@ -68,7 +68,7 @@ const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',
     fontWeight: '100',
-    fontFamily: 'Playfair Display, serif',
+    fontFamily: 'Lora, sans-serif',
     color: '#000000',
     margin: '30px auto'
 };
