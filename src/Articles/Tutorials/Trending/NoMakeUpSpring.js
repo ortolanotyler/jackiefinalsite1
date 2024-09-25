@@ -23,9 +23,8 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
   <div
     style={{
-      padding: '10px 20px', // Existing padding
-      margin: '1rem auto',
-      maxWidth: '800px', // Control max width to center the content
+      margin: '0 auto',
+      maxWidth: '95%', // Control max width to center the content
       padding: '10px', // Add padding to prevent text from touching the edges
     }}
   >
@@ -34,7 +33,7 @@ const Card = ({ blogContent }) => (
     </div>
   </div>
 );
-  
+
   const NoMakeUpSpring = () => {
   
     useEffect(() => {
@@ -50,9 +49,11 @@ const Card = ({ blogContent }) => (
     const headingStyle = {
       textAlign: 'center',
       fontSize: '2.5rem',
-      fontWeight: 'normal',
-      fontFamily: 'GFS Didot, serif',
+      fontWeight: '100',
+      fontFamily: 'Playfair Display, serif',
       color: '#000000',
+      maxWidth: '95%',
+  
       margin: '30px auto'
   };
   
@@ -61,18 +62,19 @@ const Card = ({ blogContent }) => (
     fontSize: '22px',
     color: '#000000',
   
-    fontFamily: 'GFS Didot, serif',
-    margin: '2rem auto',
+    fontFamily: 'Georgia, serif',
+    fontWeight: 'regular',
   
-    maxWidth: '500px', // Consistent with the other paragraphs
-    lineHeight: '1.6',
-    marginLeft: 'auto',
-    marginRight: 'auto',
+    margin: '1rem 1rem',
+  
+    maxWidth: '95%',
+      lineHeight: '1.6',
+  
   };
   
   const linkStyle = {
     textDecoration: 'none', // Removes underline from links
-    fontFamily: 'GFS Didot, serif',
+    fontFamily: 'Playfair Display, serif',
     color: '#000000', // Inherits the color of the surrounding text
   };
   
@@ -80,14 +82,15 @@ const Card = ({ blogContent }) => (
       display: 'grid',
       gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
       gap: '10px',
-      margin: '1rem auto'
+      maxWidth: '95%',
+      margin: '0 2rem'
   };
   
   const imageStyle = {
     display: 'block',
     margin: '1rem auto',
     borderRadius: '0px',
-    maxWidth: '500px',
+    maxWidth: '95%',
     height: 'auto'
   };
   
@@ -101,7 +104,7 @@ const Card = ({ blogContent }) => (
   
   const iframeStyle = {
     width: '100%',
-    maxWidth: '236px',
+    maxWidth: '95%',
     height: '520px', // Maintains original height
     border: 'none',
     scrolling: 'no',
@@ -110,11 +113,13 @@ const Card = ({ blogContent }) => (
   const captionStyle = {
     textAlign: 'center',
     fontSize: '1.1rem',
-    fontFamily: 'Playfair Display, serif',
-    margin: '1rem auto',
-    maxWidth: '100%',
+    fontFamily: 'Raleway, serif',
+    fontWeight: 'normal',
+    margin: '0 auto',
+    maxWidth: '85%',
     fontStyle: 'italic',
   };
+  
   
   
 

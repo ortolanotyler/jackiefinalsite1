@@ -23,9 +23,8 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
   <div
     style={{
-      padding: '10px 20px', // Existing padding
-      margin: '1rem auto',
-      maxWidth: '800px', // Control max width to center the content
+      margin: '0 auto',
+      maxWidth: '95%', // Control max width to center the content
       padding: '10px', // Add padding to prevent text from touching the edges
     }}
   >
@@ -54,6 +53,8 @@ const headingStyle = {
   fontWeight: '100',
   fontFamily: 'Playfair Display, serif',
   color: '#000000',
+  maxWidth: '95%',
+
   margin: '30px auto'
 };
 
@@ -65,12 +66,11 @@ color: '#000000',
 fontFamily: 'Georgia, serif',
 fontWeight: 'regular',
 
-margin: '2rem auto',
+margin: '1rem 1rem',
 
-maxWidth: '500px', // Consistent with the other paragraphs
-lineHeight: '1.6',
-marginLeft: 'auto',
-marginRight: 'auto',
+maxWidth: '95%',
+  lineHeight: '1.6',
+
 };
 
 const linkStyle = {
@@ -83,14 +83,15 @@ const gridContainerStyle = {
   display: 'grid',
   gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
   gap: '10px',
-  margin: '1rem auto'
+  maxWidth: '95%',
+  margin: '0 2rem'
 };
 
 const imageStyle = {
 display: 'block',
 margin: '1rem auto',
 borderRadius: '0px',
-maxWidth: '500px',
+maxWidth: '95%',
 height: 'auto'
 };
 
@@ -104,7 +105,7 @@ margin: '1rem 0',
 
 const iframeStyle = {
 width: '100%',
-maxWidth: '236px',
+maxWidth: '95%',
 height: '520px', // Maintains original height
 border: 'none',
 scrolling: 'no',
@@ -115,12 +116,10 @@ textAlign: 'center',
 fontSize: '1.1rem',
 fontFamily: 'Raleway, serif',
 fontWeight: 'normal',
-margin: '1rem auto',
-maxWidth: '100%',
+margin: '0 auto',
+maxWidth: '85%',
 fontStyle: 'italic',
 };
-
-
 
 
 

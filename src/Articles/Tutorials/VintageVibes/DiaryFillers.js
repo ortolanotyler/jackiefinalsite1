@@ -19,9 +19,8 @@ const image2 = `${process.env.PUBLIC_URL}/Images/Articles/DiaryPost1/Diary2.png`
 const Card = ({ blogContent }) => (
   <div
     style={{
-      padding: '10px 20px', // Existing padding
-      margin: '1rem auto',
-      maxWidth: '800px', // Control max width to center the content
+      margin: '0 auto',
+      maxWidth: '95%', // Control max width to center the content
       padding: '10px', // Add padding to prevent text from touching the edges
     }}
   >

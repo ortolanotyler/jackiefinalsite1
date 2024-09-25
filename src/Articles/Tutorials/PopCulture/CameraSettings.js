@@ -8,6 +8,7 @@ import { Helmet } from'react-helmet';
 
 import ResponsiveIframeNoScroll from '../../../Components/ResponsiveIframeNoScroll';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import DropCap1 from '../../Travel/DropCap1';
 
 
 
@@ -59,24 +60,14 @@ const CameraSettings = () => {
 
  
 
-
-  const heading2Style = {
-    textAlign: 'center',
-    fontSize: '1.5rem',
-    fontWeight: 'bold',
-    fontFamily: 'Playfair Display, serif',
-    color: '#000000',
-    margin: '30px auto',
-    maxWidth: '100%', // Allow space for margins
-  };
-
-  
   const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',
     fontWeight: '100',
     fontFamily: 'Playfair Display, serif',
     color: '#000000',
+    maxWidth: '95%',
+
     margin: '30px auto'
 };
 
@@ -88,12 +79,11 @@ const paragraphStyle = {
   fontFamily: 'Georgia, serif',
   fontWeight: 'regular',
 
-  margin: '2rem auto',
+  margin: '1rem 1rem',
 
-  maxWidth: '500px', // Consistent with the other paragraphs
-  lineHeight: '1.6',
-  marginLeft: 'auto',
-  marginRight: 'auto',
+  maxWidth: '95%',
+    lineHeight: '1.6',
+
 };
 
 const linkStyle = {
@@ -106,14 +96,15 @@ const gridContainerStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     gap: '10px',
-    margin: '1rem auto'
+    maxWidth: '95%',
+    margin: '0 2rem'
 };
 
 const imageStyle = {
   display: 'block',
   margin: '1rem auto',
   borderRadius: '0px',
-  maxWidth: '500px',
+  maxWidth: '95%',
   height: 'auto'
 };
 
@@ -127,7 +118,7 @@ const pinterestGridStyle = {
 
 const iframeStyle = {
   width: '100%',
-  maxWidth: '236px',
+  maxWidth: '95%',
   height: '520px', // Maintains original height
   border: 'none',
   scrolling: 'no',
@@ -138,10 +129,12 @@ const captionStyle = {
   fontSize: '1.1rem',
   fontFamily: 'Raleway, serif',
   fontWeight: 'normal',
-  margin: '1rem auto',
-  maxWidth: '100%',
+  margin: '0 auto',
+  maxWidth: '85%',
   fontStyle: 'italic',
 };
+
+
 
 
   const blogContent = (
@@ -216,19 +209,19 @@ const captionStyle = {
   publishDate="Aug 11th, 2024"
 />
 
-      <div>
-        <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-          All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-        </p>
-      </div>
-      <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <SubscribeButton />
-      </div>
+<div style = {{textAlign: 'center', margin: '10px auto' }}>
+<SubscribeButton />
+</div>
+
+
+
+<p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
+
 
    
-        <div style = {{ maxWidth: '600px', margin: '0 auto' }}>
-      <DropCap text="Welcome back! Today, I’m sharing some of my top tips for capturing stunning photos on your phone. As someone who isn't a professional photographer and prefers simple, non-technical approaches, these tips are perfect for anyone who loves capturing soft, crisp, true-to-colour images that shine on Instagram." />
-      </div>
+      <DropCap1 text="Welcome back! Today, I’m sharing some of my top tips for capturing stunning photos on your phone. As someone who isn't a professional photographer and prefers simple, non-technical approaches, these tips are perfect for anyone who loves capturing soft, crisp, true-to-colour images that shine on Instagram." />
       
 
       <p style={paragraphStyle}>

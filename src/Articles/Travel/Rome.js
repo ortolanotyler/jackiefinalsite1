@@ -11,6 +11,7 @@ import BookNowButton from '../../Components/BookNowButton';
 import EmbeddedGuide from './PlanninEmbed';
 import ArticleTitle from '../../Components/ArticleTitle';
 import NextArticle from '../../Components/NextArticleComponent';
+import SubscribeVlog from '../../Components/SubscribeVlog';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Rome/1.JPG`;
@@ -112,7 +113,7 @@ const paragraphStyle = {
   fontFamily: 'Georgia, serif',
   fontWeight: 'regular',
 
-  margin: '1rem 1rem',
+  margin: '1rem auto',
 
   maxWidth: '95%',
     lineHeight: '1.6',
@@ -130,7 +131,7 @@ const gridContainerStyle = {
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     gap: '10px',
     maxWidth: '95%',
-    margin: '0 2rem'
+    margin: '0 auto'
 };
 
 const imageStyle = {
@@ -231,12 +232,12 @@ const captionStyle = {
 
 
 
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
-        <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1rem', color: 'black', textDecoration: 'none' }}>
-          TRAVEL // ITALY
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
+        <a href="/popculture" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
+          BEAUTY // POP CULTURE
         </a>
       </div>
-      <div> 
+      
 
 
       <ArticleTitle
@@ -244,7 +245,7 @@ const captionStyle = {
   subTitle="Exploring Rome’s iconic landmarks, hidden gems, and culinary delights"
   author="Jackie Wyers"
 />   
-      </div>
+      
       
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/qQGjPdTekyA?si=-I5TwMWKoRljXxxW" title="YouTube video player" />
@@ -256,12 +257,19 @@ const captionStyle = {
 
 
 
-<div style = {{textAlign: 'center', marginTop: '1rem' }}>
-<SubscribeButton />
+<div style = {{textAlign: 'center', margin: '10px auto' }}>
+<SubscribeVlog />
 </div>
 
 
+<div style={paragraphStyle}>
+
 <DropCap1 text="Welcome back to another travel article! This time, it's all about our whirlwind 72 hours in Rome, the first stop on our European adventure before heading to Sorrento, Italy, for our wedding! Tyler and I had visited Rome when we were younger, but experiencing such a romantic city together as adults was beyond exciting. Over the course of three days, we explored iconic landmarks like the Vatican, the Trevi Fountain, and the Colosseum, indulged in mouthwatering Italian cuisine, and soaked in the vibrant atmosphere of Rome’s charming neighbourhoods. " />
+</div>
+
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
 
 
 <p style={paragraphStyle}>

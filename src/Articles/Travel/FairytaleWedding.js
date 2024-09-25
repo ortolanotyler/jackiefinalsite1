@@ -266,7 +266,14 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 <DropCap1 text="On July 11th, Tyler and I celebrated two years of marriage with a dreamy ceremony in Sorrento, Italy. If you haven’t caught up with our backstory, here’s a quick recap: We first met in middle school at
 the International School of Brussels, where we became each other's first “real” boyfriend and girlfriend. Originally from Atlanta, Georgia, and Ontario, Canada, our families both moved to Belgium in 2007, and we were the new kids at the international school that same year. What started as a middle school crush blossomed into a lifelong connection, surviving long distances as friends for over 10 years, and culminating in an epic reunion in the Big Apple!" />
 
+<div
+style = {{
+  margin : '10px auto'
+}}
+>
 
+  <AdSenseAd/>
+</div>
 
 
      
@@ -334,7 +341,7 @@ A private chef utilized the Italian majolica tiled kitchen space, serving delici
    
       <div
 style = {{
-  margin : '20px'
+  margin : '10px auto'
 }}
 >
 
@@ -354,9 +361,9 @@ Pop Culture Bridal Makeup & Hair Inspirations
     My bridal beauty style was a blend of whimsical enchantment and cinematic romance—echoing the regal elegance of Christine from "Phantom of the Opera," with a touch of beachy flair à la "Mamma Mia." I adorned my veil and bridesmaids' hair with handmade flower pins similar to Sophie’s. For a sheer flower pin tutorial, stay tuned on <a style={{ color: 'black' }} href = "https://www.instagram.com/jackiewyers/?hl=en" target="_blank" rel="noreferrer">Instagram</a>.
 </p>
 
-<div
+   <div
 style = {{
-  margin : '20px'
+  margin : '10px auto'
 }}
 >
 
@@ -398,9 +405,9 @@ Finally for nails, I’m the biggest <a style={{ color: 'black' }} href = "https
    
     <img src={image15} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
 </div>
-<div
+   <div
 style = {{
-  margin : '20px'
+  margin : '10px auto'
 }}
 >
 
@@ -443,9 +450,9 @@ My Vintage Wedding Shoes & Alex Monroe Jewelry
 <p style={paragraphStyle}>
 My heels were Manolo Blahnik green butterfly sandals, adding to the earthy, fairytale aesthetic. They matched my bridesmaids' green luxe satin dresses perfectly. I loved them so much, I even had a talented Canadian artist, <a href="https://www.instagram.com/sabinafenn/" target="_blank" rel="noreferrer">Sabina Fenn</a> add the butterfly to our custom painted wedding invitations!
 </p>
-<div
+   <div
 style = {{
-  margin : '20px'
+  margin : '10px auto'
 }}
 >
 
@@ -517,9 +524,9 @@ Choosing the Perfect Photographer
 
 Choosing a photographer was one of the hardest tasks in planning a wedding. Not only am I particular about how I photograph and my strong preference for soft lighting, but I also wanted to ensure I felt comfortable and relaxed. It was important to me to work with a fellow creative who would be collaborative about capturing the different shots I envisioned.
 </p>
-<div
+   <div
 style = {{
-  margin : '20px'
+  margin : '10px auto'
 }}
 >
 
@@ -579,9 +586,9 @@ Our ceremony was uniquely ours, as we tweaked some traditional elements to make 
   <img src={image36} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
   <img src={image37} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
 </div>
-<div
+   <div
 style = {{
-  margin : '20px'
+  margin : '10px auto'
 }}
 >
 
@@ -611,9 +618,9 @@ Since we had been legally married for two years but hadn’t had a wedding cerem
 <div style={gridContainerStyle}>
   <img src={image40} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
 </div>
-<div
+   <div
 style = {{
-  margin : '20px'
+  margin : '10px auto'
 }}
 >
 
@@ -735,26 +742,26 @@ Thank you for reading and for being part of our journey and my life for so many 
 
       <Comments website-id={websiteId} page-id={"Fairytale-Wedding"} />
 
-      <div
+         <div
 style = {{
-  margin : '20px'
+  margin : '10px auto'
 }}
 >
 
   <AdSenseAd/>
 </div>
 
-<div
+   <div
 style = {{
-  margin : '20px'
+  margin : '10px auto'
 }}
 >
 
   <AdSenseAd/>
 </div>
-<div
+   <div
 style = {{
-  margin : '20px'
+  margin : '10px auto'
 }}
 >
 

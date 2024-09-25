@@ -34,6 +34,7 @@ const Card = ({ blogContent }) => (
   </div>
 );
 
+
 const PeriodDrama = () => {
 
   useEffect(() => {
@@ -44,7 +45,6 @@ const PeriodDrama = () => {
 
   const websiteId = '10910';
   const blogRef = useRef(null);
-
 
   const headingStyle = {
     textAlign: 'center',
@@ -119,6 +119,7 @@ const captionStyle = {
   maxWidth: '85%',
   fontStyle: 'italic',
 };
+
 
 
   const blogContent = (
