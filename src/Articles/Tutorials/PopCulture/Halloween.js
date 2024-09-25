@@ -53,6 +53,7 @@ const Halloween = () => {
   const blogRef = useRef(null);
 
  
+  
   const heading2Style = {
     textAlign: 'center',
     fontSize: '1.5rem',
@@ -78,10 +79,10 @@ const paragraphStyle = {
   fontSize: '22px',
   color: '#000000',
 
-  fontFamily: 'Playfair Display, serif',
-  fontWeight: '100',
+  fontFamily: 'Georgia, serif',
+  fontWeight: 'regular',
 
-  margin: '1rem auto',
+  margin: '2rem auto',
 
   maxWidth: '500px', // Consistent with the other paragraphs
   lineHeight: '1.6',
@@ -130,8 +131,8 @@ const iframeStyle = {
 
 const captionStyle = {
   textAlign: 'center',
-  fontSize: '1rem',
-  fontFamily: 'GFS Didot, sans serif',
+  fontSize: '1.1rem',
+  fontFamily: 'Raleway, serif',
   fontWeight: 'normal',
   margin: '1rem auto',
   maxWidth: '100%',
