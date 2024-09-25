@@ -74,7 +74,7 @@ const Halloween = () => {
     color: '#000000',
     fontFamily: 'Playfair Display, serif',
     fontWeight: '100',
-    margin: '1rem auto',
+    margin: '0 auto',
     lineHeight: '1.6',
     margin: '0 auto',
     padding: '1rem 1rem', // Add padding to prevent cutoff
@@ -108,7 +108,7 @@ const Halloween = () => {
     fontFamily: 'GFS Didot, sans-serif',
     fontWeight: 'normal',
     margin: '1rem auto',
-    maxWidth: '90%',
+ 
     fontStyle: 'italic',
     padding: '0 20px', // Add padding for readability
     boxSizing: 'border-box',
