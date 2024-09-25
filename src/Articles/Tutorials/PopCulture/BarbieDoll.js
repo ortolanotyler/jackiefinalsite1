@@ -95,15 +95,15 @@ const gridContainerStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     gap: '10px',
-    maxWidth: '90%',
-    margin: '1rem auto'
+    maxWidth: '95%',
+    margin: '0 2rem'
 };
 
 const imageStyle = {
   display: 'block',
-  margin: '0 auto',
+  margin: '1rem auto',
   borderRadius: '0px',
-  maxWidth: '100%',
+  maxWidth: '95%',
   height: 'auto'
 };
 
@@ -117,7 +117,7 @@ const pinterestGridStyle = {
 
 const iframeStyle = {
   width: '100%',
-  maxWidth: '236px',
+  maxWidth: '95%',
   height: '520px', // Maintains original height
   border: 'none',
   scrolling: 'no',
@@ -128,11 +128,10 @@ const captionStyle = {
   fontSize: '1.1rem',
   fontFamily: 'Raleway, serif',
   fontWeight: 'normal',
-  margin: '1rem auto',
-  maxWidth: '100%',
+  margin: '0 auto',
+  maxWidth: '85%',
   fontStyle: 'italic',
 };
-
 
 
 

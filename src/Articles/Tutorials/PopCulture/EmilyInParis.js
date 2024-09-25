@@ -26,7 +26,6 @@ const period = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/ArticleThu
 const Card = ({ blogContent }) => (
   <div
     style={{
-      padding: '10px 20px', // Existing padding
       margin: '0 auto',
       maxWidth: '95%', // Control max width to center the content
       padding: '10px', // Add padding to prevent text from touching the edges
@@ -49,6 +48,7 @@ const EmilyInParis = () => {
 
   const websiteId = '10910';
   const blogRef = useRef(null);
+
 
   const headingStyle = {
     textAlign: 'center',
@@ -87,7 +87,7 @@ const gridContainerStyle = {
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     gap: '10px',
     maxWidth: '95%',
-    margin: '1rem auto'
+    margin: '0 2rem'
 };
 
 const imageStyle = {
@@ -119,8 +119,8 @@ const captionStyle = {
   fontSize: '1.1rem',
   fontFamily: 'Raleway, serif',
   fontWeight: 'normal',
-  margin: '1rem auto',
-  maxWidth: '95%',
+  margin: '0 auto',
+  maxWidth: '85%',
   fontStyle: 'italic',
 };
 

@@ -85,7 +85,7 @@ const gridContainerStyle = {
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     gap: '10px',
     maxWidth: '95%',
-    margin: '1rem auto'
+    margin: '0 2rem'
 };
 
 const imageStyle = {
@@ -117,8 +117,8 @@ const captionStyle = {
   fontSize: '1.1rem',
   fontFamily: 'Raleway, serif',
   fontWeight: 'normal',
-  margin: '1rem auto',
-  maxWidth: '95%',
+  margin: '0 auto',
+  maxWidth: '85%',
   fontStyle: 'italic',
 };
 

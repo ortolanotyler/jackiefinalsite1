@@ -31,10 +31,9 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
   <div
     style={{
-      padding: '10px 20px', // Existing padding
-      margin: '1rem auto',
-      maxWidth: '800px', // Control max width to center the content
-      padding: '1rem', // Add padding to prevent text from touching the edges
+      margin: '0 auto',
+      maxWidth: '95%', // Control max width to center the content
+      padding: '10px', // Add padding to prevent text from touching the edges
     }}
   >
     <div className="card">
@@ -42,6 +41,7 @@ const Card = ({ blogContent }) => (
     </div>
   </div>
 );
+
   const MontTremblantBlog = () => {
   
     useEffect(() => {
@@ -60,6 +60,8 @@ const Card = ({ blogContent }) => (
       fontWeight: '100',
       fontFamily: 'Playfair Display, serif',
       color: '#000000',
+      maxWidth: '95%',
+  
       margin: '30px auto'
   };
   
@@ -71,12 +73,11 @@ const Card = ({ blogContent }) => (
     fontFamily: 'Georgia, serif',
     fontWeight: 'regular',
   
-    margin: '2rem auto',
+    margin: '1rem 1rem',
   
-    maxWidth: '500px', // Consistent with the other paragraphs
-    lineHeight: '1.6',
-    marginLeft: 'auto',
-    marginRight: 'auto',
+    maxWidth: '95%',
+      lineHeight: '1.6',
+  
   };
   
   const linkStyle = {
@@ -89,6 +90,7 @@ const Card = ({ blogContent }) => (
       display: 'grid',
       gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
       gap: '10px',
+      maxWidth: '95%',
       margin: '1rem auto'
   };
   
@@ -96,7 +98,7 @@ const Card = ({ blogContent }) => (
     display: 'block',
     margin: '1rem auto',
     borderRadius: '0px',
-    maxWidth: '500px',
+    maxWidth: '95%',
     height: 'auto'
   };
   
@@ -110,7 +112,7 @@ const Card = ({ blogContent }) => (
   
   const iframeStyle = {
     width: '100%',
-    maxWidth: '236px',
+    maxWidth: '95%',
     height: '520px', // Maintains original height
     border: 'none',
     scrolling: 'no',
@@ -122,10 +124,9 @@ const Card = ({ blogContent }) => (
     fontFamily: 'Raleway, serif',
     fontWeight: 'normal',
     margin: '1rem auto',
-    maxWidth: '100%',
+    maxWidth: '95%',
     fontStyle: 'italic',
   };
-  
   
     const blogContent = (
         <div className="container">
@@ -187,11 +188,11 @@ const Card = ({ blogContent }) => (
 </Helmet>
 
 
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
-                <a href="/travel" style={{ fontFamily: 'Arapey', fontSize: '1.25em', color: 'black', textDecoration: 'none' }}>
-                    TRAVEL // ITINERARIES
-                </a>
-            </div>
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
+        <a href="/travel" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
+          TRAVEL // ITINERARIES
+        </a>
+      </div>
             <div> 
             <ArticleTitle
   mainTitle="Mont Tremblant Travel Guide"
@@ -201,16 +202,13 @@ const Card = ({ blogContent }) => (
             </div>
            
             <ResponsiveYoutube src="https://www.youtube.com/embed/4lDCreVFqAw?si=0X5e_MzsoCeTGhxM" title="YouTube video player" />
+            <div style = {{textAlign: 'center', margin: '10px auto' }}>
+<SubscribeButton />
+</div>
 
-            <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                <SubscribeButton />
-            </div>
-
-            <div>
-            <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
-            All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
-                </p>
-            </div>
+<p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
+All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+</p>
 
             <DropCap1 text="Welcome to another travel post! I adore traveling in Canada, and for Tyler and my anniversary trip, we visited the enchanting ski village of Mont Tremblant, Quebec. For this post, let’s talk about the best experiences and food during our romantic getaway in the mountains." />
 
