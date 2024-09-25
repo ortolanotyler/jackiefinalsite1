@@ -58,6 +58,7 @@ const BarbieDoll = () => {
     maxWidth: '100%', // Allow space for margins
   };
 
+ 
   const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',

@@ -55,80 +55,78 @@ const BarbieBlog = () => {
     margin: '10px auto',
   };
   
+ 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '28px',
+    fontSize: '2.5rem',
     fontWeight: '100',
-    fontFamily: 'GFS Didot, sans-serif',
-    color: '#000000',
-    margin: '10px auto',
-  };
-  
-  const paragraphStyle = {
-    fontSize: '22px',
-    color: '#000000',
     fontFamily: 'Playfair Display, serif',
-    fontWeight: 'regular',
-    marginBottom: '10px',
-    maxWidth: '500px', // Consistent with the other paragraphs
-    lineHeight: '1.6',
-  margin: '1rem auto',
-    '@media (max-width: 768px)': {
-      padding: '0 1rem', // Adjust padding for mobile devices for better readability
-    },
-  };
-  
-  const linkStyle = {
-    textDecoration: 'none', // Removes underline from links
-    fontFamily: 'GFS Didot, sans-serif',
-    color: '#000000', // Inherits the color of the surrounding text
-  };
-  
-  const gridContainerStyle = {
+    color: '#000000',
+    margin: '30px auto'
+};
+
+
+const paragraphStyle = {
+  fontSize: '22px',
+  color: '#000000',
+
+  fontFamily: 'Georgia, serif',
+  fontWeight: 'regular',
+
+  margin: '2rem auto',
+
+  maxWidth: '500px', // Consistent with the other paragraphs
+  lineHeight: '1.6',
+  marginLeft: 'auto',
+  marginRight: 'auto',
+};
+
+const linkStyle = {
+  textDecoration: 'none', // Removes underline from links
+  fontFamily: 'Playfair Display, serif',
+  color: '#000000', // Inherits the color of the surrounding text
+};
+
+const gridContainerStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-    gap: '1rem',
-    margin: '0',
-    color: '#000000', // Inherits the color of the surrounding text
-  };
-  
-  const imageStyle = {
-    display: 'block',
-    margin: '0',
-    borderRadius: '0px',
-    maxWidth: '700px',
-    height: 'auto',
-  };
-  
-  const pinterestGridStyle = {
-    display: 'grid',
-    gap: '1rem',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
-    justifyItems: 'center',
-    margin: '1rem 0',
-  };
-  
-  const iframeStyle = {
-    width: '100%',
-    maxWidth: '236px',
-    height: '520px', // Maintains original height
-    border: 'none',
-    scrolling: 'no',
-  };
-  
-  const captionStyle = {
-    textAlign: 'center',
-    fontSize: '1.1rem',
-    fontFamily: 'Raleway, serif',
-    fontWeight: 'normal',
-    margin: '1rem 20px',
-    maxWidth: '100%',
-    fontStyle: 'italic',
-    padding: '0 2rem', // Add padding to the sides to prevent text from touching edges
-    '@media (max-width: 768px)': {
-      padding: '0 1rem', // Increase padding on mobile devices for better readability
-    },
-  };
+    gap: '10px',
+    margin: '1rem auto'
+};
+
+const imageStyle = {
+  display: 'block',
+  margin: '1rem auto',
+  borderRadius: '0px',
+  maxWidth: '500px',
+  height: 'auto'
+};
+
+const pinterestGridStyle = {
+  display: 'grid',
+  gap: '1rem',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+  justifyItems: 'center',
+  margin: '1rem 0',
+};
+
+const iframeStyle = {
+  width: '100%',
+  maxWidth: '236px',
+  height: '520px', // Maintains original height
+  border: 'none',
+  scrolling: 'no',
+};
+
+const captionStyle = {
+  textAlign: 'center',
+  fontSize: '1.1rem',
+  fontFamily: 'Raleway, serif',
+  fontWeight: 'normal',
+  margin: '1rem auto',
+  maxWidth: '100%',
+  fontStyle: 'italic',
+};
 
   const blogContent = (
     <div className="container">
