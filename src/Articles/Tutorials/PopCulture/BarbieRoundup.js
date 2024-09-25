@@ -10,7 +10,6 @@ import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
-import PollComponent from '../../../Components/PollComponent1';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/BarbieRoundup/1.JPG`;
@@ -23,7 +22,7 @@ const image8 = `${process.env.PUBLIC_URL}/Images/BarbieRoundup/3.JPG`;
 
 
 
-const next = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016MakeupThumbnail.jpg`;
+const next = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/JackieWyersBarbieThumb.jpeg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
   <div
@@ -127,7 +126,7 @@ const captionStyle = {
   const blogContent = (
     <div className="container">
 <Helmet>
-  <title>Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀 - Jackie Wyers</title>
+  <title>Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 </title>
   <link rel="canonical" href="https://jackiewyers.beauty/barbie-roundup" />
 
   <meta 
@@ -140,27 +139,27 @@ const captionStyle = {
   />
 
   {/* Open Graph Meta Tags */}
-  <meta property="og:title" content="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀 - Jackie Wyers" />
+  <meta property="og:title" content="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀 " />
   <meta 
     property="og:description" 
     content="Discover the best Barbie-inspired products and collectibles for adult fans in 2024. Explore iconic collaborations and must-have items curated by Jackie Wyers." 
   />
   <meta 
     property="og:image" 
-    content="https://jackiewyers.beauty/Images/Articles/BarbieRoundup/BarbieCollabsThumbnail.jpg" 
+    content="https://jackiewyers.beauty/Images/BarbieRoundup/BarbieCollabsThumbnail.jpg" 
   />
   <meta property="og:url" content="https://jackiewyers.beauty/barbie-roundup" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
-  <meta name="twitter:title" content="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀 - Jackie Wyers" />
+  <meta name="twitter:title" content="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀 " />
   <meta 
     name="twitter:description" 
     content="Discover the best Barbie-inspired products and collectibles for adult fans in 2024. Explore iconic collaborations and must-have items curated by Jackie Wyers." 
   />
   <meta 
     name="twitter:image" 
-    content="https://jackiewyers.beauty/Images/Articles/BarbieRoundup/BarbieCollabsThumbnail.jpg" 
+    content="https://jackiewyers.beauty/Images/BarbieRoundup/BarbieCollabsThumbnail.jpg" 
   />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -188,9 +187,9 @@ const captionStyle = {
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀 - Jackie Wyers",
+        "headline": "Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀 ",
         "description": "Discover the best Barbie-inspired products and collectibles for adult fans in 2024. Explore iconic collaborations and must-have items curated by Jackie Wyers.",
-        "image": "https://jackiewyers.beauty/Images/Articles/BarbieRoundup/BarbieCollabsThumbnail.jpg",
+        "image": "https://jackiewyers.beauty/Images/BarbieRoundup/BarbieCollabsThumbnail.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -442,6 +441,7 @@ Wishlist"
 </p>
 
 
+
 <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
@@ -449,13 +449,13 @@ Wishlist"
 
 
       <NextArticle
-      link="/2016makeup"
+      link="/barbie-doll"
       imgSrc={next}
-      altText="2016 Makeup Trend Report Article"
-      linkText="MORE POP CULTURE →"
-      containerStyle={{ margin: '1rem auto' }} // customize as needed
-      linkStyle={{ color: '#000000', fontSize: '1.05rem' }} // customize as needed
-      imgStyle={{ borderRadius: '10px' }} // customize as needed
+      altText="Barbie Article"
+      linkText="GET THE BARBIE LOOK HERE→"
+      containerStyle={{ margin: '2rem auto' }} // customize as needed
+      linkStyle={{ color: '#000000', fontSize: '1.25rem' }} // customize as needed
+      imgStyle={{ borderRadius: '5px' }} // customize as needed
     />
 
 <div>
