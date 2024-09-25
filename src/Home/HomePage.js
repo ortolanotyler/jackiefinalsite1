@@ -272,7 +272,7 @@ function HomePage() {
            
 
 
-<TextBanner2 text="BEAUTY" height="200px" width="100%" fontSize="80px" />
+<TextBanner2 text="QUIZ" height="200px" width="100%" fontSize="80px" />
 
 <HorizontalLine />
 
