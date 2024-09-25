@@ -313,7 +313,7 @@ fontStyle: 'italic',
 
 <h2 style={headingStyle}>👧 Personal First Impressions</h2>
 <p style={paragraphStyle}>
-    My introduction to Jicky was inspired by the beautiful and bohemian <a href="https://www.imdb.com/name/nm0001799/" style={linkStyle} target="_blank" rel="noopener noreferrer">Sharon Tate</a>. While preparing for a <a href="/iconicsharon" style={linkStyle} target="_blank" rel="noopener noreferrer">Sharon Tate-inspired makeup tutorial</a>, I discovered her fondness for Jicky by Guerlain, alongside <a href="https://www.chanel.com/us/fragrance/p/125531/chanel-n5-eau-de-parfum-spray/" style={linkStyle} target="_blank" rel="noopener noreferrer">Chanel No. 5</a>.
+    My introduction to Jicky was inspired by the beautiful and bohemian <a href="https://www.imdb.com/name/nm0001799/" style={linkStyle} target="_blank" rel="noopener noreferrer"> Sharon Tate</a>. While preparing for a <a href="/iconicsharon" style={linkStyle} target="_blank" rel="noopener noreferrer">Sharon Tate-inspired makeup tutorial</a>, I discovered her fondness for Jicky by Guerlain, alongside <a href="https://www.chanel.com/us/fragrance/p/125531/chanel-n5-eau-de-parfum-spray/" style={linkStyle} target="_blank" rel="noopener noreferrer">Chanel No. 5</a>.
 </p>
 
 <p style={paragraphStyle}>
