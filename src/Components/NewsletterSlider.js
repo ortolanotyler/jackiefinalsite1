@@ -31,8 +31,10 @@ const NewsletterSlider = () => {
         sx={{ 
           
      
-          fontFamily: 'GFS Didot, serif', 
-          margin: '1rem auto',
+          fontFamily: 'Playfair Display, serif', 
+          margin: '0 auto',
+          padding: '1rem 0',
+          maxWidth: '90%',
           color: '#000000', 
         }}
       >

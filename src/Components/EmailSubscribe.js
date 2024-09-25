@@ -41,7 +41,7 @@ export default function EmailSubscribe() {
       sx={{
         position: 'relative',
         
-        backgroundColor: '#fdedef',
+        backgroundColor: 'white',
       }}
     >
       {/* Form inside a white card */}
@@ -72,7 +72,7 @@ export default function EmailSubscribe() {
                       fontFamily: 'GFS Didot, serif',
                       color: '#745B4F',
                       textAlign: 'center',
-                      marginBottom: '0.5rem',
+                      marginBottom: '1rem',
                       fontSize: { xs: '1rem', sm: '1.25rem' }, // Responsive font size
                     }}
                   >
@@ -110,7 +110,7 @@ export default function EmailSubscribe() {
                       fontFamily: 'GFS Didot, serif',
                       padding: '1rem',
                       '&:hover': {
-                        backgroundColor: '#333',
+                        backgroundColor: '#000000',
                         color: 'white',
                       },
                     }}
