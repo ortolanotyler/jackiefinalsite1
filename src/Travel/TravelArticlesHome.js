@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { Helmet } from 'react-helmet';
 import TextReveal from '../Components/TextReveal';
 import TravelArticlesList from './TravelArticleList';
 import ExperiencesList from './ExperiencesList';
 import BookNowButton from '../Components/BookNowButton';
 import LatestTravelGrid from '../Home/LatestTutorialGridTravel';
+import { Grid } from '@mui/material';
+import HeroSection from '../Home/HeroSection';
+import HorizontalLine from '../Components/HorizontalLine';
 
 const TravelArticlesHome = () => {
     return (
@@ -33,7 +36,45 @@ const TravelArticlesHome = () => {
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
-<LatestTravelGrid/>
+
+<TextReveal text="LATEST TRAVEL" />
+<Grid container spacing={1} justifyContent="center"
+
+>
+<Grid item xs={12} md={6}
+>
+          <Suspense fallback={<div className="spinner"></div>}>
+          <HeroSection
+  featureText="LATEST"
+  headlineText="The Best Souvenirs to Bring Home from Sorrento"
+  subtext="Leather, Music Boxes, Flats, Oh Me! Discover the top Sorrento souvenirs with Jackie Wyers."
+  author="BY JACKIE WYERS"
+  imagePath="Sorrento1/SorrentoThumbnail.jpg"
+  linkUrl="/sorrento"
+  isFlipped={false}
+/>
+          </Suspense>
+        </Grid>
+        <HorizontalLine/>
+        <Grid item xs={12} md={6}
+>
+          <Suspense fallback={<div className="spinner"></div>}>
+          <HeroSection
+  featureText="FEATURE"
+  headlineText="Our Romantic 3-Day Rome Itinerary"
+  subtext="Exploring Rome’s iconic landmarks, hidden gems, and culinary delights"
+  author="BY JACKIE WYERS"
+  imagePath="Rome/romethumbnail.jpg"
+  linkUrl="/sorrento"
+  isFlipped={false}
+/>
+          </Suspense>
+        </Grid>
+        
+
+</Grid>
+
+
             <div
                 style={{
                     marginTop: '1rem',
