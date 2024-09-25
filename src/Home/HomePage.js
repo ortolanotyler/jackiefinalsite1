@@ -288,7 +288,7 @@ headlineText="Animal Pretty - Which one are you?"
 subtext="Explore the Animal Pretty makeup trends inspired by deer, cats, foxes, and bunnies. Learn how to achieve these adorable looks with step-by-step guides from Jackie Wyers."
 author="BY JACKIE WYERS"
 imagePath="AnimalPretty/animals.jpg"
-linkUrl="/quiz2"
+linkUrl="/quiz"
 isFlipped={true}
 />
   </Suspense>
