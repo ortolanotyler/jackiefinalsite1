@@ -167,7 +167,7 @@ const Card = ({ blogContent }) => (
           }
         },
         "datePublished": "2024-07-27",
-        "dateModified": "2024-09-20",
+        "dateModified": "2024-09-23",
         "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "https://jackiewyers.beauty/bridalmakeup"
@@ -262,7 +262,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 />      
 
 <p style={paragraphStyle}>
-  <strong>Brows:</strong> I kept my brows full and natural using <a href="https://www.florasis.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Florasis Luodai Eyebrow Pencil</a> and the <a href="https://www.benefitcosmetics.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Benefit 24-hour brow setter</a>. For more, see my <a href="https://jackiewyers.beauty/brow-tutorial" target="_blank" rel="noopener noreferrer" style={linkStyle}>brow tutorial</a>.
+  <strong>Brows:</strong> I kept my brows full and natural using <a href="https://www.florasis.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Florasis Luodai Eyebrow Pencil</a> and the <a href="https://www.benefitcosmetics.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Benefit 24-hour brow setter</a>. 
 </p>          
       <ResponsiveIframe 
   src="https://shopmy.us/collections/public/635861?noHeader=true" 
@@ -275,7 +275,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
      
 
 <p style={paragraphStyle}>
-  <strong>A Nostalgic Eye Palette:</strong> For eyes, I chose neutral tones from the <a href="https://www.maccosmetics.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Cinderella and MAC Collection</a>—a nod to my early YouTube days. For more vintage-inspired looks, visit my <a href="https://jackiewyers.beauty/vintageeyes" target="_blank" rel="noopener noreferrer" style={linkStyle}>vintage eye makeup collection</a>.
+  <strong>A Nostalgic Eye Palette:</strong> For eyes, I chose neutral tones from the <a href="https://www.maccosmetics.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Cinderella and MAC Collection</a>—a nod to my early YouTube days. 
 </p>     
       <p style={paragraphStyle}><strong>Go Waterproof:</strong> For the final touch on the eyes, I added a bit of black eyeliner to my inner corners and tight line, along with black liquid liner for a small wing. While I opted not to use waterproof liners—since I don't usually have issues with smudging—I always recommend waterproof mascara. It's an absolute must, especially for those teary eyed moments that might just catch you off guard on your big day!</p>
 
@@ -314,7 +314,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 
 <p style={paragraphStyle}>
-  <strong>Setting the Makeup:</strong> A good setting spray is a must! I recommend the <a href="https://jackiewyers.beauty/mistofdawn" target="_blank" rel="noopener noreferrer" style={linkStyle}>Mist of Dawn</a> for its fine mist and long-lasting power. For more tips, read my <a href="https://jackiewyers.beauty/setting-spray-guide" target="_blank" rel="noopener noreferrer" style={linkStyle}>setting spray guide</a>.
+  <strong>Setting the Makeup:</strong> A good setting spray is a must! I recommend the Mist of Dawn for its fine mist and long-lasting power. 
 </p>
 
       <ResponsiveIframe 

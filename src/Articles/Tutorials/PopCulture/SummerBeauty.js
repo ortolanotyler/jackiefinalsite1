@@ -264,7 +264,7 @@ these tutorials will inspire you to embrace your inner icon. " />
 <p style={captionStyle}>      Original Makeup by Aurélie Payen and Hair Design by Mike Desir from 'Emily In Paris,' recreation
       by Jackie Wyers.   </p>
       <p style={paragraphStyle}>
-    Channel the chic & quirky style of Lily Collins in <a href="https://www.netflix.com/title/81104470" target="_blank" rel="noopener noreferrer">‘Emily In Paris’</a> with soft waves paired with a beret, or a sleek bun for summer events. Instead of no-makeup makeup, maybe classic red lips are your vibe for a hint of Parisian flair. Euro-girl summer with an eclectic touch screams 'Emily In Paris,' and I can’t wait for the next season! Explore <a href="https://www.youtube.com/watch?v=b_e98iV-TdM&t=4s" target="_blank" rel="noopener noreferrer">my tutorial</a> on getting Emily's Parisian chic look, perfect for any summer outing… especially if you are visiting France 🇫🇷!
+    Channel the chic & quirky style of Lily Collins in  ‘Emily In Paris’ with soft waves paired with a beret, or a sleek bun for summer events. Instead of no-makeup makeup, maybe classic red lips are your vibe for a hint of Parisian flair. Euro-girl summer with an eclectic touch screams 'Emily In Paris,' and I can’t wait for the next season! Explore <a href="https://www.youtube.com/watch?v=b_e98iV-TdM&t=4s" target="_blank" rel="noopener noreferrer">my tutorial</a> on getting Emily's Parisian chic look, perfect for any summer outing… especially if you are visiting France 🇫🇷!
   </p>
   
    <ResponsiveIframe 
@@ -286,7 +286,7 @@ these tutorials will inspire you to embrace your inner icon. " />
 <p style={captionStyle}>      Original Character Design by Iginio Straffi and Animation by Rainbow S.p.A. from 'Winx Club,' recreation
 by Jackie Wyers.   </p>
 <p style={paragraphStyle}>
-    Transform into the magical Flora from <a href="https://www.imdb.com/title/tt0417393/" target="_blank" rel="noopener noreferrer">‘Winx Club’</a> with whimsical outfits, flowing hair, and ethereal makeup. Embrace floral accessories, pastel hues, and long brunette hair with a money piece—a pop of blonde through the bangs to frame the face. This detail is what makes Flora’s character pop! Dive into my tutorial for a fun, enchanting look that will make you feel like you're part of the Winx Club. (This was a private video for a while, <a href="https://www.youtube.com/watch?v=2lZ-1p7mKMY&t=368s" target="_blank" rel="noopener noreferrer">but it’s back</a> if you missed it!)
+    Transform into the magical Flora from Winx Club with whimsical outfits, flowing hair, and ethereal makeup. Embrace floral accessories, pastel hues, and long brunette hair with a money piece—a pop of blonde through the bangs to frame the face. This detail is what makes Flora’s character pop! Dive into my tutorial for a fun, enchanting look that will make you feel like you're part of the Winx Club. (This was a private video for a while, <a href="https://www.youtube.com/watch?v=2lZ-1p7mKMY&t=368s" target="_blank" rel="noopener noreferrer">but it’s back</a> if you missed it!)
   </p>
    <ResponsiveIframe 
   src="https://shopmy.us/collections/public/619272?noHeader=true" 
