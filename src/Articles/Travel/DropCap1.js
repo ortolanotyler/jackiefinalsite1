@@ -12,7 +12,7 @@ const DropCap1 = ({ text, style }) => {
       }}>
         {text.charAt(0)}
       </span>
-      <span style={{ lineHeight: '1.6', fontFamily: 'Playfair Display, serif', margin: '1rem auto' }}>
+      <span style={{ lineHeight: '1.6', fontFamily: 'Playfair Display, serif', margin: '1.5rem auto' , fontSize: '22px' }}>
         {text.slice(1)}
       </span>
     </p>
