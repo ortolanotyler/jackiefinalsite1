@@ -42,11 +42,12 @@ const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', maxF
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
+      fontFamily: 'Playfair Display, serif',
       height,
       width,
       fontWeight: '100',
       color: '#000000',
-      backgroundColor: '#fff',
+      backgroundColor: 'white',
       flexWrap: 'wrap', // Allows letters to wrap on smaller screens
       overflow: 'hidden', // Prevents content from overflowing
       textAlign: 'center', // Centers the content for smaller screens
