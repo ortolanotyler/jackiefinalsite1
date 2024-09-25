@@ -26,7 +26,7 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
   <div
     style={{
-      padding: '20px', // Consistent padding to prevent content from touching edges
+      padding: '0 1rem', // Consistent padding to prevent content from touching edges
       margin: '0 auto',
       maxWidth: '95%', // Use percentage for responsive scaling
       boxSizing: 'border-box', // Include padding in width calculations
@@ -47,6 +47,7 @@ const BarbieDoll = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
 
+
   const heading2Style = {
     textAlign: 'center',
     fontSize: '1.5rem',
@@ -54,7 +55,7 @@ const BarbieDoll = () => {
     fontFamily: 'Playfair Display, serif',
     color: '#000000',
     margin: '30px auto',
-    maxWidth: '90%', // Allow space for margins
+    maxWidth: '100%', // Allow space for margins
   };
 
   const headingStyle = {
@@ -63,8 +64,8 @@ const BarbieDoll = () => {
     fontWeight: '100',
     fontFamily: 'Playfair Display, serif',
     color: '#000000',
-    margin: '30px auto',
-    maxWidth: '90%', // Adjust max width for responsiveness
+    margin: '10px auto',
+    maxWidth: '100%', // Adjust max width for responsiveness
   };
 
   const paragraphStyle = {
@@ -111,7 +112,6 @@ const BarbieDoll = () => {
     padding: '0 20px', // Add padding for readability
     boxSizing: 'border-box',
   };
-
 
 
   
