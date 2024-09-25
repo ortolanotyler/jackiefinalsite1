@@ -268,7 +268,7 @@ function App() {
             <Route path="girly-pop-halloween" element={<Halloween />} />
             <Route path="paris-brussels-travel-guide" element={<Brussels />} />
             <Route path="barbie-doll" element={<BarbieDoll />} />
-            <Route path="barbie-roundup1" element={<BarbieRoundup />} />
+            <Route path="barbie-roundup" element={<BarbieRoundup />} />
 
             <Route path="*" element={<NotFound/>} />
           </Route>
