@@ -188,7 +188,7 @@ const captionStyle = {
         </a>
       </div>
 
-
+<HorizontalLine/>
   <ArticleTitle
   mainTitle="Girly Pop Culture Halloween
 Costume Ideas 2024🎀"
@@ -228,7 +228,7 @@ down all the makeup, hair, and outfit details.
   <AdSenseAd/>
 </div>
 
-
+<HorizontalLine/>
 
 <p style={paragraphStyle}>
   The best part? These looks are not just for Halloween—they’re super wearable all year round (well, maybe not all the outfits, lol). Let’s dive in and find the perfect costume to make your Halloween unforgettable.
