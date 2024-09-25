@@ -267,8 +267,9 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </div>
 
       <p style={paragraphStyle}>
-  Among the film's many breathtaking fashion moments, the iconic <a href='https://www.vogue.com/article/barbie-gingham-dress' target='_blank' rel='noopener noreferrer' style={linkStyle}>pink gingham dress</a> stole the hearts of fans. However, one look, in my opinion, outshone the rest—the unforgettable <a href='https://www.hollywoodreporter.com/news/general-news/barbie-movie-roller-skating-costumes-1235168086/' target='_blank' rel='noopener noreferrer' style={linkStyle}>roller skate Barbie ensemble</a>!
-</p>
+      Among the film's many breathtaking fashion moments, the iconic pink
+gingham dress stole the hearts of fans. However, one look, in my opinion,
+outshone the rest—the unforgettable roller skate Barbie ensemble!</p>
 
 <div style={gridContainerStyle}>
         <a href='https://www.instagram.com/p/CtfWF2oMk7p' target="_blank" rel="noopener noreferrer">
@@ -280,11 +281,19 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </div>
 
       <p style={paragraphStyle}>
-  When paparazzi pictures of the cast filming at Venice Beach surfaced featuring neon outfits reminiscent of '90s roller skate Barbie, I was inspired to create the entire costume for Halloween, complete with a makeup transformation that is not only faithful to the film but also entirely wearable. Explore more '90s fashion inspiration at <a href="https://www.elle.com/fashion/" target="_blank" rel="noopener noreferrer" style={linkStyle}>Elle Fashion</a>.
+      When paparazzi pictures of the cast filming at Venice Beach surfaced,
+featuring neon outfits reminiscent of '90s roller skate Barbie, I was inspired
+to create the entire costume for Halloween, complete with a makeup
+transformation that is not only faithful to the film but also entirely wearable. 
+
 </p>
 
 <p style={paragraphStyle}>
-  In this blog post, I'll be your guide and I will show you step by step how to recreate Margot Robbie's exquisite pink Barbie makeup look, drawing inspiration from the movie and using my cherished Barbie collaboration products. Additionally, I'll show you how to DIY Barbie roller skates at home. Check out more DIY tips on <a href="https://www.pinterest.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Pinterest</a>.
+In this blog post, I'll be your guide you to recreate Margot Robbie's
+exquisite pink Barbie makeup look, drawing inspiration from the movie and
+using my cherished Barbie collaboration products. Additionally, we'll delve
+into the art of crafting your eye-catching roller skate Barbie costume. So,
+come on, Barbies, Let’s get glam! 
 </p>
 
       <h2 style={headingStyle}>Get The Glamorous Barbie Makeup Look</h2>
@@ -300,14 +309,21 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <h2 style={headingStyle}>Preparation</h2>
 
       <p style={paragraphStyle}>
-  Before we begin, make sure your skin is hydrated. This collaboration isn’t available any longer, but the product itself is still on shelves! The Glamglow Glowstarter Mega Illuminating Moisturizer leaves a super radiant, Barbie-doll base. If you're looking for plump lips, the Lawless Forget the Filler Overnight Lip Plumping Mask is a must-try and a top recommendation I always recommend for beauty lovers! Find similar beauty products on <a href="https://www.sephora.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Sephora</a>.
+      Before we begin, make sure your skin is hydrated. This collaboration isn’t
+available any long, but the product itself is still on shelves! The Glamglow
+Glowstarter Mega Illuminating Moisturizer leaves a super radiant, Barbiedoll base. If you're looking for plump lips, the Lawless Forget the Filler
+Overnight Lip Plumping Mask is a must-try and a top recommendation I
+give to beauty lovers!
 </p>
     
 
       <h2 style={headingStyle}>Foundation</h2>
 
       <p style={paragraphStyle}>
-  We are going to opt for a lightweight foundation, perfect for the summer heat. I recommend the Beautiful Skin Foundation from Charlotte Tilbury or the L'Oréal True Match Hyaluronic Tinted Serum. Both are fabulous picks depending on your budget. Learn more about foundation tips on <a href="https://www.allure.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Allure</a>.
+      Opt for a lightweight foundation perfect for summer, I recommend the
+Beautiful Skin Foundation from Charlotte Tilbury or the L'Oréal True
+Match Hyaluronic Tinted Serum. Both fabulous picks depending on
+your budget.
 </p>
 
 
@@ -317,13 +333,21 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
     
 <p style={paragraphStyle}>
-  I achieve Margot's signature look with some subtle contouring and cream bronzer, creating more structure to my face. I’d recommend enhancing your natural features rather than going against them though - especially if you are wearing this look out in daylight. Less is more! For contouring tips, visit <a href="https://www.makeup.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Makeup.com</a>.
+I achieve Margot's signature look with some subtle contouring and
+cream bronzer, creating more structure to my face. I’d recommend
+enhancing your natural features rather than going against them though
+- especially if you are wearing this look out in daylight. Less is more!
 </p>
 
       <h2 style={headingStyle}>Powder and Blush</h2>
 
       <p style={paragraphStyle}>
-  Set your makeup with your favorite powder to maintain a matte yet natural finish. My holy-grail powder is from Florasis, a Chinese beauty brand. You can find them on Amazon & their powders never look too cakey or thick, rather they set and softly mattify. Margot's rosy cheeks can be replicated using the Pur X Malibu Barbie Blush Set. Check out more blush options at <a href="https://www.ulta.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Ulta</a>.
+      Set your makeup with your favorite powder to maintain a matte yet
+natural finish. My holy-grail powder is from Florasis, a Chinese beauty
+brand. You can find them on Amazon & their powder’s never look too
+cakey or powdery, yet set and softly magnify. Margot's rosy cheeks can be
+replicated using the Pur Malibu Barbie Blush Set or Benefit's Boxo
+Powders
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493498?noHeader=true" title="Collection name here" />
@@ -331,13 +355,18 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <h2 style={headingStyle}>Brows</h2>
 
       <p style={paragraphStyle}>
-  Keep your brows soft and natural like Margot Robbie’s Barbie. Lawless Shape Up Soft Fill Brow Pencil is great, but you can always go drugstore with Winkylux or L’Oréal Paris. For more brow tips, visit <a href="https://www.byrdie.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Byrdie</a>.
+      Keep your brows soft and natural like Margot Robbie’s Barbie. Lawless
+Shape Up Soft Fill Brow Pencil is great, but you can always go drugstore
+with Winkylux or L’Oréal Paris.
 </p>
 
       <h2 style={headingStyle}>Eyeshadow and Eyeliner</h2>
 
       <p style={paragraphStyle}>
-  For the eyes, we are going to go with subtle pops of pink, shimmer, and definition. This is a perfect time to use shades from the Colorpop Malibu Barbie Collab (still my favorite collection) or you can always use some blush in the crease to cut down on products. Explore more eyeshadow looks at <a href="https://www.glamour.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Glamour</a>.
+      For the eyes, we are going to go with subtle pops of pink, shimmer and
+definition. This is a perfect time to use shades from the Colorpop Malibu
+Barbie Collab (still my favorite collection) or you can always use blush in
+the crease to cut down on products. 
 </p>
 
   <div style = {{ margin : '1rem auto'}}>
@@ -345,7 +374,9 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </div>
 
 <p style={paragraphStyle}>
-  If you are a fan of cute makeup with a beachy aesthetic, Flower Knows Beauty also has an adorable palette, which I featured in the tutorial. The seashells scream Malibu! Shop similar palettes on <a href="https://www.beautylish.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Beautylish</a>.
+If you are a fan of cute makeup with a beach aesthetic, Flower Knows
+Beauty also has an adorable palette I featured in the tutorial. The seashells
+scream Malibu
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493504?noHeader=true" title="Collection name here" />
@@ -353,15 +384,31 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <h2 style={headingStyle}>Lashes</h2>
 
       <p style={paragraphStyle}>
-  Time for a Barbie collab product I use daily. The Revlon X Barbie Lash curler! After a curl, swipe a coat of your favorite mascara. Discover more lash essentials on <a href="https://www.nyxcosmetics.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>NYX Cosmetics</a>.
-</p>
+      Time for a Barbie collab product I use daily. The Revlon x Barbie Lash
+      curler! After a curl, swipe a coat of your favorite mascara.
+      </p>
 
       <h2 style={headingStyle}>Highlighter</h2>
       <p style={paragraphStyle}>
-  Add shine to your nose, cheeks, and chin for that Barbie skin glow. The Charlotte Tilbury Beauty Light Wand in Spotlight remains a favorite, but now many drugstore brands have recreated the iconic product. Flower Beauty also has a fabulous wand in various shades. Explore highlighter options on <a href="https://www.ulta.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Ulta</a>.
+      Add shine to your nose, cheeks, and chin for that Barbie skin glow. The
+Charlotte Tilbury Beauty Light Wand in Spotlight remains a favorite, but
+now many drugstore brands have recreated the iconic product. Flower
+Beauty also has a fabulous wand in a various shades. 
+</p>
+
+<p style={paragraphStyle}>
+
+Line and fill your lips with the Colourpop Lip Liner in Grunge, this shade
+is deeper than the brighter pink lipstick we will use. It’ll give nice
+dimension to the lips, creating a fuller shape. Keep the cupids bow in a
+strong V like Barbie. Top it off with a bright pink shade like Leader from
+Hourglass. I filmed this video prior to the movie release, but check out
+NYX’s makeup collab with Barbie for more pink lip combos!
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493536?noHeader=true" title="Collection name here" />
+
+  
 
       <p style={paragraphStyle}>
   Voila! You are your own version of Mattel's iconic doll. Feel free to tone down or amp up the style to make it your own. See full tutorial linked at the beginning of the article for DIY costume ideas, or find more DIY inspirations at <a href="https://www.buzzfeed.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>BuzzFeed DIY</a>.

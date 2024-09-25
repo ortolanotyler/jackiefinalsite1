@@ -210,7 +210,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 
-<p style={paragraphStyle}>
+<div style={paragraphStyle}>
 
 <DropCap1 text="Hey beauties, it’s Jackie! 🎀 🎃 💅 Halloween is just around the corner, and I couldn’t be more excited to share some of my all-time favorite girly pop culture costumes with you. This year, we’re taking inspiration from some of the most iconic looks in film, TV, and music that are perfect for channeling your inner diva. Whether
 you're feeling nostalgic for the 90s or want to step
@@ -220,7 +220,7 @@ down all the makeup, hair, and outfit details.
 "
 />
 
-</p>
+</div>
 
 
 

@@ -278,8 +278,9 @@ fontStyle: 'italic',
       <h2 style={headingStyle}>🍑 Background Information</h2>
       
       <p style={paragraphStyle}>
-        Bonbon is a celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure.
-      </p>
+  Bonbon is a celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure.
+</p>
+
 
     <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
@@ -306,22 +307,22 @@ fontStyle: 'italic',
       <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
-      <p style={paragraphStyle}>
-        <strong>Overall Scent Profile:</strong> A luscious peach opening gives way to a heart overflowing with caramel's sweet embrace, followed by a touch of delicate florals. The base, a comforting blend of warm woods, anchors the fragrance in sophistication.
-      </p>
+<p style={paragraphStyle}>
+  <strong>Overall Scent Profile:</strong> A luscious peach opening gives way to a heart overflowing with caramel's sweet embrace, followed by a touch of delicate florals. The base, a comforting blend of warm woods, anchors the fragrance in sophistication.
+</p>
       <h2 style={headingStyle}>🎀 Personal First Impressions</h2>
       <p style={paragraphStyle}>
-  My first brush with <a href="https://www.viktor-rolf.com/en/bonbon" style={linkStyle} target="_blank" rel="noopener noreferrer">Bonbon</a> took place in a Nordstrom back in 2015. Before that moment, the realm of <a href="https://www.nordstrom.com/browse/beauty/fragrance/womens-perfume" style={linkStyle} target="_blank" rel="noopener noreferrer">high-end perfumes</a> was uncharted territory for me. Yet, as I passed by the counter, the luxurious packaging caught my eye—a whimsically wrapped candy in deep magenta hues, cradled in an equally charming pink and black box. It was love at first sight!
+  My first brush with <a href="https://www.viktor-rolf.com/en/bonbon" style={linkStyle} target="_blank" rel="noopener noreferrer">Bonbon</a> took place in a Nordstrom back in 2015. Before that moment, the realm of high-end perfumes was uncharted territory for me. Yet, as I passed by the counter, the luxurious packaging caught my eye—a whimsically wrapped candy in deep magenta hues, cradled in an equally charming pink and black box. It was love at first sight!
 </p>
 
       <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 <p style={paragraphStyle}>
-    Upon the first whiff of <a href="https://www.viktor-rolf.com/fragrance/bonbon" target="_blank" rel="noopener noreferrer" style={linkStyle}>Bonbon's</a> sweet, sophisticated aroma, I was hooked. This eau de parfum is described as a gourmand fragrance with notes of <a href="https://www.fragrantica.com/notes/Peach-18.html" target="_blank" rel="noopener noreferrer" style={linkStyle}>Peach</a>, <a href="https://www.fragrantica.com/notes/Caramel-25.html" target="_blank" rel="noopener noreferrer" style={linkStyle}>Caramel</a>, and <a href="https://www.fragrantica.com/notes/Amber-7.html" target="_blank" rel="noopener noreferrer" style={linkStyle}>Amber</a>. I eagerly picked up a bottle, and the staff sent me on my way with a bag filled with tissue paper lightly spritzed with the fragrance. Walking through the mall that day, the number of compliments I received was unparalleled 🎀 🍬
+    Upon the first whiff of <a href="https://www.viktor-rolf.com/fragrance/bonbon" target="_blank" rel="noopener noreferrer" style={linkStyle}>Bonbon's</a> sweet, sophisticated aroma, I was hooked. This eau de parfum is described as a gourmand fragrance with notes of <a href="https://www.fragrantica.com/notes/Peach-18.html" target="_blank" rel="noopener noreferrer" style={linkStyle}>Peach</a>, <a href="https://www.fragrantica.com/notes/Caramel-25.html" target="_blank" rel="noopener noreferrer" style={linkStyle}> Caramel</a>, and <a href="https://www.fragrantica.com/notes/Amber-7.html" target="_blank" rel="noopener noreferrer" style={linkStyle}> Amber</a>. I eagerly picked up a bottle, and the staff sent me on my way with a bag filled with tissue paper lightly spritzed with the fragrance. Walking through the mall that day, the number of compliments I received was unparalleled 🎀 🍬
 </p>
 <p style={paragraphStyle}>
-    As a young adult at the time with a fondness for sweet, playful scents, I steered away from body sprays and anything too fruity. I’ve always been drawn to fragrances that lay on a foundation of <a href="https://www.fragrantica.com/notes/Sandalwood-15.html" target="_blank" rel="noopener noreferrer" style={linkStyle}>Sandalwood</a> as they feel warm, woody, and inviting alongside the sweetness. This is why <a href="https://www.viktor-rolf.com/fragrance/bonbon" target="_blank" rel="noopener noreferrer" style={linkStyle}>Bonbon</a> was the perfect, first-luxury perfume buy that I’d recommend for teens or young adults who love a mature, but sweet scent.
+    As a young adult at the time with a fondness for sweet, playful scents, I steered away from body sprays and anything too fruity. I’ve always been drawn to fragrances that lay on a foundation of Sandalwood as they feel warm, woody, and inviting alongside the sweetness. This is why <a href="https://www.viktor-rolf.com/fragrance/bonbon" target="_blank" rel="noopener noreferrer" style={linkStyle}> Bonbon</a> was the perfect, first-luxury perfume buy that I’d recommend for teens or young adults who love a mature, but sweet scent.
 </p>
       <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
@@ -388,7 +389,7 @@ fontStyle: 'italic',
   return (
     <div>
         <Card
-       
+
           title="BonBon Review"
           description="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure."
           blogContent={blogContent}
