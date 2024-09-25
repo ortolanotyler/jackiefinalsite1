@@ -127,28 +127,60 @@ const captionStyle = {
   const blogContent = (
     <div className="container">
 <Helmet>
-  <title>Girly Pop Culture Halloween Costume Ideas 2024 🎀</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/girly-pop-halloween" />
+  <title>Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀 - Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/barbie-roundup" />
 
-  <meta name="description" content="Explore the best Halloween costume ideas for 2024 inspired by iconic pop culture figures like Britney, Barbie, and Bridgerton with Jackie Wyers." />
-  <meta name="keywords" content="Halloween costumes, Britney Spears costume, Barbie movie costume, Bridgerton costume, girly Halloween ideas, pop culture Halloween, vintage makeup tutorials, Jackie Wyers, Halloween 2024, costume inspiration, Halloween makeup, 90s costume, DIY costumes, celebrity costumes, beauty tutorials, pop culture looks, Sabrina Carpenter makeup, retro hairstyles, iconic styles, Halloween trends, costume ideas, vintage vibes, Bridgerton looks, Barbiecore, 1960s makeup, Halloween styling tips" />
+  <meta 
+    name="description" 
+    content="Discover the best Barbie-inspired products and collectibles for adult fans in 2024. Explore iconic collaborations and must-have items curated by Jackie Wyers." 
+  />
+  <meta 
+    name="keywords" 
+    content="Barbie collaborations, Barbie 2024, Barbie collectors, adult Barbie fans, Barbie products, Barbie accessories, Barbie x Stanley, Barbie coffee table book, Barbie pool floaties, Barbie x FUNBOY, Barbie x Aldo, Silkstone Barbie, Barbie fashion history, Barbie decor, Barbie gifts, Barbie collectibles, vintage Barbie, Barbiecore, Barbie-inspired, pop culture collectibles, Barbie fashion, limited edition Barbie, Jackie Wyers, beauty influencer, Barbie-inspired makeup, Barbie trends, Barbie decor ideas, Barbie collector items, chic Barbie accessories, nostalgic Barbie, fashion dolls, pop culture icons, stylish Barbie items, iconic Barbie collabs, Barbie styling, Barbie merchandise" 
+  />
 
-  <meta property="og:title" content="Girly Pop Culture Halloween Costume Ideas 2024 🎀" />
-  <meta property="og:description" content="Explore the best Halloween costume ideas for 2024 inspired by iconic pop culture figures like Britney, Barbie, and Bridgerton with Jackie Wyers." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/Halloween/HalloweenThumbnail.png" />
-  <meta property="og:url" content="https://jackiewyers.beauty/girly-pop-halloween" />
+  {/* Open Graph Meta Tags */}
+  <meta property="og:title" content="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀 - Jackie Wyers" />
+  <meta 
+    property="og:description" 
+    content="Discover the best Barbie-inspired products and collectibles for adult fans in 2024. Explore iconic collaborations and must-have items curated by Jackie Wyers." 
+  />
+  <meta 
+    property="og:image" 
+    content="https://jackiewyers.beauty/Images/Articles/BarbieRoundup/BarbieRoundupThumbnail.jpg" 
+  />
+  <meta property="og:url" content="https://jackiewyers.beauty/barbie-roundup" />
+  <meta property="og:type" content="article" />
 
-  <meta name="twitter:title" content="Girly Pop Culture Halloween Costume Ideas 2024 🎀" />
-  <meta name="twitter:description" content="Explore the best Halloween costume ideas for 2024 inspired by iconic pop culture figures like Britney, Barbie, and Bridgerton with Jackie Wyers." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Halloween/HalloweenThumbnail.png" />
+  {/* Twitter Meta Tags */}
+  <meta name="twitter:title" content="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀 - Jackie Wyers" />
+  <meta 
+    name="twitter:description" 
+    content="Discover the best Barbie-inspired products and collectibles for adult fans in 2024. Explore iconic collaborations and must-have items curated by Jackie Wyers." 
+  />
+  <meta 
+    name="twitter:image" 
+    content="https://jackiewyers.beauty/Images/Articles/BarbieRoundup/BarbieRoundupThumbnail.jpg" 
+  />
   <meta name="twitter:card" content="summary_large_image" />
 
   {/* Google Analytics Script */}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG', { page_path: window.location.pathname });
+    `}
+  </script>
 
   {/* Google Ads Script */}
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+  <script 
+    async 
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" 
+    crossorigin="anonymous">
+  </script>
 
   {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
@@ -156,9 +188,9 @@ const captionStyle = {
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "Girly Pop Culture Halloween Costume Ideas 2024 🎀",
-        "description": "Explore the best Halloween costume ideas for 2024 inspired by iconic pop culture figures like Britney, Barbie, and Bridgerton with Jackie Wyers.",
-        "image": "https://jackiewyers.beauty/Images/Articles/Halloween/HalloweenThumbnail.png",
+        "headline": "Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀 - Jackie Wyers",
+        "description": "Discover the best Barbie-inspired products and collectibles for adult fans in 2024. Explore iconic collaborations and must-have items curated by Jackie Wyers.",
+        "image": "https://jackiewyers.beauty/Images/Articles/BarbieRoundup/BarbieRoundupThumbnail.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -171,17 +203,16 @@ const captionStyle = {
             "url": "https://jackiewyers.beauty/logo.png"
           }
         },
-        "datePublished": "2024-07-27",
-        "dateModified": "2024-09-20",
+        "datePublished": "2024-09-23",
+        "dateModified": "2024-09-24",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/girly-pop-halloween"
+          "@id": "https://jackiewyers.beauty/barbie-roundup"
         }
       }
     `}
   </script>
 </Helmet>
-
 
 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
@@ -201,7 +232,7 @@ Wishlist"
   publishDate="September 23rd, 2024"
 />
 
-
+  <img src={image1} alt="Best of Barbie Collab Products Flatlay" style={imageStyle} />
 <div style = {{textAlign: 'center', margin: '10px auto' }}>
 <SubscribeButton />
 </div>
@@ -249,9 +280,7 @@ with your favorites or any collabs I missed!
 
 
 
-<div style={gridContainerStyle}>
-  <img src={image1} alt="Best of Barbie Collab Products Flatlay" style={imageStyle} />
-</div>
+
 
 
 <h2 style={headingStyle}>

@@ -361,7 +361,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   <img src={image4} alt="Jackie Wyers as Cherry Pie Picnic Barbie" style={imageStyle} />
 </div>
 <p style={paragraphStyle}>
-  This Silkstone-inspired look features adorable pigtails with red bows and a cherry-print top, capturing a 50s picnic vibe that’s playful and charming. While this particular Cherry Pie Picnic Barbie style didn’t grace the pink carpet on the Barbie Movie press tour, Margot Robbie and designer Andrew McAmal’s coffee table book featured a modern take on the doll. As soon as I saw the picnic-themed rendition in the book, I knew I wanted to recreate it with my own twist! My take on the makeup look is a bit bolder, with red lips, perfect for those who adore vintage-inspired fashion and want to add a touch of retro charm to their Barbie-themed costume.
+  This Silkstone-inspired look features adorable pigtails with red bows and a cherry-print top, capturing a 50s picnic vibe that’s playful and charming. While this particular Cherry Pie Picnic Barbie style didn’t grace the pink carpet on the Barbie Movie press tour, Margot Robbie and designer Andrew Mukamal's coffee table book featured a modern take on the doll. As soon as I saw the picnic-themed rendition in the book, I knew I wanted to recreate it with my own twist! My take on the makeup look is a bit bolder, with red lips, perfect for those who adore vintage-inspired fashion and want to add a touch of retro charm to their Barbie-themed costume.
 </p>
 
 <h2 style={heading2Style}>
