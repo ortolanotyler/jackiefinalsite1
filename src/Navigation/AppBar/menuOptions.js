@@ -48,8 +48,8 @@ const menuOptions = [
     name: 'Quiz',
     subMenu: [
       { name: 'Quiz Homepage', path: '/quiz' },
-      { name: 'What Animal Pretty Are You?', path: '/quiz2' },
-      { name: '2025 Ultimate Wedding Dress Guide', path: '/quiz3' },
+      { name: 'What Animal Pretty Are You?', path: '/quiz-2-home' },
+      { name: '2025 Ultimate Wedding Dress Guide', path: '/quiz-3-home' },
     ],
   },
   { name: 'About', path: '/about' },

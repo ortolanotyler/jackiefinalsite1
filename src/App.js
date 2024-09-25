@@ -123,6 +123,8 @@ import Brussels from './Articles/Travel/Brussels';
 import BarbieDoll from './Articles/Tutorials/PopCulture/BarbieDoll';
 import BarbieRoundup from './Articles/Tutorials/PopCulture/BarbieRoundup';
 import NotFound from './Components/NotFound';
+import Quiz3Homepage from './Quiz/Quiz3Homepage';
+import Quiz2Homepage from './Quiz/Quiz2HomePage';
 function usePageTracking() {
   const location = useLocation();
 
@@ -269,6 +271,8 @@ function App() {
             <Route path="paris-brussels-travel-guide" element={<Brussels />} />
             <Route path="barbie-doll" element={<BarbieDoll />} />
             <Route path="barbie-roundup" element={<BarbieRoundup />} />
+            <Route path="quiz-3-home" element={<Quiz3Homepage />} />
+            <Route path="quiz-2-home" element={<Quiz2Homepage />} />
 
             <Route path="*" element={<NotFound/>} />
           </Route>
