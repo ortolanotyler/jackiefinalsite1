@@ -244,8 +244,14 @@ Wishlist"
 
 
 <div style={paragraphStyle}>
-  <DropCap1 text="Hey Barbie Lovers! It’s Jackie and welcome Back to the Top 5 Barbie Products for Adult Barbie Fans! Ever since the early days of creating YouTube tutorials, Barbie—the world’s most iconic doll—has been a major inspiration to me. Surprisingly, I didn’t grow up surrounded by Barbie dolls. My best friend was a tomboy, and I felt shy sharing my love for Barbie’s pink, sparkly world. But as an adult, I’ve embraced my inner Barbie girl and am all things obsessed with her chic, feminine energy, fashion history, and the brand’s incredible product collaborations that capture the trends of every era. With the 2023 Barbie movie release and the whirlwind Barbiecore summer that followed, we saw countless Barbie product collaborations lighting up our feeds. Now that the initial movie buzz has simmered, I wanted to spotlight the most iconic Barbie collaborations of 2024—those that have stood the test of time and some exciting new releases. So, if you’re a die-hard Barbie fan, keep reading for my top five collector items and collabs that are perfect for adult Barbie lovers. And don’t forget to comment with your favorites or any collabs I missed!" />
+  <DropCap1 text="Hey Barbie Lovers! It’s Jackie and welcome Back to the Top 5 Barbie Products for Adult Barbie Fans! Ever since the early days of creating YouTube tutorials, Barbie—the world’s most iconic doll—has been a major inspiration to me. Surprisingly, I didn’t grow up surrounded by Barbie dolls. My best friend was a tomboy, and I felt shy sharing my love for Barbie’s pink, sparkly world. But as an adult, I’ve embraced my inner Barbie girl and am all things obsessed with her chic, feminine energy, fashion history, and the brand’s incredible product collaborations that capture the trends of every era. "/>
+  
+  
 </div>
+
+<p style={paragraphStyle}>
+With the 2023 Barbie movie release and the whirlwind Barbiecore summer that followed, we saw countless Barbie product collaborations lighting up our feeds. Now that the initial movie buzz has simmered, I wanted to spotlight the most iconic Barbie collaborations of 2024—those that have stood the test of time and some exciting new releases. So, if you’re a die-hard Barbie fan, keep reading for my top five collector items and collabs that are perfect for adult Barbie lovers. And don’t forget to comment with your favorites or any collabs I missed!
+</p>
 
 <p style={paragraphStyle}>
   Ever since the early days of creating YouTube tutorials, <a href="https://barbie.mattel.com/" target="_blank" style={{ color: '#000000', textDecoration: 'underline' }}>Barbie—the world’s most iconic doll—</a> has been a major inspiration to me. Surprisingly, I didn’t grow up surrounded by Barbie dolls. My best friend was a tomboy, and I felt shy sharing my love for Barbie’s pink, sparkly world. But as an adult, I’ve embraced my inner Barbie girl and am all things obsessed with her chic, feminine energy, fashion history, and the brand’s incredible product collaborations that capture the trends of every era.
@@ -351,7 +357,7 @@ Wishlist"
 </h2>
 
 <div style={gridContainerStyle}>
-  <img src={image4} alt="Jackie Wyers Barbiecore Bachelorette" style={imageStyle} />
+  <img src={image8} alt="Jackie Wyers Barbiecore Bachelorette" style={imageStyle} />
 </div>
 
 <p style={paragraphStyle}>
@@ -382,7 +388,7 @@ Wishlist"
 </p>
 
 <div style={gridContainerStyle}>
-  <img src={image8} alt="Flatly of Barbie products including Aldo x Barbie purse" style={imageStyle} />
+  <img src={image4} alt="Flatly of Barbie products including Aldo x Barbie purse" style={imageStyle} />
 </div>
 
 <p style={paragraphStyle}>
