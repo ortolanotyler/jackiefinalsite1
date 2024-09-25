@@ -192,15 +192,11 @@ const imageStyle = {
 />
 
 
-      <img src={title} alt="A Summer Getaway at Hotel Quintessence" style={{ width: '100%' }} />
  
-      <ResponsiveYoutube src="https://www.youtube.com/embed/X8CZPDupmNs?si=PfgHust_BquKsbkO" title="YouTube video player" />
+      <ResponsiveYoutube src="https://www.youtube.com/embed/X8CZPDupmNs?si=PfgHust_BquKsbkO" title="Hotel Quintessance Summer Vlog" />
 
-<div 
-style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '2rem' }}>
-
+      <div style = {{textAlign: 'center', margin: '10px auto' }}>
 <SubscribeVlog />
-
 </div>
 
 
