@@ -350,7 +350,7 @@ isFlipped={true}
 </Suspense>
 </Grid>
 
-<HorizontalLine />
+<HorizontalLine /> 
           
 <TextBanner2 text="LIFESTYLE" height="200px" width="100%" fontSize="80px" />
 
@@ -485,6 +485,8 @@ isFlipped={true}
   author="BY JACKIE WYERS"
   imagePath="MammaMia/mammamiathumb.png"
   linkUrl="/diy-flowers"
+  isFlipped={false}
+
 />
 
 
@@ -506,7 +508,7 @@ isFlipped={true}
   author="BY JACKIE WYERS"
   imagePath="VictoriaSecret2014/VSThumbnail.jpeg"
   linkUrl="/victoriasecret"
-  isFlipped={false}
+  isFlipped={true}
 />
           </Suspense>
         </Grid>
