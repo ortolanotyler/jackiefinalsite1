@@ -6,6 +6,9 @@ import styles from './SiteMap.module.css'; // Ensure this path matches where you
 const Sitemap = () => {
     const beautyPosts = [
         { path: "/tutorials", title: "Makeup Tutorials Home" },
+        { path: "/popculture", title: "Pop Culture Tutorials Home" },
+        { path: "/timetraveltutorials", title: "Time Travel Tutorials Home" },
+        { path: "/trends", title: "Trends Home" },
         { path: "/margotbarbie", title: "Margot Robbie Barbie Movie Makeup Tutorial" },
         { path: "/lattemakeup", title: "Latte Makeup Trend Report" },
         { path: "/sugarplumfairy", title: "Sugar Plum Fairy Trend Report" },
@@ -25,11 +28,15 @@ const Sitemap = () => {
         { path: "/animalpretty", title: "Animal Pretty" },
         { path: "/summerbeauty", title: "Summer Beauty" },
         { path: "/bridalmakeup", title: "Bridal Makeup" },
+        { path: "/bridal", title: "Bridal Tutorials Home" },
         { path: "/perioddrama", title: "Period Drama" },
-        { path: "/eeebridal", title: "Bridal Tutorials Home" },
+        { path: "/summerinspo", title: "Summer Inspiration" },
         { path: "/camera-settings", title: "Camera Settings" },
-        { path: "/sophialoren", title: "Sophia Loren" },
-        { path: "/sharontatebridal", title: "Sharon Tate Bridal" }
+        { path: "/francesca-bridgerton", title: "Francesca Bridgerton Makeup, Hair, and Dress" },
+        { path: "/emily-in-paris", title: "Emily in Paris Makeup Tutorial" },
+        { path: "/barbie-doll", title: "Barbie Beauty Makeup Looks" },
+        { path: "/barbie-roundup", title: "Barbie Makeup Roundup" },
+        { path: "/girly-pop-halloween", title: "Girly Pop Culture Halloween Costume Ideas" },
     ];
 
     const stylePosts = [
@@ -58,28 +65,15 @@ const Sitemap = () => {
         { path: "/metsteps", title: "Met Steps" },
         { path: "/paris-in-nyc", title: "Paris in NYC" },
         { path: "/floral-mini", title: "Floral Mini" },
-        { path: "/folklore-fairy", title: "Folklore Fairy" }
-    ];
-
-    const siteResources = [
-        { path: "/", title: "Home" },
-        { path: "/about", title: "About" },
-        { path: "/sitemap", title: "SiteMap" },
-        { path: "/press", title: "Press and Media Inquiries" },
-        { path: "/subscribe", title: "Newsletter Sign Up" },
-        { path: "/quiz", title: "Quiz Home" },
-        { path: "/quiz2", title: "Quiz 2" },
-        { path: "/quiz3", title: "Quiz 3" },
-        { path: "/vlogs", title: "Vlogs Home" },
-        { path: "/travel", title: "Travel Home" },
-        { path: "/contact", title: "Contact" },
-        { path: "/privacy", title: "Privacy Notice" },
+        { path: "/folklore-fairy", title: "Folklore Fairy" },
+        
     ];
 
     const travelPosts = [
         { path: "/travel", title: "Travel Home" },
         { path: "/tremblant", title: "Mont Tremblant Ski Trip" },
         { path: "/hotelQ", title: "Hotel Quintessence Luxury Review" },
+        { path: "/hotelquintessancesummer", title: "Hotel Quintessence Summer Review" },
         { path: "/disneybeachclubresort", title: "Walt Disney World Beach Club Resort Review" },
         { path: "/epcot", title: "Walt Disney World EPCOT Review" },
         { path: "/westgatesandiego", title: "West Gate San Diego Luxury Review" },
@@ -88,41 +82,69 @@ const Sitemap = () => {
         { path: "/newzealand", title: "New Zealand Travel Blog" },
         { path: "/fable", title: "Fable Auckland Review" },
         { path: "/fairytalewedding", title: "Jackie Wyers Wedding in Sorrento, Italy" },
-        { path: "/hotelquintessancesummer", title: "Hotel Quintessence Summer" },
+        { path: "/rome", title: "Our Three Day Romantic Getaway in Rome, Italy" },
+        { path: "/sorrento", title: "The Best Souvenirs to Bring Home from Sorrento" },
+        { path: "/paris-brussels-travel-guide", title: "Paris and Brussels Travel Guide" },
     ];
 
     const reviewPosts = [
         { path: "/reviews", title: "Product Reviews Home" },
-        { path: "/bonbonreview", title: "Bon Bon Viktor & Rolf Review" },
+        { path: "/bonbonreview", title: "BonBon by Viktor & Rolf Review" },
         { path: "/halfetireview", title: "Halfeti Penhaligon's Review" },
         { path: "/jickyreview", title: "Jicky Guerlain Review" },
+    ];
+
+    const quizResults = [
+        { path: "/foxpretty", title: "Fox Pretty Quiz Result" },
+        { path: "/bunnypretty", title: "Bunny Pretty Quiz Result" },
+        { path: "/catpretty", title: "Cat Pretty Quiz Result" },
+        { path: "/deerpretty", title: "Deer Pretty Quiz Result" },
+        { path: "/bacarra", title: "Bacarra Quiz Result" },
+        { path: "/abril", title: "Abril Quiz Result" },
+        { path: "/percy", title: "Percy Quiz Result" },
+        { path: "/ora", title: "Ora Quiz Result" },
+        { path: "/zara", title: "Zara Quiz Result" },
+        { path: "/elizabeth", title: "Elizabeth Quiz Result" },
+        { path: "/porsha", title: "Porsha Quiz Result" },
+        { path: "/weddingdressguide", title: "Wedding Dress Guide" },
+    ];
+
+    const siteResources = [
+        { path: "/", title: "Home" },
+        { path: "/about", title: "About" },
+        { path: "/sitemap", title: "Sitemap" },
+        { path: "/press", title: "Press and Media Inquiries" },
+        { path: "/subscribe", title: "Newsletter Sign Up" },
+        { path: "/quiz", title: "Quiz Home" },
+        { path: "/quiz1", title: "Quiz 1" },
+        { path: "/quiz2", title: "Quiz 2" },
+        { path: "/quiz3", title: "Quiz 3" },
+        { path: "/vlogs", title: "Vlogs Home" },
+        { path: "/travel", title: "Travel Home" },
+        { path: "/contact", title: "Contact" },
+        { path: "/privacy", title: "Privacy Notice" },
+        { path: "/fan-art", title: "Fan Art Gallery" },
     ];
 
     const additionalPosts = [
         { path: "/summerbeauty", title: "Summer Beauty" },
         { path: "/bridesmaidboxes", title: "Diary Bridesmaids" },
         { path: "/perioddrama", title: "Period Drama" },
-        { path: "/bridalmakeup", title: "Bridal Makeup" },
-        { path: "/bacarra", title: "Bacarra" },
-        { path: "/abril", title: "Abril" },
-        { path: "/percy", title: "Percy" },
-        { path: "/ora", title: "Ora" },
-        { path: "/zara", title: "Zara" },
-        { path: "/elizabeth", title: "Elizabeth" },
-        { path: "/porsha", title: "Porsha" },
-        { path: "/weddingdressguide", title: "Wedding Dress Guide" },
         { path: "/videos", title: "Video Grid Page" },
         { path: "/diary", title: "Diary Home" },
         { path: "/diaryfillers", title: "Diary Fillers" },
+        { path: "/diy-flowers", title: "DIY Flower Pins for a Mamma Mia Inspired Wedding" },
      
-        { path: "/diy-flowers", title: "DIY Flowers" }
     ];
 
     return (
         <>
             <Helmet>
                 <title>Sitemap - Jackie Wyers</title>
-                <meta name="description" content="Explore the sitemap to navigate through all the makeup tutorials, travel blogs, style guides, and reviews by Jackie Wyers." />
+                <meta
+                    name="description"
+                    content="Explore the sitemap to navigate through all the makeup tutorials, travel blogs, style guides, and reviews by Jackie Wyers."
+                />
                 {/* Google Analytics */}
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
                 <script>
@@ -134,55 +156,88 @@ const Sitemap = () => {
                     `}
                 </script>
                 {/* Google AdSense */}
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+                <script
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318"
+                    crossOrigin="anonymous"
+                ></script>
             </Helmet>
             <div className={styles.body}>
                 <h1 className={`${styles.heading} ${styles.mainHeading}`}>Sitemap</h1>
+
                 <h2 className={`${styles.heading} ${styles.subHeading}`}>Beauty</h2>
                 <ul className={styles.list}>
                     {beautyPosts.map((post, index) => (
                         <li key={index} className={styles.listItem}>
-                            <Link to={post.path} className={styles.link}>{post.title}</Link>
+                            <Link to={post.path} className={styles.link}>
+                                {post.title}
+                            </Link>
                         </li>
                     ))}
                 </ul>
-                <h2 className={`${styles.heading} ${styles.subHeading}`}>Site Resources</h2>
+
+                <h2 className={`${styles.heading} ${styles.subHeading}`}>Style</h2>
                 <ul className={styles.list}>
-                    {siteResources.map((post, index) => (
+                    {stylePosts.map((post, index) => (
                         <li key={index} className={styles.listItem}>
-                            <Link to={post.path} className={styles.link}>{post.title}</Link>
+                            <Link to={post.path} className={styles.link}>
+                                {post.title}
+                            </Link>
                         </li>
                     ))}
                 </ul>
+
                 <h2 className={`${styles.heading} ${styles.subHeading}`}>Travel</h2>
                 <ul className={styles.list}>
                     {travelPosts.map((post, index) => (
                         <li key={index} className={styles.listItem}>
-                            <Link to={post.path} className={styles.link}>{post.title}</Link>
+                            <Link to={post.path} className={styles.link}>
+                                {post.title}
+                            </Link>
                         </li>
                     ))}
                 </ul>
+
                 <h2 className={`${styles.heading} ${styles.subHeading}`}>Product Reviews</h2>
                 <ul className={styles.list}>
                     {reviewPosts.map((post, index) => (
                         <li key={index} className={styles.listItem}>
-                            <Link to={post.path} className={styles.link}>{post.title}</Link>
+                            <Link to={post.path} className={styles.link}>
+                                {post.title}
+                            </Link>
                         </li>
                     ))}
                 </ul>
-                <h2 className={`${styles.heading} ${styles.subHeading}`}>MyStyle</h2>
+
+                <h2 className={`${styles.heading} ${styles.subHeading}`}>Quiz Results</h2>
                 <ul className={styles.list}>
-                    {stylePosts.map((post, index) => (
+                    {quizResults.map((post, index) => (
                         <li key={index} className={styles.listItem}>
-                            <Link to={post.path} className={styles.link}>{post.title}</Link>
+                            <Link to={post.path} className={styles.link}>
+                                {post.title}
+                            </Link>
                         </li>
                     ))}
                 </ul>
+
+                <h2 className={`${styles.heading} ${styles.subHeading}`}>Site Resources</h2>
+                <ul className={styles.list}>
+                    {siteResources.map((post, index) => (
+                        <li key={index} className={styles.listItem}>
+                            <Link to={post.path} className={styles.link}>
+                                {post.title}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+
                 <h2 className={`${styles.heading} ${styles.subHeading}`}>Additional Posts</h2>
                 <ul className={styles.list}>
                     {additionalPosts.map((post, index) => (
                         <li key={index} className={styles.listItem}>
-                            <Link to={post.path} className={styles.link}>{post.title}</Link>
+                            <Link to={post.path} className={styles.link}>
+                                {post.title}
+                            </Link>
                         </li>
                     ))}
                 </ul>
