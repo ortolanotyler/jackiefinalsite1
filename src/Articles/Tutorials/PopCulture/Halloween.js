@@ -55,6 +55,8 @@ const Halloween = () => {
     fontWeight: '100',
     fontFamily: 'Playfair Display, serif',
     color: '#000000',
+    maxWidth: '95%',
+
     margin: '30px auto'
 };
 
@@ -66,10 +68,10 @@ const paragraphStyle = {
   fontFamily: 'Georgia, serif',
   fontWeight: 'regular',
 
-  margin: '2rem auto',
+  margin: '0 auto',
 
-  maxWidth: '500px', // Consistent with the other paragraphs
-  lineHeight: '1.6',
+  maxWidth: '95%',
+    lineHeight: '1.6',
 
 };
 
@@ -83,6 +85,7 @@ const gridContainerStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     gap: '10px',
+    maxWidth: '90%',
     margin: '1rem auto'
 };
 
@@ -90,7 +93,7 @@ const imageStyle = {
   display: 'block',
   margin: '1rem auto',
   borderRadius: '0px',
-  maxWidth: '100%',
+  maxWidth: '90%',
   height: 'auto'
 };
 
@@ -262,7 +265,7 @@ down all the makeup, hair, and outfit details.
 
  
  <p style={paragraphStyle}>
-  We can’t have a list of girly halloween costumes without bringing back the 90s with the ultimate schoolgirl look inspired by <a style={linkStyle} href="https://en.wikipedia.org/wiki/Britney_Spears" target="_blank" rel="noreferrer">Britney Spears’</a> iconic music video. Think pink fluffy hair ties, two high braided pigtails, and a classic smokey eye. Finish off with a grey cardigan, black pleated mini skirt, and knee-high socks for the ultimate nostalgia moment. I recreated Britney’s makeup with silver shimmers and bold lip liner to capture her bold yet innocent vibe.
+  We can’t have a list of girly halloween costumes without bringing back the 90s with the ultimate schoolgirl look inspired by <a style={linkStyle} href="https://www.youtube.com/watch?v=C-u5WLJ9Yk4" target="_blank" rel="noreferrer">Britney Spears’</a> iconic music video. Think pink fluffy hair ties, two high braided pigtails, and a classic smokey eye. Finish off with a grey cardigan, black pleated mini skirt, and knee-high socks for the ultimate nostalgia moment. I recreated Britney’s makeup with silver shimmers and bold lip liner to capture her bold yet innocent vibe.
 </p>
 
 
