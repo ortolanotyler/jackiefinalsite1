@@ -81,7 +81,7 @@ const paragraphStyle = {
   fontFamily: 'Playfair Display, serif',
   fontWeight: '100',
 
-  margin: '0 auto',
+  margin: '1rem auto',
 
   maxWidth: '500px', // Consistent with the other paragraphs
   lineHeight: '1.6',
