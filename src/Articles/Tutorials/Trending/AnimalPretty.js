@@ -234,14 +234,12 @@ const captionStyle = {
 
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552826?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
      
       <p style={paragraphStyle}>
   Lashes: A full, wispy set of falsies suit the doe-eyed style. Try 
   <a href="https://shopmy.us/collections/public/552928" style={linkStyle}>ISOPIA Iso-Gentle Touch Lashes</a>.
 </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552928?noHeader=true" title="ISOPIA Iso-Gentle Touch Lashes" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
@@ -252,7 +250,6 @@ const captionStyle = {
 </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552829?noHeader=true" title="Champagne Highlight" />
       
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
       <p style={paragraphStyle}>
   Lips: Go for a nude lipliner, slightly over lining for a fuller appearance. Finish with a 
   <a href="https://shopmy.us/collections/public/552889" style={linkStyle}>matte peach lip colour</a> for a natural, yet enhanced look.
@@ -261,7 +258,6 @@ const captionStyle = {
       <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
       <p style={paragraphStyle}>
   Outfit Inspiration: To fully embody the Deer Pretty theme, choose dainty and whimsical styles. Try outfits in earthy and pastel palettes that resonate with the natural and soft aesthetics of a deer. Fabrics like lace and florals are perfect for this look, adding a touch of femininity and grace. 
   <a href="https://www.freepeople.com/" style={linkStyle}>Free People</a> is a great store to try.
@@ -273,7 +269,6 @@ const captionStyle = {
   Want to really showcase your animal inspiration? 
   <a href="https://fableengland.com/" style={linkStyle}>Fable England</a> has beautiful enamel earrings, necklaces, and embroidered bags featuring fawn designs.
 </p>      <ResponsiveIframe src="https://shopmy.us/collections/public/552834?noHeader=true" title="Fable England Accessories" style = {{height: "1000px"}}/>
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
@@ -296,7 +291,6 @@ const captionStyle = {
   Eyes: Sweep cool toned shimmers, like silver and white, across your lids and deepen up with taupe in the crease. 
   <a href="https://shopmy.us/collections/public/552837" style={linkStyle}>Victoria Beckham Beauty Smoky Eye Brick in Tuxedo</a> is the perfect palette. Draw a bold, winged eyeliner that extends beyond the outer corners to enhance the cat-eye illusion and enhance the outer corner with a black shadow.
 </p>      <ResponsiveIframe src="https://shopmy.us/collections/public/552837?noHeader=true" title="Victoria Beckham Beauty Smoky Eye Brick in Tuxedo" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
@@ -304,7 +298,6 @@ const captionStyle = {
   Lashes: Go for dramatic, fanned-out lashes that complement the bold liner, amplifying the overall eye makeup. Try 
   <a href="https://shopmy.us/collections/public/552911" style={linkStyle}>ISOPIA Iso-Gentle Echo Lashes</a>.
 </p>      <ResponsiveIframe src="https://shopmy.us/collections/public/552911?noHeader=true" title="ISOPIA Iso-Gentle Echo Lashes" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
@@ -312,13 +305,11 @@ const captionStyle = {
   Cheeks: Sculpt your cheeks with a cool toned contour powder to add depth and enhance your natural bone structure, mimicking the chiseled look typical of a sleek feline. Find options at 
   <a href="https://shopmy.us/collections/public/552914" style={linkStyle}>Sephora</a>.
 </p>      <ResponsiveIframe src="https://shopmy.us/collections/public/552914?noHeader=true" title="Cool Toned Contour Powder" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
       <p style={paragraphStyle}>
   Lips: Select deep mauve tones for a seductively pouty effect or go for a nude lip combo. A high-shine gloss can add dimension and a touch of glamour. Check out 
   <a href="https://shopmy.us/collections/public/552839" style={linkStyle}>Deep Mauve Lip Colour</a>.
 </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552839?noHeader=true" title="Deep Mauve Lip Colour" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
@@ -327,7 +318,6 @@ const captionStyle = {
   <a href="https://www.revolve.com/" style={linkStyle}>Revolve</a> for trendy, contemporary pieces and local thrift stores for genuine '90s gems like sleek sunglasses.
 </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552842?noHeader=true" title="90s Supermodel Style" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
       <h2 style={headingStyle}>Fox Pretty: Rustic and Earthy 🦊</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <img src={image6} alt="Fox Pretty - Jackie Wyers" style={{ width: '100%' }} />
@@ -347,7 +337,6 @@ const captionStyle = {
   <a href="https://shopmy.us/collections/public/552844" style={linkStyle}>Bareminerals Warmth Minerals Palette</a> is perfect to create this style.
 </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552844?noHeader=true" title="Bareminerals Warmth Minerals Palette" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
@@ -355,12 +344,10 @@ const captionStyle = {
   Lashes: Extend the lash line along the winged out shadow. Try 
   <a href="https://shopmy.us/collections/public/552845" style={linkStyle}>ISOPIA Iso-Gentle Healing Lashes</a> for a subtle effect.
 </p>      <ResponsiveIframe src="https://shopmy.us/collections/public/552845?noHeader=true" title="ISOPIA Iso-Gentle Healing Lashes" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
       <p style={paragraphStyle}>
   Cheeks: Apply dual blush tones—a rose shade for a vibrant pop of colour and a deeper rose to define the cheekbones. Find options at 
   <a href="https://shopmy.us/collections/public/552846" style={linkStyle}>Sephora</a>.
 </p>      <ResponsiveIframe src="https://shopmy.us/collections/public/552846?noHeader=true" title="Dual Blush Tones" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
@@ -369,7 +356,6 @@ const captionStyle = {
   <a href="https://shopmy.us/collections/public/552848" style={linkStyle}>Matte Berry Lip Colour</a>.
 </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552848?noHeader=true" title="Matte Berry Lip Colour" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
      
       <p style={paragraphStyle}>
   Outfit Inspiration: Dive into a bohemian vibe with lively prints. 
@@ -381,7 +367,6 @@ const captionStyle = {
   Don't forget to check out 
   <a href="https://fableengland.com/" style={linkStyle}>Fable England</a> for fox-themed accessories that add a charming final touch.
 </p>      <ResponsiveIframe src="https://shopmy.us/collections/public/552850?noHeader=true" title="Fox-Themed Accessories" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
       <h2 style={headingStyle}>Bunny Pretty: Cute and Angelic</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <img src={image2} alt="Bunny Pretty - Jackie Wyers" style={{ width: '100%' }} />
@@ -409,18 +394,15 @@ const captionStyle = {
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552851?noHeader=true" title="Charlotte Tilbury Pillow Talk Eyeshadow Palette" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
       <p style={paragraphStyle}>
   Lashes: Curl your lashes for a natural lift, focusing on the upper lashes only to keep the look light and fresh. Try 
   <a href="https://shopmy.us/collections/public/552853" style={linkStyle}>ISOPIA Iso-Gentle Harmony Lashes</a> for extra length.
 </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552853?noHeader=true" title="ISOPIA Iso-Gentle Harmony Lashes" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
       <p style={paragraphStyle}>
   Cheeks: Embrace a rosy flush with a heavier application of blush. 
   <a href="https://shopmy.us/collections/public/552854" style={linkStyle}>Milani Coral Cove</a> is an excellent choice for a warmer pink, while Rare Beauty's blush in Happy suits cooler undertones.
 </p>      <ResponsiveIframe src="https://shopmy.us/collections/public/552854?noHeader=true" title="Milani Coral Cove Blush" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
      <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
@@ -428,7 +410,6 @@ const captionStyle = {
   Lips: Start with a nude pink lip liner to define your lips, then layer on the 
   <a href="https://shopmy.us/collections/public/552857" style={linkStyle}>Sephora Collection Outrageous Plumping Lip Gloss</a> in Pink Pout for a glossy, vibrant finish that complements the blushy cheeks.
 </p>      <ResponsiveIframe src="https://shopmy.us/collections/public/552857?noHeader=true" title="Sephora Collection Outrageous Plumping Lip Gloss" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
       <p style={paragraphStyle}>
   Outfit Inspiration: Lean into the Bunny Pretty theme with soft, flowing fabrics in pink tones. Try flirty dresses in pastel colours that enhance the sweetness of this look. Brands like 
   <a href="https://forloveandlemons.com/" style={linkStyle}>For Love & Lemons</a> offer a variety of options that can perfectly complement the Bunny Pretty makeup.
@@ -437,7 +418,6 @@ const captionStyle = {
   Additionally, accessories from 
   <a href="https://fableengland.com/" style={linkStyle}>Fable England</a>, such as bunny-themed jewelry, can add a whimsical touch to complete your outfit as mentioned in the looks above.
 </p>      <ResponsiveIframe src="https://shopmy.us/collections/public/552860?noHeader=true" title="Bunny-Themed Jewelry" />
-      <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '-0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
       <p style={paragraphStyle}>
   I hope this article inspires you to play with these animal-inspired beauty looks. Which "Type of Pretty" are you leaning towards? Dive into the quiz 
   <a href='/quiz2' style={linkStyle}>here</a> and I hope the full-length tutorials on my channel inspire you to try a new look!
