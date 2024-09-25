@@ -8,6 +8,7 @@ import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import BookNowButton from '../../Components/BookNowButton';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import DropCap1 from './DropCap1';
+import ArticleTitle from '../../Components/ArticleTitle';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ2/HotelQTitle2.png`;
@@ -175,11 +176,22 @@ const imageStyle = {
 </Helmet>
 
 
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
-        <a href="/bridal" style={{ fontFamily: 'Arapey', fontSize: '1em', color: 'black', textDecoration: 'none' }}>
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
+        <a href="/travel" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
           TRAVEL // QUEBEC
         </a>
       </div>
+
+
+
+  <ArticleTitle
+  mainTitle="A Summer Getaway at Hotel Quintessance"
+  subTitle="A Romantic Retreat in Mont Tremblant"
+  author="Jackie Wyers"
+  publishDate="April 1st, 2024"
+/>
+
+
       <img src={title} alt="A Summer Getaway at Hotel Quintessence" style={{ width: '100%' }} />
  
       <ResponsiveYoutube src="https://www.youtube.com/embed/X8CZPDupmNs?si=PfgHust_BquKsbkO" title="YouTube video player" />
@@ -191,12 +203,9 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', marg
 
 </div>
 
-<div
-style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '2rem' }}
-> 
+
 
 <DropCap1 text="Welcome to another travel post! As a lover of Canadian adventures, I was thrilled when Tyler and I had the opportunity to revisit the enchanting Mont Tremblant, Quebec, for a summer stay at the luxurious Hotel Quintessence. After our winter trip there skiing, experiencing this beautiful location in the warmer months was a delightful contrast. Join me as I share our unforgettable summer getaway and all that Hotel Quintessence has to offer." />
-</div>
 
 
 <div style={gridContainerStyle}>
@@ -219,12 +228,7 @@ Hotel Quintessence is perfectly situated across the street from the charming Mon
 <div style={gridContainerStyle}>
     <img src={image3} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
 </div>
-<div
-style = {{
-  margin : '20px'
-}}
->
-
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -246,12 +250,7 @@ The hotel's grounds are magnificent, with every room offering stunning views of 
 
     <img src={image7} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
 </div>
-<div
-style = {{
-  margin : '20px'
-}}
->
-
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -338,12 +337,7 @@ Our mornings started with Nespresso in the room and news on the big screen TV. O
     <img src={image22} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
     <img src={image23} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
 </div>
-<div
-style = {{
-  margin : '20px'
-}}
->
-
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 <div style={gridContainerStyle}>
@@ -407,12 +401,7 @@ One of the best tools for booking hotels is Plannin.com, where creators like me 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
                 <BookNowButton href="https://go.shopmy.us/p-6594014" target="_blank" rel="noopener noreferrer"/>
             </div>
-<div
-style = {{
-  margin : '20px'
-}}
->
-
+<div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
 
@@ -447,31 +436,7 @@ Overall, this trip was the perfect pre-wedding relaxation for Tyler and me, and 
 
       <Comments website-id={websiteId} page-id={"Hotel-Quintessance-Summer2"} />
 
-      <div
-style = {{
-  margin : '20px'
-}}
->
 
-  <AdSenseAd/>
-</div>
-
-<div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
-<div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
       
     </div>
     
