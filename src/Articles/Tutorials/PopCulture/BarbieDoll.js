@@ -20,7 +20,7 @@ const image6 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/6.jpeg`;
 const image7 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/7.JPG`;
 const image8 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/8.jpeg`;
 
-const next = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/MARGOTBARBIESTHUMBNAIL.png`;
+const next = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/SQUAREMARGOT.jpeg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
