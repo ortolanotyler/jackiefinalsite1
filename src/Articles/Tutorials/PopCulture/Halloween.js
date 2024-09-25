@@ -27,18 +27,21 @@ const next = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016MakeupThumbnail
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-  <div
-    style={{
-      padding: '10px 20px', // Existing padding
-      margin: '1rem auto',
-      maxWidth: '800px', // Control max width to center the content
-      padding: '10px', // Add padding to prevent text from touching the edges
-    }}
-  >
-    <div className="card">
+ 
+  <div style={{
+    padding: '10px 20px', // Consistent padding to prevent content from touching edges
+   
+  }}>
+
+    <div className="card"
+   style={{     margin: '1rem auto', // Consistent padding to prevent content from touching edges
+
+   }}>
       <div className="blog-content">{blogContent}</div>
     </div>
-  </div>
+    </div>
+
+  
 );
 
 const Halloween = () => {
@@ -51,9 +54,6 @@ const Halloween = () => {
 
   const websiteId = '10910';
   const blogRef = useRef(null);
-
- 
-  
   const heading2Style = {
     textAlign: 'center',
     fontSize: '1.5rem',
@@ -68,7 +68,7 @@ const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',
     fontWeight: '100',
-    fontFamily: 'Playfair Display, serif',
+    fontFamily: 'Lora, sans-serif',
     color: '#000000',
     margin: '30px auto'
 };
@@ -79,10 +79,10 @@ const paragraphStyle = {
   fontSize: '22px',
   color: '#000000',
 
-  fontFamily: 'Georgia, serif',
-  fontWeight: 'regular',
+  fontFamily: 'Playfair Display, serif',
+  fontWeight: '100',
 
-  margin: '2rem auto',
+  margin: '1rem auto',
 
   maxWidth: '500px', // Consistent with the other paragraphs
   lineHeight: '1.6',
@@ -131,13 +131,14 @@ const iframeStyle = {
 
 const captionStyle = {
   textAlign: 'center',
-  fontSize: '1.1rem',
-  fontFamily: 'Raleway, serif',
+  fontSize: '1rem',
+  fontFamily: 'GFS Didot, sans serif',
   fontWeight: 'normal',
   margin: '1rem auto',
   maxWidth: '100%',
   fontStyle: 'italic',
 };
+
 
 
 
