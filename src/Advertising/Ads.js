@@ -36,7 +36,7 @@ const AdSenseAd = () => {
     <div ref={adRef}>
       <ins
         className="adsbygoogle"
-        style={{ display: 'block', textAlign: 'center' }}
+        style={{ display: 'block', textAlign: 'center', minWidth: '250px' }}
         data-ad-layout="in-article"
         data-ad-format="fluid"
         data-ad-client="ca-pub-4660168246825318"
