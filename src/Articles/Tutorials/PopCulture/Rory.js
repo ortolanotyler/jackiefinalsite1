@@ -10,6 +10,8 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
+import HorizontalLine from '../../../Components/HorizontalLine';
+import SocialShare from '../../../Home/SocialShare';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Rory1/Rory1.jpg`;
@@ -17,7 +19,12 @@ const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Rory1/Rory2.JPG`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/Rory1/Rory3.JPG`;
 const image4 = `${process.env.PUBLIC_URL}/Images/Articles/Rory1/Rory4.JPG`;
 
+const articleUrl = 'https://jackiewyers.beauty/articles/rory-gilmore';
+const articleTitle = "Rory Gilmore's No-Makeup Makeup & Cozy Fall Style Guide - Jackie Wyers";
+const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/Rory1/rorythumbnail.jpg'; // Image URL for Pinterest sharing
 
+
+const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
 
 
 const next = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/JackieWyersBarbieThumb.jpeg`;
@@ -226,6 +233,8 @@ const captionStyle = {
   author="Jackie Wyers"
   publishDate="September 24th, 2024"
 />
+<SocialShare url={articleUrl} title={articleTitle} imageUrl={articleImageUrl} />
+
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/reRyyvPTAZw?si=9YkmliVIrhJEYA6k" title="Rory Gilmore NO-MAKEUP makeup & skincare🧴📚☕️ ft. the REAL Stars Hallow!" />
 
@@ -306,9 +315,32 @@ const captionStyle = {
 
       <h2 style={headingStyle}>What Makeup Did Alexis Bledel Use on Gilmore Girls? 🧐</h2>
 
-      <div style={gridContainerStyle}>
-        <img src={image2} alt="Rory Gilmore Makeup Look." style={imageStyle} />
-      </div>
+      <div style={{ position: 'relative', display: 'inline-block' }}>
+  <img 
+    src={image2} 
+    alt="Rory Gilmore Makeup" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://jackiewyers.beauty/articles/rory-gilmore"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+    style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+      width: '50px',
+      height: '50px',
+      cursor: 'pointer',
+      opacity: 0.9,
+      transition: 'opacity 0.3s'
+    }}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/articles/rory-gilmore&media=https://jackiewyers.beauty/Images/Articles/Rory1/Rory1.jpg&description=Rory Gilmore Makeup')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
+</div>
 
       <p style={paragraphStyle}>
   The fresh-faced look of Rory Gilmore was carefully crafted by talented makeup artists throughout the series. In later seasons, <a href="https://www.imdb.com/name/nm0853242/" target="_blank" rel="noopener noreferrer">Tegan Taylor</a> was one of the key makeup artists who worked on the show, bringing Rory’s no-makeup makeup aesthetic to life. Taylor has shared some of the exact products used on the actors in the later seasons as seen in this <a href="https://eliza.co.uk/beauty/gilmore-girls-makeup" target="_blank" rel="noopener noreferrer">interview</a>, though finding the precise Y2K-era products can be a challenge today. Staples like sheer foundations, natural blushes, and the iconic Cherry ChapStick were essential in creating <a href="https://www.imdb.com/name/nm0088127/" target="_blank" rel="noopener noreferrer">Alexis Bledel’s</a> look as Rory.
@@ -384,9 +416,32 @@ const captionStyle = {
 
       <h2 style={headingStyle}>Cozy Fall Fashion: Channeling Rory's Classic Style 🧣</h2>
 
-      <div style={gridContainerStyle}>
-      <img src={image3}  alt="Rory Gilmore-inspired fall outfit with chunky knit sweater from the Pilot Episode of Gilmore Girls" style={imageStyle} />
-      </div>
+      <div style={{ position: 'relative', display: 'inline-block' }}>
+  <img 
+    src={image3} 
+    alt="Rory Gilmore Makeup" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://jackiewyers.beauty/articles/rory-gilmore"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+    style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+      width: '50px',
+      height: '50px',
+      cursor: 'pointer',
+      opacity: 0.9,
+      transition: 'opacity 0.3s'
+    }}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/articles/rory-gilmore&media=https://jackiewyers.beauty/Images/Articles/Rory1/Rory1.jpg&description=Rory Gilmore Makeup')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
+</div>
 
       <p style={paragraphStyle}>
   Let’s talk fall fashion inspiration! Rory’s wardrobe is a cozy, preppy dream—think knitted sweaters, plaid skirts, and lots of layering. For this look, I’m drawing inspiration from her dreaming of Yale days, strolling through <a href="https://drinkingcoffeewatchingtv.com/en/gilmore-girls-filming-locations/" target="_blank" rel="noopener noreferrer">Stars Hollow</a>.
@@ -439,9 +494,32 @@ const captionStyle = {
 </div>
       <h2 style={headingStyle}>Visiting Stars Hollow: A Trip to Unionville, Ontario ☕</h2>
 
-      <div style={gridContainerStyle}>
-      <img src={image4}  alt="Visiting the real set of Gilmore Girls in Unionville, Ontario, Canada." style={imageStyle} />
-      </div>
+      <div style={{ position: 'relative', display: 'inline-block' }}>
+  <img 
+    src={image4} 
+    alt="Rory Gilmore Makeup" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://jackiewyers.beauty/articles/rory-gilmore"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+    style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+      width: '50px',
+      height: '50px',
+      cursor: 'pointer',
+      opacity: 0.9,
+      transition: 'opacity 0.3s'
+    }}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/articles/rory-gilmore&media=https://jackiewyers.beauty/Images/Articles/Rory1/Rory1.jpg&description=Rory Gilmore Makeup')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
+</div>
 
       <p style={paragraphStyle}>
   Did you know that the pilot episode of Gilmore Girls was filmed in the quaint town of <a href="https://unionville.ca/" target="_blank" rel="noopener noreferrer">Unionville, Ontario</a>, Canada? I recently visited this charming spot, which doubled as the iconic Stars Hollow. Walking through Unionville feels like stepping right into Rory’s world—from the cozy storefronts to the picturesque streets. I even explored some of the exact locations used in the show, like the famous church steps and the town square. You can watch my full vlog of this magical visit <a href="https://drinkingcoffeewatchingtv.com/en/gilmore-girls-filming-locations/" target="_blank" rel="noopener noreferrer"> here </a> and see how Unionville truly captures the essence of Stars Hollow. It’s a must-see for any Gilmore Girls fan wanting to experience a piece of Rory’s world in real life!
