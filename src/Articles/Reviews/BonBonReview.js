@@ -7,9 +7,14 @@ import { Helmet } from 'react-helmet';
 import { initGA, logPageView } from '../../analytics';
 import ArticleTitle from '../../Components/ArticleTitle.js';
 import NextArticle from '../../Components/NextArticleComponent.js';
+import SocialShare from '../../Home/SocialShare.js';
+import HorizontalLine from '../../Components/HorizontalLine.js';
 
 
 
+const articleUrl = 'https://jackiewyers.beauty/articles/bonbonreview';
+const articleTitle = "BonBon Review - A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments." ;
+const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/BonBonReview/BonBonThumbnail.png; ';
 
 
 const BonBon2 = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBon2.jpg`;
@@ -250,6 +255,8 @@ fontStyle: 'italic',
   author="Jackie Wyers"
   
 />  
+<SocialShare url={articleUrl} title={articleTitle} imageUrl={articleImageUrl} />
+
       </div>
          <div style={gridContainerStyle}>
         <img src={BonBon2} alt="BonBon Fragrance by Viktor & Rolf " style={imageStyle} />
@@ -328,9 +335,13 @@ fontStyle: 'italic',
 <p style={paragraphStyle}>
     As a young adult at the time with a fondness for sweet, playful scents, I steered away from body sprays and anything too fruity. I’ve always been drawn to fragrances that lay on a foundation of Sandalwood as they feel warm, woody, and inviting alongside the sweetness. This is why <a href="https://www.viktor-rolf.com/fragrance/bonbon" target="_blank" rel="noopener noreferrer" style={linkStyle}> Bonbon</a> was the perfect, first-luxury perfume buy that I’d recommend for teens or young adults who love a mature, but sweet scent.
 </p>
+
+
       <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
+
+
       <ResponsiveIframe src="https://shopmy.us/collections/public/549701?noHeader=true" title="Final Touches" scrolling="no" />
       <h2 style={headingStyle}>💗 Review & Recommendations</h2>
       <p style={paragraphStyle}>
@@ -342,17 +353,26 @@ fontStyle: 'italic',
       <p style={paragraphStyle}>
         <strong>Occasions and Seasonality:</strong> Ideal for the cooler embrace of autumn and winter, Bonbon transitions seamlessly from daytime charm to evening elegance.
       </p>
+      <HorizontalLine/>
+
+
       <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
+
+
       <h2 style={headingStyle}>⚖ Comparisons</h2>
       <p style={paragraphStyle}>
         Lovers of sweet gourmands and vanilla will find joy in exploring similar fragrances, like Bianco Latte Giardini Di Toscana, with its own take on caramel. Yet, Bonbon's fruity opening sets it apart, offering a distinctive allure.
       </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/516464?noHeader=true" title="Final Touches" />
+      
+
       <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
+
+
       <h2 style={headingStyle}>📝 Final Thoughts</h2>
       <p style={paragraphStyle}>
         <strong>Pros and Cons:</strong> While its gourmand charm and lasting warmth are undeniable, those in search of spicier more mature scents might look elsewhere, perhaps preferring <a href="https://www.nordstrom.com/s/petra-eau-de-parfum/7207411?utm_channel=low_nd_affiliates_influencer&utm_content=&utm_term=2340682&utm_source=impact&utm_medium=affiliate_influencer&utm_campaign=shopmyshelf&irclickid=3vRVdo0yhxyKUwhRA0yln1DiUkHVrSVlrStwwQ0&irgwc=1" target="_blank" rel="noreferrer" style={{ color: 'black', textDecoration: 'underline' }}>Legacy of Petra by Penhaligon's</a>.
@@ -363,9 +383,13 @@ fontStyle: 'italic',
       <p style={paragraphStyle}>
         <strong>Who Would Enjoy It:</strong> A must-try for gourmand fragrance aficionados seeking a sophisticated twist on sweetness.
       </p>
+      
+
       <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
+
+
       <p style={paragraphStyle}>
         Bonbon by Viktor & Rolf is a masterful creation that offers more than just a sweet fragrance; it's a statement of indulgence and pleasure. Its lasting power, unique scent profile, and beautiful packaging make it a fragrance worth exploring for those drawn to sweet, gourmand scents.
       </p>

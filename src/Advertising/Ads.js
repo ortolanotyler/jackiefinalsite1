@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import HorizontalLine from '../Components/HorizontalLine';
 
 const AdSenseAd = () => {
   const adRef = useRef(null);
@@ -33,6 +34,8 @@ const AdSenseAd = () => {
 
   return (
     <div ref={adRef}>
+            <HorizontalLine/>
+
       <ins
         className="adsbygoogle"
         style={{
@@ -46,6 +49,8 @@ const AdSenseAd = () => {
         data-ad-client="ca-pub-4660168246825318"
         data-ad-slot="8783611952"
       ></ins>
+            <HorizontalLine/>
+
     </div>
   );
 };
