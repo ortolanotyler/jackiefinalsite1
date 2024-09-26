@@ -496,7 +496,6 @@ isFlipped={false}
 </Suspense>
         </Grid>
 
-        <HorizontalLine />
        
 
 

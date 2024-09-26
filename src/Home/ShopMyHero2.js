@@ -1,7 +1,7 @@
 import React from 'react';
 
 import HomeShopMy from '../Shop/HomeShopMy';
-import TextReveal from '../Components/TextReveal';
+import TextBanner2 from '../Components/TextBanner2';
 
 
 const ShopMyHero2 = () => {
@@ -34,7 +34,7 @@ const ShopMyHero2 = () => {
 
   return (
     <div style={{ backgroundColor: 'white' }}>
-      <TextReveal text="SHOP MY STYLE" />
+      <TextBanner2 text="SHOP MY STYLE" />
    
       <HomeShopMy />
     

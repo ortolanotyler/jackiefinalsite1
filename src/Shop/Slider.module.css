@@ -39,8 +39,8 @@ body {
 .itemImg {
   width: 100%;
   height: 100%;
-  border-radius: 7.5px;
-  box-shadow: 0 6px 9px rgba(0, 0, 0, 0.3); /* Add box shadow */
+  border-radius: 0px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5); /* Add box shadow */
   display: block;
   object-fit: cover;
 }
@@ -53,7 +53,7 @@ body {
   left: 0;
   right: 0;
   position: absolute;
-  background: black;
+  background: #fff;
   opacity: 0;
   border-radius: 7.5px; /* Match border radius of image */
 }
@@ -79,7 +79,7 @@ body {
   opacity: 0;
   visibility: hidden;
   text-align: center;
-  border-radius: 7.5px; /* Match border radius of image */
+  border-radius: 0px; /* Match border radius of image */
 }
 
 .itemLink:hover {
