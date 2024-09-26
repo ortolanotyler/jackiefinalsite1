@@ -5,10 +5,15 @@ import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import ArticleTitle from '../../Components/ArticleTitle';
 import NextArticle from '../../Components/NextArticleComponent';
+import SocialShare from '../../Home/SocialShare';
 
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const nextArticle = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/jickyguerlainthumbnail.png`;
 
+
+const articleUrl = 'https://jackiewyers.beauty/articles/halfetireview';
+const articleTitle = "Penhaligon's Halfeti Review | For the bold and exotic";
+const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/HalfetiReview/HalfetiThumbnail.png' ;
 
 const Card = ({ blogContent }) => (
   <div
@@ -240,6 +245,9 @@ const HalfetiReview = () => {
   author="Jackie Wyers"
   publishDate="February 20th, 2024" // Corrected prop name
 />
+
+<SocialShare url={articleUrl} title={articleTitle} imageUrl={articleImageUrl} />
+
 
     
 
