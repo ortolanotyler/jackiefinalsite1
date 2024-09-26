@@ -282,13 +282,7 @@ imagePath="AnimalPretty/animals.jpg"
 linkUrl="/quiz-2-home"
 isFlipped={true}
 />
-<HeroSection
-featureText="QUIZ"
-headlineText="The Ultimate Wedding Dress Quiz for 2025"
-imagePath="BridalMakeup/guidethumbnail.jpeg"
-linkUrl="/quiz-3-home"
-isFlipped={false}
-/>
+
   </Suspense>
 </Grid>
 
