@@ -8,6 +8,11 @@ import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
+import SocialShare from '../../Home/SocialShare';
+
+const articleUrl = 'https://jackiewyers.beauty/princeofwales';
+const articleTitle = 'Prince of Wales Hotel, Niagara-On-The-Lake Review';
+const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/PrinceOfWales/PrinceOfWalesthumbnail.jpeg';
 
 
 const images = [
@@ -208,6 +213,8 @@ const Card = ({ blogContent }) => (
 />
 
             </div>
+
+            <SocialShare url={articleUrl} title={articleTitle} imageUrl={articleImageUrl} />
            
             <ResponsiveYoutube src="https://www.youtube.com/embed/qIAMUI6Enz0?si=IODG7kkuWSOxLfIa" title="YouTube video player" />
 

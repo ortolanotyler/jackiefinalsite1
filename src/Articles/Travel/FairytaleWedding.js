@@ -8,6 +8,7 @@ import { initGA, logPageView } from '../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
+import SocialShare from '../../Home/SocialShare';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg`;
@@ -63,6 +64,12 @@ const image99 = `${process.env.PUBLIC_URL}/Images/Articles/WeddingCarousel/96.jp
 
 const bridesmaid = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/BridesmaidBoxThumb!.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+
+const articleUrl = 'https://jackiewyers.beauty/fairytalewedding';
+const articleTitle = 'Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers';
+const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg';
+
+
 
 const Card = ({ blogContent }) => (
   <div
@@ -190,7 +197,7 @@ const captionStyle = {
 
   {/* Google Analytics Script */}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+  <script src={`https://jackiewyers.beauty/analytics.js`} async></script>
 
   {/* Google Ads Script */}
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
@@ -213,7 +220,7 @@ const captionStyle = {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-                      "url": "${process.env.PUBLIC_URL}/jwlogo3.png"
+                      "url": "https://jackiewyers.beauty/jwlogo3.png"
           }
         },
         "datePublished": "2024-07-27",
@@ -240,6 +247,8 @@ const captionStyle = {
   subTitle="All the enchanting details, prep & planning"
   author="Jackie Wyers"
 />   
+<SocialShare url={articleUrl} title={articleTitle} imageUrl={articleImageUrl} />
+
 <div
 style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 > 

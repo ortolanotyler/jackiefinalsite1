@@ -8,6 +8,7 @@ import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
+import SocialShare from '../../Home/SocialShare';
 
 
 
@@ -27,6 +28,12 @@ const tremblant12 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tre
 const tremblant13 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant13.png`;
 const tremblant14 = `${process.env.PUBLIC_URL}/Images/Articles/MontTremblant/tremblant14.png`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+
+const articleUrl = 'https://jackiewyers.beauty/tremblant';
+const articleTitle = 'Mont Tremblant Travel Guide - Jackie Wyers';
+const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/MontTremblant/TREMBLANTTHUMBNAIL.jpeg';
+
+
 
 const Card = ({ blogContent }) => (
   <div
@@ -200,6 +207,10 @@ const Card = ({ blogContent }) => (
   author="Jackie Wyers"
 />
             </div>
+
+
+            <SocialShare url={articleUrl} title={articleTitle} imageUrl={articleImageUrl} />
+
            
             <ResponsiveYoutube src="https://www.youtube.com/embed/4lDCreVFqAw?si=0X5e_MzsoCeTGhxM" title="YouTube video player" />
             <div style = {{textAlign: 'center', margin: '10px auto' }}>

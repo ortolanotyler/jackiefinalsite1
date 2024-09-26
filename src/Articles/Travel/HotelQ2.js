@@ -9,6 +9,7 @@ import BookNowButton from '../../Components/BookNowButton';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
+import SocialShare from '../../Home/SocialShare';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ2/HotelQTitle2.png`;
@@ -50,6 +51,12 @@ const image30 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ2/29.jpg`;
 
 const hotelq1 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/HOTELQTHUMBNAIL.jpeg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+
+const articleUrl = 'https://jackiewyers.beauty/hotelquintessance-summer';
+const articleTitle = 'Hotel Quintessence | A Hidden Gem of Summer in Canada';
+const articleImageUrl = 'https://jackiewyers.beauty/hotelquintessence-summer/HotelQThumbnail.jpg';
+
+
 
 const Card = ({ blogContent }) => (
   <div
@@ -231,6 +238,7 @@ const captionStyle = {
 />
 </div>
 
+<SocialShare url={articleUrl} title={articleTitle} imageUrl={articleImageUrl} />
 
 
  

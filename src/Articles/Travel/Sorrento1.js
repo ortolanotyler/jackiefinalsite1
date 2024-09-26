@@ -8,6 +8,12 @@ import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import NextArticle from '../../Components/NextArticleComponent';
+import SocialShare from '../../Home/SocialShare';
+
+
+const articleUrl = 'https://jackiewyers.beauty/sorrento-souvenirs';
+const articleTitle = 'Ultimate Sorrento Souvenir Guide - Jackie Wyers';
+const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/1.JPG`;
@@ -143,14 +149,14 @@ const captionStyle = {
   
   <meta property="og:title" content="Ultimate Sorrento Souvenir Guide - Jackie Wyers" />
   <meta property="og:description" content="Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy." />
-  <meta property="og:image" content={image1} />
+  <meta property="og:image" content="jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg" />
   <meta property="og:url" content="https://jackiewyers.beauty/sorrento-souvenirs" />
   <meta property="og:type" content="article" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Ultimate Sorrento Souvenir Guide - Jackie Wyers" />
   <meta name="twitter:description" content="Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy." />
-  <meta name="twitter:image" content={image1} />
+  <meta name="twitter:image" content="jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg" />
   <link rel="canonical" href="https://jackiewyers.beauty/sorrento-souvenirs" />
 
   <script type="application/ld+json">
@@ -164,7 +170,7 @@ const captionStyle = {
       },
       "headline": "Ultimate Sorrento Souvenir Guide - Jackie Wyers",
       "description": "Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy.",
-      "image": "${image1}",
+      "image": "$jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg",
       "author": {
         "@type": "Person",
         "name": "Jackie Wyers"
@@ -174,11 +180,11 @@ const captionStyle = {
         "name": "Jackie Wyers",
         "logo": {
           "@type": "ImageObject",
-          "url": "${signature}"
+          "url": "jackiewyers.beauty/logo.png"
         }
       },
       "datePublished": "2024-09-04",
-      "dateModified": "2024-09-04"
+      "dateModified": "2024-09-14"
     }
     `}
   </script>
@@ -213,6 +219,9 @@ const captionStyle = {
         publishDate="August 30th, 2024"
       />
     </div>
+
+    <SocialShare url={articleUrl} title={articleTitle} imageUrl={articleImageUrl} />
+
       
 <div style={gridContainerStyle}>
     <img src={image1} alt="The Best Souvenirs to Bring Home

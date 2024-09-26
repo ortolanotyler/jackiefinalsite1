@@ -12,6 +12,7 @@ import EmbeddedGuide from './PlanninEmbed';
 import ArticleTitle from '../../Components/ArticleTitle';
 import NextArticle from '../../Components/NextArticleComponent';
 import SubscribeVlog from '../../Components/SubscribeVlog';
+import SocialShare from '../../Home/SocialShare';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Rome/1.JPG`;
@@ -67,6 +68,15 @@ const image49 = `${process.env.PUBLIC_URL}/Images/Articles/Rome/49.JPG`;
 
 const hotelq1 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/HOTELQTHUMBNAIL.jpeg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+
+
+
+const articleUrl = 'https://jackiewyers.beauty/rome';
+const articleTitle = 'Our Romantic 3-Day Rome Itinerary';
+const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/Rome/romethumbnail.png';
+
+
+
 
 const Card = ({ blogContent }) => (
   <div
@@ -180,14 +190,14 @@ const captionStyle = {
 
   <meta property="og:title" content="Our Romantic 3-Day Rome Itinerary" />
   <meta property="og:description" content="Explore 72 hours in Rome with Jackie Wyers. Discover the best spots, travel tips, and hidden gems as we share our whirlwind adventure in the Eternal City." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/Rome/RomeTitle.png" />
+  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/Rome/romethumbnail.jpg" />
   <meta property="og:url" content="https://jackiewyers.beauty/rome" />
   <meta property="og:type" content="article" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Our Romantic 3-Day Rome Itinerary" />
   <meta name="twitter:description" content="Explore 72 hours in Rome with Jackie Wyers. Discover the best spots, travel tips, and hidden gems as we share our whirlwind adventure in the Eternal City." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Rome/RomeTitle.png" />
+  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Rome/romethumbnail.jpg" />
 
   {/* Google Analytics Script */}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
@@ -245,7 +255,8 @@ const captionStyle = {
   subTitle="Exploring Rome’s iconic landmarks, hidden gems, and culinary delights"
   author="Jackie Wyers"
 />   
-      
+<SocialShare url={articleUrl} title={articleTitle} imageUrl={articleImageUrl} />
+
       
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/qQGjPdTekyA?si=-I5TwMWKoRljXxxW" title="YouTube video player" />

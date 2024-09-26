@@ -2,12 +2,16 @@ import React, { useEffect, useRef } from 'react';
 import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeVlog from '../../Components/SubscribeVlog';
-import TextReveal from '../../Components/TextReveal';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import ArticleTitle from '../../Components/ArticleTitle';
 import DropCap1 from './DropCap1';
+import SocialShare from '../../Home/SocialShare';
+
+const articleUrl = 'https://jackiewyers.beauty/epcot';
+const articleTitle = 'Epcot | Jackie Wyers';
+const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/Disney/Epcot/EPCOTTHUMBNAIL.jpeg';
 
 // Image imports
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcottitle.png`;
@@ -255,6 +259,9 @@ fontStyle: 'italic',
   author="Jackie Wyers"
   publishDate='March 3, 2024'
 />
+
+<SocialShare url={articleUrl} title={articleTitle} imageUrl={articleImageUrl} />
+
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/XRI-IpWb37E?si=X6l3RAxsPGC_bS88" title="Epcot and Magic Kingdom Walt Disney World Vlog" />
 

@@ -9,6 +9,12 @@ import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
+import SocialShare from '../../Home/SocialShare';
+
+const articleUrl = 'https://jackiewyers.beauty/newzealand';
+const articleTitle = 'New Zealand | Auckland Vlog and Experience - Jackie Wyers';
+const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/NewZealand/NZThumbnail.jpg';
+
 
 
 const images = [
@@ -249,7 +255,8 @@ const captionStyle = {
   author="Jackie Wyers"
   publishDate='June 21st,2024'
 />      
-           
+<SocialShare url={articleUrl} title={articleTitle} imageUrl={articleImageUrl} />
+
 
 
                 <ResponsiveYoutube src="https://www.youtube.com/embed/-eLreMotKEs?si=5VvA8ay_d6aymnOQ" title="NEW ZEALAND TRAVEL VLOG 🇳🇿 Dream Bridal Fitting, Waiheke Island, Shopping & More! 🕊️" />

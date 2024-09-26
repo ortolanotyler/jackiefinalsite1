@@ -8,6 +8,12 @@ import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
+import SocialShare from '../../Home/SocialShare';
+
+
+const articleUrl = 'https://jackiewyers.beauty/fable';
+const articleTitle = 'Fable Auckland | Hotel Review';
+const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/FableAuckland/FableAucklandThumbnail.jpg';
 
 
 const images = [
@@ -153,16 +159,16 @@ const captionStyle = {
     <title>Fable Auckland | Hotel Review</title>
     <link rel="canonical" href="https://jackiewyers.beauty/fable" />
 
-    <meta name="description" content="Join Jackie Wyers as she reviews the luxurious Fable Auckland in New Zealand. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities." />
+    <meta name="description" content="Join Jackie as she reviews the luxurious Fable Auckland in New Zealand. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities." />
     <meta name="keywords" content="Fable Auckland, Luxury Hotel, Auckland Travel, Jackie Wyers, Hotel Review, New Zealand" />
     <meta property="og:title" content="Fable Auckland | Hotel Review" />
     <meta property="og:description" content="Join Jackie Wyers as she reviews the luxurious Fable Auckland in New Zealand. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities." />
-    <meta property="og:image" content={title} />
+    <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/MammaMia/mammamiathumb.png" />
     <meta property="og:url" content="https://jackiewyers.beauty/fable" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Fable Auckland | Hotel Review" />
     <meta name="twitter:description" content="Join Jackie Wyers as she reviews the luxurious Fable Auckland in New Zealand. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities." />
-    <meta name="twitter:image" content={title} />
+    <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/MammaMia/mammamiathumb.png" />
     <script type="application/ld+json">
         {`
         {
@@ -171,7 +177,7 @@ const captionStyle = {
             "itemReviewed": {
                 "@type": "Place",
                 "name": "Fable Auckland",
-                "image": "${title}",
+                "image": "https://jackiewyers.beauty/Images/Articles/MammaMia/mammamiathumb.png",
                 "description": "Luxurious hotel in Auckland, New Zealand.",
                 "address": {
                     "@type": "PostalAddress",
@@ -200,7 +206,7 @@ const captionStyle = {
                 "name": "Jackie Wyers Beauty",
                 "logo": {
                     "@type": "ImageObject",
-                      "url": "${process.env.PUBLIC_URL}/jwlogo3.png"
+                      "url": "https://jackiewyers.beauty/jwlogo3.png"
                 }
             },
             "datePublished": "2024-07-27",
@@ -231,7 +237,12 @@ const captionStyle = {
   mainTitle="Fable Auckland Hotel Review"
   subTitle="A Luxurious Stay in the Heart of Auckland"
   author="Jackie Wyers"
-/>            <ResponsiveYoutube src="https://www.youtube.com/embed/-eLreMotKEs?si=5VvA8ay_d6aymnOQ" title="Fable Auckland" />
+/>     
+
+<SocialShare url={articleUrl} title={articleTitle} imageUrl={articleImageUrl} />
+
+
+       <ResponsiveYoutube src="httfps://www.youtube.com/embed/-eLreMotKEs?si=5VvA8ay_d6aymnOQ" title="Fable Auckland" />
             <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <SubscribeVlog />
             </div>

@@ -11,6 +11,7 @@ import ArticleTitle from '../../Components/ArticleTitle';
 
 
 
+
 const images = [
     `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI1.jpg`,
     `${process.env.PUBLIC_URL}/Images/Articles/AndazMaui/MAUI2.jpg`,
@@ -147,6 +148,8 @@ fontStyle: 'italic',
         <div className="container">
     <Helmet>
   <title>Andaz Maui Review | Luxury Resort Experience</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/andazmaui" />
+
   <meta name="description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
   <meta name="keywords" content="Jackie Wyers, Andaz Maui, Maui resort, luxury hotel, hotel review, Wailea resort, travel blog, Maui vacation, luxury resort, oceanfront resort, Hawaii vacation, best Maui hotels, Andaz Maui review, luxury travel, beachfront resort, Hawaiian luxury resort, top resorts in Maui, Wailea beach hotels, Morimoto Maui, Hawaiian Luaus, infinity pools, tropical getaway, resort amenities, spa, fitness center, golf courses, dining options" />
 
@@ -163,7 +166,6 @@ fontStyle: 'italic',
   <meta name="twitter:description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
   <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/AndazMaui/MAUITHUMBNAIL.jpg" />
 
-  <link rel="canonical" href="https://jackiewyers.beauty/andazmaui" />
 
   {/* Google Analytics Script */}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>

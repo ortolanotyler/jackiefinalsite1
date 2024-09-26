@@ -10,6 +10,7 @@ import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 import NextArticle from '../../Components/NextArticleComponent';
+import SocialShare from '../../Home/SocialShare';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/MammaMia/mammamiathumb.png`;
@@ -22,7 +23,9 @@ const image6 = `${process.env.PUBLIC_URL}/Images/Articles/MammaMia/6.jpg`;
 const image7 = `${process.env.PUBLIC_URL}/Images/Articles/MammaMia/7.jpg`;
 
 
-
+const articleUrl = 'https://jackiewyers.beauty/diy-flowers';
+const articleTitle = 'Mamma Mia Inspired DIY Bridal Flower Pins - Jackie Wyers';
+const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/MammaMia/mammamiathumb.png';
 
 
 const nextarticle = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg`;
@@ -219,7 +222,9 @@ const captionStyle = {
   author="Jackie Wyers"
   publishDate = "June 29th, 2024"
 />
-​   
+
+​   <SocialShare url={articleUrl} title={articleTitle} imageUrl={articleImageUrl} />
+
 <div
 style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 > 

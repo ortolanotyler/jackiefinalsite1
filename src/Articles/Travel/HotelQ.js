@@ -7,6 +7,11 @@ import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
+import SocialShare from '../../Home/SocialShare';
+
+const articleUrl = 'https://jackiewyers.beauty/hotelQ';
+const articleTitle = 'Hotel Quintessence, Mont Tremblant Review';
+const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/HotelQ/HOTELQTHUMBNAIL.jpeg';
 
 
 const images = [
@@ -206,6 +211,8 @@ const captionStyle = {
   author="Jackie Wyers"
    publishDate="April 1st, 2024"
 />
+
+<SocialShare url={articleUrl} title={articleTitle} imageUrl={articleImageUrl} />
 
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/4lDCreVFqAw?si=0X5e_MzsoCeTGhxM" title="SKI TRIP VLOG!👩🏽‍❤️‍👨🏽❄️⛷️Hotel Quintessence at Mont-Tremblant, Quebec 🇨🇦" />
