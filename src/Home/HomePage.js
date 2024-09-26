@@ -393,7 +393,7 @@ isFlipped={false}
   author="BY JACKIE WYERS"
   imagePath="Sorrento1/SorrentoThumbnail.jpg"
   linkUrl="/sorrento"
-  isFlipped={false}
+  isFlipped={true}
 />
           </Suspense>
         </Grid>
@@ -434,7 +434,7 @@ isFlipped={false}
   author="BY JACKIE WYERS"
   imagePath="NewZealand/NZThumbnail.jpg"
   linkUrl="/newzealand"
-  isFlipped={false}
+  isFlipped={true}
 />
         
           </Suspense>
@@ -470,7 +470,7 @@ isFlipped={false}
   author="BY JACKIE WYERS"
   imagePath="BonBonReview/BonBonThumbnail.png"
   linkUrl="/bonbonreview"
-  isFlipped={false}
+  isFlipped={true}
 />
           </Suspense>
         </Grid>
@@ -487,7 +487,7 @@ isFlipped={false}
   author="BY JACKIE WYERS"
   imagePath="MammaMia/mammamiathumb.png"
   linkUrl="/diy-flowers"
-  isFlipped={false}
+  isFlipped={true}
 
 />
 
