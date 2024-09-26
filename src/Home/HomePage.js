@@ -195,7 +195,7 @@ function HomePage() {
                 featureText="LATEST"
                 headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀"
                 subtext="The Best Barbie-Inspired Products and Collectibles Every Grown-Up Barbie Lover Needs on Their Wishlist"
-                author="SEPTEMBER 23"
+                author="September 23"
                 imagePath="/halloweenthumb12.jpg"
                 linkUrl="/barbie-roundup"
                 isFlipped={true}
@@ -219,7 +219,7 @@ function HomePage() {
   featureText="FEATURED"
   headlineText="Girly Pop Culture Halloween Costume Ideas 2024🎀"
   subtext="Britney, Barbie, Bridgerton, Oh My!"
-  author="SEPTEMBER 3"
+  author="September 3"
   imagePath="Halloween/HalloweenThumb.jpg"
   linkUrl="/girly-pop-halloween"
   isFlipped={false}
@@ -234,7 +234,7 @@ function HomePage() {
   featureText="LATEST"
   headlineText="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll"
   subtext="Barbie Makeup Tutorial & Iconic Doll Inspiration"
-  author="SEPTEMBER 23"
+  author="September 23"
   imagePath="BarbieDoll/JackieWyersBarbieThumb.jpeg"
   linkUrl="/barbie-doll"
   isFlipped={true}
@@ -250,7 +250,7 @@ function HomePage() {
                 headlineText="Rory Gilmore's No-Makeup Makeup
 & Cozy Fall Style Guide 🧣"
                 subtext="The Perfect Girl-Next-Door Makeup Routine!"
-                author="SEPTEMBER 24"
+                author="September 24"
                 imagePath="/Rory1/rorythumbnail.jpg"
                 linkUrl="/articles/rory-gilmore"
                 isFlipped={false}
@@ -333,7 +333,7 @@ isFlipped={true}
   featureText="FEATURED"
   headlineText="Our Fairytale Wedding Overlooking Sorrento, Italy"
   subtext="All the enchanting details, prep & planning"
-  author="BY JACKIE WYERS"
+  author="July 11, 2024"
 
   imagePath="FairytaleWedding/fairytalethumbnail.webp"
   linkUrl="/fairytalewedding"
