@@ -17,7 +17,7 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const articleUrl = 'https://jackiewyers.beauty/articles/jickyreview';
 const articleTitle = "Jicky by Guerlain Perfume Review";
-const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/HalfetiReview/jickyguerlainthumbnail.png' ;
+const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/JickyReview/jickyguerlainthumbnail.png' ;
 
 
 
