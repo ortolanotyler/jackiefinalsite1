@@ -15,8 +15,8 @@ const jicky3 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky3.png
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const articleUrl = 'https://jackiewyers.beauty/articles/jickyreview';
-const articleTitle = "Penhaligon's Halfeti Review | For the bold and exotic";
-const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/HalfetiReview/HalfetiThumbnail.png' ;
+const articleTitle = "Jicky by Guerlain Perfume Review";
+const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/HalfetiReview/jickyguerlainthumbnail.png' ;
 
 
 
