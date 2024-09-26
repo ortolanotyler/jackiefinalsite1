@@ -8,6 +8,7 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import SocialShare from '../../../Home/SocialShare';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016Double.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016FaceChart.png`;
@@ -194,7 +195,11 @@ const captionStyle = {
   author="Jackie Wyers"
   publishDate="March 1, 2024"
 />
-
+<SocialShare 
+  url="https://jackiewyers.beauty/2016makeup" 
+  title="2016 Makeup Trends - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/2016/2016MakeupThumbnail.jpg" 
+/>
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/HtEPH6RUEZg?si=8RIeZhrp-luWJTSI" title="2016 Makeup Tutorial Jackie Wyers Beauty" />
 

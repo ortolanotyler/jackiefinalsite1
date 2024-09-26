@@ -8,6 +8,7 @@ import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
+import SocialShare from '../../../Home/SocialShare';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/NoMakeUpTitl.jpeg`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersElizabethBennetInspiredMakeup.JPG`;
@@ -67,7 +68,7 @@ const Card = ({ blogContent }) => (
   
     margin: '1rem 1rem',
   
-    maxWidth: '95%',
+    maxWidth: '99%',
       lineHeight: '1.6',
   
   };
@@ -194,6 +195,11 @@ const Card = ({ blogContent }) => (
   publishDate="March 31st, 2024"
 />
 
+<SocialShare 
+  url="https://jackiewyers.beauty/nomakeupspring" 
+  title="No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition! - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg" 
+/>
 
 
 <div style = {{textAlign: 'center', margin: '10px auto' }}>

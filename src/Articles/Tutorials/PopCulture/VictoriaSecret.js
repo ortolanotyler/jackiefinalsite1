@@ -9,6 +9,7 @@ import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import SocialShare from '../../../Home/SocialShare';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSTitle.png`;
 const Victoria2 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VictoriaDouble.png`;
@@ -188,6 +189,12 @@ const captionStyle = {
   subTitle="Using 2014 Girly Tumblr Products"
   author="Jackie Wyers"
   publishDate="Feb 18th, 2024"
+/>
+
+<SocialShare 
+  url="https://jackiewyers.beauty/victoriasecret" 
+  title="The Victoria's Secret SNOW ANGEL Look at VSFS 2013 - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg" 
 />
 
 

@@ -7,6 +7,7 @@ import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
+import SocialShare from '../../../Home/SocialShare';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/SummerBeautyTitle.png`;
@@ -189,6 +190,12 @@ const captionStyle = {
   subTitle="Sun-kissed skin & wind swept hair"
   author="Jackie Wyers"
   publishDate="June 11th, 2024"
+/>
+
+<SocialShare 
+  url="https://jackiewyers.beauty/summerbeauty" 
+  title="Summer Beauty: Pop Culture Icons Edition! - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/SummerBeauty/BlueLagoonThumbnail.jpg" 
 />
 
 <p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>

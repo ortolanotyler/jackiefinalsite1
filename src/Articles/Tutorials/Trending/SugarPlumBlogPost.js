@@ -11,6 +11,7 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 import InstagramEmbed from '../../../Components/InstagramEmbed';
 import NextArticle from '../../../Components/NextArticleComponent';
 import DropCap1 from '../../Travel/DropCap1';
+import SocialShare from '../../../Home/SocialShare';
 
 const FaceChart = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SugarFace.jpg`;
 const makeup2016 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016MakeupThumbnail.jpg`;
@@ -189,6 +190,12 @@ const Card = ({ blogContent }) => (
   subTitle="The Hottest Holiday Look!"
   author="Jackie Wyers"
   publishDate="Jan 23rd, 2024"
+/>
+
+<SocialShare 
+  url="https://jackiewyers.beauty/sugarplumfairy" 
+  title="Trend Report: Sugar Plum Fairy Makeup" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg" 
 />
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/Vy6e7k5uur8?si=-3GFPhHdf3DLAOyu" title="🍭🎀 SUGAR PLUM FAIRY makeup🎀🍭 A Talk-Through Tutorial!" />

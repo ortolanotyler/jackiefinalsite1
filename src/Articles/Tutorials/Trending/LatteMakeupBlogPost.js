@@ -9,6 +9,7 @@ import Helmet from'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
+import SocialShare from '../../../Home/SocialShare';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteTitle.png`;
 const Latte2 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteDouble.png`;
@@ -198,6 +199,13 @@ const Card = ({ blogContent }) => (
   author="Jackie Wyers"
   publishDate="Jan 22nd, 2024"
 />
+
+<SocialShare 
+  url="https://jackiewyers.beauty/lattemakeup" 
+  title="Trend Report: How to Get The Latte Makeup Look - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/LatteMakeup/LatteThumbnail.jpg" 
+/>
+
   
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/Jm0BdU88kr4?si=q_f9U-l_aZqaY83s" title="The LATTE MAKEUP TREND🧸☕️ A Talk-Through Makeup Tutorial🤎" />

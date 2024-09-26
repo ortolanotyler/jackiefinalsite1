@@ -8,6 +8,7 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import NextArticle from '../../../Components/NextArticleComponent';
+import SocialShare from '../../../Home/SocialShare';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/mermaidthumbnail.jpg`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/CleoH20Poster.jpg`;
@@ -191,6 +192,12 @@ const captionStyle = {
   subTitle="Grab your sea salt spray, its mermaid season!"
   author="Jackie Wyers"
   publishDate="June 11th, 2024"
+/>
+
+<SocialShare 
+  url="https://jackiewyers.beauty/summerinspo" 
+  title="Summer Inspiration: Pop Culture Mermaid Edition! - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/SummerInspo/mermaidthumbnail.jpg" 
 />
 
 

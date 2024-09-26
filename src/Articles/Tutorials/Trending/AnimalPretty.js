@@ -8,6 +8,7 @@ import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import SocialShare from '../../../Home/SocialShare';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
@@ -191,6 +192,12 @@ const AnimalPretty = () => {
         author="Jackie Wyers"
         publishDate="July 25th, 2024"
       />
+
+<SocialShare 
+  url="https://jackiewyers.beauty/animalpretty" 
+  title="Animal Pretty - Which one are you? - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/AnimalPretty/animals.jpg" 
+/>
 
       <ResponsiveYoutube
         src="https://www.youtube.com/embed/hIGr8Gj4kQA?si=8N-JgnQ-JeRTk5Gm"

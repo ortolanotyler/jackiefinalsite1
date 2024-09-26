@@ -8,6 +8,7 @@ import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import SocialShare from '../../../Home/SocialShare';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/BridalMakeup/Bridal1.png`;
@@ -191,6 +192,11 @@ const Card = ({ blogContent }) => (
   publishDate="June 25th, 2024"
 />
 
+<SocialShare 
+  url="https://jackiewyers.beauty/bridalmakeup" 
+  title="Bridal Makeup Trial: What I Loved and What I'll Change! - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.jpg" 
+/>
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/UQU9Fufug4M?si=5b2wn8qqbcRo1GVG" title="WEDDING DRESS SHOPPING🕊️& Bridal Makeup Trial🎀" />
   

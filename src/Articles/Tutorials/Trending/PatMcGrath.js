@@ -9,6 +9,7 @@ import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import SocialShare from '../../../Home/SocialShare';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/PatMcGrathTitle.png`;
 const pat = `${process.env.PUBLIC_URL}/Images/Articles/PatMcGrath/JackieWyersPatMcGrath.jpeg`;
@@ -189,6 +190,12 @@ const Card = ({ blogContent }) => (
   subTitle="An otherwordly look for the history books"
   author="Jackie Wyers"
   publishDate="Feb 5th, 2024"
+/>
+
+<SocialShare 
+  url="https://jackiewyers.beauty/patmcgrath" 
+  title="Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/PatMcGrath/JackieWyersPatMcgrath.jpeg" 
 />
 
 
