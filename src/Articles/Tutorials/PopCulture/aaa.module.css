@@ -1,135 +1,147 @@
-.cardImage {
-    display: grid;
-    background: white center center no-repeat;
-    background-size: cover;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-weight: normal;
 }
 
-.cardImageImg {
-    padding: 0.75rem;
-    border-radius: 10px;
-    display: block;
-    width: 100%;
-    font-family: 'GFS Didot';
-}
+body {
+  background-color: white;
+  font-family: 'Playfair Display', serif;
+  height: 100%;
 
-.htmlBody {
-    background-color: white;
-    font-family: 'GFS Didot';
-    height: 100%;
-    font-size: 1.75rem;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .cardList {
-    background-color: white;
-    align-content: center;
-    padding: 5rem;
-    margin-top: 0.5rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    font-size: 0;
-    list-style: none;
-    gap: 1.5rem;
-    font-family: 'GFS Didot';
+  background-color: white;
+  align-content: center;
+  padding: 1.25rem;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 0;
+  list-style: none;
+  gap: 1rem;
 }
 
 @media (max-width: 1200px) {
-    .cardList {
-        grid-template-columns: repeat(2, 1fr); /* Switch to 2-column grid under 1200px */
-    }
+  .cardList {
+    grid-template-columns: repeat(2, 1fr); /* Switch to 2-column grid under 1200px */
+  }
 }
 
 @media (max-width: 600px) {
-    .cardList {
-        grid-template-columns: 1fr; /* Switch to 1-column grid under 600px */
-    }
+  .cardList {
+    grid-template-columns: 1fr; /* Switch to 1-column grid under 600px */
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
 }
 
 .card {
-    text-decoration: none;
-    background-color: white;
-    max-width: 550px;
-    font-size: 20px;
-    text-decoration: none;
-    overflow: hidden;
-    box-shadow: 0 0 3.5rem -1rem rgba(0,0,0,0.7);
-    transition: transform 0.1s ease-in-out, box-shadow 0.1s;
-    margin-bottom: 1rem; /* Add margin between cards */
-    border-radius: 10px;
-    font-family: 'GFS Didot';
+  text-decoration: none;
+  background-color: white;
+  max-width: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 3.5rem -1rem rgba(0, 0, 0, 0.15);
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+  margin-bottom: 5px; /* Add margin between cards */
+  border-radius: 5px;
 }
 
 .card:hover {
-    transform: translateY(-0.5rem) scale(1.0125);
-    box-shadow: 0 0.6em 3rem -1rem rgba(0,0,0,0.5);
+  transform: translateY(-0.5rem) scale(1.0125);
+  box-shadow: 0 0.6em 3rem -1rem rgba(0, 0, 0, 0.25);
+}
+
+.cardImage {
+  display: grid;
+  background: white center center no-repeat;
+  background-size: cover;
+}
+
+.cardImageImg {
+  padding: 0.75rem;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
 }
 
 .cardDescription {
-    margin-top: 1rem;
-    display: flex; /* Use flexbox to center text */
-    flex-direction: column; /* Stack text vertically */
-    align-items: center; /* Center text horizontally */
-    text-align: center; /* Center text within container */
-    color: black;
-    text-decoration: none;
-    font-family: 'GFS Didot';
+  margin: 0 auto;
+  display: flex; /* Use flexbox to center text */
+  flex-direction: column; /* Stack text vertically */
+  align-items: center; /* Center text horizontally */
+  text-align: center; /* Center text within container */
+  color: black;
+  text-decoration: none;
 }
 
 .cardDescriptionH2 {
-    color: black;
-    font-size: 1.75rem;
-    font-weight: bold;
-    font-family: 'GFS Didot';
+  color: black;
+  font-size: 26px;
+  font-weight: normal;
+  margin: 0 auto;
+  padding: 0.5rem 1rem; /* Add padding for better spacing */
 }
 
 .cardDescriptionP {
-    color: black;
-    font-size: 1em;
-    font-family: 'GFS Didot';
+  color: black;
+  font-size: 1em;
 }
 
 .cardDescriptionLink,
 .cardDescriptionVisited {
-    color: black;
-    text-decoration: none;
-    font-family: 'GFS Didot';
+  color: black;
+  text-decoration: none;
 }
 
 .cardDescriptionHover,
 .cardDescriptionFocus {
-    text-decoration: none;
-    font-family: 'GFS-Didot, serif';
+  text-decoration: none;
 }
 
 .readHereBtn {
-    margin-top: 1rem;    
-    margin-bottom: 1rem;     
-    border-radius: 2px;
-    padding: 0.5rem;
-    display: inline-block;
-    background-color: white;
-    border: 1px solid black;
-    text-decoration: none;
-    font-size: 16px;
-    color: black; /* Initial text color */
-    transition: background-color 0.4s, color 0.3s;
-    font-family: 'GFS-Didot, serif';
+  margin-top: 0;
+  margin-bottom: 1rem;
+  border-radius: 2px;
+  padding: 0.5rem 10px;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  color: black; /* Initial text color */
+  transition: background-color 0.4s, color 0.3s;
 }
 
 .readHereBtn:hover {
-    background-color: black; /* Change background color on hover */
-    color: white; /* Change text color on hover */
+  background-color: black; /* Change background color on hover */
+  color: white; /* Change text color on hover */
 }
 
-a {
-    font-family: 'GFS-Didot', serif;
-    color: inherit; /* Make sure they inherit the color from the parent element */
-    text-decoration: none; /* Remove underline */
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+  .cardDescriptionH2 {
+    padding: 0.75rem 1.5rem; /* Increase padding for smaller screens */
+  }
 }
 
-a:hover,
-a:focus,
-a:visited {
-    font-family: 'GFS Didot', serif;
-    text-decoration: none; /* Ensure it remains without underline */
-    color: inherit; /* Keep the color the same on hover/focus/visited */
+@media (max-width: 480px) {
+  .cardDescriptionH2 {
+    padding: 1rem 2rem; /* Further increase padding for very small screens */
+    font-size: 1.5rem; /* Adjust font size for better readability */
+  }
+
+  .cardList {
+    padding: 0.5rem; /* Adjust padding for very small screens */
+  }
+
+  .readHereBtn {
+    font-size: 14px; /* Adjust button font size for smaller screens */
+    padding: 0.75rem; /* Adjust button padding for smaller screens */
+  }
 }

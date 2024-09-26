@@ -90,9 +90,9 @@ const Card = ({ link, image, alt, title, description }) => {
 const PopCulture = () => {
   return (
     <>
-   
+    <div><TextReveal text='POP CULTURE OBSESSED' /></div>
       <div>
-        <div><TextReveal text='POP CULTURE OBSESSED' /></div>
+
         
         <ul className={styles.cardList}>
           {cardsData.map((card, index) => (
