@@ -39,18 +39,18 @@ const About = () => {
       <Grid item xs={12}>
         <TextReveal text="COLLABORATIONS" style={{ backgroundColor: '#fdedef', color: '#000000', fontFamily: 'GFS Didot' }} />
       </Grid>
-      <Grid item xs={12}>
-        <Paper elevation={0} style={{ padding: '2rem' }}>
-          <BrandCarousel />
-        </Paper>
-      </Grid>
+     
       <Grid item xs={12} md={6}>
         <img src={leftImage} alt="Left" className={styles['about-collaborations-left-image']} />
       </Grid>
       <Grid item xs={12} md={6}>
         <ContactForm />
       </Grid>
-     
+      <Grid item xs={12}>
+        <Paper elevation={0} style={{ padding: '2rem' }}>
+          <BrandCarousel />
+        </Paper>
+      </Grid>
       <Grid item xs={12}>
     <FanArt/>
      

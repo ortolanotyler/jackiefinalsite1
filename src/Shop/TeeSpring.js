@@ -16,7 +16,7 @@ const TeeSpring = () => {
       title="Shop Jackie Wyers Merch store powered by Spring"
       data-reactroot=""
     ></iframe>
-          <img src={teespring} alt="teespring" />
+      
 
     </div>
    
