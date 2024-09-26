@@ -68,16 +68,16 @@ const Card = ({ blogContent }) => (
   const paragraphStyle = {
     fontSize: '22px',
     color: '#000000',
-  
+    
     fontFamily: 'Georgia, serif',
     fontWeight: 'regular',
-  
-    margin: '1rem 1rem',
-  
-    maxWidth: '95%',
+    
+    margin: '5px 5px',
+    
+    maxWidth: '100%',
       lineHeight: '1.6',
-  
-  };
+    
+    };
   
   const linkStyle = {
     textDecoration: 'none', // Removes underline from links
@@ -206,6 +206,11 @@ const Card = ({ blogContent }) => (
 
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/H1VUDOqCo3s?si=Ej5ug_TV3qatoDOk" title="YouTube video player" />
+
+
+
+
+
 
             <div style = {{textAlign: 'center', margin: '1rem auto' }}>
 <SubscribeVlog />

@@ -58,21 +58,19 @@ const Card = ({ blogContent }) => (
       margin: '30px auto'
   };
   
-  
   const paragraphStyle = {
     fontSize: '22px',
     color: '#000000',
-  
+    
     fontFamily: 'Georgia, serif',
     fontWeight: 'regular',
-  
-    margin: '2rem auto',
-  
-    maxWidth: '500px', // Consistent with the other paragraphs
-    lineHeight: '1.6',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-  };
+    
+    margin: '5px 5px',
+    
+    maxWidth: '100%',
+      lineHeight: '1.6',
+    
+    };
   
   const linkStyle = {
     textDecoration: 'none', // Removes underline from links

@@ -59,16 +59,16 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
   const paragraphStyle = {
     fontSize: '22px',
     color: '#000000',
-  
+    
     fontFamily: 'Georgia, serif',
     fontWeight: 'regular',
-  
-    margin: '1rem 1rem',
-  
-    maxWidth: '95%',
+    
+    margin: '5px 5px',
+    
+    maxWidth: '100%',
       lineHeight: '1.6',
-  
-  };
+    
+    };
   
   const linkStyle = {
     textDecoration: 'none', // Removes underline from links

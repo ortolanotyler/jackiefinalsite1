@@ -68,9 +68,9 @@ const HalfetiReview = () => {
   fontFamily: 'Georgia, serif',
   fontWeight: 'regular',
   
-  margin: '0 auto',
+  margin: '5px 5px',
   
-  maxWidth: '95%',
+  maxWidth: '100%',
     lineHeight: '1.6',
   
   };

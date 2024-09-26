@@ -56,16 +56,18 @@ const Abril = () => {
   };
 
   const paragraphStyle = {
-    fontSize: '20px',
-    fontFamily: 'GFS Didot, serif',
-    margin: '1rem 1.5rem',
-    marginTop: '1rem',
-    marginBottom: '1rem',
-    maxWidth: '600px',
-    lineHeight: '1.5',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-  };
+    fontSize: '22px',
+    color: '#000000',
+    
+    fontFamily: 'Georgia, serif',
+    fontWeight: 'regular',
+    
+    margin: '5px 5px',
+    
+    maxWidth: '100%',
+      lineHeight: '1.6',
+    
+    };
 
   const gridContainerStyle = {
     display: 'grid',
