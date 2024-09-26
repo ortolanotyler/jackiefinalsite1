@@ -9,6 +9,7 @@ import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
+import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Rory1/Rory1.jpg`;
@@ -203,7 +204,7 @@ const captionStyle = {
         "dateModified": "2024-09-25",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/rory-gilmore-no-makeup-makeup"
+          "@id": "https://jackiewyers.beauty/articles/rory-gilmore"
         }
       }
     `}
@@ -226,7 +227,7 @@ const captionStyle = {
   publishDate="September 24th, 2024"
 />
 
-  <img src={image1} alt="Best of Barbie Collab Products Flatlay" style={imageStyle} />
+<ResponsiveYoutube src="https://www.youtube.com/embed/reRyyvPTAZw?si=9YkmliVIrhJEYA6k" title="Rory Gilmore NO-MAKEUP makeup & skincare🧴📚☕️ ft. the REAL Stars Hallow!" />
 
 
 <div style = {{textAlign: 'center', margin: '10px auto' }}>
@@ -306,7 +307,7 @@ const captionStyle = {
       <h2 style={headingStyle}>What Makeup Did Alexis Bledel Use on Gilmore Girls? 🧐</h2>
 
       <div style={gridContainerStyle}>
-        <img src={image2} alt="Rory Gilmore-inspired makeup for a fresh-faced, natural look." style={imageStyle} />
+        <img src={image2} alt="Rory Gilmore Makeup Look." style={imageStyle} />
       </div>
 
       <p style={paragraphStyle}>
@@ -372,7 +373,9 @@ const captionStyle = {
         src="https://shopmy.us/collections/public/835212?noHeader=true"
         style={{ width: '100%', minHeight: '1200px', border: 'none' }}>
       </ResponsiveIframe>
-
+      <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Achieving Rory Gilmore’s Hairstyles 🤎</h2>
 
       <p style={paragraphStyle}>
@@ -399,7 +402,9 @@ const captionStyle = {
         src="https://shopmy.us/collections/public/835244?noHeader=true"
         style={{ width: '100%', minHeight: '1200px', border: 'none' }}>
       </ResponsiveIframe>
-
+      <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         Tip: Try thrifting Y2K Ralph Lauren sweaters from Postmark, Ebay, or local thrift stores!
       </p>
@@ -413,7 +418,9 @@ const captionStyle = {
         src="https://shopmy.us/collections/public/835289?noHeader=true"
         style={{ width: '100%', minHeight: '1200px', border: 'none' }}>
       </ResponsiveIframe>
-
+      <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
       <p style={paragraphStyle}>
         Accessorize with Simplicity: Keep jewelry minimal and dainty, just like Rory would. A small choker or a set of stud earrings adds the perfect touch without overwhelming the look. Try a casual tote bag, converse sneakers and loafers for a daily look.
       </p>
@@ -427,7 +434,9 @@ const captionStyle = {
       <p style={paragraphStyle}>
         Bookish Vibes: No Rory-inspired look is complete without a good book! Whether it’s a classic novel or your favorite coffee shop read, having a book in hand is the ultimate Rory accessory. Pair it with a cute tote bag that can carry all your essentials (and maybe a coffee or two from Luke’s).
       </p>
-
+      <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>Visiting Stars Hollow: A Trip to Unionville, Ontario ☕</h2>
 
       <div style={gridContainerStyle}>
@@ -437,7 +446,9 @@ const captionStyle = {
       <p style={paragraphStyle}>
   Did you know that the pilot episode of Gilmore Girls was filmed in the quaint town of <a href="https://unionville.ca/" target="_blank" rel="noopener noreferrer">Unionville, Ontario</a>, Canada? I recently visited this charming spot, which doubled as the iconic Stars Hollow. Walking through Unionville feels like stepping right into Rory’s world—from the cozy storefronts to the picturesque streets. I even explored some of the exact locations used in the show, like the famous church steps and the town square. You can watch my full vlog of this magical visit <a href="https://drinkingcoffeewatchingtv.com/en/gilmore-girls-filming-locations/" target="_blank" rel="noopener noreferrer"> here </a> and see how Unionville truly captures the essence of Stars Hollow. It’s a must-see for any Gilmore Girls fan wanting to experience a piece of Rory’s world in real life!
 </p>
-
+<div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
       <h2 style={headingStyle}>The Final Look: Your Rory Gilmore Fall Vibe 🍂</h2>
 
       <p style={paragraphStyle}>
@@ -474,7 +485,7 @@ const captionStyle = {
 
 
      
-     <Comments website-id={websiteId} page-id={"barbie3"} />
+     <Comments website-id={websiteId} page-id={"rory1"} />
     
       
     </div>
@@ -484,15 +495,12 @@ const captionStyle = {
   return (
     <div ref={blogRef}>
       <Card
-        title="Top 5 Must-Have Barbie
-Collaborations for Adult Fans in 2024
-🎀"
-        description="The Best Barbie-Inspired Products and Collectibles Every Grown-Up Barbie Lover Needs on Their
-Wishlist"
+        title="Rory Gilmore's No-Makeup Makeup
+& Cozy Fall Style Guide 🧣"
+        description="Chinese Makeup Techniques for an Angelic Look"
         blogContent={blogContent}
       />
  
-          
 
     </div>
   );
