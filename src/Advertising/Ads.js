@@ -8,15 +8,16 @@ const AdSenseAd = () => {
     const loadAd = () => {
       if (window.adsbygoogle && adRef.current && !adInitialized.current) {
         try {
+          // Initialize the ad
           (window.adsbygoogle = window.adsbygoogle || []).push({});
           adInitialized.current = true;
         } catch (e) {
-          console.error('AdSense error: ', e);
+          console.error('AdSense error:', e);
         }
       }
     };
 
-    // Load AdSense script dynamically
+    // Dynamically load the AdSense script
     const script = document.createElement('script');
     script.async = true;
     script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318';
@@ -24,11 +25,9 @@ const AdSenseAd = () => {
     script.onload = loadAd;
     document.body.appendChild(script);
 
-    // Cleanup function to remove the script
+    // Cleanup the script on unmount
     return () => {
-      if (script) {
-        document.body.removeChild(script);
-      }
+      document.body.removeChild(script);
     };
   }, []);
 
@@ -36,7 +35,12 @@ const AdSenseAd = () => {
     <div ref={adRef}>
       <ins
         className="adsbygoogle"
-        style={{ display: 'block', textAlign: 'center', minWidth: '250px' }}
+        style={{
+          display: 'block',
+          textAlign: 'center',
+          minWidth: '250px', // Ensure minimum width for fluid ads
+          height: 'auto', // Adjust height if needed
+        }}
         data-ad-layout="in-article"
         data-ad-format="fluid"
         data-ad-client="ca-pub-4660168246825318"

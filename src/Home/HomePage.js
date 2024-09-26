@@ -1,6 +1,5 @@
 import React, { useEffect, lazy, Suspense, useRef, useState, useMemo } from 'react';
 import { Grid, Box, Paper, ThemeProvider, createTheme, useMediaQuery, Typography } from '@mui/material';
-import { debounce } from 'lodash';
 import { Helmet } from 'react-helmet';
 import { initGA, logPageView } from '../analytics';
 import TextRevealHomePage from '../Components/TextRevealHomePage';
@@ -41,16 +40,7 @@ function HomePage() {
     outfits: false,
   });
 
-  useEffect(() => {
-    const handleScroll = debounce(() => {
-      console.log('User scrolled');
-    }, 200);
 
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
 
   useEffect(() => {
     const keyframes = `
