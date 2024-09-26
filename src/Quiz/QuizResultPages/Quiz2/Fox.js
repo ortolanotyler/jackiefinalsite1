@@ -46,36 +46,99 @@ const FoxPretty = () => {
 
   const blogContent = (
     <div className={styles.container}>
-    <Helmet>
-  <title>Fox Pretty | Jackie Wyers</title>
-  <meta name="description" content="Discover how to achieve the Fox Pretty look with our detailed guide. Embrace earthy tones and a bohemian style to capture the essence of the whimsical fox." />
-  <meta name="keywords" content="Fox Pretty, Jackie Wyers, makeup tutorial, earthy tones, bohemian style, beauty tips, fox-themed makeup, Sadie Sink, natural beauty, rustic makeup, whimsical style" />
-  <meta property="og:title" content="Fox Pretty | Jackie Wyers" />
-  <meta property="og:description" content="Discover how to achieve the Fox Pretty look with our detailed guide. Embrace earthy tones and a bohemian style to capture the essence of the whimsical fox." />
-  <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxTitleResults.png`} />
+<Helmet>
+  <title>Fox Pretty | What Animal Pretty Are You?</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/foxpretty" />
+
+  <meta 
+    name="description" 
+    content="Discover how to achieve the Fox Pretty look with our detailed guide. Embrace earthy tones and a bohemian style to capture the essence of the whimsical fox. Ideal for those who love rustic makeup and a free-spirited vibe." 
+  />
+  <meta 
+    name="keywords" 
+    content="Fox Pretty, What Animal Pretty Are You?, makeup tutorial, beauty guide, earthy tones, bohemian style, rustic makeup, fox-inspired beauty, Sadie Sink style, natural makeup, warm tones, fox-themed makeup, animal-inspired beauty, copper eyeshadow, warm eye makeup, bareMinerals, boho fashion, whimsical style, redhead beauty, ISOPIA lashes, rose blush, berry lip, matte makeup, golden highlights, Anthropologie outfits, natural textures, celebrity beauty looks, bohemian prints, fable accessories, fox-themed jewelry, paisley prints, beauty influencer tutorials, soft glam, vibrant makeup, boho chic, eco-friendly makeup, earthy aesthetic, bold eye makeup, natural contour, makeup tips, beauty inspiration, modern bohemian, animal pretty, beauty trends, makeup for redheads, free-spirited fashion" 
+  />
+
+  {/* Open Graph Meta Tags */}
+  <meta property="og:title" content="Fox Pretty | What Animal Pretty Are You?" />
+  <meta 
+    property="og:description" 
+    content="Discover how to achieve the Fox Pretty look with our detailed guide. Embrace earthy tones and a bohemian style to capture the essence of the whimsical fox." 
+  />
+  <meta 
+    property="og:image" 
+    content="https://jackiewyers.beauty/Images/Articles/AnimalPretty/FoxTitleResults.png" 
+  />
   <meta property="og:url" content="https://jackiewyers.beauty/foxpretty" />
+  <meta property="og:type" content="article" />
+
+  {/* Twitter Meta Tags */}
+  <meta name="twitter:title" content="Fox Pretty | What Animal Pretty Are You?" />
+  <meta 
+    name="twitter:description" 
+    content="Discover how to achieve the Fox Pretty look with our detailed guide. Embrace earthy tones and a bohemian style to capture the essence of the whimsical fox." 
+  />
+  <meta 
+    name="twitter:image" 
+    content="https://jackiewyers.beauty/Images/Articles/AnimalPretty/FoxTitleResults.png" 
+  />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Fox Pretty | Jackie Wyers" />
-  <meta name="twitter:description" content="Discover how to achieve the Fox Pretty look with our detailed guide. Embrace earthy tones and a bohemian style to capture the essence of the whimsical fox." />
-  <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxTitleResults.png`} />
+
+  {/* Google Analytics Script */}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script>
     {`
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG');
+      gtag('config', 'G-RT6GR7JXYG', { page_path: window.location.pathname });
     `}
   </script>
-  <script data-ad-client="ca-pub-4660168246825318" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-</Helmet>
 
+  {/* Google Ads Script */}
+  <script 
+    async 
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" 
+    crossorigin="anonymous">
+  </script>
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Fox Pretty | What Animal Pretty Are You?",
+        "description": "Discover how to achieve the Fox Pretty look with our detailed guide. Embrace earthy tones and a bohemian style to capture the essence of the whimsical fox.",
+        "image": "https://jackiewyers.beauty/Images/Articles/AnimalPretty/FoxTitleResults.png",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/logo.png"
+          }
+        },
+        "datePublished": "2024-08-09",
+        "dateModified": "2024-08-09",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/foxpretty"
+        }
+      }
+    `}
+  </script>
+</Helmet>
       <div className={styles.linkContainer}>
         <a href="/quiz2" className={styles.link}>BEAUTY // QUIZ // FOX PRETTY</a>
       </div>
       <img src={title} alt="No Makeup-Makeup Spring Edition Title" className={styles.titleImage} />
 
-      <ResponsiveYoutube src="https://www.youtube.com/embed/hIGr8Gj4kQA?si=8N-JgnQ-JeRTk5Gm" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
+      <ResponsiveYoutube src="https://www.youtube.com/embed/hIGr8Gj4kQA?si=8N-JgnQ-JeRTk5Gm" title="Sophia Loren Makeup Tutorial - What Animal Pretty Are You? on Youtube" />
 
       <div className={styles.subscribeContainer}>
         <SubscribeButton />

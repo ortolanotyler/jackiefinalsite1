@@ -46,32 +46,93 @@ const CatPretty = () => {
 
   const blogContent = (
     <div className={styles.container}>
+ 
    <Helmet>
-  <title>Cat Pretty | Jackie Wyers</title>
-  <meta name="description" content="Discover how to achieve the Cat Pretty look with our detailed guide. Embrace bold, dramatic styles to capture the essence of the fierce and confident feline." />
-  <meta name="keywords" content="Jackie Wyers, Cat Pretty, makeup tutorial, beauty guide, bold makeup, dramatic style, feline beauty, makeup tips, animal-inspired beauty" />
+  <title>Cat Pretty | What animal pretty are you?</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/catpretty" />
 
+  <meta 
+    name="description" 
+    content="Discover how to achieve the Cat Pretty look with our detailed guide. Embrace bold, dramatic styles to capture the essence of the fierce and confident feline. Perfect for those who love striking and statement-making beauty looks." 
+  />
+  <meta 
+    name="keywords" 
+    content="What animal pretty are you?, Cat Pretty, makeup tutorial, beauty guide, bold makeup, dramatic style, feline beauty, makeup tips, animal-inspired beauty, cat-eye makeup, smoky eye, feline style, bold eyeliner, Victoria Beckham Beauty, Makeup by Mario, statement lashes, ISOPIA lashes, contouring, chic makeup, celebrity makeup looks, bold lip, sultry makeup, confident beauty, fierce makeup look, Bella Hadid, Megan Fox, Rihanna, Zoe Kravitz, feline-inspired fashion, bold fashion tips, statement fashion pieces, structured outfits, '90s fashion, off-duty supermodel, thrift store finds, Revolve, What animal pretty are you? beauty tutorials, influencer makeup guide, confident style, animal beauty looks, striking fashion inspiration" 
+  />
+
+  {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Cat Pretty | Jackie Wyers" />
-  <meta property="og:description" content="Discover how to achieve the Cat Pretty look with our detailed guide. Embrace bold, dramatic styles to capture the essence of the fierce and confident feline." />
-  <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FinalCat.jpg`} />
+  <meta 
+    property="og:description" 
+    content="Discover how to achieve the Cat Pretty look with our detailed guide. Embrace bold, dramatic styles to capture the essence of the fierce and confident feline." 
+  />
+  <meta 
+    property="og:image" 
+    content="https://jackiewyers.beauty/Images/Articles/AnimalPretty/FinalCat.jpg" 
+  />
   <meta property="og:url" content="https://jackiewyers.beauty/catpretty" />
   <meta property="og:type" content="article" />
 
-  <meta name="twitter:card" content="summary_large_image" />
+  {/* Twitter Meta Tags */}
   <meta name="twitter:title" content="Cat Pretty | Jackie Wyers" />
-  <meta name="twitter:description" content="Discover how to achieve the Cat Pretty look with our detailed guide. Embrace bold, dramatic styles to capture the essence of the fierce and confident feline." />
-  <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FinalCat.jpg`} />
+  <meta 
+    name="twitter:description" 
+    content="Discover how to achieve the Cat Pretty look with our detailed guide. Embrace bold, dramatic styles to capture the essence of the fierce and confident feline." 
+  />
+  <meta 
+    name="twitter:image" 
+    content="https://jackiewyers.beauty/Images/Articles/AnimalPretty/FinalCat.jpg" 
+  />
+  <meta name="twitter:card" content="summary_large_image" />
 
+  {/* Google Analytics Script */}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script>
     {`
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG');
+      gtag('config', 'G-RT6GR7JXYG', { page_path: window.location.pathname });
     `}
   </script>
-  <script data-ad-client="ca-pub-4660168246825318" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+  {/* Google Ads Script */}
+  <script 
+    async 
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" 
+    crossorigin="anonymous">
+  </script>
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Cat Pretty | Jackie Wyers",
+        "description": "Discover how to achieve the Cat Pretty look with our detailed guide. Embrace bold, dramatic styles to capture the essence of the fierce and confident feline.",
+        "image": "https://jackiewyers.beauty/Images/Articles/AnimalPretty/FinalCat.jpg",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/logo.png"
+          }
+        },
+        "datePublished": "2024-09-25",
+        "dateModified": "2024-09-25",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/catpretty"
+        }
+      }
+    `}
+  </script>
 </Helmet>
 
       <div className={styles.linkContainer}>

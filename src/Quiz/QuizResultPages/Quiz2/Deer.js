@@ -48,67 +48,92 @@ const DeerPretty = () => {
 
   const blogContent = (
     <div className={styles.container}>
-   <Helmet>
-  <title>Deer Pretty | Jackie Wyers</title>
-  <meta name="description" content="Discover how to achieve the Deer Pretty look with our detailed guide. Embrace soft, ethereal styles to capture the essence of the gentle and graceful deer." />
-  <meta name="keywords" content="Jackie Wyers, Deer Pretty, makeup tutorial, beauty guide, ethereal style, natural beauty, makeup tips, animal-inspired beauty" />
-  
-  <meta property="og:title" content="Deer Pretty | Jackie Wyers" />
-  <meta property="og:description" content="Discover how to achieve the Deer Pretty look with our detailed guide. Embrace soft, ethereal styles to capture the essence of the gentle and graceful deer." />
-  <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/DeerFinal1.jpg`} />
+<Helmet>
+  <title>Deer Pretty | What Animal Pretty Are you?</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/deerpretty" />
+
+  <meta 
+    name="description" 
+    content="Discover how to achieve the Deer Pretty look with our detailed guide. Embrace soft, ethereal styles to capture the essence of the gentle and graceful deer. Perfect for those who appreciate natural, understated beauty with a serene touch." 
+  />
+  <meta 
+    name="keywords" 
+    content="What Animal Pretty Are you?, Deer Pretty, makeup tutorial, beauty guide, ethereal style, natural beauty, makeup tips, animal-inspired beauty, doe-eyed makeup, soft makeup look, gentle beauty, serene style, makeup by Mario, ISOPIA lashes, peachy blush, neutral eyeshadow, graceful style, soft elegance, pastel outfits, lace fashion, feminine style, Free People, soft color palettes, gentle makeup, fawn inspiration, celebrity style, Jessica Alba makeup, Leighton Meester look, Tessa Thompson beauty, Emmy Rossum style, Charithra Chandran, makeup ideas, deer-inspired looks, natural aesthetic, understated makeup, beauty influencer tutorials, whimsical fashion, fawn jewelry, ethereal beauty inspiration, soft glam" 
+  />
+
+  {/* Open Graph Meta Tags */}
+  <meta property="og:title" content="Deer Pretty | What Animal Pretty Are you?" />
+  <meta 
+    property="og:description" 
+    content="Discover how to achieve the Deer Pretty look with our detailed guide. Embrace soft, ethereal styles to capture the essence of the gentle and graceful deer." 
+  />
+  <meta 
+    property="og:image" 
+    content="https://jackiewyers.beauty/Images/Articles/AnimalPretty/DeerFinal1.jpg" 
+  />
   <meta property="og:url" content="https://jackiewyers.beauty/deerpretty" />
   <meta property="og:type" content="article" />
-  
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Deer Pretty | Jackie Wyers" />
-  <meta name="twitter:description" content="Discover how to achieve the Deer Pretty look with our detailed guide. Embrace soft, ethereal styles to capture the essence of the gentle and graceful deer." />
-  <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/DeerFinal1.jpg`} />
-  
-  {/* Canonical tag to avoid duplicate content issues */}
-  <link rel="canonical" href="https://jackiewyers.beauty/deerpretty" />
-  
-  {/* JSON-LD Structured Data */}
-  <script type="application/ld+json">
-    {`
-    {
-      "@context": "http://schema.org",
-      "@type": "Article",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://jackiewyers.beauty/deerpretty"
-      },
-      "headline": "Deer Pretty | Jackie Wyers",
-      "description": "Discover how to achieve the Deer Pretty look with our detailed guide. Embrace soft, ethereal styles to capture the essence of the gentle and graceful deer.",
-      "image": "${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/DeerFinal1.jpg",
-      "author": {
-        "@type": "Person",
-        "name": "Jackie Wyers"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Jackie Wyers Beauty",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://jackiewyers.beauty/logo.png"
-        }
-      },
-      "datePublished": "2024-08-09",
-      "dateModified": "2024-08-09"
-    }
-    `}
-  </script>
 
+  {/* Twitter Meta Tags */}
+  <meta name="twitter:title" content="Deer Pretty | What Animal Pretty Are you?" />
+  <meta 
+    name="twitter:description" 
+    content="Discover how to achieve the Deer Pretty look with our detailed guide. Embrace soft, ethereal styles to capture the essence of the gentle and graceful deer." 
+  />
+  <meta 
+    name="twitter:image" 
+    content="https://jackiewyers.beauty/Images/Articles/AnimalPretty/DeerFinal1.jpg" 
+  />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  {/* Google Analytics Script */}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script>
     {`
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG');
+      gtag('config', 'G-RT6GR7JXYG', { page_path: window.location.pathname });
     `}
   </script>
-  
-  <script data-ad-client="ca-pub-4660168246825318" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+  {/* Google Ads Script */}
+  <script 
+    async 
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" 
+    crossorigin="anonymous">
+  </script>
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Deer Pretty | What Animal Pretty Are you?",
+        "description": "Discover how to achieve the Deer Pretty look with our detailed guide. Embrace soft, ethereal styles to capture the essence of the gentle and graceful deer.",
+        "image": "https://jackiewyers.beauty/Images/Articles/AnimalPretty/DeerFinal1.jpg",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/logo.png"
+          }
+        },
+        "datePublished": "2024-08-09",
+        "dateModified": "2024-08-09",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/deerpretty"
+        }
+      }
+    `}
+  </script>
 </Helmet>
 
 

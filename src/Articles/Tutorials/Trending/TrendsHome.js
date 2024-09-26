@@ -14,6 +14,7 @@ const animal = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.j
 const bridalmakeup = `${process.env.PUBLIC_URL}/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.jpg`;
 
 const cardsData = [
+ 
   { link: "/bridalmakeup", image: bridalmakeup, alt: "Warm and cozy latte-inspired fall makeup look", title: "Bridal Trial Makeup 💄" },
 
   { link: "/animalpretty", image: animal, alt: "Warm and cozy latte-inspired fall makeup look", title: "Find Your Animal Pretty 🐰" },
