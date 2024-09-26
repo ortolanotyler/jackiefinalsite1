@@ -8,6 +8,7 @@ import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import SocialShare from '../../../Home/SocialShare';
 
 const Balke3 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeFaceChart.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
@@ -189,7 +190,11 @@ const captionStyle = {
   author="Jackie Wyers"
   publishDate="Feb 20th, 2024"
 />
-
+<SocialShare 
+  url="https://jackiewyers.beauty/balkeblog" 
+  title="Iconic 60s Makeup Tutorial" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/Balke/BALKETHUMBNAIL.jpeg" 
+/>
 
 
 <div>
