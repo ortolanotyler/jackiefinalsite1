@@ -216,6 +216,14 @@ const AnimalPretty = () => {
         </p>
       </div>
 
+      <p style={paragraphStyle}>
+     Dive into the quiz{' '}
+        <a href="/quiz2" style={{textDecoration: 'underline'}}>
+          here
+        </a>{' '}
+        and I hope the full-length tutorials on my channel inspire you to try a new look!
+      </p>
+
       <DropCap1
         text="Hey beauties, it’s Jackie! Today, we're diving into a fun and fresh way to explore beauty styles with my 'Types of Pretty' makeup series inspired by adorable animals like deer, cats, foxes, and bunnies. Whether you saw this trend on TikTok or my latest YouTube tutorial, I’m thrilled to bring this unique concept to the blog where we break down each style with detailed makeup guides."
       />

@@ -118,7 +118,7 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
   const blogContent = (
     <div className="container">
   <Helmet>
-  <title>Sharon Tate Iconic 60's Makeup Tutorial - Jackie Wyers</title>
+  <title>Sharon Tate Iconic 60's Makeup Tutorial </title>
   <link rel="canonical" href="https://jackiewyers.beauty/iconicsharon" />
 
   <meta name="description" content="Follow Jackie Wyers' tutorial to recreate Sharon Tate's iconic 60's makeup look. Dive into the step-by-step guide and discover modern products to achieve this timeless style." />
