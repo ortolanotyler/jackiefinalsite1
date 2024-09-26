@@ -5,37 +5,35 @@ import { Helmet } from 'react-helmet';
 import { initGA, logPageView } from '../analytics';
 import TextRevealHomePage from '../Components/TextRevealHomePage';
 
-
 import HeroSection from './HeroSection';
 import HorizontalLine from '../Components/HorizontalLine';
 import NewsletterSlider from '../Components/NewsletterSlider';
 import TextBanner2 from '../Components/TextBanner2';
 import AdSenseAd from '../Advertising/Ads';
 
-
 const RotatingText = lazy(() => import('../Navigation/AppBar/RotatingText'));
-
 const ShopMyHero2 = lazy(() => import('./ShopMyHero2'));
 const QuiltedImageList1 = lazy(() => import('./ImageGridTutorials'));
-
 
 const theme = createTheme();
 
 function HomePage() {
   useEffect(() => {
-    initGA();              
-    logPageView('/homepage');  
+    initGA();
+    logPageView('/homepage');
   }, []);
 
   const quizzesRef = useRef(null);
   const outfitsRef = useRef(null);
 
-  // Memoize the viewAllRefs object itself, not the refs inside
-  const viewAllRefs = useMemo(() => ({
-    quizzes: quizzesRef,
-    outfits: outfitsRef,
-  }), []);
-  
+  const viewAllRefs = useMemo(
+    () => ({
+      quizzes: quizzesRef,
+      outfits: outfitsRef,
+    }),
+    []
+  );
+
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   const [isJiggling, setIsJiggling] = useState({
@@ -64,13 +62,13 @@ function HomePage() {
         100% { transform: rotate(0deg); }
       }
     `;
-    const styleSheet = document.createElement("style");
-    styleSheet.type = "text/css";
+    const styleSheet = document.createElement('style');
+    styleSheet.type = 'text/css';
     styleSheet.innerText = keyframes;
     document.head.appendChild(styleSheet);
-  
+
     const observers = {};
-  
+
     Object.keys(viewAllRefs).forEach((key) => {
       observers[key] = new IntersectionObserver(
         ([entry]) => {
@@ -78,19 +76,19 @@ function HomePage() {
             setIsJiggling((prev) => ({ ...prev, [key]: true }));
             setTimeout(() => {
               setIsJiggling((prev) => ({ ...prev, [key]: false }));
-            }, 4000); // Stop jiggling after 4 seconds
+            }, 4000);
           }
         },
         {
           threshold: 0.1,
         }
       );
-  
+
       if (viewAllRefs[key].current) {
         observers[key].observe(viewAllRefs[key].current);
       }
     });
-  
+
     return () => {
       Object.keys(observers).forEach((key) => {
         if (viewAllRefs[key].current) {
@@ -102,65 +100,72 @@ function HomePage() {
 
   return (
     <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
-  <Helmet>
-  <title>Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/" />
-
-  <meta name="description" content="Explore beauty tutorials, reviews, travel tips, makeup looks, product reviews, and style guides from Jackie Wyers." />
-  <meta name="keywords" content="beauty tutorials, makeup reviews, travel tips, Jackie Wyers, beauty influencer, makeup looks, style guides, product reviews, fashion tips, skincare, hair tutorials, beauty trends, travel guides, girly style, pop culture beauty, vintage hairstyles, Jackie Wyers YouTube, beauty influencer tips, lifestyle content, beauty reviews, product recommendations, skincare tips, girly beauty trends, makeup inspiration, hair styling, beauty influencer reviews, classic beauty, retro beauty, travel vlogs, girly makeup looks, trendy makeup tutorials, period makeup, beauty and style, travel recommendations, makeup products, girly style tips, fashion advice, beauty advice, influencer travel tips, pop culture inspired beauty" />
-
-  <meta property="og:title" content="Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips" />
-  <meta property="og:description" content="Discover makeup tutorials, product reviews, beauty tips, and travel guides by Jackie Wyers." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/jw3logo.png" />
-  <meta property="og:url" content="https://jackiewyers.beauty/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Jackie Wyers Beauty" />
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips" />
-  <meta name="twitter:description" content="Explore beauty tutorials, product reviews, and travel tips by Jackie Wyers." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/jw3logo.png" />
-  <meta name="twitter:site" content="@JackieWyers" />
-
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
-
-  {/* Google Ads Script */}
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-
-  {/* JSON-LD Structured Data */}
-  <script type="application/ld+json">
-    {`
-      {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Jackie Wyers Beauty",
-        "url": "https://jackiewyers.beauty",
-        "description": "Explore beauty tutorials, reviews, travel tips, makeup looks, product reviews, and style guides from Jackie Wyers.",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://jackiewyers.beauty/search?q={search_term_string}",
-          "query-input": "required name=search_term_string"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "Jackie Wyers Beauty",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/Images/jw3logo.png",
-            "width": 600,
-            "height": 60
-          }
-        }
-      }
-    `}
-  </script>
-</Helmet>
+      <Helmet>
+        <title>Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips</title>
+        <link rel="canonical" href="https://jackiewyers.beauty/" />
+        <meta
+          name="description"
+          content="Explore beauty tutorials, reviews, travel tips, makeup looks, product reviews, and style guides from Jackie Wyers."
+        />
+        <meta
+          name="keywords"
+          content="beauty tutorials, makeup reviews, travel tips, Jackie Wyers, beauty influencer, makeup looks, style guides, product reviews, fashion tips, skincare, hair tutorials, beauty trends, travel guides, girly style, pop culture beauty, vintage hairstyles, Jackie Wyers YouTube, beauty influencer tips, lifestyle content, beauty reviews, product recommendations, skincare tips, girly beauty trends, makeup inspiration, hair styling, beauty influencer reviews, classic beauty, retro beauty, travel vlogs, girly makeup looks, trendy makeup tutorials, period makeup, beauty and style, travel recommendations, makeup products, girly style tips, fashion advice, beauty advice, influencer travel tips, pop culture inspired beauty"
+        />
+        <meta property="og:title" content="Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips" />
+        <meta
+          property="og:description"
+          content="Discover makeup tutorials, product reviews, beauty tips, and travel guides by Jackie Wyers."
+        />
+        <meta property="og:image" content="https://jackiewyers.beauty/Images/jw3logo.png" />
+        <meta property="og:url" content="https://jackiewyers.beauty/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Jackie Wyers Beauty" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips" />
+        <meta
+          name="twitter:description"
+          content="Explore beauty tutorials, product reviews, and travel tips by Jackie Wyers."
+        />
+        <meta name="twitter:image" content="https://jackiewyers.beauty/Images/jw3logo.png" />
+        <meta name="twitter:site" content="@JackieWyers" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+        <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318"
+          crossorigin="anonymous"
+        ></script>
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Jackie Wyers Beauty",
+              "url": "https://jackiewyers.beauty",
+              "description": "Explore beauty tutorials, reviews, travel tips, makeup looks, product reviews, and style guides from Jackie Wyers.",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://jackiewyers.beauty/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Jackie Wyers Beauty",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://jackiewyers.beauty/Images/jw3logo.png",
+                  "width": 600,
+                  "height": 60
+                }
+              }
+            }
+          `}
+        </script>
+      </Helmet>
       <Grid container spacing={2} justifyContent="center">
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
-            <TextRevealHomePage text="JACKIE WYERS" style = {{margin:'0 auto'}} />
+            <TextRevealHomePage text="JACKIE WYERS" style={{ margin: '0 auto' }} />
           </Suspense>
         </Grid>
 
@@ -171,50 +176,45 @@ function HomePage() {
               sx={{
                 backgroundColor: 'white',
                 fontFamily: 'GFS Didot, serif',
-              
                 color: '#745B4F',
                 textAlign: 'center',
               }}
             >
               <Suspense fallback={<div className="spinner"></div>}>
                 <RotatingText />
-                       
-
               </Suspense>
             </Paper>
           </Grid>
         )}
 
-       
+        <Grid item xs={12}>
+          <Suspense fallback={<div className="spinner"></div>}>
+            <QuiltedImageList1 />
+          </Suspense>
+
           <Grid item xs={12}>
             <Suspense fallback={<div className="spinner"></div>}>
-              <QuiltedImageList1 />
+              <HorizontalLine />
+
+              {!isMobile && (
+                <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px" />
+              )}
+
+              <HorizontalLine />
+
+              <HeroSection
+                featureText="LATEST"
+                headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀"
+                subtext="The Best Barbie-Inspired Products and Collectibles Every Grown-Up Barbie Lover Needs on Their Wishlist"
+                author="BY JACKIE WYERS"
+                imagePath="/halloweenthumb12.jpg"
+                linkUrl="/barbie-roundup"
+                isFlipped={true}
+              />
             </Suspense>
-        
-
-            <Grid item xs={12}>
-  <Suspense fallback={<div className="spinner"></div>}>
-  
-  <HorizontalLine />
-
-
-  <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px" />
-
-  <HorizontalLine />
-
-
-  <HeroSection
-  featureText="LATEST"
-  headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀"
-  subtext="The Best Barbie-Inspired Products and Collectibles Every Grown-Up Barbie Lover Needs on Their Wishlist"
-  author="BY JACKIE WYERS"
-  imagePath="/halloweenthumb12.jpg"
-  linkUrl="/barbie-roundup"
-  isFlipped={true}
-/>
-
-</Suspense>
-</Grid>
+          </Grid>
+        </Grid>
+    
 
 
 
@@ -506,7 +506,7 @@ isFlipped={false}
           </Suspense>
         </Grid>
 
-  </Grid>
+  
 
 
 

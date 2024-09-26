@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
-const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', maxFontSize = '50px', minFontSize = '20px' }) => {
+const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', maxFontSize = '50px', minFontSize = '10px' }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const [fontSize, setFontSize] = useState(maxFontSize);
 
@@ -10,9 +10,15 @@ const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', maxF
     const screenWidth = window.innerWidth;
     let calculatedFontSize = parseFloat(maxFontSize);
 
-    if (screenWidth < 1200) {
-      calculatedFontSize = Math.max(screenWidth / 10, parseFloat(minFontSize)); // Adjust the formula as needed
+    // Adjust font size based on screen width
+    if (screenWidth < 600) {
+      // Mobile screens - more aggressive shrink
+      calculatedFontSize = Math.max(screenWidth / 15, parseFloat(minFontSize));
+    } else if (screenWidth < 1200) {
+      // Tablet and smaller desktop screens
+      calculatedFontSize = Math.max(screenWidth / 12, parseFloat(minFontSize));
     }
+
     setFontSize(`${calculatedFontSize}px`);
   };
 
