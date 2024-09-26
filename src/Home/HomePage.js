@@ -200,17 +200,6 @@ function HomePage() {
                 <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px" />
               )}
 
-              <HorizontalLine />
-              <HeroSection
-                featureText="LATEST"
-                headlineText="Rory Gilmore's No-Makeup Makeup
-& Cozy Fall Style Guide 🧣"
-                subtext="Chinese Makeup Techniques for an Angelic Look"
-                author="SEPTEMBER 23"
-                imagePath="/Rory1/rorythumbnail.jpg"
-                linkUrl="/articles/rory-gilmore"
-                isFlipped={false}
-              />
 <HorizontalLine />
               <HeroSection
                 featureText="LATEST"
