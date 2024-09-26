@@ -9,6 +9,7 @@ import { Helmet } from'react-helmet';
 import ResponsiveIframeNoScroll from '../../../Components/ResponsiveIframeNoScroll';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import DropCap1 from '../../Travel/DropCap1';
+import SocialShare from '../../../Home/SocialShare';
 
 
 
@@ -207,6 +208,12 @@ const captionStyle = {
   subTitle="My Guide to Scroll-Stopping iPhone Photos"
   author="Jackie Wyers"
   publishDate="Aug 11th, 2024"
+/>
+
+<SocialShare 
+  url="https://jackiewyers.beauty/camera-settings" 
+  title="Camera Settings - A Guide to Scroll-Stopping iPhone Photos - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/CameraSettings/coverphoot.jpg" 
 />
 
 <div style = {{textAlign: 'center', margin: '10px auto' }}>

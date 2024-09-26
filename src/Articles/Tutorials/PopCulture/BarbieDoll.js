@@ -10,6 +10,7 @@ import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
+import SocialShare from '../../../Home/SocialShare';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/1.JPG`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/2.JPG`;
@@ -244,7 +245,11 @@ Doll🎀"
   publishDate="Sept 23rd, 2024"
 />
   
-
+<SocialShare 
+  url="https://jackiewyers.beauty/barbie-makeup-looks" 
+  title="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/BarbieDoll/BarbieThumbnail.jpg" 
+/>
 
 
 <div style={gridContainerStyle}>
@@ -567,8 +572,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
   return (
     <div ref={blogRef}>
       <Card
-        title="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll🎀
-"
+        title="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll🎀"
         description="Barbie Makeup Tutorial & Iconic Doll Inspiration"
         blogContent={blogContent}
       />

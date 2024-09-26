@@ -9,6 +9,7 @@ import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
+import SocialShare from '../../../Home/SocialShare';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/BarbieRoundup/1.JPG`;
@@ -228,6 +229,12 @@ Collaborations for Adult Fans in 2024
 Wishlist"
   author="Jackie Wyers"
   publishDate="September 23rd, 2024"
+/>
+
+<SocialShare 
+  url="https://jackiewyers.beauty/barbie-roundup" 
+  title="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀" 
+  imageUrl="https://jackiewyers.beauty/Images/BarbieRoundup/BarbieCollabsThumbnail.jpg" 
 />
 
   <img src={image1} alt="Best of Barbie Collab Products Flatlay" style={imageStyle} />

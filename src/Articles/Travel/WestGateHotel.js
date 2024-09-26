@@ -8,6 +8,7 @@ import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
+import SocialShare from '../../Home/SocialShare';
 
 
 const westgate1 = `${process.env.PUBLIC_URL}/Images/Articles/WestgateHotelReview/WESTGATE1.JPG`;
@@ -196,6 +197,14 @@ const Card = ({ blogContent }) => (
   author="Jackie Wyers"
   publishDate="May 13,2024"
 />
+
+<SocialShare 
+  url="https://jackiewyers.beauty/westgatesandiego" 
+  title="The Westgate Hotel - San Diego Review - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/WestgateHotelReview/WESTGATETHUMBNAIL.jpg" 
+/>
+
+
 <ResponsiveYoutube src="https://www.youtube.com/embed/H1VUDOqCo3s?si=Ej5ug_TV3qatoDOk" title="YouTube video player" />
 
             <div style = {{textAlign: 'center', margin: '1rem auto' }}>

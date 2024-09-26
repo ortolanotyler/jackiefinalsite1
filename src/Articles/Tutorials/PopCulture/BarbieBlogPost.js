@@ -9,6 +9,7 @@ import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import NextArticle from '../../../Components/NextArticleComponent';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import SocialShare from '../../../Home/SocialShare';
 
  
 
@@ -232,6 +233,12 @@ const captionStyle = {
   subTitle="Come on Barbie, Let's Get Glam!"
   author="Jackie Wyers"
   publishDate="July 25th, 2024"
+/>
+
+<SocialShare 
+  url="https://jackiewyers.beauty/margotbarbie" 
+  title="Margot Robbie's Barbie Makeup & DIY '90s Roller Skate Costume - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/BarbieMovie/MARGOBARBIETHUMBNAIL.png" 
 />
 
 

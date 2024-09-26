@@ -2,12 +2,13 @@ import React, { useRef, useEffect } from 'react';
 import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
-import DropCap from '../../../Components/DropCap';
-import TextReveal from '../../../Components/TextReveal';
+
 import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
+import SocialShare from '../../../Home/SocialShare';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/periodtitle.png`;
@@ -157,7 +158,7 @@ const captionStyle = {
         }
       },
       "datePublished": "2024-07-27",
-      "dateModified": "2024-07-27"
+      "dateModified": "2024-09-20"
     }
     `}
   </script>
@@ -178,8 +179,24 @@ const captionStyle = {
           BEAUTY // POP CULTURE
         </a>
       </div>
-      <img src={title} alt="No Makeup-Makeup Spring Edition Title" style={{ width: '100%' }} />
+    
+      <ArticleTitle
+  mainTitle="A Guide to No Makeup-Makeup | Historical-Fiction Drama Makeup"
+  subTitle="Timeless Beauty : Exploring the elegance of period drama hair and makeup."
+  author="Jackie Wyers"
+  publishDate="Jan 25th, 2024"
+/>
+<SocialShare 
+  url="https://jackiewyers.beauty/perioddrama" 
+  title="No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/PeriodDrama/ArticleThumb.jpg" 
+/>
+    
       <div>
+
+
+
+    
       <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
       All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
         </p>

@@ -10,6 +10,7 @@ import DropCap1 from '../../Travel/DropCap1';
 import { initGA, logPageView } from '../../../analytics';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
+import SocialShare from '../../../Home/SocialShare';
 
 
 
@@ -231,6 +232,13 @@ const captionStyle = {
   author="Jackie Wyers"
   publishDate="Aug 12th, 2024"
 />
+
+<SocialShare 
+  url="https://jackiewyers.beauty/emily-in-paris" 
+  title="Emily in Paris Style Evolution: Makeup, Hair, and Fashion Recap - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/EmilyInParis/emilyinparis.jpg" 
+/>
+
 
 
       <div style = {{marginBottom:'30px',marginTop: '20px', textAlign: 'center' }}>

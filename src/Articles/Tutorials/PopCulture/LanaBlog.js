@@ -9,6 +9,7 @@ import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
+import SocialShare from '../../../Home/SocialShare';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaTitle.png`;
@@ -190,6 +191,12 @@ const captionStyle = {
   subTitle="A Coquette Makeup Tutorial for Valentine's Day"
   author="Jackie Wyers"
   publishDate="Jan 25th, 2024"
+/>
+
+<SocialShare 
+  url="https://jackiewyers.beauty/lanablog" 
+  title="Lana Del Rey SKIMS Makeup Tutorial - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/LanaXskims/LanaTitle.png" 
 />
 
 
