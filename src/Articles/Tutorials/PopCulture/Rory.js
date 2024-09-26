@@ -229,7 +229,7 @@ const captionStyle = {
   <ArticleTitle
   mainTitle="Rory Gilmore's No-Makeup Makeup
 & Cozy Fall Style Guide 🧣"
-  subTitle="Chinese Makeup Techniques for an Angelic Look"
+  subTitle="The Perfect Girl-Next-Door Makeup Routine!"
   author="Jackie Wyers"
   publishDate="September 24th, 2024"
 />
@@ -522,8 +522,11 @@ const captionStyle = {
 </div>
 
       <p style={paragraphStyle}>
-  Did you know that the pilot episode of Gilmore Girls was filmed in the quaint town of <a href="https://unionville.ca/" target="_blank" rel="noopener noreferrer">Unionville, Ontario</a>, Canada? I recently visited this charming spot, which doubled as the iconic Stars Hollow. Walking through Unionville feels like stepping right into Rory’s world—from the cozy storefronts to the picturesque streets. I even explored some of the exact locations used in the show, like the famous church steps and the town square. You can watch my full vlog of this magical visit <a href="https://drinkingcoffeewatchingtv.com/en/gilmore-girls-filming-locations/" target="_blank" rel="noopener noreferrer"> here </a> and see how Unionville truly captures the essence of Stars Hollow. It’s a must-see for any Gilmore Girls fan wanting to experience a piece of Rory’s world in real life!
+  Did you know that the pilot episode of Gilmore Girls was filmed in the quaint town of <a href="https://unionville.ca/" target="_blank" rel="noopener noreferrer">Unionville, Ontario</a>, Canada? I recently visited this charming spot, which doubled as the iconic Stars Hollow. Walking through Unionville feels like stepping right into Rory’s world—from the cozy storefronts to the picturesque streets. I even explored some of the exact locations used in the show, like the famous church steps and the town square. You can watch my full vlog of this magical visit below and see how Unionville truly captures the essence of Stars Hollow. It’s a must-see for any Gilmore Girls fan wanting to experience a piece of Rory’s world in real life!
 </p>
+
+<ResponsiveYoutube src="https://www.youtube.com/embed/x4l6my8HOQQ?si=RmbrmrfLPPj25tGA" title="visiting the real STARS HALLOW!💫 ☕️ 📚 #gilmoregirls" />
+
 <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
@@ -575,7 +578,7 @@ const captionStyle = {
       <Card
         title="Rory Gilmore's No-Makeup Makeup
 & Cozy Fall Style Guide 🧣"
-        description="Chinese Makeup Techniques for an Angelic Look"
+        description="The Perfect Girl-Next-Door Makeup Routine!"
         blogContent={blogContent}
       />
  
