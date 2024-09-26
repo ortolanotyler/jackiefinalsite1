@@ -270,7 +270,7 @@ Wishlist"
 </div>
 <h2 style={headingStyle}>
 
-💖Patrick Tan X Barbie Blush Duo And Lip Plumper Set 💖
+💖Patrick Ta X Barbie Blush Duo And Lip Plumper Set 💖
 
 </h2>
 
