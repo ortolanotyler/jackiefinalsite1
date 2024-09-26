@@ -43,15 +43,7 @@ const Quiz2Homepage = () => {
                       <Quiz2 />
                 </Grid>
                   
-                <Grid item xs={6}>
-    
-                      <AdSenseAd />
-                </Grid>
-                <Grid item xs={6}>
-    
-                      <AdSenseAd />
-                </Grid>
-
+           
         
         
              
@@ -62,6 +54,16 @@ const Quiz2Homepage = () => {
       
                 
             </Grid>
+
+            <Grid item xs={6}>
+    
+    <AdSenseAd />
+</Grid>
+<Grid item xs={6}>
+
+    <AdSenseAd />
+</Grid>
+
           
 
 <div style = {{margin :'10px auto' }}>
