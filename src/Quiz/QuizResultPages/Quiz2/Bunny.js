@@ -105,7 +105,93 @@ const captionStyle = {
 };
   const blogContent = (
     <div className={styles.container}>
-    Jackie Wyers
+    <Helmet>
+  <title>Bunny Pretty | Jackie Wyers</title>
+  <link rel="canonical" href="https://jackiewyers.beauty/bunnypretty" />
+
+  <meta 
+    name="description" 
+    content="Discover how to achieve the Bunny Pretty look with our detailed guide. Embrace soft pastels and cute styles to capture the essence of the playful bunny. Perfect for those who love cute, angelic, and vibrant makeup styles." 
+  />
+  <meta 
+    name="keywords" 
+    content="Jackie Wyers, Bunny Pretty, makeup tutorial, beauty guide, soft pastels, cute styles, playful bunny, makeup tips, animal-inspired beauty, bunny makeup, pastel makeup, cute makeup ideas, Elle Fanning makeup, sweet makeup look, vibrant blush, glossy lips, pink eyeshadow, angelic makeup, makeup for social gatherings, flirty dresses, flowy fabrics, For Love & Lemons, Charlotte Tilbury, Pillow Talk palette, Milani Coral Cove, Rare Beauty blush, Sephora Pink Pout, ISOPIA lashes, fashion tips, bunny-themed jewelry, Fable England accessories, beauty inspiration, cute fashion ideas, animal quiz looks, youthful glow, beauty tutorials, influencer makeup, pastel outfit ideas, whimsical style" 
+  />
+
+  {/* Open Graph Meta Tags */}
+  <meta property="og:title" content="Bunny Pretty | Jackie Wyers" />
+  <meta 
+    property="og:description" 
+    content="Discover how to achieve the Bunny Pretty look with our detailed guide. Embrace soft pastels and cute styles to capture the essence of the playful bunny." 
+  />
+  <meta 
+    property="og:image" 
+    content="https://jackiewyers.beauty/Images/Articles/AnimalPretty/BunnyPretty.JPG" 
+  />
+  <meta property="og:url" content="https://jackiewyers.beauty/bunnypretty" />
+  <meta property="og:type" content="article" />
+
+  {/* Twitter Meta Tags */}
+  <meta name="twitter:title" content="Bunny Pretty | Jackie Wyers" />
+  <meta 
+    name="twitter:description" 
+    content="Discover how to achieve the Bunny Pretty look with our detailed guide. Embrace soft pastels and cute styles to capture the essence of the playful bunny." 
+  />
+  <meta 
+    name="twitter:image" 
+    content="https://jackiewyers.beauty/Images/Articles/AnimalPretty/BunnyPretty.JPG" 
+  />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG', { page_path: window.location.pathname });
+    `}
+  </script>
+
+  {/* Google Ads Script */}
+  <script 
+    async 
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" 
+    crossorigin="anonymous">
+  </script>
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Bunny Pretty | What Animal Pretty Are you?",
+        "description": "Discover how to achieve the Bunny Pretty look with our detailed guide. Embrace soft pastels and cute styles to capture the essence of the playful bunny.",
+        "image": "https://jackiewyers.beauty/Images/Articles/AnimalPretty/BunnyPretty.JPG",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://jackiewyers.beauty/logo.png"
+          }
+        },
+        "datePublished": "2024-09-25",
+        "dateModified": "2024-09-25",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://jackiewyers.beauty/bunnypretty"
+        }
+      }
+    `}
+  </script>
+</Helmet>
 
       <div className={styles.linkContainer}>
         <a href="/quiz2" className={styles.link}>BEAUTY // QUIZ // BUNNY PRETTY</a>

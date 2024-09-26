@@ -259,6 +259,10 @@ fontStyle: 'italic',
       All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 
+      <div style = {{ margin : '1rem auto'}}>
+  <AdSenseAd/>
+</div>
+
       <h2 style={headingStyle}>🍊 Perfume Profile</h2>
 
       <div style={{ textAlign: 'center', fontSize: '1.25rem', fontFamily: 'GFS Didot, serif', margin: '1rem auto' }}>
