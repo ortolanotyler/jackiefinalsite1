@@ -14,7 +14,7 @@ const ArticleTitle = ({ mainTitle, subTitle, author, publishDate }) => {
       )}
       <div style={styles.authorContainer}>
         <span style={styles.author}>BY {author}</span>
-        <span style={styles.date}>PUBLISHED {publishDate}</span>
+        <span style={styles.date}>{publishDate}</span>
       </div>
       <HorizontalLine/>
     </div>
@@ -26,8 +26,8 @@ const styles = {
     textAlign: 'left', // Align the text to the left
     marginBottom: '10px',
     maxWidth: '1000px', // Optional: limit the width of the container if needed
-    margin: '0 1rem',
-    padding: 'auto', 
+    margin: '1rem auto',
+    padding: '1rem auto', 
 
   },
   mainTitle: {

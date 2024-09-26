@@ -206,7 +206,7 @@ function HomePage() {
                 featureText="LATEST"
                 headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀"
                 subtext="The Best Barbie-Inspired Products and Collectibles Every Grown-Up Barbie Lover Needs on Their Wishlist"
-                author="BY JACKIE WYERS"
+                author="SEPTEMBER 23"
                 imagePath="/halloweenthumb12.jpg"
                 linkUrl="/barbie-roundup"
                 isFlipped={true}
@@ -227,7 +227,7 @@ function HomePage() {
   featureText="FEATURED"
   headlineText="Girly Pop Culture Halloween Costume Ideas 2024🎀"
   subtext="Britney, Barbie, Bridgerton, Oh My!"
-  author="BY JACKIE WYERS"
+  author="SEPTEMBER 3"
   imagePath="Halloween/HalloweenThumb.jpg"
   linkUrl="/girly-pop-halloween"
   isFlipped={false}
@@ -242,7 +242,7 @@ function HomePage() {
   featureText="LATEST"
   headlineText="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll"
   subtext="Barbie Makeup Tutorial & Iconic Doll Inspiration"
-  author="BY JACKIE WYERS"
+  author="SEPTEMBER 23"
   imagePath="BarbieDoll/JackieWyersBarbieThumb.jpeg"
   linkUrl="/barbie-doll"
   isFlipped={true}
@@ -279,6 +279,7 @@ function HomePage() {
 featureText="QUIZ"
 headlineText="Animal Pretty - Which one are you?"
 imagePath="AnimalPretty/animals.jpg"
+
 linkUrl="/quiz-2-home"
 isFlipped={true}
 />
@@ -324,6 +325,7 @@ isFlipped={true}
   headlineText="Our Fairytale Wedding Overlooking Sorrento, Italy"
   subtext="All the enchanting details, prep & planning"
   author="BY JACKIE WYERS"
+
   imagePath="FairytaleWedding/fairytalethumbnail.webp"
   linkUrl="/fairytalewedding"
   isFlipped={true}
