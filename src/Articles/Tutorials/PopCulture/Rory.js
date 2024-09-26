@@ -131,7 +131,7 @@ const captionStyle = {
   const blogContent = (
     <div className="container">
 <Helmet>
-  <title>Rory Gilmore's No-Makeup Makeup & Cozy Fall Style Guide - Jackie Wyers</title>
+  <title>Rory Gilmore's No-Makeup Makeup & Cozy Fall Style Guide</title>
   <link rel="canonical" href="https://jackiewyers.beauty/articles/rory-gilmore" />
 
   <meta 
@@ -144,7 +144,7 @@ const captionStyle = {
   />
 
   {/* Open Graph Meta Tags */}
-  <meta property="og:title" content="Rory Gilmore's No-Makeup Makeup & Cozy Fall Style Guide - Jackie Wyers" />
+  <meta property="og:title" content="Rory Gilmore's No-Makeup Makeup & Cozy Fall Style Guide" />
   <meta 
     property="og:description" 
     content="Discover Rory Gilmore's iconic no-makeup makeup look and cozy fall fashion style inspired by Gilmore Girls. Jackie Wyers shares tips on achieving Rory's fresh-faced beauty with K-beauty products, perfect fall outfits, and hairstyling tips for a classic, effortless look." 
@@ -157,7 +157,7 @@ const captionStyle = {
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
-  <meta name="twitter:title" content="Rory Gilmore's No-Makeup Makeup & Cozy Fall Style Guide - Jackie Wyers" />
+  <meta name="twitter:title" content="Rory Gilmore's No-Makeup Makeup & Cozy Fall Style Guide" />
   <meta 
     name="twitter:description" 
     content="Discover Rory Gilmore's iconic no-makeup makeup look and cozy fall fashion style inspired by Gilmore Girls. Jackie Wyers shares tips on achieving Rory's fresh-faced beauty with K-beauty products, perfect fall outfits, and hairstyling tips for a classic, effortless look." 
@@ -192,7 +192,7 @@ const captionStyle = {
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "Rory Gilmore's No-Makeup Makeup & Cozy Fall Style Guide - Jackie Wyers",
+        "headline": "Rory Gilmore's No-Makeup Makeup & Cozy Fall Style Guide",
         "description": "Discover Rory Gilmore's iconic no-makeup makeup look and cozy fall fashion style inspired by Gilmore Girls. Jackie Wyers shares tips on achieving Rory's fresh-faced beauty with K-beauty products, perfect fall outfits, and hairstyling tips for a classic, effortless look.",
         "image": "https://jackiewyers.beauty/Images/Articles/Rory1/RoryThumbnail.jpg",
         "author": {
