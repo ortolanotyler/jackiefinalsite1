@@ -250,7 +250,7 @@ function HomePage() {
                 headlineText="Rory Gilmore's No-Makeup Makeup
 & Cozy Fall Style Guide 🧣"
                 subtext="he Perfect Girl-Next-Door Makeup Routine!"
-                author="SEPTEMBER 23"
+                author="SEPTEMBER 24"
                 imagePath="/Rory1/rorythumbnail.jpg"
                 linkUrl="/articles/rory-gilmore"
                 isFlipped={false}
