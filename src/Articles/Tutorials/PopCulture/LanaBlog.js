@@ -138,34 +138,34 @@ const captionStyle = {
     <meta name="twitter:description" content="Explore Jackie Wyers' Lana Del Rey SKIMS Makeup Tutorial. Recreate Lana's look with step-by-step guidance, featuring top beauty products and style tips." />
     <meta name="twitter:image" content={title} />
     <script type="application/ld+json">
-        {`
-        {
-            "@context": "http://schema.org",
-            "@type": "Article",
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://jackiewyers.beauty/lanablog"
-            },
-            "headline": "Lana Del Rey SKIMS Makeup Tutorial - Jackie Wyers",
-            "description": "Explore Jackie Wyers' Lana Del Rey SKIMS Makeup Tutorial. Recreate Lana's look with step-by-step guidance, featuring top beauty products and style tips.",
-            "image": "https://jackiewyers.beauty/jw3logo.png"
-            "author": {
-                "@type": "Person",
-                "name": "Jackie Wyers"
-            },
-            "publisher": {
-                "@type": "Organization",
-                "name": "Jackie Wyers",
-                "logo": {
-                    "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jw3logo.png"
-                }
-            },
-            "datePublished": "2024-07-27",
-            "dateModified": "2024-09-21"
-        }
-        `}
-    </script>
+    {`
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://jackiewyers.beauty/lanablog"
+        },
+        "headline": "Lana Del Rey SKIMS Makeup Tutorial - Jackie Wyers",
+        "description": "Explore Jackie Wyers' Lana Del Rey SKIMS Makeup Tutorial. Recreate Lana's look with step-by-step guidance, featuring top beauty products and style tips.",
+        "image": "https://jackiewyers.beauty/jw3logo.png", 
+        "author": {
+            "@type": "Person",
+            "name": "Jackie Wyers"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Jackie Wyers",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://jackiewyers.beauty/jw3logo.png"
+            }
+        },
+        "datePublished": "2024-07-27",
+        "dateModified": "2024-09-21"
+    }
+    `}
+</script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
     <script>
         {`
