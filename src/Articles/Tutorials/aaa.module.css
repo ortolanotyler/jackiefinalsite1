@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -7,10 +7,9 @@
 
 body {
   background-color: white;
-  font-family: 'Lora', sans-serif;
-  font-weight: normal;
+  font-family: 'Playfair Display', serif;
   height: 100%;
-  font-size: 20px;
+
   margin: 0 auto;
   padding: 0;
 }
@@ -18,7 +17,7 @@ body {
 .cardList {
   background-color: white;
   align-content: center;
-  padding: 20px;
+  padding: 1.25rem;
   margin: 0 auto;
   margin-top: 0.5rem;
   display: grid;
@@ -46,7 +45,7 @@ body {
   background-color: white;
   max-width: 100%;
   overflow: hidden;
-  box-shadow: 0 0 3.5rem -1rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 3.5rem -1rem rgba(0, 0, 0, 0.15);
   transition: transform 0.1s ease-in-out, box-shadow 0.1s;
   margin-bottom: 5px; /* Add margin between cards */
   border-radius: 5px;
@@ -54,7 +53,7 @@ body {
 
 .card:hover {
   transform: translateY(-0.5rem) scale(1.0125);
-  box-shadow: 0 0.6em 3rem -1rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.6em 3rem -1rem rgba(0, 0, 0, 0.25);
 }
 
 .cardImage {
@@ -71,7 +70,7 @@ body {
 }
 
 .cardDescription {
-  margin: 1rem auto;
+  margin: 0 auto;
   display: flex; /* Use flexbox to center text */
   flex-direction: column; /* Stack text vertically */
   align-items: center; /* Center text horizontally */
@@ -82,8 +81,8 @@ body {
 
 .cardDescriptionH2 {
   color: black;
-  font-size: 1.75rem;
-  font-weight: bold;
+  font-size: 26px;
+  font-weight: normal;
   margin: 0 auto;
   padding: 0.5rem 1rem; /* Add padding for better spacing */
 }
@@ -105,13 +104,14 @@ body {
 }
 
 .readHereBtn {
-  margin-top: 5px;
+  margin-top: 0;
   margin-bottom: 1rem;
   border-radius: 2px;
-  padding: 0.5rem;
+  padding: 0.5rem 10px;
   display: inline-block;
   background-color: white;
   border: 1px solid black;
+  font-weight: bold;
   text-decoration: none;
   font-size: 16px;
   color: black; /* Initial text color */
