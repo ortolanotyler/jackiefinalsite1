@@ -10,6 +10,7 @@ import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
+import SocialShare from '../../../Home/SocialShare';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/IconicTitle.png`;
 const Sharon2 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/JackieAsSharon.jpg`;
@@ -186,6 +187,11 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
   publishDate="March 5, 2024"
 />
 
+<SocialShare 
+  url="https://jackiewyers.beauty/iconicsharon" 
+  title="Sharon Tate Iconic 60's Makeup Tutorial - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg" 
+/>
   
       <ResponsiveYoutube src="https://www.youtube.com/embed/t1jJtpsxes4?si=sHOkPYVUOvEbXk2m" title="Sharon Tate Iconic 60's Makeup Tutorial - Jackie Wyers on Youtube" />
 

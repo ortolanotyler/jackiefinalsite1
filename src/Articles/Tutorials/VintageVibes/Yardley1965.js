@@ -8,6 +8,7 @@ import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import SocialShare from '../../../Home/SocialShare';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/ShrimptonDouble.png`;
 const face = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShrimpton60sFaceChart.png`;
@@ -206,6 +207,12 @@ fontStyle: 'italic',
   subTitle="A Makeup Tutorial to look straight out of a 1960's magazine!"
   author="Jackie Wyers"
   publishDate="March 31st, 2024"
+/>
+
+<SocialShare 
+  url="https://jackiewyers.beauty/yardley1965" 
+  title="Jean Shrimpton - Yardley 1965 Makeup Tutorial - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg" 
 />
 
 

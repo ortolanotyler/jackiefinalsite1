@@ -9,6 +9,7 @@ import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
+import SocialShare from '../../../Home/SocialShare';
 
 const Sharon2 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SharonBridalDouble.png`;
 const SharonFace = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEFILLEDINFACECHART.jpg`;
@@ -195,6 +196,12 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
   subTitle="A vintage step-by-step guide"
   author="Jackie Wyers"
   publishDate="January 24th, 2024"
+/>
+
+<SocialShare 
+  url="https://jackiewyers.beauty/sharontatebridal" 
+  title="Sharon Tate's Coquette 1960's Bridal Makeup - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/SharonTateBridal/SharonTateBridalThumbnail.jpeg" 
 />
 
 

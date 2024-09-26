@@ -8,6 +8,7 @@ import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
+import SocialShare from '../../../Home/SocialShare';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/GraceKellyTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/JackieWyersGraceKellyInspired.jpg`;
@@ -187,6 +188,12 @@ const Card = ({ blogContent }) => (
   subTitle="A 1950's Guide to Elegance"
   author="Jackie Wyers"
   publishDate="July 25th, 2024"
+/>
+
+<SocialShare 
+  url="https://jackiewyers.beauty/gracekelly" 
+  title="Grace Kelly's Old Hollywood Glam - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/GraceKelly/GraceKellyJackieWyers.jpg" 
 />
 
 

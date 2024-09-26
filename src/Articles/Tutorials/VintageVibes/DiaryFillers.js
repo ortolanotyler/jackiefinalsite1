@@ -8,6 +8,7 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import HorizontalLine from '../../../Components/HorizontalLine';
+import SocialShare from '../../../Home/SocialShare';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/DiaryPost1/DiaryPostTitle.png`;
 const bridesmaid = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/BridesmaidBoxThumb!.jpg`;
@@ -190,9 +191,15 @@ const Card = ({ blogContent }) => (
   publishDate="May 3rd, 2024"
 />
 
+<SocialShare 
+  url="https://jackiewyers.beauty/diaryfillers" 
+  title="Diary Post: My Journey with Injectable Fillers - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/DiaryPost1/DIARYSQUARE.jpg" 
+/>
 
-<HorizontalLine/>
 <br/>
+
+
 
 
       <DropCap1 text="Welcome back to my blog for my first-ever diary entry, where I dive deep into my personal experience with getting injectable fillers at a young age. In today's social media-driven world, it's increasingly common to see teens and young women experimenting with cosmetic enhancements. Platforms like Instagram flood us with transformation reels and personal stories from influencers, making such procedures seem both normal and desirable. While this transparency can be enlightening, it also carries significant influence, shaping perceptions and expectations about beauty." />

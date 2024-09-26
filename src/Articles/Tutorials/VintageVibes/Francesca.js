@@ -9,6 +9,7 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import NextArticle from '../../../Components/NextArticleComponent';
+import SocialShare from '../../../Home/SocialShare';
 
 
 
@@ -193,6 +194,12 @@ const Card = ({ blogContent }) => (
   subTitle="A demure modern Regency look, perfect for auburn hair & fair skin"
   author="Jackie Wyers"
   publishDate="September 08, 2024"
+/>
+
+<SocialShare 
+  url="https://jackiewyers.beauty/francesca-bridgerton" 
+  title="Francesca Bridgerton Makeup, Hair, and Dress - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/Francesca/FrancescaThumb.jpg" 
 />
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/Bkt-bffs_aQ?si=4KfZAeGRqPEGLR8A" title="FRANCESCA BRIDGERTON inspired makeup tutorial jackie wyers" />

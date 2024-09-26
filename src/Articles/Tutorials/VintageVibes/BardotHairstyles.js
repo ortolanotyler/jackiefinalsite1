@@ -10,6 +10,7 @@ import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
+import SocialShare from '../../../Home/SocialShare';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/BardotHairstyles/1.jpg`;
@@ -227,6 +228,12 @@ const captionStyle = {
   subTitle="My Many Attempts At The Iconic 60s Style"
   author="Jackie Wyers"
   publishDate="July 25th, 2024"
+/>
+
+<SocialShare 
+  url="https://jackiewyers.beauty/bardothairstyles" 
+  title="Mastering the Bardot Bun - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg" 
 />
   
 <ResponsiveYoutube src="https://www.youtube.com/embed/i8wHU_XsM2A?si=ASPsSodw8bM_vliD" title="Brigitte Bardot ‘60s Makeup Tutorial👱🏼‍♀️🎀 (perf for hooded eyes!)" />

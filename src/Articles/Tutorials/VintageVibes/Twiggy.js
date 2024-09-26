@@ -10,6 +10,7 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import InstagramEmbed from '../../../Components/InstagramEmbed';
 import NextArticle from '../../../Components/NextArticleComponent';
+import SocialShare from '../../../Home/SocialShare';
 
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyFaceChart.png`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TWIGGYFINALHEADSHOT.jpg`;
@@ -200,6 +201,12 @@ const Card = ({ blogContent }) => (
   subTitle="A 1960's Guide to Glamour"
   author="Jackie Wyers"
   publishDate="April 13, 2024"
+/>
+
+<SocialShare 
+  url="https://jackiewyers.beauty/twiggy" 
+  title="ICONIC '60s Twiggy Makeup: MOD Blue Eyeshadow - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/Twiggy/TwiggyMODThumbnail.png" 
 />
 
 

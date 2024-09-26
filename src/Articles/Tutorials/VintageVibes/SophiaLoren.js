@@ -10,6 +10,7 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import InstagramEmbed from '../../../Components/InstagramEmbed';
 import NextArticle from '../../../Components/NextArticleComponent';
+import SocialShare from '../../../Home/SocialShare';
 
 
 const SophiaFace = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenBlankFaceChart-2.jpg`;
@@ -192,6 +193,12 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
   subTitle="An ode to Italian glamour"
   author="Jackie Wyers"
   publishDate="Feb 8th, 2024"
+/>
+
+<SocialShare 
+  url="https://jackiewyers.beauty/sophialoren" 
+  title="Sophia Loren Iconic 60s Makeup in 'Arabesque' - Jackie Wyers" 
+  imageUrl="https://jackiewyers.beauty/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg" 
 />
 
     
