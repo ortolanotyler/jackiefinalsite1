@@ -126,8 +126,7 @@ const captionStyle = {
     <Helmet>
     <title>Recreating SKIMS X Lana Del Rey Photoshoot</title>
     <meta name="description" content="Explore Jackie Wyers' Lana Del Rey SKIMS Makeup Tutorial. Recreate Lana's look with step-by-step guidance, featuring top beauty products and style tips." />
-    <meta name="keywords" content="Lana Del Rey, SKIMS, Makeup Tutorial, Jackie Wyers, Beauty Blog, Coquette, 60s Glamour, Romantic Look, Vintage Beauty" />
-    <meta property="og:title" content="Lana Del Rey SKIMS Makeup Tutorial - Jackie Wyers" />
+    <meta name="keywords" content="Lana Del Rey, SKIMS, Makeup Tutorial, Jackie Wyers, Beauty Blog, Coquette Style, 60s Glamour, Romantic Makeup, Vintage Beauty, Soft Glam Makeup, 1960s Inspired Makeup, Celebrity Makeup Tutorial, Valentine's Day Look, Lana Del Rey Aesthetic, Retro Makeup, Dewy Skin, Peach Blush, Ombre Lips, Glamorous Eye Makeup, Nude Lipstick, Beauty Influencer, SKIMS Dress, Nadia Lee Cohen Photography, Etienne Ortega Makeup, Cut Crease Eyeshadow, Peachy Makeup, Lana Del Rey Inspired Look, Cherub Makeup, Cupid Aesthetic, Soft Glam Tutorial, Dewy Skin Tutorial, Retro Glamour, Modern Coquette Makeup, Skims Collection, Lana Del Rey Fashion, Blushing Ombre Lips, Romantic Beauty, Vintage Glam, Classic Glam Makeup, Fashion Influencer, SKIMS x Lana Del Rey, Cherry Blossom Dress, Nude Makeup, Classic 60s Makeup, Beauty Tips, Jackie Wyers Tutorial" />    <meta property="og:title" content="Lana Del Rey SKIMS Makeup Tutorial - Jackie Wyers" />
     <meta property="og:description" content="Explore Jackie Wyers' Lana Del Rey SKIMS Makeup Tutorial. Recreate Lana's look with step-by-step guidance, featuring top beauty products and style tips." />
     <meta property="og:image" content={title} />
     <link rel="canonical" href="https://jackiewyers.beauty/lanablog" />

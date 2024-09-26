@@ -82,6 +82,7 @@ const paragraphStyle = {
     lineHeight: '1.6',
   
   };
+  
 const linkStyle = {
   textDecoration: 'none', // Removes underline from links
   fontFamily: 'Playfair Display, serif',
