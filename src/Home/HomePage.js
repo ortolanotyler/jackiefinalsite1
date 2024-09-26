@@ -344,7 +344,7 @@ isFlipped={true}
 </Suspense>
 </Grid>
 
-<HorizontalLine />
+
 
 
 
@@ -425,8 +425,7 @@ isFlipped={true}
         </Grid>
      
 
-        <HorizontalLine />
-
+        <AdSenseAd/>
   
 
         <Grid item xs={12} md={6}>
