@@ -41,10 +41,10 @@ const ResponsiveIframe = ({ src, title }) => {
       <iframe
         title={title}
         src={src}
-        scrolling="no"
+        scrolling="no" // Disable scrolling in the iframe
         style={iframeStyle}
         tabIndex="-1" // Prevent iframe focus issues
-        seamless // Allows the iframe to be more integrated visually
+        seamless="seamless" // Allows the iframe to be more integrated visually
       ></iframe>
     </div>
   );
