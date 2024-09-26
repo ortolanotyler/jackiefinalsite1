@@ -210,6 +210,8 @@ function HomePage() {
                 linkUrl="/barbie-roundup"
                 isFlipped={true}
               />
+
+
             </Suspense>
           </Grid>
         </Grid>
@@ -218,6 +220,7 @@ function HomePage() {
 
 
 <HorizontalLine />
+
 
             <Grid item xs={12}>
   <Suspense fallback={<div className="spinner"></div>}>
@@ -246,6 +249,23 @@ function HomePage() {
   linkUrl="/barbie-doll"
   isFlipped={true}
 />
+
+</Suspense>
+</Grid>
+
+<Grid item xs={12}>
+<Suspense fallback={<div className="spinner"></div>}>
+              <HeroSection
+                featureText="POP CULTURE"
+                headlineText="Rory Gilmore's No-Makeup Makeup
+& Cozy Fall Style Guide 🧣"
+                subtext="he Perfect Girl-Next-Door Makeup Routine!"
+                author="SEPTEMBER 23"
+                imagePath="/Rory1/rorythumbnail.jpg"
+                linkUrl="/articles/rory-gilmore"
+                isFlipped={false}
+              />
+
 
 </Suspense>
 </Grid>
