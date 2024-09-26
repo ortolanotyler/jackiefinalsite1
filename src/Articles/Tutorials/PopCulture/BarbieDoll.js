@@ -261,8 +261,15 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 
 <p style={paragraphStyle}>
-<DropCap1 text="Hello and welcome back to another Barbie-inspired makeup article! Barbie isn’t just a doll—she’s a global icon of style, glamour, and endless creativity. From her glamorous debut in 1959 to her latest movie-inspired renditions, Barbie continues to inspire fans with her evolving fashion and beauty trends. In a previous post, I covered the best Barbie product collaborations of 2024, but today, we’re diving into the most iconic Barbie makeup looks ever—at least, in my opinion! Each style is inspired by different eras and dolls that have shaped Barbie’s legendary legacy, giving you the perfect opportunity to transform into your favorite version of this fashion queen." />
+<DropCap1 text="Hello and welcome back to another Barbie-inspired makeup article! Barbie isn’t just a doll—she’s a global icon of style, glamour, and endless creativity. From her glamorous debut in 1959 to her latest movie-inspired renditions, Barbie continues to inspire fans with her evolving fashion and beauty trends. "/>
 </p>
+<p style = {paragraphStyle}>
+
+In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous post </a>, I covered the best Barbie product collaborations of 2024, but today, we’re diving into the most iconic Barbie makeup looks ever—at least, in my opinion! Each style is inspired by different eras and dolls that have shaped Barbie’s legendary legacy, giving you the perfect opportunity to transform into your favorite version of this fashion queen. 
+
+
+</p>
+
 
 <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
