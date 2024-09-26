@@ -34,7 +34,7 @@ const ShopMyHero2 = () => {
 
   return (
     <div style={{ backgroundColor: 'white' }}>
-      <TextBanner2 text="SHOP MY STYLE" />
+      <TextBanner2 text="STYLE" />
    
       <HomeShopMy />
     
