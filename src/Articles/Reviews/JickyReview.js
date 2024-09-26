@@ -6,6 +6,7 @@ import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import ArticleTitle from '../../Components/ArticleTitle';
+import SocialShare from '../../Home/SocialShare';
 
 
 ReactGA.initialize('UA-8215441435-Y'); // Replace with your actual Google Analytics tracking ID
@@ -35,7 +36,6 @@ const Card = ({ blogContent }) => (
   </div>
 );
 
-<SocialShare url={articleUrl} title={articleTitle} imageUrl={articleImageUrl} />
 
 
 
@@ -267,6 +267,8 @@ fontStyle: 'italic',
   publishDate="February 5th, 2024"
 
 />
+<SocialShare url={articleUrl} title={articleTitle} imageUrl={articleImageUrl} />
+
             <div style={gridContainerStyle}>
             <img src={jicky2} alt="Jicky by Guerlain Paris Fragrance" style={imageStyle} />
             </div>
