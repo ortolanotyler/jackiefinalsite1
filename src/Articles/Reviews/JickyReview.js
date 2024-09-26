@@ -14,6 +14,13 @@ const jicky2 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky2.jpg
 const jicky3 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky3.png`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
+const articleUrl = 'https://jackiewyers.beauty/articles/jickyreview';
+const articleTitle = "Penhaligon's Halfeti Review | For the bold and exotic";
+const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/HalfetiReview/HalfetiThumbnail.png' ;
+
+
+
+
 const Card = ({ blogContent }) => (
   <div
     style={{
@@ -27,6 +34,9 @@ const Card = ({ blogContent }) => (
     </div>
   </div>
 );
+
+<SocialShare url={articleUrl} title={articleTitle} imageUrl={articleImageUrl} />
+
 
 
 const JickyReview = () => {
