@@ -261,7 +261,18 @@ Wishlist"
 <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
 </div>
+<h2 style={headingStyle}>
 
+💖Patrick Tan X Barbie Blush Duo And Lip Plumper Set 💖
+
+</h2>
+
+<p style={paragraphStyle}>
+
+Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined forces with Barbie for a collaboration that’s all about serving fierce confidence with every swipe! Introducing the latest Barbie must-have: a blush duo and lip plumper in signature hot pink Barbie shades, perfect for adding that playful yet glamorous touch to your makeup routine. New paragraph: As a dedicated fan of Barbie makeup collabs, I can’t help but be thrilled by this luxurious launch. From the stunning packaging to the top-tier formulas, everything about this collection screams Barbie! Whether you’re looking to elevate your everyday glam or score some collector-worthy vanity staples, this line has it all. The vibrant colours, high quality, and that iconic Barbie vibe make it a total standout. You can shop the collection coming soon at Sephora—get ready to blush, pout, and make the world your own Barbieland! 
+</p>
+
+<ResponsiveIframe title="Patrick Tan Barbie" src="https://shopmy.us/collections/public/840799?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}/>
 
 
 <h2 style={headingStyle}>
@@ -292,18 +303,7 @@ Wishlist"
   <AdSenseAd/>
 </div>
 
-<h2 style={headingStyle}>
 
-💖Patrick Ta Patrick Ta X Barbie Blush Duo And Lip Plumper Set 💖
-
-</h2>
-
-<p style={paragraphStyle}>
-
-Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined forces with Barbie for a collaboration that’s all about serving fierce confidence with every swipe! Introducing the latest Barbie must-have: a blush duo and lip plumper in signature hot pink Barbie shades, perfect for adding that playful yet glamorous touch to your makeup routine. New paragraph: As a dedicated fan of Barbie makeup collabs, I can’t help but be thrilled by this luxurious launch. From the stunning packaging to the top-tier formulas, everything about this collection screams Barbie! Whether you’re looking to elevate your everyday glam or score some collector-worthy vanity staples, this line has it all. The vibrant colours, high quality, and that iconic Barbie vibe make it a total standout. You can shop the collection coming soon at Sephora—get ready to blush, pout, and make the world your own Barbieland! 
-</p>
-
-<ResponsiveIframe title="Patrick Tan Barbie" src="https://shopmy.us/collections/public/840799?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}/>
 
 <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
