@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
 import Layout from './Layout';
 import { initGA, logPageView } from './analytics';
 import { SpeedInsights } from "@vercel/speed-insights/react";
@@ -126,15 +125,14 @@ import NotFound from './Components/NotFound';
 import Quiz3Homepage from './Quiz/Quiz3Homepage';
 import Quiz2Homepage from './Quiz/Quiz2HomePage';
 import Rory from './Articles/Tutorials/PopCulture/Rory';
+
+// Hook to handle page tracking
+// Hook to handle page tracking
 function usePageTracking() {
   const location = useLocation();
 
   useEffect(() => {
-    if (window.gtag) {
-      window.gtag('config', 'G-RT6GR7JXYG', {
-        page_path: location.pathname + location.search,
-      });
-    }
+    logPageView(location.pathname + location.search);
   }, [location]);
 }
 
@@ -142,19 +140,23 @@ function App() {
   usePageTracking();
 
   useEffect(() => {
-    initGA();
-    logPageView('/');
+    initGA(); // Initialize Google Analytics when the app loads
+
+    // Add the analytics script dynamically
+    const script = document.createElement('script');
+    script.src = `${process.env.PUBLIC_URL}/analytics.js`; // Ensure path is correct
+    script.async = true;
+
+    document.body.appendChild(script); // Append the script to the body
+
+    return () => {
+      document.body.removeChild(script); // Clean up when component unmounts
+    };
   }, []);
 
   return (
     <EmailProvider>
       <div className="app-container">
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>Jackie Wyers - Beauty Tutorials and Reviews</title>
-          <meta name="description" content="Explore beauty tutorials, product reviews, and the latest trends with Jackie Wyers." />
-          
-        </Helmet>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />} />

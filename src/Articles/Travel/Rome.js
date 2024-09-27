@@ -1,8 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
-import SubscribeButton from '../../Components/SubscribeButton';
-import { initGA, logPageView } from '../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from './DropCap1';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
@@ -93,10 +91,7 @@ const Card = ({ blogContent }) => (
 
 const Rome = () => {
 
-  useEffect(() => {
-    initGA();
-    logPageView('/rome');
-  }, []);
+
 
 
   const websiteId = '10910';
@@ -197,10 +192,6 @@ const captionStyle = {
   <meta name="twitter:title" content="Our Romantic 3-Day Rome Itinerary" />
   <meta name="twitter:description" content="Explore 72 hours in Rome with Jackie Wyers. Discover the best spots, travel tips, and hidden gems as we share our whirlwind adventure in the Eternal City." />
   <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Rome/romethumbnail.jpg" />
-
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
 
 
   {/* JSON-LD Structured Data */}

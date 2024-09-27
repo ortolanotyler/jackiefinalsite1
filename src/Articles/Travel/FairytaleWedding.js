@@ -3,7 +3,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import WeddingCarousel from '../../Components/WeddingCarousel';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import SubscribeButton from '../../Components/SubscribeButton';
-import { initGA, logPageView } from '../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
@@ -87,10 +86,7 @@ const Card = ({ blogContent }) => (
   
   const FairytaleWedding = () => {
   
-    useEffect(() => {
-      initGA();
-      logPageView('/fairytalewedding');
-    }, []);
+  
     const websiteId = '10910';
   const blogRef = useRef(null);
 
@@ -194,9 +190,7 @@ const captionStyle = {
   <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`https://jackiewyers.beauty/analytics.js`} async></script>
+
 
 
   {/* JSON-LD Structured Data */}

@@ -4,7 +4,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
@@ -37,10 +36,7 @@ const Card = ({ blogContent }) => (
 
 const Yardley65 = () => {
 
-useEffect(() => {
-  initGA();
-  logPageView('/yardley1965');
-}, []);
+
 
 
 const websiteId = '10910';
@@ -176,18 +172,7 @@ fontStyle: 'italic',
     `}
   </script>
 
-  {/* Google Analytics */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG', {
-        page_path: window.location.pathname,
-      });
-    `}
-  </script>
+
 
   {/* Google Ads */}
 </Helmet>

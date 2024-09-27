@@ -68,17 +68,7 @@ const Footer = () => {
                 </div>
 
                 {/* Insert the analytics script at the bottom of the footer */}
-                <script
-                    async
-                    src={`${process.env.PUBLIC_URL}/analytics.js`}
-                    dangerouslySetInnerHTML={{
-                        __html: `
-                        (function() {
-                            // Optional: Add any additional configuration here
-                        })();
-                    `
-                    }}
-                ></script>
+              
             </footer>
         </div>
     );

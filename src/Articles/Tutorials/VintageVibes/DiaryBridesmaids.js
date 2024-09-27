@@ -1,11 +1,10 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
-import NextArticle from '../../../Components/NextArticleComponent';
+import NextArticle from '../../../Components/NextArticleComponent'; 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/1.jpg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/2.JPG`;
@@ -33,10 +32,7 @@ const Card = ({ blogContent }) => (
 
 const DiaryBridesmaids = () => {
 
-useEffect(() => {
-  initGA();
-  logPageView('/bridesmaidboxes');
-}, []);
+
 
 const websiteId = '10910';
 const blogRef = useRef(null);
@@ -155,16 +151,7 @@ fontStyle: 'italic',
   />
   <meta name="twitter:card" content="summary_large_image" />
 
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG', { page_path: window.location.pathname });
-    `}
-  </script>
+
 
 
 

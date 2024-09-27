@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 
-import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
@@ -36,11 +35,7 @@ const Card = ({ blogContent }) => (
 
 const Percy = () => {
 
-  useEffect(() => {
-    initGA();
-    logPageView('/percy');
-  }, []);
-
+  
 
   const websiteId = '10910';
   const blogRef = useRef(null);
@@ -133,15 +128,7 @@ const captionStyle = {
   <meta name="twitter:title" content="Jackie Wyers Wedding - Percy Wedding Dress" />
   <meta name="twitter:description" content="Is the Percy dress for you? Take the quiz to find out!" />
   <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/percytitle.png`} />
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG');
-    `}
-  </script>
+ 
 </Helmet>
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>

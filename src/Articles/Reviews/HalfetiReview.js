@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import { initGA, logPageView } from '../../analytics';
 import ArticleTitle from '../../Components/ArticleTitle';
 import NextArticle from '../../Components/NextArticleComponent';
 import SocialShare from '../../Home/SocialShare';
@@ -30,10 +29,7 @@ const Card = ({ blogContent }) => (
 
 
 const HalfetiReview = () => {
-  useEffect(() => {
-    initGA();
-    logPageView('/halfetireview');
-  }, []);
+
 
   const websiteId = '10910';
   const blogRef = useRef(null);
@@ -171,18 +167,6 @@ const HalfetiReview = () => {
     content="https://jackiewyers.beauty/Images/Articles/HalfetiReview/HalfetiThumbnail.png"
   />
 
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG', {
-        page_path: window.location.pathname,
-      });
-    `}
-  </script>
 
 
 

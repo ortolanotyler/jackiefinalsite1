@@ -3,7 +3,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 
 
 import SubscribeButton from '../../Components/SubscribeButton';
-import { initGA, logPageView } from '../../analytics';
 import { Helmet } from 'react-helmet';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import DropCap1 from './DropCap1';
@@ -48,10 +47,7 @@ const Card = ({ blogContent }) => (
   
   const DIYFlowers = () => {
   
-    useEffect(() => {
-      initGA();
-      logPageView('/diy-flowers');
-    }, []);
+
   
   
     const websiteId = '10910';
@@ -165,9 +161,7 @@ const captionStyle = {
   <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/MammaMia/mammamiathumb.png" />
   <meta name="twitter:card" content="summary_large_image" />
 
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+
 
 
   {/* JSON-LD Structured Data */}

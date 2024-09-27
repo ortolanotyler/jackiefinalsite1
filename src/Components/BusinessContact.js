@@ -13,15 +13,7 @@ const BusinessContact = () => {
       <Helmet>
         <title>Business Contact | Jackie Wyers</title>
         <meta name="description" content="Reach out for business inquiries and collaborations with Jackie Wyers. Fill out the contact form for more information." />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
+      
       </Helmet>
       <Grid container spacing={0} className={styles['about-collaborations-section']}>
         <Grid item xs={12}>

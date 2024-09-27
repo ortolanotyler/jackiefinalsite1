@@ -45,15 +45,7 @@ const TravelArticlesHome = () => {
           name="twitter:image"
           content={`${process.env.PUBLIC_URL}/Images/Travel/twitter-image.jpg`}
         />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
+  
        
       </Helmet>
 

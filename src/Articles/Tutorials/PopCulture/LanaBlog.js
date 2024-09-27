@@ -3,7 +3,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
@@ -35,10 +34,7 @@ const Card = ({ blogContent }) => (
 
 const LanaBlog = () => {
 
-  useEffect(() => {
-    initGA();
-    logPageView('/lanablog');
-  }, []);
+
 
 
   const websiteId = '10910';
@@ -164,15 +160,7 @@ const captionStyle = {
     }
     `}
 </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-    <script>
-        {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-        `}
-    </script>
+ 
 </Helmet>
 
    

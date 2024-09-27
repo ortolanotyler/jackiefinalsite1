@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
-import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from'react-helmet';
 
 import ResponsiveIframeNoScroll from '../../../Components/ResponsiveIframeNoScroll';
@@ -48,10 +47,6 @@ const Card = ({ blogContent }) => (
 
 const CameraSettings = () => {
 
-  useEffect(() => {
-    initGA();
-    logPageView('/camera-settings');
-  }, []);
 
 
   const websiteId = '10910';
@@ -154,9 +149,6 @@ const captionStyle = {
   <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/CameraSettings/coverphoot.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
 
 
   {/* JSON-LD Structured Data */}

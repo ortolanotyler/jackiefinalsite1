@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
-import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 import SocialShare from '../../Home/SocialShare';
@@ -54,10 +53,6 @@ const Card = ({ blogContent }) => (
 
 const HotelQ = () => {
 
-  useEffect(() => {
-    initGA();
-    logPageView('/hotelq');
-  }, []);
 
 
   const websiteId = '10910';
@@ -155,11 +150,6 @@ const captionStyle = {
   <meta name="twitter:description" content="A" />
   <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/HotelQ/HOTELQTHUMBNAIL.jpeg" />
   <meta name="twitter:card" content="summary_large_image" />
-
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
-
 
   {/* JSON-LD Structured Data */}
   <script type="application/ld+json">

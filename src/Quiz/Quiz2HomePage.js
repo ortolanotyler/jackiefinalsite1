@@ -22,15 +22,7 @@ const Quiz2Homepage = () => {
         <meta name="twitter:title" content="Jackie Wyers' Quiz Homepage" />
         <meta name="twitter:description" content="Discover your perfect wedding dress style and find your animal face type with Jackie Wyers' interactive quizzes!" />
         <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/QuizHomepage/twitter-image.jpg`} />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
+    
       </Helmet>
       <Grid container justifyContent="center"
             style = {{paddingTop: '20px', paddingBottom: '10px'}}

@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
@@ -36,10 +35,7 @@ const Card = ({ blogContent }) => (
 
   const NoMakeUpSpring = () => {
   
-    useEffect(() => {
-      initGA();
-      logPageView('/nomakeupspring');
-    }, []);
+
   
   
     const websiteId = '10910';
@@ -143,8 +139,6 @@ const Card = ({ blogContent }) => (
   <meta name="twitter:card" content="summary_large_image" />
 
   {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
 
 
   {/* JSON-LD Structured Data */}

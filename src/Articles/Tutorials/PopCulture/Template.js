@@ -1,10 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import { initGA, logPageView } from '../../../analytics';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import SubscribeButton from '../../../Components/SubscribeButton';
-import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import Carousel from '../../../Components/Carousel';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
@@ -40,10 +37,7 @@ const Card = ({ blogContent }) => (
 
 const BardotHairstyles = () => {
 
-  useEffect(() => {
-    initGA();
-    logPageView('/bardothairstyles');
-  }, []);
+
 
 
   const websiteId = '10910';
@@ -139,9 +133,6 @@ const captionStyle = {
   <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
 
 
   {/* JSON-LD Structured Data */}

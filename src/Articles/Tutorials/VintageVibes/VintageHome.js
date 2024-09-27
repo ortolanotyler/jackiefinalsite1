@@ -1,9 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import styles from '../aaa.module.css'; // Import CSS Modules
 import TextReveal from '../../../Components/TextReveal';
-import { Paper } from '@mui/material';
-import RotatingText from '../../../Navigation/AppBar/RotatingText';
-import { initGA, logPageView } from '../../../analytics';
+
 
 // Importing the images
 const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
@@ -77,10 +75,7 @@ const cardsData = [
 
 const Card = ({ link, image, alt, title, description }) => {
 
-  useEffect(() => {
-    initGA();              
-    logPageView('/vintagevibzibibz');  
-  }, []);
+
 
   return (
     <li className={styles.card}>

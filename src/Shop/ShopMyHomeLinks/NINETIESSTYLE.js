@@ -32,15 +32,7 @@ const NinetiesStyle = () => {
       <Helmet>
         <title>90's Vibes | Jackie Wyers</title>
         <meta name="description" content="Explore the best of 90's fashion with Jackie Wyers. Shop all the iconic styles and trends from the decade." />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
+     
       </Helmet>
       <TextReveal text="90's VIBES" />
       <Box sx={{ textAlign: 'right', mt: 5, mr: 20 }}>

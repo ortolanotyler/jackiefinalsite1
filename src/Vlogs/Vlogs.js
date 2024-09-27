@@ -20,15 +20,7 @@ const Vlogs = () => {
         <meta name="twitter:title" content="The Vlog - Jackie Wyers" />
         <meta name="twitter:description" content="Explore the latest vlogs by Jackie Wyers. Find inspiration, tips, and behind-the-scenes content." />
         <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Vlogs/twitter-image.jpg`} />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script>
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-RT6GR7JXYG');
-          `}
-        </script>
+      
       </Helmet>
       <div><TextReveal text="THE VLOG" /></div>
       <div className="video-overlay-container">

@@ -4,7 +4,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import InstagramEmbed from '../../../Components/InstagramEmbed';
@@ -35,11 +34,7 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
   
   const SophiaLorenPost = () => {
   
-    useEffect(() => {
-      initGA();
-      logPageView('/sophialoren');
-    }, []);
-  
+ 
   
     const websiteId = '10910';
     const blogRef = useRef(null);
@@ -160,17 +155,6 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-19"
       }
-    `}
-  </script>
-
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG');
     `}
   </script>
 

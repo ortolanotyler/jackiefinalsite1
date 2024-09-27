@@ -1,9 +1,6 @@
-import React, {  useEffect } from 'react';
+import React from 'react';
 import styles from './aaa.module.css'; // Import CSS Modules
 import TextReveal from '../../../Components/TextReveal';
-
-import { initGA , logPageView } from '../../../analytics';
-
 
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
 const image7 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
@@ -15,27 +12,24 @@ const emily = `${process.env.PUBLIC_URL}/Images/Articles/EmilyInParis/emilyinpar
 const fran = `${process.env.PUBLIC_URL}/Images/Articles/Francesca/FrancescaThumb.jpg`;
 
 const cardsData = [
-
   {
     link: "/emily-in-paris",
     image: emily,
     alt: "Emily In Paris Style Evolution",
     title: "Emily in Paris Style Evolution : Iconic Outfits, Makeup, and Hair",
   },
- 
- {
-  link: "/perioddrama",
-  image: perioddrama,
-  alt: "Summer Beauty",
-  title: "No-Makeup Period Dramas and Wearable Historical Hairstyles",
-},
+  {
+    link: "/perioddrama",
+    image: perioddrama,
+    alt: "Summer Beauty",
+    title: "No-Makeup Period Dramas and Wearable Historical Hairstyles",
+  },
   {
     link: "/SummerInspo",
     image: summerinspo,
     alt: "Summer Inspo",
     title: "Summer Inspiration 🧜",
   },
-
   {
     link: "/nomakeupspring",
     image: nomakeup,
@@ -60,7 +54,6 @@ const cardsData = [
     alt: "Lana",
     title: "SKIMS X Lana Makeup 🎀",
   },
-
   {
     link: "/victoriasecret",
     image: image6,
@@ -70,10 +63,6 @@ const cardsData = [
 ];
 
 const Card = ({ link, image, alt, title, description }) => {
-  useEffect (() => {
-    initGA();
-    logPageView('/popculture');
-  }, []);
   return (
     <li className={styles.card}>
       <a className={styles.cardImage} href={link}>
@@ -93,10 +82,8 @@ const Card = ({ link, image, alt, title, description }) => {
 const PopCulture = () => {
   return (
     <>
-    <div><TextReveal text='POP CULTURE OBSESSED' /></div>
+      <div><TextReveal text='POP CULTURE OBSESSED' /></div>
       <div>
-
-        
         <ul className={styles.cardList}>
           {cardsData.map((card, index) => (
             <Card

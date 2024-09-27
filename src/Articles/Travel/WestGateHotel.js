@@ -4,7 +4,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeVlog from '../../Components/SubscribeVlog';
-import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 import SocialShare from '../../Home/SocialShare';
@@ -41,10 +40,7 @@ const Card = ({ blogContent }) => (
 
   const WestGateHotelBlog = () => {
   
-    useEffect(() => {
-      initGA();
-      logPageView('/westgatesandiego');
-    }, []);
+  
   
   
     const websiteId = '10910';
@@ -145,9 +141,7 @@ const Card = ({ blogContent }) => (
   <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/WestgateHotelReview/WESTGATETHUMBNAIL.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+
 
   {/* Google Ads Script */}
 

@@ -3,7 +3,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import { initGA, logPageView } from '../../../analytics';
 import Helmet from'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
@@ -41,11 +40,7 @@ const Card = ({ blogContent }) => (
 
   const LatteMakeupBlogPost = () => {
   
-    useEffect(() => {
-      initGA();
-      logPageView('/lattemakeup');
-    }, []);
-  
+   
   
     const websiteId = '10910';
     const blogRef = useRef(null);
@@ -145,11 +140,7 @@ const Card = ({ blogContent }) => (
   <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/LatteMakeup/LatteThumbnail.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
 
-  {/* Google Ads Script */}
 
   {/* JSON-LD Structured Data */}
   <script type="application/ld+json">

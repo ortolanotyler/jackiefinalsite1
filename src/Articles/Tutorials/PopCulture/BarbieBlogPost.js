@@ -3,7 +3,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
 import NextArticle from '../../../Components/NextArticleComponent';
@@ -35,12 +34,6 @@ const Card = ({ blogContent }) => (
 );
 
 const BarbieBlog = () => {
-
-  useEffect(() => {
-    initGA();
-    logPageView('/margotbarbie');
-  }, []);
-
 
 
   const websiteId = '10910';
@@ -171,16 +164,7 @@ const captionStyle = {
   />
   <meta name="twitter:card" content="summary_large_image" />
 
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG', { page_path: window.location.pathname });
-    `}
-  </script>
+
 
 
   {/* JSON-LD Structured Data */}

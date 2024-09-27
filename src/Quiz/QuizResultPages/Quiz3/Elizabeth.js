@@ -1,10 +1,8 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 
-import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import SubscribeButton from '../../../Components/SubscribeButton';
-import TextReveal from '../../../Components/TextReveal';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 import ArticleTitle from '../../../Components/ArticleTitle';
@@ -39,10 +37,6 @@ const Card = ({ blogContent }) => (
 
 const Elizabeth = () => {
 
-  useEffect(() => {
-    initGA();
-    logPageView('/elizabeth');
-  }, []);
 
 
   const websiteId = '10910';
@@ -137,15 +131,6 @@ const captionStyle = {
   <meta name="twitter:title" content="Jackie Wyers Wedding - Elizabeth Wedding Dress" />
   <meta name="twitter:description" content="Is the Elizabeth dress for you? Take the quiz to find out!" />
   <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/elizabethtitle.png`} />
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG');
-    `}
-  </script>
 
 </Helmet>
 

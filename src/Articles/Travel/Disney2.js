@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
-import { initGA, logPageView } from '../../analytics';
 import ArticleTitle from '../../Components/ArticleTitle';
 import DropCap1 from './DropCap1';
 import SocialShare from '../../Home/SocialShare';
@@ -52,10 +51,6 @@ const Card = ({ blogContent }) => (
 
 const Disney2Post = () => {
 
-useEffect(() => {
-  initGA();
-  logPageView('/epcot');
-}, []);
 
 
 const websiteId = '10910';
@@ -179,16 +174,6 @@ fontStyle: 'italic',
     content="https://jackiewyers.beauty/Images/Articles/Disney/Epcot/EPCOTTHUMBNAIL.jpeg" 
   />
 
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG', { page_path: window.location.pathname });
-    `}
-  </script>
 
 
   {/* JSON-LD Structured Data */}

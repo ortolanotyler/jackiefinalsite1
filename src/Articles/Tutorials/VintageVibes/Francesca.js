@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import { initGA, logPageView } from '../../../analytics';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import { Helmet } from 'react-helmet';
@@ -38,11 +37,7 @@ const Card = ({ blogContent }) => (
   
   const Francesca = () => {
   
-    useEffect(() => {
-      initGA();
-      logPageView('/francesca-bridgerton');
-    }, []);
-  
+
   
     const websiteId = '10910';
     const blogRef = useRef(null);
@@ -139,11 +134,6 @@ const Card = ({ blogContent }) => (
   <meta name="twitter:description" content="A detailed tutorial by Jackie Wyers on recreating Francesca Bridgerton's signature beauty look from Bridgerton Season 3." />
   <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Francesca/FrancescaThumb.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
-
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
-
 
   {/* JSON-LD Structured Data */}
   <script type="application/ld+json">

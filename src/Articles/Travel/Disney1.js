@@ -4,7 +4,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
-import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 
@@ -39,10 +38,7 @@ const Card = ({ blogContent }) => (
 
 const Disney2Post = () => {
 
-useEffect(() => {
-  initGA();
-  logPageView('/disneybeachclubresort');
-}, []);
+
 
 
 const websiteId = '10910';
@@ -148,20 +144,7 @@ fontStyle: 'italic',
   
   <link rel="canonical" href="https://jackiewyers.beauty/disneybeachclubresort" />
 
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-RT6GR7JXYG', {
-      page_path: window.location.pathname,
-    });
-    `}
-  </script>
 
-  {/* Google Ads Script */}
 
   {/* JSON-LD Structured Data */}
   <script type="application/ld+json">

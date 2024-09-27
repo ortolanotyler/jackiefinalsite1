@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../Components/SubscribeButton';
-import { initGA, logPageView } from '../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
@@ -55,11 +54,7 @@ const Card = ({ blogContent }) => (
 
 const Sorrento1 = () => {
 
-  useEffect(() => {
-    initGA();
-    logPageView('/sorrento');
-  }, []);
-
+ 
 
   const websiteId = '10910';
   const blogRef = useRef(null);
@@ -188,15 +183,7 @@ const captionStyle = {
     `}
   </script>
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-RT6GR7JXYG');
-    `}
-  </script>
+  
 </Helmet>
 
 

@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeVlog from '../../Components/SubscribeVlog';
-import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 import SocialShare from '../../Home/SocialShare';
@@ -61,10 +60,7 @@ const Fable = () => {
     const websiteId = '10910';
     const blogRef = useRef(null);
 
-    useEffect(() => {
-        initGA();
-        logPageView('/fable');
-    }, []);
+
 
    
 
@@ -212,15 +208,7 @@ const captionStyle = {
         }
         `}
     </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-    <script>
-        {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-RT6GR7JXYG');
-        `}
-    </script>
+
     
 </Helmet>
 

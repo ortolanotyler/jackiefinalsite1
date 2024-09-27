@@ -4,7 +4,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
@@ -31,10 +30,7 @@ const Card = ({ blogContent }) => (
 );
 
 const AnimalPretty = () => {
-  useEffect(() => {
-    initGA();
-    logPageView('/animalpretty');
-  }, []);
+
 
   const websiteId = '10910';
   const blogRef = useRef(null);
@@ -129,11 +125,7 @@ const AnimalPretty = () => {
         />
         <meta name="twitter:card" content="summary_large_image" />
 
-        {/* Google Analytics Script */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
-
-     
+  
 
         {/* JSON-LD Structured Data */}
         <script type="application/ld+json">

@@ -1,7 +1,6 @@
 
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import { initGA, logPageView } from '../../../analytics';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import { Helmet } from 'react-helmet';
@@ -43,10 +42,8 @@ const Card = ({ blogContent }) => (
 
 
 const Rory = () => {
-  useEffect(() => {
-    initGA();
-    logPageView('/rory-gilmore');
-  }, []);
+ 
+
 
   const websiteId = '10910';
   const blogRef = useRef(null);
@@ -165,16 +162,7 @@ const captionStyle = {
   />
   <meta name="twitter:card" content="summary_large_image" />
 
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG', { page_path: window.location.pathname });
-    `}
-  </script>
+
 
 
   {/* JSON-LD Structured Data */}

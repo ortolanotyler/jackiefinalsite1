@@ -20,15 +20,7 @@ const MediaKit = () => {
       <Helmet>
                 <title>Press & Media - Jackie Wyers</title>
                 <meta name="description" content="Check out the latest articles and features showcasing Jackie's best work" />
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-                <script>
-                    {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-RT6GR7JXYG');
-                    `}
-                </script>
+           
             </Helmet>
       <TextReveal text="MEDIA KIT & PRESS" />
    

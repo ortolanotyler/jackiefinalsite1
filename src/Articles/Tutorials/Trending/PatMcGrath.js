@@ -5,7 +5,6 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
 
 
-import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
@@ -33,11 +32,7 @@ const Card = ({ blogContent }) => (
   
   const PatMcGrathPost = () => {
   
-    useEffect(() => {
-      initGA();
-      logPageView('/patmcgrath');
-    }, []);
-  
+ 
   
     const websiteId = '10910';
     const blogRef = useRef(null);
@@ -138,9 +133,6 @@ const Card = ({ blogContent }) => (
   <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/PatMcGrath/JackieWyersPatMcgrath.jpeg" />
   <meta name="twitter:card" content="summary_large_image" />
 
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
 
 
   {/* JSON-LD Structured Data */}

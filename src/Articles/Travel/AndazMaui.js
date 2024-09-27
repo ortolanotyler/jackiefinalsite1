@@ -4,7 +4,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeVlog from '../../Components/SubscribeVlog';
-import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 
@@ -58,11 +57,6 @@ const Card = ({ blogContent }) => (
 
 
 const AndazMauiReview = () => {
-
-useEffect(() => {
-  initGA();
-  logPageView('/andazmaui');
-}, []);
 
 
 const websiteId = '10910';
@@ -166,18 +160,7 @@ fontStyle: 'italic',
   <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/AndazMaui/MAUITHUMBNAIL.jpg" />
 
 
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG', {
-        page_path: window.location.pathname,
-      });
-    `}
-  </script>
+ 
 
 
   {/* JSON-LD Structured Data */}

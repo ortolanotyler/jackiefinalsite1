@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import { initGA, logPageView } from '../../../analytics';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
@@ -40,10 +39,7 @@ const Card = ({ blogContent }) => (
 
 
 const Halloween = () => {
-  useEffect(() => {
-    initGA();
-    logPageView('/girly-pop-halloween');
-  }, []);
+
 
   const websiteId = '10910';
   const blogRef = useRef(null);
@@ -141,10 +137,6 @@ const captionStyle = {
   <meta name="twitter:description" content="Explore the best Halloween costume ideas for 2024 inspired by iconic pop culture figures like Britney, Barbie, and Bridgerton with Jackie Wyers." />
   <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Halloween/HalloweenThumbnail.png" />
   <meta name="twitter:card" content="summary_large_image" />
-
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
 
 
   {/* JSON-LD Structured Data */}

@@ -5,7 +5,6 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import { initGA, logPageView } from '../../../analytics';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
 
@@ -31,10 +30,6 @@ const Card = ({ blogContent }) => (
 
 const Makeup2016 = () => {
 
-  useEffect(() => {
-    initGA();
-    logPageView('/2016makeup');
-  }, []);
 
 
   const websiteId = '10910';

@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 
 import { Helmet } from 'react-helmet';
-import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
@@ -31,11 +30,7 @@ const Card = ({ blogContent }) => (
   
   const DiaryPost1Fillers = () => {
   
-    useEffect(() => {
-      initGA();
-      logPageView('/diaryfillers');
-    }, []);
-  
+   
   
     const websiteId = '10910';
     const blogRef = useRef(null);
@@ -133,10 +128,6 @@ const Card = ({ blogContent }) => (
   <meta name="twitter:description" content="Jackie Wyers shares her personal experience with getting injectable fillers at a young age, reflecting on insecurities, decisions, and growth." />
   <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/DiaryPost1/DIARYSQUARE.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
-
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
 
 
   {/* JSON-LD Structured Data */}

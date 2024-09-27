@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet';
 import styles from '../aaa.module.css'; // Import CSS Modules
 import TextReveal from '../../../Components/TextReveal';
 
-import { initGA, logPageView } from '../../../analytics';
 
 // Importing the images
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteThumbnail.jpg`;
@@ -66,10 +65,7 @@ const Card = ({ link, image, alt, title, description }) => {
 };
 
 const TrendsHome = () => {
-  useEffect(() => {
-    initGA();
-    logPageView('/trendshome');
-}, []);
+  
   return (
     <>
     <Helmet>
@@ -114,15 +110,7 @@ const TrendsHome = () => {
       }
     `}
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG');
-    `}
-  </script>
+
 </Helmet>
 
       <div>

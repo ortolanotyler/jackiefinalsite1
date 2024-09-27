@@ -6,7 +6,6 @@ import { Helmet } from'react-helmet';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import DropCap1 from '../../Travel/DropCap1';
-import { initGA, logPageView } from '../../../analytics';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
@@ -39,10 +38,6 @@ const Card = ({ blogContent }) => (
 
 const EmilyInParis = () => {
 
-  useEffect(() => {
-    initGA();
-    logPageView('/emily-in-paris');
-  }, []);
 
 
 
@@ -166,17 +161,6 @@ const captionStyle = {
     content="https://jackiewyers.beauty/Images/Articles/EmilyInParis/emilytitle.png" 
   />
   <meta name="twitter:card" content="summary_large_image" />
-
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-RT6GR7JXYG', { page_path: window.location.pathname });
-    `}
-  </script>
 
 
   {/* JSON-LD Structured Data */}

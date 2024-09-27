@@ -146,15 +146,7 @@ const Sitemap = () => {
                     content="Explore the sitemap to navigate through all the makeup tutorials, travel blogs, style guides, and reviews by Jackie Wyers."
                 />
                 {/* Google Analytics */}
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-                <script>
-                    {`
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-                        gtag('config', 'G-RT6GR7JXYG');
-                    `}
-                </script>
+             
                 {/* Google AdSense */}
             
             </Helmet>

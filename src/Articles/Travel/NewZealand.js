@@ -5,7 +5,6 @@ import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
-import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 import SocialShare from '../../Home/SocialShare';
@@ -95,10 +94,7 @@ const Card = ({ blogContent }) => (
 
 const NewZealand = () => {
 
-  useEffect(() => {
-    initGA();
-    logPageView('/newzealand');
-  }, []);
+
 
 
   const websiteId = '10910';
@@ -199,9 +195,6 @@ const captionStyle = {
   <meta name="twitter:description" content="Explore Auckland with Jackie Wyers in this detailed travel vlog and review, featuring top spots, travel tips, and hidden gems around the city." />
   <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/NewZealand/NZThumbnail.jpg" />
 
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
 
 
   {/* JSON-LD Structured Data */}

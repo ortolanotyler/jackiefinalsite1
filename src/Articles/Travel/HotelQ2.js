@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
-import { initGA, logPageView } from '../../analytics';
 import { Helmet } from 'react-helmet';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import BookNowButton from '../../Components/BookNowButton';
@@ -74,11 +73,7 @@ const Card = ({ blogContent }) => (
 
 const HotelQ2 = () => {
 
-  useEffect(() => {
-    initGA();
-    logPageView('/hotelquintessance-summer');
-  }, []);
-
+ 
 
   const websiteId = '10910';
   const blogRef = useRef(null);
@@ -207,15 +202,8 @@ const captionStyle = {
     `}
   </script>
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-RT6GR7JXYG');
-    `}
-  </script>
+
+
 </Helmet>
 
 
