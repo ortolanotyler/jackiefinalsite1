@@ -1,19 +1,32 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 
 const ResponsiveIframe = ({ src, title }) => {
-  const [allowScrolling, setAllowScrolling] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
+  const iframeRef = useRef(null);
 
   useEffect(() => {
-    const checkResize = () => {
-      const screenWidth = window.innerWidth;
-      // Logic for resizing can be added if needed in future
+    // Function to handle intersection with viewport
+    const handleIntersection = (entries) => {
+      const entry = entries[0];
+      if (entry.isIntersecting) {
+        setIsVisible(true);
+        observer.disconnect(); // Stop observing once the iframe is visible
+      }
     };
 
-    window.addEventListener('resize', checkResize);
-    checkResize(); // Initial check on mount
+    // Create an Intersection Observer
+    const observer = new IntersectionObserver(handleIntersection, {
+      rootMargin: '0px',
+      threshold: 0.1, // Trigger when 10% of the iframe is visible
+    });
 
+    if (iframeRef.current) {
+      observer.observe(iframeRef.current);
+    }
+
+    // Cleanup the observer on component unmount
     return () => {
-      window.removeEventListener('resize', checkResize);
+      observer.disconnect();
     };
   }, []);
 
@@ -23,7 +36,7 @@ const ResponsiveIframe = ({ src, title }) => {
     width: '100%',
     height: '600px',
     overflow: 'hidden', // Prevent scrolling
-    paddingTop: allowScrolling ? '0' : '56.25%', // Aspect ratio 16:9
+    paddingTop: isVisible ? '0' : '56.25%', // Aspect ratio 16:9
   };
 
   const iframeStyle = {
@@ -37,15 +50,17 @@ const ResponsiveIframe = ({ src, title }) => {
   };
 
   return (
-    <div style={containerStyle}>
-      <iframe
-        title={title}
-        src={src}
-        scrolling="no" // Disable scrolling in the iframe
-        style={iframeStyle}
-        tabIndex="-1" // Prevent iframe focus issues
-        seamless="seamless" // Allows the iframe to be more integrated visually
-      ></iframe>
+    <div ref={iframeRef} style={containerStyle}>
+      {isVisible && (
+        <iframe
+          title={title}
+          src={src}
+          scrolling="no" // Disable scrolling in the iframe
+          style={iframeStyle}
+          tabIndex="-1" // Prevent iframe focus issues
+          seamless="seamless" // Allows the iframe to be more integrated visually
+        ></iframe>
+      )}
     </div>
   );
 };
