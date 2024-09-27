@@ -59,6 +59,7 @@ const ResponsiveIframe = ({ src, title }) => {
           style={iframeStyle}
           tabIndex="-1" // Prevent iframe focus issues
           seamless="seamless" // Allows the iframe to be more integrated visually
+          sandbox="allow-scripts allow-same-origin" // Restrict iframe capabilities
         ></iframe>
       )}
     </div>
