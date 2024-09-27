@@ -1,5 +1,5 @@
-import React, { useEffect, lazy, Suspense, useRef, useState, useMemo } from 'react';
-import { Grid, Box, Paper, ThemeProvider, createTheme, useMediaQuery, Typography } from '@mui/material';
+import React, { useEffect, Suspense, useRef, useState, useMemo } from 'react';
+import { Grid, Box, Paper, createTheme, useMediaQuery } from '@mui/material';
 import { Helmet } from 'react-helmet';
 import { initGA, logPageView } from '../analytics';
 import TextRevealHomePage from '../Components/TextRevealHomePage';
@@ -9,16 +9,16 @@ import HorizontalLine from '../Components/HorizontalLine';
 import NewsletterSlider from '../Components/NewsletterSlider';
 import TextBanner2 from '../Components/TextBanner2';
 
-const RotatingText = lazy(() => import('../Navigation/AppBar/RotatingText'));
-const ShopMyHero2 = lazy(() => import('./ShopMyHero2'));
-const QuiltedImageList1 = lazy(() => import('./ImageGridTutorials'));
+import RotatingText from '../Navigation/AppBar/RotatingText';
+import ShopMyHero2 from './ShopMyHero2';
+import QuiltedImageList1 from './ImageGridTutorials';
 
 const theme = createTheme();
 
 function HomePage() {
   useEffect(() => {
     initGA();
-    logPageView('/homepage');
+    logPageView('/');
   }, []);
 
   const quizzesRef = useRef(null);
@@ -153,9 +153,7 @@ function HomePage() {
       </Helmet>
       <Grid container spacing={2} justifyContent="center">
         <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
             <TextRevealHomePage text="JACKIE WYERS"style = {{margin:'auto'}}/>
-          </Suspense>
         </Grid>
 
         {!isMobile && (
@@ -169,20 +167,18 @@ function HomePage() {
                 textAlign: 'center',
               }}
             >
-              <Suspense fallback={<div className="spinner"></div>}>
                 <RotatingText />
-              </Suspense>
             </Paper>
           </Grid>
         )}
 
         <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
+    
             <QuiltedImageList1 />
-          </Suspense>
+     
 
           <Grid item xs={12}>
-            <Suspense fallback={<div className="spinner"></div>}>
+    
               <HorizontalLine />
 
               {!isMobile && (
@@ -201,7 +197,7 @@ function HomePage() {
               />
 
 
-            </Suspense>
+   
           </Grid>
         </Grid>
     
