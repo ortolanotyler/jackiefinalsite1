@@ -59,6 +59,7 @@ const NavButtons = () => {
           horizontal: 'left',
         }}
         sx={{
+          zIndex: 2400, // Ensure it's higher than the AppBar
           '.MuiPaper-root': {
             bgcolor: '#FDEDEF', // Match AppBar background color
             color: '#745B4F',

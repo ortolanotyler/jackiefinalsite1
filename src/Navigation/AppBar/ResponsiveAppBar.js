@@ -17,17 +17,17 @@ const ResponsiveAppBar = () => {
 
   return (
     <>
-      <AppBar
-        position="fixed"
-        sx={{
-          fontFamily: 'Playfair Display, serif',
-          color: '#745B4F',
-          backgroundColor: '#FDEDEF',
-          width: '100%',
-          zIndex: 1200,
-          boxShadow: 'none',
-        }}
-      >
+     <AppBar
+  position="fixed"
+  sx={{
+    fontFamily: 'Playfair Display, serif',
+    color: '#745B4F',
+    backgroundColor: '#FDEDEF',
+    width: '100%',
+    zIndex: 2300, // Ensure it's higher than the main content
+    boxShadow: 'none',
+  }}
+>
         <Container maxWidth="xl" disableGutters>
           <Toolbar
             disableGutters

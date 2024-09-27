@@ -125,7 +125,6 @@ import BarbieRoundup from './Articles/Tutorials/PopCulture/BarbieRoundup';
 import NotFound from './Components/NotFound';
 import Quiz3Homepage from './Quiz/Quiz3Homepage';
 import Quiz2Homepage from './Quiz/Quiz2HomePage';
-import Rory from './Articles/Tutorials/PopCulture/Rory';
 function usePageTracking() {
   const location = useLocation();
 
@@ -274,7 +273,6 @@ function App() {
             <Route path="barbie-roundup" element={<BarbieRoundup />} />
             <Route path="quiz-3-home" element={<Quiz3Homepage />} />
             <Route path="quiz-2-home" element={<Quiz2Homepage />} />
-            <Route path="articles/rory-gilmore" element={<Rory />} />
 
             <Route path="*" element={<NotFound/>} />
           </Route>
