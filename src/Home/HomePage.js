@@ -1,18 +1,20 @@
-import React, { useEffect, lazy, Suspense, useRef, useState, useMemo } from 'react';
-import { Grid, Box, Paper, ThemeProvider, createTheme, useMediaQuery, Typography } from '@mui/material';
+import React, { useEffect, lazy, Suspense, useRef, useState, useMemo, startTransition } from 'react'; // Import startTransition
+import { Grid, Box, Paper, ThemeProvider, createTheme, useMediaQuery } from '@mui/material';
 import { Helmet } from 'react-helmet';
 import { initGA, logPageView } from '../analytics';
 import TextRevealHomePage from '../Components/TextRevealHomePage';
-
-import HeroSection from './HeroSection';
 import HorizontalLine from '../Components/HorizontalLine';
-import NewsletterSlider from '../Components/NewsletterSlider';
-import TextBanner2 from '../Components/TextBanner2';
 import AdSenseAd from '../Advertising/Ads';
 
-const RotatingText = lazy(() => import('../Navigation/AppBar/RotatingText'));
+// Direct imports for above-the-fold components
+import RotatingText from '../Navigation/AppBar/RotatingText';
+import QuiltedImageList1 from './ImageGridTutorials';
+
+// Lazy load below-the-fold components
 const ShopMyHero2 = lazy(() => import('./ShopMyHero2'));
-const QuiltedImageList1 = lazy(() => import('./ImageGridTutorials'));
+const NewsletterSlider = lazy(() => import('../Components/NewsletterSlider'));
+const TextBanner2 = lazy(() => import('../Components/TextBanner2'));
+const HeroSection = lazy(() => import('./HeroSection'));
 
 const theme = createTheme();
 
@@ -40,8 +42,6 @@ function HomePage() {
     outfits: false,
   });
 
-
-
   useEffect(() => {
     const keyframes = `
       @keyframes jiggle {
@@ -63,10 +63,12 @@ function HomePage() {
       observers[key] = new IntersectionObserver(
         ([entry]) => {
           if (entry.isIntersecting) {
-            setIsJiggling((prev) => ({ ...prev, [key]: true }));
-            setTimeout(() => {
-              setIsJiggling((prev) => ({ ...prev, [key]: false }));
-            }, 4000);
+            startTransition(() => {  // Wrap the state update in startTransition
+              setIsJiggling((prev) => ({ ...prev, [key]: true }));
+              setTimeout(() => {
+                setIsJiggling((prev) => ({ ...prev, [key]: false }));
+              }, 4000);
+            });
           }
         },
         {
