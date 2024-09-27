@@ -156,11 +156,7 @@ const Sitemap = () => {
                     `}
                 </script>
                 {/* Google AdSense */}
-                <script
-                    async
-                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318"
-                    crossOrigin="anonymous"
-                ></script>
+            
             </Helmet>
             <div className={styles.body}>
                 <h1 className={`${styles.heading} ${styles.mainHeading}`}>Sitemap</h1>

@@ -114,11 +114,7 @@ function HomePage() {
         <meta name="twitter:image" content="https://jackiewyers.beauty/Images/jw3logo.png" />
         <meta name="twitter:site" content="@JackieWyers" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318"
-          crossorigin="anonymous"
-        ></script>
+       
         <script type="application/ld+json">
           {`
             {

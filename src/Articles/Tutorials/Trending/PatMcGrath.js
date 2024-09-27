@@ -142,8 +142,6 @@ const Card = ({ blogContent }) => (
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
   <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
 
-  {/* Google Ads Script */}
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 
   {/* JSON-LD Structured Data */}
   <script type="application/ld+json">

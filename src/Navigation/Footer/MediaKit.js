@@ -29,7 +29,6 @@ const MediaKit = () => {
                     gtag('config', 'G-RT6GR7JXYG');
                     `}
                 </script>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
             </Helmet>
       <TextReveal text="MEDIA KIT & PRESS" />
    

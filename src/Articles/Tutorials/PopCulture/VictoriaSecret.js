@@ -142,7 +142,6 @@ const captionStyle = {
   <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
 
   {/* Google Ads Script */}
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 
   {/* JSON-LD Structured Data */}
   <script type="application/ld+json">

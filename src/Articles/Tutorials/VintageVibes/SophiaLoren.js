@@ -174,8 +174,6 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
     `}
   </script>
 
-  {/* Google Ads Script */}
-  <script async src="https://pagead2.googlesyndication.com/pagead/js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
 </Helmet>
 
 

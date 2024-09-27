@@ -44,7 +44,6 @@ const MyStyle = () => {
       <Helmet>
         <title>Shop My Style - Jackie Wyers</title>
         <meta name="description" content="Explore the style and fashion choices of Jackie Wyers. Find inspiration and shop the looks." />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
       </Helmet>
       <TextReveal text="SHOP MY STYLE" />
       <div style={sectionStyle}></div>

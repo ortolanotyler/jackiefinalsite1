@@ -19,7 +19,6 @@ const ReviewHomePage = () => {
                 <meta name="twitter:title" content="Product Reviews - Jackie Wyers" />
                 <meta name="twitter:description" content="Explore detailed product reviews by Jackie Wyers. Find the best beauty products and perfume profiles." />
                 <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Reviews/twitter-image.jpg`} />
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
             </Helmet>
             <TextReveal text="REVIEWS" />
             <div
