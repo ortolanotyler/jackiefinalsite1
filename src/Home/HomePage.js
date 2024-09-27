@@ -212,7 +212,7 @@ function HomePage() {
 
 
             <Grid item xs={12}>
-  <Suspense fallback={<div className="spinner"></div>}>
+
   
             <HeroSection
   featureText="FEATURED"
@@ -223,11 +223,10 @@ function HomePage() {
   linkUrl="/girly-pop-halloween"
   isFlipped={false}
 />
-</Suspense>
+
 </Grid>
 <HorizontalLine />
 <Grid item xs={12}>
-  <Suspense fallback={<div className="spinner"></div>}>
   
   <HeroSection
   featureText="LATEST"
@@ -239,7 +238,7 @@ function HomePage() {
   isFlipped={true}
 />
 
-</Suspense>
+
 </Grid>
 <HorizontalLine />
 
