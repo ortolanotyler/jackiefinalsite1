@@ -21,6 +21,9 @@ const image6 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/6.jpeg`;
 const image7 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/7.JPG`;
 const image8 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/8.jpeg`;
 
+const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
+
+
 const next = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/SQUAREMARGOT.jpeg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
@@ -245,14 +248,37 @@ Doll🎀"
 />
   
 <SocialShare 
-  url="https://jackiewyers.beauty/barbie-makeup-looks" 
+  url="https://jackiewyers.beauty/barbie-doll" 
   title="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll - Jackie Wyers" 
   imageUrl="https://jackiewyers.beauty/Images/Articles/BarbieDoll/BarbieThumbnail.jpg" 
 />
 
-
-<div style={gridContainerStyle}>
-  <img src={image1} alt="Jackie Wyers as Peaches ’N Cream Barbie" style={imageStyle} />
+<div style={{ position: 'relative', display: 'inline-block' }}>
+<img 
+    src={image1} 
+    alt="Jackie Wyers as Peaches ’N Cream Barbie" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://jackiewyers.beauty/barbie-doll"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+ style={{
+  position: 'absolute',
+  top: '20px',
+  right: '20px',
+  width: '50px',
+  height: '50px',
+  cursor: 'pointer',
+  opacity: 0.9,
+  transition: 'opacity 0.3s',
+  zIndex: 1000, // Add this line
+}}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/barbie-doll&media=https://jackiewyers.beauty/Images/Articles/BarbieDoll/1.JPG&description=Jackie Wyers as Peaches ’N Cream Barbie')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
 </div>
 
 <div style = {{textAlign: 'center', margin: '10px auto' }}>
@@ -296,8 +322,32 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
   <AdSenseAd/>
 </div>
 
-<div style={gridContainerStyle}>
-  <img src={image2} alt="Jackie Wyers as Peaches ’N Cream Barbie Makeup" style={imageStyle} />
+<div style={{ position: 'relative', display: 'inline-block' }}>
+<img 
+    src={image2} 
+    alt="Jackie Wyers as Peaches ’N Cream Barbie Makeup" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://jackiewyers.beauty/barbie-doll"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+ style={{
+  position: 'absolute',
+  top: '20px',
+  right: '20px',
+  width: '50px',
+  height: '50px',
+  cursor: 'pointer',
+  opacity: 0.9,
+  transition: 'opacity 0.3s',
+  zIndex: 1000, // Add this line
+}}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/barbie-doll&media=https://jackiewyers.beauty/Images/Articles/BarbieDoll/2.JPG&description=Jackie Wyers as Peaches ’N Cream Barbie Makeup')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
 </div>
 
 <p style={paragraphStyle}>
@@ -335,8 +385,32 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
 <p style={paragraphStyle}>
   Roll into the vibrant world of Roller Skate Barbie with a look that captures the fun, carefree spirit of the 90s! This makeup and style are inspired by the vintage 1994 Mattel Hot Skatin' Barbie Doll and Margot Robbie’s iconic portrayal of Roller Skate Barbie in the Barbie Movie. Known for her bold neon accents, playful visor, and voluminous half-up, half-down hair, this Barbie embodies an active and stylish lifestyle. With a mix of 90s nostalgia from the original doll and Margot’s fresh, understated makeup, this look stands out as a bold, fun, and eye-catching way to rock the Barbiecore trend. The pink lips and vibrant attire make this style the perfect choice for a Barbie-themed Halloween costume, but the makeup alone is also totally wearable for any day you want to channel your inner doll!
 </p>
-<div style={gridContainerStyle}>
-  <img src={image3} alt="Jackie Wyers as Roller Skate Barbie" style={imageStyle} />
+<div style={{ position: 'relative', display: 'inline-block' }}>
+<img 
+    src={image3} 
+    alt="Jackie Wyers as Roller Skate Barbie" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://jackiewyers.beauty/barbie-doll"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+ style={{
+  position: 'absolute',
+  top: '20px',
+  right: '20px',
+  width: '50px',
+  height: '50px',
+  cursor: 'pointer',
+  opacity: 0.9,
+  transition: 'opacity 0.3s',
+  zIndex: 1000, // Add this line
+}}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/barbie-doll&media=https://jackiewyers.beauty/Images/Articles/BarbieDoll/3.JPG&description=Jackie Wyers as Roller Skate Barbie')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
 </div>
 <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
@@ -380,9 +454,34 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
   Embrace the sweetness of Cherry Pie Picnic Barbie, a look inspired by the nostalgic and playful aesthetics of one of my favorite lines of Barbie, the Silkstone dolls. The Silkstone collection, launched in 2000, was designed specifically for adult collectors and is known for its elegant vintage-inspired fashions, sophisticated styling, and high-quality, porcelain-like material that gives the dolls a luxurious feel. Popular Silkstone Barbies include "Lingerie Barbie," "Fashion Model Collection," and "Classic Camel Coat Barbie," all of which capture the essence of mid-century glamour and timeless style. These dolls pay homage to Barbie’s fashion heritage, featuring beautifully tailored outfits, intricate accessories, and impeccable attention to detail.
 </p>
 
-<div style={gridContainerStyle}>
-  <img src={image4} alt="Jackie Wyers as Cherry Pie Picnic Barbie" style={imageStyle} />
+<div style={{ position: 'relative', display: 'inline-block' }}>
+<img 
+    src={image4} 
+    alt="Jackie Wyers as Cherry Pie Picnic Barbie" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://jackiewyers.beauty/barbie-doll"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+ style={{
+  position: 'absolute',
+  top: '20px',
+  right: '20px',
+  width: '50px',
+  height: '50px',
+  cursor: 'pointer',
+  opacity: 0.9,
+  transition: 'opacity 0.3s',
+  zIndex: 1000, // Add this line
+}}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/barbie-doll&media=https://jackiewyers.beauty/Images/Articles/BarbieDoll/4.JPG&description=Jackie Wyers as Cherry Pie Picnic Barbie')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
 </div>
+
 <p style={paragraphStyle}>
   This Silkstone-inspired look features adorable pigtails with red bows and a cherry-print top, capturing a 50s picnic vibe that’s playful and charming. While this particular Cherry Pie Picnic Barbie style didn’t grace the pink carpet on the Barbie Movie press tour, Margot Robbie and designer Andrew Mukamal's coffee table book featured a modern take on the doll. As soon as I saw the picnic-themed rendition in the book, I knew I wanted to recreate it with my own twist! My take on the makeup look is a bit bolder, with red lips, perfect for those who adore vintage-inspired fashion and want to add a touch of retro charm to their Barbie-themed costume.
 </p>
@@ -425,8 +524,32 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
 <p style={paragraphStyle}>
   While the most famous Barbie is a blonde, the Barbie brand has come a long way, so don’t think you need to wear a wig like I did to fit the aesthetic! Explore a fresh twist on Barbiecore with Brunette Barbicore looks, or whatever your hair color may be, inspired by Barbie's evolving styles as seen in the recent Barbie movie. The Barbie movie aesthetic also pulls from ‘60s fashion, and the beachy styles were so much fun on the big screen. Try a chic polka-dot headband or a pink gingham print to become your own Barbie. Lucky for Barbie movie fans and enthusiasts, there are so many new Barbies with outfits pulled directly from the film that are worth collecting!
 </p>
-<div style={gridContainerStyle}>
-  <img src={image5} alt="Jackie Wyers styled as Brunette Barbie from The Barbie Movie" style={imageStyle} />
+<div style={{ position: 'relative', display: 'inline-block' }}>
+<img 
+    src={image5} 
+    alt="Jackie Wyers styled as Brunette Barbie from The Barbie Movie" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://jackiewyers.beauty/barbie-doll"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+ style={{
+  position: 'absolute',
+  top: '20px',
+  right: '20px',
+  width: '50px',
+  height: '50px',
+  cursor: 'pointer',
+  opacity: 0.9,
+  transition: 'opacity 0.3s',
+  zIndex: 1000, // Add this line
+}}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/barbie-doll&media=https://jackiewyers.beauty/Images/Articles/BarbieDoll/5.JPG&description=Jackie Wyers styled as Brunette Barbie from The Barbie Movie')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
 </div>
 <h2 style={heading2Style}>
   Watch My Take on The Barbie Movie Hairstyles Here:
@@ -461,8 +584,32 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
 <p style={paragraphStyle}>
   Speaking of a beach Barbie aesthetic, we can’t forget about Malibu Barbie! First released in 1971, Malibu Barbie became an instant icon, capturing the carefree, sun-kissed California lifestyle like no other. With her golden tan, long blonde hair, and vibrant turquoise swimsuit, she shifted Barbie’s image from a glamorous fashion model to a laid-back beach babe, perfectly reflecting the 70s beach culture. Known for her glowing skin, soft pink lips, and teal eyeshadow, Malibu Barbie set the tone for decades of Barbie’s sun-soaked adventures.
 </p>
-<div style={gridContainerStyle}>
-  <img src={image6} alt="Jackie Wyers trying Barbie AI Movie Poster as Malibu Barbie" style={imageStyle} />
+<div style={{ position: 'relative', display: 'inline-block' }}>
+<img 
+    src={image6} 
+    alt="Jackie Wyers trying Barbie AI Movie Poster as Malibu Barbie" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://jackiewyers.beauty/barbie-doll"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+ style={{
+  position: 'absolute',
+  top: '20px',
+  right: '20px',
+  width: '50px',
+  height: '50px',
+  cursor: 'pointer',
+  opacity: 0.9,
+  transition: 'opacity 0.3s',
+  zIndex: 1000, // Add this line
+}}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/barbie-doll&media=https://jackiewyers.beauty/Images/Articles/BarbieDoll/6.jpeg&description=Jackie Wyers trying Barbie AI Movie Poster as Malibu Barbie')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
 </div>
 <div style = {{ margin : '1rem auto'}}>
   <AdSenseAd/>
@@ -503,15 +650,68 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
 <p style={paragraphStyle}>
   We can’t have a Barbie beauty list without talking about the iconic first Barbie introduced in 1959, who started it all! The first Barbie, known as the "Teenage Fashion Model," was created by Ruth Handler and made her debut at the American International Toy Fair in New York City. Dressed in a black and white striped swimsuit, bold red lips, and stylish ponytail, Barbie was an instant hit and revolutionized the toy industry, setting the standard for style and glamour. This look celebrates classic elegance and vintage glamour with bold red lips, cat-eye makeup with a pop of blue and retro bang curls. Perfect for anyone looking to recreate the ultimate vintage Barbie look, it’s a timeless choice for Halloween or any themed event. While I wore a tiny swimsuit for my version, you can always add pants to make it more wearable—please, add pants, LOL.
 </p>
-<div style={gridContainerStyle}>
-  <img src={image7} alt="Jackie Wyers as original 50s Barbie" style={imageStyle} />
+<div style={{ position: 'relative', display: 'inline-block' }}>
+<img 
+    src={image7} 
+    alt="Jackie Wyers as original 50s Barbie" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://jackiewyers.beauty/barbie-doll"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+ style={{
+  position: 'absolute',
+  top: '20px',
+  right: '20px',
+  width: '50px',
+  height: '50px',
+  cursor: 'pointer',
+  opacity: 0.9,
+  transition: 'opacity 0.3s',
+  zIndex: 1000, // Add this line
+}}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/barbie-doll&media=https://jackiewyers.beauty/Images/Articles/BarbieDoll/7.JPG&description=Jackie Wyers as original 50s Barbie')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
 </div>
-<div style={gridContainerStyle}>
-  <img src={image8} alt="Jackie Wyers as original 50s Barbie Black and White Chevron Bathing suit" style={imageStyle} />
+<div style={{ position: 'relative', display: 'inline-block' }}>
+
+<img 
+    src={image8} 
+    alt="Jackie Wyers as original 50s Barbie Black and White Chevron Bathing suit" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://jackiewyers.beauty/barbie-doll"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+ style={{
+  position: 'absolute',
+  top: '20px',
+  right: '20px',
+  width: '50px',
+  height: '50px',
+  cursor: 'pointer',
+  opacity: 0.9,
+  transition: 'opacity 0.3s',
+  zIndex: 1000, // Add this line
+}}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/barbie-doll&media=https://jackiewyers.beauty/Images/Articles/BarbieDoll/8.jpeg&description=Jackie Wyers as original 50s Barbie Black and White Chevron Bathing suit')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
 </div>
 <h2 style={heading2Style}>
   Watch My Ad For The Barbie Movie with Warner Brothers Here!
 </h2>
+
+<ResponsiveYoutube src="https://www.youtube.com/embed/pTCLYNMVG7M?si=bp8DJUYsoBlhPf8K" title="Warner Brothers Barbie Movie Watch Party" />
+
+
 <h2 style={heading2Style}>
   Key Features:
 

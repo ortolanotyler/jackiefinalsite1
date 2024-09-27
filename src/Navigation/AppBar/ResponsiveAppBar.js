@@ -64,20 +64,25 @@ const ResponsiveAppBar = () => {
               </IconButton>
             ) : (
               <Button
-                component={Link}
-                to="/subscribe"
-                sx={{
-                  backgroundColor: '#3a3a3a',
-                  color: '#f8f8f8 !important',
-                  borderRadius: '50px',
-                  padding: '0.5rem 1.5rem',
-                  fontFamily: 'Georgia, serif !important',
-                  marginLeft: '1rem',
-                  boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
-                }}
-              >
-                Subscribe
-              </Button>
+              component={Link}
+              to="/subscribe"
+              sx={{
+                backgroundColor: '#3a3a3a',
+                color: '#f8f8f8 !important',
+                borderRadius: '50px',
+                padding: '0.5rem 1.5rem',
+                fontFamily: 'Georgia, serif !important',
+                marginLeft: '1rem',
+                boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
+                transition: 'color 0.3s ease', // Smooth transition for color change
+                '&:hover': {
+                  color: '#fff !important', // Change text color on hover
+                  backgroundColor: '#3a3a3a', // Maintain the same background color
+                },
+              }}
+            >
+              Subscribe
+            </Button>
             )}
           </Toolbar>
         </Container>

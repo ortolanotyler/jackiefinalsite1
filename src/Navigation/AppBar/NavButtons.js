@@ -37,7 +37,7 @@ const NavButtons = () => {
             mx: 2,
             textTransform: 'none',
             '&:hover': {
-              backgroundColor: 'transparent',
+              backgroundColor: '#fdedef',
               color: '#745B4F',
             },
           }}
@@ -71,7 +71,7 @@ const NavButtons = () => {
             fontFamily: 'Playfair Display, serif',
             fontSize: '1rem',
             '&:hover': {
-              backgroundColor: '#E6DCDC', // Slightly darker shade on hover
+              backgroundColor: '#fdedef', // Slightly darker shade on hover
               color: '#000000',
             },
           },
@@ -89,7 +89,7 @@ const NavButtons = () => {
                 sx={{
                   fontFamily: 'Playfair Display, serif', // Ensure font family
                   '&:hover': {
-                    backgroundColor: '#E6DCDC',
+                    backgroundColor: '#fdedef',
                     color: '#000000',
                   },
                 }}
