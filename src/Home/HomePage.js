@@ -1,7 +1,6 @@
 import React, { useEffect, Suspense, useRef, useState, useMemo } from 'react';
 import { Grid, Box, Paper, createTheme, useMediaQuery } from '@mui/material';
 import { Helmet } from 'react-helmet';
-import { initGA, logPageView } from '../analytics';
 import TextRevealHomePage from '../Components/TextRevealHomePage';
 
 import HeroSection from './HeroSection';
@@ -16,10 +15,7 @@ import QuiltedImageList1 from './ImageGridTutorials';
 const theme = createTheme();
 
 function HomePage() {
-  useEffect(() => {
-    initGA();
-    logPageView('/');
-  }, []);
+
 
   const quizzesRef = useRef(null);
   const outfitsRef = useRef(null);

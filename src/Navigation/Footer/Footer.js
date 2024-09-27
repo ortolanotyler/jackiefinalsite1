@@ -6,38 +6,30 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import SwitchUpYour from './SwitchUpYour';
 
 const Footer = () => {
- 
-
     return (
-        <div style={{ width: '100%', overflowX: 'hidden' }}> 
-        <SwitchUpYour />
-            <footer style={{ 
-                width: '100%',  // Ensures the footer matches the width of the viewport
-           
+        <div style={{ width: '100%', overflowX: 'hidden' }}>
+            <SwitchUpYour />
+            <footer style={{
+                width: '100%',
                 fontFamily: 'GFS Didot, serif',
                 justifyContent: 'center',
                 backgroundColor: '#EBE8E4',
                 color: '#745B4F',
                 textAlign: 'center',
                 padding: '40px 20px',
-               
                 marginTop: 'auto',
-                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'  // Same box shadow as AppBar
+                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'
             }}>
-              
                 <div style={{ fontFamily: 'GFS Didot, serif', gap: '1.5rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                  
                     <div>
-                    <button style={{ fontFamily: 'GFS Didot, serif', textAlign: 'left', fontSize: '1.25rem', cursor: 'pointer', color: '#745B4F', background: 'none', border: 'none', textDecoration: 'none' }}>
+                        <button style={{ fontFamily: 'GFS Didot, serif', textAlign: 'left', fontSize: '1.25rem', cursor: 'pointer', color: '#745B4F', background: 'none', border: 'none', textDecoration: 'none' }}>
                             <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}>Home</a>
                         </button>
                         <div>
-                        <a href="/contact" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '18px' }}>
-                            Business Inquiries
-                        </a>
-                    
-                    </div>
-               
+                            <a href="/contact" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '18px' }}>
+                                Business Inquiries
+                            </a>
+                        </div>
                     </div>
                     <div style={{ textAlign: 'center', fontSize: '1rem', cursor: 'pointer', color: '#745B4F', margin: '1rem' }}>
                         © Jackie Wyers 2024
@@ -58,9 +50,7 @@ const Footer = () => {
                         <a href="/privacy" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '18px' }}>
                             Policies
                         </a>
-                       
                     </div>
-                    
                 </div>
                 <div style={{ fontSize: '40px' }}>
                     <a href="https://youtube.com/@JackieWyers?si=sklULUqnNkzkmiaY" target="_blank" rel="noopener noreferrer">
@@ -76,8 +66,20 @@ const Footer = () => {
                         <MailOutlineIcon style={{ color: '#745B4F', fontSize: 70 }} />
                     </a>
                 </div>
+
+                {/* Insert the analytics script at the bottom of the footer */}
+                <script
+                    async
+                    src={`${process.env.PUBLIC_URL}/analytics.js`}
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                        (function() {
+                            // Optional: Add any additional configuration here
+                        })();
+                    `
+                    }}
+                ></script>
             </footer>
-          
         </div>
     );
 };
