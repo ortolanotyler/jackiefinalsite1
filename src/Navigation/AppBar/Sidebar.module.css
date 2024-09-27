@@ -7,7 +7,7 @@
   justify-content: space-between;
   height: 100%;
   background-color: #fdedef;
-  padding: 2rem;
+  padding: 5px;
   font-family: Playfair Display, serif;
   position: relative;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -65,7 +65,7 @@
 
 @media (max-width: 768px) {
   .sidebar {
-    width: 60vw;
+    width: 300px;
     padding: 1rem;
   }
 

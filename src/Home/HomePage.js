@@ -155,7 +155,7 @@ function HomePage() {
       <Grid container spacing={2} justifyContent="center">
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
-            <TextRevealHomePage text="JACKIE WYERS" style={{ margin: '0 auto' }} />
+            <TextRevealHomePage text="JACKIE WYERS"style = {{margin:'auto'}}/>
           </Suspense>
         </Grid>
 

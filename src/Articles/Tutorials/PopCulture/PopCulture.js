@@ -35,6 +35,7 @@ const cardsData = [
     alt: "Summer Inspo",
     title: "Summer Inspiration 🧜",
   },
+
   {
     link: "/nomakeupspring",
     image: nomakeup,

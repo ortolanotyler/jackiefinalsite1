@@ -41,7 +41,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           flexDirection: 'column',
           justifyContent: 'space-between',
           height: '100%',
-          padding: '1rem 1rem', // Adjust padding to ensure content isn't cut off
+          padding: '4rem 1.25rem', // Adjust padding to ensure content isn't cut off
         }}
       >
         <IconButton

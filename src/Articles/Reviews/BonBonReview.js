@@ -150,7 +150,7 @@ fontStyle: 'italic',
   />
   <meta
     name="keywords"
-    content="BonBon Review, Jackie Wyers, Viktor & Rolf BonBon, Perfume Review, Fragrance Review, Sweet Scents, Gourmand Perfume, Luxury Perfume, Women's Fragrance, Best Sweet Perfumes, Perfume for Teens, Scented Beauty, Caramel Perfume, Amber Fragrance, Peach Perfume, High-End Perfume, Signature Scents, Perfume Collection, Beauty Influencer Review, Scent Profile, Warm Woody Perfume, Perfume Recommendations, Sweet and Sophisticated Fragrances, Perfume for Young Adults, Sensual Perfume, Long-Lasting Fragrance"
+    content="BonBon Review, Jackie Wyers, Viktor & Rolf, Perfume Review, Fragrance Review, Sweet Scents, Gourmand Perfume, Luxury Perfume, Women's Fragrance, Best Sweet Perfumes, Perfume for Teens, Scented Beauty, Caramel Perfume, Amber Fragrance, Peach Perfume, High-End Perfume, Signature Scents, Perfume Collection, Beauty Influencer Review, Scent Profile, Warm Woody Perfume, Perfume Recommendations, Sweet and Sophisticated Fragrances, Perfume for Young Adults, Sensual Perfume, Long-Lasting Fragrance"
   />
 
   {/* Open Graph Meta Tags */}
