@@ -182,21 +182,6 @@ const TravelArticlesHome = () => {
       </Grid>
 
 
-            <div
-               
-            >
-                   <TextBanner2
-                text="ITINERARIES"
-
-               
-            />
-      
-            <TextBanner2
-                    text="HOTEL REVIEWS"
-
-                   
-                />
-            </div>
        
          
             <TextReveal text="SAVE MONEY BOOKING WITH PLANNIN'" />
