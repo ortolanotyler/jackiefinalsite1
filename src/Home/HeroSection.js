@@ -96,6 +96,10 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     alignSelf: 'center',
   };
 
+  // Set the explicit width and height of the image to reduce LCP
+  const imageWidth = 500; // Example width
+  const imageHeight = 300; // Example height (adjust based on the actual aspect ratio of your images)
+
   return (
     <a href={linkUrl} style={heroLinkStyle}>
       <div style={heroSectionStyle}>
@@ -111,9 +115,8 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
             src={`${process.env.PUBLIC_URL}/Images/Articles/${imagePath}`}
             alt={headlineText}
             style={imageStyle}
-            width="500" // Explicit width to reserve space
-            height="auto" // Explicit height to reserve space, adjust based on aspect ratio
-            loading={isFlipped ? 'lazy' : 'eager'} // Use eager loading for first images to prevent CLS
+            width={imageWidth} // Explicit width to reserve space
+            height={imageHeight} // Explicit height to reserve space
           />
         </div>
       </div>
