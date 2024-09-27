@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
@@ -224,9 +223,7 @@ fontStyle: 'italic',
 
 <DropCap1 text="Welcome back to All Things Bridal! If you are new to my channel, here’s a bit of backstory about my upcoming wedding ceremony in July. My husband Tyler and I have been legally married for two years which is why I call his my husband and not fiancé, but we held off on having a wedding ceremony to save up for a celebration in Sorrento, Italy. We're also planning a trip afterward to Belgium, where we met in middle school many years ago. Excited is an understatement! " />
      
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
 <p style={{ margin: '1rem auto', textAlign: 'center', fontSize: '1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
       All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
@@ -249,9 +246,7 @@ fontStyle: 'italic',
   I didn’t know this was a thing until <a style={linkStyle} href="https://www.brides.com/story/how-to-ask-bridesmaids" target="_blank" rel="noreferrer">fairly recently</a>, so if you haven’t been in a wedding party before, these are <a style={linkStyle} href="https://www.theknot.com/content/bridesmaid-proposal-ideas" target="_blank" rel="noreferrer">gift boxes</a> that brides-to-be give their bridesmaids as a special way of asking them to be part of their wedding party.
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   You can go in many directions when crafting your own <a style={linkStyle} href="https://www.weddingwire.com/wedding-ideas/bridesmaid-box-ideas" target="_blank" rel="noreferrer">bridesmaid proposal boxes</a>, but they typically contain personalized items like <a style={linkStyle} href="https://www.etsy.com/market/bridesmaid_jewelry" target="_blank" rel="noreferrer">jewelry</a>, <a style={linkStyle} href="https://www.pinterest.com/search/pins/?q=picture%20frames" target="_blank" rel="noreferrer">picture frames</a>, <a style={linkStyle} href="https://www.sephora.com/shop/beauty-products" target="_blank" rel="noreferrer">beauty items</a>, and a heartfelt <a style={linkStyle} href="https://www.shutterfly.com/designs/cards-stationery/bridesmaid-cards" target="_blank" rel="noreferrer">note or card</a>.
@@ -276,9 +271,7 @@ fontStyle: 'italic',
         Please keep in mind that you can create a bridesmaid proposal box on a budget. I only had three bridesmaids, so I was able to spend a little more, but it is not necessary by any means. I also see a lot of influencer proposal boxes with many gifted items through PR, so don’t feel like you need to spend a ton of money to make a special box for your potential bridesmaids. It should be a fun experience putting these together, not a stressful one!
 </p>
 
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
+
 
 
 <h2 style = { headingStyle }> 
@@ -290,48 +283,36 @@ fontStyle: 'italic',
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/619635?noHeader=true" title="Bridesmaid Box Collection: Choose Your Box" />
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
+
 <p style={paragraphStyle}>
   2. Fill the Box: Start with <a style={linkStyle} href="https://www.amazon.com/s?k=shredded+paper+filler" target="_blank" rel="noreferrer">shredded paper</a> and layer over some pretty <a style={linkStyle} href="https://www.papyrusonline.com/cards/wrapping/tissue-paper" target="_blank" rel="noreferrer">tissue paper</a>. I chose tissue paper with gold bees to match an earthy, fairytale aesthetic. <a style={linkStyle} href="https://www.bedbathandbeyond.com/store/product/satin-napkins/324908" target="_blank" rel="noreferrer">Satin napkins</a> can also create a more luxurious feel if that suits your vibe.
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/619672?noHeader=true" title="Bridesmaid Box Collection: Fill the Box" />
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
+
 
 <p style={paragraphStyle}>
   3. Personal Touches: I chose a fairytale gold <a style={linkStyle} href="https://www.anthropologie.com/search?q=picture+frame" target="_blank" rel="noreferrer">picture frame</a> with a photo of each of my bridesmaids. These frames look like they are from Anthropologie but are actually from <a style={linkStyle} href="https://www.winners.ca/en" target="_blank" rel="noreferrer">Winners</a>. I’ve linked similar frames below in a similar aesthetic, with different price ranges.
 </p>
 
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
+
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/619621?noHeader=true" title="Bridesmaid Box Collection : Personal Touches" />
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
+
 
 <p style={paragraphStyle}>
   4. Useful and Beautiful Items: You can’t go wrong with a beautiful <a style={linkStyle} href="https://www.chapters.indigo.ca/en-ca/home/pens/" target="_blank" rel="noreferrer">pen</a>. I love the Noda brand from <a style={linkStyle} href="https://www.chapters.indigo.ca/en-ca/home/" target="_blank" rel="noreferrer">Indigo</a> or Chapters. The pens I chose matched the green and gold theme and had gold flakes and purple flowers floating around the top.
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/621130?noHeader=true" title="Bridesmaid Box Collection: Useful and Beautiful Item" />
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
+
 
 <p style={paragraphStyle}>
   5. Body Care: Since we will be traveling, I thought a <a style={linkStyle} href="https://www.loccitane.com/en-us/hand-care/" target="_blank" rel="noreferrer">hand cream</a> would be a nice touch. I chose my favorite scent from <a style={linkStyle} href="https://www.loccitane.com/en-us/almond-hand-cream/" target="_blank" rel="noreferrer">L’Occitane’s Almond range</a>. You can’t go wrong with their Almond range!
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/619704?noHeader=true" title="Bridesmaid Box Collection : Body Care" />
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
+
 
 <p style={paragraphStyle}>
   6. Jewelry: My entire wedding theme is enchanting and earthy, so I selected jewelry pieces from <a style={linkStyle} href="https://www.fabelengland.com/collections/whispering-sands" target="_blank" rel="noreferrer">Fabel England’s Whispering Sands collection</a>. We will be on the coast in Sorrento, and this collection carries beautiful jewelry, fans, accessories, and silk PJs in a nautical aesthetic. Perfect for a summer wedding gift.
@@ -349,9 +330,7 @@ fontStyle: 'italic',
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/619709?noHeader=true" title="Bridesmaid Box Collection: Fabel England’s Whispering Sands" />
 
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
+
 
 <p style={paragraphStyle}>
   8. Beauty Products: When I think of ethereal, whimsical beauty products, <a style={linkStyle} href="https://www.gucci.com/us/en/ca/beauty/makeup" target="_blank" rel="noreferrer">Gucci Beauty</a> comes to mind. I added mini sample sets to each box. These samples are adorable mini versions of the actual aesthetically pleasing bottles, allowing your bridesmaids to try them out without much risk if it’s not their fav scent. I’ve seen adorable <a style={linkStyle} href="https://www.marcjacobs.com" target="_blank" rel="noreferrer">perfume minis</a> by Marc Jacobs and Dior too that are tiny versions of the full-size bottle.
@@ -364,9 +343,7 @@ fontStyle: 'italic',
 <ResponsiveIframe src="https://shopmy.us/collections/public/619720?noHeader=true" title="Bridesmaid Box Collection : Aromatic Additions Perfumes" />
 
 
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
+
 
 <p style={paragraphStyle}>
   10. Personal Notes: For a card, <a style={linkStyle} href="https://riflepaperco.com" target="_blank" rel="noreferrer">Rifle Paper Co.</a> or <a style={linkStyle} href="https://www.papyrusonline.com" target="_blank" rel="noreferrer">Papyrus</a> has beautiful options. I wrote a handwritten letter to each bridesmaid and my maid of honour (my sister), placed in an envelope with a gold sticker. I also used cursive gold stickers to write out their names and added 3-D butterfly stickers, also in gold, from Michael’s.
@@ -403,20 +380,14 @@ Additional Ideas:
 </h2>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/628197?noHeader=true" title="Anaïs Candle Anaïs Candle Double Layer Creamy Vintage Cake"  />
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
+
 <ResponsiveIframe src="https://shopmy.us/collections/public/628200?noHeader=true" title="Freixenet Italian Sparkling Rose"  />
 <ResponsiveIframe src="https://shopmy.us/collections/public/628186?noHeader=true" title="FEMALE | Baublebar Think Pink Crystal Rose Bottle Drop Earrings"  />
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
+
 <ResponsiveIframe src="https://shopmy.us/collections/public/628191?noHeader=true" title="CHARLOTTE TILBURY | Pillow Talk On The Go Kit"  />
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/628192?noHeader=true" title="KITSCH | Satin Sleep Scrunchies"  />
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
+
 <ResponsiveIframe src="https://shopmy.us/collections/public/628195?noHeader=true" title="OLIVE AND JUNE | CCt Bridal Edition"  />
 
 
@@ -460,11 +431,7 @@ I hope you got some inspiration from my bridesmaid box, and if you want to see m
        <div style = {{padding: '1rem 2rem'}}>
        <Comments website-id={websiteId} page-id={"Las-nozzlestronsonberries"} />
        </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div> <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+ 
 
     </div>
   );

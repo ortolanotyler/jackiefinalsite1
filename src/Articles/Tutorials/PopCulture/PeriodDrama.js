@@ -3,7 +3,6 @@ import '../../ExampleTutorial1.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
@@ -210,14 +209,7 @@ const captionStyle = {
 <DropCap1 text="There's something magical about period dramas—they transport us to different times and places, allowing us to experience the elegance and charm of bygone eras. I love seeing how these shows and filmsinterpret no-makeup makeup and historical hairstyles, often with a modern twist for real-life inspiration. If you enjoyed my previous article on no- makeup makeup spring inspiration, you're going to love this deep dive into period drama styles." />
 
 </div>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+      
 
 <p style={paragraphStyle}>
 We'll start with the oldest time period we will cover: <strong> The Tudor era. </strong>
@@ -257,14 +249,7 @@ The Golden Age of Piracy was a time of adventure and danger on the high seas, sp
 
 </p>
    
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+      
 
 
 
@@ -295,14 +280,7 @@ style = {{
 
             While historical accuracy might lean towards minimal makeup, the films enhance Elizabeth’s adventurous and bold character with a slightly more dramatic look. For a modern interpretation, a deeper eye makeup can add a sultry touch. Try Smoky eyes paired with a natural lip colour to balance the look as seen in my recreation tutorial <a href = 'https://www.youtube.com/watch?v=BZ2hu_4_1dE&t=150s'> here </a>.
                 </p>
-                <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+                
 
       <h2 style={headingStyle}>Time Period: Regency Era (1811-1820)</h2>
 
@@ -325,14 +303,7 @@ beauty trends, heavily influenced by classical antiquity, with a focus on simpli
 
       <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
       Original Makeup & Hair Design by Fae Hammond from the 2005 film 'Pride and Prejudice,' recreation by Jackie Wyers.     </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+      
 <p style={paragraphStyle}>
 "Pride and Prejudice”(2005) based on the beloved novel by Jane Austen, is a timeless story that captures the social intricacies and romantic entanglements of the Regency period. The novel, published in 1813, follows the intelligent and spirited Elizabeth Bennet as she navigates issues of marriage, morality, and love in the British gentry. Austen's observations of her time provide a rich backdrop for the characters and their interactions.
 </p>
@@ -355,14 +326,7 @@ In terms of makeup, the Regency look was characterized by a fresh and natural co
       <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
       Original Makeup and Hair Design by Marc Pilcher and Erika Ökvist from Bridgerton,' recreation by Jackie Wyers.
         </p>
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+      
       <p style={paragraphStyle}>
       Still remaining in the Regency Era, this time with a focus on high society; the period was marked by strict social hierarchies and elaborate balls, which are prominently featured in “Bridgerton."      
       </p>
@@ -389,14 +353,7 @@ style = {{
 
       Original Makeup by Barbara Daly and Hair Design by Leonard George from 'The Blue Lagoon,' recreation by Jackie Wyers.
             </p>
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+            
             <p style={paragraphStyle}>
             "The Blue Lagoon”(1980) set during this time, tells the story of two young
             cousins, Emmeline and Richard, who are marooned on a deserted tropical island. This romantic adventure film, based on the 1908 novel by Henry De Vere Stacpoole, captures the simplicity and natural beauty of island life as the characters grow up, learn to survive, and eventually fall in love, untouched by the outside world. Incest but whatever, they didn’t have a clue ok?!
@@ -417,14 +374,7 @@ loosely on top of the head. However, in the context of "The Blue Lagoon," the em
       <p style={paragraphStyle}>
       The 1860s, marked by the American Civil War was a time of significant social upheaval and change. Fashion and beauty trends were influenced by the need for practicality and modesty, but also reflected the romantic ideals of the Victorian era.
         </p>
-        <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+        
         <h2 style={headingStyle}> Sony Pictures' Little Women (2019)</h2>
 
        
@@ -448,14 +398,7 @@ The looks in the film "Little Women,”(2019) especially Amy’s, feature beauti
 summer day. These styles offer an elegant and practical solution for managing long hair in the heat and are often adorned with ribbons and flowers for a soft, romantic look. The makeup palette was muted, with just touches of pink on the cheeks and lips, emphasizing natural beauty. A tip for achieving the no-makeup makeup look is to focus on well-groomed, fuller brows, especially if the hair is pulled off the face. Fuller, youthful brows can frame the face and allow your natural features to shine without heavy makeup.
             </p>
   
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+      
 
       <h2 style={headingStyle}>Time Period: Early 20th Century, Edwardian Era (1901-1910)</h2>
 
@@ -489,16 +432,7 @@ style = {{
            In terms of makeup, the Edwardian look, try fresh-faced makeup with a focus on naturally flushed cheeks. The “boyfriend blush” technique is great for this look, brining the blush through the cheekbone, and subtly faded to the jawline. 
             </p>
 
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-
-  
-</div>
+            
 
 
       <h2 style={headingStyle}>A Final Note 🌸</h2>
@@ -528,23 +462,9 @@ style = {{
 
       <Comments website-id={websiteId} page-id={"No-Makeup-Period"} />
 
-      <div
-style = {{
-  margin : '20px'
-}}
->
+      
 
-  <AdSenseAd/>
-</div>
 
-<div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
       
     </div>
     

@@ -4,7 +4,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
@@ -211,9 +210,7 @@ const captionStyle = {
 
       <DropCap1 text="Welcome back to another Time Travel Tutorials, where we admire and recreate beauty icons from the past. Today, let's delve into the 1960s through the portrait of model Ina Balke by the renowned photographer Ted Russell. For those of you who've ever searched on Pinterest for '60s makeup, chances are you've stumbled upon this stunning photograph. This article is your step-by-step guide on how to get the vintage makeup and styling as seen on Ina to try out yourself!" />
       
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -255,9 +252,7 @@ const captionStyle = {
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493363?noHeader=true" title="Concealer Makeup Reccomendations 60s inspired" />
 
-  <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+  
 
 
 
@@ -267,9 +262,7 @@ const captionStyle = {
   To add dimension and mature the face, use a <a style={linkStyle} href="https://www.byrdie.com/best-contour-palettes-4586694" target="_blank" rel="noreferrer">cool-toned contour</a> under the cheekbones and jawline. Keep the <a style={linkStyle} href="https://www.wikihow.com/Contour-Your-Nose" target="_blank" rel="noreferrer">nose contour</a> subtle to balance the soon-to-be dramatic eyes.
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   For setting the highlighted areas, the <a style={linkStyle} href="https://www.hourglasscosmetics.com/products/ambient-lighting-powder" target="_blank" rel="noreferrer">Hourglass Radiant Powder</a> is my go-to for a luminous finish, but the <a style={linkStyle} href="https://www.revlon.com/makeup/face/primer-photo-ready-translucent-finisher" target="_blank" rel="noreferrer">Revlon Photoready Translucent Finisher</a> is a great budget-friendly option. Adding a powder that reflects light helps create that hyper-real base when photographed, as seen in the inspiration photo.
@@ -282,9 +275,7 @@ const captionStyle = {
   The <a style={linkStyle} href="https://www.charlottetilbury.com/us/product/filmstar-bronze-and-glow-medium-to-dark" target="_blank" rel="noreferrer">Charlotte Tilbury Filmstar Bronze & Glow Contour Duo</a> helps soften the contour and adds a natural glow. For blush, <a style={linkStyle} href="https://www.chanel.com/us/makeup/p/187440/les-tissages-de-chanel-blush-duo-tweed-effect/" target="_blank" rel="noreferrer">CHANEL's warm pink blush, shade 440 - QUINTESSENCE</a>, adds the perfect touch of color. Remember, it's all about creating a natural, yet defined look for this sophisticated style!
       </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493385?noHeader=true" title="Concealer Favs with Charlotte Tilbury" />
 
@@ -298,9 +289,7 @@ const captionStyle = {
   For this eyeshadow look, I used the <a style={linkStyle} href="https://www.toofaced.com/product/23453/67189/eye-shadow-palettes/natural-lust-eye-shadow-palette" target="_blank" rel="noreferrer">Too Faced Natural Lust Palette</a> which was the perfect palette, but was limited edition and hard to find now! After doing some digging, I came across a similar palette called <a style={linkStyle} href="https://www.meltcosmetics.com/products/gemini-eyeshadow-palette" target="_blank" rel="noreferrer">Melt Cosmetics Gemini Eyeshadow Palette</a> which has the shades we will need.
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 
 <p style={paragraphStyle}>
@@ -321,9 +310,7 @@ const captionStyle = {
   From this initial crease line, smoke out the edges above the cut crease, fading into the gold and bronze. Clean up the black shadow one more time by adding intensity to the exaggerated crease with as much precision as you can.
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
       <h2 style={headingStyle}>1960s Eye Makeup Tips for Hooded Eyes</h2>
 
@@ -344,9 +331,7 @@ const captionStyle = {
       <ResponsiveIframe src="https://shopmy.us/collections/public/493460?noHeader=true" title="Collection name here" />
 
    
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
       <h2 style={headingStyle}>Winged Liner & Fabulous Lashes</h2>
 
@@ -420,15 +405,9 @@ const captionStyle = {
       />
      
           
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
+
+
     </div>
   );
 };

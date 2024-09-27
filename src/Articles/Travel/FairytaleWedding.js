@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import AdSenseAd from '../../Advertising/Ads';
 import WeddingCarousel from '../../Components/WeddingCarousel';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import SubscribeButton from '../../Components/SubscribeButton';
@@ -275,14 +274,7 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 <DropCap1 text="On July 11th, Tyler and I celebrated two years of marriage with a dreamy ceremony in Sorrento, Italy. If you haven’t caught up with our backstory, here’s a quick recap: We first met in middle school at
 the International School of Brussels, where we became each other's first “real” boyfriend and girlfriend. Originally from Atlanta, Georgia, and Ontario, Canada, our families both moved to Belgium in 2007, and we were the new kids at the international school that same year. What started as a middle school crush blossomed into a lifelong connection, surviving long distances as friends for over 10 years, and culminating in an epic reunion in the Big Apple!" />
 
-<div
-style = {{
-  margin : '10px auto'
-}}
->
 
-  <AdSenseAd/>
-</div>
 
 
      
@@ -333,14 +325,7 @@ As for the evening's aesthetic, I wanted to maintain the fairytale theme from ou
 
 </p>
 
-<div
-style = {{
-  margin : '10px auto'
-}}
->
 
-  <AdSenseAd/>
-</div>
 
 <p style={paragraphStyle}>
 Fortunately, I had help from an amazing Sorrento local who assisted with ordering everything for our event. I handled smaller details like our custom menus, place cards, and wedding sign from Papier, as well as putting together party favors while Selena did the rest.
@@ -357,14 +342,7 @@ A private chef utilized the Italian majolica tiled kitchen space, serving delici
 
 </p>
    
-      <div
-style = {{
-  margin : '10px auto'
-}}
->
-
-  <AdSenseAd/>
-</div>
+      
 
 <h2 style={headingStyle}>
   
@@ -379,14 +357,7 @@ Pop Culture Bridal Makeup & Hair Inspirations
     My bridal beauty style was a blend of whimsical enchantment and cinematic romance—echoing the regal elegance of Christine from "Phantom of the Opera," with a touch of beachy flair à la "Mamma Mia." I adorned my veil and bridesmaids' hair with handmade flower pins similar to Sophie’s. For a sheer flower pin tutorial, stay tuned on <a style={{ color: 'black' }} href = "https://www.instagram.com/jackiewyers/?hl=en" target="_blank" rel="noreferrer">Instagram</a>.
 </p>
 
-   <div
-style = {{
-  margin : '10px auto'
-}}
->
-
-  <AdSenseAd/>
-</div>
+   
 
 <div style={gridContainerStyle}>
     <img src={image10} alt="Jackie Wyers Wedding Photography" style={imageStyle} /> 
@@ -400,27 +371,13 @@ For makeup, I drew inspiration from <a style={{ color: 'black' }} href = "https:
 </p>
 
 
-<div
-style = {{
-  margin : '10px auto'
-}}
->
 
-  <AdSenseAd/>
-</div>
 
 <p style={paragraphStyle}>
 Though pulling from several different beauty inspirations doesn’t always create a harmonious look, the big hair with loose curls, regal corseted top, and dainty flower crown embodied the fairytale style I felt most myself in on my big day without feeling like cosplay which was important to me.
 </p>
 
-<div
-style = {{
-  margin : '10px auto'
-}}
->
 
-  <AdSenseAd/>
-</div>
 <p style={paragraphStyle}>
 Finally for nails, I’m the biggest <a style={{ color: 'black' }} href = "https://oliveandjune.com/collections/press-on-nails/products/milky-syrup-gradient-press-on-medium-almond?irclickid=V71S4RwqwxyKThwTSETAVXaQUkC2AlW1rStwwQ0&utm_source=Impact&utm_medium=2340682&utm_campaign=Online%20Tracking%20Link&irgwc=1" target="_blank" rel= "noreferrer">Olive & June</a> fan and went with an almond, medium length nude manicure that lasted me 2 full weeks for $10. Forever wearing glue ons.
 </p>
@@ -441,14 +398,7 @@ Finally for nails, I’m the biggest <a style={{ color: 'black' }} href = "https
    
     <img src={image15} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
 </div>
-   <div
-style = {{
-  margin : '10px auto'
-}}
->
-
-  <AdSenseAd/>
-</div>
+   
 <div style={gridContainerStyle}>
     <img src={image16} alt="Jackie Wyers Wedding Photography" style={imageStyle} /> 
     <img src={image17} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
@@ -486,14 +436,7 @@ My Vintage Wedding Shoes & Alex Monroe Jewelry
 <p style={paragraphStyle}>
 My heels were Manolo Blahnik green butterfly sandals, adding to the earthy, fairytale aesthetic. They matched my bridesmaids' green luxe satin dresses perfectly. I loved them so much, I even had a talented Canadian artist, <a href="https://www.instagram.com/sabinafenn/" target="_blank" rel="noreferrer">Sabina Fenn</a> add the butterfly to our custom painted wedding invitations!
 </p>
-   <div
-style = {{
-  margin : '10px auto'
-}}
->
-
-  <AdSenseAd/>
-</div>
+   
 <p style={paragraphStyle}>
 For jewelry, I chose all gold, including vintage rings inherited from my mother and Tyler’s family’s wedding band. My Alex Monroe studs gifted from my Mother-in-law echoed the lace detailing on my gown’s neckline.
 </p>
@@ -527,14 +470,7 @@ A look at the DIY veil
 The second flower crown version using same DIY pinned flowers
    </p>
 
-   <div
-style = {{
-  margin : '10px auto'
-}}
->
-
-  <AdSenseAd/>
-</div>
+   
 <h2 style={headingStyle}>
 My Fairycore Bridesmaids
 </h2>
@@ -568,14 +504,7 @@ Choosing the Perfect Photographer
 
 Choosing a photographer was one of the hardest tasks in planning a wedding. Not only am I particular about how I photograph and my strong preference for soft lighting, but I also wanted to ensure I felt comfortable and relaxed. It was important to me to work with a fellow creative who would be collaborative about capturing the different shots I envisioned.
 </p>
-   <div
-style = {{
-  margin : '10px auto'
-}}
->
-
-  <AdSenseAd/>
-</div>
+   
 <p style={paragraphStyle}>
 All of these photos are by Shivani Sharma, <a href= "https://www.instagram.com/moderndayshivalry/?hl=en" target="_blank" rel="noreferrer">@moderndayshivalry</a> on Instagram. With her soft and chic photography style, our ceremony was captured beautifully with backlit lighting and trickles of sunlight for the most romantic images!
 </p>
@@ -630,14 +559,7 @@ Our ceremony was uniquely ours, as we tweaked some traditional elements to make 
   <img src={image36} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
   <img src={image37} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
 </div>
-   <div
-style = {{
-  margin : '10px auto'
-}}
->
-
-  <AdSenseAd/>
-</div>
+   
 <div style={gridContainerStyle}>
 
   <img src={image38} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
@@ -662,14 +584,7 @@ Since we had been legally married for two years but hadn’t had a wedding cerem
 <div style={gridContainerStyle}>
   <img src={image40} alt="Jackie Wyers Wedding Photography" style={imageStyle} />
 </div>
-   <div
-style = {{
-  margin : '10px auto'
-}}
->
-
-  <AdSenseAd/>
-</div>
+   
 
 <h2 style={headingStyle}>
 Sharing Our Photos
@@ -786,31 +701,10 @@ Thank you for reading and for being part of our journey and my life for so many 
 
       <Comments website-id={websiteId} page-id={"Fairytale-Wedding"} />
 
-         <div
-style = {{
-  margin : '10px auto'
-}}
->
+         
 
-  <AdSenseAd/>
-</div>
-
-   <div
-style = {{
-  margin : '10px auto'
-}}
->
-
-  <AdSenseAd/>
-</div>
-   <div
-style = {{
-  margin : '10px auto'
-}}
->
-
-  <AdSenseAd/>
-</div>
+   
+   
       
     </div>
     

@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet';
 import ReactGA from 'react-ga';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
-import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import ArticleTitle from '../../Components/ArticleTitle';
 import SocialShare from '../../Home/SocialShare';
@@ -276,9 +275,6 @@ fontStyle: 'italic',
     All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
 </p>
 
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
 
 <h2 style={headingStyle}>🐝 Perfume Profile</h2>
 
@@ -310,17 +306,11 @@ fontStyle: 'italic',
     Base Notes: <strong>Vanilla, Spices, Leather, Amber, Sandalwood, Palisander Rosewood</strong>
 </div>
 
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
 
 <p style={paragraphStyle}>
     Overall Scent Profile: Jicky is an enigmatic blend of vibrant top notes and a mysterious, deep base. Its opening is fresh and inviting, quickly evolving into a complex, spicy heart, and settling into a rich, warm embrace of <a href="https://www.fragrantica.com/notes/Vanilla-4.html" style={linkStyle} target="_blank" rel="noopener noreferrer">vanilla</a> and woods. This duality makes Jicky both refreshing and a comforting masterpiece.
 </p>
 
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
 
 <h2 style={headingStyle}>👧 Personal First Impressions</h2>
 <p style={paragraphStyle}>
@@ -335,9 +325,6 @@ fontStyle: 'italic',
     Jicky’s harmonious balance and warm, powdery essence make it a versatile and endearing fragrance. Penhaligon’s Trade Routes fragrances rank among my all-time favourites, and Jicky shares a similar boldness but is somewhat more affordable.
 </p>
 
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
 
 <p style={paragraphStyle}>
     This distinctive fragrance begins with light and feminine notes of lemon, and mandarin, eventually settling into a base of vanilla, spices, and sandalwood—some of my favorite base notes. Jicky not only holds historical significance, often considered the first modern perfume in history, but it also transcends trends with a fresh, warm, powdery finish. I recommend this fragrance for those seeking a mature scent. By that, I mean it might not have been my choice as a teenager, but in adulthood, it has become a cherished go-to fragrance I absolutely adore.
@@ -360,9 +347,6 @@ fontStyle: 'italic',
     Jicky often draws comparisons to other classic fragrances like Chanel No. 5, but remains in a category of its own due to its historical significance and unique composition. The fragrance retains a distinct character that is unmistakably Guerlain.
 </p>
 
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/557963?noHeader=true" title="Final Touches" />
 
@@ -376,9 +360,6 @@ fontStyle: 'italic',
     <em>Who Would Enjoy It:</em> Ideal for the fragrance connoisseur and the adventurous spirit, Jicky suits those who appreciate a fragrance with depth, history, and a powdery finish.
 </p>
 
-<div style={{ margin: '1rem auto' }}>
-  <AdSenseAd />
-</div>
 
 <p style={paragraphStyle}>
     <em>Conclusion:</em> Jicky by Guerlain has an enduring popularity which is a tribute to its timeless elegance and pioneering spirit. Sharon Tate has fabulous taste!

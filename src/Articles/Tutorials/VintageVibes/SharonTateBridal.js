@@ -4,7 +4,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
@@ -216,9 +215,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <DropCap1 text="Welcome back to Time Travel Tutorials - the series where we embrace the vintage vibes from the beauties of the past. In this edition, we're shining the spotlight on the stunning Sharon Tate. Renowned as an American actress and model, Tate left a lasting impression with her role in 'Valley of the Dolls' (1967). Hailed as Hollywood's most promising starlet of her time, Sharon's distinctive makeup, hair, and fashion sense continue to captivate and inspire women to this day." />
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
       <p style={paragraphStyle}>
         Today, we'll delve into her unique and playful bridal style, which embodies a vintage charm while remaining wonderfully contemporary for today's brides!
       </p>
@@ -243,9 +240,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
         Start with a well-moisturized face. Use a foundation that offers a natural, radiant finish. Sharon's look is all about a flawless but not overly matte complexion. A foundation like Charlotte Tilbury’s Light Wonder provides the perfect canvas.
       </p>
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <ResponsiveIframe src="https://shopmy.us/collections/public/490583?noHeader=true" title="Foundation Choices" />
 
       <h2 style={headingStyle}>Eyes, The Focal Point</h2>
@@ -265,9 +260,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/490744?noHeader=true" title="Lashes and Brows Products" />
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <h2 style={headingStyle}>Face Sculpting and Highlighting</h2>
       <p style={paragraphStyle}>
   Use a light hand to sculpt and contour the face, focusing on the cheekbones, jawline, and hairline. Sharon's look isn't about sharp contours but gentle, sun-kissed definition. Highlight the high points of your face with a soft, luminous highlighter.
@@ -304,9 +297,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </a>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/492227?noHeader=true" title="Wedding Dress Collection" />
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <h2 style={headingStyle}>Discover More Vintage-Inspired Looks</h2>
       <p style={paragraphStyle}>
   Discover more vintage-inspired bridal looks and time travel tutorials here on <a href="https://jackiewyers.beauty" target="_blank" rel="noopener noreferrer" style={linkStyle}>jackiewyers.beauty</a> & follow on IG @ <a href="https://www.instagram.com/jackiewyers/?hl=en" target="_blank" rel="noopener noreferrer" style={linkStyle}>Jackiewyers</a> for short form tutorials.

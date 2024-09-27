@@ -3,7 +3,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
@@ -258,9 +257,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       
       
-  <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+  
       
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <a href="https://www.instagram.com/p/Cs4LhepN6dc/?hl=en" target="_blank" rel="noopener noreferrer">
@@ -308,9 +305,7 @@ come on, Barbies, Let’s get glam!
       <div style={gridContainerStyle}>
       <img src={Barbie4} alt='Barbie Makeup Drawing' style={{ width: '100%', maxWidth: '650px' }} />
       </div>
-  <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+  
    
 
       <h2 style={headingStyle}>Preparation</h2>
@@ -376,9 +371,7 @@ Barbie Collab (still my favorite collection) or you can always use blush in
 the crease to cut down on products. 
 </p>
 
-  <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+  
 
 <p style={paragraphStyle}>
 If you are a fan of cute makeup with a beach aesthetic, Flower Knows
@@ -421,9 +414,7 @@ NYX’s makeup collab with Barbie for more pink lip combos!
   Voila! You are your own version of Mattel's iconic doll. Feel free to tone down or amp up the style to make it your own. See full tutorial linked at the beginning of the article for DIY costume ideas, or find more DIY inspirations at <a href="https://www.buzzfeed.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>BuzzFeed DIY</a>.
 </p> 
 
- <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+ 
 
 <p style={paragraphStyle}>
   Want to be featured on my site? Submit your recreation or version of this look to my Insta! I’d love to see you switch up your style with confidence!

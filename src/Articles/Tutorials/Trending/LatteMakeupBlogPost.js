@@ -3,7 +3,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import Helmet from'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
@@ -220,9 +219,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 
       <DropCap1 text="Hello, beauties! It's Jackie here with another trend report driven by the TikTok algorithm. The latte makeup look is all about embracing warm, tawny tones to create a '90s-inspired glam with a cozy vibe. Imagine a caramel-toned smokey eye, no foundation, faux freckles, and a milky lip. An artist whose work has been continuously referenced when creating this style of makeup is none other than Australia-based makeup artist Tanielle Jai. If you've ever shopped on Princess Polly and admired the campaign images with sultry, smokey makeup—that's all the makeup artisty of Tanielle Jai!" />
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
 <div style={gridContainerStyle}>
         <a href="https://www.instagram.com/p/CvFsHXNO7nf/?img_index=1" target="_blank" rel="noopener noreferrer">
           <img src={Latte2} alt='Detailed Latte Makeup' style={{ width: '100%', maxWidth: '650px' }} />
@@ -241,9 +238,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       
       </div>
 
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
       <h2 style={headingStyle}>The Base: Tanned and Natural</h2>
       <p style={paragraphStyle}>
   Applying self-tanner the night before can really help create a harmonious, warm canvas. Make sure you’ve moisturized the skin before makeup, and we are going with no foundation for this style, but I gave my skin a boost with <a href="https://www.charlottetilbury.com" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>Charlotte Tilbury Hollywood Flawless Filter</a> for a sheer glow with a hint of coverage.
@@ -256,9 +251,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <ResponsiveIframe src="https://shopmy.us/collections/public/493598?noHeader=true" title="Highlight and Contour Products" />
 
       
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
       <h2 style={headingStyle}>Yellow Based Bronzer</h2>
       <p style={paragraphStyle}>
         Unlike the typical warm, red-toned bronzers, this look calls for a yellow-based bronzer to add warmth to the skin and complement the caramel-toned eyeshadows coming up.
@@ -277,9 +270,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
   Next, add a brown liner pencil to rim the lash line and softly fade into the crease. The <a href="https://colourpop.com" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>ColourPop</a> lipliner I used called BFF 3 is really creamy and easy to blend for this step, plus it is lighter than most traditional eyeliners on the market, making it appear softer. Make sure you're not using the eyeliner on the lips and eyes and sanitize between uses if you do opt for a lipliner on the eyes!
 </p>
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
 <p style={paragraphStyle}>
   Continue by picking a palette that has warm matte and shimmer tones like <a href="https://www.onesizebeauty.com" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>ONE/SIZE BY PATRICK STARRR | Visionary Eyeshadow Palette</a> to deepen up the outer corner of the eye and add a bronzer shimmer to the lid to pick up the light.
 </p>
@@ -300,9 +291,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <ResponsiveIframe src="https://shopmy.us/collections/public/493609?noHeader=true" title="Brow Products" />
 
       
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
       <h2 style={headingStyle}>Lips & Finishing Touches</h2>
       <p style={paragraphStyle}>
   For the lips, over-line them with a medium-toned caramel brown shade, and blur out again for no harsh lines. Add a lip plumper for a fuller look in a milky pink or nude shade.
@@ -336,17 +325,9 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
     
       <Comments website-id={websiteId} page-id="latte" />
   
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
   
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
-  
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
     </div>
   );

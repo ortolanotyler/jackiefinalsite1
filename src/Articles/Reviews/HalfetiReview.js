@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import ArticleTitle from '../../Components/ArticleTitle';
 import NextArticle from '../../Components/NextArticleComponent';
@@ -300,9 +299,7 @@ const HalfetiReview = () => {
   </ul>
 </div>
 
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+ 
 
       <h2 style={headingStyle}>🗺️ Background Information</h2>
       <p style={paragraphStyle}>
@@ -315,32 +312,24 @@ const HalfetiReview = () => {
         Overall Scent Profile: Halfeti opens with a burst of citrus freshness, dominated by grapefruit and bergamot, before evolving into a spicy and floral heart. The base is warm and woody, with prominent notes of leather, oud, and amber, creating a rich and sophisticated scent that lingers on the skin.
       </p>
 
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+ 
 
       <h2 style={headingStyle}>🗺️ Personal First Impressions</h2>
       <p style={paragraphStyle}>
         My first encounter with Penhaligon's fragrances was when I received a tester set featuring a variety of scents from this iconic British perfume house. Among them, Halfeti stood out and quickly became a favorite for both my husband and I. As a unisex fragrance, it boasts a rich, exotic, and distinct aroma. The "Trade Routes" collection from Penhaligon's draws inspiration from various destinations, and although I've never visited Halfeti, Turkey, this particular fragrance transports me to what I imagine a warm and vibrant night bazaar might smell like.
       </p>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <p style={paragraphStyle}>
         Out of the many Penhaligon's perfumes I've tried, Halfeti is one that I've often chosen as a gift for other women, particularly older women as it is quite a mature scent, and it's the one I've personally depleted most frequently. Its uniqueness and relative obscurity often earn me compliments and inquisitive queries about the scent I'm wearing. I don’t gatekeep, but you sure can 😉
       </p>
 
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
       <p style={paragraphStyle}>
         I recommend visiting a Penhaligon’s boutique or your nearest Nordstrom or Saks Fifth Avenue to experience Halfeti for yourself. It might be challenging to envision how the enchanting combination of notes comes together, but they do so in a bold and alluring manner that is simply irresistible. You’ll smell expensive with this deeply rich scent, and that is what you pay for with Penhaligon’s!
       </p>
 
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+ 
 
       <h2 style={headingStyle}>❤️ Review & Recommendations</h2>
       <p style={paragraphStyle}>
@@ -355,18 +344,14 @@ const HalfetiReview = () => {
         <em>Occasions and Seasonality:</em> Halfeti's depth and warmth make it perfect for cooler seasons, and its boldness suits formal events or evenings when you want to make a statement.
       </p>
 
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+ 
 
       <h2 style={headingStyle}>⚖ Comparisons</h2>
       <p style={paragraphStyle}>
         Those who favor bold, oriental fragrances like Tom Ford's Oud Wood or Jo Malone's Oud & Bergamot might find a familiar allure in Halfeti. Yet, Penhaligon's offering stands out with its unique blend of Turkish florals and spices.
       </p>
 
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+ 
 
       <h2 style={headingStyle}>📝 Final Thoughts</h2>
       <p style={paragraphStyle}>
@@ -377,10 +362,7 @@ const HalfetiReview = () => {
         <strong>Value for Money:</strong> Given its complexity and longevity, Halfeti is a worthy indulgence for those who appreciate niche perfumery.
       </p>
 
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
-
+   
       <p style={paragraphStyle}>
         <strong>Who Would Enjoy It:</strong> A signature scent for the bold and adventurous, it's for those who aren't afraid to stand out. I personally feel like this is a more mature fragrance.
       </p>
@@ -417,15 +399,9 @@ const HalfetiReview = () => {
                     blogContent={blogContent}
                 />
       
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+ 
+ 
+ 
     </div>
   );
 };

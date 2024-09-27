@@ -4,7 +4,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
@@ -212,9 +211,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <DropCap1 text="Welcome back to my favorite series, Time Travel Tutorials, where we delve into the glamorous world of beauty icons from the past. Today's spotlight is on the mesmerizing Italian beauty, Sophia Loren. Born on September 20th, 1934, in Rome, Italy, Sophia Loren is a megastar in both Hollywood and Italian cinema. Her career, spanning over six decades, is a testament to her immense talent, charisma, and iconic makeup style, which continues to inspire admiration (and imitation) today." />
       
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
      
 <p style={paragraphStyle}>
   In this tutorial, we'll explore a timeless look inspired by her iconic pink towel scene in "<a href="https://www.imdb.com/title/tt0060758/" target="_blank" rel="noopener noreferrer" style={linkStyle}>Arabesque</a>." My goal is to inspire you with the best modern products that capture the vintage charm of Loren's era, making it possible for you to recreate this look. If you decide to give this tutorial a try, please be sure to tag me or send a photo to be featured on the blog! I'd love to see you in this glamorous style.
@@ -233,9 +230,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <div style={gridContainerStyle}>
       <img src={SophiaFace} alt="Sophia Loren's iconic look" style={{ width: '100%' }} />
       </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
       <p style={paragraphStyle}>
   Over the years, I’ve explored numerous 1960s makeup styles. While <a href="/twiggy" style={linkStyle}>Twiggy</a>, <a href="/yardley1965" style={linkStyle}>Jean Shrimpton</a>, and <a href="/sharontatebridal" style={linkStyle}>Sharon Tate</a> often sported an exaggerated, graphic crease to emphasize an oversized lid, Sophia was known for her double wing liner that created a very elongated, sexy cat eye. Let’s break down the entire look from the start!
 </p>
@@ -250,9 +245,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <ResponsiveIframe src="https://shopmy.us/collections/public/495255?noHeader=true" title="Foundation Choices" />
 
      
-       <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+       
 <p style={paragraphStyle}>
   For primer, I opted for the <a href="https://www.giorgioarmanibeauty-usa.com/makeup/face/primer/luminous-silk-hydrating-primer/ww-00381-arm.html" target="_blank" rel="noopener noreferrer" style={linkStyle}>Armani Beauty Luminous Silk Hydrating Primer</a>, (my favorite Italian brand) followed by <a href="https://www.rarebeauty.com/products/liquid-touch-weightless-foundation" target="_blank" rel="noopener noreferrer" style={linkStyle}>Rare Beauty’s Serum foundation</a> to even out the tan while offering lighter coverage, mirroring Loren's sun-kissed skin. I highlighted my chin and jawline with <a href="https://www.maybelline.com/face-makeup/concealer/instant-age-rewind-eraser-dark-circles-concealer-treatment" target="_blank" rel="noopener noreferrer" style={linkStyle}>Maybelline's Age Rewind Concealer</a>, focusing on the center of my face and cheekbones to really make the center of the face pop.
 </p>
@@ -265,9 +258,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <ResponsiveIframe src="https://shopmy.us/collections/public/495258?noHeader=true" title="Sculpting Products" />
 
     
-       <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+       
       <h2 style={headingStyle}>Old Hollywood Matte & Powdered Skin Finish</h2>
       <p style={paragraphStyle}>
   The overall makeup aesthetic in Old Hollywood emphasized a polished, meticulously crafted appearance, with matte skin providing the perfect canvas for dramatic eye makeup, sculpted eyebrows, and bold lip colors that defined the period's iconic beauty looks. Achieve the matte skin with loose powder on a puff! While dewy skin is super trendy now, giving a matte base a try can bring back that iconic glamour and make you feel like you're on the set of your own film.
@@ -281,9 +272,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
   Sophia Loren's eyes are her most captivating feature. Let’s frame them with full, arched, and elongated brows! Sophia’s brows appeared drawn on in small strokes, brushed upwards, similar to a brow tattoo or laminated brow style.
 </p>
-       <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+       
       <h2 style={headingStyle}>The Sophia Loren Double Winged Liner Cat Eye</h2>
       <p style={paragraphStyle}>
   The first step to achieve the iconic eye is to use a white gel liner to create a wing from the outer corner of the eye pulled outwards. Connect this wing to your waterline, also rimmed with white to open up the eyes.
@@ -291,16 +280,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <p style={paragraphStyle}>
   Select a deep neutral palette, with grays, browns, and taupes. I selected the <a href="https://www.dior.com/en_us/products/beauty-Y0145100-5-couleurs-couture-high-colour-eyeshadow-palette-long-wear-creaminess-comfort" target="_blank" rel="noopener noreferrer" style={linkStyle}>Dior 5 Couleurs Couture Eyeshadow Palette (649 Nude Dress)</a> and while some photos of Sophia’s signature eye look feature a charcoal gray (a deep, dark shade of gray close to black), in the "<a href="https://www.imdb.com/title/tt0060758/" target="_blank" rel="noopener noreferrer" style={linkStyle}>Arabesque</a>" scenes, it appeared more like a taupe (a warmer neutral, more of a gray-brown) through the lens.
-</p><div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+</p>
 
 <p style={paragraphStyle}>
   I took a rich taupe shadow smoked up from the lash line, softening the edges with a lighter shimmery taupe into the crease. Don’t forget to brighten up the brow bone to highlight the arched brow.
 </p>
-       <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+       
 <p style={paragraphStyle}>
   Using a matte black shadow, map out the double wing, both above and below the white liner closest to the lash line. Finish up with a bold gel liner for precision and lots of mascara to make the eyes pop.
 </p>
@@ -313,9 +298,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/495279?noHeader=true" title="Lash Products" />
-  <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+  
       <h2 style={headingStyle}>Lips and Cheeks: The Finishing Touches</h2>
       <p style={paragraphStyle}>
   For the lips, I chose a vibrant peachy pink shade from <a href="https://www.charlottetilbury.com/us/product/hot-lips-angel-alessandra" target="_blank" rel="noopener noreferrer" style={linkStyle}>Charlotte Tilbury called Sunset Lover</a>—a perfect match for a sun-kissed Italian beauty! This has sadly been discontinued, but a similar shade is <a href="https://www.charlottetilbury.com/us/product/hot-lips-angel-alessandra" target="_blank" rel="noopener noreferrer" style={linkStyle}>Charlotte Tilbury Hot Lips 3 Angel Alessandra</a>, which is slightly more nude. Sophia’s blush was subtle, so using the same lipstick as a bit of cream blush works perfectly. A pink gloss added the final touch of color.
@@ -334,9 +317,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   While this iconic look features a hot pink towel set (<a href="https://www.amazon.com/Microfiber-Towel-Towels-Straight-Turban/dp/B0CFSFMDNZ?crid=1WZ7PGN3WWST1&dib=eyJ2IjoiMSJ9.LBBHeFjdHjcdyl-K9Ri0R3jxF1nkWHhs-qSWdmipuZpqjJVU8u0CZDEW9u--BaVkOyRcijy1sMxBtYC5srxS9NZuq0nHTX86wLgCcfQFG-r-nLDrSkwFnR-Ia2yuq37YtO3SrN6ntId6uh_g9B0elbl6GtdVat3XfdgUNHkIkNvj9MCENm4IV17maozQH0fOAAm71UCKrgKgMyjMdohujLR2FAFwN6BdtKbK6TEv9HqgT89nBl35N8fMGVotiSwnVnqaYAn8VRHhzv_Kvv_ux5v3-1O4fu1PgCP6Y_GrUpY.UoArAOu8AUIyEF3LAarqE_5-yb-3x5JvedK1qzkwhVM&dib_tag=se&keywords=pink+towel+hair&qid=1716659839&sprefix=pink+towel+hai,aps,114&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=sl1&tag=jackiewyers-20&linkId=cc7cb899a314b1fb24348db4617d0913&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" style={linkStyle}>find a similar one on Amazon here</a>), you can also complete the look with a retro hairstyle, starting with a high ponytail and pin-curling into a bun for volume and style. See a mini tutorial by tapping the image below.
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   Whether you're a fan of Sophia Loren, a lover of the '60s, or just in search of some beauty inspiration, I hope you found this guide inspiring. Join me in celebrating the eternal elegance of Sophia Loren, and I can’t wait to create another Time Travel Tutorial for you.
@@ -346,9 +327,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   Want to be featured on my site? Submit your recreation or version of this look to me on Insta! I’d love to see you switch up your style with confidence!
 </p>
 
-       <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+       
       
 
       <NextArticle

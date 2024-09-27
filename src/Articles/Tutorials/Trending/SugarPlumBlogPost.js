@@ -3,9 +3,7 @@ import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
-import DropCap from '../../../Components/DropCap';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import InstagramEmbed from '../../../Components/InstagramEmbed';
@@ -209,9 +207,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <DropCap1 text="Welcome Back Beauties! Today, let's explore the enchanting Sugar Plum Fairy makeup trend, inspired by the classic Nutcracker ballet. This look is a dream for those who love a touch of whimsy in their style!" />
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
 <p style={paragraphStyle}>
   The trend originates from Hailey Bieber's <a href="https://www.tiktok.com/@haileybieber/video/7304057854896491819?lang=en" target="_blank" rel="noopener noreferrer" style={linkStyle}>TikTok tutorial</a>, where she flaunts a natural, skin-like base using minimal concealer and a sheer bronzer for contouring. The cheeks are flushed with cream and powder blush, creating a delightful rosy glow, complemented by faux freckles and highlighter. For the eyes, she opts for a glossy, shimmer-topped lid, neatly brushed-up brows, and a swipe of mascara. The look is completed with an overdrawn brown lip line, topped off with a sparkling pink gloss - her new <a href="https://www.rhodeskin.com/products/peptide-lip-treatment" target="_blank" rel="noopener noreferrer" style={linkStyle}>Rhode Peptide Lip Treatment in ‘Jelly Bean’</a>.
 </p>
@@ -242,9 +238,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   For foundation, aim for a natural look. I mix a bit of serum drops (<a href="https://www.giorgioarmanibeauty-usa.com/makeup/foundation/luminous-silk-foundation/3351.html" target="_blank" rel="noopener noreferrer" style={linkStyle}>Armani's Smart Moisture Serum</a>) with the <a href="https://www.giorgioarmanibeauty-usa.com/makeup/foundation/luminous-silk-foundation/3351.html" target="_blank" rel="noopener noreferrer" style={linkStyle}>Armani Luminous Silk Perfect Glow Flawless Foundation</a> to create a sheer base that still showcases the skin's natural beauty.
 </p>
 
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493631?noHeader=true" title="Skin Care and Foundation Products" />
 
@@ -260,9 +254,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
   I adore <a href="https://www.roseinc.com/products/solar-infusion-cream-bronzer" target="_blank" rel="noopener noreferrer" style={linkStyle}>Rose Inc Solar Infusion Moisturizing Cream Bronzer</a> for its creamy texture - it adds just the right amount of structure to the face when contouring with a light hand.
 </p>
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
 <p style={paragraphStyle}>
   As for brows, the <a href="https://www.winkylux.com/products/unibrow-pencil" target="_blank" rel="noopener noreferrer" style={linkStyle}>Unibrow by Winky Lux</a> is my go-to product, complemented with <a href="https://www.elfcosmetics.com/brow-lift/300217.html" target="_blank" rel="noopener noreferrer" style={linkStyle}>e.l.f. Brow Lift Gel</a> to keep them in place. Keep them brushed up inspired by Hailey!
 </p>
@@ -283,9 +275,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493646?noHeader=true" title="Eye Makeup Products" />
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <h2 style={headingStyle}>Final Touches: Lashes, Lips, and Setting the Look</h2>
       <p style={paragraphStyle}>
   Finish the eye makeup with mascara and lashes that complement the whimsical vibe. For an extra fairy-like touch, add gems from <a href="https://www.halfmagicbeauty.com/products/face-gems" target="_blank" rel="noopener noreferrer" style={linkStyle}>Half Magic</a> in the inner corner of the eye, and decorate around the eyes — they're super fun and perfect for a New Year's Eve celebration. <a href="https://www.rarebeauty.com/products/highlighter" target="_blank" rel="noopener noreferrer" style={linkStyle}>Rare Beauty's Enchant Highlighter</a> complements all the pink and silver tones beautifully.
@@ -304,9 +294,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
   What's your take on this trend? What variations have you experimented with? Share your thoughts and favorite products in the comments below!
 </p>
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
 
 
 
@@ -325,13 +313,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </div>
 
       <Comments website-id={websiteId} page-id="SugarPlumBlogPost" />
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div><div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div><div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
     </div>
   );
 

@@ -1,10 +1,8 @@
 import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import TextReveal from '../../Components/TextReveal';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeVlog from '../../Components/SubscribeVlog';
-import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
@@ -269,14 +267,7 @@ const captionStyle = {
                 <img src={images[0]} alt="Maui room 1" style={imageStyle} />
                 <img src={images[1]} alt="Maui room 2" style={imageStyle} />
             </div>
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+            
             <h2 style={headingStyle}> 🫖 Room Options and Accommodations</h2>
             <p style={paragraphStyle}>
          
@@ -305,14 +296,7 @@ The on-site restaurant, Cooke's, offers exceptional dining experiences, with a f
                 <img src={images[6]} alt="Maui room 1" style={imageStyle} />
                 <img src={images[7]} alt="Maui room 2" style={imageStyle} />
             </div>
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+            
 
 <h2 style={headingStyle}>      
     💵 Cost Considerations: Pros and Cons
@@ -364,14 +348,7 @@ the best we've ever had. The restaurant's elegant setting and diverse menu made 
                 <img src={images[12]} alt="Maui room 1" style={imageStyle} />
                 <img src={images[13]} alt="Maui room 2" style={imageStyle} />
             </div>
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+            
 
          <p style={paragraphStyle}>
          Major attractions like the Auckland Zoo, Winter Gardens, Auckland Museum, and Mount Eden are all about 15 minutes away by uber, making it easy to explore the best of what Auckland has to offer.
@@ -427,14 +404,7 @@ Thank you for joining me to see the enchanting Fable Auckland. I’d love to hea
 <img src={signature} alt="Maui room 1" style={imageStyle} />
 </div>
 
-<div
-style = {{
-  margin : '20px'
-}}
->
 
-  <AdSenseAd/>
-</div>
      
       <Comments website-id={websiteId} page-id={"FableMcNableStrizz"} />
     </div>

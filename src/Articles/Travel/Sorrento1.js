@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import AdSenseAd from '../../Advertising/Ads';
 import SubscribeButton from '../../Components/SubscribeButton';
 import { initGA, logPageView } from '../../analytics';
 import { Helmet } from 'react-helmet';

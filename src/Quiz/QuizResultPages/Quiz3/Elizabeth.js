@@ -6,7 +6,6 @@ import { Helmet } from 'react-helmet';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import TextReveal from '../../../Components/TextReveal';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../../Advertising/Ads';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 import ArticleTitle from '../../../Components/ArticleTitle';
 
@@ -198,9 +197,7 @@ Imagine celebrating your special day on an enchanted terrace surrounded by lush 
    <img src={image4} alt="Jackie Wyers Wedding Percy Dress" style={imageStyle} />
  </div>
 
- <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+
 
 
 
@@ -226,9 +223,7 @@ Dress Features: Look for gowns with romantic lace details, large flowing skirts,
    <img src={image5} alt="Jackie Wyers Wedding Ora Dress" style={imageStyle} />
  </div>
 
- <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+
 <h2 style = {headingStyle}>
 Bridal Muse:
 
@@ -253,11 +248,7 @@ Channel the romantic and ethereal elegance of Christine Daaé from The Phantom o
 
       <Comments website-id={websiteId} page-id={"quiz3"} />
 
-      <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div><div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+   
     </div>
   );
 

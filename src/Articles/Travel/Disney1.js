@@ -4,7 +4,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
@@ -250,9 +249,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 
            
-         <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+         
            
 <h2 style={headingStyle}>🌟 First Impression: Beach Club Resort</h2>
 <p style={paragraphStyle}>
@@ -263,9 +260,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   This resort is a deluxe option, so it comes with a higher price tag. Check prices as they fluctuate greatly depending on the time of year, ranging from <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/beach-club-resort/rates-rooms/" target="_blank" rel="noreferrer">390 USD to 990 USD</a> 😳 a night.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
   <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
@@ -285,9 +280,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   For the price tag, I’ve seen several complaints about being disappointed by the interior decor. However, I feel it still captures a nostalgic beach vibe, and I doubt you’ll spend too much time in the room with all there is to do! The other resort we considered but was out of our budget was the <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/polynesian-village-resort/" target="_blank" rel="noreferrer">Polynesian Village Resort</a>. This may be a better option for you if the room theme matters a lot for your experience, it features a tropical aesthetic rather than a beach cottage.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>🛥 Unique Amenities and Shared Experiences with Yacht Club</h2>
 <img src={beachclub2} alt='Disney Yacht Club' style={imageStyle} />
@@ -301,9 +294,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   The <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/beach-club-resort/" target="_blank" rel="noreferrer">Beach and Yacht Club resorts</a> both offer activities like movies under the stars, tennis, volleyball, campfires, and different watercraft rentals for enjoyment on <a style={linkStyle} href="https://disneyworld.disney.go.com/recreation/boating/" target="_blank" rel="noreferrer">Crescent Lake</a>. You can also enjoy state-of-the-art fitness centers and book spa services for relaxation.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>🍹 Storm-Along Bay Pool, Hurricane Hannah’s Waterside Bar & Grill</h2>
 <p style={paragraphStyle}>
@@ -321,9 +312,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   Our evening continued with a leisurely walk along the beach, where we enjoyed the sunset from swings and strolled down the lively <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/boardwalk/" target="_blank" rel="noreferrer">Disney BoardWalk</a>.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   If <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/epcot/" target="_blank" rel="noreferrer">Epcot</a> is on your park bucket list, it is only a 5-10 minute walk from the resort. You can also take a quick boat ride to the park.
@@ -332,9 +321,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   For <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/hollywood-studios/" target="_blank" rel="noreferrer">Hollywood Studios</a> (the second closest park) you can walk along a scenic path that takes about 15 to 20 minutes or catch the Skyliner to other parks like <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/disneys-riviera-resort/" target="_blank" rel="noreferrer">Disney’s Riviera Resort</a>.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>🍦 A Final Dessert at Beaches & Cream Soda Shop</h2>
 <p style={paragraphStyle}>
@@ -344,9 +331,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   The ice cream shop is often booked up if you don’t reserve a table in advance, but luckily there is a window shop where you can get many of the items without a long wait time.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>🌊 Walt Disney World Resort Comparison for a Nautical Experience</h2>
 
@@ -371,9 +356,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
             <img src={signature} alt='Jackie Wyers Signature' style={{ width: '100%' }} />
 
 
-         <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+         
 
             <div style = {{padding: '1rem 2rem'}}>
             <Comments website-id={websiteId} page-id={"beachclubresort"} />
@@ -392,15 +375,9 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
                     blogContent={blogContent}
           
                 />
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
+
+
 
             </div>
             

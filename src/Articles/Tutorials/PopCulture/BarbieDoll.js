@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import { initGA, logPageView } from '../../../analytics';
-import AdSenseAd from '../../../Advertising/Ads';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
@@ -301,9 +300,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
 </p>
 
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 
 <p style={paragraphStyle}>
@@ -318,9 +315,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
 <p style={paragraphStyle}>
   Recreate the dreamy style of Peaches ‘N Cream Barbie, one of the most iconic dolls of the 80s, known for her soft pastel palette and glamorous, romantic vibe. Peaches ‘N Cream Barbie became an instant classic with her stunning chiffon gown, delicate accessories, and unforgettable makeup, making her one of the most beloved and sought-after Barbies of all time. For my rendition of this look, I drew inspiration from the doll’s pastel purple eyeshadow, coral-orange cheeks, and lips, and for the hair, I pulled inspiration from the vintage Barbie illustration by the late Mary Christine Tuveson (Chris Tuveson) as seen on the new Stanley x Barbie Just Peachy packaging. Together, these influences create a style that echoes the 60s, reminiscent of Sharon Tate’s beautiful bridal look. See a breakdown of this look here—one of my favourites!
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <div style={{ position: 'relative', display: 'inline-block' }}>
 <img 
@@ -362,9 +357,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
 <p style={captionStyle}>
   Soft curls, pastel purple eyeshadow, peachy cheeks and lips, delicate pink bows, and floral accents.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={heading2Style}>
   Shop The Barbie, Shop The Style:
@@ -412,9 +405,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={heading2Style}>
   Watch My Take on Roller Skate Barbie’s Makeup Here:
@@ -434,9 +425,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
 <p style={captionStyle}>
   Pink lips, defined eyes and brows, voluminous hair with a visor, and bright neon accessories.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={heading2Style}>
   Shop The Barbie, Shop The Style:
@@ -574,9 +563,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
   src="https://shopmy.us/collections/public/832128?noHeader=true"
   title="Brunette Barbicore Aesthetic Hair and Makeup Collection"
 />
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>
   🧴 🏄 Malibu Barbie Aesthetic 🧴 🏄
@@ -611,9 +598,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   I even tried this look with my own sandy brunette twist using the ColourPop x Malibu Barbie collection—though the video is hidden on YouTube because my tan developed a bit too dark but I’ve embedded it here anyways! Malibu Barbie is a timeless favorite for anyone who loves a breezy, beachy, California cool look.
@@ -639,9 +624,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
   src="https://shopmy.us/collections/public/832187?noHeader=true"
   title="Malibu Barbie Beachy Makeup and Accessories Collection"
 />
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>
   🖤 💋 The Original Barbie Aesthetic 💋 🖤
@@ -726,9 +709,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
   src="https://shopmy.us/collections/public/832227?noHeader=true"
   title="The Original Barbie Makeup and Retro Fashion Collection"
 />
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 
 

@@ -8,7 +8,6 @@ import HeroSection from './HeroSection';
 import HorizontalLine from '../Components/HorizontalLine';
 import NewsletterSlider from '../Components/NewsletterSlider';
 import TextBanner2 from '../Components/TextBanner2';
-import AdSenseAd from '../Advertising/Ads';
 
 const RotatingText = lazy(() => import('../Navigation/AppBar/RotatingText'));
 const ShopMyHero2 = lazy(() => import('./ShopMyHero2'));
@@ -315,7 +314,7 @@ isFlipped={true}
 
   
      
-<AdSenseAd/>
+
 
 
 

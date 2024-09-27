@@ -2,7 +2,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import { initGA, logPageView } from '../../../analytics';
-import AdSenseAd from '../../../Advertising/Ads';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import { Helmet } from 'react-helmet';
@@ -10,7 +9,6 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import HorizontalLine from '../../../Components/HorizontalLine';
 import SocialShare from '../../../Home/SocialShare';
 
 
@@ -404,9 +402,7 @@ const captionStyle = {
         src="https://shopmy.us/collections/public/835212?noHeader=true"
         style={{ width: '100%', minHeight: '1200px', border: 'none' }}>
       </ResponsiveIframe>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
       <h2 style={headingStyle}>Achieving Rory Gilmore’s Hairstyles 🤎</h2>
 
       <p style={paragraphStyle}>
@@ -456,9 +452,7 @@ const captionStyle = {
         src="https://shopmy.us/collections/public/835244?noHeader=true"
         style={{ width: '100%', minHeight: '1200px', border: 'none' }}>
       </ResponsiveIframe>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
       <p style={paragraphStyle}>
         Tip: Try thrifting Y2K Ralph Lauren sweaters from Postmark, Ebay, or local thrift stores!
       </p>
@@ -472,9 +466,7 @@ const captionStyle = {
         src="https://shopmy.us/collections/public/835289?noHeader=true"
         style={{ width: '100%', minHeight: '1200px', border: 'none' }}>
       </ResponsiveIframe>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
       <p style={paragraphStyle}>
         Accessorize with Simplicity: Keep jewelry minimal and dainty, just like Rory would. A small choker or a set of stud earrings adds the perfect touch without overwhelming the look. Try a casual tote bag, converse sneakers and loafers for a daily look.
       </p>
@@ -488,9 +480,7 @@ const captionStyle = {
       <p style={paragraphStyle}>
         Bookish Vibes: No Rory-inspired look is complete without a good book! Whether it’s a classic novel or your favorite coffee shop read, having a book in hand is the ultimate Rory accessory. Pair it with a cute tote bag that can carry all your essentials (and maybe a coffee or two from Luke’s).
       </p>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
       <h2 style={headingStyle}>Visiting Stars Hollow: A Trip to Unionville, Ontario ☕</h2>
 
       <div style={{ position: 'relative', display: 'inline-block' }}>
@@ -526,9 +516,7 @@ const captionStyle = {
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/x4l6my8HOQQ?si=RmbrmrfLPPj25tGA" title="visiting the real STARS HALLOW!💫 ☕️ 📚 #gilmoregirls" />
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
       <h2 style={headingStyle}>The Final Look: Your Rory Gilmore Fall Vibe 🍂</h2>
 
       <p style={paragraphStyle}>
@@ -540,9 +528,7 @@ const captionStyle = {
       </p>
 
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 
 

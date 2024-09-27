@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react';
 import TextReveal from '../../Components/TextReveal';
 import { Link, Typography, Box } from '@mui/material';
 import styles from './AboutHero.module.css'; // Importing the CSS module
-import AdSenseAd from '../../Advertising/Ads';
 
 const PinkLeather = () => {
   const iframeRef = useRef(null);
@@ -80,9 +79,7 @@ const PinkLeather = () => {
           ref={iframeRef}
         ></iframe>
       </div>
-      <div style={{ margin: '20px' }}>
-        <AdSenseAd />
-      </div>
+     
     </div>
   );
 };

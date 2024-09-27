@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import AdSenseAd from '../../Advertising/Ads';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import { initGA, logPageView } from '../../analytics';
 import { Helmet } from 'react-helmet';
@@ -278,9 +277,7 @@ Hotel Quintessence is perfectly situated across the street from the charming Mon
 <div style={gridContainerStyle}>
     <img src={image3} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
 </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
 Throwback to Winter in Mont Tremblant!   </p>
@@ -300,9 +297,7 @@ The hotel's grounds are magnificent, with every room offering stunning views of 
 
     <img src={image7} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
 </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style = {headingStyle}>☕ Room Options and Accommodations</h2>
 
@@ -387,9 +382,7 @@ Our mornings started with Nespresso in the room and news on the big screen TV. O
     <img src={image22} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
     <img src={image23} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
 </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <div style={gridContainerStyle}>
 <img src={image24} alt="Hotel Quintessance Review in the Summer Time" style={imageStyle} /> 
 </div>
@@ -451,9 +444,7 @@ One of the best tools for booking hotels is Plannin.com, where creators like me 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
                 <BookNowButton href="https://go.shopmy.us/p-6594014" target="_blank" rel="noopener noreferrer"/>
             </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style = {paragraphStyle}>
 Are you Canadian or have you traveled in Canada? Let me know if there are any beautiful locations I should check out next. Thank you for reading!
@@ -485,9 +476,7 @@ Overall, this trip was the perfect pre-wedding relaxation for Tyler and me, and 
       </div>
 
       <Comments website-id={websiteId} page-id={"Hotel-Quintessance-Summer2"} />
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
 
       

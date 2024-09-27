@@ -3,7 +3,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import { Helmet } from 'react-helmet';
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
@@ -205,9 +204,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <DropCap1 text="Welcome back for another Time Travel Tutorials, the series where we celebrate and recreate the iconic beauty looks of the past. This edition is dedicated to Grace Kelly, a beacon of Old Hollywood elegance and a true silver screen legend. Grace Kelly, known for her roles in 'Rear Window' and 'To Catch a Thief' captivated audiences with her poised performances and became a real-life princess when she married Prince Rainier III of Monaco." />
-    <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+   
 
 <div style={gridContainerStyle}>
         <img src={image1} alt="Jackie Wyers as Grace Kelly" style={{ width: '100%', maxWidth: '650px' }} />
@@ -222,9 +219,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
   Grace’s look was all about soft, subtle enhancements that echoed her persona both on-screen and off. She favoured a silver/grey palette for the eyes, soft contour for her high cheekbones using two shades of blush, full, arched brows and classic red lips. Let’s get the starlet’s look!
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
       <h2 style={headingStyle}>Radiant, Flawless Base</h2>
      <p style={paragraphStyle}>
@@ -238,9 +233,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
   Grace Kelly's approach to contouring was subtle yet effective, creating natural shadows that enhanced her bone structure without looking overly sculpted. She used two blush shades: a deeper, cooler tone beneath the cheekbone and a brighter shade on the cheeks.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   To achieve a similar transformation, I incorporated a few additional steps. First, I applied <a href="https://yensa.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>YENSA Super Serum Silk Concealer</a> for subtle highlighting, which is excellent for brightening under the eyes. Next, the <a href="https://www.makeupforever.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Makeup Forever (MUFE) cream contour</a> helped sculpt high cheekbones.
 </p>
@@ -250,9 +243,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/524546?noHeader=true" title="Grace Kelly Powder Blush Recommendations" />
      
-    <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+   
       <h2 style={headingStyle}>Brows Are Essential</h2>
       <p style={paragraphStyle}>
   Grace Kelly's eyebrows were full and elegantly arched, with the tails extending nearly to the temples. This style frames the eyes exquisitely. Unlike <a href="https://en.wikipedia.org/wiki/Audrey_Hepburn" target="_blank" rel="noopener noreferrer" style={linkStyle}>Audrey Hepburn's</a> brows, which arched upwards, Grace's brows are perfect for those whose natural brows have a downward trajectory.
@@ -267,17 +258,13 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/524548?noHeader=true" title="Grace Kelly Inspired Eyebrow Glam" />
   
-    <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+   
       <h2 style={headingStyle}>Eyes – Silver and Grey Tones</h2>
      
 <p style={paragraphStyle}>
   In the inspiration photo I selected, Grace Kelly's complexion radiates a warm, slightly sun-kissed glow, and her hair is tinted a warm blonde. This warm undertone doesn't preclude the use of cool-toned greys on the eyes—it actually complements them! Let's aim for a subtly defined look.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   I applied grey and silver shades from the <a href="https://www.victoriabeckhambeauty.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Victoria Beckham Beauty Smoky Eye Brick in Tuxedo</a>—a luxurious palette perfectly suited for this style. Simply sweep across the lid and try not to bring the colour too far into the crease.
 </p>
@@ -287,9 +274,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/524549?noHeader=true" title="Grace Kelly inspired palettes and powders" />
      
-    <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+   
       <h2 style={headingStyle}>Subtle Lashes</h2>
       <p style={paragraphStyle}>
   A curling and lengthening mascara completes the eye makeup, enhancing the lashes in a way that stays true to Grace’s minimal yet effective makeup style. If you're aiming for a more dramatic 50s makeup style, consider <a href="https://en.wikipedia.org/wiki/Marilyn_Monroe" target="_blank" rel="noopener noreferrer" style={linkStyle}>Marilyn Monroe’s</a> iconic lash style to elevate this classic red lip look even further.
@@ -301,9 +286,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/524550?noHeader=true" title="Grace Kelly Red Lip Product Recommendations" />
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
 
       <h2 style={headingStyle}>Grace Kelly's Signature Beauty Products: Quick Reviews!</h2>
       <p style={paragraphStyle}>
@@ -319,9 +302,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/524553?noHeader=true" title="CREED | Fleurissimo Eau de Parfum" />
      
-    <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+   
 <p style={paragraphStyle}>
   Another beauty tip from Grace Kelly emphasizes the importance of hand cream. She famously stated, “a woman's age shows on her hands much quicker than anywhere else.” While I personally appreciate the beauty of aged hands, it’s always beneficial to stay moisturized! For a hand cream fit for royalty, try <a href="https://www.loccitane.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>L’OCCITANE Youth Hand Cream</a>.
 </p>
@@ -339,9 +320,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/524555?noHeader=true" title="Grace Kelly Black And White 1950s Dress Rear Window Costume" />
 
-    <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+   
 <p style={paragraphStyle}>
   Can’t go wrong with a simple set of pearls to complete the look or add a touch of class to an everyday style. If you are a big Grace Kelly fan, you might also be interested in the <a href="https://barbie.mattel.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Grace Kelly Barbie</a> for adult collectors, or the various books available to celebrate her life, legacy and style.
 </p>
@@ -370,9 +349,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       imgStyle={{ borderRadius: '10px' }} // customize as needed
     />
 
-    <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+   
     
 
       <div>
@@ -386,12 +363,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </div>
 
       <Comments website-id={websiteId} page-id={'Grace-Kelly'} />
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
+
 
     </div>
   );

@@ -5,7 +5,6 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
 
 
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
@@ -213,9 +212,7 @@ const Card = ({ blogContent }) => (
       </p>
 
       <DropCap1 text="Welcome back, beauties! Let's break down the incredible (and uber-viral) Porcelain Doll makeup looks by Pat McGrath & team, created for the Maison Margiela Spring/Summer '24 runway extravaganza. In a display of sheer genius, Pat McGrath and her team devised a groundbreaking technique, meticulously layering and airbrushing several peel-off masks over the makeup for a truly haute-couture spectacle, creating live porcelain dolls to grace the runway." />
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
       
 <p style={paragraphStyle}>
   The <a href="https://www.tiktok.com" style={linkStyle} target="_blank" rel="noopener noreferrer">TikTok beauty community</a> was buzzing with speculation about how the iconic <a href="https://www.patmcgrath.com" style={linkStyle} target="_blank" rel="noopener noreferrer">Pat McGrath</a> achieved such doll-like skin perfection prior to Pat’s Masterclass over the weekend - and astoundingly, <a href="https://www.instagram.com/erinparsonsmakeup/" style={linkStyle} target="_blank" rel="noopener noreferrer">Erin Parsons</a>—a celebrated makeup artist and makeup historian in her own right—hit the nail on the head with her prediction of this inventive technique.
@@ -225,9 +222,7 @@ const Card = ({ blogContent }) => (
   As I watched the <a href="https://www.maisonmargiela.com" style={linkStyle} target="_blank" rel="noopener noreferrer">Margiela Masterclass</a> this Saturday, I was glued to my screen, attentively watching and simultaneously recreating one of my favorite looks from the show as seen above. Here’s the scoop on what I learned and a step-by-step account of how I transformed myself into a hauntingly beautiful, poetic Victorian doll. Tap image below to be taken to my <a href="https://jackiewyers.beauty/mini-tutorials" style={linkStyle} target="_blank" rel="noopener noreferrer">mini tutorial</a>.
 </p>
 
- <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+ 
       <a href="https://www.instagram.com/jackiewyers/reel/C24-VgZOcOl/" target="_blank" rel="noopener noreferrer">
         <img src={Pat2} alt="Pat McGrath Double" style={{ width: '100%' }} />
       </a>
@@ -237,35 +232,27 @@ const Card = ({ blogContent }) => (
       </p>
 
       <img src={Pat3} alt='Pat McGrath Face Chart' style={{ width: '100%', height: 'auto' }} />
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
       <h2 style={headingStyle}>Preparation and Base</h2>
       <p style={paragraphStyle}>
   In the masterclass, it was demonstrated that <a href="https://www.patmcgrath.com/products/divine-skin-rose-001-the-essence" style={linkStyle} target="_blank" rel="noopener noreferrer">PAT MCGRATH LABS | Divine Skin Rose 001 The Essence</a> was applied to ensure hydration and longevity of makeup, along with the <a href="https://www.patmcgrath.com/products/skin-fetish-sublime-perfection-primer" style={linkStyle} target="_blank" rel="noopener noreferrer">Skin Fetish: Sublime Perfection Primer</a>. For models with paler complexions, a white shade from <a href="https://us.kryolan.com/product/486/ultra-foundation" style={linkStyle} target="_blank" rel="noopener noreferrer">Kryolan</a> was mixed into the <a href="https://www.patmcgrath.com/products/skin-fetish-sublime-perfection-foundation" style={linkStyle} target="_blank" rel="noopener noreferrer">Skin Fetish: Sublime Perfection Foundation</a> and <a href="https://www.patmcgrath.com/products/skin-fetish-sublime-perfection-concealer" style={linkStyle} target="_blank" rel="noopener noreferrer">Concealer</a> to enhance the porcelain effect.
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/494232?noHeader=true" title="Pat McGrath Products" />
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
       
 
 <p style={paragraphStyle}>
   Models with deeper complexions kept their skin tone true to themselves, allowing each model to personify a unique porcelain doll in a makeup look that was flattering on each person. The face wasn't powdered after foundation, as the airbrushed peel-off mask adhered better to cream-based products. However, the <a href="https://www.patmcgrath.com/products/skin-fetish-sublime-perfection-blurring-under-eye-powder" style={linkStyle} target="_blank" rel="noopener noreferrer">Skin Fetish: Sublime Perfection Blurring Under-Eye Powder</a> was used for setting the area directly under the eyes. A new light pink powder was teased on the live, which is worth trying upon its release!
 </p>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
       <p style={paragraphStyle}>
         The face wasn't powdered after foundation, as the airbrushed peel-off mask adhered better to cream-based products. However, the Skin Fetish: Sublime Perfection Blurring Under-Eye Powder was used for setting the area directly under the eyes. A new light pink powder was teased on the live, which is worth trying upon its release!
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/494244?noHeader=true" title="Pat McGrath Products" />
 
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
       <h2 style={headingStyle}>Blushing Dolls</h2>
       <p style={paragraphStyle}>
@@ -275,9 +262,7 @@ const Card = ({ blogContent }) => (
       <ResponsiveIframe src="https://shopmy.us/collections/public/494255?noHeader=true" title="Pat McGrath Products" />
 
       
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
       <h2 style={headingStyle}>Brows & Painterly Eyes</h2>
       <p style={paragraphStyle}>
         The models all had bleached brows, but for my version, I did the block-out brow method by using purple Elmer's glue. <a href="https://www.youtube.com/watch?v=gGbiXF2ohr0" target="_blank" rel="noopener noreferrer" style={{ color: 'black' }}>See this drag technique here</a> if you want a breakdown!
@@ -288,9 +273,7 @@ const Card = ({ blogContent }) => (
       <p style={paragraphStyle}>
   For the eyeshadow, dimension was emphasized on the inner and outer portion of the lid. <a href="https://www.patmcgrath.com/products/permagel-ultra-glide-eye-pencil-blk-coffee" style={linkStyle} target="_blank" rel="noopener noreferrer">Blk Coffee Liner</a> was applied as a base, smudging it with a finger for a softer effect. The <a href="https://www.patmcgrath.com/products/mothership-i-eyeshadow-palette-subliminal" style={linkStyle} target="_blank" rel="noopener noreferrer">Mothership I Eyeshadow Palette in Subliminal</a> was frequently used behind the scenes. However, I thought the <a href="https://www.patmcgrath.com/products/mothership-vi-eyeshadow-palette-midnight-sun" style={linkStyle} target="_blank" rel="noopener noreferrer">Mothership VI Eyeshadow Palette in Midnight Sun</a>'s grungy green, champagne, gold, and taupe shades were quite fitting for my inspired look.
 </p>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
       <p style={paragraphStyle}>
         The Mothership I Eyeshadow Palette in Subliminal was frequently used behind the scenes. However, I thought the Mothership VI Eyeshadow Palette in Midnight Sun's grungy green, champagne, gold, and taupe shades were quite fitting for my inspired look.
       </p>
@@ -306,9 +289,7 @@ const Card = ({ blogContent }) => (
       <p style={paragraphStyle}>
   For the lips, start with a deeper lip liner, blending through the center of the parted lips. Then, using Pat's finger-blurring technique, apply <a href="https://www.patmcgrath.com/products/mattetrance-lipstick-guinevere" style={linkStyle} target="_blank" rel="noopener noreferrer">MatteTrance Lipstick in Guinevere</a>, a crimson shade, focusing on the center to mimic a porcelain doll's lips. For those inspired by a model with fuller lips, try lining the entire lip and patting on the lipstick from there. Slightly blurring the edges was recommended to soften the overall appearance if you go this route!
 </p>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
       <p style={paragraphStyle}>
         While each model presented a unique look, the key was to avoid harsh lines, embracing a more blurred, theatrical aesthetic.
       </p>
@@ -316,9 +297,7 @@ const Card = ({ blogContent }) => (
       <ResponsiveIframe src="https://shopmy.us/collections/public/494266?noHeader=true" title="Pat McGrath Products" />
 
       
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
       <h2 style={headingStyle}>Iconic Glass Skin</h2>
       <p style={paragraphStyle}>
         For the base look, it was shown that a water-based adhesive should be applied in strategic areas (underneath the chin, around the nose, from the nose bridge to under the eye) to ensure the makeup's durability for over three hours with the mask on top!
@@ -348,9 +327,7 @@ const Card = ({ blogContent }) => (
       <ResponsiveIframe src="https://shopmy.us/collections/public/494282?noHeader=true" title="Pat McGrath Products" />
 
       
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
       <h2 style={headingStyle}>A New Pat McGrath Labs Product Coming Soon?</h2>
       <p style={paragraphStyle}>
   This iconic look, three years in the making, was crafted to experiment and find an amazing glazing effect that would bring porcelain doll skin to life. Pat teased a new <a href="https://www.patmcgrath.com" style={linkStyle} target="_blank" rel="noopener noreferrer">Pat McGrath Labs</a> product coming soon that will provide this effect, eliminating the need to create a mix. Stay tuned!
@@ -371,13 +348,7 @@ const Card = ({ blogContent }) => (
       </div>
      
       <Comments website-id={websiteId} page-id="PatMcGrathhy" />
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div><div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div><div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
     </div>
   );
 

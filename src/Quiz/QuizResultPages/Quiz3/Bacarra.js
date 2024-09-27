@@ -5,7 +5,6 @@ import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../../Advertising/Ads';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 import ArticleTitle from '../../../Components/ArticleTitle';
 
@@ -251,9 +250,7 @@ Imagine saying your vows in an enchanted garden surrounded by lush greenery and 
    <img src={image3} alt="Jackie Wyers Wedding Bacarra Dress" style={imageStyle} />
  </div>
 
- <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+
 
 <h2 style = {headingStyle}>
 Wedding Ideas:
@@ -280,9 +277,7 @@ Dress Features: Look for dresses with romantic lace details, flowing skirts, and
    <img src={image4} alt="Jackie Wyers Wedding Bacarra Dress" style={imageStyle} />
  </div>
 
- <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+
 <h2 style = {headingStyle}>
 Bridal Muse:
 
@@ -308,11 +303,7 @@ Bridal Muse:
       <Comments website-id={websiteId} page-id={"quiz3"} />
 
    
-      <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div><div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>  
+ 
       
     </div>
     

@@ -5,7 +5,6 @@ import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../../Advertising/Ads';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 import DropCap1 from '../../../Articles/Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
@@ -276,9 +275,7 @@ style = {{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}
 <h3 style={{textAlign:'center', margin: '10px'}}>
 Check out <a style = {{color:'black'}}href = 'https://natalierosebridal.co.nz/' target="_blank" rel="noreferrer">Natalie Rose Bridal</a> ! </h3>
 
-<div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+
 <p style={paragraphStyle}>
 <a style = {{color:'black'}} href= "https://evalendel.com/" target="_blank" rel="noreferrer">Eva Lendel</a> is one of the biggest names in bridal fashion, and I fell in love with so many dresses from the <a style = {{color:'black'}} href="https://evalendel.com/lessismore2023/" target="_blank" rel="noreferrer">Less Is More III</a> collection. You’ll have to let me know which dress is your favorite out of the bunch, and keep reading to see which dress I chose from a new label that really captured the fairytale vibe I was going for. I’ve also put together different bridal themes I personally think each dress could suit best.
 
@@ -293,9 +290,7 @@ Be sure to take the fun quiz I've created to see which dress I think you would l
 <TakeQuizButton />
 </div>
 
-<div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+
 
 <h2 style = {headingStyle}>
     Bacarra
@@ -319,9 +314,7 @@ Theme: Fairytale Wedding or Bohemian Wedding
  The Bacarra dress features a lace-up A-silhouette design with cold-shoulder lace sleeves and a split skirt that naturally creates folds over the delicate lace under gown. This dress is perfect for a fairytale theme with its delicate, feminine, and sweet look, yet still shows off the shoulders for a bit of skin and a flirty look. If I didn’t choose my fairytale gown, this would have been my next choice. With different styling, I also think this gown would be lovely for a Bohemian Wedding as it feels flowy, comfortable, and a bit understated.
  </p>
 
- <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+ 
 
 
  <h2 style = {headingStyle}>
@@ -362,9 +355,7 @@ The overskirt adds something special with its beautifully handmade flower detail
 
 </p>
 
-<div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+
 
 <h2 style = {headingStyle}>
 Abril
@@ -392,9 +383,7 @@ Abril is a guipure lace-up detailed corset base dress with a smooth heart-shaped
  <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
  Styled with matching lace veil
    </p>
-   <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+   
 
 <h2 style = {headingStyle}>
     Percy
@@ -427,9 +416,7 @@ Abril is a guipure lace-up detailed corset base dress with a smooth heart-shaped
     <img src={image14} alt="Jackie Wyers Wedding Abril Dress" style={imageStyle} />
  </div>
 
- <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+ 
 
 <h2 style = {headingStyle}>
     Ora
@@ -466,9 +453,7 @@ Abril is a guipure lace-up detailed corset base dress with a smooth heart-shaped
  An Old Money aesthetic could suit the pearls, as could a beach wedding for more of a mermaid motif.
      </p>
 
-     <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+     
 
      <h2 style = {headingStyle}>
         Zara
@@ -491,9 +476,7 @@ Abril is a guipure lace-up detailed corset base dress with a smooth heart-shaped
  Zara features a mermaid silhouette bridal gown with a strapless detailed corset and a pleated bottom part of the skirt. It’s complemented with a voluminous tulle ruched bolero and a simple veil extension. The dramatic floral bolero may not be for everyone, but it definitely felt fancy and would be stunning for a Garden Party, full of flowers. I love the way it framed the shoulders and brought attention back up to the face.
                         </p>
 
-                        <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+                        
  <h2 style = {headingStyle}>
     Which Dress Did I Say Yes To!?
  </h2>
@@ -552,11 +535,7 @@ I hope you enjoyed this read and it gave you some bridal ideas if you are a Brid
     
 
       <Comments website-id={websiteId} page-id={"quiz3"} />
-      <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div><div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>,
+      ,
       
     </div>
     

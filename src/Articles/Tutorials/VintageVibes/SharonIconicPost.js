@@ -5,7 +5,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
@@ -204,9 +203,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <DropCap1 text="Welcome back to another installment of Time Travel Tutorials, this time featuring the iconic '60s figure, Sharon Tate. A promising actress and model of the 1960s, Tate was celebrated for her roles in films like 'Valley of the Dolls', captivating audiences with her talent and ethereal beauty. Her tragic and untimely death solidified her status as an era icon, profoundly influencing pop culture, fashion, and beauty standards of the 1960s. Let's celebrate the beautiful Sharon Tate by emulating her signature style, which remains influential today. Also covered on blog is Sharon’s Bridal style as well." />
     
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
       
       
 <div style={gridContainerStyle}>
@@ -216,9 +213,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
   Sharon's makeup always stood out to me, offering a perfect blend of '60s mod with a touch of bohemian flair. Unlike the more posh looks of the time embodied by "The Face of the '60s" model <a href="/yardley1965" target="_blank" rel="noopener noreferrer" style={linkStyle}>Jean Shrimpton</a>, Sharon's style provides a sun-kissed, bold-eyed look that leans more towards a hippie/'70s inspiration, showcasing her personal style was ahead of its time.
 </p>
-          <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+         
 <p style={paragraphStyle}>
   If you're as captivated by this makeup era and Sharon Tate as I am, I hope you'll enjoy this beauty breakdown. While I use modern products to achieve the look, at the end of this article, we'll also explore some products still available today that were among Sharon Tate's favorites.
 </p>
@@ -231,9 +226,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
   The essence of Sharon Tate's makeup embodies a timeless beauty that, while uniquely hers, can be celebrated through inspired emulation. Her makeup is characterized by bronzed, natural skin and captivating, deep-set eyes accentuated with a boldly drawn cut crease. Her full, long lashes perfectly complemented her enchanting hazel eyes. The look is completed with subtly lined lips and a peachy nude lipstick, giving off effortless glamour.
 </p>
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
 <p style={paragraphStyle}>
   The photoshoot that serves as my inspiration, taken by Orlando Suero in 1965, captures Sharon Tate's quintessential bohemian style like no other, showcasing the very essence of her iconic beauty.
 </p>
@@ -250,9 +243,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/494394?noHeader=true" title="Sharon Tate Inspired Makeup Products" />
    
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
       <h2 style={headingStyle}>Sharon’s Modelesque Bone Structure</h2>
       <p style={paragraphStyle}>
   To emulate Sharon Tate's stunning bone structure, including her high cheekbones and defined chin, sculpting with a lighter concealer is key. If your skin tone is similar to hers, the <a href="https://www.toofaced.com/product/23450/66048/concealer/born-this-way-super-coverage-multi-use-sculpting-concealer" target="_blank" rel="noopener noreferrer" style={linkStyle}>Too Faced Born This Way Concealer in Swan</a> is an excellent option. However, if your skin tone differs, opt for a concealer that's two shades lighter than your foundation. After enhancing the chin, jawline, area around the nose, and under the eyes with brightness, lightly set these areas with powder before applying a powder bronzer to finalize the sculpted look. This technique ensures a natural yet defined finish, mirroring Sharon Tate's iconic beauty.
@@ -262,9 +253,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
   For a natural bronze and blushed appearance, sticking with powder products and matte formulas works best. The <a href="https://www.toofaced.com/product/23459/49686/bronzer/milk-chocolate-soleil-matte-bronzer" target="_blank" rel="noopener noreferrer" style={linkStyle}>Too Faced Milk Chocolate Bronzer</a> is an excellent choice for this purpose. Apply it beneath the cheekbones, blending slightly onto the cheeks, across the nose, and onto the forehead to achieve a soft, sun-kissed look. To enhance the effect with a touch of sunburnt realism and add depth to the cheeks, the <a href="https://www.rimmellondon.com/products/face/maxi-blush" target="_blank" rel="noopener noreferrer" style={linkStyle}>Rimmel London Maxi Blush in Wildcard</a> is perfect. This product helps to mimic that slightly flushed, vibrant look, evoking a natural radiance and depth that complements the bronzed base beautifully.
 </p>
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
       <ResponsiveIframe src="https://shopmy.us/collections/public/494399?noHeader=true" title="Bronzing and Blushing Products" />
    
 
@@ -283,34 +272,26 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   To further enhance the cut crease and emulate the depth and dimension of Sharon's eyes, apply a dark purple liner to the inner portion of the crease. This adds a layer of complexity and richness to the look. Keep the eyelid and brow bone bright to maintain a fresh, open appearance. Finally, incorporate some deeper matte eyeshadow as a liner along the lash line for added intensity and definition, completing the homage to Sharon Tate's iconic eye makeup.
 </p>
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
       <div style={{ maxWidth: '100%', overflow: 'hidden' }}>
         <img src={eyes} alt="Sharon Tate's Iconic Eyes" style={{ width: '40%', float: 'right', margin: '1rem' }} />
         <p style={paragraphStyle}>
   It was revealed in auction Sharon used a brown liner from Maybelline and a White Revlon Eyeliner for the waterline, though in the inspiration photos the waterline appeared more natural. I noticed, however, that underneath the upper and lower lashes, there was a pop of light shimmer. I used a <a href="https://www.charlottetilbury.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>shimmery Charlotte Tilbury pencil liner</a> to catch the light.
 </p>
       </div>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <h2 style={headingStyle}>Dainty, Twiggy Lashes</h2>
       <p style={paragraphStyle}>
   Let’s create dainty Twiggy-inspired lashes - and lots of them! Add an extra flick on the outer corners for that mesmerizing '60s flair. Sharon’s take on Twiggy’s signature drawn-on bottom lash was more subtle, blending well into her natural bottom lashes. For this look, I opted for the <a href="https://www.kissusa.com/products/looks-so-natural-lashes" target="_blank" rel="noopener noreferrer" style={linkStyle}>Kiss Looks So Natural lashes in Sultry</a>, which resemble Sharon’s delicate lashes perfectly. To elevate these lashes further, we'll layer them with plenty of mascara. The <a href="https://www.toofaced.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Too Faced Better Than Sex mascara</a> is my go-to for thickening up these wispy falsies, adding an extra dose of drama and volume.
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/565903?noHeader=true" title="Sharon Tate Inspired Brow Products" />
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <h2 style={headingStyle}>Sweet & Soft Peach Pout</h2>
       <p style={paragraphStyle}>
   To finish the look, I've chosen a nude lip liner (<a href="https://www.charlottetilbury.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Charlotte Tilbury Iconic Nude</a>) and added a pop of nude-peach with <a href="https://www.toofaced.com/product/23465/47430/lip-gloss/sweet-peach-cream-peach-oil-lip-gloss" target="_blank" rel="noopener noreferrer" style={linkStyle}>Too Faced Sweet Peach Lip Gloss in Peach</a>.
 </p>
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
       <ResponsiveIframe src="https://shopmy.us/collections/public/565715?noHeader=true" title="Twiggy-inspired Lashes Products" />
 
       <h2 style={headingStyle}>What Products did Sharon really use?</h2>
@@ -325,9 +306,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   In terms of perfumes, Sharon Tate had a fondness for fragrances, especially <a href="https://www.chanel.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Chanel No. 5</a> and <a href="https://www.guerlain.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Guerlain's Jicky</a>. These classic scents are celebrated for their enduring allure. For those interested, a review of Jicky fragrance is available <a href="/jickyreview" target="_blank" rel="noopener noreferrer" style={linkStyle}>here</a>.
 </p>
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
       <ResponsiveIframe src="https://shopmy.us/collections/public/565717?noHeader=true" title="Sharon Tate Inspired Brow Products" />
 
       <h2 style={headingStyle}>Sharon Tate's Recollection Book</h2>
@@ -381,9 +360,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </div>
 
 
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
 
         <Comments website-id={websiteId} page-id="sharon-iconic-post" />
   

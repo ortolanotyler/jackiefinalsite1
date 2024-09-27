@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
@@ -209,9 +208,7 @@ Blue Lagoon' to the chic streets of 'Emily In Paris,' join me as I recreate and
 reinterpret the signature styles of these beloved characters. Whether you're
 seeking a dash of nostalgic charm or a splash of summer-ready glamour,
 these tutorials will inspire you to embrace your inner icon. " />
-    <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+   
      
       <h2 style={headingStyle}>The Looks:
       </h2>
@@ -233,9 +230,7 @@ these tutorials will inspire you to embrace your inner icon. " />
   title="Mermaid Makeup Products Inspired by Brooke Shields as Emmaline in The Blue Lagoon" 
 />    
 
-    <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+   
 
       <h2 style={headingStyle}>
       Margot Robbie as Barbie - ‘The Barbie Movie’</h2>
@@ -255,9 +250,7 @@ these tutorials will inspire you to embrace your inner icon. " />
 />
  
 
-    <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+   
 
 
 
@@ -279,9 +272,7 @@ these tutorials will inspire you to embrace your inner icon. " />
   title="Parisian Chic Beauty Products Inspired by Lilly Collins as Emily in Emily In Paris" 
 />   
   
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
       <h2 style={headingStyle}>
       Flora - ‘Winx Club’ </h2>
@@ -299,9 +290,7 @@ by Jackie Wyers.   </p>
   src="https://shopmy.us/collections/public/619272?noHeader=true" 
   title="Whimsical Beauty Products Inspired by Flora from Winx Club" 
 />
-    <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+   
       <h2 style={headingStyle}>
       Phoebe Tonkin as Cleo - ‘H2O: Just Add Water’</h2>
 <div style={gridContainerStyle}>
@@ -318,9 +307,7 @@ by Jackie Wyers.   </p>
   src="https://shopmy.us/collections/public/619285?noHeader=true" 
   title="Mermaid Hair and Makeup Products Inspired by Phoebe Tonkin as Cleo in H2O: Just Add Water" 
 />    
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
     
 
       <h2 style={headingStyle}>
@@ -341,9 +328,7 @@ Original Makeup by Stacy Butterworth and Hair Design by Ann Minahan from 'Outer 
   src="https://shopmy.us/collections/public/619322?noHeader=true" 
   title="Carefree Summer Beauty Products Inspired by Madison Bailey as Kiara from Outer Banks" 
 />     
-    <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+   
       <h2 style={headingStyle}>
       A Final Note 🌊 </h2>
 

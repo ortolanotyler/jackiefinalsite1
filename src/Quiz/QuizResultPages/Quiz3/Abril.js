@@ -5,7 +5,6 @@ import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../../Advertising/Ads';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 import ArticleTitle from '../../../Components/ArticleTitle';
 
@@ -212,9 +211,7 @@ Imagine walking down the aisle in a historic castle or grand ballroom, feeling l
    <img src={image3} alt="Jackie Wyers Wedding Abril Dress" style={imageStyle} />
  </div>
 
- <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+
 
 <h2 style = {headingStyle}>
 Wedding Ideas:
@@ -239,9 +236,7 @@ Dress Features: Choose dresses with intricate lace details, structured silhouett
    <img src={image4} alt="Jackie Wyers Wedding Abril Dress" style={imageStyle} />
  </div>
 
- <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+
 <h2 style = {headingStyle}>
 Bridal Muse:
 
@@ -285,11 +280,7 @@ Looking for more royal vibes? Check out the elegance of Mia Thermopolis’s roya
       <Comments website-id={websiteId} page-id={"quiz3"} />
 
       
-      <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div><div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>  
+
       
     </div>
       

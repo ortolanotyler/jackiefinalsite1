@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import TextReveal from '../../Components/TextReveal';
-import AdSenseAd from '../../Advertising/Ads';
+
 
 import SubscribeButton from '../../Components/SubscribeButton';
 import { initGA, logPageView } from '../../analytics';
@@ -251,18 +250,14 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
   <DropCap1 text="Hey lovelies and Brides-To-Be! Today, I'm sharing how I quickly made my flower crown veil and separate flower pins inspired by Sophie from Mamma Mia that I wore on my wedding day." />  
 
-  <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>I blended several inspirations to achieve my whimsical bridal look: <a style={linkStyle} href="https://www.imdb.com/title/tt0308674/" target="_blank" rel="noreferrer">Christine Daae’s corseted style</a> and big hair, <a style={linkStyle} href="https://www.instagram.com/taylor_hill/" target="_blank" rel="noreferrer">Taylor Hill-inspired makeup</a>, and of course, a touch of Sophie with DIY flower pins. <a style={linkStyle} href="https://www.imdb.com/title/tt0795421/" target="_blank" rel="noreferrer">Mamma Mia</a> has always been one of my favorite cinematic bridal looks, as seen in the throwback tutorial below!</p>
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/2mjLtM5DBz8?si=baVLKPYFUeVbJjvY" title="Sharon Tate Iconic 60's Bridal Makeup Tutorial" />
 
 <p style={paragraphStyle}>Let’s create a subtly inspired nod to the film with this easy DIY for the <a style={linkStyle} href="https://www.pinterest.com/ideas/diy-wedding-decor/" target="_blank" rel="noreferrer">#DIYBride</a>.</p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div> 
+
 <h2 style={headingStyle}>Materials Needed:</h2>
 
 <ul style={listStyle}>
@@ -273,9 +268,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   <li>A veil with comb</li>
 </ul>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <iframe title="Mamma Mia Inspired Flower Pins for Brides" src="https://shopmy.us/collections/public/700467?noHeader=true" style={{ width: '100%', minHeight: '1000px', border: 'none' }} scrolling="no"></iframe>
 
@@ -293,9 +286,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <p style={paragraphStyle}>3. For the pins, I used burlap and lace ribbon because it grips the bobby pins really well and added a bit of brightness to the center of the flower.</p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>4. Create a small loop with the ribbon and secure it with a hot glue gun.</p>
 
 <p style={paragraphStyle}>5. Next, glue the petals onto the loop. Ideally, use six petals, but five works too! (I ran out of ribbon as I filmed only the last flower I made! 🤣)</p>
@@ -319,7 +310,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <div style={gridContainerStyle}><img src={image6} alt="Jackie Wyers Wedding Italy" style={imageStyle} /></div>
 
-  <AdSenseAd/>
+ 
 <div style={gridContainerStyle}><img src={image7} alt="Jackie Wyers Wedding Photography" style={imageStyle} /></div>
 
 <p style={paragraphStyle}>Even though we were in Italy, not Greece, these flower pins and veil totally give off <a style={linkStyle} href="https://www.mammamia.com/" target="_blank" rel="noreferrer">Mamma Mia</a> vibes in a subtle way and I loved how they looked, especially backlit as the sun was going down.</p>
@@ -349,12 +340,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <Comments website-id={websiteId} page-id={"DIY-Flowers"} />
 
       
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
+
 
       
     </div>

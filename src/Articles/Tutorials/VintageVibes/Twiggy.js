@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
@@ -223,9 +222,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <DropCap1 text="Welcome back to the blog, vintage beauty lovers! Today’s Time Travel Tutorials is dedicated to the doe-eyed darling of the decade: Twiggy. Known affectionately as “The Face of ‘66,” she redefined beauty standards with her waifish figure, striking lashes, and androgynous looks. Twiggy, born Lesley Lawson, wasn't just a trendsetter; she was a cultural phenomenon. "/>
       
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
       <p style={paragraphStyle}>
 
@@ -262,9 +259,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   <a style={linkStyle} href="https://en.wikipedia.org/wiki/Twiggy" target="_blank" rel="noreferrer">Twiggy's</a> iconic makeup style was known for its bold, graphic eyeshadow in various hues. This featured look showcases a pastel blue shade that's perfectly en vogue for Spring/Summer 2024. It pairs a youthful glow with subtle freckles and a minimalist lip to round out the ensemble. And of course, the dramatic, drawn-on lower lashes are essential for that quintessential pop-art impact. Let's begin, shall we?
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>Youthful Base & Anna Sui Cosmetics Feature</h2>
 
@@ -282,9 +277,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/551116?noHeader=true" title="Foundation - Makeup Forever" />
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>Faux Freckles & Peachy Cheeks</h2>
 
@@ -302,9 +295,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/551123?noHeader=true" title="Brightening Powder - Ana Sui" />
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>The Twiggy Eyeshadow Look: The First Steps</h2>
 
@@ -322,9 +313,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/551124?noHeader=true" title="Eyeshadow - Makeup By Mario" />
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>Liner & Drawn on Twiggy Lashes</h2>
 
@@ -338,9 +327,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/551126?noHeader=true" title="Eyeliner - Ana Sui" />
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>Twiggy’s Pale Pout</h2>
 
@@ -350,9 +337,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/565773?noHeader=true" title="Eyeliner - Ana Sui" />
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>Twiggy’s Spring Hairstyle</h2>
 

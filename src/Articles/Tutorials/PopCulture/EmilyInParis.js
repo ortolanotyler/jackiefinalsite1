@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 
-import AdSenseAd from '../../../Advertising/Ads';
 import { Helmet } from'react-helmet';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
@@ -278,23 +277,14 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   <a href="https://www.vogue.com" target="_blank" style={linkStyle}> Vogue Fashion Shows</a>.
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <h2 style={headingStyle}>Season One: Where It All Began</h2>
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/b_e98iV-TdM?si=Xm2aB5vvNmTYawYo" title="Lana Del Ray X Skims Makeup Tutorial - Jackie Wyers" />
 
 
 <p style={paragraphStyle}>Season one introduced us to Emily Cooper's bubbly and ambitious personality, perfectly reflected in her vibrant fashion choices, mixing prints and textures. Her makeup often featured a classic red lip, bold brows, and a fresh, dewy complexion—a look that was more American, with a polished and put-together appearance contrasting with the more understated Parisian style. Her hair was almost always perfect, usually styled in stunning bouncy waves that added to her all-American charm.</p>
-<div
-style = {{
-  margin : '20px'
-}}
->
 
-  <AdSenseAd/>
-</div>
 <p style={paragraphStyle}>One of Emily's most iconic fashion moments from this season is her black-and-white checkered outfit, paired with a red beret and a quirky camera phone case. I recreated this look in New York at Bryant Park, and even though it was shot in the Big Apple, it definitely channels Parisian energy. If you're looking to shop similar styles, I’ve linked options under each outfit!</p>
 <div style = {imageStyle}>
 <img src={image1} alt="Signature" style={{ width: '100%' }} />
@@ -317,14 +307,7 @@ style = {{
 
       
 <p style={paragraphStyle}>Season two continued to push the boundaries of Emily’s fashion and beauty looks, with some of my personal favorite hair moments defining this season. The wearable pretty ponytails and intricate updos to go with Emily’s bold style giving major hair inspiration.</p>
-<div
-style = {{
-  margin : '20px'
-}}
->
 
-  <AdSenseAd/>
-</div>
 <p style={paragraphStyle}>One of my all-time favorite behind the scenes shots from shooting season two is Emily strutting through the streets of Paris in knee-high brown boots and a bucket hat, reminiscent of her iconic checkered look from season one. While her neon yellow-accented floral jacket was a bit bold for my taste, I toned it down in my recreation and finished the look with a deep red lip like Emily.</p>
 <div style = {imageStyle}>
 <img src={image3} alt="Signature" style={{ width: '100%' }} />
@@ -380,14 +363,7 @@ style = {{
 
 
 <p style={paragraphStyle}>The shift in her hair was accompanied by a subtle evolution in her makeup. Emily’s lip colour in this season shifted to more mauve and purple shades, moving away from her signature red. The show’s makeup artist, Aurélie Payen, mentioned that these choices were meant to reflect Emily's more settled and confident persona in Paris, perfectly complementing her evolving style.</p>
-<div
-style = {{
-  margin : '20px'
-}}
->
 
-  <AdSenseAd/>
-</div>
 <p style={paragraphStyle}>Emily wears a lot of green throughout the seasons, especially in season three! A green cardigan is a great way to add a pop of colour to your wardrobe in a wearable way. You may have noticed my style guides inspired by Emily are much more toned down, but if you want to rock several patterns and bold colours at once? Go for it!</p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/731217?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 <ResponsiveIframe src="https://shopmy.us/collections/public/731218?noHeader=true" title="Shop My Victoria's Secret Favorites" />
@@ -399,14 +375,7 @@ style = {{
 <h2 style={headingStyle}>Looking Ahead: Season Four and Beyond</h2>
 
 <p style={paragraphStyle}>As we dive into season four, I can't wait to see what new fashion, makeup, and hair moments Emily will serve up. With Marylin Fitoussi continuing to lead the charge on costume design, we can expect even more bold and chic looks that push the boundaries of American-In-Paris style, completely unique to the show.</p>
-<div
-style = {{
-  margin : '20px'
-}}
->
 
-  <AdSenseAd/>
-</div>
 <h2 style={headingStyle}>Shop the Look</h2>
 
 <p style={paragraphStyle}>I’ve put together a list of new collaborations and past Emily in Paris collections that are still available for purchase. These are generally quite affordable, in contrast to Emily’s designer wardrobe. While I listed many inspired outfits at a mid-higher price range, thrifting on Poshmark for similar items is another great option. Happy shopping!</p>

@@ -5,7 +5,6 @@ import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../../Advertising/Ads';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 import ArticleTitle from '../../../Components/ArticleTitle';
 
@@ -189,9 +188,7 @@ Thank you for taking the bridal dress quiz! Based on your results, you’d best 
    <img src={image4} alt="Jackie Wyers Wedding Percy Dress" style={imageStyle} />
  </div>
 
- <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+
 
 <p style={paragraphStyle}>
 Imagine celebrating your special day in a glamorous art deco venue, surrounded by luxurious details and a touch of old Hollywood charm!
@@ -220,9 +217,7 @@ Dress Features: Look for gowns with intricate beading, classic silhouettes, and 
    <img src={image5} alt="Jackie Wyers Wedding Porsha Dress" style={imageStyle} />
  </div>
 
- <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+
 <h2 style = {headingStyle}>
 Bridal Muse:
 
@@ -247,11 +242,7 @@ Channel a modern 1920s look with a darker smokey eye, but opt for a lighter lip 
 
       <Comments website-id={websiteId} page-id={"quiz3"} />
 
-      <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div><div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>
+     
       
     </div>
     

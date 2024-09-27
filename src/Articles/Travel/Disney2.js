@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import ArticleTitle from '../../Components/ArticleTitle';
 import DropCap1 from './DropCap1';
@@ -277,9 +276,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 
 
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
       <h2 style={headingStyle}>🌐 Day 1: Epcot</h2>
       <p style={paragraphStyle}>
@@ -290,9 +287,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 <img src={images[0]} alt='Epcot' style={imageStyle} />
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>🗺 What does EPCOT mean?</h2>
 <p style={paragraphStyle}>
@@ -302,17 +297,13 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   This is not a ride-heavy exhibit but a stunning display of various countries around the world, celebrating architecture, culture, and food.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   Disney Characters are intertwined throughout the countries, like the <a style={linkStyle} href="https://disney.co.uk/winnie-the-pooh" target="_blank" rel="noreferrer">Winnie the Pooh</a> characters in England and <a style={linkStyle} href="https://disney.co.uk/frozen" target="_blank" rel="noreferrer">Anna and Elsa</a> in Norway. In both shrub and human form! I highly suggest <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/epcot/" target="_blank" rel="noreferrer">Epcot</a> for an adult audience, and if you do like to drink alcohol, you can “drink around the world” during the day and night. Epcot used to be unique in serving alcohol, but now all parks offer adult beverages. Cheers!
 </p>
 <img src={images[1]} alt='Epcot Characters' style={imageStyle} />
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>🌸 Epcot International Flower & Garden Festival</h2>
 <p style={paragraphStyle}>
@@ -326,9 +317,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 <img src={images[2]} alt='Flower & Garden Festival' style={imageStyle} />
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>🇫🇷 Pavilion Highlights!</h2>
 <p style={paragraphStyle}>
@@ -349,9 +338,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 <img src={images[5]} alt='Japan Pavilion' style={imageStyle} />
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   The <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/epcot/italy/" target="_blank" rel="noreferrer">Italy Pavilion</a> at Epcot recreates the beauty of Venice, featuring detailed replicas of <a style={linkStyle} href="https://en.wikipedia.org/wiki/St_Mark%27s_Campanile" target="_blank" rel="noreferrer">St. Mark's Campanile</a> and the <a style={linkStyle} href="https://en.wikipedia.org/wiki/Doge%27s_Palace,_Venice" target="_blank" rel="noreferrer">Doge's Palace</a>, alongside intricate Venetian canals and gondolas. The authentic Italian dining experiences were sadly booked up, (try <a style={linkStyle} href="https://disneyworld.disney.go.com/dining/epcot/via-napoli/" target="_blank" rel="noreferrer">Via Napoli</a> and <a style={linkStyle} href="https://disneyworld.disney.go.com/dining/epcot/tutto-italia/" target="_blank" rel="noreferrer">Tutto Italia</a>) but we had fun viewing Venetian masks and testing luxury fragrances.
@@ -366,9 +353,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   If you don’t know what <a style={linkStyle} href="https://disneyworld.disney.go.com/genie/" target="_blank" rel="noreferrer">Genie+</a> is, it’s a paid service at Disney World that allows guests to reserve access to expedited lines for select attractions, helping to significantly reduce wait times. Some rides do have an added fee when booking throughout the day, which can get pretty expensive if you are covering several kids' passes.
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>🚀 Celebrate Technology</h2>
 <p style={paragraphStyle}>
@@ -387,9 +372,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   Expect to see a stunning light show with large water fountains, fireworks, and music. I wouldn’t say I’m a full-blown Disney fanatic though I totally enjoy everything Disney, and I had tears in my eyes listening to the nostalgic music! I was truly so happy to be there with my best friend and we stood near the fence and didn’t have a problem seeing a wonderful view despite getting there late.
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   After 25,000 steps (Walt Disney World is a workout), we got some sleep to experience <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/magic-kingdom/" target="_blank" rel="noreferrer">Magic Kingdom</a> and <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/animal-kingdom/" target="_blank" rel="noreferrer">Animal Kingdom</a> the next day.
@@ -400,9 +383,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   We started our day heading to the bus stop and arrived at the iconic <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/magic-kingdom/" target="_blank" rel="noreferrer">Magic Kingdom</a>. Side note, when I went to Walt Disney World with my husband, Magic Kingdom was his least favorite park as it is the most crowded and most “Disney princess” themed, appealing most to kids. That being said, for a first-time Disney-goer, this is a must-do! Seeing the castle, the characters, all the shops lined up - it's the quintessential Walt Disney World experience of nostalgia and whimsy.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <img src={images[9]} alt='Magic Kingdom' style={imageStyle} />
 
 <p style={paragraphStyle}>
@@ -412,9 +393,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   <a style={linkStyle} href="https://disneyworld.disney.go.com/attractions/magic-kingdom/pirates-of-the-caribbean/" target="_blank" rel="noreferrer">Adventureland’s Pirates of the Caribbean Ride</a> and <a style={linkStyle} href="https://disneyworld.disney.go.com/attractions/magic-kingdom/space-mountain/" target="_blank" rel="noreferrer">Tomorrowland's Space Mountain</a> offered immersive experiences that were both exhilarating and breathtaking! Again, a <a style={linkStyle} href="https://disneyworld.disney.go.com/genie/" target="_blank" rel="noreferrer">Genie+</a> would have elevated our experience. If you are choosing which rides to use the fast pass on, Space Mountain is a good one to use as the line gets very long.
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   We shared a massive hot dog at the <a style={linkStyle} href="https://disneyworld.disney.go.com/dining/magic-kingdom/caseys-corner/" target="_blank" rel="noreferrer">Coca-Cola Refreshment Corner</a> with a view of the castle. It was delicious, and the atmosphere was so retro which I personally love. We then exited the park, visiting the Main Street Shops—the <a style={linkStyle} href="https://disneyworld.disney.go.com/shops/magic-kingdom/main-street-confectionery/" target="_blank" rel="noreferrer">Candy Shop</a> is a must-see!
@@ -425,9 +404,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   Lauren and I didn’t schedule to meet any characters or watch parades; instead, we saw those experiences in passing, which was just as magical for our slightly short attention spans. It made for more of a relaxing time. Booking too many experiences with time slots in advance can get a little overwhelming.
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <img src={images[11]} alt='Magic Kingdom Characters' style={imageStyle} />
 
@@ -435,9 +412,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   We used our Park Hopper ticket to head to <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/animal-kingdom/" target="_blank" rel="noreferrer">Animal Kingdom</a> via bus transportation.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   Unpopular opinion, but <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/animal-kingdom/" target="_blank" rel="noreferrer">Animal Kingdom</a> is my all-time favorite park. Its unique blend of Disney theme park allure and zoo offers an experience that celebrates the natural world, diverse cultures, and adventurous exploration. Its lush, expansive setting is relaxing and enchanting, and it's typically less crowded than Magic Kingdom, making it a great way to wind down if you're using a <a style={linkStyle} href="https://disneyworld.disney.go.com/genie/" target="_blank" rel="noreferrer">Park Hopper</a> pass.
 </p>
@@ -451,9 +426,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   The park is divided into several areas, with <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/animal-kingdom/africa/" target="_blank" rel="noreferrer">Africa</a> and <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/animal-kingdom/pandora-world-of-avatar/" target="_blank" rel="noreferrer">Pandora - The World of Avatar</a> being my favorites.
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <img src={images[13]} alt='Tree of Life' style={imageStyle} />
 
@@ -474,9 +447,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <img src={images[16]} alt='Expedition Everest Thrills' style={imageStyle} />
 
@@ -491,9 +462,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   While the theme park does its best to make the <a style={linkStyle} href="https://disneyworld.disney.go.com/attractions/animal-kingdom/avatar-flight-of-passage/" target="_blank" rel="noreferrer">Flight of Passage</a> queue exciting with winding paths through the Pandora landscapes, when Lauren and I went, we waited close to two hours, which was pretty exhausting at the end of the day. So again, I can’t stress enough, if you can swing it, do the <a style={linkStyle} href="https://disneyworld.disney.go.com/genie/" target="_blank" rel="noreferrer">Genie+</a> and just pay extra to walk right to the front of the line.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   We sadly didn't have enough time after the long wait to do the <a style={linkStyle} href="https://disneyworld.disney.go.com/attractions/animal-kingdom/navi-river-journey/" target="_blank" rel="noreferrer">Na'vi River Journey</a>, a boat ride experience deep into a bioluminescent rainforest, but Flight of Passage really was an insanely cool experience I’d love to experience over and over again. Even if you are not particularly a fan of Avatar, you’ll love it.
 </p>
@@ -501,9 +470,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   When we exited the ride, it was nighttime, and the bioluminescence was even more prominent in the dark! Keep in mind <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/animal-kingdom/" target="_blank" rel="noreferrer">Animal Kingdom</a> does close earlier than other parks, so depending on the time of year, it might still be light as you’re guided to exit.
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>🐠 Largest Rainforest Cafe in The World</h2>
 <p style={paragraphStyle}>
@@ -514,18 +481,14 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   I hope you enjoyed reading my Walt Disney World experience, and a throwback picture to my first time visiting with my family in 2002. Both times gave me priceless memories with the people I love!
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   While there are tons of articles sharing the insider places to visit, you’ll find gems even if you go into the parks without pre-planning too much. Everywhere you look, you’ll see beauty and great food so relax and have fun. You’ll have to share your experience with me either in the vlog channel comments, or on the blog as I’d love to read about your visit!
 </p>
 
       <img src={signature} alt='Signature' style={imageStyle} />
 
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
       <Comments website-id={websiteId} pageId={"epcot"} />
     </div>
@@ -539,15 +502,9 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
         blogContent={blogContent}
       />  
       
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
+
+
       
       
         </div>

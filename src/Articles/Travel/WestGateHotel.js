@@ -4,7 +4,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeVlog from '../../Components/SubscribeVlog';
-import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
@@ -230,9 +229,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
                 <BookNowButton href="https://plannin.com/en/hotel/ce895da3-45d5-4bd0-a8cf-fdc1425d0a44?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
             </div>
-        <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+       
 
             <h2 style={headingStyle}>🍾 Westgate's Whistledown Tea and Package: An Overview</h2>
             <p style={paragraphStyle}>
@@ -259,9 +256,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
                 <img src={westgate10} alt="The Westgate Hotel - San Diego" style={imageStyle} />
             </div>
 
-        <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+       
 
             <img src={westgate11} alt="Mont Tremblant Skila" style={{ width: '100%' }} />
 
@@ -284,9 +279,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
                 The Whistledown Tea, held in the hotel’s ornate Grand Lobby, includes champagne or apple cider, a selection of tea sandwiches, savouries, sweet pastries, and a take-home jar of Whistledown White Ambrosia Tea.
             </p>
             <img src={westgate9} alt="The Westgate Hotel - San Diego" style={imageStyle} />
-        <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+       
             <p style={paragraphStyle}>
                 When I attended the high tea, it was accompanied by a live harpist, now changed to a string quartet. This tea service is available on Saturdays from 2 PM to 4:30 PM, from May 18 to June 29, 2024. Guests are encouraged to dress in their finest Regency-era attire and the tea experience is priced at $98 for adults and $68 for children ages 2 to 14.
             </p>
@@ -300,9 +293,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
             <p style={paragraphStyle}>
                 There’s also a beautiful pool on the terrace with views of San Diego. Sadly it was a rainy day, but I would be swimming for hours otherwise.
             </p>
-        <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+       
             <h2 style={headingStyle}>Final Thoughts and Recommendations</h2>
             <p style={paragraphStyle}>
   Our stay at the Westgate Hotel was a regal affair that I highly recommend to anyone looking to escape into a world of elegance and romance. The hotel itself is also a stunning wedding location, offering luxurious settings ideal for a memorable celebration. For more wedding venue ideas, check out <a href="https://www.theknot.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>The Knot</a>.
@@ -320,9 +311,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
                 <BookNowButton href="https://plannin.com/en/hotel/ce895da3-45d5-4bd0-a8cf-fdc1425d0a44?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
             </div>
-          <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+         
 <p style={paragraphStyle}>
   Thank you for joining me on this luxurious journey back in time at the Westgate Hotel. Tyler and I had an unforgettable experience, and we can't wait to share more of our adventures with you. For more travel tips and lifestyle content, stay tuned to my blog and YouTube channel, or explore travel stories at <a href="https://www.lonelyplanet.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Lonely Planet</a>.
 </p>

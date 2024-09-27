@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from 'react';
 
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
-import AdSenseAd from '../../Advertising/Ads.js';
 import { Helmet } from 'react-helmet';
 import { initGA, logPageView } from '../../analytics';
 import ArticleTitle from '../../Components/ArticleTitle.js';
@@ -266,9 +265,7 @@ fontStyle: 'italic',
       All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
       <h2 style={headingStyle}>🍊 Perfume Profile</h2>
 
@@ -282,9 +279,7 @@ fontStyle: 'italic',
         3.0 oz (90ml) - $170.00 USD
       </div>
 
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
       <h2 style={headingStyle}>🍑 Background Information</h2>
       
@@ -293,9 +288,7 @@ fontStyle: 'italic',
 </p>
 
 
-    <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
 
       <h2 style={headingStyle}>🍬 Fragrance Profile</h2>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', fontSize: '1.5rem', fontFamily: 'GFS Didot, serif', margin: '1rem', maxWidth: '100%' }}>
@@ -315,9 +308,7 @@ fontStyle: 'italic',
           <strong>Base Notes:</strong> Amber, Guaïac wood, Cedarwood, Sandalwood
         </div>
       </div>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 <p style={paragraphStyle}>
   <strong>Overall Scent Profile:</strong> A luscious peach opening gives way to a heart overflowing with caramel's sweet embrace, followed by a touch of delicate florals. The base, a comforting blend of warm woods, anchors the fragrance in sophistication.
 </p>
@@ -326,9 +317,7 @@ fontStyle: 'italic',
   My first brush with <a href="https://www.viktor-rolf.com/en/bonbon" style={linkStyle} target="_blank" rel="noopener noreferrer">Bonbon</a> took place in a Nordstrom back in 2015. Before that moment, the realm of high-end perfumes was uncharted territory for me. Yet, as I passed by the counter, the luxurious packaging caught my eye—a whimsically wrapped candy in deep magenta hues, cradled in an equally charming pink and black box. It was love at first sight!
 </p>
 
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 <p style={paragraphStyle}>
     Upon the first whiff of <a href="https://www.viktor-rolf.com/fragrance/bonbon" target="_blank" rel="noopener noreferrer" style={linkStyle}>Bonbon's</a> sweet, sophisticated aroma, I was hooked. This eau de parfum is described as a gourmand fragrance with notes of <a href="https://www.fragrantica.com/notes/Peach-18.html" target="_blank" rel="noopener noreferrer" style={linkStyle}>Peach</a>, <a href="https://www.fragrantica.com/notes/Caramel-25.html" target="_blank" rel="noopener noreferrer" style={linkStyle}> Caramel</a>, and <a href="https://www.fragrantica.com/notes/Amber-7.html" target="_blank" rel="noopener noreferrer" style={linkStyle}> Amber</a>. I eagerly picked up a bottle, and the staff sent me on my way with a bag filled with tissue paper lightly spritzed with the fragrance. Walking through the mall that day, the number of compliments I received was unparalleled 🎀 🍬
 </p>
@@ -337,9 +326,7 @@ fontStyle: 'italic',
 </p>
 
 
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/549701?noHeader=true" title="Final Touches" scrolling="no" />
@@ -356,9 +343,7 @@ fontStyle: 'italic',
       <HorizontalLine/>
 
 
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
 
       <h2 style={headingStyle}>⚖ Comparisons</h2>
@@ -368,9 +353,7 @@ fontStyle: 'italic',
       <ResponsiveIframe src="https://shopmy.us/collections/public/516464?noHeader=true" title="Final Touches" />
       
 
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
 
       <h2 style={headingStyle}>📝 Final Thoughts</h2>
@@ -385,9 +368,7 @@ fontStyle: 'italic',
       </p>
       
 
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
 
       <p style={paragraphStyle}>

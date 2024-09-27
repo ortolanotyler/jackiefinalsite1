@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
@@ -214,9 +213,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <DropCap1 text="Dive into the enchanting world of mermaids with this special blog post that brings to life the mesmerizing looks of some of pop culture's most iconic sea sirens. From the sun-kissed shores of 'H2O: Just Add Water' to the mystical depths of 'The Little Mermaid's' live-action remake, join me, as I recreate and reinterpret the signature styles of these beloved characters. Whether you're seeking a dash of nostalgic charm or a splash of summer-ready glamour, these tutorials will inspire you to embrace your inner mermaid. Let's explore these magical transformations together and make a splash in your beauty routine this season!" />
      
      
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
      
       <h2 style={headingStyle}>The Looks:
       </h2>
@@ -237,12 +234,8 @@ Phoebe Tonkin as Cleo Sertori - ‘H20: Just Add Water’</h2>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/598796?noHeader=true" title="Mermaid Makeup Products Inspired by Cleo Sertori from H2O: Just Add Water" />
        
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
+
       <h2 style={headingStyle}>Halle Bailey as Ariel - ‘The Little Mermaid’</h2>
 <div style={gridContainerStyle}>
         <a href="https://www.instagram.com/p/C5dsVStuCqT/?img_index=1" target="_blank" rel="noopener noreferrer">
@@ -258,9 +251,7 @@ Phoebe Tonkin as Cleo Sertori - ‘H20: Just Add Water’</h2>
 
     <ResponsiveIframe src="https://shopmy.us/collections/public/598804?noHeader=true" title="Mermaid Makeup Products Inspired by Halle Bailey as Ariel in The Little Mermaid" />   
       
-    <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+   
       <h2 style={headingStyle}>Jessica Alexander as Vanessa - ‘The Little Mermaid’</h2>
 <div style={gridContainerStyle}>
           <img src={image3} alt="Jessica Alexander as Vanessa - ‘The Little Mermaid’" style={{ width: '100%', maxWidth: '650px' }} />
@@ -275,9 +266,7 @@ Phoebe Tonkin as Cleo Sertori - ‘H20: Just Add Water’</h2>
 </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/598809?noHeader=true" title="Mermaid Makeup Products Inspired by Jessica Alexander as Vanessa in The Little Mermaid" />   
         
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
       
       <h2 style={headingStyle}>Dark Mermaidcore - ‘Pirates of the Caribbean: On Stranger Tides’</h2>
 <div style={gridContainerStyle}>
@@ -292,9 +281,7 @@ Phoebe Tonkin as Cleo Sertori - ‘H20: Just Add Water’</h2>
 
             <ResponsiveIframe src="https://shopmy.us/collections/public/598822?noHeader=true" title="Dark Mermaidcore Makeup Products Inspired by Pirates of the Caribbean: On Stranger Tides" />   
         
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
       
       <h2 style={headingStyle}>Sara Paxton as Aquamarine - ‘Aquamarine’</h2>
 <div style={gridContainerStyle}>
@@ -314,9 +301,7 @@ Phoebe Tonkin as Cleo Sertori - ‘H20: Just Add Water’</h2>
 
                   <ResponsiveIframe src="https://shopmy.us/collections/public/598827?noHeader=true" title="Mermaid Makeup Products Inspired by Sara Paxton as Aquamarine in Aquamarine" />
                   
-                       <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+                      
       <h2 style={headingStyle}>A Final Note 🌊</h2>
 
       <p style={paragraphStyle}>
@@ -351,17 +336,11 @@ Phoebe Tonkin as Cleo Sertori - ‘H20: Just Add Water’</h2>
     
 <Comments website-id={websiteId} page-id={"Las-1aasa"} />
   
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
   
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
   
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
     </div>
   );
 

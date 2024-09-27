@@ -2,9 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../Components/SubscribeButton';
-import TextReveal from '../../Components/TextReveal';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
@@ -259,14 +257,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
                 Opting for takeout allowed us to enjoy this delicious pizza in the comfort of our luxury room by the fireplace and enjoy an afternoon jacuzzi. Dining in at the restaurant promises a great experience as well.
             </p>
 
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+            
             <h2 style={headingStyle}>🗺 Exploring Mont-Tremblant’s Pedestrian Village</h2>
             <img src={tremblant3} alt="Mont-Tremblant Pedestrian Village" style={{ width: '100%' }} />
             <p style={paragraphStyle}>
@@ -282,14 +273,7 @@ style = {{
             <p style={paragraphStyle}>
                 Looking for more of a treat? "La Chocolaterie de la Gare" is a paradise for those with a sweet tooth, offering handmade chocolates and decadent treats that capture the essence of Quebecois craftsmanship.
             </p>
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+            
             <h2 style={headingStyle}>🦫 Roots Store Mont Tremblant</h2>
             <p style={paragraphStyle}>
                 My personal favorite for fashion, "Roots Store Mont Tremblant," not only carries the latest from Roots but also features exclusive items and limited-edition collections that celebrate Mont Tremblant's heritage. These unique souvenirs are not available in other Roots locations. Since it was almost spring, I chose a little beaver plushie in a Roots hoodie instead of a hoodie for myself, but you really can't go wrong with this iconic Canadian brand.
@@ -310,14 +294,7 @@ style = {{
                 At the base of the village, you'll find “Cabane à Sucre,” offering Maple Syrup on snow for $3 CAD. It's somewhat of a sticky affair but undoubtedly an enjoyable experience. “Place Bon Bon” is a fun candy shop also in the area, especially for kids!
             </p>
             <img src={tremblant8} alt="Syrup on Snow" style={{ width: '100%' }} />
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+            
             <h2 style={headingStyle}>❄ Skiing in Mont-Tremblant</h2>
             <p style={paragraphStyle}>
                 Let's dive into skiing! My parents introduced me to skiing around the age of 4, and it became a staple activity throughout my childhood and teenage years. I felt a bit nervous since I hadn't skied in 10 years, but surprisingly, it all came back to me during the first green run. Tyler, however, approached skiing with much more confidence despite having only skied twice before! He proved to be somewhat of a hazard on the slopes but thoroughly enjoyed the experience. It looks like skiing will become a more regular adventure for us next winter!
@@ -348,14 +325,7 @@ style = {{
             </p>
             <img src={tremblant11} alt="Mont Tremblant Skila" style={{ width: '100%' }} />
           
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+            
             <p style={paragraphStyle}>
                 💚 La Nansen: One of the longest runs at Mont Tremblant, stretching over 6 km from the summit to the base on the North Side. It's a green run, making it accessible for beginners, but its length and scenic views are enjoyed by all levels. Tyler & I went down La Nansen several times!
             </p>
@@ -371,14 +341,7 @@ style = {{
             <p style={paragraphStyle}>
                 💚 La P'tit Bonheur: A gentle green run on the Soleil Side, perfect for beginners and families. Its easy terrain and sunny disposition make it a favorite for those new to the sport or looking to enjoy a leisurely ski.
             </p>
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+            
             <h2 style={headingStyle}>☕ Après Ski</h2>
             <p style={paragraphStyle}>
                 Need a quick break for lunch? We stopped at La Forge Bar & Grill for a quick bite outside with view of the mountain slopes, sharing a salad and some sweet potato fries. My favorite cafe was the Bistro Au Grain de Café. I loved this cafe so much, the Croissants aux Amandes aka Almond Croissant was delicious and the eclectic atmosphere. While poutine isn’t my personal favorite, there are poutine joints around and the iconic Canadian Beaver Tail treats!
@@ -393,14 +356,7 @@ style = {{
             <p style={paragraphStyle}>
                  I did want to mention another affordable bed & breakfast where we stayed, slightly farther from the slopes but offering a pleasant experience. Le <a href="https://www.900tremblant.com/" target="_blank" rel="noopener noreferrer">900 Tremblant Couette * Café * Bistro</a> is newly renovated, and the owner is very welcoming. Although the rooms are on the smaller side and the bathrooms are just adequate, the food and common areas are fantastic. We particularly enjoyed the cafe, making it a delightful spot to visit even if you're not staying overnight. Truly, it's an excellent deal considering the location.
             </p>
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+            
             <h2 style={headingStyle}>👩👨 A Final Note</h2>
             <p style={paragraphStyle}>
                 Thank you so much for joining Tyler and me on our enchanting journey through Mont Tremblant! This trip, chosen for our anniversary, was filled with cozy fireside pizzas, thrilling slopes, and charming local discoveries, making it truly unforgettable.
@@ -413,14 +369,7 @@ style = {{
             </p>
             <img src={tremblant14} alt="Jackie at Mont Tremblant" style={{ width: '100%' }} />
             <img src={signature} alt="Signature" style={{ width: '100%' }} />
-            <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+            
             <Comments website-id={websiteId} page-id={"MontnnTremblant"} />
         </div>
     );

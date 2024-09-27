@@ -4,7 +4,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
@@ -227,9 +226,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
             <DropCap1 text="Welcome back for a special hotel review of the enchanting Prince of Wales Hotel in Niagara-On-The-Lake, Ontario, Canada. To celebrate my birthday this year, my husband Tyler and I indulged in a luxurious weekend at this stunning hotel, renowned for its Victorian elegance and romantic charm. Nestled in the heart of one of Canada's most picturesque towns, the Prince of Wales provided the perfect backdrop for a celebration filled with beauty, history, and a touch of magic." />
-            <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+            
             <h2 style={headingStyle}>🌟 First Impressions and Ambiance</h2>
             <p style={paragraphStyle}>
   Upon arrival at the Prince of Wales Hotel, we were immediately captivated by its Victorian charm. The grand entrance, adorned with ornate floral wallpapers, antique furnishings, and sculptures, transported us into an era of refined elegance. Additional touches like stained glass windows further enhanced the luxurious ambiance. The hotel’s hanging flowers and lush bushes, set against the charming streets of <a href="https://www.niagaraonthelake.com/" style={linkStyle}>Niagara-on-the-Lake</a>, offered a stunning sight, perfect for roaming this romantic town.
@@ -244,9 +241,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
                 ))}
             </div>
 
-            <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+            
 
             <h2 style={headingStyle}>💵 Cost Considerations: Pros and Cons</h2>
             <p style={paragraphStyle}>
@@ -262,9 +257,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
                 ))}
             </div>
 
-            <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+            
 
 <p style={paragraphStyle}>
   We chose a Premium King Room which is beautifully decorated with thoughtful details but somewhat compact. The air conditioning unit tends to be noisy and may not effectively cool the room during particularly hot weather. Nonetheless, the room's elegant charm and the hotel's excellent location significantly outweigh these minor drawbacks. Plus, a hand-delivered rose was a beautiful touch from the staff!
@@ -274,16 +267,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
             <p style={paragraphStyle}>
   The Prince of Wales Hotel offers a diverse array of guest rooms and suites, each richly decorated with Victorian charm and modern amenities. Options range from Traditional and Superior Guest Rooms—ideal for couples or small groups, to Deluxe Rooms with added space and luxury features such as fireplaces. For the ultimate experience, Premium Guest Rooms and the lavish Royal Suite provide deluxe comforts like gas fireplaces, jetted baths, and exquisite Wine Themed Cellar Suites, ensuring a stay that blends historical elegance with contemporary luxury.
 </p>
-            <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+            
             <h2 style={headingStyle}>🫖 High Tea at the Prince of Wales Hotel</h2>
             <p style={paragraphStyle}>
   The Prince of Wales Hotel offers a quintessentially elegant high tea experience that, regrettably, I didn’t get to try during my stay! Hosted in the hotel's charming drawing room, this experience includes a selection of finely crafted tea blends accompanied by an assortment of traditional scones, pastries, and delicate finger sandwiches. Noble Restaurant, Churchill Lounge, Charcuterie & Panini Bar are also in-hotel options for food.
 </p>
-            <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+            
 <p style={paragraphStyle}>
   If you are interested in exploring more culinary delights and experiences in Niagara-on-the-Lake, be sure to check out my detailed blog post <a href="https://jackiewyers.beauty/niagaraonthelakefoodguide" style={linkStyle}>here</a> for options outside of the hotel.
 </p>
@@ -299,9 +288,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
             <p style={paragraphStyle}>
   Just steps away from the hotel, experience the charm of this historic town with its well-preserved 19th-century village feel, boutique shops, and theatres. The hotel is also in close proximity to some of Ontario's finest <a href="https://wineriesofniagaraonthelake.com/" style={linkStyle}>vineyards</a>, offering guests easy access to wine tastings and vineyard tours.
 </p>
-            <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+            
 <p style={paragraphStyle}>
   Transportation options are plentiful, with bike rentals, walking tours, and shuttle services available to explore nearby attractions, including the famed <a href="https://www.shawfest.com/" style={linkStyle}>Shaw Festival Theatre</a>. Whether you're looking to explore on foot, by bike, or through organized tours, everything is conveniently accessible from the hotel.
 </p>
@@ -323,9 +310,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
                 ))}
             </div>
 
-            <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+            
             <h2 style={headingStyle}>🏊 Anticipated Experiences and Activities</h2>
             <p style={paragraphStyle}>
   For my next visit, I eagerly anticipate indulging in the traditional high tea, exploring the exclusive Wine-Themed Cellar Suites, and relaxing with the <a href="https://www.vintage-hotels.com/princeofwales/spa.htm" style={linkStyle}>spa services</a> and pool offered. I also look forward to experiencing the hotel’s seasonal events like the summer garden parties and the festive Christmas markets. Additionally, I plan to wander through <a href="https://www.niagaraonthelake.com/" style={linkStyle}>Niagara-on-the-Lake’s</a> historic streets, discovering more of its hidden treasures.
@@ -340,9 +325,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
                 ))}
             </div>
 
-            <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+            
 
             <h2 style={headingStyle}>Accessibility Note:</h2>
             <p style={paragraphStyle}>

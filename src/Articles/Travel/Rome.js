@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import AdSenseAd from '../../Advertising/Ads';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import SubscribeButton from '../../Components/SubscribeButton';
 import { initGA, logPageView } from '../../analytics';
@@ -278,9 +277,7 @@ const captionStyle = {
 <DropCap1 text="Welcome back to another travel article! This time, it's all about our whirlwind 72 hours in Rome, the first stop on our European adventure before heading to Sorrento, Italy, for our wedding! Tyler and I had visited Rome when we were younger, but experiencing such a romantic city together as adults was beyond exciting. Over the course of three days, we explored iconic landmarks like the Vatican, the Trevi Fountain, and the Colosseum, indulged in mouthwatering Italian cuisine, and soaked in the vibrant atmosphere of Rome’s charming neighbourhoods. " />
 </div>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 
 <p style={paragraphStyle}>
@@ -288,9 +285,7 @@ const captionStyle = {
   <a href="https://plannin.com" style={linkStyle}>travel tips</a>, and a few unexpected surprises along the way!
 </p>
 
-   <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+   
 
     <h2 style={headingStyle}>Arrival in Rome ✈</h2>
 
@@ -307,9 +302,7 @@ const captionStyle = {
     <img src={image3} alt="Elegant Interiors of Unica Suites - Ideal for Backpackers" style={imageStyle} loading="lazy" /> 
 </div>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 
 <p style={paragraphStyle}>
@@ -333,9 +326,7 @@ const captionStyle = {
     <img src={image4} alt="Jackie Wyers Exploring Barberini Metro and Bonci Pizzarium" style={imageStyle} loading="lazy" />  
     <img src={image5} alt="Gourmet Pizza Al Taglio at Bonci Pizzarium - Must-Try in Rome" style={imageStyle} loading="lazy" /> 
 </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   We then rushed over to the <a href="https://m.museivaticani.va/content/museivaticani-mobile/en.html" style={linkStyle}>Vatican Museums</a>, arriving just as they were closing, which turned out to be a blessing as the lines were super short. If you're visiting the Vatican, don’t be swayed by the many tourists giving out misinformation around the entrance—always ask a staff member if you're unsure where to go. Despite what others might say, stick to the line you’re directed to by staff so you can enter the beauty of <a href="https://www.vaticanstate.va/en/" style={linkStyle}>Vatican City</a> without confusion. The signs are straightforward, but for some reason, people seem to get it twisted! 🤣
@@ -362,9 +353,7 @@ const captionStyle = {
     <img src={image12} alt="Light Streaming in Vatican Museums - Iconic Photography Moments" style={imageStyle} loading="lazy" /> 
     <img src={image13} alt="Sistine Chapel Modesty Rules - Jackie Wyers Covering Up" style={imageStyle} loading="lazy" /> 
 </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   Despite my dress code mishap, I adore the photos we took—especially the one with the stunning light streaming through the windows against the intricate painted ceilings. While I wouldn’t recommend my outfit choice, remember that mistakes happen, and don’t let it ruin your experience if you make an error like I did. I call it my Vatican-slay look—maybe controversial, but hey, what can you do other than laugh and move on? 🤭
@@ -393,9 +382,7 @@ const captionStyle = {
 <img src={image21} alt="Beating Jet Lag in Rome - Afternoon Nap Strategy" style={imageStyle} loading="lazy" />  </div>
 <div style={gridContainerStyle}>
 <img src={image22} alt="Unexpected Souvenir Shops Near Trevi Fountain - Rubber Duck Store" style={imageStyle} loading="lazy" />      
-    <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+    
 <p style={paragraphStyle}>
   Since it was so early, our café options were limited, so we ended up at <a href="https://www.mcdonalds.com/it/it-it/mccafe.html" style={linkStyle}>McCafé</a>. It’s always fun to see what’s different at McDonald’s in various countries—I tried a cornetto filled with pistachio cream, and it was delicious!
 </p>
@@ -413,9 +400,7 @@ const captionStyle = {
 
 <img src={image24} alt="Osteria da Fortunata - Watching Fresh Pasta Being Made" style={imageStyle} loading="lazy" />  
 </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   Next, we walked to the <a href="https://www.rome.net/pantheon" style={linkStyle}>Pantheon</a>, one of the best-preserved monuments from ancient Rome. This iconic structure, originally built as a temple to all the gods of ancient Rome, is famous for its massive dome and the oculus at its centre, which allows natural light to illuminate the building’s interior. The Pantheon is a true architectural marvel and a must-see for history buffs and art lovers alike.
 </p>
@@ -431,9 +416,7 @@ const captionStyle = {
 <img src={image26} alt="Trastevere’s Vibrant Streets - Ponte Sisto Bridge Crossing" style={imageStyle} loading="lazy" />  
 <img src={image27} alt="Charming Alleys in Trastevere - Jackie Wyers Rome Guide" style={imageStyle} loading="lazy" />  
 </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
   
 <p style={paragraphStyle}>
@@ -461,9 +444,7 @@ const captionStyle = {
 <img src={image35} alt="Shopping for Wedding Favours in Rome - Limon’e Souvenirs" style={imageStyle} loading="lazy" />  
 <img src={image36} alt="Limoncello Bottles and Lemon Candies - Rome Souvenirs" style={imageStyle} loading="lazy" />  
 </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   We topped off the evening with another gelato and climbed the <a href="https://www.italyguides.it/en/lazio/rome/spanish-steps" style={linkStyle}>Spanish Steps</a>. There’s a bar at the top where we had a drink and enjoyed the city views before heading back to our hotel.
@@ -486,9 +467,7 @@ const captionStyle = {
 <img src={image41} alt="Bricks Milano at Naples Terminal - Luxury Luggage Shopping" style={imageStyle} loading="lazy" />  
 </div>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   Some classic souvenirs from Rome include leather goods, handmade sandals, Murano glass (originating from Venice but found in Rome as well), and beautiful postcards—perfect for journaling. If you’re into quirky finds, there’s a shop full of rubber ducks near the Trevi Fountain that’s worth a visit! Luckily, I waited to purchase leather goods in Sorrento!
@@ -531,9 +510,7 @@ My Rome Souvenirs
     <img src={image49} alt="Jackie Wyers Rome Vlog and Travel Article" style={imageStyle} loading="lazy" />  
 
 </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   Stay tuned for all the details on what we got up to in Sorrento. I hope you enjoyed this read and picked up a few travel tips from our experience. If you have any tips, tricks, or suggestions for travellers in Rome, be sure to comment down below—I’d love to hear your thoughts!
 </p>

@@ -2,12 +2,10 @@ import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 
 import { Helmet } from 'react-helmet';
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
-import HorizontalLine from '../../../Components/HorizontalLine';
 import SocialShare from '../../../Home/SocialShare';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/DiaryPost1/DiaryPostTitle.png`;
@@ -213,18 +211,14 @@ const Card = ({ blogContent }) => (
       <p style={paragraphStyle}>
         This self-criticism deepened during an abusive romantic relationship, further eroding my self-esteem. I fixated on my perceived flaws, especially my nose, believing that changing this one feature would alleviate my feelings of inadequacy.
       </p>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
       <h2 style={headingStyle}>The Decision to Change and Its Consequences</h2>
 
       <p style={paragraphStyle}>
         At 17, fuelled by modest earnings from my YouTube channel and unable to afford rhinoplasty, I went in for an injectable nose job. The procedure was brief, painless, and initially seemed like the perfect solution.
       </p>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
       <p style={paragraphStyle}>
         However, the immediate gratification soon faded, and the deeper issues remained. My insecurities merely shifted as the filler migrated and faded unevenly. Over time, I realized I preferred my original appearance and began to question my perception of myself.
@@ -240,9 +234,7 @@ const Card = ({ blogContent }) => (
       <p style={paragraphStyle}>
         This experience taught me about the complexities of self-esteem and the ineffectiveness of seeking external solutions for internal problems. I learned to cut ties with toxic influences and appreciate my qualities, both physical and personal. Makeup and styling became healthy outlets for creativity, allowing me to express myself in non-permanent ways. My YouTube channel, focusing on pop culture and beauty, has become a source of joy and a platform for fostering a supportive community that builds confidence—not just for me, but for my audience as well.
       </p>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
       <h2 style={headingStyle}>Conclusion: Embracing Authenticity</h2>
 
@@ -254,9 +246,7 @@ const Card = ({ blogContent }) => (
       <p style={paragraphStyle}>
         While I recognize that cosmetic enhancements can be positive for some, especially informed adults, I worry about young girls who might view these procedures as solutions to deeper feelings of inadequacy, whether they are aware of their motivations or not. It took years to understand that my feelings of worthlessness were not merely physical insecurities. Making informed decisions about our bodies is challenging during confusing teen and young adult years.
       </p>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
       <p style={paragraphStyle}>
         Through sharing some of my story, I hope to inspire others to reflect on their motivations for physical changes and to embrace their true selves—not just in appearance, but in recognizing how special each personality is and how everyone is worthy of respect and love. I invite you to share your thoughts and reflections below, and I hope you enjoyed my first-ever diary post!
@@ -279,12 +269,8 @@ const Card = ({ blogContent }) => (
       <Comments website-id={websiteId} page-id="Diary-Fillers" />
      
      
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
+
 
     </div>
   );

@@ -2,7 +2,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import { initGA, logPageView } from '../../../analytics';
-import AdSenseAd from '../../../Advertising/Ads';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import { Helmet } from 'react-helmet';
@@ -256,25 +255,19 @@ Wishlist"
   
 </div>
 
-<div style = {{ padding : '10px'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   Ever since the early days of creating YouTube tutorials, <a href="https://barbie.mattel.com/" target="_blank" style={{ color: '#000000', textDecoration: 'underline' }}>Barbie—the world’s most iconic doll—</a> has been a major inspiration to me. Surprisingly, I didn’t grow up surrounded by Barbie dolls. My best friend was a tomboy, and I felt shy sharing my love for Barbie’s pink, sparkly world. But as an adult, I’ve embraced my inner Barbie girl and am all things obsessed with her chic, feminine energy, fashion history, and the brand’s incredible product collaborations that capture the trends of every era.
 </p>
-<div style = {{ padding : '10px'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   With the 2023 <a href="https://www.imdb.com/title/tt1517268/" target="_blank" style={{ color: '#000000', textDecoration: 'underline' }}>Barbie movie release</a> and the whirlwind Barbiecore summer that followed, we saw countless Barbie product collaborations lighting up our feeds. Now that the initial movie buzz has simmered, I wanted to spotlight the most iconic Barbie collaborations of 2024—those that have stood the test of time and some exciting new releases. So, if you’re a die-hard Barbie fan, keep reading for my top five collector items and collabs that are perfect for adult Barbie lovers. And don’t forget to comment with your favorites or any collabs I missed!
 </p>
 
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <h2 style={headingStyle}>
 
 💖Patrick Ta X Barbie Blush Duo And Lip Plumper Set 💖
@@ -309,9 +302,7 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/833074?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}/>
-<div style = {{ padding : '10px'}}>
-  <AdSenseAd/>
-</div>
+
 
 
 
@@ -331,9 +322,7 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
       </div>
 
 
-<div style = {{ padding : '10px'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   My personal faves? The Just Peachy design and the classic pink tumbler with the Barbie logo—they’re perfect for adding a little glam to your everyday hydration routine. At $60 USD, they’re an investment, but the joy of sipping from a Barbie-themed Stanley cup is totally worth it. Check out my full unboxing video above to see the magic unfold!
@@ -341,9 +330,7 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/828360?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}/>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   Want a closer look at Barbie inspired makeup looks? 
@@ -360,9 +347,7 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
   <img src={image2} alt="Jackie Wyers as Peaches ’N Cream Barbie Makeup" style={imageStyle} />
 </div>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>
   👡 Thrifting Silkstone Barbies👡
@@ -371,9 +356,7 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
 <p style={paragraphStyle}>
   <a href="https://www.myvintagebarbies.com/silkstonebarbies.htm" target="_blank" style={{ color: '#000000', textDecoration: 'underline' }}>Silkstone Barbies</a> are the crown jewels of adult Barbie collectibles, blending timeless elegance with the fashion-forward aesthetic we adore. Unlike regular Barbies, Silkstones are made from a unique material that gives them a porcelain-like finish, and their outfits are nothing short of runway-worthy. These dolls often come with intricate, vintage-inspired fashions that are total wardrobe goals. One of my all-time favorite finds is the Highland Fling Barbie with her stunning plaid ensemble—she’s like a mini fashion icon on my shelf!
 </p>
-<div style = {{ padding : '10px'}}>
-  <AdSenseAd/>
-</div>
+
 
 <div style={gridContainerStyle}>
   <img src={image3} alt="Silkstone Barbie Adult Collectable, Hyland Barbie" style={imageStyle} />
@@ -389,9 +372,7 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
 <h2 style={headingStyle}>
   🌞 Barbie x FUNBOY Pool Floaties🌞
 </h2>
-<div style = {{ padding : '10px'}}>
-  <AdSenseAd/>
-</div>
+
 
 <div style={gridContainerStyle}>
   <img src={image8} alt="Jackie Wyers Barbiecore Bachelorette" style={imageStyle} />
@@ -404,9 +385,7 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
 <div style={gridContainerStyle}>
   <img src={image5} alt="Barbie x Funboy Malibu Beach Towel" style={imageStyle} />
 </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <div style={gridContainerStyle}>
   <img src={image6} alt="Barbie x Funboy Floaties" style={imageStyle} />
 </div>
@@ -430,9 +409,7 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
   <img src={image4} alt="Flatly of Barbie products including Aldo x Barbie purse" style={imageStyle} />
 </div>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   This purse is such a I LOVE BARBIE statement. It’s perfect for adding a dash of Barbie glam to any occasion, whether you’re heading to brunch or just want to elevate your everyday look. You’ll feel like a living Barbie doll every time you carry it!
 </p>
@@ -440,9 +417,7 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/833072?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}/>
 
 
-<div style = {{ padding : '10px'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>
   🎀 Barbie Collabs 2024 – On My Wishlist! 🎀
@@ -451,42 +426,32 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
 <p style={paragraphStyle}>
   Can’t get enough Barbie? Here are a few more fabulous collaborations to keep on your radar:
 </p>
-<div style = {{ padding : '10px'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   <strong>Barefoot Dreams x Barbie</strong>: Cozy meets chic in this luxury collection that’s on my wish list. It’s pricey, but the snuggly factor is off the charts! This has been on my wish list for quite some time.
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/833931?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}/>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   <em>BARBIE™ X SOL KYST</em>: This collaboration redefines size inclusivity by bringing it to where it matters most—the face! Mini, Midi, and Wide—designed to fit and flatter various face shapes. The collection includes premium materials such as acetate frames and nylon polarized lenses, ensuring both comfort and stylish. The styles are so retro and fun!
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/832605?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}/>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   <em>Barbie On-the-Go Hair Kit</em>: Perfect for the hair enthusiasts, this set features the cutest Barbie-themed styling tools and accessories in the funkiest totally hair barbie print.
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/833939?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}/>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   <em>Kitsch x Barbie Hair Accessories</em>: I can’t get enough of my Barbie claw clip and heatless curlers—they make every day feel a bit more fabulous.
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/833940?noHeader=true" style={{ width: '100%', minHeight: '1500px', border: 'none' }}/>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   Hillary MacMillian x Barbie Ready-to-Wear: With sizes ranging from XS to 4X, celebrate Barbie through the decades with high quality fashion. The brand focuses on cruelty-free materials in bold colours and exceptional textures, with 60% of production happening in Canada. This Barbie collaboration is all about celebrating every body with fun, fashionable, and feel-good pieces.
 </p>
@@ -495,18 +460,14 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/832615?noHeader=true" style={{ width: '100%', minHeight: '1500px', border: 'none' }}/>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   What do you think of my list? Share your thoughts in the comments, and let me know which Barbie collaborations you’re loving this year or from the past. In the words of Barbie, keep being who you want to be! B A R B I E, Barbie Girl! 🎵
 </p>
 
 
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 
 

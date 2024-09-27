@@ -4,7 +4,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeVlog from '../../Components/SubscribeVlog';
-import AdSenseAd from '../../Advertising/Ads';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
@@ -288,9 +287,7 @@ Rose Bridal on Instagram and decided to go there for a fitting! It may seem extr
 </p>
 
 
-            <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+            
           
 
             <h2 style={headingStyle}>✈ The Journey to Auckland</h2>
@@ -333,9 +330,7 @@ I came across the Hello Kitty Café in Vancouver, which was adorable, and I shop
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
             <BookNowButton href="https://plannin.com/en/hotel/f776fea4-a8ec-41f7-bd2f-2830ca7b615e?currency=USD" target="_blank" rel="noopener noreferrer"/>
             </div>
-            <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+            
             <h2 style={headingStyle}>🛍 Day One: Shopping and Beating Jet lag</h2>
             <p style={paragraphStyle}>
             We landed in the morning and, after freshening up, we walked around Queen Street. There’s a beautiful mall atrium on Elliot Street across from the central square we explored. We were looking for a couple of items from the drugstore and checked out Life Pharmacy, Farmers, and Chemist Warehouse, New Zealand’s version of Shopper’s Drug Mart from Canada, and CVS in the US. I fell in love with some local shops like Creative & Brave and found so many earthy jewelry pieces with a fairy-like vibe, which is my favorite. We walked down to see the waterfront and got familiar with our new home for the week.
@@ -399,9 +394,7 @@ At Farmers, I picked up a whipped shower foam that looks like whipped cream from
 <div style={gridContainerStyle}>    
                 <img src={images[13]} alt="Auckland market" style={imageStyle} />
                 <img src={images[14]} alt="Auckland market 2" style={imageStyle} />
-                <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+                
                 <img src={images[15]} alt="Auckland market 2" style={imageStyle} />
                 <img src={images[16]} alt="Auckland market 2" style={imageStyle} />
 
@@ -420,9 +413,7 @@ We tried Bird on a Wire, which is a chain restaurant known for fried chicken and
             </div>
 
            
-            <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+            
        
          
             <h2 style={headingStyle}>🌴 Waiheke Island</h2>
@@ -435,9 +426,7 @@ were tons of seashells and trees growing out of the sides of the rocks, surround
                 <img src={images[22]} alt="Auckland market 2" style={imageStyle} />
                 
             </div>
-            <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+            
             <div style={gridContainerStyle}>    
             <img src={images[23]} alt="Auckland market 2" style={imageStyle} />
               </div>
@@ -464,9 +453,7 @@ wineries in the world according to reviews, and I too had a great experience. Wh
             
               </div>
           
-            <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+            
        
             <h2 style={headingStyle}>👗 Day Three: Little & Friday in Ponsonby</h2>
             
@@ -487,9 +474,7 @@ wineries in the world according to reviews, and I too had a great experience. Wh
                         <h2 style={headingStyle}>👰 Day Four: Bridal Appointment in Parnell</h2>
                         <div style={gridContainerStyle}>    
   <img src={images[33]} alt="Auckland market 2" style={{...imageStyle, float: 'left', marginRight: '1rem', marginBottom: '1rem'}} />
-  <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+  
   <p style={paragraphStyle}>
     The following day we headed to Parnell to visit Natalie Rose Bridal
     to get a peek at my dress that was being made and to try on a bunch of Eva Lendel’s latest bridal collection! For more details about each dress I tried & a get ready with me for my hair and makeup, check out my beauty breakdown here.
@@ -513,17 +498,13 @@ wineries in the world according to reviews, and I too had a great experience. Wh
             My mom was such a trooper, taking some behind-the-scenes footage and photos as I tried on beautiful gowns. We walked from Natalie Rose Bridal to
 Cibo for fish and chips and our first taste of New Zealand Pavlova!
 Pavlova is my favorite dessert, and my mom makes a great version that I always request on my birthday or Christmas! My best friend’s dad made it when I was at her house as a teen, and I had to get him to give my mom the recipe. While we were used to a lot of fruit, which is typical on top of Pavlova, at this restaurant the salted caramel/peanut was the most popular, and we devoured it. Best. Dessert. Ever.            </p>
-            <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+            
 <div style={gridContainerStyle}>    
             <img src={images[36]} alt="Auckland market 2" style={imageStyle} />
             <img src={images[37]} alt="Auckland market 2" style={imageStyle} />
               </div>
 
-              <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+              
             <h2 style={headingStyle}>🍫 Day Five: Winter Gardens, Auckland Zoo, Chocolate!!!
             </h2>
             <p style={paragraphStyle}>
@@ -546,9 +527,7 @@ The Wintergarden Pavilion was another amazing café with fresh food. While I was
             <img src={images[55]} alt="Auckland market 2" style={imageStyle} />
               </div>
 
-              <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+              
 
 <p style={paragraphStyle}>
 
@@ -579,9 +558,7 @@ For dinner, I came across Ortolana’s on Tyler Street and my husband’s name i
     
          
            
-            <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+            
 
 
 
@@ -597,9 +574,7 @@ For dinner, I came across Ortolana’s on Tyler Street and my husband’s name i
 crater, which offers panoramic views of the city. There were tons of tourists, and many were taking massive group TikToks, which was pretty funny to see.
         adorable top and a beautiful blue dress!            </p>
 
-        <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+        
 
         <div style={gridContainerStyle}>    
             <img src={images[43]} alt="Auckland market 2" style={imageStyle} />
@@ -611,9 +586,7 @@ crater, which offers panoramic views of the city. There were tons of tourists, a
 I saw a shop called Ruby, a New Zealand brand that focuses on eco-friendly fashion. A couple of their new collection pieces really stood out to me, so I tried on an
             </p>
 
-            <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+            
            
             <div style={gridContainerStyle}>
                 <img src={images[49]} alt="Auckland view 6" style={imageStyle} />
@@ -643,9 +616,7 @@ I always try to eat at places unique to wherever I’m visiting and had to try B
 
 Are you from New Zealand? I would love to know, and I would love to go back in the summer as well because it truly was a magical place. I felt like I fit right in with the lovely locals that I spoke to. I also noticed the fashion was pretty vibrant, especially in older ladies with funky earrings, glasses, and prints. I met some quite fabulous older ladies on this trip who were bold as ever!
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <div style={gridContainerStyle}>
                 
                 <img src={images[54]} alt="Auckland view 8" style={imageStyle} />
@@ -665,12 +636,8 @@ Let me know below if you have any places that you think I should travel to next.
            
             <img src={signature} alt="Signature" style={{ width: '100%' }} />
             <Comments website-id={websiteId} page-id={"auklandstrizzlebeans"} />
-            <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+            
+
         </div>
     );
 

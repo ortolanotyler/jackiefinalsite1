@@ -4,7 +4,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
@@ -226,9 +225,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <DropCap1 text="Welcome back to the blog, fellow vintage beauty enthusiasts! We have another Time Travel Tutorials today, and we are covering the iconic Jean Shrimpton - dubbed “The Shrimp” & face of the 1960s. Jean Shrimpton, an English model and actress, was not just a prominent figure in the fashion world but also a symbol of the Swinging Sixties. Known for her striking beauty, long legs, and big eyes, Shrimpton graced the covers of leading fashion magazines, becoming one of the world's first supermodels." />
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
 <h2 style={headingStyle}>The Inspiration: Oh! De London by Yardley</h2>
 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -244,9 +241,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   Let's delve into the inspiration which begins with an homage to the iconic <a href="https://www.yardleylondon.co.uk" target="_blank" rel="noreferrer" style={linkStyle}>Yardley London Oh! De London Cologne</a> advertisement from 1965. The <a href="https://www.yardleylondon.co.uk/heritage" target="_blank" rel="noreferrer" style={linkStyle}>Yardley ads</a> of the '60s are renowned for their vivid colours, striking lines, and whimsical charm, embodying the essence of the influential <a href="https://www.tate.org.uk/art/art-terms/p/pop-art" target="_blank" rel="noreferrer" style={linkStyle}>pop art movement</a> of the era. These ads captivated audiences with their trendy <a href="https://www.britannica.com/art/Mod-fashion" target="_blank" rel="noreferrer" style={linkStyle}>MOD style</a>.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   Luckily, I was able to find the <a href="https://www.fragrantica.com/perfume/Yardley-London/Oh-De-London-1965-43827.html" target="_blank" rel="noreferrer" style={linkStyle}>fragrance</a>, and although it has aged, the scent retains a powdery whisper from the past. I surrounded myself with its aroma to immerse myself fully in the spirit of the era, making it the ideal muse for this makeup transformation.
 </p>
@@ -275,18 +270,14 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
     <img src={face} alt="Jean Shrimpton Face Chart" style={{ width: '100%', maxWidth: '650px' }} />
   </a>
 </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <h2 style={headingStyle}>Youthful Base & Matte Finish Foundation</h2>
 
 <p style={paragraphStyle}>
   I began with the application of <a href="https://www.instyle.com/hair/faux-bangs-trend" target="_blank" rel="noopener noreferrer" style={linkStyle}>faux bangs</a> and <a href="https://www.glamourmagazine.co.uk/article/best-hair-extensions" target="_blank" rel="noopener noreferrer" style={linkStyle}>extensions</a>, setting the stage for a transformative look. For the base makeup, I chose a <a href="https://www.allure.com/gallery/best-face-primers" target="_blank" rel="noopener noreferrer" style={linkStyle}>radiant primer</a> to minimize pores and prepare my skin for the foundation—a natural velvet matte finish foundation that evokes the era's flawless complexion, paired with a <a href="https://www.byrdie.com/best-concealers-for-yellow-undertones-4844262" target="_blank" rel="noopener noreferrer" style={linkStyle}>yellow-based concealer</a> to brighten and balance the skin tone.
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>Sculpting the Features</h2>
 
@@ -296,9 +287,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/524886?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>Eyes That Speak Volumes</h2>
 
@@ -313,9 +302,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <ResponsiveIframe src="https://shopmy.us/collections/public/524889?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>Lips and Final Touches</h2>
 
@@ -334,9 +321,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <ResponsiveIframe src="https://shopmy.us/collections/public/524892?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>The Hair: An Epic Updo Challenge</h2>
 
@@ -361,9 +346,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <div style={{ display: 'flex', justifyContent: 'center' }}>
   <img src={image5} alt="Vintage Collection" style={{ width: '100%', maxWidth: '650px' }} />
 </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   If you have any vintage icons you'd like me to cover in future posts, don't hesitate to leave a comment below. And remember, the beauty of vintage is not just in the look—it's in the stories we tell and the history we keep alive. If you enjoyed this look, you may love <a href="/sharontatebridal" style={linkStyle} target="_blank" rel="noopener noreferrer">Sharon Tate's unique blend of bohemian and mod aesthetics</a>. I’ve also covered her coquette bridal style, <a href="/sharontatebridal" style={linkStyle} target="_blank" rel="noopener noreferrer">here</a>.

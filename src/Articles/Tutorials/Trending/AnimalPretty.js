@@ -4,7 +4,6 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
@@ -238,9 +237,7 @@ const AnimalPretty = () => {
         text="Hey beauties, it’s Jackie! Today, we're diving into a fun and fresh way to explore beauty styles with my 'Types of Pretty' makeup series inspired by adorable animals like deer, cats, foxes, and bunnies. Whether you saw this trend on TikTok or my latest YouTube tutorial, I’m thrilled to bring this unique concept to the blog where we break down each style with detailed makeup guides."
       />
 
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+      
 
       {/* Deer Pretty Section */}
       <h2 style={headingStyle}>Deer Pretty: Soft and Ethereal 🦌</h2>
@@ -285,9 +282,7 @@ const AnimalPretty = () => {
         rock this look with their big, round eyes and stunning skin tones.
       </p>
 
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+      
 
       <h2 style={headingStyle}>Achieve the Deer Pretty Look</h2>
       <p style={paragraphStyle}>
@@ -315,9 +310,7 @@ const AnimalPretty = () => {
         src="https://shopmy.us/collections/public/552928?noHeader=true"
         title="ISOPIA Iso-Gentle Touch Lashes"
       />
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+      
 
       <p style={paragraphStyle}>
         <strong>Cheeks:</strong> Use a peachy blush on the tops of your cheeks to bring warmth and brightness to your face
@@ -337,9 +330,7 @@ const AnimalPretty = () => {
         for a natural, yet enhanced look.
       </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552889?noHeader=true" title="Matte Peach Lip Colour" />
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+      
       <p style={paragraphStyle}>
         <strong>Outfit Inspiration:</strong> To fully embody the Deer Pretty theme, choose dainty and whimsical styles. Try
         outfits in earthy and pastel palettes that resonate with the natural and soft aesthetics of a deer. Fabrics like
@@ -349,9 +340,7 @@ const AnimalPretty = () => {
         </a>{' '}
         is a great store to try.
       </p>
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+      
       <p style={paragraphStyle}>
         Want to really showcase your animal inspiration?{' '}
         <a href="https://fableengland.com/" target="_blank" rel="noopener noreferrer" style={linkStyle}>
@@ -364,9 +353,7 @@ const AnimalPretty = () => {
         title="Fable England Accessories"
         style={{ height: '1000px' }}
       />
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+      
 
       {/* Cat Pretty Section */}
       <h2 style={headingStyle}>Cat Pretty: Bold and Intense 🐈‍⬛</h2>
@@ -420,9 +407,7 @@ const AnimalPretty = () => {
         src="https://shopmy.us/collections/public/552837?noHeader=true"
         title="Victoria Beckham Beauty Smoky Eye Brick in Tuxedo"
       />
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+      
       <p style={paragraphStyle}>
         <strong>Lashes:</strong> Go for dramatic, fanned-out lashes that complement the bold liner, amplifying the overall
         eye makeup. Try{' '}
@@ -435,9 +420,7 @@ const AnimalPretty = () => {
         src="https://shopmy.us/collections/public/552911?noHeader=true"
         title="ISOPIA Iso-Gentle Echo Lashes"
       />
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+      
       <p style={paragraphStyle}>
         <strong>Cheeks:</strong> Sculpt your cheeks with a cool-toned contour powder to add depth and enhance your natural
         bone structure, mimicking the chiseled look typical of a sleek feline. Find options at{' '}
@@ -459,9 +442,7 @@ const AnimalPretty = () => {
         .
       </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552839?noHeader=true" title="Deep Mauve Lip Colour" />
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+      
       <p style={paragraphStyle}>
         <strong>Outfit Inspiration:</strong> Channel '90s off-duty supermodel vibes with structured yet casual elements.
         Think fitted black tanks paired with low-waisted baggy jeans. Explore{' '}
@@ -525,9 +506,7 @@ const AnimalPretty = () => {
         src="https://shopmy.us/collections/public/552844?noHeader=true"
         title="Bareminerals Warmth Minerals Palette"
       />
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+      
       <p style={paragraphStyle}>
         <strong>Lashes:</strong> Extend the lash line along the winged-out shadow. Try{' '}
         <a href="https://shopmy.us/collections/public/552845" style={linkStyle}>
@@ -548,9 +527,7 @@ const AnimalPretty = () => {
         .
       </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552846?noHeader=true" title="Dual Blush Tones" />
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+      
       <p style={paragraphStyle}>
         <strong>Lips:</strong> A matte berry or a rustic red lip, smudged out for a softer, more approachable look. Add a
         touch of golden metallic highlight to the cheekbones and pat over the center of the lip for a unique, textured
@@ -570,9 +547,7 @@ const AnimalPretty = () => {
         is an excellent starting point for this style. Select paisley or other small prints in rustic tones to complement
         the boho aesthetic beautifully.
       </p>
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+      
       <p style={paragraphStyle}>
         Don't forget to check out{' '}
         <a href="https://fableengland.com/" target="_blank" rel="noopener noreferrer" style={linkStyle}>
@@ -616,9 +591,7 @@ const AnimalPretty = () => {
         </a>
         .
       </p>
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+      
       <p style={paragraphStyle}>
         Celebrity Inspirations:{' '}
         <a href="https://www.instagram.com/ellefanning/" target="_blank" rel="noopener noreferrer" style={linkStyle}>
@@ -672,9 +645,7 @@ const AnimalPretty = () => {
         is an excellent choice for a warmer pink, while Rare Beauty's blush in Happy suits cooler undertones.
       </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/552854?noHeader=true" title="Milani Coral Cove Blush" />
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+      
       <p style={paragraphStyle}>
         <strong>Lips:</strong> Start with a nude pink lip liner to define your lips, then layer on the{' '}
         <a href="https://shopmy.us/collections/public/552857" style={linkStyle}>
@@ -727,9 +698,7 @@ const AnimalPretty = () => {
       <div>
         <img src={signature} alt="Signature" style={{ width: '100%', marginBottom: '2rem' }} />
       </div>
-      <div style={{ margin: '1rem auto' }}>
-        <AdSenseAd />
-      </div>
+      
       <Comments website-id={websiteId} page-id={'Animal-Prizznizzle'} />
     </div>
   );

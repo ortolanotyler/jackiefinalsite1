@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import AdSenseAd from '../../../Advertising/Ads';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from'react-helmet';
@@ -207,9 +206,7 @@ const Card = ({ blogContent }) => (
 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
 </p>
       <DropCap1 text="I recently had a fabulous time trying on wedding dresses at Natalie Rose Bridal, and I took the opportunity to attempt a makeup trial to see how everything would look and feel in videos and photos. In this post, I’ll break down the products used and share my thoughts on what worked and what I might tweak for the big day." />
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 
 
 
@@ -244,9 +241,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   <strong>Foundation:</strong> My favourite summer foundation is the <a href="https://www.charlottetilbury.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Charlotte Tilbury Beautiful Skin Foundation</a> for photo-ready coverage. For those seeking more coverage, try <a href="https://www.giorgioarmanibeauty-usa.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Giorgio Armani’s Luminous Silk Foundation</a>—just make sure to test any foundation well before your wedding day.
 </p>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
 <p style={paragraphStyle}>
   <strong>Highlight and Contour:</strong> I used <a href="https://www.mariomakeup.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Mario’s Sculpting Stick</a> for contouring and <a href="https://www.yensa.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Yensa's Super Serum Silk Concealer</a> to cancel out any darkness under the eyes. For more tips, visit my <a href="https://jackiewyers.beauty/contour-guide" target="_blank" rel="noopener noreferrer" style={linkStyle}>contour guide</a>.
 </p>
@@ -256,9 +251,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   alt="Collection of contour and highlight products for bridal makeup, featuring Mario Sculpting Stick and Yensa Super Serum Silk Concealer for a sculpted bridal look." 
 />
       
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   <strong>Blushing Bride Cheeks:</strong> The focal point of the look was the <a href="https://www.rarebeauty.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Rare Beauty Luminous Blush</a> paired with <a href="https://www.charlottetilbury.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Charlotte Tilbury's Spotlight Highlight</a>. Check out more blush tips in my <a href="https://jackiewyers.beauty/blushingbride" target="_blank" rel="noopener noreferrer" style={linkStyle}>blush guide</a>.
 </p>      <ResponsiveIframe 
@@ -298,9 +291,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   <strong>Lashes & Lips:</strong> Complete your bridal look with soft lashes from <a href="https://www.velourbeauty.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Velour</a> or <a href="https://www.amazon.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Isopia lashes</a>. For lips, I preferred the cooler, deeper tones of <a href="https://www.charlottetilbury.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Charlotte Tilbury’s Iconic Nude</a>.
 </p>
 
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
      
       <p style={paragraphStyle}>As for lips, this was one area I'd adjust from my trial. The lip liner I chose, Makeup Forever Anywhere Caffeine, felt too rosy as it began to wear for this look. In close-up photos in this article, I added some of the Charlotte Tilbury’s Iconic Nude to the lip combo, which I preferred for its cooler, deeper tone. I went with a nude gloss, but in some lighting, it appeared a bit too warm as well. A baby pink gloss might have better complemented the overall look.</p>
      
@@ -314,9 +305,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
      
      
   
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
 
 
 <p style={paragraphStyle}>
@@ -360,9 +349,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
    
      
       <p style={paragraphStyle}>Since I will be outside for much of the wedding day, I will skip gloss and go for a balm for moisture, but less stick. Nothing worse than hair in lipgloss!</p>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       
       <p style={paragraphStyle}>
   <strong>  What's Your Dream Bridal Look?  </strong>Let me know in the comments! If you need more inspiration, remember to check out my pop culture bridal styles on IG <a 
@@ -383,9 +370,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <div>
         <img src={signature} alt="Jackie Wyers Bridal" style={{ width: '100%' }} />
       </div>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <Comments website-id={websiteId} page-id={"Las-bridalmmmkkup"} />
     </div>
   );

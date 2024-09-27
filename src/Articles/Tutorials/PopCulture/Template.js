@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import { initGA, logPageView } from '../../../analytics';
-import AdSenseAd from '../../../Advertising/Ads';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
@@ -211,9 +210,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <DropCap1 text="Welcome back to Time Travel Tutorials! Step back into the glamorous ‘60s with Brigitte
 Bardot's iconic big bun! Whether you're looking for a chic everyday look or a show-stopping updo for a special occasion, I've got you covered with my tried- and-tested techniques featuring faux bangs, using the ends of your own hair. Let's dive into vintage beauty and master the Bardot bun together!" />
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 
 

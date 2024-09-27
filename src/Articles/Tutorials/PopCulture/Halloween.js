@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import { initGA, logPageView } from '../../../analytics';
-import AdSenseAd from '../../../Advertising/Ads';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
@@ -232,9 +231,6 @@ down all the makeup, hair, and outfit details.
 
 
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
 
 
 
@@ -312,9 +308,7 @@ movie is Jacqueline Durran, Barbie Movie Costume by
  </p>
 
 
- <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 
 

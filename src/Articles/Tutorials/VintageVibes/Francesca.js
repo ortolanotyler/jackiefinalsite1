@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import { initGA, logPageView } from '../../../analytics';
-import AdSenseAd from '../../../Advertising/Ads';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import { Helmet } from 'react-helmet';
@@ -220,9 +219,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   showcasing behind the scenes!"/>
 
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 
 <h2 style={headingStyle}>Get the Francesca-Inspired Look</h2>
@@ -241,9 +238,7 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
   Bridgerton. Let’s get the look!
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>A Youthful Base</h2>
 <p style={paragraphStyle}>
@@ -254,9 +249,7 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
   worth every penny along with the <a style={linkStyle} href="https://www.giorgioarmanibeauty-usa.com" target="_blank" rel="noreferrer">Armani Luminous Silk concealer</a> for highlighting and concealing.
 </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/794081?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>Dewy, Highlighted Cheekbones</h2>
 <p style={paragraphStyle}>
@@ -271,9 +264,7 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
   round cheekbones and defined nose bridge. The subtle transformation steps are totally optional!
 </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/794089?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
   
 
 
@@ -293,9 +284,7 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
 <ResponsiveIframe src="https://shopmy.us/collections/public/794100?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
 
- <div style={{ margin: '0 auto' }}>
-        <AdSenseAd />
-      </div>
+
 
 <h2 style={headingStyle}>A Pop of Cranberry in the Crease</h2>
 <p style={paragraphStyle}>
@@ -315,9 +304,7 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
   Tight line with black liner and if you like to extend the eyes slightly, add a soft, faint wing for a subtle,
   defined look.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   For mascara, try <a style={linkStyle} href="https://www.toofaced.com" target="_blank" rel="noreferrer">Too Faced Better Than Sex</a>, paired
@@ -340,9 +327,7 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
 <div style={gridContainerStyle}>
   <img src={image2} alt="Jackie Wyers as Francesca Bridgerton Hair and Makeup" style={imageStyle} />
 </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>A Bridgerton-Inspired Haul</h2>
 <p style={paragraphStyle}>
@@ -359,9 +344,7 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/794145?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 
 <div style={gridContainerStyle}>
@@ -373,9 +356,7 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/794138?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   Lastly, I have to mention the <a  style={linkStyle} href="https://www.kikocosmetics.com" target="_blank" rel="noreferrer">Kiko Milano x Bridgerton</a> makeup collection. I had a hard time
@@ -384,9 +365,7 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
   palettes, lipsticks, and blushes in vintage-inspired packaging, perfect for creating a Regency-era look
   like <a  style={linkStyle} href="https://www.netflix.com/title/80232398" target="_blank" rel="noreferrer">Francesca’s</a>.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/794141?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
@@ -416,8 +395,6 @@ style = {{
 
 
 
-</div><div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
 </div>
 
 
@@ -469,16 +446,10 @@ style = {{
 
       <Comments website-id={websiteId} page-id={"francesca-hairstyle1"} />
 
-      <div style={{ margin: '0 auto' }}>
-        <AdSenseAd />
-      </div>
+     
 
-      <div style={{ margin: '0 auto' }}>
-        <AdSenseAd />
-      </div>
-      <div style={{ margin: '0 auto' }}>
-        <AdSenseAd />
-      </div>
+     
+     
       
     </div>
     

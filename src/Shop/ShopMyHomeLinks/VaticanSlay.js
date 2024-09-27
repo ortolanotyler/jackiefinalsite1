@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from 'react';
 import TextReveal from '../../Components/TextReveal';
 import { Link, Typography, Box } from '@mui/material';
 import styles from './AboutHero.module.css'; // Importing the CSS module
-import AdSenseAd from '../../Advertising/Ads';
 
 const VaticanSlay = () => {
   const iframeRef = useRef(null);
@@ -51,9 +50,7 @@ const VaticanSlay = () => {
           scrolling="no"
         ></iframe>
       </div>
-      <div style={{ margin: '20px' }}>
-        <AdSenseAd />
-      </div>
+     
     </div>
   );
 };

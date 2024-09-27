@@ -1,8 +1,6 @@
 import React from 'react';
 import { Grid } from '@mui/material';
-import TextReveal from '../Components/TextReveal';
 
-import AdSenseAd from '../Advertising/Ads';
 import { Helmet } from'react-helmet';
 import Quiz3 from './Quiz3';
 import Quiz2 from './Quiz2';
@@ -44,21 +42,7 @@ const QuizHomepage = () => {
                       <Quiz2 />
                 </Grid>
                   
-                <Grid item xs={6}>
-                  <div
-                  style = {{
-                    margin: '10px auto',
-                    width: '100%',
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
                 
-                  }}
-                  >
-
-                  </div>
-                      <AdSenseAd />
-                </Grid>
 
         
                
@@ -80,21 +64,7 @@ const QuizHomepage = () => {
                 <EmailSubscribe/>
                 </div>
 
-                <Grid item xs={6}>
-                  <div
-                  style = {{
-                    margin: '10px auto',
-                    width: '100%',
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
                 
-                  }}
-                  >
-
-                  </div>
-                      <AdSenseAd />
-                </Grid>
              
         </div>
     );

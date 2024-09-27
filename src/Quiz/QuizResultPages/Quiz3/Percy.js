@@ -5,7 +5,6 @@ import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../../Advertising/Ads';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 import ArticleTitle from '../../../Components/ArticleTitle';
 
@@ -188,10 +187,7 @@ Imagine celebrating your special day in a vintage manor or a classic ballroom, s
  </div>
 
  
- <div style = {{ textAlign: 'center', marginTop: '2rem' }}>
-<AdSenseAd/>
-
-    </div>
+ 
               
 
 <h2 style = {headingStyle}>
@@ -217,10 +213,7 @@ Dress Features: Look for gowns with timeless silhouettes and vintage-inspired de
    <img src={image4} alt="Jackie Wyers Wedding Percy Dress" style={imageStyle} />
  </div>
 
- <div style = {{ textAlign: 'center', marginTop: '2rem' }}>
-<AdSenseAd/>
-
-    </div>
+ 
                
 <h2 style = {headingStyle}>
 Bridal Muse:
@@ -246,11 +239,7 @@ Speaking of Audrey, Ariana Grandeâ€™s bridal look is a modern take on the 1950â€
 
       <Comments website-id={websiteId} page-id={"quiz3"} />
 
-      <div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div><div style={{margin: '20px'}}>
-                <AdSenseAd/>
-                </div>  
+     
       
     </div>
     

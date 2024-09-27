@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from 'react-helmet';
 import DropCap1 from '../../Travel/DropCap1';
@@ -211,9 +210,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <DropCap1 text="Welcome back for some quick no-makeup makeup inspiration for spring, inspired by timeless beauty icons from beloved tv & film. Now that it's spring, I find myself drawn to the artful simplicity of the no-makeup makeup look, inspired by some of pop culture's most enduring female characters. Their spirit, captured in timeless stories, now breathes life into my spring beauty routine." />
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <h2 style={headingStyle}>The Looks: Elizabeth Bennet - Pride & Prejudice</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <a href="https://www.instagram.com/p/C5dsVStuCqT/?img_index=1" target="_blank" rel="noopener noreferrer">
@@ -234,9 +231,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   title="Elizabeth Bennet Pride & Prejudice Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
   alt="Shop Elizabeth Bennet-inspired no-makeup makeup products used in the recreation of her look from Pride & Prejudice by Jackie Wyers"
 />     
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <h2 style={headingStyle}>Daphne Bridgerton - Bridgerton:</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <a href="https://www.instagram.com/p/C5dsVStuCqT/?img_index=1" target="_blank" rel="noopener noreferrer">
@@ -256,9 +251,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   src="https://shopmy.us/collections/public/524425?noHeader=true" 
   title="Daphne Bridgerton Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
   alt="Shop Daphne Bridgerton-inspired no-makeup makeup products used in the recreation of her look from Bridgerton by Jackie Wyers"
-/>      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+/>     
 
 
       <h2 style={headingStyle}>Rose Dawson - Titanic:</h2>
@@ -271,9 +264,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={captionStyle}>
       Original Makeup & Hair Design by Tina Earnshaw from the 1997 film 'Titanic,' recreation by Jackie Wyers.
       </p>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <p style={paragraphStyle}>
         Channel Rose's iconic look from Titanic, embodying Edwardian charm. The eyes are sculpted with rustic tones, cheeks are graced with a hint of colour, and lips are stained a deep, rich burgundy red. Perfect for a bride or a fanciful spring afternoon. <a href="https://www.youtube.com/watch?v=0M_JRs-fYt4&t=109s" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>Get the elegant updo and makeup right here.</a>
       </p>
@@ -282,9 +273,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   src="https://shopmy.us/collections/public/524428?noHeader=true" 
   title="Rose Dawson Titanic Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
   alt="Shop Rose Dawson-inspired no-makeup makeup products used in the recreation of her look from Titanic by Jackie Wyers"
-/>      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+/>     
 
       <h2 style={headingStyle}>Amy March - Little Women:</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -295,9 +284,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={captionStyle}>
       Original Makeup & Hair Design by Ivana Primorac from the 2019 film 'Little Women,' recreation by Jackie Wyers.
       </p>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <p style={paragraphStyle}>
         Reflecting Amy March's artistic spirit, her look is understated yet intentional. Barely-there foundation pairs with a nude peach blush and neutral lips looks effortless, yet sophisticated. Amy's updos, intricate with twists and braids, adds to the artistic style. <a href="https://www.youtube.com/watch?v=BuElhuhaMXw&t=501s" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>See the full Amy March hair and makeup guide.</a>
       </p>
@@ -306,9 +293,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   src="https://shopmy.us/collections/public/524428?noHeader=true" 
   title="Amy March Little Women Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
   alt="Shop Amy March-inspired no-makeup makeup products used in the recreation of her look from Little Women by Jackie Wyers"
-/>      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+/>     
 
       <h2 style={headingStyle}>Rosie Dunne - Love, Rosie:</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -328,9 +313,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   src="https://shopmy.us/collections/public/524432?noHeader=true" 
   title="Rosie Dunne Love, Rosie Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
   alt="Shop Rosie Dunne-inspired no-makeup makeup products used in the recreation of her look from Love, Rosie by Jackie Wyers"
-/>      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+/>     
 
       <h2 style={headingStyle}>Alaska Young - Looking For Alaska:</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -345,9 +328,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
         Alaska Young's effortless look from "Looking for Alaska" pairs a rebellious spirit with girl-next-door charm. Her '70s influenced style features long hair with a centre part and full brows. Makeup is soft, smudged, with natural pops of colour enhancing cheeks and lips. Master the Alaska Young inspired look <a href="https://www.youtube.com/watch?v=AePBFzlyNpo&t=16s" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'GFS Didot, serif', color: 'black' }}>here.</a>
       </p>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
 <ResponsiveIframe 
   src="https://shopmy.us/collections/public/524436?noHeader=true" 
   title="Alaska Young Looking For Alaska Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
@@ -360,9 +341,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
           <img src={image7} alt="Winnie Foster - Tuck Everlasting" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <p style={captionStyle}>
       Original Makeup & Hair Design by Hallie D'Amore from the 2002 film 'Tuck Everlasting,' recreation by Jackie Wyers.
       </p>
@@ -375,9 +354,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   src="https://shopmy.us/collections/public/524438?noHeader=true" 
   title="Winnie Foster Tuck Everlasting Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
   alt="Shop Winnie Foster-inspired no-makeup makeup products used in the recreation of her look from Tuck Everlasting by Jackie Wyers"
-/>      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+/>     
 
       <h2 style={headingStyle}>A Final Note</h2>
       <p style={paragraphStyle}>
@@ -386,9 +363,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
         For more beauty musings and discussions around the artistry behind some of film and literature’s most cherished characters, stay tuned. Here’s to embracing the season's gentle renewal and finding your own natural beauty!
       </p>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
    
 
       <NextArticle
@@ -406,13 +381,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </div>
    
       <Comments website-id={websiteId} page-id={"No-Makeup-Spring"} />
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>   <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>   <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+         
     </div>
   );
 

@@ -1,8 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
-import DropCap from '../../../Components/DropCap';
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import { Helmet } from'react-helmet';
 
@@ -242,9 +240,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   Recent Photo shot on <a style={linkStyle} href="https://www.apple.com/iphone-13-pro/" target="_blank" rel="noreferrer">iPhone 13 Pro Max</a>
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>Set Your Camera Style to Vibrant</h2>
 
@@ -263,9 +259,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   Vibrant setting photos at the <a style={linkStyle} href="https://www.museivaticani.va" target="_blank" rel="noreferrer">Vatican Museum</a>
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>Always Clean Your Lens</h2>
 
@@ -281,9 +275,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   Taken with .5 zoom lens on <a style={linkStyle} href="https://www.apple.com/iphone-13-pro/" target="_blank" rel="noreferrer">iPhone 13 Pro Max</a> right after cleaning the lens
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>Composition and the Rule of Thirds</h2>
 
@@ -305,9 +297,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   I prefer to keep <span style={{ fontWeight: 'bold' }}>HDR (High Dynamic Range)</span> mode turned off on my <a style={linkStyle} href="https://www.apple.com/iphone-13-pro/" target="_blank" rel="noreferrer">iPhone</a> camera because I find it allows for more control over the exposure and overall look of my photos. HDR blends multiple exposures to balance highlights and shadows, but it can sometimes result in images that feel overly processed, losing the natural contrast and depth that I prefer.
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   Turning off HDR gives me greater flexibility during post-processing, allowing me to adjust exposure, contrast, and shadows to suit my personal style. Additionally, for scenes with movement, I avoid HDR to prevent ghosting effects, ensuring my images remain sharp and true to the moment.
@@ -333,9 +323,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <ResponsiveIframeNoScroll src="https://shopmy.us/collections/public/726380?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>When to Use Portrait Mode</h2>
 
@@ -359,9 +347,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   <img src={image12} alt="Elizabeth Bennet - Pride & Prejudice" style={{ width: '100%', maxWidth: '650px', margin: '0 auto' }} />
 </div>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>Optimize Your Lighting</h2>
 
@@ -403,24 +389,10 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
     <Comments website-id={websiteId} page-id={"Camera-Settings"} />
 
 
-      <div
-style = {{
-  margin : '20px'
-}}
->
-
-  <AdSenseAd/>
-</div>
+      
 
 
-<div
-style = {{
-  margin : '20px'
-}}
->
 
-  <AdSenseAd/>
-</div>
 
       
     </div>

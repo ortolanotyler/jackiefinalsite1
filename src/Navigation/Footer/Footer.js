@@ -4,7 +4,6 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import SwitchUpYour from './SwitchUpYour';
-import AdSenseAd from '../../Advertising/Ads';
 
 const Footer = () => {
  

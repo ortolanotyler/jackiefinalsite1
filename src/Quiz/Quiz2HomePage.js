@@ -1,7 +1,6 @@
 import React from 'react';
 import { Grid } from '@mui/material';
 
-import AdSenseAd from '../Advertising/Ads';
 import { Helmet } from'react-helmet';
 
 import Quiz2 from './Quiz2';
@@ -55,14 +54,7 @@ const Quiz2Homepage = () => {
                 
             </Grid>
 
-            <Grid item xs={6}>
-    
-    <AdSenseAd />
-</Grid>
-<Grid item xs={6}>
-
-    <AdSenseAd />
-</Grid>
+            
 
           
 
@@ -70,21 +62,9 @@ const Quiz2Homepage = () => {
                 <EmailSubscribe/>
                 </div>
 
-                <Grid item xs={6}>
-                  <div
-                  style = {{
-                    margin: '10px auto',
-                    width: '100%',
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                
-                  }}
-                  >
-
-                  </div>
-                      <AdSenseAd />
-                </Grid>
+               
+                     
+               
              
         </div>
     );

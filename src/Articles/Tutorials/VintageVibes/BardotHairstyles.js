@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import { initGA, logPageView } from '../../../analytics';
-import AdSenseAd from '../../../Advertising/Ads';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
@@ -252,9 +251,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <DropCap1 text="Welcome back to Time Travel Tutorials! Step back into the glamorous ‘60s with Brigitte
 Bardot's iconic big bun! Whether you're looking for a chic everyday look or a show-stopping updo for a special occasion, I've got you covered with my tried- and-tested techniques featuring faux bangs, using the ends of your own hair. Let's dive into vintage beauty and master the Bardot bun together!" />
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   One of my first videos 10 years ago was attempting to recreate a Bardot-inspired half-up, half-down 
@@ -294,9 +291,7 @@ Inspired Muse - Tap image for Sabrina Carpenter inspired makeup tutorial.
 </p>
 
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   This article is for those of you who want to experiment with faux bangs without using clip-ins and get the Bardot look temporarily. Let’s discover the best techniques to get the look, shall we?
@@ -311,9 +306,7 @@ Updated Bardot Bun on Natural Hair
  
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>
 Method One: Best Big Bun
@@ -335,9 +328,7 @@ Bun starts at 4:05    </p>
 
 
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 
 <p style={paragraphStyle}>
@@ -345,21 +336,11 @@ Bun starts at 4:05    </p>
 </p>
 
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   What I loved about my initial attempt though, was how I created the <a style={linkStyle} href="https://www.hair.com/tease-and-curl-techniques" target="_blank" rel="noreferrer">voluminous base bun</a>. It is super easy to take pieces from around the <a style={linkStyle} href="https://www.sallybeauty.com/tools-and-brushes/hair-rollers-and-pins/hair-buns/donut-bun-makers/SLONYN58.html" target="_blank" rel="noreferrer">bun maker</a>, curl, tease, and pin in loops. When you already have a bun maker as a base shape, you can go big, and wedging <a style={linkStyle} href="https://www.goodhousekeeping.com/beauty-products/hair-accessories/g27726179/best-bobby-pins/" target="_blank" rel="noreferrer">bobby pins</a> into it will keep it in place. Kudos to little me for recreating this iconic style in an easy way!
 </p>
 
-<div
-style = {{
-  margin : '1rem auto'
-}}
->
-
-  <AdSenseAd/>
-</div>
 
 <h2 style={headingStyle}>
 Method Two: Best Faux Bangs
@@ -382,14 +363,6 @@ Method Two: Best Faux Bangs
   When I recreated a <a style={linkStyle} href="https://www.biography.com/actor/brigitte-bardot" target="_blank" rel="noreferrer">Brigitte Bardot</a> inspired look many years later using a different inspiration photo, I came up with another method to shorten the hair for the bang section. For my new technique, section the hair into three ponytails: two smaller pigtails at the front with a centre part, and the rest of the hair in a super high ponytail.
 </p>
 
-<div
-style = {{
-  margin : '1rem auto'
-}}
->
-
-  <AdSenseAd/>
-</div>
 
 <p style={paragraphStyle}>
   Instead of using a bun maker, I <a style={linkStyle} href="https://www.allure.com/story/how-to-tease-hair" target="_blank" rel="noreferrer">teased</a> my ponytail, wrapped it into a simple bun, and added some very textured <a style={linkStyle} href="https://www.byrdie.com/how-to-pin-curls" target="_blank" rel="noreferrer">pin curls</a> at the front of the updo for more height and interest. This style wasn’t quite as voluminous as the first attempt, so I recommend using a bun maker if you want to go even bigger like in the first tutorial. We will combine these methods next, but first, here’s a guide to creating the best <a style={linkStyle} href="https://www.harpersbazaar.com/beauty/hair/g3996/how-to-style-faux-bangs/" target="_blank" rel="noreferrer">faux bangs</a>.
@@ -416,28 +389,12 @@ My Take On A Brunette Bardot Updo
 <p style={paragraphStyle}>
   After the base bun is complete, I created faux bangs with the two mini pigtails sectioned off.
 </p>
-<div
-style = {{
-  margin : '1rem auto'
-}}
->
-
-  <AdSenseAd/>
-</div>
 
 <p style={paragraphStyle}>
   Tease and twist each pigtail, hold it high in the air, and cross it over to the opposite side, behind the second pigtail, pinning with an X to keep in place. This not only adds to the updo but also allows you to pull the leftover ends from the pigtail underneath the twist, creating a <a style={linkStyle} href="https://www.instyle.com/how-to-get-curtain-bangs" target="_blank" rel="noreferrer">fluffy curtain bang</a> on each side.
 </p>
 
 
-<div
-style = {{
-  margin : '1rem auto'
-}}
->
-
-  <AdSenseAd/>
-</div>
 
 <p style={paragraphStyle}>
   You can adjust the length of your new bangs, styling them with a <a style={linkStyle} href="https://www.ulta.com/p/hot-tools-professional-curling-iron-pimprod2002102" target="_blank" rel="noreferrer">curling iron</a>, teasing comb, and hairspray. The tight twist allows for fewer bobby pins to keep them in place. If your hair is long like mine, loop the excess length and blend it into the bun and be sure to set with <a style={linkStyle} href="https://www.sephora.com/shop/hairspray" target="_blank" rel="noreferrer">hairspray</a>.

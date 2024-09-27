@@ -5,7 +5,6 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import DropCap from '../../../Components/DropCap';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../../Advertising/Ads';
 import { initGA, logPageView } from '../../../analytics';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
@@ -215,9 +214,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <DropCap text="Welcome back to another installment of Time Travel Tutorials...though this time, we're not journeying too far back in time! The makeup trends of 2016 were significantly influenced by the young Kylie Jenner, the undeniable 'IT' girl for teens. High-coverage foundations, LOTS of setting powder, sharp and bold dip brows, warm smokey eyes, glittery cut creases, voluminous mink lashes, and deep, matte lip combinations had beauty enthusiasts captivated!" />
      
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <p style={paragraphStyle}>
         In this article, we'll revisit the products that were a staple on every makeup lover’s vanity in 2016 and embrace a daily bold glamour look. I was so excited to channel Kylie Jenner's dramatic flair, especially since I missed out on experimenting with these trends back in the day!
       </p>
@@ -240,9 +237,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
           </a>
         </div>
     
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
 <p style={paragraphStyle}>
   To embody <a href="https://jackiewyers.beauty/kylie-jenner" style={linkStyle}>Kylie Jenner's look</a> and celebrate the key trends of 2016, we must adopt a "more is more" mentality. Instead of focusing on enhancing just one feature, we're highlighting them all simultaneously. To ensure the skin still looks youthful and fresh with such a makeup style, preparation is crucial. In the video embedded above, I was sponsored by <a href="https://www.dalbaofficial.com" style={linkStyle}>d'Alba</a>, and I love and have consistently repurchased the <a href="https://shopmy.us/collections/public/542368?noHeader=true" style={linkStyle}>d'Alba Italian White Truffle First Spray Serum</a>. It’s an excellent initial step to infuse the skin with moisture. The product smells amazing and feels luxurious while being affordable.
 </p>
@@ -266,9 +261,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
   The <a href="https://www.beautyblender.com" style={linkStyle}>beauty blender</a> has been a staple since 2005, initially launching in collaboration with Victoria’s Secret. It transitioned to Sephora in 2011, garnering numerous awards, especially in 2014 and 2016, showcasing impressive brand longevity. Worth the money if you can spare it in my opinion!
 </p>
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <h2 style={headingStyle}>Embrace Bold Brows and A Bright Highlight</h2>
 
       <p style={paragraphStyle}>
@@ -290,9 +283,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
         Use the matte Hoola Bronzer for contouring and bronzing. It's perfect for sculpting under the cheekbones, jawline, and forehead. To match Kylie’s tan, I self-tanned, making this bronzer shade ideal. Benefit offers a range of bronzers for various skin tones, and Fenty Beauty has an extensive collection of contour sticks.
       </p>
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <h2 style={headingStyle}>Set and Bake Your Makeup</h2>
       <p style={paragraphStyle}>
   Baking is a great method to create a filter-in-real life effect. The powder method locks your makeup in place and boosts brightness, especially in flash photography. Apply a colorless setting powder, like <a href="https://www.bennye.com/collections/luxury-powders" style={linkStyle}>Ben Nye's "Fair Luxury Powder"</a>, with a puff, leaving the excess on as you continue your makeup.
@@ -321,9 +312,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/542398?noHeader=true" title="Rich Lotion - Ana Sui" />
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <h2 style={headingStyle}>Create a Soft Smoky Eye</h2>
       
       <p style={paragraphStyle}>
@@ -343,9 +332,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/542404?noHeader=true" title="Rich Lotion - Ana Sui" />
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <h2 style={headingStyle}>Line Your Eyes and Apply Mascara</h2>
 
       <p style={paragraphStyle}>
@@ -386,9 +373,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
   Finish off by setting your makeup. If your skin feels too matte, rejuvenate it with a refreshing spray like the <a href="https://www.dalbaofficial.com" style={linkStyle}>d'Alba spray</a>, which can also double as a setting spray.
 </p>
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <h2 style={headingStyle}>2016 Makeup Memories</h2>
 
       <a href="https://www.youtube.com/watch?v=HtEPH6RUEZg&feature=youtu.be" target="_blank" rel="noopener noreferrer">
@@ -423,9 +408,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <div style={{ textAlign: 'center' }}>
         <img src={signature} alt="Signature" style={{ width: '100%', maxWidth: '650px' }} />
       </div>
-     <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+     
       <Comments website-id={websiteId} page-id={"Makeup-2016"} />
     </div>
   );

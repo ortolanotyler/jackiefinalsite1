@@ -1,7 +1,6 @@
 import React from 'react';
 import { Grid, Box, Button, Container, Typography, Paper } from '@mui/material';
 import TextReveal from '../../Components/TextReveal';
-import AdSenseAd from '../../Advertising/Ads';
 import RotatingText from '../../Navigation/AppBar/RotatingText';
 
 const VideoGrid = ({ videos }) => {
@@ -57,13 +56,7 @@ const VideoGrid = ({ videos }) => {
                 </Button>
               </Box>
             </Grid>
-            {(index + 1) % 4 === 0 && (
-              <Grid item xs={12}>
-                <Box p={2} sx={{ backgroundColor: '#fdedef', borderRadius: '8px', boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)', mt: 3 }}>
-                  <AdSenseAd />
-                </Box>
-              </Grid>
-            )}
+       
           </React.Fragment>
         ))}
       </Grid>

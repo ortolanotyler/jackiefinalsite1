@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
-import AdSenseAd from '../../Advertising/Ads';
 import { initGA, logPageView } from '../../analytics';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
@@ -228,11 +227,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 
       <DropCap1 text="For our anniversary, Tyler and I escaped to the enchanting Hotel Quintessence in Mont Tremblant, Quebec, craving a blend of adventure and relaxation. Nestled beside the sparkling Lake Tremblant and a stone's throw from the vibrant ski village, this luxurious boutique hotel promised a serene getaway in the heart of Quebec's natural beauty." />
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-
-
-</div>
+      
 <p style={paragraphStyle}>
   If you want to read about the best slopes, Mont-Tremblant Pedestrian Village shops and food, read my blog post <a href="/tremblant" target="_blank" rel="noopener noreferrer" style={linkStyle}>here</a> sharing my overall experience.
 </p>
@@ -246,9 +241,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   The warm, earthy tones and wood accents throughout create a sense of traditional luxury, while tasteful decor elements add a classic charm. Our first steps inside felt like entering a secluded world, where every detail promised a luxurious stay. While the convenience of valet parking is available directly out front, we initially opted out, needing a moment to regroup after our journey. A minor language barrier led to a mix-up, resulting in the use of the valet service unexpectedly. Having cash on hand for tipping is a good tip for this hotel, as the staff is quite enthusiastic about assisting with luggage and parking. Check out more tips on traveling in Quebec on the <a href="https://www.bonjourquebec.com/en-ca" target="_blank" rel="noopener noreferrer" style={linkStyle}>Bonjour Québec website</a>.
 </p>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1rem', margin: '1rem 0' }}>
         <img src={images[3].src} alt={images[3].alt} style={{ width: '100%' }} />
         <img src={images[1].src} alt={images[1].alt} style={{ width: '100%' }} />
@@ -267,9 +260,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
         <img src={images[5].src} alt={images[5].alt} style={{ width: '100%' }} />
         <img src={images[6].src} alt={images[6].alt} style={{ width: '100%' }} />
       </div>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
       <h2 style={headingStyle}>💵 Cost Considerations: Pros and Cons</h2>
      
 <p style={paragraphStyle}>
@@ -283,17 +274,13 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
   Staying here is about more than just a place to sleep; it's about enjoying an exclusive and upscale environment, complete with a tranquil pool and jacuzzi, stunning views, and a convenient location just a short walk or shuttle to the village. For our brief trip, we decided to treat ourselves to this luxurious experience. Explore more about the amenities at <a href="https://quintessence.ca/en/services-and-amenities/" target="_blank" rel="noopener noreferrer" style={linkStyle}>Hotel Quintessence</a>.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1rem', margin: '1rem 0' }}>
         <img src={images[7].src} alt={images[7].alt} style={{ width: '100%' }} />
         <img src={images[8].src} alt={images[8].alt} style={{ width: '100%' }} />
         <img src={images[9].src} alt={images[9].alt} style={{ width: '100%' }} />
       </div>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
 <p style={paragraphStyle}>
   For those planning a longer stay, there might be more budget-friendly choices to consider, like <a href="https://www.le900tremblant.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Le 900 Tremblant Couette * Cafe * Bistro</a>, a bed and breakfast a bit further from the slopes. Nonetheless, the peaceful luxury of Hotel Quintessence provided tremendous value, making our anniversary celebration all the more special. Plus, as someone who creates content with a focus on aesthetics, the hotel’s setting was absolutely ideal.
 </p>
@@ -319,9 +306,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <h2 style={headingStyle}>🍹 Signature Experiences and Activities</h2>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
     
 <p style={paragraphStyle}>
   🌊Exclusive Lakeside Serenity: If you are headed to Hotel Quintessence in the summer months, the hotel's private dock on Lake Tremblant offers a unique spot to unwind, providing kayaks and paddle boards for exploring the tranquil waters. An evening wine and cheese by the fire pit would be delightful, so I might have to book again this summer! For more summer activities, visit <a href="https://www.tremblant.ca/things-to-do/summer-activities" target="_blank" rel="noopener noreferrer" style={linkStyle}>Tremblant Summer Activities</a>.
@@ -334,9 +319,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
   Hotel Quintessence's prime location near the Pedestrian Village means we were moments away from Mont Tremblant's best shops, cafes, and ski lifts. Its seclusion offered a peaceful haven, yet all the action was just a short walk away, as previously mentioned. Explore what the Pedestrian Village has to offer on the <a href="https://www.tremblant.ca/plan-your-trip/pedestrian-village" target="_blank" rel="noopener noreferrer" style={linkStyle}>official Mont Tremblant website</a>.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   There is a valet service and shuttle to the mountain and a storage service for skis, bikes, golf clubs, etc., depending on the time of year. Read more about our winter experience in the Mont Tremblant Village <a href="/tremblant" target="_blank" rel="noopener noreferrer" style={linkStyle}>here</a>.
@@ -345,9 +328,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
         <img src={images[17].src} alt={images[17].alt} style={{ width: '100%' }} />
         <img src={images[18].src} alt={images[18].alt} style={{ width: '100%' }} />
       </div>
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
       <h2 style={headingStyle}>🍦 Final Thoughts and Recommendations</h2>
       <p style={paragraphStyle}>
   A Memorable Escape: Hotel Quintessence stands out as a jewel in Mont Tremblant, offering a luxurious yet intimate escape. It's perfect for couples seeking romance and relaxation amidst nature's splendour. Our stay was nothing short of magical, and I wholeheartedly recommend it to anyone looking to indulge in a memorable retreat. Learn more about planning a romantic getaway at <a href="https://www.romanticvacations.com/quebec/mont-tremblant-romantic-getaways/" target="_blank" rel="noopener noreferrer" style={linkStyle}>Romantic Vacations</a>.

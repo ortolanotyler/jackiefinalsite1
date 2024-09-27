@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import AdSenseAd from '../../Advertising/Ads';
 import SubscribeButton from '../../Components/SubscribeButton';
 import { initGA, logPageView } from '../../analytics';
 import { Helmet } from 'react-helmet';
@@ -260,9 +259,7 @@ circle moment. So, we packed our bags and headed back to our childhood
 homes, school campus, and some of Brussels’ hidden gems. Oh, and we even
 squeezed in a dreamy day trip to Paris—because, why not?" />
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 
 <div style={gridContainerStyle}>
@@ -294,9 +291,7 @@ International School of Brussels chateau" style={imageStyle} />
  <div style={gridContainerStyle}>
     <img src={image3} alt="BXL art in Place Sainte-Catherine Brussels
 Belgium" style={imageStyle} /> 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
     <img src={image4} alt="Place Sainte-Catherine in Brussels Belgium in
 the summer" style={imageStyle} />
 </div>
@@ -323,9 +318,7 @@ the summer" style={imageStyle} />
 
 <img src={image7} alt="croque-monsieur at Mokafé Brussel stijlvolle
 kussens" style={imageStyle} /> 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
     <img src={image8} alt="Neuhaus shop Galeries Royales Saint-Hubert
 Brussels Belgium" style={imageStyle} /> 
 
@@ -356,9 +349,7 @@ Brussels Belgium" style={imageStyle} />
 </p>
 
    
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   The most surreal part of Stokkel? As we were walking down my old street, Rue Henrott, the current owner of my childhood home was parking in the driveway—and she invited us in! It was wild to step back into my old house after so many years.
@@ -367,9 +358,7 @@ Brussels Belgium" style={imageStyle} />
 <p style={paragraphStyle}>
   Visiting our old neighborhood felt like stepping into a time capsule. While some things had changed, most of the stores and buildings were exactly the same. I vividly remember seeing Twilight at the local cinema back in 2008, and I’ll never forget going to <a href="https://www.iciparisxl.be/" style={linkStyle}>ICI Paris XL</a> to buy my first high-end lip gloss from Smashbox (which I still own because I’m super sentimental). I was just getting into makeup at the time, watching YouTubers, and already knew I wanted to become one someday.
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <div style={gridContainerStyle}>
     <img src={image11} alt="Stockel Square" style={imageStyle} /> 
 
@@ -389,9 +378,7 @@ Brussels Belgium" style={imageStyle} />
   Anyways, let’s talk Brussels! We stopped by <a href="https://wafflefactory.com/en/" style={linkStyle}>The Waffle Factory</a> and shared a very messy (but totally worth it) waffle in <a href="https://visit.brussels/en/place/Grand-Place" style={linkStyle}>Grand-Place</a>, which is easily one of the most beautiful squares in the world. I couldn’t resist picking up some Mary’s chocolates from the square—it’s the oldest and dreamiest chocolate shop, with a history dating back to 1919. They had everything I adore: girly floral packaging, sea-themed chocolates, and even special boxes with cat designs! No wonder the Belgian royals love Mary’s, too.
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
       <div style={gridContainerStyle}>
     <img src={image15} alt="Waffle Factory Waffle in Grand-Place
@@ -415,9 +402,7 @@ Brussels Belgium" style={imageStyle} />
     <img src={image20} alt="Mussels, Burger and Frites at The Brothers in
 Brussels Belgium" style={imageStyle} /> 
 </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   Of course, no trip to Brussels is complete without visiting the iconic <a href="https://visit.brussels/en/place/Manneken-Pis" style={linkStyle}>Manneken Pis</a>. There’s even a <a href="https://www.manekenpis.be/en/museum" style={linkStyle}>Manneken Pis museum</a> where you can check out all of his outfits! The little guy is so tiny but such a hilarious and famous sculpture. You’ll also find tons of art around Brussels inspired by him. Another beautiful spot we explored was <a href="https://visit.brussels/en/place/Place-du-Petit-Sablon" style={linkStyle}>Place du Petit Sablon</a>, which we visited on Belgian National Day. It’s a gorgeous little park surrounded by elegant wrought-iron fencing and adorned with 48 statues representing different ancient guilds of Brussels. The centrepiece is a stunning fountain with statues of Belgian historical figures, making it a perfect place to relax, people-watch, or just take in the peaceful atmosphere. The lush gardens and intricate statues give the square a really charming, almost storybook-like vibe!
 </p>
@@ -431,9 +416,7 @@ Brussels Belgium" style={imageStyle} />
       <p style={paragraphStyle}>
   What brought Tyler and me together back in 2007 was a pretty wild coincidence—both of our parents landed work positions in Belgium! So, Tyler moved from the U.S., and I moved from Canada, and we both ended up attending the <a href="https://www.isb.be/" style={linkStyle}>International School of Brussels (ISB)</a>. This school is not only stunning but also super welcoming to alumni. We had the chance to walk around the campus, snap some photos, and relive so many childhood memories. It was like stepping back in time!
 </p>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <div style={gridContainerStyle}>
     <img src={image23} alt="Chateau International School of Brussels" style={imageStyle} /> 
     <img src={image24} alt="Pathway to middle school International
@@ -449,9 +432,7 @@ International School of Brussels" style={imageStyle} />
   I wonder if any of you reading this are fellow ISB alumni—if so, how amazing is that school?! I still think back fondly on those epic school trips to France, and of course, the cafeteria food was surprisingly good! ISB really gave us such incredible experiences, and being back on campus was like the ultimate nostalgia trip.
 </p>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <h2 style={headingStyle}>Visit Neighbouring Countries by Train</h2>
 
@@ -477,9 +458,7 @@ International School of Brussels" style={imageStyle} />
     <img src={image33} alt="Jackie Wyers Paris Outfit" style={imageStyle} /> 
 
 </div>
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 <p style={paragraphStyle}>
   A super girly and cute café we found was <a href="https://www.timeout.com/paris/restaurants/fleur-cafe" style={linkStyle}>Fleur Café</a>—it has the prettiest toile-patterned dishes and amazing crêpes, which we enjoyed for lunch. The <a href="https://en.parisinfo.com/shopping-paris/67394/Starbucks-Boulevard-des-Capucines" style={linkStyle}>Starbucks on Boulevard des Capucines</a> is one of the most beautiful in the world, with intricate chandeliers and a stunning, historic interior. We also went shopping at <a href="https://www.zara.com/fr/" style={linkStyle}>Zara near the Palais Garnier Opera House</a>—such a fun spot to explore and I bought a chic cardigan.
 </p>
@@ -503,9 +482,7 @@ France" style={imageStyle} />
 
 <EmbeddedGuideBelgium/>
 
-<div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
     
@@ -540,9 +517,7 @@ L’Oréal Paris. Definitely a more glamorous vlog!
         <img src={signature} alt="Jackie Wyers Signature XoXo" style={{ width: '100%' }} />
       </div>
 
-      <div style = {{ margin : '1rem auto'}}>
-  <AdSenseAd/>
-</div>
+      
  
       <Comments website-id={websiteId} page-id={"Brussels-BOY"} />
    
