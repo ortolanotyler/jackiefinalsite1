@@ -1,7 +1,16 @@
 import React, { useState } from 'react';
 
+// Function to extract the YouTube video ID from the URL
+const getYoutubeVideoId = (url) => {
+  const regex = /(?:youtube\.com\/(?:[^/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?/\s]{11})/i;
+  const match = url.match(regex);
+  return match ? match[1] : null;
+};
+
 const ResponsiveYoutube = ({ src, title }) => {
   const [isIframeLoaded, setIsIframeLoaded] = useState(false);
+  const videoId = getYoutubeVideoId(src);
+  const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`; // High-resolution thumbnail
 
   const handleLoadIframe = () => {
     setIsIframeLoaded(true);
@@ -21,7 +30,7 @@ const ResponsiveYoutube = ({ src, title }) => {
       onClick={handleLoadIframe}
     >
       {!isIframeLoaded ? (
-        // Placeholder with play button to improve initial load time
+        // Thumbnail with play button overlay
         <div
           style={{
             position: 'absolute',
@@ -32,22 +41,31 @@ const ResponsiveYoutube = ({ src, title }) => {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            color: '#fff',
-            background: '#000',
+            backgroundImage: `url(${thumbnailUrl})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
           }}
         >
           {/* Play button overlay */}
           <button
             style={{
               border: 'none',
-              background: 'transparent',
+              background: 'rgba(0, 0, 0, 0.6)',
               color: 'white',
               fontSize: '48px',
               lineHeight: '1',
               cursor: 'pointer',
               outline: 'none',
               zIndex: 2,
+              borderRadius: '50%',
+              width: '80px',
+              height: '80px',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
             }}
+            aria-label="Play Video"
           >
             ▶
           </button>
