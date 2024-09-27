@@ -10,6 +10,7 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
+import YoutubeShortFacade from '../../../Components/YouTubeShortFacade';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/BarbieRoundup/1.JPG`;
@@ -296,15 +297,11 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
   If you’re obsessed with Barbie’s fashion evolution, you need the "Barbie: The World Tour' book on your coffee table. The Barbie Press Tour was an absolute style moment, with stunning looks by stylist Andrew Mukamal worn by the talented <a href="https://www.imdb.com/name/nm3053338/" target="_blank" style={{ color: '#000000', textDecoration: 'underline' }}>Margot Robbie</a>. The book showcases everything a Barbie lover dreams of, from <a href="https://www.officetimeline.com/blog/history-of-barbie-timeline" target="_blank" style={{ color: '#000000', textDecoration: 'underline' }}>vintage illustrations from the Mattel archives</a> to modern takes on iconic outfits, all captured in stunning photography by Craig McDean. This book not only celebrates Barbie’s fashion history but also doubles as a chic decor piece. Trust me, flipping through these pages will inspire your next outfit
 </p>
 
-<div style = {{textAlign: 'center',margin: "0 auto"}}>
-<iframe
-      style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
-      src="https://www.youtube.com/embed/Bo50Q2E5ojg?si=nM2P3jQayuLgauMC"
-      title="Margot Robbie BARBIE MOVIE Makeup🛼💖👱🏻‍♀️ + '90s Roller Skate Barbie Costume! "
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    ></iframe>
+<div style={{ textAlign: 'center', margin: '0 auto' }}>
+  <YoutubeShortFacade 
+    videoId="Bo50Q2E5ojg" // Replace with the actual video ID from your URL
+    title="Margot Robbie BARBIE MOVIE Makeup🛼💖👱🏻‍♀️ + '90s Roller Skate Barbie Costume!" 
+  />
 </div>
 
 <p style={paragraphStyle}>
@@ -327,15 +324,13 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
 </p>
 
 <div style={{ textAlign: 'center', margin: '0 auto' }}>
-  <iframe
-    style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
-    src="https://www.youtube.com/embed/NPuNSb80jVQ"
-    title="Barbie x Stanley tumblers"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-  ></iframe>
-</div>
+        <YoutubeShortFacade
+          videoId="NPuNSb80jVQ" // Replace with the actual video ID from your URL
+          title="Barbie x Stanley tumblers"
+        />
+      </div>
+
+
 <div style = {{ padding : '10px'}}>
   <AdSenseAd/>
 </div>
