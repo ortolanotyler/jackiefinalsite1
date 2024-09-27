@@ -228,7 +228,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
         First, I treated myself to a bit of shopping at Victoria's Secret, where I found a gorgeous white push-up bra from PINK as pictured above, the newest version of their iconic fashion show robe, and a new scent! After testing all the fragrances, the Tease Crème Cloud Eau de Parfum stood out as my favorite along with the matching body lotion. My top beauty must-have though? The VS glosses. I picked up a set including Caramel Kiss gloss. The sweet smell and bold shine is an instant mood booster and has been a go-to for years!
       </p>
-      <ResponsiveIframe src="https://shopmy.us/collections/public/494316?noHeader=true" title="Shop My Victoria's Secret Favorites" />
+     
 
 
 
@@ -256,7 +256,6 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
         To complete the throwback vibe to 2014, let’s prep the lips with an EOS lip balm, or the iconic Maybelline Baby Lips to ensuring they're as soft and hydrated as well. Low-key these are not my favorite balms for moisture, but they do bring me back.
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/494318?noHeader=true" title="More Beauty Products" />
 
       
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
@@ -287,7 +286,6 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
         A touch of Maybelline Age Rewind concealer only one shade lighter than the foundation brightens the center of the face. Avoid too bright of a concealer as the skin wasn’t too heavily highlighted and contoured, unlike upcoming makeup trends. (Looking at you, 2016!)
       </p>
-      <ResponsiveIframe src="https://shopmy.us/collections/public/494324?noHeader=true" title="Skin Care Essentials for a Glowy Look" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
 
       <p style={paragraphStyle}>
@@ -298,7 +296,6 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
         Hoola Bronzer by Benefit Cosmetics is a staple in my makeup bag! I'm applying it lightly for a fresh, soft sculpt. Hoola is great for this look because it doesn’t contain a lot of shimmer. That way, when we use NARS Orgasm blush which does contain some shimmer, the skin will have the perfect amount of glow without being overpowering.
       </p>
-      <ResponsiveIframe src="https://shopmy.us/collections/public/494330?noHeader=true" title="Bronzer and Blush Favorites" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
 
       <h2 style={headingStyle}>Natural Groomed Brows and Lashes & Lips</h2>
@@ -309,7 +306,6 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
         The Too Faced Natural Eyes palette is still my go-to palette. Blend the deepest bronze over the lid and into the crease, brightened up with the gold over the center of the lid for a gentle, shimmering look.
       </p>
-      <ResponsiveIframe src="https://shopmy.us/collections/public/494334?noHeader=true" title="Eye Makeup Favorites" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
 
       <h2 style={headingStyle}>Finishing Touches</h2>
@@ -325,7 +321,6 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
         Don’t overlook Victoria's Secret glosses for that signature scent and sheen! As mentioned, Caramel Kiss as my all-time favorite.
       </p>
-      <ResponsiveIframe src="https://shopmy.us/collections/public/494346?noHeader=true" title="Final Touches" />
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
 
       <h2 style={headingStyle}>The Final Look & DIY Winter Wonderland Lingerie</h2>
