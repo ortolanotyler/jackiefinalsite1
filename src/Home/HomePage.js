@@ -19,7 +19,7 @@ const theme = createTheme();
 function HomePage() {
   useEffect(() => {
     initGA();
-    logPageView('/homepage');
+    logPageView('/');
   }, []);
 
   const quizzesRef = useRef(null);
@@ -503,31 +503,11 @@ isFlipped={true}
         </Grid>
 
        
-
-
-
         <Grid item xs={12}>
           <Suspense fallback={<div className="spinner"></div>}>
             <ShopMyHero2 />
           </Suspense>
         </Grid>
-
-  
-
-
-
-
-
-
-
-     
-      
-
-   
-
-
-
-  
 
 
      
