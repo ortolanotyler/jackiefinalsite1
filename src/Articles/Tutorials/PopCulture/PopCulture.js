@@ -15,12 +15,7 @@ const emily = `${process.env.PUBLIC_URL}/Images/Articles/EmilyInParis/emilyinpar
 const fran = `${process.env.PUBLIC_URL}/Images/Articles/Francesca/FrancescaThumb.jpg`;
 
 const cardsData = [
-  {
-    link: "/francesca-bridgerton",
-    image: fran,
-    alt: "Francesca Bridgerton Recreation by Jackie Wyers",
-    title: "Francesca Bridgerton Makeup, Hair, and Dress",
-  },
+
   {
     link: "/emily-in-paris",
     image: emily,
@@ -47,6 +42,12 @@ const cardsData = [
     title: "Spring Makeup Inspiration 🎬",
   },
   {
+    link: "/francesca-bridgerton",
+    image: fran,
+    alt: "Francesca Bridgerton Recreation by Jackie Wyers",
+    title: "Francesca Bridgerton Makeup, Hair, and Dress",
+  },
+  {
     link: "/margotbarbie",
     image: image9,
     alt: "Margot Robbie Barbie Movie",
@@ -58,6 +59,7 @@ const cardsData = [
     alt: "Lana",
     title: "SKIMS X Lana Makeup 🎀",
   },
+
   {
     link: "/victoriasecret",
     image: image6,

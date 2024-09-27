@@ -136,7 +136,7 @@ const captionStyle = {
     <div className="container">
 <Helmet>
   <title>Margot Robbie's Barbie Makeup & DIY '90s Roller Skate Costume - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/margotbarbie" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/margotbarbie" />
 
   <meta 
     name="description" 
