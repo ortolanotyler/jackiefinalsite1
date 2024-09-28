@@ -3,7 +3,6 @@ import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import { Helmet } from 'react-helmet';
-import { initGA, logPageView } from '../../analytics';
 import ArticleTitle from '../../Components/ArticleTitle.js';
 import NextArticle from '../../Components/NextArticleComponent.js';
 import SocialShare from '../../Home/SocialShare.js';
@@ -38,10 +37,7 @@ const Card = ({ blogContent }) => (
 
 const BonBonReview = () => {
 
-useEffect(() => {
-  initGA();
-  logPageView('/bonbonreview');
-}, []);
+
 
 
 const websiteId = '10910';
