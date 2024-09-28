@@ -126,13 +126,11 @@ import Quiz3Homepage from './Quiz/Quiz3Homepage';
 import Quiz2Homepage from './Quiz/Quiz2HomePage';
 import Rory from './Articles/Tutorials/PopCulture/Rory';
 
-// Hook to handle page tracking
-// Hook to handle page tracking
 function usePageTracking() {
   const location = useLocation();
 
   useEffect(() => {
-    logPageView(location.pathname + location.search);
+    logPageView(); // This logs the page view on route change
   }, [location]);
 }
 
@@ -140,18 +138,7 @@ function App() {
   usePageTracking();
 
   useEffect(() => {
-    initGA(); // Initialize Google Analytics when the app loads
-
-    // Add the analytics script dynamically
-    const script = document.createElement('script');
-    script.src = `${process.env.PUBLIC_URL}/analytics.js`; // Ensure path is correct
-    script.async = true;
-
-    document.body.appendChild(script); // Append the script to the body
-
-    return () => {
-      document.body.removeChild(script); // Clean up when component unmounts
-    };
+    initGA(); // Initialize Google Analytics once when the app loads
   }, []);
 
   return (

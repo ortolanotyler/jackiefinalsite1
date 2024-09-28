@@ -10,10 +10,11 @@ import styles from './Sidebar.module.css'; // Import the updated CSS module
 
 const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
-    { name: 'HOME', path: '/' },
-    { name: 'ABOUT', path: '/about' },
-    { name: 'TUTORIALS', path: '/tutorials' },
     { name: 'BRIDAL', path: '/bridal' },
+
+    { name: 'ABOUT', path: '/about' },
+    { name: 'HOME', path: '/' },
+    { name: 'TUTORIALS', path: '/tutorials' },
     { name: 'QUIZ', path: '/quiz' },
     { name: 'MERCH', path: '/vintagevibesmerch' },
     { name: 'SHOP MY STYLE', path: '/mystyle' },
@@ -39,7 +40,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
         sx={{
           display: 'flex',
           flexDirection: 'column',
-          justifyContent: 'space-between',
+          justifyContent: 'center',
           height: '100%',
           padding: '4rem 1.25rem', // Adjust padding to ensure content isn't cut off
         }}
@@ -57,7 +58,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           <CloseIcon />
         </IconButton>
 
-        <Box sx={{ flexGrow: 1, overflowY: 'auto', paddingBottom: '1rem' }}>
+        <Box sx={{ flexGrow: 1, overflowY: 'auto', paddingBottom: '1px' }}>
           {menuItems.map((item) => (
             <Button
               key={item.name}
@@ -83,7 +84,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           className={styles.subscribeButton}
           onClick={toggleDrawer}
           sx={{
-            marginBottom: '5rem', // Ensure the button has enough space at the bottom
+            marginBottom: '1rem', // Ensure the button has enough space at the bottom
             padding: '0.8rem', // Add padding to make the button more clickable
           }}
         >
@@ -95,8 +96,8 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            gap: '1rem',
-            paddingBottom: '1rem',
+            gap: '5px',
+            marginBottom: '0px',
           }}
         >
           <a
