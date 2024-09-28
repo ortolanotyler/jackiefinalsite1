@@ -3,6 +3,7 @@ import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import { Helmet } from 'react-helmet';
+import { initGA, logPageView } from '../../analytics';
 import ArticleTitle from '../../Components/ArticleTitle.js';
 import NextArticle from '../../Components/NextArticleComponent.js';
 import SocialShare from '../../Home/SocialShare.js';
@@ -37,7 +38,10 @@ const Card = ({ blogContent }) => (
 
 const BonBonReview = () => {
 
-
+useEffect(() => {
+  initGA();
+  logPageView('/bonbonreview');
+}, []);
 
 
 const websiteId = '10910';
@@ -172,6 +176,19 @@ fontStyle: 'italic',
     name="twitter:image"
     content="https://jackiewyers.beauty/Images/Articles/BonBonReview/BonBonThumbnail.png"
   />
+
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG', {
+        page_path: window.location.pathname,
+      });
+    `}
+  </script>
 
 
 
