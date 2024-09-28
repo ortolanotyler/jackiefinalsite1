@@ -126,6 +126,10 @@ import Quiz3Homepage from './Quiz/Quiz3Homepage';
 import Quiz2Homepage from './Quiz/Quiz2HomePage';
 import Rory from './Articles/Tutorials/PopCulture/Rory';
 
+// Initialize Google Analytics
+initGA(); // Ensure this is called at the very start
+
+// Hook to handle page tracking
 function usePageTracking() {
   const location = useLocation();
 
@@ -136,10 +140,6 @@ function usePageTracking() {
 
 function App() {
   usePageTracking();
-
-  useEffect(() => {
-    initGA(); // Initialize Google Analytics once when the app loads
-  }, []);
 
   return (
     <EmailProvider>
