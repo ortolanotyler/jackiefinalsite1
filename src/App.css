@@ -1,6 +1,13 @@
 /* App.css */
 @import url('https://fonts.googleapis.com/css2?family=Arapey&family=GFS+Didot&family=Italianno&display=swap');
 
+
+* {
+  font-display: swap;
+}
+
+
+
 /* App.css */
 .main-content {
   margin-top: 80px; /* Ensure this aligns correctly with the height of your AppBar */

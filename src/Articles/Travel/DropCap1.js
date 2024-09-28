@@ -2,7 +2,7 @@ import React from 'react';
 
 const DropCap1 = ({ text, style }) => {
   return (
-    <p style={{fontFamily: 'Playfair Display, serif', maxWidth: '100%', margin: '1rem auto'}}>
+    <p style={{fontFamily: 'Playfair Display, serif', maxWidth: '100%', margin: '1rem'}}>
       <span style={{ 
         fontSize: '5em', 
         float: 'left', 
