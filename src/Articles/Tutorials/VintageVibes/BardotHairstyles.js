@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
+import { initGA, logPageView } from '../../../analytics';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
@@ -39,7 +40,10 @@ const Card = ({ blogContent }) => (
 
 const BardotHairstyles = () => {
 
- 
+  useEffect(() => {
+    initGA();
+    logPageView('/bardothairstyles');
+  }, []);
 
 
   const websiteId = '10910';
@@ -161,7 +165,16 @@ const captionStyle = {
   />
   <meta name="twitter:card" content="summary_large_image" />
 
-
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG', { page_path: window.location.pathname });
+    `}
+  </script>
 
 
 
@@ -331,14 +344,13 @@ Method Two: Best Faux Bangs
 
 <div style = {{textAlign: 'center'}}>
 <iframe
-  style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
-  src="https://www.youtube.com/embed/7JuWiUbby4I"
-  title="Brigitte Bardot Bun & Bangs WITHOUT the chop💇🏼‍♀️👱🏼‍♀️🎀r"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-  loading="lazy" // Lazy loading attribute added
-></iframe>
+      style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
+      src="https://www.youtube.com/embed/7JuWiUbby4I"
+      title="Brigitte Bardot Bun & Bangs WITHOUT the chop💇🏼‍♀️👱🏼‍♀️🎀r"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
 </div>
 
 
@@ -394,15 +406,14 @@ Combining Methods for The Best Bardot Bun
 </h2>
 
 <div style={{ textAlign: 'center' }}>
-<iframe
-  style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
-  src="https://www.youtube.com/embed/WyP-Lco8BTA"
-  title="My BIGGEST & BEST Bardot Bun with Faux Bangs! 🎀"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-  loading="lazy" // Lazy loading attribute added
-></iframe>
+  <iframe
+    style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
+    src="https://www.youtube.com/embed/WyP-Lco8BTA"
+    title="My BIGGEST & BEST Bardot Bun with Faux Bangs! 🎀"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
 </div>
 
 
@@ -465,24 +476,21 @@ Pin my Bardot looks on Pinterest to your inspiration board!
 </p>
 
 <div style={pinterestGridStyle}>
-<iframe
-  src="https://assets.pinterest.com/ext/embed.html?id=794463190524256496"
-  style={iframeStyle}
-  title="pin1"
-  loading="lazy" // Lazy loading attribute added
-></iframe>
-<iframe
-  src="https://assets.pinterest.com/ext/embed.html?id=794463190540664022"
-  style={iframeStyle}
-  title="pin2"
-  loading="lazy" // Lazy loading attribute added
-></iframe>
-<iframe
-  src="https://assets.pinterest.com/ext/embed.html?id=794463190512567046"
-  style={iframeStyle}
-  title="pin3"
-  loading="lazy" // Lazy loading attribute added
-></iframe>
+  <iframe
+    src="https://assets.pinterest.com/ext/embed.html?id=794463190524256496"
+    style={iframeStyle}
+    title="pin1"
+  ></iframe>
+  <iframe
+    src="https://assets.pinterest.com/ext/embed.html?id=794463190540664022"
+    style={iframeStyle}
+    title="pin2"
+  ></iframe>
+  <iframe
+    src="https://assets.pinterest.com/ext/embed.html?id=794463190512567046"
+    style={iframeStyle}
+    title="pin3"
+  ></iframe>
 </div>
 
 
