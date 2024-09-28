@@ -1,4 +1,4 @@
-import React, { useEffect, Suspense, useRef, useState, useMemo } from 'react';
+import React, { useRef, useState, useMemo } from 'react';
 import { Grid, Box, Paper, createTheme, useMediaQuery } from '@mui/material';
 import { Helmet } from 'react-helmet';
 import TextRevealHomePage from '../Components/TextRevealHomePage';
@@ -212,7 +212,7 @@ function HomePage() {
         
 
 <Grid item xs={12}>
-  <Suspense fallback={<div className="spinner"></div>}>
+  
   
 <HeroSection
 featureText="QUIZ"
@@ -223,7 +223,7 @@ linkUrl="/quiz-2-home"
 isFlipped={true}
 />
 
-  </Suspense>
+  
 </Grid>
 
 <HorizontalLine />
@@ -236,10 +236,10 @@ isFlipped={true}
 
 
 <Grid item xs={12} >
-          <Suspense fallback={<div className="spinner"></div>}>
+          
             <NewsletterSlider />
 
-          </Suspense>
+          
         </Grid>
 
   
@@ -257,7 +257,7 @@ isFlipped={true}
 <HorizontalLine />
 
 <Grid item xs={12}>
-  <Suspense fallback={<div className="spinner"></div>}>
+  
   
             <HeroSection
   featureText="FEATURED"
@@ -270,7 +270,7 @@ isFlipped={true}
   isFlipped={true}
 />
 
-</Suspense>
+
 </Grid>
 
 <HorizontalLine />
@@ -279,7 +279,7 @@ isFlipped={true}
 
 
 <Grid item xs={12}>
-  <Suspense fallback={<div className="spinner"></div>}>
+  
   
   <HeroSection
   featureText="TRAVEL"
@@ -291,12 +291,12 @@ isFlipped={true}
   isFlipped={false}
 />
 
-</Suspense>
+
 </Grid>
 
 
 <Grid item xs={12} md={6}>
-          <Suspense fallback={<div className="spinner"></div>}>
+          
          
 
 
@@ -311,7 +311,7 @@ isFlipped={true}
 />
 
         
-          </Suspense>
+          
         </Grid>
         <HorizontalLine />
 
@@ -320,7 +320,7 @@ isFlipped={true}
 
 
         <Grid item xs={12} md={6}>
-          <Suspense fallback={<div className="spinner"></div>}>
+          
           <HeroSection
   featureText="TRAVEL"
   headlineText="The Best Souvenirs to Bring Home from Sorrento"
@@ -330,14 +330,14 @@ isFlipped={true}
   linkUrl="/sorrento"
   isFlipped={true}
 />
-          </Suspense>
+          
         </Grid>
 
         <HorizontalLine />
 
 
         <Grid item xs={12} md={6}>
-          <Suspense fallback={<div className="spinner"></div>}>
+          
          
           <HeroSection
               featureText="TRAVEL"
@@ -350,7 +350,7 @@ isFlipped={true}
             />
 
         
-          </Suspense>
+          
         </Grid>
      
 
@@ -359,7 +359,7 @@ isFlipped={true}
   
 
         <Grid item xs={12} md={6}>
-          <Suspense fallback={<div className="spinner"></div>}>
+          
          
      
 <HeroSection
@@ -372,7 +372,7 @@ isFlipped={true}
   isFlipped={true}
 />
         
-          </Suspense>
+          
         </Grid>
 
 
@@ -395,7 +395,7 @@ isFlipped={true}
         <HorizontalLine />
 
         <Grid item xs={12} md={6}>
-          <Suspense fallback={<div className="spinner"></div>}>
+          
           
 
           <HeroSection
@@ -407,14 +407,14 @@ isFlipped={true}
   linkUrl="/bonbonreview"
   isFlipped={true}
 />
-          </Suspense>
+          
         </Grid>
 
         <HorizontalLine />
 
     
         <Grid item xs={12} md={6}>
-        <Suspense fallback={<div className="spinner"></div>}>
+        
         <HeroSection
   featureText="BRIDAL"
   headlineText="DIY Flower Pins for a Mamma Mia Inspired Wedding"
@@ -428,7 +428,7 @@ isFlipped={true}
 
 
 
-</Suspense>
+
         </Grid>
 
        
@@ -436,9 +436,9 @@ isFlipped={true}
 
 
         <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
+          
             <ShopMyHero2 />
-          </Suspense>
+          
         </Grid>
 
   
