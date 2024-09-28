@@ -72,7 +72,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
   const imageContentStyle = {
     flex: 1,
     textAlign: isSmallScreen ? 'center' : isFlipped ? 'left' : 'right',
-    maxWidth: '500px',
+    maxWidth: '450px',
     position: 'relative',
   };
 
@@ -87,7 +87,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
 
 
   // Set the explicit width and height of the image to reduce LCP and layout shift
-  const imageWidth = 500; // Define an explicit width
+  const imageWidth = 450; // Define an explicit width
   const imageHeight = 500; // Define an explicit height based on your aspect ratio
 
   return (
