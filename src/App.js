@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Layout from './Layout';
-import { initGA, logPageView } from './analytics';
+import { logPageView } from './analytics';
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import './App.css'; // Ensure you have imported the App.css file
 import { EmailProvider } from './Components/EmailContext';
@@ -127,14 +127,13 @@ import Quiz2Homepage from './Quiz/Quiz2HomePage';
 import Rory from './Articles/Tutorials/PopCulture/Rory';
 
 // Initialize Google Analytics
-initGA(); // Ensure this is called at the very start
 
 // Hook to handle page tracking
 function usePageTracking() {
   const location = useLocation();
 
   useEffect(() => {
-    logPageView(); // This logs the page view on route change
+    logPageView(location.pathname + location.search); // Log the page view with the updated path
   }, [location]);
 }
 
