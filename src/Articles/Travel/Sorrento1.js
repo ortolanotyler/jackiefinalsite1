@@ -144,14 +144,14 @@ const captionStyle = {
   <meta property="og:title" content="Ultimate Sorrento Souvenir Guide - Jackie Wyers" />
   <meta property="og:description" content="Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy." />
   <meta property="og:image" content="jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/sorrento-souvenirs" />
+  <meta property="og:url" content="https://jackiewyers.beauty/sorrento" />
   <meta property="og:type" content="article" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Ultimate Sorrento Souvenir Guide - Jackie Wyers" />
   <meta name="twitter:description" content="Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy." />
   <meta name="twitter:image" content="jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg" />
-  <link rel="canonical" href="https://jackiewyers.beauty/sorrento-souvenirs" />
+  <link rel="canonical" href="https://jackiewyers.beauty/sorrento" />
 
   <script type="application/ld+json">
     {`
@@ -160,7 +160,7 @@ const captionStyle = {
       "@type": "Article",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://jackiewyers.beauty/sorrento-souvenirs"
+        "@id": "https://jackiewyers.beauty/sorrento"
       },
       "headline": "Ultimate Sorrento Souvenir Guide - Jackie Wyers",
       "description": "Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy.",
@@ -178,7 +178,7 @@ const captionStyle = {
         }
       },
       "datePublished": "2024-09-04",
-      "dateModified": "2024-09-14"
+      "dateModified": "2024-09-24"
     }
     `}
   </script>
@@ -190,7 +190,7 @@ const captionStyle = {
 
 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
-        <a href="/travel" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
+        <a href="/travel" style={{ fontFamily: 'GFS Didot, sans-serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
           TRAVEL // ITALY
         </a>
       </div>
