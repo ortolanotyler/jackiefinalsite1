@@ -26,56 +26,9 @@ function HomePage() {
 
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
-  const [isJiggling, setIsJiggling] = useState({
-    quizzes: false,
-    outfits: false,
-  });
 
-  useEffect(() => {
-    const keyframes = `
-      @keyframes jiggle {
-        0% { transform: rotate(0deg); }
-        25% { transform: rotate(-3deg); }
-        50% { transform: rotate(3deg); }
-        75% { transform: rotate(-3deg); }
-        100% { transform: rotate(0deg); }
-      }
-    `;
-    const styleSheet = document.createElement('style');
-    styleSheet.type = 'text/css';
-    styleSheet.innerText = keyframes;
-    document.head.appendChild(styleSheet);
 
-    const observers = {};
-
-    Object.keys(viewAllRefs).forEach((key) => {
-      observers[key] = new IntersectionObserver(
-        ([entry]) => {
-          if (entry.isIntersecting) {
-            setIsJiggling((prev) => ({ ...prev, [key]: true }));
-            setTimeout(() => {
-              setIsJiggling((prev) => ({ ...prev, [key]: false }));
-            }, 4000);
-          }
-        },
-        {
-          threshold: 0.1,
-        }
-      );
-
-      if (viewAllRefs[key].current) {
-        observers[key].observe(viewAllRefs[key].current);
-      }
-    });
-
-    return () => {
-      Object.keys(observers).forEach((key) => {
-        if (viewAllRefs[key].current) {
-          observers[key].unobserve(viewAllRefs[key].current);
-        }
-      });
-    };
-  }, [viewAllRefs]);
+   
 
   return (
     <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
