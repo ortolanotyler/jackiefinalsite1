@@ -178,7 +178,7 @@ const captionStyle = {
     content="https://jackiewyers.beauty/Images/Quiz/Quiz3/guidethumbnail.jpeg" 
   />
 
-  {/* Google Analytics Script */}
+
 
 
 

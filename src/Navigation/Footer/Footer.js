@@ -67,7 +67,6 @@ const Footer = () => {
                     </a>
                 </div>
 
-                {/* Insert the analytics script at the bottom of the footer */}
               
             </footer>
         </div>

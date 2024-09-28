@@ -145,9 +145,7 @@ const Sitemap = () => {
                     name="description"
                     content="Explore the sitemap to navigate through all the makeup tutorials, travel blogs, style guides, and reviews by Jackie Wyers."
                 />
-                {/* Google Analytics */}
-             
-                {/* Google AdSense */}
+                
             
             </Helmet>
             <div className={styles.body}>

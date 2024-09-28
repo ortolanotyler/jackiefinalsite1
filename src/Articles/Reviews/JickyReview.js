@@ -1,13 +1,11 @@
 import React, { useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
-import ReactGA from 'react-ga';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import ArticleTitle from '../../Components/ArticleTitle';
 import SocialShare from '../../Home/SocialShare';
 
 
-ReactGA.initialize('UA-8215441435-Y'); // Replace with your actual Google Analytics tracking ID
 
 const jicky2 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky2.jpg`;
 const jicky3 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky3.png`;
@@ -182,7 +180,6 @@ fontStyle: 'italic',
     content="https://jackiewyers.beauty/Images/Articles/JickyReview/JickyThumbnail.png"
   />
 
-  {/* Google Analytics Script */}
  
 
 

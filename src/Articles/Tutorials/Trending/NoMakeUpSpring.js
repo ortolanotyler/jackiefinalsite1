@@ -138,7 +138,6 @@ const Card = ({ blogContent }) => (
   <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg" />
   <meta name="twitter:card" content="summary_large_image" />
 
-  {/* Google Analytics Script */}
 
 
   {/* JSON-LD Structured Data */}
