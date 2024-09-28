@@ -52,7 +52,7 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
     
     
     const paragraphStyle = {
-    fontSize: '20px',
+    fontSize: '21px',
     color: '#000000',
     
     fontFamily: "'Open Sans', serif",
