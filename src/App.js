@@ -126,9 +126,6 @@ import Quiz3Homepage from './Quiz/Quiz3Homepage';
 import Quiz2Homepage from './Quiz/Quiz2HomePage';
 import Rory from './Articles/Tutorials/PopCulture/Rory';
 
-// Initialize Google Analytics
-
-// Hook to handle page tracking
 function usePageTracking() {
   const location = useLocation();
 
