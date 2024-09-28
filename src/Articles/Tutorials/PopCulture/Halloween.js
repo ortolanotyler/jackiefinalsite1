@@ -57,12 +57,12 @@ const Halloween = () => {
 
 
 const paragraphStyle = {
-  fontSize: '22px',
+  fontSize: '20px',
   color: '#000000',
   
-  fontFamily: 'Georgia, serif',
-  fontWeight: 'regular',
-  
+  fontFamily: "'Open Sans', serif",
+  fontWeight: '100',
+  padding: '5px',
   margin: '5px 5px',
   
   maxWidth: '100%',

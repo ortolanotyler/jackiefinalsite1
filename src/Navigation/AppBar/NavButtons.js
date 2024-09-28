@@ -1,4 +1,3 @@
-// NavButtons.js
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Box, Button, Menu, MenuItem } from '@mui/material';
@@ -32,14 +31,11 @@ const NavButtons = () => {
             my: 2,
             color: '#745B4F',
             display: 'block',
-            fontSize: '1rem',
-            fontFamily: 'Playfair Display, serif',
+            fontSize: '1.15rem',
+            fontFamily: '"Playfair Display", serif', // Updated to Playfair Display
             mx: 2,
             textTransform: 'none',
-            '&:hover': {
-              backgroundColor: '#fdedef',
-              color: '#745B4F',
-            },
+            cursor: 'pointer',
           }}
           onClick={(event) => handleOpenMenu(event, option)}
         >
@@ -66,15 +62,11 @@ const NavButtons = () => {
             boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
             borderRadius: '8px',
             border: '1px solid #745B4F',
-            fontFamily: 'Playfair Display, serif', // Ensure font family
+            fontFamily: '"Playfair Display", serif', // Updated to Playfair Display
           },
           '.MuiMenuItem-root': {
-            fontFamily: 'Playfair Display, serif',
+            fontFamily: '"Playfair Display", serif', // Updated to Playfair Display
             fontSize: '1rem',
-            '&:hover': {
-              backgroundColor: '#fdedef', // Slightly darker shade on hover
-              color: '#000000',
-            },
           },
         }}
       >
@@ -88,11 +80,7 @@ const NavButtons = () => {
                 component={Link}
                 to={subOption.path}
                 sx={{
-                  fontFamily: 'Playfair Display, serif', // Ensure font family
-                  '&:hover': {
-                    backgroundColor: '#fdedef',
-                    color: '#000000',
-                  },
+                  fontFamily: '"Playfair Display", serif', // Updated to Playfair Display
                 }}
               >
                 {subOption.name}
