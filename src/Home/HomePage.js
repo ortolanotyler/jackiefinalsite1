@@ -2,12 +2,10 @@ import React, { useEffect, Suspense, useRef, useState, useMemo } from 'react';
 import { Grid, Box, Paper, createTheme, useMediaQuery } from '@mui/material';
 import { Helmet } from 'react-helmet';
 import TextRevealHomePage from '../Components/TextRevealHomePage';
-
 import HeroSection from './HeroSection';
 import HorizontalLine from '../Components/HorizontalLine';
 import NewsletterSlider from '../Components/NewsletterSlider';
 import TextBanner2 from '../Components/TextBanner2';
-
 import RotatingText from '../Navigation/AppBar/RotatingText';
 import ShopMyHero2 from './ShopMyHero2';
 import QuiltedImageList1 from './ImageGridTutorials';
@@ -15,8 +13,6 @@ import QuiltedImageList1 from './ImageGridTutorials';
 const theme = createTheme();
 
 function HomePage() {
-
-
   const quizzesRef = useRef(null);
   const outfitsRef = useRef(null);
 
@@ -34,8 +30,6 @@ function HomePage() {
     quizzes: false,
     outfits: false,
   });
-
-
 
   useEffect(() => {
     const keyframes = `
@@ -114,7 +108,21 @@ function HomePage() {
         <meta name="twitter:image" content="https://jackiewyers.beauty/Images/jw3logo.png" />
         <meta name="twitter:site" content="@JackieWyers" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-       
+        <link
+          rel="preload"
+          href={`${process.env.PUBLIC_URL}/Images/Articles/Halloween/HalloweenThumb.jpg`}
+          as="image"
+          imagesrcset={`${process.env.PUBLIC_URL}/Images/Articles/Halloween/HalloweenThumb.jpg 1x`}
+          imagesizes="(max-width: 768px) 100vw, 50vw"
+        />
+        <link
+          rel="preload"
+          href={`${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/JackieWyersBarbieThumb.jpeg`}
+          as="image"
+          imagesrcset={`${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/JackieWyersBarbieThumb.jpeg 1x`}
+          imagesizes="(max-width: 768px) 100vw, 50vw"
+        />
+        {/* Add more preload links for other LCP images as necessary */}
         <script type="application/ld+json">
           {`
             {
@@ -142,9 +150,10 @@ function HomePage() {
           `}
         </script>
       </Helmet>
+
       <Grid container spacing={2} justifyContent="center">
         <Grid item xs={12}>
-            <TextRevealHomePage text="JACKIE WYERS"style = {{margin:'auto'}}/>
+          <TextRevealHomePage text="JACKIE WYERS" style={{ margin: 'auto' }} />
         </Grid>
 
         {!isMobile && (
@@ -158,61 +167,44 @@ function HomePage() {
                 textAlign: 'center',
               }}
             >
-                <RotatingText />
+              <RotatingText />
             </Paper>
           </Grid>
         )}
 
         <Grid item xs={12}>
-    
-            <QuiltedImageList1 />
-     
-
+          <QuiltedImageList1 />
           <Grid item xs={12}>
-    
-              <HorizontalLine />
+            <HorizontalLine />
 
-              {!isMobile && (
-                <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px" />
-              )}
+            {!isMobile && <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px" />}
+            <HorizontalLine />
 
-<HorizontalLine />
-             
-<HeroSection
-  featureText="FEATURED"
-  headlineText="Girly Pop Culture Halloween Costume Ideas 2024🎀"
-  subtext="Britney, Barbie, Bridgerton, Oh My!"
-  author="September 3"
-  imagePath="Halloween/HalloweenThumb.jpg"
-  linkUrl="/girly-pop-halloween"
-  isFlipped={false}
-/>
-
-   
+            <HeroSection
+              featureText="FEATURED"
+              headlineText="Girly Pop Culture Halloween Costume Ideas 2024🎀"
+              subtext="Britney, Barbie, Bridgerton, Oh My!"
+              author="September 3"
+              imagePath="Halloween/HalloweenThumb.jpg"
+              linkUrl="/girly-pop-halloween"
+              isFlipped={false}
+            />
           </Grid>
         </Grid>
-    
 
+        <HorizontalLine />
 
-
-<HorizontalLine />
-
-
-            <Grid item xs={12}>
-
-  
-           
-              <HeroSection
-  featureText="LATEST"
-  headlineText="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll"
-  subtext="Barbie Makeup Tutorial & Iconic Doll Inspiration"
-  author="September 23"
-  imagePath="BarbieDoll/JackieWyersBarbieThumb.jpeg"
-  linkUrl="/barbie-doll"
-  isFlipped={true}
-/>
-
-</Grid>
+        <Grid item xs={12}>
+          <HeroSection
+            featureText="LATEST"
+            headlineText="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll"
+            subtext="Barbie Makeup Tutorial & Iconic Doll Inspiration"
+            author="September 23"
+            imagePath="BarbieDoll/JackieWyersBarbieThumb.jpeg"
+            linkUrl="/barbie-doll"
+            isFlipped={true}
+          />
+        </Grid>
 <HorizontalLine />
 <Grid item xs={12}>
   
