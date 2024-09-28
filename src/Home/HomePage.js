@@ -177,16 +177,16 @@ function HomePage() {
               )}
 
 <HorizontalLine />
-              <HeroSection
-                featureText="LATEST"
-                headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀"
-                subtext="The Best Barbie-Inspired Products and Collectibles Every Grown-Up Barbie Lover Needs on Their Wishlist"
-                author="September 23"
-                imagePath="/halloweenthumb12.jpg"
-                linkUrl="/barbie-roundup"
-                isFlipped={true}
-              />
-
+             
+<HeroSection
+  featureText="FEATURED"
+  headlineText="Girly Pop Culture Halloween Costume Ideas 2024🎀"
+  subtext="Britney, Barbie, Bridgerton, Oh My!"
+  author="September 3"
+  imagePath="Halloween/HalloweenThumb.jpg"
+  linkUrl="/girly-pop-halloween"
+  isFlipped={false}
+/>
 
    
           </Grid>
@@ -201,21 +201,8 @@ function HomePage() {
             <Grid item xs={12}>
 
   
-            <HeroSection
-  featureText="FEATURED"
-  headlineText="Girly Pop Culture Halloween Costume Ideas 2024🎀"
-  subtext="Britney, Barbie, Bridgerton, Oh My!"
-  author="September 3"
-  imagePath="Halloween/HalloweenThumb.jpg"
-  linkUrl="/girly-pop-halloween"
-  isFlipped={false}
-/>
-
-</Grid>
-<HorizontalLine />
-<Grid item xs={12}>
-  
-  <HeroSection
+           
+              <HeroSection
   featureText="LATEST"
   headlineText="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll"
   subtext="Barbie Makeup Tutorial & Iconic Doll Inspiration"
@@ -224,6 +211,20 @@ function HomePage() {
   linkUrl="/barbie-doll"
   isFlipped={true}
 />
+
+</Grid>
+<HorizontalLine />
+<Grid item xs={12}>
+  
+<HeroSection
+                featureText="LATEST"
+                headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀"
+                subtext="The Best Barbie-Inspired Products and Collectibles Every Grown-Up Barbie Lover Needs on Their Wishlist"
+                author="September 23"
+                imagePath="/halloweenthumb12.jpg"
+                linkUrl="/barbie-roundup"
+                isFlipped={false}
+              />
 
 
 </Grid>
@@ -238,7 +239,7 @@ function HomePage() {
                 author="September 24"
                 imagePath="/Rory1/rorythumbnail.jpg"
                 linkUrl="/articles/rory-gilmore"
-                isFlipped={false}
+                isFlipped={true}
               />
 
 
