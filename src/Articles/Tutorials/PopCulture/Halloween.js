@@ -63,7 +63,7 @@ const paragraphStyle = {
   fontFamily: "'Open Sans', serif",
   fontWeight: '100',
   padding: '10px',
-  margin: '0 auto',
+  margin: '10px auto',
   
 
     lineHeight: '1.6',
