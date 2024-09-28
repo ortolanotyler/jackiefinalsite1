@@ -1,14 +1,11 @@
 import React, { Suspense } from 'react';
 import { Helmet } from 'react-helmet';
 import TextReveal from '../Components/TextReveal';
-import TravelArticlesList from './TravelArticleList';
-import ExperiencesList from './ExperiencesList';
+
 import BookNowButton from '../Components/BookNowButton';
-import LatestTravelGrid from '../Home/LatestTutorialGridTravel';
 import { Grid } from '@mui/material';
 import HeroSection from '../Home/HeroSection';
 import HorizontalLine from '../Components/HorizontalLine';
-import TextBanner2 from '../Components/TextBanner2';
 
 const TravelArticlesHome = () => {
     return (
@@ -54,7 +51,7 @@ const TravelArticlesHome = () => {
 
 >
 <Grid item xs={12} >
-          <Suspense fallback={<div className="spinner"></div>}>
+          
             <HeroSection
               featureText="LATEST"
               headlineText="The Best Souvenirs to Bring Home from Sorrento"
@@ -64,11 +61,11 @@ const TravelArticlesHome = () => {
               linkUrl="/sorrento"
               isFlipped={false}
             />
-          </Suspense>
+          
         </Grid>
         <HorizontalLine />
         <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
+          
             <HeroSection
               featureText="FEATURE"
               headlineText="Our Romantic 3-Day Rome Itinerary"
@@ -78,13 +75,13 @@ const TravelArticlesHome = () => {
               linkUrl="/rome"
               isFlipped={false}
             />
-          </Suspense>
+          
         </Grid>
         
 
         {/* New Hero Sections for Travel Articles */}
         <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
+          
             <HeroSection
               featureText="FEATURE"
               headlineText="Fable Auckland | New Zealand"
@@ -94,12 +91,12 @@ const TravelArticlesHome = () => {
               linkUrl="/fable"
               isFlipped={false}
             />
-          </Suspense>
+          
         </Grid>
         <HorizontalLine />
 
         <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
+          
             <HeroSection
               featureText="FEATURE"
               headlineText="Prince of Wales at Niagara on the Lake"
@@ -109,11 +106,11 @@ const TravelArticlesHome = () => {
               linkUrl="/princeofwales"
               isFlipped={false}
             />
-          </Suspense>
+          
         </Grid>
 
         <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
+          
             <HeroSection
               featureText="FEATURE"
               headlineText="Andaz Maui at Mailea Resort Review"
@@ -123,11 +120,11 @@ const TravelArticlesHome = () => {
               linkUrl="/andazmaui"
               isFlipped={true}
             />
-          </Suspense>
+          
         </Grid>
 
         <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
+          
             <HeroSection
               featureText="FEATURE"
               headlineText="The Westgate Hotel Review"
@@ -137,11 +134,11 @@ const TravelArticlesHome = () => {
               linkUrl="/westgatesandiego"
               isFlipped={false}
             />
-          </Suspense>
+          
         </Grid>
 
         <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
+          
             <HeroSection
               featureText="FEATURE"
               headlineText="Walt Disney World Beach Club Resort Review"
@@ -151,11 +148,11 @@ const TravelArticlesHome = () => {
               linkUrl="/disneybeachclubresort"
               isFlipped={false}
             />
-          </Suspense>
+          
         </Grid>
 
         <Grid item xs={12}>
-          <Suspense fallback={<div className="spinner"></div>}>
+          
             <HeroSection
               featureText="FEATURE"
               headlineText="Hotel Quintessence, A Review in Mont Tremblant"
@@ -165,7 +162,7 @@ const TravelArticlesHome = () => {
               linkUrl="/hotelq"
               isFlipped={false}
             />
-          </Suspense>
+          
         </Grid>
       </Grid>
 
