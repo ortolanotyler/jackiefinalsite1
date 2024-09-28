@@ -2,7 +2,7 @@ import React from 'react';
 
 const DropCap1 = ({ text, style }) => {
   return (
-    <p style={{fontFamily: 'Playfair Display, serif', maxWidth: '95%', margin: '1rem auto'}}>
+    <p style={{fontFamily: 'Playfair Display, serif', maxWidth: '100%', margin: '1rem auto'}}>
       <span style={{ 
         fontSize: '5em', 
         float: 'left', 
@@ -12,7 +12,8 @@ const DropCap1 = ({ text, style }) => {
       }}>
         {text.charAt(0)}
       </span>
-      <span style={{ lineHeight: '1.6', fontFamily: 'Georgia, serif', margin: '1rem auto' , fontSize: '22px' , maxWidth: '95%' }}>
+      <span style={{  padding: '10px',fontSize: '21px',
+  margin: '10px auto', lineHeight: '1.5',fontWeight: '100', fontFamily: "'Open Sans', serif", margin: '1rem' ,  maxWidth: '100%' }}>
         {text.slice(1)}
       </span>
     </p>
@@ -20,3 +21,5 @@ const DropCap1 = ({ text, style }) => {
 };
 
 export default DropCap1;
+
+

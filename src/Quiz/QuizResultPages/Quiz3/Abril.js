@@ -41,43 +41,75 @@ const Abril = () => {
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '32px',
-    fontWeight: 'normal',
-    fontFamily: 'GFS Didot, serif',
-    color: 'black',
-    margin: '1rem',
-    lineHeight: '1.25',
-
-  };
-
-  const paragraphStyle = {
-    fontSize: '22px',
+    fontSize: '2.5rem',
+    fontWeight: '400',
+    fontFamily: "'Playfair Display', serif",
     color: '#000000',
-    
-    fontFamily: 'Georgia, serif',
-    fontWeight: 'regular',
-    
-    margin: '5px 5px',
-    
-    maxWidth: '100%',
-      lineHeight: '1.6',
-    
-    };
-
+    maxWidth: '95%',
+  
+    margin: '30px auto'
+  };
+  
+  
+  const paragraphStyle = {
+  fontSize: '20px',
+  color: '#000000',
+  
+  fontFamily: "'Open Sans', serif",
+  fontWeight: '100',
+  padding: '10px',
+  margin: '10px auto',
+  
+  
+    lineHeight: '1.6',
+  
+  };
+  
+  const linkStyle = {
+  textDecoration: 'none', // Removes underline from links
+  fontFamily: "'Open Sans', serif",
+  fontWeight: '100',
+  color: '#745B4F', // Inherits the color of the surrounding text
+  };
+  
   const gridContainerStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-    gap: '1rem',
-    margin: '1rem 0'
-};
-
-const imageStyle = {
+    gap: '10px',
+    margin: '0 2rem'
+  };
+  
+  const imageStyle = {
   display: 'block',
-  margin: '0 auto',
-  maxWidth: '600px',
+  margin: '1rem auto',
+  borderRadius: '0px',
   height: 'auto'
-};
-
+  };
+  
+  const pinterestGridStyle = {
+  display: 'grid',
+  gap: '1rem',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+  justifyItems: 'center',
+  margin: '1rem 0',
+  };
+  
+  const iframeStyle = {
+  width: '100%',
+  height: '520px', // Maintains original height
+  border: 'none',
+  scrolling: 'no',
+  };
+  
+  const captionStyle = {
+  textAlign: 'center',
+  fontSize: '1rem',
+  fontFamily: 'Arapey, serif',
+  fontWeight: '100',
+  margin: '0 auto',
+  fontStyle: 'italic',
+  };
+  
 
 
   const blogContent = (

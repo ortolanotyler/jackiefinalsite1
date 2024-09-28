@@ -41,80 +41,80 @@ const LanaBlog = () => {
   const blogRef = useRef(null);
 
 
-
   const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',
-    fontWeight: '100',
-    fontFamily: 'Playfair Display, serif',
+    fontWeight: '400',
+    fontFamily: "'Playfair Display', serif",
     color: '#000000',
     maxWidth: '95%',
-
+  
     margin: '30px auto'
-};
-
-
-const paragraphStyle = {
-  fontSize: '22px',
+  };
+  
+  
+  const paragraphStyle = {
+  fontSize: '20px',
   color: '#000000',
   
-  fontFamily: 'Georgia, serif',
-  fontWeight: 'regular',
+  fontFamily: "'Open Sans', serif",
+  fontWeight: '100',
+  padding: '10px',
+  margin: '10px auto',
   
-  margin: '5px 5px',
   
-  maxWidth: '100%',
     lineHeight: '1.6',
   
   };
-const linkStyle = {
+  
+  const linkStyle = {
   textDecoration: 'none', // Removes underline from links
-  fontFamily: 'Playfair Display, serif',
-  color: '#000000', // Inherits the color of the surrounding text
-};
-
-const gridContainerStyle = {
+  fontFamily: "'Open Sans', serif",
+  fontWeight: '100',
+  color: '#745B4F', // Inherits the color of the surrounding text
+  };
+  
+  const gridContainerStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     gap: '10px',
-    maxWidth: '95%',
     margin: '0 2rem'
-};
-
-const imageStyle = {
+  };
+  
+  const imageStyle = {
   display: 'block',
   margin: '1rem auto',
   borderRadius: '0px',
-  maxWidth: '95%',
   height: 'auto'
-};
-
-const pinterestGridStyle = {
+  };
+  
+  const pinterestGridStyle = {
   display: 'grid',
   gap: '1rem',
   gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
   justifyItems: 'center',
   margin: '1rem 0',
-};
-
-const iframeStyle = {
+  };
+  
+  const iframeStyle = {
   width: '100%',
-  maxWidth: '95%',
   height: '520px', // Maintains original height
   border: 'none',
   scrolling: 'no',
-};
-
-const captionStyle = {
+  };
+  
+  const captionStyle = {
   textAlign: 'center',
-  fontSize: '1.1rem',
-  fontFamily: 'Raleway, serif',
-  fontWeight: 'normal',
+  fontSize: '1rem',
+  fontFamily: 'Arapey, serif',
+  fontWeight: '100',
   margin: '0 auto',
-  maxWidth: '85%',
   fontStyle: 'italic',
-};
-
+  };
+  
+  
+  
+  
 
   const blogContent = (
     <div className="container">
