@@ -153,7 +153,7 @@ function HomePage() {
             headlineText="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll"
             subtext="Barbie Makeup Tutorial & Iconic Doll Inspiration"
             author="September 23"
-            imagePath="BarbieDoll/JackieWyersBarbieThumb.jpeg"
+            imagePath="BarbieDoll/JackieWyersBarbieThumb1.JPG"
             linkUrl="/barbie-doll"
             isFlipped={true}
           />

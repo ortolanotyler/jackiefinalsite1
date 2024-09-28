@@ -5,12 +5,14 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
 
   useEffect(() => {
-    const handleResize = () => setIsSmallScreen(window.innerWidth <= 768);
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 768);
+    };
+
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  // Styles
   const heroLinkStyle = {
     textDecoration: 'none',
     color: '#000000',
@@ -24,15 +26,18 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     maxWidth: '1000px',
     color: '#000000',
     flexDirection: isSmallScreen ? 'column' : isFlipped ? 'row-reverse' : 'row',
+    flexWrap: 'wrap',
   };
 
   const textContentStyle = {
     flex: 1,
-    padding: isSmallScreen ? '0' : isFlipped ? '0 0 0 20px' : '0 20px 0 0',
+    paddingRight: isSmallScreen ? '0' : isFlipped ? '0' : '20px',
+    paddingLeft: isFlipped && !isSmallScreen ? '20px' : '0',
     maxWidth: '100%',
-    margin: '0 10px',
+    margin: '1rem auto',
+    padding: '20px',
     textAlign: 'left',
-    fontFamily: 'GFS Didot, serif',
+    fontFamily: 'GFS Didot, sans-serif',
   };
 
   const featureStyle = {
@@ -41,7 +46,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     letterSpacing: '1px',
     color: '#000000',
     margin: '5px',
-    fontFamily: 'Lora, serif',
+    fontFamily: 'Lora, sans-serif',
     textDecoration: 'underline',
   };
 
@@ -66,29 +71,28 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     fontSize: '.75rem',
     fontStyle: 'italic',
     color: '#000000',
-    fontFamily: 'Lora, serif',
+    fontFamily: 'Lora, sans-serif',
   };
 
   const imageContentStyle = {
     flex: 1,
     textAlign: isSmallScreen ? 'center' : isFlipped ? 'left' : 'right',
-    maxWidth: '450px',
+    maxWidth: '500px',
     position: 'relative',
   };
 
-  // Define explicit width and height based on the aspect ratio to reduce layout shift
   const imageStyle = {
-  
+    width: '100%',
+    height: 'auto',
     borderRadius: '0px',
     display: 'block',
-    objectFit: 'cover',
-    aspectRatio: '5 / 3', // Adjust aspect ratio as needed
+    objectFit: 'cover', // Ensures images cover their container without distorting
   };
 
 
-  // Set the explicit width and height of the image to reduce LCP and layout shift
-  const imageWidth = 450; // Define an explicit width
-  const imageHeight = 500; // Define an explicit height based on your aspect ratio
+  // Set the explicit width and height of the image to reduce LCP
+  const imageWidth = 500; // Example width
+  const imageHeight = 500; // Example height (adjust based on the actual aspect ratio of your images)
 
   return (
     <a href={linkUrl} style={heroLinkStyle}>
@@ -107,8 +111,6 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
             style={imageStyle}
             width={imageWidth} // Explicit width to reserve space
             height={imageHeight} // Explicit height to reserve space
-            loading="eager" // Load images eagerly to reduce LCP impact
-            decoding="async" // Decodes images asynchronously for better performance
           />
         </div>
       </div>
