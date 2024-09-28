@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   font-size: 20px;
-  font-family: 'GFS Didot', sans-serif;
+  font-family: 'GFS Didot', serif;
   border: 10px solid #FDEDEF;
   background-color: #FDEDEF;
   background-size: cover;
@@ -19,7 +19,7 @@
 .column {
   padding: 0.1rem;
   margin: 50px;
-  font-family: 'GFS Didot', sans-serif;
+  font-family: 'GFS Didot', serif;
   flex: 1;
   color: #745B4F;
   position: relative;
@@ -30,14 +30,14 @@
   margin: 20px;
   gap: 0.5rem;
   display: flex;
-  font-family: 'GFS Didot', sans-serif;
+  font-family: 'GFS Didot', serif;
   flex-direction: column;
 }
 
 .input, .textarea {
   padding: 1rem;
   background-color: white;
-  font-family: 'GFS Didot', sans-serif;
+  font-family: 'GFS Didot', serif;
   font-size: 1rem;
   border: 1px solid #ccc;
   width: 100%; /* Ensure inputs take full width of form */
@@ -46,7 +46,7 @@
 .button {
   font-size: 22px;
   padding: 1rem;
-  font-family: 'GFS Didot', sans-serif;
+  font-family: 'GFS Didot', serif;
   border: none;
   color: #745B4F;
   cursor: pointer;
@@ -93,7 +93,7 @@
     align-items: center;
     font-size: 1rem;
     max-height: 100vh;
-    font-family: 'GFS Didot', sans-serif;
+    font-family: 'GFS Didot', serif;
     border: 10px solid white;
     background-color: #FDEDEF;
     background-size: cover;

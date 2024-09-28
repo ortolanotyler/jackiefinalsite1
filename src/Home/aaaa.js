@@ -38,7 +38,7 @@ const Card = ({ link, image, alt, title }) => {
 
 const Slider1 = () => {
   return (
-    <div style={{ fontFamily: 'GFS Didot, sans-serif' }}>
+    <div style={{ fontFamily: 'GFS Didot, serif' }}>
       <ul className={styles.cardList}>
         {cardsData.map((card, index) => (
           <Card

@@ -218,7 +218,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   </a>
 </div>
 
-<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
   Original Makeup & Hair Design by <a href="https://www.imdb.com/name/nm1995825/" target="_blank" rel="noopener noreferrer" style={linkStyle}>Fae Hammond</a> from the 2005 film <a href="https://www.imdb.com/title/tt0414387/" target="_blank" rel="noopener noreferrer" style={linkStyle}>'Pride and Prejudice'</a>, recreation by <a href="/about-jackie-wyers" style={linkStyle}>Jackie Wyers</a>.
 </p>
 

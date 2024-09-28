@@ -451,14 +451,14 @@ As touched on in the beauty details, I knew I wanted a sheer, long veil, which I
     <img src={image21} alt="Jackie Wyers Wedding Photography" style={imageStyle} /> 
 </div>
 
-<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
 A look at the DIY veil             
    </p>
 
 <div style={gridContainerStyle}>
     <img src={image22} alt="Jackie Wyers Wedding Photography" style={imageStyle} /> 
 </div>
-<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
 The second flower crown version using same DIY pinned flowers
    </p>
 
@@ -636,7 +636,7 @@ style = {{
 
   </a>
 </div>
-<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
 Pressed Floral
    </p>
 

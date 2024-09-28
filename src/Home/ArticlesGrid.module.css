@@ -41,7 +41,7 @@ body {
 
 .title {
   margin-top: 1rem;
-  font-family: 'GFS Didot', sans-serif;
+  font-family: 'GFS Didot', serif;
   font-size: 1.25rem;
   color: black;
 }
@@ -89,7 +89,7 @@ body {
 .viewAllLink {
   display: inline-flex;
   align-items: center;
-  font-family: 'GFS Didot, sans-serif';
+  font-family: 'GFS Didot, serif';
   color: black;
   text-decoration: none;
   transition: all 0.3s ease;

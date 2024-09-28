@@ -183,7 +183,7 @@ const captionStyle = {
 
 
     
-      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
+      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', maxWidth: '100%', fontStyle: 'italic' }}>
       All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
         </p>
       </div>
@@ -217,7 +217,7 @@ We'll start with the oldest time period we will cover: <strong> The Tudor era. <
           <img src={image1} alt="Elizabeth Bennet - Pride & Prejudice" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
 
       Original Makeup by Tamara Mae Richards-Bloomfield and Hair Design by Monica Montalvo from 'My Lady Jane,' recreation by Jackie Wyers.
             </p>
@@ -249,7 +249,7 @@ The Golden Age of Piracy was a time of adventure and danger on the high seas, sp
           <img src={image2} alt="Daphne Bridgerton - Bridgerton" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
       Original Makeup by Ve Neill and Martin Samuel, Hair Design by Martin Samuel from 'Pirates of the Caribbean: The Curse of the Black Pearl,' recreation by Jackie Wyers
             </p>
 
@@ -288,7 +288,7 @@ beauty trends, heavily influenced by classical antiquity, with a focus on simpli
       </div>
 
 
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
       Original Makeup & Hair Design by Fae Hammond from the 2005 film 'Pride and Prejudice,' recreation by Jackie Wyers.     </p>
       
 <p style={paragraphStyle}>
@@ -310,7 +310,7 @@ In terms of makeup, the Regency look was characterized by a fresh and natural co
           <img src={image4} alt="Amy March - Little Women" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
       Original Makeup and Hair Design by Marc Pilcher and Erika Ökvist from Bridgerton,' recreation by Jackie Wyers.
         </p>
       
@@ -336,7 +336,7 @@ In terms of makeup, the Regency look was characterized by a fresh and natural co
           <img src={image5} alt="Rosie Dunne - Love, Rosie" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
 
       Original Makeup by Barbara Daly and Hair Design by Leonard George from 'The Blue Lagoon,' recreation by Jackie Wyers.
             </p>
@@ -370,7 +370,7 @@ loosely on top of the head. However, in the context of "The Blue Lagoon," the em
           <img src={image6} alt="Alaska Young - Looking For Alaska" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
 
       Original Makeup & Hair Design by Ivana Primorac from the 2019 film 'Little Women,' recreation by Jackie Wyers.
             </p>
@@ -402,7 +402,7 @@ summer day. These styles offer an elegant and practical solution for managing lo
           <img src={image7} alt="Winnie Foster - Tuck Everlasting" style={{ width: '100%', maxWidth: '650px' }} />
         </a>
       </div>
-      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+      <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
         Original Makeup & Hair Design by Hallie D'Amore from the 2002 film 'Tuck Everlasting,' recreation by Jackie Wyers.
       </p>
 

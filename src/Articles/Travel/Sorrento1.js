@@ -190,7 +190,7 @@ const captionStyle = {
 
 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
-        <a href="/travel" style={{ fontFamily: 'GFS Didot, sans-serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
+        <a href="/travel" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
           TRAVEL // ITALY
         </a>
       </div>

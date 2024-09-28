@@ -203,7 +203,7 @@ const AnimalPretty = () => {
             margin: '2rem 0',
             textAlign: 'center',
             fontSize: '1rem',
-            fontFamily: 'Arapey, sans-serif',
+            fontFamily: 'Arapey, serif',
             maxWidth: '100%',
             fontStyle: 'italic',
           }}

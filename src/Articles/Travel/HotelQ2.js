@@ -266,7 +266,7 @@ Hotel Quintessence is perfectly situated across the street from the charming Mon
 </div>
 
 
-<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
 Throwback to Winter in Mont Tremblant!   </p>
    
 

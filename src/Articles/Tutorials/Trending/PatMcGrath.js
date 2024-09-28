@@ -197,7 +197,7 @@ const Card = ({ blogContent }) => (
       <div style = {{textAlign: 'center', margin: '10px auto' }}>
 <SubscribeButton />
 </div>
-      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
+      <p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', maxWidth: '100%', fontStyle: 'italic' }}>
       All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 

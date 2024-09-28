@@ -277,7 +277,7 @@ Be sure to take the fun quiz I've created to see which dress I think you would l
     Bacarra
 </h2>
 
-<p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+<p style={{ fontSize: '1rem', fontFamily: 'Arapey, serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
 Theme: Fairytale Wedding or Bohemian Wedding
             </p>
 
@@ -302,7 +302,7 @@ Theme: Fairytale Wedding or Bohemian Wedding
     Porsha
  </h2>
 
- <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+ <p style={{ fontSize: '1rem', fontFamily: 'Arapey, serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
  Theme: Vintage Glamour
  </p>
 
@@ -327,7 +327,7 @@ Theme: Fairytale Wedding or Bohemian Wedding
    <img src={image7} alt="Jackie Wyers Wedding Abril Dress" style={imageStyle} />
  </div>
 
- <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+ <p style={{ fontSize: '1rem', fontFamily: 'Arapey, serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
  Styled with stunning floral overskirt that looks and feels like a cloud
   </p>
 
@@ -342,7 +342,7 @@ The overskirt adds something special with its beautifully handmade flower detail
 Abril
 </h2>
 
- <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+ <p style={{ fontSize: '1rem', fontFamily: 'Arapey, serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
  Theme: Modern Minimalist
  </p>
 
@@ -361,7 +361,7 @@ Abril is a guipure lace-up detailed corset base dress with a smooth heart-shaped
     <img src={image10} alt="Jackie Wyers Wedding Abril Dress" style={imageStyle} />
  </div>
 
- <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+ <p style={{ fontSize: '1rem', fontFamily: 'Arapey, serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
  Styled with matching lace veil
    </p>
    
@@ -370,7 +370,7 @@ Abril is a guipure lace-up detailed corset base dress with a smooth heart-shaped
     Percy
 </h2>
 
- <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+ <p style={{ fontSize: '1rem', fontFamily: 'Arapey, serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
  Theme: Classic Elegance  
  </p>
 
@@ -384,7 +384,7 @@ Abril is a guipure lace-up detailed corset base dress with a smooth heart-shaped
     <img src={image13} alt="Jackie Wyers Wedding Abril Dress" style={imageStyle} />
  </div>
 
- <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+ <p style={{ fontSize: '1rem', fontFamily: 'Arapey, serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
  Percy with dramatic overskirt
     </p>
 
@@ -404,7 +404,7 @@ Abril is a guipure lace-up detailed corset base dress with a smooth heart-shaped
 </h2>
 
 
- <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+ <p style={{ fontSize: '1rem', fontFamily: 'Arapey, serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
  Theme: Old Money or Beach Wedding
  </p>
 
@@ -440,7 +440,7 @@ Abril is a guipure lace-up detailed corset base dress with a smooth heart-shaped
         Zara
      </h2>
 
-     <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+     <p style={{ fontSize: '1rem', fontFamily: 'Arapey, serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
         Theme: Garden Party
      </p>
 
@@ -466,7 +466,7 @@ Abril is a guipure lace-up detailed corset base dress with a smooth heart-shaped
 
  <h2 style = {headingStyle}>
  Elizabeth </h2>
- <p style={{ fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
+ <p style={{ fontSize: '1rem', fontFamily: 'Arapey, serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
                         Theme: Fairytale Wedding ft. Historical Elegance
                         </p>
 

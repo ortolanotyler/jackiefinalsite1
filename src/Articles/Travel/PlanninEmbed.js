@@ -23,7 +23,7 @@ const EmbeddedGuide = () => {
             alignItems: 'center',
             zIndex: 1,
             color: 'white',
-            fontFamily: 'Arial, sans-serif',
+            fontFamily: 'Arial, serif',
             fontSize: '1.5rem',
             textAlign: 'center',
             padding: '20px',

@@ -41,7 +41,7 @@
   color: black; /* Text color */
   background-color: white; /* Background color for the box */
   padding: 10px 20px; /* Padding inside the box */
-  font-family: 'GFS Didot', sans-serif;
+  font-family: 'GFS Didot', serif;
   font-size: 18px; /* Adjust font size */
   border-radius: 5px; /* Rounded corners for the box */
   opacity: 0;
@@ -58,7 +58,7 @@
 }
 
 .diaryText {
-  font-family: 'GFS Didot', sans-serif;
+  font-family: 'GFS Didot', serif;
   font-size: 24px;
   margin-bottom: 20px; /* Add some margin at the bottom */
   text-align: center; /* Center the text */

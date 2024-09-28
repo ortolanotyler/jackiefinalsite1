@@ -46,7 +46,7 @@ const ResponsiveInstagramIframe = ({ src, title }) => {
               </svg>
             </div>
             <div style={{ paddingTop: '8px' }}>
-              <div style={{ color: '#3897f0', fontFamily: 'Arial,sans-serif', fontSize: '14px', fontStyle: 'normal', fontWeight: 550, lineHeight: '18px' }}>View this post on Instagram</div>
+              <div style={{ color: '#3897f0', fontFamily: 'Arial, serif', fontSize: '14px', fontStyle: 'normal', fontWeight: 550, lineHeight: '18px' }}>View this post on Instagram</div>
             </div>
             <div style={{ padding: '12.5% 0' }}></div>
             <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '14px', alignItems: 'center' }}>
@@ -70,8 +70,8 @@ const ResponsiveInstagramIframe = ({ src, title }) => {
               <div style={{ backgroundColor: '#F4F4F4', borderRadius: '4px', flexGrow: 0, height: '14px', width: '144px' }}></div>
             </div>
           </a>
-          <p style={{ color: '#c9c8cd', fontFamily: 'Arial,sans-serif', fontSize: '14px', lineHeight: '17px', marginBottom: 0, marginTop: '8px', overflow: 'hidden', padding: '8px 0 7px', textAlign: 'center', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-            <a href={src} style={{ color: '#c9c8cd', fontFamily: 'Arial,sans-serif', fontSize: '14px', fontStyle: 'normal', fontWeight: 'normal', lineHeight: '17px', textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">A post shared by Jackie Wyers (@jackiewyers)</a>
+          <p style={{ color: '#c9c8cd', fontFamily: 'Arial, serif', fontSize: '14px', lineHeight: '17px', marginBottom: 0, marginTop: '8px', overflow: 'hidden', padding: '8px 0 7px', textAlign: 'center', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+            <a href={src} style={{ color: '#c9c8cd', fontFamily: 'Arial,serif', fontSize: '14px', fontStyle: 'normal', fontWeight: 'normal', lineHeight: '17px', textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">A post shared by Jackie Wyers (@jackiewyers)</a>
           </p>
         </div>
       </blockquote>

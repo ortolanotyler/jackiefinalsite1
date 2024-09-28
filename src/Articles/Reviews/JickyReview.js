@@ -249,7 +249,7 @@ fontStyle: 'italic',
             <img src={jicky2} alt="Jicky by Guerlain Paris Fragrance" style={imageStyle} />
             </div>
 
-            <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '1rem 0', fontStyle: 'italic' }}>
+            <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '1rem 0', fontStyle: 'italic' }}>
     All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
 </p>
 

@@ -45,7 +45,7 @@ body {
   max-width: 1100px;
   background-color: white;
   color: black;
-  font-family: 'GFS Didot', sans-serif;
+  font-family: 'GFS Didot', serif;
   text-align: left; /* Center align text */
   margin: 0 auto;
   padding: 0; /* Add padding to create space inside the card */

@@ -71,7 +71,7 @@ const Text = styled('div')({
   color: 'white',
   fontSize: '40px',
   fontWeight: 'normal',
-  fontFamily: 'GFS Didot, sans-serif',
+  fontFamily: 'GFS Didot, serif',
   textTransform: 'uppercase',
   border: '1px solid white',
   borderRadius: '1px',

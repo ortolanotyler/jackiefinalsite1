@@ -294,7 +294,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <div style={gridContainerStyle}><img src={image4} alt="Flower Petals - A Step-by-Step Guide: Final Steps" style={imageStyle} /></div>
 
-<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '1em', maxWidth: '100%', fontStyle: 'italic' }}>Flower veil vs. Flower crown with each flower pinned in with bobby pins.</p>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '1em', maxWidth: '100%', fontStyle: 'italic' }}>Flower veil vs. Flower crown with each flower pinned in with bobby pins.</p>
 
 <p style={paragraphStyle}>Alternatively, you can attach the flowers with bobby pins through the burlap loops to create a flower crown or accent flowers in your bridesmaids' hair.</p>
 

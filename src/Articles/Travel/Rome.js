@@ -470,7 +470,7 @@ const captionStyle = {
 <div style={gridContainerStyle}>
 <img src={image44} alt="Jackie Wyers and Tyler’s Romantic Moments in Rome" style={imageStyle} loading="lazy" />   
 </div>
-<p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', maxWidth: '100%', fontStyle: 'italic' }}>
+<p style={{ margin: '2rem 0',textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', maxWidth: '100%', fontStyle: 'italic' }}>
 My Rome Souvenirs
 </p>
 <p style={paragraphStyle}>

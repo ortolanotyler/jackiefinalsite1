@@ -226,7 +226,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   <img src={image1} alt="Elizabeth Bennet - Pride & Prejudice" style={{ width: '100%', maxWidth: '650px', margin: '0 auto' }} />
 </div>
 
-<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
   Recent Photo shot on <a style={linkStyle} href="https://www.apple.com/iphone-13-pro/" target="_blank" rel="noreferrer">iPhone 13 Pro Max</a>
 </p>
 
@@ -245,7 +245,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   <img src={image5} alt="Elizabeth Bennet - Pride & Prejudice" style={{ width: '100%', maxWidth: '650px' }} />
 </div>
 
-<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
   Vibrant setting photos at the <a style={linkStyle} href="https://www.museivaticani.va" target="_blank" rel="noreferrer">Vatican Museum</a>
 </p>
 
@@ -261,7 +261,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   <img src={image6} alt="Elizabeth Bennet - Pride & Prejudice" style={{ width: '100%', maxWidth: '650px', margin: '0 auto' }} />
 </div>
 
-<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
   Taken with .5 zoom lens on <a style={linkStyle} href="https://www.apple.com/iphone-13-pro/" target="_blank" rel="noreferrer">iPhone 13 Pro Max</a> right after cleaning the lens
 </p>
 
@@ -277,7 +277,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   <img src={image7} alt="Elizabeth Bennet - Pride & Prejudice" style={{ width: '100%', maxWidth: '650px', margin: '0 auto' }} />
 </div>
 
-<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
   Example of subject directly in the center of the grid, with more space above the head and feet at the bottom of the image
 </p>
 
@@ -307,7 +307,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   <img src={image9} alt="Elizabeth Bennet - Pride & Prejudice" style={{ width: '100%', maxWidth: '650px', margin: '0 auto' }} />
 </div>
 
-<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
   <a style={linkStyle} href="https://www.canon.com/cameras/powershot-g7-x" target="_blank" rel="noreferrer">Canon G7x</a> with flash example
 </p>
 
@@ -325,7 +325,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   <img src={image10} alt="Elizabeth Bennet - Pride & Prejudice" style={{ width: '100%', maxWidth: '650px', margin: '0 auto' }} />
 </div>
 
-<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
   Portrait mode for mirror selfie
 </p>
 
@@ -361,7 +361,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   <img src={image15} alt="Elizabeth Bennet - Pride & Prejudice" style={{ width: '100%', maxWidth: '650px', margin: '0 auto' }} />
 </div>
 
-<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
   Love the way iPhones capture sunsets, especially with the Vibrant setting on
 </p>
 

@@ -268,7 +268,7 @@ Bardot's iconic big bun! Whether you're looking for a chic everyday look or a sh
  </div>
 
 
- <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+ <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
 Inspired Muse - Tap image for Sabrina Carpenter inspired makeup tutorial.
 </p>
 
@@ -283,7 +283,7 @@ Inspired Muse - Tap image for Sabrina Carpenter inspired makeup tutorial.
    <img src={image4} alt="Jackie Wyers Bardot Hairstyles" style={imageStyle} />
  </div>
 
-<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
 Updated Bardot Bun on Natural Hair
  
 </p>
@@ -304,7 +304,7 @@ Method One: Best Big Bun
 
 </div>
 
-<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '1em', maxWidth: '100%', fontStyle: 'italic' }}>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '1em', maxWidth: '100%', fontStyle: 'italic' }}>
 Bun starts at 4:05    </p>
 
 
@@ -362,7 +362,7 @@ Breaking Down My Faux Bangs Method
    </a>
  </div>
 
-<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, sans-serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
+<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
 
 My Take On A Brunette Bardot Updo
 </p>

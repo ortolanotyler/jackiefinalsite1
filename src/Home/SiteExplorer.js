@@ -110,7 +110,7 @@ export default function SiteExplorer() {
               <Button
                 size="small"
                 sx={{
-                  fontFamily: "'Arapey', sans-serif",
+                  fontFamily: "'Arapey', serif",
                   color: 'white',
                   zIndex: 2,
                   fontSize: '1rem',
