@@ -28,7 +28,14 @@ const NewsletterSlider = () => { // Removed the `images` prop
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index}>
-            <img src={image} alt={`Media ${index + 1}`} className={styles.sliderImage} />
+            <img 
+              src={image} 
+              alt={`Media ${index + 1}`} 
+              className={styles.sliderImage} 
+              width="1000" // Set explicit width
+              height="600" // Set explicit height
+              style={{ width: '100%', height: 'auto', objectFit: 'cover' }} // Responsive styling
+            />
           </div>
         ))}
       </Slider>
@@ -69,8 +76,8 @@ const SamplePrevArrow = (props) => {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="#745B4F"
-        width="25px"
-        height="35px"
+        width="50px"
+        height="50px"
       >
         <path d="M12 24l1.41-1.41L5.83 15H24v-2H5.83l7.58-7.59L12 0 0 12z" />
       </svg>
