@@ -47,8 +47,8 @@ const Halloween = () => {
   const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',
-    fontWeight: '100',
-    fontFamily: 'Playfair Display, serif',
+    fontWeight: '400',
+    fontFamily: "'Playfair Display', serif",
     color: '#000000',
     maxWidth: '95%',
 
@@ -63,17 +63,18 @@ const paragraphStyle = {
   fontFamily: "'Open Sans', serif",
   fontWeight: '100',
   padding: '10px',
+  margin: '0 auto',
   
-  
-  maxWidth: '100%',
+
     lineHeight: '1.6',
   
   };
 
 const linkStyle = {
   textDecoration: 'none', // Removes underline from links
-  fontFamily: 'Playfair Display, serif',
-  color: '#000000', // Inherits the color of the surrounding text
+  fontFamily: "'Open Sans', serif",
+  fontWeight: '100',
+  color: '#745B4F', // Inherits the color of the surrounding text
 };
 
 const gridContainerStyle = {
@@ -110,11 +111,11 @@ const iframeStyle = {
 
 const captionStyle = {
   textAlign: 'center',
-  fontSize: '1.1rem',
-  fontFamily: 'Raleway, serif',
-  fontWeight: 'normal',
+  fontSize: '1rem',
+  fontFamily: 'Arapey, serif',
+  fontWeight: '100',
   margin: '0 auto',
-  maxWidth: '85%',
+  maxWidth: '95%',
   fontStyle: 'italic',
 };
 
