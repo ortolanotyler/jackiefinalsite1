@@ -331,13 +331,14 @@ Method Two: Best Faux Bangs
 
 <div style = {{textAlign: 'center'}}>
 <iframe
-      style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
-      src="https://www.youtube.com/embed/7JuWiUbby4I"
-      title="Brigitte Bardot Bun & Bangs WITHOUT the chop💇🏼‍♀️👱🏼‍♀️🎀r"
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    ></iframe>
+  style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
+  src="https://www.youtube.com/embed/7JuWiUbby4I"
+  title="Brigitte Bardot Bun & Bangs WITHOUT the chop💇🏼‍♀️👱🏼‍♀️🎀r"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+  loading="lazy" // Lazy loading attribute added
+></iframe>
 </div>
 
 
@@ -393,14 +394,15 @@ Combining Methods for The Best Bardot Bun
 </h2>
 
 <div style={{ textAlign: 'center' }}>
-  <iframe
-    style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
-    src="https://www.youtube.com/embed/WyP-Lco8BTA"
-    title="My BIGGEST & BEST Bardot Bun with Faux Bangs! 🎀"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-  ></iframe>
+<iframe
+  style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
+  src="https://www.youtube.com/embed/WyP-Lco8BTA"
+  title="My BIGGEST & BEST Bardot Bun with Faux Bangs! 🎀"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+  loading="lazy" // Lazy loading attribute added
+></iframe>
 </div>
 
 
@@ -463,21 +465,24 @@ Pin my Bardot looks on Pinterest to your inspiration board!
 </p>
 
 <div style={pinterestGridStyle}>
-  <iframe
-    src="https://assets.pinterest.com/ext/embed.html?id=794463190524256496"
-    style={iframeStyle}
-    title="pin1"
-  ></iframe>
-  <iframe
-    src="https://assets.pinterest.com/ext/embed.html?id=794463190540664022"
-    style={iframeStyle}
-    title="pin2"
-  ></iframe>
-  <iframe
-    src="https://assets.pinterest.com/ext/embed.html?id=794463190512567046"
-    style={iframeStyle}
-    title="pin3"
-  ></iframe>
+<iframe
+  src="https://assets.pinterest.com/ext/embed.html?id=794463190524256496"
+  style={iframeStyle}
+  title="pin1"
+  loading="lazy" // Lazy loading attribute added
+></iframe>
+<iframe
+  src="https://assets.pinterest.com/ext/embed.html?id=794463190540664022"
+  style={iframeStyle}
+  title="pin2"
+  loading="lazy" // Lazy loading attribute added
+></iframe>
+<iframe
+  src="https://assets.pinterest.com/ext/embed.html?id=794463190512567046"
+  style={iframeStyle}
+  title="pin3"
+  loading="lazy" // Lazy loading attribute added
+></iframe>
 </div>
 
 
