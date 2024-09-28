@@ -34,8 +34,8 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     paddingRight: isSmallScreen ? '0' : isFlipped ? '0' : '20px',
     paddingLeft: isFlipped && !isSmallScreen ? '20px' : '0',
     maxWidth: '100%',
-    margin: '1rem auto',
-    padding: '20px',
+    margin: '1.25rem',
+    padding: '0px',
     textAlign: 'left',
     fontFamily: 'GFS Didot, serif',
   };

@@ -147,8 +147,8 @@ function HomePage() {
 
         <HorizontalLine />
 
-        <Grid >
-          <HeroSection
+        <Grid item xs={12}>
+        <HeroSection
             featureText="LATEST"
             headlineText="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll"
             subtext="Barbie Makeup Tutorial & Iconic Doll Inspiration"
