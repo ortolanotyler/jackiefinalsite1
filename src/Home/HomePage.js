@@ -3,7 +3,6 @@ import { Grid, Box, Paper, createTheme, useMediaQuery } from '@mui/material';
 import { Helmet } from 'react-helmet';
 import TextRevealHomePage from '../Components/TextRevealHomePage';
 import HeroSection from './HeroSection';
-import NewsletterSlider from '../Components/NewsletterSlider';
 import TextBanner2 from '../Components/TextBanner2';
 import RotatingText from '../Navigation/AppBar/RotatingText';
 import ShopMyHero2 from './ShopMyHero2';
@@ -186,12 +185,7 @@ isFlipped={true}
 
 
 
-<Grid item xs={12} >
-          
-            <NewsletterSlider />
 
-          
-        </Grid>
 
   
      
