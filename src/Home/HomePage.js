@@ -209,7 +209,7 @@ function HomePage() {
 <HeroSection
 featureText="QUIZ"
 headlineText="Animal Pretty - Which one are you?"
-imagePath="AnimalPretty/animals.jpg"
+imagePath="Homepage/animals.webp"
 
 linkUrl="/quiz-2-home"
 isFlipped={true}
@@ -278,7 +278,7 @@ isFlipped={true}
   headlineText="Best of Brussels: Top Things to See, Eat, and Experience + Train To Paris!"
   subtext="Belgian Chocolate, Waffles, and A Walk Down Memory Lane"
   author="September 20"
-  imagePath="Brussels/paristhumbnail.jpg"
+  imagePath="Homepage/paristhumbnail-1.webp"
   linkUrl="/paris-brussels-travel-guide"
   isFlipped={false}
 />
@@ -297,7 +297,7 @@ isFlipped={true}
   headlineText="A Guide to Scroll-Stopping iPhone Photos"
   subtext="Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide."
   author="August 30"
-  imagePath="CameraSettings/coverphoot.jpg"
+  imagePath="Homepage/coverphoot.webp"
   linkUrl="/camera-settings"
   isFlipped={true}
 />
@@ -318,7 +318,7 @@ isFlipped={true}
   headlineText="The Best Souvenirs to Bring Home from Sorrento"
   subtext="Leather, Music Boxes, Flats, Oh Me! Discover the top Sorrento souvenirs with Jackie Wyers."
   author="August 30"
-  imagePath="Sorrento1/SorrentoThumbnail.jpg"
+  imagePath="Homepage/SorrentoThumbnail.webp"
   linkUrl="/sorrento"
   isFlipped={true}
 />
@@ -336,7 +336,7 @@ isFlipped={true}
               headlineText="Our Three Day Romantic Getaway in Rome, Italy"
               subtext="From early morning strolls to late-night gelato runs, we made the most of every moment in this enchanting city."
               author="BY JACKIE WYERS"
-              imagePath="Rome/47.jpeg"
+              imagePath="Homepage/47.webp"
               linkUrl="/rome"
               isFlipped={true}
             />
@@ -359,7 +359,7 @@ isFlipped={true}
   headlineText="New Zealand | Auckland Vlog and Experience"
   subtext="Explore Jackie Wyers' travel journey in Auckland, New Zealand. From visiting Waiheke Island and the Auckland Zoo to trying local cafes, it's a magical week halfway around the world."
   author="BY JACKIE WYERS"
-  imagePath="NewZealand/NZThumbnail.jpg"
+  imagePath="Homepage/NZThumbnail.webp"
   linkUrl="/newzealand"
   isFlipped={true}
 />
