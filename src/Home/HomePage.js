@@ -3,7 +3,6 @@ import { Grid, Box, Paper, createTheme, useMediaQuery } from '@mui/material';
 import { Helmet } from 'react-helmet';
 import TextRevealHomePage from '../Components/TextRevealHomePage';
 import HeroSection from './HeroSection';
-import HorizontalLine from '../Components/HorizontalLine';
 import NewsletterSlider from '../Components/NewsletterSlider';
 import TextBanner2 from '../Components/TextBanner2';
 import RotatingText from '../Navigation/AppBar/RotatingText';
@@ -14,13 +13,6 @@ const theme = createTheme();
 
 function HomePage() {
 
-
-
-
-
-
-
-   
 
   return (
     <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
@@ -53,21 +45,7 @@ function HomePage() {
         <meta name="twitter:image" content="https://jackiewyers.beauty/Images/jw3logo.png" />
         <meta name="twitter:site" content="@JackieWyers" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-        <link
-          rel="preload"
-          href={`${process.env.PUBLIC_URL}/Images/Articles/Halloween/HalloweenThumb.jpg`}
-          as="image"
-          imagesrcset={`${process.env.PUBLIC_URL}/Images/Articles/Halloween/HalloweenThumb.jpg 1x`}
-          imagesizes="(max-width: 768px) 100vw, 50vw"
-        />
-        <link
-          rel="preload"
-          href={`${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/JackieWyersBarbieThumb.jpeg`}
-          as="image"
-          imagesrcset={`${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/JackieWyersBarbieThumb.jpeg 1x`}
-          imagesizes="(max-width: 768px) 100vw, 50vw"
-        />
-        {/* Add more preload links for other LCP images as necessary */}
+  
         <script type="application/ld+json">
           {`
             {
@@ -120,11 +98,10 @@ function HomePage() {
         <Grid item xs={12}>
           <QuiltedImageList1 />
           <Grid item xs={12}>
-            <HorizontalLine />
+      
 
          <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px"/>
-            <HorizontalLine />
-
+         
             <HeroSection
               featureText="FEATURED"
               headlineText="Girly Pop Culture Halloween Costume Ideas 2024🎀"
@@ -137,7 +114,7 @@ function HomePage() {
           </Grid>
         </Grid>
 
-        <HorizontalLine />
+        
 
         <Grid item xs={12}>
         <HeroSection
@@ -150,7 +127,6 @@ function HomePage() {
             isFlipped={true}
           />
         </Grid>
-<HorizontalLine />
 <Grid item xs={12}>
   
 <HeroSection
@@ -165,22 +141,6 @@ function HomePage() {
 
 
 </Grid>
-<HorizontalLine />
-
-<Grid item xs={12}>
-              <HeroSection
-                featureText="POP CULTURE"
-                headlineText="Rory Gilmore's No-Makeup Makeup
-& Cozy Fall Style Guide 🧣"
-                subtext="The Perfect Girl-Next-Door Makeup Routine!"
-                author="September 24"
-                imagePath="/Rory1/rorythumbnail.jpg"
-                linkUrl="/articles/rory-gilmore"
-                isFlipped={true}
-              />
-
-
-</Grid>
 
 
 
@@ -191,14 +151,14 @@ function HomePage() {
 
 
 
-<HorizontalLine />
+
+
 
            
 
 
 <TextBanner2 text="QUIZ" height="200px" width="100%" fontSize="80px" />
 
-<HorizontalLine />
 
 
         
@@ -218,7 +178,6 @@ isFlipped={true}
   
 </Grid>
 
-<HorizontalLine />
         
           </Grid>
 
@@ -240,13 +199,11 @@ isFlipped={true}
 
 
 
-<HorizontalLine />
 
           
 <TextBanner2 text="LIFESTYLE" height="200px" width="100%" fontSize="80px" />
 
 
-<HorizontalLine />
 
 <Grid item xs={12}>
   
@@ -265,7 +222,6 @@ isFlipped={true}
 
 </Grid>
 
-<HorizontalLine />
 
 
 
@@ -305,8 +261,7 @@ isFlipped={true}
         
           
         </Grid>
-        <HorizontalLine />
-
+        
 
        
 
@@ -325,8 +280,7 @@ isFlipped={true}
           
         </Grid>
 
-        <HorizontalLine />
-
+        
 
         <Grid item xs={12} md={6}>
           
@@ -346,8 +300,7 @@ isFlipped={true}
         </Grid>
      
 
-        <HorizontalLine />
-
+        
   
 
         <Grid item xs={12} md={6}>
@@ -384,8 +337,7 @@ isFlipped={true}
 
 
     
-        <HorizontalLine />
-
+        
         <Grid item xs={12} md={6}>
           
           
@@ -402,8 +354,7 @@ isFlipped={true}
           
         </Grid>
 
-        <HorizontalLine />
-
+        
     
         <Grid item xs={12} md={6}>
         
