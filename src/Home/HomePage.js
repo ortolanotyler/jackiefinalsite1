@@ -13,18 +13,10 @@ import QuiltedImageList1 from './ImageGridTutorials';
 const theme = createTheme();
 
 function HomePage() {
-  const quizzesRef = useRef(null);
-  const outfitsRef = useRef(null);
 
-  const viewAllRefs = useMemo(
-    () => ({
-      quizzes: quizzesRef,
-      outfits: outfitsRef,
-    }),
-    []
-  );
 
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+
+
 
 
 
@@ -109,7 +101,7 @@ function HomePage() {
           <TextRevealHomePage text="JACKIE WYERS" style={{ margin: 'auto' }} />
         </Grid>
 
-        {!isMobile && (
+       
           <Grid item xs={12}>
             <Paper
               elevation={0}
@@ -123,14 +115,14 @@ function HomePage() {
               <RotatingText />
             </Paper>
           </Grid>
-        )}
+   
 
         <Grid item xs={12}>
           <QuiltedImageList1 />
           <Grid item xs={12}>
             <HorizontalLine />
 
-            {!isMobile && <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px" />}
+         <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px"/>
             <HorizontalLine />
 
             <HeroSection
