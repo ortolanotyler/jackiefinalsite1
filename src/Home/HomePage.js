@@ -18,6 +18,10 @@ function HomePage() {
       <Helmet>
         <title>Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips</title>
         <link rel="canonical" href="https://jackiewyers.beauty/" />
+        <link rel="preload" as="image" href="/Images/Home/homepage1.webp" />
+        <link rel="preload" as="image" href="/Images/Home/homepage2.webp" />
+        <link rel="preload" as="image" href="/Images/Home/homepage4.webp" />
+        <link rel="preload" as="image" href="/Images/Home/homepage5.webp" />
         <meta
           name="description"
           content="Explore beauty tutorials, reviews, travel tips, makeup looks, product reviews, and style guides from Jackie Wyers."
