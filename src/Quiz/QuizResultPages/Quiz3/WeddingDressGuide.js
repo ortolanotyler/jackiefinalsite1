@@ -140,7 +140,7 @@ const WeddingDressGuide = () => {
     <div className="container">
 <Helmet>
   <title>The Ultimate 2025 Wedding Dress Guide - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/weddingdressguide" />
+  <link rel="canonical" href="https://www.www.jackiewyers.beauty/weddingdressguide" />
 
   <meta 
     name="description" 
@@ -159,9 +159,9 @@ const WeddingDressGuide = () => {
   />
   <meta 
     property="og:image" 
-    content="https://jackiewyers.beauty/Images/Quiz/Quiz3/guidethumbnail.jpeg" 
+    content="https://www.jackiewyers.beauty/Images/Quiz/Quiz3/guidethumbnail.jpeg" 
   />
-  <meta property="og:url" content="https://jackiewyers.beauty/weddingdressguide" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/weddingdressguide" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
@@ -173,7 +173,7 @@ const WeddingDressGuide = () => {
   />
   <meta 
     name="twitter:image" 
-    content="https://jackiewyers.beauty/Images/Quiz/Quiz3/guidethumbnail.jpeg" 
+    content="https://www.jackiewyers.beauty/Images/Quiz/Quiz3/guidethumbnail.jpeg" 
   />
 
 
@@ -188,7 +188,7 @@ const WeddingDressGuide = () => {
         "@type": "BlogPosting",
         "headline": "The Ultimate 2025 Wedding Dress Guide - Jackie Wyers",
         "description": "Explore the ultimate 2025 wedding dress guide with Jackie Wyers, featuring bridal styles, themes, and trends perfect for every bride-to-be.",
-        "image": "https://jackiewyers.beauty/Images/Quiz/Quiz3/guidethumbnail.jpeg",
+        "image": "https://www.jackiewyers.beauty/Images/Quiz/Quiz3/guidethumbnail.jpeg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -198,14 +198,14 @@ const WeddingDressGuide = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jwlogo3.png"
+            "url": "https://www.jackiewyers.beauty/jwlogo3.png"
           }
         },
         "datePublished": "2024-09-21",
         "dateModified": "2024-09-22",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/weddingdressguide"
+          "@id": "https://www.jackiewyers.beauty/weddingdressguide"
         }
       }
     `}

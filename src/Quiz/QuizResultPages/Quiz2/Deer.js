@@ -101,7 +101,7 @@ const DeerPretty = () => {
     <div className={styles.container}>
 <Helmet>
   <title>Deer Pretty | What Animal Pretty Are you?</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/deerpretty" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/deerpretty" />
 
   <meta 
     name="description" 
@@ -120,9 +120,9 @@ const DeerPretty = () => {
   />
   <meta 
     property="og:image" 
-    content="https://jackiewyers.beauty/Images/Articles/AnimalPretty/DeerFinal1.jpg" 
+    content="https://www.jackiewyers.beauty/Images/Articles/AnimalPretty/DeerFinal1.jpg" 
   />
-  <meta property="og:url" content="https://jackiewyers.beauty/deerpretty" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/deerpretty" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
@@ -133,7 +133,7 @@ const DeerPretty = () => {
   />
   <meta 
     name="twitter:image" 
-    content="https://jackiewyers.beauty/Images/Articles/AnimalPretty/DeerFinal1.jpg" 
+    content="https://www.jackiewyers.beauty/Images/Articles/AnimalPretty/DeerFinal1.jpg" 
   />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -147,7 +147,7 @@ const DeerPretty = () => {
         "@type": "BlogPosting",
         "headline": "Deer Pretty | What Animal Pretty Are you?",
         "description": "Discover how to achieve the Deer Pretty look with our detailed guide. Embrace soft, ethereal styles to capture the essence of the gentle and graceful deer.",
-        "image": "https://jackiewyers.beauty/Images/Articles/AnimalPretty/DeerFinal1.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/AnimalPretty/DeerFinal1.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -157,14 +157,14 @@ const DeerPretty = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-08-09",
         "dateModified": "2024-08-09",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/deerpretty"
+          "@id": "https://www.jackiewyers.beauty/deerpretty"
         }
       }
     `}

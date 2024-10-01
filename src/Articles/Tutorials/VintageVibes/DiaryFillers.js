@@ -115,19 +115,19 @@ const Card = ({ blogContent }) => (
     <div className="container">
  <Helmet>
   <title>Beyond the Surface: My Experience with Injectable Fillers and Self-Acceptance</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/diaryfillers" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/diaryfillers" />
 
   <meta name="description" content="Jackie Wyers shares her personal experience with getting injectable fillers at a young age, reflecting on insecurities, decisions, and growth." />
   <meta name="keywords" content="Diary, Injectable Fillers, Jackie Wyers, Personal Experience, Beauty Blog, Cosmetic Enhancements, Self-Esteem, Beauty Standards, Personal Growth, Beauty Journey, non-surgical rhinoplasty, YouTube influencer, beauty transformation stories, confidence journey, beauty standards impact, cosmetic procedures reflection" />
 
   <meta property="og:title" content="Diary Post: My Journey with Injectable Fillers - Jackie Wyers" />
   <meta property="og:description" content="Jackie Wyers shares her personal experience with getting injectable fillers at a young age, reflecting on insecurities, decisions, and growth." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/DiaryPost1/DIARYSQUARE.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/diaryfillers" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/DiaryPost1/DIARYSQUARE.jpg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/diaryfillers" />
 
   <meta name="twitter:title" content="Diary Post: My Journey with Injectable Fillers - Jackie Wyers" />
   <meta name="twitter:description" content="Jackie Wyers shares her personal experience with getting injectable fillers at a young age, reflecting on insecurities, decisions, and growth." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/DiaryPost1/DIARYSQUARE.jpg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/DiaryPost1/DIARYSQUARE.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -139,7 +139,7 @@ const Card = ({ blogContent }) => (
         "@type": "BlogPosting",
         "headline": "Diary Post #1: My Journey with Injectable Fillers - Jackie Wyers",
         "description": "Jackie Wyers shares her personal experience with getting injectable fillers at a young age, reflecting on insecurities, decisions, and growth.",
-        "image": "https://jackiewyers.beauty/Images/Articles/DiaryPost1/DIARYSQUARE.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/DiaryPost1/DIARYSQUARE.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -149,14 +149,14 @@ const Card = ({ blogContent }) => (
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-05-03",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/diaryfillers"
+          "@id": "https://www.jackiewyers.beauty/diaryfillers"
         }
       }
     `}
@@ -179,9 +179,9 @@ const Card = ({ blogContent }) => (
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/diaryfillers" 
+  url="https://www.jackiewyers.beauty/diaryfillers" 
   title="Diary Post: My Journey with Injectable Fillers - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/DiaryPost1/DIARYSQUARE.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/DiaryPost1/DIARYSQUARE.jpg" 
 />
 
 <br/>

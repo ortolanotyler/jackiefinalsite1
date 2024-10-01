@@ -9,9 +9,9 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const nextArticle = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/jickyguerlainthumbnail.png`;
 
 
-const articleUrl = 'https://jackiewyers.beauty/articles/halfetireview';
+const articleUrl = 'https://www.jackiewyers.beauty/articles/halfetireview';
 const articleTitle = "Penhaligon's Halfeti Review | For the bold and exotic";
-const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/HalfetiReview/HalfetiThumbnail.png' ;
+const articleImageUrl = 'https://www.jackiewyers.beauty/Images/Articles/HalfetiReview/HalfetiThumbnail.png' ;
 
 const Card = ({ blogContent }) => (
   <div
@@ -118,7 +118,7 @@ const captionStyle = {
     <div className="container" style={{ width: '100%', padding: '1rem' }}>
 <Helmet>
   <title>Penhaligon's Halfeti Review - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/halfetireview" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/halfetireview" />
 
   <meta
     name="description"
@@ -140,11 +140,11 @@ const captionStyle = {
   />
   <meta
     property="og:image"
-    content="https://jackiewyers.beauty/Images/Articles/HalfetiReview/HalfetiThumbnail.png"
+    content="https://www.jackiewyers.beauty/Images/Articles/HalfetiReview/HalfetiThumbnail.png"
   />
   <meta
     property="og:url"
-    content="https://jackiewyers.beauty/halfetireview"
+    content="https://www.jackiewyers.beauty/halfetireview"
   />
   <meta property="og:type" content="article" />
 
@@ -160,7 +160,7 @@ const captionStyle = {
   />
   <meta
     name="twitter:image"
-    content="https://jackiewyers.beauty/Images/Articles/HalfetiReview/HalfetiThumbnail.png"
+    content="https://www.jackiewyers.beauty/Images/Articles/HalfetiReview/HalfetiThumbnail.png"
   />
 
 
@@ -175,7 +175,7 @@ const captionStyle = {
         "itemReviewed": {
           "@type": "Product",
           "name": "Halfeti",
-          "image": "https://jackiewyers.beauty/Images/Articles/HalfetiReview/HalfetiThumbnail.png",
+          "image": "https://www.jackiewyers.beauty/Images/Articles/HalfetiReview/HalfetiThumbnail.png",
           "description": "A detailed review of Penhaligon's Halfeti perfume, exploring its fragrance profile, longevity, sillage, and overall impression.",
           "brand": {
             "@type": "Brand",
@@ -196,7 +196,7 @@ const captionStyle = {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jwlogo3.png"
+            "url": "https://www.jackiewyers.beauty/jwlogo3.png"
           }
         },
         "datePublished": "2024-02-05",

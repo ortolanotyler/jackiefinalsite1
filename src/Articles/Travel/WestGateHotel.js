@@ -126,18 +126,18 @@ const Card = ({ blogContent }) => (
         <div className="container">
          <Helmet>
   <title>The Westgate Hotel - San Diego Review - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/westgatesandiego" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/westgatesandiego" />
 
   <meta name="description" content="Explore the luxurious Westgate Hotel in San Diego with Jackie Wyers. Discover the Bridgerton-themed Whistledown Tea and Package experience." />
   <meta name="keywords" content="Westgate Hotel, San Diego hotel review, Bridgerton-themed experience, luxury hotel, Westgate Whistledown Tea, travel blog, Jackie Wyers, luxury accommodations, Regency-era luxury, San Diego travel, romantic getaways, Bridgerton tea experience, Westgate Hotel review, best hotels in San Diego, luxury hotel packages, San Diego vacation, elegant hotel stays, hotel dining options, Premier View Room, Whistledown Package, hotel accessibility options, hotel dining, champagne afternoon tea, luxury travel tips, hotel booking tips, Westgate hotel amenities, San Diego luxury travel" />
 
   <meta property="og:title" content="The Westgate Hotel - San Diego Review - Jackie Wyers" />
   <meta property="og:description" content="Explore the luxurious Westgate Hotel in San Diego with Jackie Wyers. Discover the Bridgerton-themed Whistledown Tea and Package experience." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/WestgateHotelReview/WESTGATETHUMBNAIL.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/westgatesandiego" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/WestgateHotelReview/WESTGATETHUMBNAIL.jpg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/westgatesandiego" />
   <meta name="twitter:title" content="The Westgate Hotel - San Diego Review - Jackie Wyers" />
   <meta name="twitter:description" content="Explore the luxurious Westgate Hotel in San Diego with Jackie Wyers. Discover the Bridgerton-themed Whistledown Tea and Package experience." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/WestgateHotelReview/WESTGATETHUMBNAIL.jpg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/WestgateHotelReview/WESTGATETHUMBNAIL.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -152,7 +152,7 @@ const Card = ({ blogContent }) => (
         "@type": "BlogPosting",
         "headline": "The Westgate Hotel - San Diego Review - Jackie Wyers",
         "description": "Explore the luxurious Westgate Hotel in San Diego with Jackie Wyers. Discover the Bridgerton-themed Whistledown Tea and Package experience.",
-        "image": "https://jackiewyers.beauty/Images/Articles/WestgateHotelReview/WESTGATETHUMBNAIL.png",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/WestgateHotelReview/WESTGATETHUMBNAIL.png",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -162,14 +162,14 @@ const Card = ({ blogContent }) => (
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jw3logo.png"
+            "url": "https://www.jackiewyers.beauty/jw3logo.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-07-27",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/westgatesandiego"
+          "@id": "https://www.jackiewyers.beauty/westgatesandiego"
         }
       }
     `}
@@ -190,9 +190,9 @@ const Card = ({ blogContent }) => (
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/westgatesandiego" 
+  url="https://www.jackiewyers.beauty/westgatesandiego" 
   title="The Westgate Hotel - San Diego Review - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/WestgateHotelReview/WESTGATETHUMBNAIL.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/WestgateHotelReview/WESTGATETHUMBNAIL.jpg" 
 />
 
 

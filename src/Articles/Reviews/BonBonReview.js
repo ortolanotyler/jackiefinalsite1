@@ -10,9 +10,9 @@ import HorizontalLine from '../../Components/HorizontalLine.js';
 
 
 
-const articleUrl = 'https://jackiewyers.beauty/articles/bonbonreview';
+const articleUrl = 'https:///www.jackiewyers.beauty/articles/bonbonreview';
 const articleTitle = "BonBon Review - A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments." ;
-const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/BonBonReview/BonBonThumbnail.png; ';
+const articleImageUrl = 'https:///www.jackiewyers.beauty/Images/Articles/BonBonReview/BonBonThumbnail.png; ';
 
 
 const BonBon2 = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBon2.jpg`;
@@ -132,7 +132,7 @@ fontStyle: 'italic',
     <div className="container" style={{ width: '100%' }}>
   <Helmet>
   <title>BonBon Review - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/bonbonreview" />
+  <link rel="canonical" href="https:///www.jackiewyers.beauty/bonbonreview" />
 
   <meta
     name="description"
@@ -151,9 +151,9 @@ fontStyle: 'italic',
   />
   <meta
     property="og:image"
-    content="https://jackiewyers.beauty/Images/Articles/BonBonReview/BonBonThumbnail.png"
+    content="https:///www.jackiewyers.beauty/Images/Articles/BonBonReview/BonBonThumbnail.png"
   />
-  <meta property="og:url" content="https://jackiewyers.beauty/bonbonreview" />
+  <meta property="og:url" content="https:///www.jackiewyers.beauty/bonbonreview" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
@@ -165,7 +165,7 @@ fontStyle: 'italic',
   />
   <meta
     name="twitter:image"
-    content="https://jackiewyers.beauty/Images/Articles/BonBonReview/BonBonThumbnail.png"
+    content="https:///www.jackiewyers.beauty/Images/Articles/BonBonReview/BonBonThumbnail.png"
   />
 
 
@@ -181,7 +181,7 @@ fontStyle: 'italic',
         "itemReviewed": {
           "@type": "Product",
           "name": "BonBon Perfume",
-          "image": "https://jackiewyers.beauty/Images/Articles/BonBonReview/BonBonThumbnail.png",
+          "image": "https:///www.jackiewyers.beauty/Images/Articles/BonBonReview/BonBonThumbnail.png",
           "description": "A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments. Its timeless appeal beckons one to a world of pure, unadulterated pleasure.",
           "brand": {
             "@type": "Brand",
@@ -202,7 +202,7 @@ fontStyle: 'italic',
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jwlogo3.png"
+            "url": "https:///www.jackiewyers.beauty/jwlogo3.png"
           }
         },
         "datePublished": "2024-09-20",

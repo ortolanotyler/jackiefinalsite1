@@ -134,19 +134,19 @@ const CameraSettings = () => {
     <div className="container">
  <Helmet>
   <title>Camera Settings - A Guide to Scroll-Stopping iPhone Photos - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/camera-settings" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/camera-settings" />
 
   <meta name="description" content="Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide." />
   <meta name="keywords" content="iPhone Camera Settings, Mobile Photography, Jackie Wyers, Photography Tips, iPhone Photography, Camera Tips, Content Creator Tips, iPhone 13 Pro Max, photography hacks, camera settings guide, how to take better photos on iPhone, Vibrant setting, rule of thirds, portrait mode, HDR mode, night mode photography, bokeh effect, lighting tips, natural light photography, Instagram photography, mobile editing tips" />
 
   <meta property="og:title" content="Camera Settings - A Guide to Scroll-Stopping iPhone Photos - Jackie Wyers" />
   <meta property="og:description" content="Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/CameraSettings/coverphoot.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/camera-settings" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/CameraSettings/coverphoot.jpg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/camera-settings" />
 
   <meta name="twitter:title" content="Camera Settings - A Guide to Scroll-Stopping iPhone Photos - Jackie Wyers" />
   <meta name="twitter:description" content="Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/CameraSettings/coverphoot.jpg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/CameraSettings/coverphoot.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -159,7 +159,7 @@ const CameraSettings = () => {
         "@type": "BlogPosting",
         "headline": "Camera Settings - A Guide to Scroll-Stopping iPhone Photos",
         "description": "Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks. Elevate your mobile photography with Jackie Wyers' guide.",
-        "image": "https://jackiewyers.beauty/Images/Articles/CameraSettings/coverphoot.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/CameraSettings/coverphoot.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -169,14 +169,14 @@ const CameraSettings = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jw3logo.png"
+            "url": "https://www.jackiewyers.beauty/jw3logo.png"
           }
         },
         "datePublished": "2024-08-11",
         "dateModified": "2024-08-11",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/camera-settings"
+          "@id": "https://www.jackiewyers.beauty/camera-settings"
         }
       }
     `}
@@ -198,9 +198,9 @@ const CameraSettings = () => {
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/camera-settings" 
+  url="https://www.jackiewyers.beauty/camera-settings" 
   title="Camera Settings - A Guide to Scroll-Stopping iPhone Photos - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/CameraSettings/coverphoot.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/CameraSettings/coverphoot.jpg" 
 />
 
 <div style = {{textAlign: 'center', margin: '10px auto' }}>

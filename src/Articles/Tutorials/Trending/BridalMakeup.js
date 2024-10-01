@@ -119,18 +119,18 @@ const Card = ({ blogContent }) => (
     <div className="container" style={{ maxWidth: '800px', margin: '0 auto', padding: '1rem' }}>
    <Helmet>
   <title>Bridal Makeup Trial: What I Loved and What I'll Change! - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/bridalmakeup" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/bridalmakeup" />
 
   <meta name="description" content="A detailed review of a trial run for Jackie's wedding makeup: what she loved, what she'll do differently on her big day." />
   <meta name="keywords" content="Bridal Makeup, Wedding Makeup, Makeup Tutorial, Jackie Wyers, Bridal Beauty, Wedding Day Makeup, bridal look, bridal blush, makeup tips, Charlotte Tilbury foundation, Rare Beauty blush, wedding day makeup tips, bridal skin prep, bridal setting spray, natural bridal makeup, bridal lashes, bridal eye makeup, waterproof makeup, bridal contour, soft bridal makeup, wedding makeup products, bridal beauty inspiration, wedding day glam, fairytale bridal look, champagne bridal makeup, DIY bridal makeup, timeless bridal makeup" />
 
   <meta property="og:title" content="Bridal Makeup Trial: What I Loved and What I'll Change! - Jackie Wyers" />
   <meta property="og:description" content="A detailed review of a trial run for Jackie's wedding makeup: what she loved, what she'll do differently on her big day." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/bridalmakeup" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.jpg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/bridalmakeup" />
   <meta name="twitter:title" content="Bridal Makeup Trial: What I Loved and What I'll Change! - Jackie Wyers" />
   <meta name="twitter:description" content="A detailed review of a trial run for Jackie's wedding makeup: what she loved, what she'll do differently on her big day." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.jpg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -143,7 +143,7 @@ const Card = ({ blogContent }) => (
         "@type": "BlogPosting",
         "headline": "Bridal Makeup Trial: What I Loved and What I'll Change! - Jackie Wyers",
         "description": "A detailed review of a trial run for Jackie's wedding makeup: what she loved, what she'll do differently on her big day.",
-        "image": "https://jackiewyers.beauty/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -153,14 +153,14 @@ const Card = ({ blogContent }) => (
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.jpg"
+            "url": "https://www.jackiewyers.beauty/logo.jpg"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-23",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/bridalmakeup"
+          "@id": "https://www.jackiewyers.beauty/bridalmakeup"
         }
       }
     `}
@@ -182,9 +182,9 @@ const Card = ({ blogContent }) => (
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/bridalmakeup" 
+  url="https://www.jackiewyers.beauty/bridalmakeup" 
   title="Bridal Makeup Trial: What I Loved and What I'll Change! - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.jpg" 
 />
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/UQU9Fufug4M?si=5b2wn8qqbcRo1GVG" title="WEDDING DRESS SHOPPING🕊️& Bridal Makeup Trial🎀" />
@@ -201,7 +201,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 
 <p style={paragraphStyle}>
-  Let’s dive into the makeup details and some essential bridal makeup tips. For a full guide on how to prep your skin, check out my detailed <a href="https://jackiewyers.beauty/skinprep" target="_blank" rel="noopener noreferrer" style={linkStyle}>bridal skin prep guide</a> that ensures a flawless base for your big day.
+  Let’s dive into the makeup details and some essential bridal makeup tips. For a full guide on how to prep your skin, check out my detailed <a href="https://www.jackiewyers.beauty/skinprep" target="_blank" rel="noopener noreferrer" style={linkStyle}>bridal skin prep guide</a> that ensures a flawless base for your big day.
 </p>
       <div style={gridContainerStyle}>
       <a href="https://www.instagram.com/p/C8R4Qmyuq6n/?img_index=1" target="_blank" rel="noopener noreferrer">
@@ -219,7 +219,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </div>
       <h2 style={headingStyle}>Product Breakdown and Bridal Makeup Tips</h2>
       <p style={paragraphStyle}>
-  <strong>Skin Prep:</strong> It's crucial! Start prepping your skin well ahead of the big day. Stay hydrated and ensure you're well-rested. For a pre-makeup boost, I recommend using <a href="https://jackiewyers.beauty/valmont-prime-renewing-pack" target="_blank" rel="noopener noreferrer" style={linkStyle}>Valmont's Prime Renewing Pack</a>, which works wonders as an overnight mask and a pre-foundation moisturizer.
+  <strong>Skin Prep:</strong> It's crucial! Start prepping your skin well ahead of the big day. Stay hydrated and ensure you're well-rested. For a pre-makeup boost, I recommend using <a href="https://www.jackiewyers.beauty/valmont-prime-renewing-pack" target="_blank" rel="noopener noreferrer" style={linkStyle}>Valmont's Prime Renewing Pack</a>, which works wonders as an overnight mask and a pre-foundation moisturizer.
 </p>     
       <ResponsiveIframe 
   src="https://shopmy.us/collections/public/635855?noHeader=true" 
@@ -233,7 +233,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
      
 <p style={paragraphStyle}>
-  <strong>Highlight and Contour:</strong> I used <a href="https://www.mariomakeup.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Mario’s Sculpting Stick</a> for contouring and <a href="https://www.yensa.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Yensa's Super Serum Silk Concealer</a> to cancel out any darkness under the eyes. For more tips, visit my <a href="https://jackiewyers.beauty/contour-guide" target="_blank" rel="noopener noreferrer" style={linkStyle}>contour guide</a>.
+  <strong>Highlight and Contour:</strong> I used <a href="https://www.mariomakeup.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Mario’s Sculpting Stick</a> for contouring and <a href="https://www.yensa.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Yensa's Super Serum Silk Concealer</a> to cancel out any darkness under the eyes. For more tips, visit my <a href="https://www.jackiewyers.beauty/contour-guide" target="_blank" rel="noopener noreferrer" style={linkStyle}>contour guide</a>.
 </p>
       <ResponsiveIframe 
   src="https://shopmy.us/collections/public/635858?noHeader=true" 
@@ -243,7 +243,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       
 
 <p style={paragraphStyle}>
-  <strong>Blushing Bride Cheeks:</strong> The focal point of the look was the <a href="https://www.rarebeauty.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Rare Beauty Luminous Blush</a> paired with <a href="https://www.charlottetilbury.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Charlotte Tilbury's Spotlight Highlight</a>. Check out more blush tips in my <a href="https://jackiewyers.beauty/blushingbride" target="_blank" rel="noopener noreferrer" style={linkStyle}>blush guide</a>.
+  <strong>Blushing Bride Cheeks:</strong> The focal point of the look was the <a href="https://www.rarebeauty.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Rare Beauty Luminous Blush</a> paired with <a href="https://www.charlottetilbury.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Charlotte Tilbury's Spotlight Highlight</a>. Check out more blush tips in my <a href="https://www.jackiewyers.beauty/blushingbride" target="_blank" rel="noopener noreferrer" style={linkStyle}>blush guide</a>.
 </p>      <ResponsiveIframe 
   src="https://shopmy.us/collections/public/635859?noHeader=true" 
   title="Bridal Makeup Recommendations - Blushing Bride Cheeks" 

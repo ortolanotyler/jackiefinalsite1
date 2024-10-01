@@ -118,18 +118,18 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
     <div className="container">
   <Helmet>
   <title>Sharon Tate Iconic 60's Makeup Tutorial </title>
-  <link rel="canonical" href="https://jackiewyers.beauty/iconicsharon" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/iconicsharon" />
 
   <meta name="description" content="Follow Jackie Wyers' tutorial to recreate Sharon Tate's iconic 60's makeup look. Dive into the step-by-step guide and discover modern products to achieve this timeless style." />
   <meta name="keywords" content="Sharon Tate, 60s Makeup, Jackie Wyers, Makeup Tutorial, Vintage Beauty, Iconic Looks, Time Travel Tutorials, Classic Beauty, Old Hollywood, retro makeup, bold eyeliner, Sharon Tate bridal makeup, bohemian style, false lashes tutorial, vintage glamour, 1960s beauty, California glow, contouring tips, cat eye tutorial, winged eyeliner, natural brows, flawless skin, radiant foundation, nude lipstick, bridal makeup, classic looks, timeless beauty, vintage-inspired makeup, beauty influencer tips, modern makeup products, Sharon Tate fashion, Hollywood style, step-by-step makeup guide, how to recreate 60s looks, Jackie Wyers Beauty, beauty tutorials, vintage vibes, iconic style, makeup artistry, Hollywood icons, retro beauty inspiration" />
 
   <meta property="og:title" content="Sharon Tate Iconic 60's Makeup Tutorial - Jackie Wyers" />
   <meta property="og:description" content="Follow Jackie Wyers' tutorial to recreate Sharon Tate's iconic 60's makeup look. Dive into the step-by-step guide and discover modern products to achieve this timeless style." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/sharontateiconic" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/sharontateiconic" />
   <meta name="twitter:title" content="Sharon Tate Iconic 60's Makeup Tutorial - Jackie Wyers" />
   <meta name="twitter:description" content="Follow Jackie Wyers' tutorial to recreate Sharon Tate's iconic 60's makeup look. Dive into the step-by-step guide and discover modern products to achieve this timeless style." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -142,7 +142,7 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
         "@type": "BlogPosting",
         "headline": "Sharon Tate Iconic 60's Makeup Tutorial - Jackie Wyers",
         "description": "Follow Jackie Wyers' tutorial to recreate Sharon Tate's iconic 60's makeup look. Dive into the step-by-step guide and discover modern products to achieve this timeless style.",
-        "image": "https://jackiewyers.beauty/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -152,12 +152,12 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/Images/Articles/Signature.png"
+            "url": "https://www.jackiewyers.beauty/Images/Articles/Signature.png"
           }
         },
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/sharontateiconic"
+          "@id": "https://www.jackiewyers.beauty/sharontateiconic"
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20"
@@ -181,9 +181,9 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/iconicsharon" 
+  url="https://www.jackiewyers.beauty/iconicsharon" 
   title="Sharon Tate Iconic 60's Makeup Tutorial - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg" 
 />
   
       <ResponsiveYoutube src="https://www.youtube.com/embed/t1jJtpsxes4?si=sHOkPYVUOvEbXk2m" title="Sharon Tate Iconic 60's Makeup Tutorial - Jackie Wyers on Youtube" />

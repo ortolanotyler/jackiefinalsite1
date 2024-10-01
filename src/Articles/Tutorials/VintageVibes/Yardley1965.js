@@ -127,18 +127,18 @@ fontStyle: 'italic',
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Jean Shrimpton - Yardley 1965 Makeup Tutorial - Jackie Wyers" />
   <meta property="og:description" content="Follow Jackie Wyers as she recreates the iconic Jean Shrimpton Yardley 1965 makeup look with detailed tutorials and vintage vibes." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/yardley1965" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/yardley1965" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Jean Shrimpton - Yardley 1965 Makeup Tutorial - Jackie Wyers" />
   <meta name="twitter:description" content="Follow Jackie Wyers as she recreates the iconic Jean Shrimpton Yardley 1965 makeup look with detailed tutorials and vintage vibes." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg" />
 
   {/* Canonical Link */}
-  <link rel="canonical" href="https://jackiewyers.beauty/yardley1965" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/yardley1965" />
 
   {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
@@ -148,11 +148,11 @@ fontStyle: 'italic',
       "@type": "Article",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://jackiewyers.beauty/yardley1965"
+        "@id": "https://www.jackiewyers.beauty/yardley1965"
       },
       "headline": "Jean Shrimpton - Yardley 1965 Makeup Tutorial - Jackie Wyers",
       "description": "Follow Jackie Wyers as she recreates the iconic Jean Shrimpton Yardley 1965 makeup look with detailed tutorials and vintage vibes.",
-      "image": "https://jackiewyers.beauty/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg",
+      "image": "https://www.jackiewyers.beauty/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg",
       "author": {
         "@type": "Person",
         "name": "Jackie Wyers"
@@ -162,7 +162,7 @@ fontStyle: 'italic',
         "name": "Jackie Wyers Beauty",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://jackiewyers.beauty/jwlogo3.png"
+          "url": "https://www.jackiewyers.beauty/jwlogo3.png"
         }
       },
       "datePublished": "2024-07-30",
@@ -191,9 +191,9 @@ fontStyle: 'italic',
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/yardley1965" 
+  url="https://www.jackiewyers.beauty/yardley1965" 
   title="Jean Shrimpton - Yardley 1965 Makeup Tutorial - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg" 
 />
 
 

@@ -9,9 +9,9 @@ import NextArticle from '../../Components/NextArticleComponent';
 import SocialShare from '../../Home/SocialShare';
 
 
-const articleUrl = 'https://jackiewyers.beauty/sorrento-souvenirs';
+const articleUrl = 'https://www.jackiewyers.beauty/sorrento-souvenirs';
 const articleTitle = 'Ultimate Sorrento Souvenir Guide - Jackie Wyers';
-const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg';
+const articleImageUrl = 'https://www.jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/1.JPG`;
@@ -142,15 +142,15 @@ const Sorrento1 = () => {
   
   <meta property="og:title" content="Ultimate Sorrento Souvenir Guide - Jackie Wyers" />
   <meta property="og:description" content="Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy." />
-  <meta property="og:image" content="jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/sorrento" />
+  <meta property="og:image" content="www.jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/sorrento" />
   <meta property="og:type" content="article" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Ultimate Sorrento Souvenir Guide - Jackie Wyers" />
   <meta name="twitter:description" content="Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy." />
-  <meta name="twitter:image" content="jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg" />
-  <link rel="canonical" href="https://jackiewyers.beauty/sorrento" />
+  <meta name="twitter:image" content="www.jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/sorrento" />
 
   <script type="application/ld+json">
     {`
@@ -159,11 +159,11 @@ const Sorrento1 = () => {
       "@type": "Article",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://jackiewyers.beauty/sorrento"
+        "@id": "https://www.jackiewyers.beauty/sorrento"
       },
       "headline": "Ultimate Sorrento Souvenir Guide - Jackie Wyers",
       "description": "Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy.",
-      "image": "$jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg",
+      "image": "$www.jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg",
       "author": {
         "@type": "Person",
         "name": "Jackie Wyers"
@@ -173,7 +173,7 @@ const Sorrento1 = () => {
         "name": "Jackie Wyers",
         "logo": {
           "@type": "ImageObject",
-          "url": "jackiewyers.beauty/logo.png"
+          "url": "www.jackiewyers.beauty/logo.png"
         }
       },
       "datePublished": "2024-09-04",

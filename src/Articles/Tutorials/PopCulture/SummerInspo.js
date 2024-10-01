@@ -119,19 +119,19 @@ const SummerInspo = () => {
 
 <Helmet>
   <title>Summer Inspiration: Pop Culture Mermaid Edition!</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/summerinspo" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/summerinspo" />
 
   <meta name="description" content="Dive into enchanting mermaid-inspired beauty looks for the summer season, featuring tutorials by Jackie Wyers on iconic characters like Cleo Sertori and Ariel." />
   <meta name="keywords" content="Summer Beauty, Jackie Wyers, Makeup Tutorial, Mermaid Makeup, Pop Culture Mermaid, Cleo Sertori, The Little Mermaid, Ariel Makeup, Vanessa The Little Mermaid, Pirates of the Caribbean, Aquamarine, Mermaid Hair, Mermaid Fashion, Summer Makeup Looks, Beachy Waves, Pop Culture Beauty, Sea Salt Spray, Mermaid Aesthetic, Jackie Wyers Blog, Mermaid Beauty Tips" />
   
   <meta property="og:title" content="Summer Inspiration: Pop Culture Mermaid Edition! - Jackie Wyers" />
   <meta property="og:description" content="Dive into enchanting mermaid-inspired beauty looks for the summer season, featuring tutorials by Jackie Wyers on iconic characters like Cleo Sertori and Ariel." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/SummerInspo/mermaidthumbnail.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/summerinspo" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/SummerInspo/mermaidthumbnail.jpg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/summerinspo" />
   
   <meta name="twitter:title" content="Summer Inspiration: Pop Culture Mermaid Edition! - Jackie Wyers" />
   <meta name="twitter:description" content="Dive into enchanting mermaid-inspired beauty looks for the summer season, featuring tutorials by Jackie Wyers on iconic characters like Cleo Sertori and Ariel." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/SummerInspo/mermaidthumbnail.jpg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/SummerInspo/mermaidthumbnail.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -146,7 +146,7 @@ const SummerInspo = () => {
         "@type": "BlogPosting",
         "headline": "Summer Inspiration: Pop Culture Mermaid Edition! - Jackie Wyers",
         "description": "Dive into enchanting mermaid-inspired beauty looks for the summer season, featuring tutorials by Jackie Wyers on iconic characters like Cleo Sertori and Ariel.",
-        "image": "https://jackiewyers.beauty/Images/Articles/SummerInspo/mermaidthumbnail.png",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/SummerInspo/mermaidthumbnail.png",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -156,14 +156,14 @@ const SummerInspo = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jw3logo.png"
+            "url": "https://www.jackiewyers.beauty/jw3logo.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/summerinspo"
+          "@id": "https://www.jackiewyers.beauty/summerinspo"
         }
       }
     `}
@@ -185,9 +185,9 @@ const SummerInspo = () => {
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/summerinspo" 
+  url="https://www.jackiewyers.beauty/summerinspo" 
   title="Summer Inspiration: Pop Culture Mermaid Edition! - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/SummerInspo/mermaidthumbnail.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/SummerInspo/mermaidthumbnail.jpg" 
 />
 
 
@@ -220,7 +220,7 @@ Phoebe Tonkin as Cleo Sertori - ‘H20: Just Add Water’</h2>
               Original Makeup by Jennifer Lamphee and Hair Design by Kylie Clarke from 'H2O: Just Add Water,' Season 3, recreation by Jackie Wyers.      </p>
 
               <p style={paragraphStyle}>
-  Ever wanted to channel your inner H2O mermaid without needing the tail? Achieve the iconic Australian mermaid tan with products I love from <a href="https://www.cocoandeve.com" style={linkStyle} target="_blank" rel="noopener noreferrer">Coco and Eve</a> and <a href="https://www.lovingtan.com" style={linkStyle} target="_blank" rel="noopener noreferrer">Loving Tan</a>. Embrace the mermaid vibe with copper and peachy sun-kissed hues that sparkle and enhance natural beauty. The Y2K hairstyles from the show were simple, yet chic—think natural waves enhanced by a touch of sea salt spray. Dive into the full makeup and hair tutorial series inspired by Cleo on my <a href="https://www.youtube.com/c/JackieWyers" style={linkStyle} target="_blank" rel="noopener noreferrer">YouTube channel</a>! And for a nostalgic throwback, check out my ancient <a href="https://jackiewyers.beauty/mermaidmakeuptutorial" style={linkStyle}>mermaid makeup tutorial</a>. I’ve been a fan of this show for ages! 🧜 ✨
+  Ever wanted to channel your inner H2O mermaid without needing the tail? Achieve the iconic Australian mermaid tan with products I love from <a href="https://www.cocoandeve.com" style={linkStyle} target="_blank" rel="noopener noreferrer">Coco and Eve</a> and <a href="https://www.lovingtan.com" style={linkStyle} target="_blank" rel="noopener noreferrer">Loving Tan</a>. Embrace the mermaid vibe with copper and peachy sun-kissed hues that sparkle and enhance natural beauty. The Y2K hairstyles from the show were simple, yet chic—think natural waves enhanced by a touch of sea salt spray. Dive into the full makeup and hair tutorial series inspired by Cleo on my <a href="https://www.youtube.com/c/JackieWyers" style={linkStyle} target="_blank" rel="noopener noreferrer">YouTube channel</a>! And for a nostalgic throwback, check out my ancient <a href="https://www.jackiewyers.beauty/mermaidmakeuptutorial" style={linkStyle}>mermaid makeup tutorial</a>. I’ve been a fan of this show for ages! 🧜 ✨
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/598796?noHeader=true" title="Mermaid Makeup Products Inspired by Cleo Sertori from H2O: Just Add Water" />
@@ -303,7 +303,7 @@ Phoebe Tonkin as Cleo Sertori - ‘H20: Just Add Water’</h2>
 
 
       <p style={paragraphStyle}>
-  Follow along for tutorials and don’t forget to share your recreations with me —I love seeing your versions of the looks and would be thrilled to feature them on my site. For more pop culture and makeup inspiration, check out my previous article about '<a href="https://jackiewyers.beauty/nomakeupmakeup" style={linkStyle}>no makeup</a>' makeup looks in film. Don't hesitate to leave a comment below if there are any pop culture mermaids I've missed that are your favourites! Thanks for reading, and I hope you’re having a wonderful summer so far.
+  Follow along for tutorials and don’t forget to share your recreations with me —I love seeing your versions of the looks and would be thrilled to feature them on my site. For more pop culture and makeup inspiration, check out my previous article about '<a href="https://www.jackiewyers.beauty/nomakeupmakeup" style={linkStyle}>no makeup</a>' makeup looks in film. Don't hesitate to leave a comment below if there are any pop culture mermaids I've missed that are your favourites! Thanks for reading, and I hope you’re having a wonderful summer so far.
 </p>
 
 

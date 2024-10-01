@@ -115,19 +115,19 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
     <div className="container">
     <Helmet>
   <title>Sophia Loren Iconic 60s Makeup in "Arabesque" - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/sophialoren" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/sophialoren" />
 
   <meta name="description" content="An ode to Italian Glamour featuring a step-by-step guide to recreating Sophia Loren's iconic 60s makeup look from 'Arabesque.' Follow Jackie Wyers as she dives into vintage beauty with modern techniques." />
   <meta name="keywords" content="Sophia Loren, Arabesque makeup, 60s makeup, vintage beauty, iconic looks, Jackie Wyers, time travel tutorials, old Hollywood, Italian glamour, Sophia Loren eyeliner, cat-eye tutorial, Sophia Loren eye makeup, retro beauty, classic beauty, Sophia Loren beauty secrets, Sophia Loren hair and makeup, vintage makeup tutorial, beauty influencer tutorials, bold eyeliner, winged eyeliner, Sophia Loren beauty, Jackie Wyers makeup, 60s fashion, iconic makeup, Audrey Hepburn makeup, Brigitte Bardot style, 1960s makeup look, dramatic eyeliner, Sophia Loren lip color, Sophia Loren contour, flawless skin tutorial, Sophia Loren smokey eye, Jackie Wyers vintage, classic 60s style, retro glamour, makeup tips, Hollywood icons, vintage makeup techniques, glamorous makeup looks, black and white film beauty, mod beauty, timeless beauty, beauty inspiration, Sophia Loren tutorial, old Hollywood style, dramatic makeup, Italian beauty secrets, retro style guide, beauty influencer tips, Sophia Loren transformation, Sophia Loren fashion, Sophia Loren tutorial, iconic Sophia Loren looks, beauty and style, bold beauty looks, 60s makeup icons, Sophia Loren mascara" />
 
   <meta property="og:title" content="Sophia Loren Makeup Tutorial - Jackie Wyers" />
   <meta property="og:description" content="Explore Jackie Wyers' Sophia Loren makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
-  <meta property="og:image"content="https://jackiewyers.beauty/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/sophialoren" />
+  <meta property="og:image"content="https://www.jackiewyers.beauty/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/sophialoren" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Sophia Loren Makeup Tutorial - Jackie Wyers" />
   <meta name="twitter:description" content="Explore Jackie Wyers' Sophia Loren makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg" />
 
   {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
@@ -137,7 +137,7 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
         "@type": "BlogPosting",
         "headline": "Sophia Loren Makeup Tutorial - Jackie Wyers",
         "description": "Explore Jackie Wyers' Sophia Loren makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide.",
-        "image": "https://jackiewyers.beauty/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -147,12 +147,12 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/sophialoren"
+            "url": "https://www.jackiewyers.beauty/sophialoren"
           }
         },
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/sophialoren"
+          "@id": "https://www.jackiewyers.beauty/sophialoren"
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-19"
@@ -177,9 +177,9 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/sophialoren" 
+  url="https://www.jackiewyers.beauty/sophialoren" 
   title="Sophia Loren Iconic 60s Makeup in 'Arabesque' - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg" 
 />
 
     

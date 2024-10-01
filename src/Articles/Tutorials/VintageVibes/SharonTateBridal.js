@@ -118,18 +118,18 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
      
      <Helmet>
   <title>Sharon Tate's Coquette 1960's Bridal Makeup - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/sharontatebridal" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/sharontatebridal" />
 
   <meta name="description" content="A vintage step-by-step guide on recreating Sharon Tate's iconic 60s bridal makeup look, featuring tips and techniques by Jackie Wyers." />
   <meta name="keywords" content="Sharon Tate, 60s Bridal Look, Jackie Wyers, Bridal Makeup Tutorial, Vintage Beauty, Iconic Looks, Time Travel Tutorials, Classic Beauty, Old Hollywood, Coquette makeup, bridal beauty, vintage bridal makeup, 1960s makeup, Sharon Tate style, beauty influencer tutorials, retro beauty, vintage glamour, iconic bridal styles, Sharon Tate makeup, Time Travel Tutorials, retro bridal hair, soft bridal glam, Sharon Tate eyeliner, 60s wedding look, vintage wedding inspiration, Jackie Wyers beauty, flower crown bridal look, bohemian bridal makeup, natural bridal look, soft glam makeup, vintage beauty secrets, makeup tips, classic bridal beauty, Old Hollywood wedding, beauty influencer tips, iconic 60s style, bridal beauty looks, romantic makeup tutorial, Sharon Tate wedding, Sharon Tate inspired, boho bridal makeup, soft vintage waves, bridal hair inspiration, iconic beauty tutorials" />
 
   <meta property="og:title" content="Sharon Tate's Coquette 1960's Bridal Makeup - Jackie Wyers" />
   <meta property="og:description" content="A vintage step-by-step guide on recreating Sharon Tate's iconic 60s bridal makeup look, featuring tips and techniques by Jackie Wyers." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/SharonTateBridal/SharonTateBridalThumbnail.jpeg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/sharontatebridal" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/SharonTateBridal/SharonTateBridalThumbnail.jpeg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/sharontatebridal" />
   <meta name="twitter:title" content="Sharon Tate's Coquette 1960's Bridal Makeup - Jackie Wyers" />
   <meta name="twitter:description" content="A vintage step-by-step guide on recreating Sharon Tate's iconic 60s bridal makeup look, featuring tips and techniques by Jackie Wyers." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/SharonTateBridal/SharonTateBridalThumbnail.jpeg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/SharonTateBridal/SharonTateBridalThumbnail.jpeg" />
   <meta name="twitter:card" content="summary_large_image" />
 
   {/* JSON-LD Structured Data */}
@@ -140,7 +140,7 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
         "@type": "BlogPosting",
         "headline": "Sharon Tate's Coquette 1960's Bridal Makeup - Jackie Wyers",
         "description": "A vintage step-by-step guide on recreating Sharon Tate's iconic 60s bridal makeup look, featuring tips and techniques by Jackie Wyers.",
-        "image": "https://jackiewyers.beauty/Images/Articles/SharonTateBridal/SharonTateBridalThumbnail.jpeg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/SharonTateBridal/SharonTateBridalThumbnail.jpeg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -150,12 +150,12 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/Images/Articles/Signature.png"
+            "url": "https://www.jackiewyers.beauty/Images/Articles/Signature.png"
           }
         },
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/sharontatebridal"
+          "@id": "https://www.jackiewyers.beauty/sharontatebridal"
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20"
@@ -182,9 +182,9 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/sharontatebridal" 
+  url="https://www.jackiewyers.beauty/sharontatebridal" 
   title="Sharon Tate's Coquette 1960's Bridal Makeup - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/SharonTateBridal/SharonTateBridalThumbnail.jpeg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/SharonTateBridal/SharonTateBridalThumbnail.jpeg" 
 />
 
 
@@ -256,11 +256,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <p style={paragraphStyle}>
-  Today, we'll delve into her unique and playful bridal style, which embodies a <a href="https://jackiewyers.beauty/bridalstyles" target="_blank" rel="noopener noreferrer" style={linkStyle}>vintage charm</a> while remaining wonderfully contemporary for today's brides!
+  Today, we'll delve into her unique and playful bridal style, which embodies a <a href="https://www.jackiewyers.beauty/bridalstyles" target="_blank" rel="noopener noreferrer" style={linkStyle}>vintage charm</a> while remaining wonderfully contemporary for today's brides!
 </p>
 
 <p style={paragraphStyle}>
-  Sharon Tate's makeup style, characterized by her striking deep-set eyes and an exaggerated, graphic crease, is a hallmark of the 60s beauty. Her lashes, often lengthened with falsies, added to her captivating doe-eyed appearance. Her bohemian flair, complemented by a sun-kissed, <a href="https://jackiewyers.beauty/californianglow" target="_blank" rel="noopener noreferrer" style={linkStyle}>Californian glow</a>, deepened with bronzer, set her apart. Vintage photos of Sharon feel more 1970s as she was ahead of the fashion curve.
+  Sharon Tate's makeup style, characterized by her striking deep-set eyes and an exaggerated, graphic crease, is a hallmark of the 60s beauty. Her lashes, often lengthened with falsies, added to her captivating doe-eyed appearance. Her bohemian flair, complemented by a sun-kissed, <a href="https://www.jackiewyers.beauty/californianglow" target="_blank" rel="noopener noreferrer" style={linkStyle}>Californian glow</a>, deepened with bronzer, set her apart. Vintage photos of Sharon feel more 1970s as she was ahead of the fashion curve.
 </p>
 
 <p style={paragraphStyle}>
@@ -274,7 +274,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <h2 style={headingStyle}>Sharon Tate Wedding Dress and More</h2>
       <p style={paragraphStyle}>
-  Sharon Tate's bridal makeup, an exquisite blend of 60s glamour and sun-kissed beauty, is a perfect tribute to her style. Her iconic <a href="https://jackiewyers.beauty/babydollweddingdress" target="_blank" rel="noopener noreferrer" style={linkStyle}>Babydoll Wedding Dress</a>, modern for its time, remains a fashionable choice. Explore our curated collection of Sharon Tate wedding dress replicas and similar styles below!
+  Sharon Tate's bridal makeup, an exquisite blend of 60s glamour and sun-kissed beauty, is a perfect tribute to her style. Her iconic <a href="https://www.jackiewyers.beauty/babydollweddingdress" target="_blank" rel="noopener noreferrer" style={linkStyle}>Babydoll Wedding Dress</a>, modern for its time, remains a fashionable choice. Explore our curated collection of Sharon Tate wedding dress replicas and similar styles below!
 </p>
       <a href="https://www.instagram.com/p/CnTKGRGuAhJ/?hl=en" target="_blank" rel="noopener noreferrer">
         <img src={Sharon16} alt="Sharon Tate Wedding Dress" style={{ width: '100%' }} />
@@ -284,7 +284,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
      
       <h2 style={headingStyle}>Discover More Vintage-Inspired Looks</h2>
       <p style={paragraphStyle}>
-  Discover more vintage-inspired bridal looks and time travel tutorials here on <a href="https://jackiewyers.beauty" target="_blank" rel="noopener noreferrer" style={linkStyle}>jackiewyers.beauty</a> & follow on IG @ <a href="https://www.instagram.com/jackiewyers/?hl=en" target="_blank" rel="noopener noreferrer" style={linkStyle}>Jackiewyers</a> for short form tutorials.
+  Discover more vintage-inspired bridal looks and time travel tutorials here on <a href="https://www.jackiewyers.beauty" target="_blank" rel="noopener noreferrer" style={linkStyle}>www.jackiewyers.beauty</a> & follow on IG @ <a href="https://www.instagram.com/jackiewyers/?hl=en" target="_blank" rel="noopener noreferrer" style={linkStyle}>Jackiewyers</a> for short form tutorials.
 </p>
 
       <p style={paragraphStyle}>   

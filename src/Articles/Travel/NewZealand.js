@@ -9,9 +9,9 @@ import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 import SocialShare from '../../Home/SocialShare';
 
-const articleUrl = 'https://jackiewyers.beauty/newzealand';
+const articleUrl = 'https://www.jackiewyers.beauty/newzealand';
 const articleTitle = 'New Zealand | Auckland Vlog and Experience - Jackie Wyers';
-const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/NewZealand/NZThumbnail.jpg';
+const articleImageUrl = 'https://www.jackiewyers.beauty/Images/Articles/NewZealand/NZThumbnail.jpg';
 
 
 
@@ -179,21 +179,21 @@ const NewZealand = () => {
         <div className="container">
   <Helmet>
   <title>New Zealand | Auckland Vlog and Experience - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/newzealand" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/newzealand" />
 
   <meta name="description" content="Explore Auckland with Jackie Wyers in this detailed travel vlog and review, featuring top spots, travel tips, and hidden gems around the city." />
   <meta name="keywords" content="New Zealand travel, Auckland vlog, Jackie Wyers, Fable Auckland, shopping in Auckland, Waiheke Island, Ponsonby, Mount Eden, Auckland Art Gallery, travel tips, luxury hotels, New Zealand travel blog, Auckland experiences, best places to visit in Auckland, Auckland travel guide, New Zealand attractions, city tours, scenic walks, cafes in Auckland, Little and Friday, travel with Jackie Wyers, Auckland photography, New Zealand lifestyle, local experiences, Auckland scenic spots, iconic landmarks, New Zealand itinerary, Auckland city guide" />
 
   <meta property="og:title" content="New Zealand | Auckland Vlog and Experience - Jackie Wyers" />
   <meta property="og:description" content="Explore Auckland with Jackie Wyers in this detailed travel vlog and review, featuring top spots, travel tips, and hidden gems around the city." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/NewZealand/NZThumbnail.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/newzealand" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/NewZealand/NZThumbnail.jpg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/newzealand" />
   <meta property="og:type" content="article" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="New Zealand | Auckland Vlog and Experience - Jackie Wyers" />
   <meta name="twitter:description" content="Explore Auckland with Jackie Wyers in this detailed travel vlog and review, featuring top spots, travel tips, and hidden gems around the city." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/NewZealand/NZThumbnail.jpg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/NewZealand/NZThumbnail.jpg" />
 
 
 
@@ -205,7 +205,7 @@ const NewZealand = () => {
         "@type": "BlogPosting",
         "headline": "New Zealand | Auckland Vlog and Experience - Jackie Wyers",
         "description": "Explore Auckland with Jackie Wyers in this detailed travel vlog and review, featuring top spots, travel tips, and hidden gems around the city.",
-        "image": "https://jackiewyers.beauty/Images/Articles/NewZealand/NZThumbnail.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/NewZealand/NZThumbnail.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -215,14 +215,14 @@ const NewZealand = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/newzealand"
+          "@id": "https://www.jackiewyers.beauty/newzealand"
         }
       }
     `}

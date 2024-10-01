@@ -116,7 +116,7 @@ const Abril = () => {
     <div className="container">
 <Helmet>
   <title>Jackie Wyers Wedding - Abril Wedding Dress</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/abril" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/abril" />
 
   <meta
     name="description"
@@ -134,9 +134,9 @@ const Abril = () => {
   />
   <meta
     property="og:image"
-    content="https://jackiewyers.beauty/Images/Quiz/Quiz3/abril1.jpg"
+    content="https://www.jackiewyers.beauty/Images/Quiz/Quiz3/abril1.jpg"
   />
-  <meta property="og:url" content="https://jackiewyers.beauty/abril" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/abril" />
   <meta property="og:type" content="article" />
 
   <meta name="twitter:card" content="summary_large_image" />
@@ -147,7 +147,7 @@ const Abril = () => {
   />
   <meta
     name="twitter:image"
-    content="https://jackiewyers.beauty/Images/Quiz/Quiz3/abril1.jpg"
+    content="https://www.jackiewyers.beauty/Images/Quiz/Quiz3/abril1.jpg"
   />
 
  
@@ -162,7 +162,7 @@ const Abril = () => {
         "@type": "BlogPosting",
         "headline": "Jackie Wyers Wedding - Abril Wedding Dress",
         "description": "Discover if the Abril dress is your dream wedding dress! Take the quiz and explore the romantic, luxurious, and royal bridal style of the Abril dress by Eva Lendel with Jackie Wyers.",
-        "image": "https://jackiewyers.beauty/Images/Quiz/Quiz3/abril1.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Quiz/Quiz3/abril1.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -172,14 +172,14 @@ const Abril = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jw3logo.png"
+            "url": "https://www.jackiewyers.beauty/jw3logo.png"
           }
         },
         "datePublished": "2024-09-21",
         "dateModified": "2024-09-22",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/abril"
+          "@id": "https://www.jackiewyers.beauty/abril"
         }
       }
     `}

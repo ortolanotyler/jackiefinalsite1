@@ -118,7 +118,7 @@ const Makeup2016 = () => {
             <div className="container">
               <Helmet>
                 <title>A Quintessential 2016 Makeup Tutorial</title>
-                <link rel="canonical" href="https://jackiewyers.beauty/2016makeup" />
+                <link rel="canonical" href="https://www.jackiewyers.beauty/2016makeup" />
     
                 <meta
                   name="description"
@@ -136,9 +136,9 @@ const Makeup2016 = () => {
                 />
                 <meta
                   property="og:image"
-                  content="https://jackiewyers.beauty/Images/Articles/2016/2016MakeupThumbnail.jpg"
+                  content="https://www.jackiewyers.beauty/Images/Articles/2016/2016MakeupThumbnail.jpg"
                 />
-                <meta property="og:url" content="https://jackiewyers.beauty/2016makeup" />
+                <meta property="og:url" content="https://www.jackiewyers.beauty/2016makeup" />
                 <meta name="twitter:title" content="2016 Makeup Trends - Jackie Wyers" />
                 <meta
                   name="twitter:description"
@@ -146,7 +146,7 @@ const Makeup2016 = () => {
                 />
                 <meta
                   name="twitter:image"
-                  content="https://jackiewyers.beauty/Images/Articles/2016/2016MakeupThumbnail.jpg"
+                  content="https://www.jackiewyers.beauty/Images/Articles/2016/2016MakeupThumbnail.jpg"
                 />
                 <meta name="twitter:card" content="summary_large_image" />
               </Helmet>
@@ -169,9 +169,9 @@ const Makeup2016 = () => {
                 publishDate="March 1, 2024"
               />
               <SocialShare
-                url="https://jackiewyers.beauty/2016makeup"
+                url="https://www.jackiewyers.beauty/2016makeup"
                 title="2016 Makeup Trends - Jackie Wyers"
-                imageUrl="https://jackiewyers.beauty/Images/Articles/2016/2016MakeupThumbnail.jpg"
+                imageUrl="https://www.jackiewyers.beauty/Images/Articles/2016/2016MakeupThumbnail.jpg"
               />
     
               <ResponsiveYoutube

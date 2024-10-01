@@ -124,7 +124,7 @@ const Porsha = () => {
   <meta property="og:title" content="Jackie Wyers Wedding - Porsha Wedding Dress" />
   <meta property="og:description" content="Is the Porsha dress for you? Take the quiz to find out!" />
   <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/porshatitle.png`} />
-  <meta property="og:url" content="https://jackiewyers.beauty/porsha" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/porsha" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Jackie Wyers Wedding - Porsha Wedding Dress" />
   <meta name="twitter:description" content="Is the Porsha dress for you? Take the quiz to find out!" />

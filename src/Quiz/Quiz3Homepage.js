@@ -14,7 +14,7 @@ const Quiz3Homepage = () => {
         <meta name="keywords" content="beauty quiz, wedding dress quiz, animal pretty, Jackie Wyers, makeup quiz, beauty styles" />
         <meta property="og:title" content="Jackie Wyers' Quiz Homepage" />
         <meta property="og:description" content="Discover your perfect wedding dress style and find your animal face type with Jackie Wyers' interactive quizzes!" />
-        <meta property="og:url" content="https://jackiewyers.beauty/quiz-3-homepage" />
+        <meta property="og:url" content="https://www.jackiewyers.beauty/quiz-3-homepage" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Jackie Wyers' Quiz Homepage" />

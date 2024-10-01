@@ -117,12 +117,14 @@ const PeriodDrama = () => {
     <div className="container">
     <Helmet>
   <title>No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers</title>
+  <link rel="canonical" href="https://www.jackiewyers.beauty/perioddrama" />
+
   <meta name="description" content="Explore the elegance of period drama hair and makeup. Recreate historical hairstyles and no-makeup makeup looks inspired by various eras." />
   <meta name="keywords" content="Period Drama, No Makeup Makeup, Historical Hairstyles, Jackie Wyers, Beauty Blog, Tudor Era, Regency Era, Edwardian Era, Victorian Era, Pirates of the Caribbean, Pride and Prejudice, Bridgerton" />
   <meta property="og:title" content="No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers" />
   <meta property="og:description" content="Explore the elegance of period drama hair and makeup. Recreate historical hairstyles and no-makeup makeup looks inspired by various eras." />
   <meta property="og:image" content={title} />
-  <meta property="og:url" content="https://jackiewyers.beauty/perioddrama" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/perioddrama" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers" />
   <meta name="twitter:description" content="Explore the elegance of period drama hair and makeup. Recreate historical hairstyles and no-makeup makeup looks inspired by various eras." />
@@ -134,7 +136,7 @@ const PeriodDrama = () => {
       "@type": "Article",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://jackiewyers.beauty/perioddrama"
+        "@id": "https://www.jackiewyers.beauty/perioddrama"
       },
       "headline": "No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers",
       "description": "Explore the elegance of period drama hair and makeup. Recreate historical hairstyles and no-makeup makeup looks inspired by various eras.",
@@ -172,9 +174,9 @@ const PeriodDrama = () => {
   publishDate="Jan 25th, 2024"
 />
 <SocialShare 
-  url="https://jackiewyers.beauty/perioddrama" 
+  url="https://www.jackiewyers.beauty/perioddrama" 
   title="No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/PeriodDrama/ArticleThumb.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/PeriodDrama/ArticleThumb.jpg" 
 />
     
       <div>

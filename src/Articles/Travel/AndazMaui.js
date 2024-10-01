@@ -142,7 +142,7 @@ fontStyle: 'italic',
         <div className="container">
     <Helmet>
   <title>Andaz Maui Review | Luxury Resort Experience</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/andazmaui" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/andazmaui" />
 
   <meta name="description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
   <meta name="keywords" content="Jackie Wyers, Andaz Maui, Maui resort, luxury hotel, hotel review, Wailea resort, travel blog, Maui vacation, luxury resort, oceanfront resort, Hawaii vacation, best Maui hotels, Andaz Maui review, luxury travel, beachfront resort, Hawaiian luxury resort, top resorts in Maui, Wailea beach hotels, Morimoto Maui, Hawaiian Luaus, infinity pools, tropical getaway, resort amenities, spa, fitness center, golf courses, dining options" />
@@ -150,15 +150,15 @@ fontStyle: 'italic',
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Andaz Maui Review | Luxury Resort Experience" />
   <meta property="og:description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/AndazMaui/MAUITHUMBNAIL.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/andazmaui" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/AndazMaui/MAUITHUMBNAIL.jpg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/andazmaui" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Andaz Maui Review | Luxury Resort Experience" />
   <meta name="twitter:description" content="A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/AndazMaui/MAUITHUMBNAIL.jpg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/AndazMaui/MAUITHUMBNAIL.jpg" />
 
 
  
@@ -173,7 +173,7 @@ fontStyle: 'italic',
         "itemReviewed": {
           "@type": "Hotel",
           "name": "Andaz Maui at Wailea Resort",
-          "image": "https://jackiewyers.beauty/Images/Articles/AndazMaui/MAUITHUMBNAIL.jpg",
+          "image": "https://www.jackiewyers.beauty/Images/Articles/AndazMaui/MAUITHUMBNAIL.jpg",
           "description": "A detailed review of the Andaz Maui at Wailea Resort, covering first impressions, room options, amenities, and overall experience.",
           "address": {
             "@type": "PostalAddress",
@@ -203,7 +203,7 @@ fontStyle: 'italic',
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jwlogo3.png"
+            "url": "https://www.jackiewyers.beauty/jwlogo3.png"
           }
         },
         "datePublished": "2024-05-13",

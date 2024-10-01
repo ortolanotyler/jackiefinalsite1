@@ -26,13 +26,13 @@ const About = () => {
         <meta property="og:title" content="About Jackie Wyers | Beauty and Pop Culture" />
         <meta property="og:description" content="Get to know Jackie Wyers, a professionally trained makeup artist with a passion for beauty and pop culture. Discover her journey, inspirations, and collaborations." />
         <meta property="og:image" content={AboutEmily} />
-        <meta property="og:url" content="https://jackiewyers.beauty/about" />
+        <meta property="og:url" content="https://www.jackiewyers.beauty/about" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="About Jackie Wyers | Beauty and Pop Culture" />
         <meta name="twitter:description" content="Get to know Jackie Wyers, a professionally trained makeup artist with a passion for beauty and pop culture. Discover her journey, inspirations, and collaborations." />
         <meta name="twitter:image" content={AboutEmily} />
-        <link rel="canonical" href="https://jackiewyers.beauty/about" />
+        <link rel="canonical" href="https://www.jackiewyers.beauty/about" />
 
       </Helmet>
      

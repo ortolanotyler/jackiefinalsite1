@@ -68,9 +68,9 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 
 
-const articleUrl = 'https://jackiewyers.beauty/rome';
+const articleUrl = 'https://www.jackiewyers.beauty/rome';
 const articleTitle = 'Our Romantic 3-Day Rome Itinerary';
-const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/Rome/romethumbnail.png';
+const articleImageUrl = 'https://www.jackiewyers.beauty/Images/Articles/Rome/romethumbnail.png';
 
 
 
@@ -176,21 +176,21 @@ const Rome = () => {
     <div className="container">
 <Helmet>
   <title>Our Romantic 3-Day Rome Itinerary</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/rome" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/rome" />
 
   <meta name="description" content="Explore 72 hours in Rome with Jackie Wyers. Discover the best spots, travel tips, and hidden gems as we share our whirlwind adventure in the Eternal City." />
   <meta name="keywords" content="Rome travel guide, 72 hours in Rome, Jackie Wyers, Vatican City, Colosseum, Trevi Fountain, Italian cuisine, best places in Rome, Rome itinerary, travel tips, Rome landmarks, hidden gems in Rome, Italian food, Rome tourist guide, Rome travel blog, sightseeing in Rome, historic sites, must-see places in Rome, Italy travel, travel with Jackie Wyers, Rome photography, Rome travel tips, Eternal City guide" />
 
   <meta property="og:title" content="Our Romantic 3-Day Rome Itinerary" />
   <meta property="og:description" content="Explore 72 hours in Rome with Jackie Wyers. Discover the best spots, travel tips, and hidden gems as we share our whirlwind adventure in the Eternal City." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/Rome/romethumbnail.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/rome" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/Rome/romethumbnail.jpg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/rome" />
   <meta property="og:type" content="article" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Our Romantic 3-Day Rome Itinerary" />
   <meta name="twitter:description" content="Explore 72 hours in Rome with Jackie Wyers. Discover the best spots, travel tips, and hidden gems as we share our whirlwind adventure in the Eternal City." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Rome/romethumbnail.jpg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/Rome/romethumbnail.jpg" />
 
 
   {/* JSON-LD Structured Data */}
@@ -201,7 +201,7 @@ const Rome = () => {
         "@type": "BlogPosting",
         "headline": "Our Romantic 3-Day Rome Itinerary",
         "description": "Explore 72 hours in Rome with Jackie Wyers. Discover the best spots, travel tips, and hidden gems as we share our whirlwind adventure in the Eternal City.",
-        "image": "https://jackiewyers.beauty/Images/Articles/Rome/RomeTitle.png",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/Rome/RomeTitle.png",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -211,14 +211,14 @@ const Rome = () => {
           "name": "Jackie Wyers",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jw3logo.png"
+            "url": "https://www.jackiewyers.beauty/jw3logo.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/rome"
+          "@id": "https://www.jackiewyers.beauty/rome"
         }
       }
     `}

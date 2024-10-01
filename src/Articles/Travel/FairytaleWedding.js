@@ -63,9 +63,9 @@ const image99 = `${process.env.PUBLIC_URL}/Images/Articles/WeddingCarousel/96.jp
 const bridesmaid = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/BridesmaidBoxThumb!.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
-const articleUrl = 'https://jackiewyers.beauty/fairytalewedding';
+const articleUrl = 'https://www.jackiewyers.beauty/fairytalewedding';
 const articleTitle = 'Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers';
-const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg';
+const articleImageUrl = 'https://www.jackiewyers.beauty/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg';
 
 
 
@@ -169,20 +169,20 @@ const Card = ({ blogContent }) => (
     <div className="container">
 <Helmet>
   <title>Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/fairytalewedding" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/fairytalewedding" />
 
   <meta name="description" content="Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments." />
   <meta name="keywords" content="Jackie Wyers, wedding, Sorrento, Italy, fairytale wedding, bridal beauty, wedding photography, wedding dress, wedding inspiration, bridal makeup, bridal hair, wedding planning, destination wedding, romantic wedding, whimsical wedding, wedding ceremony, wedding decorations, bridal party, intimate wedding, wedding venue, Italian wedding, wedding photographer, fairytale-inspired wedding, custom wedding decor, wedding aesthetics, wedding planning tips, elopement in Italy, luxury wedding, fairycore bridesmaids, custom wedding menus, wedding favors, private villa wedding" />
 
   <meta property="og:title" content="Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers" />
   <meta property="og:description" content="Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/fairytalewedding" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/fairytalewedding" />
   <meta property="og:type" content="article" />
 
   <meta name="twitter:title" content="Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers" />
   <meta name="twitter:description" content="Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -196,7 +196,7 @@ const Card = ({ blogContent }) => (
         "@type": "BlogPosting",
         "headline": "Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers",
         "description": "Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments.",
-        "image": "https://jackiewyers.beauty/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -206,14 +206,14 @@ const Card = ({ blogContent }) => (
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-                      "url": "https://jackiewyers.beauty/jwlogo3.png"
+                      "url": "https://www.jackiewyers.beauty/jwlogo3.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/fairytalewedding"
+          "@id": "https://www.jackiewyers.beauty/fairytalewedding"
         }
       }
     `}

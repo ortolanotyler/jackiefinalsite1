@@ -118,18 +118,18 @@ const VictoriaSecret = () => {
 <Helmet>
 <title>The Victoria's Secret SNOW ANGEL Look at VSFS 2013 </title>
 
-  <link rel="canonical" href="https://jackiewyers.beauty/victoriasecret" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/victoriasecret" />
 
   <meta name="description" content="Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014." />
   <meta name="keywords" content="Victoria's Secret Fashion Show, Victoria's Secret Makeup, Snow Angel Look, 2013 Fashion Show, Beauty Tips, Jackie Wyers, Makeup Tutorial, Lingerie Fashion Show, Beauty Blog, 2014 beauty products, Taylor Swift VSFS, iconic beauty looks, girly Tumblr vibe, bronzed skin, Victoria's Secret glosses, COCO & EVE Self Tan, Bed-Head Blowout, Too Faced Hangover Primer, Luminous Silk Foundation, Armani Beauty, Hoola Bronzer, NARS Orgasm Blush, Charlotte Tilbury Highlighter, Victoria's Secret robes" />
 
   <meta property="og:title" content="Victoria's Secret Fashion Show 2013 - Jackie Wyers" />
   <meta property="og:description" content="Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/VictoriaSecret2014/VSTitle.png" />
-  <meta property="og:url" content="https://jackiewyers.beauty/victoriasecret" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/VictoriaSecret2014/VSTitle.png" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/victoriasecret" />
   <meta name="twitter:title" content="Victoria's Secret Fashion Show 2013 - Jackie Wyers" />
   <meta name="twitter:description" content="Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/VictoriaSecret2014/VSTitle.png" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/VictoriaSecret2014/VSTitle.png" />
   <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -144,7 +144,7 @@ const VictoriaSecret = () => {
         "@type": "BlogPosting",
         "headline": "The Victoria's Secret SNOW ANGEL Look at VSFS 2013 ",
         "description": "Relive the glamour of the Victoria's Secret Fashion Show 2013 with Jackie Wyers' beauty and style tips. Discover how to achieve the Snow Angel look and explore iconic products from 2014.",
-        "image": "https://jackiewyers.beauty/Images/Articles/VictoriaSecret2014/VSTitle.png",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/VictoriaSecret2014/VSTitle.png",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -154,14 +154,14 @@ const VictoriaSecret = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/Images/Articles/jw3logo.png"
+            "url": "https://www.jackiewyers.beauty/Images/Articles/jw3logo.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/victoriasecret"
+          "@id": "https://www.jackiewyers.beauty/victoriasecret"
         }
       }
     `}
@@ -182,9 +182,9 @@ const VictoriaSecret = () => {
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/victoriasecret" 
+  url="https://www.jackiewyers.beauty/victoriasecret" 
   title="The Victoria's Secret SNOW ANGEL Look at VSFS 2013 - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg" 
 />
 
 

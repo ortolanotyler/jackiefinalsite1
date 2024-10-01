@@ -127,7 +127,7 @@ const BarbieBlog = () => {
     <div className="container">
 <Helmet>
   <title>Margot Robbie's Barbie Makeup & DIY '90s Roller Skate Costume - Jackie Wyers</title>
-  <link rel="canonical" href="https://www.jackiewyers.beauty/margotbarbie" />
+  <link rel="canonical" href="https://www.www.jackiewyers.beauty/margotbarbie" />
 
   <meta 
     name="description" 
@@ -146,9 +146,9 @@ const BarbieBlog = () => {
   />
   <meta 
     property="og:image" 
-    content="https://jackiewyers.beauty/Images/Articles/BarbieMovie/MARGOBARBIETHUMBNAIL.png" 
+    content="https://www.jackiewyers.beauty/Images/Articles/BarbieMovie/MARGOBARBIETHUMBNAIL.png" 
   />
-  <meta property="og:url" content="https://jackiewyers.beauty/margotbarbie" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/margotbarbie" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
@@ -159,7 +159,7 @@ const BarbieBlog = () => {
   />
   <meta 
     name="twitter:image" 
-    content="https://jackiewyers.beauty/Images/Articles/BarbieMovie/MARGOBARBIETHUMBNAIL.png" 
+    content="https://www.jackiewyers.beauty/Images/Articles/BarbieMovie/MARGOBARBIETHUMBNAIL.png" 
   />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -174,7 +174,7 @@ const BarbieBlog = () => {
         "@type": "BlogPosting",
         "headline": "Margot Robbie's Barbie Makeup & DIY '90s Roller Skate Costume - Jackie Wyers",
         "description": "Learn how to recreate Margot Robbie's Barbie movie makeup look and DIY your own '90s Roller Skate Barbie costume with this step-by-step guide by Jackie Wyers.",
-        "image": "https://jackiewyers.beauty/Images/Articles/BarbieMovie/MARGOBARBIETHUMBNAIL.png",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/BarbieMovie/MARGOBARBIETHUMBNAIL.png",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -184,14 +184,14 @@ const BarbieBlog = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-07-25",
         "dateModified": "2024-09-24",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/margotbarbie"
+          "@id": "https://www.jackiewyers.beauty/margotbarbie"
         }
       }
     `}
@@ -212,9 +212,9 @@ const BarbieBlog = () => {
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/margotbarbie" 
+  url="https://www.jackiewyers.beauty/margotbarbie" 
   title="Margot Robbie's Barbie Makeup & DIY '90s Roller Skate Costume - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/BarbieMovie/MARGOBARBIETHUMBNAIL.png" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/BarbieMovie/MARGOBARBIETHUMBNAIL.png" 
 />
 
 

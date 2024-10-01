@@ -118,7 +118,7 @@ const Bacarra = () => {
     <div className="container">
   <Helmet>
   <title>Jackie Wyers Wedding - Bacarra Wedding Dress</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/bacarra" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/bacarra" />
 
   <meta 
     name="description" 
@@ -137,9 +137,9 @@ const Bacarra = () => {
   />
   <meta 
     property="og:image" 
-    content="https://jackiewyers.beauty/Images/Quiz/Quiz3/Bacarra1.jpg" 
+    content="https://www.jackiewyers.beauty/Images/Quiz/Quiz3/Bacarra1.jpg" 
   />
-  <meta property="og:url" content="https://jackiewyers.beauty/bacarra" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/bacarra" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
@@ -150,7 +150,7 @@ const Bacarra = () => {
   />
   <meta 
     name="twitter:image" 
-    content="https://jackiewyers.beauty/Images/Quiz/Quiz3/Bacarra1.jpg" 
+    content="https://www.jackiewyers.beauty/Images/Quiz/Quiz3/Bacarra1.jpg" 
   />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -165,7 +165,7 @@ const Bacarra = () => {
         "@type": "BlogPosting",
         "headline": "Jackie Wyers Wedding - Bacarra Wedding Dress",
         "description": "Is the Bacarra dress for you? Take the quiz to find out!",
-        "image": "https://jackiewyers.beauty/Images/Quiz/Quiz3/Bacarra1.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Quiz/Quiz3/Bacarra1.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -175,14 +175,14 @@ const Bacarra = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/bacarra"
+          "@id": "https://www.jackiewyers.beauty/bacarra"
         }
       }
     `}

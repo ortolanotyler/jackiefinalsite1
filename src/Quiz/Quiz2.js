@@ -141,7 +141,7 @@ const Quiz2 = () => {
   <meta property="og:title" content="Jackie Wyers Beauty Quiz" />
   <meta property="og:description" content="Discover which animal-inspired beauty style suits you best: Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty." />
   <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/og-image.jpg`} />
-  <meta property="og:url" content="https://jackiewyers.beauty/quiz2" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/quiz2" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Jackie Wyers Beauty Quiz" />

@@ -116,19 +116,19 @@ const Card = ({ blogContent }) => (
     <div className="container">
 <Helmet>
   <title>Pat McGrath's Viral Porcelain DOLL with Glass Skin - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/patmcgrath" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/patmcgrath" />
 
   <meta name="description" content="Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look." />
   <meta name="keywords" content="Pat McGrath, Porcelain Doll Makeup, Maison Margiela, Spring/Summer '24, Makeup Tutorial, Jackie Wyers, Runway Makeup, Glass Skin, Airbrushed Makeup, Pat McGrath Labs, Divine Blush, Mothership Palette, beauty trends, iconic runway looks, avant-garde makeup, haute couture makeup, doll-like makeup, peel-off mask technique, fashion week makeup, editorial makeup, glass skin tutorial, backstage beauty secrets" />
 
   <meta property="og:title" content="Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers" />
   <meta property="og:description" content="Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/PatMcGrath/JackieWyersPatMcgrath.jpeg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/patmcgrath" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/PatMcGrath/JackieWyersPatMcgrath.jpeg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/patmcgrath" />
 
   <meta name="twitter:title" content="Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers" />
   <meta name="twitter:description" content="Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/PatMcGrath/JackieWyersPatMcgrath.jpeg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/PatMcGrath/JackieWyersPatMcgrath.jpeg" />
   <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -141,7 +141,7 @@ const Card = ({ blogContent }) => (
         "@type": "BlogPosting",
         "headline": "Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers",
         "description": "Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look.",
-        "image": "https://jackiewyers.beauty/Images/Articles/PatMcGrath/JackieWyersPatMcgrath.jpeg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/PatMcGrath/JackieWyersPatMcgrath.jpeg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -151,14 +151,14 @@ const Card = ({ blogContent }) => (
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/patmcgrath"
+          "@id": "https://www.jackiewyers.beauty/patmcgrath"
         }
       }
     `}
@@ -180,9 +180,9 @@ const Card = ({ blogContent }) => (
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/patmcgrath" 
+  url="https://www.jackiewyers.beauty/patmcgrath" 
   title="Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/PatMcGrath/JackieWyersPatMcgrath.jpeg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/PatMcGrath/JackieWyersPatMcgrath.jpeg" 
 />
 
 
@@ -207,7 +207,7 @@ const Card = ({ blogContent }) => (
 </p>
 
 <p style={paragraphStyle}>
-  As I watched the <a href="https://www.maisonmargiela.com" style={linkStyle} target="_blank" rel="noopener noreferrer">Margiela Masterclass</a> this Saturday, I was glued to my screen, attentively watching and simultaneously recreating one of my favorite looks from the show as seen above. Here’s the scoop on what I learned and a step-by-step account of how I transformed myself into a hauntingly beautiful, poetic Victorian doll. Tap image below to be taken to my <a href="https://jackiewyers.beauty/mini-tutorials" style={linkStyle} target="_blank" rel="noopener noreferrer">mini tutorial</a>.
+  As I watched the <a href="https://www.maisonmargiela.com" style={linkStyle} target="_blank" rel="noopener noreferrer">Margiela Masterclass</a> this Saturday, I was glued to my screen, attentively watching and simultaneously recreating one of my favorite looks from the show as seen above. Here’s the scoop on what I learned and a step-by-step account of how I transformed myself into a hauntingly beautiful, poetic Victorian doll. Tap image below to be taken to my <a href="https://www.jackiewyers.beauty/mini-tutorials" style={linkStyle} target="_blank" rel="noopener noreferrer">mini tutorial</a>.
 </p>
 
  

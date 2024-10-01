@@ -115,18 +115,18 @@ const Card = ({ blogContent }) => (
 
    <Helmet>
   <title>Grace Kelly's Old Hollywood Glam</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/gracekelly" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/gracekelly" />
   <meta name="description" content="Step-by-step guide on how to recreate Grace Kelly's iconic Hollywood glam look, featuring classic 1950s elegance and timeless beauty tips by Jackie Wyers." />
 
   <meta name="keywords" content="Grace Kelly makeup, Grace Kelly beauty, Hollywood glam, 1950s makeup tutorial, vintage beauty, Jackie Wyers, classic beauty looks, Grace Kelly hair, old Hollywood makeup, Grace Kelly eyeliner, red carpet looks, beauty tutorials, iconic makeup, timeless elegance, retro beauty, Grace Kelly style, vintage vibes, classic makeup tutorial, old Hollywood glam, Jackie Wyers beauty blog, Grace Kelly inspired makeup, red lip tutorial, vintage hairstyles, Grace Kelly fashion, bridal makeup, princess Grace makeup, beauty influencer tutorials, time travel tutorials, retro glamour" />
 
   <meta property="og:title" content="Grace Kelly's Old Hollywood Glam - Jackie Wyers" />
   <meta property="og:description" content="Follow Jackie Wyers as she recreates Grace Kelly's Hollywood glam look with a detailed makeup tutorial that captures the essence of old Hollywood beauty." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/GraceKelly/GraceKellyJackieWyers.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/gracekelly" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/GraceKelly/GraceKellyJackieWyers.jpg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/gracekelly" />
   <meta name="twitter:title" content="Grace Kelly's Old Hollywood Glam - Jackie Wyers" />
   <meta name="twitter:description" content="Follow Jackie Wyers' tutorial to recreate Grace Kelly's timeless Hollywood glam look, showcasing classic 1950s beauty and elegance." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/GraceKelly/GraceKellyJackieWyers.jpg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/GraceKelly/GraceKellyJackieWyers.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -139,7 +139,7 @@ const Card = ({ blogContent }) => (
         "@type": "BlogPosting",
         "headline": "Grace Kelly's Old Hollywood Glam - Jackie Wyers",
         "description": "Step-by-step guide on how to recreate Grace Kelly's iconic Hollywood glam look, featuring classic 1950s elegance and timeless beauty tips by Jackie Wyers.",
-        "image": "https://jackiewyers.beauty/Images/Articles/GraceKelly/GraceKellyJackieWyers.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/GraceKelly/GraceKellyJackieWyers.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -149,14 +149,14 @@ const Card = ({ blogContent }) => (
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/gracekelly"
+          "@id": "https://www.jackiewyers.beauty/gracekelly"
         }
       }
     `}
@@ -179,9 +179,9 @@ const Card = ({ blogContent }) => (
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/gracekelly" 
+  url="https://www.jackiewyers.beauty/gracekelly" 
   title="Grace Kelly's Old Hollywood Glam - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/GraceKelly/GraceKellyJackieWyers.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/GraceKelly/GraceKellyJackieWyers.jpg" 
 />
 
 

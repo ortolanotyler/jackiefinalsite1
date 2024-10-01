@@ -123,7 +123,7 @@ const BardotHairstyles = () => {
     <div className="container">
 <Helmet>
   <title>Mastering the Bardot Bun - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/bardothairstyles" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/bardothairstyles" />
 
   <meta 
     name="description" 
@@ -142,9 +142,9 @@ const BardotHairstyles = () => {
   />
   <meta 
     property="og:image" 
-    content="https://jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg" 
+    content="https://www.jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg" 
   />
-  <meta property="og:url" content="https://jackiewyers.beauty/bardothairstyles" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/bardothairstyles" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
@@ -155,7 +155,7 @@ const BardotHairstyles = () => {
   />
   <meta 
     name="twitter:image" 
-    content="https://jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg" 
+    content="https://www.jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg" 
   />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -171,7 +171,7 @@ const BardotHairstyles = () => {
         "@type": "BlogPosting",
         "headline": "Mastering the Bardot Bun - Jackie Wyers",
         "description": "Step-by-step guide on how to recreate Brigitte Bardot's iconic '60s hairstyles, featuring tips and tricks by Jackie Wyers.",
-        "image": "https://jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -181,14 +181,14 @@ const BardotHairstyles = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/bardothairstyles"
+          "@id": "https://www.jackiewyers.beauty/bardothairstyles"
         }
       }
     `}
@@ -210,9 +210,9 @@ const BardotHairstyles = () => {
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/bardothairstyles" 
+  url="https://www.jackiewyers.beauty/bardothairstyles" 
   title="Mastering the Bardot Bun - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/BardotHairstyles/BardotThumbnail.jpg" 
 />
   
 <ResponsiveYoutube src="https://www.youtube.com/embed/i8wHU_XsM2A?si=ASPsSodw8bM_vliD" title="Brigitte Bardot ‘60s Makeup Tutorial👱🏼‍♀️🎀 (perf for hooded eyes!)" />

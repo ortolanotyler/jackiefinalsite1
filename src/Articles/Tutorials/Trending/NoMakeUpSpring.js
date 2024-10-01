@@ -120,19 +120,19 @@ const Card = ({ blogContent }) => (
     <div className="container">
   <Helmet>
   <title>No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition! - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/nomakeupspring" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/nomakeupspring" />
 
   <meta name="description" content="Explore timeless no-makeup makeup looks inspired by beloved TV and film characters for a fresh and natural spring beauty routine. Featuring iconic looks from Elizabeth Bennet, Daphne Bridgerton, Rose Dawson, and more." />
   <meta name="keywords" content="No-Makeup Makeup, Spring Beauty, Elizabeth Bennet Makeup, Daphne Bridgerton Makeup, Rose Dawson Makeup, Amy March Makeup, Rosie Dunne Makeup, Alaska Young Makeup, Winnie Foster Makeup, Pop Culture Beauty, Spring Makeup Trends, natural makeup, TV and film inspired looks, Jackie Wyers tutorials, vintage makeup inspiration, soft makeup, fresh makeup looks, subtle makeup, spring beauty inspiration, character makeup" />
 
   <meta property="og:title" content="No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition! - Jackie Wyers" />
   <meta property="og:description" content="Explore timeless no-makeup makeup looks inspired by beloved TV and film characters for a fresh and natural spring beauty routine. Featuring iconic looks from Elizabeth Bennet, Daphne Bridgerton, Rose Dawson, and more." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/nomakeupspring" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/nomakeupspring" />
 
   <meta name="twitter:title" content="No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition! - Jackie Wyers" />
   <meta name="twitter:description" content="Explore timeless no-makeup makeup looks inspired by beloved TV and film characters for a fresh and natural spring beauty routine. Featuring iconic looks from Elizabeth Bennet, Daphne Bridgerton, Rose Dawson, and more." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg" />
   <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -145,7 +145,7 @@ const Card = ({ blogContent }) => (
         "@type": "BlogPosting",
         "headline": "No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition! - Jackie Wyers",
         "description": "Explore timeless no-makeup makeup looks inspired by beloved TV and film characters for a fresh and natural spring beauty routine.",
-        "image": "https://jackiewyers.beauty/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -155,14 +155,14 @@ const Card = ({ blogContent }) => (
           "name": "Jackie Wyers",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jw3logo.png"
+            "url": "https://www.jackiewyers.beauty/jw3logo.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/nomakeupspring"
+          "@id": "https://www.jackiewyers.beauty/nomakeupspring"
         }
       }
     `}
@@ -183,9 +183,9 @@ const Card = ({ blogContent }) => (
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/nomakeupspring" 
+  url="https://www.jackiewyers.beauty/nomakeupspring" 
   title="No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition! - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg" 
 />
 
 

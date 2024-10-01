@@ -50,9 +50,9 @@ const image30 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ2/29.jpg`;
 const hotelq1 = `${process.env.PUBLIC_URL}/Images/Articles/HotelQ/HOTELQTHUMBNAIL.jpeg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
-const articleUrl = 'https://jackiewyers.beauty/hotelquintessance-summer';
+const articleUrl = 'https://www.jackiewyers.beauty/hotelquintessance-summer';
 const articleTitle = 'Hotel Quintessence | A Hidden Gem of Summer in Canada';
-const articleImageUrl = 'https://jackiewyers.beauty/hotelquintessence-summer/HotelQThumbnail.jpg';
+const articleImageUrl = 'https://www.jackiewyers.beauty/hotelquintessence-summer/HotelQThumbnail.jpg';
 
 
 
@@ -162,7 +162,7 @@ const HotelQ2 = () => {
   <meta property="og:title" content="Hotel Quintessence | A hidden gem of summer in Canada" />
   <meta property="og:description" content="A detailed review of the Hotel Quintessence, covering first impressions, room options, amenities, and overall experience." />
   <meta property="og:image" content={title} />
-  <meta property="og:url" content="https://jackiewyers.beauty/hotelquintessance-summer" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/hotelquintessance-summer" />
   <meta property="og:type" content="article" />
 
   <meta name="twitter:card" content="summary_large_image" />
@@ -177,7 +177,7 @@ const HotelQ2 = () => {
       "@type": "Article",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://jackiewyers.beauty/hotelquintessance-summer"
+        "@id": "https://www.jackiewyers.beauty/hotelquintessance-summer"
       },
       "headline": "Hotel Quintessence | A hidden gem of summer in Canada",
       "description": "A detailed review of the Hotel Quintessence, covering first impressions, room options, amenities, and overall experience.",

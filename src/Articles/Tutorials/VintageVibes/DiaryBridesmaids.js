@@ -115,7 +115,7 @@ fontStyle: 'italic',
     <div className="container">
 <Helmet>
   <title>Bridesmaid Boxes How-To </title>
-  <link rel="canonical" href="https://jackiewyers.beauty/bridesmaidboxes" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/bridesmaidboxes" />
 
   <meta 
     name="description" 
@@ -134,9 +134,9 @@ fontStyle: 'italic',
   />
   <meta 
     property="og:image" 
-    content="https://jackiewyers.beauty/Images/Articles/Bridesmaids/BridesmaidsTitle.png" 
+    content="https://www.jackiewyers.beauty/Images/Articles/Bridesmaids/BridesmaidsTitle.png" 
   />
-  <meta property="og:url" content="https://jackiewyers.beauty/bridesmaidboxes" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/bridesmaidboxes" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
@@ -147,7 +147,7 @@ fontStyle: 'italic',
   />
   <meta 
     name="twitter:image" 
-    content="https://jackiewyers.beauty/Images/Articles/Bridesmaids/BridesmaidsTitle.png" 
+    content="https://www.jackiewyers.beauty/Images/Articles/Bridesmaids/BridesmaidsTitle.png" 
   />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -163,7 +163,7 @@ fontStyle: 'italic',
         "@type": "BlogPosting",
         "headline": "Bridesmaid Boxes How-To - Jackie Wyers",
         "description": "Creative and budget-friendly ideas for your bridesmaids gifts, featuring DIY tips by Jackie Wyers.",
-        "image": "https://jackiewyers.beauty/Images/Articles/Bridesmaids/BridesmaidBoxThumb!.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/Bridesmaids/BridesmaidBoxThumb!.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -173,14 +173,14 @@ fontStyle: 'italic',
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/bridesmaidboxes"
+          "@id": "https://www.jackiewyers.beauty/bridesmaidboxes"
         }
       }
     `}

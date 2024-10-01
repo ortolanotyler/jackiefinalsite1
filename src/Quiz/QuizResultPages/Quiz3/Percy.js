@@ -121,7 +121,7 @@ const Percy = () => {
   <meta property="og:title" content="Jackie Wyers Wedding - Percy Wedding Dress" />
   <meta property="og:description" content="Is the Percy dress for you? Take the quiz to find out!" />
   <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/percytitle.png`} />
-  <meta property="og:url" content="https://jackiewyers.beauty/percy" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/percy" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Jackie Wyers Wedding - Percy Wedding Dress" />
   <meta name="twitter:description" content="Is the Percy dress for you? Take the quiz to find out!" />

@@ -11,9 +11,9 @@ const jicky2 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky2.jpg
 const jicky3 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/Jicky3.png`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
-const articleUrl = 'https://jackiewyers.beauty/articles/jickyreview';
+const articleUrl = 'https://www.jackiewyers.beauty/articles/jickyreview';
 const articleTitle = "Jicky by Guerlain Perfume Review";
-const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/JickyReview/jickyguerlainthumbnail.png' ;
+const articleImageUrl = 'https://www.jackiewyers.beauty/Images/Articles/JickyReview/jickyguerlainthumbnail.png' ;
 
 
 
@@ -121,7 +121,7 @@ fontStyle: 'italic',
         <div className="container" style={{ width: '100%', padding: '1rem' }}>
 <Helmet>
   <title>Jicky by Guerlain Perfume Review - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/jickyreview" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/jickyreview" />
 
   <meta
     name="description"
@@ -143,11 +143,11 @@ fontStyle: 'italic',
   />
   <meta
     property="og:image"
-    content="https://jackiewyers.beauty/Images/Articles/JickyReview/JickyThumbnail.png"
+    content="https://www.jackiewyers.beauty/Images/Articles/JickyReview/JickyThumbnail.png"
   />
   <meta
     property="og:url"
-    content="https://jackiewyers.beauty/jickyreview"
+    content="https://www.jackiewyers.beauty/jickyreview"
   />
   <meta property="og:type" content="article" />
 
@@ -163,7 +163,7 @@ fontStyle: 'italic',
   />
   <meta
     name="twitter:image"
-    content="https://jackiewyers.beauty/Images/Articles/JickyReview/JickyThumbnail.png"
+    content="https://www.jackiewyers.beauty/Images/Articles/JickyReview/JickyThumbnail.png"
   />
 
  
@@ -179,7 +179,7 @@ fontStyle: 'italic',
         "itemReviewed": {
           "@type": "Product",
           "name": "Jicky",
-          "image": "https://jackiewyers.beauty/Images/Articles/JickyReview/JickyThumbnail.png",
+          "image": "https://www.jackiewyers.beauty/Images/Articles/JickyReview/JickyThumbnail.png",
           "description": "A comprehensive review of Jicky by Guerlain, exploring its history, fragrance profile, and personal impressions.",
           "brand": {
             "@type": "Brand",
@@ -200,7 +200,7 @@ fontStyle: 'italic',
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jwlogo3.png"
+            "url": "https://www.jackiewyers.beauty/jwlogo3.png"
           }
         },
         "datePublished": "2024-07-27",
@@ -208,7 +208,7 @@ fontStyle: 'italic',
         "reviewBody": "Jicky by Guerlain stands as one of the oldest perfumes in continuous production, a testament to its timeless appeal. Conceived by Aimé Guerlain in the late 19th century, Jicky is a revolutionary fragrance that harmoniously blends the freshness of lavender and citrus with a warm, spicy undertone, making it a precursor to modern perfumery. Overall Scent Profile: Jicky is an enigmatic blend of vibrant top notes and a mysterious, deep base. Its opening is fresh and inviting, quickly evolving into a complex, spicy heart, and settling into a rich, warm embrace of vanilla and woods. This duality makes Jicky both refreshing and comforting masterpiece.",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/jickyreview"
+          "@id": "https://www.jackiewyers.beauty/jickyreview"
         }
       }
     `}

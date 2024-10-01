@@ -8,9 +8,9 @@ import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 import SocialShare from '../../Home/SocialShare';
 
-const articleUrl = 'https://jackiewyers.beauty/princeofwales';
+const articleUrl = 'https://www.jackiewyers.beauty/princeofwales';
 const articleTitle = 'Prince of Wales Hotel, Niagara-On-The-Lake Review';
-const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/PrinceOfWales/PrinceOfWalesthumbnail.jpeg';
+const articleImageUrl = 'https://www.jackiewyers.beauty/Images/Articles/PrinceOfWales/PrinceOfWalesthumbnail.jpeg';
 
 
 const images = [
@@ -139,18 +139,18 @@ const Card = ({ blogContent }) => (
         <div className="container">
       <Helmet>
   <title>Prince of Wales Hotel, Niagara-On-The-Lake Review</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/princeofwales" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/princeofwales" />
 
   <meta name="description" content="A Birthday Trip to Remember" />
   <meta name="keywords" content="Prince of Wales Hotel, Niagara on the Lake, hotel review, Victorian hotel, luxury hotel, travel blog, Jackie Wyers, best hotels in Niagara, romantic hotels, Canadian travel, historic hotels, luxury stays, Victorian charm, weekend getaway, high tea Niagara, boutique hotels, wine country stays, luxury accommodations, hotel reviews, Ontario travel, Niagara vineyards, historic ambiance, luxury travel, romantic escapes, spa hotel, Niagara attractions, Jackie Wyers travel guide, hotel recommendations, Niagara-On-The-Lake review, Canadian destinations" />
 
   <meta property="og:title" content="Prince of Wales Hotel, Niagara-On-The-Lake Review" />
   <meta property="og:description" content="A Birthday Trip to Remember" />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/PrinceOfWales/PrinceOfWalesthumbnail.jpeg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/princeofwales" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/PrinceOfWales/PrinceOfWalesthumbnail.jpeg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/princeofwales" />
   <meta name="twitter:title" content="Prince of Wales Hotel, Niagara-On-The-Lake Review" />
   <meta name="twitter:description" content="A Birthday Trip to Remember" />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/PrinceOfWales/PrinceOfWalesthumbnail.jpeg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/PrinceOfWales/PrinceOfWalesthumbnail.jpeg" />
   <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -163,7 +163,7 @@ const Card = ({ blogContent }) => (
         "@type": "BlogPosting",
         "headline": "Prince of Wales Hotel, Niagara-On-The-Lake Review",
         "description": "A Birthday Trip to Remember",
-        "image": "https://jackiewyers.beauty/Images/Articles/PrinceOfWales/PrinceOfWalesthumbnail.jpeg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/PrinceOfWales/PrinceOfWalesthumbnail.jpeg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -173,14 +173,14 @@ const Card = ({ blogContent }) => (
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jw3logo.png"
+            "url": "https://www.jackiewyers.beauty/jw3logo.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-21",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/princeofwales"
+          "@id": "https://www.jackiewyers.beauty/princeofwales"
         }
       }
     `}
@@ -263,7 +263,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
             
 <p style={paragraphStyle}>
-  If you are interested in exploring more culinary delights and experiences in Niagara-on-the-Lake, be sure to check out my detailed blog post <a href="https://jackiewyers.beauty/niagaraonthelakefoodguide" style={linkStyle}>here</a> for options outside of the hotel.
+  If you are interested in exploring more culinary delights and experiences in Niagara-on-the-Lake, be sure to check out my detailed blog post <a href="https://www.jackiewyers.beauty/niagaraonthelakefoodguide" style={linkStyle}>here</a> for options outside of the hotel.
 </p>
 
 
@@ -318,7 +318,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
             <h2 style={headingStyle}>Accessibility Note:</h2>
             <p style={paragraphStyle}>
-  Thank you for joining me to see the enchanting Prince of Wales Hotel. I’d love to hear about your experiences or any recommendations you might have! Feel free to leave a comment below or connect with me on <a href="https://www.instagram.com/jackiewyers/" style={linkStyle}>social media</a>. For more travel insights and adventures, stay tuned to my <a href="https://jackiewyers.beauty/blog" style={linkStyle}>blog</a> and <a href="https://www.youtube.com/@JackieWyers" style={linkStyle}>YouTube channel</a>!
+  Thank you for joining me to see the enchanting Prince of Wales Hotel. I’d love to hear about your experiences or any recommendations you might have! Feel free to leave a comment below or connect with me on <a href="https://www.instagram.com/jackiewyers/" style={linkStyle}>social media</a>. For more travel insights and adventures, stay tuned to my <a href="https://www.jackiewyers.beauty/blog" style={linkStyle}>blog</a> and <a href="https://www.youtube.com/@JackieWyers" style={linkStyle}>YouTube channel</a>!
 </p>
 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>

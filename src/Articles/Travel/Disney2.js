@@ -7,9 +7,9 @@ import ArticleTitle from '../../Components/ArticleTitle';
 import DropCap1 from './DropCap1';
 import SocialShare from '../../Home/SocialShare';
 
-const articleUrl = 'https://jackiewyers.beauty/epcot';
+const articleUrl = 'https://www.jackiewyers.beauty/epcot';
 const articleTitle = 'Epcot | Jackie Wyers';
-const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/Disney/Epcot/EPCOTTHUMBNAIL.jpeg';
+const articleImageUrl = 'https://www.jackiewyers.beauty/Images/Articles/Disney/Epcot/EPCOTTHUMBNAIL.jpeg';
 
 // Image imports
 const title = `${process.env.PUBLIC_URL}/Images/Articles/Disney/Epcot/epcottitle.png`;
@@ -136,7 +136,7 @@ fontStyle: 'italic',
     <div className="container">
  <Helmet>
   <title>My Magical Walt Disney World Experience!</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/epcot" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/epcot" />
 
   <meta 
     name="description" 
@@ -155,9 +155,9 @@ fontStyle: 'italic',
   />
   <meta 
     property="og:image" 
-    content="https://jackiewyers.beauty/Images/Articles/Disney/Epcot/EPCOTTHUMBNAIL.jpeg" 
+    content="https://www.jackiewyers.beauty/Images/Articles/Disney/Epcot/EPCOTTHUMBNAIL.jpeg" 
   />
-  <meta property="og:url" content="https://jackiewyers.beauty/epcot" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/epcot" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
@@ -169,7 +169,7 @@ fontStyle: 'italic',
   />
   <meta 
     name="twitter:image" 
-    content="https://jackiewyers.beauty/Images/Articles/Disney/Epcot/EPCOTTHUMBNAIL.jpeg" 
+    content="https://www.jackiewyers.beauty/Images/Articles/Disney/Epcot/EPCOTTHUMBNAIL.jpeg" 
   />
 
 
@@ -183,7 +183,7 @@ fontStyle: 'italic',
         "itemReviewed": {
           "@type": "LocalBusiness",
           "name": "Walt Disney World",
-          "image": "https://jackiewyers.beauty/Images/Articles/Disney/Epcot/EPCOTTHUMBNAIL.jpeg",
+          "image": "https://www.jackiewyers.beauty/Images/Articles/Disney/Epcot/EPCOTTHUMBNAIL.jpeg",
           "description": "Best of Epcot, Magic Kingdom and Animal Kingdom",
           "address": {
             "@type": "PostalAddress",
@@ -213,7 +213,7 @@ fontStyle: 'italic',
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jwlogo3.png"
+            "url": "https://www.jackiewyers.beauty/jwlogo3.png"
           }
         },
         "datePublished": "2024-07-27",

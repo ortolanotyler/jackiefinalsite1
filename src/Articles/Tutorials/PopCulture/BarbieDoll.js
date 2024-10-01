@@ -135,7 +135,7 @@ const BarbieDoll = () => {
     <div className="container">
 <Helmet>
   <title>Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/barbie-makeup-looks" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/barbie-makeup-looks" />
 
   <meta 
     name="description" 
@@ -154,9 +154,9 @@ const BarbieDoll = () => {
   />
   <meta 
     property="og:image" 
-    content="https://jackiewyers.beauty/Images/Articles/BarbieDoll/BarbieThumbnail.jpg" 
+    content="https://www.jackiewyers.beauty/Images/Articles/BarbieDoll/BarbieThumbnail.jpg" 
   />
-  <meta property="og:url" content="https://jackiewyers.beauty/barbie-makeup-looks" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/barbie-makeup-looks" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
@@ -167,7 +167,7 @@ const BarbieDoll = () => {
   />
   <meta 
     name="twitter:image" 
-    content="https://jackiewyers.beauty/Images/Articles/BarbieDoll/BarbieThumbnail.jpg" 
+    content="https://www.jackiewyers.beauty/Images/Articles/BarbieDoll/BarbieThumbnail.jpg" 
   />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -182,7 +182,7 @@ const BarbieDoll = () => {
         "@type": "BlogPosting",
         "headline": "Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll - Jackie Wyers",
         "description": "Explore iconic Barbie makeup looks with Jackie Wyers. Step-by-step tutorials inspired by Peaches ‘N Cream, Roller Skate, Malibu Barbie, and more for a vintage and modern twist.",
-        "image": "https://jackiewyers.beauty/Images/Articles/BarbieDoll/BarbieThumbnail.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/BarbieDoll/BarbieThumbnail.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -192,14 +192,14 @@ const BarbieDoll = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-09-23",
         "dateModified": "2024-09-23",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/barbie-makeup-looks"
+          "@id": "https://www.jackiewyers.beauty/barbie-makeup-looks"
         }
       }
     `}
@@ -223,9 +223,9 @@ Doll🎀"
 />
   
 <SocialShare 
-  url="https://jackiewyers.beauty/barbie-doll" 
+  url="https://www.jackiewyers.beauty/barbie-doll" 
   title="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/BarbieDoll/BarbieThumbnail.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/BarbieDoll/BarbieThumbnail.jpg" 
 />
 
 <div style={{ position: 'relative', display: 'inline-block' }}>
@@ -234,7 +234,7 @@ Doll🎀"
     alt="Jackie Wyers as Peaches ’N Cream Barbie" 
     style={imageStyle} 
     data-pin-nopin="false" 
-    data-pin-url="https://jackiewyers.beauty/barbie-doll"
+    data-pin-url="https://www.jackiewyers.beauty/barbie-doll"
   />
   <img 
     src={pinterest}
@@ -250,7 +250,7 @@ Doll🎀"
   transition: 'opacity 0.3s',
   zIndex: 1000, // Add this line
 }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/barbie-doll&media=https://jackiewyers.beauty/Images/Articles/BarbieDoll/1.JPG&description=Jackie Wyers as Peaches ’N Cream Barbie')}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/barbie-doll&media=https://www.jackiewyers.beauty/Images/Articles/BarbieDoll/1.JPG&description=Jackie Wyers as Peaches ’N Cream Barbie')}
     onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
@@ -299,7 +299,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
     alt="Jackie Wyers as Peaches ’N Cream Barbie Makeup" 
     style={imageStyle} 
     data-pin-nopin="false" 
-    data-pin-url="https://jackiewyers.beauty/barbie-doll"
+    data-pin-url="https://www.jackiewyers.beauty/barbie-doll"
   />
   <img 
     src={pinterest}
@@ -315,7 +315,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
   transition: 'opacity 0.3s',
   zIndex: 1000, // Add this line
 }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/barbie-doll&media=https://jackiewyers.beauty/Images/Articles/BarbieDoll/2.JPG&description=Jackie Wyers as Peaches ’N Cream Barbie Makeup')}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/barbie-doll&media=https://www.jackiewyers.beauty/Images/Articles/BarbieDoll/2.JPG&description=Jackie Wyers as Peaches ’N Cream Barbie Makeup')}
     onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
@@ -360,7 +360,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
     alt="Jackie Wyers as Roller Skate Barbie" 
     style={imageStyle} 
     data-pin-nopin="false" 
-    data-pin-url="https://jackiewyers.beauty/barbie-doll"
+    data-pin-url="https://www.jackiewyers.beauty/barbie-doll"
   />
   <img 
     src={pinterest}
@@ -376,7 +376,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
   transition: 'opacity 0.3s',
   zIndex: 1000, // Add this line
 }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/barbie-doll&media=https://jackiewyers.beauty/Images/Articles/BarbieDoll/3.JPG&description=Jackie Wyers as Roller Skate Barbie')}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/barbie-doll&media=https://www.jackiewyers.beauty/Images/Articles/BarbieDoll/3.JPG&description=Jackie Wyers as Roller Skate Barbie')}
     onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
@@ -391,7 +391,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
 
 
 <p style={captionStyle}>
-  Full Article and Makeup Breakdown can be found <a href="https://jackiewyers.beauty/margotbarbie" style={linkStyle}>here</a>.
+  Full Article and Makeup Breakdown can be found <a href="https://www.jackiewyers.beauty/margotbarbie" style={linkStyle}>here</a>.
 </p>
 
 <h2 style={heading2Style}>
@@ -425,7 +425,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
     alt="Jackie Wyers as Cherry Pie Picnic Barbie" 
     style={imageStyle} 
     data-pin-nopin="false" 
-    data-pin-url="https://jackiewyers.beauty/barbie-doll"
+    data-pin-url="https://www.jackiewyers.beauty/barbie-doll"
   />
   <img 
     src={pinterest}
@@ -441,7 +441,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
   transition: 'opacity 0.3s',
   zIndex: 1000, // Add this line
 }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/barbie-doll&media=https://jackiewyers.beauty/Images/Articles/BarbieDoll/4.JPG&description=Jackie Wyers as Cherry Pie Picnic Barbie')}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/barbie-doll&media=https://www.jackiewyers.beauty/Images/Articles/BarbieDoll/4.JPG&description=Jackie Wyers as Cherry Pie Picnic Barbie')}
     onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
@@ -495,7 +495,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
     alt="Jackie Wyers styled as Brunette Barbie from The Barbie Movie" 
     style={imageStyle} 
     data-pin-nopin="false" 
-    data-pin-url="https://jackiewyers.beauty/barbie-doll"
+    data-pin-url="https://www.jackiewyers.beauty/barbie-doll"
   />
   <img 
     src={pinterest}
@@ -511,7 +511,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
   transition: 'opacity 0.3s',
   zIndex: 1000, // Add this line
 }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/barbie-doll&media=https://jackiewyers.beauty/Images/Articles/BarbieDoll/5.JPG&description=Jackie Wyers styled as Brunette Barbie from The Barbie Movie')}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/barbie-doll&media=https://www.jackiewyers.beauty/Images/Articles/BarbieDoll/5.JPG&description=Jackie Wyers styled as Brunette Barbie from The Barbie Movie')}
     onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
@@ -553,7 +553,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
     alt="Jackie Wyers trying Barbie AI Movie Poster as Malibu Barbie" 
     style={imageStyle} 
     data-pin-nopin="false" 
-    data-pin-url="https://jackiewyers.beauty/barbie-doll"
+    data-pin-url="https://www.jackiewyers.beauty/barbie-doll"
   />
   <img 
     src={pinterest}
@@ -569,7 +569,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
   transition: 'opacity 0.3s',
   zIndex: 1000, // Add this line
 }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/barbie-doll&media=https://jackiewyers.beauty/Images/Articles/BarbieDoll/6.jpeg&description=Jackie Wyers trying Barbie AI Movie Poster as Malibu Barbie')}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/barbie-doll&media=https://www.jackiewyers.beauty/Images/Articles/BarbieDoll/6.jpeg&description=Jackie Wyers trying Barbie AI Movie Poster as Malibu Barbie')}
     onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
@@ -615,7 +615,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
     alt="Jackie Wyers as original 50s Barbie" 
     style={imageStyle} 
     data-pin-nopin="false" 
-    data-pin-url="https://jackiewyers.beauty/barbie-doll"
+    data-pin-url="https://www.jackiewyers.beauty/barbie-doll"
   />
   <img 
     src={pinterest}
@@ -631,7 +631,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
   transition: 'opacity 0.3s',
   zIndex: 1000, // Add this line
 }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/barbie-doll&media=https://jackiewyers.beauty/Images/Articles/BarbieDoll/7.JPG&description=Jackie Wyers as original 50s Barbie')}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/barbie-doll&media=https://www.jackiewyers.beauty/Images/Articles/BarbieDoll/7.JPG&description=Jackie Wyers as original 50s Barbie')}
     onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
@@ -643,7 +643,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
     alt="Jackie Wyers as original 50s Barbie Black and White Chevron Bathing suit" 
     style={imageStyle} 
     data-pin-nopin="false" 
-    data-pin-url="https://jackiewyers.beauty/barbie-doll"
+    data-pin-url="https://www.jackiewyers.beauty/barbie-doll"
   />
   <img 
     src={pinterest}
@@ -659,7 +659,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
   transition: 'opacity 0.3s',
   zIndex: 1000, // Add this line
 }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/barbie-doll&media=https://jackiewyers.beauty/Images/Articles/BarbieDoll/8.jpeg&description=Jackie Wyers as original 50s Barbie Black and White Chevron Bathing suit')}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/barbie-doll&media=https://www.jackiewyers.beauty/Images/Articles/BarbieDoll/8.jpeg&description=Jackie Wyers as original 50s Barbie Black and White Chevron Bathing suit')}
     onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />

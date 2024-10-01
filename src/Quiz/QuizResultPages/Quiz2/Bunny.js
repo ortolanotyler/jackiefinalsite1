@@ -107,7 +107,7 @@ const BunnyPretty = () => {
     <div className={styles.container}>
     <Helmet>
   <title>Bunny Pretty | Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/bunnypretty" />
+  <link rel="canonical" href="https://www.www.jackiewyers.beauty/bunnypretty" />
 
   <meta 
     name="description" 
@@ -126,9 +126,9 @@ const BunnyPretty = () => {
   />
   <meta 
     property="og:image" 
-    content="https://jackiewyers.beauty/Images/Articles/AnimalPretty/BunnyPretty.JPG" 
+    content="https://www.jackiewyers.beauty/Images/Articles/AnimalPretty/BunnyPretty.JPG" 
   />
-  <meta property="og:url" content="https://jackiewyers.beauty/bunnypretty" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/bunnypretty" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
@@ -139,7 +139,7 @@ const BunnyPretty = () => {
   />
   <meta 
     name="twitter:image" 
-    content="https://jackiewyers.beauty/Images/Articles/AnimalPretty/BunnyPretty.JPG" 
+    content="https://www.jackiewyers.beauty/Images/Articles/AnimalPretty/BunnyPretty.JPG" 
   />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -155,7 +155,7 @@ const BunnyPretty = () => {
         "@type": "BlogPosting",
         "headline": "Bunny Pretty | What Animal Pretty Are you?",
         "description": "Discover how to achieve the Bunny Pretty look with our detailed guide. Embrace soft pastels and cute styles to capture the essence of the playful bunny.",
-        "image": "https://jackiewyers.beauty/Images/Articles/AnimalPretty/BunnyPretty.JPG",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/AnimalPretty/BunnyPretty.JPG",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -165,14 +165,14 @@ const BunnyPretty = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-09-25",
         "dateModified": "2024-09-25",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/bunnypretty"
+          "@id": "https://www.jackiewyers.beauty/bunnypretty"
         }
       }
     `}

@@ -123,7 +123,7 @@ const BarbieRoundup = () => {
     <div className="container">
 <Helmet>
   <title>Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 </title>
-  <link rel="canonical" href="https://jackiewyers.beauty/barbie-roundup" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/barbie-roundup" />
 
   <meta 
     name="description" 
@@ -142,9 +142,9 @@ const BarbieRoundup = () => {
   />
   <meta 
     property="og:image" 
-    content="https://jackiewyers.beauty/Images/BarbieRoundup/BarbieCollabsThumbnail.jpg" 
+    content="https://www.jackiewyers.beauty/Images/BarbieRoundup/BarbieCollabsThumbnail.jpg" 
   />
-  <meta property="og:url" content="https://jackiewyers.beauty/barbie-roundup" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/barbie-roundup" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
@@ -155,7 +155,7 @@ const BarbieRoundup = () => {
   />
   <meta 
     name="twitter:image" 
-    content="https://jackiewyers.beauty/Images/BarbieRoundup/BarbieCollabsThumbnail.jpg" 
+    content="https://www.jackiewyers.beauty/Images/BarbieRoundup/BarbieCollabsThumbnail.jpg" 
   />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -170,7 +170,7 @@ const BarbieRoundup = () => {
         "@type": "BlogPosting",
         "headline": "Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀 ",
         "description": "Discover the best Barbie-inspired products and collectibles for adult fans in 2024. Explore iconic collaborations and must-have items curated by Jackie Wyers.",
-        "image": "https://jackiewyers.beauty/Images/BarbieRoundup/BarbieCollabsThumbnail.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/BarbieRoundup/BarbieCollabsThumbnail.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -180,14 +180,14 @@ const BarbieRoundup = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-09-23",
         "dateModified": "2024-09-24",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/barbie-roundup"
+          "@id": "https://www.jackiewyers.beauty/barbie-roundup"
         }
       }
     `}
@@ -213,9 +213,9 @@ Wishlist"
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/barbie-roundup" 
+  url="https://www.jackiewyers.beauty/barbie-roundup" 
   title="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀" 
-  imageUrl="https://jackiewyers.beauty/Images/BarbieRoundup/BarbieCollabsThumbnail.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/BarbieRoundup/BarbieCollabsThumbnail.jpg" 
 />
 
   <img src={image1} alt="Best of Barbie Collab Products Flatlay" style={imageStyle} />

@@ -98,7 +98,7 @@ const FoxPretty = () => {
     <div className={styles.container}>
 <Helmet>
   <title>Fox Pretty | What Animal Pretty Are You?</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/foxpretty" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/foxpretty" />
 
   <meta 
     name="description" 
@@ -117,9 +117,9 @@ const FoxPretty = () => {
   />
   <meta 
     property="og:image" 
-    content="https://jackiewyers.beauty/Images/Articles/AnimalPretty/FoxTitleResults.png" 
+    content="https://www.jackiewyers.beauty/Images/Articles/AnimalPretty/FoxTitleResults.png" 
   />
-  <meta property="og:url" content="https://jackiewyers.beauty/foxpretty" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/foxpretty" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
@@ -130,7 +130,7 @@ const FoxPretty = () => {
   />
   <meta 
     name="twitter:image" 
-    content="https://jackiewyers.beauty/Images/Articles/AnimalPretty/FoxTitleResults.png" 
+    content="https://www.jackiewyers.beauty/Images/Articles/AnimalPretty/FoxTitleResults.png" 
   />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -144,7 +144,7 @@ const FoxPretty = () => {
         "@type": "BlogPosting",
         "headline": "Fox Pretty | What Animal Pretty Are You?",
         "description": "Discover how to achieve the Fox Pretty look with our detailed guide. Embrace earthy tones and a bohemian style to capture the essence of the whimsical fox.",
-        "image": "https://jackiewyers.beauty/Images/Articles/AnimalPretty/FoxTitleResults.png",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/AnimalPretty/FoxTitleResults.png",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -154,14 +154,14 @@ const FoxPretty = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-08-09",
         "dateModified": "2024-08-09",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/foxpretty"
+          "@id": "https://www.jackiewyers.beauty/foxpretty"
         }
       }
     `}

@@ -7,9 +7,9 @@ import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 import SocialShare from '../../Home/SocialShare';
 
-const articleUrl = 'https://jackiewyers.beauty/hotelQ';
+const articleUrl = 'https://www.jackiewyers.beauty/hotelQ';
 const articleTitle = 'Hotel Quintessence, Mont Tremblant Review';
-const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/HotelQ/HOTELQTHUMBNAIL.jpeg';
+const articleImageUrl = 'https://www.jackiewyers.beauty/Images/Articles/HotelQ/HOTELQTHUMBNAIL.jpeg';
 
 
 const images = [
@@ -136,20 +136,20 @@ const HotelQ = () => {
     <div className="container">
    <Helmet>
   <title>Hotel Quintessance, Mont Tremblant Review </title>
-  <link rel="canonical" href="https://jackiewyers.beauty/hotelQ" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/hotelQ" />
 
   <meta name="description" content="A" />
   <meta name="keywords" content="Hotel Quintessence, Mont Tremblant, Luxury Hotel, Quebec Travel, Jackie Wyers, Hotel Review, Boutique Hotel, Travel Guide, Hotel Amenities, Romantic Getaway, Ski Resort, Lake Tremblant, spa services, La Quintessence Restaurant, private dock, lakeside serenity, Mont Tremblant attractions, luxury escape, anniversary getaway, exclusive experiences" />
 
   <meta property="og:title" content="Hotel Quintessance, Mont Tremblant Review " />
   <meta property="og:description" content="A" />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/HotelQ/HOTELQTHUMBNAIL.jpeg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/hotelQ" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/HotelQ/HOTELQTHUMBNAIL.jpeg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/hotelQ" />
   <meta property="og:type" content="article" />
 
   <meta name="twitter:title" content="Hotel Quintessance, Mont Tremblant Review " />
   <meta name="twitter:description" content="A" />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/HotelQ/HOTELQTHUMBNAIL.jpeg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/HotelQ/HOTELQTHUMBNAIL.jpeg" />
   <meta name="twitter:card" content="summary_large_image" />
 
   {/* JSON-LD Structured Data */}
@@ -160,7 +160,7 @@ const HotelQ = () => {
         "@type": "BlogPosting",
         "headline": "Hotel Quintessance, Mont Tremblant Review ",
         "description": "A",
-        "image": "https://jackiewyers.beauty/Images/Articles/HotelQ/16.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/HotelQ/16.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -170,14 +170,14 @@ const HotelQ = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jw3logo.png"
+            "url": "https://www.jackiewyers.beauty/jw3logo.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/hotelQ"
+          "@id": "https://www.jackiewyers.beauty/hotelQ"
         }
       }
     `}

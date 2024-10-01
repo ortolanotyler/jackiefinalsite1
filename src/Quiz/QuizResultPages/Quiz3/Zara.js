@@ -123,7 +123,7 @@ const Zara = () => {
   <meta property="og:title" content="Jackie Wyers Wedding - Zara Wedding Dress" />
   <meta property="og:description" content="Is the Zara dress for you? Take the quiz to find out!" />
   <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/zaratitle.png`} />
-  <meta property="og:url" content="https://jackiewyers.beauty/zara" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/zara" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Jackie Wyers Wedding - Zara Wedding Dress" />
   <meta name="twitter:description" content="Is the Zara dress for you? Take the quiz to find out!" />

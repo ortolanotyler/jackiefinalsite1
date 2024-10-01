@@ -109,19 +109,19 @@ const BalkeBlog = () => {
 
 <Helmet>
   <title>Iconic 60s Makeup Tutorial</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/balkeblog" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/balkeblog" />
 
   <meta name="description" content="Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell." />
   <meta name="keywords" content="Ina Balke makeup, 1960s makeup tutorial, vintage makeup, Jackie Wyers makeup tutorial, Ted Russell photography, 60s beauty, classic makeup looks, retro makeup, Ina Balke style, how to do 60s makeup, vintage beauty, Jackie Wyers tutorials, vintage glamour, old Hollywood makeup, vintage hair and makeup, classic 60s style, iconic makeup looks" />
 
   <meta property="og:title" content="Iconic 60s Makeup Tutorial" />
   <meta property="og:description" content="Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/Balke/BALKETHUMBNAIL.jpeg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/balkeblog" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/Balke/BALKETHUMBNAIL.jpeg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/balkeblog" />
 
   <meta name="twitter:title" content="Iconic 60s Makeup Tutorial" />
   <meta name="twitter:description" content="Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Balke/BALKETHUMBNAIL.jpeg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/Balke/BALKETHUMBNAIL.jpeg" />
   <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -136,7 +136,7 @@ const BalkeBlog = () => {
         "@type": "BlogPosting",
         "headline": "Iconic 60s Makeup Tutorial",
         "description": "Step-by-step guide on how to recreate the 1960s makeup and styling of model Ina Balke, as seen in the iconic photograph by Ted Russell.",
-        "image": "https://jackiewyers.beauty/Images/Articles/Balke/BalkeThumbnail.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/Balke/BalkeThumbnail.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -146,14 +146,14 @@ const BalkeBlog = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jw3logo.png"
+            "url": "https://www.jackiewyers.beauty/jw3logo.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/balkeblog"
+          "@id": "https://www.jackiewyers.beauty/balkeblog"
         }
       }
     `}
@@ -175,9 +175,9 @@ const BalkeBlog = () => {
   publishDate="Feb 20th, 2024"
 />
 <SocialShare 
-  url="https://jackiewyers.beauty/balkeblog" 
+  url="https://www.jackiewyers.beauty/balkeblog" 
   title="Iconic 60s Makeup Tutorial" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/Balke/BALKETHUMBNAIL.jpeg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/Balke/BALKETHUMBNAIL.jpeg" 
 />
 
 

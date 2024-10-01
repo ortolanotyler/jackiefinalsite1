@@ -124,9 +124,9 @@ const LanaBlog = () => {
     <meta name="keywords" content="Lana Del Rey, SKIMS, Makeup Tutorial, Jackie Wyers, Beauty Blog, Coquette Style, 60s Glamour, Romantic Makeup, Vintage Beauty, Soft Glam Makeup, 1960s Inspired Makeup, Celebrity Makeup Tutorial, Valentine's Day Look, Lana Del Rey Aesthetic, Retro Makeup, Dewy Skin, Peach Blush, Ombre Lips, Glamorous Eye Makeup, Nude Lipstick, Beauty Influencer, SKIMS Dress, Nadia Lee Cohen Photography, Etienne Ortega Makeup, Cut Crease Eyeshadow, Peachy Makeup, Lana Del Rey Inspired Look, Cherub Makeup, Cupid Aesthetic, Soft Glam Tutorial, Dewy Skin Tutorial, Retro Glamour, Modern Coquette Makeup, Skims Collection, Lana Del Rey Fashion, Blushing Ombre Lips, Romantic Beauty, Vintage Glam, Classic Glam Makeup, Fashion Influencer, SKIMS x Lana Del Rey, Cherry Blossom Dress, Nude Makeup, Classic 60s Makeup, Beauty Tips, Jackie Wyers Tutorial" />    <meta property="og:title" content="Lana Del Rey SKIMS Makeup Tutorial - Jackie Wyers" />
     <meta property="og:description" content="Explore Jackie Wyers' Lana Del Rey SKIMS Makeup Tutorial. Recreate Lana's look with step-by-step guidance, featuring top beauty products and style tips." />
     <meta property="og:image" content={title} />
-    <link rel="canonical" href="https://jackiewyers.beauty/lanablog" />
+    <link rel="canonical" href="https://www.jackiewyers.beauty/lanablog" />
 
-    <meta property="og:url" content="https://jackiewyers.beauty/lanablog" />
+    <meta property="og:url" content="https://www.jackiewyers.beauty/lanablog" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Lana Del Rey SKIMS Makeup Tutorial - Jackie Wyers" />
     <meta name="twitter:description" content="Explore Jackie Wyers' Lana Del Rey SKIMS Makeup Tutorial. Recreate Lana's look with step-by-step guidance, featuring top beauty products and style tips." />
@@ -138,11 +138,11 @@ const LanaBlog = () => {
         "@type": "Article",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://jackiewyers.beauty/lanablog"
+            "@id": "https://www.jackiewyers.beauty/lanablog"
         },
         "headline": "Lana Del Rey SKIMS Makeup Tutorial - Jackie Wyers",
         "description": "Explore Jackie Wyers' Lana Del Rey SKIMS Makeup Tutorial. Recreate Lana's look with step-by-step guidance, featuring top beauty products and style tips.",
-        "image": "https://jackiewyers.beauty/jw3logo.png", 
+        "image": "https://www.jackiewyers.beauty/jw3logo.png", 
         "author": {
             "@type": "Person",
             "name": "Jackie Wyers"
@@ -152,7 +152,7 @@ const LanaBlog = () => {
             "name": "Jackie Wyers",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://jackiewyers.beauty/jw3logo.png"
+                "url": "https://www.jackiewyers.beauty/jw3logo.png"
             }
         },
         "datePublished": "2024-07-27",
@@ -178,9 +178,9 @@ const LanaBlog = () => {
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/lanablog" 
+  url="https://www.jackiewyers.beauty/lanablog" 
   title="Lana Del Rey SKIMS Makeup Tutorial - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/LanaXskims/LanaTitle.png" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/LanaXskims/LanaTitle.png" 
 />
 
 

@@ -100,7 +100,7 @@ const CatPretty = () => {
  
    <Helmet>
   <title>Cat Pretty | What animal pretty are you?</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/catpretty" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/catpretty" />
 
   <meta 
     name="description" 
@@ -119,9 +119,9 @@ const CatPretty = () => {
   />
   <meta 
     property="og:image" 
-    content="https://jackiewyers.beauty/Images/Articles/AnimalPretty/FinalCat.jpg" 
+    content="https://www.jackiewyers.beauty/Images/Articles/AnimalPretty/FinalCat.jpg" 
   />
-  <meta property="og:url" content="https://jackiewyers.beauty/catpretty" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/catpretty" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
@@ -132,7 +132,7 @@ const CatPretty = () => {
   />
   <meta 
     name="twitter:image" 
-    content="https://jackiewyers.beauty/Images/Articles/AnimalPretty/FinalCat.jpg" 
+    content="https://www.jackiewyers.beauty/Images/Articles/AnimalPretty/FinalCat.jpg" 
   />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -147,7 +147,7 @@ const CatPretty = () => {
         "@type": "BlogPosting",
         "headline": "Cat Pretty | Jackie Wyers",
         "description": "Discover how to achieve the Cat Pretty look with our detailed guide. Embrace bold, dramatic styles to capture the essence of the fierce and confident feline.",
-        "image": "https://jackiewyers.beauty/Images/Articles/AnimalPretty/FinalCat.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/AnimalPretty/FinalCat.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -157,14 +157,14 @@ const CatPretty = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-09-25",
         "dateModified": "2024-09-25",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/catpretty"
+          "@id": "https://www.jackiewyers.beauty/catpretty"
         }
       }
     `}

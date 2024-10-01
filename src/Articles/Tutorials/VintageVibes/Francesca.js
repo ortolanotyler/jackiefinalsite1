@@ -123,19 +123,19 @@ const Card = ({ blogContent }) => (
     <div className="container">
  <Helmet>
   <title>Francesca Bridgerton Makeup, Hair, and Dress - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/francesca-bridgerton" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/francesca-bridgerton" />
 
   <meta name="description" content="Step-by-step guide on how to recreate Francesca Bridgerton's soft, romantic makeup look from Bridgerton Season 3, with hair and dress tips for a modern Regency-era look by Jackie Wyers." />
   <meta name="keywords" content="Francesca Bridgerton makeup, Bridgerton Season 3 beauty, Regency hair tutorials, Bridgerton hairstyles, Francesca makeup tutorial, modern Regency style, Bridgerton fashion, auburn hair makeup tips, Jackie Wyers makeup tutorials, period drama makeup, Bridgerton fashion guide, romantic beauty looks, vintage makeup tutorials, Jackie Wyers beauty blog, Bridgerton beauty inspiration" />
 
   <meta property="og:title" content="Francesca Bridgerton Makeup, Hair, and Dress - Jackie Wyers" />
   <meta property="og:description" content="Learn how to achieve Francesca Bridgerton's makeup, hair, and style from Bridgerton Season 3, inspired by the modern Regency era. Step-by-step breakdown by Jackie Wyers." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/Francesca/FrancescaThumb.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/francesca-bridgerton" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/Francesca/FrancescaThumb.jpg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/francesca-bridgerton" />
 
   <meta name="twitter:title" content="Francesca Bridgerton Makeup, Hair, and Dress - Jackie Wyers" />
   <meta name="twitter:description" content="A detailed tutorial by Jackie Wyers on recreating Francesca Bridgerton's signature beauty look from Bridgerton Season 3." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Francesca/FrancescaThumb.jpg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/Francesca/FrancescaThumb.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
   {/* JSON-LD Structured Data */}
@@ -146,7 +146,7 @@ const Card = ({ blogContent }) => (
         "@type": "BlogPosting",
         "headline": "Francesca Bridgerton Makeup, Hair, and Dress - Jackie Wyers",
         "description": "Recreate Francesca Bridgerton's iconic look from Bridgerton Season 3 with makeup, hair, and fashion tips by Jackie Wyers.",
-        "image": "https://jackiewyers.beauty/Images/Articles/Francesca/FrancescaThumb.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/Francesca/FrancescaThumb.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -156,14 +156,14 @@ const Card = ({ blogContent }) => (
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/francesca-bridgerton"
+          "@id": "https://www.jackiewyers.beauty/francesca-bridgerton"
         }
       }
     `}
@@ -185,9 +185,9 @@ const Card = ({ blogContent }) => (
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/francesca-bridgerton" 
+  url="https://www.jackiewyers.beauty/francesca-bridgerton" 
   title="Francesca Bridgerton Makeup, Hair, and Dress - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/Francesca/FrancescaThumb.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/Francesca/FrancescaThumb.jpg" 
 />
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/Bkt-bffs_aQ?si=4KfZAeGRqPEGLR8A" title="FRANCESCA BRIDGERTON inspired makeup tutorial jackie wyers" />

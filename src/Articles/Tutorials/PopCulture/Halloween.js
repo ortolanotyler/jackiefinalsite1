@@ -120,19 +120,19 @@ const captionStyle = {
     <div className="container">
 <Helmet>
   <title>Girly Pop Culture Halloween Costume Ideas 2024 🎀</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/girly-pop-halloween" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/girly-pop-halloween" />
 
   <meta name="description" content="Explore the best Halloween costume ideas for 2024 inspired by iconic pop culture figures like Britney, Barbie, and Bridgerton with Jackie Wyers." />
   <meta name="keywords" content="Halloween costumes, Britney Spears costume, Barbie movie costume, Bridgerton costume, girly Halloween ideas, pop culture Halloween, vintage makeup tutorials, Jackie Wyers, Halloween 2024, costume inspiration, Halloween makeup, 90s costume, DIY costumes, celebrity costumes, beauty tutorials, pop culture looks, Sabrina Carpenter makeup, retro hairstyles, iconic styles, Halloween trends, costume ideas, vintage vibes, Bridgerton looks, Barbiecore, 1960s makeup, Halloween styling tips" />
 
   <meta property="og:title" content="Girly Pop Culture Halloween Costume Ideas 2024 🎀" />
   <meta property="og:description" content="Explore the best Halloween costume ideas for 2024 inspired by iconic pop culture figures like Britney, Barbie, and Bridgerton with Jackie Wyers." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/Halloween/HalloweenThumbnail.png" />
-  <meta property="og:url" content="https://jackiewyers.beauty/girly-pop-halloween" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/Halloween/HalloweenThumbnail.png" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/girly-pop-halloween" />
 
   <meta name="twitter:title" content="Girly Pop Culture Halloween Costume Ideas 2024 🎀" />
   <meta name="twitter:description" content="Explore the best Halloween costume ideas for 2024 inspired by iconic pop culture figures like Britney, Barbie, and Bridgerton with Jackie Wyers." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Halloween/HalloweenThumbnail.png" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/Halloween/HalloweenThumbnail.png" />
   <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -144,7 +144,7 @@ const captionStyle = {
         "@type": "BlogPosting",
         "headline": "Girly Pop Culture Halloween Costume Ideas 2024 🎀",
         "description": "Explore the best Halloween costume ideas for 2024 inspired by iconic pop culture figures like Britney, Barbie, and Bridgerton with Jackie Wyers.",
-        "image": "https://jackiewyers.beauty/Images/Articles/Halloween/HalloweenThumbnail.png",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/Halloween/HalloweenThumbnail.png",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -154,14 +154,14 @@ const captionStyle = {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/girly-pop-halloween"
+          "@id": "https://www.jackiewyers.beauty/girly-pop-halloween"
         }
       }
     `}
@@ -186,9 +186,9 @@ Costume Ideas 2024🎀"
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/girly-pop-halloween" 
+  url="https://www.jackiewyers.beauty/girly-pop-halloween" 
   title="Girly Pop Culture Halloween Costume Ideas 2024 🎀" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/Halloween/HalloweenThumbnail.png" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/Halloween/HalloweenThumbnail.png" 
 />
 
 

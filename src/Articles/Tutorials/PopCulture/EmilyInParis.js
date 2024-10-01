@@ -125,7 +125,7 @@ const EmilyInParis = () => {
     <div className="container">
 <Helmet>
   <title>Emily in Paris Style Evolution: Iconic Outfits, Makeup, Hair</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/emily-in-paris" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/emily-in-paris" />
 
   <meta 
     name="description" 
@@ -144,9 +144,9 @@ const EmilyInParis = () => {
   />
   <meta 
     property="og:image" 
-    content="https://jackiewyers.beauty/Images/Articles/EmilyInParis/emilytitle.png" 
+    content="https://www.jackiewyers.beauty/Images/Articles/EmilyInParis/emilytitle.png" 
   />
-  <meta property="og:url" content="https://jackiewyers.beauty/emily-in-paris" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/emily-in-paris" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
@@ -157,7 +157,7 @@ const EmilyInParis = () => {
   />
   <meta 
     name="twitter:image" 
-    content="https://jackiewyers.beauty/Images/Articles/EmilyInParis/emilytitle.png" 
+    content="https://www.jackiewyers.beauty/Images/Articles/EmilyInParis/emilytitle.png" 
   />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -170,7 +170,7 @@ const EmilyInParis = () => {
         "@type": "BlogPosting",
         "headline": "Emily in Paris Style Evolution: Makeup, Hair, and Fashion Recap - Jackie Wyers",
         "description": "Explore the style evolution of Emily Cooper from Emily in Paris. Discover iconic fashion, makeup, and hair moments from the series.",
-        "image": "https://jackiewyers.beauty/Images/Articles/EmilyInParis/emilytitle.png",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/EmilyInParis/emilytitle.png",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -180,14 +180,14 @@ const EmilyInParis = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jw3logo.png"
+            "url": "https://www.jackiewyers.beauty/jw3logo.png"
           }
         },
         "datePublished": "2024-08-13",
         "dateModified": "2024-08-13",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/emily-in-paris"
+          "@id": "https://www.jackiewyers.beauty/emily-in-paris"
         }
       }
     `}
@@ -209,9 +209,9 @@ const EmilyInParis = () => {
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/emily-in-paris" 
+  url="https://www.jackiewyers.beauty/emily-in-paris" 
   title="Emily in Paris Style Evolution: Makeup, Hair, and Fashion Recap - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/EmilyInParis/emilyinparis.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/EmilyInParis/emilyinparis.jpg" 
 />
 
 

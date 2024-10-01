@@ -74,11 +74,11 @@ const TrendsHome = () => {
   <meta name="keywords" content="Makeup Tutorials, Trending Makeup, Jackie Wyers, Latte Makeup, Porcelain Doll Makeup, Bridal Makeup, 2016 Makeup, Sugar Plum Fairy Makeup, Viral Makeup" />
   <meta property="og:title" content="Trending Makeup Tutorials - Jackie Wyers" />
   <meta property="og:description" content="Explore trending makeup tutorials by Jackie Wyers, including looks like Viral Latte Makeup, Pat McGrath's Porcelain Doll, and more." />
-  <meta property="og:image" content={`https://jackiewyers.beauty/Images/Articles/SugarPlumFairy/SugarPlumFairyTitle.png`} />
+  <meta property="og:image" content={`https://www.jackiewyers.beauty/Images/Articles/SugarPlumFairy/SugarPlumFairyTitle.png`} />
   <meta property="og:url" content={window.location.href} />
   <meta name="twitter:title" content="Trending Makeup Tutorials - Jackie Wyers" />
   <meta name="twitter:description" content="Explore trending makeup tutorials by Jackie Wyers, including looks like Viral Latte Makeup, Pat McGrath's Porcelain Doll, and more." />
-  <meta name="twitter:image" content={`https://jackiewyers.beauty/Images/Articles/SugarPlumFairy/SugarPlumFairyTitle.png`} />
+  <meta name="twitter:image" content={`https://www.jackiewyers.beauty/Images/Articles/SugarPlumFairy/SugarPlumFairyTitle.png`} />
   <meta name="twitter:card" content="summary_large_image" />
   <script type="application/ld+json">
     {`
@@ -87,7 +87,7 @@ const TrendsHome = () => {
         "@type": "WebPage",
         "headline": "Trending Makeup Tutorials - Jackie Wyers",
         "description": "Explore trending makeup tutorials by Jackie Wyers, including looks like Viral Latte Makeup, Pat McGrath's Porcelain Doll, and more.",
-        "image": "https://jackiewyers.beauty/Images/Articles/SugarPlumFairy/SugarPlumFairyTitle.png",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/SugarPlumFairy/SugarPlumFairyTitle.png",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -97,9 +97,9 @@ const TrendsHome = () => {
           "name": "Jackie Wyers",
           "logo": {
             "@type": "ImageObject",
-                        "url": "https://jackiewyers.beauty/jwlogo3.png"
+                        "url": "https://www.jackiewyers.beauty/jwlogo3.png"
 
-            "url": "https://jackiewyers.beauty/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg"
+            "url": "https://www.jackiewyers.beauty/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg"
           }
         },
         "datePublished": "2024-07-27",

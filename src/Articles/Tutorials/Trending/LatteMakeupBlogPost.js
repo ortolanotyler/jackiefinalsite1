@@ -122,19 +122,19 @@ const Card = ({ blogContent }) => (
     <div className="container">
    <Helmet>
   <title>Trend Report: How to Get The Latte Makeup Look - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/lattemakeup" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/lattemakeup" />
 
   <meta name="description" content="Learn how to master the trending Latte Makeup look with Jackie Wyers. This guide covers everything from tanned and natural bases to bronzed eyes for a cozy fall makeup vibe." />
   <meta name="keywords" content="Latte Makeup, Jackie Wyers, Makeup Tutorial, Fall Makeup Trends, Beauty Tips, Warm Toned Makeup, Tanielle Jai Makeup, Smokey Eye, Faux Freckles, Caramel Makeup, Contouring, Highlighting, Bronzer, Latte Beauty, Makeup Artist Tips, '90s Makeup, No Foundation Makeup, Glowy Skin, Makeup Techniques, Fall Beauty, Makeup for Warm Skin Tones" />
 
   <meta property="og:title" content="Latte Makeup Tutorial - Jackie Wyers" />
   <meta property="og:description" content="Learn how to master the trending Latte Makeup look with Jackie Wyers. This guide covers everything from tanned and natural bases to bronzed eyes for a cozy fall makeup vibe." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/LatteMakeup/LatteThumbnail.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/lattemakeup" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/LatteMakeup/LatteThumbnail.jpg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/lattemakeup" />
 
   <meta name="twitter:title" content="Latte Makeup Tutorial - Jackie Wyers" />
   <meta name="twitter:description" content="Learn how to master the trending Latte Makeup look with Jackie Wyers. This guide covers everything from tanned and natural bases to bronzed eyes for a cozy fall makeup vibe." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/LatteMakeup/LatteThumbnail.jpg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/LatteMakeup/LatteThumbnail.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -147,7 +147,7 @@ const Card = ({ blogContent }) => (
         "@type": "BlogPosting",
         "headline": "Latte Makeup Tutorial - Jackie Wyers",
         "description": "Learn how to master the trending Latte Makeup look with Jackie Wyers. This guide covers everything from tanned and natural bases to bronzed eyes for a cozy fall makeup vibe.",
-        "image": "https://jackiewyers.beauty/Images/Articles/LatteMakeup/LatteThumbnail.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/LatteMakeup/LatteThumbnail.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -157,14 +157,14 @@ const Card = ({ blogContent }) => (
           "name": "Jackie Wyers",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/lattemakeup"
+          "@id": "https://www.jackiewyers.beauty/lattemakeup"
         }
       }
     `}
@@ -187,9 +187,9 @@ const Card = ({ blogContent }) => (
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/lattemakeup" 
+  url="https://www.jackiewyers.beauty/lattemakeup" 
   title="Trend Report: How to Get The Latte Makeup Look - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/LatteMakeup/LatteThumbnail.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/LatteMakeup/LatteThumbnail.jpg" 
 />
 
   

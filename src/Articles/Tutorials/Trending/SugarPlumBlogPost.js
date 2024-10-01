@@ -114,19 +114,19 @@ const Card = ({ blogContent }) => (
     <div className="container">
  <Helmet>
   <title>Trend Report: Sugar Plum Fairy Makeup</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/sugarplumfairy" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/sugarplumfairy" />
 
   <meta name="description" content="Discover the whimsical Sugar Plum Fairy makeup trend inspired by the classic Nutcracker ballet. Follow Jackie Wyers' step-by-step guide to achieve this enchanting look." />
   <meta name="keywords" content="Sugar Plum Fairy Makeup, Nutcracker Ballet Makeup, Jackie Wyers Makeup Tutorial, Whimsical Makeup, Holiday Makeup, Festive Makeup, Hailey Bieber Makeup, Chrome Eyeshadow, Enchanting Looks, Ballet-Inspired Beauty, Glitter Eyeshadow, Pastel Makeup, Soft Glam, Makeup for Dancers, Holiday Glam, Fantasy Makeup, Jackie Wyers Beauty, Vintage Makeup, Classic Beauty, Dance Performance Makeup, Sparkly Makeup, Holiday Beauty Trends, Step-by-Step Makeup Guide, Christmas Makeup, Fairy Makeup Ideas, Magical Makeup, Classic Holiday Looks, Timeless Beauty Tutorials" />
 
   <meta property="og:title" content="Trend Report: Sugar Plum Fairy Makeup" />
   <meta property="og:description" content="Discover the whimsical Sugar Plum Fairy makeup trend inspired by the classic Nutcracker ballet. Follow Jackie Wyers' step-by-step guide to achieve this enchanting look." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/sugarplumfairy" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/sugarplumfairy" />
   
   <meta name="twitter:title" content="Trend Report: Sugar Plum Fairy Makeup" />
   <meta name="twitter:description" content="Discover the whimsical Sugar Plum Fairy makeup trend inspired by the classic Nutcracker ballet. Follow Jackie Wyers' step-by-step guide to achieve this enchanting look." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg" />
   <meta name="twitter:card" content="summary_large_image" />
 
   {/* JSON-LD Structured Data */}
@@ -137,7 +137,7 @@ const Card = ({ blogContent }) => (
         "@type": "BlogPosting",
         "headline": "Trend Report: Sugar Plum Fairy Makeup",
         "description": "Discover the whimsical Sugar Plum Fairy makeup trend inspired by the classic Nutcracker ballet. Follow Jackie Wyers' step-by-step guide to achieve this enchanting look.",
-        "image": "https://jackiewyers.beauty/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -147,14 +147,14 @@ const Card = ({ blogContent }) => (
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/Images/jwlogo3.png"
+            "url": "https://www.jackiewyers.beauty/Images/jwlogo3.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/sugarplumfairy"
+          "@id": "https://www.jackiewyers.beauty/sugarplumfairy"
         }
       }
     `}
@@ -178,9 +178,9 @@ const Card = ({ blogContent }) => (
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/sugarplumfairy" 
+  url="https://www.jackiewyers.beauty/sugarplumfairy" 
   title="Trend Report: Sugar Plum Fairy Makeup" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg" 
 />
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/Vy6e7k5uur8?si=-3GFPhHdf3DLAOyu" title="🍭🎀 SUGAR PLUM FAIRY makeup🎀🍭 A Talk-Through Tutorial!" />

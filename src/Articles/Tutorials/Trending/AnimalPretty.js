@@ -111,7 +111,7 @@ const AnimalPretty = () => {
     <div className="container">
       <Helmet>
         <title>Which Type of Pretty Are You? Animal Edition!</title>
-        <link rel="canonical" href="https://jackiewyers.beauty/animalpretty" />
+        <link rel="canonical" href="https://www.jackiewyers.beauty/animalpretty" />
 
         <meta name="description" content="Deer, Cat, Fox, or Bunny?" />
         <meta
@@ -123,14 +123,14 @@ const AnimalPretty = () => {
         <meta property="og:description" content="Deer, Cat, Fox, or Bunny?" />
         <meta
           property="og:image"
-          content="https://jackiewyers.beauty/Images/Articles/AnimalPretty/animals.jpg"
+          content="https://www.jackiewyers.beauty/Images/Articles/AnimalPretty/animals.jpg"
         />
-        <meta property="og:url" content="https://jackiewyers.beauty/animalpretty" />
+        <meta property="og:url" content="https://www.jackiewyers.beauty/animalpretty" />
         <meta name="twitter:title" content="Animal Pretty - Which one are you? - Jackie Wyers" />
         <meta name="twitter:description" content="Deer, Cat, Fox, or Bunny?" />
         <meta
           name="twitter:image"
-          content="https://jackiewyers.beauty/Images/Articles/AnimalPretty/animals.jpg"
+          content="https://www.jackiewyers.beauty/Images/Articles/AnimalPretty/animals.jpg"
         />
         <meta name="twitter:card" content="summary_large_image" />
 
@@ -144,7 +144,7 @@ const AnimalPretty = () => {
             "@type": "BlogPosting",
             "headline": "Which Type of Pretty Are You? Animal Edition!",
             "description": "Deer, Cat, Fox, or Bunny?",
-            "image": "https://jackiewyers.beauty/Images/Articles/AnimalPretty/animals.jpg",
+            "image": "https://www.jackiewyers.beauty/Images/Articles/AnimalPretty/animals.jpg",
             "author": {
               "@type": "Person",
               "name": "Jackie Wyers"
@@ -154,14 +154,14 @@ const AnimalPretty = () => {
               "name": "Jackie Wyers Beauty",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://jackiewyers.beauty/jw3logo.png"
+                "url": "https://www.jackiewyers.beauty/jw3logo.png"
               }
             },
             "datePublished": "2024-07-27",
             "dateModified": "2024-09-20",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://jackiewyers.beauty/animalpretty"
+              "@id": "https://www.jackiewyers.beauty/animalpretty"
             }
           }
         `}
@@ -192,9 +192,9 @@ const AnimalPretty = () => {
       />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/animalpretty" 
+  url="https://www.jackiewyers.beauty/animalpretty" 
   title="Animal Pretty - Which one are you? - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/AnimalPretty/animals.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/AnimalPretty/animals.jpg" 
 />
 
       <ResponsiveYoutube

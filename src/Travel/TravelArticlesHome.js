@@ -12,7 +12,7 @@ const TravelArticlesHome = () => {
         <div>
   <Helmet>
         <title>Travel - Jackie Wyers</title>
-        <link rel="canonical" href="https://jackiewyers.beauty/travel" />
+        <link rel="canonical" href="https://www.jackiewyers.beauty/travel" />
         <meta
           name="description"
           content="Explore travel articles and guides by Jackie Wyers. Find inspiration for your next travel destination."
@@ -30,7 +30,7 @@ const TravelArticlesHome = () => {
           property="og:image"
           content={`${process.env.PUBLIC_URL}/Images/Travel/og-image.jpg`}
         />
-        <meta property="og:url" content="https://jackiewyers.beauty/travel" />
+        <meta property="og:url" content="https://www.www.jackiewyers.beauty/travel" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Travel - Jackie Wyers" />

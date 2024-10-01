@@ -16,9 +16,9 @@ const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Rory1/Rory2.JPG`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/Rory1/Rory3.JPG`;
 const image4 = `${process.env.PUBLIC_URL}/Images/Articles/Rory1/Rory4.JPG`;
 
-const articleUrl = 'https://jackiewyers.beauty/articles/rory-gilmore';
+const articleUrl = 'https://www.jackiewyers.beauty/articles/rory-gilmore';
 const articleTitle = "Rory Gilmore's No-Makeup Makeup & Cozy Fall Style Guide - Jackie Wyers";
-const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/Rory1/rorythumbnail.jpg'; // Image URL for Pinterest sharing
+const articleImageUrl = 'https://www.jackiewyers.beauty/Images/Articles/Rory1/rorythumbnail.jpg'; // Image URL for Pinterest sharing
 
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
@@ -125,7 +125,7 @@ const Rory = () => {
     <div className="container">
 <Helmet>
   <title>Rory Gilmore's No-Makeup Makeup & Cozy Fall Style Guide</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/articles/rory-gilmore" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/articles/rory-gilmore" />
 
   <meta 
     name="description" 
@@ -144,9 +144,9 @@ const Rory = () => {
   />
   <meta 
     property="og:image" 
-    content="https://jackiewyers.beauty/Images/Articles/Rory1/Rory1.jpg" 
+    content="https://www.jackiewyers.beauty/Images/Articles/Rory1/Rory1.jpg" 
   />
-  <meta property="og:url" content="https://jackiewyers.beauty/articles/rory-gilmore" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/articles/rory-gilmore" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
@@ -157,7 +157,7 @@ const Rory = () => {
   />
   <meta 
     name="twitter:image" 
-    content="https://jackiewyers.beauty/Images/Articles/Rory1/Rory1.jpg" 
+    content="https://www.jackiewyers.beauty/Images/Articles/Rory1/Rory1.jpg" 
   />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -172,7 +172,7 @@ const Rory = () => {
         "@type": "BlogPosting",
         "headline": "Rory Gilmore's No-Makeup Makeup & Cozy Fall Style Guide",
         "description": "Discover Rory Gilmore's iconic no-makeup makeup look and cozy fall fashion style inspired by Gilmore Girls. Jackie Wyers shares tips on achieving Rory's fresh-faced beauty with K-beauty products, perfect fall outfits, and hairstyling tips for a classic, effortless look.",
-        "image": "https://jackiewyers.beauty/Images/Articles/Rory1/RoryThumbnail.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/Rory1/RoryThumbnail.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -182,14 +182,14 @@ const Rory = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/logo.png"
+            "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
         "datePublished": "2024-09-24",
         "dateModified": "2024-09-25",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/articles/rory-gilmore"
+          "@id": "https://www.jackiewyers.beauty/articles/rory-gilmore"
         }
       }
     `}
@@ -299,7 +299,7 @@ const Rory = () => {
     alt="Rory Gilmore Makeup" 
     style={imageStyle} 
     data-pin-nopin="false" 
-    data-pin-url="https://jackiewyers.beauty/articles/rory-gilmore"
+    data-pin-url="https://www.jackiewyers.beauty/articles/rory-gilmore"
   />
   <img 
     src={pinterest}
@@ -314,7 +314,7 @@ const Rory = () => {
       opacity: 0.9,
       transition: 'opacity 0.3s'
     }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/articles/rory-gilmore&media=https://jackiewyers.beauty/Images/Articles/Rory1/Rory1.jpg&description=Rory Gilmore Makeup')}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/rory-gilmore&media=https://www.jackiewyers.beauty/Images/Articles/Rory1/Rory1.jpg&description=Rory Gilmore Makeup')}
     onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
@@ -398,7 +398,7 @@ const Rory = () => {
     alt="Rory Gilmore Makeup" 
     style={imageStyle} 
     data-pin-nopin="false" 
-    data-pin-url="https://jackiewyers.beauty/articles/rory-gilmore"
+    data-pin-url="https://www.jackiewyers.beauty/articles/rory-gilmore"
   />
   <img 
     src={pinterest}
@@ -413,7 +413,7 @@ const Rory = () => {
       opacity: 0.9,
       transition: 'opacity 0.3s'
     }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/articles/rory-gilmore&media=https://jackiewyers.beauty/Images/Articles/Rory1/Rory1.jpg&description=Rory Gilmore Makeup')}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/rory-gilmore&media=https://www.jackiewyers.beauty/Images/Articles/Rory1/Rory1.jpg&description=Rory Gilmore Makeup')}
     onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
@@ -470,7 +470,7 @@ const Rory = () => {
     alt="Rory Gilmore Makeup" 
     style={imageStyle} 
     data-pin-nopin="false" 
-    data-pin-url="https://jackiewyers.beauty/articles/rory-gilmore"
+    data-pin-url="https://www.jackiewyers.beauty/articles/rory-gilmore"
   />
   <img 
     src={pinterest}
@@ -485,7 +485,7 @@ const Rory = () => {
       opacity: 0.9,
       transition: 'opacity 0.3s'
     }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://jackiewyers.beauty/articles/rory-gilmore&media=https://jackiewyers.beauty/Images/Articles/Rory1/Rory1.jpg&description=Rory Gilmore Makeup')}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/rory-gilmore&media=https://www.jackiewyers.beauty/Images/Articles/Rory1/Rory1.jpg&description=Rory Gilmore Makeup')}
     onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />

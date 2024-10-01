@@ -161,19 +161,19 @@ const Card = ({ blogContent }) => (
     <div className="container">
 <Helmet>
   <title>Best of Brussels: Top Things to See, Eat, and Experience + Train To Paris - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/paris-brussels-travel-guide" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/paris-brussels-travel-guide" />
 
   <meta name="description" content="Explore the best things to see, eat, and experience in Brussels with Jackie Wyers. From Belgian chocolates and waffles to a nostalgic trip back to childhood memories, discover all the hidden gems of Brussels and a dreamy day trip to Paris." />
   <meta name="keywords" content="Brussels travel guide, things to do in Brussels, Belgian chocolate shops, Galeries Royales Saint-Hubert, best waffles in Brussels, travel tips, Jackie Wyers travel blog, Brussels hidden gems, Brussels day trips, Paris by train, travel from Belgium to France, best restaurants in Brussels, must-see places Brussels, Sainte Catherine Church, Grand-Place Brussels, Manneken Pis, Place du Petit Sablon, international school of Brussels, ISB alumni, Belgian travel, vintage shopping Brussels, luxury hotels Brussels, Mary’s chocolate shop, best seafood Brussels, Brussels public transport, European city breaks, romantic day trips, Paris Olympics 2024, exploring Belgium, travel inspiration, luxury travel, nostalgic travel, sentimental travel, best cafes in Brussels, top tourist attractions Brussels, local tips Brussels, Sorrento souvenirs, European travel blogger, exploring Europe by train, day trip to Paris, luxury shopping Paris, Belgium travel tips, train travel Europe, unique travel experiences, girly travel guide, romantic travel, historical travel destinations, cute cafes Paris, Belgian beer, classic brasserie style, Flemish cuisine, Jackie Wyers YouTube travel vlog, iconic European landmarks, best squares in Brussels, chocolate tasting Brussels, travel photography Brussels, fashion shopping Paris, vintage vibes Brussels, Jackie Wyers travel vlogs, European adventures, foodie travel guide, Brussels architecture, luxury European hotels, sightseeing Brussels, top European destinations, French-Belgian cuisine, best brunch in Brussels, beautiful squares Europe, European boutique hotels, Jackie Wyers itinerary" />
 
   <meta property="og:title" content="Best of Brussels: Top Things to See, Eat, and Experience + Train To Paris - Jackie Wyers" />
   <meta property="og:description" content="Explore the best things to see, eat, and experience in Brussels with Jackie Wyers. From Belgian chocolates and waffles to a nostalgic trip back to childhood memories, discover all the hidden gems of Brussels and a dreamy day trip to Paris." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/Brussels/paristhumbnail.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/paris-brussels-travel-guide" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/Brussels/paristhumbnail.jpg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/paris-brussels-travel-guide" />
 
   <meta name="twitter:title" content="Best of Brussels: Top Things to See, Eat, and Experience + Train To Paris - Jackie Wyers" />
   <meta name="twitter:description" content="Explore the best things to see, eat, and experience in Brussels with Jackie Wyers. From Belgian chocolates and waffles to a nostalgic trip back to childhood memories, discover all the hidden gems of Brussels and a dreamy day trip to Paris." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Brussels/paristhumbnail.jpg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/Brussels/paristhumbnail.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -186,7 +186,7 @@ const Card = ({ blogContent }) => (
         "@type": "BlogPosting",
         "headline": "Best of Brussels: Top Things to See, Eat, and Experience + Train To Paris - Jackie Wyers",
         "description": "Explore the best things to see, eat, and experience in Brussels with Jackie Wyers. From Belgian chocolates and waffles to a nostalgic trip back to childhood memories, discover all the hidden gems of Brussels and a dreamy day trip to Paris.",
-        "image": "https://jackiewyers.beauty/Images/Articles/Brussels/paristhumbnail.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/Brussels/paristhumbnail.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -196,14 +196,14 @@ const Card = ({ blogContent }) => (
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jwlogo.png"
+            "url": "https://www.jackiewyers.beauty/jwlogo.png"
           }
         },
         "datePublished": "2024-09-20",
         "dateModified": "2024-09-21",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/paris-brussels-travel-guide"
+          "@id": "https://www.jackiewyers.beauty/paris-brussels-travel-guide"
         }
       }
     `}

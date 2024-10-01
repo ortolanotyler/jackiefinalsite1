@@ -8,9 +8,9 @@ import ArticleTitle from '../../Components/ArticleTitle';
 import SocialShare from '../../Home/SocialShare';
 
 
-const articleUrl = 'https://jackiewyers.beauty/fable';
+const articleUrl = 'https://www.jackiewyers.beauty/fable';
 const articleTitle = 'Fable Auckland | Hotel Review';
-const articleImageUrl = 'https://jackiewyers.beauty/Images/Articles/FableAuckland/FableAucklandThumbnail.jpg';
+const articleImageUrl = 'https://www.jackiewyers.beauty/Images/Articles/FableAuckland/FableAucklandThumbnail.jpg';
 
 
 const images = [
@@ -140,18 +140,18 @@ const Fable = () => {
         <div className="container">
            <Helmet>
     <title>Fable Auckland | Hotel Review</title>
-    <link rel="canonical" href="https://jackiewyers.beauty/fable" />
+    <link rel="canonical" href="https://www.jackiewyers.beauty/fable" />
 
     <meta name="description" content="Join Jackie as she reviews the luxurious Fable Auckland in New Zealand. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities." />
     <meta name="keywords" content="Fable Auckland, Luxury Hotel, Auckland Travel, Jackie Wyers, Hotel Review, New Zealand" />
     <meta property="og:title" content="Fable Auckland | Hotel Review" />
     <meta property="og:description" content="Join Jackie Wyers as she reviews the luxurious Fable Auckland in New Zealand. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities." />
-    <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/MammaMia/mammamiathumb.png" />
-    <meta property="og:url" content="https://jackiewyers.beauty/fable" />
+    <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/MammaMia/mammamiathumb.png" />
+    <meta property="og:url" content="https://www.jackiewyers.beauty/fable" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Fable Auckland | Hotel Review" />
     <meta name="twitter:description" content="Join Jackie Wyers as she reviews the luxurious Fable Auckland in New Zealand. Discover the hotel's stunning views, exquisite dining, and unparalleled amenities." />
-    <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/MammaMia/mammamiathumb.png" />
+    <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/MammaMia/mammamiathumb.png" />
     <script type="application/ld+json">
         {`
         {
@@ -160,7 +160,7 @@ const Fable = () => {
             "itemReviewed": {
                 "@type": "Place",
                 "name": "Fable Auckland",
-                "image": "https://jackiewyers.beauty/Images/Articles/MammaMia/mammamiathumb.png",
+                "image": "https://www.jackiewyers.beauty/Images/Articles/MammaMia/mammamiathumb.png",
                 "description": "Luxurious hotel in Auckland, New Zealand.",
                 "address": {
                     "@type": "PostalAddress",
@@ -189,7 +189,7 @@ const Fable = () => {
                 "name": "Jackie Wyers Beauty",
                 "logo": {
                     "@type": "ImageObject",
-                      "url": "https://jackiewyers.beauty/jwlogo3.png"
+                      "url": "https://www.jackiewyers.beauty/jwlogo3.png"
                 }
             },
             "datePublished": "2024-07-27",

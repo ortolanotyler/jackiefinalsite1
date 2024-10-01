@@ -117,19 +117,19 @@ const SummerBeauty = () => {
     <div className="container">
    <Helmet>
   <title>Summer Beauty: Pop Culture Icons Edition! - Jackie Wyers</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/summerbeauty" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/summerbeauty" />
 
   <meta name="description" content="Explore summer beauty inspiration with Jackie Wyers. Discover iconic hairstyles, makeup looks, and fashion tips from pop culture's beloved characters like The Blue Lagoon, Barbie Movie, Emily In Paris, and more." />
   <meta name="keywords" content="Summer Beauty, Jackie Wyers, Makeup Tutorial, Pop Culture Beauty, The Blue Lagoon, Barbie Movie, Emily In Paris, Winx Club, H2O: Just Add Water, Outer Banks, Summer Hairstyles, Summer Makeup, Beach Waves, No Makeup Look, Vintage Beauty, 2000s Hairstyles, Parisian Chic, Floral Accessories, Summer Glam, Jackie Wyers Blog" />
 
   <meta property="og:title" content="Summer Beauty: Pop Culture Icons Edition! - Jackie Wyers" />
   <meta property="og:description" content="Explore summer beauty inspiration with Jackie Wyers. Discover iconic hairstyles, makeup looks, and fashion tips from pop culture's beloved characters like The Blue Lagoon, Barbie Movie, Emily In Paris, and more." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/SummerBeauty/BlueLagoonThumbnail.jpg" />
-  <meta property="og:url" content="https://jackiewyers.beauty/summerbeauty" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/SummerBeauty/BlueLagoonThumbnail.jpg" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/summerbeauty" />
 
   <meta name="twitter:title" content="Summer Beauty: Pop Culture Icons Edition! - Jackie Wyers" />
   <meta name="twitter:description" content="Explore summer beauty inspiration with Jackie Wyers. Discover iconic hairstyles, makeup looks, and fashion tips from pop culture's beloved characters like The Blue Lagoon, Barbie Movie, Emily In Paris, and more." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/SummerBeauty/BlueLagoonThumbnail.jpg" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/SummerBeauty/BlueLagoonThumbnail.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -143,7 +143,7 @@ const SummerBeauty = () => {
         "@type": "BlogPosting",
         "headline": "Summer Beauty: Pop Culture Icons Edition! - Jackie Wyers",
         "description": "Explore summer beauty inspiration with Jackie Wyers. Discover iconic hairstyles, makeup looks, and fashion tips from pop culture's beloved characters like The Blue Lagoon, Barbie Movie, Emily In Paris, and more.",
-        "image": "https://jackiewyers.beauty/Images/Articles/SummerBeauty/BlueLagoonThumbnail.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/SummerBeauty/BlueLagoonThumbnail.jpg",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -153,14 +153,14 @@ const SummerBeauty = () => {
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jw3logo.png"
+            "url": "https://www.jackiewyers.beauty/jw3logo.png"
           }
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/summerbeauty"
+          "@id": "https://www.jackiewyers.beauty/summerbeauty"
         }
       }
     `}
@@ -181,9 +181,9 @@ const SummerBeauty = () => {
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/summerbeauty" 
+  url="https://www.jackiewyers.beauty/summerbeauty" 
   title="Summer Beauty: Pop Culture Icons Edition! - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/SummerBeauty/BlueLagoonThumbnail.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/SummerBeauty/BlueLagoonThumbnail.jpg" 
 />
 
 <p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>

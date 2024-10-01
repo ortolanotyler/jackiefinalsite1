@@ -114,7 +114,7 @@ const Card = ({ blogContent }) => (
     <div className="container">
  <Helmet>
   <title>ICONIC '60s Twiggy Makeup: MOD Blue Eyeshadow</title>
-  <link rel="canonical" href="https://jackiewyers.beauty/twiggy" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/twiggy" />
 
   <meta name="description" content="A 1960's Guide to Glamour. Learn how to recreate Twiggy's iconic MOD blue eyeshadow look with Jackie Wyers." />
   <meta name="keywords" content="Twiggy, Jackie Wyers, Makeup Tutorial, MOD, Sixties Makeup, Vintage Beauty, Time Travel Tutorials, Blue Eyeshadow, Drawn-on Lashes, 60s style, retro makeup, beauty tips, vintage glamour" />
@@ -122,15 +122,15 @@ const Card = ({ blogContent }) => (
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="ICONIC '60s Twiggy Makeup: MOD Blue Eyeshadow" />
   <meta property="og:description" content="Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe." />
-  <meta property="og:image" content="https://jackiewyers.beauty/Images/Articles/Twiggy/TwiggyMODThumbnail.png" />
-  <meta property="og:url" content="https://jackiewyers.beauty/twiggy" />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/Twiggy/TwiggyMODThumbnail.png" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/twiggy" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="ICONIC '60s Twiggy Makeup: MOD Blue Eyeshadow" />
   <meta name="twitter:description" content="Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe." />
-  <meta name="twitter:image" content="https://jackiewyers.beauty/Images/Articles/Twiggy/TwiggyMODThumbnail.png" />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/Twiggy/TwiggyMODThumbnail.png" />
 
   {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
@@ -140,7 +140,7 @@ const Card = ({ blogContent }) => (
         "@type": "BlogPosting",
         "headline": "ICONIC '60s Twiggy Makeup: MOD Blue Eyeshadow",
         "description": "Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe.",
-        "image": "https://jackiewyers.beauty/Images/Articles/Twiggy/TwiggyMODThumbnail.png",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/Twiggy/TwiggyMODThumbnail.png",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -150,12 +150,12 @@ const Card = ({ blogContent }) => (
           "name": "Jackie Wyers Beauty",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://jackiewyers.beauty/jwlogo3.png"
+            "url": "https://www.jackiewyers.beauty/jwlogo3.png"
           }
         },
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://jackiewyers.beauty/twiggy"
+          "@id": "https://www.jackiewyers.beauty/twiggy"
         },
         "datePublished": "2024-07-27",
         "dateModified": "2024-09-20"
@@ -182,9 +182,9 @@ const Card = ({ blogContent }) => (
 />
 
 <SocialShare 
-  url="https://jackiewyers.beauty/twiggy" 
+  url="https://www.jackiewyers.beauty/twiggy" 
   title="ICONIC '60s Twiggy Makeup: MOD Blue Eyeshadow - Jackie Wyers" 
-  imageUrl="https://jackiewyers.beauty/Images/Articles/Twiggy/TwiggyMODThumbnail.png" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/Twiggy/TwiggyMODThumbnail.png" 
 />
 
 
