@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import styles from './HeroSection5.module.css'; // Import the CSS module
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Francesca/1.jpg`;
