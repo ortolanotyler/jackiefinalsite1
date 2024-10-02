@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid } from '@mui/material';
 
-import { Helmet } from'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import Quiz3 from './Quiz3';
 import EmailSubscribe from '../Components/EmailSubscribe';
 

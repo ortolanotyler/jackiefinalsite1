@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import VlogVideo from './VideoComponent1';
 import './vlogs.css'; // Assuming you are using a CSS file to style components
 import TextReveal from '../Components/TextReveal';

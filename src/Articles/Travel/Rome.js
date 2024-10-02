@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import DropCap1 from './DropCap1';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import BookNowButton from '../../Components/BookNowButton';

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Paper } from '@mui/material';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import TextRevealHomePage from '../Components/TextRevealHomePage';
 import HeroSection from './HeroSection';
 import TextBanner2 from '../Components/TextBanner2';

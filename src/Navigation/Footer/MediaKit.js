@@ -4,8 +4,7 @@ import TextReveal from '../../Components/TextReveal';
 import BrandCarousel from '../../Components/BrandCarousel/BrandCarousel';
 import { Grid, Paper } from '@mui/material';
 import FeaturesAndShoutouts from './FeaturesAndShoutouts';
-import { Helmet } from'react-helmet';
-
+import { Helmet } from 'react-helmet-async';
 
 import RotatingText from '../AppBar/RotatingText';
 

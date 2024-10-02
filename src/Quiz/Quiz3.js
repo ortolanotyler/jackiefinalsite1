@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Quiz1.css';
-import { Helmet } from 'react-helmet';
 import TextReveal from '../Components/TextReveal';
 
 const Quiz3 = () => {

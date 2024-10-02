@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import SubscribeButton from '../../../Components/SubscribeButton';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';

@@ -3,7 +3,7 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 
 
 import SubscribeButton from '../../Components/SubscribeButton';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';

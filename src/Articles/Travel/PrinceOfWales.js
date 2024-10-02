@@ -1,5 +1,5 @@
-import React, { useRef, useEffect } from 'react';
-import { Helmet } from 'react-helmet';
+import React, { useRef } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import BookNowButton from '../../Components/BookNowButton';

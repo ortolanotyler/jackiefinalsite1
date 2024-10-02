@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import styles from './PrivacyNotice.module.css'; // Ensure this path matches where your CSS module is saved
 
 const PrivacyNotice = () => {
