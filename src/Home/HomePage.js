@@ -7,6 +7,7 @@ import TextBanner2 from '../Components/TextBanner2';
 import RotatingText from '../Navigation/AppBar/RotatingText';
 import ShopMyHero2 from './ShopMyHero2';
 import QuiltedImageList1 from './ImageGridTutorials';
+import HorizontalLine from '../Components/HorizontalLine';
 
 function HomePage() {
   return (
@@ -82,6 +83,13 @@ function HomePage() {
           isFlipped={false}
         />
 
+        <div style = {{
+          padding: '10px',
+        }}>
+
+          <HorizontalLine/>
+        </div>
+
         <HeroSection
           featureText="LATEST"
           headlineText="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll"
@@ -91,7 +99,12 @@ function HomePage() {
           linkUrl="/barbie-doll"
           isFlipped={true}
         />
+   <div style = {{
+          padding: '10px',
+        }}>
 
+          <HorizontalLine/>
+        </div>
         <HeroSection
           featureText="LATEST"
           headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀"
@@ -101,7 +114,12 @@ function HomePage() {
           linkUrl="/barbie-roundup"
           isFlipped={false}
         />
+   <div style = {{
+          padding: '10px',
+        }}>
 
+          <HorizontalLine/>
+        </div>
         <HeroSection
           featureText="POP CULTURE"
           headlineText="Rory Gilmore's No-Makeup Makeup & Cozy Fall Style Guide 🧣"
@@ -111,9 +129,19 @@ function HomePage() {
           linkUrl="/articles/rory-gilmore"
           isFlipped={true}
         />
+   <div style = {{
+          padding: '10px',
+        }}>
 
+          <HorizontalLine/>
+        </div>
         <TextBanner2 text="QUIZ" height="200px" width="100%" fontSize="80px" />
+        <div style = {{
+          padding: '10px',
+        }}>
 
+          <HorizontalLine/>
+        </div>
         <HeroSection
           featureText="QUIZ"
           headlineText="Animal Pretty - Which one are you?"
@@ -121,9 +149,19 @@ function HomePage() {
           linkUrl="/quiz-2-home"
           isFlipped={true}
         />
+   <div style = {{
+          padding: '10px',
+        }}>
 
+          <HorizontalLine/>
+        </div>
         <TextBanner2 text="LIFESTYLE" height="200px" width="100%" fontSize="80px" />
+        <div style = {{
+          padding: '10px',
+        }}>
 
+          <HorizontalLine/>
+        </div>
         <HeroSection
           featureText="FEATURED"
           headlineText="Our Fairytale Wedding Overlooking Sorrento, Italy"
@@ -133,7 +171,12 @@ function HomePage() {
           linkUrl="/fairytalewedding"
           isFlipped={true}
         />
+   <div style = {{
+          padding: '10px',
+        }}>
 
+          <HorizontalLine/>
+        </div>
         <HeroSection
           featureText="TRAVEL"
           headlineText="Best of Brussels: Top Things to See, Eat, and Experience + Train To Paris!"
@@ -143,7 +186,12 @@ function HomePage() {
           linkUrl="/paris-brussels-travel-guide"
           isFlipped={false}
         />
+   <div style = {{
+          padding: '10px',
+        }}>
 
+          <HorizontalLine/>
+        </div>
         <HeroSection
           featureText="HOW-TO : IPHONE"
           headlineText="A Guide to Scroll-Stopping iPhone Photos"
@@ -153,7 +201,12 @@ function HomePage() {
           linkUrl="/camera-settings"
           isFlipped={true}
         />
+   <div style = {{
+          padding: '10px',
+        }}>
 
+          <HorizontalLine/>
+        </div>
         <HeroSection
           featureText="TRAVEL"
           headlineText="The Best Souvenirs to Bring Home from Sorrento"
@@ -163,7 +216,12 @@ function HomePage() {
           linkUrl="/sorrento"
           isFlipped={true}
         />
+   <div style = {{
+          padding: '10px',
+        }}>
 
+          <HorizontalLine/>
+        </div>
         <HeroSection
           featureText="TRAVEL"
           headlineText="Our Three Day Romantic Getaway in Rome, Italy"
@@ -173,7 +231,12 @@ function HomePage() {
           linkUrl="/rome"
           isFlipped={true}
         />
+   <div style = {{
+          padding: '10px',
+        }}>
 
+          <HorizontalLine/>
+        </div>
         <HeroSection
           featureText="NEW ZEALAND"
           headlineText="New Zealand | Auckland Vlog and Experience"
@@ -183,7 +246,12 @@ function HomePage() {
           linkUrl="/newzealand"
           isFlipped={true}
         />
+   <div style = {{
+          padding: '10px',
+        }}>
 
+          <HorizontalLine/>
+        </div>
         <HeroSection
           featureText="PERFUME REVIEW"
           headlineText="BonBon Perfume Review"
@@ -193,7 +261,12 @@ function HomePage() {
           linkUrl="/bonbonreview"
           isFlipped={true}
         />
+   <div style = {{
+          padding: '10px',
+        }}>
 
+          <HorizontalLine/>
+        </div>
         <HeroSection
           featureText="BRIDAL"
           headlineText="DIY Flower Pins for a Mamma Mia Inspired Wedding"
@@ -203,7 +276,12 @@ function HomePage() {
           linkUrl="/diy-flowers"
           isFlipped={true}
         />
+   <div style = {{
+          padding: '10px',
+        }}>
 
+          <HorizontalLine/>
+        </div>
         <ShopMyHero2 />
       </Box>   
     </Box>
