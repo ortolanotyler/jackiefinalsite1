@@ -2,8 +2,25 @@
 <html lang="en">
 <head>
   <!-- Cookiebot for compliance -->
-  <script async src="https://consent.cookiebot.com/uc.js" data-cbid="537001bb-3216-48c5-819c-dfc99eeca4f0" data-blockingmode="auto" type="text/javascript"></script>
-  
+  <script async src="https://consent.cookiebot.com/uc.js" 
+          data-cbid="537001bb-3216-48c5-819c-dfc99eeca4f0" 
+          data-blockingmode="auto" 
+          type="text/javascript"></script>
+
+  <!-- Google Consent Mode default settings -->
+  <script data-cookieconsent="ignore">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+
+    // Set default consent states for Google Consent Mode (GCM)
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'analytics_storage': 'denied',
+      'functionality_storage': 'denied',
+      'personalization_storage': 'denied',
+      'security_storage': 'granted'
+    });
+  </script>  
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG" data-cookieconsent="ignore"></script>
   <script data-cookieconsent="ignore">
