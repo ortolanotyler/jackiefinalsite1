@@ -126,29 +126,32 @@ import Quiz3Homepage from './Quiz/Quiz3Homepage';
 import Quiz2Homepage from './Quiz/Quiz2HomePage';
 import Rory from './Articles/Tutorials/PopCulture/Rory';
 
-// Initialize Google Analytics
-
 function usePageTracking() {
   const location = useLocation();
 
   useEffect(() => {
-    const onConsentUpdate = () => {
-      if (window.CookieConsent && window.CookieConsent.acceptedCategories.analytics) {
-        logPageView(location.pathname + location.search);
+    const checkConsentAndLogPageView = () => {
+      if (window.CookieConsent && window.CookieConsent.consented) {
+        logPageView(location.pathname + location.search); // Log the page view only after consent
       }
     };
 
-    window.addEventListener('CookieConsent', onConsentUpdate);
+    // Set an event listener for consent updates
+    window.addEventListener('CookieConsent', checkConsentAndLogPageView);
 
+    // Run the check immediately in case consent was already granted
+    checkConsentAndLogPageView();
+
+    // Cleanup event listener
     return () => {
-      window.removeEventListener('CookieConsent', onConsentUpdate);
+      window.removeEventListener('CookieConsent', checkConsentAndLogPageView);
     };
   }, [location]);
 }
 
 function App() {
   usePageTracking();
-  
+
   return (
     <EmailProvider>
       <div className="app-container">
