@@ -128,12 +128,12 @@ import Rory from './Articles/Tutorials/PopCulture/Rory';
 
 // Initialize Google Analytics
 
-// Hook to handle page tracking
 function usePageTracking() {
   const location = useLocation();
 
   useEffect(() => {
-    logPageView(location.pathname + location.search); // Log the page view with the updated path
+    // Ensure GA4 is initialized before logging the page view
+    logPageView(location.pathname + location.search);  // Log the page view with the updated path
   }, [location]);
 }
 
