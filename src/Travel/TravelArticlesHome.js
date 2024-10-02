@@ -26,10 +26,7 @@ const TravelArticlesHome = () => {
           property="og:description"
           content="Explore travel articles and guides by Jackie Wyers. Find inspiration for your next travel destination."
         />
-        <meta
-          property="og:image"
-          content={`${process.env.PUBLIC_URL}/Images/Travel/og-image.jpg`}
-        />
+    
         <meta property="og:url" content="https://www.www.jackiewyers.beauty/travel" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
