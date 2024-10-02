@@ -132,14 +132,23 @@ function usePageTracking() {
   const location = useLocation();
 
   useEffect(() => {
-    // Ensure GA4 is initialized before logging the page view
-    logPageView(location.pathname + location.search);  // Log the page view with the updated path
+    const onConsentUpdate = () => {
+      if (window.CookieConsent && window.CookieConsent.acceptedCategories.analytics) {
+        logPageView(location.pathname + location.search);
+      }
+    };
+
+    window.addEventListener('CookieConsent', onConsentUpdate);
+
+    return () => {
+      window.removeEventListener('CookieConsent', onConsentUpdate);
+    };
   }, [location]);
 }
 
 function App() {
   usePageTracking();
-
+  
   return (
     <EmailProvider>
       <div className="app-container">
