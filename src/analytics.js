@@ -1,6 +1,5 @@
-// src/analytics.js
 export const logPageView = (path) => {
-  if (window.gtag) {
+  if (typeof window.gtag === 'function') {
     window.gtag('config', 'G-RT6GR7JXYG', {
       page_path: path,
     });
