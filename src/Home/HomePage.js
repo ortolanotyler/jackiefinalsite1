@@ -8,9 +8,17 @@ import RotatingText from '../Navigation/AppBar/RotatingText';
 import ShopMyHero2 from './ShopMyHero2';
 import QuiltedImageList1 from './ImageGridTutorials';
 import HorizontalLine from '../Components/HorizontalLine';
+import { useMediaQuery } from '@mui/material';
+
+
 
 function HomePage() {
+  const isMobile = useMediaQuery('(max-width:600px)'); // Check if the screen size is mobile
+
+
   return (
+
+  
     <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
       <Helmet>
         <title>Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips</title>
@@ -61,9 +69,13 @@ function HomePage() {
         </script>
       </Helmet>
 
+    
       {/* Flex container for sections */}
-      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '16px' }}>
-        <TextRevealHomePage text="JACKIE WYERS" style={{ margin: 'auto' }} />
+      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '16px', pt: { xs: '0px', md: '0px' } }}>
+        {/* Conditionally show TextRevealHomePage on larger screens */}
+        {!isMobile && (
+          <TextRevealHomePage text="JACKIE WYERS" style={{ margin: 'auto' }} />
+        )}
 
         <Paper elevation={0} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', color: '#745B4F', textAlign: 'center' }}>
           <RotatingText />
@@ -83,11 +95,8 @@ function HomePage() {
           isFlipped={false}
         />
 
-        <div style = {{
-          padding: '10px',
-        }}>
-
-          <HorizontalLine/>
+        <div style={{ padding: '10px' }}>
+          <HorizontalLine />
         </div>
 
         <HeroSection
@@ -177,6 +186,7 @@ function HomePage() {
 
           <HorizontalLine/>
         </div>
+        <Box sx={{ padding: '20px 0' }}>
         <HeroSection
           featureText="TRAVEL"
           headlineText="Best of Brussels: Top Things to See, Eat, and Experience + Train To Paris!"
@@ -186,6 +196,9 @@ function HomePage() {
           linkUrl="/paris-brussels-travel-guide"
           isFlipped={false}
         />
+
+        </Box>
+      
    <div style = {{
           padding: '10px',
         }}>

@@ -19,9 +19,9 @@ export default function QuiltedImageList1() {
   return (
     <ImageList
       sx={{
-        marginTop: '-.1rem',
+      
         width: '100%',
-        maxHeight: '110vh',
+        maxHeight: '50vh',
         overflowY: 'hidden',
         borderRadius: '1px',
       }}

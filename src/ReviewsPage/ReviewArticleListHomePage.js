@@ -1,29 +1,26 @@
 import React from 'react';
-import './ReviewArticleList.css';
-import ReviewArticleCard from './ReviewArticleCard';
-import TextReveal from '../Components/TextReveal';
-
-const image1 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/jickyguerlainthumbnail.png`;
-const image2 = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/BonBonThumbnail.png`;
-const image3 = `${process.env.PUBLIC_URL}/Images/Articles/HalfetiReview/HalfetiThumbnail.png`;
+import HeroSection from '../Home/HeroSection';
 
 const articles = [
   {
     date: '01/15/2024',
     title: 'Jicky // Guerlain',
-    image: image1,
+    subtext: 'A deep dive into the iconic Jicky perfume by Guerlain.',
+    imagePath: 'JickyReview/jickyguerlainthumbnail.png',
     path: '/jickyreview',
   },
   {
     date: '02/01/2024',
     title: 'Bonbon // Viktor & Rolf',
-    image: image2,
+    subtext: 'An in-depth review of the deliciously sweet Bonbon perfume.',
+    imagePath: 'BonBonReview/BonBonThumbnail.png',
     path: '/bonbonreview',
   },
   {
     date: '03/01/2024',
     title: "Halfeti // Penhaligon's",
-    image: image3,
+    subtext: 'A luxurious journey through Halfeti by Penhaligon’s.',
+    imagePath: 'HalfetiReview/HalfetiThumbnail.png',
     path: '/halfetireview',
   },
   // Add more articles as needed
@@ -32,20 +29,20 @@ const articles = [
 const ReviewArticleListHome = () => {
   return (
     <div>
-      <div>
-        <TextReveal text="REVIEWS" />
-      </div>
-      <div className="article-list-reviews">
-        {articles.map((article, index) => (
-          <ReviewArticleCard
-            key={index}
-            date={article.date}
-            title={article.title}
-            imageUrl={article.image}
-            path={article.path}
+      {articles.map((article, index) => (
+        <div key={index}>
+          <HeroSection
+            featureText="REVIEW"
+            headlineText={article.title}
+            subtext={article.subtext}
+            author={article.date}
+            imagePath={article.imagePath}
+            linkUrl={article.path}
+            isFlipped={index % 2 === 0} // Alternate the layout for visual variety
           />
-        ))}
-      </div>
+
+        </div>
+      ))}
     </div>
   );
 };

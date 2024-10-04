@@ -1,39 +1,33 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
+import { useMediaQuery } from '@mui/material';
 
 const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', maxFontSize = '50px', minFontSize = '10px' }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const [fontSize, setFontSize] = useState(maxFontSize);
 
-  // Dynamically calculate the font size based on the window width
-  const updateFontSize = () => {
-    const screenWidth = window.innerWidth;
+  // Breakpoints for different screen sizes
+  const isMobile = useMediaQuery('(max-width:600px)');
+  const isTablet = useMediaQuery('(min-width:601px) and (max-width:1200px)');
+  const isDesktop = useMediaQuery('(min-width:1201px)');
+
+  useEffect(() => {
+    // Adjust font size based on the screen size using breakpoints
     let calculatedFontSize = parseFloat(maxFontSize);
 
-    // Adjust font size based on screen width
-    if (screenWidth < 600) {
-      // Mobile screens - more aggressive shrink
-      calculatedFontSize = Math.max(screenWidth / 15, parseFloat(minFontSize));
-    } else if (screenWidth < 1200) {
-      // Tablet and smaller desktop screens
-      calculatedFontSize = Math.max(screenWidth / 12, parseFloat(minFontSize));
+    if (isMobile) {
+      // Smaller font size for mobile screens
+      calculatedFontSize = Math.max(window.innerWidth / 15, parseFloat(minFontSize));
+    } else if (isTablet) {
+      // Medium font size for tablet screens
+      calculatedFontSize = Math.max(window.innerWidth / 12, parseFloat(minFontSize));
+    } else if (isDesktop) {
+      // Larger font size for desktop screens
+      calculatedFontSize = maxFontSize;
     }
 
     setFontSize(`${calculatedFontSize}px`);
-  };
-
-  useEffect(() => {
-    // Calculate font size when the component mounts
-    updateFontSize();
-
-    // Update font size on window resize
-    window.addEventListener('resize', updateFontSize);
-
-    return () => {
-      // Cleanup event listener on component unmount
-      window.removeEventListener('resize', updateFontSize);
-    };
-  }, []);
+  }, [isMobile, isTablet, isDesktop, maxFontSize, minFontSize]);
 
   const handleMouseEnter = (index) => {
     setHoveredIndex(index);

@@ -52,7 +52,7 @@ const Card = ({ blogContent }) => (
   </div>
 );
 
-const Sorrento1 = () => {
+const Sorrento2 = () => {
 
  
 
@@ -415,4 +415,4 @@ wedding dresses and more in the following article below.
   );
 };
 
-export default Sorrento1;
+export default Sorrento2;

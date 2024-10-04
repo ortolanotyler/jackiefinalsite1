@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import VerticalLine from './VerticalLine'; // Import your VerticalLine component
+import HorizontalLine from '../Components/HorizontalLine';
 
 const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, linkUrl, isFlipped }) => {
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
@@ -115,6 +116,8 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
           />
         </div>
       </div>
+      <HorizontalLine/>
+
     </a>
   );
 };
