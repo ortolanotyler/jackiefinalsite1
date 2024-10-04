@@ -1,5 +1,7 @@
 import React from 'react';
 import HeroSection from '../Home/HeroSection';
+import TextBanner2 from '../Components/TextBanner2';
+import HorizontalLine from '../Components/HorizontalLine';
 
 const articles = [
   {
@@ -28,6 +30,13 @@ const articles = [
 
 const ReviewArticleListHome = () => {
   return (
+    <>
+    <div style = {{
+      paddingTop: '50px',
+    }} >
+
+<TextBanner2 text = "REVIEWS" />
+<HorizontalLine/>
     <div>
       {articles.map((article, index) => (
         <div key={index}>
@@ -44,6 +53,10 @@ const ReviewArticleListHome = () => {
         </div>
       ))}
     </div>
+    </div>
+  
+    </>
+   
   );
 };
 
