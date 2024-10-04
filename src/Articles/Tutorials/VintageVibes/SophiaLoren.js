@@ -231,12 +231,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
      
        
 <p style={paragraphStyle}>
-  For primer, I opted for the <a href="https://www.giorgioarmanibeauty-usa.com/makeup/face/primer/luminous-silk-hydrating-primer/ww-00381-arm.html" target="_blank" rel="noopener noreferrer" style={linkStyle}>Armani Beauty Luminous Silk Hydrating Primer</a>, (my favorite Italian brand) followed by <a href="https://www.rarebeauty.com/products/liquid-touch-weightless-foundation" target="_blank" rel="noopener noreferrer" style={linkStyle}>Rare Beauty’s Serum foundation</a> to even out the tan while offering lighter coverage, mirroring Loren's sun-kissed skin. I highlighted my chin and jawline with <a href="https://www.maybelline.com/face-makeup/concealer/instant-age-rewind-eraser-dark-circles-concealer-treatment" target="_blank" rel="noopener noreferrer" style={linkStyle}>Maybelline's Age Rewind Concealer</a>, focusing on the center of my face and cheekbones to really make the center of the face pop.
+  For primer, I opted for the <a href="https://www.giorgioarmanibeauty-usa.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Armani Beauty Luminous Silk Hydrating Primer</a>, (my favorite Italian brand) followed by <a href="https://www.rarebeauty.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Rare Beauty’s Serum foundation</a> to even out the tan while offering lighter coverage, mirroring Loren's sun-kissed skin. I highlighted my chin and jawline with <a href="https://www.maybelline.com/face-makeup/concealer/instant-age-rewind-eraser-dark-circles-concealer-treatment" target="_blank" rel="noopener noreferrer" style={linkStyle}>Maybelline's Age Rewind Concealer</a>, focusing on the center of my face and cheekbones to really make the center of the face pop.
 </p>
 
       <h2 style={headingStyle}>Sculpting the Iconic Bone Structure</h2>
       <p style={paragraphStyle}>
-  I went lighter on the foundation because we'll be highlighting and contouring to mimic Loren's stunning bone structure, which will add to the coverage. I highlighted my chin and jawline with <a href="https://www.maybelline.com/face-makeup/concealer/instant-age-rewind-eraser-dark-circles-concealer-treatment" target="_blank" rel="noopener noreferrer" style={linkStyle}>Maybelline's Age Rewind Concealer</a>, focusing on the center of my face and cheekbones to really make the center of the face pop.
+  I went lighter on the foundation because we'll be highlighting and contouring to mimic Loren's stunning bone structure, which will add to the coverage. I highlighted my chin and jawline with <a href="https://www.maybelline.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Maybelline's Age Rewind Concealer</a>, focusing on the center of my face and cheekbones to really make the center of the face pop.
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/495258?noHeader=true" title="Sculpting Products" />
@@ -263,7 +263,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <p style={paragraphStyle}>
-  Select a deep neutral palette, with grays, browns, and taupes. I selected the <a href="https://www.dior.com/en_us/products/beauty-Y0145100-5-couleurs-couture-high-colour-eyeshadow-palette-long-wear-creaminess-comfort" target="_blank" rel="noopener noreferrer" style={linkStyle}>Dior 5 Couleurs Couture Eyeshadow Palette (649 Nude Dress)</a> and while some photos of Sophia’s signature eye look feature a charcoal gray (a deep, dark shade of gray close to black), in the "<a href="https://www.imdb.com/title/tt0060758/" target="_blank" rel="noopener noreferrer" style={linkStyle}>Arabesque</a>" scenes, it appeared more like a taupe (a warmer neutral, more of a gray-brown) through the lens.
+  Select a deep neutral palette, with grays, browns, and taupes. I selected the <a href="https://www.dior.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Dior 5 Couleurs Couture Eyeshadow Palette (649 Nude Dress)</a> and while some photos of Sophia’s signature eye look feature a charcoal gray (a deep, dark shade of gray close to black), in the "<a href="https://www.imdb.com/title/tt0060758/" target="_blank" rel="noopener noreferrer" style={linkStyle}>Arabesque</a>" scenes, it appeared more like a taupe (a warmer neutral, more of a gray-brown) through the lens.
 </p>
 
 <p style={paragraphStyle}>
@@ -298,7 +298,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <h2 style={headingStyle}>The Arabesque Hairstyle</h2>
      
 <p style={paragraphStyle}>
-  While this iconic look features a hot pink towel set (<a href="https://www.amazon.com/Microfiber-Towel-Towels-Straight-Turban/dp/B0CFSFMDNZ?crid=1WZ7PGN3WWST1&dib=eyJ2IjoiMSJ9.LBBHeFjdHjcdyl-K9Ri0R3jxF1nkWHhs-qSWdmipuZpqjJVU8u0CZDEW9u--BaVkOyRcijy1sMxBtYC5srxS9NZuq0nHTX86wLgCcfQFG-r-nLDrSkwFnR-Ia2yuq37YtO3SrN6ntId6uh_g9B0elbl6GtdVat3XfdgUNHkIkNvj9MCENm4IV17maozQH0fOAAm71UCKrgKgMyjMdohujLR2FAFwN6BdtKbK6TEv9HqgT89nBl35N8fMGVotiSwnVnqaYAn8VRHhzv_Kvv_ux5v3-1O4fu1PgCP6Y_GrUpY.UoArAOu8AUIyEF3LAarqE_5-yb-3x5JvedK1qzkwhVM&dib_tag=se&keywords=pink+towel+hair&qid=1716659839&sprefix=pink+towel+hai,aps,114&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=sl1&tag=jackiewyers-20&linkId=cc7cb899a314b1fb24348db4617d0913&language=en_US&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer" style={linkStyle}>find a similar one on Amazon here</a>), you can also complete the look with a retro hairstyle, starting with a high ponytail and pin-curling into a bun for volume and style. See a mini tutorial by tapping the image below.
+  While this iconic look features a hot pink towel set, you can also complete the look with a retro hairstyle, starting with a high ponytail and pin-curling into a bun for volume and style. See a mini tutorial by tapping the image below.
 </p>
 
 
