@@ -125,6 +125,7 @@ import NotFound from './Components/NotFound';
 import Quiz3Homepage from './Quiz/Quiz3Homepage';
 import Quiz2Homepage from './Quiz/Quiz2HomePage';
 import Rory from './Articles/Tutorials/PopCulture/Rory';
+import Wicked from './Articles/Tutorials/VintageVibes/Wicked';
 
 function usePageTracking() {
   const location = useLocation();
@@ -275,6 +276,7 @@ function App() {
             <Route path="quiz-3-home" element={<Quiz3Homepage />} />
             <Route path="quiz-2-home" element={<Quiz2Homepage />} />
             <Route path="articles/rory-gilmore" element={<Rory />} />
+            <Route path="articles/wicked" element={<Wicked />} />
 
             <Route path="*" element={<NotFound/>} />
           </Route>

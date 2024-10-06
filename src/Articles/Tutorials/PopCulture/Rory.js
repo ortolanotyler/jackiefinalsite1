@@ -42,8 +42,17 @@ const Card = ({ blogContent }) => (
 
 
 const Rory = () => {
- 
-
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.async = true;
+    script.defer = true;
+    script.src = 'https://assets.pinterest.com/js/pinit.js';
+    document.body.appendChild(script);
+  
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
   const websiteId = '10910';
   const blogRef = useRef(null);

@@ -9,6 +9,7 @@ import ShopMyHero2 from './ShopMyHero2';
 import QuiltedImageList1 from './ImageGridTutorials';
 import HorizontalLine from '../Components/HorizontalLine';
 import { useMediaQuery } from '@mui/material';
+import AdSenseAd from './Adsense';
 
 
 
@@ -94,7 +95,7 @@ function HomePage() {
           linkUrl="/girly-pop-halloween"
           isFlipped={false}
         />
-
+<AdSenseAd/>
         <div style={{ padding: '10px' }}>
           <HorizontalLine />
         </div>
@@ -108,12 +109,14 @@ function HomePage() {
           linkUrl="/barbie-doll"
           isFlipped={true}
         />
+        <AdSenseAd/>
    <div style = {{
           padding: '10px',
         }}>
 
           <HorizontalLine/>
         </div>
+
         <HeroSection
           featureText="LATEST"
           headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀"
@@ -158,6 +161,7 @@ function HomePage() {
           linkUrl="/quiz-2-home"
           isFlipped={true}
         />
+        <AdSenseAd/>
    <div style = {{
           padding: '10px',
         }}>

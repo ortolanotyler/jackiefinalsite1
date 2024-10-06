@@ -231,7 +231,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
      
        
 <p style={paragraphStyle}>
-  For primer, I opted for the <a href="https://www.giorgioarmanibeauty-usa.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Armani Beauty Luminous Silk Hydrating Primer</a>, (my favorite Italian brand) followed by <a href="https://www.rarebeauty.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Rare Beauty’s Serum foundation</a> to even out the tan while offering lighter coverage, mirroring Loren's sun-kissed skin. I highlighted my chin and jawline with <a href="https://www.maybelline.com/face-makeup/concealer/instant-age-rewind-eraser-dark-circles-concealer-treatment" target="_blank" rel="noopener noreferrer" style={linkStyle}>Maybelline's Age Rewind Concealer</a>, focusing on the center of my face and cheekbones to really make the center of the face pop.
+  For primer, I opted for the <a href="https://www.giorgioarmanibeauty-usa.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Armani Beauty Luminous Silk Hydrating Primer</a>, (my favorite Italian brand) followed by <a href="https://www.rarebeauty.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Rare Beauty’s Serum foundation</a> to even out the tan while offering lighter coverage, mirroring Loren's sun-kissed skin. I highlighted my chin and jawline with <a href="https://www.maybelline.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Maybelline's Age Rewind Concealer</a>, focusing on the center of my face and cheekbones to really make the center of the face pop.
 </p>
 
       <h2 style={headingStyle}>Sculpting the Iconic Bone Structure</h2>
@@ -285,14 +285,14 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   
       <h2 style={headingStyle}>Lips and Cheeks: The Finishing Touches</h2>
       <p style={paragraphStyle}>
-  For the lips, I chose a vibrant peachy pink shade from <a href="https://www.charlottetilbury.com/us/product/hot-lips-angel-alessandra" target="_blank" rel="noopener noreferrer" style={linkStyle}>Charlotte Tilbury called Sunset Lover</a>—a perfect match for a sun-kissed Italian beauty! This has sadly been discontinued, but a similar shade is <a href="https://www.charlottetilbury.com/us/product/hot-lips-angel-alessandra" target="_blank" rel="noopener noreferrer" style={linkStyle}>Charlotte Tilbury Hot Lips 3 Angel Alessandra</a>, which is slightly more nude. Sophia’s blush was subtle, so using the same lipstick as a bit of cream blush works perfectly. A pink gloss added the final touch of color.
+  For the lips, I chose a vibrant peachy pink shade from <a href="https://www.charlottetilbury.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Charlotte Tilbury called Sunset Lover</a>—a perfect match for a sun-kissed Italian beauty! This has sadly been discontinued, but a similar shade is <a href="https://www.charlottetilbury.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Charlotte Tilbury Hot Lips 3 Angel Alessandra</a>, which is slightly more nude. Sophia’s blush was subtle, so using the same lipstick as a bit of cream blush works perfectly. A pink gloss added the final touch of color.
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/495280?noHeader=true" title="Lip and Cheek Products" />
 
       <h2 style={headingStyle}>Nude Lips</h2>
       <p style={paragraphStyle}>
-  While peach lipsticks were often seen on screen, some behind-the-scenes photos show a more nude style, as well as the second "<a href="https://www.imdb.com/title/tt0060758/" target="_blank" rel="noopener noreferrer" style={linkStyle}>Arabesque</a>" look covered below. <a href="https://www.toofaced.com/product/23449/80626/lips/lip-gloss/milkshake-hangover-rx-lip-treatment" target="_blank" rel="noopener noreferrer" style={linkStyle}>Too Faced Milkshake gloss</a> is a great option for this.
+  While peach lipsticks were often seen on screen, some behind-the-scenes photos show a more nude style, as well as the second "<a href="https://www.imdb.com/title/tt0060758/" target="_blank" rel="noopener noreferrer" style={linkStyle}>Arabesque</a>" look covered below. <a href="https://www.toofaced.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Too Faced Milkshake gloss</a> is a great option for this.
 </p>
 
       <h2 style={headingStyle}>The Arabesque Hairstyle</h2>
