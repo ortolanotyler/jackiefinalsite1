@@ -1,18 +1,23 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 const AdSenseAd = () => {
   useEffect(() => {
-    // Ensure the AdSense script is loaded only once
-    const script = document.createElement('script');
-    script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318';
-    script.async = true;
-    script.crossOrigin = 'anonymous';
-    document.body.appendChild(script);
+    // Check if the ad element is already rendered to avoid multiple pushes
+    if (!window.adsbygoogle || window.adsbygoogle.length === 0) {
+      const script = document.createElement('script');
+      script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318';
+      script.async = true;
+      script.crossOrigin = 'anonymous';
+      document.body.appendChild(script);
 
-    // Initialize the AdSense ad after script is loaded
-    script.onload = () => {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    };
+      script.onload = () => {
+        try {
+          (window.adsbygoogle = window.adsbygoogle || []).push({});
+        } catch (e) {
+          console.error('Adsense error: ', e);
+        }
+      };
+    }
   }, []);
 
   return (
@@ -21,7 +26,7 @@ const AdSenseAd = () => {
         className="adsbygoogle"
         style={{ display: 'block' }}
         data-ad-client="ca-pub-4660168246825318" 
-        data-ad-slot="3426882419"  // Your Ad Slot ID
+        data-ad-slot="3426882419"  // Ensure unique ad slot
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>

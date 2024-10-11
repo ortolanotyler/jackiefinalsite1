@@ -86,8 +86,17 @@ function HomePage() {
 
         {/* Section for Featured content */}
         <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px" />
+    <HeroSection
+  featureText="FEATURED"
+  headlineText="Ariana Grande as Glinda Makeup Tutorial – Wicked the Movie 🎀"
+  subtext="Channel Your Inner Good Witch with Pink Glam Fit for a Bubbly Girl!"
+  author="October 11"
+  imagePath="Wicked/GlindaThumb.webp"
+  linkUrl="/articles/wicked"
+  isFlipped={true}
+/>
         <HeroSection
-          featureText="FEATURED"
+          featureText="HALLOWEEN"
           headlineText="Girly Pop Culture Halloween Costume Ideas 2024🎀"
           subtext="Britney, Barbie, Bridgerton, Oh My!"
           author="September 3"

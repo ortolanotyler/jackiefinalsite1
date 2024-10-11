@@ -119,7 +119,7 @@ fontStyle: 'italic',
   const blogContent = (
     <div className="container">
 <Helmet>
-  <title>Ariana Grande as Glinda Makeup Tutorial – Wicked the Movie 🎀 - Jackie Wyers</title>
+  <title>Ariana Grande as Glinda Makeup Tutorial – Wicked The Movie 🎀</title>
   <link rel="canonical" href="https://www.jackiewyers.beauty/articles/wicked" />
 
   <meta 
@@ -128,11 +128,11 @@ fontStyle: 'italic',
   />
   <meta 
     name="keywords" 
-    content="Wicked makeup tutorial, Ariana Grande Glinda makeup, Wicked movie 2024, Glinda beauty look, pink glam makeup, Jackie Wyers makeup, step-by-step makeup, IT Cosmetics, REM Beauty, One/Size Beauty, Glinda makeup tutorial, Wicked-inspired makeup, Ariana Grande Wicked makeup, beauty tutorials, makeup for musicals, pink makeup, Glinda-inspired makeup, movie makeup looks, Halloween makeup inspiration, Broadway-inspired makeup, Glinda makeup, bubbly pink glam makeup, transforming into Glinda, Glinda glam tutorial, how to do Glinda makeup, pink lips makeup, IT Cosmetics Glinda brushes, Wicked Broadway collaboration, makeup tips by Jackie Wyers, beauty influencer tutorials, pop culture beauty, Ariana Grande makeup recreation, Elphaba makeup coming soon, Hollywood makeup inspiration" 
+    content="Ariana Grande Glinda makeup, Wicked makeup tutorial, Glinda beauty look, 2024 Wicked movie, pink glam makeup, step-by-step makeup guide, IT Cosmetics Glinda brushes, One/Size Beauty products, Halloween makeup ideas 2024, Glinda-inspired beauty tips, Broadway makeup tutorials, pop culture makeup tutorials, REM Beauty Wicked collaboration, Elphaba and Glinda makeup looks, Glinda glam tutorial, makeup for musicals, Jackie Wyers makeup tutorials, pink lips Glinda makeup, transforming into Glinda, Halloween Glinda makeup 2024" 
   />
 
   {/* Open Graph Meta Tags */}
-  <meta property="og:title" content="Ariana Grande as Glinda Makeup Tutorial – Wicked the Movie 🎀 - Jackie Wyers" />
+  <meta property="og:title" content="Ariana Grande as Glinda Makeup Tutorial – Wicked the Movie 🎀" />
   <meta 
     property="og:description" 
     content="Explore Jackie Wyers' full makeup tutorial inspired by Ariana Grande's role as Glinda in the upcoming Wicked movie, with step-by-step glam and beauty tips." 
@@ -145,7 +145,7 @@ fontStyle: 'italic',
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
-  <meta name="twitter:title" content="Ariana Grande as Glinda Makeup Tutorial – Wicked the Movie 🎀 - Jackie Wyers" />
+  <meta name="twitter:title" content="Ariana Grande as Glinda Makeup Tutorial – Wicked the Movie 🎀" />
   <meta 
     name="twitter:description" 
     content="Explore Jackie Wyers' full makeup tutorial inspired by Ariana Grande's role as Glinda in the upcoming Wicked movie, with step-by-step glam and beauty tips." 
@@ -155,20 +155,14 @@ fontStyle: 'italic',
     content="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728234837/GlindaThumb_cnfiim.heic" 
   />
   <meta name="twitter:card" content="summary_large_image" />
-
-  {/* Google Analytics Script */}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script async defer src="https://assets.pinterest.com/js/pinit.js"></script>
-
-
-
+  
   {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
     {`
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "Ariana Grande as Glinda Makeup Tutorial – Wicked the Movie 🎀 - Jackie Wyers",
+        "headline": "Ariana Grande as Glinda Makeup Tutorial – Wicked the Movie 🎀",
         "description": "Explore Jackie Wyers' full makeup tutorial inspired by Ariana Grande's role as Glinda in the upcoming Wicked movie, with step-by-step glam and beauty tips.",
         "image": "https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728234837/GlindaThumb_cnfiim.heic",
         "author": {
@@ -183,8 +177,8 @@ fontStyle: 'italic',
             "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
-        "datePublished": "2024-10-06",
-        "dateModified": "2024-10-06",
+        "datePublished": "2024-10-10",
+        "dateModified": "2024-10-11",
         "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "https://www.jackiewyers.beauty/articles/wicked"
@@ -196,8 +190,8 @@ fontStyle: 'italic',
 
 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
-        <a href="/timetraveltutorials" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
-          BEAUTY // TIME TRAVEL TUTORIALS
+        <a href="/popculture" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
+          BEAUTY // POP CULTURE
         </a>
       </div>
 
@@ -206,18 +200,17 @@ fontStyle: 'italic',
 Tutorial – Wicked the Movie 🎀"
   subTitle="Channel Your Inner Good Witch with Pink Glam Fit for a Bubbly Girl!"
   author="Jackie Wyers"
-  publishDate="October 6th, 2024"
+  publishDate="October 11th, 2024"
 />
 
       
 <SocialShare 
   url="https://www.jackiewyers.beauty/articles/wicked" 
-  title="Ariana Grande as Glinda Makeup Tutorial – Wicked the Movie 🎀" 
+  title="Ariana Grande as Glinda Makeup Tutorial – Wicked the Movie 🎀 – Wicked the Movie 🎀" 
   imageUrl="https://www.jackiewyers.beauty/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg" 
 />
 
 
-     <ResponsiveYoutube src="https://www.youtube.com/public/OrlZinEp4AI?si=pn69Z9dtya3RuV2G" title="Jean Shrimpton Makeup Tutorial - Yardley 1965" />
      
       <div style = {{textAlign: 'center', margin: '10px auto' }}>
 <SubscribeButton />
@@ -264,7 +257,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <p style={paragraphStyle}>
-  I’m beyond excited that Ariana Grande has landed the role of Glinda—a dream come true for her—and based on the trailers, she’s absolutely nailed it. Naturally, I had to create a full tutorial inspired by her Glinda makeup to celebrate her fresh take on the character. With Halloween just around the corner, this glam, girly look will be your new go-to. While I’ll dive into Elphaba’s look in a separate post, today is all about Glinda’s princess-perfect style. So if you’ve always dreamed of floating in a bubble and spreading sparkle, keep reading!
+  I’m beyond excited that <a href = "https://www.arianagrande.com/" target = 'blank' rel= 'noreferrer'> Ariana Grande </a>  has landed the role of Glinda—a dream come true for her—and based on the trailers, she’s absolutely nailed it. Naturally, I had to create a full tutorial inspired by her Glinda makeup to celebrate her fresh take on the character. With Halloween just around the corner, this glam, girly look will be your new go-to. While I’ll dive into Elphaba’s look in a separate post, today is all about Glinda’s princess-perfect style. So if you’ve always dreamed of floating in a bubble and spreading sparkle, keep reading!
 </p>
 
 <h2 style={headingStyle}>🫧 A Quick History of Wicked & Ariana’s Glinda 🫧</h2>
@@ -469,6 +462,9 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   Glinda’s hair is all about soft, romantic curls. I styled a wig half-up, half-down with a flower pin, which she later pins in Elphaba’s hair during her POPULAR makeover attempt. And, of course, no Glinda look is complete without glitter spray! A final touch of shimmer captures her ethereal charm. Check out me trying out the POPULAR On Til Dawn spray as the musical version of Glinda on Broadway!
 </p>
 
+<ResponsiveYoutube src="https://www.youtube.com/embed/snYdmqknVs8?si=koyJgbteBRdq-ET_" title="VIRAL Glitter Setting Spray?! ✨🩵🫧 Let's Try It!😳" />
+
+
 <p style={paragraphStyle}>Looking for a perfect Glinda dress? I picked out this one from Ivy city co that comes in both adult and child sizes! 🎀</p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/853526?noHeader=true" style={{ width: '100%', minHeight: '340px', border: 'none' }}></ResponsiveIframe>
@@ -513,7 +509,18 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   />
 </div>
 
-<p style={paragraphStyle}>Stay sparkly my Good Witches!</p>
+
+
+
+<p style={captionStyle}>Stay sparkly my Good Witches!</p>
+
+<p style={paragraphStyle}>
+
+Looking for more Halloween inspiration? Check out
+my girly round up of pop culture Halloween styles
+here.
+
+</p>
 
 
 
