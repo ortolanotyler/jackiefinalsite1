@@ -7,6 +7,7 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
+import AdSenseAd from '../../../Home/Adsense';
 
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
@@ -538,6 +539,12 @@ here.
       </div>
       
       <Comments website-id={websiteId} page-id={"Yardlizz-65fizz"} />
+      <AdSenseAd/>
+      <AdSenseAd/>
+      <AdSenseAd/>
+      <AdSenseAd/>
+      <AdSenseAd/>
+      <AdSenseAd/>
     </div>
   );
 
