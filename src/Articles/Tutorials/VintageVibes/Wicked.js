@@ -223,38 +223,9 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <DropCap1 text="Welcome back, witches! Today, I’m thrilled to share a magical Wicked-inspired look. I recently had the chance to see the musical live, and it was absolutely captivating! Around that time, I partnered with One/Size Beauty for their Wicked on Broadway collaboration, and more recently, I’ve been showcasing Wicked brushes from IT Cosmetics over on Instagram, in celebration of the upcoming Wicked movie. I still can't believe I’ve had the opportunity to work with such amazing beauty brands tied to this iconic pop culture moment! These collaborations are perfect for recreating the iconic looks or adding a touch of Wicked magic to your everyday routine."
       />
      
-    
-     <div style={{ position: 'relative', display: 'inline-block' }}>
-  <img 
-    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728233155/1_yg5wlk.heic" 
-    alt="Jackie Wyers as Glinda on Broadway in the iconic blue dress." 
-    style={imageStyle} 
-    data-pin-url="https://www.jackiewyers.beauty/articles/wicked"
-    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728233155/1_yg5wlk.heic"
-    data-pin-description="Jackie Wyers as Glinda on Broadway in the iconic blue dress, makeup recreation tutorial inspired by Wicked."
-  />
-  <img 
-    src={pinterest}
-    alt="Pin this on Pinterest" 
-    style={{
-      position: 'absolute',
-      top: '20px',
-      right: '20px',
-      width: '50px',
-      height: '50px',
-      cursor: 'pointer',
-      opacity: 0.9,
-      transition: 'opacity 0.3s'
-    }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/wicked&media=https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728233155/1_yg5wlk.heic&description=Jackie Wyers as Glinda on Broadway in the iconic blue dress, makeup recreation tutorial inspired by Wicked.')}
-    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
-    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
-  />
-</div>
 
-<p style={captionStyle}>
-  Makeup originally by Nuria on set of Wicked using some of REM Beauty products. Pictured, Jackie Wyers recreation.
-</p>
+
+
 
 <p style={paragraphStyle}>
   I’m beyond excited that <a href = "https://www.arianagrande.com/" target = 'blank' rel= 'noreferrer'> Ariana Grande </a>  has landed the role of Glinda—a dream come true for her—and based on the trailers, she’s absolutely nailed it. Naturally, I had to create a full tutorial inspired by her Glinda makeup to celebrate her fresh take on the character. With Halloween just around the corner, this glam, girly look will be your new go-to. While I’ll dive into Elphaba’s look in a separate post, today is all about Glinda’s princess-perfect style. So if you’ve always dreamed of floating in a bubble and spreading sparkle, keep reading!
