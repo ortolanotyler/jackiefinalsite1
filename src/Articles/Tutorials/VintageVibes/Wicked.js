@@ -211,6 +211,7 @@ Tutorial – Wicked the Movie 🎀"
   imageUrl="https://www.jackiewyers.beauty/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg" 
 />
 
+<ResponsiveYoutube src="https://www.youtube.com/embed/hRtIux714T0?si=K3s1BaGTp67hmWO5" title="WICKED MAKEUP💖💚 Ariana Grande’s GLINDA & YASSified ELPHABA🫦" />
 
      
       <div style = {{textAlign: 'center', margin: '10px auto' }}>
