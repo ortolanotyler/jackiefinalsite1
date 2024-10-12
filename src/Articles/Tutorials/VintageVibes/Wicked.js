@@ -335,6 +335,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
+<AdSenseAd/>
 
 <h2 style={headingStyle}>🎀 Glinda Makeup Tutorial: Sparkling and Sweet 🎀</h2>
 
@@ -355,7 +356,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   Ariana’s contour for Glinda is softer than her signature pop star persona. Since I’m aiming to channel a bit of Ariana’s facial structure, I used Rose Inc. Cream Contour under the cheekbones, jawline, and forehead. The real contour magic happens with the nose, where I sculpted the eye socket and connected it to the bridge of the nose, finishing with a rounded nose tip—Ariana’s signature look! This bold contour is perfect for transformations, but feel free to tone it down for an everyday version.
 </p>
-
+<AdSenseAd/>
 <p style={paragraphStyle}>
   For blush, I’m using IT Cosmetics Sun Blush in Sun Blossom lower on the cheeks to add warmth. And how adorable is the Glinda Airbrush Soft Focus Blush Brush #113 by IT cosmetics? With its pink glitter and butterflies, it perfectly captures Glinda’s essence while blending everything to perfection.
 </p>
@@ -389,6 +390,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </div>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/853500?noHeader=true" style={{ width: '100%', minHeight: '340px', border: 'none' }}></ResponsiveIframe>
+<AdSenseAd/>
 
 <p style={paragraphStyle}>Step 3: Baking and Brows</p>
 
@@ -401,6 +403,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/853507?noHeader=true" style={{ width: '100%', minHeight: '340px', border: 'none' }}></ResponsiveIframe>
+<AdSenseAd/>
 
 <p style={paragraphStyle}>Step 4: Glinda’s Signature Doe Eyes</p>
 
@@ -457,6 +460,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/853525?noHeader=true" style={{ width: '100%', minHeight: '340px', border: 'none' }}></ResponsiveIframe>
+<AdSenseAd/>
 
 <p style={paragraphStyle}>Step 6: The Hair & Finishing Touches</p>
 
@@ -480,6 +484,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/867494?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}></ResponsiveIframe>
+<AdSenseAd/>
 
 <p style={paragraphStyle}>Thank you for joining me on this magical Glinda transformation! Stay tuned for my glamorous Elphaba tutorial coming soon!</p>
 
