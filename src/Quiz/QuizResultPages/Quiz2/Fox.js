@@ -5,6 +5,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import styles from './AnimalPretty.module.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
+import AdSenseAd from '../../../Home/Adsense';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxTitleResults.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxPretty.png`;
@@ -181,7 +182,7 @@ const FoxPretty = () => {
       <p style={paragraphStyle}>
         <strong>(Fox Beauty Tutorial starts at 13:20)</strong>
       </p>
-
+<AdSenseAd/>
       <p style={paragraphStyle}>
         Your free-spirited and adventurous nature makes you a perfect match for the Fox Pretty style. With a love for earthy tones and a makeup style that features warm, rustic shades, you capture the essence of the wild and whimsical fox.
       </p>
@@ -189,6 +190,7 @@ const FoxPretty = () => {
       <p style={paragraphStyle}>
         Your preference for bohemian and patterned outfits complements this look, embodying the charm and vibrant spirit of the outdoors. Your personality is as warm and inviting as your makeup, drawing others to your genuine and down-to-earth demeanour.
       </p>
+      <AdSenseAd/>
 
       <p style={paragraphStyle}>
         Dive into styles that feature lively prints and natural textures to fully embrace your Fox Pretty persona. Read further for makeup recommendations.
@@ -199,6 +201,7 @@ const FoxPretty = () => {
       <p style={paragraphStyle}>
         Celebrity Inspirations: Sadie Sink is the quintessential muse for this look, with her rustic red hues in her hair and brows. Her natural beauty enhanced with earthy makeup perfectly captures the Fox Pretty aesthetic.
       </p>
+      <AdSenseAd/>
 
       <p style={paragraphStyle}>
         Note: If you're a redhead with bright blue eyes and vibrant hair that leans more towards the Spring colour season, you might find the “Bunny Pretty” guide with its softer pink shades more flattering than the rustic tones of Fox Pretty.
@@ -212,6 +215,7 @@ const FoxPretty = () => {
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552844?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
+      <AdSenseAd/>
 
       <p style={paragraphStyle}>
         Lashes: Extend the lash line along the winged-out shadow. Try ISOPIA Iso-Gentle Healing Lashes for a subtle effect.
@@ -233,6 +237,7 @@ const FoxPretty = () => {
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552848?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
+      <AdSenseAd/>
 
       <p style={paragraphStyle}>
         Outfit Inspiration: Dive into a bohemian vibe with lively prints. Anthropologie is an excellent starting point for this style. Select paisley or other small prints in rustic tones to complement the boho aesthetic beautifully. This style not only matches the rich-toned makeup but also ties the whole look together.
@@ -244,6 +249,7 @@ const FoxPretty = () => {
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552850?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
+      <AdSenseAd/>
 
       <p style={paragraphStyle}>
         I hope this quiz inspires you to play with these animal-inspired beauty looks. Here’s a mini tutorial as a refresher to get the look and be sure to tag me on your socials if you try out these styles as I’d love to see it!
@@ -251,6 +257,10 @@ const FoxPretty = () => {
 
       <img src={signature} alt="Jackie Wyers Signature" className={styles.signatureImage} />
       <Comments website-id={websiteId} page-id={"Animal-Prizznizzle"} />
+      <AdSenseAd/>
+      <AdSenseAd/>
+      <AdSenseAd/>
+      <AdSenseAd/>
 
       
    
