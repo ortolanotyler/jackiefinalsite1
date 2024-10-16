@@ -299,7 +299,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={captionStyle}>
   Original Makeup design by Joe Dulude II for the original Broadway production of Wicked. Recreation by Jackie Wyers.
 </p>
-
+<AdSenseAd/>
 <p style={paragraphStyle}>
   The upcoming Wicked movie, with Ariana Grande as Glinda, has generated buzz on par with the Barbie movie’s marketing phenomenon. Ariana’s flawless vocals and playful style are sure to bring fresh energy to the role, and her beauty looks will no doubt inspire makeup lovers everywhere. Now, let’s recreate the magic of her Glinda look, step-by-step!
 </p>
