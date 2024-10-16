@@ -142,14 +142,14 @@ function HomePage() {
           <HorizontalLine/>
         </div>
         <HeroSection
-          featureText="POP CULTURE"
-          headlineText="Rory Gilmore's No-Makeup Makeup & Cozy Fall Style Guide 🧣"
-          subtext="The Perfect Girl-Next-Door Makeup Routine!"
-          author="September 24"
-          imagePath="Homepage/rorythumbnail.webp"
-          linkUrl="/articles/rory-gilmore"
-          isFlipped={true}
-        />
+  featureText="HALLOWEEN POP CULTURE"
+  headlineText="Elphaba “The Wicked Witch of The West” Makeup Tutorial 💚"
+  subtext="From green smokey eyes to bold black lips, two wickedly glam Halloween looks!"
+  author="October 11"
+  imagePath="Homepage/wickedthumbnail.webp"
+  linkUrl="/articles/wicked-witch-of-the-west"
+  isFlipped={true}
+/>
    <div style = {{
           padding: '10px',
         }}>
