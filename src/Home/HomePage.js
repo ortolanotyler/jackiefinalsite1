@@ -86,6 +86,17 @@ function HomePage() {
 
         {/* Section for Featured content */}
         <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px" />
+        <HeroSection
+  featureText="HALLOWEEN POP CULTURE"
+  headlineText="Elphaba “The Wicked Witch of The West” Makeup Tutorial 💚"
+  subtext="From green smokey eyes to bold black lips, two wickedly glam Halloween looks!"
+  author="October 11"
+  imagePath="Homepage/wickedthumbnail.webp"
+  linkUrl="/articles/wicked-witch-of-the-west"
+  isFlipped={true}
+/>
+<AdSenseAd/>
+    
     <HeroSection
   featureText="FEATURED"
   headlineText="Ariana Grande as Glinda Makeup Tutorial – Wicked the Movie 🎀"
@@ -142,14 +153,14 @@ function HomePage() {
           <HorizontalLine/>
         </div>
         <HeroSection
-  featureText="HALLOWEEN POP CULTURE"
-  headlineText="Elphaba “The Wicked Witch of The West” Makeup Tutorial 💚"
-  subtext="From green smokey eyes to bold black lips, two wickedly glam Halloween looks!"
-  author="October 11"
-  imagePath="Homepage/wickedthumbnail.webp"
-  linkUrl="/articles/wicked-witch-of-the-west"
-  isFlipped={true}
-/>
+          featureText="POP CULTURE"
+          headlineText="Rory Gilmore's No-Makeup Makeup & Cozy Fall Style Guide 🧣"
+          subtext="The Perfect Girl-Next-Door Makeup Routine!"
+          author="September 24"
+          imagePath="Homepage/rorythumbnail.webp"
+          linkUrl="/articles/rory-gilmore"
+          isFlipped={true}
+        />
    <div style = {{
           padding: '10px',
         }}>
