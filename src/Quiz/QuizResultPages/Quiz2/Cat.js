@@ -5,6 +5,7 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import styles from './AnimalPretty.module.css';
+import AdSenseAd from '../../../Home/Adsense';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/CatPrettyTitle.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FinalCat.jpg`;
@@ -185,7 +186,7 @@ const CatPretty = () => {
       <p style={paragraphStyle}>
         <strong>(Cat Beauty Tutorial starts at 17:50)</strong>
       </p>
-
+      <AdSenseAd/>
       <p style={paragraphStyle}>
         You are the epitome of the Cat Pretty style—bold, confident, and assertive. Your love for dramatic makeup and high-contrast colour palettes mirrors the sharp, angular features of a nocturnal feline. Your makeup is precise and impactful, enhancing your naturally striking features.
       </p>
@@ -197,7 +198,7 @@ const CatPretty = () => {
       <p style={paragraphStyle}>
         Embrace your inner feline with sleek, fitted fashion and statement pieces that highlight your bold and intense beauty style.
       </p>
-
+      <AdSenseAd/>
       <div className={styles.imageContainer}>
         <img src={image2} alt="Cat Pretty" className={styles.image} />
       </div>
@@ -205,7 +206,7 @@ const CatPretty = () => {
       <p style={paragraphStyle}>
         Celebrity Inspirations: Examples include Bella Hadid and Megan Fox. For deeper skin tones, think Rihanna, with those light green, cat-like eyes, and Zoe Kravitz, with her sharp, kitty-like features. We'll explore warmer smokey eyes in the “Fox Pretty” look and keep it cool-toned for this fierce style.
       </p>
-
+      <AdSenseAd/>
       <h2 style={headingStyle}>Achieve the Cat Pretty Look</h2>
 
       <p style={paragraphStyle}>
@@ -213,6 +214,7 @@ const CatPretty = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552837?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
+      <AdSenseAd/>
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
       <p style={paragraphStyle}>
@@ -220,6 +222,7 @@ const CatPretty = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552911?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
+      <AdSenseAd/>
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
       <p style={paragraphStyle}>
@@ -227,6 +230,7 @@ const CatPretty = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552914?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
+      <AdSenseAd/>
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
       <p style={paragraphStyle}>
@@ -234,6 +238,7 @@ const CatPretty = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552839?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
+      <AdSenseAd/>
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
       <p style={paragraphStyle}>
@@ -241,6 +246,7 @@ const CatPretty = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552842?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
+      <AdSenseAd/>
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
       <p style={paragraphStyle}>

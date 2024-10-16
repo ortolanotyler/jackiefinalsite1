@@ -5,6 +5,7 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import styles from './AnimalPretty.module.css';
+import AdSenseAd from '../../../Home/Adsense';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/bunnytitle.jpeg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
@@ -193,7 +194,7 @@ const BunnyPretty = () => {
       <p style={paragraphStyle}>
         <strong>Bunny Pretty: Cute and Angelic (Bunny Beauty Tutorial starts at 5:31)</strong>
       </p>
-
+      <AdSenseAd/>
       <p style={paragraphStyle}>
         You are the sweet and playful Bunny Pretty, with a love for soft pastels and a makeup style that’s as cute and angelic as it is vibrant. Your bubbly personality and love for social gatherings are perfectly reflected in the pink hues and glossy finishes of your makeup, mirroring a bunny's gentle charm.
       </p>
@@ -205,7 +206,7 @@ const BunnyPretty = () => {
       <p style={paragraphStyle}>
         Embrace flowing fabrics and flirty dresses in pastel colours that enhance your adorable Bunny Pretty look, making you the epitome of sweetness and playfulness. Read further for makeup recommendations.
       </p>
-      
+      <AdSenseAd/>
       <div className={styles.imageContainer}>
         <img src={image2} alt="Bunny Pretty" className={styles.image} />
       </div>
@@ -221,6 +222,7 @@ const BunnyPretty = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552851?noHeader=true" title="Charlotte Tilbury Pillow Talk Eyeshadow Palette" />
+      <AdSenseAd/>
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
       <p style={paragraphStyle}>
@@ -228,6 +230,8 @@ const BunnyPretty = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552853?noHeader=true" title="ISOPIA Iso-Gentle Harmony Lashes" />
+      <AdSenseAd/>
+    
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
       <p style={paragraphStyle}>
@@ -235,6 +239,8 @@ const BunnyPretty = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552854?noHeader=true" title="Milani Coral Cove Blush" />
+      <AdSenseAd/>
+    
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
       <p style={paragraphStyle}>
@@ -242,6 +248,9 @@ const BunnyPretty = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552857?noHeader=true" title="Sephora Collection Pink Pout Lipgloss" />
+      <AdSenseAd/>
+   
+   
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
       <p style={paragraphStyle}>
@@ -273,6 +282,11 @@ const BunnyPretty = () => {
 
       <img src={signature} alt="Jackie Wyers Signature" className={styles.signatureImage} />
       <Comments website-id={websiteId} page-id={"Animal-Prizznizzle"} />
+      <AdSenseAd/>
+      <AdSenseAd/>
+      <AdSenseAd/>
+      <AdSenseAd/>
+   
     </div>
   );
 
