@@ -104,7 +104,7 @@ function HomePage() {
           linkUrl="/girly-pop-halloween"
           isFlipped={false}
         />
-<AdSenseAd/>
+
         <div style={{ padding: '10px' }}>
           <HorizontalLine />
         </div>
@@ -118,7 +118,7 @@ function HomePage() {
           linkUrl="/barbie-doll"
           isFlipped={true}
         />
-        <AdSenseAd/>
+   
    <div style = {{
           padding: '10px',
         }}>
@@ -170,7 +170,7 @@ function HomePage() {
           linkUrl="/quiz-2-home"
           isFlipped={true}
         />
-        <AdSenseAd/>
+       
    <div style = {{
           padding: '10px',
         }}>
@@ -309,6 +309,9 @@ function HomePage() {
           <HorizontalLine/>
         </div>
         <ShopMyHero2 />
+        <AdSenseAd/>
+        <AdSenseAd/>
+        <AdSenseAd/>
       </Box>   
     </Box>
   );
