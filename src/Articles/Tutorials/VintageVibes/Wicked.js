@@ -129,7 +129,7 @@ fontStyle: 'italic',
   />
   <meta 
     name="keywords" 
-    content="Ariana Grande Glinda makeup, Wicked makeup tutorial, Glinda beauty look, 2024 Wicked movie, pink glam makeup, step-by-step makeup guide, IT Cosmetics Glinda brushes, One/Size Beauty products, Halloween makeup ideas 2024, Glinda-inspired beauty tips, Broadway makeup tutorials, pop culture makeup tutorials, REM Beauty Wicked collaboration, Elphaba and Glinda makeup looks, Glinda glam tutorial, makeup for musicals, Jackie Wyers makeup tutorials, pink lips Glinda makeup, transforming into Glinda, Halloween Glinda makeup 2024" 
+    content="Ariana Grande Wicked makeup, Ariana Grande Wicked, Ariana Grande Glinda, Ariana Makeup Tutorial, Ariana Wicked Jackie Wyers, Wicked Makeup Tutorial, Glinda Makeup Tutorial, Wicked 2024, Wicked The Movie Makeup, Wicked Makeup, Ariana Grande Glinda makeup, Wicked makeup tutorial, Glinda beauty look, 2024 Wicked movie, pink glam makeup, step-by-step makeup guide, IT Cosmetics Glinda brushes, One/Size Beauty products, Halloween makeup ideas 2024, Glinda-inspired beauty tips, Broadway makeup tutorials, pop culture makeup tutorials, REM Beauty Wicked collaboration, Elphaba and Glinda makeup looks, Glinda glam tutorial, makeup for musicals, Jackie Wyers makeup tutorials, pink lips Glinda makeup, transforming into Glinda, Halloween Glinda makeup 2024" 
   />
 
   {/* Open Graph Meta Tags */}
