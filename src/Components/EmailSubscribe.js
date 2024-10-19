@@ -3,7 +3,6 @@ import { Grid, Button, Box, Typography, Alert, TextField, Paper } from '@mui/mat
 import { EmailContext } from './EmailContext';
 import axios from 'axios';
 import './EmailSubscribe.module.css';
-import TextBanner2 from './TextBanner2';
 
 export default function EmailSubscribe() {
   const [email, setEmail] = useState('');
