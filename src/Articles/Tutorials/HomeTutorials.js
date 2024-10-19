@@ -49,6 +49,15 @@ const HomeTutorials = () => {
   linkUrl="/barbie-doll"
   isFlipped={false}
 />
+<HeroSection
+          featureText="LATEST"
+          headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀"
+          subtext="The Best Barbie-Inspired Products and Collectibles Every Grown-Up Barbie Lover Needs on Their Wishlist"
+          author="September 23"
+          imagePath="/halloweenthumb12.jpg"
+          linkUrl="/barbie-roundup"
+          isFlipped={false}
+        />
             <HorizontalLine />
           </Grid>
 
