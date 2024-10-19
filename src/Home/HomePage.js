@@ -87,6 +87,17 @@ function HomePage() {
 
         {/* Section for Featured content */}
         <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px" />
+        <HeroSection
+  featureText="POP CULTURE"
+  headlineText='Elphaba “The Wicked Witch of The West” Makeup Tutorial💚'
+  subtext="From green smokey eyes to green skin, two WICKED looks to try for Halloween 2024"
+
+  author="BY JACKIE WYERS"
+  imagePath="Wicked/wicked2.webp"
+  linkUrl="/articles/wicked-witch-of-the-west"
+  isFlipped={false}
+/>
+<HorizontalLine />
     <HeroSection
   featureText="FEATURED"
   headlineText="Ariana Grande as Glinda Makeup Tutorial – Wicked the Movie 🎀"
