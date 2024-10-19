@@ -97,7 +97,7 @@ function HomePage() {
   linkUrl="/articles/wicked-witch-of-the-west"
   isFlipped={false}
 />
-<HorizontalLine />
+
     <HeroSection
   featureText="FEATURED"
   headlineText="Ariana Grande as Glinda Makeup Tutorial – Wicked the Movie 🎀"
