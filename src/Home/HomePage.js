@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Paper } from '@mui/material';
+import { Box, Button, Paper } from '@mui/material';
 import { Helmet } from 'react-helmet-async';
 import TextRevealHomePage from '../Components/TextRevealHomePage';
 import HeroSection from './HeroSection';
@@ -10,6 +10,8 @@ import QuiltedImageList1 from './ImageGridTutorials';
 import HorizontalLine from '../Components/HorizontalLine';
 import { useMediaQuery } from '@mui/material';
 import AdSenseAd from './Adsense';
+import SubscribeButton from '../Components/SubscribeButton';
+import { Link } from 'react-router-dom';
 
 
 
@@ -81,9 +83,14 @@ function HomePage() {
  <Paper elevation={0} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', color: '#745B4F', textAlign: 'center' }}>
  <RotatingText />
 </Paper>        )}
+
 <div style={{ marginTop: isMobile ? '50px' : '0px' }}>
+  
           <QuiltedImageList1 />
         </div>
+<div>
+  <SubscribeButton/>
+</div>
 
         {/* Section for Featured content */}
         <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px" />
@@ -97,6 +104,28 @@ function HomePage() {
   linkUrl="/articles/wicked-witch-of-the-west"
   isFlipped={false}
 />
+<TextBanner2 text="NEWSLETTER" height="150px" width="100%" fontSize="40px" />
+
+<Button
+              component={Link}
+              to="/subscribe"
+              sx={{
+                backgroundColor: '#000000',
+                color: 'white !important',
+                borderRadius: '50px',
+                padding: '1rem',
+                fontFamily: 'Georgia, serif !important',
+                boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
+                transition: 'color 0.3s ease', // Smooth transition for color change
+                '&:hover': {
+                  color: '#000 !important', // Change text color on hover
+                  backgroundColor: '#3a3a3a', // Maintain the same background color
+                },
+              }}
+            >
+              Subscribe
+            </Button>
+            <HorizontalLine/>
 
     <HeroSection
   featureText="FEATURED"
