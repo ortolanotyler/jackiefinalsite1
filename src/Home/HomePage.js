@@ -77,12 +77,13 @@ function HomePage() {
         {!isMobile && (
           <TextRevealHomePage text="JACKIE WYERS" style={{ margin: 'auto' }} />
         )}
-
-        <Paper elevation={0} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', color: '#745B4F', textAlign: 'center' }}>
-          <RotatingText />
-        </Paper>
-
-        <QuiltedImageList1 />
+   {!isMobile && (
+ <Paper elevation={0} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', color: '#745B4F', textAlign: 'center' }}>
+ <RotatingText />
+</Paper>        )}
+<div style={{ marginTop: isMobile ? '50px' : '0px' }}>
+          <QuiltedImageList1 />
+        </div>
 
         {/* Section for Featured content */}
         <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px" />
