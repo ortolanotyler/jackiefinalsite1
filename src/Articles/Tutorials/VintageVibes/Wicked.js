@@ -208,7 +208,7 @@ Tutorial – Wicked the Movie 🎀"
 <SocialShare 
   url="https://www.jackiewyers.beauty/articles/wicked" 
   title="Ariana Grande as Glinda Makeup Tutorial – Wicked the Movie 🎀 – Wicked the Movie 🎀" 
-  imageUrl="https://www.jackiewyers.beauty/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/Wicked/GlindaThumb.webp" 
 />
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/hRtIux714T0?si=K3s1BaGTp67hmWO5" title="WICKED MAKEUP💖💚 Ariana Grande’s GLINDA & YASSified ELPHABA🫦" />
