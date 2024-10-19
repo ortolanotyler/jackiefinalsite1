@@ -6,8 +6,8 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
-import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import AdSenseAd from '../../../Home/Adsense';
+import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
@@ -23,8 +23,8 @@ const Card = ({ blogContent }) => (
   <div
     style={{
       margin: '0 auto',
-      maxWidth: '100%', // Control max width to center the content
-      padding: '15px', // Add padding to prevent text from touching the edges
+      maxWidth: '95%', // Control max width to center the content
+      padding: '10px', // Add padding to prevent text from touching the edges
     }}
   >
     <div className="card">
@@ -34,13 +34,42 @@ const Card = ({ blogContent }) => (
 );
 
 
-const Wicked2 = () => {
 
+const Elphaba = () => {
+  const blogRef = useRef(null);
+  useEffect(() => {
+    const loadGoogleAnalytics = () => {
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG';
+      document.head.appendChild(script);
+  
+      const inlineScript = document.createElement('script');
+      inlineScript.innerHTML = `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-RT6GR7JXYG');
+      `;
+      document.head.appendChild(inlineScript);
+    };
+  
+    const loadGoogleAds = () => {
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318';
+      script.crossOrigin = 'anonymous';
+      document.head.appendChild(script);
+    };
+  
+    loadGoogleAnalytics();
+    loadGoogleAds();
+  }, []);
 
 
 
 const websiteId = '10910';
-const blogRef = useRef(null);
+
 
 
 const headingStyle = {
@@ -120,7 +149,7 @@ fontStyle: 'italic',
   const blogContent = (
     <div className="container">
 <Helmet>
-<title>Elphaba “The Wicked Witch of The West” Makeup Tutorial 💚 - Jackie Wyers</title>
+  <title>Elphaba “The Wicked Witch of The West” Makeup Tutorial 💚 - Jackie Wyers</title>
   <link rel="canonical" href="https://www.jackiewyers.beauty/articles/wicked-witch-of-the-west" />
 
   <meta 
@@ -132,13 +161,12 @@ fontStyle: 'italic',
   content="Elphaba makeup tutorial, Wicked makeup tutorial, Jackie Wyers, Wicked Witch of the West makeup, green smokey eye makeup, bold Halloween makeup, Ariana Grande Glinda makeup, Wicked 2024 makeup, Halloween beauty looks, step-by-step makeup tutorial, Glinda makeup tutorial, Broadway makeup inspiration, Wicked movie makeup ideas, dramatic Halloween makeup, One/Size Wicked palette, r.e.m. beauty products, IT Cosmetics brushes, witch makeup transformation, green face paint tutorial, Wicked collaborations, pop culture beauty tutorials, Wicked witch makeup, Wicked Halloween makeup ideas, yassified witch makeup look, Elphaba and Glinda makeup transformations" 
 />
 
-  {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Elphaba “The Wicked Witch of The West” Makeup Tutorial 💚" />
   <meta 
     property="og:description" 
     content="Step-by-step makeup tutorial inspired by Elphaba from Wicked, featuring dramatic green smokey eyes, bold black lips, and glamorous Halloween 2024 beauty looks." 
   />
-   <meta 
+  <meta 
     property="og:image" 
     content="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728754845/i5j9aocfpocm39yilgnp.webp" 
   />
@@ -155,6 +183,14 @@ fontStyle: 'italic',
     content="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728754845/i5j9aocfpocm39yilgnp.webp" 
   />
   <meta name="twitter:card" content="summary_large_image" />
+
+  {/* Google Analytics Script */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script src={`${process.env.PUBLIC_URL}/analytics.js`} async></script>
+
+  {/* Google Ads Script */}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+
   {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
   {`
@@ -224,6 +260,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   a yassified version of the Wicked Witch or go all out with full green skin, I’ve got you covered. 💚 ✨ "      />
 
 
+<AdSenseAd/>
 
 
 <p style={paragraphStyle}>
@@ -263,6 +300,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   />
 </div>
 
+<AdSenseAd/>
 
 
 <p style = {captionStyle}>
@@ -290,6 +328,7 @@ green skin!
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/870241?noHeader=true" style={{width: "100%", minHeight: "1200px", border: "none"}}></ResponsiveIframe>
+<AdSenseAd/>
 
 <p style={paragraphStyle}>
   Step 2: Wickedly Dramatic Eyes 👁 ✨
@@ -311,6 +350,7 @@ green skin!
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/870260?noHeader=true" style={{width: "100%", minHeight: "1200px", border: "none"}}></ResponsiveIframe>
+<AdSenseAd/>
 
 <p style={paragraphStyle}>
   Step 3: Bold Witchy Lips 🖤
@@ -392,6 +432,7 @@ paint, dark glamorous makeup, and signature witch hat.
 Inspired by the Wicked witch from the Broadway musical
 Wicked.
 </p>
+<AdSenseAd/>
 
 <p style={paragraphStyle}>
   Step 4: Fully Commit to the Iconic Green Look
@@ -434,6 +475,7 @@ Wicked.
   />
 </div>
 
+<AdSenseAd/>
 
 
 <h2 style = {headingStyle}>
@@ -507,4 +549,4 @@ Target x Wicked iconic cardigan, I love the Aerie line and have listed some of m
   );
 };
 
-export default Wicked2;
+export default Elphaba;

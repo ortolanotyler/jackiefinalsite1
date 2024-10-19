@@ -127,6 +127,8 @@ import Quiz2Homepage from './Quiz/Quiz2HomePage';
 import Rory from './Articles/Tutorials/PopCulture/Rory';
 import Wicked from './Articles/Tutorials/VintageVibes/Wicked';
 import Wicked2 from './Articles/Tutorials/VintageVibes/Wicked2';
+import Elphaba from './Articles/Tutorials/VintageVibes/Elphaba';
+
 
 function usePageTracking() {
   const location = useLocation();
@@ -278,8 +280,7 @@ function App() {
             <Route path="quiz-2-home" element={<Quiz2Homepage />} />
             <Route path="articles/rory-gilmore" element={<Rory />} />
             <Route path="articles/wicked" element={<Wicked />} />
-            <Route path="articles/wicked-witch-of-the-west" element={<Wicked2 />} />
-
+            <Route path="/articles/wicked-witch-of-the-west" element={<Wicked2 />} />
             <Route path="*" element={<NotFound/>} />
           </Route>
         </Routes>
