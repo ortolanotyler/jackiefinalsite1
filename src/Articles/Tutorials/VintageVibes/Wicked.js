@@ -480,7 +480,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <h2 style={headingStyle}>💚 Wicked Collaborations and More pink 💖</h2>
 
 <p style={paragraphStyle}>
-  As the Wicked movie approaches, we’re sure to see a wave of Wicked-inspired collections. I can’t wait to see all the new launches—if you’ve spotted any Wicked collaborations, let me know in the comments, and I’ll add them to my site. So far, the Aerie collection, Target, Lush, Marks & Spencer, Aldo, Voluspa have caught my eye!
+  As the Wicked movie approaches, we’re sure to see a wave of Wicked-inspired collections. I can’t wait to see all the new launches—if you’ve spotted any Wicked collaborations, let me know in the comments, and I’ll add them to my site. So far, the Aerie collection, <a href='https://www.target.com/c/wicked/-/N-akcgm?lnk=snav_rd_wicked&redirect=true' target='_blank' rel= 'noreferrer'>Target</a> , Lush, Marks & Spencer, Aldo, Voluspa have caught my eye!
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/867494?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}></ResponsiveIframe>
