@@ -224,7 +224,13 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   a yassified version of the Wicked Witch or go all out with full green skin, I’ve got you covered. 💚 ✨ "      />
 
 
+<div style = {{
+  textAlign: 'center',
+  padding: '10px',
+}}>
+<AdSenseAd/>
 
+</div>
 
 <p style={paragraphStyle}>
   While Elphaba is strong, resilient, and doesn’t quite aim for being POPULAR like Glinda, I still wanted to give her a glamorous twist. 
@@ -271,7 +277,13 @@ eyes, dramatic black lips, and a wide-brimmed witch hat
 inspired by the iconic Broadway character. Minus the
 green skin!
 </p>
+<div style = {{
+  textAlign: 'center',
+  padding: '10px',
+}}>
+<AdSenseAd/>
 
+</div>
 <p style={paragraphStyle}>
   Step 1: The Matte, Sculpted Base
 </p>
@@ -290,7 +302,13 @@ green skin!
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/870241?noHeader=true" style={{width: "100%", minHeight: "1200px", border: "none"}}></ResponsiveIframe>
+<div style = {{
+  textAlign: 'center',
+  padding: '10px',
+}}>
+<AdSenseAd/>
 
+</div>
 <p style={paragraphStyle}>
   Step 2: Wickedly Dramatic Eyes 👁 ✨
 </p>
@@ -311,7 +329,13 @@ green skin!
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/870260?noHeader=true" style={{width: "100%", minHeight: "1200px", border: "none"}}></ResponsiveIframe>
+<div style = {{
+  textAlign: 'center',
+  padding: '10px',
+}}>
+<AdSenseAd/>
 
+</div>
 <p style={paragraphStyle}>
   Step 3: Bold Witchy Lips 🖤
 </p>
@@ -349,7 +373,13 @@ green skin!
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
+<div style = {{
+  textAlign: 'center',
+  padding: '10px',
+}}>
+<AdSenseAd/>
 
+</div>
 <h2 style={headingStyle}>
   💚 How To Paint Yourself Green 💚
 </h2>
@@ -392,7 +422,13 @@ paint, dark glamorous makeup, and signature witch hat.
 Inspired by the Wicked witch from the Broadway musical
 Wicked.
 </p>
+<div style = {{
+  textAlign: 'center',
+  padding: '10px',
+}}>
+<AdSenseAd/>
 
+</div>
 <p style={paragraphStyle}>
   Step 4: Fully Commit to the Iconic Green Look
 </p>
@@ -439,7 +475,13 @@ Wicked.
 <h2 style = {headingStyle}>
     Styling Elphaba
 </h2>
+<div style = {{
+  textAlign: 'center',
+  padding: '10px',
+}}>
+<AdSenseAd/>
 
+</div>
 <p style={paragraphStyle}>
 For the final styling touches, you could go with a
 side braid and glasses for a chic vibe, or opt for a
@@ -461,7 +503,13 @@ Target x Wicked iconic cardigan, I love the Aerie line and have listed some of m
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/870292?noHeader=true" style={{width: "100%", minHeight: "1200px", border: "none"}}></ResponsiveIframe>
+<div style = {{
+  textAlign: 'center',
+  padding: '10px',
+}}>
+<AdSenseAd/>
 
+</div>
 <p style={paragraphStyle}>
   Thank you for joining me on this Elphaba, The Wicked Witch of the West transformation! Keep reading for the glamorous 
   
