@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet-async';
 import Quiz3 from './Quiz3';
 import Quiz2 from './Quiz2';
 import EmailSubscribe from '../Components/EmailSubscribe';
+import AdSenseAd from '../Home/Adsense';
 
 const QuizHomepage = () => {
     return (
@@ -33,7 +34,10 @@ const QuizHomepage = () => {
                       <Quiz2 />
                 </Grid>
                   
-                
+                 
+                <Grid item xs={12}>
+                      <AdSenseAd />
+                </Grid>
 
         
                
@@ -43,17 +47,31 @@ const QuizHomepage = () => {
           
              
            
-              
+                     
+                <Grid item xs={12}>
+                      <AdSenseAd />
+                </Grid>
+
           
-                
-      
+                <div style = {{margin :'10px auto' }}>
+                <EmailSubscribe/>
+                </div>
+
+        <Grid item xs={12}>
+                      <AdSenseAd />
+                </Grid>
+                <Grid item xs={12}>
+                      <AdSenseAd />
+                </Grid>
+                <Grid item xs={12}>
+                      <AdSenseAd />
+                </Grid>
+
                 
             </Grid>
           
 
-<div style = {{margin :'10px auto' }}>
-                <EmailSubscribe/>
-                </div>
+
 
                 
              
