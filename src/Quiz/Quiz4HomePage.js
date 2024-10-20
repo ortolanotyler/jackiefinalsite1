@@ -109,9 +109,7 @@ const Quiz4Homepage = () => {
             </Grid>
           
 
-<div style = {{margin :'1rem auto' }}>
-                <EmailSubscribe/>
-                </div>
+
                 <Grid item xs={12}>
                     <AdSenseAd />
                 </Grid>

@@ -11,8 +11,8 @@ import HorizontalLine from '../Components/HorizontalLine';
 import { useMediaQuery } from '@mui/material';
 import AdSenseAd from './Adsense';
 import SubscribeButton from '../Components/SubscribeButton';
-import EmailSubscribe from '../Components/EmailSubscribe';
 import NewsletterSlider from '../Components/NewsletterSlider';
+import Quiz4 from '../Quiz/Quiz4';
 
 
 
@@ -94,23 +94,35 @@ function HomePage() {
 
 
         {/* Section for Featured content */}
-        <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px" />
+        <TextBanner2 text="FEATURED" height="100px" width="100%" fontSize="70px" />
         <div
-style = {{textAlign: 'center', padding: '10px'}}
+style = {{textAlign: 'center'}}
 >
   <SubscribeButton/>
 </div>
         <HorizontalLine/>
-   
-        <HeroSection
-          featureText="FALL FUN"
-          headlineText="Halloween Style Quiz 🎃 What should you be?"
-          imagePath="Homepage/Audrey.JPG"
-          linkUrl="/quiz/halloween"
+        <TextRevealHomePage text="HALLOWEEN COSTUME QUIZ" height="150px" width="100" fontSize="1rem" />
+        <Quiz4 />
+        <HorizontalLine/>
+
+       
+
+
+<HorizontalLine/>
+
+<AdSenseAd/>
+
+<HeroSection
+          featureText="QUIZ"
+          headlineText="Animal Pretty - Which one are you?"
+          imagePath="Homepage/animals.webp"
+          linkUrl="/quiz-2-home"
           isFlipped={true}
         />
 
 <HorizontalLine/>
+
+<AdSenseAd/>
 
         <HeroSection
   featureText="POP CULTURE"
@@ -212,7 +224,7 @@ style = {{textAlign: 'center', padding: '10px'}}
           isFlipped={false}
         />
 
-        <HeroSection
+<HeroSection
           featureText="QUIZ"
           headlineText="Animal Pretty - Which one are you?"
           imagePath="Homepage/animals.webp"
