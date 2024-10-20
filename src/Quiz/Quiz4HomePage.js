@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet-async';
 import EmailSubscribe from '../Components/EmailSubscribe';
 import Quiz4 from './Quiz4';import TextReveal from '../Components/TextReveal';
 import AdSenseAd from '../Home/Adsense';
+import HorizontalLine from '../Components/HorizontalLine';
 
 const Quiz4Homepage = () => {
     return (
@@ -75,15 +76,19 @@ const Quiz4Homepage = () => {
            <TextReveal text= "WHAT'S YOUR HALLOWEEN STYLE?"/>
                 
             
-        
+           <HorizontalLine/>
+
                
                 <Grid item xs={12}>
                     <Quiz4 />
                 </Grid>
+                <HorizontalLine/>
 
                 <Grid item xs={12}>
                     <AdSenseAd />
                 </Grid>
+                <HorizontalLine/>
+
                 <Grid item xs={12}>
                     <AdSenseAd />
                 </Grid>
@@ -97,7 +102,7 @@ const Quiz4Homepage = () => {
 
                 
               
-          
+          <HorizontalLine/>
                 
       
                 
@@ -110,13 +115,18 @@ const Quiz4Homepage = () => {
                 <Grid item xs={12}>
                     <AdSenseAd />
                 </Grid>
+                <HorizontalLine/>
+
                 <Grid item xs={12}>
                     <AdSenseAd />
                 </Grid>
+                <HorizontalLine/>
+
                 <Grid item xs={12}>
                     <AdSenseAd />
                 </Grid>
-                
+                <HorizontalLine/>
+
 
              
         </div>
