@@ -5,7 +5,6 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
-import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import AdSenseAd from '../../../Home/Adsense';
 import DropCap1 from '../../../Articles/Travel/DropCap1';
 import HorizontalLine from '../../../Components/HorizontalLine';
@@ -60,7 +59,7 @@ const paragraphStyle = {
 fontSize: '20px',
 color: '#000000',
 
-fontFamily: "'Open Sans', serif",
+fontFamily: "'Playfair Display', sans-serif",
 fontWeight: '100',
 padding: '10px',
 margin: '10px auto',
@@ -72,7 +71,7 @@ margin: '10px auto',
 
 const linkStyle = {
 textDecoration: 'none', // Removes underline from links
-fontFamily: "'Open Sans', serif",
+fontFamily: "'Open Sans', sans-serif",
 fontWeight: '100',
 color: '#745B4F', // Inherits the color of the surrounding text
 };
@@ -109,7 +108,7 @@ scrolling: 'no',
 const captionStyle = {
 textAlign: 'center',
 fontSize: '1rem',
-fontFamily: 'Arapey, serif',
+fontFamily: 'Arapey, sans-serif',
 fontWeight: '100',
 margin: '0 auto',
 fontStyle: 'italic',
