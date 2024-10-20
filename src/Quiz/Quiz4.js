@@ -139,6 +139,7 @@ const Quiz4 = () => {
   ];
 
   const handleAnswerClick = (points) => {
+    // Use callback to ensure accurate totalPoints update
     setTotalPoints((prevPoints) => prevPoints + points);
 
     if (currentQuestionIndex < quizQuestions.length - 1) {
@@ -153,16 +154,19 @@ const Quiz4 = () => {
     if (showResults) {
       calculateResults();
     }
-  }, [showResults]); // Trigger calculation only when showResults is true
+  }, [showResults]);
 
   const calculateResults = () => {
-    if (totalPoints >= 79) {
+    // Now calculate the results based on the correct totalPoints
+    if (totalPoints >= 93) {
       navigate('/quiz/halloween/ysl');
-    } else if (totalPoints >= 70) {
+    } else if (totalPoints >= 80) {
+      navigate('/quiz/halloween/barbie');
+    } else if (totalPoints >= 61) {
       navigate('/quiz/halloween/britney');
     } else if (totalPoints >= 55) {
       navigate('/quiz/halloween/tiffany');
-    } else if (totalPoints >= 35) {
+    } else if (totalPoints >= 40) {
       navigate('/quiz/halloween/bridgerton');
     } else if (totalPoints >= 25) {
       navigate('/quiz/halloween/ariel');
@@ -170,6 +174,7 @@ const Quiz4 = () => {
       navigate('/quiz/halloween/taylor');
     }
   };
+
 
 
   return (
