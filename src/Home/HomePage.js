@@ -95,22 +95,29 @@ function HomePage() {
 
         {/* Section for Featured content */}
         <TextBanner2 text="FEATURED" height="100px" width="100%" fontSize="70px" />
+
         <div
 style = {{textAlign: 'center'}}
 >
   <SubscribeButton/>
 </div>
+
+
         <HorizontalLine/>
         <TextRevealHomePage text="HALLOWEEN COSTUME QUIZ" height="150px" width="100" fontSize="1rem" />
         <Quiz4 />
-        <HorizontalLine/>
 
        
 
 
-<HorizontalLine/>
 
 <AdSenseAd/>
+
+        <HorizontalLine/>
+
+        <TextBanner2 text="MOST POPULAR" height="100px" width="100%" fontSize="70px" />
+
+        <HorizontalLine/>
 
 <HeroSection
           featureText="QUIZ"
@@ -158,9 +165,7 @@ style = {{textAlign: 'center'}}
           isFlipped={false}
         />
 
-        <div style={{ padding: '10px' }}>
-          <HorizontalLine />
-        </div>
+     
 
         <HeroSection
           featureText="LATEST"

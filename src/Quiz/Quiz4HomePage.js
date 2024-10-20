@@ -75,23 +75,14 @@ const Quiz4Homepage = () => {
            <TextReveal text= "WHAT'S YOUR HALLOWEEN STYLE?"/>
                 
             
-           <HorizontalLine/>
+       
 
                
                 <Grid item xs={12}>
                     <Quiz4 />
                 </Grid>
-                <HorizontalLine/>
 
-                <Grid item xs={12}>
-                    <AdSenseAd />
-                </Grid>
-                <HorizontalLine/>
-
-                <Grid item xs={12}>
-                    <AdSenseAd />
-                </Grid>
-
+                
           
              
            
@@ -101,7 +92,7 @@ const Quiz4Homepage = () => {
 
                 
               
-          <HorizontalLine/>
+      
                 
       
                 
@@ -109,20 +100,13 @@ const Quiz4Homepage = () => {
           
 
 
-                <Grid item xs={12}>
+           
                     <AdSenseAd />
-                </Grid>
-                <HorizontalLine/>
+                    <AdSenseAd />
+                    <AdSenseAd />
 
-                <Grid item xs={12}>
-                    <AdSenseAd />
-                </Grid>
-                <HorizontalLine/>
 
-                <Grid item xs={12}>
-                    <AdSenseAd />
-                </Grid>
-                <HorizontalLine/>
+            
 
 
              

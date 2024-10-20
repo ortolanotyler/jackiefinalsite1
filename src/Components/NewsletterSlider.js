@@ -5,6 +5,10 @@ import './NewsletterSlider.module.css'; // Ensure this file exists
 import EmailSubscribe from './EmailSubscribe';
 
 const images = [
+  `${process.env.PUBLIC_URL}/Images/Newsletter17A.png`,
+  `${process.env.PUBLIC_URL}/Images/Newsletter17B.png`,
+  `${process.env.PUBLIC_URL}/Images/Newsletter17C.png`,
+  `${process.env.PUBLIC_URL}/Images/Newsletter17D.png`,
   `${process.env.PUBLIC_URL}/Images/1.png`,
   `${process.env.PUBLIC_URL}/Images/2.png`,
   `${process.env.PUBLIC_URL}/Images/3.png`,
@@ -14,6 +18,7 @@ const images = [
   `${process.env.PUBLIC_URL}/Images/7.png`,
   `${process.env.PUBLIC_URL}/Images/8.png`,
   `${process.env.PUBLIC_URL}/Images/9.png`,
+
 
 ];
 

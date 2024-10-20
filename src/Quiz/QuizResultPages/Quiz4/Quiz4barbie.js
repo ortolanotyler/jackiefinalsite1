@@ -121,7 +121,7 @@ fontStyle: 'italic',
   const blogContent = (
     <div className="container">
 <Helmet>
-  <title>Hi Barbie! - Jackie Wyers Halloween Costume Quiz 🎀</title>
+  <title>Barbie Halloween - Costume and Quiz 🎃</title>
   <link rel="canonical" href="https://www.jackiewyers.beauty/quiz/halloween/barbie" />
 
   <meta 
