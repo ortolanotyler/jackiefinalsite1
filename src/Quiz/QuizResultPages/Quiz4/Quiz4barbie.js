@@ -216,14 +216,15 @@ fontStyle: 'italic',
   title="Barbie Halloween Costume Quiz Result" 
   imageUrl="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729371414/MovieBarbiePolaroid_2_asagw8.jpg" 
 />
+
 <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
-    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729370578/ClassicBarbiePolaroid_gglajb.jpg" 
-    alt="VICTORIA’S SECRET ANGEL makeup🎀 2014 girly tumblr aesthetic!" 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729371414/MovieBarbiePolaroid_2_asagw8.jpg" 
+    alt="Barbie Movie Halloween 2024" 
     style={imageStyle} 
-    data-pin-url="https://www.jackiewyers.beauty/quiz/halloween/ysl"
-    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729370578/ClassicBarbiePolaroid_gglajb.jpg"
-    data-pin-description="VICTORIA’S SECRET ANGEL makeup🎀 2014 girly tumblr aesthetic!"
+    data-pin-url="https://www.jackiewyers.beauty/quiz/halloween/barbie"
+    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729371414/MovieBarbiePolaroid_2_asagw8.jpg"
+    data-pin-description="Barbie Movie Halloween 2024"
   />
   <img 
     src={pinterest}
@@ -238,7 +239,7 @@ fontStyle: 'italic',
       opacity: 0.9,
       transition: 'opacity 0.3s'
     }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/quiz/halloween/ysl&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1729367828/2_oigqaz.jpg&description=VICTORIA’S SECRET ANGEL makeup🎀 2014 girly tumblr aesthetic!')}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/quiz/halloween/barbie&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1729370578/ClassicBarbiePolaroid_gglajb.jpg&description=Barbie Movie Halloween 2024')}
     onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
@@ -279,15 +280,14 @@ Find tutorials below to guide your look & comment below to share your results & 
 <HorizontalLine/>
       <AdSenseAd/>
       <HorizontalLine/>
-
-<div style={{ position: 'relative', display: 'inline-block' }}>
+      <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
-    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729371414/MovieBarbiePolaroid_2_asagw8.jpg" 
-    alt="Barbie Movie Halloween 2024" 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729370578/ClassicBarbiePolaroid_gglajb.jpg" 
+    alt="Halloween Style Quiz: I got Barbie!" 
     style={imageStyle} 
-    data-pin-url="https://www.jackiewyers.beauty/quiz/halloween/barbie"
-    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729371414/MovieBarbiePolaroid_2_asagw8.jpg"
-    data-pin-description="Barbie Movie Halloween 2024"
+    data-pin-url="https://www.jackiewyers.beauty/quiz/halloween/ysl"
+    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729370578/ClassicBarbiePolaroid_gglajb.jpg"
+    data-pin-description="Halloween Style Quiz: I got Barbie!"
   />
   <img 
     src={pinterest}
@@ -302,7 +302,7 @@ Find tutorials below to guide your look & comment below to share your results & 
       opacity: 0.9,
       transition: 'opacity 0.3s'
     }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/quiz/halloween/barbie&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1729370578/ClassicBarbiePolaroid_gglajb.jpg&description=Barbie Movie Halloween 2024')}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/quiz/halloween/ysl&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1729367828/2_oigqaz.jpg&description=VICTORIA’S SECRET ANGEL makeup🎀 2014 girly tumblr aesthetic!')}
     onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />

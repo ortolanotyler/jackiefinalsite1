@@ -4,9 +4,6 @@ import './Quiz1.css'; // Adjust your CSS file path if needed
 import { Helmet } from 'react-helmet-async';
 
 
-const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/1.JPG`;
-const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/2.JPG`;
-
 const Quiz4 = () => {
     const navigate = useNavigate();
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
