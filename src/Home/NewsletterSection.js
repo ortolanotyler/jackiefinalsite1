@@ -10,7 +10,7 @@ const NewsletterSection = () => {
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   return (
-    <Box sx={{ width: '100%', backgroundColor: 'white', margin: '0 auto' }}>
+    <Box sx={{ width: '100%', backgroundColor: 'white', margin: '1 auto' }}>
       <Grid
         container
         spacing={isMobile ? 2 : 4}
@@ -18,12 +18,10 @@ const NewsletterSection = () => {
         justifyContent="center"
         alignItems="center"
       >
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} >
           <NewsletterSlider />
         </Grid>
-        <Grid item xs={12} md={6}>
-          <EmailSubscribe />
-        </Grid>
+     
       </Grid>
     </Box>
   );

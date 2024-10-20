@@ -11,7 +11,8 @@ import HorizontalLine from '../Components/HorizontalLine';
 import { useMediaQuery } from '@mui/material';
 import AdSenseAd from './Adsense';
 import SubscribeButton from '../Components/SubscribeButton';
-import { Link } from 'react-router-dom';
+import EmailSubscribe from '../Components/EmailSubscribe';
+import NewsletterSlider from '../Components/NewsletterSlider';
 
 
 
@@ -114,27 +115,10 @@ style = {{textAlign: 'center', padding: '10px'}}
   linkUrl="/articles/wicked-witch-of-the-west"
   isFlipped={false}
 />
-<TextBanner2 text="NEWSLETTER" height="150px" width="100%" fontSize="40px" />
-<HorizontalLine/>
-<Button
-              component={Link}
-              to="/subscribe"
-              sx={{
-                backgroundColor: '#000000',
-                color: 'white !important',
-                borderRadius: '50px',
-                padding: '1rem',
-                fontFamily: 'Georgia, serif !important',
-                boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
-                transition: 'color 0.3s ease', // Smooth transition for color change
-                '&:hover': {
-                  color: '#000 !important', // Change text color on hover
-                  backgroundColor: '#3a3a3a', // Maintain the same background color
-                },
-              }}
-            >
-              Subscribe
-            </Button>
+
+<NewsletterSlider/>
+<EmailSubscribe/>
+
             <HorizontalLine/>
 
     <HeroSection

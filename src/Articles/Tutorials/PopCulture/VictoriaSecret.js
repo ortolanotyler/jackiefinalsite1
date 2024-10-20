@@ -15,6 +15,7 @@ const Victoria6 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/
 const VictoriaFinal = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/Victoria2.JPG`;
 const latte = `${process.env.PUBLIC_URL}/Images/Articles/LatteMakeup/LatteThumbnail.jpg`;
 const Signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
 
 const Card = ({ blogContent }) => (
   <div
@@ -56,7 +57,7 @@ const VictoriaSecret = () => {
   fontSize: '20px',
   color: '#000000',
   
-  fontFamily: "'Open Sans', serif",
+  fontFamily: 'Playfair Display, sans-serif',
   fontWeight: '100',
   padding: '10px',
   margin: '10px auto',
@@ -105,7 +106,7 @@ const VictoriaSecret = () => {
   const captionStyle = {
   textAlign: 'center',
   fontSize: '1rem',
-  fontFamily: 'Arapey, serif',
+  fontFamily: 'Arapey, sans-serif',
   fontWeight: '100',
   margin: '0 auto',
   fontStyle: 'italic',
@@ -310,9 +311,33 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={{ textAlign: 'right', fontSize: '0.75rem', fontFamily: 'GFS Didot, serif', margin: '0.5em 0', maxWidth: '100%' }}>CONTAINS: AFFILIATE LINKS</p>
 
       <h2 style={headingStyle}>The Final Look & DIY Winter Wonderland Lingerie</h2>
-      <a href='https://www.instagram.com/p/C3amrWou7Li/'>
-        <img src={VictoriaFinal} alt='Final Look' style={{ padding: '2em', width: '100%' }} />
-      </a>
+      <div style={{ position: 'relative', display: 'inline-block' }}>
+  <img 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729449017/Victoria2_etfbb3.jpg" 
+    alt="Victoria Secret DIY Angel Costume Jackie Wyers. Candice Swanepoel snow angel look from VS fashion show 2013" 
+    style={imageStyle} 
+    data-pin-url="https://www.jackiewyers.beauty/victoriasecret"
+    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729449017/Victoria2_etfbb3.jpg"
+    data-pin-description="Victoria Secret DIY Angel Costume Jackie Wyers. Candice Swanepoel snow angel look from VS fashion show 2013"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+    style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+      width: '50px',
+      height: '50px',
+      cursor: 'pointer',
+      opacity: 0.9,
+      transition: 'opacity 0.3s'
+    }}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/victoriasecret&media=https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729449017/Victoria2_etfbb3.jpg&description=Victoria Secret DIY Angel Costume Jackie Wyers. Candice Swanepoel snow angel look from VS fashion show 2013')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
+</div>
 
       <p style={paragraphStyle}>
         Echoing the 2013 show's "birds of a feather" theme, I crafted angel wings from paper cutouts and floral wire. Would be a fun idea for a Halloween costume! A shimmering body cream or oil will complete your supermodel glow.

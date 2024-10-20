@@ -257,7 +257,9 @@ Click here to take the quiz again! </a>
 
       <DropCap1 text="You've chosen the path of ultimate glamour this Halloween, reminiscent of a YSL runway. Your love for designer heels and perfect photo ops marks you as high fashion royalty. Whether you're channeling the YSL bride from 1999 or transforming into a Victoria’s Secret angel, your Halloween is set to be a dazzling display of your DIY prowess and flair for the dramatic."
       />
-
+     <HorizontalLine/>
+     <AdSenseAd/>
+     <HorizontalLine/>
      <p style={captionStyle}>
 Find tutorials below to guide your look & comment below to share your results & if they suited you!
 </p>

@@ -55,7 +55,7 @@ export default function EmailSubscribe() {
       position: 'relative',
       zIndex: 2,
       padding: '1rem',
-      maxWidth: '80%',
+      maxWidth: '60%',
       backgroundColor: 'white',
       borderRadius: '0px',
     }}
