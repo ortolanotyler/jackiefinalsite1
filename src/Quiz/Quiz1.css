@@ -6,19 +6,25 @@
   border-radius: 12px;
   padding: 25px 50px;
   box-sizing: border-box;
- 
 }
 
 .question-section {
- 
-  min-height: 50px; /* Ensure consistent height for question text */
+  min-height: 100px; /* Ensure consistent height for the entire question section */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .question-text {
-  margin: '20px';
+  margin: 20px;
   font-size: 22px;
   font-weight: normal;
   color: #745b4f;
+  min-height: 70px; /* Set a min-height based on the longest question */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Ensure text stays centered in the question area */
 }
 
 .answer-section {
@@ -43,7 +49,7 @@
   text-shadow: 2px 2px 8px rgba(0.9, 0, 0, 0.9);
   box-shadow: 0 4px 8px rgba(0.9, 0, 0, 0.9);
   padding: 1rem;
-  height: 20vh; /* Adjust height relative to viewport height */
+  height: 20vh;
   min-height: 15vh;
 }
 
@@ -70,18 +76,18 @@
   }
 
   .answer-section {
-    grid-template-columns: 1fr; /* Switch to a single-column layout */
+    grid-template-columns: 1fr;
   }
 
   .answer-button {
-    height: calc(80vh / 7); /* Dynamically size buttons to fit within the viewport height */
+    height: calc(80vh / 7);
     padding: 10px;
   }
 }
 
 @media (min-width: 801px) {
   .answer-button {
-    height: 20vh; /* Set a fixed height for larger screens */
+    height: 20vh;
   }
 }
 
