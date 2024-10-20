@@ -127,15 +127,43 @@ const Sitemap = () => {
     ];
 
     const additionalPosts = [
-        { path: "/summerbeauty", title: "Summer Beauty" },
-        { path: "/bridesmaidboxes", title: "Diary Bridesmaids" },
-        { path: "/perioddrama", title: "Period Drama" },
-        { path: "/videos", title: "Video Grid Page" },
-        { path: "/diary", title: "Diary Home" },
-        { path: "/diaryfillers", title: "Diary Fillers" },
-        { path: "/diy-flowers", title: "DIY Flower Pins for a Mamma Mia Inspired Wedding" },
-     
-    ];
+        { path: "/quiz1", title: "Quiz 1" },
+        { path: "/quiz2", title: "Quiz 2" },
+        { path: "/quiz3", title: "Quiz 3" },
+        { path: "/fan-art", title: "Fan Art Gallery" },
+        { path: "/sugarplumfairy", title: "Sugar Plum Fairy Trend Report" },
+        { path: "/victoriasecret", title: "Victoria's Secret Makeup" },
+        { path: "/patmcgrath", title: "Pat McGrath Porcelain Doll Makeup" },
+        { path: "/2016Makeup", title: "2016 Makeup Trend" },
+        { path: "/nomakeupspring", title: "No Makeup Spring" },
+        { path: "/summerinspo", title: "Summer Inspiration" },
+        { path: "/camera-settings", title: "Camera Settings" },
+        { path: "/sorrento", title: "The Best Souvenirs to Bring Home from Sorrento" },
+        { path: "/rome", title: "Our Three Day Romantic Getaway in Rome, Italy" },
+        { path: "/barbie-doll", title: "Barbie Beauty Makeup Looks" },
+        { path: "/paris-brussels-travel-guide", title: "Paris and Brussels Travel Guide" },
+        { path: "/bonbonreview", title: "BonBon by Viktor & Rolf Review" },
+        { path: "/jickyreview", title: "Jicky Guerlain Review" },
+        { path: "/weddingdressguide", title: "Wedding Dress Guide" },
+        { path: "/foxpretty", title: "Fox Pretty Quiz Result" },
+        { path: "/bunnypretty", title: "Bunny Pretty Quiz Result" },
+        { path: "/catpretty", title: "Cat Pretty Quiz Result" },
+        { path: "/deerpretty", title: "Deer Pretty Quiz Result" },
+        { path: "/bacarra", title: "Bacarra Quiz Result" },
+        { path: "/abril", title: "Abril Quiz Result" },
+        { path: "/percy", title: "Percy Quiz Result" },
+        { path: "/ora", title: "Ora Quiz Result" },
+        { path: "/zara", title: "Zara Quiz Result" },
+        { path: "/elizabeth", title: "Elizabeth Quiz Result" },
+        { path: "/porsha", title: "Porsha Quiz Result" },
+        { path: "/quiz/halloween", title: "Halloween Quiz Home" },
+        { path: "/quiz/halloween/ysl", title: "YSL Halloween Quiz Result" },
+        { path: "/quiz/halloween/tiffany", title: "Tiffany Halloween Quiz Result" },
+        { path: "/quiz/halloween/ariel", title: "Ariel Halloween Quiz Result" },
+        { path: "/quiz/halloween/barbie", title: "Barbie Halloween Quiz Result" },
+        { path: "/quiz/halloween/bridgerton", title: "Bridgerton Halloween Quiz Result" },
+        { path: "/quiz/halloween/britney", title: "Britney Halloween Quiz Result" }
+      ];
 
     return (
         <>

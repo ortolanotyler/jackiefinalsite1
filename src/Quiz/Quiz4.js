@@ -171,16 +171,90 @@ const Quiz4 = () => {
 
   return (
     <>
-      <Helmet>
-        <title>What's Your Halloween Style? | Find Out Now!</title>
-        <meta name="description" content="Take our fun quiz to discover your Halloween style with outfits inspired by pop culture icons like Britney Spears, Barbie, Bridgerton, and more!" />
-      </Helmet>
+     <Helmet>
+  <title>What's Your Halloween Style? | Find Out Now! 🎃</title>
+  <link rel="canonical" href="https://www.jackiewyers.beauty/quiz/halloween" />
+
+  <meta 
+    name="description" 
+    content="Take our fun quiz to discover your Halloween style with outfits inspired by pop culture icons like Britney Spears, Barbie, Bridgerton, and more! Whether you're channeling your inner fashion icon or keeping it cozy, find the perfect costume inspiration with Jackie Wyers." 
+  />
+  <meta 
+    name="keywords" 
+    content="Halloween quiz, Halloween style, pop culture Halloween costumes, Britney Spears Halloween, Barbie costume ideas, Bridgerton Halloween, girly Halloween costumes, best Halloween outfits, Jackie Wyers quiz, Halloween makeup, spooky season outfits, costume party ideas, Halloween fashion inspo, Taylor Swift folklore costume, YSL Halloween, Princess vibes, spooky chic, iconic costumes, celebrity-inspired Halloween looks" 
+  />
+
+  {/* Open Graph Meta Tags */}
+  <meta property="og:title" content="What's Your Halloween Style? | Find Out Now! 🎃" />
+  <meta 
+    property="og:description" 
+    content="Discover your Halloween style with outfits inspired by pop culture icons like Britney Spears, Barbie, Bridgerton, and more. Take our fun quiz for personalized costume inspo by Jackie Wyers." 
+  />
+  <meta 
+    property="og:image" 
+    content="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729370577/1_3_a9stag.jpg" 
+  />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/quiz/halloween" />
+  <meta property="og:type" content="article" />
+
+  {/* Twitter Meta Tags */}
+  <meta name="twitter:title" content="What's Your Halloween Style? | Find Out Now! 🎃" />
+  <meta 
+    name="twitter:description" 
+    content="Find out your perfect Halloween style with Jackie Wyers' quiz! Whether you're going for pop culture glam, a classy costume party, or keeping it cozy, we've got the inspo for you." 
+  />
+  <meta 
+    name="twitter:image" 
+    content="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729370577/1_3_a9stag.jpg" 
+  />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "What's Your Halloween Style? | Find Out Now! 🎃",
+        "description": "Take our fun quiz to discover your Halloween style with outfits inspired by pop culture icons like Britney Spears, Barbie, Bridgerton, and more. Whether you're channeling your inner fashion icon or keeping it cozy, find the perfect costume inspiration with Jackie Wyers.",
+        "image": "https://res.cloudinary.com/dvbubqhpp/image/upload/v1729370577/1_3_a9stag.jpg",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.jackiewyers.beauty/logo.png"
+          }
+        },
+        "datePublished": "2024-10-20",
+        "dateModified": "2024-10-20",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.jackiewyers.beauty/quiz/halloween"
+        }
+      }
+    `}
+  </script>
+
+  {/* Google Analytics Script */}
+  <script>
+    {`
+      gtag('config', 'G-RT6GR7JXYG', {
+        page_path: window.location.pathname
+      });
+    `}
+  </script>
+</Helmet>
 
       {!showResults ? (
         <div className="quiz-container">
           <div className="question-section">
             <div className="question-count">
-              <span>QUESTION {currentQuestionIndex + 1}</span>/{quizQuestions.length}
+              <span> {currentQuestionIndex + 1}</span>/{quizQuestions.length}
             </div>
             <div className="question-text">
               {quizQuestions[currentQuestionIndex].question}
