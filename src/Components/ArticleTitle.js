@@ -27,14 +27,14 @@ const styles = {
     marginBottom: '10px',
     maxWidth: '1000px', // Optional: limit the width of the container if needed
     margin: '1rem',
-    padding: '2rem auto', 
+    padding: '1rem auto', 
 
   },
   mainTitle: {
     fontFamily: 'Playfair Display, sans-serif',
 
     fontWeight: 'regular',
-    fontSize: '50px', // Adjust as needed for responsiveness
+    fontSize: '3rem', // Adjust as needed for responsiveness
     margin: '10px 5px 0 0',
     marginBotom: '20px',
 
@@ -44,7 +44,7 @@ const styles = {
   subTitle: {
     fontFamily: 'Playfair Display, sans-serif',
 
-    fontSize: '20px',
+    fontSize: '1.25rem',
     fontStyle: 'italic',
     margin: '20px 5px 0 0',
     marginBottom: '20px',

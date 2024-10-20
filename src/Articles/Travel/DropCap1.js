@@ -4,7 +4,7 @@ const DropCap1 = ({ text, style }) => {
   return (
     <p style={{fontFamily: 'Georgia, serif', maxWidth: '100%'}}>
       <span style={{ 
-        fontSize: '80px', 
+        fontSize: '100px', 
         float: 'left', 
         margin: '0.75rem',  
         lineHeight: '.75', 
