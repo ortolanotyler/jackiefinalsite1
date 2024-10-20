@@ -168,7 +168,7 @@ const Quiz4 = () => {
       navigate('/quiz/halloween/tiffany');
     } else if (totalPoints >= 40) {
       navigate('/quiz/halloween/bridgerton');
-    } else if (totalPoints >= 25) {
+    } else if (totalPoints >= 30) {
       navigate('/quiz/halloween/ariel');
     } else {
       navigate('/quiz/halloween/taylor');
