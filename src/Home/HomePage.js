@@ -124,7 +124,6 @@ style = {{textAlign: 'center', padding: '10px'}}
 />
 
 <NewsletterSlider/>
-<EmailSubscribe/>
 
             <HorizontalLine/>
 
