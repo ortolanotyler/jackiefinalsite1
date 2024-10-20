@@ -32,7 +32,7 @@ const NavButtons = () => {
             color: '#745B4F',
             display: 'block',
             fontSize: '1.15rem',
-            fontFamily: '"Playfair Display", serif', // Updated to Playfair Display
+            fontFamily: 'Playfair Display, sans-serif', // Updated to Playfair Display
             mx: 2,
             textTransform: 'none',
             cursor: 'pointer',

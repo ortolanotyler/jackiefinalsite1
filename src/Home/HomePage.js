@@ -107,7 +107,7 @@ style = {{textAlign: 'center', padding: '10px'}}
   isFlipped={false}
 />
 <TextBanner2 text="NEWSLETTER" height="150px" width="100%" fontSize="40px" />
-
+<HorizontalLine/>
 <Button
               component={Link}
               to="/subscribe"

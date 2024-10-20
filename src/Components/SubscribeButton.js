@@ -16,7 +16,7 @@ const SubscribeButton = () => {
 
   return (
    <div
-   style = {{alignContent: 'center' }}
+
    >
 <div>
 

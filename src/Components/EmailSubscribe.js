@@ -85,7 +85,7 @@ export default function EmailSubscribe() {
                   fontSize: { xs: '1rem', sm: '1.25rem' }, // Responsive font size
                 }}
               >
-                Enter your email to subscribe !
+                Enter your email to subscribe to my weekly newsletter!
               </Typography>
             </Grid>
 

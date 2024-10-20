@@ -130,7 +130,6 @@ const Quiz2 = () => {
 
   return (
     <>
-                      <TextReveal text='🐰 🦌  FIND YOUR ANIMAL FACE TYPE  🐈‍⬛ 🦊' />
 
                       <div className="quiz-container">
 

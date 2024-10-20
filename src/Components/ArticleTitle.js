@@ -13,7 +13,7 @@ const ArticleTitle = ({ mainTitle, subTitle, author, publishDate }) => {
         </h2>
       )}
       <div style={styles.authorContainer}>
-        <span style={styles.author}>BY {author}</span>
+        <span style={styles.author}> {author}</span>
         <span style={styles.date}>{publishDate}</span>
       </div>
       <HorizontalLine/>
@@ -31,10 +31,10 @@ const styles = {
 
   },
   mainTitle: {
-    fontFamily: 'Playfair Display, serif',
+    fontFamily: 'Playfair Display, sans-serif',
 
     fontWeight: 'regular',
-    fontSize: '48px', // Adjust as needed for responsiveness
+    fontSize: '50px', // Adjust as needed for responsiveness
     margin: '10px 5px 0 0',
     marginBotom: '20px',
 
@@ -42,9 +42,9 @@ const styles = {
     color: '#000000',
   },
   subTitle: {
-    fontFamily: 'Georgia, serif',
+    fontFamily: 'Playfair Display, sans-serif',
 
-    fontSize: '22px',
+    fontSize: '20px',
     fontStyle: 'italic',
     margin: '20px 5px 0 0',
     marginBottom: '20px',

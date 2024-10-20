@@ -6,6 +6,11 @@ import Quiz3 from './Quiz3';
 import Quiz2 from './Quiz2';
 import EmailSubscribe from '../Components/EmailSubscribe';
 import AdSenseAd from '../Home/Adsense';
+import Quiz4 from './Quiz4';
+import { HorizontalRuleOutlined } from '@mui/icons-material';
+import HorizontalLine from '../Components/HorizontalLine';
+import TextBanner2 from '../Components/TextBanner2';
+import TextReveal from '../Components/TextReveal';
 
 const QuizHomepage = () => {
     return (
@@ -26,25 +31,42 @@ const QuizHomepage = () => {
      
       </Helmet>
       <Grid container justifyContent="center"
-            style = {{paddingTop: '20px', paddingBottom: '10px'}}
+            style = {{paddingTop: '0px', marginBottom: '-20px'}}
             >
-           
-                
+                          <TextReveal text='THE QUIZ ZONE'/>
+
+           <Grid item xs={11}>
+                    <Quiz4 />
+                </Grid>
+                <HorizontalLine/>
                 <Grid item xs={12}>
+                      <AdSenseAd />
+                </Grid>
+                <HorizontalLine/>
+
+                <Grid item xs={12}>
+                      <AdSenseAd />
+                </Grid>
+                <HorizontalLine/>
+
+                <Grid item xs={11}>
                       <Quiz2 />
                 </Grid>
-                  
+                <HorizontalLine/>
+
                  
                 <Grid item xs={12}>
                       <AdSenseAd />
                 </Grid>
+                <HorizontalLine/>
 
         
                
-                <Grid item xs={12}>
+                <Grid item xs={11}>
                     <Quiz3 />
                 </Grid>
-          
+                <HorizontalLine/>
+
              
            
                      

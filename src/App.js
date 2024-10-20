@@ -129,6 +129,14 @@ import Wicked from './Articles/Tutorials/VintageVibes/Wicked';
 import Wicked2 from './Articles/Tutorials/VintageVibes/Wicked2';
 import Elphaba from './Articles/Tutorials/VintageVibes/Elphaba';
 import Quiz4 from './Quiz/Quiz4';
+import YSL from './Quiz/QuizResultPages/Quiz4/Quiz4YSL';
+import Quiz4Barbie from './Quiz/QuizResultPages/Quiz4/Quiz4barbie';
+import Quiz4Britney from './Quiz/QuizResultPages/Quiz4/Quiz4britney';
+import Quiz4Tiffany from './Quiz/QuizResultPages/Quiz4/Quiz4tiffany';
+import Quiz4Homepage from './Quiz/Quiz4HomePage';
+import Quiz4Bridgerton from './Quiz/QuizResultPages/Quiz4/Quiz4bridgerton';
+import Quiz4Ariel from './Quiz/QuizResultPages/Quiz4/Quiz4Ariel';
+import Quiz4Taylor from './Quiz/QuizResultPages/Quiz4/Quiz4Taylor';
 
 
 function usePageTracking() {
@@ -282,7 +290,15 @@ function App() {
             <Route path="articles/rory-gilmore" element={<Rory />} />
             <Route path="articles/wicked" element={<Wicked />} />
             <Route path="/articles/wicked-witch-of-the-west" element={<Wicked2 />} />
-            <Route path="/quizzes/halloween" element={<Quiz4 />} />
+            <Route path="/quiz/halloween" element={<Quiz4Homepage />} />
+
+            <Route path="/quiz/halloween/ysl" element={<YSL />} />
+            <Route path="/quiz/halloween/tiffany" element={<Quiz4Tiffany />} />
+            <Route path="/quiz/halloween/ariel" element={<Quiz4Ariel />} />
+            <Route path="/quiz/halloween/barbie" element={<Quiz4Barbie />} />
+            <Route path="/quiz/halloween/bridgerton" element={<Quiz4Bridgerton />} />
+            <Route path="/quiz/halloween/britney" element={<Quiz4Britney />} />
+            <Route path="/quiz/halloween/taylor" element={<Quiz4Taylor />} />
 
             
             <Route path="*" element={<NotFound/>} />

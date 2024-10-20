@@ -45,7 +45,7 @@ const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', maxF
       fontFamily: 'Playfair Display, serif',
       height,
       width,
-      fontWeight: '100',
+      fontWeight: '200',
       color: '#000000',
       backgroundColor: 'white',
       flexWrap: 'wrap', // Allows letters to wrap on smaller screens

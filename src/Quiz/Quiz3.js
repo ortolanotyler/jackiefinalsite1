@@ -134,7 +134,6 @@ const Quiz3 = () => {
 
   return (
     <>
-           <TextReveal  text='FIND YOUR DREAM WEDDING DRESS QUIZ!' />
            <div className="quiz-container">
     
 

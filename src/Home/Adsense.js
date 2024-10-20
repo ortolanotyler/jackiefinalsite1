@@ -21,14 +21,14 @@ const AdSenseAd = () => {
   }, []);
 
   return (
-    <div style={{ textAlign: 'center', margin: '20px auto' }}>
+    <div style={{ justifyContent: 'center', margin: '20px auto' }}>
       <ins 
         className="adsbygoogle"
         style={{ display: 'block' }}
         data-ad-client="ca-pub-4660168246825318" 
         data-ad-slot="3426882419"  // Ensure unique ad slot
         data-ad-format="auto"
-        data-full-width-responsive="true"
+        data-full-width-responsive="false"
       ></ins>
     </div>
   );

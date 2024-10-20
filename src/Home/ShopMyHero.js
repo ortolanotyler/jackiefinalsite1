@@ -64,7 +64,7 @@ const ShopMyHero = () => {
           style={{
             display: 'inline-flex',
             alignItems: 'center',
-            fontFamily: 'GFS Didot, serif',
+            fontFamily: 'GFS Didot, sans-serif',
             color: 'black',
             textDecoration: 'none',
           }}

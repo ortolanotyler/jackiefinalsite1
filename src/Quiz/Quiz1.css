@@ -1,5 +1,5 @@
 .quiz-container {
-  max-width: 900px;
+  max-width: 1200px;
   margin: auto;
   text-align: center;
   background-color: white;
@@ -31,9 +31,9 @@
   color: white;
   font-size: 18px;
   cursor: pointer;
-  border: none;
+  border: 1.5px solid #745b4f;
   background-color: transparent;
-  border-radius: 20px;
+  border-radius: 10px;
   transition: all 0.3s ease;
   background-size: cover;
   background-position: center;
