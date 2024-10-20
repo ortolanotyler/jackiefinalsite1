@@ -1,5 +1,5 @@
 .quiz-container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: auto;
   text-align: center;
   background-color: white;
@@ -30,7 +30,7 @@
 
 .answer-button {
   color: white;
-  font-size: 18px;
+  font-size: 26px;
   cursor: pointer;
   border: 1.5px solid #745b4f;
   background-color: transparent;
@@ -40,8 +40,8 @@
   background-position: center;
   font-family: Playfair Display, sans-serif;
   background-repeat: no-repeat;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  text-shadow: 2px 2px 8px rgba(0.9, 0, 0, 0.9);
+  box-shadow: 0 4px 8px rgba(0.9, 0, 0, 0.9);
   padding: 1rem;
   height: 20vh; /* Adjust height relative to viewport height */
   min-height: 15vh;
