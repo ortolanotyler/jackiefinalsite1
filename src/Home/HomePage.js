@@ -103,7 +103,7 @@ style = {{textAlign: 'center', padding: '10px'}}
         <HeroSection
           featureText="LATEST QUIZ"
           headlineText="Halloween Style Quiz 🎃 What should you wear?"
-          imagePath="Homepage/Audrey.jpg"
+          imagePath="Homepage/Audrey.JPG"
           linkUrl="/quiz/halloween"
           isFlipped={true}
         />

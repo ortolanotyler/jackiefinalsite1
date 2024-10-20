@@ -71,7 +71,7 @@ const Quiz4Taylor = () => {
     <div className="container">
       <Helmet>
         <title>Taylor Swift Folklore-Inspired Halloween Costume 🎃 | Jackie Wyers</title>
-        <link rel="canonical" href="https://www.jackiewyers.beauty/quiz/halloween/taylor-folklore" />
+        <link rel="canonical" href="https://www.jackiewyers.beauty/quiz/halloween/taylor" />
         <meta 
           name="description" 
           content="Explore your Taylor Swift 'folklore'-inspired Halloween costume result, perfect for cozy fall nights and mystical gatherings. Find costume ideas and makeup tutorials here." 
@@ -89,7 +89,7 @@ const Quiz4Taylor = () => {
           property="og:image" 
           content="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729433107/taylor_polaroid_mrgf3f.jpg" 
         />
-        <meta property="og:url" content="https://www.jackiewyers.beauty/quiz/halloween/taylor-folklore" />
+        <meta property="og:url" content="https://www.jackiewyers.beauty/quiz/halloween/taylor" />
         <meta property="og:type" content="article" />
         <meta name="twitter:title" content="Taylor Swift Folklore-Inspired Halloween Costume 🎃 | Jackie Wyers" />
         <meta 
@@ -125,7 +125,7 @@ const Quiz4Taylor = () => {
               "dateModified": "2024-10-21",
               "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://www.jackiewyers.beauty/quiz/halloween/taylor-folklore"
+                "@id": "https://www.jackiewyers.beauty/quiz/halloween/taylor"
               }
             }
           `}
@@ -152,7 +152,7 @@ const Quiz4Taylor = () => {
 
 
       <SocialShare 
-        url="https://www.jackiewyers.beauty/quiz/halloween/taylor-folklore" 
+        url="https://www.jackiewyers.beauty/quiz/halloween/taylor" 
         title="Taylor Swift Folklore Halloween Costume Result - Jackie Wyers Halloween Style Quiz" 
         imageUrl="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729433107/taylor_polaroid_mrgf3f.jpg" 
       />
@@ -207,6 +207,10 @@ const Quiz4Taylor = () => {
 
       <HorizontalLine />
 
+<AdSenseAd />
+
+<HorizontalLine />
+
       <p style={captionStyle}>
         Find tutorials below to guide your look & comment below to share your results & if they suited you!
       </p>
@@ -218,6 +222,10 @@ const Quiz4Taylor = () => {
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/VdWgliSfleM" title="Taylor Swift Cardigan-Inspired Look" />
 
+
+      <HorizontalLine />
+
+      <AdSenseAd />
 
       <HorizontalLine />
 
@@ -253,6 +261,9 @@ const Quiz4Taylor = () => {
       <ResponsiveYoutube src="https://www.youtube.com/embed/2lZ-1p7mKMY?t=214s" title="Flora from Winx Club Fairy-Inspired Look" />
 
       <HorizontalLine />
+      <AdSenseAd/>
+      <HorizontalLine />
+
 
       <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
@@ -282,6 +293,7 @@ const Quiz4Taylor = () => {
   />
 </div>
 
+<AdSenseAd/>
 
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <a href="/girly-pop-halloween" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'none', textAlign: 'center' }}>
@@ -310,8 +322,8 @@ const Quiz4Taylor = () => {
   return (
     <div ref={blogRef}>
   <Card
-        title="Ariel Halloween Costume Quiz Result - Jackie Wyers Halloween Style Costume Quiz"
-        description="Ariel Quiz Result Jackie Wyers"
+        title="Taylor Swift Costume Quiz Result - Jackie Wyers Halloween Style Costume Quiz"
+        description="Taylor Swift Folklore Costume Inspo - Jackie Wyers"
         blogContent={blogContent}
       />   
       
