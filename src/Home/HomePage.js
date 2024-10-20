@@ -88,14 +88,19 @@ function HomePage() {
   
           <QuiltedImageList1 />
         </div>
-<div
+        <HorizontalLine/>
+
+
+
+        {/* Section for Featured content */}
+        <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px" />
+        <div
 style = {{textAlign: 'center', padding: '10px'}}
 >
   <SubscribeButton/>
 </div>
+        <HorizontalLine/>
 
-        {/* Section for Featured content */}
-        <TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="70px" />
         <HeroSection
   featureText="POP CULTURE"
   headlineText='Elphaba “The Wicked Witch of The West” Makeup Tutorial💚'
