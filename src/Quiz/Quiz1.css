@@ -70,7 +70,7 @@
 
 @media (max-width: 800px) {
   .quiz-container {
-    max-width: calc(100% - 100px);
+    max-width: calc(100% - 50px);
     margin: 0 auto;
     padding: 10px;
   }
@@ -93,6 +93,6 @@
 
 @media (min-width: 1200px) {
   .quiz-container {
-    max-width: 65%;
+    max-width: 85%;
   }
 }

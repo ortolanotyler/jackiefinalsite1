@@ -102,8 +102,15 @@ style = {{textAlign: 'center', padding: '10px'}}
 </div>
         <HorizontalLine/>
    
-           
+        <HeroSection
+          featureText="FALL FUN"
+          headlineText="Halloween Style Quiz 🎃 What should you be?"
+          imagePath="Homepage/Audrey.JPG"
+          linkUrl="/quiz/halloween"
+          isFlipped={true}
+        />
 
+<HorizontalLine/>
 
         <HeroSection
   featureText="POP CULTURE"
