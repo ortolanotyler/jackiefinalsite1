@@ -100,14 +100,8 @@ style = {{textAlign: 'center', padding: '10px'}}
   <SubscribeButton/>
 </div>
         <HorizontalLine/>
-        <HeroSection
-          featureText="LATEST QUIZ"
-          headlineText="Halloween Style Quiz 🎃 What should you wear?"
-          imagePath="Homepage/Audrey.JPG"
-          linkUrl="/quiz/halloween"
-          isFlipped={true}
-        />
-                <HorizontalLine/>
+   
+           
 
 
         <HeroSection
