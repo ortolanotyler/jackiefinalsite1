@@ -5,7 +5,6 @@ import TextRevealHomePage from '../Components/TextRevealHomePage';
 import HeroSection from './HeroSection';
 import TextBanner2 from '../Components/TextBanner2';
 import RotatingText from '../Navigation/AppBar/RotatingText';
-import ShopMyHero2 from './ShopMyHero2';
 import QuiltedImageList1 from './ImageGridTutorials';
 import HorizontalLine from '../Components/HorizontalLine';
 import { useMediaQuery } from '@mui/material';
@@ -13,7 +12,6 @@ import AdSenseAd from './Adsense';
 import SubscribeButton from '../Components/SubscribeButton';
 import NewsletterSlider from '../Components/NewsletterSlider';
 import Quiz4 from '../Quiz/Quiz4';
-import HeroSection2a from './HeroSection2a';
 import SixGridComponent from './GridSectionArticles6';
 
 

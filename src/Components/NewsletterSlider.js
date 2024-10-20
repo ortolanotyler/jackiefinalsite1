@@ -3,6 +3,7 @@ import { Box, IconButton, Typography } from '@mui/material';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
 import './NewsletterSlider.module.css'; // Ensure this file exists
 import EmailSubscribe from './EmailSubscribe';
+import HorizontalLine from './HorizontalLine';
 
 const images = [
   `${process.env.PUBLIC_URL}/Images/Newsletter17A.png`,
@@ -50,11 +51,14 @@ const NewsletterSlider = () => {
         }}
       >
         Sign up for the weekly newsletter!
+      
       </Typography>
+
+   
 
       <EmailSubscribe />
      
-
+      <HorizontalLine/>
       <Box 
         className="sliderContainer" 
         sx={{ 

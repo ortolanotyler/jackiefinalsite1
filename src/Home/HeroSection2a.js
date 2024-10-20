@@ -17,10 +17,11 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
   const heroLinkStyle = {
     textDecoration: 'none',
     color: '#000000',
+    width: '100%',
+    height: '100%',
   };
 
   const cardStyle = {
-    position: 'relative',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-between',
@@ -31,11 +32,11 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     borderRadius: '8px',
     overflow: 'hidden',
     border: '1px solid #ddd',
+    boxSizing: 'border-box',
   };
 
   const imageContainerStyle = {
     width: '100%',
-    height: '100%',
     flex: 1,
     position: 'relative',
     overflow: 'hidden',
@@ -58,7 +59,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     fontWeight: 'normal',
     letterSpacing: '1px',
     color: '#000000',
-    fontFamily: 'Arapey, serif',
+    fontFamily: 'Arapey, sans-serif',
     textDecoration: 'underline',
     marginBottom: '5px',
   };
@@ -67,7 +68,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     fontSize: '18px',
     lineHeight: 1.2,
     margin: '10px 0',
-    fontFamily: 'Playfair Display, serif',
+    fontFamily: 'Playfair Display, sans-serif',
   };
 
   const subtextStyle = {
@@ -75,7 +76,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     lineHeight: 1.4,
     margin: '5px 0',
     fontStyle: 'italic',
-    fontFamily: 'Playfair Display, serif',
+    fontFamily: 'Playfair Display, sans-serif',
     color: '#3a3a3a',
   };
 
@@ -84,11 +85,11 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     fontSize: '.88rem',
     fontStyle: 'italic',
     color: '#000000',
-    fontFamily: '"Arapey", serif',
+    fontFamily: 'Arapey, sans-serif',
   };
 
   return (
-    <Grid item xs={12} sm={6} md={4} style={{ height: '33vh' }}> {/* Grid item for a responsive layout */}
+    <Grid item xs={12} style={{ height: '100%' }}> {/* Grid item with full height */}
       <a href={linkUrl} style={heroLinkStyle}>
         <div style={cardStyle}>
           {/* Image Section */}
@@ -109,7 +110,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
           </div>
         </div>
       </a>
-      <HorizontalLine/>
+      <HorizontalLine />
     </Grid>
   );
 };
