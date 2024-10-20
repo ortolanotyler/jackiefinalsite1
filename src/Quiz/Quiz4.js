@@ -179,10 +179,10 @@ const Quiz4 = () => {
     name="description" 
     content="Take our fun quiz to discover your Halloween style with outfits inspired by pop culture icons like Britney Spears, Barbie, Bridgerton, and more! Whether you're channeling your inner fashion icon or keeping it cozy, find the perfect costume inspiration with Jackie Wyers." 
   />
-  <meta 
-    name="keywords" 
-    content="Halloween quiz, Halloween style, pop culture Halloween costumes, Britney Spears Halloween, Barbie costume ideas, Bridgerton Halloween, girly Halloween costumes, best Halloween outfits, Jackie Wyers quiz, Halloween makeup, spooky season outfits, costume party ideas, Halloween fashion inspo, Taylor Swift folklore costume, YSL Halloween, Princess vibes, spooky chic, iconic costumes, celebrity-inspired Halloween looks" 
-  />
+ <meta 
+  name="keywords" 
+  content="Halloween quiz, Halloween style quiz, pop culture Halloween costumes, iconic Halloween outfits, girly Halloween costumes, Britney Spears costume, Barbie movie costume ideas, Bridgerton Halloween look, Disney princess costumes, Taylor Swift folklore costume, YSL Halloween fashion, celebrity Halloween makeup, spooky chic Halloween ideas, Princess Halloween vibes, costume party inspiration, best Halloween makeup tutorials, DIY Halloween outfits, 2024 Halloween trends, unique Halloween costumes, fairy tale Halloween, pop culture costume quiz, Jackie Wyers quiz, Halloween fashion inspo, spooky season must-haves, classic Halloween looks, period drama Halloween outfits, costume ideas for women, makeup for Halloween, Halloween hair tutorials, iconic celebrity Halloween costumes, fall fashion, chic Halloween, mermaid costume ideas, Ariel Halloween, Halloween costume guide, red carpet Halloween, Taylor Swift Halloween, nostalgia Halloween costumes, best girly Halloween costumes 2024" 
+/>
 
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="What's Your Halloween Style? | Find Out Now! 🎃" />
