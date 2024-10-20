@@ -100,6 +100,15 @@ style = {{textAlign: 'center', padding: '10px'}}
   <SubscribeButton/>
 </div>
         <HorizontalLine/>
+        <HeroSection
+          featureText="LATEST QUIZ"
+          headlineText="Halloween Style Quiz 🎃 What should you wear?"
+          imagePath="Homepage/Audrey.jpg"
+          linkUrl="/quiz/halloween"
+          isFlipped={true}
+        />
+                <HorizontalLine/>
+
 
         <HeroSection
   featureText="POP CULTURE"
@@ -211,6 +220,14 @@ style = {{textAlign: 'center', padding: '10px'}}
 
           <HorizontalLine/>
         </div>
+        <HeroSection
+          featureText="FALL FUN"
+          headlineText="Halloween Style Quiz 🎃 What should you be?"
+          imagePath="Homepage/Audrey.jpg"
+          linkUrl="/quiz/halloween"
+          isFlipped={false}
+        />
+
         <HeroSection
           featureText="QUIZ"
           headlineText="Animal Pretty - Which one are you?"
