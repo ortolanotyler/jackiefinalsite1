@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Quiz1.css'; // Adjust your CSS file path if needed
 import { Helmet } from 'react-helmet-async';
@@ -8,10 +8,11 @@ const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/1.JPG`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Sorrento1/2.JPG`;
 
 const Quiz4 = () => {
-  const navigate = useNavigate();
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [totalPoints, setTotalPoints] = useState(0);
-  const [showResults, setShowResults] = useState(false);
+    const navigate = useNavigate();
+    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+    const [totalPoints, setTotalPoints] = useState(0);
+    const [showResults, setShowResults] = useState(false);
+  
 
 
     const quizQuestions = [
@@ -141,15 +142,21 @@ const Quiz4 = () => {
   ];
 
   const handleAnswerClick = (points) => {
-    setTotalPoints(totalPoints + points);
+    setTotalPoints((prevPoints) => prevPoints + points);
 
     if (currentQuestionIndex < quizQuestions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     } else {
       setShowResults(true);
-      calculateResults();
     }
   };
+
+  // Use `useEffect` to ensure `totalPoints` is fully updated before calculating results
+  useEffect(() => {
+    if (showResults) {
+      calculateResults();
+    }
+  }, [showResults]); // Trigger calculation only when showResults is true
 
   const calculateResults = () => {
     if (totalPoints >= 81) {
@@ -168,6 +175,7 @@ const Quiz4 = () => {
       navigate('/quiz/halloween/taylor');
     }
   };
+
 
   return (
     <>

@@ -197,8 +197,8 @@ const DragonBraid = () => {
 
 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
-        <a href="/popculture" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
-          BEAUTY // POP CULTURE
+        <a href="/tutorials" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
+          BEAUTY // TUTORIALS
         </a>
       </div>
 
