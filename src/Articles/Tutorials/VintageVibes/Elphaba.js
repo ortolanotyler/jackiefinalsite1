@@ -8,6 +8,7 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
 import AdSenseAd from '../../../Home/Adsense';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
+import HorizontalLine from '../../../Components/HorizontalLine';
 
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
@@ -259,15 +260,18 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   the upcoming film. Now, it’s time to embrace spooky green glamour with two fun takes on Elphaba. Whether you want to rock
   a yassified version of the Wicked Witch or go all out with full green skin, I’ve got you covered. 💚 ✨ "      />
 
-
+<HorizontalLine/>
 <AdSenseAd/>
+<HorizontalLine/>
 
 
 <p style={paragraphStyle}>
   While Elphaba is strong, resilient, and doesn’t quite aim for being POPULAR like Glinda, I still wanted to give her a glamorous twist. 
   Because, let’s be real—when doing duo costumes, we all want to feel fabulous in the pictures, right?
 </p>
-
+<HorizontalLine/>
+<AdSenseAd/>
+<HorizontalLine/>
 <h2 style={headingStyle}>
   💚 Elphaba Makeup Tutorial: A Green Queen 💚
 </h2>
@@ -300,7 +304,9 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   />
 </div>
 
+<HorizontalLine/>
 <AdSenseAd/>
+<HorizontalLine/>
 
 
 <p style = {captionStyle}>
@@ -309,7 +315,9 @@ eyes, dramatic black lips, and a wide-brimmed witch hat
 inspired by the iconic Broadway character. Minus the
 green skin!
 </p>
-
+<HorizontalLine/>
+<AdSenseAd/>
+<HorizontalLine/>
 <p style={paragraphStyle}>
   Step 1: The Matte, Sculpted Base
 </p>
@@ -326,9 +334,11 @@ green skin!
 <p style={paragraphStyle}>
   Set with powder and so Elphaba’s look contrasts with Glinda’s softer features, so we’re sharpening the brows with a high arch and a more defined nose bridge for a fierce look. I’m wearing a black wig so I took the brows extra dark.
 </p>
-
-<ResponsiveIframe title="null" src="https://shopmy.us/collections/public/870241?noHeader=true" style={{width: "100%", minHeight: "1200px", border: "none"}}></ResponsiveIframe>
+<HorizontalLine/>
 <AdSenseAd/>
+<HorizontalLine/>
+<ResponsiveIframe title="null" src="https://shopmy.us/collections/public/870241?noHeader=true" style={{width: "100%", minHeight: "1200px", border: "none"}}></ResponsiveIframe>
+
 
 <p style={paragraphStyle}>
   Step 2: Wickedly Dramatic Eyes 👁 ✨
@@ -338,7 +348,9 @@ green skin!
   Now, let’s dive into a green, dramatic eye! For this, I started by blending Wicked—yes, the shade!— from the 
   ONE/SIZE x WICKED on Broadway palette through the crease, blending into an exaggerated lid shape winged out. I then packed on Emerald City, a glittery green shadow, across the lid for that iconic green sparkle. 💚 
 </p>
-
+<HorizontalLine/>
+<AdSenseAd/>
+<HorizontalLine/>
 <p style={paragraphStyle}>
   To intensify the exaggerated crease, I used Wizard and I on a smaller brush for a sharp, dramatic edge. 
   Also, add smokiness under the bottom lash line and add a point in the inner corner. Finish with a blend of Flying Free to the outer V. 
@@ -350,7 +362,9 @@ green skin!
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/870260?noHeader=true" style={{width: "100%", minHeight: "1200px", border: "none"}}></ResponsiveIframe>
+<HorizontalLine/>
 <AdSenseAd/>
+<HorizontalLine/>
 
 <p style={paragraphStyle}>
   Step 3: Bold Witchy Lips 🖤
@@ -362,6 +376,10 @@ green skin!
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/870268?noHeader=true" style={{width: "100%", minHeight: "1200px", border: "none"}}></ResponsiveIframe>
+<HorizontalLine/>
+<AdSenseAd/>
+<HorizontalLine/>
+
 <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
     src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728754845/srvyltxivqog9xrfsa81.webp" 
