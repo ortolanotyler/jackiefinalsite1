@@ -120,7 +120,7 @@ fontStyle: 'italic',
   const blogContent = (
     <div className="container">
 <Helmet>
-  <title>Ariel Halloween Costume Quiz Result 🎃 | Jackie Wyers</title>
+  <title>Ariel Halloween Costume and Quiz 🎃</title>
   <link rel="canonical" href="https://www.jackiewyers.beauty/quiz/halloween/ariel" />
 
   <meta 

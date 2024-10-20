@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Button, Paper } from '@mui/material';
+import { Box, Button, Grid, Paper } from '@mui/material';
 import { Helmet } from 'react-helmet-async';
 import TextRevealHomePage from '../Components/TextRevealHomePage';
 import HeroSection from './HeroSection';
@@ -13,6 +13,8 @@ import AdSenseAd from './Adsense';
 import SubscribeButton from '../Components/SubscribeButton';
 import NewsletterSlider from '../Components/NewsletterSlider';
 import Quiz4 from '../Quiz/Quiz4';
+import HeroSection2a from './HeroSection2a';
+import SixGridComponent from './GridSectionArticles6';
 
 
 
@@ -115,7 +117,7 @@ style = {{textAlign: 'center'}}
 
         <HorizontalLine/>
 
-        <TextBanner2 text="MOST POPULAR" height="100px" width="100%" fontSize="70px" />
+        <TextBanner2 text="NEW & POPULAR" height="100px" width="100%" fontSize="70px" />
 
         <HorizontalLine/>
 
@@ -250,135 +252,20 @@ style = {{textAlign: 'center'}}
 
           <HorizontalLine/>
         </div>
-        <HeroSection
-          featureText="FEATURED"
-          headlineText="Our Fairytale Wedding Overlooking Sorrento, Italy"
-          subtext="All the enchanting details, prep & planning"
-          author="July 11, 2024"
-          imagePath="FairytaleWedding/fairytalethumbnail.webp"
-          linkUrl="/fairytalewedding"
-          isFlipped={true}
-        />
-   <div style = {{
-          padding: '10px',
-        }}>
-
-          <HorizontalLine/>
-        </div>
-        <Box sx={{ padding: '20px 0' }}>
-        <HeroSection
-          featureText="TRAVEL"
-          headlineText="Best of Brussels: Top Things to See, Eat, and Experience + Train To Paris!"
-          subtext="Belgian Chocolate, Waffles, and A Walk Down Memory Lane"
-          author="September 20"
-          imagePath="Homepage/paristhumbnail-1.webp"
-          linkUrl="/paris-brussels-travel-guide"
-          isFlipped={false}
-        />
-
-        </Box>
+       
+        <Box>
+       <SixGridComponent/>
+       </Box>
       
-   <div style = {{
-          padding: '10px',
-        }}>
-
-          <HorizontalLine/>
+        {/* Rest of the page content */}
+        <HorizontalLine />
+        <TextBanner2 text="LIFESTYLE" height="200px" width="100%" fontSize="80px" />
+        <div style={{ padding: '10px' }}>
+          <HorizontalLine />
         </div>
-        <HeroSection
-          featureText="HOW-TO : IPHONE"
-          headlineText="A Guide to Scroll-Stopping iPhone Photos"
-          subtext="Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks."
-          author="August 30"
-          imagePath="Homepage/coverphoot.webp"
-          linkUrl="/camera-settings"
-          isFlipped={true}
-        />
-   <div style = {{
-          padding: '10px',
-        }}>
 
-          <HorizontalLine/>
-        </div>
-        <HeroSection
-          featureText="TRAVEL"
-          headlineText="The Best Souvenirs to Bring Home from Sorrento"
-          subtext="Leather, Music Boxes, Flats, Oh Me! Discover the top Sorrento souvenirs with Jackie Wyers."
-          author="August 30"
-          imagePath="Homepage/SorrentoThumbnail.webp"
-          linkUrl="/sorrento"
-          isFlipped={true}
-        />
-   <div style = {{
-          padding: '10px',
-        }}>
-
-          <HorizontalLine/>
-        </div>
-        <HeroSection
-          featureText="TRAVEL"
-          headlineText="Our Three Day Romantic Getaway in Rome, Italy"
-          subtext="From early morning strolls to late-night gelato runs, we made the most of every moment in this enchanting city."
-          author="BY JACKIE WYERS"
-          imagePath="Homepage/47.webp"
-          linkUrl="/rome"
-          isFlipped={true}
-        />
-   <div style = {{
-          padding: '10px',
-        }}>
-
-          <HorizontalLine/>
-        </div>
-        <HeroSection
-          featureText="NEW ZEALAND"
-          headlineText="New Zealand | Auckland Vlog and Experience"
-          subtext="Explore Jackie Wyers' travel journey in Auckland, New Zealand. From visiting Waiheke Island and the Auckland Zoo to trying local cafes."
-          author="BY JACKIE WYERS"
-          imagePath="Homepage/NZThumbnail.webp"
-          linkUrl="/newzealand"
-          isFlipped={true}
-        />
-   <div style = {{
-          padding: '10px',
-        }}>
-
-          <HorizontalLine/>
-        </div>
-        <HeroSection
-          featureText="PERFUME REVIEW"
-          headlineText="BonBon Perfume Review"
-          subtext="A celebration of self-indulgence, a fragrant ode to the joy of savoring life's sweet moments with BonBon by Viktor & Rolf."
-          author="BY JACKIE WYERS"
-          imagePath="BonBonReview/BonBonThumbnail.png"
-          linkUrl="/bonbonreview"
-          isFlipped={true}
-        />
-   <div style = {{
-          padding: '10px',
-        }}>
-
-          <HorizontalLine/>
-        </div>
-        <HeroSection
-          featureText="BRIDAL"
-          headlineText="DIY Flower Pins for a Mamma Mia Inspired Wedding"
-          subtext="Learn how to create your own DIY bridal flower pins inspired by Mamma Mia for your wedding day."
-          author="BY JACKIE WYERS"
-          imagePath="MammaMia/mammamiathumb.png"
-          linkUrl="/diy-flowers"
-          isFlipped={true}
-        />
-   <div style = {{
-          padding: '10px',
-        }}>
-
-          <HorizontalLine/>
-        </div>
-        <ShopMyHero2 />
-        <AdSenseAd/>
-        <AdSenseAd/>
-        <AdSenseAd/>
-      </Box>   
+        {/* You can continue adding more sections or close the Box container here */}
+      </Box>
     </Box>
   );
 }
