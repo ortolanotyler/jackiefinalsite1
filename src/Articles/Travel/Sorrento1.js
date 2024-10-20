@@ -7,6 +7,7 @@ import ArticleTitle from '../../Components/ArticleTitle';
 import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import NextArticle from '../../Components/NextArticleComponent';
 import SocialShare from '../../Home/SocialShare';
+import AdSenseAd from '../../Home/Adsense';
 
 
 const articleUrl = 'https://www.jackiewyers.beauty/sorrento-souvenirs';
@@ -229,7 +230,7 @@ helpful!"
 />
 </div>
 
-
+<AdSenseAd/>
 
      
 

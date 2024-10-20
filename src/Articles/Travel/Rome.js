@@ -179,7 +179,7 @@ const Rome = () => {
   <link rel="canonical" href="https://www.jackiewyers.beauty/rome" />
 
   <meta name="description" content="Explore 72 hours in Rome with Jackie Wyers. Discover the best spots, travel tips, and hidden gems as we share our whirlwind adventure in the Eternal City." />
-  <meta name="keywords" content="Rome travel guide, 72 hours in Rome, Jackie Wyers, Vatican City, Colosseum, Trevi Fountain, Italian cuisine, best places in Rome, Rome itinerary, travel tips, Rome landmarks, hidden gems in Rome, Italian food, Rome tourist guide, Rome travel blog, sightseeing in Rome, historic sites, must-see places in Rome, Italy travel, travel with Jackie Wyers, Rome photography, Rome travel tips, Eternal City guide" />
+  <meta name="keywords" content="American guide to rome, influencer italy blog, rome in short time , rome for couples, Rome travel guide, 72 hours in Rome, Jackie Wyers, Vatican City, Colosseum, Trevi Fountain, Italian cuisine, best places in Rome, Rome itinerary, travel tips, Rome landmarks, hidden gems in Rome, Italian food, Rome tourist guide, Rome travel blog, sightseeing in Rome, historic sites, must-see places in Rome, Italy travel, travel with Jackie Wyers, Rome photography, Rome travel tips, Eternal City guide" />
 
   <meta property="og:title" content="Our Romantic 3-Day Rome Itinerary" />
   <meta property="og:description" content="Explore 72 hours in Rome with Jackie Wyers. Discover the best spots, travel tips, and hidden gems as we share our whirlwind adventure in the Eternal City." />
@@ -230,8 +230,8 @@ const Rome = () => {
 
 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
-        <a href="/popculture" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
-          BEAUTY // POP CULTURE
+        <a href="/travel" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
+         TRAVEL
         </a>
       </div>
       
