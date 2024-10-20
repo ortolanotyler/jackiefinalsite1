@@ -297,7 +297,7 @@ const Quiz4Taylor = () => {
 
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <a href="/girly-pop-halloween" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'none', textAlign: 'center' }}>
-          See my roundup of girly pop culture Halloweencostumes here! →
+          See my roundup of girly pop culture Halloween costumes here! →
 
           <img src={image6} alt="Barbie Movie Halloween Article" style={{ width: '100%', maxWidth: '300px', margin: '20px auto', display: 'block' }} />
         </a>
