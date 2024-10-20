@@ -152,19 +152,17 @@ const Quiz4 = () => {
   };
 
   const calculateResults = () => {
-    const averagePoints = totalPoints / quizQuestions.length;
-  
-    if (averagePoints >= 6.5) {
+    if (totalPoints >= 85) {
       navigate('/quiz/halloween/ysl');
-    } else if (averagePoints >= 5.5) {
+    } else if (totalPoints >= 70) {
       navigate('/quiz/halloween/barbie');
-    } else if (averagePoints >= 4.5) {
+    } else if (totalPoints >= 55) {
       navigate('/quiz/halloween/britney');
-    } else if (averagePoints >= 3.5) {
+    } else if (totalPoints >= 40) {
       navigate('/quiz/halloween/tiffany');
-    } else if (averagePoints >= 2.5) {
+    } else if (totalPoints >= 30) {
       navigate('/quiz/halloween/bridgerton');
-    } else if (averagePoints >= 1.5) {
+    } else if (totalPoints >= 20) {
       navigate('/quiz/halloween/ariel');
     } else {
       navigate('/quiz/halloween/taylor');
