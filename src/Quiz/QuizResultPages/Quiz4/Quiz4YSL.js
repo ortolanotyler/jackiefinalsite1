@@ -199,8 +199,8 @@ fontStyle: 'italic',
       </div>
 
       <ArticleTitle
-  mainTitle="You got YSL runway model!"
-  subTitle="Strut Your Stuff, girl!"
+  mainTitle="Strut Your Stuff, girl!"
+  subTitle="Read below for your best girly halloween costume"
 
 
 />

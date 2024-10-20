@@ -199,9 +199,9 @@ fontStyle: 'italic',
       </div>
 
       <ArticleTitle
-  mainTitle="Breakfast at Tiffany’s"
-  subTitle="Darling, You’re Divine!"
-  author="Jackie Wyers"
+  mainTitle="Darling, You’re Divine!"
+  subTitle="Read below for your best girly halloween costume"
+
 
 />
 

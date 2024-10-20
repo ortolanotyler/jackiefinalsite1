@@ -145,7 +145,10 @@ const Quiz4Taylor = () => {
         </a>
       </div>
 
-      <ArticleTitle mainTitle="Taylor Swift 'Folklore' Vibes"  />
+      <ArticleTitle mainTitle="Hello, fellow Swiftie!" 
+        subTitle="Read below for your best girly halloween costume"
+
+      />
 
 
       <SocialShare 

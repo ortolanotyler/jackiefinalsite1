@@ -199,8 +199,8 @@ fontStyle: 'italic',
       </div>
 
       <ArticleTitle
-  mainTitle="Hit Me Baby, One More Time!"
-  subTitle="The results are in; it's Britney, babe!"
+  mainTitle="The Result are in ... it's Britney, bitch!"
+  subTitle="Read below for your best girly halloween costume"
 
 />
 

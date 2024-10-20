@@ -207,8 +207,9 @@ fontStyle: 'italic',
       </div>
 
       <ArticleTitle
-  mainTitle="Bridgerton"
-  
+  mainTitle="Dearest Reader ..."
+  subTitle="I invite you to scroll below for your best girly halloween costume"
+
 
 
 

@@ -207,7 +207,7 @@ fontStyle: 'italic',
 
       <ArticleTitle
   mainTitle="Hi Barbie!"
-  subTitle="Dive into Barbie's world of endless possibilities"
+  subTitle="Read below for your best girly halloween costume"
 
 
 />
