@@ -128,11 +128,10 @@ fontStyle: 'italic',
     name="description" 
     content="Channel the timeless elegance of Audrey Hepburn in Breakfast at Tiffany’s this Halloween. Get inspired by classic Hollywood glam with tutorials and beauty tips from Jackie Wyers." 
   />
-  
-  <meta 
-    name="keywords" 
-    content="Breakfast at Tiffany’s costume, Audrey Hepburn Halloween, Jackie Wyers Halloween quiz, Audrey Hepburn makeup tutorial, Audrey Hepburn hairstyle, Hollywood glam Halloween, classic Halloween looks, Breakfast at Tiffany’s fashion, Halloween costume ideas 2024, Jackie Wyers makeup tutorials, Audrey Hepburn style guide, girly pop culture Halloween costumes, chic Halloween costumes, iconic movie character costumes, Breakfast at Tiffany's style, Audrey Hepburn inspired makeup, Tiffany’s Halloween 2024" 
-  />
+ <meta 
+  name="keywords" 
+  content="Breakfast at Tiffany’s costume, Audrey Hepburn Halloween costume, Audrey Hepburn makeup tutorial, classic Hollywood glam Halloween, vintage glam costume, Holly Golightly Halloween costume, elegant Halloween look, chic Halloween outfits, Audrey Hepburn hairstyle tutorial, Jackie Wyers Halloween quiz results, timeless fashion icons, 1960s beauty looks, Audrey Hepburn Breakfast at Tiffany’s fashion, old Hollywood costumes, iconic movie character costume ideas, best Audrey Hepburn Halloween, Tiffany's inspired makeup, Jackie Wyers Halloween costume ideas, girly Halloween pop culture quiz, classy Halloween costume 2024" 
+/>
 
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Breakfast at Tiffany’s - Jackie Wyers Halloween Costume Quiz 🎀" />

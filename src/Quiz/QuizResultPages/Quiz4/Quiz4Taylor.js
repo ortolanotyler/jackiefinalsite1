@@ -77,9 +77,9 @@ const Quiz4Taylor = () => {
           content="Explore your Taylor Swift 'folklore'-inspired Halloween costume result, perfect for cozy fall nights and mystical gatherings. Find costume ideas and makeup tutorials here." 
         />
         <meta 
-          name="keywords" 
-          content="Taylor Swift Halloween costume, Folklore inspired costume, cozy Halloween outfit, Taylor Swift cardigan outfit, fairycore costume ideas, mystical fall costumes, Taylor Swift inspired makeup, Jackie Wyers quiz result, folklore Taylor Swift costume, pop culture Halloween costume" 
-        />
+  name="keywords" 
+  content="Taylor Swift Halloween costume, folklore-inspired costume, cozy fall Halloween outfits, Taylor Swift cardigan look, fairycore costume ideas, mystical fall costumes, Jackie Wyers Taylor Swift quiz result, pop culture Halloween costumes, Taylor Swift inspired makeup, folklore fashion Halloween, cardigan outfit inspiration, whimsical Halloween costumes, cozy fall fashion, fairy-inspired costumes, folklore Halloween 2024, woodland fairy look, pop star Halloween costume ideas, mystical makeup tutorials, Jackie Wyers Halloween quiz" 
+/>
         <meta property="og:title" content="Taylor Swift Folklore-Inspired Halloween Costume 🎃 | Jackie Wyers" />
         <meta 
           property="og:description" 

@@ -128,10 +128,10 @@ fontStyle: 'italic',
     name="description" 
     content="Dive into Barbie's world of endless possibilities where pink lips and bright fashion shine. Explore Halloween looks inspired by Barbie, Glinda, and more in this fun quiz by Jackie Wyers." 
   />
-  <meta 
-    name="keywords" 
-    content="Barbie Halloween costume, Barbie makeup tutorial, Barbie movie makeup, pink glam Halloween, Jackie Wyers quiz, Halloween Barbie style, Barbie Halloween 2024, Glinda makeup tutorial, Jackie Wyers Barbie quiz result, pink aesthetic Halloween, Margot Robbie Barbie makeup, Glinda Wicked makeup, Barbiecore fashion, Barbie Peaches and Cream, 90s Barbie costume, classic Barbie look, Halloween quiz results, pop culture Halloween costumes, girly Halloween costumes 2024" 
-  />
+ <meta 
+  name="keywords" 
+  content="Barbie Halloween costume, Barbie makeup tutorial, Barbie movie makeup, Barbiecore Halloween style, pink glam Halloween, Margot Robbie Barbie makeup, iconic Barbie costume ideas, Jackie Wyers Barbie quiz result, Glinda makeup tutorial, pop culture Halloween costumes, pink aesthetic Halloween, Peaches and Cream Barbie costume, girly Halloween costumes 2024, Barbie movie Halloween look, Barbie doll costume ideas, Jackie Wyers Halloween quiz, pop culture-inspired Halloween costumes, 90s Barbie look, pink aesthetic outfits, Glinda Wicked makeup" 
+/>
 
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Hi Barbie! - Jackie Wyers Halloween Costume Quiz 🎀" />

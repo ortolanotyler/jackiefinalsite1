@@ -127,10 +127,10 @@ fontStyle: 'italic',
     name="description" 
     content="Discover your Ariel-inspired Halloween costume result with makeup and hair tutorials. Whether you're recreating Halle Bailey's live-action version or the classic animated Ariel, find all the inspiration here." 
   />
-  <meta 
-    name="keywords" 
-    content="Ariel Halloween costume, Ariel makeup tutorial, Little Mermaid costume, Halle Bailey Ariel makeup, classic Ariel look, Ariel hair tutorials, Disney Halloween costume, Jackie Wyers quiz result, Halloween mermaid look, Ariel-inspired Halloween 2024, pop culture Halloween costume, mermaid makeup tutorials, aquatic themed costume, red hair makeup looks, under the sea Halloween costume, Ariel costume inspo, Jackie Wyers Halloween quiz, Disney princess Halloween costumes" 
-  />
+ <meta 
+  name="keywords" 
+  content="Ariel Halloween costume, Ariel makeup tutorial, Little Mermaid costume, Halle Bailey Ariel makeup, classic Ariel look, Ariel hair tutorials, Disney princess Halloween costumes, mermaid costume ideas, under the sea Halloween costume, aquatic themed costumes, red hair makeup tutorials, live-action Ariel Halloween, Jackie Wyers quiz result, mermaid-inspired costume, fantasy Halloween costumes 2024, Ariel costume inspiration, pop culture Halloween costumes, Disney Halloween ideas, Ariel hair and makeup tips, Jackie Wyers Halloween quiz" 
+/>
 
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Ariel Halloween Costume Quiz Result 🎃 | Jackie Wyers" />

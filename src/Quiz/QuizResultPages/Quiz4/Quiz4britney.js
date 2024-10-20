@@ -130,9 +130,9 @@ fontStyle: 'italic',
   />
   
   <meta 
-    name="keywords" 
-    content="Britney Spears Halloween, Britney Spears costume, Britney Spears makeup tutorial, 'Baby One More Time' Halloween, Jackie Wyers Halloween quiz, '90s makeup tutorial, iconic Halloween looks, girly Halloween costumes, Sabrina Carpenter makeup, Britney Spears style, Britney quiz result, Jackie Wyers Halloween, pop culture Halloween costumes, Britney Spears inspired fashion, Halloween 2024, Halloween party outfits, Britney 'Baby One More Time' look" 
-  />
+  name="keywords" 
+  content="Britney Spears Halloween costume, Baby One More Time costume, Britney Spears makeup tutorial, iconic 90s Halloween costumes, Britney Spears schoolgirl costume, pop culture Halloween looks, 90s makeup tutorial, Jackie Wyers Britney quiz result, Sabrina Carpenter Halloween costume, Britney-inspired Halloween makeup, pop star Halloween outfits, nostalgic Halloween looks, Jackie Wyers Halloween quiz, Halloween 2024 girly costumes, pop diva Halloween costume, Britney Spears iconic looks, party Halloween outfit ideas" 
+/>
 
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Britney Spears Quiz Result – Hit Me Baby, One More Time! 🎀" />

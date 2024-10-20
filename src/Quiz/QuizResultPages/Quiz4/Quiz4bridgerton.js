@@ -128,10 +128,10 @@ fontStyle: 'italic',
     name="description" 
     content="You got Bridgerton! Immerse yourself in the Regency era this Halloween with costume and makeup ideas inspired by Bridgerton. Tutorials for hair, makeup, and more from Jackie Wyers." 
   />
-  <meta 
-    name="keywords" 
-    content="Bridgerton Halloween costume, Bridgerton makeup tutorial, Regency Halloween, Bridgerton ball, Jackie Wyers quiz, Bridgerton style Halloween, Bridgerton season 2 looks, Regency makeup, Kate Bridgerton makeup, Daphne Bridgerton hairstyle, Halloween 2024 costumes, royal costume inspiration, historical Halloween looks, Bridgerton party ideas, group Halloween costumes, Edwina Bridgerton makeup, Jackie Wyers tutorials, historical fashion, Elizabeth Bennet makeup" 
-  />
+ <meta 
+  name="keywords" 
+  content="Bridgerton Halloween costume, Regency Halloween, Bridgerton makeup tutorial, historical Halloween costumes, royal ball Halloween look, Jackie Wyers Bridgerton quiz result, Kate Bridgerton costume, Daphne Bridgerton hair, historical-inspired costumes, romantic Halloween outfits, elegant Halloween looks, Regency-era fashion, Bridgerton party costume ideas, group Halloween costumes, royal Halloween looks, Bridgerton inspired Halloween 2024, Jackie Wyers Halloween quiz, pop culture Halloween costume, historical makeup tutorials, period drama costumes" 
+/>
 
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Bridgerton Quiz Result – Regal & Elegant 🎀" />
@@ -364,8 +364,8 @@ Find tutorials below to guide your look & comment below to share your results & 
   return (
     <div ref={blogRef}>
   <Card
-        title="YSL Laurent Quiz Result - Jackie Wyers Halloween Costume Quiz"
-        description="Strut Your Stuff!"
+        title="Bridgerton Quiz Result - Jackie Wyers Halloween Costume Quiz"
+        description="Should you dress up with a Bridgerton themed costume? The quiz says so!"
         blogContent={blogContent}
       />   
       

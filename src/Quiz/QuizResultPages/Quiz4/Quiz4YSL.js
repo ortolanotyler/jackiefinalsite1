@@ -130,9 +130,9 @@ fontStyle: 'italic',
   />
   
   <meta 
-    name="keywords" 
-    content="YSL Laurent quiz result, Halloween costume quiz, Jackie Wyers Halloween quiz, YSL Halloween costume, designer Halloween looks, Victoria's Secret Angel makeup, DIY Halloween ideas, YSL bridal inspiration, YSL makeup, high-fashion Halloween, glamorous Halloween, YSL runway look, YSL floral bride, pink glam makeup, Glinda makeup inspiration, step-by-step makeup tutorials, Halloween beauty looks, 2024 Halloween trends, Jackie Wyers makeup tutorials, Halloween style quiz results, girly pop culture costumes" 
-  />
+  name="keywords" 
+  content="YSL Halloween costume, YSL Laurent quiz result, high-fashion Halloween costumes, designer-inspired Halloween looks, glamorous Halloween costumes, Victoria’s Secret Angel makeup tutorial, Jackie Wyers Halloween quiz results, YSL bridal inspiration, runway-inspired Halloween, fashion-forward Halloween makeup, YSL bride 1999, DIY YSL couture look, chic Halloween ideas, high-end Halloween costume inspiration, floral bridal Halloween, glam fashion looks for Halloween 2024, girly pop culture Halloween quiz, Jackie Wyers YSL-inspired beauty tutorial, couture Halloween makeup looks" 
+/>
 
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="YSL Laurent Quiz Result - Jackie Wyers Halloween Costume Quiz 🎃" />
