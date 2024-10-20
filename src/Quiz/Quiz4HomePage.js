@@ -11,21 +11,20 @@ const Quiz4Homepage = () => {
     return (
         <div>
              <Helmet>
-  <title>What's Your Halloween Style? 🎃 - Jackie Wyers' Quiz</title>
+  <title>Halloween Costume Ideas 2024 - Take the quiz now!</title>
   <link rel="canonical" href="https://www.jackiewyers.beauty/quiz-3-homepage" />
 
   <meta name="description" content="Discover your Halloween style with Jackie Wyers' interactive quiz! Are you spooky, glamorous, or classic? Find the perfect look for your next Halloween event." />
-  <meta name="keywords" content="Halloween quiz, Halloween style, spooky costume quiz, glam Halloween look, Jackie Wyers quiz, makeup for Halloween, Halloween makeup styles, Halloween costumes, beauty quiz, Halloween trends 2024, find your Halloween look" />
-
+  <meta name="keywords" content="Halloween quiz, Halloween style quiz, 2024 Halloween costume ideas, Halloween makeup ideas, spooky Halloween costumes, glam Halloween looks, classic Halloween costumes, Jackie Wyers quiz, beauty quiz for Halloween, personalized Halloween style quiz, Halloween trends 2024, best Halloween costume ideas, find your Halloween style, interactive Halloween quiz, pop culture Halloween costumes, girly Halloween costumes, celebrity Halloween looks, iconic Halloween outfits, DIY Halloween makeup tutorials, spooky season costume quiz, unique Halloween costume ideas, best Halloween costumes for women, trendy Halloween costumes, Disney princess Halloween costume, sexy Halloween costumes, witch costume ideas, vintage Halloween style, makeup trends Halloween 2024, Halloween makeup inspiration, Halloween party outfit ideas, fairy tale Halloween costumes, period drama Halloween costumes, Halloween quiz for girls, gothic Halloween makeup, cute Halloween looks, spooky glam makeup, easy Halloween costume quiz, Halloween outfits for women, 2024 spooky costume quiz, ultimate Halloween quiz, chic Halloween makeup, top Halloween quiz, Instagram-worthy Halloween costumes, makeup tutorials for Halloween, Halloween hair ideas, DIY Halloween costume inspiration, themed Halloween costumes, nostalgic Halloween looks, Halloween character quiz, best makeup for Halloween, Halloween costume predictions 2024" />
   {/* Open Graph Meta Tags */}
-  <meta property="og:title" content="What's Your Halloween Style? 🎃 - Jackie Wyers' Quiz" />
+  <meta property="og:title" content="Halloween Costume Ideas Quiz, Halloween Costume Ideas 2024 - Take the quiz now!" />
   <meta property="og:description" content="Find out your perfect Halloween style with Jackie Wyers' interactive quiz! Get personalized costume and makeup ideas for your Halloween 2024 look." />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/Halloween/HalloweenThumb.jpg" />
   <meta property="og:url" content="https://www.jackiewyers.beauty/quiz-3-homepage" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
-  <meta name="twitter:title" content="What's Your Halloween Style? 🎃 - Jackie Wyers' Quiz" />
+  <meta name="twitter:title" content="Halloween Costume Ideas 2024 - Take the quiz now!" />
   <meta name="twitter:description" content="Discover your perfect Halloween style with Jackie Wyers' interactive quiz. Whether you're spooky or glamorous, get inspired for your 2024 Halloween look!" />
   <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/Halloween/HalloweenThumb.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -36,7 +35,7 @@ const Quiz4Homepage = () => {
       {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "headline": "What's Your Halloween Style? 🎃 - Jackie Wyers' Quiz",
+        "headline": "Halloween Costume Ideas 2024 - Take the quiz now!",
         "description": "Discover your Halloween style with Jackie Wyers' interactive quiz! Are you spooky, glamorous, or classic? Find the perfect look for your next Halloween event.",
         "image": "https://www.jackiewyers.beauty/Images/Articles/Halloween/HalloweenThumb.jpg",
         "author": {
