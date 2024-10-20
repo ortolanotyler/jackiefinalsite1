@@ -156,9 +156,9 @@ const Quiz4 = () => {
   }, [showResults]); // Trigger calculation only when showResults is true
 
   const calculateResults = () => {
-    if (totalPoints >= 81) {
+    if (totalPoints >= 79) {
       navigate('/quiz/halloween/ysl');
-    } else if (totalPoints >= 73) {
+    } else if (totalPoints >= 70) {
       navigate('/quiz/halloween/britney');
     } else if (totalPoints >= 55) {
       navigate('/quiz/halloween/tiffany');
