@@ -39,7 +39,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
 
   const imageContainerStyle = {
     width: '100%',
-    height: '400px',
+    height: '450px',
     flex: 1,
     position: 'relative',
     overflow: 'hidden',
@@ -47,13 +47,13 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
 
   const imageStyle = {
     width: '100%',
-    height: '400px',
+    height: '450px',
     objectFit: 'cover',
   };
 
   const contentStyle = {
     height: '19vh',
-    padding: '1rem',
+    padding: '10px',
     textAlign: 'left',
     fontFamily: 'GFS Didot, sans-serif',
   };
@@ -87,6 +87,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
   const authorStyle = {
     textAlign: 'right',
     fontSize: '.88rem',
+    marginBottom: '5px',
     fontStyle: 'italic',
     color: '#000000',
     fontFamily: 'Arapey, sans-serif',

@@ -6,9 +6,9 @@ const HorizontalLine = () => {
     <Box
       sx={{
         width: '80%',
-        height: '1.5px',
-        backgroundColor: 'rgba(0, 0, 0, 0.1)', // Faint black line with 10% opacity
-        margin: '0 auto', // Adjust the vertical margin
+        height: '1px',
+        backgroundColor: 'rgba(0, 0, 0, 0.15)', // Faint black line with 10% opacity
+        margin: '5px auto', // Adjust the vertical margin
       }}
     />
   );

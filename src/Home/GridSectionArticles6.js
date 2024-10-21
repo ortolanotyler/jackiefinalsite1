@@ -27,7 +27,7 @@ const SixGridComponent = () => {
               author="September 20"
               imagePath="Homepage/paristhumbnail-1.webp"
               linkUrl="/paris-brussels-travel-guide"
-              isFlipped={false}
+              isFlipped={true}
             />
           </Box>
         </Grid>
