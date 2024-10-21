@@ -4,10 +4,18 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import SwitchUpYour from './SwitchUpYour';
+import SubscribeButton from '../../Components/SubscribeButton';
 
 const Footer = () => {
     return (
-        <div style={{ width: '100%', overflowX: 'hidden' }}>
+        <>
+        
+<div
+style = {{textAlign: 'center' , margin: '1rem auto'}}
+>
+<SubscribeButton/>
+</div>
+         <div style={{ width: '100%', overflowX: 'hidden' }}>
             <SwitchUpYour />
             <footer style={{
                 width: '100%',
@@ -70,6 +78,9 @@ const Footer = () => {
               
             </footer>
         </div>
+        
+        </>
+       
     );
 };
 

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useMediaQuery } from '@mui/material';
 
-const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', maxFontSize = '50px', minFontSize = '10px' }) => {
+const TextBanner2 = ({ text = "SHOPPING", height = '50px', width = '100%', maxFontSize = '50px', minFontSize = '10px' }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const [fontSize, setFontSize] = useState(maxFontSize);
 
@@ -41,7 +41,7 @@ const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', maxF
     container: {
       display: 'flex',
       justifyContent: 'center',
-      alignItems: 'center',
+      textAlign: 'center',
       fontFamily: 'Playfair Display, sans-serif',
       height,
       width,
@@ -56,7 +56,7 @@ const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', maxF
       transition: 'transform 0.3s ease', // Smooth transition for enlargement
     },
     hoveredLetter: {
-      transform: 'scale(1.2)', // Enlarge letter on hover
+      transform: 'scale(1.5)', // Enlarge letter on hover
     },
   };
 
@@ -69,7 +69,7 @@ const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', maxF
             ...styles.letter,
             ...(hoveredIndex === index ? styles.hoveredLetter : {}),
             fontSize, // Apply dynamic font size
-            margin: '0 0.5rem', // Space between letters
+            margin: '0 0.25rem', // Space between letters
           }}
           onMouseEnter={() => handleMouseEnter(index)}
           onMouseLeave={handleMouseLeave}

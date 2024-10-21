@@ -15,6 +15,7 @@ import TextBanner2pink from '../Components/TextBanner2pink';
 import FeaturedGrid6 from './GridSectionFeatured';
 import TextReveal from '../Components/TextReveal';
 import Grid3Across1 from './Grid3Across1';
+import VintageVibesCards from './GridVintageVibes';
 
 
 
@@ -102,13 +103,19 @@ function HomePage() {
     
 
 
-<div
-style = {{textAlign: 'center' , margin: '0 auto'}}
->
-<SubscribeButton/>
-</div>
 
-<TextBanner2 text="NEW & POPULAR" height="100px" width="100%" fontSize="20px" />
+<div
+style = {{
+  width: '80%',
+  margin: '10px auto',
+}}
+> 
+<HorizontalLine/>
+
+</div>
+<TextBanner2 text="FEATURED" height="10vh" width="100%" fontSize="22px" />
+
+
 <Grid3Across1/>
 
 <TextRevealHomePage text="🎃 HALLOWEEN COSTUME QUIZ 🎃" height="50px" width="100" fontSize="1rem" backgroundColor='#fdedef' />
@@ -126,13 +133,30 @@ style = {{textAlign: 'center' , margin: '0 auto'}}
 
     
 
+        <div
+style = {{
+  width: '80%',
+  margin: '10px auto',
+}}
+> 
 <HorizontalLine/>
 
+</div>
+<div style={{ margin: '10px auto' }}>
+          <AdSenseAd />
+        </div>
 
-<TextBanner2 text="BEAUTY" height="100px" width="100%" fontSize="20px" />
+<TextBanner2 text="BEAUTY" height="10vh" width="100%" fontSize="20px" />
 
+<div
+style = {{
+  width: '80%',
+  margin: '10px auto',
+}}
+> 
 <HorizontalLine/>
 
+</div>
 
 <FeaturedGrid6/>
 
@@ -140,12 +164,30 @@ style = {{textAlign: 'center' , margin: '0 auto'}}
           <AdSenseAd />
         </div>
      
-
- 
-        <TextBanner2 text="LIFESTYLE" height="100px" width="100%" fontSize="30px" />
-      
+        <div
+style = {{
+  width: '80%',
+  margin: '10px auto',
+}}
+> 
 <HorizontalLine/>
-     
+
+</div>
+<div style={{ margin: '10px auto' }}>
+          <AdSenseAd />
+        </div>
+ 
+        <TextBanner2 text="LIFESTYLE" height="10vh" width="100%" fontSize="20px" />
+      
+        <div
+style = {{
+  width: '80%',
+  margin: '10px auto',
+}}
+> 
+<HorizontalLine/>
+
+</div>     
        
         
        <SixGridComponent/>
@@ -155,15 +197,52 @@ style = {{textAlign: 'center' , margin: '0 auto'}}
        <div style={{ margin: '10px auto' }}>
           <AdSenseAd />
         </div>
+        <VintageVibesCards/>
+        <div
+style = {{
+  width: '80%',
+  margin: '10px auto',
+}}
+> 
+<HorizontalLine/>
+
+</div>
        <div style={{ margin: '10px auto' }}>
           <AdSenseAd />
         </div>
+        <div
+style = {{
+  width: '80%',
+  margin: '10px auto',
+}}
+> 
+<HorizontalLine/>
+
+</div>
         <div style={{ margin: '10px auto' }}>
           <AdSenseAd />
         </div>
+        <div
+style = {{
+  width: '80%',
+  margin: '10px auto',
+}}
+> 
+<HorizontalLine/>
+
+</div>
         <div style={{ margin: '10px auto' }}>
           <AdSenseAd />
         </div>
+        <div
+style = {{
+  width: '80%',
+  margin: '10px auto',
+}}
+> 
+<HorizontalLine/>
+
+</div>
         <div style={{ margin: '10px auto' }}>
           <AdSenseAd />
         </div>
