@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import HorizontalLine from '../Components/HorizontalLine';
 
 const AdSenseAd = () => {
   useEffect(() => {
@@ -21,6 +22,8 @@ const AdSenseAd = () => {
   }, []);
 
   return (
+    <>
+    <HorizontalLine/>
     <div style={{ justifyContent: 'center', margin: '20px auto' }}>
       <ins 
         className="adsbygoogle"
@@ -31,6 +34,10 @@ const AdSenseAd = () => {
         data-full-width-responsive="false"
       ></ins>
     </div>
+    <HorizontalLine/>
+
+    </>
+    
   );
 };
 

@@ -8,14 +8,16 @@ import QuiltedImageList1 from './ImageGridTutorials';
 import HorizontalLine from '../Components/HorizontalLine';
 import { useMediaQuery } from '@mui/material';
 import AdSenseAd from './Adsense';
-import SubscribeButton from '../Components/SubscribeButton';
 import Quiz4 from '../Quiz/Quiz4';
 import SixGridComponent from './GridSectionArticles6';
-import TextBanner2pink from '../Components/TextBanner2pink';
 import FeaturedGrid6 from './GridSectionFeatured';
 import TextReveal from '../Components/TextReveal';
 import Grid3Across1 from './Grid3Across1';
 import VintageVibesCards from './GridVintageVibes';
+import ShopMyHero from './ShopMyHero';
+import NewsletterSlider from './NewsletterSlider';
+import NewsletterSection from './NewsletterSection';
+
 
 
 
@@ -78,7 +80,7 @@ function HomePage() {
 
     
       {/* Flex container for sections */}
-      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '16px', pt: { xs: '0px', md: '0px' } }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem', pt: { xs: '0px', md: '0px' } }}>
         {/* Conditionally show TextRevealHomePage on larger screens */}
         {!isMobile && (
           <>
@@ -101,151 +103,112 @@ function HomePage() {
 
 
     
+<div style={{ padding: '10px auto' }}>
+          <AdSenseAd />
+        </div>
 
 
 
-<div
-style = {{
-  width: '80%',
-  margin: '10px auto',
-}}
-> 
-<HorizontalLine/>
-
-</div>
-<TextBanner2 text="FEATURED" height="10vh" width="100%" fontSize="22px" />
 
 
-<Grid3Across1/>
+<TextBanner2 text="FEATURE" height="10vh" width="100%" fontSize="1rem" padding = '1rem auto' />
 
-<TextRevealHomePage text="🎃 HALLOWEEN COSTUME QUIZ 🎃" height="50px" width="100" fontSize="1rem" backgroundColor='#fdedef' />
+
+
+
+
+<TextRevealHomePage text="🎃 HALLOWEEN COSTUME QUIZ 🎃"  width="100%" fontSize="1rem" backgroundColor='#fdedef' />
 
 
 
 
         <Quiz4 />
 
-
-        <div style={{ margin: '10px auto' }}>
+        
+<div style={{ padding: '10px auto' }}>
           <AdSenseAd />
         </div>
+
+    
+
+<TextBanner2 text="NEW & POPULAR" height="10vh" width="100%" fontSize="1rem" padding = '1rem auto' />
+
+
+<Grid3Across1/>
+
+<div style={{ padding: '10px auto' }}>
+          <AdSenseAd />
+        </div>
+
+
+
+
+        
+     
 
 
     
 
-        <div
-style = {{
-  width: '80%',
-  margin: '10px auto',
-}}
-> 
-<HorizontalLine/>
+       
 
-</div>
-<div style={{ margin: '10px auto' }}>
-          <AdSenseAd />
-        </div>
 
-<TextBanner2 text="BEAUTY" height="10vh" width="100%" fontSize="20px" />
+      
 
-<div
-style = {{
-  width: '80%',
-  margin: '10px auto',
-}}
-> 
-<HorizontalLine/>
+          <TextBanner2 text="BEAUTY" height="100px" width="100%" fontSize="1rem" padding = '0 auto' />
 
-</div>
+
+
+
 
 <FeaturedGrid6/>
 
-<div style={{ margin: '10px auto' }}>
+<NewsletterSlider/>
+
+<div style={{ padding: '10px auto' }}>
           <AdSenseAd />
         </div>
      
-        <div
-style = {{
-  width: '80%',
-  margin: '10px auto',
-}}
-> 
-<HorizontalLine/>
 
-</div>
-<div style={{ margin: '10px auto' }}>
-          <AdSenseAd />
-        </div>
  
-        <TextBanner2 text="LIFESTYLE" height="10vh" width="100%" fontSize="20px" />
+        <TextBanner2 text="TRAVEL" height="100px" width="100%" fontSize="1rem" padding = '0 auto' />
       
-        <div
-style = {{
-  width: '80%',
-  margin: '10px auto',
-}}
-> 
-<HorizontalLine/>
-
-</div>     
+      
        
         
        <SixGridComponent/>
    
 
        
-       <div style={{ margin: '10px auto' }}>
+       <div style={{ padding: '10px auto' }}>
           <AdSenseAd />
         </div>
+
+        <TextBanner2 text="VINTAGE VIBES" height="100px" width="100%" fontSize="1rem" padding = '0 auto' />
+
         <VintageVibesCards/>
-        <div
-style = {{
-  width: '80%',
-  margin: '10px auto',
-}}
-> 
-<HorizontalLine/>
 
-</div>
-       <div style={{ margin: '10px auto' }}>
+        <div style={{ padding: '10px auto' }}>
           <AdSenseAd />
         </div>
-        <div
-style = {{
-  width: '80%',
-  margin: '10px auto',
-}}
-> 
-<HorizontalLine/>
+      
 
-</div>
-        <div style={{ margin: '10px auto' }}>
+        <TextBanner2 text="SHOP MY STYLE"  height="100px" width="100%" fontSize="1rem" padding = '0 auto' />
+
+        <ShopMyHero/>
+     
+       <div style={{ padding: '10px auto' }}>
           <AdSenseAd />
         </div>
-        <div
-style = {{
-  width: '80%',
-  margin: '10px auto',
-}}
-> 
-<HorizontalLine/>
-
-</div>
-        <div style={{ margin: '10px auto' }}>
+      
+        <div style={{ padding: '10px auto' }}>
           <AdSenseAd />
         </div>
-        <div
-style = {{
-  width: '80%',
-  margin: '10px auto',
-}}
-> 
-<HorizontalLine/>
-
-</div>
-        <div style={{ margin: '10px auto' }}>
+      
+        <div style={{ padding: '10px auto' }}>
           <AdSenseAd />
         </div>
+    
+        
        
       </Box>
     </Box>

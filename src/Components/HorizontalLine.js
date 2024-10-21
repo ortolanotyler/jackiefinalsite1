@@ -5,10 +5,10 @@ const HorizontalLine = () => {
   return (
     <Box
       sx={{
-        width: '100%',
-        height: '1px',
+        width: '80%',
+        height: '1.5px',
         backgroundColor: 'rgba(0, 0, 0, 0.1)', // Faint black line with 10% opacity
-        margin: '20px 0', // Adjust the vertical margin
+        margin: '0 auto', // Adjust the vertical margin
       }}
     />
   );

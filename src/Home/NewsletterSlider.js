@@ -1,87 +1,111 @@
-import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import styles from './NewsletterSlider.module.css'; // Import CSS module
+import React, { useState } from 'react';
+import { Box, IconButton, Typography } from '@mui/material';
+import { ArrowBack, ArrowForward } from '@mui/icons-material';
+import './NewsletterSlider.module.css'; // Ensure this file exists
+import HorizontalLine from '../Components/HorizontalLine';
+import EmailSubscribe from '../Components/EmailSubscribe';
 
-const NewsletterSlider = () => { // Removed the `images` prop
+const images = [
+  `${process.env.PUBLIC_URL}/Images/Newsletter17A.png`,
+  `${process.env.PUBLIC_URL}/Images/Newsletter17B.png`,
+  `${process.env.PUBLIC_URL}/Images/Newsletter17C.png`,
+  `${process.env.PUBLIC_URL}/Images/Newsletter17D.png`,
+  `${process.env.PUBLIC_URL}/Images/1.png`,
+  `${process.env.PUBLIC_URL}/Images/2.png`,
+  `${process.env.PUBLIC_URL}/Images/3.png`,
+  `${process.env.PUBLIC_URL}/Images/4.png`,
+  `${process.env.PUBLIC_URL}/Images/5.png`,
+  `${process.env.PUBLIC_URL}/Images/6.png`,
+  `${process.env.PUBLIC_URL}/Images/7.png`,
+  `${process.env.PUBLIC_URL}/Images/8.png`,
+  `${process.env.PUBLIC_URL}/Images/9.png`,
 
-  const images = [
-    `${process.env.PUBLIC_URL}/Images/Home/1.png`,
-    `${process.env.PUBLIC_URL}/Images/Home/2.png`,
-    `${process.env.PUBLIC_URL}/Images/Home/3.png`,
-    `${process.env.PUBLIC_URL}/Images/Home/4.png`,
-  ];
 
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
+];
+
+const NewsletterSlider = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const handlePrevClick = () => {
+    setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
+  };
+
+  const handleNextClick = () => {
+    setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
   };
 
   return (
-    <div className={styles.mediaKitSlider}>
-      <Slider {...settings}>
-        {images.map((image, index) => (
-          <div key={index}>
-            <img 
-              src={image} 
-              alt={`Media ${index + 1}`} 
-              className={styles.sliderImage} 
-              width="1000" // Set explicit width
-              height="600" // Set explicit height
-              style={{ width: '100%', height: 'auto', objectFit: 'cover' }} // Responsive styling
-            />
-          </div>
-        ))}
-      </Slider>
-    </div>
-  );
-};
-
-const SampleNextArrow = (props) => {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: 'block' }}
-      onClick={onClick}
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        fill="#745B4F"
-        width="25px"
-        height="35px"
+    <React.Fragment>
+           {/* Typography below the slider */}
+           <Typography 
+        variant="h1" 
+        align="center" 
+        sx={{ 
+          
+     
+          fontFamily: 'Playfair Display, sans-serif', 
+          margin: '0 auto',
+          padding: '10px ',
+          maxWidth: '100%',
+          color: '#000000', 
+        }}
       >
-        <path d="M12 0L10.59 1.41 18.17 9H0v2h18.17l-7.58 7.59L12 24l12-12z" />
-      </svg>
-    </div>
-  );
-};
+        Sign up for the weekly newsletter!
+      
+      </Typography>
 
-const SamplePrevArrow = (props) => {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: 'block' }}
-      onClick={onClick}
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        fill="#745B4F"
-        width="50px"
-        height="50px"
+   
+
+      <EmailSubscribe />
+     
+      <HorizontalLine/>
+      <Box 
+        className="sliderContainer" 
+        sx={{ 
+          position: 'relative', 
+        
+          width: '100%', 
+          maxWidth: '500px', 
+          height: 'auto', 
+          display: 'flex', 
+          alignItems: 'center', 
+          justifyContent: 'center',
+          margin: '1rem auto', // Centering the Box within its container
+          
+        }}
       >
-        <path d="M12 24l1.41-1.41L5.83 15H24v-2H5.83l7.58-7.59L12 0 0 12z" />
-      </svg>
-    </div>
+        <img
+          src={images[currentIndex]}
+          alt={`Slide ${currentIndex + 1}`}
+          className="sliderImage"
+          style={{
+            width: '100%',
+            maxWidth: '550px',
+            height: 'auto',
+            borderRadius: '5px',
+            objectFit: 'cover',
+          }}
+        />
+
+        <IconButton
+          className="prevButton"
+          sx={{ position: 'absolute', top: '50%', left: '10px', transform: 'translateY(-50%)', color: 'black' }}
+          onClick={handlePrevClick}
+        >
+          <ArrowBack />
+        </IconButton>
+        <IconButton
+          className="nextButton"
+          sx={{ position: 'absolute', top: '50%', right: '10px', transform: 'translateY(-50%)', color: 'black' }}
+          onClick={handleNextClick}
+        >
+          <ArrowForward />
+        </IconButton>
+      </Box>
+      <HorizontalLine/>
+
+ 
+    </React.Fragment>
   );
 };
 

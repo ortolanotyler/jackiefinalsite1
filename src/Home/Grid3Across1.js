@@ -4,8 +4,8 @@ import HeroSection2a from './HeroSection2a'; // Importing HeroSection2a format
 
 const Grid3Across1 = () => {
   return (
-    <Box sx={{ width: '100%', padding: '50px', backgroundColor: 'white' }}>
-      <Grid container spacing={2} justifyContent="center">
+    <Box sx={{ width: '100%', padding: '20px', backgroundColor: 'white' }}>
+      <Grid container spacing={1} justifyContent="center">
       
         {/* Second Row */}
         <Grid item xs={12} sm={6} md={6} lg={4}>

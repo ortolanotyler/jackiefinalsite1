@@ -51,7 +51,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
   };
 
   const contentStyle = {
-    height: '21vh',
+    height: '19vh',
     padding: '1rem',
     textAlign: 'left',
     fontFamily: 'GFS Didot, sans-serif',

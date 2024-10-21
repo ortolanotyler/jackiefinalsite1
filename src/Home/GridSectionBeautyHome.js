@@ -7,8 +7,8 @@ const HeroSectionGrid = () => {
     <Grid container spacing={2} justifyContent="center">
       {/* First Row */}
       <Grid item xs={12} sm={6} md={6} lg={4}>
-        <Box sx={{ padding: '30px',height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <HeroSection2a
+      <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <HeroSection2a
             featureText="FASHION"
             headlineText="Victoria's Secret"
             subtext="Victoria's Secret fashion show 2014 vibes"
@@ -20,8 +20,8 @@ const HeroSectionGrid = () => {
         </Box>
       </Grid>
       <Grid item xs={12} sm={6} md={6} lg={4}>
-        <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <HeroSection2a
+      <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <HeroSection2a
             featureText="SPRING"
             headlineText="No-Makeup Spring 🌸"
             subtext="No Makeup-Makeup Look for Spring"
@@ -36,8 +36,8 @@ const HeroSectionGrid = () => {
      
 
       <Grid item xs={12} sm={6} md={6} lg={4}>
-        <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <HeroSection2a
+      <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <HeroSection2a
             featureText="HOLLYWOOD"
             headlineText="Grace's Hollywood Glam"
             subtext="Grace Kelly inspired makeup tutorial"
@@ -53,8 +53,8 @@ const HeroSectionGrid = () => {
       
 
       <Grid item xs={12} sm={6} md={6} lg={4}>
-        <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <HeroSection2a
+      <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <HeroSection2a
             featureText="COLLAB"
             headlineText="SKIMS X Lana"
             subtext="SKIMS collaboration with Lana for Valentine's Day makeup"
@@ -66,8 +66,8 @@ const HeroSectionGrid = () => {
         </Box>
       </Grid>
       <Grid item xs={12} sm={6} md={6} lg={4}>
-        <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <HeroSection2a
+      <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <HeroSection2a
             featureText="SPRING"
             headlineText="No-Makeup Spring 🌸"
             subtext="No Makeup-Makeup Look for Spring"
@@ -80,8 +80,8 @@ const HeroSectionGrid = () => {
       </Grid>
 
       <Grid item xs={12} sm={6} md={6} lg={4}>
-        <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <HeroSection2a
+      <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <HeroSection2a
             featureText="FALL"
             headlineText="Jean Shrimpton"
             subtext="Yardley 1965 Recreation"
