@@ -18,14 +18,14 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     textDecoration: 'none',
     color: '#000000',
     width: '100%',
-    maxHeight: '550px',
+    maxHeight: '500px',
   };
 
   const cardStyle = {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'flex',
-    height: '550px',
+    height: '500px',
     maxWidth: '100%',
     margin: '0 auto',
     color: '#000000',
@@ -68,7 +68,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
   };
 
   const headlineStyle = {
-    fontSize: '20px',
+    fontSize: '21px',
     lineHeight: 1.2,
     margin: '10px auto',
     fontFamily: 'Playfair Display, sans-serif',

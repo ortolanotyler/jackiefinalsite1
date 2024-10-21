@@ -111,7 +111,7 @@ function HomePage() {
 
 
 
-<TextBanner2 text="FEATURE" height="10vh" width="100%" fontSize="1rem" padding = '1rem auto' />
+<TextBanner2 text="FEATURE" height="150px" width="100%" fontSize="1rem" margin='1rem auto' />
 
 
 
@@ -131,7 +131,7 @@ function HomePage() {
 
     
 
-<TextBanner2 text="NEW & POPULAR" height="10vh" width="100%" fontSize="1rem" padding = '1rem auto' />
+<TextBanner2 text="NEW & POPULAR"  height="150px" width="100%" fontSize="1rem" margin='1rem auto' />
 
 
 <Grid3Across1/>
@@ -154,7 +154,7 @@ function HomePage() {
 
       
 
-          <TextBanner2 text="BEAUTY" height="100px" width="100%" fontSize="1rem" padding = '0 auto' />
+          <TextBanner2 text="BEAUTY"  height="150px" width="100%" fontSize="1rem" margin='1rem auto' />
 
 
 
@@ -170,7 +170,7 @@ function HomePage() {
      
 
  
-        <TextBanner2 text="TRAVEL" height="100px" width="100%" fontSize="1rem" padding = '0 auto' />
+        <TextBanner2 text="TRAVEL"  height="150px" width="100%" fontSize="1rem" margin='1rem auto' />
       
       
        
@@ -183,7 +183,7 @@ function HomePage() {
           <AdSenseAd />
         </div>
 
-        <TextBanner2 text="VINTAGE VIBES" height="100px" width="100%" fontSize="1rem" padding = '0 auto' />
+        <TextBanner2 text="VINTAGE VIBES"  height="150px" width="100%" fontSize="1rem" margin='1rem auto' />
 
         <VintageVibesCards/>
 
@@ -192,7 +192,7 @@ function HomePage() {
         </div>
       
 
-        <TextBanner2 text="SHOP MY STYLE"  height="100px" width="100%" fontSize="1rem" padding = '0 auto' />
+        <TextBanner2  height="150px" width="100%" fontSize="1rem" margin='1rem auto' />
 
         <ShopMyHero/>
      
