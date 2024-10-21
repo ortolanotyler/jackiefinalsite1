@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useMediaQuery } from '@mui/material';
 
-const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', maxFontSize = '50px', minFontSize = '10px' }) => {
+const TextBanner2pink = ({ text = "SHOPPING", height = '200px', width = '100%', maxFontSize = '50px', minFontSize = '10px' }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const [fontSize, setFontSize] = useState(maxFontSize);
 
@@ -45,9 +45,9 @@ const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', maxF
       fontFamily: 'Playfair Display, sans-serif',
       height,
       width,
-      fontWeight: '100',
+      fontWeight: '300',
       color: '#000000',
-      backgroundColor: 'white',
+      backgroundColor: '#fdedef',
       flexWrap: 'wrap', // Allows letters to wrap on smaller screens
       overflow: 'hidden', // Prevents content from overflowing
       textAlign: 'center', // Centers the content for smaller screens
@@ -56,7 +56,7 @@ const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', maxF
       transition: 'transform 0.3s ease', // Smooth transition for enlargement
     },
     hoveredLetter: {
-      transform: 'scale(1.2)', // Enlarge letter on hover
+      transform: 'scale(1.4)', // Enlarge letter on hover
     },
   };
 
@@ -82,7 +82,7 @@ const TextBanner2 = ({ text = "SHOPPING", height = '200px', width = '100%', maxF
 };
 
 // Defining default props and prop types
-TextBanner2.propTypes = {
+TextBanner2pink.propTypes = {
   text: PropTypes.string,
   height: PropTypes.string,
   width: PropTypes.string,
@@ -90,4 +90,4 @@ TextBanner2.propTypes = {
   minFontSize: PropTypes.string, // Minimum font size for smaller screens
 };
 
-export default TextBanner2;
+export default TextBanner2pink;

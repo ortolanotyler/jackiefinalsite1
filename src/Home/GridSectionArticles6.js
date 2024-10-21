@@ -4,11 +4,11 @@ import HeroSection2a from './HeroSection2a';
 
 const SixGridComponent = () => {
   return (
-    <Box sx={{ width: '100%', padding: '20px 0', backgroundColor: 'white' }}>
-      <Grid container spacing={4} justifyContent="center">
+    <Box sx={{ width: '100%', padding: '10px 0', backgroundColor: 'white' }}>
+      <Grid container spacing={1} justifyContent="center">
         {/* Row 1 */}
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '50vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <Box sx={{ height: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <HeroSection2a
               featureText="FEATURED"
               headlineText="Our Fairytale Wedding Overlooking Sorrento, Italy"
@@ -21,8 +21,8 @@ const SixGridComponent = () => {
           </Box>
         </Grid>
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '50vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <HeroSection2a
+        <Box sx={{ height: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
               featureText="TRAVEL"
               headlineText="Best of Brussels: Top Things to See, Eat, and Experience + Train To Paris!"
               subtext="Belgian Chocolate, Waffles, and A Walk Down Memory Lane"
@@ -34,8 +34,8 @@ const SixGridComponent = () => {
           </Box>
         </Grid>
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '50vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <HeroSection2a
+        <Box sx={{ height: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
               featureText="HOW-TO : IPHONE"
               headlineText="A Guide to Scroll-Stopping iPhone Photos"
               subtext="Discover tips and tricks for capturing stunning photos on your iPhone with these camera settings and photography hacks."
@@ -49,8 +49,8 @@ const SixGridComponent = () => {
 
         {/* Row 2 */}
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '50vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <HeroSection2a
+        <Box sx={{ height: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
               featureText="TRAVEL"
               headlineText="The Best Souvenirs to Bring Home from Sorrento"
               subtext="Leather, Music Boxes, Flats, Oh Me! Discover the top Sorrento souvenirs with Jackie Wyers."
@@ -62,8 +62,8 @@ const SixGridComponent = () => {
           </Box>
         </Grid>
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '50vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <HeroSection2a
+        <Box sx={{ height: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
               featureText="TRAVEL"
               headlineText="Our Three Day Romantic Getaway in Rome, Italy"
               subtext="From early morning strolls to late-night gelato runs, we made the most of every moment in this enchanting city."
@@ -75,8 +75,8 @@ const SixGridComponent = () => {
           </Box>
         </Grid>
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '50vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <HeroSection2a
+        <Box sx={{ height: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
               featureText="NEW ZEALAND"
               headlineText="New Zealand | Auckland Vlog and Experience"
               subtext="Explore Jackie Wyers' travel journey in Auckland, New Zealand. From visiting Waiheke Island and the Auckland Zoo to trying local cafes."

@@ -84,7 +84,9 @@ const Quiz4Homepage = () => {
 
                 
           
-             
+                <AdSenseAd />
+                    <AdSenseAd />
+                    <AdSenseAd />
            
            
 

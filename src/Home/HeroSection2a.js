@@ -18,7 +18,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     textDecoration: 'none',
     color: '#000000',
     width: '100%',
-    height: '100%',
+    maxHeight: '500px',
   };
 
   const cardStyle = {
@@ -26,7 +26,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     flexDirection: 'column',
     justifyContent: 'space-between',
     height: '100%',
-    width: '90%',
+    maxWidth: '500px',
     margin: '0 auto',
     color: '#000000',
     backgroundColor: '#fff',
@@ -50,13 +50,14 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
   };
 
   const contentStyle = {
-    padding: '10px',
+    height: '150px',
+    padding: '1.5rem',
     textAlign: 'left',
-    fontFamily: 'GFS Didot, serif',
+    fontFamily: 'GFS Didot, sans-serif',
   };
 
   const featureStyle = {
-    fontSize: '12px',
+    fontSize: '14px',
     fontWeight: 'normal',
     letterSpacing: '1px',
     color: '#000000',
@@ -66,9 +67,9 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
   };
 
   const headlineStyle = {
-    fontSize: '18px',
+    fontSize: '20px',
     lineHeight: 1.2,
-    margin: '10px 0',
+    margin: '10px auto',
     fontFamily: 'Playfair Display, sans-serif',
   };
 

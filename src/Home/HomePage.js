@@ -13,6 +13,7 @@ import SubscribeButton from '../Components/SubscribeButton';
 import NewsletterSlider from '../Components/NewsletterSlider';
 import Quiz4 from '../Quiz/Quiz4';
 import SixGridComponent from './GridSectionArticles6';
+import TextBanner2pink from '../Components/TextBanner2pink';
 
 
 
@@ -78,10 +79,10 @@ function HomePage() {
       <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '16px', pt: { xs: '0px', md: '0px' } }}>
         {/* Conditionally show TextRevealHomePage on larger screens */}
         {!isMobile && (
-          <TextRevealHomePage text="JACKIE WYERS" style={{ margin: 'auto' }} />
+          <TextBanner2pink text="JACKIE WYERS" style={{ paddingTop: '100px' , backgroundColor: '#fdedef'}} />
         )}
    {!isMobile && (
- <Paper elevation={0} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', color: '#745B4F', textAlign: 'center' }}>
+ <Paper elevation={0} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, sans-serif', color: '#745B4F', textAlign: 'center' }}>
  <RotatingText />
 </Paper>        )}
 
@@ -94,16 +95,19 @@ function HomePage() {
 
 
         <div
-style = {{textAlign: 'center'}}
+style = {{textAlign: 'center' , padding: '10px'}}
 >
 <SubscribeButton/>
+</div>
 <HorizontalLine/>
-
-<TextBanner2 text="FEATURED" height="100px" width="100%" fontSize="70px" />
+<div style={{ margin: '10px auto' }}>
+          <AdSenseAd />
+        </div>
+<TextBanner2 text="FEATURED" height="150px" width="100%" fontSize="80px" />
 <HorizontalLine/>
 
   
-</div>
+
 
 <TextRevealHomePage text="HALLOWEEN COSTUME QUIZ" height="125px" width="100" fontSize="1rem" />
 
@@ -113,8 +117,9 @@ style = {{textAlign: 'center'}}
 
 
 
-<AdSenseAd/>
-
+        <div style={{ margin: '10px auto' }}>
+          <AdSenseAd />
+        </div>
 <div>
 <HorizontalLine/>
 
@@ -136,8 +141,9 @@ style = {{textAlign: 'center'}}
 
 <HorizontalLine/>
 
-<AdSenseAd/>
-
+<div style={{ margin: '10px auto' }}>
+          <AdSenseAd />
+        </div>
         <HeroSection
   featureText="POP CULTURE"
   headlineText='Elphaba “The Wicked Witch of The West” Makeup Tutorial💚'
@@ -151,8 +157,9 @@ style = {{textAlign: 'center'}}
 
 <NewsletterSlider/>
 
-<AdSenseAd/>
-            <HorizontalLine/>
+<div style={{ margin: '10px auto' }}>
+          <AdSenseAd />
+        </div>            <HorizontalLine/>
 
     <HeroSection
   featureText="FEATURED"
@@ -173,8 +180,9 @@ style = {{textAlign: 'center'}}
           isFlipped={false}
         />
 
-     <AdSenseAd/>
-
+<div style={{ margin: '10px auto' }}>
+          <AdSenseAd />
+        </div>
         <HeroSection
           featureText="LATEST"
           headlineText="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll"
@@ -201,8 +209,9 @@ style = {{textAlign: 'center'}}
           linkUrl="/barbie-roundup"
           isFlipped={false}
         />
-        <AdSenseAd/>
-   <div style = {{
+ <div style={{ margin: '10px auto' }}>
+          <AdSenseAd />
+        </div>   <div style = {{
           padding: '10px',
         }}>
 
@@ -226,10 +235,11 @@ style = {{textAlign: 'center'}}
         </div>
      
      
-        <AdSenseAd/>
-
+ <div style={{ margin: '10px auto' }}>
+          <AdSenseAd />
+        </div>
  
-        <TextBanner2 text="LIFESTYLE" height="200px" width="100%" fontSize="80px" />
+        <TextBanner2 text="LIFESTYLE" height="100px" width="100%" fontSize="60px" />
         <div style = {{
           padding: '10px',
         }}>
@@ -245,7 +255,6 @@ style = {{textAlign: 'center'}}
 
         {/* Rest of the page content */}
         <HorizontalLine />
-        <TextBanner2 text="LIFESTYLE" height="100px" width="100%" fontSize="60px" />
         <div style={{ padding: '10px' }}>
           <HorizontalLine />
         </div>

@@ -25,13 +25,13 @@ const styles = {
   container: {
     textAlign: 'left', // Align the text to the left
     marginBottom: '10px',
-    maxWidth: '1000px', // Optional: limit the width of the container if needed
+    maxWidth: '1500px', // Optional: limit the width of the container if needed
     margin: '1rem',
     padding: '1rem auto', 
 
   },
   mainTitle: {
-    fontFamily: 'Playfair Display, sans-serif',
+    fontFamily: 'Arapey, sans-serif',
 
     fontWeight: 'regular',
     fontSize: '3rem', // Adjust as needed for responsiveness
@@ -44,11 +44,11 @@ const styles = {
   subTitle: {
     fontFamily: 'Playfair Display, sans-serif',
 
-    fontSize: '1.25rem',
-    fontStyle: 'italic',
+    fontSize: '1rem',
+    fontStyle: 'normal',
     margin: '20px 5px 0 0',
     marginBottom: '20px',
-    color: '#3a3a3a',
+    color: '#000000',
   },
   authorContainer: {
     display: 'flex',
@@ -58,12 +58,12 @@ const styles = {
   },
   author: {
     textTransform: 'uppercase',
-    fontFamily: 'Georgia, serif', // Font for the author and date text
-    fontWeight: 'normal',
+    fontFamily: 'Arapey, sans-serif', // Font for the author and date text
+    fontWeight: 'bold',
   },
   date: {
-    fontFamily: 'Georgia, serif', // Font for the author and date text
-    fontWeight: 'normal',
+    fontFamily: 'Arapey, sans-serif', // Font for the author and date text
+    fontWeight: 'bold',
   },
 };
 

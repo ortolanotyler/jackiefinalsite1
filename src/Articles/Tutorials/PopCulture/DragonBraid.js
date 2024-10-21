@@ -197,7 +197,7 @@ const DragonBraid = () => {
 
 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
-        <a href="/tutorials" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
+        <a href="/tutorials" style={{ fontFamily: 'Arapey, sans-serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
           BEAUTY // TUTORIALS
         </a>
       </div>
@@ -261,6 +261,127 @@ const DragonBraid = () => {
   
 </div>
 
+
+embed:
+
+https://youtube.com/shorts/2yOj5W7OMZQ
+
+How To Do A Dragon Braid Step By Step:
+
+Getting Started:
+
+<p style={paragraphStyle}>
+Begin by tying your hair into a high ponytail. It’s easiest to start this style by working in front of a mirror with your pony hanging in front of your face! Dive into the technique with our mini tutorial below, and continue reading for detailed steps!
+
+</p>
+
+
+Prepare Your Ponytail:
+
+<p style={paragraphStyle}>
+Flip your hair upside down and gather it into a high ponytail using a strong hair elastic.
+
+</p>
+
+
+
+
+<h2 style = {headingStyle}>
+Create the Dragon Braid:
+
+</h2>
+
+<p style={paragraphStyle}>
+1. Divide the ponytail in half.
+</p>
+
+<p style={paragraphStyle}>
+
+2. Take the bottom half and split it into two pieces. Spread these pieces outward and loop them over the top section, securing with a mini plastic elastic. Avoid regular elastics as they can be too visible.
+</p>
+
+<p style={paragraphStyle}>
+Continue this method: Divide the lower section in half each time and loop over the top, securing as you go.
+
+</p>
+
+
+<p style={paragraphStyle}>
+Fluff for Effect: Once you reach the end of your strands, gently pull apart the sections to create a fluffy, voluminous effect.
+
+</p>
+
+
+<h2 style={headingStyle}>
+Accessorize:
+
+</h2>
+
+
+<p style={paragraphStyle}>
+Enhance the volume and style with a big scrunchie or bow.
+
+</p>
+
+hair picture 1- dragon braid embedded, make pinnable.
+
+
+
+First Image (Pink Sweater with Updo):
+
+Alt Description: "Jackie Wyers with a voluminous dragon braid high ponytail, wearing a pink knit sweater and a silver satin bow, profile view against a soft yellow background."
+Have you Mastered the faux French braid with rubber bands/a pull-through braid method?
+
+Take It Up a Notch: Add Twists!
+
+https://youtube.com/shorts/eGcEF3ejGe4
+
+Dragon Braid with Twists: Step-by-Step Guide
+
+Prepare Your Hair: Leave your hair down and push the length behind your shoulders.
+
+Section and Secure: Take two small sections of hair from above your ears and secure them at the back with a plastic elastic.
+
+Start the Twist: Flip the bottom of the mini ponytail up and under to create a twist.
+
+Repeat for Volume: Continue this process, slightly pulling apart the twists for added volume, until you reach the nape of your neck.
+
+Integrate with Dragon Braid: Combine this twisting method with the dragon braid technique from the first tutorial for a layered and intricate finish.
+
+Final Fluff: After each section is secured with an elastic, flip the bottom up and through to fluff out, creating a gorgeously detailed braid.
+
+Styling Tips:
+Finish this look by curling the ends, or add a little bun and a big bow to keep the ends as full and voluminous as the braid itself.
+
+Second Image (Striped Sweater with Braided Hair):
+
+Alt Description: "Side view of a Jackie Wyers with a detailed pull-through braid adorned with a large black ribbon, wearing a striped white and navy sweater, against a plain background."
+I’d Love to See Your Style!
+If you try out these faux braid techniques, please tag me @jackiewyers! I’d love to feature your beautiful creations on our site. If you like these Pinterest hairstyles, pin the photos on Pinterest & save to a board to try later.
+
+Looking for more hair videos?
+Check out my playlist on YouTube, all about hair, or keep reading here.
+
+(hyper link all about hair: https://www.youtube.com/playlist?list=PL-_qSuEl3UwH-XS-K6fjlBsDErEGaX5ll)
+
+xo, Jackie Wyers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
   <iframe
     style={{
@@ -302,7 +423,7 @@ const DragonBraid = () => {
 
 
      
-     <Comments website-id={websiteId} page-id={"barbie3"} />
+     <Comments website-id={websiteId} page-id={"dragonbronzon"} />
     
       
     </div>
