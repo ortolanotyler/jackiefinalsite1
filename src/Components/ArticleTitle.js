@@ -24,30 +24,30 @@ const ArticleTitle = ({ mainTitle, subTitle, author, publishDate }) => {
 const styles = {
   container: {
     textAlign: 'left', // Align the text to the left
-    marginBottom: '10px',
+    marginBottom: '1rem',
     maxWidth: '1500px', // Optional: limit the width of the container if needed
-    margin: '1rem',
-    padding: '1rem auto', 
+    margin: '0 auto',
+    padding: '2rem auto', 
 
   },
   mainTitle: {
-    fontFamily: 'Arapey, sans-serif',
+    fontFamily: 'Playfair Display, sans-serif',
 
-    fontWeight: 'regular',
-    fontSize: '3rem', // Adjust as needed for responsiveness
-    margin: '10px 5px 0 0',
-    marginBotom: '20px',
+    fontWeight: '100',
+    fontSize: '2.5rem', // Adjust as needed for responsiveness
+    margin: '0 auto',
+    marginBotom: '1rem',
 
-    lineHeight: '1',
+    lineHeight: '1.2',
     color: '#000000',
   },
   subTitle: {
-    fontFamily: 'Playfair Display, sans-serif',
-
-    fontSize: '1rem',
-    fontStyle: 'normal',
+    fontFamily: 'Arapey, sans-serif',
+    fontWeight: '100',
+    fontSize: '0.95rem',
+    fontStyle: 'italic',
     margin: '20px 5px 0 0',
-    marginBottom: '20px',
+    marginBottom: '1rem',
     color: '#000000',
   },
   authorContainer: {
@@ -58,12 +58,12 @@ const styles = {
   },
   author: {
     textTransform: 'uppercase',
-    fontFamily: 'Arapey, sans-serif', // Font for the author and date text
-    fontWeight: 'bold',
+    fontFamily: 'Georgia, serif', // Font for the author and date text
+    fontWeight: '100',
   },
   date: {
-    fontFamily: 'Arapey, sans-serif', // Font for the author and date text
-    fontWeight: 'bold',
+    fontFamily: 'Georgia, serif', // Font for the author and date text
+    fontWeight: '100',
   },
 };
 

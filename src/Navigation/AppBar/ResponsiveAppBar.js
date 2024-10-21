@@ -36,7 +36,7 @@ const ResponsiveAppBar = () => {
               fontFamily: 'Playfair Display, serif',
 
               alignItems: 'center',
-              padding: '0 16px',
+              padding: '5px 18px',
             }}
           >
             <Box sx={{ display: 'flex', alignItems: 'center' }}>
@@ -67,17 +67,21 @@ const ResponsiveAppBar = () => {
               component={Link}
               to="/subscribe"
               sx={{
-                backgroundColor: '#3a3a3a',
+                backgroundColor: '#745B4F',
                 color: '#f8f8f8 !important',
-                borderRadius: '50px',
-                padding: '0.5rem 1.5rem',
-                fontFamily: 'Georgia, serif !important',
-                marginLeft: '1rem',
-                boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
+                fontSize: '1rem',
+                fontWeight: 'bold',
+                textTransform: 'lowercase',
+                letterSpacing: '0.1em',
+                borderRadius: '10px',
+                padding: '10px 20px',
+                fontFamily: 'Playfair Display, sans-serif !important',
+                marginRight: '50px',
                 transition: 'color 0.3s ease', // Smooth transition for color change
                 '&:hover': {
-                  color: '#fff !important', // Change text color on hover
-                  backgroundColor: '#3a3a3a', // Maintain the same background color
+                  color: '#000000 !important', // Change text color on hover
+                  backgroundColor: '#fdedef', // Maintain the same background color
+                  border: '1px solid #745B4F !important'
                 },
               }}
             >

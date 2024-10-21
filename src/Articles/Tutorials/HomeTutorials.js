@@ -8,6 +8,7 @@ import TextReveal from '../../Components/TextReveal';
 import Eeebridal from './eeebridal';
 import HeroSection from '../../Home/HeroSection';
 import HorizontalLine from '../../Components/HorizontalLine';
+import BeautyGridComponent from '../../Home/GridSectionBeautyHome';
 
 const HomeTutorials = () => {
   return (
@@ -99,6 +100,8 @@ const HomeTutorials = () => {
       <TextReveal text="BEAUTY" />
       </div>
       <Container maxWidth="lg">
+
+        <BeautyGridComponent/>
    
         <Grid container spacing={1}>
           <Grid item xs={12}>

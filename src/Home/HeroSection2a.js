@@ -17,22 +17,22 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
   const heroLinkStyle = {
     textDecoration: 'none',
     color: '#000000',
-    width: '100%',
-    maxHeight: '500px',
+    width: '90%',
+    maxHeight: '600px',
   };
 
   const cardStyle = {
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'space-between',
+    justifyContent: 'flex',
     height: '100%',
     maxWidth: '500px',
-    margin: '0 auto',
+    margin: '1rem auto',
     color: '#000000',
-    backgroundColor: '#fff',
-    borderRadius: '8px',
+    backgroundColor: '#fdedef',
+    borderRadius: '10px',
     overflow: 'hidden',
-    border: '1px solid #ddd',
+    border: '2.5px solid #fdedef',
     boxSizing: 'border-box',
   };
 
@@ -50,20 +50,20 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
   };
 
   const contentStyle = {
-    height: '150px',
-    padding: '1.5rem',
+    height: '200px',
+    padding: '0.95rem 1rem',
     textAlign: 'left',
     fontFamily: 'GFS Didot, sans-serif',
   };
 
   const featureStyle = {
     fontSize: '14px',
-    fontWeight: 'normal',
+    fontWeight: '100',
     letterSpacing: '1px',
     color: '#000000',
     fontFamily: 'Arapey, sans-serif',
-    textDecoration: 'underline',
-    marginBottom: '5px',
+    textDecoration: 'none',
+    marginBottom: '1rem',
   };
 
   const headlineStyle = {
@@ -75,8 +75,8 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
 
   const subtextStyle = {
     fontSize: '12px',
-    lineHeight: 1.4,
-    margin: '5px 0',
+    lineHeight: 1.25,
+    margin: '10px auto',
     fontStyle: 'italic',
     fontFamily: 'Playfair Display, sans-serif',
     color: '#3a3a3a',
@@ -105,14 +105,18 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
 
           {/* Text Content */}
           <div style={contentStyle}>
+            
             <h2 style={featureStyle}>{featureText}</h2>
+            <HorizontalLine />
+
             <h1 style={headlineStyle}>{headlineText}</h1>
             <p style={subtextStyle}>{subtext}</p>
             <p style={authorStyle}>{author}</p>
+       
+
           </div>
         </div>
       </a>
-      <HorizontalLine />
     </Grid>
   );
 };

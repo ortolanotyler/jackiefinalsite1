@@ -47,7 +47,7 @@ const headingStyle = {
   textAlign: 'center',
   fontSize: '2.5rem',
   fontWeight: '400',
-  fontFamily: "'Playfair Display', serif",
+  fontFamily: "Playfair Display, sans-serif",
   color: '#000000',
   maxWidth: '95%',
 
@@ -59,8 +59,8 @@ const paragraphStyle = {
 fontSize: '20px',
 color: '#000000',
 
-fontFamily: "'Open Sans', serif",
-fontWeight: '100',
+fontFamily: "Playfair Display, sans-serif",
+fontWeight: '300',
 padding: '10px',
 margin: '10px auto',
 
@@ -108,7 +108,7 @@ scrolling: 'no',
 const captionStyle = {
 textAlign: 'center',
 fontSize: '1rem',
-fontFamily: 'Arapey, serif',
+fontFamily: 'Arapey, sans-serif',
 fontWeight: '100',
 margin: '0 auto',
 fontStyle: 'italic',
@@ -257,6 +257,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={captionStyle}>
   Makeup originally by Nuria on set of Wicked using some of REM Beauty products. Pictured, Jackie Wyers recreation.
 </p>
+
+
 
 <p style={paragraphStyle}>
   I’m beyond excited that <a href = "https://www.arianagrande.com/" target = 'blank' rel= 'noreferrer'> Ariana Grande </a>  has landed the role of Glinda—a dream come true for her—and based on the trailers, she’s absolutely nailed it. Naturally, I had to create a full tutorial inspired by her Glinda makeup to celebrate her fresh take on the character. With Halloween just around the corner, this glam, girly look will be your new go-to. While I’ll dive into Elphaba’s look in a separate post, today is all about Glinda’s princess-perfect style. So if you’ve always dreamed of floating in a bubble and spreading sparkle, keep reading!

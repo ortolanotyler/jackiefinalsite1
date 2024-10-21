@@ -252,6 +252,7 @@ helpful!"
       <div style={gridContainerStyle}>
     <img src={image3} alt="Sorrento Music Box" style={imageStyle} /> 
 </div>
+<AdSenseAd/>
 
       <h2 style={headingStyle}>Sorrento Music Boxes 🎶</h2>
       <p style={paragraphStyle}>
@@ -261,7 +262,8 @@ helpful!"
     <img src={image4} alt="Serena Leather Jacket Gossip Girl>" style={imageStyle} /> 
     <img src={image5} alt="Men's Leather Duffel Bags Sorrento" style={imageStyle} /> 
 </div>
-    
+<AdSenseAd/>
+
       <h2 style={headingStyle}>Leather Goods 🧳</h2>
       <p style={paragraphStyle}>
         If you’re willing to haggle, visiting a leather store for items like a travel bag can be a fantastic purchase—high-quality and perfect for future trips. My husband chose a leather travel bag as his souvenir. My first thought when I saw this jacket and scarf combo was - that is so Serena van der Woodsen in the pilot episode!
@@ -276,6 +278,7 @@ America.
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/782009?noHeader=true" title="Hand-Painted Leather Wedding Photo Album" />
+<AdSenseAd/>
 
 <div style={gridContainerStyle}>
     <img src={image6} alt="Balleri Sorrento" style={imageStyle} /> 
@@ -286,6 +289,7 @@ America.
 <div style={gridContainerStyle}>
     <img src={image8} alt="Shoe Shopping in Sorrento" style={imageStyle} /> 
 </div>
+<AdSenseAd/>
 
 
 
@@ -293,6 +297,7 @@ America.
       <p style={paragraphStyle}>
         A cute shop that stands out in Sorrento is Balleri, which offers beautiful leather flats, bags, and scarves. If you’re looking for shoes with European flair, flats are a great investment—they always look chic, whether you’re wearing a cute dress or jeans.
       </p>
+      <AdSenseAd/>
 
     <div style={gridContainerStyle}>
     <img src={image9} alt="CB Positano Cute Bags " style={imageStyle} /> 
@@ -300,6 +305,7 @@ America.
 <div style={gridContainerStyle}>
     <img src={image10} alt="Sorrento Souvenirs" style={imageStyle} /> 
 </div>
+<AdSenseAd/>
 
 
       <h2 style={headingStyle}>Positano Shopping 🌺</h2>
@@ -313,6 +319,7 @@ America.
 <div style={gridContainerStyle}>
     <img src={image12} alt="Breakfast at an Italian Villa" style={imageStyle} /> 
 </div>
+<AdSenseAd/>
 
 
       <h2 style={headingStyle}>Ceramics and Majolica 🍇</h2>
@@ -326,6 +333,7 @@ America.
 <div style={gridContainerStyle}>
     <img src={image14} alt="Capri Bell Jewelry" style={imageStyle} /> 
 </div>
+<AdSenseAd/>
 
       <h2 style={headingStyle}>Capri Bell Charms 🔔</h2>
       <p style={paragraphStyle}>
@@ -341,6 +349,7 @@ America.
 <div style={gridContainerStyle}>
     <img src={image16} alt="Sorrento Souvenirs" style={imageStyle} /> 
 </div>
+<AdSenseAd/>
 
 <h2 style = {headingStyle}>
 Anything Lemon Themed!🍋 
@@ -368,6 +377,7 @@ commenting below.
 
 </p>
 
+<AdSenseAd/>
 
 <p style={paragraphStyle}>
 
@@ -396,6 +406,9 @@ wedding dresses and more in the following article below.
     
 
       <Comments website-id={websiteId} page-id={"Sorrento-Souvenirs"} />
+      <AdSenseAd/>
+      <AdSenseAd/>
+      <AdSenseAd/>
 
  
       

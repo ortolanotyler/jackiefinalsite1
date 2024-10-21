@@ -21,7 +21,7 @@ export default function QuiltedImageList1() {
       sx={{
       
         width: '100%',
-        maxHeight: '50vh',
+        maxHeight: '100vh',
         overflowY: 'hidden',
         borderRadius: '1px',
       }}
@@ -39,7 +39,7 @@ export default function QuiltedImageList1() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            height: '300px', // Set a fixed height for all images
+            height: '350px', // Set a fixed height for all images
           }}
         >
           <img

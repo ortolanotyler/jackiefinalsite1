@@ -48,7 +48,6 @@ const TextBanner2pink = ({ text = "SHOPPING", height = '200px', width = '100%', 
       fontWeight: '300',
       color: '#000000',
       backgroundColor: '#fdedef',
-      flexWrap: 'wrap', // Allows letters to wrap on smaller screens
       overflow: 'hidden', // Prevents content from overflowing
       textAlign: 'center', // Centers the content for smaller screens
     },
@@ -69,7 +68,7 @@ const TextBanner2pink = ({ text = "SHOPPING", height = '200px', width = '100%', 
             ...styles.letter,
             ...(hoveredIndex === index ? styles.hoveredLetter : {}),
             fontSize, // Apply dynamic font size
-            margin: '0 0.5rem', // Space between letters
+            margin: '0 0.25rem', // Space between letters
           }}
           onMouseEnter={() => handleMouseEnter(index)}
           onMouseLeave={handleMouseLeave}
