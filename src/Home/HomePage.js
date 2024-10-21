@@ -97,13 +97,16 @@ function HomePage() {
 style = {{textAlign: 'center'}}
 >
 <SubscribeButton/>
+<HorizontalLine/>
+
 <TextBanner2 text="FEATURED" height="100px" width="100%" fontSize="70px" />
+<HorizontalLine/>
 
   
 </div>
 
+<TextRevealHomePage text="HALLOWEEN COSTUME QUIZ" height="125px" width="100" fontSize="1rem" />
 
-        <TextRevealHomePage text="HALLOWEEN COSTUME QUIZ" height="150px" width="100" fontSize="1rem" />
         <Quiz4 />
 
        
@@ -112,11 +115,16 @@ style = {{textAlign: 'center'}}
 
 <AdSenseAd/>
 
-        <HorizontalLine/>
+<div>
+<HorizontalLine/>
 
-        <TextBanner2 text="NEW & POPULAR" height="100px" width="100%" fontSize="70px" />
+<TextBanner2 text="NEW & POPULAR" height="100px" width="100%" fontSize="20px" />
 
-        <HorizontalLine/>
+<HorizontalLine/>
+
+</div>
+
+       
 
 <HeroSection
           featureText="QUIZ"

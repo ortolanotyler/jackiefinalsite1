@@ -312,15 +312,11 @@ const DragonBraid = () => {
   return (
     <div ref={blogRef}>
       <Card
-        title="Top 5 Must-Have Barbie
-Collaborations for Adult Fans in 2024
-🎀"
-        description="The Best Barbie-Inspired Products and Collectibles Every Grown-Up Barbie Lover Needs on Their
-Wishlist"
+        title="How To Do a Dragon Braid!"
+        description="Dragon Braid: an Easy Pull-Through Braid Tutorial for Beginners"
         blogContent={blogContent}
       />
  
-          
 
     </div>
   );
