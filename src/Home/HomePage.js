@@ -89,21 +89,20 @@ function HomePage() {
   
           <QuiltedImageList1 />
         </div>
-        <HorizontalLine/>
 
 
 
-        {/* Section for Featured content */}
-        <TextBanner2 text="FEATURED" height="100px" width="100%" fontSize="70px" />
 
         <div
 style = {{textAlign: 'center'}}
 >
-  <SubscribeButton/>
+<SubscribeButton/>
+<TextBanner2 text="FEATURED" height="100px" width="100%" fontSize="70px" />
+
+  
 </div>
 
 
-        <HorizontalLine/>
         <TextRevealHomePage text="HALLOWEEN COSTUME QUIZ" height="150px" width="100" fontSize="1rem" />
         <Quiz4 />
 
@@ -144,6 +143,7 @@ style = {{textAlign: 'center'}}
 
 <NewsletterSlider/>
 
+<AdSenseAd/>
             <HorizontalLine/>
 
     <HeroSection
@@ -165,7 +165,7 @@ style = {{textAlign: 'center'}}
           isFlipped={false}
         />
 
-     
+     <AdSenseAd/>
 
         <HeroSection
           featureText="LATEST"
@@ -193,11 +193,13 @@ style = {{textAlign: 'center'}}
           linkUrl="/barbie-roundup"
           isFlipped={false}
         />
+        <AdSenseAd/>
    <div style = {{
           padding: '10px',
         }}>
 
           <HorizontalLine/>
+
         </div>
         <HeroSection
           featureText="POP CULTURE"
@@ -216,7 +218,8 @@ style = {{textAlign: 'center'}}
         </div>
      
      
-       
+        <AdSenseAd/>
+
  
         <TextBanner2 text="LIFESTYLE" height="200px" width="100%" fontSize="80px" />
         <div style = {{
@@ -225,19 +228,20 @@ style = {{textAlign: 'center'}}
 
           <HorizontalLine/>
         </div>
-       
+        <AdSenseAd/>
+
         <Box>
        <SixGridComponent/>
        </Box>
-      
+       <AdSenseAd/>
+
         {/* Rest of the page content */}
         <HorizontalLine />
-        <TextBanner2 text="LIFESTYLE" height="200px" width="100%" fontSize="80px" />
+        <TextBanner2 text="LIFESTYLE" height="100px" width="100%" fontSize="60px" />
         <div style={{ padding: '10px' }}>
           <HorizontalLine />
         </div>
 
-        {/* You can continue adding more sections or close the Box container here */}
       </Box>
     </Box>
   );
