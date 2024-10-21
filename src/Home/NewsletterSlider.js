@@ -38,14 +38,14 @@ const NewsletterSlider = () => {
     <React.Fragment>
            {/* Typography below the slider */}
            <Typography 
-        variant="h1" 
+        variant="h2" 
         align="center" 
         sx={{ 
           
      
           fontFamily: 'Playfair Display, sans-serif', 
           margin: '0 auto',
-          padding: '10px ',
+          padding: '20px ',
           maxWidth: '100%',
           color: '#000000', 
         }}
