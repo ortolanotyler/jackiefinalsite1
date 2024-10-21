@@ -214,35 +214,10 @@ style = {{textAlign: 'center'}}
 
           <HorizontalLine/>
         </div>
-        <TextBanner2 text="QUIZ" height="200px" width="100%" fontSize="80px" />
-        <div style = {{
-          padding: '10px',
-        }}>
-
-          <HorizontalLine/>
-        </div>
-        <HeroSection
-          featureText="FALL FUN"
-          headlineText="Halloween Style Quiz 🎃 What should you be?"
-          imagePath="Homepage/Audrey.JPG"
-          linkUrl="/quiz/halloween"
-          isFlipped={false}
-        />
-
-<HeroSection
-          featureText="QUIZ"
-          headlineText="Animal Pretty - Which one are you?"
-          imagePath="Homepage/animals.webp"
-          linkUrl="/quiz-2-home"
-          isFlipped={true}
-        />
+     
+     
        
-   <div style = {{
-          padding: '10px',
-        }}>
-
-          <HorizontalLine/>
-        </div>
+ 
         <TextBanner2 text="LIFESTYLE" height="200px" width="100%" fontSize="80px" />
         <div style = {{
           padding: '10px',
