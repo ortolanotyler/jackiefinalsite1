@@ -23,7 +23,7 @@ const SixGridComponent = () => {
         <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <HeroSection2a
               featureText="TRAVEL"
-              headlineText="Best of Brussels: Top Things to See, Eat, and Experience + Train To Paris!"
+              headlineText="Best of Brussels: Top Things to See, Eat, and Experience!"
               author="September 20"
               imagePath="Homepage/paristhumbnail-1.webp"
               linkUrl="/paris-brussels-travel-guide"

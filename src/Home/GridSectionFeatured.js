@@ -12,7 +12,6 @@ const FeaturedGrid6 = () => {
             <HeroSection2a
               featureText="QUIZ"
               headlineText="Animal Pretty - Which one are you?"
-              subtext="Find out which animal beauty vibe suits you!"
               imagePath="Homepage/animals.webp"
               linkUrl="/quiz-2-home"
               isFlipped={true}
@@ -37,7 +36,7 @@ const FeaturedGrid6 = () => {
           <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <HeroSection2a
               featureText="FEATURED"
-              headlineText="Ariana Grande as Glinda Makeup Tutorial – Wicked the Movie "
+              headlineText="Ariana Grande as Glinda Makeup – Wicked the Movie "
               author="10.11.2024"
               imagePath="Wicked/GlindaThumb.webp"
               linkUrl="/articles/wicked"
@@ -78,7 +77,6 @@ const FeaturedGrid6 = () => {
             <HeroSection2a
               featureText="LATEST"
               headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 "
-              subtext="The Best Barbie-Inspired Products and Collectibles Every Grown-Up Barbie Lover Needs on Their Wishlist"
               author="09.23.2024"
               imagePath="/halloweenthumb12.jpg"
               linkUrl="/barbie-roundup"

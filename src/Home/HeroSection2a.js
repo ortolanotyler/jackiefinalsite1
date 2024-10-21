@@ -24,11 +24,13 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'flex',
-    height: '500px',
-    maxWidth: '100%',
+    height: '100%',
+    maxWidth: 'auto',
     margin: '1rem auto',
     color: '#000000',
     backgroundColor: '#fdedef',
+    borderRadius: '2.5px solid #fcfaf4',
+
     borderRadius: '10px',
     overflow: 'hidden',
     border: '2.5px solid #fdedef',
@@ -37,7 +39,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
 
   const imageContainerStyle = {
     width: '100%',
-    height: '100%',
+    height: '400px',
     flex: 1,
     position: 'relative',
     overflow: 'hidden',
@@ -45,7 +47,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
 
   const imageStyle = {
     width: '100%',
-    height: '100%',
+    height: '400px',
     objectFit: 'cover',
   };
 
@@ -57,7 +59,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
   };
 
   const featureStyle = {
-    fontSize: '14px',
+    fontSize: '16px',
     fontWeight: '100',
     letterSpacing: '1px',
     color: '#000000',
@@ -67,7 +69,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
   };
 
   const headlineStyle = {
-    fontSize: '21px',
+    fontSize: '18px',
     lineHeight: 1.2,
     margin: '10px auto',
     fontFamily: 'Playfair Display, sans-serif',
