@@ -1,6 +1,7 @@
 import React from 'react';
-import styles from './aaa.module.css'; // Import CSS Modules
+import { Grid, Box } from '@mui/material';
 import TextReveal from '../../../Components/TextReveal';
+import HeroSection2a from '../../../Home/HeroSection2a';
 
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
 const image7 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
@@ -62,42 +63,38 @@ const cardsData = [
   },
 ];
 
-const Card = ({ link, image, alt, title, description }) => {
-  return (
-    <li className={styles.card}>
-      <a className={styles.cardImage} href={link}>
-        <img src={image} alt={alt} className={styles.cardImageImg} />
-      </a>
-      <div className={styles.cardDescription}>
-        <a href={link} className={styles.cardDescriptionLink}>
-          <h2 className={styles.cardDescriptionH2}>{title}</h2>
-          <p className={styles.cardDescriptionP}>{description}</p>
-        </a>
-        <a href={link} className={styles.readHereBtn}>Read Here</a>
-      </div>
-    </li>
-  );
-};
-
 const PopCulture = () => {
   return (
-    <>
-      <div><TextReveal text='POP CULTURE OBSESSED' /></div>
-      <div>
-        <ul className={styles.cardList}>
-          {cardsData.map((card, index) => (
-            <Card
-              key={index}
-              link={card.link}
-              image={card.image}
-              alt={card.alt}
-              title={card.title}
-              description={card.description}
-            />
-          ))}
-        </ul>
+    <Box sx={{ width: '100%', padding: '10px', backgroundColor: 'white' }}>
+      <div style={{ paddingTop: '50px' }}>
+        <TextReveal text='POP CULTURE OBSESSED' />
       </div>
-    </>
+      
+      <Grid container spacing={2} justifyContent="center">
+        {cardsData.map((card, index) => (
+          <Grid item xs={12} sm={6} md={4} key={index}>
+            <Box
+              sx={{
+                height: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="POP CULTURE"
+                headlineText={card.title}
+                subtext={card.alt} // You can adjust the text displayed here
+                author="BY JACKIE WYERS"
+                imagePath={card.image.replace(`${process.env.PUBLIC_URL}/Images/Articles/`, "")} // Adjust image path for HeroSection2a
+                linkUrl={card.link}
+                isFlipped={index % 2 === 0} // Flip layout for alternate cards
+              />
+            </Box>
+          </Grid>
+        ))}
+      </Grid>
+    </Box>
   );
 };
 

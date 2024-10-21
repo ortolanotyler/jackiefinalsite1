@@ -109,51 +109,7 @@ const HomeTutorials = () => {
             <HorizontalLine />
           </Grid>
 
-          <Grid item xs={12}>
-          <HeroSection
-  featureText="POP CULTURE"
-  headlineText='Elphaba “The Wicked Witch of The West” Makeup Tutorial💚'
-  subtext="From green smokey eyes to green skin, two WICKED looks to try for Halloween 2024"
-
-  author="BY JACKIE WYERS"
-  imagePath="Wicked/wicked2.webp"
-  linkUrl="/articles/wicked-witch-of-the-west"
-  isFlipped={true}
-/>
-<HorizontalLine />
-          <HeroSection
-  featureText="LATEST"
-  headlineText="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll"
-  subtext="Barbie Makeup Tutorial & Iconic Doll Inspiration"
-  author="BY JACKIE WYERS"
-  imagePath="BarbieDoll/JackieWyersBarbieThumb.jpeg"
-  linkUrl="/barbie-doll"
-  isFlipped={false}
-/>
-<HeroSection
-          featureText="LATEST"
-          headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 🎀"
-          subtext="The Best Barbie-Inspired Products and Collectibles Every Grown-Up Barbie Lover Needs on Their Wishlist"
-          author="September 23"
-          imagePath="/halloweenthumb12.jpg"
-          linkUrl="/barbie-roundup"
-          isFlipped={false}
-        />
-            <HorizontalLine />
-          </Grid>
-
-          <Grid item xs={12}>
-          <HeroSection
-  featureText="FEATURED"
-  headlineText="Girly Pop Culture Halloween Costume Ideas 2024🎀"
-  subtext="Britney, Barbie, Bridgerton, Oh My!"
-  author="BY JACKIE WYERS"
-  imagePath="Halloween/HalloweenThumb.jpg"
-  linkUrl="/girly-pop-halloween"
-  isFlipped={true}
-/>
-          
-          </Grid>
+         
 
           <HorizontalLine />
 

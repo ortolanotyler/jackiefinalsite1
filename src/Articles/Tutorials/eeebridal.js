@@ -1,13 +1,13 @@
 import React from 'react';
-import styles from './aaa.module.css'; // Import CSS Modules
+import { Grid, Box } from '@mui/material';
+import HeroSection2a from '../../Home/HeroSection2a';
 
 const fairytale = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg`;
 const sharontatebridal = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEBRIDAL.jpeg`;
 const bridesmaids = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/BridesmaidBoxThumb!.jpg`;
 const bridalmakeup = `${process.env.PUBLIC_URL}/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.jpg`;
-const guide = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/guidethumbnail.jpeg`;
+const guide = `${process.env.PUBLIC_URL}/guide.png`;
 const diymamma = `${process.env.PUBLIC_URL}/Images/Articles/MammaMia/mammamiathumb.png`;
-
 
 const cardsData = [
   {
@@ -28,14 +28,12 @@ const cardsData = [
     alt: "FairyTale Wedding",
     title: "Our Fairytale Wedding Overlooking Sorrento, Italy 🍋",
   },
- 
   {
     link: "/bridesmaidboxes",
     image: bridesmaids,
     alt: "Sharon Tate Bridal",
     title: "Whimsical DIY Bridesmaid Proposal Boxes 👰🏻‍♀️",
   },
-
   {
     link: "/bridalmakeup",
     image: bridalmakeup,
@@ -48,44 +46,36 @@ const cardsData = [
     alt: "Sharon Tate Bridal",
     title: "Sharon Tate’s Coquette 1960’s Bridal Makeup 🌼",
   },
-
-
 ];
-
-const Card = ({ link, image, alt, title, description }) => {
-  return (
-    <li className={styles.card}>
-      <a className={styles.cardImage} href={link}>
-        <img src={image} alt={alt} className={styles.cardImageImg} />
-      </a>
-      <div className={styles.cardDescription}>
-        <a href={link} className={styles.cardDescriptionLink}>
-          <h2 className={styles.cardDescriptionH2}>{title}</h2>
-          <p className={styles.cardDescriptionP}>{description}</p>
-        </a>
-        {/* Button added below */}        <a href={link} className={styles.readHereBtn}>Read Here</a>
-      </div>
-    </li>
-  );
-};
 
 const Eeebridal = () => {
   return (
-    <div>
-         
-      <ul className={styles.cardList}>
+    <Box sx={{ width: '100%', padding: '10px', backgroundColor: 'white' }}>
+      <Grid container spacing={2} justifyContent="center">
         {cardsData.map((card, index) => (
-          <Card
-            key={index}
-            link={card.link}
-            image={card.image}
-            alt={card.alt}
-            title={card.title}
-            description={card.description}
-          />
+          <Grid item xs={12} sm={6} md={4} key={index}>
+            <Box
+              sx={{
+                height: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="BRIDAL"
+                headlineText={card.title}
+                subtext={card.alt} // You can adjust the subtext if needed
+                author="BY JACKIE WYERS"
+                imagePath={card.image.replace(`${process.env.PUBLIC_URL}/Images/Articles/`, "")} // Adjust the image path for HeroSection2a
+                linkUrl={card.link}
+                isFlipped={index % 2 === 0} // Flip layout for alternating cards
+              />
+            </Box>
+          </Grid>
         ))}
-      </ul>
-    </div>
+      </Grid>
+    </Box>
   );
 };
 
