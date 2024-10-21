@@ -3,7 +3,7 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 10px;
 }
 
 * {
@@ -106,7 +106,7 @@ body {
   }
 
   .item {
-    flex-basis: calc(100% - 2em); /* Full width for smaller screens */
+    flex-basis: calc(100% - 30px); /* Full width for smaller screens */
   }
 
   .itemLink {

@@ -18,7 +18,6 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     textDecoration: 'none',
     color: '#000000',
     width: '100%',
-    maxHeight: '500px',
   };
 
   const cardStyle = {
@@ -27,7 +26,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     justifyContent: 'flex',
     height: '500px',
     maxWidth: '100%',
-    margin: '0 auto',
+    margin: '1rem auto',
     color: '#000000',
     backgroundColor: '#fdedef',
     borderRadius: '10px',

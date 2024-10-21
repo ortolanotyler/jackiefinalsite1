@@ -5,7 +5,7 @@ import HeroSection2a from './HeroSection2a'; // Importing HeroSection2a format
 const Grid3Across1 = () => {
   return (
     <Box sx={{ width: '100%', padding: '20px', backgroundColor: 'white' }}>
-      <Grid container spacing={1} justifyContent="center">
+      <Grid container spacing={2} justifyContent="center">
       
         {/* Second Row */}
         <Grid item xs={12} sm={6} md={6} lg={4}>
@@ -41,7 +41,6 @@ const Grid3Across1 = () => {
             <HeroSection2a
               featureText="LATEST"
               headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 "
-              subtext="The Best Barbie-Inspired Products and Collectibles Every Grown-Up Barbie Lover Needs on Their Wishlist"
               author="09.23.2024"
               imagePath="/halloweenthumb12.jpg"
               linkUrl="/barbie-roundup"

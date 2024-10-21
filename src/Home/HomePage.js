@@ -17,6 +17,8 @@ import VintageVibesCards from './GridVintageVibes';
 import ShopMyHero from './ShopMyHero';
 import NewsletterSlider from './NewsletterSlider';
 import NewsletterSection from './NewsletterSection';
+import ShopMySlider from './ShopMySlider';
+import ShopMyHero2 from './ShopMyHero2';
 
 
 
@@ -187,14 +189,8 @@ function HomePage() {
 
         <VintageVibesCards/>
 
-        <div style={{ padding: '10px auto' }}>
-          <AdSenseAd />
-        </div>
       
-
-        <TextBanner2  height="150px" width="100%" fontSize="1rem" margin='1rem auto' />
-
-        <ShopMyHero/>
+<HorizontalLine/>
      
        <div style={{ padding: '10px auto' }}>
           <AdSenseAd />
