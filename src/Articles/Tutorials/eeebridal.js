@@ -2,78 +2,79 @@ import React from 'react';
 import { Grid, Box } from '@mui/material';
 import HeroSection2a from '../../Home/HeroSection2a';
 
-const fairytale = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg`;
-const sharontatebridal = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEBRIDAL.jpeg`;
-const bridesmaids = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/BridesmaidBoxThumb!.jpg`;
-const bridalmakeup = `${process.env.PUBLIC_URL}/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.jpg`;
-const guide = `${process.env.PUBLIC_URL}/guide.png`;
-const diymamma = `${process.env.PUBLIC_URL}/Images/Articles/MammaMia/mammamiathumb.png`;
-
-const cardsData = [
-  {
-    link: "/diy-flowers",
-    image: diymamma,
-    alt: "Mamma Mia Inspired DIY Bridal Flower Pins 🕊",
-    title: "Mamma Mia Inspired DIY Bridal Flower Pins 🕊",
-  },
-  {
-    link: "/weddingdressguide",
-    image: guide,
-    alt: "The Ultimate 2025 Wedding Dress Guide",
-    title: "The Ultimate 2025 Wedding Dress Guide 👗",
-  },
-  {
-    link: "/fairytalewedding",
-    image: fairytale,
-    alt: "FairyTale Wedding",
-    title: "Our Fairytale Wedding Overlooking Sorrento, Italy 🍋",
-  },
-  {
-    link: "/bridesmaidboxes",
-    image: bridesmaids,
-    alt: "Sharon Tate Bridal",
-    title: "Whimsical DIY Bridesmaid Proposal Boxes 👰🏻‍♀️",
-  },
-  {
-    link: "/bridalmakeup",
-    image: bridalmakeup,
-    alt: "Sharon Tate Bridal",
-    title: "Bridal Makeup Trial: What I Loved and What I'll Change! ♥️",
-  },
-  {
-    link: "/sharontatebridal",
-    image: sharontatebridal,
-    alt: "Sharon Tate Bridal",
-    title: "Sharon Tate’s Coquette 1960’s Bridal Makeup 🌼",
-  },
-];
-
 const Eeebridal = () => {
   return (
-    <Box sx={{ width: '100%', padding: '10px', backgroundColor: 'white' }}>
+    <Box sx={{ width: '100%', margin: '1rem auto', padding: '30px', backgroundColor: 'white' }}>
       <Grid container spacing={2} justifyContent="center">
-        {cardsData.map((card, index) => (
-          <Grid item xs={12} sm={6} md={4} key={index}>
-            <Box
-              sx={{
-                height: '100%',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-              }}
-            >
-              <HeroSection2a
-                featureText="BRIDAL"
-                headlineText={card.title}
-                subtext={card.alt} // You can adjust the subtext if needed
-                author="BY JACKIE WYERS"
-                imagePath={card.image.replace(`${process.env.PUBLIC_URL}/Images/Articles/`, "")} // Adjust the image path for HeroSection2a
-                linkUrl={card.link}
-                isFlipped={index % 2 === 0} // Flip layout for alternating cards
-              />
-            </Box>
-          </Grid>
-        ))}
+        {/* Row 1 */}
+        <Grid item xs={12} sm={6} md={6} lg={4}>
+        <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <HeroSection2a
+              featureText="FEATURED"
+              headlineText="Our Fairytale Wedding Overlooking Sorrento, Italy"
+              imagePath="FairytaleWedding/fairytalethumbnail.webp"
+              linkUrl="/fairytalewedding"
+              isFlipped={true}
+            />
+          </Box>
+        </Grid>
+        <Grid item xs={12} sm={6} md={6} lg={4}>
+        <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
+              featureText="TRAVEL"
+              headlineText="Best of Brussels: Top Things to See, Eat, and Experience!"
+              imagePath="Homepage/paristhumbnail-1.webp"
+              linkUrl="/paris-brussels-travel-guide"
+              isFlipped={true}
+            />
+          </Box>
+        </Grid>
+        <Grid item xs={12} sm={6} md={6} lg={4}>
+        <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
+              featureText="HOW-TO : IPHONE"
+              headlineText="A Guide to Scroll-Stopping iPhone Photos"
+              imagePath="Homepage/coverphoot.webp"
+              linkUrl="/camera-settings"
+              isFlipped={true}
+            />
+          </Box>
+        </Grid>
+
+        {/* Row 2 */}
+        <Grid item xs={12} sm={6} md={6} lg={4}>
+        <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
+              featureText="TRAVEL"
+              headlineText="The Best Souvenirs to Bring Home from Sorrento"
+              imagePath="Homepage/SorrentoThumbnail.webp"
+              linkUrl="/sorrento"
+              isFlipped={true}
+            />
+          </Box>
+        </Grid>
+        <Grid item xs={12} sm={6} md={6} lg={4}>
+        <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
+              featureText="TRAVEL"
+              headlineText="Our Three Day Romantic Getaway in Rome, Italy"
+              imagePath="Homepage/47.webp"
+              linkUrl="/rome"
+              isFlipped={true}
+            />
+          </Box>
+        </Grid>
+        <Grid item xs={12} sm={6} md={6} lg={4}>
+        <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
+              featureText="NEW ZEALAND"
+              headlineText="New Zealand | Auckland Vlog and Experience"
+              imagePath="Homepage/NZThumbnail.webp"
+              linkUrl="/newzealand"
+              isFlipped={true}
+            />
+          </Box>
+        </Grid>
       </Grid>
     </Box>
   );
