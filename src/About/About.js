@@ -10,7 +10,8 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import TextBanner2 from '../Components/TextBanner2';
+import TextReveal from '../Components/TextReveal';
+import MediaKitSlider from '../Navigation/Footer/MediaKitSlider';
 
 
 const AboutEmily = `${process.env.PUBLIC_URL}/Images/About/JackieAboutMe1.JPG`;
@@ -22,11 +23,11 @@ const About = () => {
     <Grid container spacing={0} className={styles['about-container']}>
       <Grid item xs={12}
       style = {{
-        paddingTop: '25px',
+        paddingTop: '125px',
       }}
       >
 
-        <TextBanner2 text='MEET JACKIE'/>
+        <TextReveal text='MEET JACKIE'/>
       
       </Grid>
 
@@ -75,7 +76,7 @@ const About = () => {
       </Grid>
 
       <Grid item xs={12}>
-        <TextBanner2 text="INQUIRIES" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot, sans-serif' }} />
+        <TextReveal text="INQUIRIES" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot, sans-serif' }} />
       </Grid>
       <Grid item xs={12} md={6}>
         <img src={leftImage} alt="Left" className={styles['about-collaborations-left-image']} />
@@ -93,6 +94,7 @@ const About = () => {
       </Grid>
 
 
+   
       <Grid item xs={12}>
         <FanArt />
      
