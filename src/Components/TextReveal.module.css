@@ -3,12 +3,10 @@
   width:100%;
   height: 200px;
   background-color: #FDEDEF;
-  margin-top: 0px;
   border-radius: 1px;
   display: grid;
   place-items: center;
   text-align: center;
-  padding: 0 1px;
 }
 
 .textReveal {
