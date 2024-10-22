@@ -113,7 +113,7 @@ function HomePage() {
 
 
 
-<TextBanner2 text="FEATURE" height="150px" width="100%" fontSize="1rem" margin='1rem auto' />
+<TextBanner2 text="FEATURE" height="125px" width="100%" fontSize="16px" margin='1rem auto' />
 
 
 

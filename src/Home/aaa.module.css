@@ -97,7 +97,7 @@
 .cardDescriptionHover,
 .cardDescriptionFocus {
     text-decoration: none;
-    font-family: 'GFS Didot';
+    font-family: 'GFS Didot, sans-serif';
 }
 
 .readHereBtn {

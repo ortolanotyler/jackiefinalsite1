@@ -56,7 +56,7 @@ const TextBanner2 = ({ text = "SHOPPING", height = '50px', width = '100%', maxFo
       transition: 'transform 0.3s ease', // Smooth transition for enlargement
     },
     hoveredLetter: {
-      transform: 'scale(1.5)', // Enlarge letter on hover
+      transform: 'scale(1.15)', // Enlarge letter on hover
     },
   };
 
