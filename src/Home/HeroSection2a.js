@@ -26,10 +26,9 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     justifyContent: 'flex',
     height: '100%',
     maxWidth: 'auto',
-    margin: '0 auto',
     color: '#000000',
     backgroundColor: '#fdedef',
-    border: '5px solid #fdedef',
+    border: '0px solid #fdedef',
 
     borderRadius: '10px',
     overflow: 'hidden',
@@ -39,7 +38,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
 
   const imageContainerStyle = {
     width: '100%',
-    height: '100%',
+    height: 'auto',
     flex: 1,
     position: 'relative',
     overflow: 'hidden',
@@ -47,7 +46,8 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
 
   const imageStyle = {
     width: '100%',
-    height: '450px',
+    height: 'auto',
+    maxHeight: '450px',
     objectFit: 'cover',
   };
 

@@ -4,7 +4,7 @@ import HeroSection2a from './HeroSection2a'; // Assuming you have this component
 
 const HeroSectionGrid = () => {
   return (
-    <Grid container spacing={2} justifyContent="center">
+    <Grid container spacing={5} justifyContent="center" padding='1rem'>
       {/* First Row */}
       <Grid item xs={12} sm={6} md={6} lg={4}>
       <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
