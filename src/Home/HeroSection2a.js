@@ -117,8 +117,6 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
             <HorizontalLine />
 
             <h1 style={headlineStyle}>{headlineText}</h1>
-            <p style={subtextStyle}>{subtext}</p>
-            <p style={authorStyle}>{author}</p>
        
 
           </div>
