@@ -71,7 +71,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
   };
 
   const headlineStyle = {
-    fontSize: '18px',
+    fontSize: '20px',
     textAlign: 'center',
 
     lineHeight: 1.5,
