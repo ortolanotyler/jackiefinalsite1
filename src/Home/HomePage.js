@@ -82,7 +82,7 @@ function HomePage() {
 
     
       {/* Flex container for sections */}
-      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '5px', pt: { xs: '0px', md: '0px' } }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px', pt: { xs: '0px', md: '0px' } }}>
         {/* Conditionally show TextRevealHomePage on larger screens */}
         {!isMobile && (
           <>
@@ -102,18 +102,16 @@ function HomePage() {
           <QuiltedImageList1 />
         </div>
 
+        <TextBanner2 text="FEATURE" height="125px" width="100%" fontSize="16px" margin='0 auto' />
 
 
     
-<div style={{ padding: '10px auto' }}>
-          <AdSenseAd />
-        </div>
+<AdSenseAd/>
 
 
 
 
 
-<TextBanner2 text="FEATURE" height="125px" width="100%" fontSize="16px" margin='0 auto' />
 
 
 
@@ -127,9 +125,7 @@ function HomePage() {
         <Quiz4 />
 
         
-<div style={{ padding: '10px auto' }}>
-          <AdSenseAd />
-        </div>
+<AdSenseAd/>
 
     
 
@@ -138,9 +134,7 @@ function HomePage() {
 
 <Grid3Across1/>
 
-<div style={{ padding: '10px auto' }}>
-          <AdSenseAd />
-        </div>
+<AdSenseAd/>
 
 
 
@@ -166,9 +160,7 @@ function HomePage() {
 
 <NewsletterSlider/>
 
-<div style={{ padding: '10px auto' }}>
-          <AdSenseAd />
-        </div>
+<AdSenseAd/>
      
 
  
@@ -181,9 +173,7 @@ function HomePage() {
    
 
        
-       <div style={{ padding: '10px auto' }}>
-          <AdSenseAd />
-        </div>
+       <AdSenseAd/>
 
         <TextBanner2 text="VINTAGE VIBES"  height="150px" width="100%" fontSize="1rem" margin='1rem auto' />
 
@@ -192,17 +182,11 @@ function HomePage() {
       
 <HorizontalLine/>
      
-       <div style={{ padding: '10px auto' }}>
-          <AdSenseAd />
-        </div>
+       <AdSenseAd/>
       
-        <div style={{ padding: '10px auto' }}>
-          <AdSenseAd />
-        </div>
+        <AdSenseAd/>
       
-        <div style={{ padding: '10px auto' }}>
-          <AdSenseAd />
-        </div>
+        <AdSenseAd/>
     
         
        
