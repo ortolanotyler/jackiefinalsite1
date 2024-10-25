@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Quiz1.css'; // Adjust your CSS file path if needed
 import { Helmet } from 'react-helmet-async';
+import HorizontalLine from '../Components/HorizontalLine';
 
 
 const Quiz4 = () => {
@@ -265,12 +266,16 @@ const Quiz4 = () => {
 
       {!showResults ? (
         <div className="quiz-container">
+                 <HorizontalLine/>
           <div className="question-section">
            
             <div className="question-text">
               {quizQuestions[currentQuestionIndex].question}
             </div>
+     
+
           </div>
+        
           <div className="answer-section">
             {quizQuestions[currentQuestionIndex].options.map((option, index) => (
               <button

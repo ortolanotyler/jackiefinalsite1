@@ -98,24 +98,28 @@ function HomePage() {
           <QuiltedImageList1 />
         </div>
 
-        <TextBanner2 text="FEATURE" height="125px" width="100%" fontSize="16px" margin='0 auto' />
+        <AdSenseAd/>
 
 
-    
+        <HorizontalLine/>
+
+<div
+style = {{
+  margin : '1rem auto'
+}}
+>
+<TextBanner2 text="FEATURE" height="100%" width="100%" fontSize="2rem"  />
+
+</div>
 
 
 
 
 
 
+<TextRevealHomePage text="🎃 HALLOWEEN COSTUME QUIZ 🎃"  width="100%" fontSize="16px" backgroundColor='#fdedef' />
 
 
-
-
-
-<TextRevealHomePage text="🎃 HALLOWEEN COSTUME QUIZ 🎃"  width="100%" fontSize="1rem" backgroundColor='#fdedef' />
-
-<AdSenseAd/>
 
 
         <Quiz4 />
