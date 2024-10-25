@@ -1,25 +1,31 @@
 
-.subscribeButton {
-  background-color: #745B4F !important; /* Match the background color */
-  color: #f8f8f8 !important; /* Match the text color */
-  font-size: 1rem; /* Match the font size */
-  font-weight: bold; /* Set font weight to bold */
-  text-transform: lowercase; /* Ensure text is lowercase */
-  letter-spacing: 0.1em; /* Add letter spacing */
-  border-radius: 10px; /* Match the border-radius */
-  padding: 10px 20px; /* Adjust padding */
-  font-family: 'Playfair Display, sans-serif' !important; /* Ensure the correct font is used */
-  margin: 0 auto; /* Center the button */
-  width: 100%; /* Ensure it takes full width */
-  box-shadow: none; /* Remove box shadow */
-  transition: color 0.3s ease; /* Smooth color transition */
-  border: 1px solid transparent; /* Add transparent border for hover effect */
+.sidebar {
+  display: flex;
+  max-width: 300px;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background-color: #fdedef;
+ 
+  font-family: Playfair Display, serif;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: width 0.1s ease;
 }
 
-.subscribeButton:hover {
-  color: #000000 !important; /* Change text color on hover */
-  background-color: #fdedef !important; /* Change background on hover */
-  border: 1px solid #745B4F !important; /* Add border on hover */
+.sidebarButton {
+  font-family: 'Playfair Display', sans-serif;
+  text-transform: lowercase;
+  display: block;
+  color: #745B4F;
+  font-size: 18px;
+  text-align: left;
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+  justify-content: flex-start;
+  border: none;
+  border-bottom: 1px solid rgba(116, 91, 79, 0.125);
+  transition: color 0.2s ease;
 }
 
 .sidebarButton:hover {
@@ -37,6 +43,8 @@
   background-color: #3a3a3a !important;
   color: #ffffff !important;
   margin: 0 auto;
+  text-transform: lowercase;
+
   width: 100%;
   font-family: 'Playfair Display', sans-serif !important; /* Ensure Playfair Display is always applied */
   font-size: 1rem;

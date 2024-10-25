@@ -11,8 +11,9 @@ import styles from './Sidebar.module.css'; // Import the updated CSS module
 const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
     { name: 'BRIDAL', path: '/bridal' },
-    { name: 'HOME', path: '/' },
+
     { name: 'ABOUT', path: '/about' },
+    { name: 'HOME', path: '/' },
     { name: 'TUTORIALS', path: '/tutorials' },
     { name: 'QUIZ', path: '/quiz' },
     { name: 'MERCH', path: '/vintagevibesmerch' },
@@ -21,7 +22,9 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'REVIEWS', path: '/reviews' },
     { name: 'DIARY', path: '/diary' },
     { name: 'CONTACT', path: '/contact' },
+
     { name: 'SITEMAP', path: '/sitemap' },
+ 
   ];
 
   return (
@@ -49,6 +52,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
             top: '1rem',
             right: '1rem',
             color: '#745B4F',
+            fontFamily: 'Playfair Display, serif',
           }}
         >
           <CloseIcon />
@@ -66,17 +70,13 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
               <Typography
                 variant="h6"
                 className={styles.sidebarTypography}
-                sx={{
-                  fontFamily: '"Playfair Display", serif', // Correct syntax with quotes
-                  fontWeight: 100, // Use the thinnest weight available
-                }}
+                style={{ fontFamily: 'Playfair Display, serif' }}
               >
                 {item.name}
               </Typography>
             </Button>
           ))}
         </Box>
-
         <Button
           key="subscribe-button"
           component={Link}
@@ -84,8 +84,8 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           className={styles.subscribeButton}
           onClick={toggleDrawer}
           sx={{
-            marginBottom: '1rem',
-            padding: '0.8rem',
+            marginBottom: '1rem', // Ensure the button has enough space at the bottom
+            padding: '0.8rem', // Add padding to make the button more clickable
           }}
         >
           Subscribe
@@ -125,6 +125,8 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
             <MailOutlineIcon style={{ color: '#745B4F', fontSize: 24 }} />
           </a>
         </Box>
+
+     
       </Box>
     </Drawer>
   );
