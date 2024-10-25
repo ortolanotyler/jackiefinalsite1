@@ -14,11 +14,7 @@ import FeaturedGrid6 from './GridSectionFeatured';
 import TextReveal from '../Components/TextReveal';
 import Grid3Across1 from './Grid3Across1';
 import VintageVibesCards from './GridVintageVibes';
-import ShopMyHero from './ShopMyHero';
 import NewsletterSlider from './NewsletterSlider';
-import NewsletterSection from './NewsletterSection';
-import ShopMySlider from './ShopMySlider';
-import ShopMyHero2 from './ShopMyHero2';
 
 
 

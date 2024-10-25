@@ -237,23 +237,7 @@ const DragonBraid = () => {
     data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729438817/YouTube_Thumbnail-58_kq0kfp.jpg"
     data-pin-description="Dragon Braid Tutorial"
   />
-  <img 
-    src={pinterest}
-    alt="Pin this on Pinterest" 
-    style={{
-      position: 'absolute',
-      top: '20px',
-      right: '20px',
-      width: '50px',
-      height: '50px',
-      cursor: 'pointer',
-      opacity: 0.9,
-      transition: 'opacity 0.3s'
-    }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/quiz/halloween/ysl&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1729438817/YouTube_Thumbnail-58_kq0kfp.jpg&description=Dragon Braid Tutorial')}
-    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
-    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
-  />
+ 
 </div>
 
 <div style = {{textAlign: 'center', margin: '10px auto' }}>
