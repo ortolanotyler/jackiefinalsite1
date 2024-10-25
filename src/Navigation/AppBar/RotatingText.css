@@ -1,14 +1,14 @@
 .rotating-text-container {
 
-
+  margin: '0 auto';
   background-color: white;
-  font-family: 'Arapey, sans-serif';
   overflow: hidden;
   white-space: nowrap;
 }
 
 .rotating-text {
   background-color: white;
+
   color: #745B4F;
   display: inline-block;
   animation: rotate-text 100s linear infinite;
