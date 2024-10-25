@@ -8,7 +8,7 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
-import YoutubeShortFacade from '../../../Components/YouTubeShortFacade';
+import AdSenseAd from '../../../Home/Adsense';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/DragonBraid/1.JPG`;
@@ -22,7 +22,7 @@ const image8 = `${process.env.PUBLIC_URL}/Images/DragonBraid/7.jpeg`;
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
 
-const next = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/JackieWyersBarbieThumb.jpeg`;
+const next = `${process.env.PUBLIC_URL}/Images/Articles/Homepage/HalloweenThumb.webp`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
   <div
@@ -110,7 +110,8 @@ const DragonBraid = () => {
   const captionStyle = {
   textAlign: 'center',
   fontSize: '1rem',
-  fontFamily: 'Arapey, serif',
+  color: '#745B4F',
+  fontFamily: 'Quicksand, sans-serif',
   fontWeight: '100',
   margin: '0 auto',
   fontStyle: 'italic',
@@ -123,36 +124,36 @@ const DragonBraid = () => {
   const blogContent = (
     <div className="container">
 <Helmet>
-  <title>Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 </title>
-  <link rel="canonical" href="https://www.jackiewyers.beauty/barbie-roundup" />
+  <title>Dragon Braid: Easy Pull-Through Braid Tutorial for Beginners</title>
+  <link rel="canonical" href="https://www.jackiewyers.beauty/articles/dragon-braid" />
 
   <meta 
     name="description" 
-    content="Discover the best Barbie-inspired products and collectibles for adult fans in 2024. Explore iconic collaborations and must-have items curated by Jackie Wyers." 
+    content="Learn how to create a Dragon Braid with this easy pull-through braid tutorial for beginners. Perfect for a voluminous, braided hairstyle that looks intricate but is super simple to achieve!" 
   />
-<meta 
-  name="keywords" 
-  content="Top Barbie Collaborations 2024, Must-Have Barbie Products, Adult Barbie Collectors, Barbie x Stanley, Barbie x FUNBOY, Silkstone Barbie, Barbie x Aldo, Barbie Coffee Table Book, Barbiecore Trends, Jackie Wyers, Barbie Fashion Accessories, Barbie Collectibles 2024" 
-/>
+  <meta 
+    name="keywords" 
+    content="Dragon Braid tutorial, Pull-through braid, easy braid for beginners, voluminous braid hairstyles, braided hairstyles 2024, pull-through braid tutorial, dragon braid for long hair, Jackie Wyers, hair tutorial, braid tutorial, faux french braid, easy hairstyles, virtual hair tutorial, hairstyle tutorials 2024, braided looks" 
+  />
 
   {/* Open Graph Meta Tags */}
-  <meta property="og:title" content="Dragon Braid/ Easy Pull-Through Braid Tutorial for Beginners " />
+  <meta property="og:title" content="Dragon Braid: Easy Pull-Through Braid Tutorial for Beginners" />
   <meta 
     property="og:description" 
-    content="Discover the best Barbie-inspired products and collectibles for adult fans in 2024. Explore iconic collaborations and must-have items curated by Jackie Wyers." 
+    content="Learn how to create a Dragon Braid with this easy pull-through braid tutorial for beginners. Perfect for a voluminous, braided hairstyle that looks intricate but is super simple to achieve!" 
   />
   <meta 
     property="og:image" 
     content="https://www.jackiewyers.beauty/Images/DragonBraid/BarbieCollabsThumbnail.jpg" 
   />
-  <meta property="og:url" content="https://www.jackiewyers.beauty/barbie-roundup" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/articles/dragon-braid" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
-  <meta name="twitter:title" content="Dragon Braid/ Easy Pull-Through Braid Tutorial for Beginners " />
+  <meta name="twitter:title" content="Dragon Braid: Easy Pull-Through Braid Tutorial for Beginners" />
   <meta 
     name="twitter:description" 
-    content="Discover the best Barbie-inspired products and collectibles for adult fans in 2024. Explore iconic collaborations and must-have items curated by Jackie Wyers." 
+    content="Learn how to create a Dragon Braid with this easy pull-through braid tutorial for beginners. Perfect for a voluminous, braided hairstyle that looks intricate but is super simple to achieve!" 
   />
   <meta 
     name="twitter:image" 
@@ -160,17 +161,14 @@ const DragonBraid = () => {
   />
   <meta name="twitter:card" content="summary_large_image" />
 
-
-
-
   {/* JSON-LD Structured Data */}
   <script type="application/ld+json">
     {`
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "Dragon Braid/ Easy Pull-Through Braid Tutorial for Beginners ",
-        "description": "Discover the best Barbie-inspired products and collectibles for adult fans in 2024. Explore iconic collaborations and must-have items curated by Jackie Wyers.",
+        "headline": "Dragon Braid: Easy Pull-Through Braid Tutorial for Beginners",
+        "description": "Learn how to create a Dragon Braid with this easy pull-through braid tutorial for beginners. Perfect for a voluminous, braided hairstyle that looks intricate but is super simple to achieve!",
         "image": "https://www.jackiewyers.beauty/Images/DragonBraid/BarbieCollabsThumbnail.jpg",
         "author": {
           "@type": "Person",
@@ -184,13 +182,27 @@ const DragonBraid = () => {
             "url": "https://www.jackiewyers.beauty/logo.png"
           }
         },
-        "datePublished": "2024-09-23",
-        "dateModified": "2024-09-24",
+        "datePublished": "2024-10-23",
+        "dateModified": "2024-10-24",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://www.jackiewyers.beauty/barbie-roundup"
+          "@id": "https://www.jackiewyers.beauty/articles/dragon-braid"
         }
       }
+    `}
+  </script>
+
+  {/* Google Analytics */}
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG', {
+        page_path: window.location.pathname,
+      });
     `}
   </script>
 </Helmet>
@@ -198,14 +210,14 @@ const DragonBraid = () => {
 
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
         <a href="/tutorials" style={{ fontFamily: 'Arapey, sans-serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
-          BEAUTY // TUTORIALS
+          BEAUTY // HAIR
         </a>
       </div>
 
 
   <ArticleTitle
   mainTitle="How To Do a Dragon Braid!"
-  subTitle="Dragon Braid/ Easy Pull-Through Braid Tutorial for Beginners"
+  subTitle="Dragon Braid: an Easy Pull-Through Braid Tutorial for Beginners"
   author="Jackie Wyers"
   publishDate="Oct 23rd, 2024"
 />
@@ -258,25 +270,55 @@ const DragonBraid = () => {
 <div style={paragraphStyle}>
   <DropCap1 text="Ever wondered how to achieve a voluminous, braided look without complex braiding skills? Discover the dragon braid, also known as a pull-through braid, perfect for long hair. This tutorial will guide you through the simple steps of creating this stunning hairstyle using rubber bands, ideal for any occasion. Start by securing your hair into a high ponytail and follow the steps below for a flawless finish.  
   "/>
+
+<AdSenseAd/>
+
   
 </div>
 
+<div 
+style = {{
+textAlign: 'center',
+}
+}>
+<iframe
+  style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
+  src="https://www.youtube.com/embed/2yOj5W7OMZQ"
+  title="YouTube Shorts player"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
 
-embed:
+</div>
 
-https://youtube.com/shorts/2yOj5W7OMZQ
+<AdSenseAd/>
 
+
+
+<h1
+style = {headingStyle}
+> 
 How To Do A Dragon Braid Step By Step:
 
+</h1>
+
+<h2
+style = {headingStyle}
+> 
 Getting Started:
+</h2>
 
 <p style={paragraphStyle}>
 Begin by tying your hair into a high ponytail. It’s easiest to start this style by working in front of a mirror with your pony hanging in front of your face! Dive into the technique with our mini tutorial below, and continue reading for detailed steps!
 
 </p>
 
-
+<h2
+style = {headingStyle}
+> 
 Prepare Your Ponytail:
+</h2>
 
 <p style={paragraphStyle}>
 Flip your hair upside down and gather it into a high ponytail using a strong hair elastic.
@@ -284,6 +326,7 @@ Flip your hair upside down and gather it into a high ponytail using a strong hai
 </p>
 
 
+<AdSenseAd/>
 
 
 <h2 style = {headingStyle}>
@@ -301,15 +344,17 @@ Create the Dragon Braid:
 </p>
 
 <p style={paragraphStyle}>
-Continue this method: Divide the lower section in half each time and loop over the top, securing as you go.
+3. Continue this method: Divide the lower section in half each time and loop over the top, securing as you go.
 
 </p>
 
 
 <p style={paragraphStyle}>
-Fluff for Effect: Once you reach the end of your strands, gently pull apart the sections to create a fluffy, voluminous effect.
+4. Fluff for Effect: Once you reach the end of your strands, gently pull apart the sections to create a fluffy, voluminous effect.
 
 </p>
+
+<AdSenseAd/>
 
 
 <h2 style={headingStyle}>
@@ -323,51 +368,175 @@ Enhance the volume and style with a big scrunchie or bow.
 
 </p>
 
-hair picture 1- dragon braid embedded, make pinnable.
+<div style={{ position: 'relative', display: 'inline-block' }}>
+  <img 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729814143/hairpicture1-dragonbraid_f16hgs.jpg" 
+    alt="Dragon Braid Tutorial" 
+    style={imageStyle} 
+    data-pin-url="https://www.jackiewyers.beauty/articles/dragon-braid"
+    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729814143/hairpicture1-dragonbraid_f16hgs.jpg"
+    data-pin-description="Dragon Braid Tutorial"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+    style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+      width: '50px',
+      height: '50px',
+      cursor: 'pointer',
+      opacity: 0.9,
+      transition: 'opacity 0.3s'
+    }}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/quiz/halloween/ysl&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1729814143/hairpicture1-dragonbraid_f16hgs.jpg&description=Dragon Braid Tutorial')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
+</div>
+
+<AdSenseAd/>
 
 
 
-First Image (Pink Sweater with Updo):
 
-Alt Description: "Jackie Wyers with a voluminous dragon braid high ponytail, wearing a pink knit sweater and a silver satin bow, profile view against a soft yellow background."
+
+<p style={paragraphStyle}>
+
 Have you Mastered the faux French braid with rubber bands/a pull-through braid method?
+</p>
+
+<h2 style={headingStyle}>
 
 Take It Up a Notch: Add Twists!
+</h2>
 
-https://youtube.com/shorts/eGcEF3ejGe4
+<div 
+style = {{
+textAlign: 'center',
+}
+}>
+<iframe
+  style={{ margin: '0 auto',boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
+  src="https://www.youtube.com/embed/eGcEF3ejGe4"
+  title="YouTube Shorts player"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+</div>
+<AdSenseAd/>
 
+
+
+<h2 style = {headingStyle}>
 Dragon Braid with Twists: Step-by-Step Guide
 
-Prepare Your Hair: Leave your hair down and push the length behind your shoulders.
+</h2>
 
-Section and Secure: Take two small sections of hair from above your ears and secure them at the back with a plastic elastic.
+<p style={paragraphStyle}>
 
-Start the Twist: Flip the bottom of the mini ponytail up and under to create a twist.
+1. Prepare Your Hair: Leave your hair down and push the length behind your shoulders.
+</p>
 
-Repeat for Volume: Continue this process, slightly pulling apart the twists for added volume, until you reach the nape of your neck.
+<p style={paragraphStyle}>
 
+2. Section and Secure: Take two small sections of hair from above your ears and secure them at the back with a plastic elastic.
+</p>
+
+<AdSenseAd/>
+
+
+<p style={paragraphStyle}>
+
+3. Start the Twist: Flip the bottom of the mini ponytail up and under to create a twist.
+</p>
+
+<p style={paragraphStyle}>
+4. Repeat for Volume: Continue this process, slightly pulling apart the twists for added volume, until you reach the nape of your neck.
+</p>
+
+<AdSenseAd/>
+
+
+
+<p style={paragraphStyle}>
 Integrate with Dragon Braid: Combine this twisting method with the dragon braid technique from the first tutorial for a layered and intricate finish.
 
+</p>
+
+<p style={paragraphStyle}>
+
 Final Fluff: After each section is secured with an elastic, flip the bottom up and through to fluff out, creating a gorgeously detailed braid.
+</p>
 
+<AdSenseAd/>
+
+
+<h2 style={headingStyle}>
 Styling Tips:
+
+</h2>
+
+
+<p style={paragraphStyle}>
 Finish this look by curling the ends, or add a little bun and a big bow to keep the ends as full and voluminous as the braid itself.
+</p>
 
-Second Image (Striped Sweater with Braided Hair):
+<div style={{ position: 'relative', display: 'inline-block' }}>
+  <img 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729814151/PullThroughHairTutorial_rnpuy3.jpg" 
+    alt="Dragon Braid Tutorial" 
+    style={imageStyle}             
+    data-pin-url="https://www.jackiewyers.beauty/articles/dragon-braid"
+    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729814151/PullThroughHairTutorial_rnpuy3.jpg"
+    data-pin-description="Dragon Braid Tutorial by Jackie Wyers"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+    style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+      width: '50px',
+      height: '50px',
+      cursor: 'pointer',
+      opacity: 0.9,
+      transition: 'opacity 0.3s'
+    }}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/quiz/halloween/ysl&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1729814151/PullThroughHairTutorial_rnpuy3.jpg&description=Dragon Braid Tutorial')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
+</div>
 
-Alt Description: "Side view of a Jackie Wyers with a detailed pull-through braid adorned with a large black ribbon, wearing a striped white and navy sweater, against a plain background."
+<AdSenseAd/>
+
+
+
+
+<h2 style={headingStyle}>
 I’d Love to See Your Style!
-If you try out these faux braid techniques, please tag me @jackiewyers! I’d love to feature your beautiful creations on our site. If you like these Pinterest hairstyles, pin the photos on Pinterest & save to a board to try later.
 
+</h2>
+
+<p style={paragraphStyle}>
+If you try out these faux braid techniques, please tag me <a href = 'https://instagram.com/jackiewyers' target = '_blank' rel= 'noreferrer'>@jackiewyers</a>! I’d love to feature your beautiful creations on our site. If you like these Pinterest hairstyles, pin the photos on Pinterest & save to a board to try later.
+</p>
+
+<AdSenseAd/>
+
+
+<h2 style={headingStyle}>
 Looking for more hair videos?
-Check out my playlist on YouTube, all about hair, or keep reading here.
+</h2>
 
-(hyper link all about hair: https://www.youtube.com/playlist?list=PL-_qSuEl3UwH-XS-K6fjlBsDErEGaX5ll)
+<p style={paragraphStyle}>
 
-xo, Jackie Wyers
-
-
-
+Check out my <a href = 'https://www.youtube.com/playlist?list=PL-_qSuEl3UwH-XS-K6fjlBsDErEGaX5ll' target = '_blank' rel='noreferrer'> playlist</a> on YouTube, 'All About Hair'!
+</p>
 
 
 
@@ -375,6 +544,13 @@ xo, Jackie Wyers
 
 
 
+
+
+
+
+
+
+<AdSenseAd/>
 
 
 
@@ -401,29 +577,30 @@ xo, Jackie Wyers
 </div>
 
 
+<AdSenseAd/>
 
 
 
       <NextArticle
-      link="/barbie-doll"
+      link="/tutorials"
       imgSrc={next}
       altText="Barbie Article"
-      linkText="GET THE BARBIE LOOK HERE→"
+      linkText="CLICK HERE FOR MORE POP CULTURE→"
       containerStyle={{ margin: '2rem auto' }} // customize as needed
       linkStyle={{ color: '#000000', fontSize: '1.25rem' }} // customize as needed
       imgStyle={{ borderRadius: '5px' }} // customize as needed
     />
+    <img src={signature} alt="jackie wyers end of article signature" style={{ width: '100%' }} />
 
 <div>
 
+<Comments website-id={websiteId} page-id={"dragonbronzon"} />
 
-        <img src={signature} alt="Jackie Wyers Signature XoXo" style={{ width: '100%' }} />
       </div>
 
 
 
-     
-     <Comments website-id={websiteId} page-id={"dragonbronzon"} />
+     <AdSenseAd/>
     
       
     </div>

@@ -24,7 +24,6 @@ const FeaturedGrid6 = () => {
             <HeroSection2a
               featureText="POP CULTURE"
               headlineText='Elphaba “The Wicked Witch of The West” Makeup Tutorial💚'
-              author="10.11.2024"
               imagePath="Wicked/wicked2.webp"
               linkUrl="/articles/wicked-witch-of-the-west"
               isFlipped={false}
@@ -37,7 +36,6 @@ const FeaturedGrid6 = () => {
             <HeroSection2a
               featureText="FEATURED"
               headlineText="Ariana Grande as Glinda Makeup – Wicked the Movie "
-              author="10.11.2024"
               imagePath="Wicked/GlindaThumb.webp"
               linkUrl="/articles/wicked"
               isFlipped={true}
@@ -48,14 +46,12 @@ const FeaturedGrid6 = () => {
         {/* Second Row */}
         <Grid item xs={12} sm={6} md={6} lg={4}>
           <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <HeroSection2a
-              featureText="HALLOWEEN"
-              headlineText="Girly Pop Culture Halloween Costume Ideas 2024"
-              author="09.23.2024"
-              imagePath="Halloween/HalloweenThumb.jpg"
-              linkUrl="/girly-pop-halloween"
-              isFlipped={false}
-            />
+          <HeroSection2a
+      featureText="HAIR"
+      headlineText="Dragon Braid: Easy Pull-Through Braid Tutorial for Beginners"
+      imagePath="DragonBraid/dragonbraidthumbnail.jpg"
+      linkUrl="/articles/dragon-braid"
+    />
           </Box>
         </Grid>
 
@@ -64,7 +60,6 @@ const FeaturedGrid6 = () => {
             <HeroSection2a
               featureText="LATEST"
               headlineText="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll "
-              author="09.23.2024"
               imagePath="BarbieDoll/JackieWyersBarbieThumb1.JPG"
               linkUrl="/barbie-doll"
               isFlipped={true}
@@ -77,7 +72,6 @@ const FeaturedGrid6 = () => {
             <HeroSection2a
               featureText="LATEST"
               headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 "
-              author="09.23.2024"
               imagePath="/halloweenthumb12.jpg"
               linkUrl="/barbie-roundup"
               isFlipped={false}

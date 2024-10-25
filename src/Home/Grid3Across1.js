@@ -13,7 +13,6 @@ const Grid3Across1 = () => {
         <HeroSection2a
               featureText="HALLOWEEN"
               headlineText="Girly Pop Culture Halloween Costume Ideas 2024"
-              author="09.23.2024"
               imagePath="Halloween/HalloweenThumb.jpg"
               linkUrl="/girly-pop-halloween"
               isFlipped={false}
@@ -27,7 +26,6 @@ const Grid3Across1 = () => {
             <HeroSection2a
               featureText="LATEST"
               headlineText="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll "
-              author="09.23.2024"
               imagePath="BarbieDoll/JackieWyersBarbieThumb1.JPG"
               linkUrl="/barbie-doll"
               isFlipped={true}
@@ -38,13 +36,12 @@ const Grid3Across1 = () => {
         <Grid item xs={12} sm={6} md={6} lg={4}>
         <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 
-            <HeroSection2a
-              featureText="LATEST"
-              headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 "
-              author="09.23.2024"
-              imagePath="/halloweenthumb12.jpg"
-              linkUrl="/barbie-roundup"
-              isFlipped={false}
+        <HeroSection2a
+              featureText="FEATURED"
+              headlineText="Our Fairytale Wedding Overlooking Sorrento, Italy"
+              imagePath="FairytaleWedding/fairytalethumbnail.webp"
+              linkUrl="/fairytalewedding"
+              isFlipped={true}
             />
           </Box>
         </Grid>
