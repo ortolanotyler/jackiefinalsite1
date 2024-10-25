@@ -101,14 +101,14 @@ function HomePage() {
         <AdSenseAd/>
 
 
-        <HorizontalLine/>
 
 <div
 style = {{
-  margin : '1rem auto'
+  margin : '2rem auto',
+  
 }}
 >
-<TextBanner2 text="FEATURE" height="100%" width="100%" fontSize="2rem"  />
+<TextBanner2 text="FEATURE" height="100px" width="100%" fontSize="2rem"  />
 
 </div>
 
@@ -128,8 +128,12 @@ style = {{
 <AdSenseAd/>
 
     
+<div>
+<TextBanner2 text="NEW & POPULAR"  height="100px" width="100%" fontSize="1rem" margin='0 auto' />
 
-<TextBanner2 text="NEW & POPULAR"  height="150px" width="100%" fontSize="1rem" margin='0 auto' />
+<HorizontalLine/>
+</div>
+
 
 
 <Grid3Across1/>
@@ -150,13 +154,14 @@ style = {{
 
       
 
-          <TextBanner2 text="BEAUTY"  height="150px" width="100%" fontSize="1rem" margin='0 auto' />
+          <TextBanner2 text="BEAUTY" height="100px" width="100%" fontSize="1rem" margin='0 auto' />
 
 
 
 
 
 <FeaturedGrid6/>
+<HorizontalLine/>
 
 <NewsletterSlider/>
 
@@ -164,7 +169,7 @@ style = {{
      
 
  
-        <TextBanner2 text="TRAVEL"  height="150px" width="100%" fontSize="1rem" margin='1rem auto' />
+        <TextBanner2 text="TRAVEL"  height="100px" width="100%" fontSize="1rem" margin='0 auto' />
       
       
        
@@ -175,8 +180,7 @@ style = {{
        
        <AdSenseAd/>
 
-        <TextBanner2 text="VINTAGE VIBES"  height="150px" width="100%" fontSize="1rem" margin='1rem auto' />
-
+        <TextBanner2 text="VINTAGE VIBES"  height="100px" width="100%" fontSize="1rem" margin='0 auto' />
         <VintageVibesCards/>
 
       

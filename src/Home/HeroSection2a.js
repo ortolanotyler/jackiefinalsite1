@@ -52,7 +52,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
   const contentStyle = {
     height: '175px',
     paddingTop: '1rem',
-    padding: '2.5rem',
+    padding: '1.5rem',
 
     textAlign: 'center',
     fontFamily: 'Playfair Display, sans-serif',
