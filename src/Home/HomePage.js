@@ -98,8 +98,7 @@ function HomePage() {
           <QuiltedImageList1 />
         </div>
 
-        <AdSenseAd/>
-
+ 
 
 
 <div
@@ -161,6 +160,7 @@ style = {{
 
 
 <FeaturedGrid6/>
+
 <HorizontalLine/>
 
 <NewsletterSlider/>
@@ -178,7 +178,6 @@ style = {{
    
 
        
-       <AdSenseAd/>
 
         <TextBanner2 text="VINTAGE VIBES"  height="100px" width="100%" fontSize="1rem" margin='0 auto' />
         <VintageVibesCards/>
@@ -186,12 +185,9 @@ style = {{
       
 <HorizontalLine/>
      
-       <AdSenseAd/>
       
-        <AdSenseAd/>
-      
-        <AdSenseAd/>
-    
+       
+     
         
        
       </Box>
