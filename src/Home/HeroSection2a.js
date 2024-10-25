@@ -53,8 +53,8 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
 
   const contentStyle = {
     height: '150px',
-    padding: '1rem',
-    textAlign: 'left',
+    padding: '0px',
+    textAlign: 'center',
     fontFamily: 'GFS Didot, sans-serif',
   };
 
@@ -75,7 +75,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     textAlign: 'center',
 
     lineHeight: 1.5,
-    margin: '10px auto',
+    padding: '10px auto',
     fontFamily: 'Playfair Display, sans-serif',
   };
 
