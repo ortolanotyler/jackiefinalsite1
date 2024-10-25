@@ -19,20 +19,19 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     color: '#000000',
     width: '100%',
   };
-
   const cardStyle = {
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'flex',
+    justifyContent: 'flex-start',
     maxHeight: '550px',
     width: 'auto',
     color: '#000000',
     backgroundColor: '#fdedef',
-
     borderRadius: '10px',
     overflow: 'hidden',
-    border: '1px solid #745b4f',
+    border: '0.5px solid #745b4f',
     boxSizing: 'border-box',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1)', // Updated box shadow
   };
 
   const imageContainerStyle = {
