@@ -41,7 +41,12 @@ const ContactForm = () => {
       ) : (
         <>
           <div className={styles.column}>
-            <p>
+            <p
+            style = {{
+              color: '#745B4F',
+              fontFamily: 'Playfair Display, sans-serif'
+            }}
+            >
               Throughout the years, I have had the privilege of collaborating with esteemed brands that have enhanced the quality of my
               tutorials. If you believe that our partnership would be a beneficial fit, please reach out.
             </p>

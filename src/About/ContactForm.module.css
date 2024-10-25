@@ -2,9 +2,10 @@
 .container {
   margin: 1em;
   display: flex;
+  color: #745B4F;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Playfair Display', sans-serif;
   border: 10px solid #FDEDEF;
   background-color: #FDEDEF;
@@ -16,8 +17,8 @@
 }
 
 .column {
-  padding: 0.1rem;
-  margin: 50px;
+  padding:1rem;
+  margin: 20px;
   font-family: 'Playfair Display', sans-serif;
   flex: 1;
   color: #745B4F;
@@ -26,17 +27,17 @@
 }
 
 .form {
-  margin: 20px;
+  margin: 10px;
   gap: 0.5rem;
   display: flex;
-  font-family: 'GFS Didot', serif;
+  font-family: 'Playfair Display', sans-serif;
   flex-direction: column;
 }
 
 .input, .textarea {
   padding: 1rem;
   background-color: white;
-  font-family: 'GFS Didot', serif;
+  font-family: 'Playfair Display', sans-serif;
   font-size: 1rem;
   border: 1px solid #ccc;
   width: 100%; /* Ensure inputs take full width of form */
@@ -45,12 +46,12 @@
 .button {
   font-size: 22px;
   padding: 1rem;
-  font-family: 'GFS Didot', serif;
+  font-family: 'Playfair Display', sans-serif;
   border: none;
-  color: #745B4F;
+  color: #fcfaf4;
   cursor: pointer;
   width: 100%; /* Make the button take full width of form */
-  background-color: #ffffff; /* Explicitly set the background color */
+  background-color: #745B4F; /* Explicitly set the background color */
   -webkit-appearance: none; /* Remove default styling on iOS */
   appearance: none; /* Remove default styling */
 }
@@ -92,7 +93,7 @@
     align-items: center;
     font-size: 1rem;
     max-height: 100vh;
-    font-family: 'GFS Didot', serif;
+    font-family: 'Playfair Display', sans-;
     border: 10px solid white;
     background-color: #FDEDEF;
     background-size: cover;
