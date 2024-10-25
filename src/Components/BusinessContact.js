@@ -15,9 +15,19 @@ const BusinessContact = () => {
         <meta name="description" content="Reach out for business inquiries and collaborations with Jackie Wyers. Fill out the contact form for more information." />
       
       </Helmet>
-      <Grid container spacing={0} className={styles['about-collaborations-section']}>
-        <Grid item xs={12}>
-          <TextReveal text="BUSINESS INQUIRIES" style={{ backgroundColor: 'white', color: '#745B4F', fontFamily: 'GFS Didot' }} />
+      <Grid container spacing={0} className={styles['about-collaborations-section']}
+      style = {{
+        paddingTop: '20px',
+  
+      }}
+      >
+        <Grid item xs={12}
+           style = {{
+            paddingTop: '20px',
+      
+          }}
+        >
+          <TextReveal text="BUSINESS INQUIRIES" style={{ backgroundColor: 'white', color: '#745B4F' }} />
         </Grid>
         <Grid item xs={12} md={6}>
           <img src={leftImage} alt="Left" className={styles['about-collaborations-left-image']} />
