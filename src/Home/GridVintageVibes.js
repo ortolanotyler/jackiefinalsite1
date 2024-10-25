@@ -4,11 +4,11 @@ import HeroSection2a from './HeroSection2a'; // Importing HeroSection2a format
 
 const VintageVibesCards = () => {
   return (
-    <Box sx={{ width: '100%', padding: '30px', backgroundColor: 'white' }}>
-      <Grid container spacing={2} justifyContent="center">
+    <Box sx={{ width: '100%', padding: '10px', backgroundColor: 'white' }}>
+      <Grid container spacing={1} justifyContent="center">
         {/* First Row */}
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <Box sx={{ height: '100%', width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <HeroSection2a
               featureText="VINTAGE VIBES"
               headlineText="Mastering the Bardot Bun 🌸"
@@ -21,8 +21,8 @@ const VintageVibesCards = () => {
         </Grid>
 
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <HeroSection2a
+        <Box sx={{ height: '100%', width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
               featureText="VINTAGE VIBES"
               headlineText="Jean Shrimpton 🧼 Yardley 1965"
               author="10.21.2024"
@@ -34,8 +34,8 @@ const VintageVibesCards = () => {
         </Grid>
 
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <HeroSection2a
+        <Box sx={{ height: '100%', width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
               featureText="VINTAGE VIBES"
               headlineText="Timeless Grace Kelly 💄"
               author="10.21.2024"
@@ -48,8 +48,8 @@ const VintageVibesCards = () => {
 
         {/* Second Row */}
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <HeroSection2a
+        <Box sx={{ height: '100%', width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
               featureText="VINTAGE VIBES"
               headlineText="Coquette Sharon Tate 👰🏼"
               author="10.21.2024"
@@ -61,8 +61,8 @@ const VintageVibesCards = () => {
         </Grid>
 
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <HeroSection2a
+        <Box sx={{ height: '100%', width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
               featureText="VINTAGE VIBES"
               headlineText="Sexy Sophia Loren 🚿"
               author="10.21.2024"
@@ -74,8 +74,8 @@ const VintageVibesCards = () => {
         </Grid>
 
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <HeroSection2a
+        <Box sx={{ height: '100%', width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
               featureText="VINTAGE VIBES"
               headlineText="Bohemian Sharon Tate 🌼"
               author="10.21.2024"
@@ -88,8 +88,8 @@ const VintageVibesCards = () => {
 
         {/* Third Row */}
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <HeroSection2a
+        <Box sx={{ height: '100%', width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
               featureText="VINTAGE VIBES"
               headlineText="Iconic 60's Glam 🖤"
               author="10.21.2024"
@@ -101,8 +101,8 @@ const VintageVibesCards = () => {
         </Grid>
 
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <HeroSection2a
+        <Box sx={{ height: '100%', width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
               featureText="VINTAGE VIBES"
               headlineText="MOD Twiggy 🩵"
               author="10.21.2024"
