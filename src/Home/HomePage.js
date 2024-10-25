@@ -82,7 +82,7 @@ function HomePage() {
 
     
       {/* Flex container for sections */}
-      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem', pt: { xs: '0px', md: '0px' } }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '5px', pt: { xs: '0px', md: '0px' } }}>
         {/* Conditionally show TextRevealHomePage on larger screens */}
         {!isMobile && (
           <>
@@ -113,7 +113,7 @@ function HomePage() {
 
 
 
-<TextBanner2 text="FEATURE" height="125px" width="100%" fontSize="16px" margin='1rem auto' />
+<TextBanner2 text="FEATURE" height="125px" width="100%" fontSize="16px" margin='0 auto' />
 
 
 
@@ -133,7 +133,7 @@ function HomePage() {
 
     
 
-<TextBanner2 text="NEW & POPULAR"  height="150px" width="100%" fontSize="1rem" margin='1rem auto' />
+<TextBanner2 text="NEW & POPULAR"  height="150px" width="100%" fontSize="1rem" margin='0 auto' />
 
 
 <Grid3Across1/>
@@ -156,7 +156,7 @@ function HomePage() {
 
       
 
-          <TextBanner2 text="BEAUTY"  height="150px" width="100%" fontSize="1rem" margin='1rem auto' />
+          <TextBanner2 text="BEAUTY"  height="150px" width="100%" fontSize="1rem" margin='0 auto' />
 
 
 

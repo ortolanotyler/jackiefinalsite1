@@ -4,12 +4,12 @@ import HeroSection2a from './HeroSection2a'; // Importing HeroSection2a format
 
 const Grid3Across1 = () => {
   return (
-    <Box sx={{ width: '100%', padding: '1rem', backgroundColor: 'white' }}>
-      <Grid container spacing={5} justifyContent="center">
+    <Box sx={{ width: '80%', padding: '1rem', backgroundColor: 'white' , margin: '0 auto'}}>
+      <Grid container spacing={1} justifyContent="center">
       
         {/* Second Row */}
         <Grid item xs={12} sm={6} md={6} lg={4}>
-        <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <Box sx={{ width: '100%', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <HeroSection2a
               featureText="HALLOWEEN"
               headlineText="Girly Pop Culture Halloween Costume Ideas 2024"

@@ -4,11 +4,11 @@ import HeroSection2a from './HeroSection2a'; // Importing HeroSection2a format
 
 const FeaturedGrid6 = () => {
   return (
-    <Box sx={{ width: '100%', padding: '5rem', backgroundColor: 'white' }}>
+    <Box sx={{ width: '80%', padding: '1rem', backgroundColor: 'white' , margin: '0 auto'}}>
       <Grid container spacing={1} justifyContent="center">
         {/* First Row */}
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <HeroSection2a
               featureText="QUIZ"
               headlineText="Animal Pretty - Which one are you?"
@@ -20,7 +20,7 @@ const FeaturedGrid6 = () => {
         </Grid>
 
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <Box sx={{ height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <HeroSection2a
               featureText="POP CULTURE"
               headlineText='Elphaba “The Wicked Witch of The West” Makeup Tutorial💚'
@@ -32,7 +32,7 @@ const FeaturedGrid6 = () => {
         </Grid>
 
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <HeroSection2a
               featureText="FEATURED"
               headlineText="Ariana Grande as Glinda Makeup – Wicked the Movie "
@@ -45,7 +45,7 @@ const FeaturedGrid6 = () => {
 
         {/* Second Row */}
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <Box sx={{ height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <HeroSection2a
       featureText="HAIR"
       headlineText="Dragon Braid: Easy Pull-Through Braid Tutorial for Beginners"
@@ -56,7 +56,7 @@ const FeaturedGrid6 = () => {
         </Grid>
 
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <Box sx={{ height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <HeroSection2a
               featureText="LATEST"
               headlineText="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll "
@@ -68,7 +68,7 @@ const FeaturedGrid6 = () => {
         </Grid>
 
         <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '70vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <Box sx={{ height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <HeroSection2a
               featureText="LATEST"
               headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 "
