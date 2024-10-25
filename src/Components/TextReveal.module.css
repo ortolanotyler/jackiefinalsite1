@@ -36,11 +36,14 @@
 @media (max-width: 600px) {
   .hero {
     height: 14vh;
+    padding-top: 50px;
   }
 }
 
 @media (max-width: 400px) {
   .hero {
     height: 12vh;
+    padding-top: 50px;
+
   }
 }
