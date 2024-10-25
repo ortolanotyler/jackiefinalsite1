@@ -46,14 +46,14 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
 
   const imageStyle = {
     width: '100%',
-    height: 'auto',
-    maxHeight: '450px',
+    height: '500px',
+    
     objectFit: 'cover',
   };
 
   const contentStyle = {
-    height: '20vh',
-    padding: '10px',
+    height: '150px',
+    padding: '1rem',
     textAlign: 'left',
     fontFamily: 'GFS Didot, sans-serif',
   };
@@ -98,7 +98,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
   };
 
   return (
-    <Grid item xs={12} style={{ height: '100%' }}> {/* Grid item with full height */}
+    <Grid item xs={12} style={{ height: '90%' }}> {/* Grid item with full height */}
       <a href={linkUrl} style={heroLinkStyle}>
         <div style={cardStyle}>
           {/* Image Section */}

@@ -9,7 +9,7 @@ const Grid3Across1 = () => {
       
         {/* Second Row */}
         <Grid item xs={12} sm={6} md={6} lg={4}>
-        <Box sx={{ width: '100%', height: 'auto',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <HeroSection2a
               featureText="HALLOWEEN"
               headlineText="Girly Pop Culture Halloween Costume Ideas 2024"
