@@ -23,7 +23,6 @@ const AdSenseAd = () => {
 
   return (
     <>
-    <HorizontalLine/>
     <div style={{ justifyContent: 'center', margin: '20px auto' }}>
       <ins 
         className="adsbygoogle"
@@ -34,7 +33,6 @@ const AdSenseAd = () => {
         data-full-width-responsive="false"
       ></ins>
     </div>
-    <HorizontalLine/>
 
     </>
     
