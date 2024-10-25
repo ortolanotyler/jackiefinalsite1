@@ -138,6 +138,7 @@ import Quiz4Bridgerton from './Quiz/QuizResultPages/Quiz4/Quiz4bridgerton';
 import Quiz4Ariel from './Quiz/QuizResultPages/Quiz4/Quiz4Ariel';
 import Quiz4Taylor from './Quiz/QuizResultPages/Quiz4/Quiz4Taylor';
 import DragonBraid from './Articles/Tutorials/PopCulture/DragonBraid';
+import Quiz5 from './Quiz/Quiz5';
 
 
 function usePageTracking() {
@@ -301,6 +302,7 @@ function App() {
             <Route path="/quiz/halloween/britney" element={<Quiz4Britney />} />
             <Route path="/quiz/halloween/taylor" element={<Quiz4Taylor />} />
             <Route path="/articles/dragon-braid" element={<DragonBraid />} />
+            <Route path="/quiz/male-female-gaze" element={<Quiz5 />} />
 
             
             <Route path="*" element={<NotFound/>} />
