@@ -102,7 +102,7 @@ function HomePage() {
 
 
     
-<AdSenseAd/>
+
 
 
 
@@ -115,7 +115,7 @@ function HomePage() {
 
 <TextRevealHomePage text="🎃 HALLOWEEN COSTUME QUIZ 🎃"  width="100%" fontSize="1rem" backgroundColor='#fdedef' />
 
-
+<AdSenseAd/>
 
 
         <Quiz4 />
