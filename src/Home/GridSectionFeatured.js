@@ -47,11 +47,12 @@ const FeaturedGrid6 = () => {
         <Grid item xs={12} sm={6} md={6} lg={4}>
           <Box sx={{ height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <HeroSection2a
-      featureText="HAIR"
-      headlineText="Dragon Braid: Easy Pull-Through Braid Tutorial for Beginners"
-      imagePath="DragonBraid/dragonbraidthumbnail.jpg"
-      linkUrl="/articles/dragon-braid"
-    />
+              featureText="FEATURED"
+              headlineText="Our Fairytale Wedding Overlooking Sorrento, Italy"
+              imagePath="FairytaleWedding/fairytalethumbnail.webp"
+              linkUrl="/fairytalewedding"
+              isFlipped={true}
+            />
           </Box>
         </Grid>
 
