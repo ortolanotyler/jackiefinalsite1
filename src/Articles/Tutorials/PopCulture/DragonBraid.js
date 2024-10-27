@@ -252,6 +252,8 @@ const DragonBraid = () => {
   
 </div>
 
+<br/>
+
 <div 
 style = {{
 textAlign: 'center',
@@ -268,6 +270,7 @@ textAlign: 'center',
 
 </div>
 
+<br/>
 
 
 
@@ -277,17 +280,20 @@ style = {headingStyle}
 How To Do A Dragon Braid Step By Step:
 
 </h1>
+<br/>
 
 <h2
 style = {headingStyle}
 > 
 Getting Started:
 </h2>
+<br/>
 
 <p style={paragraphStyle}>
 Begin by tying your hair into a high ponytail. It’s easiest to start this style by working in front of a mirror with your pony hanging in front of your face! Dive into the technique with our mini tutorial below, and continue reading for detailed steps!
 
 </p>
+<br/>
 
 
 <h2
@@ -295,12 +301,14 @@ style = {headingStyle}
 > 
 Prepare Your Ponytail:
 </h2>
+<br/>
 
 <p style={paragraphStyle}>
 Flip your hair upside down and gather it into a high ponytail using a strong hair elastic.
 
 </p>
 
+<br/>
 
 
 
@@ -308,21 +316,25 @@ Flip your hair upside down and gather it into a high ponytail using a strong hai
 Create the Dragon Braid:
 
 </h2>
+<br/>
 
 <p style={paragraphStyle}>
 1. Divide the ponytail in half.
 </p>
+<br/>
 
 <p style={paragraphStyle}>
 
 2. Take the bottom half and split it into two pieces. Spread these pieces outward and loop them over the top section, securing with a mini plastic elastic. Avoid regular elastics as they can be too visible.
 </p>
 
+<br/>
 
 <p style={paragraphStyle}>
 3. Continue this method: Divide the lower section in half each time and loop over the top, securing as you go.
 
 </p>
+<br/>
 
 
 <p style={paragraphStyle}>
@@ -330,6 +342,7 @@ Create the Dragon Braid:
 
 </p>
 
+<br/>
 
 
 <h2 style={headingStyle}>
@@ -337,6 +350,7 @@ Accessorize:
 
 </h2>
 
+<br/>
 
 <p style={paragraphStyle}>
 Enhance the volume and style with a big scrunchie or bow.
@@ -371,6 +385,7 @@ Enhance the volume and style with a big scrunchie or bow.
   />
 </div>
 
+<br/>
 
 
 
@@ -380,6 +395,7 @@ Enhance the volume and style with a big scrunchie or bow.
 
 Have you Mastered the faux French braid with rubber bands/a pull-through braid method?
 </p>
+<br/>
 
 <h2 style={headingStyle}>
 
@@ -401,22 +417,26 @@ textAlign: 'center',
 ></iframe>
 </div>
 
+<br/>
 
 
 <h2 style = {headingStyle}>
 Dragon Braid with Twists: Step-by-Step Guide
 
 </h2>
+<br/>
 
 <p style={paragraphStyle}>
 
 1. Prepare Your Hair: Leave your hair down and push the length behind your shoulders.
 </p>
+<br/>
 
 <p style={paragraphStyle}>
 
 2. Section and Secure: Take two small sections of hair from above your ears and secure them at the back with a plastic elastic.
 </p>
+<br/>
 
 
 
@@ -424,10 +444,12 @@ Dragon Braid with Twists: Step-by-Step Guide
 
 3. Start the Twist: Flip the bottom of the mini ponytail up and under to create a twist.
 </p>
+<br/>
 
 <p style={paragraphStyle}>
 4. Repeat for Volume: Continue this process, slightly pulling apart the twists for added volume, until you reach the nape of your neck.
 </p>
+<br/>
 
 
 
@@ -436,11 +458,13 @@ Dragon Braid with Twists: Step-by-Step Guide
 Integrate with Dragon Braid: Combine this twisting method with the dragon braid technique from the first tutorial for a layered and intricate finish.
 
 </p>
+<br/>
 
 <p style={paragraphStyle}>
 
 Final Fluff: After each section is secured with an elastic, flip the bottom up and through to fluff out, creating a gorgeously detailed braid.
 </p>
+<br/>
 
 
 
@@ -449,6 +473,7 @@ Styling Tips:
 
 </h2>
 
+<br/>
 
 <p style={paragraphStyle}>
 Finish this look by curling the ends, or add a little bun and a big bow to keep the ends as full and voluminous as the braid itself.
@@ -481,6 +506,7 @@ Finish this look by curling the ends, or add a little bun and a big bow to keep 
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
+<br/>
 
 
 
@@ -490,21 +516,25 @@ Finish this look by curling the ends, or add a little bun and a big bow to keep 
 I’d Love to See Your Style!
 
 </h2>
+<br/>
 
 <p style={paragraphStyle}>
 If you try out these faux braid techniques, please tag me <a href = 'https://instagram.com/jackiewyers' target = '_blank' rel= 'noreferrer'>@jackiewyers</a>! I’d love to feature your beautiful creations on our site. If you like these Pinterest hairstyles, pin the photos on Pinterest & save to a board to try later.
 </p>
+<br/>
 
 
 
 <h2 style={headingStyle}>
 Looking for more hair videos?
 </h2>
+<br/>
 
 <p style={paragraphStyle}>
 
 Check out my <a href = 'https://www.youtube.com/playlist?list=PL-_qSuEl3UwH-XS-K6fjlBsDErEGaX5ll' target = '_blank' rel='noreferrer'> playlist</a> on YouTube, 'All About Hair'!
 </p>
+<br/>
 
 
 
@@ -542,6 +572,7 @@ Check out my <a href = 'https://www.youtube.com/playlist?list=PL-_qSuEl3UwH-XS-K
     allowFullScreen
   ></iframe>
 </div>
+<br/>
 
 
 
@@ -559,6 +590,7 @@ Check out my <a href = 'https://www.youtube.com/playlist?list=PL-_qSuEl3UwH-XS-K
     <img src={signature} alt="jackie wyers end of article signature" style={{ width: '100%' }} />
 
 <div>
+<br/>
 
 <Comments website-id={websiteId} page-id={"dragonbronzon"} />
 
