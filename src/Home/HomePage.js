@@ -20,7 +20,7 @@ import NewsletterSlider from './NewsletterSlider';
 
 
 function HomePage() {
-  const isMobile = useMediaQuery('(max-width:600px)'); // Check if the screen size is mobile
+  const isMobile = useMediaQuery('(max-width:650px)'); // Check if the screen size is mobile
 
 
   return (
@@ -78,7 +78,7 @@ function HomePage() {
 
     
       {/* Flex container for sections */}
-      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px', pt: { xs: '0px', md: '0px' } }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem', pt: { xs: '0px', md: '0px' } }}>
         {/* Conditionally show TextRevealHomePage on larger screens */}
         {!isMobile && (
           <>
