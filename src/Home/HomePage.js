@@ -105,12 +105,13 @@ function HomePage() {
 
 <div
 style = {{
-  margin : '0 auto',
+  margin : '10px auto',
   
 }}
 >
-<TextBanner2 text="FEATURE" height="150px" width="100%" fontSize="3rem"  />
 <AdSenseAd/>
+<TextBanner2 text="FEATURE" height="150px" width="100%" fontSize="3rem"  />
+
 </div>
 
 
