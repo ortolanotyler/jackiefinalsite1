@@ -120,7 +120,6 @@ function HomePage() {
         <Quiz4 />
 
         
-<AdSenseAd/>
 
     
 <div>
@@ -133,7 +132,6 @@ function HomePage() {
 
 <Grid3Across1/>
 
-<AdSenseAd/>
 
 
 
@@ -161,7 +159,6 @@ function HomePage() {
 
 <NewsletterSlider/>
 
-<AdSenseAd/>
      
 
  
@@ -174,8 +171,7 @@ function HomePage() {
    
 
        
-       <AdSenseAd/>
-        <TextBanner2 text="VINTAGE VIBES"  height="100px" width="100%" fontSize="1rem" margin='0 auto' />
+               <TextBanner2 text="VINTAGE VIBES"  height="100px" width="100%" fontSize="1rem" margin='0 auto' />
         <VintageVibesCards/>
 
       
