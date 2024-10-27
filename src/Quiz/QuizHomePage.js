@@ -79,15 +79,7 @@ const QuizHomepage = () => {
                 <EmailSubscribe/>
                 </div>
 
-        <Grid item xs={12}>
-                      <AdSenseAd />
-                </Grid>
-                <Grid item xs={12}>
-                      <AdSenseAd />
-                </Grid>
-                <Grid item xs={12}>
-                      <AdSenseAd />
-                </Grid>
+
 
                 
             </Grid>
