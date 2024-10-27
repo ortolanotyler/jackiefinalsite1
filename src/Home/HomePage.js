@@ -7,7 +7,6 @@ import RotatingText from '../Navigation/AppBar/RotatingText';
 import QuiltedImageList1 from './ImageGridTutorials';
 import HorizontalLine from '../Components/HorizontalLine';
 import { useMediaQuery } from '@mui/material';
-import AdSenseAd from './Adsense';
 import Quiz4 from '../Quiz/Quiz4';
 import SixGridComponent from './GridSectionArticles6';
 import FeaturedGrid6 from './GridSectionFeatured';
@@ -15,6 +14,7 @@ import TextReveal from '../Components/TextReveal';
 import Grid3Across1 from './Grid3Across1';
 import VintageVibesCards from './GridVintageVibes';
 import NewsletterSlider from './NewsletterSlider';
+import AdSenseAd from './Adsense';
 
 
 
@@ -119,7 +119,13 @@ function HomePage() {
 
         <Quiz4 />
 
-        
+        <div style = {{
+        margin : '1rem auto',
+
+      }
+      }>
+        <AdSenseAd/>
+      </div>
 
     
 <div>
@@ -138,7 +144,13 @@ function HomePage() {
 
         
      
+<div style = {{
+        margin : '1rem auto',
 
+      }
+      }>
+        <AdSenseAd/>
+      </div>
 
     
 
@@ -155,7 +167,13 @@ function HomePage() {
 
 <FeaturedGrid6/>
 
-<HorizontalLine/>
+<div style = {{
+        margin : '1rem auto',
+
+      }
+      }>
+        <AdSenseAd/>
+      </div>
 
 <NewsletterSlider/>
 
@@ -163,7 +181,13 @@ function HomePage() {
 
  
         <TextBanner2 text="TRAVEL"  height="100px" width="100%" fontSize="1rem" margin='0 auto' />
-      
+      <div style = {{
+        margin : '1rem auto',
+
+      }
+      }>
+        <AdSenseAd/>
+      </div>
       
        
         
