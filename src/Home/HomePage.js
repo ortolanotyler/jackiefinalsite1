@@ -109,7 +109,7 @@ style = {{
   
 }}
 >
-<AdSenseAd/>
+
 <TextBanner2 text="FEATURE" height="150px" width="100%" fontSize="3rem"  />
 
 </div>
