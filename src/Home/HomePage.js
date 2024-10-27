@@ -103,20 +103,11 @@ function HomePage() {
  
 
 
-<div
-style = {{
-  margin : '10px auto',
-  
-}}
->
-
-<TextBanner2 text="FEATURE" height="150px" width="100%" fontSize="3rem"  />
-
-</div>
 
 
 <TextRevealHomePage text="🎃 HALLOWEEN COSTUME QUIZ 🎃"  width="100%" backgroundColor='#fdedef' />
 
+<TextBanner2 text="FEATURE" height="100px" width="100%"  fontSize= '24px' />
 
 
 
