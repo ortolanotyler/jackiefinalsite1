@@ -5,7 +5,11 @@ import './NewsletterSlider.module.css'; // Ensure this file exists
 import HorizontalLine from '../Components/HorizontalLine';
 import EmailSubscribe from '../Components/EmailSubscribe';
 
+// Array of images, properly formatted for Cloudinary URLs with f_auto
 const images = [
+  'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1730043768/Screenshot_2024-10-27_at_11.41.44_AM_ccjxjz.png',
+  'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1730043772/Screenshot_2024-10-27_at_11.41.55_AM_jh2pbw.png',
+  'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1730043774/Screenshot_2024-10-27_at_11.42.09_AM_kfrvei.png',
   `${process.env.PUBLIC_URL}/Images/Newsletter17A.png`,
   `${process.env.PUBLIC_URL}/Images/Newsletter17B.png`,
   `${process.env.PUBLIC_URL}/Images/Newsletter17C.png`,
@@ -19,8 +23,6 @@ const images = [
   `${process.env.PUBLIC_URL}/Images/7.png`,
   `${process.env.PUBLIC_URL}/Images/8.png`,
   `${process.env.PUBLIC_URL}/Images/9.png`,
-
-
 ];
 
 const NewsletterSlider = () => {
@@ -36,34 +38,28 @@ const NewsletterSlider = () => {
 
   return (
     <React.Fragment>
-           {/* Typography below the slider */}
-           <Typography 
+      {/* Typography below the slider */}
+      <Typography 
         variant="h2" 
         align="center" 
         sx={{ 
-          
-     
           fontFamily: 'Playfair Display, sans-serif', 
           margin: '0 auto',
-          padding: '20px ',
-          maxWidth: '100%',
+          padding: '20px',
+          maxWidth: '90%',
           color: '#000000', 
         }}
       >
         Sign up for the weekly newsletter!
-      
       </Typography>
 
-   
 
-      <EmailSubscribe />
-     
-      <HorizontalLine/>
+      <HorizontalLine />
+
       <Box 
         className="sliderContainer" 
         sx={{ 
           position: 'relative', 
-        
           width: '100%', 
           maxWidth: '500px', 
           height: 'auto', 
@@ -71,7 +67,6 @@ const NewsletterSlider = () => {
           alignItems: 'center', 
           justifyContent: 'center',
           margin: '1rem auto', // Centering the Box within its container
-          
         }}
       >
         <img
@@ -94,6 +89,7 @@ const NewsletterSlider = () => {
         >
           <ArrowBack />
         </IconButton>
+
         <IconButton
           className="nextButton"
           sx={{ position: 'absolute', top: '50%', right: '10px', transform: 'translateY(-50%)', color: 'black' }}
@@ -102,9 +98,10 @@ const NewsletterSlider = () => {
           <ArrowForward />
         </IconButton>
       </Box>
-      <HorizontalLine/>
 
- 
+      <HorizontalLine />
+      <EmailSubscribe />
+
     </React.Fragment>
   );
 };

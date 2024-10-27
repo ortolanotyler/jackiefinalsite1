@@ -10,11 +10,7 @@ const Footer = () => {
     return (
         <>
         
-<div
-style = {{textAlign: 'center' , margin: '1rem auto'}}
->
-<SubscribeButton/>
-</div>
+
          <div style={{ width: '100%', overflowX: 'hidden' }}>
             <SwitchUpYour />
             <footer style={{

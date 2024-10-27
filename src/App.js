@@ -8,7 +8,6 @@ import { EmailProvider } from './Components/EmailContext';
 
 import Sitemap from './Navigation/SiteMap/SiteMap';
 import EmailSubscribe from './Components/EmailSubscribe';
-import EmailList from './Components/EmailList';
 import MediaKit from './Navigation/Footer/MediaKit';
 import Yardley65 from './Articles/Tutorials/VintageVibes/Yardley1965';
 import VictoriaSecret from './Articles/Tutorials/PopCulture/VictoriaSecret';
@@ -127,8 +126,7 @@ import Quiz2Homepage from './Quiz/Quiz2HomePage';
 import Rory from './Articles/Tutorials/PopCulture/Rory';
 import Wicked from './Articles/Tutorials/VintageVibes/Wicked';
 import Wicked2 from './Articles/Tutorials/VintageVibes/Wicked2';
-import Elphaba from './Articles/Tutorials/VintageVibes/Elphaba';
-import Quiz4 from './Quiz/Quiz4';
+
 import YSL from './Quiz/QuizResultPages/Quiz4/Quiz4YSL';
 import Quiz4Barbie from './Quiz/QuizResultPages/Quiz4/Quiz4barbie';
 import Quiz4Britney from './Quiz/QuizResultPages/Quiz4/Quiz4britney';
@@ -139,6 +137,7 @@ import Quiz4Ariel from './Quiz/QuizResultPages/Quiz4/Quiz4Ariel';
 import Quiz4Taylor from './Quiz/QuizResultPages/Quiz4/Quiz4Taylor';
 import DragonBraid from './Articles/Tutorials/PopCulture/DragonBraid';
 import Quiz5 from './Quiz/Quiz5';
+import EmailSubscribe2 from './Components/EmailSubscribe2';
 
 
 function usePageTracking() {
@@ -221,9 +220,8 @@ function App() {
             <Route path="diary" element={<DiaryHome />} />
             <Route path="diaryfillers" element={<DiaryPost1Fillers />} />
             <Route path="sitemap" element={<Sitemap />} />
-            <Route path="subscribe" element={<EmailSubscribe />} />
+            <Route path="subscribe" element={<EmailSubscribe2 />} />
             <Route path="emailsubscribe" element={<EmailSubscribe />} />
-            <Route path="email123" element={<EmailList />} />
             <Route path="press" element={<MediaKit />} />
             <Route path="privacy" element={<PrivacyNotice />} />
             <Route path="contact" element={<BusinessContact />} />
