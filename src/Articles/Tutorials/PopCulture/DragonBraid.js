@@ -248,7 +248,6 @@ const DragonBraid = () => {
   <DropCap1 text="Ever wondered how to achieve a voluminous, braided look without complex braiding skills? Discover the dragon braid, also known as a pull-through braid, perfect for long hair. This tutorial will guide you through the simple steps of creating this stunning hairstyle using rubber bands, ideal for any occasion. Start by securing your hair into a high ponytail and follow the steps below for a flawless finish.  
   "/>
 
-<AdSenseAd/>
 
   
 </div>
@@ -269,7 +268,6 @@ textAlign: 'center',
 
 </div>
 
-<AdSenseAd/>
 
 
 
@@ -291,7 +289,6 @@ Begin by tying your hair into a high ponytail. It’s easiest to start this styl
 
 </p>
 
-<AdSenseAd/>
 
 <h2
 style = {headingStyle}
@@ -305,7 +302,6 @@ Flip your hair upside down and gather it into a high ponytail using a strong hai
 </p>
 
 
-<AdSenseAd/>
 
 
 <h2 style = {headingStyle}>
@@ -322,7 +318,6 @@ Create the Dragon Braid:
 2. Take the bottom half and split it into two pieces. Spread these pieces outward and loop them over the top section, securing with a mini plastic elastic. Avoid regular elastics as they can be too visible.
 </p>
 
-<AdSenseAd/>
 
 <p style={paragraphStyle}>
 3. Continue this method: Divide the lower section in half each time and loop over the top, securing as you go.
@@ -335,7 +330,6 @@ Create the Dragon Braid:
 
 </p>
 
-<AdSenseAd/>
 
 
 <h2 style={headingStyle}>
@@ -377,7 +371,6 @@ Enhance the volume and style with a big scrunchie or bow.
   />
 </div>
 
-<AdSenseAd/>
 
 
 
@@ -407,7 +400,6 @@ textAlign: 'center',
   allowFullScreen
 ></iframe>
 </div>
-<AdSenseAd/>
 
 
 
@@ -426,7 +418,6 @@ Dragon Braid with Twists: Step-by-Step Guide
 2. Section and Secure: Take two small sections of hair from above your ears and secure them at the back with a plastic elastic.
 </p>
 
-<AdSenseAd/>
 
 
 <p style={paragraphStyle}>
@@ -438,7 +429,6 @@ Dragon Braid with Twists: Step-by-Step Guide
 4. Repeat for Volume: Continue this process, slightly pulling apart the twists for added volume, until you reach the nape of your neck.
 </p>
 
-<AdSenseAd/>
 
 
 
@@ -452,7 +442,6 @@ Integrate with Dragon Braid: Combine this twisting method with the dragon braid 
 Final Fluff: After each section is secured with an elastic, flip the bottom up and through to fluff out, creating a gorgeously detailed braid.
 </p>
 
-<AdSenseAd/>
 
 
 <h2 style={headingStyle}>
@@ -493,7 +482,6 @@ Finish this look by curling the ends, or add a little bun and a big bow to keep 
   />
 </div>
 
-<AdSenseAd/>
 
 
 
@@ -507,7 +495,6 @@ I’d Love to See Your Style!
 If you try out these faux braid techniques, please tag me <a href = 'https://instagram.com/jackiewyers' target = '_blank' rel= 'noreferrer'>@jackiewyers</a>! I’d love to feature your beautiful creations on our site. If you like these Pinterest hairstyles, pin the photos on Pinterest & save to a board to try later.
 </p>
 
-<AdSenseAd/>
 
 
 <h2 style={headingStyle}>
@@ -531,7 +518,6 @@ Check out my <a href = 'https://www.youtube.com/playlist?list=PL-_qSuEl3UwH-XS-K
 
 
 
-<AdSenseAd/>
 
 
 
@@ -558,7 +544,6 @@ Check out my <a href = 'https://www.youtube.com/playlist?list=PL-_qSuEl3UwH-XS-K
 </div>
 
 
-<AdSenseAd/>
 
 
 
@@ -581,11 +566,7 @@ Check out my <a href = 'https://www.youtube.com/playlist?list=PL-_qSuEl3UwH-XS-K
 
 
 
-     <AdSenseAd/>
-     <AdSenseAd/>
-     <AdSenseAd/>
-     <AdSenseAd/>
-      
+                          
     </div>
     
   );
