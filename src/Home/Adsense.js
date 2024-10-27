@@ -1,5 +1,4 @@
-import React, { useEffect, useRef } from 'react';
-import HorizontalLine from '../Components/HorizontalLine';
+import React, { useEffect } from 'react';
 
 const AdSenseAd = () => {
   useEffect(() => {
@@ -22,20 +21,24 @@ const AdSenseAd = () => {
   }, []);
 
   return (
-    <>
-    <div style={{ justifyContent: 'center', margin: '20px auto' }}>
+    <div style={{ justifyContent: 'center', margin: '20px auto', minHeight: '300px', padding: '10px' }}>
       <ins 
         className="adsbygoogle"
-        style={{ display: 'block' }}
+        style={{ 
+          display: 'block', 
+          minHeight: '300px',  // Ensure sufficient height
+          width: '100%', 
+          maxWidth: '700px', 
+          margin: '0 auto', 
+          padding: '10px', 
+          border: '1px solid transparent'  // Optional for layout clarity
+        }}
         data-ad-client="ca-pub-4660168246825318" 
         data-ad-slot="3426882419"  // Ensure unique ad slot
         data-ad-format="auto"
-        data-full-width-responsive="false"
+        data-full-width-responsive="true"
       ></ins>
     </div>
-
-    </>
-    
   );
 };
 
