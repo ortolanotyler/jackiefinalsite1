@@ -49,7 +49,7 @@ const DragonBraid = () => {
     textAlign: 'center',
     fontSize: '2.5rem',
     fontWeight: '400',
-    fontFamily: "'Playfair Display', serif",
+    fontFamily: "'Playfair Display', sans-serif",
     color: '#000000',
     maxWidth: '95%',
   
@@ -61,7 +61,7 @@ const DragonBraid = () => {
   fontSize: '20px',
   color: '#000000',
   
-  fontFamily: "'Open Sans', serif",
+  fontFamily: "'Playfair Display', sans-serif",
   fontWeight: '100',
   padding: '10px',
   margin: '10px auto',
@@ -298,6 +298,8 @@ Begin by tying your hair into a high ponytail. It’s easiest to start this styl
 
 </p>
 
+<AdSenseAd/>
+
 <h2
 style = {headingStyle}
 > 
@@ -326,6 +328,8 @@ Create the Dragon Braid:
 
 2. Take the bottom half and split it into two pieces. Spread these pieces outward and loop them over the top section, securing with a mini plastic elastic. Avoid regular elastics as they can be too visible.
 </p>
+
+<AdSenseAd/>
 
 <p style={paragraphStyle}>
 3. Continue this method: Divide the lower section in half each time and loop over the top, securing as you go.
@@ -585,7 +589,9 @@ Check out my <a href = 'https://www.youtube.com/playlist?list=PL-_qSuEl3UwH-XS-K
 
 
      <AdSenseAd/>
-    
+     <AdSenseAd/>
+     <AdSenseAd/>
+     <AdSenseAd/>
       
     </div>
     
