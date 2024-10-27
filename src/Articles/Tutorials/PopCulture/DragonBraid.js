@@ -11,13 +11,6 @@ import SocialShare from '../../../Home/SocialShare';
 import AdSenseAd from '../../../Home/Adsense';
 
 
-const image1 = `${process.env.PUBLIC_URL}/Images/DragonBraid/1.JPG`;
-const image2 = `${process.env.PUBLIC_URL}/Images/DragonBraid/2.JPG`;
-const image3 = `${process.env.PUBLIC_URL}/Images/DragonBraid/3.JPG`;
-const image4 = `${process.env.PUBLIC_URL}/Images/DragonBraid/4.jpeg`;
-const image5 = `${process.env.PUBLIC_URL}/Images/DragonBraid/5.jpeg`;
-const image6 = `${process.env.PUBLIC_URL}/Images/DragonBraid/6.jpeg`;
-const image8 = `${process.env.PUBLIC_URL}/Images/DragonBraid/7.jpeg`;
 
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
