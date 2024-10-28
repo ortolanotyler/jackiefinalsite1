@@ -104,10 +104,10 @@ function HomePage() {
 
 
 
+        <TextBanner2 text="FEATURE" height="100%" width="100%"  fontSize= '1rem' />
 
-<TextRevealHomePage text="🎃 HALLOWEEN COSTUME QUIZ 🎃"  width="100%" backgroundColor='#fdedef' />
+        <TextRevealHomePage text="🎃 HALLOWEEN COSTUME QUIZ 🎃"  width="100%" backgroundColor='white' />
 
-<TextBanner2 text="FEATURE" height="100px" width="100%"  fontSize= '24px' />
 
 
 
@@ -194,7 +194,7 @@ function HomePage() {
        <SixGridComponent/>
    
 
-       <HorizontalLine/>
+      
 
                <TextBanner2 text="VINTAGE VIBES"  height="100px" width="100%" fontSize="1rem" margin='0 auto' />
        
