@@ -1,7 +1,7 @@
 
 .hero {
   width:100%;
-  height: 150px;
+  height: 175px;
   background-color: #FDEDEF;
   border-radius: 1px;
   display: grid;
@@ -14,7 +14,7 @@
   opacity: 0;
   animation: fade-in 1s forwards;
   font-family: 'Arapey', sans-serif; /* Set font to Arapey only */
-  font-size: clamp(0.5rem, 6vw, 4rem); /* Responsive font size */
+  font-size: 46px; /* Responsive font size */
   text-align: center; /* Center-align the text */
   font-weight: normal;
   white-space: pre-wrap; /* Allow wrapping on spaces and break text to fit */

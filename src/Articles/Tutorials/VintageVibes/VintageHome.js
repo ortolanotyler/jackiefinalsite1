@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import styles from '../aaa.module.css'; // Import CSS Modules
 import TextReveal from '../../../Components/TextReveal';
+import VintageVibesCards from '../../../Home/GridVintageVibes';
 
 
 // Importing the images
@@ -99,18 +100,7 @@ const VintageVibes = () => {
     <div>
       <div><TextReveal text= 'TIME TRAVEL TUTORIALS' /></div>
    
-      <ul className={styles.cardList}>
-        {cardsData.map((card, index) => (
-          <Card
-            key={index}
-            link={card.link}
-            image={card.image}
-            alt={card.alt}
-            title={card.title}
-            description={card.description}
-          />
-        ))}
-      </ul>
+  <VintageVibesCards/>
     </div>
   );
 };

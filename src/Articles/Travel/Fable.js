@@ -61,25 +61,26 @@ const Fable = () => {
     const blogRef = useRef(null);
 
 
-
     const headingStyle = {
       textAlign: 'center',
       fontSize: '2.5rem',
-      fontWeight: '400',
-      fontFamily: "'Playfair Display', serif",
+      fontWeight: '100',
+      fontFamily: "'Playfair Display', sans-serif",
       color: '#000000',
       maxWidth: '95%',
     
-      margin: '30px auto'
+      margin: '10px auto'
     };
     
+    
+  
     
     const paragraphStyle = {
     fontSize: '20px',
     color: '#000000',
     
-    fontFamily: "'Open Sans', serif",
-    fontWeight: '100',
+    fontFamily: "'EB Garamond', serif",
+    fontWeight: '400',
     padding: '10px',
     margin: '10px auto',
     
@@ -90,11 +91,10 @@ const Fable = () => {
     
     const linkStyle = {
     textDecoration: 'none', // Removes underline from links
-    fontFamily: "'Open Sans', serif",
+    fontFamily: "'Georgia', serif",
     fontWeight: '100',
     color: '#745B4F', // Inherits the color of the surrounding text
     };
-    
     const gridContainerStyle = {
       display: 'grid',
       gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
@@ -114,7 +114,7 @@ const Fable = () => {
     gap: '1rem',
     gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
     justifyItems: 'center',
-    margin: '1rem 0',
+    margin: '1rem auto',
     };
     
     const iframeStyle = {

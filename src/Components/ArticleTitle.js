@@ -25,45 +25,47 @@ const styles = {
   container: {
     textAlign: 'left', // Align the text to the left
     marginBottom: '1rem',
+    width: '100%',
     maxWidth: '1500px', // Optional: limit the width of the container if needed
-    margin: '0 auto',
-    padding: '2rem auto', 
+    
 
   },
   mainTitle: {
     fontFamily: 'Playfair Display, sans-serif',
 
-    fontWeight: '100',
-    fontSize: '2.5rem', // Adjust as needed for responsiveness
+    fontWeight: '400',
+    fontSize: '50px', // Adjust as needed for responsiveness
     margin: '0 auto',
-    marginBotom: '1rem',
-
-    lineHeight: '1.2',
+    marginBottom: '1rem',
+    fontStyle: 'normal',
+    lineHeight: '1.15',
     color: '#000000',
   },
   subTitle: {
-    fontFamily: 'Arapey, sans-serif',
+    fontFamily: 'Montserrat, sans-serif', // Font for the author and date text
     fontWeight: '100',
-    fontSize: '0.95rem',
+    fontSize: '16px',
     fontStyle: 'italic',
-    margin: '20px 5px 0 0',
-    marginBottom: '1rem',
+    margin: '1rem auto',
+  
     color: '#000000',
   },
   authorContainer: {
     display: 'flex',
     justifyContent: 'space-between', // Spreads author and date to opposite sides
     fontSize: '12px',
-    marginTop: '20px',
+    margin: '20px auto',
   },
   author: {
     textTransform: 'uppercase',
-    fontFamily: 'Georgia, serif', // Font for the author and date text
+    fontFamily: 'Montserrat, sans-serif', // Font for the author and date text
     fontWeight: '100',
+    fontStyle: 'normal',
   },
   date: {
-    fontFamily: 'Georgia, serif', // Font for the author and date text
+    fontFamily: 'Montserrat, sans-serif', // Font for the author and date text
     fontWeight: '100',
+    fontStyle: 'normal',
   },
 };
 

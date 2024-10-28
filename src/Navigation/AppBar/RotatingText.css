@@ -12,20 +12,20 @@
   color: #745B4F;
   display: inline-block;
   animation: rotate-text 100s linear infinite;
-  letter-spacing: 0.075rem; /* Increases spacing between all characters */
-  font-size: 1rem; /* Default font size */
+  letter-spacing: 0.1em; /* Increases spacing between all characters */
+  font-size: 14px; /* Default font size */
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .rotating-text {
-    font-size: 1rem; /* Adjust font size for medium screens */
+    font-size: 14px; /* Adjust font size for medium screens */
   }
 }
 
 @media (max-width: 480px) {
   .rotating-text {
-    font-size: 1rem; /* Adjust font size for smaller screens */
+    font-size: 14px; /* Adjust font size for medium screens */
   }
 }
 

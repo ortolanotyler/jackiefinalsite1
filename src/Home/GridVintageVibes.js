@@ -46,19 +46,6 @@ const VintageVibesCards = () => {
           </Box>
         </Grid>
 
-        {/* Second Row */}
-        <Grid item xs={12} sm={6} md={6} lg={4}>
-        <Box sx={{ height: '100%', width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <HeroSection2a
-              featureText="VINTAGE VIBES"
-              headlineText="Coquette Sharon Tate 👰🏼"
-              author="10.21.2024"
-              imagePath="SharonTateBridal/SHARONTATEBRIDAL.jpeg"
-              linkUrl="/sharontatebridal"
-              isFlipped={false}
-            />
-          </Box>
-        </Grid>
 
         <Grid item xs={12} sm={6} md={6} lg={4}>
         <Box sx={{ height: '100%', width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>

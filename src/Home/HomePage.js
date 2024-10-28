@@ -83,7 +83,7 @@ function HomePage() {
         {!isMobile && (
           <>
                 <TextReveal text="JACKIE WYERS" style={{ backgroundColor: '#fdedef', }} />
-                <Paper elevation={1} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, sans-serif', borderRadius: '0px', color: '#745B4F', textAlign: 'center', marginTop: '0.01rem', padding: '0.5rem' }}>
+                <Paper elevation={0} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, sans-serif', borderRadius: '0px', color: '#745B4F', textAlign: 'center', marginTop: '0.01rem',  }}>
             <RotatingText />
           </Paper>
                     </>
@@ -142,17 +142,17 @@ function HomePage() {
 
       
 
+
+          <NewsletterSlider/>
+
+
           <TextBanner2 text="BEAUTY" height="100px" width="100%" fontSize="1rem" margin='0 auto' />
-
-
-
-
 
 <FeaturedGrid6/>
 
 
 
-<NewsletterSlider/>
+
 
      
 

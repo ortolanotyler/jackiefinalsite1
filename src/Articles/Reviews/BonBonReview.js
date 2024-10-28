@@ -48,7 +48,7 @@ const heading2Style = {
   textAlign: 'center',
   fontSize: '1.5rem',
   fontWeight: 'bold',
-  fontFamily: 'Playfair Display, serif',
+  fontFamily: 'Playfair Display, sans-serif',
   color: '#000000',
   margin: '30px auto',
   maxWidth: '100%', // Allow space for margins
@@ -57,9 +57,9 @@ const heading2Style = {
 
 const headingStyle = {
   textAlign: 'center',
-  fontSize: '2.5rem',
+  fontSize: '32px',
   fontWeight: '400',
-  fontFamily: "'Playfair Display', serif",
+  fontFamily: "'Playfair Display', sans-serif",
   color: '#000000',
   maxWidth: '95%',
 
@@ -71,7 +71,7 @@ const paragraphStyle = {
 fontSize: '20px',
 color: '#000000',
 
-fontFamily: "'Open Sans', serif",
+fontFamily: "'Playfair Display', sans-serif",
 fontWeight: '100',
 padding: '10px',
 margin: '10px auto',
@@ -83,8 +83,8 @@ margin: '10px auto',
 
 const linkStyle = {
 textDecoration: 'none', // Removes underline from links
-fontFamily: "'Open Sans', serif",
-fontWeight: '100',
+fontFamily: "'Georgia', serif",
+fontWeight: '400',
 color: '#745B4F', // Inherits the color of the surrounding text
 };
 

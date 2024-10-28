@@ -46,8 +46,8 @@ const HalfetiReview = () => {
   const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',
-    fontWeight: '400',
-    fontFamily: "'Playfair Display', serif",
+    fontWeight: '100',
+    fontFamily: "'Playfair Display', sans-serif",
     color: '#000000',
     maxWidth: '95%',
 
@@ -59,7 +59,7 @@ const paragraphStyle = {
   fontSize: '20px',
   color: '#000000',
   
-  fontFamily: "'Open Sans', serif",
+  fontFamily: "'Playfair Display', sans-serif",
   fontWeight: '100',
   padding: '10px',
   margin: '10px auto',
@@ -71,7 +71,7 @@ const paragraphStyle = {
 
 const linkStyle = {
   textDecoration: 'none', // Removes underline from links
-  fontFamily: "'Open Sans', serif",
+  fontFamily: "'Georgia', serif",
   fontWeight: '100',
   color: '#745B4F', // Inherits the color of the surrounding text
 };
