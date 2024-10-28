@@ -104,7 +104,7 @@ function HomePage() {
 
 
 
-        <TextBanner2 text="FEATURE" height="100%" width="100%"  fontSize= '1rem' />
+        <TextBanner2 text="FEATURE" height="100%" width="100%"  fontSize= '1rem' margin = '1rem auto' />
 
         <TextRevealHomePage text="🎃 HALLOWEEN COSTUME QUIZ 🎃"  width="100%" backgroundColor='white' />
 
@@ -119,19 +119,10 @@ function HomePage() {
 
         <Quiz4 />
 
-        <div style = {{
-        margin : '1rem auto',
-
-      }
-      }>
-        <AdSenseAd/>
-      </div>
-
-    
 <div>
-<TextBanner2 text="NEW & POPULAR"  height="100px" width="100%" fontSize="1rem" margin='0 auto' />
+<TextBanner2 text="NEW & POPULAR" height="100px" width="100%"  fontSize= '1rem' margin = '1rem auto' />
 
-<HorizontalLine/>
+
 </div>
 
 
@@ -143,14 +134,6 @@ function HomePage() {
 
 
         
-     
-<div style = {{
-        margin : '1rem auto',
-
-      }
-      }>
-        <AdSenseAd/>
-      </div>
 
     
 
@@ -167,28 +150,15 @@ function HomePage() {
 
 <FeaturedGrid6/>
 
-<div style = {{
-        margin : '1rem auto',
 
-      }
-      }>
-        <AdSenseAd/>
-      </div>
 
 <NewsletterSlider/>
 
      
 
  
-        <TextBanner2 text="TRAVEL"  height="100px" width="100%" fontSize="1rem" margin='0 auto' />
-      <div style = {{
-        margin : '1rem auto',
-
-      }
-      }>
-        <AdSenseAd/>
-      </div>
-      
+        <TextBanner2 text="TRAVEL"  height="100px" width="100%"  fontSize= '1rem' margin = '1rem auto' />
+    
        
         
        <SixGridComponent/>
@@ -196,12 +166,11 @@ function HomePage() {
 
       
 
-               <TextBanner2 text="VINTAGE VIBES"  height="100px" width="100%" fontSize="1rem" margin='0 auto' />
+               <TextBanner2 text="VINTAGE VIBES"  height="100px" width="100%"  fontSize= '1rem' margin = '1rem auto' />
        
         <VintageVibesCards/>
 
       
-<HorizontalLine/>
      
       
        

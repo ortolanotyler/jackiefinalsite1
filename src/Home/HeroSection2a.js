@@ -23,11 +23,11 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'flex-start',
-    maxHeight: '550px',
-    width: 'auto',
+    maxHeight: '650px',
+   maxWidth: '1600px',
     color: '#000000',
     backgroundColor: '#fdedef',
-    borderRadius: '10px',
+    borderRadius: '5px',
     overflow: 'hidden',
     border: '0.5px solid #745b4f',
     boxSizing: 'border-box',
@@ -35,8 +35,8 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
   };
 
   const imageContainerStyle = {
-    width: '100%',
-    height: 'auto',
+    width: 'auto',
+    height: '100%',
     flex: 1,
     position: 'relative',
     overflow: 'hidden',
@@ -44,13 +44,15 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
 
   const imageStyle = {
     width: '100%',
-    height: 'auto',
+    height: '450px',
     
     objectFit: 'cover',
   };
 
   const contentStyle = {
-    height: '175px',
+    minHeight: '200px',
+
+  
     paddingTop: '1rem',
     padding: '1.5rem',
 
@@ -98,7 +100,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
   };
 
   return (
-    <Grid item xs={12} style={{ height: '90%' }}> {/* Grid item with full height */}
+    <Grid item xs={12} style={{ height: '100%' }}> {/* Grid item with full height */}
       <a href={linkUrl} style={heroLinkStyle}>
         <div style={cardStyle}>
           {/* Image Section */}
