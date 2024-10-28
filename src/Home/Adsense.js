@@ -1,43 +1,42 @@
-import React, { useEffect, useRef } from 'react';
-import HorizontalLine from '../Components/HorizontalLine';
+import React, { useEffect } from 'react';
 
 const AdSenseAd = () => {
   useEffect(() => {
-    // Check if the ad element is already rendered to avoid multiple pushes
-    if (!window.adsbygoogle || window.adsbygoogle.length === 0) {
-      const script = document.createElement('script');
-      script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318';
-      script.async = true;
-      script.crossOrigin = 'anonymous';
-      document.body.appendChild(script);
+    // Load the Adsense script
+    const script = document.createElement('script');
+    script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318';
+    script.async = true;
+    script.crossOrigin = 'anonymous';
+    document.body.appendChild(script);
 
-      script.onload = () => {
-        try {
+    script.onload = () => {
+      try {
+        // Ensure adsbygoogle is defined and push an ad
+        if (window.adsbygoogle) {
           (window.adsbygoogle = window.adsbygoogle || []).push({});
-        } catch (e) {
-          console.error('Adsense error: ', e);
         }
-      };
-    }
+      } catch (e) {
+        console.error('Adsense error: ', e);
+      }
+    };
+
+    return () => {
+      // Optionally, you can clean up by removing the script when the component unmounts
+      document.body.removeChild(script);
+    };
   }, []);
 
   return (
-    <>
-    <HorizontalLine/>
     <div style={{ justifyContent: 'center', margin: '20px auto' }}>
-      <ins 
+      <ins
         className="adsbygoogle"
-        style={{ display: 'block' }}
-        data-ad-client="ca-pub-4660168246825318" 
-        data-ad-slot="3426882419"  // Ensure unique ad slot
-        data-ad-format="auto"
-        data-full-width-responsive="false"
+        style={{ display: 'block' }}  // style must be an object
+        data-ad-format="fluid"
+        data-ad-layout-key="-6l+e6+1d-4c+81"
+        data-ad-client="ca-pub-4660168246825318"
+        data-ad-slot="6901719843"
       ></ins>
     </div>
-    <HorizontalLine/>
-
-    </>
-    
   );
 };
 

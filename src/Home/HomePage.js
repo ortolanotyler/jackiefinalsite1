@@ -1,11 +1,10 @@
 import React from 'react';
-import { Box, Button, Grid, Paper } from '@mui/material';
+import { Box, Paper } from '@mui/material';
 import { Helmet } from 'react-helmet-async';
 import TextRevealHomePage from '../Components/TextRevealHomePage';
 import TextBanner2 from '../Components/TextBanner2';
 import RotatingText from '../Navigation/AppBar/RotatingText';
 import QuiltedImageList1 from './ImageGridTutorials';
-import HorizontalLine from '../Components/HorizontalLine';
 import { useMediaQuery } from '@mui/material';
 import Quiz4 from '../Quiz/Quiz4';
 import SixGridComponent from './GridSectionArticles6';
@@ -14,18 +13,12 @@ import TextReveal from '../Components/TextReveal';
 import Grid3Across1 from './Grid3Across1';
 import VintageVibesCards from './GridVintageVibes';
 import NewsletterSlider from './NewsletterSlider';
-import AdSenseAd from './Adsense';
-
-
-
+import AdSenseAd from './Adsense'; // Import your AdSense component
 
 function HomePage() {
   const isMobile = useMediaQuery('(max-width:650px)'); // Check if the screen size is mobile
 
-
   return (
-
-  
     <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
       <Helmet>
         <title>Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips</title>
@@ -76,107 +69,63 @@ function HomePage() {
         </script>
       </Helmet>
 
-    
       {/* Flex container for sections */}
       <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem', pt: { xs: '0px', md: '0px' } }}>
+        
         {/* Conditionally show TextRevealHomePage on larger screens */}
         {!isMobile && (
           <>
-                <TextReveal text="JACKIE WYERS" style={{ backgroundColor: '#fdedef', }} />
-                <Paper elevation={0} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, sans-serif', borderRadius: '0px', color: '#745B4F', textAlign: 'center', marginTop: '0.01rem',  }}>
-            <RotatingText />
-          </Paper>
-                    </>
-    
-
+            <TextReveal text="JACKIE WYERS" style={{ backgroundColor: '#fdedef' }} />
+            <Paper elevation={1} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, sans-serif', borderRadius: '0px', color: '#745B4F', textAlign: 'center', marginTop: '0.01rem', padding: '0.5rem' }}>
+              <RotatingText />
+            </Paper>
+          </>
         )}
+
   
 
-
-
-
-<div style={{ paddingTop: isMobile ? '50px' : '0px' }}>
-
+        <div style={{ paddingTop: isMobile ? '50px' : '0px' }}>
           <QuiltedImageList1 />
         </div>
 
- 
+        {/* Banner followed by AdSense ad */}
+        <AdSenseAd />
+        <TextBanner2 text="FEATURE" height="100%" width="100%" fontSize="1rem" margin="1rem auto" />
+  
 
-
-
-        <TextBanner2 text="FEATURE" height="100%" width="100%"  fontSize= '1rem' margin = '1rem auto' />
-
-        <TextRevealHomePage text="🎃 HALLOWEEN COSTUME QUIZ 🎃"  width="100%" backgroundColor='white' />
-
-
-
-
-
-
-
-
-
-
+        <TextRevealHomePage text="🎃 HALLOWEEN COSTUME QUIZ 🎃" width="100%" backgroundColor="white" />
         <Quiz4 />
 
-<div>
-<TextBanner2 text="NEW & POPULAR" height="100px" width="100%"  fontSize= '1rem' margin = '1rem auto' />
+        {/* AdSense ad before a new section */}
+        <AdSenseAd />
 
+        <TextBanner2 text="NEW & POPULAR" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
 
-</div>
+        <Grid3Across1 />
 
+        {/* AdSense ad after a grid section */}
+        <AdSenseAd />
 
+        <TextBanner2 text="BEAUTY" height="100px" width="100%" fontSize="1rem" margin="0 auto" />
+        <FeaturedGrid6 />
 
-<Grid3Across1/>
+        {/* AdSense ad before the Newsletter section */}
+        <AdSenseAd />
 
+        <NewsletterSlider />
 
+        <TextBanner2 text="TRAVEL" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
+        <SixGridComponent />
 
+        {/* AdSense ad between travel and vintage sections */}
+        <AdSenseAd />
 
+        <TextBanner2 text="VINTAGE VIBES" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
+        <VintageVibesCards />
 
-        
-
-    
-
-       
-
-
-      
-
-
-          <NewsletterSlider/>
-
-
-          <TextBanner2 text="BEAUTY" height="100px" width="100%" fontSize="1rem" margin='0 auto' />
-
-<FeaturedGrid6/>
-
-
-
-
-
-     
-
- 
-        <TextBanner2 text="TRAVEL"  height="100px" width="100%"  fontSize= '1rem' margin = '1rem auto' />
-    
-       
-        
-       <SixGridComponent/>
-   
-
-      
-
-               <TextBanner2 text="VINTAGE VIBES"  height="100px" width="100%"  fontSize= '1rem' margin = '1rem auto' />
-       
-        <VintageVibesCards/>
-
-      
-     
-      
-       
-     
-        
-       
+        {/* Optional final AdSense ad at the bottom */}
+        <AdSenseAd />
+        <AdSenseAd />
       </Box>
     </Box>
   );
