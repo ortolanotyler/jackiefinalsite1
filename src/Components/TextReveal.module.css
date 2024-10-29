@@ -14,7 +14,7 @@
   opacity: 0;
   animation: fade-in 1s forwards;
   font-family: 'Arapey', sans-serif; /* Set font to Arapey only */
-  font-size: 46px; /* Responsive font size */
+  font-size: 22px; /* Responsive font size */
   text-align: center; /* Center-align the text */
   font-weight: normal;
   white-space: pre-wrap; /* Allow wrapping on spaces and break text to fit */
