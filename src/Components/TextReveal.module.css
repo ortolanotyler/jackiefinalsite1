@@ -21,7 +21,7 @@
   overflow-wrap: break-word; /* Break long words to fit within the container */
   word-wrap: break-word;
   hyphens: auto; /* Automatically hyphenate text if needed */
-  padding: 0 1rem;
+  padding: 5px;
   max-width: 100%; /* Ensure the text stays within the container */
   box-sizing: border-box; /* Include padding and border in element's total width and height */
 }

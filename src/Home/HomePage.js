@@ -70,13 +70,13 @@ function HomePage() {
       </Helmet>
 
       {/* Flex container for sections */}
-      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem', pt: { xs: '0px', md: '0px' } }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
         
         {/* Conditionally show TextRevealHomePage on larger screens */}
         {!isMobile && (
           <>
             <TextReveal text="JACKIE WYERS" style={{ backgroundColor: '#fdedef' }} />
-            <Paper elevation={1} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, sans-serif', borderRadius: '0px', color: '#745B4F', textAlign: 'center', marginTop: '0.01rem', padding: '0.5rem' }}>
+            <Paper elevation={0} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, sans-serif', borderRadius: '0px', color: '#745B4F', textAlign: 'center', marginTop: '0.01rem', padding: '0.5rem' }}>
               <RotatingText />
             </Paper>
           </>
@@ -88,12 +88,11 @@ function HomePage() {
           <QuiltedImageList1 />
         </div>
 
-        {/* Banner followed by AdSense ad */}
-        <AdSenseAd />
+       
         <TextBanner2 text="FEATURE" height="100%" width="100%" fontSize="1rem" margin="1rem auto" />
   
 
-        <TextRevealHomePage text="🎃 HALLOWEEN COSTUME QUIZ 🎃" width="100%" backgroundColor="white" />
+        <TextRevealHomePage text="🎃 HALLOWEEN COSTUME QUIZ 🎃" width="100%" />
         <Quiz4 />
 
         {/* AdSense ad before a new section */}
