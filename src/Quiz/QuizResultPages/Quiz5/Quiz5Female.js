@@ -157,7 +157,7 @@ const Quiz5Female = () => {
       <ArticleTitle mainTitle="You Embody the Female Gaze!" subTitle="Keep reading for more looks to try." />
 
       <SocialShare 
-        url="https://www.jackiewyers.beauty/quiz/male-female" 
+        url="https://www.jackiewyers.beauty/quiz/male-female-gaze" 
         title="Check out these bold makeup looks that embody the female gaze!" 
         imageUrl="https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730308307.FullSizeRender_2_e6xtyv.heic"
       />
@@ -208,12 +208,7 @@ const Quiz5Female = () => {
      
      
       <ResponsiveYoutube src="https://www.youtube.com/embed/okXpvzknH9w" title="Espresso Makeup Tutorial" />
-      <div style = {{
-    margin: '10px  auto  ',
-    minHeight: "auto",
-}}>
-  <AdSenseAd />
-</div>
+     
       <h2 style={headingStyle}>Pamela Anderson's 90s Bombshell Makeup:</h2>
       <p style={paragraphStyle}> Embrace ultra-glam makeup that showcases your love for dynamic styles. Pamela’s iconic 90s makeup is perfect for those who adore full-on glamorous aesthetics.</p>
       <div style = {{
@@ -225,12 +220,7 @@ const Quiz5Female = () => {
     
     
       <ResponsiveYoutube src="https://www.youtube.com/embed/92Exu4CeZ7E&t=478s" title="Pamela Anderson 90s Makeup Tutorial" />
-      <div style = {{
-    margin: '10px  auto  ',
-    minHeight: "auto",
-}}>
-  <AdSenseAd />
-</div>
+    
      
      
       <h2 style={headingStyle}>More Inspirational Looks:</h2>

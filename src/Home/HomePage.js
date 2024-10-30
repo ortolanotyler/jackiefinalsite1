@@ -80,12 +80,19 @@ function HomePage() {
             <Paper elevation={0} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, sans-serif', borderRadius: '0px', color: '#745B4F', textAlign: 'center', marginTop: '0.01rem', padding: '0.5rem' }}>
               <RotatingText />
             </Paper>
+         
           </>
         )}
 
         <Box sx={{ paddingTop: isMobile ? '50px' : '0px' }}>
           <QuiltedImageList1 />
         </Box>
+        <div style = {{
+    margin: '10px  auto  ',
+    minHeight: "auto",
+}}>
+  <AdSenseAd />
+</div>
 
         <TextBanner2 text="FEATURED" height="100%" width="100%" fontSize="1rem" margin=" auto" />
 <HorizontalLine/>
@@ -105,13 +112,23 @@ function HomePage() {
     <Quiz4 />
   </Grid>
 </Grid>
-        <AdSenseAd />
+<div style = {{
+    margin: '10px  auto  ',
+    minHeight: "auto",
+}}>
+  <AdSenseAd />
+</div>
 
         <TextBanner2 text="NEW & POPULAR" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
         
         <FeaturedGrid6 />
 
-        <AdSenseAd />
+<div style = {{
+    margin: '10px  auto  ',
+    minHeight: "auto",
+}}>
+  <AdSenseAd />
+</div>
 
         <NewsletterSlider />
 
@@ -119,13 +136,23 @@ function HomePage() {
         
         <SixGridComponent />
 
-        <AdSenseAd />
+<div style = {{
+    margin: '10px  auto  ',
+    minHeight: "auto",
+}}>
+  <AdSenseAd />
+</div>
 
         <TextBanner2 text="VINTAGE VIBES" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
         
         <VintageVibesCards />
 
-        <AdSenseAd />
+<div style = {{
+    margin: '10px  auto  ',
+    minHeight: "auto",
+}}>
+  <AdSenseAd />
+</div>
       </Box>
     </Box>
   );
