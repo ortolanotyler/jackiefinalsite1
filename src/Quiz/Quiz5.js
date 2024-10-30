@@ -105,10 +105,86 @@ const MaleFemaleGazeQuiz = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Male vs. Female Gaze Quiz | Which Vibe Do You Exude?</title>
-        {/* Meta tags remain the same */}
-      </Helmet>
+<Helmet>
+  <title>Male vs. Female Gaze Quiz | Which Vibe Do You Exude?</title>
+  <link rel="canonical" href="https://www.jackiewyers.beauty/quiz/male-female-gaze" />
+
+  <meta 
+    name="description" 
+    content="Take the Male vs. Female Gaze Quiz by Jackie Wyers to discover which vibe you exude! Are you effortlessly chic, bold, or unique? Find out with this fun and insightful quiz." 
+  />
+  <meta 
+    name="keywords" 
+    content="Male vs Female Gaze Quiz, beauty personality quiz, makeup style quiz, male gaze, female gaze, chic makeup quiz, bold beauty quiz, Jackie Wyers quiz, pop culture quiz, personality style quiz, beauty inspiration, aesthetic personality test, girl-next-door style, edgy fashion, minimalist style, pop culture fashion quiz, beauty trends quiz, beauty quiz 2024, personality beauty quiz, subtle vs bold style, which gaze do you embody, effortless beauty quiz, fashion personality quiz" 
+  />
+
+  {/* Open Graph Meta Tags */}
+  <meta property="og:title" content="Male vs. Female Gaze Quiz | Which Vibe Do You Exude?" />
+  <meta 
+    property="og:description" 
+    content="Discover your style vibe with the Male vs. Female Gaze Quiz! Take this fun quiz by Jackie Wyers to see if you embody the chic, bold, or unique aesthetic." 
+  />
+  <meta 
+    property="og:image" 
+    content="https://res.cloudinary.com/dzhlitors/image/upload/v1730309727/dragonbraidthumbnail_ionws9.png" 
+  />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/quiz/male-female-gaze" />
+  <meta property="og:type" content="article" />
+
+  {/* Twitter Meta Tags */}
+  <meta name="twitter:title" content="Male vs. Female Gaze Quiz | Which Vibe Do You Exude?" />
+  <meta 
+    name="twitter:description" 
+    content="Find out if you exude a chic, bold, or unique vibe with the Male vs. Female Gaze Quiz by Jackie Wyers. Discover your beauty and fashion style today!" 
+  />
+  <meta 
+    name="twitter:image" 
+    content="https://res.cloudinary.com/dzhlitors/image/upload/v1730309727/dragonbraidthumbnail_ionws9.png" 
+  />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  {/* Google Analytics */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG', { page_path: window.location.pathname });
+    `}
+  </script>
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Male vs. Female Gaze Quiz | Which Vibe Do You Exude?",
+        "description": "Take the Male vs. Female Gaze Quiz by Jackie Wyers to discover which vibe you exude! Are you effortlessly chic, bold, or unique? Find out with this fun and insightful quiz.",
+        "image": "https://res.cloudinary.com/dzhlitors/image/upload/v1730309727/dragonbraidthumbnail_ionws9.png",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.jackiewyers.beauty/logo.png"
+          }
+        },
+        "datePublished": "2024-10-30",
+        "dateModified": "2024-10-30",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.jackiewyers.beauty/quiz/male-female-gaze"
+        }
+      }
+    `}
+  </script>
+</Helmet>
 
       {!showResults ? (
         <div className={styles.quizContainer}>

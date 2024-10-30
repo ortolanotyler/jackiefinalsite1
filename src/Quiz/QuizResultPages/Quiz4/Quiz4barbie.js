@@ -48,7 +48,7 @@ const headingStyle = {
   textAlign: 'center',
   fontSize: '2.5rem',
   fontWeight: '400',
-  fontFamily: "'Playfair Display', serif",
+  fontFamily: "'Playfair Display', sans-serif",
   color: '#000000',
   maxWidth: '95%',
 
