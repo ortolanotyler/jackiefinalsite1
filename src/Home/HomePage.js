@@ -15,6 +15,7 @@ import Grid3Across1 from './Grid3Across1';
 import VintageVibesCards from './GridVintageVibes';
 import NewsletterSlider from './NewsletterSlider';
 import AdSenseAd from './Adsense'; // Import your AdSense component
+import HorizontalLine from '../Components/HorizontalLine';
 
 function HomePage() {
   const isMobile = useMediaQuery('(max-width:650px)'); // Check if the screen size is mobile
@@ -85,8 +86,8 @@ function HomePage() {
           <QuiltedImageList1 />
         </Box>
 
-        <TextBanner2 text="FEATURED" height="100%" width="100%" fontSize="1rem" margin="1rem auto" />
-
+        <TextBanner2 text="FEATURED" height="100%" width="100%" fontSize="1rem" margin=" auto" />
+<HorizontalLine/>
         <Grid container spacing={0} sx={{ width: '100%', padding: '10px' }}>
   <Grid item xs={12} md={6}>
     <TextReveal

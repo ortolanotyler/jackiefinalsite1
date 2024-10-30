@@ -376,7 +376,7 @@ const Quiz4 = () => {
 
       {!showResults ? (
         <div className="quiz-container">
-                 <HorizontalLine/>
+           
           <div className="question-section">
            
             <div className="question-text">

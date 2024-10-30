@@ -192,7 +192,7 @@ const Quiz5 = () => {
 
       {!showResults ? (
         <div className={styles.quizContainer}>
-          <HorizontalLine />
+    
           <div className={styles.questionSection}>
             <div className={styles.questionText}>
               {quizQuestions[currentQuestionIndex].question}
