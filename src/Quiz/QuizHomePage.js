@@ -30,42 +30,42 @@ const QuizHomepage = () => {
         <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/QuizHomepage/twitter-image.jpg`} />
      
       </Helmet>
-      <Grid container justifyContent="center"
-            style = {{paddingTop: '0px', marginBottom: '-20px'}}
+      <Grid container justifyContent="center" spacing = {1}
+            style = {{paddingTop: '50px'}}
             >
                           <TextReveal text='THE QUIZ ZONE'/>
 
            <Grid item xs={11}>
                     <Quiz4 />
                 </Grid>
-                <HorizontalLine/>
+             
                 <Grid item xs={12}>
                       <AdSenseAd />
                 </Grid>
-                <HorizontalLine/>
+             
 
                 <Grid item xs={12}>
                       <AdSenseAd />
                 </Grid>
-                <HorizontalLine/>
+             
 
-                <Grid item xs={11}>
+                <Grid item xs={12}>
                       <Quiz2 />
                 </Grid>
-                <HorizontalLine/>
+             
 
                  
                 <Grid item xs={12}>
                       <AdSenseAd />
                 </Grid>
-                <HorizontalLine/>
+             
 
         
                
-                <Grid item xs={11}>
+                <Grid item xs={12}>
                     <Quiz3 />
                 </Grid>
-                <HorizontalLine/>
+             
 
              
            

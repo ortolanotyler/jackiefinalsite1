@@ -25,7 +25,7 @@ const Quiz2Homepage = () => {
     
       </Helmet>
       <Grid container justifyContent="center"
-            style = {{paddingTop: '20px', paddingBottom: '10px'}}
+            style = {{paddingTop: '50px'}}
             >
            
                 

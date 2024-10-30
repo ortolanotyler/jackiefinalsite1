@@ -87,7 +87,7 @@ function HomePage() {
 
         <TextBanner2 text="FEATURED" height="100%" width="100%" fontSize="1rem" margin="1rem auto" />
 
-        <Grid container spacing={2} sx={{ width: '100%', padding: '1rem' }}>
+        <Grid container spacing={0} sx={{ width: '100%', padding: '1rem 0' }}>
   <Grid item xs={12} md={6}>
     <TextReveal
       text="MALE VS FEMALE GAZE" 

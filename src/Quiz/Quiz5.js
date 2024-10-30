@@ -14,15 +14,17 @@ const Quiz5 = () => {
     {
       question: "Which makeup brand are you drawn to?",
       options: [
-        { text: "Charlotte Tilbury", value: 0, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto,q_auto/v1730303109/1_ijkn0r.jpg' },
         { text: "Mac", value: 1, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto,q_auto/v1730303109/2_i7varn.jpg' },
+
+        { text: "Charlotte Tilbury", value: 0, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto,q_auto/v1730303109/1_ijkn0r.jpg' },
       ],
     },
     {
       question: "Fragrance preference?",
       options: [
-        { text: "Warm vanilla", value: 0, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto,q_auto/v1730303109/3_j67lom.jpg' },
         { text: "Unique spicy", value: 1, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto,q_auto/v1730303109/4_vro6ro.jpg' },
+
+        { text: "Warm vanilla", value: 0, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto,q_auto/v1730303109/3_j67lom.jpg' },
       ],
     },
     {
@@ -35,8 +37,9 @@ const Quiz5 = () => {
     {
       question: "Pick a hairstyle:",
       options: [
-        { text: "Cute ponytail", value: 0, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730309727/dragonbraidthumbnail_ionws9.png' },
         { text: "Sleek bun", value: 1, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730309724/FullSizeRender_2_gurs7s.png' },
+
+        { text: "Cute ponytail", value: 0, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730309727/dragonbraidthumbnail_ionws9.png' },
       ],
     },
     {
@@ -49,8 +52,9 @@ const Quiz5 = () => {
     {
       question: "How do you wear accessories?",
       options: [
-        { text: "Sentimental dainty pieces", value: 0, backgroundImage: ' https://res.cloudinary.com/dzhlitors/image/upload/f_auto,q_auto/v1730303110/19_u55icp.jpg' },
         { text: "Adding to my luxury collection", value: 1, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto,q_auto/v1730303110/20_livqd5.jpg'},
+
+        { text: "Sentimental dainty pieces", value: 0, backgroundImage: ' https://res.cloudinary.com/dzhlitors/image/upload/f_auto,q_auto/v1730303110/19_u55icp.jpg' },
          
       ],
       

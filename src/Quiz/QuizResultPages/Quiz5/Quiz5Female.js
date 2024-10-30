@@ -7,6 +7,7 @@ import SocialShare from '../../../Home/SocialShare';
 import AdSenseAd from '../../../Home/Adsense';
 import HorizontalLine from '../../../Components/HorizontalLine';
 import TextRevealHomePage from '../../../Components/TextRevealHomePage';
+import SubscribeButton from '../../../Components/SubscribeButton';
 
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
@@ -155,6 +156,13 @@ const Quiz5Female = () => {
 
       <ArticleTitle mainTitle="You Embody the Female Gaze!" subTitle="Keep reading for more looks to try." />
 
+      <div style = {{textAlign: 'center', margin: '10px auto' }}>
+<SubscribeButton />
+</div>
+
+      <ResponsiveYoutube src="https://www.youtube.com/embed/-MiXt6M3qvY?si=Fz7cjnw_7fYfznzX" title="🩵MALE VS. FEMALE🩷 GAZE MAKEUP! Which Are You? 👀 + Sephora Haul!" />
+
+
       <SocialShare 
         url="https://www.jackiewyers.beauty/quiz/male-female" 
         title="Check out these bold makeup looks that embody the female gaze!" 
@@ -166,7 +174,12 @@ const Quiz5Female = () => {
       <p style={paragraphStyle}>
         Your style is artistic and bold, resonating with trendsetting icons who've left their mark on pop culture. You inspire other women who admire the confidence it takes to pull off unique and experimental styles. If you love varying your makeup based on your mood, dive into these tutorials that celebrate creativity in makeup artistry.
       </p>
-
+      <div style = {{
+    margin: '10px  auto  ',
+    minHeight: "auto",
+}}>
+  <AdSenseAd />
+</div>
 
 
       <h2 style={headingStyle}>Aria Montgomery from "Pretty Little Liars":</h2>
@@ -180,25 +193,27 @@ const Quiz5Female = () => {
 </div>
       
       <h2 style={headingStyle}>2016 Bold Glam:</h2>
-      <p style={paragraphStyle}> This year was all about the girls. The matte Kylie Lip Kit and heavy contouring may have baffled some, but it set beauty trends. Revisit this Iconic Style.</p>
-      <div style = {{
-    margin: '10px  auto  ',
-    minHeight: "auto",
-}}>
-  <AdSenseAd />
-</div>
+      <p style={paragraphStyle}> This year was all about the girls. The matte Kylie Lip Kit and heavy contouring may have baffled some men, but it set beauty trends. Revisit this Iconic Style.</p>
+    
      
       <ResponsiveYoutube src="https://www.youtube.com/embed/HtEPH6RUEZg&t=43s" title="2016 Bold Glam Makeup Tutorial" />
-      <h2 style={headingStyle}>Espresso Makeup:</h2>
-      <p style={paragraphStyle}>Espresso Makeup: A sexy, smoky eye that turns heads. This bold look is a favorite among makeup enthusiasts who appreciate a standout glamour. It’s versatile and stunning on everyone.</p>
       <div style = {{
     margin: '10px  auto  ',
     minHeight: "auto",
 }}>
   <AdSenseAd />
 </div>
+      <h2 style={headingStyle}>Espresso Makeup:</h2>
+      <p style={paragraphStyle}>Espresso Makeup: A sexy, smoky eye that turns heads. This bold look is a favorite among makeup enthusiasts who appreciate a standout glamour. It’s versatile and stunning on everyone.</p>
+     
      
       <ResponsiveYoutube src="https://www.youtube.com/embed/okXpvzknH9w" title="Espresso Makeup Tutorial" />
+      <div style = {{
+    margin: '10px  auto  ',
+    minHeight: "auto",
+}}>
+  <AdSenseAd />
+</div>
       <h2 style={headingStyle}>Pamela Anderson's 90s Bombshell Makeup:</h2>
       <p style={paragraphStyle}> Embrace ultra-glam makeup that showcases your love for dynamic styles. Pamela’s iconic 90s makeup is perfect for those who adore full-on glamorous aesthetics.</p>
       <div style = {{
@@ -235,6 +250,13 @@ const Quiz5Female = () => {
       </div>
       
       <Comments website-id={websiteId} page-id={"Quiz5"} />
+      <div style = {{
+    margin: '10px  auto  ',
+    minHeight: "auto",
+}}>
+  <AdSenseAd />
+</div>
+     
     </div>
   );
 
@@ -245,6 +267,8 @@ const Quiz5Female = () => {
 
 
       <Card title="You Embody the Female Gaze!" description="Discover inspiring looks that embody the female gaze." blogContent={blogContent} />
+   
+   
     </div>
   );
 };
