@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet-async';
 import HorizontalLine from '../Components/HorizontalLine';
 import styles from './Quiz5.module.css';
 
-const MaleFemaleGazeQuiz = () => {
+const Quiz5 = () => {
   const navigate = useNavigate();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [totalPoints, setTotalPoints] = useState(0);
@@ -216,4 +216,4 @@ const MaleFemaleGazeQuiz = () => {
   );
 };
 
-export default MaleFemaleGazeQuiz;
+export default Quiz5;

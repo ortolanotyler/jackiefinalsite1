@@ -11,9 +11,9 @@ import styles from './Sidebar.module.css'; // Import the updated CSS module
 const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
     { name: 'BRIDAL', path: '/bridal' },
-
-    { name: 'ABOUT', path: '/about' },
     { name: 'HOME', path: '/' },
+    { name: 'ABOUT', path: '/about' },
+
     { name: 'TUTORIALS', path: '/tutorials' },
     { name: 'QUIZ', path: '/quiz' },
     { name: 'MERCH', path: '/vintagevibesmerch' },
