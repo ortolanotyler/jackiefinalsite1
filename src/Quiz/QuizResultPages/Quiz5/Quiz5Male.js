@@ -156,17 +156,19 @@ const Quiz5Male = () => {
 
 
       <ArticleTitle mainTitle="You Capture the Male Gaze!" subTitle="Keep reading for more looks to try." />
-      <div style = {{textAlign: 'center', margin: '10px auto' }}>
+      <SocialShare 
+        url="https://www.jackiewyers.beauty/quiz/male-female-gaze" 
+        title="Check out these bold makeup looks that embody the female gaze!" 
+        imageUrl="https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730308307.FullSizeRender_2_e6xtyv.heic"
+      />
+     
+
+<ResponsiveYoutube src="https://www.youtube.com/embed/4BV2JQ_4MaY?si=96COgHmEQTgedgIr" title="🩵MALE VS. FEMALE🩷 GAZE MAKEUP! Which Are You? 👀 + Sephora Haul!" />
+
+
+<div style = {{textAlign: 'center', margin: '10px auto' }}>
 <SubscribeButton />
 </div>
-      <ResponsiveYoutube src="https://www.youtube.com/embed/4BV2JQ_4MaY?si=96COgHmEQTgedgIr" title="🩵MALE VS. FEMALE🩷 GAZE MAKEUP! Which Are You? 👀 + Sephora Haul!" />
-
-      <SocialShare 
-        url="https://www.jackiewyers.beauty/quiz/male" 
-        title="Explore subtle and effortless looks that capture the male gaze!" 
-        imageUrl="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729372872/Male_Gaze.jpg"
-      />
-
       <HorizontalLine />
 
       <p style={paragraphStyle}>
