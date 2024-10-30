@@ -91,21 +91,15 @@ function HomePage() {
        
         <TextBanner2 text="FEATURE" height="100%" width="100%" fontSize="1rem" margin="1rem auto" />
   
-
-        <TextRevealHomePage text="🎃 HALLOWEEN COSTUME QUIZ 🎃" width="100%" />
-        <Quiz4 />
-
-        {/* AdSense ad before a new section */}
-        <AdSenseAd />
-
+=
+<Grid3Across1 />
         <TextBanner2 text="NEW & POPULAR" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
 
-        <Grid3Across1 />
+    
 
         {/* AdSense ad after a grid section */}
-        <AdSenseAd />
+  
 
-        <TextBanner2 text="BEAUTY" height="100px" width="100%" fontSize="1rem" margin="0 auto" />
         <FeaturedGrid6 />
 
         {/* AdSense ad before the Newsletter section */}
