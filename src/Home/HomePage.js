@@ -91,8 +91,13 @@ function HomePage() {
        
         <TextBanner2 text="FEATURE" height="100%" width="100%" fontSize="1rem" margin="1rem auto" />
   
-=
+
 <Grid3Across1 />
+<div style = {{
+  minHeight: '100%',
+}}>
+<AdSenseAd/>
+</div>
         <TextBanner2 text="NEW & POPULAR" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
 
     
