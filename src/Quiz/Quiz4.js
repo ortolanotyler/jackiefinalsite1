@@ -20,7 +20,7 @@ const Quiz4 = () => {
             { text: "Photo op moment 📸", points: 7, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730305340/1_ajy8ge.jpg' },
             { text: "House party 💃", points: 5, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730305627/2_sy5vce.jpg' },
             { text: "Cozy & low key🧣", points: 1, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359720/4_btdaxu.jpg' },
-            { text: "Classy costume party 🎩", points: 4, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730305681/4_oee9fm.jpg' }
+            { text: "Classy costume party 🎩", points: 4, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730305247/3_wen3i8.jpg' }
 
         ],
         },
