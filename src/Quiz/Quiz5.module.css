@@ -2,7 +2,7 @@
     width: auto;
     max-height: 100%;
     margin: 0 auto;
-    padding: 30px;
+    padding: 10px;
     text-align: center;
     background-color: white;
     border-radius: 12px;
@@ -76,9 +76,9 @@
     .quizContainer {
       width: 80%;
       height: auto;
-      margin: 5px auto; 
+      margin: 0 auto; 
 
-      padding:1rem;
+      padding:1.25rem;
     }
   
     .questionText {
