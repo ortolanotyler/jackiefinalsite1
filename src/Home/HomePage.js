@@ -16,6 +16,7 @@ import VintageVibesCards from './GridVintageVibes';
 import NewsletterSlider from './NewsletterSlider';
 import AdSenseAd from './Adsense'; // Import your AdSense component
 import HorizontalLine from '../Components/HorizontalLine';
+import TextRevealHomePage1 from '../Components/TextRevealHomePage1';
 
 function HomePage() {
   const isMobile = useMediaQuery('(max-width:650px)'); // Check if the screen size is mobile
@@ -75,7 +76,7 @@ function HomePage() {
         
         {!isMobile && (
           <>
-            <TextReveal text="JACKIE WYERS" style={{ backgroundColor: '#fdedef' }} />
+            <TextRevealHomePage1 text="JACKIE WYERS" style={{ backgroundColor: '#fdedef', fontFamily: 'Arapey, sans-serif' }} />
             <Paper elevation={0} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, sans-serif', borderRadius: '0px', color: '#745B4F', textAlign: 'center', marginTop: '0.01rem', padding: '0.5rem' }}>
               <RotatingText />
             </Paper>
