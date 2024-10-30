@@ -159,7 +159,7 @@ const Quiz5Male = () => {
       <div style = {{textAlign: 'center', margin: '10px auto' }}>
 <SubscribeButton />
 </div>
-      <ResponsiveYoutube src="https://www.youtube.com/embed/-MiXt6M3qvY?si=Fz7cjnw_7fYfznzX" title="🩵MALE VS. FEMALE🩷 GAZE MAKEUP! Which Are You? 👀 + Sephora Haul!" />
+      <ResponsiveYoutube src="https://www.youtube.com/embed/4BV2JQ_4MaY?si=96COgHmEQTgedgIr" title="🩵MALE VS. FEMALE🩷 GAZE MAKEUP! Which Are You? 👀 + Sephora Haul!" />
 
       <SocialShare 
         url="https://www.jackiewyers.beauty/quiz/male" 

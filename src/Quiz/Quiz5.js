@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import HorizontalLine from '../Components/HorizontalLine';
 import styles from './Quiz5.module.css';
 
 const Quiz5 = () => {
