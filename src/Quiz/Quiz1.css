@@ -16,12 +16,15 @@
 }
 
 .question-text {
-  font-family : 'Playfair Display', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 100;
+  margin: 20px;
+  font-size: 22px;
+  font-weight: normal;
   color: #745b4f;
-  margin-bottom: 1rem;
-  text-align: center;
+  min-height: 70px; /* Set a min-height based on the longest question */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Ensure text stays centered in the question area */
 }
 
 .answer-section {
@@ -66,12 +69,10 @@
 }
 
 @media (max-width: 800px) {
-  .quizContainer {
-    width: 80%;
-    height: auto;
-    margin: 0 auto; 
-
-    padding:1.25rem;
+  .quiz-container {
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 1rem;
   }
 
   .answer-section {
@@ -85,13 +86,13 @@
 }
 
 @media (min-width: 801px) {
-
-  .answer-section {
-    grid-template-columns: 1fr;
-  }
-
   .answer-button {
-    height: calc(70vh / 7);
-    padding: 10px;
+    height: 20vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .quiz-container {
+    max-width: 85%;
   }
 }
