@@ -35,8 +35,8 @@ const MaleFemaleGazeQuiz = () => {
     {
       question: "Pick a hairstyle:",
       options: [
-        { text: "Cute ponytail", value: 0, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto,q_auto/v1730303109/9_nxdfpt.jpg' },
-        { text: "Sleek bun", value: 1, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto,q_auto/v1730303109/10_usz3in.jpg' },
+        { text: "Cute ponytail", value: 0, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730309727/dragonbraidthumbnail_ionws9.png' },
+        { text: "Sleek bun", value: 1, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730309724/FullSizeRender_2_gurs7s.png' },
       ],
     },
     {
@@ -49,11 +49,35 @@ const MaleFemaleGazeQuiz = () => {
     {
       question: "How do you wear accessories?",
       options: [
-        { text: "Sentimental dainty pieces", value: 0, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto,q_auto/v1730303110/20_livqd5.jpg' },
-        { text: "Adding to my luxury collection", value: 1, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto,q_auto/v1730303110/19_u55icp.jpg' },
+        { text: "Sentimental dainty pieces", value: 0, backgroundImage: ' https://res.cloudinary.com/dzhlitors/image/upload/f_auto,q_auto/v1730303110/19_u55icp.jpg' },
+        { text: "Adding to my luxury collection", value: 1, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto,q_auto/v1730303110/20_livqd5.jpg'},
+         
       ],
+      
     },
-  ];
+  
+      {
+        question: "Which magazine do you grab?",
+        options: [
+          { text: "Seventeen", value: 0, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730309174/1-6_yz9ryx_wlkk2x.png' },
+          { text: "VOGUE", value: 1, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730309172/1-7_vjdpex_hea8s8.png' },
+        ],
+      },
+      {
+        question: "Pop culture wardrobe swap!",
+        options: [
+          { text: "Alaska's Girl Next Door Style", value: 0, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730309174/1-2_ijwmjg_j3q5bp.png' },
+          { text: "Effy's Edgy Looks", value: 1, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730309174/26951769_1612386982175225_8203156445071986383_o_lixle0_vqkotg.png' },
+        ],
+      },
+      {
+        question: "Which Twilight Vamp are beauty goals to you?",
+        options: [
+          { text: "Bella Cullen", value: 0, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730309174/1-4_hd9vss_cancsj.png' },
+          { text: "Alice Cullen", value: 1, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730309174/1-3_ayhgvc_qhmelz.png' },
+        ],
+      },
+    ];
 
   const handleAnswerClick = (points) => {
     setTotalPoints((prevPoints) => prevPoints + points);
@@ -73,9 +97,9 @@ const MaleFemaleGazeQuiz = () => {
 
   const calculateResults = () => {
     if (totalPoints >= 6) {
-      navigate('/female');
+      navigate('/quiz/female');
     } else {
-      navigate('/male');
+      navigate('/quiz/male');
     }
   };
 

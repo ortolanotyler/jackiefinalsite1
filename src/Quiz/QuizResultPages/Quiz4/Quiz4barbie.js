@@ -5,10 +5,10 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
-import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import AdSenseAd from '../../../Home/Adsense';
 import DropCap1 from '../../../Articles/Travel/DropCap1';
 import HorizontalLine from '../../../Components/HorizontalLine';
+
 
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
