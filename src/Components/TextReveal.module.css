@@ -1,7 +1,7 @@
 
 .hero {
   width:100%;
-  height: 200px;
+  height: 250px;
   background-color: #fdedef;
   border-radius: 1px;
   display: grid;
@@ -13,15 +13,15 @@
   display: inline-block;
   opacity: 0;
   animation: fade-in 1s forwards;
-  font-family: 'Arapey', sans-serif; /* Set font to Arapey only */
-  font-size: 28px; /* Responsive font size */
+  font-family: 'Playfair Display', sans-serif; /* Set font to Arapey only */
+  font-size: 26px; /* Responsive font size */
   text-align: center; /* Center-align the text */
-  font-weight: normal;
+  font-weight: 100;
   white-space: pre-wrap; /* Allow wrapping on spaces and break text to fit */
   overflow-wrap: break-word; /* Break long words to fit within the container */
   word-wrap: break-word;
   hyphens: auto; /* Automatically hyphenate text if needed */
-  padding: 5px;
+  padding: 10px;
   max-width: 100%; /* Ensure the text stays within the container */
   box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
@@ -35,14 +35,14 @@
 /* Responsive adjustments */
 @media (max-width: 600px) {
   .hero {
-    height: 14vh;
+    height: 200px;
   
   }
 }
 
 @media (max-width: 400px) {
   .hero {
-    height: 12vh;
+    height: 200px;
 
 
   }

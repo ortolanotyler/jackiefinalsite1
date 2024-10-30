@@ -91,14 +91,14 @@ function HomePage() {
         <Grid container spacing={0} sx={{ width: '100%', padding: '10px' }}>
   <Grid item xs={12} md={6}>
     <TextReveal
-      text="MALE VS FEMALE GAZE" 
+      text="🩵 Male vs Female Gaze Quiz - Which one are you? 🩷" 
       style={{ backgroundColor: '#f8f8f8', width: '100%' }} 
     />
     <Quiz5 />
   </Grid>
   <Grid item xs={12} md={6}>
     <TextReveal 
-      text="🎃 HALLOWEEN COSTUME QUIZ 🎃" 
+      text="🎃 What's your Halloween Style ? 🎃" 
       style={{ backgroundColor: '#f8f8f8', width: '100%' }} 
     />
     <Quiz4 />
