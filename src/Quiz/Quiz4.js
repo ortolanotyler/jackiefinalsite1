@@ -17,10 +17,10 @@ const Quiz4 = () => {
         {
           question: "How would you describe your Halloween Plans?",
           options: [
-            { text: "Photo op moment 📸", points: 7, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359720/1_jvanqz.jpg' },
-            { text: "House party 💃", points: 5, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359720/2_dnjgvt.jpg' },
+            { text: "Photo op moment 📸", points: 7, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730305340/1_ajy8ge.jpg' },
+            { text: "House party 💃", points: 5, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730305627/2_sy5vce.jpg' },
             { text: "Cozy & low key🧣", points: 1, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359720/4_btdaxu.jpg' },
-            { text: "Classy costume party 🎩", points: 4, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359720/3_lbvaj8.jpg' }
+            { text: "Classy costume party 🎩", points: 4, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730305681/4_oee9fm.jpg' }
 
         ],
         },
@@ -47,72 +47,182 @@ const Quiz4 = () => {
         {
           question: "Pick a signature makeup style.",
           options: [
-            { text: "Pink Lips 💖", points: 6, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359721/13_a9lwjs.jpg' },
-            { text: "Y2K Glitter ✨", points: 5, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359721/14_javryl.jpg' },
-            { text: "Winged Liner & Lashes 👁️", points: 4, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359721/15_lutbjw.jpg' },
-            { text: "Natural glow 🌞", points: 1, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359722/16_jq2ptv.jpg' }
+            { 
+              text: "Pink Lips 💖", 
+              points: 6, 
+              backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305250/13_qzms6g.jpg' 
+            },
+            { 
+              text: "Y2K Glitter ✨", 
+              points: 5, 
+              backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305246/14_bkvcem.jpg' 
+            },
+            { 
+              text: "Winged Liner & Lashes 👁️", 
+              points: 4, 
+              backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305254/15_w8w12g.jpg' 
+            },
+            { 
+              text: "Natural glow 🌞", 
+              points: 1, 
+              backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305251/16_kog24r.jpg' 
+            }
           ],
         },
         {
           question: "What’s your favorite fashion aesthetic?",
           options: [
-            { text: "MOD 60s💕", points: 6, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359721/17_j44tq6.jpg' },
-            { text: "Y2K vibe 📟", points: 5, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359721/18_h07p0i.jpg' },
-            { text: "Period drama dresses🎭", points: 2, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359722/19_rrkcdd.jpg' },
-            { text: "Cozy chic 🧸", points: 1, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359722/20_bgx7iz.jpg' }
+            { 
+              text: "MOD 60s💕", 
+              points: 6, 
+              backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305244/17_foa6uu.jpg' 
+            },
+            { 
+              text: "Y2K vibe 📟", 
+              points: 5, 
+              backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305246/18_z5kqnj.jpg' 
+            },
+            { 
+              text: "Period drama dresses🎭", 
+              points: 2, 
+              backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305250/19_r4u4sv.jpg' 
+            },
+            { 
+              text: "Cozy chic 🧸", 
+              points: 1, 
+              backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305252/21_sq5vfm.jpg' 
+            }
           ],
         } ,
         {
             question: "What kind of Halloween costume would you pick?",
             options: [
-              { text: "Hollywood classic 🎬", points: 4, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359722/23_sbvuvu.jpg' },
-              { text: "High-fashion glam🌸", points: 7, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359722/21_zw7cz6.jpg' },
-
-              { text: "Princess vibes 👑", points: 2, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359722/24_rrwfu6.jpg' },
-              { text: "Pop Culture Icon 🌟", points: 5, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359722/22_b83vjz.jpg' }
-
+              { 
+                text: "Hollywood classic 🎬", 
+                points: 4, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305247/23_zrmski.jpg' 
+              },
+              { 
+                text: "High-fashion glam🌸", 
+                points: 7, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305252/21_sq5vfm.jpg' 
+              },
+              { 
+                text: "Princess vibes 👑", 
+                points: 2, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305254/24_nr68lx.jpg' 
+              },
+              { 
+                text: "Pop Culture Icon 🌟", 
+                points: 5, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305248/22_fogpfi.jpg' 
+              }
             ],
           },
           {
             question: "How would your friends describe you?",
             options: [
-              { text: "Fun & outgoing 😃", points: 5, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359722/26_qdtcl2.jpg' },
-              { text: "Down-to-earth & creative 🌿", points: 1, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359723/28_oatnim.jpg' },
-              { text: "Bold & confident ♥️", points: 7, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359722/25_qviqqz.jpg' },
-              { text: "Sophisticated & charming 🍸", points: 4, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359723/27_bmcgtz.jpg' }
+              { 
+                text: "Fun & outgoing 😃", 
+                points: 5, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305245/26_qd2ji0.jpg' 
+              },
+              { 
+                text: "Down-to-earth & creative 🌿", 
+                points: 1, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305257/28_arf1wb.jpg' 
+              },
+              { 
+                text: "Bold & confident ♥️", 
+                points: 7, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305255/25_op2ohp.jpg' 
+              },
+              { 
+                text: "Sophisticated & charming 🍸", 
+                points: 4, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305257/27_p2u3sm.jpg' 
+              }
             ],
           },
           {
             question: "Which vacation spot sounds most appealing?",
             options: [
-              { text: "Historic Europe 🏰", points: 4, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359723/31_gri1kh.jpg' },
-              { text: "Trendy LA 🏄‍♀️", points: 6, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359723/30_hcabdd.jpg' },
-              { text: "Paris Fashion Week 🗼", points: 7, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359723/29_dexu1v.jpg' },
-              { text: "Ocean retreat 🌊", points: 2, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359723/32_aaidow.jpg' }
+              { 
+                text: "Historic Europe 🏰", 
+                points: 4, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305256/31_m2ozre.jpg' 
+              },
+              { 
+                text: "Trendy LA 🏄‍♀️", 
+                points: 6, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305253/30_ijp1pz.jpg' 
+              },
+              { 
+                text: "Paris Fashion Week 🗼", 
+                points: 7, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305255/29_fve0jf.jpg' 
+              },
+              { 
+                text: "Ocean retreat 🌊", 
+                points: 2, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305257/32_thzlte.jpg' 
+              }
             ],
           },
           {
             question: "Which hairstyle for a Halloween party?",
             options: [
-              { text: "Big hair 🤎", points: 7, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359724/33_efkqwd.jpg' },
-              { text: "High pigtails 🎀", points: 5, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359723/34_efrr4b.jpg' },
-              { text: "Elegant updo 🎻", points: 4, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359723/35_sjxwco.jpg' },
-              { text: "Beachy waves 🌴", points: 2, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359724/36_hqczbb.jpg' }
+              { 
+                text: "Big hair 🤎", 
+                points: 7, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305243/33_krkgwp.jpg' 
+              },
+              { 
+                text: "High pigtails 🎀", 
+                points: 5, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305243/34_nbaayw.jpg' 
+              },
+              { 
+                text: "Elegant updo 🎻", 
+                points: 4, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305243/35_hezjxm.jpg' 
+              },
+              { 
+                text: "Beachy waves 🌴", 
+                points: 2, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730305243/36_ubolrq.jpg' 
+              }
             ],
           },
           {
             question: "How long do you have to get ready?",
             options: [
-              { text: "Hours & Hours 😏", points: 7, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359724/37_brl5ci.jpg' },
-              { text: "An hour or two ⌛", points: 4, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359724/39_xrpjel.jpg' },
-              { text: "Quick 45 mins ⏱️", points: 5, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359724/38_x99rwu.jpg' },
-              { text: "Rushed moments ⏳", points: 2, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359724/40_j7n6me.jpg' }
-            ],
+              { 
+                text: "Hours & Hours 😏", 
+                points: 7, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730306256/37_a8j3es.jpg' 
+              },
+              { 
+                text: "An hour or two ⌛", 
+                points: 4, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730306255/39_pjyj2c.jpg' 
+              },
+              { 
+                text: "Quick 45 mins ⏱️", 
+                points: 5, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730306255/38_f7c8c8.jpg' 
+              },
+              { 
+                text: "Rushed moments ⏳", 
+                points: 2, 
+                backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/f_auto/v1730306257/40_ngjanl.jpg' 
+              }
+            ]
           },
           {
             question: "Would you be sad wearing a similar costume to someone else?",
             options: [
-              { text: "I’d still outshine 🌟", points: 6, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359724/41_iqngvl.jpg' },
+              { text: "I’d still outshine 🌟", points: 6, backgroundImage: 'https://res.cloudinary.com/dzhlitors/image/upload/v1730305251/41_ssm0km.jpg' },
               { text: "Totally fine 😊", points: 5, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359724/42_b2wiox.jpg' },
               { text: "New friend time 🤝", points: 3, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359724/43_mhpkun.jpg' },
               { text: "Not bothered 🤷‍♀️", points: 1, backgroundImage: 'https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1729359724/44_jminvm.jpg' }

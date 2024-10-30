@@ -91,7 +91,8 @@ function HomePage() {
        
         <TextBanner2 text="FEATURE" height="100%" width="100%" fontSize="1rem" margin="1rem auto" />
   
-
+        <TextRevealHomePage text="🎃 HALLOWEEN COSTUME QUIZ 🎃" width="100%" />
+        <Quiz4 />
 <Grid3Across1 />
 <div style = {{
   minHeight: '100%',

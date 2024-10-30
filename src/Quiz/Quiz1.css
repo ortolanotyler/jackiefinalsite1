@@ -1,10 +1,10 @@
 .quiz-container {
-  max-width: 2200px;
-  margin: 5px auto;
+  max-width: 1400px;
+  margin: auto;
   text-align: center;
   background-color: white;
   border-radius: 12px;
-  padding: 5px auto;
+  padding: 25px 50px;
   box-sizing: border-box;
 }
 
@@ -16,11 +16,11 @@
 }
 
 .question-text {
-  margin: 10px;
-  font-size: 20px;
+  margin: 20px;
+  font-size: 22px;
   font-weight: normal;
   color: #745b4f;
-  max-height: 20px; /* Set a min-height based on the longest question */
+  min-height: 70px; /* Set a min-height based on the longest question */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,8 +30,8 @@
 .answer-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-  margin: 0 auto;
+  gap: 10px;
+  margin-top: 2px;
 }
 
 .answer-button {
@@ -44,12 +44,12 @@
   transition: all 0.5s ease;
   background-size: cover;
   background-position: center;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: Playfair Display, sans-serif;
   background-repeat: no-repeat;
-  text-shadow: 2px 8px 8px rgba(0.9, 0, 0, 9);
+  text-shadow: 2px 8px 8px rgba(0.9, 0, 0, 0.9);
   box-shadow: 0 4px 8px rgba(0.9, 0, 0, 0.9);
   padding: 1rem;
-  max-height: 18vh;
+  height: 20vh;
   min-height: 16vh;
 }
 
@@ -70,9 +70,9 @@
 
 @media (max-width: 800px) {
   .quiz-container {
-    max-width: calc(100% - 50px);
+    max-width: calc(100% - 20px);
     margin: 0 auto;
-    padding: 10px;
+    padding: 1rem;
   }
 
   .answer-section {
@@ -80,7 +80,7 @@
   }
 
   .answer-button {
-    height: calc(80vh / 7);
+    height: calc(70vh / 7);
     padding: 10px;
   }
 }
