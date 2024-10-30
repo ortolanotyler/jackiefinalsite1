@@ -66,10 +66,12 @@
 }
 
 @media (max-width: 800px) {
-  .quiz-container {
-    max-width: calc(100% - 20px);
-    margin: 0 auto;
-    padding: 1rem;
+  .quizContainer {
+    width: 80%;
+    height: auto;
+    margin: 0 auto; 
+
+    padding:1.25rem;
   }
 
   .answer-section {
@@ -83,13 +85,13 @@
 }
 
 @media (min-width: 801px) {
-  .answer-button {
-    height: 20vh;
-  }
-}
 
-@media (min-width: 1200px) {
-  .quiz-container {
-    max-width: 85%;
+  .answer-section {
+    grid-template-columns: 1fr;
+  }
+
+  .answer-button {
+    height: calc(70vh / 7);
+    padding: 10px;
   }
 }
