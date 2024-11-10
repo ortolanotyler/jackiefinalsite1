@@ -3,7 +3,7 @@ import TextReveal from '../../Components/TextReveal';
 import { Link, Typography, Box } from '@mui/material';
 import styles from './AboutHero.module.css'; // Importing the CSS module
 
-const ParisInNYC = () => {
+const HorseGirlEnergy = () => {
   const iframeRef = useRef(null);
   const linkRef = useRef(null);
 
@@ -28,10 +28,10 @@ const ParisInNYC = () => {
 
   return (
     <div>
-      <TextReveal text="PARIS IN NYC" />
+      <TextReveal text="HORSE GIRL ENERGY" />
       <Box sx={{ textAlign: 'right', mt: 5, mr: 20 }}>
         <Link
-          href="/mystyle"
+          href="/horsegirlenergy"
           ref={linkRef}
           sx={{ display: 'inline-flex', alignItems: 'center', fontFamily: 'GFS Didot, serif', color: 'black', textDecoration: 'none' }}
         >
@@ -41,18 +41,17 @@ const ParisInNYC = () => {
           <Box component="span" sx={{ ml: 1, fontWeight: 'bold' }}>&rarr;</Box>
         </Link>
       </Box>
-      <div style={{ width: '100%', minHeight: '1200px', marginBottom: '2rem' }}>
+      <div style={{ width: '100%', minHeight: '2000px', marginBottom: '2rem' }}>
         <iframe
-          title="PARIS IN NYC"
-          src="https://shopmy.us/collections/public/379977?noHeader=true"
+          title="Horse Girl Energy"
+          src="https://shopmy.us/collections/public/974714?noHeader=true"
           className={styles.parisPrincessIframe}
           ref={iframeRef}
           scrolling="no"
         ></iframe>
       </div>
-   
     </div>
   );
 };
 
-export default ParisInNYC;
+export default HorseGirlEnergy;
