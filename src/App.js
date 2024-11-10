@@ -141,6 +141,8 @@ import EmailSubscribe2 from './Components/EmailSubscribe2';
 import Quiz5Male from './Quiz/QuizResultPages/Quiz5/Quiz5Male';
 import Quiz5Female from './Quiz/QuizResultPages/Quiz5/Quiz5Female';
 import Quiz5Homepage from './Quiz/Quiz5Homepage';
+import HalloweenRoundup2 from './Articles/Tutorials/PopCulture/HalloweenRoundup2';
+import HorseGirlEnergy from './Shop/ShopMyHomeLinks/HorseGirl';
 
 
 function usePageTracking() {
@@ -294,7 +296,7 @@ function App() {
             <Route path="articles/wicked" element={<Wicked />} />
             <Route path="/articles/wicked-witch-of-the-west" element={<Wicked2 />} />
             <Route path="/quiz/halloween" element={<Quiz4Homepage />} />
-
+       
             <Route path="/quiz/halloween/ysl" element={<YSL />} />
             <Route path="/quiz/halloween/tiffany" element={<Quiz4Tiffany />} />
             <Route path="/quiz/halloween/ariel" element={<Quiz4Ariel />} />
@@ -307,7 +309,9 @@ function App() {
             <Route path="/quiz/male" element={<Quiz5Male />} />
             <Route path="/quiz/female" element={<Quiz5Female />} />
 
-            
+            <Route path="/articles/halloween-roundup" element={<HalloweenRoundup2 />} />
+            <Route path="/horsegirlenergy" element={<HorseGirlEnergy />} />
+
             <Route path="*" element={<NotFound/>} />
           </Route>
         </Routes>

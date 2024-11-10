@@ -12,3 +12,4 @@ const TextRevealHomePage1 = (props) => {
 };
 
 export default TextRevealHomePage1;
+

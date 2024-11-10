@@ -48,6 +48,7 @@ const menuOptions = [
     name: 'Quiz',
     subMenu: [
       { name: 'Quiz Homepage', path: '/quiz' },
+      { name: 'Male vs Famale Gaze', path: '/quiz/male-female-gaze' },
       { name: 'Find Your Halloween Style', path: '/quiz/halloween' },
       { name: 'What Animal Pretty Are You?', path: '/quiz-2-home' },
       { name: '2025 Ultimate Wedding Dress Guide', path: '/quiz-3-home' },

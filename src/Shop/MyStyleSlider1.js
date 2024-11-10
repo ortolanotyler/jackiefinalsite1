@@ -1,16 +1,16 @@
 import React, { useEffect, useState, useRef } from 'react';
 import styles from './Slider.module.css'; // Updated to use the CSS module
 
-const image1 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/parisianchic.jpg`;
+const image1 = "https://res.cloudinary.com/dzhlitors/image/upload/v1731276636/horsegirl1_VSCO_q9pico.jpg";
 const image2 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/vaticanslay.jpg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/walkingwaiheke.jpg`;
 
 const imageDetails = [
   {
     src: image1,
-    text: "PARISIAN CHIC",
-    alt: "Image 1",
-    href: "/parisianchic"
+    text: "HORSE GIRL ENERGY",
+    alt: "Horse Girl Image",
+    href: "/horsegirlenergy"
   },
   {
     src: image2,
@@ -76,4 +76,3 @@ const MyStyleSlider1 = () => {
 };
 
 export default MyStyleSlider1;
-

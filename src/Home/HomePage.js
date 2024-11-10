@@ -17,6 +17,7 @@ import NewsletterSlider from './NewsletterSlider';
 import AdSenseAd from './Adsense'; // Import your AdSense component
 import HorizontalLine from '../Components/HorizontalLine';
 import TextRevealHomePage1 from '../Components/TextRevealHomePage1';
+import MyStyleSlider1 from '../Shop/MyStyleSlider1';
 
 function HomePage() {
   const isMobile = useMediaQuery('(max-width:650px)'); // Check if the screen size is mobile
@@ -146,7 +147,9 @@ function HomePage() {
         <TextBanner2 text="VINTAGE VIBES" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
         
         <VintageVibesCards />
-
+        <TextBanner2 text="SHOP MY STYLE" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
+        
+        <MyStyleSlider1 />
 <div style = {{
     margin: '10px  auto  ',
     minHeight: "auto",
