@@ -27,7 +27,7 @@ const AdSenseAd = () => {
   }, []);
 
   return (
-    <div style={{ justifyContent: 'center', margin: '20px auto' }}>
+    <div style={{ justifyContent: 'center', margin: '1rem auto' }}>
       <ins
         className="adsbygoogle"
         style={{ display: 'block' }}  // style must be an object

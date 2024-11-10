@@ -11,6 +11,7 @@ import { HorizontalRuleOutlined } from '@mui/icons-material';
 import HorizontalLine from '../Components/HorizontalLine';
 import TextBanner2 from '../Components/TextBanner2';
 import TextReveal from '../Components/TextReveal';
+import Quiz5 from './Quiz5';
 
 const QuizHomepage = () => {
     return (
@@ -34,6 +35,16 @@ const QuizHomepage = () => {
             style = {{paddingTop: '50px'}}
             >
                           <TextReveal text='THE QUIZ ZONE'/>
+
+                          <Grid item xs={11}>
+                    <Quiz5 />
+                </Grid>
+             
+                <Grid item xs={12}>
+                      <AdSenseAd />
+                </Grid>
+
+        
 
            <Grid item xs={11}>
                     <Quiz4 />
