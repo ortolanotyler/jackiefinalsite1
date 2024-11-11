@@ -4,8 +4,19 @@ import HeroSection2a from './HeroSection2a'; // Importing HeroSection2a format
 
 const FeaturedGrid6 = () => {
   return (
-    <Box sx={{ width: '80%', padding: '1rem', backgroundColor: 'white' , margin: '0 auto'}}>
+    <Box sx={{ width: '90%', padding: '1rem', backgroundColor: 'white' , margin: '0 auto'}}>
       <Grid container spacing={1} justifyContent="center">
+      <Grid item xs={12} sm={6} md={6} lg={4}>
+          <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <HeroSection2a
+              featureText="LATEST"
+              headlineText="Hair Growth Secrets: Best Products and Tips for Your Longest Hair"
+              imagePath="Hair1/hair1.webp"
+              linkUrl="/articles/hair-growth-secrets"
+              isFlipped={true}
+            />
+          </Box>
+        </Grid>
         {/* First Row */}
         <Grid item xs={12} sm={6} md={6} lg={4}>
           <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -43,23 +54,11 @@ const FeaturedGrid6 = () => {
           </Box>
         </Grid>
 
-        {/* Second Row */}
-        <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <HeroSection2a
-              featureText="FEATURED"
-              headlineText="Our Fairytale Wedding Overlooking Sorrento, Italy"
-              imagePath="FairytaleWedding/fairytalethumbnail.webp"
-              linkUrl="/fairytalewedding"
-              isFlipped={true}
-            />
-          </Box>
-        </Grid>
-
+  
         <Grid item xs={12} sm={6} md={6} lg={4}>
           <Box sx={{ height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <HeroSection2a
-              featureText="LATEST"
+              featureText="POPULAR"
               headlineText="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll "
               imagePath="BarbieDoll/JackieWyersBarbieThumb1.JPG"
               linkUrl="/barbie-doll"
@@ -71,7 +70,7 @@ const FeaturedGrid6 = () => {
         <Grid item xs={12} sm={6} md={6} lg={4}>
           <Box sx={{ height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <HeroSection2a
-              featureText="LATEST"
+              featureText="POPULAR"
               headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 "
               imagePath="/halloweenthumb12.jpg"
               linkUrl="/barbie-roundup"

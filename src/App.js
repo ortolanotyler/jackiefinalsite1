@@ -143,6 +143,7 @@ import Quiz5Female from './Quiz/QuizResultPages/Quiz5/Quiz5Female';
 import Quiz5Homepage from './Quiz/Quiz5Homepage';
 import HalloweenRoundup2 from './Articles/Tutorials/PopCulture/HalloweenRoundup2';
 import HorseGirlEnergy from './Shop/ShopMyHomeLinks/HorseGirl';
+import Haircare1 from './Articles/Tutorials/PopCulture/Haircare1';
 
 
 function usePageTracking() {
@@ -311,6 +312,7 @@ function App() {
 
             <Route path="/articles/halloween-roundup" element={<HalloweenRoundup2 />} />
             <Route path="/horsegirlenergy" element={<HorseGirlEnergy />} />
+            <Route path="/articles/hair-growth-secrets" element={<Haircare1 />} />
 
             <Route path="*" element={<NotFound/>} />
           </Route>
