@@ -11,7 +11,6 @@ import Quiz5 from '../Quiz/Quiz5';
 import SixGridComponent from './GridSectionArticles6';
 import FeaturedGrid6 from './GridSectionFeatured';
 import TextReveal from '../Components/TextReveal';
-import Grid3Across1 from './Grid3Across1';
 import VintageVibesCards from './GridVintageVibes';
 import NewsletterSlider from './NewsletterSlider';
 import AdSenseAd from './Adsense'; // Import your AdSense component
@@ -97,13 +96,15 @@ function HomePage() {
 
         <TextBanner2 text="FEATURED" height="100%" width="100%" fontSize="1rem" margin=" auto" />
 <HorizontalLine/>
-        <Grid container spacing={0} sx={{ width: '100%', padding: '10px' }}>
+<Grid container spacing={0} sx={{ width: '100%', padding: '10px' }}>
   <Grid item xs={12} md={6}>
-    <TextReveal
-      text="🩵 Male vs Female Gaze Quiz - Which one are you? 🩷" 
-      style={{ backgroundColor: '#f8f8f8', width: '100%' }} 
-    />
-    <Quiz5 />
+    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 0 }}>
+      <TextReveal
+        text="🩵 Male vs Female Gaze Quiz - Which one are you? 🩷" 
+        style={{ backgroundColor: '#f8f8f8', width: '100%' }} 
+      />
+      <Quiz5 />
+    </Box>
   </Grid>
   <Grid item xs={12} md={6}>
     <TextReveal 
