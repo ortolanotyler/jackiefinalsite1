@@ -20,13 +20,12 @@ const SixGridComponent = () => {
           </Box>
         </Grid>
         <Grid item xs={12} sm={6} md={6} lg={4}>
-        <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <HeroSection2a
-              featureText="TRAVEL"
-              headlineText="Best of Brussels: Top Things to See, Eat, and Experience!"
-              author="September 20"
-              imagePath="Homepage/paristhumbnail-1.webp"
-              linkUrl="/paris-brussels-travel-guide"
+          <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <HeroSection2a
+              featureText="QUIZ"
+              headlineText="Animal Pretty - Which one are you?"
+              imagePath="Homepage/animals.webp"
+              linkUrl="/quiz-2-home"
               isFlipped={true}
             />
           </Box>

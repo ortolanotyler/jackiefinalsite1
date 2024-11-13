@@ -144,6 +144,7 @@ import Quiz5Homepage from './Quiz/Quiz5Homepage';
 import HalloweenRoundup2 from './Articles/Tutorials/PopCulture/HalloweenRoundup2';
 import HorseGirlEnergy from './Shop/ShopMyHomeLinks/HorseGirl';
 import Haircare1 from './Articles/Tutorials/PopCulture/Haircare1';
+import WickedCollabs from './Articles/Tutorials/PopCulture/Wicked2';
 
 
 function usePageTracking() {
@@ -313,6 +314,7 @@ function App() {
             <Route path="/articles/halloween-roundup" element={<HalloweenRoundup2 />} />
             <Route path="/horsegirlenergy" element={<HorseGirlEnergy />} />
             <Route path="/articles/hair-growth-secrets" element={<Haircare1 />} />
+            <Route path="/articles/wicked-collabs-2024" element={<WickedCollabs />} />
 
             <Route path="*" element={<NotFound/>} />
           </Route>

@@ -22,9 +22,9 @@ const FeaturedGrid6 = () => {
           <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <HeroSection2a
               featureText="QUIZ"
-              headlineText="Animal Pretty - Which one are you?"
-              imagePath="Homepage/animals.webp"
-              linkUrl="/quiz-2-home"
+              headlineText="Top 5 Must-Have Wicked Collaborations for Adult Fans in 2024"
+              imagePath="Wicked2/Wicked2.webp"
+              linkUrl="/articles/wicked-collaborations-2024"
               isFlipped={true}
             />
           </Box>

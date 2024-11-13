@@ -32,19 +32,19 @@ const Grid3Across1 = () => {
           </Box>
         </Grid>
 
-        <Grid item xs={12} sm={6} md={6} lg={4}>
-                    <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-
-                    <HeroSection2a
-              featureText="VINTAGE VIBES"
-              headlineText="Coquette Sharon Tate 👰🏼"
-              author="10.21.2024"
-              imagePath="SharonTateBridal/SHARONTATEBRIDAL.jpeg"
-              linkUrl="/sharontatebridal"
-              isFlipped={false}
+    
+                    <Grid item xs={12} sm={6} md={6} lg={4}>
+          <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <HeroSection2a
+              featureText="QUIZ"
+              headlineText="Animal Pretty - Which one are you?"
+              imagePath="Homepage/animals.webp"
+              linkUrl="/quiz-2-home"
+              isFlipped={true}
             />
           </Box>
         </Grid>
+      
 
     
 
