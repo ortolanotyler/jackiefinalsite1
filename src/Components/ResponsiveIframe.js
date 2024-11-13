@@ -52,15 +52,15 @@ const ResponsiveIframe = ({ src, title }) => {
   return (
     <div ref={iframeRef} style={containerStyle}>
       {isVisible && (
-        <iframe
-          title={title}
-          src={src}
-          scrolling="no" // Disable scrolling in the iframe
-          style={iframeStyle}
-          tabIndex="-1" // Prevent iframe focus issues
-          seamless="seamless" // Allows the iframe to be more integrated visually
-          sandbox="allow-scripts allow-same-origin" // Restrict iframe capabilities
-        ></iframe>
+    <iframe
+    title={title}
+    src={src}
+    scrolling="no" // Disable scrolling in the iframe
+    style={iframeStyle}
+    tabIndex="-1" // Prevent iframe focus issues
+    seamless="seamless" // Allows the iframe to be more integrated visually
+    sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+  />
       )}
     </div>
   );
