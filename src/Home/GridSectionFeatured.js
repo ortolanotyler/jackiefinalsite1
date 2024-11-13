@@ -9,19 +9,7 @@ const FeaturedGrid6 = () => {
       <Grid item xs={12} sm={6} md={6} lg={4}>
           <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <HeroSection2a
-              featureText="LATEST"
-              headlineText="Hair Growth Secrets: Best Products and Tips for Your Longest Hair"
-              imagePath="Hair1/hair1.webp"
-              linkUrl="/articles/hair-growth-secrets"
-              isFlipped={true}
-            />
-          </Box>
-        </Grid>
-        {/* First Row */}
-        <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <HeroSection2a
-              featureText="QUIZ"
+              featureText="POP CULTURE"
               headlineText="Top 5 Must-Have Wicked Collaborations for Adult Fans in 2024"
               imagePath="Wicked2/Wicked2.webp"
               linkUrl="/articles/wicked-collaborations-2024"
@@ -30,6 +18,19 @@ const FeaturedGrid6 = () => {
           </Box>
         </Grid>
 
+      <Grid item xs={12} sm={6} md={6} lg={4}>
+          <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <HeroSection2a
+              featureText="NEW"
+              headlineText="Hair Growth Secrets: Best Products and Tips for Your Longest Hair"
+              imagePath="Hair1/hair1.webp"
+              linkUrl="/articles/hair-growth-secrets"
+              isFlipped={true}
+            />
+          </Box>
+        </Grid>
+        {/* First Row */}
+     
         <Grid item xs={12} sm={6} md={6} lg={4}>
           <Box sx={{ height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <HeroSection2a
