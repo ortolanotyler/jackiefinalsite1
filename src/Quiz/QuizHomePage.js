@@ -40,36 +40,14 @@ const QuizHomepage = () => {
                     <Quiz5 />
                 </Grid>
              
-                <Grid item xs={12}>
-                      <AdSenseAd />
-                </Grid>
-
+            
         
 
            <Grid item xs={11}>
                     <Quiz4 />
                 </Grid>
              
-                <Grid item xs={12}>
-                      <AdSenseAd />
-                </Grid>
-             
-
-                <Grid item xs={12}>
-                      <AdSenseAd />
-                </Grid>
-             
-
-                <Grid item xs={12}>
-                      <Quiz2 />
-                </Grid>
-             
-
-                 
-                <Grid item xs={12}>
-                      <AdSenseAd />
-                </Grid>
-             
+         
 
         
                
@@ -78,12 +56,7 @@ const QuizHomepage = () => {
                 </Grid>
              
 
-             
-           
-                     
-                <Grid item xs={12}>
-                      <AdSenseAd />
-                </Grid>
+     
 
           
                 <div style = {{margin :'10px auto' }}>

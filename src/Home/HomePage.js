@@ -97,7 +97,7 @@ function HomePage() {
         <TextBanner2 text="FEATURED" height="100%" width="100%" fontSize="1rem" margin=" auto" />
 <HorizontalLine/>
 <Grid container spacing={0} sx={{ width: '100%', padding: '10px' }}>
-  <Grid item xs={12} md={6}>
+  <Grid item xs={12} >
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 0 }}>
       <TextReveal
         text="🩵 Male vs Female Gaze Quiz - Which one are you? 🩷" 
@@ -106,13 +106,7 @@ function HomePage() {
       <Quiz5 />
     </Box>
   </Grid>
-  <Grid item xs={12} md={6}>
-    <TextReveal 
-      text="🎃 What's your Halloween Style ? 🎃" 
-      style={{ backgroundColor: '#f8f8f8', width: '100%' }} 
-    />
-    <Quiz4 />
-  </Grid>
+
 </Grid>
 <div style = {{
     margin: '10px  auto  ',
