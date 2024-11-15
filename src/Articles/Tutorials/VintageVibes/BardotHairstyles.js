@@ -104,7 +104,7 @@ const BardotHairstyles = () => {
   
   const iframeStyle = {
   width: '100%',
-  height: '520px', // Maintains original height
+  height: '550px', // Maintains original height
   border: 'none',
   scrolling: 'no',
   };
