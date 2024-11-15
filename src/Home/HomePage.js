@@ -23,55 +23,67 @@ function HomePage() {
 
   return (
     <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
-      <Helmet>
-        <title>Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips</title>
-        <link rel="canonical" href="https://www.jackiewyers.beauty/" />
-        <link rel="preload" as="image" href="/Images/Home/homepage1.webp" />
-        <link rel="preload" as="image" href="/Images/Home/homepage2.webp" />
-        <link rel="preload" as="image" href="/Images/Home/homepage4.webp" />
-        <link rel="preload" as="image" href="/Images/Home/homepage5.webp" />
-        <link rel="preload" as="image" href="/Images/Articles/Halloween/HalloweenThumb.jpg" />
-        <meta name="description" content="Explore beauty tutorials, reviews, travel tips, makeup looks, product reviews, and style guides from Jackie Wyers." />
-        <meta name="keywords" content="beauty tutorials, makeup reviews, travel tips, Jackie Wyers, beauty influencer, makeup looks, style guides, product reviews, fashion tips, skincare, hair tutorials, beauty trends, travel guides, girly style, pop culture beauty, vintage hairstyles, Jackie Wyers YouTube, beauty influencer tips, lifestyle content, beauty reviews, product recommendations, skincare tips, girly beauty trends, makeup inspiration, hair styling, beauty influencer reviews, classic beauty, retro beauty, travel vlogs, girly makeup looks, trendy makeup tutorials, period makeup, beauty and style, travel recommendations, makeup products, girly style tips, fashion advice, beauty advice, influencer travel tips, pop culture inspired beauty" />
-        <meta property="og:title" content="Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips" />
-        <meta property="og:description" content="Discover makeup tutorials, product reviews, beauty tips, and travel guides by Jackie Wyers." />
-        <meta property="og:image" content="https://www.jackiewyers.beauty/Images/jw3logo.png" />
-        <meta property="og:url" content="https://www.jackiewyers.beauty/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Jackie Wyers Beauty" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips" />
-        <meta name="twitter:description" content="Explore beauty tutorials, product reviews, and travel tips by Jackie Wyers." />
-        <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/jw3logo.png" />
-        <meta name="twitter:site" content="@JackieWyers" />
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              "name": "Jackie Wyers Beauty",
-              "url": "https://www.jackiewyers.beauty",
-              "description": "Explore beauty tutorials, reviews, travel tips, makeup looks, product reviews, and style guides from Jackie Wyers.",
-              "potentialAction": {
-                "@type": "SearchAction",
-                "target": "https://www.jackiewyers.beauty/search?q={search_term_string}",
-                "query-input": "required name=search_term_string"
-              },
-              "publisher": {
-                "@type": "Organization",
-                "name": "Jackie Wyers Beauty",
-                "logo": {
-                  "@type": "ImageObject",
-                  "url": "https://www.jackiewyers.beauty/Images/jw3logo.png",
-                  "width": 600,
-                  "height": 60
-                }
-              }
-            }
-          `}
-        </script>
-      </Helmet>
+    <Helmet>
+  <title>Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips</title>
+  <link rel="canonical" href="https://www.jackiewyers.beauty/" />
+  <meta
+    name="description"
+    content="Discover beauty tutorials, makeup reviews, travel tips, and vintage vibes by Jackie Wyers. Explore expert tips on beauty trends, pop culture looks, and girly aesthetics."
+  />
+  <meta
+    name="keywords"
+    content="beauty tutorials, makeup reviews, travel tips, Jackie Wyers, beauty influencer, makeup looks, style guides, product reviews, fashion tips, skincare, hair tutorials, beauty trends, travel guides, girly style, pop culture beauty, vintage hairstyles, Jackie Wyers YouTube, beauty influencer tips, lifestyle content, girly beauty trends, makeup inspiration, hair styling, classic beauty, retro beauty, travel vlogs, trendy makeup tutorials, beauty and style, travel recommendations, makeup products, girly style tips, pop culture inspired beauty"
+  />
 
+  {/* Open Graph Meta Tags */}
+  <meta property="og:title" content="Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips" />
+  <meta
+    property="og:description"
+    content="Discover beauty tutorials, makeup reviews, travel tips, and vintage vibes by Jackie Wyers. Explore expert tips on beauty trends, pop culture looks, and girly aesthetics."
+  />
+  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/jw3logo.png" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Jackie Wyers Beauty" />
+
+  {/* Twitter Meta Tags */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips" />
+  <meta
+    name="twitter:description"
+    content="Discover beauty tutorials, makeup reviews, travel tips, and vintage vibes by Jackie Wyers. Explore expert tips on beauty trends, pop culture looks, and girly aesthetics."
+  />
+  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/jw3logo.png" />
+  <meta name="twitter:site" content="@JackieWyers" />
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Jackie Wyers Beauty",
+        "url": "https://www.jackiewyers.beauty",
+        "description": "Discover beauty tutorials, makeup reviews, travel tips, and vintage vibes by Jackie Wyers. Explore expert tips on beauty trends, pop culture looks, and girly aesthetics.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://www.jackiewyers.beauty/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.jackiewyers.beauty/Images/jw3logo.png",
+            "width": 600,
+            "height": 60
+          }
+        }
+      }
+    `}
+  </script>
+</Helmet>
       <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
         
         {!isMobile && (
