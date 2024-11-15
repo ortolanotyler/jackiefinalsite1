@@ -6,6 +6,10 @@ import HorizontalLine from '../Components/HorizontalLine';
 import EmailSubscribe from '../Components/EmailSubscribe';
 
 const images = [
+  `${process.env.PUBLIC_URL}/Images/Newsletter20A.png`,
+  `${process.env.PUBLIC_URL}/Images/Newsletter20B.png`,
+  `${process.env.PUBLIC_URL}/Images/Newsletter20C.png`,
+  `${process.env.PUBLIC_URL}/Images/Newsletter20D.png`,
   `${process.env.PUBLIC_URL}/Images/Newsletter17A.png`,
   `${process.env.PUBLIC_URL}/Images/Newsletter17B.png`,
   `${process.env.PUBLIC_URL}/Images/Newsletter17C.png`,

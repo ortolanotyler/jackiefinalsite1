@@ -69,7 +69,6 @@ import DarkFlorals from './Shop/ShopMyHomeLinks/DarkFlorals';
 import DiaryPost1Fillers from './Articles/Tutorials/VintageVibes/DiaryFillers';
 import SummerInspo from './Articles/Tutorials/PopCulture/SummerInspo';
 import VideoGridPage from './Home/VideoGrid/VideoGridPage';
-import NewZealand from './Articles/Travel/NewZealand';
 import Fable from './Articles/Travel/Fable';
 import SummerBeauty from './Articles/Tutorials/PopCulture/SummerBeauty';
 import DiaryBridesmaids from './Articles/Tutorials/VintageVibes/DiaryBridesmaids';
@@ -146,6 +145,7 @@ import HorseGirlEnergy from './Shop/ShopMyHomeLinks/HorseGirl';
 import Haircare1 from './Articles/Tutorials/PopCulture/Haircare1';
 import WickedCollabs from './Articles/Tutorials/PopCulture/Wicked2';
 import DCCMakeupTutorial from './Articles/Tutorials/VintageVibes/DallasCowboys';
+import NewZealand from './Articles/Travel/N';
 
 
 function usePageTracking() {
