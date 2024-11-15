@@ -13,7 +13,7 @@ const DropCap1 = ({ text, style }) => {
         {text.charAt(0)}
       </span>
       <span style={{  fontSize: '20px',
-  margin: '10px auto', fontWeight: '100', fontFamily: 'Playfair Display, sans-serif', maxWidth: '100%' }}>
+  margin: '10px auto', fontWeight: '100', fontFamily: 'EB Garamond, serif', maxWidth: '100%' }}>
         {text.slice(1)}
       </span>
     </p>

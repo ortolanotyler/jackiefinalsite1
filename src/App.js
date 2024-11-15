@@ -145,6 +145,7 @@ import HalloweenRoundup2 from './Articles/Tutorials/PopCulture/HalloweenRoundup2
 import HorseGirlEnergy from './Shop/ShopMyHomeLinks/HorseGirl';
 import Haircare1 from './Articles/Tutorials/PopCulture/Haircare1';
 import WickedCollabs from './Articles/Tutorials/PopCulture/Wicked2';
+import DCCMakeupTutorial from './Articles/Tutorials/VintageVibes/DallasCowboys';
 
 
 function usePageTracking() {
@@ -315,6 +316,7 @@ function App() {
             <Route path="/horsegirlenergy" element={<HorseGirlEnergy />} />
             <Route path="/articles/hair-growth-secrets" element={<Haircare1 />} />
             <Route path="/articles/wicked-collaborations-2024" element={<WickedCollabs />} />
+            <Route path="/articles/dcc-cheerleader" element={<DCCMakeupTutorial />} />
 
             <Route path="*" element={<NotFound/>} />
           </Route>

@@ -7,6 +7,17 @@ const FeaturedGrid6 = () => {
     <Box sx={{ width: '90%', padding: '1rem', backgroundColor: 'white' , margin: '0 auto'}}>
       <Grid container spacing={1} justifyContent="center">
       <Grid item xs={12} sm={6} md={6} lg={4}>
+          <Box sx={{ height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <HeroSection2a
+              featureText="LATEST"
+              headlineText="Dallas Cowboys Cheerleader Makeup Tutorial"
+              imagePath="dcc2.jpg"
+              linkUrl="/articles/dcc-cheerleader"
+              isFlipped={false}
+            />
+          </Box>
+        </Grid>
+      <Grid item xs={12} sm={6} md={6} lg={4}>
           <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <HeroSection2a
               featureText="POP CULTURE"
@@ -68,17 +79,7 @@ const FeaturedGrid6 = () => {
           </Box>
         </Grid>
 
-        <Grid item xs={12} sm={6} md={6} lg={4}>
-          <Box sx={{ height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <HeroSection2a
-              featureText="POPULAR"
-              headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024 "
-              imagePath="/halloweenthumb12.jpg"
-              linkUrl="/barbie-roundup"
-              isFlipped={false}
-            />
-          </Box>
-        </Grid>
+     
 
      
       </Grid>

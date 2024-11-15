@@ -70,12 +70,12 @@ const ResponsiveAppBar = () => {
                 backgroundColor: '#745B4F',
                 color: '#f8f8f8 !important',
                 fontSize: '1rem',
-                fontWeight: 'bold',
+                fontWeight: '400',
                 textTransform: 'lowercase',
                 letterSpacing: '0.1em',
-                borderRadius: '10px',
+                borderRadius: '50px',
                 padding: '10px 20px',
-                fontFamily: 'Playfair Display, sans-serif !important',
+                fontFamily: 'Playfair Display, serif ',
                 marginRight: '50px',
                 transition: 'color 0.3s ease', // Smooth transition for color change
                 '&:hover': {
