@@ -35,7 +35,7 @@ const paragraphStyle = {
 
 const linkStyle = {
   textDecoration: 'none',
-  fontFamily: "'Open Sans', serif",
+  fontFamily: "'EB Garamond', serif",
   fontWeight: '100',
   color: '#745B4F',
 };

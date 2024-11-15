@@ -59,7 +59,7 @@ const paragraphStyle = {
 fontSize: '20px',
 color: '#000000',
 
-fontFamily: "'Open Sans', serif",
+fontFamily: "'EB Garamond', serif",
 fontWeight: '100',
 padding: '10px',
 margin: '10px auto',
@@ -71,7 +71,7 @@ margin: '10px auto',
 
 const linkStyle = {
 textDecoration: 'none', // Removes underline from links
-fontFamily: "'Open Sans', serif",
+fontFamily: "'EB Garamond', serif",
 fontWeight: '100',
 color: '#745B4F', // Inherits the color of the surrounding text
 };
