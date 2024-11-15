@@ -4,7 +4,7 @@ import HeroSection2a from './HeroSection2a'; // Importing HeroSection2a format
 
 const FeaturedGrid6 = () => {
   return (
-    <Box sx={{ width: '90%', padding: '1rem', backgroundColor: 'white' , margin: '0 auto'}}>
+    <Box sx={{ width: '80%', padding: '1rem', backgroundColor: 'white' , margin: '0 auto'}}>
       <Grid container spacing={1} justifyContent="center">
       <Grid item xs={12} sm={6} md={6} lg={4}>
           <Box sx={{ height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>

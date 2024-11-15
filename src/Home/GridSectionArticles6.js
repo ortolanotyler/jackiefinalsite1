@@ -2,9 +2,12 @@ import React from 'react';
 import { Grid, Box } from '@mui/material';
 import HeroSection2a from './HeroSection2a';
 
-const SixGridComponent = () => {
+
+
+
+const FeaturedGrid6 = () => {
   return (
-    <Box sx={{ width: '100%', padding: '1rem', backgroundColor: 'white' , margin: '0 auto'}}>
+    <Box sx={{ width: '80%', padding: '1rem', backgroundColor: 'white' , margin: '0 auto'}}>
       <Grid container spacing={1} justifyContent="center">
         {/* Row 1 */}
         <Grid item xs={12} sm={6} md={6} lg={4}>
@@ -82,7 +85,12 @@ const SixGridComponent = () => {
         </Grid>
       </Grid>
     </Box>
+
+     
+
+     
+    
   );
 };
 
-export default SixGridComponent;
+export default FeaturedGrid6;

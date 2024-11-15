@@ -124,23 +124,81 @@ const DCCMakeupTutorial = () => {
 
 return (
     <div ref={blogRef}>
+      <Helmet>
+  <title>Dallas Cowboys Cheerleader Makeup Tutorial - Achieve the Iconic Glam Look!</title>
+  <link rel="canonical" href="https://www.jackiewyers.beauty/articles/dcc-cheerleader" />
+
+  <meta 
+    name="description" 
+    content="Follow Jackie Wyers' Dallas Cowboys Cheerleader makeup tutorial for an iconic glam look. High-end products and budget-friendly dupes for a stunning transformation." 
+  />
+  <meta 
+    name="keywords" 
+    content="Dallas Cowboys Cheerleader makeup tutorial, Jackie Wyers, cheerleader glam makeup, smokey eyes tutorial, beauty tips, glam makeup look, affordable makeup dupes, high-end makeup, Dallas Cowboys, DCC makeup, Southern bombshell beauty, Madeline Cope inspired makeup, cheer squad makeup, makeup tutorial, pop culture beauty trends, Jackie Wyers beauty blog" 
+  />
+
+  {/* Open Graph Meta Tags */}
+  <meta property="og:title" content="Dallas Cowboys Cheerleader Makeup Tutorial - Achieve the Iconic Glam Look!" />
+  <meta 
+    property="og:description" 
+    content="Follow Jackie Wyers' Dallas Cowboys Cheerleader makeup tutorial for an iconic glam look. High-end products and budget-friendly dupes for a stunning transformation." 
+  />
+  <meta 
+    property="og:image" 
+    content="https://www.jackiewyers.beauty/Images/Articles/DCC/DCCMakeupThumb.jpg" 
+  />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/articles/dcc-cheerleader" />
+  <meta property="og:type" content="article" />
+
+  {/* Twitter Meta Tags */}
+  <meta name="twitter:title" content="Dallas Cowboys Cheerleader Makeup Tutorial - Achieve the Iconic Glam Look!" />
+  <meta 
+    name="twitter:description" 
+    content="Follow Jackie Wyers' Dallas Cowboys Cheerleader makeup tutorial for an iconic glam look. High-end products and budget-friendly dupes for a stunning transformation." 
+  />
+  <meta 
+    name="twitter:image" 
+    content="https://www.jackiewyers.beauty/Images/Articles/DCC/DCCMakeupThumb.jpg" 
+  />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Dallas Cowboys Cheerleader Makeup Tutorial - Achieve the Iconic Glam Look!",
+        "description": "Follow Jackie Wyers' Dallas Cowboys Cheerleader makeup tutorial for an iconic glam look. High-end products and budget-friendly dupes for a stunning transformation.",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/DCC/DCCMakeupThumb.jpg",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.jackiewyers.beauty/logo.png"
+          }
+        },
+        "datePublished": "2024-11-15",
+        "dateModified": "2024-11-15",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.jackiewyers.beauty/articles/dcc-cheerleader"
+        }
+      }
+    `}
+  </script>
+</Helmet>
       <Card
         title="Dallas Cowboys Cheerleader Makeup Tutorial"
         description="Learn how to recreate the Dallas Cowboys Cheerleader-inspired makeup look with step-by-step guidance and product recommendations, both high-end and budget-friendly!"
         blogContent={
           <div className="container">
-            <Helmet>
-              <title>Dallas Cowboys Cheerleader Makeup Tutorial</title>
-              <meta 
-                name="description" 
-                content="Get the iconic Dallas Cowboys Cheerleader makeup look with a detailed step-by-step tutorial featuring high-end products and their budget-friendly dupes." 
-              />
-              <meta 
-                name="keywords" 
-                content="Dallas Cowboys Cheerleader makeup, cheerleader makeup tutorial, glam makeup, smokey eyes, budget-friendly makeup, beauty tutorial, Jackie Wyers"
-              />
-            </Helmet>
-
+        
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
         <a href="/popculture" style={{ fontFamily: 'Arapey, sans-serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
           BEAUTY // POP CULTURE

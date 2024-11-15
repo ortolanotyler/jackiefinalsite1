@@ -87,12 +87,7 @@ function HomePage() {
         <Box sx={{ paddingTop: isMobile ? '50px' : '0px' }}>
           <QuiltedImageList1 />
         </Box>
-        <div style = {{
-    margin: '10px  auto  ',
-    minHeight: "auto",
-}}>
-  <AdSenseAd />
-</div>
+       
 
         <TextBanner2 text="FEATURED" height="100%" width="100%" fontSize="1rem" margin=" auto" />
 <HorizontalLine/>
@@ -119,12 +114,7 @@ function HomePage() {
         
         <FeaturedGrid6 />
 
-<div style = {{
-    margin: '10px  auto  ',
-    minHeight: "auto",
-}}>
-  <AdSenseAd />
-</div>
+
 
         <NewsletterSlider />
 
@@ -133,7 +123,7 @@ function HomePage() {
         <SixGridComponent />
 
 <div style = {{
-    margin: '10px  auto  ',
+    margin: '10px  auto ',
     minHeight: "auto",
 }}>
   <AdSenseAd />
