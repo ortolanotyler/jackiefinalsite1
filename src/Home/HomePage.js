@@ -89,8 +89,7 @@ function HomePage() {
         </Box>
        
 
-        <TextBanner2 text="FEATURED" height="100%" width="100%" fontSize="1rem" margin=" auto" />
-<HorizontalLine/>
+        <TextBanner2 text="FEATURED" height="100%" width="100%" fontSize="1rem"  />
 <Grid container spacing={0} sx={{ width: '100%', padding: '10px' }}>
   <Grid item xs={12} >
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 0 }}>
@@ -98,6 +97,8 @@ function HomePage() {
         text="🩵 Male vs Female Gaze Quiz - Which one are you? 🩷" 
         style={{ backgroundColor: '#f8f8f8', width: '100%' }} 
       />
+
+
       <Quiz5 />
     </Box>
   </Grid>

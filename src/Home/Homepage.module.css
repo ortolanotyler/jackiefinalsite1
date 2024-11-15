@@ -1,0 +1,21 @@
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Initially hide the elements */
+  .fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+  }
+  
+  /* Apply the fade-in effect when visible */
+  .fade-in.visible {
+    opacity: 1;
+    animation: fadeIn 0.5s ease-in forwards;
+  }
