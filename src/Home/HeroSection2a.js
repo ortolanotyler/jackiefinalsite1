@@ -58,28 +58,31 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     padding: '1rem',
 
     textAlign: 'center',
-    fontFamily: 'Playfair Display, sans-serif',
+    fontFamily: 'Playfair Display, serif',
   };
 
   const featureStyle = {
-    fontSize: '16px',
+    fontSize: '0.88rem',
     fontWeight: '100',
     letterSpacing: '1px',
     textAlign: 'center',
 
     color: '#000000',
-    fontFamily: 'Playfair Display, sans-serif',
+    fontFamily: 'Playfair Display, serif',
+    fontWeight: '400',
     textDecoration: 'none',
     margin: '0 auto',
   };
 
   const headlineStyle = {
-    fontSize: '20px',
+    fontSize: '1.25rem',
     textAlign: 'center',
     margin: '0 auto',
 
     lineHeight: 1.25,
-    fontFamily: 'Playfair Display, sans-serif',
+    fontFamily: 'Playfair Display, serif',
+    fontWeight: '400',
+
   };
 
   const subtextStyle = {
@@ -87,7 +90,9 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     lineHeight: 1.25,
     margin: '10px auto',
     fontStyle: 'italic',
-    fontFamily: 'Playfair Display, sans-serif',
+    fontFamily: 'Playfair Display, serif',
+    fontWeight: '400',
+
     color: '#3a3a3a',
   };
 
@@ -97,7 +102,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     margin: '10px auto',
     fontStyle: 'italic',
     color: '#000000',
-    fontFamily: 'Arapey, sans-serif',
+    fontFamily: 'Arapey, serif',
   };
 
   return (
