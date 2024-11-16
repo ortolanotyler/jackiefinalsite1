@@ -145,6 +145,7 @@ import Haircare1 from './Articles/Tutorials/PopCulture/Haircare1';
 import WickedCollabs from './Articles/Tutorials/PopCulture/Wicked2';
 import DCCMakeupTutorial from './Articles/Tutorials/VintageVibes/DallasCowboys';
 import NewZealand from './Articles/Travel/NewZealand';
+import TaylorSwiftHoliday from './Articles/Tutorials/PopCulture/TaylorSwift';
 
 
 function usePageTracking() {
@@ -316,6 +317,7 @@ function App() {
             <Route path="/articles/hair-growth-secrets" element={<Haircare1 />} />
             <Route path="/articles/wicked-collaborations-2024" element={<WickedCollabs />} />
             <Route path="/articles/dcc-cheerleader" element={<DCCMakeupTutorial />} />
+            <Route path="/articles/taylor-swift-holidays-2024" element={<TaylorSwiftHoliday />} />
 
             <Route path="*" element={<NotFound/>} />
           </Route>
