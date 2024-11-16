@@ -423,6 +423,19 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   
 />
 
+{/* Embed dance video */}
+<div style={{ marginBottom: '30px', marginTop: '20px', textAlign: 'center' }}>
+  <iframe
+    style={{ boxShadow: '12px', borderRadius: '15px', width: '301px', height: '535px' }}
+    src="https://www.youtube.com/embed/lxCeaLYYT74"
+    title="YouTube video player"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+
 <p style={paragraphStyle}>
   For a comprehensive look at the products used by the Dallas Cowboys Cheerleaders, you can refer to this 
   <a href="https://www.dailymail.co.uk" target="_blank" rel="noopener noreferrer" style={linkStyle}>Daily Mail article</a>!
@@ -536,6 +549,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
     allowFullScreen
   ></iframe>
 </div>
+
 
 
 <p style={paragraphStyle}>
