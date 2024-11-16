@@ -200,8 +200,10 @@ const BunnyPretty = () => {
       <ResponsiveYoutube src="https://www.youtube.com/embed/hIGr8Gj4kQA?si=8N-JgnQ-JeRTk5Gm" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
     
     
-      <p style={paragraphStyle}>
-        Bunny Pretty: Cute and Angelic (Bunny Beauty Tutorial starts at 5:31)
+ 
+      <p style={captionStyle}>
+        <em> Deer Beauty Tutorial starts at 0:42 </em>
+      
       </p>
 
       

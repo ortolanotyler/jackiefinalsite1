@@ -193,7 +193,8 @@ const DeerPretty = () => {
 
 
       <p style={paragraphStyle}>
-        <strong>Deer Pretty: Soft and Ethereal 🦌 (Deer Beauty Tutorial starts at 0:42)</strong>
+        <em> (Deer Beauty Tutorial starts at 0:42) </em>
+      
       </p>
 
       <div className={styles.subscribeContainer}>

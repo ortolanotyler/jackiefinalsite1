@@ -194,8 +194,9 @@ const CatPretty = () => {
         <SubscribeButton />
       </div>
 
-      <p style={paragraphStyle}>
-        <strong>(Cat Beauty Tutorial starts at 17:50)</strong>
+      <p style={captionStyle}>
+        <em> (Cat Beauty Tutorial starts at 17:50) </em>
+      
       </p>
       <AdSenseAd/>
       <p style={paragraphStyle}>

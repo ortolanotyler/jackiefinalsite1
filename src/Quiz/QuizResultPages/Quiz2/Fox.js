@@ -189,8 +189,8 @@ const FoxPretty = () => {
         <SubscribeButton />
       </div>
 
-      <p style={paragraphStyle}>
-        <strong>(Fox Beauty Tutorial starts at 13:20)</strong>
+      <p style={captionStyle}>
+       <em> Fox Beauty Tutorial starts at 13:20 </em>
       </p>
 <AdSenseAd/>
       <p style={paragraphStyle}>
