@@ -178,7 +178,7 @@ const VintageVibes = () => {
             >
               <HeroSection2a
                 featureText="60s ICON"
-                headlineText="Boho Dallas Cowboys Cheerleaders ✨"
+                headlineText="Dallas Cowboys Cheerleader Makeup Tutorial ✨"
                 imagePath="/dcc2.jpg"
                 linkUrl="articles/dcc-cheerleader"
                 isFlipped={true}

@@ -13,7 +13,7 @@ const HomeTutorials = () => {
         <Grid item xs={12}>
             <HeroSection
               featureText="DALLAS COWBOYS"
-              headlineText="Boho Dallas Cowboys Cheerleaders ✨"
+              headlineText=" Dallas Cowboys Cheerleader Makeup Tutorial ✨"
               subtext="Recreate the iconic cheerleader look with a boho twist!"
               imagePath="/dcc2.jpg"
               linkUrl="/articles/dcc-cheerleader"
