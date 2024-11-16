@@ -23,10 +23,11 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'flex-start',
-    maxHeight: '650px',
-   maxWidth: '1600px',
+    minHeight: '500px',
+    maxHeight: '700px',
+   maxWidth: '100%',
     color: '#000000',
-    backgroundColor: '#fdedef',
+    backgroundColor: '#ffffff',
     borderRadius: '5px',
     overflow: 'hidden',
     border: '0.5px solid #745b4f',
@@ -50,7 +51,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
   };
 
   const contentStyle = {
-    minHeight: '200px',
+    minHeight: '150px',
 
   
     paddingTop: '1rem',

@@ -1,107 +1,273 @@
-import React, { useRef, useEffect } from 'react';
-import styles from '../aaa.module.css'; // Import CSS Modules
-import TextReveal from '../../../Components/TextReveal';
-import VintageVibesCards from '../../../Home/GridVintageVibes';
-
-
-// Importing the images
-const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg`;
-const loren = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg`;
-const bridal = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEBRIDAL.jpeg`;
-const balke1 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BALKETHUMBNAIL.jpeg`;
-const shrimpton = `${process.env.PUBLIC_URL}/Images/Articles/JeanShrimpton/JeanShrimptonThumbnail.jpg`;
-const twiggy = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyMODThumbnail.jpeg`;
-const grace = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/GraceKellyJackieWyers.jpg`;
-const bardot = `${process.env.PUBLIC_URL}/Images/Articles/BardotHairstyles/BardotThumbnail.jpg`;
-
-const cardsData = [
-  {
-    link: "/bardothairstyles",
-    image: bardot,
-    alt: "Jackie Wyers Mastering the Bardot Bun",
-    title: "Mastering the Bardot Bun 🌸",
-    description: "My Many Attempts At The Iconic 60s Style"
-  },
-  {
-    link: "/yardley1965",
-    image: shrimpton,
-    alt: "YARDLEY 1965 Makeup",
-    title: "Jean Shrimpton 🧼 Yardley 1965",
-    description: "Iconic '60s Makeup"
-  },
-  {
-    link: "/gracekelly",
-    image: grace,
-    alt: "Grace Kelly - Hollywood Glam",
-    title: "Timeless Grace Kelly 💄",
-    description: "Grace Kelly - Hollywood Glam",
-  },
-  {
-    link: "/sharontatebridal",
-    image: bridal,
-    alt: "SHARON TATE",
-    title: "Coquette Sharon Tate 👰🏼 ",
-    description: "Iconic '60s Bridal"
-  },
-  {
-    link: "/sophialoren",
-    image: loren,
-    alt: "Sophia Loren",
-    title: "Sexy Sophia Loren 🚿",
-    description: "The woman with the 70 year career"
-  },
-  {
-    link: "/iconicsharon",
-    image: sharon,
-    alt: "Sharon Tate",
-    title: "Bohemian Sharon Tate 🌼",
-    description: "Part Two of the iconic series"
-  },
-  {
-    link: "/balkeblog",
-    image: balke1,
-    alt: "1960s legend Ina Balke European chic makeup tutorial",
-    title: "Iconic 60's Glam 🖤",
-    description: "Iconic '60s Makeup how-to"
-  },
-  {
-    link: "/twiggy",
-    image: twiggy,
-    alt: "1960s legend Ina Balke European chic makeup tutorial",
-    title: " MOD Twiggy 🩵",
-    description: "Iconic '60s Makeup how-to"
-  },
-  // Add more card objects as needed
-];
-
-const Card = ({ link, image, alt, title, description }) => {
-
-
-
-  return (
-    <li className={styles.card}>
-      <a className={styles.cardImage} href={link}>
-        <img src={image} alt={alt} className={styles.cardImageImg} />
-      </a>
-      <div className={styles.cardDescription}>
-        <a href={link} className={styles.cardDescriptionLink}>
-          <h2 className={styles.cardDescriptionH2}>{title}</h2>
-          <p className={styles.cardDescriptionP}>{description}</p>
-        </a>
-        {/* Button added below */}
-        <a href={link} className={styles.readHereBtn}>Read Here</a>
-      </div>
-    </li>
-  );
-};
+import React from 'react';
+import { Grid, Box } from '@mui/material';
+import HeroSection2a from '../../../Home/HeroSection2a';
+import HeroSection from '../../../Home/HeroSection';
+import TextRevealHomePage from '../../../Components/TextRevealHomePage';
 
 const VintageVibes = () => {
   return (
-    <div>
-      <div><TextReveal text= 'TIME TRAVEL TUTORIALS' /></div>
-   
-  <VintageVibesCards/>
-    </div>
+    <>
+      <TextRevealHomePage text="TIME TRAVEL TUTORIALS" />
+      <Box sx={{ width: '80%', padding: '1rem', backgroundColor: 'white', margin: '0 auto' }}>
+        <Grid container spacing={1} justifyContent="center">
+          {/* Top 3 Most Searchable */}
+          <Grid item xs={12}>
+            <HeroSection
+              featureText="GRACE KELLY"
+              headlineText="Timeless Grace Kelly 💄"
+              subtext="Recreate the classic Hollywood glam of Grace Kelly's signature look."
+              imagePath="GraceKelly/GraceKellyJackieWyers.jpg"
+              linkUrl="/gracekelly"
+              isFlipped={true}
+            />
+          </Grid>
+
+          <Grid item xs={12}>
+            <HeroSection
+              featureText="SHARON TATE"
+              headlineText="Coquette Sharon Tate 👰🏼"
+              subtext="Iconic '60s bridal inspiration featuring Sharon Tate's timeless style."
+              imagePath="SharonTateBridal/SHARONTATEBRIDAL.jpeg"
+              linkUrl="/sharontatebridal"
+              isFlipped={false}
+            />
+          </Grid>
+
+          <Grid item xs={12}>
+            <HeroSection
+              featureText="TWIGGY"
+              headlineText="MOD Twiggy 🩵"
+              subtext="Get the ultimate '60s Mod look inspired by Twiggy's bold eyeliner and lashes."
+              imagePath="Twiggy/TwiggyMODThumbnail.jpeg"
+              linkUrl="/twiggy"
+              isFlipped={true}
+            />
+          </Grid>
+
+          {/* New Articles from Image */}
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="SHARON TATE"
+                headlineText="Coquette Sharon Tate 👰🏼"
+                imagePath="SharonTateBridal/SHARONTATEBRIDAL.jpeg"
+                linkUrl="/sharontatebridal"
+                isFlipped={true}
+              />
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="GRACE KELLY"
+                headlineText="Timeless Grace Kelly 💄"
+                imagePath="GraceKelly/GraceKellyJackieWyers.jpg"
+                linkUrl="/gracekelly"
+                isFlipped={false}
+              />
+            </Box>
+          </Grid>
+
+          {/* Existing Articles */}
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="BARDOT"
+                headlineText="Mastering the Bardot Bun 🌸"
+                imagePath="BardotHairstyles/BardotThumbnail.jpg"
+                linkUrl="/bardothairstyles"
+                isFlipped={false}
+              />
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="YARDLEY 1965"
+                headlineText="Jean Shrimpton 🧼 Yardley 1965"
+                imagePath="JeanShrimpton/JeanShrimptonThumbnail.jpg"
+                linkUrl="/yardley1965"
+                isFlipped={true}
+              />
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="SHARON TATE"
+                headlineText="Bohemian Sharon Tate 🌼"
+                imagePath="SharonTateIconic/ICONICSHARONTHUMBNAIL.jpg"
+                linkUrl="/iconicsharon"
+                isFlipped={true}
+              />
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="BRIDESMAIDS"
+                headlineText="Vintage Bridesmaids Proposal Boxes 💌"
+                imagePath="Bridesmaids/BridesmaidBoxThumb!.jpg"
+                linkUrl="/bridesmaidboxes"
+                isFlipped={false}
+              />
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="60s ICON"
+                headlineText="Boho Dallas Cowboys Cheerleaders ✨"
+                imagePath="/dcc2.jpg"
+                linkUrl="articles/dcc-cheerleader"
+                isFlipped={true}
+              />
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="VINTAGE"
+                headlineText="Elphaba Wicked Witch Makeup 🌟"
+                imagePath="Wicked2/Wicked2.webp"
+                linkUrl="/elphaba"
+                isFlipped={true}
+              />
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="SOPHIA LOREN"
+                headlineText="Sexy Sophia Loren 🚿"
+                imagePath="SophiaLoren/SophiaLorenThumbnail.jpeg"
+                linkUrl="/sophialoren"
+                isFlipped={false}
+              />
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="60s GLAM"
+                headlineText="Iconic 60's Glam 🖤"
+                imagePath="Balke/BALKETHUMBNAIL.jpeg"
+                linkUrl="/balkeblog"
+                isFlipped={false}
+              />
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="TWIGGY"
+                headlineText="MOD Twiggy 🩵"
+                imagePath="Twiggy/TwiggyMODThumbnail.jpeg"
+                linkUrl="/twiggy"
+                isFlipped={true}
+              />
+            </Box>
+          </Grid>
+        </Grid>
+      </Box>
+    </>
   );
 };
 

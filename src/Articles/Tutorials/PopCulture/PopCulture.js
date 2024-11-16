@@ -1,81 +1,80 @@
 import React from 'react';
 import { Grid, Box } from '@mui/material';
-import TextReveal from '../../../Components/TextReveal';
 import HeroSection2a from '../../../Home/HeroSection2a';
-
-const image6 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSThumbnail.jpeg`;
-const image7 = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaDelRayThumbnail.jpeg`;
-const image9 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieMovie/MARGOTBARBIETHUMBNAIL.png`;
-const nomakeup = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg`;
-const summerinspo = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/mermaidthumbnail.jpg`;
-const perioddrama = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/ArticleThumb.jpg`;
-const emily = `${process.env.PUBLIC_URL}/Images/Articles/EmilyInParis/emilyinparis.jpg`;
-const fran = `${process.env.PUBLIC_URL}/Images/Articles/Francesca/FrancescaThumb.jpg`;
-
-const cardsData = [
-  {
-    link: "/emily-in-paris",
-    image: emily,
-    alt: "Emily In Paris Style Evolution",
-    title: "Emily in Paris Style Evolution : Iconic Outfits, Makeup, and Hair",
-  },
-  {
-    link: "/perioddrama",
-    image: perioddrama,
-    alt: "Summer Beauty",
-    title: "No-Makeup Period Dramas and Wearable Historical Hairstyles",
-  },
-  {
-    link: "/SummerInspo",
-    image: summerinspo,
-    alt: "Summer Inspo",
-    title: "Summer Inspiration 🧜",
-  },
-  {
-    link: "/nomakeupspring",
-    image: nomakeup,
-    alt: "Warm and cozy latte-inspired fall makeup look",
-    title: "Spring Makeup Inspiration 🎬",
-  },
-  {
-    link: "/francesca-bridgerton",
-    image: fran,
-    alt: "Francesca Bridgerton Recreation by Jackie Wyers",
-    title: "Francesca Bridgerton Makeup, Hair, and Dress",
-  },
-  {
-    link: "/margotbarbie",
-    image: image9,
-    alt: "Margot Robbie Barbie Movie",
-    title: "Barbie Makeup Transformation 👱🏼‍♀️",
-  },
-  {
-    link: "/lanablog",
-    image: image7,
-    alt: "Lana",
-    title: "SKIMS X Lana Makeup 🎀",
-  },
-  {
-    link: "/victoriasecret",
-    image: image6,
-    alt: "Victoria's Secret",
-    title: "VS Bombshell Look 🛍️",
-  },
-];
+import TextRevealHomePage from '../../../Components/TextRevealHomePage';
 
 const PopCulture = () => {
   return (
-    <Box sx={{ width: '100%', padding: '10px', backgroundColor: 'white' }}>
-      <div style={{ paddingTop: '50px' }}>
-        <TextReveal text='POP CULTURE OBSESSED' />
-      </div>
-      
-      <Grid container spacing={2} justifyContent="center">
-        {cardsData.map((card, index) => (
-          <Grid item xs={12} sm={6} md={4} key={index}>
+    <>
+      <TextRevealHomePage text="POP CULTURE OBSESSED" />
+
+      <Box sx={{ width: '80%', padding: '1rem', backgroundColor: 'white', margin: '0 auto' }}>
+        <Grid container spacing={1} justifyContent="center">
+          <Grid item xs={12} sm={6} md={6} lg={4}>
             <Box
               sx={{
                 height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="WICKED"
+                headlineText="Wicked Collaborations: Inspired by Ariana Grande as Glinda"
+                imagePath="Wicked2/Wicked2.webp"
+                linkUrl="/articles/wicked-collaborations-2024"
+                isFlipped={true}
+              />
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="LATEST"
+                headlineText="Dallas Cowboys Cheerleader Makeup Tutorial"
+                imagePath="dcc2.jpg"
+                linkUrl="/articles/dcc-cheerleader"
+                isFlipped={false}
+              />
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="SUMMER BEAUTY"
+                headlineText="Summer Beauty Essentials: Glow Like a Mermaid"
+                imagePath="SummerBeauty/BlueLagoonThumbnail.jpg"
+                linkUrl="/summerbeauty"
+                isFlipped={true}
+              />
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -83,18 +82,238 @@ const PopCulture = () => {
             >
               <HeroSection2a
                 featureText="POP CULTURE"
-                headlineText={card.title}
-                subtext={card.alt} // You can adjust the text displayed here
-                author="BY JACKIE WYERS"
-                imagePath={card.image.replace(`${process.env.PUBLIC_URL}/Images/Articles/`, "")} // Adjust image path for HeroSection2a
-                linkUrl={card.link}
-                isFlipped={index % 2 === 0} // Flip layout for alternate cards
+                headlineText="Emily in Paris Style Evolution: Iconic Outfits, Makeup, and Hair"
+                imagePath="EmilyInParis/emilyinparis.jpg"
+                linkUrl="/emily-in-paris"
+                isFlipped={true}
               />
             </Box>
           </Grid>
-        ))}
-      </Grid>
-    </Box>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="PERIOD DRAMA"
+                headlineText="No-Makeup Period Dramas and Wearable Historical Hairstyles"
+                imagePath="PeriodDrama/ArticleThumb.jpg"
+                linkUrl="/perioddrama"
+                isFlipped={true}
+              />
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="BRAID TUTORIAL"
+                headlineText="Dragon Braid: Easy Pull-Through Braid Tutorial for Beginners"
+                imagePath="DragonBraid/dragonbraidthumbnail.jpg"
+                linkUrl="/articles/dragon-braid"
+                isFlipped={false}
+              />
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="SUMMER INSPIRATION"
+                headlineText="Summer Inspiration 🧜"
+                imagePath="SummerInspo/mermaidthumbnail.jpg"
+                linkUrl="/summerinspo"
+                isFlipped={false}
+              />
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="BARBIE COLLABS"
+                headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024"
+                imagePath="BarbieRoundup/1.JPG"
+                linkUrl="/barbie-roundup"
+                isFlipped={true}
+              />
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="SPRING MAKEUP"
+                headlineText="Spring Makeup Inspiration 🎬"
+                imagePath="NoMakeUpSpring/nomakeupspringthumbnail.jpeg"
+                linkUrl="/nomakeupspring"
+                isFlipped={true}
+              />
+            </Box>
+          </Grid>
+
+        
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="POP CULTURE"
+                headlineText="Barbie Makeup Transformation 👱🏼‍♀️"
+                imagePath="BarbieMovie/MARGOTBARBIETHUMBNAIL.png"
+                linkUrl="/margotbarbie"
+                isFlipped={false}
+              />
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="LANA DEL REY"
+                headlineText="SKIMS X Lana Makeup 🎀"
+                imagePath="LanaXskims/LanaDelRayThumbnail.jpeg"
+                linkUrl="/lanablog"
+                isFlipped={true}
+              />
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="BRIDGERTON"
+                headlineText="Francesca Bridgerton Makeup, Hair, and Dress"
+                imagePath="Francesca/FrancescaThumb.jpg"
+                linkUrl="/francesca-bridgerton"
+                isFlipped={true}
+              />
+            </Box>
+          </Grid>
+
+         
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="VICTORIA'S SECRET"
+                headlineText="VS Bombshell Look 🛍️"
+                imagePath="VictoriaSecret2014/VSThumbnail.jpeg"
+                linkUrl="/victoriasecret"
+                isFlipped={true}
+              />
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="HALLOWEEN"
+                headlineText="Spooky Glam: Halloween Makeup Ideas 🎃"
+                imagePath="Halloween/HalloweenThumb.jpg"
+                linkUrl="/girly-pop-halloween"
+                isFlipped={false}
+              />
+            </Box>
+          </Grid>
+
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <Box
+              sx={{
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <HeroSection2a
+                featureText="HAIR GROWTH"
+                headlineText="Hair Growth Secrets: Tips for Long, Luscious Locks"
+                imagePath="Hair1/hair1.webp"
+                linkUrl="/articles/hair-growth-secrets"
+                isFlipped={true}
+              />
+            </Box>
+          </Grid>
+        </Grid>
+      </Box>
+    </>
   );
 };
 
