@@ -88,7 +88,7 @@ function HomePage() {
         
         {!isMobile && (
           <>
-            <TextRevealHomePage1 text="JACKIE WYERS" style={{ backgroundColor: '#fdedef', fontFamily: 'Arapey, sans-serif' }} />
+            <TextRevealHomePage1 text="JACKIE WYERS" style={{ backgroundColor: '#fdedef', fontFamily: 'Arapey, serif' }} />
             <Paper elevation={0} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '0px', color: '#745B4F', textAlign: 'center', marginTop: '0.01rem', padding: '0.5rem' }}>
               <RotatingText />
             </Paper>
@@ -119,12 +119,7 @@ function HomePage() {
   </Grid>
 
 </Grid>
-<div style = {{
-    margin: '10px  auto  ',
-    minHeight: "auto",
-}}>
-  <AdSenseAd />
-</div>
+
 
 <TextBanner2 text="NEW & POPULAR" height="100%" width="100%" fontSize="1rem"  />
         
@@ -138,25 +133,13 @@ function HomePage() {
         
         <SixGridComponent />
 
-<div style = {{
-    margin: '10px  auto ',
-    minHeight: "auto",
-}}>
-  <AdSenseAd />
-</div>
-
         <TextBanner2 text="VINTAGE VIBES" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
         
         <VintageVibesCards />
         <TextBanner2 text="SHOP MY STYLE" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
         
         <MyStyleSlider1 />
-<div style = {{
-    margin: '10px  auto  ',
-    minHeight: "auto",
-}}>
-  <AdSenseAd />
-</div>
+
       </Box>
     </Box>
   );
