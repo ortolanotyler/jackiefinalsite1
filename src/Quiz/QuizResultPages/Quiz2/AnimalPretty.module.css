@@ -10,7 +10,7 @@
   color: black;
   font-family: 'GFS Didot', serif;
   text-align: left;
-  margin: 0 auto; /* Center the card */
+  margin: 1rem auto; /* Center the card */
   padding: 1rem;
   border-radius: 8px;
 }

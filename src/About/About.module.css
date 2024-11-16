@@ -1,8 +1,8 @@
 /* About.module.css */
 
 .about-container {
-  background-color: #fdedef;
-  font-family: "EB Garamond";
+  background-color: hsl(353, 80%, 96%);
+  font-family: "EB Garamond", serif;
   height: 100%;
 }
 
