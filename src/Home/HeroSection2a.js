@@ -32,7 +32,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     overflow: 'hidden',
     border: '0.5px solid #745b4f',
     boxSizing: 'border-box',
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1)', // Updated box shadow
+    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
   };
 
   const imageContainerStyle = {
