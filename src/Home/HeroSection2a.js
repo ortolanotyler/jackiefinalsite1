@@ -55,7 +55,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
 
   
     paddingTop: '1rem',
-    padding: '1.5rem',
+    padding: '1rem',
 
     textAlign: 'center',
     fontFamily: 'Playfair Display, sans-serif',
