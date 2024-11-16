@@ -75,7 +75,7 @@ const DCCMakeupTutorial = () => {
   const paragraphStyle = {
     fontSize: '20px',
     color: '#000000',
-    fontFamily: "'EB Garamond', serif",
+    fontFamily: "EB Garamond, serif",
     fontWeight: '100',
     padding: '10px',
     margin: '10px auto',
@@ -84,7 +84,8 @@ const DCCMakeupTutorial = () => {
 
   const linkStyle = {
     textDecoration: 'none',
-    fontFamily: "'EB Garamond', serif",
+    fontFamily: "EB Garamond, serif",
+
     fontWeight: '100',
     color: '#745B4F',
   };

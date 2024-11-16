@@ -47,7 +47,7 @@ const blogRef = useRef(null);
 const headingStyle = {
   textAlign: 'center',
   fontSize: '2.5rem',
-  fontWeight: '400',
+  fontWeight: '100',
   fontFamily: "'Playfair Display', serif",
   color: '#000000',
   maxWidth: '95%',
@@ -60,8 +60,8 @@ const paragraphStyle = {
 fontSize: '20px',
 color: '#000000',
 
-fontFamily: "'EB Garamond', serif",
-fontWeight: '100',
+fontFamily: "EB Garamond, serif",
+fontWeight: '400',
 padding: '10px',
 margin: '10px auto',
 
@@ -72,8 +72,8 @@ margin: '10px auto',
 
 const linkStyle = {
 textDecoration: 'none', // Removes underline from links
-fontFamily: "'EB Garamond', serif",
-fontWeight: '100',
+fontFamily: "EB Garamond, serif",
+fontWeight: '400',
 color: '#745B4F', // Inherits the color of the surrounding text
 };
 

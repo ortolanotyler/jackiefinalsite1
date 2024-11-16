@@ -42,7 +42,7 @@ const Haircare1 = () => {
   const paragraphStyle = {
     fontSize: '20px',
     color: '#000000',
-    fontFamily: "'Playfair Display', sans-serif",
+    fontFamily: "EB Garamond, serif",
     fontWeight: '100',
     padding: '10px',
     margin: '10px auto',

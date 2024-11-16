@@ -79,7 +79,7 @@ const Fable = () => {
     fontSize: '20px',
     color: '#000000',
     
-    fontFamily: "'EB Garamond', serif",
+    fontFamily: "EB Garamond, serif",
     fontWeight: '400',
     padding: '10px',
     margin: '10px auto',

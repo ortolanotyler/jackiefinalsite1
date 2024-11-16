@@ -20,7 +20,7 @@ const WickedCollabs = () => {
     textAlign: 'center',
     fontSize: '2.5rem',
     fontWeight: '100',
-    fontFamily: "'Playfair Display', serif",
+    fontFamily: "Playfair Display, serif",
     color: '#000000',
     maxWidth: '95%',
     margin: '30px auto'
@@ -29,7 +29,7 @@ const WickedCollabs = () => {
   const paragraphStyle = {
     fontSize: '20px',
     color: '#000000',
-    fontFamily: "'Playfair Display', serif",
+    fontFamily: "EB Garamond, serif",
     fontWeight: '100',
     padding: '10px',
     margin: '10px auto',

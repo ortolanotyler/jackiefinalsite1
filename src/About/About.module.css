@@ -7,12 +7,12 @@
 }
 
 .about-meet-jackie {
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", serif;
   background-color: white;
 }
 
 .about-text-section {
-  font-family: "EB Garamond";
+  font-family: "EB Garamond", serif;
   background-color: #fdedef;
   display: flex;
   flex-direction: column;

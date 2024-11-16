@@ -51,7 +51,7 @@ const CatPretty = () => {
   
   const linkStyle = {
   textDecoration: 'none', // Removes underline from links
-  fontFamily: "'EB Garamond', serif",
+  fontFamily: "EB Garamond, serif",
   fontWeight: '100',
   color: '#745B4F', // Inherits the color of the surrounding text
   };
