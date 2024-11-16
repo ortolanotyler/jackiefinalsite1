@@ -80,7 +80,7 @@
   }
 
   .answer-button {
-    height: calc(70vh / 7);
+    height: calc(50vh / 7);
     padding: 10px;
   }
 }
