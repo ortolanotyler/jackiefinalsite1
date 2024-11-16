@@ -104,11 +104,13 @@ function HomePage() {
         <TextBanner2 text="FEATURED" height="100%" width="100%" fontSize="1rem"  />
 <Grid container spacing={1} sx={{ width: '100%', padding: '10px' }}>
   <Grid item xs={12} >
-    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 0 }}>
+    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 1 }}>
       <TextReveal
-        text="Animal Pretty Quiz - Which animal are you?" 
+        text=" 🦌🐇 The Animal Pretty Quiz 🐈‍⬛🦊 " 
         style={{ backgroundColor: '#f8f8f8', width: '100%' }} 
       />
+        
+
 
 
       <Quiz2 />
