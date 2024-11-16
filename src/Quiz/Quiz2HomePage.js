@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet-async';
 
 import Quiz2 from './Quiz2';
 import EmailSubscribe from '../Components/EmailSubscribe';
+import TextReveal from '../Components/TextReveal';
 
 const Quiz2Homepage = () => {
     return (
@@ -27,7 +28,10 @@ const Quiz2Homepage = () => {
       <Grid container justifyContent="center"
             style = {{paddingTop: '30px'}}
             >
-           
+              <TextReveal
+        text="🐈‍⬛🦌 The Animal Pretty Quiz 🐇🦊" 
+        style={{ backgroundColor: '#fdedef', width: '100%' }} 
+      />
                 
                 <Grid item xs={12}>
                       <Quiz2 />
