@@ -20,22 +20,22 @@ const Footer = () => {
                 backgroundColor: '#EBE8E4',
                 color: '#745B4F',
                 textAlign: 'center',
-                padding: '40px 20px',
+                padding: '2rem 1rem',
                 marginTop: 'auto',
                 boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'
             }}>
                 <div style={{ fontFamily: 'GFS Didot, serif', gap: '1.5rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <div>
-                        <button style={{ fontFamily: 'GFS Didot, serif', textAlign: 'left', fontSize: '1rem', cursor: 'pointer', color: '#745B4F', background: 'none', border: 'none', textDecoration: 'none' }}>
-                            <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}>Home</a>
-                        </button>
-                      
+                     
+                     
                        
                     </div>
-                    <div style={{ textAlign: 'center', fontSize: '1rem', cursor: 'pointer', color: '#745B4F', margin: '1rem' }}>
-                        © Jackie Wyers 2024
-                    </div>
+                   
                     <div>
+                    <button style={{ fontFamily: 'GFS Didot, serif', textAlign: 'center', fontSize: '18px', cursor: 'pointer', color: '#745B4F', background: 'none', border: 'none', textDecoration: 'none' }}>
+                            <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}>Home</a>
+                        </button>
+                        <br/>
                         <a href="/sitemap" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '18px' }}>
                             SiteMap
                         </a>
@@ -52,6 +52,9 @@ const Footer = () => {
                         <a href="/privacy" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '18px' }}>
                             Policies
                         </a>
+                    </div>
+                    <div style={{ textAlign: 'center', fontSize: '1rem', cursor: 'pointer', color: '#745B4F', padding: '1rem' }}>
+                        © Jackie Wyers 2024
                     </div>
                 </div>
                 <div style={{ fontSize: '40px' }}>
