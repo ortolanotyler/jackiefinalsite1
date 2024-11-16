@@ -14,7 +14,6 @@ import TextReveal from '../Components/TextReveal';
 import VintageVibesCards from './GridVintageVibes';
 import NewsletterSlider from './NewsletterSlider';
 import AdSenseAd from './Adsense'; // Import your AdSense component
-import HorizontalLine from '../Components/HorizontalLine';
 import TextRevealHomePage1 from '../Components/TextRevealHomePage1';
 import MyStyleSlider1 from '../Shop/MyStyleSlider1';
 
@@ -102,7 +101,7 @@ function HomePage() {
        
 
         <TextBanner2 text="FEATURED" height="100%" width="100%" fontSize="1rem"  />
-<Grid container spacing={0} sx={{ width: '100%', padding: '10px' }}>
+<Grid container spacing={1} sx={{ width: '100%', padding: '10px' }}>
   <Grid item xs={12} >
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 0 }}>
       <TextReveal
