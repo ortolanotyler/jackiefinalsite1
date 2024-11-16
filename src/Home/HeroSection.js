@@ -43,11 +43,11 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
 
   const featureStyle = {
     fontSize: '12px',
-    fontWeight: 'normal',
+    fontWeight: '100',
     letterSpacing: '1px',
     color: '#000000',
     margin: '5px',
-    fontFamily: 'Arapey, serif',
+    fontFamily: 'EB Garamond, serif',
     textDecoration: 'underline',
   };
 
@@ -56,6 +56,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     lineHeight: 1,
     margin: '1rem auto',
     fontFamily: 'Playfair Display, serif',
+    fontWeight: '400',
   };
 
   const subtextStyle = {
@@ -64,6 +65,7 @@ const HeroSection = ({ featureText, headlineText, subtext, author, imagePath, li
     margin: '10px auto',
     fontStyle: 'italic',
     fontFamily: 'Playfair Display, serif',
+    fontWeight: '400',
     color: '#3a3a3a',
   };
 
