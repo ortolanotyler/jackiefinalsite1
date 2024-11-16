@@ -34,8 +34,7 @@ const styles = {
     fontFamily: 'Playfair Display, serif',
 
     fontWeight: '400',
-    fontSize: '50px', // Adjust as needed for responsiveness
-    margin: '0 auto',
+    fontSize: '55px', // Adjust as needed for responsiveness
     marginBottom: '1rem',
     fontStyle: 'normal',
     lineHeight: '1.15',
@@ -60,12 +59,10 @@ const styles = {
     textTransform: 'uppercase',
     fontFamily: 'EB Garamond, serif', // Font for the author and date text
     fontWeight: '100',
-    fontStyle: 'normal',
   },
   date: {
     fontFamily: 'EB Garamond, serif', // Font for the author and date text
     fontWeight: '100',
-    fontStyle: 'normal',
   },
 };
 
