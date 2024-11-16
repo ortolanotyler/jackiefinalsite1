@@ -34,7 +34,7 @@ const BunnyPretty = () => {
     textAlign: 'center',
     fontSize: '2.5rem',
     fontWeight: '400',
-    fontFamily: "'Playfair Display', serif",
+    fontFamily: "Playfair Display, serif",
     color: '#000000',
     maxWidth: '95%',
   
@@ -46,10 +46,10 @@ const BunnyPretty = () => {
   fontSize: '20px',
   color: '#000000',
   
-  fontFamily: "'EB Garamond', serif",
+  fontFamily: "EB Garamond, serif",
   fontWeight: '100',
-  padding: '10px',
-  margin: '10px auto',
+  padding: '1rem',
+  margin: '1rem auto',
   
   
     lineHeight: '1.6',
@@ -58,7 +58,7 @@ const BunnyPretty = () => {
   
   const linkStyle = {
   textDecoration: 'none', // Removes underline from links
-  fontFamily: "'EB Garamond', serif",
+  fontFamily: "EB Garamond, serif",
   fontWeight: '100',
   color: '#745B4F', // Inherits the color of the surrounding text
   };
@@ -185,15 +185,17 @@ const BunnyPretty = () => {
       </div>
       <img src={title} alt="BUNNY PRETTY - QUIZ RESULTS" className={styles.titleImage} />
 
+
       <ResponsiveYoutube src="https://www.youtube.com/embed/hIGr8Gj4kQA?si=8N-JgnQ-JeRTk5Gm" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
-
-      <div className={styles.subscribeContainer}>
-        <SubscribeButton />
-      </div>
-
+    
+    
       <p style={paragraphStyle}>
-        <strong>Bunny Pretty: Cute and Angelic (Bunny Beauty Tutorial starts at 5:31)</strong>
+        Bunny Pretty: Cute and Angelic (Bunny Beauty Tutorial starts at 5:31)
       </p>
+
+      
+    
+
       <AdSenseAd/>
       <p style={paragraphStyle}>
         You are the sweet and playful Bunny Pretty, with a love for soft pastels and a makeup style that’s as cute and angelic as it is vibrant. Your bubbly personality and love for social gatherings are perfectly reflected in the pink hues and glossy finishes of your makeup, mirroring a bunny's gentle charm.

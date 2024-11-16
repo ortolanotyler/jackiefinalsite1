@@ -8,8 +8,9 @@
   max-width: 700px;
   background-color: white;
   color: black;
-  font-family: 'GFS Didot', serif;
+  font-family: 'Playfair Display', serif;
   text-align: left;
+  font-weight: 400;
   margin: 1rem auto; /* Center the card */
   padding: 1rem;
   border-radius: 8px;
@@ -44,7 +45,7 @@
 }
 
 .link {
-  font-family: 'Arapey', serif;
+  font-family: 'Playfair Display', serif;
   font-size: 15px;
   color: black;
   text-decoration: none;
