@@ -40,14 +40,14 @@ const TextBanner2 = ({ text = "SHOPPING", height = '50px', width = '100%', maxFo
   const styles = {
     container: {
       display: 'flex',
-      margin: '1rem auto',
-      padding: '1rem auto',
+      margin: '2.5rem auto',
+      padding: '0 auto',
       justifyContent: 'center',
       textAlign: 'center',
       fontFamily: 'Playfair Display, serif',
       height,
       width,
-      fontWeight: '100',
+      fontWeight: '400',
       color: '#000000',
       backgroundColor: 'white',
       flexWrap: 'wrap', // Allows letters to wrap on smaller screens
@@ -58,7 +58,7 @@ const TextBanner2 = ({ text = "SHOPPING", height = '50px', width = '100%', maxFo
       transition: 'transform 0.3s ease', // Smooth transition for enlargement
     },
     hoveredLetter: {
-      transform: 'scale(1.15)', // Enlarge letter on hover
+      transform: 'scale(1.25)', // Enlarge letter on hover
     },
   };
 

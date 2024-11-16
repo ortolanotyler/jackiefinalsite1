@@ -1,14 +1,14 @@
 
 .hero {
   width:100%;
-  height: 150px;
+  height: 100px;
   background-color: #fdedef;
-  border-radius: 1px;
+  border-radius: 10px;
   display: grid;
   place-items: center;
   text-align: center;
-    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.1);
-margin: 1rem auto;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+margin: 0;
 }
 
 .textReveal {
@@ -37,7 +37,7 @@ margin: 1rem auto;
 /* Responsive adjustments */
 @media (max-width: 600px) {
   .hero {
-    height: 200px;
+    height: 100px;
   
   }
 }

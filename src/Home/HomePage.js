@@ -104,12 +104,13 @@ function HomePage() {
         <TextBanner2 text="FEATURED" height="100%" width="100%" fontSize="1rem"  />
 <Grid container spacing={1} sx={{ width: '100%', padding: '10px' }}>
   <Grid item xs={12} >
-    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 1 }}>
-      <TextReveal
+  <TextReveal
         text="      The Animal Pretty Quiz     " 
         style={{ backgroundColor: '#f8f8f8', width: '100%' }} 
       />
         
+    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 1 }}>
+
 
 
 
@@ -125,7 +126,7 @@ function HomePage() {
   <AdSenseAd />
 </div>
 
-        <TextBanner2 text="NEW & POPULAR" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
+<TextBanner2 text="NEW & POPULAR" height="100%" width="100%" fontSize="1rem"  />
         
         <FeaturedGrid6 />
 
