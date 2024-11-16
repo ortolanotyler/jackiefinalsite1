@@ -8,7 +8,7 @@ const TrendsHome = () => {
   return (
     <>
       <TextRevealHomePage text="TRENDING NOW" />
-      <Box sx={{ width: '75%', padding: '1rem', backgroundColor: 'white', margin: '0 auto' }}>
+      <Box sx={{ width: '85%', padding: '1rem', backgroundColor: 'white', margin: '0 auto' }}>
         <Grid container spacing={1} justifyContent="center">
         <Grid item xs={12}>
           <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
