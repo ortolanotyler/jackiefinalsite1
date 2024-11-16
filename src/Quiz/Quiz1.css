@@ -22,7 +22,7 @@
 
   font-weight: 400;
   color: #745b4f;
-  min-height: 70px; /* Set a min-height based on the longest question */
+  min-height: 1rem; /* Set a min-height based on the longest question */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,7 +33,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  margin-top: 2px;
+  
 }
 
 .answer-button {

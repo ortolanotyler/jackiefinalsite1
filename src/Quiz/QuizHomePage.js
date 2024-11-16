@@ -12,6 +12,7 @@ import HorizontalLine from '../Components/HorizontalLine';
 import TextBanner2 from '../Components/TextBanner2';
 import TextReveal from '../Components/TextReveal';
 import Quiz5 from './Quiz5';
+import TextRevealNoBox from '../Components/TextRevealNoBoxShadow';
 
 const QuizHomepage = () => {
     return (
@@ -32,19 +33,21 @@ const QuizHomepage = () => {
      
       </Helmet>
       <Grid container justifyContent="center" spacing = {1}
-            style = {{paddingTop: '30px'}}
+            style = {{paddingTop: '0px'}}
             >
                           <TextReveal text='THE QUIZ ZONE'/>
+                          <TextRevealNoBox text='ANIMAL PRETTY QUIZ' style = {{backgroundColor : '#ffffff'}}/>
+
+<Grid item xs={12}>
+      <Quiz2 />
+  </Grid>
+  <TextReveal text='MALE vs FEMALE GAZE'/>
 
                           <Grid item xs={12}>
                     <Quiz5 />
                 </Grid>
              
-                <TextReveal text='ANIMAL PRETTY QUIZ'/>
-
-              <Grid item xs={12}>
-                    <Quiz2 />
-                </Grid>
+               
                 <TextReveal text='HALLOWEEN COSTUME QUIZ'/>
 
 
