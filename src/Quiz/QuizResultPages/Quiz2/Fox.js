@@ -170,12 +170,11 @@ const FoxPretty = () => {
   </script>
 </Helmet>
      
-<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
-        <a href="/quiz2" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' , paddingTop: '50px', margin: '1rem auto' }}>
+        <a href="/quiz2" style={{ fontFamily: 'GFS Didot, serif', fontSize: '14px', color: '#000000', textDecoration: 'none' }}>
           BACK TO QUIZ
         </a>
       </div>
-
 
       <ArticleTitle
   mainTitle="You are Fox Pretty!"
