@@ -36,7 +36,7 @@ const About = () => {
           <p style={{ fontFamily: 'Playfair Display, serif', color: 'black', textAlign: 'center', fontSize: '2.5rem', textDecoration: 'italic' }}>Hello! I'm Jackie Wyers.</p>
      
          
-          <p style={{ fontFamily: 'Playfair Display, serif', textIndent: '2rem',fontSize: '1.5rem' , color: '#745B4F', margin: '1rem auto'}}>
+          <p style={{ fontFamily: 'Playfair Display, serif', textIndent: '1rem',fontSize: '1.5rem' , color: '#745B4F', margin: '1rem auto'}}>
             Welcome to where beauty meets pop culture. I started my YouTube career in my teens, and connecting with you through beauty has been a highlight of my life thus far.
           </p>
           <p style={{ fontFamily: 'Playfair Display, serif', fontSize: '1.5rem' , color: '#745B4F', }}>

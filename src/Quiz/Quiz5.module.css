@@ -64,7 +64,6 @@
 .resultsSection {
   max-width: 100%;
   margin: 1rem auto;
-  padding: 10px;
   background-color: #f3f3f3;
   border-radius: 12px;
   box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.15);
@@ -86,7 +85,7 @@
 /* Responsive Design for Small Screens/Mobile */
 @media (max-width: 480px) {
   .quizContainer {
-    width: 95%;
+    width: 100%;
     padding: 10px;
   }
 
@@ -97,12 +96,13 @@
 
   .answerSection {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 15px;
+    gap: 0;
   }
 
   .answerButton {
-    width: 120px; /* Smaller size for mobile screens */
-    height: 120px;
+    width: 200px; /* Smaller size for mobile screens */
+    margin: 0 auto;
+    height: 200px;
     font-size: 0.8rem;
     padding: 10px;
   }
