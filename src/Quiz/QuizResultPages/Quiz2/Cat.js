@@ -270,12 +270,25 @@ const CatPretty = () => {
         Outfit Inspiration: Channel '90s off-duty supermodel vibes with structured yet casual elements. Think fitted black tanks paired with low-waisted baggy jeans. Explore Revolve for trendy, contemporary pieces and local thrift stores for genuine '90s gems like sleek sunglasses.
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/552842?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-  <div style = {{
-        margin: '1rem auto'
-      }}>
-  <AdSenseAd/>
-      </div>
+      <div
+  style={{
+    width: '100%',
+    minHeight: '100vh',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  }}
+>
+  <iframe
+    src="https://shopmy.us/collections/public/552842?noHeader=true"
+    title="ShopMy Collection"
+    style={{
+      width: '100%',
+      minHeight: '100vh',
+      border: 'none',
+    }}
+  ></iframe>
+</div> 
     
       <p style={paragraphStyle}>
         I hope this quiz inspires you to play with these animal-inspired beauty looks. Which "Type of Pretty" are you leaning towards? Dive into the quiz on my website and I hope the full length tutorials on my channel inspire you to try a new look <a href='/tutorials' alt=''>here</a>!

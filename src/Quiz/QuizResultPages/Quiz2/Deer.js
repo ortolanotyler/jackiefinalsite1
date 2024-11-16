@@ -237,7 +237,7 @@ const DeerPretty = () => {
         Eyes: Start with a neutral brown shadow from the Makeup by Mario Master Mattes palette, then tight line your eyes with dark brown eyeliner. Add a peach liner to your waterline for that soft doe-eyed effect.
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/552826?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/552826?noHeader=true" title="Makeup by Mario Master Mattes Palette - Neutral Eyeshadow for Deer Pretty Look" />
     
   <div style = {{
         margin: '1rem auto'
@@ -250,8 +250,8 @@ const DeerPretty = () => {
         Lashes: A full, wispy set of falsies suit the doe-eyed style. Try ISOPIA Iso-Gentle Touch Lashes.
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/552928?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-  <div style = {{
+      <ResponsiveIframe src="https://shopmy.us/collections/public/552928?noHeader=true" title="ISOPIA Iso-Gentle Touch Lashes - Wispy Falsies for Doe-Eyed Makeup" />
+      <div style = {{
         margin: '1rem auto'
       }}>
   <AdSenseAd/>
@@ -262,8 +262,8 @@ const DeerPretty = () => {
         Cheeks: Use a peachy blush on the tops of your cheeks to bring warmth and brightness to your face along with a champagne highlight.
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/552829?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-  <div style = {{
+      <ResponsiveIframe src="https://shopmy.us/collections/public/552829?noHeader=true" title="Peachy Blush and Champagne Highlighter - Natural Glow Essentials" />
+      <div style = {{
         margin: '1rem auto'
       }}>
   <AdSenseAd/>
@@ -273,8 +273,8 @@ const DeerPretty = () => {
         Lips: Go for a nude lipliner, slightly overlining for a fuller appearance. Finish with a matte peach lip colour for a natural, yet enhanced look.
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/552889?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-  <div style = {{
+      <ResponsiveIframe src="https://shopmy.us/collections/public/552889?noHeader=true" title="Matte Peach Lipstick and Nude Lipliner - Perfect Lip Pairing for Deer Pretty Look" />
+      <div style = {{
         margin: '1rem auto'
       }}>
   <AdSenseAd/>
@@ -289,7 +289,7 @@ const DeerPretty = () => {
         Want to really showcase your animal inspiration? Fable England has beautiful enamel earrings, necklaces, and embroidered bags featuring fawn designs.
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/552834?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
+      <ResponsiveIframe src="https://shopmy.us/collections/public/552834?noHeader=true" title="Deer Pretty Makeup" />
   <div style = {{
         margin: '1rem auto'
       }}>
