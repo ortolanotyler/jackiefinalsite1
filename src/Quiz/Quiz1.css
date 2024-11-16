@@ -3,22 +3,24 @@
   margin: auto;
   text-align: center;
   background-color: white;
-  border-radius: 12px;
-  padding: 25px 50px;
+  border-radius: 50px;
+  padding: 1rem 2rem;
   box-sizing: border-box;
 }
 
 .question-section {
-  min-height: 100px; /* Ensure consistent height for the entire question section */
+  min-height: 50px; /* Ensure consistent height for the entire question section */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .question-text {
-  margin: 20px;
-  font-size: 22px;
-  font-weight: normal;
+  margin: 1rem ;
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+
+  font-weight: 400;
   color: #745b4f;
   min-height: 70px; /* Set a min-height based on the longest question */
   display: flex;
@@ -44,7 +46,7 @@
   transition: all 0.5s ease;
   background-size: cover;
   background-position: center;
-  font-family: Playfair Display, serif;
+  font-family: 'Playfair Display', serif;
   background-repeat: no-repeat;
   text-shadow: 2px 8px 8px rgba(0.9, 0, 0, 0.9);
   box-shadow: 0 4px 8px rgba(0.9, 0, 0, 0.9);

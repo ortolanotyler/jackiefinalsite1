@@ -32,7 +32,7 @@ const QuizHomepage = () => {
      
       </Helmet>
       <Grid container justifyContent="center" spacing = {1}
-            style = {{paddingTop: '50px'}}
+            style = {{paddingTop: '30px'}}
             >
                           <TextReveal text='THE QUIZ ZONE'/>
 
