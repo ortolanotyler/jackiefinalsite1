@@ -101,7 +101,7 @@ function HomePage() {
         </Box>
        
 
-        <TextBanner2 text="FEATURED" height="100%" width="100%" fontSize="1rem"  />
+        <TextBanner2 text="FEATURED" height="auto" width="100%" fontSize="1rem"  />
         <TextReveal
         text="🐈‍⬛🦌 The Animal Pretty Quiz 🐇🦊" 
         style={{ backgroundColor: '#fdedef', width: '100%' }} 
@@ -122,7 +122,7 @@ function HomePage() {
 </Grid>
 
 
-<TextBanner2 text="NEW & POPULAR" height="100%" width="100%" fontSize="1rem"  />
+<TextBanner2 text="NEW & POPULAR" height="auto" width="100%" fontSize="1rem"  />
         
         <FeaturedGrid6 />
 
