@@ -5,6 +5,7 @@
   background-color: white;
   border-radius: 50px;
  margin: 1rem auto;
+ padding: 20px;
   box-sizing: border-box;
 }
 
@@ -40,7 +41,7 @@
   color: white;
   font-size: 26px;
   cursor: pointer;
-  border: 1.5px solid #745b4f;
+  border: 2.5px solid #fdedef;
   background-color: transparent;
   border-radius: 10px;
   transition: all 0.5s ease;

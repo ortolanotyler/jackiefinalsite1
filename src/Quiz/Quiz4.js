@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Quiz1.css'; // Adjust your CSS file path if needed
+import './Quiz4.css'; // Adjust your CSS file path if needed
 import { Helmet } from 'react-helmet-async';
-import HorizontalLine from '../Components/HorizontalLine';
 
 
 const Quiz4 = () => {
