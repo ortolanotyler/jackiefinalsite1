@@ -32,7 +32,7 @@ const TaylorSwiftHoliday = () => {
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '2.5rem',
+    fontSize: '2rem',
     fontWeight: '100',
     fontFamily: "Playfair Display, serif",
     color: '#000000',
@@ -47,7 +47,7 @@ const TaylorSwiftHoliday = () => {
     fontWeight: '100',
     padding: '10px',
     margin: '10px auto',
-    lineHeight: '2',
+    lineHeight: '1.5',
   };
 
   const linkStyle = {
@@ -147,7 +147,7 @@ const TaylorSwiftHoliday = () => {
 </Helmet>
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
-        <a href="/popculture" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
+        <a href="/popculture" style={{ fontFamily: 'GFS Didot, serif', fontSize: '0.88rem', color: '#000000', textDecoration: 'none' }}>
           BEAUTY // POP CULTURE
         </a>
       </div>
