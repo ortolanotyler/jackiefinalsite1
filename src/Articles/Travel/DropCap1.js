@@ -44,7 +44,7 @@ const DropCap1 = ({ text, style }) => {
       <span
         style={{
           fontSize: '20px',
-          lineHeight: '2',
+          lineHeight: '1.5',
 
 
           margin: '10px auto',
