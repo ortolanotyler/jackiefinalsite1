@@ -60,12 +60,12 @@ const NavButtons = () => {
             bgcolor: '#FDEDEF', // Match AppBar background color
             color: '#745B4F',
             boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-            borderRadius: '8px',
-            border: '1px solid #745B4F',
-            fontFamily: '"Playfair Display", serif', // Updated to Playfair Display
+            borderRadius: '0px',
+            border: '1px solid #ffffff',
+            fontFamily: 'Playfair Display, serif', // Updated to Playfair Display
           },
           '.MuiMenuItem-root': {
-            fontFamily: '"Playfair Display", serif', // Updated to Playfair Display
+            fontFamily: 'Playfair Display, serif', // Updated to Playfair Display
             fontSize: '1rem',
           },
         }}
@@ -80,7 +80,7 @@ const NavButtons = () => {
                 component={Link}
                 to={subOption.path}
                 sx={{
-                  fontFamily: '"Playfair Display", serif', // Updated to Playfair Display
+                  fontFamily: 'Playfair Display, serif', // Updated to Playfair Display
                 }}
               >
                 {subOption.name}

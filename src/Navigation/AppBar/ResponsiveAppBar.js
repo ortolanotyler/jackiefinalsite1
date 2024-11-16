@@ -36,7 +36,7 @@ const ResponsiveAppBar = () => {
               fontFamily: 'Playfair Display, serif',
 
               alignItems: 'center',
-              padding: '5px 18px',
+              padding: '5px 10px',
             }}
           >
             <Box sx={{ display: 'flex', alignItems: 'center' }}>
