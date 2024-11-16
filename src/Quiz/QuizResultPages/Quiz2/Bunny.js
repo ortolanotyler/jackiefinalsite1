@@ -196,6 +196,10 @@ const BunnyPretty = () => {
 
 />
 
+<p style={{ margin: '1rem auto', textAlign: 'center', fontSize: '1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
+      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+      </p>
+
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/hIGr8Gj4kQA?si=8N-JgnQ-JeRTk5Gm" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
     
@@ -203,14 +207,17 @@ const BunnyPretty = () => {
  
       <p style={captionStyle}>
         <em> Deer Beauty Tutorial starts at 0:42 </em>
-      
       </p>
 
       
     
 
-      <AdSenseAd/>
-      <p style={paragraphStyle}>
+  <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+          <p style={paragraphStyle}>
         You are the sweet and playful Bunny Pretty, with a love for soft pastels and a makeup style that’s as cute and angelic as it is vibrant. Your bubbly personality and love for social gatherings are perfectly reflected in the pink hues and glossy finishes of your makeup, mirroring a bunny's gentle charm.
       </p>
 
@@ -237,16 +244,21 @@ const BunnyPretty = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552851?noHeader=true" title="Charlotte Tilbury Pillow Talk Eyeshadow Palette" />
-      <AdSenseAd/>
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
-
+      <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
       <p style={paragraphStyle}>
         Lashes: Curl your lashes for a natural lift, focusing on the upper lashes only to keep the look light and fresh. Try ISOPIA Iso-Gentle Harmony Lashes for extra length.
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552853?noHeader=true" title="ISOPIA Iso-Gentle Harmony Lashes" />
-      <AdSenseAd/>
-    
+      <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>    
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
       <p style={paragraphStyle}>
@@ -254,19 +266,30 @@ const BunnyPretty = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552854?noHeader=true" title="Milani Coral Cove Blush" />
-      <AdSenseAd/>
+      <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
     
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
       <p style={paragraphStyle}>
         Lips: Start with a nude pink lip liner to define your lips, then layer on the Sephora Collection Pink Pout Lipgloss for a glossy, vibrant finish that complements the blushy cheeks.
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552857?noHeader=true" title="Sephora Collection Pink Pout Lipgloss" />
-      <AdSenseAd/>
+      <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
    
    
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
+      <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
 
       <p style={paragraphStyle}>
         Outfit Inspiration: Lean into the Bunny Pretty theme with soft, flowing fabrics in pink tones. Try flirty dresses in pastel colours that enhance the sweetness of this look. Brands like For Love & Lemons offer a variety of options that can perfectly complement the Bunny Pretty makeup.
@@ -297,7 +320,12 @@ const BunnyPretty = () => {
 
       <img src={signature} alt="Jackie Wyers Signature" className={styles.signatureImage} />
       <Comments website-id={websiteId} page-id={"Animal-Prizznizzle"} />
-      <AdSenseAd/>
+      <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+    
       <AdSenseAd/>
       <AdSenseAd/>
       <AdSenseAd/>

@@ -187,6 +187,9 @@ const DeerPretty = () => {
   author="Jackie Wyers"
 
 />
+<p style={{ margin: '1rem auto', textAlign: 'center', fontSize: '1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
+      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+      </p>
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/hIGr8Gj4kQA?si=8N-JgnQ-JeRTk5Gm" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
 
@@ -203,7 +206,7 @@ const DeerPretty = () => {
 
      
 
-      <AdSenseAd/>
+   
 
 
       <p style={paragraphStyle}>
@@ -217,7 +220,7 @@ const DeerPretty = () => {
       <p style={paragraphStyle}>
         Embrace lace, florals, and pastel outfits that complement your soft doe-eyed makeup look for a truly ethereal presence. Read further for makeup recommendations:
       </p>
-      <AdSenseAd/>
+   
 
       <div className={styles.imageContainer}>
         <img src={image2} alt="Deer Pretty" className={styles.image} />
@@ -226,7 +229,7 @@ const DeerPretty = () => {
       <p style={paragraphStyle}>
         Celebrity Inspirations: Jessica Alba, Leighton Meester, Emmy Russum, Tessa Thompson, and Charithra Chandran rock this look with their big, round eyes and stunning skin tones.
       </p>
-      <AdSenseAd/>
+   
 
       <h2 style={headingStyle}>Achieve the Deer Pretty Look</h2>
 
@@ -236,31 +239,47 @@ const DeerPretty = () => {
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552826?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
     
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
-      <AdSenseAd/>
+  <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+       
 
       <p style={paragraphStyle}>
         Lashes: A full, wispy set of falsies suit the doe-eyed style. Try ISOPIA Iso-Gentle Touch Lashes.
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552928?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
-      <AdSenseAd/>
+  <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+       
 
       <p style={paragraphStyle}>
         Cheeks: Use a peachy blush on the tops of your cheeks to bring warmth and brightness to your face along with a champagne highlight.
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552829?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
-
+  <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+    
       <p style={paragraphStyle}>
         Lips: Go for a nude lipliner, slightly overlining for a fuller appearance. Finish with a matte peach lip colour for a natural, yet enhanced look.
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552889?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
-      <AdSenseAd/>
+  <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+       
 
       <p style={paragraphStyle}>
         Outfit Inspiration: To fully embody the Deer Pretty theme, choose dainty and whimsical styles. Try outfits in earthy and pastel palettes that resonate with the natural and soft aesthetics of a deer. Fabrics like lace and florals are perfect for this look, adding a touch of femininity and grace. Free People is a great store to try.
@@ -271,8 +290,12 @@ const DeerPretty = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552834?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
-      <AdSenseAd/>
+  <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+       
 
       <p style={paragraphStyle}>
         I hope this quiz inspires you to play with these animal-inspired beauty looks. Here’s a mini tutorial as a refresher to get the look and be sure to tag me on your socials if you try out these styles as I’d love to see it!
@@ -281,8 +304,18 @@ const DeerPretty = () => {
       <img src={signature} alt="Jackie Wyers Signature" className={styles.signatureImage} />
      
       <Comments website-id={websiteId} page-id={"Animal-Prizznizzle"} />
-      <AdSenseAd/> <AdSenseAd/>
-      <AdSenseAd/>
+    <AdSenseAd/>
+    <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+      <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+    
     
     
       

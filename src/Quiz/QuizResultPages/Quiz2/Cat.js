@@ -186,6 +186,9 @@ const CatPretty = () => {
   author="Jackie Wyers"
 
 />
+<p style={{ margin: '1rem auto', textAlign: 'center', fontSize: '1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
+      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+      </p>
 
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/hIGr8Gj4kQA?si=8N-JgnQ-JeRTk5Gm" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
@@ -212,6 +215,13 @@ const CatPretty = () => {
       <div className={styles.imageContainer}>
         <img src={image2} alt="Cat Pretty" className={styles.image} />
       </div>
+
+      <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+    
      
       <p style={paragraphStyle}>
         Celebrity Inspirations: Examples include Bella Hadid and Megan Fox. For deeper skin tones, think Rihanna, with those light green, cat-like eyes, and Zoe Kravitz, with her sharp, kitty-like features. We'll explore warmer smokey eyes in the “Fox Pretty” look and keep it cool-toned for this fierce style.
@@ -223,36 +233,50 @@ const CatPretty = () => {
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552837?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
+      <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+    
 
       <p style={paragraphStyle}>
         Lashes: Go for dramatic, fanned-out lashes that complement the bold liner, amplifying the overall eye makeup. Try ISOPIA Iso-Gentle Echo Lashes.
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552911?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
+      <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+    
 
       <p style={paragraphStyle}>
         Cheeks: Sculpt your cheeks with a cool-toned contour powder to add depth and enhance your natural bone structure, mimicking the chiseled look typical of a sleek feline.
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552914?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
+    
       <p style={paragraphStyle}>
         Lips: Select deep mauve tones for a seductively pouty effect or go for a nude lip combo. A high-shine gloss can add dimension and a touch of glamour.
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552839?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
+    
       <p style={paragraphStyle}>
         Outfit Inspiration: Channel '90s off-duty supermodel vibes with structured yet casual elements. Think fitted black tanks paired with low-waisted baggy jeans. Explore Revolve for trendy, contemporary pieces and local thrift stores for genuine '90s gems like sleek sunglasses.
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552842?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
-
+  <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+    
       <p style={paragraphStyle}>
         I hope this quiz inspires you to play with these animal-inspired beauty looks. Which "Type of Pretty" are you leaning towards? Dive into the quiz on my website and I hope the full length tutorials on my channel inspire you to try a new look <a href='/tutorials' alt=''>here</a>!
       </p>

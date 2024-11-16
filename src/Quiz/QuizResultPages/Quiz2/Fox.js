@@ -182,6 +182,9 @@ const FoxPretty = () => {
   author="Jackie Wyers"
 
 />
+<p style={{ margin: '1rem auto', textAlign: 'center', fontSize: '1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
+      All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
+      </p>
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/hIGr8Gj4kQA?si=8N-JgnQ-JeRTk5Gm" title="Sophia Loren Makeup Tutorial - What Animal Pretty Are You? on Youtube" />
 
@@ -192,16 +195,24 @@ const FoxPretty = () => {
       <p style={captionStyle}>
        <em> Fox Beauty Tutorial starts at 13:20 </em>
       </p>
-<AdSenseAd/>
-      <p style={paragraphStyle}>
+      <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+          <p style={paragraphStyle}>
         Your free-spirited and adventurous nature makes you a perfect match for the Fox Pretty style. With a love for earthy tones and a makeup style that features warm, rustic shades, you capture the essence of the wild and whimsical fox.
       </p>
 
       <p style={paragraphStyle}>
         Your preference for bohemian and patterned outfits complements this look, embodying the charm and vibrant spirit of the outdoors. Your personality is as warm and inviting as your makeup, drawing others to your genuine and down-to-earth demeanour.
       </p>
-      <AdSenseAd/>
-
+  <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+    
       <p style={paragraphStyle}>
         Dive into styles that feature lively prints and natural textures to fully embrace your Fox Pretty persona. Read further for makeup recommendations.
       </p>
@@ -211,8 +222,12 @@ const FoxPretty = () => {
       <p style={paragraphStyle}>
         Celebrity Inspirations: Sadie Sink is the quintessential muse for this look, with her rustic red hues in her hair and brows. Her natural beauty enhanced with earthy makeup perfectly captures the Fox Pretty aesthetic.
       </p>
-      <AdSenseAd/>
-
+  <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+    
       <p style={paragraphStyle}>
         Note: If you're a redhead with bright blue eyes and vibrant hair that leans more towards the Spring colour season, you might find the “Bunny Pretty” guide with its softer pink shades more flattering than the rustic tones of Fox Pretty.
       </p>
@@ -225,8 +240,12 @@ const FoxPretty = () => {
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552844?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
-      <AdSenseAd/>
-
+  <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+    
       <p style={paragraphStyle}>
         Lashes: Extend the lash line along the winged-out shadow. Try ISOPIA Iso-Gentle Healing Lashes for a subtle effect.
       </p>
@@ -247,8 +266,12 @@ const FoxPretty = () => {
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552848?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
-      <AdSenseAd/>
-
+  <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+    
       <p style={paragraphStyle}>
         Outfit Inspiration: Dive into a bohemian vibe with lively prints. Anthropologie is an excellent starting point for this style. Select paisley or other small prints in rustic tones to complement the boho aesthetic beautifully. This style not only matches the rich-toned makeup but also ties the whole look together.
       </p>
@@ -259,19 +282,39 @@ const FoxPretty = () => {
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552850?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
-      <AdSenseAd/>
-
+  <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+    
       <p style={paragraphStyle}>
         I hope this quiz inspires you to play with these animal-inspired beauty looks. Here’s a mini tutorial as a refresher to get the look and be sure to tag me on your socials if you try out these styles as I’d love to see it!
       </p>
 
       <img src={signature} alt="Jackie Wyers Signature" className={styles.signatureImage} />
       <Comments website-id={websiteId} page-id={"Animal-Prizznizzle"} />
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-
+  <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+      <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+      <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+      <div style = {{
+        margin: '1rem auto'
+      }}>
+  <AdSenseAd/>
+      </div>
+    
       
    
     </div>
