@@ -36,16 +36,16 @@ const QuizHomepage = () => {
             >
                           <TextReveal text='THE QUIZ ZONE'/>
 
-                          <Grid item xs={11}>
+                          <Grid item xs={12}>
                     <Quiz5 />
                 </Grid>
              
-              <Grid item xs={11}>
+              <Grid item xs={12}>
                     <Quiz2 />
                 </Grid>
         
 
-           <Grid item xs={11}>
+           <Grid item xs={12}>
                     <Quiz4 />
                 </Grid>
              
