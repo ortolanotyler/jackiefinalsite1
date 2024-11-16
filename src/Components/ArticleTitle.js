@@ -31,7 +31,7 @@ const styles = {
 
   },
   mainTitle: {
-    fontFamily: 'Playfair Display, sans-serif',
+    fontFamily: 'Playfair Display, serif',
 
     fontWeight: '400',
     fontSize: '50px', // Adjust as needed for responsiveness

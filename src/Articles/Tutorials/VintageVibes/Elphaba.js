@@ -252,7 +252,7 @@ fontStyle: 'italic',
 <SubscribeButton />
 </div>
 
-<p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, sans-serif', fontStyle: 'italic' }}>
+<p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
 </p>
 

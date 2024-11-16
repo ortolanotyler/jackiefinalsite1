@@ -44,7 +44,7 @@
   transition: all 0.5s ease;
   background-size: cover;
   background-position: center;
-  font-family: Playfair Display, sans-serif;
+  font-family: Playfair Display, serif;
   background-repeat: no-repeat;
   text-shadow: 2px 8px 8px rgba(0.9, 0, 0, 0.9);
   box-shadow: 0 4px 8px rgba(0.9, 0, 0, 0.9);
@@ -81,7 +81,7 @@
 
   .answer-button {
     height: calc(50vh / 7);
-    padding: 10px;
+    padding: 1px;
   }
 }
 

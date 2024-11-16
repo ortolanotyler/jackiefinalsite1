@@ -47,7 +47,7 @@ const headingStyle = {
   textAlign: 'center',
   fontSize: '2.5rem',
   fontWeight: '400',
-  fontFamily: "Playfair Display, sans-serif",
+  fontFamily: "Playfair Display, serif",
   color: '#000000',
   maxWidth: '95%',
 
@@ -59,7 +59,7 @@ const paragraphStyle = {
 fontSize: '20px',
 color: '#000000',
 
-fontFamily: "Playfair Display, sans-serif",
+fontFamily: "Playfair Display, serif",
 fontWeight: '300',
 padding: '10px',
 margin: '10px auto',

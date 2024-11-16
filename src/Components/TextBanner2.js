@@ -44,7 +44,7 @@ const TextBanner2 = ({ text = "SHOPPING", height = '50px', width = '100%', maxFo
       padding: '1rem auto',
       justifyContent: 'center',
       textAlign: 'center',
-      fontFamily: 'Playfair Display, sans-serif',
+      fontFamily: 'Playfair Display, serif',
       height,
       width,
       fontWeight: '100',

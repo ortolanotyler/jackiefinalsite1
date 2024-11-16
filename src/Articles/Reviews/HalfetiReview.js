@@ -37,7 +37,7 @@ const HalfetiReview = () => {
     textAlign: 'center',
     fontSize: '1.5rem',
     fontWeight: 'bold',
-    fontFamily: 'Playfair Display, sans-serif',
+    fontFamily: 'Playfair Display, serif',
     color: '#000000',
     margin: '30px auto',
     maxWidth: '100%', // Allow space for margins
@@ -47,7 +47,7 @@ const HalfetiReview = () => {
     textAlign: 'center',
     fontSize: '2.5rem',
     fontWeight: '100',
-    fontFamily: "'Playfair Display', sans-serif",
+    fontFamily: "'Playfair Display', serif",
     color: '#000000',
     maxWidth: '95%',
 

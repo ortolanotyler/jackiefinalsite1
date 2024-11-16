@@ -47,7 +47,7 @@ const NewsletterSlider = () => {
         sx={{ 
           
      
-          fontFamily: 'Playfair Display, sans-serif', 
+          fontFamily: 'Playfair Display, serif', 
           margin: '0 auto',
           padding: '20px ',
           maxWidth: '100%',

@@ -48,7 +48,7 @@ const heading2Style = {
   textAlign: 'center',
   fontSize: '1.5rem',
   fontWeight: 'bold',
-  fontFamily: 'Playfair Display, sans-serif',
+  fontFamily: 'Playfair Display, serif',
   color: '#000000',
   margin: '30px auto',
   maxWidth: '100%', // Allow space for margins
@@ -59,7 +59,7 @@ const headingStyle = {
   textAlign: 'center',
   fontSize: '34px',
   fontWeight: '400',
-  fontFamily: "Arapey, sans-serif",
+  fontFamily: "Arapey, serif",
   color: '#000000',
   maxWidth: '95%',
 

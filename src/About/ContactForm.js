@@ -44,7 +44,7 @@ const ContactForm = () => {
             <p
             style = {{
               color: '#745B4F',
-              fontFamily: 'Playfair Display, sans-serif'
+              fontFamily: 'Playfair Display, serif'
             }}
             >
               Throughout the years, I have had the privilege of collaborating with esteemed brands that have enhanced the quality of my
