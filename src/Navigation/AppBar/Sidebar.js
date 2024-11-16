@@ -6,25 +6,22 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import styles from './Sidebar.module.css'; // Import the updated CSS module
+import HomeIcon from '@mui/icons-material/Home'; // Import the Home icon
+import styles from './Sidebar.module.css';
 
 const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
-    { name: 'BRIDAL', path: '/bridal' },
     { name: 'HOME', path: '/' },
     { name: 'ABOUT', path: '/about' },
-
     { name: 'TUTORIALS', path: '/tutorials' },
     { name: 'QUIZ', path: '/quiz' },
-    { name: 'MERCH', path: '/vintagevibesmerch' },
-    { name: 'SHOP MY STYLE', path: '/mystyle' },
+    { name: 'BRIDAL', path: '/bridal' },
     { name: 'TRAVEL', path: '/travel' },
+    { name: 'SHOP MY STYLE', path: '/mystyle' },
     { name: 'REVIEWS', path: '/reviews' },
     { name: 'DIARY', path: '/diary' },
     { name: 'CONTACT', path: '/contact' },
-
     { name: 'SITEMAP', path: '/sitemap' },
- 
   ];
 
   return (
@@ -42,7 +39,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           flexDirection: 'column',
           justifyContent: 'center',
           height: '100%',
-          padding: '4rem 1.25rem', // Adjust padding to ensure content isn't cut off
+          padding: '1rem 1.25rem',
         }}
       >
         <IconButton
@@ -77,6 +74,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
             </Button>
           ))}
         </Box>
+
         <Button
           key="subscribe-button"
           component={Link}
@@ -84,8 +82,8 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           className={styles.subscribeButton}
           onClick={toggleDrawer}
           sx={{
-            marginBottom: '1rem', // Ensure the button has enough space at the bottom
-            padding: '0.8rem', // Add padding to make the button more clickable
+            margin: '1rem auto',
+            padding: '5px',
           }}
         >
           Subscribe
@@ -97,9 +95,12 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
             justifyContent: 'center',
             alignItems: 'center',
             gap: '5px',
-            marginBottom: '0px',
+            marginBottom: '1rem',
           }}
         >
+          <a href="/" onClick={toggleDrawer}>
+            <HomeIcon style={{ color: '#745B4F', fontSize: 24 }} />
+          </a>
           <a
             href="https://youtube.com/@JackieWyers?si=sklULUqnNkzkmiaY"
             target="_blank"
@@ -125,8 +126,6 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
             <MailOutlineIcon style={{ color: '#745B4F', fontSize: 24 }} />
           </a>
         </Box>
-
-     
       </Box>
     </Drawer>
   );

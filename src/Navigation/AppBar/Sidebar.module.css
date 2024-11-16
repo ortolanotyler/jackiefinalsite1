@@ -65,7 +65,7 @@
 @media (max-width: 768px) {
   .sidebar {
     width: 300px;
-    padding: 1rem;
+    padding: 2rem;
   }
 
   .sidebarButton {
