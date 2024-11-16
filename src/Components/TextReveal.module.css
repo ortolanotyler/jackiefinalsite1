@@ -2,30 +2,29 @@
 .hero {
   width:100%;
   height: 200px;
-  
+  margin: 0 auto;
   background-color: #fdedef;
-  border-radius: 10px;
+  border-radius: 0px;
   display: grid;
   place-items: center;
   text-align: center;
-    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
-margin: 1rem auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+
 }
 
 .textReveal {
   display: inline-block;
   opacity: 0;
   animation: fade-in 1s forwards;
-  font-family: 'Playfair Display', sans-serif; /* Set font to Arapey only */
-  font-size: 24px; /* Responsive font size */
+  font-family: 'Playfair Display', serif; /* Set font to Arapey only */
+  font-size: 28px; /* Responsive font size */
   text-align: center; /* Center-align the text */
-  font-weight: 100;
+  font-weight: 400;
   white-space: pre-wrap; /* Allow wrapping on spaces and break text to fit */
   overflow-wrap: break-word; /* Break long words to fit within the container */
   word-wrap: break-word;
   hyphens: auto; /* Automatically hyphenate text if needed */
-  padding: 10px;
-  max-width: 100%; /* Ensure the text stays within the container */
   box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
@@ -41,6 +40,8 @@ margin: 1rem auto;
     height: 100px;
   
   }
+
+  
 }
 
 @media (max-width: 400px) {
