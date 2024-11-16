@@ -6,7 +6,6 @@
   padding: 10px;
   text-align: center;
   background-color: white;
-  border-radius: 12px;
   box-sizing: border-box;
 }
 
@@ -39,7 +38,7 @@
 
 .answerButton {
   width: 100%; /* Default size for larger screens */
-  height: auto; /* Default size for larger screens */
+  height: 300px; /* Default size for larger screens */
   color: white;
   font-size: 1.2rem;
   font-family: 'Playfair Display', sans-serif;
@@ -83,10 +82,10 @@
   }
 
   .answerButton {
-    width: 200px; /* Smaller size for medium screens */
-    height: 200px;
+    width: 100%; /* Smaller size for medium screens */
+    height: 300px;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
 
@@ -114,7 +113,7 @@
   .answerButton {
     width: 100%; /* Adjust width to fit the container */
     max-width: 300px; /* Limit the width for larger screens */
-    height: 100px; /* Allow height to adjust based on content */
+    height: 200px; /* Allow height to adjust based on content */
     font-weight: 400;
     font-size: 0.8rem;
     padding: 10px;
