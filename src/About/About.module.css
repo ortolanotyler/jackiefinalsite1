@@ -2,17 +2,17 @@
 
 .about-container {
   background-color: #fdedef;
-  font-family: 'GFS Didot, sans-serif';
+  font-family: "EB Garamond";
   height: 100%;
 }
 
 .about-meet-jackie {
-  font-family: 'GFS Didot, sans-serif';
+  font-family: "EB Garamond";
   background-color: white;
 }
 
 .about-text-section {
-  font-family: 'GFS Didot, sans-serif';
+  font-family: "EB Garamond";
   background-color: #fdedef;
   display: flex;
   flex-direction: column;
@@ -20,16 +20,11 @@
   height: auto;
 }
 
-.about-left-section {
-  flex: 1;
-  background-image: url('/public/Images/About/emily2.png'); /* Replace '/public' with your actual public URL */
-  background-size: cover;
-  background-position: center;
-  display: flex;
-
-  position: relative;
+.about-left-text {
+  text-align: left !important; /* Force left alignment */
+  margin: 0; /* Remove any default or uneven margins */
+  padding: 2rem; /* Adjust as needed */
 }
-
 .about-left-section::before {
   content: '';
   position: absolute;
@@ -73,13 +68,13 @@
   display: flex;
   width: 100%;
   background-color: white;
-  font-family: 'GFS Didot, sans-serif';
+  font-family: "EB Garamond";
 }
 
 .about-collaborations-text {
   background-color: #EBE8E4;
   flex: 1;
-  font-family: 'GFS Didot, sans-serif';
+  font-family: "EB Garamond";
   display: flex;
   justify-content: center;
   align-items: center;
