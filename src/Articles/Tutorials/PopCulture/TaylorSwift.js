@@ -67,7 +67,7 @@ const TaylorSwiftHoliday = () => {
     <div className="container">
     <Helmet>
   <title>Taylor Swift Holiday Merch 2024 Ranked! 🎄 Top Picks for Swifties</title>
-  <link rel="canonical" href="https://www.jackiewyers.beauty/taylor-holiday-merch-2024" />
+  <link rel="canonical" href="https://www.jackieyers.beauty/articles/taylor-swift-holidays-2024" />
 
   <meta 
     name="description" 
@@ -86,9 +86,9 @@ const TaylorSwiftHoliday = () => {
   />
   <meta 
     property="og:image" 
-    content="https://www.jackiewyers.beauty/Images/TaylorSwiftMerch2024Thumbnail.jpg" 
+    content="https://www.jackiewyers.beauty/Images/Articles/TaylorSwift/JackieWyersTaylorSwiftBetty.webp" 
   />
-  <meta property="og:url" content="https://www.jackiewyers.beauty/taylor-holiday-merch-2024" />
+  <meta property="og:url" content="https://www.jackieyers.beauty/articles/taylor-swift-holidays-2024" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
@@ -99,7 +99,7 @@ const TaylorSwiftHoliday = () => {
   />
   <meta 
     name="twitter:image" 
-    content="https://www.jackiewyers.beauty/Images/TaylorSwiftMerch2024Thumbnail.jpg" 
+    content="https://www.jackiewyers.beauty/Images/Articles/TaylorSwift/JackieWyersTaylorSwiftBetty.webp" 
   />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -122,7 +122,7 @@ const TaylorSwiftHoliday = () => {
         "@type": "BlogPosting",
         "headline": "Taylor Swift Holiday Merch 2024 Ranked! 🎄 Top Picks for Swifties",
         "description": "Discover the top picks and must-have pieces from Taylor Swift's 2024 holiday collection. A guide for Swifties to choose the best merch for the holiday season!",
-        "image": "https://www.jackiewyers.beauty/Images/TaylorSwiftMerch2024Thumbnail.jpg",
+        "image": "https://www.jackiewyers.beauty/Images/Articles/TaylorSwift/JackieWyersTaylorSwiftBetty.webp",
         "author": {
           "@type": "Person",
           "name": "Jackie Wyers"
@@ -139,7 +139,7 @@ const TaylorSwiftHoliday = () => {
         "dateModified": "2024-11-16",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://www.jackiewyers.beauty/taylor-holiday-merch-2024"
+          "@id": "https://www.jackieyers.beauty/articles/taylor-swift-holidays-2024"
         }
       }
     `}
@@ -161,9 +161,9 @@ const TaylorSwiftHoliday = () => {
 
 
       <SocialShare
-        url="https://www.jackiewyers.beauty/taylor-holiday-merch-2024"
+        url="https://www.jackieyers.beauty/articles/taylor-swift-holidays-2024"
         title="Taylor Swift Holiday Merch 2024 Ranked!"
-        imageUrl="https://www.jackiewyers.beauty/Images/TaylorSwiftMerch2024Thumbnail.jpg"
+        imageUrl="https://www.jackiewyers.beauty/Images/Articles/TaylorSwift/JackieWyersTaylorSwiftBetty.webp"
       />
 
       <div style={{ textAlign: 'center', margin: '10px auto' }}>
