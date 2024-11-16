@@ -106,7 +106,7 @@ function HomePage() {
   <Grid item xs={12} >
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 1 }}>
       <TextReveal
-        text=" 🦌🐇 The Animal Pretty Quiz 🐈‍⬛🦊 " 
+        text="      The Animal Pretty Quiz     " 
         style={{ backgroundColor: '#f8f8f8', width: '100%' }} 
       />
         
