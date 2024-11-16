@@ -1,19 +1,16 @@
 import React from 'react';
 import { Box, Grid, Paper } from '@mui/material';
 import { Helmet } from 'react-helmet-async';
-import TextRevealHomePage from '../Components/TextRevealHomePage';
 import TextBanner2 from '../Components/TextBanner2';
 import RotatingText from '../Navigation/AppBar/RotatingText';
 import QuiltedImageList1 from './ImageGridTutorials';
 import { useMediaQuery } from '@mui/material';
-import Quiz4 from '../Quiz/Quiz4';
-import Quiz5 from '../Quiz/Quiz5';
+
 import SixGridComponent from './GridSectionArticles6';
 import FeaturedGrid6 from './GridSectionFeatured';
 import TextReveal from '../Components/TextReveal';
 import VintageVibesCards from './GridVintageVibes';
 import NewsletterSlider from './NewsletterSlider';
-import AdSenseAd from './Adsense'; // Import your AdSense component
 import TextRevealHomePage1 from '../Components/TextRevealHomePage1';
 import MyStyleSlider1 from '../Shop/MyStyleSlider1';
 import Quiz2 from '../Quiz/Quiz2';
