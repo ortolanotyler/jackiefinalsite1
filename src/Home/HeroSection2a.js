@@ -30,7 +30,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     backgroundColor: '#ffffff',
     borderRadius: '5px',
     overflow: 'hidden',
-    border: '0.5px solid #745b4f',
+    border: '0.5px solid #fdedef',
     boxSizing: 'border-box',
     boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
   };
