@@ -26,14 +26,11 @@ const Footer = () => {
             }}>
                 <div style={{ fontFamily: 'GFS Didot, serif', gap: '1.5rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <div>
-                        <button style={{ fontFamily: 'GFS Didot, serif', textAlign: 'left', fontSize: '1.25rem', cursor: 'pointer', color: '#745B4F', background: 'none', border: 'none', textDecoration: 'none' }}>
+                        <button style={{ fontFamily: 'GFS Didot, serif', textAlign: 'left', fontSize: '1rem', cursor: 'pointer', color: '#745B4F', background: 'none', border: 'none', textDecoration: 'none' }}>
                             <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}>Home</a>
                         </button>
-                        <div>
-                            <a href="/contact" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '18px' }}>
-                                Business Inquiries
-                            </a>
-                        </div>
+                      
+                       
                     </div>
                     <div style={{ textAlign: 'center', fontSize: '1rem', cursor: 'pointer', color: '#745B4F', margin: '1rem' }}>
                         © Jackie Wyers 2024
@@ -43,8 +40,9 @@ const Footer = () => {
                             SiteMap
                         </a>
                         <br />
+
                         <a href="/press" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '18px' }}>
-                            Media Kit & Press
+                            Media Kit
                         </a>
                         <br />
                         <a href="/subscribe" style={{ color: '#745B4F', textDecoration: 'none', fontSize: '18px' }}>
@@ -58,16 +56,16 @@ const Footer = () => {
                 </div>
                 <div style={{ fontSize: '40px' }}>
                     <a href="https://youtube.com/@JackieWyers?si=sklULUqnNkzkmiaY" target="_blank" rel="noopener noreferrer">
-                        <YouTubeIcon style={{ color: '#745B4F', fontSize: 70 }} />
+                        <YouTubeIcon style={{ color: '#745B4F', fontSize: 30 }} />
                     </a>
                     <a href="https://www.instagram.com/jackiewyers?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
-                        <InstagramIcon style={{ color: '#745B4F', fontSize: 70 }} />
+                        <InstagramIcon style={{ color: '#745B4F', fontSize: 30 }} />
                     </a>
                     <a href="https://pin.it/27OmCVDye" target="_blank" rel="noopener noreferrer">
-                        <PinterestIcon style={{ color: '#745B4F', fontSize: 70 }} />
+                        <PinterestIcon style={{ color: '#745B4F', fontSize: 30 }} />
                     </a>
                     <a href="mailto:jackietwyers@gmail.com">
-                        <MailOutlineIcon style={{ color: '#745B4F', fontSize: 70 }} />
+                        <MailOutlineIcon style={{ color: '#745B4F', fontSize: 30 }} />
                     </a>
                 </div>
 
