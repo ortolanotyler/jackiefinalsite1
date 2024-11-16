@@ -213,7 +213,7 @@ function App() {
             <Route path="bonbonreview" element={<BonBonReview />} />
             <Route path="quiz" element={<QuizHomepage />} />
             <Route path="quiz1" element={<Quiz1 />} />
-            <Route path="quiz2" element={<Quiz2 />} />
+            <Route path="quiz2" element={<Quiz2Homepage />} />
             <Route path="foxpretty" element={<FoxPretty />} />
             <Route path="bunnypretty" element={<BunnyPretty />} />
             <Route path="catpretty" element={<CatPretty />} />
