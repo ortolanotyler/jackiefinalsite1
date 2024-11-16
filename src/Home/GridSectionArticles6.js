@@ -7,7 +7,7 @@ import HeroSection2a from './HeroSection2a';
 
 const FeaturedGrid6 = () => {
   return (
-    <Box sx={{ width: '80%', padding: '1rem', backgroundColor: 'white' , margin: '0 auto'}}>
+    <Box sx={{ width: '85%', padding: '1rem', backgroundColor: 'white' , margin: '0 auto'}}>
       <Grid container spacing={1} justifyContent="center">
         {/* Row 1 */}
         <Grid item xs={12} sm={6} md={6} lg={4}>
@@ -72,13 +72,12 @@ const FeaturedGrid6 = () => {
           </Box>
         </Grid>
         <Grid item xs={12} sm={6} md={6} lg={4}>
-        <Box sx={{ width: 'auto', height: '100%',  display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <HeroSection2a
-              featureText="NEW ZEALAND"
-              headlineText="New Zealand | Auckland Vlog and Experience"
-              author="BY JACKIE WYERS"
-              imagePath="Homepage/NZThumbnail.webp"
-              linkUrl="/newzealand"
+          <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <HeroSection2a
+              featureText="NEW"
+              headlineText="Hair Growth Secrets: Best Products and Tips for Your Longest Hair"
+              imagePath="Hair1/hair1.webp"
+              linkUrl="/articles/hair-growth-secrets"
               isFlipped={true}
             />
           </Box>

@@ -171,6 +171,7 @@ const WickedCollabs = () => {
             <div style={paragraphStyle}>
               <DropCap1 text="As Wicked winter approaches, the countdown to the much-anticipated Wicked film starring Ariana Grande and Cynthia Erivo is in full swing. With nearly 100 enchanting collaborations, I’ve handpicked the top five must-haves, along with some amazing honorable mentions." />
             </div>
+          
             <div 
 style = {{
 textAlign: 'center',

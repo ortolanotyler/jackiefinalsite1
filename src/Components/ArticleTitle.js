@@ -42,7 +42,7 @@ const styles = {
     color: '#000000',
   },
   subTitle: {
-    fontFamily: 'Montserrat, sans-serif', // Font for the author and date text
+    fontFamily: 'EB Garamond, sans-serif', // Font for the author and date text
     fontWeight: '100',
     fontSize: '16px',
     fontStyle: 'italic',
@@ -58,12 +58,12 @@ const styles = {
   },
   author: {
     textTransform: 'uppercase',
-    fontFamily: 'Montserrat, sans-serif', // Font for the author and date text
+    fontFamily: 'EB Garamond, serif', // Font for the author and date text
     fontWeight: '100',
     fontStyle: 'normal',
   },
   date: {
-    fontFamily: 'Montserrat, sans-serif', // Font for the author and date text
+    fontFamily: 'EB Garamond, serif', // Font for the author and date text
     fontWeight: '100',
     fontStyle: 'normal',
   },
