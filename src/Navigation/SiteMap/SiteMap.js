@@ -162,8 +162,35 @@ const Sitemap = () => {
         { path: "/quiz/halloween/ariel", title: "Ariel Halloween Quiz Result" },
         { path: "/quiz/halloween/barbie", title: "Barbie Halloween Quiz Result" },
         { path: "/quiz/halloween/bridgerton", title: "Bridgerton Halloween Quiz Result" },
-        { path: "/quiz/halloween/britney", title: "Britney Halloween Quiz Result" }
+        { path: "/quiz/halloween/britney", title: "Britney Halloween Quiz Result" },
+        { path: "/bridesmaidboxes", title: "Bridesmaid Boxes" },
+        { path: "/videos", title: "Videos" },
+        { path: "/diary", title: "Diary" },
+        { path: "/diaryfillers", title: "Diary Fillers" },
+        { path: "/diy-flowers", title: "DIY Flowers" },
+        { path: "/quiz-2-home", title: "Quiz 2 Home" },
+        { path: "/quiz-3-home", title: "Quiz 3 Home" },
+        { path: "/articles/rory-gilmore", title: "Rory Gilmore Article" },
+        { path: "/articles/wicked", title: "Wicked Article" },
+        { path: "/articles/wicked-witch-of-the-west", title: "Wicked Witch of the West Article" },
+        { path: "/quiz/halloween", title: "Halloween Quiz Home" },
+        { path: "/quiz/halloween/ysl", title: "YSL Halloween Quiz Result" },
+        { path: "/quiz/halloween/tiffany", title: "Tiffany Halloween Quiz Result" },
+        { path: "/quiz/halloween/ariel", title: "Ariel Halloween Quiz Result" },
+        { path: "/quiz/halloween/barbie", title: "Barbie Halloween Quiz Result" },
+        { path: "/quiz/halloween/bridgerton", title: "Bridgerton Halloween Quiz Result" },
+        { path: "/quiz/halloween/britney", title: "Britney Halloween Quiz Result" },
+        { path: "/articles/dragon-braid", title: "Dragon Braid Article" },
+        { path: "/quiz/female", title: "Female Quiz Results" },
+        { path: "/quiz/male-female-gaze", title: "Male vs. Female Gaze Quiz" },
+        { path: "/quiz/male", title: "Male Quiz Results" },
+        { path: "/articles/hair-growth-secrets", title: "Hair Growth Secrets Article" },
+        { path: "/articles/dcc-cheerleader", title: "DCC Cheerleader Article" },
+        { path: "/articles/taylor-swift-holidays-2024", title: "Taylor Swift Holidays 2024 Article" },
       ];
+
+       
+   
 
     return (
         <>
