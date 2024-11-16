@@ -81,11 +81,11 @@ function HomePage() {
     `}
   </script>
 </Helmet>
-      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
+      <Box sx={{ backgroundColor: '#ffffff',display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
         
         {!isMobile && (
           <>
-            <TextRevealHomePage1 text="JACKIE WYERS" style={{ backgroundColor: '#fdedef', fontFamily: 'Arapey, serif' }} />
+            <TextRevealHomePage1 text="JACKIE WYERS" style={{ backgroundColor: '#fdedef', fontFamily: 'Playfair Display, serif', fontWeight: '400' }} />
             <Paper elevation={0} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '0px', color: '#745B4F', textAlign: 'center', marginTop: '0.01rem', padding: '0.5rem' }}>
               <RotatingText />
             </Paper>
@@ -98,7 +98,7 @@ function HomePage() {
         </Box>
        
 
-        <TextBanner2 text="FEATURED" height="auto" width="100%" fontSize="1rem"  />
+        <TextBanner2 text="FEATURED" height="100%" width="100%" fontSize="24px"  />
         <TextReveal
         text="🐈‍⬛🦌 The Animal Pretty Quiz 🐇🦊" 
         style={{ backgroundColor: '#fdedef', width: '100%' }} 
