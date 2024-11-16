@@ -6,6 +6,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import styles from './AnimalPretty.module.css';
 import AdSenseAd from '../../../Home/Adsense';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 const button = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/AnimalQuizResults.jpeg`;
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/DeerPrettyTitle.png`;
@@ -177,7 +178,13 @@ const DeerPretty = () => {
 
         <a href="/quiz2" className={styles.link}>BEAUTY // QUIZ // DEER PRETTY</a>
       </div>
-      <img src={title} alt="Deer Pretty Title" className={styles.titleImage} />
+
+      <ArticleTitle
+  mainTitle="You are Deer Pretty!"
+  subTitle="Here's how to embrace your look"
+  author="Jackie Wyers"
+
+/>
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/hIGr8Gj4kQA?si=8N-JgnQ-JeRTk5Gm" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
 

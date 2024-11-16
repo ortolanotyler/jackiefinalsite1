@@ -6,6 +6,7 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import styles from './AnimalPretty.module.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import AdSenseAd from '../../../Home/Adsense';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxTitleResults.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxPretty.png`;
@@ -171,7 +172,13 @@ const FoxPretty = () => {
       <div className={styles.linkContainer}>
         <a href="/quiz2" className={styles.link}>BEAUTY // QUIZ // FOX PRETTY</a>
       </div>
-      <img src={title} alt="No Makeup-Makeup Spring Edition Title" className={styles.titleImage} />
+
+      <ArticleTitle
+  mainTitle="You are Fox Pretty!"
+  subTitle="Here's how to embrace your look"
+  author="Jackie Wyers"
+
+/>
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/hIGr8Gj4kQA?si=8N-JgnQ-JeRTk5Gm" title="Sophia Loren Makeup Tutorial - What Animal Pretty Are You? on Youtube" />
 

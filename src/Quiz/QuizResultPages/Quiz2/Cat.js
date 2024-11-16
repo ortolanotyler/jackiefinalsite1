@@ -6,6 +6,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import styles from './AnimalPretty.module.css';
 import AdSenseAd from '../../../Home/Adsense';
+import ArticleTitle from '../../../Components/ArticleTitle';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/CatPrettyTitle.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FinalCat.jpg`;
@@ -173,9 +174,16 @@ const CatPretty = () => {
 </Helmet>
 
       <div className={styles.linkContainer}>
-        <a href="/quiz2" className={styles.link}>BEAUTY // QUIZ // CAT PRETTY</a>
+        <a href="/quiz2" className={styles.link}>BACK TO QUIZ</a>
       </div>
-      <img src={title} alt="CAT PRETTY - QUIZ RESULTS" className={styles.titleImage} />
+
+      <ArticleTitle
+  mainTitle="You are Cat Pretty!"
+  subTitle="Here's how to embrace your look"
+  author="Jackie Wyers"
+
+/>
+
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/hIGr8Gj4kQA?si=8N-JgnQ-JeRTk5Gm" title="Sophia Loren Makeup Tutorial - Jackie Wyers on Youtube" />
 
