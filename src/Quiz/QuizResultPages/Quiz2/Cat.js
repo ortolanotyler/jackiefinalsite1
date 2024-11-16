@@ -173,9 +173,13 @@ const CatPretty = () => {
   </script>
 </Helmet>
 
-      <div className={styles.linkContainer}>
-        <a href="/quiz2" className={styles.link}>BACK TO QUIZ</a>
+   
+<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100px' }}>
+        <a href="/quiz2" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
+          BACK TO QUIZ
+        </a>
       </div>
+
 
       <ArticleTitle
   mainTitle="You are Cat Pretty!"

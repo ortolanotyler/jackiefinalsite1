@@ -6,6 +6,7 @@ import ResponsiveIframeNoScroll from '../../../Components/ResponsiveIframeNoScro
 import ArticleTitle from '../../../Components/ArticleTitle';
 import DropCap1 from '../../Travel/DropCap1';
 import SocialShare from '../../../Home/SocialShare';
+import EmailSubscribe from '../../../Components/EmailSubscribe';
 
 
 
@@ -397,6 +398,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
         description="A Guide to getting the best out of Apple's camera settings for scroll-stopping iPhone photos"
         blogContent={blogContent}
       />
+            <EmailSubscribe/>
+
     </div>
   );
 };

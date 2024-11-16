@@ -9,6 +9,7 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
+import EmailSubscribe from '../../../Components/EmailSubscribe';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/1.JPG`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/2.JPG`;
@@ -734,6 +735,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
         description="Barbie Makeup Tutorial & Iconic Doll Inspiration"
         blogContent={blogContent}
       />
+      <EmailSubscribe/>
 
           
 

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useMediaQuery } from '@mui/material';
 
-const TextBanner2 = ({ text = "SHOPPING", height = '50px', width = '100%', maxFontSize = '50px', minFontSize = '10px' }) => {
+const TextBanner2 = ({ text = "SHOPPING", height = 'auto', width = '100%', maxFontSize = '50px', minFontSize = '10px' }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const [fontSize, setFontSize] = useState(maxFontSize);
 
@@ -41,7 +41,7 @@ const TextBanner2 = ({ text = "SHOPPING", height = '50px', width = '100%', maxFo
     container: {
       display: 'flex',
       margin: '2.5rem auto',
-      padding: '0 auto',
+      padding: '1rem auto',
       justifyContent: 'center',
       textAlign: 'center',
       fontFamily: 'Playfair Display, serif',

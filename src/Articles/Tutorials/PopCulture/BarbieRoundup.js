@@ -9,6 +9,7 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
 import YoutubeShortFacade from '../../../Components/YouTubeShortFacade';
+import EmailSubscribe from '../../../Components/EmailSubscribe';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/BarbieRoundup/1.JPG`;
@@ -491,6 +492,7 @@ Wishlist"
       />
  
           
+ <EmailSubscribe/>
 
     </div>
   );
