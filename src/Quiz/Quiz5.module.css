@@ -105,7 +105,7 @@
   .answerButton {
     width: 100%; /* Adjust width to fit the container */
     max-width: 300px; /* Limit the width for larger screens */
-    height: 150px; /* Allow height to adjust based on content */
+    height: 200px; /* Allow height to adjust based on content */
     font-size: 0.8rem;
     padding: 10px;
   }
