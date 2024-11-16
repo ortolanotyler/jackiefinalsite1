@@ -3,7 +3,6 @@
   max-height: 100%;
   margin: 0 auto;
   font-weight: 400;
-
   padding: 10px;
   text-align: center;
   background-color: white;
@@ -14,10 +13,8 @@
 .questionSection {
   display: flex;
   font-weight: 400;
-
   justify-content: center;
   align-items: center;
-  
 }
 
 .questionText {
@@ -30,19 +27,19 @@
 }
 
 .answerSection {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
- 
+  display: flex; /* Change from grid to flex for column layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  gap: 1rem;
   margin: 0 auto;
   font-weight: 400;
-gap: 1rem;
   max-width: 800px;
   padding: 1rem;
 }
 
 .answerButton {
-  width: 300px; /* Default size for larger screens */
-  height: 300px; /* Default size for larger screens */
+  width: 100%; /* Default size for larger screens */
+  height: auto; /* Default size for larger screens */
   color: white;
   font-size: 1.2rem;
   font-family: 'Playfair Display', sans-serif;
@@ -60,7 +57,6 @@ gap: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   display: flex;
   font-weight: 400;
-
   align-items: center;
   justify-content: center;
 }
@@ -74,7 +70,6 @@ gap: 1rem;
   max-width: 100%;
   margin: 1rem auto;
   font-weight: 400;
-
   padding: 10px;
   background-color: #f3f3f3;
   border-radius: 12px;
@@ -91,7 +86,6 @@ gap: 1rem;
     width: 200px; /* Smaller size for medium screens */
     height: 200px;
     font-weight: 400;
-
     font-size: 1rem;
   }
 }
@@ -99,10 +93,9 @@ gap: 1rem;
 /* Responsive Design for Small Screens/Mobile */
 @media (max-width: 480px) {
   .quizContainer {
-    width: 95%;
+    width: 100%;
     font-weight: 400;
-
-    padding: 10px;
+    padding: 30px;
   }
 
   .questionText {
@@ -113,7 +106,6 @@ gap: 1rem;
   .answerSection {
     display: flex;
     font-weight: 400;
-
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
     gap: 15px;
@@ -122,7 +114,7 @@ gap: 1rem;
   .answerButton {
     width: 100%; /* Adjust width to fit the container */
     max-width: 300px; /* Limit the width for larger screens */
-    height: 200px; /* Allow height to adjust based on content */
+    height: 100px; /* Allow height to adjust based on content */
     font-weight: 400;
     font-size: 0.8rem;
     padding: 10px;
