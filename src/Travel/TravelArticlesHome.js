@@ -44,7 +44,9 @@ const TravelArticlesHome = () => {
       </Helmet>
 
 <TextReveal text="LATEST TRAVEL" />
-<Grid container spacing={1} justifyContent="center"
+<Grid container spacing={1} justifyContent="center" style = {{
+  padding : '1rem'
+}}
 
 >
 <Grid item xs={12} >
@@ -56,7 +58,7 @@ const TravelArticlesHome = () => {
               author="BY JACKIE WYERS"
               imagePath="Sorrento1/SorrentoThumbnail.jpg"
               linkUrl="/sorrento"
-              isFlipped={false}
+              isFlipped={true}
             />
           
         </Grid>
@@ -86,7 +88,7 @@ const TravelArticlesHome = () => {
               author="BY JACKIE WYERS"
               imagePath="Fable/FableAucklandThumbnail.jpg"
               linkUrl="/fable"
-              isFlipped={false}
+              isFlipped={true}
             />
           
         </Grid>
@@ -143,7 +145,7 @@ const TravelArticlesHome = () => {
               author="BY JACKIE WYERS"
               imagePath="Disney/BeachClub/BEACHCLUBTHUMBNAIL.jpg"
               linkUrl="/disneybeachclubresort"
-              isFlipped={false}
+              isFlipped={true}
             />
           
         </Grid>
