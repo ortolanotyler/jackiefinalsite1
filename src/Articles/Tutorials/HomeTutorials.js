@@ -11,6 +11,17 @@ const HomeTutorials = () => {
       <Box sx={{ width: '80%', padding: '1rem', backgroundColor: 'white', margin: '0 auto' }}>
         <Grid container spacing={1} justifyContent="center">
         <Grid item xs={12}>
+          <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <HeroSection
+              featureText="TAYLOR : ERAS TOUR 2024"
+              headlineText="Taylor Swift Holiday Merch 2024 - Ranked!"
+              imagePath="TaylorSwift/JackieWyersTaylorSwiftBetty.webp"
+              linkUrl="/articles/taylor-swift-holidays-2024"
+              isFlipped={true}
+            />
+          </Box>
+        </Grid>
+        <Grid item xs={12}>
             <HeroSection
               featureText="DALLAS COWBOYS"
               headlineText=" Dallas Cowboys Cheerleader Makeup Tutorial ✨"
