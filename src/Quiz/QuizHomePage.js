@@ -40,10 +40,13 @@ const QuizHomepage = () => {
                     <Quiz5 />
                 </Grid>
              
+                <TextReveal text='ANIMAL PRETTY QUIZ'/>
+
               <Grid item xs={12}>
                     <Quiz2 />
                 </Grid>
-        
+                <TextReveal text='HALLOWEEN COSTUME QUIZ'/>
+
 
            <Grid item xs={12}>
                     <Quiz4 />
@@ -51,10 +54,11 @@ const QuizHomepage = () => {
              
          
 
-        
+                <TextReveal text='ULTIMATE WEDDING DRESS'/>
+
                
                 <Grid item xs={12}>
-                    <Quiz2 />
+                    <Quiz3 />
                 </Grid>
              
 
