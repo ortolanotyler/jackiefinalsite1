@@ -36,7 +36,7 @@ export default function EmailSubscribe() {
       justifyContent="center"
       alignItems="center"
       width="100%"
-      height="400px"
+      height="auto"
       px={2}
       sx={{
         position: 'relative',
@@ -51,7 +51,7 @@ export default function EmailSubscribe() {
           position: 'relative',
           zIndex: 2,
           padding: '1rem',
-          maxWidth: '80%',
+          maxWidth: '100%',
           backgroundColor: 'white',
           borderRadius: '0px',
         }}
@@ -69,10 +69,10 @@ export default function EmailSubscribe() {
                   <Typography
                     variant="h6"
                     sx={{
-                      fontFamily: 'GFS Didot, serif',
+                      fontFamily: 'Playfair Display, serif',
                       color: '#745B4F',
                       textAlign: 'center',
-                      marginBottom: '1rem',
+                      margin: '1rem auto',
                       fontSize: { xs: '1rem', sm: '1.25rem' }, // Responsive font size
                     }}
                   >
@@ -107,8 +107,8 @@ export default function EmailSubscribe() {
                       color: 'white',
                       borderRadius: '0px',
                       width: '100%',
-                      fontFamily: 'GFS Didot, serif',
-                      padding: '1rem',
+                      fontFamily: 'Playfair Display, serif',
+                      padding: '5px',
                       '&:hover': {
                         backgroundColor: '#000000',
                         color: 'white',
