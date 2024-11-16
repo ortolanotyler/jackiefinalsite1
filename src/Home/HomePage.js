@@ -16,6 +16,7 @@ import NewsletterSlider from './NewsletterSlider';
 import AdSenseAd from './Adsense'; // Import your AdSense component
 import TextRevealHomePage1 from '../Components/TextRevealHomePage1';
 import MyStyleSlider1 from '../Shop/MyStyleSlider1';
+import Quiz2 from '../Quiz/Quiz2';
 
 function HomePage() {
   const isMobile = useMediaQuery('(max-width:650px)'); // Check if the screen size is mobile
@@ -88,7 +89,7 @@ function HomePage() {
         {!isMobile && (
           <>
             <TextRevealHomePage1 text="JACKIE WYERS" style={{ backgroundColor: '#fdedef', fontFamily: 'Arapey, sans-serif' }} />
-            <Paper elevation={0} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, sans-serif', borderRadius: '0px', color: '#745B4F', textAlign: 'center', marginTop: '0.01rem', padding: '0.5rem' }}>
+            <Paper elevation={0} sx={{ backgroundColor: 'white', fontFamily: 'GFS Didot, serif', borderRadius: '0px', color: '#745B4F', textAlign: 'center', marginTop: '0.01rem', padding: '0.5rem' }}>
               <RotatingText />
             </Paper>
          
@@ -105,12 +106,12 @@ function HomePage() {
   <Grid item xs={12} >
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 0 }}>
       <TextReveal
-        text="🩵 Male vs Female Gaze Quiz - Which one are you? 🩷" 
+        text="Animal Pretty Quiz - Which animal are you?" 
         style={{ backgroundColor: '#f8f8f8', width: '100%' }} 
       />
 
 
-      <Quiz5 />
+      <Quiz2 />
     </Box>
   </Grid>
 

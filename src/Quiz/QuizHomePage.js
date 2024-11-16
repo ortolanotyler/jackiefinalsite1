@@ -40,7 +40,9 @@ const QuizHomepage = () => {
                     <Quiz5 />
                 </Grid>
              
-            
+              <Grid item xs={11}>
+                    <Quiz2 />
+                </Grid>
         
 
            <Grid item xs={11}>
@@ -52,7 +54,7 @@ const QuizHomepage = () => {
         
                
                 <Grid item xs={12}>
-                    <Quiz3 />
+                    <Quiz2 />
                 </Grid>
              
 
