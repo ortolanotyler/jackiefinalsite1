@@ -24,7 +24,7 @@ const Card = ({ blogContent }) => (
     style={{
       margin: '0 auto',
       maxWidth: '100%', // Control max width to center the content
-      padding: '15px', // Add padding to prevent text from touching the edges
+      padding: '10px', // Add padding to prevent text from touching the edges
     }}
   >
     <div className="card">
@@ -59,7 +59,7 @@ const paragraphStyle = {
 fontSize: '20px',
 color: '#000000',
 
-fontFamily: "EB Garamond, serif !important",
+fontFamily: "EB Garamond, serif",
 fontWeight: '100',
 padding: '10px',
 margin: '10px auto',
