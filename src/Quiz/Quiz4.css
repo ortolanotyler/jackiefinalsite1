@@ -38,9 +38,9 @@
   
   .answer-button {
     color: white;
-    font-size: 26px;
+    font-size: 30px;
     cursor: pointer;
-    border: 2.5px solid #fdedef;
+    border: 0.25px solid #fdedef;
     background-color: transparent;
     border-radius: 10px;
     transition: all 0.5s ease;
@@ -65,7 +65,7 @@
     margin: auto;
     text-align: center;
     padding: 1rem;
-    background-color: #f3f3f3;
+    background-color: #ffffff;
     border-radius: 12px;
     box-shadow: 1 6px 8px rgba(0, 0, 0, 0.9);
   }

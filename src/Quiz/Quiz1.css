@@ -40,9 +40,9 @@
 
 .answer-button {
   color: white;
-  font-size: 26px;
+  font-size: 1rem;
   cursor: pointer;
-  border: .5px solid #fdedef;
+  border: 1px solid #ffffff;
   background-color: transparent;
   border-radius: 10px;
   transition: all 0.5s ease;
