@@ -148,9 +148,7 @@ const Quiz4Homepage = () => {
           style={{ backgroundColor: '#fdedef', width: '100%', margin: 0 }}
         />
       </Box>
-      <Box sx={{ margin: '2rem auto', width: '100%', display: 'flex', justifyContent: 'center' }}>
-        <EmailSubscribe />
-      </Box>
+    
     </Box>
   );
 };

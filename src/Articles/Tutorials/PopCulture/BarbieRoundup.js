@@ -48,7 +48,7 @@ const BarbieRoundup = () => {
   const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',
-    fontWeight: '100',
+    fontWeight: '400',
     fontFamily: "'Playfair Display', sans-serif",
     color: '#000000',
     maxWidth: '95%',

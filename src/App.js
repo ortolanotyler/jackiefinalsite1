@@ -146,6 +146,7 @@ import WickedCollabs from './Articles/Tutorials/PopCulture/Wicked2';
 import DCCMakeupTutorial from './Articles/Tutorials/VintageVibes/DallasCowboys';
 import NewZealand from './Articles/Travel/NewZealand';
 import TaylorSwiftHoliday from './Articles/Tutorials/PopCulture/TaylorSwift';
+import NewsletterSlider from './Home/NewsletterSlider';
 
 
 function usePageTracking() {
@@ -228,7 +229,7 @@ function App() {
             <Route path="diary" element={<DiaryHome />} />
             <Route path="diaryfillers" element={<DiaryPost1Fillers />} />
             <Route path="sitemap" element={<Sitemap />} />
-            <Route path="subscribe" element={<EmailSubscribe2 />} />
+            <Route path="subscribe" element={<NewsletterSlider />} />
             <Route path="emailsubscribe" element={<EmailSubscribe />} />
             <Route path="press" element={<MediaKit />} />
             <Route path="privacy" element={<PrivacyNotice />} />

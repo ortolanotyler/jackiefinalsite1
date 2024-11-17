@@ -144,10 +144,7 @@ const QuizHomepage = () => {
       </Box>
       {/* Subscribe Section */}
       <TextReveal text="Stay Updated with New Quizzes!" height="200px" width="100%" />
-      <Box sx={{ margin: '2rem auto', width: '100%', display: 'flex', justifyContent: 'center' }}>
-     
-        <EmailSubscribe />
-      </Box>
+  
     </Box>
   );
 };

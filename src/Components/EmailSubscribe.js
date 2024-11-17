@@ -50,9 +50,9 @@ export default function EmailSubscribe() {
         sx={{
           position: 'relative',
           zIndex: 2,
-          margin: '2rem auto',
+          margin: '0 auto',
 
-          maxWidth: '100%',
+          maxWidth: '80%',
           backgroundColor: '#ffffff',
           borderRadius: '0px',
         }}
@@ -73,8 +73,8 @@ export default function EmailSubscribe() {
                       fontFamily: 'Playfair Display, serif',
                       color: '#745B4F',
                       textAlign: 'center',
-                      margin: '1rem auto',
-                      fontSize: { xs: '1rem', sm: '1.25rem' }, // Responsive font size
+                      margin: '0 auto',
+                      fontSize: { xs: '1rem', sm: '1rem' }, // Responsive font size
                     }}
                   >
                     Enter your email to subscribe !
@@ -109,7 +109,7 @@ export default function EmailSubscribe() {
                       borderRadius: '0px',
                       width: '100%',
                       fontFamily: 'Playfair Display, serif',
-                      padding: '5px',
+                      padding: '1rem',
                       '&:hover': {
                         backgroundColor: '#000000',
                         color: 'white',
@@ -125,7 +125,7 @@ export default function EmailSubscribe() {
                     sx={{
                       fontSize: '1rem',
                       fontFamily: 'GFS Didot, serif',
-                      color: 'black',
+                      color: '#3a3a3a',
                     }}
                   >
                     By submitting, you agree to our{' '}

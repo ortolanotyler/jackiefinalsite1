@@ -47,7 +47,7 @@ const HalfetiReview = () => {
     textAlign: 'center',
     fontSize: '2.5rem',
     fontWeight: '100',
-    fontFamily: "'Playfair Display', serif",
+    fontFamily: "Playfair Display', serif",
     color: '#000000',
     maxWidth: '95%',
 

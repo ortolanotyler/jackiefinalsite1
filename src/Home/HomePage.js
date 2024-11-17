@@ -117,7 +117,7 @@ function HomePage() {
 
 
 
-<TextBanner2 text="NEW & POPULAR"  height="auto" width="100%" fontSize="1rem"  />
+<TextBanner2 text="NEW & POPULAR"  height="auto" width="100%" fontSize="30px"  />
         
         <FeaturedGrid6 />
 
