@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Quiz3.css';
-import TextReveal from '../Components/TextReveal';
 
 const Quiz3 = () => {
   const navigate = useNavigate();
@@ -9,6 +8,7 @@ const Quiz3 = () => {
   const [answers, setAnswers] = useState([]);
   const [showResults, setShowResults] = useState(false);
 
+  
   const quizQuestions = [
     {
       question: "What is your dream wedding location?",
@@ -104,21 +104,13 @@ const Quiz3 = () => {
     const total = finalAnswers.reduce((acc, curr) => acc + curr, 0);
 
     let result;
-    if (total <= 10) {
-      result = 'Fairytale Wedding - Bacarra';
-    } else if (total <= 18) {
-      result = 'Fairytale Wedding 2 - Elizabeth';
-    } else if (total <= 26) {
-      result = 'Simple & Chic - Percy';
-    } else if (total <= 34) {
-      result = 'Old Money - Ora';
-    } else if (total <= 42) {
-      result = 'Royal Wedding - Abril';
-    } else if (total <= 48) {
-      result = 'Vintage Glamour - Porsha';
-    } else {
-      result = 'Bridgerton Vibes - Zara';
-    }
+    if (total <= 10) result = 'Fairytale Wedding - Bacarra';
+    else if (total <= 18) result = 'Fairytale Wedding 2 - Elizabeth';
+    else if (total <= 26) result = 'Simple & Chic - Percy';
+    else if (total <= 34) result = 'Old Money - Ora';
+    else if (total <= 42) result = 'Royal Wedding - Abril';
+    else if (total <= 48) result = 'Vintage Glamour - Porsha';
+    else result = 'Bridgerton Vibes - Zara';
 
     switch (result) {
       case 'Fairytale Wedding - Bacarra': navigate('/bacarra'); break;
@@ -133,42 +125,36 @@ const Quiz3 = () => {
   };
 
   return (
-    <>
-           <div className="quiz-container">
-    
-
-    {!showResults ? (
-      <>
-        <div className="question-section">
-          <div className="question-text">{quizQuestions[currentQuestionIndex].question}</div>
+    <div className="quiz-container">
+      {!showResults ? (
+        <>
+          <div className="question-section">
+            <div className="question-text">
+              {quizQuestions[currentQuestionIndex].question}
+            </div>
+          </div>
+          <div className="answer-section">
+            {quizQuestions[currentQuestionIndex].options.map((option, index) => (
+              <button
+                key={index}
+                className="answer-button"
+                onClick={() => handleAnswerClick(option.value)}
+                style={{
+                  backgroundImage: `url(${option.backgroundImage})`,
+                }}
+              >
+                {option.text}
+              </button>
+            ))}
+          </div>
+        </>
+      ) : (
+        <div className="results-section">
+          <h2>Quiz Completed!</h2>
+          <button onClick={() => navigate('/')}>Go Home</button>
         </div>
-        <div className="answer-section">
-          {quizQuestions[currentQuestionIndex].options.map((option, index) => (
-            <button
-              key={index}
-              className="answer-button"
-              onClick={() => handleAnswerClick(option.value)}
-              style={{
-                backgroundImage: `url(${option.backgroundImage})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-              }}
-            >
-              {option.text}
-            </button>
-          ))}
-        </div>
-      </>
-    ) : (
-      <div className="results-section">
-        <h2>Quiz Completed!</h2>
-        <button onClick={() => navigate('/')}>Go Home</button>
-      </div>
-    )}
-  
-  </div>
-    </>
-   
+      )}
+    </div>
   );
 };
 
