@@ -7,6 +7,7 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
+import TakeQuizButton from '../../../Components/TakeQuizButton';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
@@ -221,7 +222,16 @@ const AnimalPretty = () => {
           All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
         </p>
       </div>
+      <div
+style = {{
+  margin: '1rem auto',
+  textAlign: 'center'
+}}
+> 
+<TakeQuizButton href='/quiz-2-home' />
 
+
+</div>
       <p style={paragraphStyle}>
      Dive into the quiz{' '}
         <a href="/quiz2" style={{textDecoration: 'underline'}}>

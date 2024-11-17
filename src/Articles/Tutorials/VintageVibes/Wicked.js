@@ -15,7 +15,7 @@ const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
 const image6 = `${process.env.PUBLIC_URL}/Images/Articles/Halloween/HalloweenThumb.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
-
+const wicked = `${process.env.PUBLIC_URL}/Images/Articles/Wicked/GlindaThumb.webp`;
  
  
 
@@ -225,7 +225,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
     
      <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
-    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728233155/1_yg5wlk.heic" 
+    src={wicked}
     alt="Jackie Wyers as Glinda on Broadway in the iconic blue dress." 
     style={imageStyle} 
     data-pin-url="https://www.jackiewyers.beauty/articles/wicked"

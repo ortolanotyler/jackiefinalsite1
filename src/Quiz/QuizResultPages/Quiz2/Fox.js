@@ -7,6 +7,7 @@ import styles from './AnimalPretty.module.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import AdSenseAd from '../../../Home/Adsense';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import TakeQuizButton from '../../../Components/TakeQuizButton';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxTitleResults.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxPretty.png`;
@@ -195,6 +196,16 @@ const FoxPretty = () => {
       <p style={captionStyle}>
        <em> Fox Beauty Tutorial starts at 13:20 </em>
       </p>
+      <div
+style = {{
+  margin: '1rem auto',
+  textAlign: 'center'
+}}
+> 
+<TakeQuizButton href='/quiz-2-home' />
+
+
+</div>
       <div style = {{
         margin: '1rem auto'
       }}>

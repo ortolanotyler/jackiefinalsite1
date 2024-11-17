@@ -1,7 +1,7 @@
 import React from 'react';
 import './BookNowButton.css';
 
-const TakeQuizButton = ({ href = '/quiz-2-home' }) => {
+const TakeQuizButton = ({ href }) => {
     return (
         <a 
             href={href} 
@@ -9,7 +9,7 @@ const TakeQuizButton = ({ href = '/quiz-2-home' }) => {
             rel="noopener noreferrer" 
             className="book-now-button"
         >
-            TAKE QUIZ
+            TAKE QUIZ 
         </a>
     );
 };

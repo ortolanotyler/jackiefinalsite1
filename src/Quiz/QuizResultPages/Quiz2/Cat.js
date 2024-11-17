@@ -7,6 +7,7 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import styles from './AnimalPretty.module.css';
 import AdSenseAd from '../../../Home/Adsense';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import TakeQuizButton from '../../../Components/TakeQuizButton';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/CatPrettyTitle.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FinalCat.jpg`;
@@ -201,6 +202,17 @@ const CatPretty = () => {
         <em> (Cat Beauty Tutorial starts at 17:50) </em>
       
       </p>
+
+      <div
+style = {{
+  margin: '1rem auto',
+  textAlign: 'center'
+}}
+> 
+<TakeQuizButton href='/quiz-2-home' />
+
+
+</div>
       <p style={paragraphStyle}>
         You are the epitome of the Cat Pretty style—bold, confident, and assertive. Your love for dramatic makeup and high-contrast colour palettes mirrors the sharp, angular features of a nocturnal feline. Your makeup is precise and impactful, enhancing your naturally striking features.
       </p>

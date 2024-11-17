@@ -7,6 +7,7 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import styles from './AnimalPretty.module.css';
 import AdSenseAd from '../../../Home/Adsense';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import TakeQuizButton from '../../../Components/TakeQuizButton';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/bunnytitle.jpeg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
@@ -209,8 +210,17 @@ const BunnyPretty = () => {
         <em> Deer Beauty Tutorial starts at 0:42 </em>
       </p>
 
-      
-    
+   <div
+style = {{
+  margin: '1rem auto',
+  textAlign: 'center'
+}}
+> 
+<TakeQuizButton href='/quiz-2-home' />
+
+
+</div>
+
 
   <div style = {{
         margin: '1rem auto'
