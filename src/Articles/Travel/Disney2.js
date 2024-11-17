@@ -143,10 +143,10 @@ fontStyle: 'italic',
     name="description" 
     content="Best of Epcot, Magic Kingdom and Animal Kingdom" 
   />
-  <meta 
-    name="keywords" 
-    content="Jackie Wyers, Disney World, Epcot, Magic Kingdom, Animal Kingdom, travel guide, Disney parks, Disney vacation, Disney dining, Disney rides, Disney trip, Disney tips, family vacation, Disney travel blog, Orlando travel, theme parks, Disney experiences, top Disney attractions, Disney trip planning, Disney itineraries, Walt Disney World tips, best Disney parks, Disney adventure, Disney highlights, EPCOT guide, Magic Kingdom tips, Animal Kingdom guide, Disney vlogs, Disney content creator, Disney influencer, theme park guides" 
-  />
+<meta 
+  name="keywords" 
+  content="Walt Disney World Epcot guide, best Disney park itineraries 2024, Epcot highlights and tips, Magic Kingdom travel guide, Animal Kingdom experiences, Disney World dining recommendations, Disney World for adults, Disney trip planning ideas, Disney Genie+ tips and tricks, best Disney rides and attractions, EPCOT World Showcase pavilions, Pandora - World of Avatar attractions, Frozen Ever After ride review, Expedition Everest roller coaster, Disney park hopping advice, Epcot Flower & Garden Festival guide, Disney nighttime shows and fireworks, family-friendly Disney travel, Disney luxury experiences, Disney park photography tips, Animal Kingdom safari review, Rainforest Café at Disney World, Disney park souvenirs and shopping, Disney food trucks recommendations, top Disney parks for couples, Disney theme park seasonal events, Disney vlogger travel diary" 
+/>
 
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="My Magical Walt Disney World Experience" />

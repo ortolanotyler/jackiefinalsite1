@@ -89,7 +89,7 @@ const HotelQ = () => {
   
   const linkStyle = {
   textDecoration: 'none', // Removes underline from links
-  fontFamily: "'Georgia', serif",
+  fontFamily: "Georgia, serif",
   fontWeight: '100',
   color: '#745B4F', // Inherits the color of the surrounding text
   };
@@ -140,8 +140,10 @@ const HotelQ = () => {
   <link rel="canonical" href="https://www.jackiewyers.beauty/hotelQ" />
 
   <meta name="description" content="A" />
-  <meta name="keywords" content="Hotel Quintessence, Mont Tremblant, Luxury Hotel, Quebec Travel, Jackie Wyers, Hotel Review, Boutique Hotel, Travel Guide, Hotel Amenities, Romantic Getaway, Ski Resort, Lake Tremblant, spa services, La Quintessence Restaurant, private dock, lakeside serenity, Mont Tremblant attractions, luxury escape, anniversary getaway, exclusive experiences" />
-
+  <meta 
+  name="keywords" 
+  content="Hotel Quintessence Mont Tremblant, luxury boutique hotels in Quebec, romantic Mont Tremblant hotels, Mont Tremblant luxury getaways, boutique hotel reviews in Canada, romantic ski resorts in Quebec, Lake Tremblant hotels, spa hotels in Mont Tremblant, Quebec travel blog, romantic anniversary getaways, upscale hotels in Mont Tremblant, luxury travel in Quebec, La Quintessence Restaurant reviews, Hotel Quintessence amenities, Mont Tremblant romantic escapes, Quebec luxury resorts, couples retreat in Mont Tremblant, boutique hotels near Pedestrian Village, luxury lakeside hotels in Canada" 
+/>
   <meta property="og:title" content="Hotel Quintessance, Mont Tremblant Review " />
   <meta property="og:description" content="A" />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/HotelQ/HOTELQTHUMBNAIL.jpeg" />

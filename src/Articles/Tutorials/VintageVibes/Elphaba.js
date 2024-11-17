@@ -157,9 +157,9 @@ fontStyle: 'italic',
     name="description" 
     content="Step-by-step makeup tutorial inspired by Elphaba from Wicked, featuring dramatic green smokey eyes, bold black lips, and glamorous Halloween 2024 beauty looks." 
   />
- <meta 
+<meta 
   name="keywords" 
-  content="Elphaba makeup tutorial, Wicked makeup tutorial, Jackie Wyers, Wicked Witch of the West makeup, green smokey eye makeup, bold Halloween makeup, Ariana Grande Glinda makeup, Wicked 2024 makeup, Halloween beauty looks, step-by-step makeup tutorial, Glinda makeup tutorial, Broadway makeup inspiration, Wicked movie makeup ideas, dramatic Halloween makeup, One/Size Wicked palette, r.e.m. beauty products, IT Cosmetics brushes, witch makeup transformation, green face paint tutorial, Wicked collaborations, pop culture beauty tutorials, Wicked witch makeup, Wicked Halloween makeup ideas, yassified witch makeup look, Elphaba and Glinda makeup transformations" 
+  content="Elphaba makeup tutorial, Wicked Witch makeup transformation, Wicked movie makeup, green smokey eye tutorial, bold Halloween looks, Jackie Wyers Wicked tutorial, Glinda vs. Elphaba makeup, Wicked Broadway makeup inspiration, step-by-step witch makeup, dramatic Halloween makeup ideas, green face paint techniques, Wicked-inspired makeup tips, r.e.m. beauty Wicked collab, IT Cosmetics brushes for Halloween looks, witchy makeup styles, Elphaba vs. Glinda transformations, pop culture Halloween tutorials, glamorous Wicked Witch makeup, iconic Broadway character makeup, Elphaba green skin tutorial" 
 />
 
   <meta property="og:title" content="Elphaba “The Wicked Witch of The West” Makeup Tutorial 💚" />

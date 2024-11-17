@@ -48,8 +48,8 @@ const Card = ({ blogContent }) => (
     const headingStyle = {
       textAlign: 'center',
       fontSize: '2.5rem',
-      fontWeight: '100',
-      fontFamily: "'Playfair Display', sans-serif",
+      fontWeight: '400',
+      fontFamily: "Playfair Display, sans-serif",
       color: '#000000',
       maxWidth: '95%',
     
@@ -126,8 +126,10 @@ const Card = ({ blogContent }) => (
   <link rel="canonical" href="https://www.jackiewyers.beauty/lattemakeup" />
 
   <meta name="description" content="Learn how to master the trending Latte Makeup look with Jackie Wyers. This guide covers everything from tanned and natural bases to bronzed eyes for a cozy fall makeup vibe." />
-  <meta name="keywords" content="Latte Makeup, Jackie Wyers, Makeup Tutorial, Fall Makeup Trends, Beauty Tips, Warm Toned Makeup, Tanielle Jai Makeup, Smokey Eye, Faux Freckles, Caramel Makeup, Contouring, Highlighting, Bronzer, Latte Beauty, Makeup Artist Tips, '90s Makeup, No Foundation Makeup, Glowy Skin, Makeup Techniques, Fall Beauty, Makeup for Warm Skin Tones" />
-
+  <meta 
+  name="keywords" 
+  content="Latte Makeup, Jackie Wyers Blog, Warm Toned Makeup, Fall Beauty Trends, Latte Makeup Tutorial, Cozy Makeup Look, Tanielle Jai Inspired, Caramel Smokey Eye, Faux Freckles Makeup, 90s Makeup Revival, No Foundation Glow, Latte Beauty Guide, Contour and Highlight Tips, Yellow-Based Bronzer, Hoola Caramel Bronzer, Golden Highlighter, Latte Makeup Tips, Minimalist Makeup Aesthetic, Golden Goddess Makeup, One/Size Visionary Palette, Fall Makeup Look, Tanned Makeup Style, Natural Brows Makeup, Milk Lips Trend, Latte Glam Makeup, Radiant Skin Glow, Bronzed Makeup Tips, Beauty Trends 2024" 
+/>
   <meta property="og:title" content="Latte Makeup Tutorial - Jackie Wyers" />
   <meta property="og:description" content="Learn how to master the trending Latte Makeup look with Jackie Wyers. This guide covers everything from tanned and natural bases to bronzed eyes for a cozy fall makeup vibe." />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/LatteMakeup/LatteThumbnail.jpg" />

@@ -124,8 +124,10 @@ const Card = ({ blogContent }) => (
   <link rel="canonical" href="https://www.jackiewyers.beauty/bridalmakeup" />
 
   <meta name="description" content="A detailed review of a trial run for Jackie's wedding makeup: what she loved, what she'll do differently on her big day." />
-  <meta name="keywords" content="Bridal Makeup, Wedding Makeup, Makeup Tutorial, Jackie Wyers, Bridal Beauty, Wedding Day Makeup, bridal look, bridal blush, makeup tips, Charlotte Tilbury foundation, Rare Beauty blush, wedding day makeup tips, bridal skin prep, bridal setting spray, natural bridal makeup, bridal lashes, bridal eye makeup, waterproof makeup, bridal contour, soft bridal makeup, wedding makeup products, bridal beauty inspiration, wedding day glam, fairytale bridal look, champagne bridal makeup, DIY bridal makeup, timeless bridal makeup" />
-
+  <meta 
+  name="keywords" 
+  content="Bridal Makeup Trial, Jackie Wyers Blog, Wedding Day Makeup Tips, Bridal Skin Prep, Charlotte Tilbury Foundation, Rare Beauty Blush, Bridal Contour Products, Bridal Setting Spray, Natural Bridal Makeup, Waterproof Wedding Makeup, Bridal Eye Makeup Tutorial, DIY Bridal Glam, Timeless Bridal Look, Fairytale Bridal Makeup, Wedding Beauty Inspiration, Best Bridal Makeup Products, Wedding Day Lashes, Soft Bridal Makeup, Bridal Lip Colors, Iconic Nude Lipstick, Champagne Bridal Makeup, Princess-Inspired Bridal Glam, Bridal Beauty Routine, Wedding Day Glow, Long-Lasting Bridal Makeup, Margot Robbie Inspired Makeup, Brooke Shields Brows, Best Bridal Blush and Highlight, Glamorous Wedding Look, Wedding Makeup Essentials, Photo-Ready Bridal Look, Best Wedding Day Foundation, Romantic Bridal Beauty" 
+/>
   <meta property="og:title" content="Bridal Makeup Trial: What I Loved and What I'll Change! - Jackie Wyers" />
   <meta property="og:description" content="A detailed review of a trial run for Jackie's wedding makeup: what she loved, what she'll do differently on her big day." />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.jpg" />
@@ -143,7 +145,7 @@ const Card = ({ blogContent }) => (
       {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "Bridal Makeup Trial: What I Loved and What I'll Change! - Jackie Wyers",
+        "headline": "Bridal Makeup Trial: What I Loved and What I'll Change!",
         "description": "A detailed review of a trial run for Jackie's wedding makeup: what she loved, what she'll do differently on her big day.",
         "image": "https://www.jackiewyers.beauty/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.jpg",
         "author": {

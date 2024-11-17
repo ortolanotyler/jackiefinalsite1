@@ -180,8 +180,10 @@ const Rome = () => {
   <link rel="canonical" href="https://www.jackiewyers.beauty/rome" />
 
   <meta name="description" content="Explore 72 hours in Rome with Jackie Wyers. Discover the best spots, travel tips, and hidden gems as we share our whirlwind adventure in the Eternal City." />
-  <meta name="keywords" content="American guide to rome, influencer italy blog, rome in short time , rome for couples, Rome travel guide, 72 hours in Rome, Jackie Wyers, Vatican City, Colosseum, Trevi Fountain, Italian cuisine, best places in Rome, Rome itinerary, travel tips, Rome landmarks, hidden gems in Rome, Italian food, Rome tourist guide, Rome travel blog, sightseeing in Rome, historic sites, must-see places in Rome, Italy travel, travel with Jackie Wyers, Rome photography, Rome travel tips, Eternal City guide" />
-
+  <meta 
+  name="keywords" 
+  content="72-hour Rome travel guide, Romantic Rome itinerary, Jackie Wyers travel tips, Influencer Rome travel blog, Colosseum and Vatican City visit, Rome for couples, hidden gems in Rome, Italian cuisine recommendations, Trevi Fountain sunrise photos, Pantheon visit tips, Rome’s charming neighborhoods, Trastevere nightlife guide, best pasta in Rome, Vatican dress code tips, Rome must-see landmarks, romantic gelato spots in Rome, Spanish Steps evening stroll, exploring Rome on foot, McCafé Italian pastries, Roman souvenir shopping guide, Limoncello party favors, Vatican Museums skip-the-line tips, Eternal City travel itinerary, day trips from Rome, Jackie Wyers European adventure, Rome to Sorrento travel tips, visiting Rome landmarks without crowds, best photo spots in Rome, luxury stays in Rome, Rome’s historic charm, Italian food and travel blog" 
+/>
   <meta property="og:title" content="Our Romantic 3-Day Rome Itinerary" />
   <meta property="og:description" content="Explore 72 hours in Rome with Jackie Wyers. Discover the best spots, travel tips, and hidden gems as we share our whirlwind adventure in the Eternal City." />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/Rome/romethumbnail.jpg" />

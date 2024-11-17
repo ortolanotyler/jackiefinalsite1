@@ -182,8 +182,10 @@ const NewZealand = () => {
   <link rel="canonical" href="https://www.jackiewyers.beauty/newzealand" />
 
   <meta name="description" content="Explore Auckland with Jackie Wyers in this detailed travel vlog and review, featuring top spots, travel tips, and hidden gems around the city." />
-  <meta name="keywords" content="New Zealand travel, Auckland vlog, Jackie Wyers, Fable Auckland, shopping in Auckland, Waiheke Island, Ponsonby, Mount Eden, Auckland Art Gallery, travel tips, luxury hotels, New Zealand travel blog, Auckland experiences, best places to visit in Auckland, Auckland travel guide, New Zealand attractions, city tours, scenic walks, cafes in Auckland, Little and Friday, travel with Jackie Wyers, Auckland photography, New Zealand lifestyle, local experiences, Auckland scenic spots, iconic landmarks, New Zealand itinerary, Auckland city guide" />
-
+  <meta 
+  name="keywords" 
+  content="New Zealand Auckland vlog 2024, Jackie Wyers New Zealand experience, Waiheke Island travel guide, Ponsonby shopping Auckland, Little and Friday bakery Auckland review, Mount Eden volcanic crater hike, Auckland Art Gallery tips, Fable Auckland hotel review, New Zealand bridal appointments, Natalie Rose Bridal Auckland review, Auckland zoo red pandas, Whittaker's chocolate New Zealand, luxury cafes in Auckland, Cooke’s Restaurant review, top Auckland shopping spots, eco-friendly brands in New Zealand, Pavlova desserts in Auckland, best bagels in New Zealand, scenic vineyards Waiheke Island, Mudbrick Vineyard dining, Auckland travel itinerary, mother-daughter trips New Zealand" 
+/>
   <meta property="og:title" content="New Zealand | Auckland Vlog and Experience - Jackie Wyers" />
   <meta property="og:description" content="Explore Auckland with Jackie Wyers in this detailed travel vlog and review, featuring top spots, travel tips, and hidden gems around the city." />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/NewZealand/NZThumbnail.jpg" />

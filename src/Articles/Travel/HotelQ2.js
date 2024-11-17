@@ -158,8 +158,10 @@ const HotelQ2 = () => {
      <Helmet>
   <title>Hotel Quintessence | A hidden gem of summer in Canada</title>
   <meta name="description" content="A detailed review of the Hotel Quintessence, covering first impressions, room options, amenities, and overall experience." />
-  <meta name="keywords" content="Hotel Quintessence, Mont Tremblant, Luxury Hotel, Quebec Travel, Summer Getaway, Jackie Wyers, Hotel Review, Boutique Hotel, Travel Guide, Hotel Amenities, Romantic Getaway, Lake Tremblant, Summer Vacation" />
-  
+  <meta 
+  name="keywords" 
+  content="Hotel Quintessence summer review, Mont Tremblant boutique hotels, luxury summer retreats in Canada, romantic summer getaways Quebec, Canadian lakefront hotels, Hotel Quintessence Mont Tremblant review, luxury travel Canada, Quebec summer vacation ideas, Mont Tremblant summer activities, best hotels for couples in Canada, romantic summer retreats in Quebec, Hotel Quintessence restaurant review, paddleboarding in Mont Tremblant, Canadian spa hotels, hidden luxury gems in Canada, Mont Tremblant dining experiences, exclusive Canadian summer getaways, lakeside hotels in Quebec, romantic hotel stays Canada, summer vacations Quebec luxury" 
+/>  
   <meta property="og:title" content="Hotel Quintessence | A hidden gem of summer in Canada" />
   <meta property="og:description" content="A detailed review of the Hotel Quintessence, covering first impressions, room options, amenities, and overall experience." />
   <meta property="og:image" content={title} />

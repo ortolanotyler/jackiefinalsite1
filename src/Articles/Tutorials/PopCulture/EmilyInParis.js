@@ -132,11 +132,7 @@ const EmilyInParis = () => {
     name="description" 
     content="Explore the style evolution of Emily Cooper from Emily in Paris. Discover iconic fashion, makeup, and hair moments from the series." 
   />
-  <meta 
-    name="keywords" 
-    content="Emily in Paris, Makeup, Hair, Fashion, Style Evolution, Jackie Wyers, Beauty Blog, Netflix, Patricia Field, Marylin Fitoussi, Lily Collins, Emily Cooper style, pop culture fashion, beauty tutorials, Emily in Paris fashion, American in Paris, Netflix fashion, iconic TV outfits, TV beauty inspiration, Emily Cooper makeup, TV character style evolution, TV show hairstyles, bold fashion choices, Parisian fashion, celebrity fashion, French style, TV fashion recap, trendy outfits, chic looks" 
-  />
-
+<meta name="keywords" content="Emily in Paris fashion evolution, iconic outfits from Emily in Paris, Emily Cooper style guide, makeup looks from Emily in Paris, Lily Collins as Emily Cooper, Patricia Field fashion design, Marylin Fitoussi costume styling, American-in-Paris chic outfits, bold and eclectic fashion inspiration, Netflix fashion series style, Emily in Paris hair and makeup tips, Audrey Hepburn-inspired outfits, vibrant Parisian fashion, recreating Emily Cooper's style, season 1-4 fashion recap, makeup and hair tutorials from Emily in Paris, TV show-inspired beauty, Emily in Paris green cardigan style, Emily Cooper bold lipstick shades, thrifting Emily in Paris-inspired outfits, budget-friendly Parisian fashion looks, Emily in Paris season four fashion preview" />
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Emily in Paris Style Evolution: Makeup, Hair, and Fashion Recap - Jackie Wyers" />
   <meta 

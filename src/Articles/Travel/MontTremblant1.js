@@ -83,7 +83,7 @@ const Card = ({ blogContent }) => (
     
     const linkStyle = {
     textDecoration: 'none', // Removes underline from links
-    fontFamily: "'Georgia', serif",
+    fontFamily: "Georgia, serif",
     fontWeight: '100',
     color: '#745B4F', // Inherits the color of the surrounding text
     };
@@ -134,8 +134,10 @@ const Card = ({ blogContent }) => (
   <link rel="canonical" href="https://www.jackiewyers.beauty/tremblant" />
 
   <meta name="description" content="Discover the enchanting ski village of Mont Tremblant, Quebec with Jackie Wyers. Explore the best experiences, food, and adventures during a romantic getaway in the mountains." />
-  <meta name="keywords" content="Mont Tremblant, Travel Guide, Skiing, Quebec, Travel Blog, Jackie Wyers, Canada Travel, Romantic Getaway, Winter Sports, Ski Resort, Mont Tremblant Village, Travel Tips, Ski Rentals, Après Ski, Gondola Ride, Québécoise Pizza, Roots Store, La Maison de la Crêpe, Le Vieux Four, Cabane à Sucre, luxury hotel, Hotel Quintessence, slopes, family travel, Canadian destinations, Laurentian Mountains, ski equipment, ski slopes, best ski resorts, snowboarding, scenic views, hiking trails, maple syrup, Canadian cuisine, local shops, poutine, ski and snowboard gear" />
-
+  <meta 
+  name="keywords" 
+  content="Mont Tremblant travel guide 2024, romantic getaways in Quebec, Mont Tremblant Pedestrian Village highlights, best food spots in Mont Tremblant, Québécoise pizza Le Vieux Four, La Maison de la Crêpe Mont Tremblant review, gondola rides in Mont Tremblant, skiing tips for beginners in Mont Tremblant, top ski slopes Mont Tremblant 2024, après ski experiences Mont Tremblant, cozy bed and breakfasts near Mont Tremblant, maple syrup on snow Mont Tremblant, Laurentian Mountains travel itinerary, Mont Tremblant Roots Store exclusive items, best winter travel destinations in Canada, snowboarding tips Mont Tremblant, ski equipment rentals Mont Tremblant, luxury stays Hotel Quintessence, top cafes in Mont Tremblant, almond croissants at Bistro Au Grain de Café, affordable Canadian winter escapes" 
+/>
   <meta property="og:title" content="Mont Tremblant Travel Guide - Jackie Wyers" />
   <meta property="og:description" content="Discover the enchanting ski village of Mont Tremblant, Quebec with Jackie Wyers. Explore the best experiences, food, and adventures during a romantic getaway in the mountains." />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/MontTremblant/TREMBLANTTHUMBNAIL.jpeg" />

@@ -131,10 +131,10 @@ const BardotHairstyles = () => {
     name="description" 
     content="Step-by-step guide on how to recreate Brigitte Bardot's iconic '60s hairstyles, featuring tips and tricks by Jackie Wyers." 
   />
-  <meta 
-    name="keywords" 
-    content="Bardot bun, Brigitte Bardot hairstyle, 60s hair tutorial, vintage hairstyles, faux bangs, Bardot-inspired bun, Jackie Wyers, how to create Bardot bun, big voluminous bun, curtain bangs, hair tutorial, Sabrina Carpenter hair, updo hairstyles, teasing hair, pin curls, textured bun, sock bun, bun maker, hair accessories, Marc Anthony Style Flex, OGX Bamboo Fibre Full hairspray, texturizing spray, Bardot bangs, beauty tutorials, retro hairstyles, 1960s makeup, vintage glamour, iconic hairstyles, faux bangs tutorial, hair styling tips, Brigitte Bardot look, Bardot-inspired makeup, Sabrina Carpenter inspired, hair teasing techniques, pin curls tutorial, fluffy curtain bangs, blonde wig, retro beauty, Time Travel Tutorials, Jackie Wyers hair, vintage beauty, Brigitte Bardot bun without haircut, Bardot hair inspiration, hair volume tips, retro updo, hairspray, styling products for Bardot look, hairstyling tips, beauty influencer tutorials, vintage vibes, classic beauty looks, iconic 60s style, Bridgerton beauty, Sharon Tate style, faux bangs styling, big bun tutorial, textured hairstyles, beauty inspiration, styling with hairspray, beauty and style, vintage beauty tutorials, retro chic, elegant hairstyles, 60s glam, DIY Bardot bun" 
-  />
+<meta 
+  name="keywords" 
+  content="Bardot bun tutorial, Brigitte Bardot hairstyles, 60s hair tutorial, vintage updo hairstyles, faux bangs without cutting hair, Bardot-inspired hair tips, Jackie Wyers tutorials, retro hair volume techniques, textured bun for 60s look, how to style Bardot curtain bangs, retro beauty influencer, hair tutorials for voluminous buns, Brigitte Bardot bun styling, timeless 1960s hair trends, fluffy curtain bangs step-by-step, Sabrina Carpenter hair inspiration, iconic hairstyles of 60s, Bardot glamour guide, elegant updo hair ideas, hairstyling with faux bangs, Bardot-style bun for long hair, hair products for Bardot look, 60s-inspired beauty tips, Jackie Wyers vintage beauty, iconic updo recreations, textured bun tips for retro glam, how to use bun makers, Bardot bangs styling tricks, modern retro hairstyles, 60s vintage vibes hair tutorials" 
+/>
 
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Mastering the Bardot Bun - Jackie Wyers" />

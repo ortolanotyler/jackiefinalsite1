@@ -130,8 +130,10 @@ const Card = ({ blogContent }) => (
   <link rel="canonical" href="https://www.jackiewyers.beauty/westgatesandiego" />
 
   <meta name="description" content="Explore the luxurious Westgate Hotel in San Diego with Jackie Wyers. Discover the Bridgerton-themed Whistledown Tea and Package experience." />
-  <meta name="keywords" content="Westgate Hotel, San Diego hotel review, Bridgerton-themed experience, luxury hotel, Westgate Whistledown Tea, travel blog, Jackie Wyers, luxury accommodations, Regency-era luxury, San Diego travel, romantic getaways, Bridgerton tea experience, Westgate Hotel review, best hotels in San Diego, luxury hotel packages, San Diego vacation, elegant hotel stays, hotel dining options, Premier View Room, Whistledown Package, hotel accessibility options, hotel dining, champagne afternoon tea, luxury travel tips, hotel booking tips, Westgate hotel amenities, San Diego luxury travel" />
-
+  <meta 
+  name="keywords" 
+  content="Westgate Hotel San Diego, Westgate Hotel review, Bridgerton tea experience, Whistledown Tea, luxury hotels in San Diego, Bridgerton-themed hotel package, Westgate Whistledown Package, luxury accommodations San Diego, Regency-inspired hotels, San Diego luxury travel, high tea in San Diego, romantic hotel getaways, best San Diego hotels for couples, Jackie Wyers travel blog, Westgate dining options, Westgate hotel amenities, Premier View Room Westgate, San Diego wedding venues, Bridgerton fan travel ideas, San Diego hotel reviews, elegant travel destinations, Westgate hotel champagne tea, luxury stay in San Diego, Westgate Grand Lobby design, Regency-era luxury travel, themed hotel experiences San Diego, high tea package San Diego, luxury vacation ideas San Diego, travel with Jackie Wyers" 
+/>
   <meta property="og:title" content="The Westgate Hotel - San Diego Review - Jackie Wyers" />
   <meta property="og:description" content="Explore the luxurious Westgate Hotel in San Diego with Jackie Wyers. Discover the Bridgerton-themed Whistledown Tea and Package experience." />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/WestgateHotelReview/WESTGATETHUMBNAIL.jpg" />

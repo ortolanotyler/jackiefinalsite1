@@ -129,8 +129,10 @@ fontStyle: 'italic',
       <Helmet>
   <title>Walt Disney World Beach Club Resort Review | Travel & Hotel Reviews</title>
   <meta name="description" content="An in-depth review of Walt Disney World's Beach Club Resort, featuring first impressions, amenities, dining options, and more." />
-  <meta name="keywords" content="Jackie Wyers, Walt Disney World, Beach Club Resort, Disney resort review, luxury hotel, travel blog, Disney vacation, Disney World resorts, family-friendly hotels, Epcot resorts, Disney Deluxe resorts, Disney hotel reviews, Orlando vacation, Disney trip planning, Disney dining, Beaches & Cream Soda Shop, Yachtsman Steakhouse, Disney World amenities, Disney World pools, Disney transportation, Disney vacation tips, Disney World experiences, Disney resort rooms, Disney World travel guide, hotel amenities, luxury travel reviews" />
-
+  <meta 
+  name="keywords" 
+  content="Walt Disney World Beach Club Resort review, Disney Deluxe resorts review, family-friendly Disney resorts 2024, best Disney resorts for families, Disney World luxury accommodations, Epcot area resorts, Disney hotel reviews and ratings, Beaches & Cream Soda Shop highlights, Storm-Along Bay pool review, Disney Yacht Club comparison, Disney World transportation tips, accessible Disney resorts, Disney World New England-style resorts, best dining options at Disney resorts, planning a Disney World vacation 2024, Disney World hidden gems, top Disney World amenities, Beach Club vs Yacht Club resorts, nostalgic Disney vacations, Disney resort suites and rooms, Disney BoardWalk attractions, adult-friendly Disney resorts, Disney World romantic getaways, Disney resort accessibility features, best Disney World pools and water parks, Disney dining recommendations, Disney World nautical-themed hotels, travel tips for Disney World resorts, Disney World budget-friendly tips, Disney resort proximity to Epcot and Hollywood Studios, Beaches & Cream Soda Shop dessert reviews, Disney BoardWalk entertainment" 
+/>
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Walt Disney World Beach Club Resort Review | Travel & Hotel Reviews" />
   <meta property="og:description" content="An in-depth review of Walt Disney World's Beach Club Resort, featuring first impressions, amenities, dining options, and more." />

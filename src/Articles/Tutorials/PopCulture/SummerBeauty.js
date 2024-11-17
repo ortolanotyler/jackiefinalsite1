@@ -121,8 +121,7 @@ const SummerBeauty = () => {
   <link rel="canonical" href="https://www.jackiewyers.beauty/summerbeauty" />
 
   <meta name="description" content="Explore summer beauty inspiration with Jackie Wyers. Discover iconic hairstyles, makeup looks, and fashion tips from pop culture's beloved characters like The Blue Lagoon, Barbie Movie, Emily In Paris, and more." />
-  <meta name="keywords" content="Summer Beauty, Jackie Wyers, Makeup Tutorial, Pop Culture Beauty, The Blue Lagoon, Barbie Movie, Emily In Paris, Winx Club, H2O: Just Add Water, Outer Banks, Summer Hairstyles, Summer Makeup, Beach Waves, No Makeup Look, Vintage Beauty, 2000s Hairstyles, Parisian Chic, Floral Accessories, Summer Glam, Jackie Wyers Blog" />
-
+  <meta name="keywords" content="Summer Beauty Inspiration, Pop Culture Icons, The Blue Lagoon hairstyles, Barbie Movie makeup, Emily In Paris style, Winx Club Flora look, H2O Just Add Water Cleo, Outer Banks Kiara style, beach waves hair, summer makeup tutorial, Jackie Wyers blog, vintage summer beauty, nostalgic fashion, Parisian chic, whimsical beauty, mermaid makeup, summer-ready styles, character-inspired beauty tips, sun-kissed makeup looks, effortless summer hairstyles, Jackie Wyers tutorials, iconic summer characters, floral accessories, boho summer vibes, Y2K hairstyles, soft natural beauty, beach glamour, light summer fashion, fun summer looks, character recreations, Gilmore Girls summer inspiration" /> 
   <meta property="og:title" content="Summer Beauty: Pop Culture Icons Edition! - Jackie Wyers" />
   <meta property="og:description" content="Explore summer beauty inspiration with Jackie Wyers. Discover iconic hairstyles, makeup looks, and fashion tips from pop culture's beloved characters like The Blue Lagoon, Barbie Movie, Emily In Paris, and more." />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/SummerBeauty/BlueLagoonThumbnail.jpg" />

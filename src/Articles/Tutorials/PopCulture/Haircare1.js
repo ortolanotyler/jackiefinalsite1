@@ -72,10 +72,7 @@ const Haircare1 = () => {
     name="description" 
     content="Discover the best products and tips for achieving long, healthy hair. From drugstore finds to high-end picks, explore top products for fine hair and secrets to maintain your healthiest hair." 
   />
-  <meta 
-    name="keywords" 
-    content="Hair growth tips, best hair products 2024, fine hair care, drugstore hair care, high-end hair products, hair health, long hair tips, scalp care, hair strengthening, Jackie Wyers hair advice, hydrating shampoo, hair oils, anti-breakage products, hair volume tips, biotin for hair, collagen for hair, healthy hair secrets, beauty tips, hair care for fine hair" 
-  />
+<meta name="keywords" content="best hair growth tips for fine hair, long hair care secrets, drugstore vs high-end hair products 2024, Jackie Wyers hair care routine, scalp health for hair growth, biotin shampoo and conditioner benefits, top-rated hydrating shampoos for fine hair, tropical-scented hair products, Ouai detox shampoo alternatives, hair oils for frizz-free hair, lightweight leave-in conditioners, hair masks for damaged hair, Kerastase hair products review, iRestore laser for hair regrowth, low-maintenance hairstyles for healthy hair, microfiber towels for frizz control, Gisou honey-infused hair perfume review, affordable hair care dupes, Batiste dry shampoo tropical scent, Kenra volume spray for styling, silk pillowcases for hair health" />
 
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Hair Growth Secrets: Best Products and Tips for Your Longest Hair" />

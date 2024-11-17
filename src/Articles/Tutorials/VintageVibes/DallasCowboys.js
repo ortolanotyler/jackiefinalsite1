@@ -133,10 +133,10 @@ return (
     name="description" 
     content="Follow Jackie Wyers' Dallas Cowboys Cheerleader makeup tutorial for an iconic glam look. High-end products and budget-friendly dupes for a stunning transformation." 
   />
-  <meta 
-    name="keywords" 
-    content="Dallas Cowboys Cheerleader makeup tutorial, Jackie Wyers, cheerleader glam makeup, smokey eyes tutorial, beauty tips, glam makeup look, affordable makeup dupes, high-end makeup, Dallas Cowboys, DCC makeup, Southern bombshell beauty, Madeline Cope inspired makeup, cheer squad makeup, makeup tutorial, pop culture beauty trends, Jackie Wyers beauty blog" 
-  />
+<meta 
+  name="keywords" 
+  content="Dallas Cowboys Cheerleader makeup tutorial, DCC makeup look, Jackie Wyers makeup tutorial, cheerleader glam tutorial, smokey eye makeup tutorial, iconic cheerleader makeup, Madeline Cope-inspired makeup, Southern bombshell beauty, high-end makeup products, affordable makeup dupes, cheer squad beauty trends, step-by-step makeup guide, Jackie Wyers beauty blog, pop culture beauty, Dallas Cowboys Cheerleaders makeup tips, bold smokey eye tutorial, cheerleader costume makeup, Halloween cheerleader makeup, flawless foundation tutorial, makeup for performances, celebrity makeup trends, Dallas Cowboys glam, glam makeup for special occasions, iconic glam tutorials" 
+/>
 
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Dallas Cowboys Cheerleader Makeup Tutorial - Achieve the Iconic Glam Look!" />

@@ -144,10 +144,10 @@ const BarbieDoll = () => {
     name="description" 
     content="Explore iconic Barbie makeup looks with Jackie Wyers. Step-by-step tutorials inspired by Peaches ‘N Cream, Roller Skate, Malibu Barbie, and more for a vintage and modern twist." 
   />
-  <meta 
-    name="keywords" 
-    content="Barbie makeup, Peaches ‘N Cream Barbie, Roller Skate Barbie, Malibu Barbie, Barbiecore, vintage makeup, Barbie tutorials, Jackie Wyers, 90s Barbie, pastel eyeshadow, pink lips, Barbie beauty, Barbie Halloween costumes, retro Barbie, doll transformation, Barbie aesthetic, weird Barbie, iconic doll looks, Barbie makeup tips, Barbie-themed party, vintage glamour, classic Barbie style, beauty influencer tutorials, 60s hairstyles, Margot Robbie Barbie, retro beauty, Barbie movie looks, 80s makeup, Sabrina Carpenter inspired, faux bangs, textured bun, Barbie fashion, doll-inspired makeup, beauty influencer, Barbiecore trend, Barbie-inspired makeup, bold accessories, nostalgic makeup, glamorous makeup, Barbie IRL, updo hairstyles, pastel florals, Barbie style, iconic Barbie, beauty tutorials, beauty and style, retro chic, Barbie-inspired fashion" 
-  />
+<meta 
+  name="keywords" 
+  content="Barbie beauty makeup looks, Peaches ‘N Cream Barbie makeup, Roller Skate Barbie makeup tutorial, Malibu Barbie aesthetic, Cherry Pie Picnic Barbie look, Brunette Barbiecore makeup, Original Barbie vintage glamour, Barbie movie makeup, Jackie Wyers Barbie tutorials, pastel eyeshadow makeup, retro Barbie makeup, iconic doll transformations, Barbie Halloween costume ideas, bold red lips makeup, Barbie-inspired hairstyles, nostalgic Barbie fashion, vintage Barbie-inspired looks, Margot Robbie Barbie makeup recreation, pastel florals for Barbiecore, bold accessories for Barbiecore, nostalgic 90s Barbie style, doll-inspired makeup tutorials, glamorous Barbie makeup, Barbie aesthetic transformation, classic Barbie makeup and style, retro chic Barbiecore fashion, Barbie-inspired beauty tips, pink makeup for Barbiecore, 50s Barbie looks, iconic doll fashion trends, step-by-step Barbie tutorials, Jackie Wyers beauty tutorials" 
+/>
 
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll - Jackie Wyers" />

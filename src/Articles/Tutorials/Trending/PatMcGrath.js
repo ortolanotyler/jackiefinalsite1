@@ -68,7 +68,7 @@ const Card = ({ blogContent }) => (
     
     const linkStyle = {
     textDecoration: 'none', // Removes underline from links
-    fontFamily: "'Georgia', serif",
+    fontFamily: "Georgia, serif",
     fontWeight: '100',
     color: '#745B4F', // Inherits the color of the surrounding text
     };
@@ -121,8 +121,10 @@ const Card = ({ blogContent }) => (
   <link rel="canonical" href="https://www.jackiewyers.beauty/patmcgrath" />
 
   <meta name="description" content="Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look." />
-  <meta name="keywords" content="Pat McGrath, Porcelain Doll Makeup, Maison Margiela, Spring/Summer '24, Makeup Tutorial, Jackie Wyers, Runway Makeup, Glass Skin, Airbrushed Makeup, Pat McGrath Labs, Divine Blush, Mothership Palette, beauty trends, iconic runway looks, avant-garde makeup, haute couture makeup, doll-like makeup, peel-off mask technique, fashion week makeup, editorial makeup, glass skin tutorial, backstage beauty secrets" />
-
+  <meta 
+  name="keywords" 
+  content="Pat McGrath makeup, Porcelain Doll Makeup Tutorial, Jackie Wyers makeup tutorial, Maison Margiela Spring/Summer '24, Glass Skin Technique, Airbrushed Peel-Off Mask, Divine Blush, Mothership Palette, Avant-garde makeup, Haute Couture Beauty, Runway makeup inspiration, Editorial makeup trends, Iconic glass skin look, Victorian doll makeup, Backstage beauty secrets, Pat McGrath Labs, Sublime Perfection Foundation, Divine Skin Rose Essence, Doll-like makeup aesthetic, Innovative makeup techniques, Makeup artistry inspiration, Jackie Wyers beauty blog" 
+/>
   <meta property="og:title" content="Pat McGrath's Porcelain Doll Makeup Tutorial - Jackie Wyers" />
   <meta property="og:description" content="Explore Pat McGrath's stunning Porcelain Doll makeup looks, created for the Maison Margiela Spring/Summer '24 runway. Follow Jackie Wyers' step-by-step guide to recreate this iconic look." />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/PatMcGrath/JackieWyersPatMcgrath.jpeg" />

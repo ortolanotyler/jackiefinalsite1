@@ -123,10 +123,10 @@ fontStyle: 'italic',
     name="description" 
     content="Creative and budget-friendly ideas for your bridesmaids gifts, featuring DIY tips by Jackie Wyers." 
   />
-  <meta 
-    name="keywords" 
-    content="Bridesmaid Boxes, Jackie Wyers, Bridal Gifts, DIY Bridesmaid Gifts, Budget-Friendly Bridesmaid Gifts, Bridal Blog, Bridesmaid Proposal, Wedding Planning, Wedding Gifts, Bridesmaid Ideas, Bridesmaids How-To, personalized bridesmaid gifts, DIY gift ideas, wedding planning tips, unique bridesmaid boxes, cost-effective bridesmaid proposals" 
-  />
+<meta 
+  name="keywords" 
+  content="Bridesmaid Boxes, DIY Bridesmaid Gifts, Wedding Proposal Ideas, Jackie Wyers Bridal Blog, Bridesmaid Proposal Box Ideas, Budget-Friendly Bridesmaid Gifts, Whimsical Wedding Planning, Unique Bridesmaid Gifts, Personalized Bridesmaid Boxes, Handcrafted Bridal Gifts, Fairytale Bridal DIY, Wedding Party Proposal Ideas, Bridesmaid Proposal Cards, Wedding Gift Ideas, Creative Wedding Planning Tips, Bridesmaid Proposal Boxes How-To, Bridal Inspiration, Wedding Aesthetic Ideas, DIY Bridesmaid Proposal Ideas" 
+/>
 
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Bridesmaid Boxes How-To - Jackie Wyers" />

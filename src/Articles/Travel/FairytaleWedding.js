@@ -174,8 +174,10 @@ const Card = ({ blogContent }) => (
   <link rel="canonical" href="https://www.jackiewyers.beauty/fairytalewedding" />
 
   <meta name="description" content="Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments." />
-  <meta name="keywords" content="Jackie Wyers, wedding, Sorrento, Italy, fairytale wedding, bridal beauty, wedding photography, wedding dress, wedding inspiration, bridal makeup, bridal hair, wedding planning, destination wedding, romantic wedding, whimsical wedding, wedding ceremony, wedding decorations, bridal party, intimate wedding, wedding venue, Italian wedding, wedding photographer, fairytale-inspired wedding, custom wedding decor, wedding aesthetics, wedding planning tips, elopement in Italy, luxury wedding, fairycore bridesmaids, custom wedding menus, wedding favors, private villa wedding" />
-
+  <meta 
+  name="keywords" 
+  content="Jackie Wyers wedding in Italy, fairytale wedding ideas, Sorrento wedding venues, intimate destination weddings, whimsical wedding planning, Italian villa wedding decor, bridal beauty tips, wedding makeup inspirations, custom wedding dress inspiration, Verander West bridal gown, romantic wedding ceremonies, floral DIY for weddings, fairycore bridesmaids ideas, luxury Italian weddings, eco-friendly wedding favors, pressed floral wedding keepsakes, wedding photo albums, wedding photography in Sorrento, Manolo Blahnik wedding shoes, Alex Monroe jewelry wedding, timeless wedding aesthetics, wedding planning tips, non-traditional weddings, DIY bridal accessories, wedding reflections blog, wedding video ideas, wedding content creator" 
+/>
   <meta property="og:title" content="Our Fairytale Wedding Overlooking Sorrento, Italy - Jackie Wyers" />
   <meta property="og:description" content="Jackie Wyers' Fairy Tale Wedding in Sorrento, Italy. Discover enchanting details, bridal beauty tips, and unforgettable moments." />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg" />

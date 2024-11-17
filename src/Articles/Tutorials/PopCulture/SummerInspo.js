@@ -124,8 +124,7 @@ const SummerInspo = () => {
   <link rel="canonical" href="https://www.jackiewyers.beauty/summerinspo" />
 
   <meta name="description" content="Dive into enchanting mermaid-inspired beauty looks for the summer season, featuring tutorials by Jackie Wyers on iconic characters like Cleo Sertori and Ariel." />
-  <meta name="keywords" content="Summer Beauty, Jackie Wyers, Makeup Tutorial, Mermaid Makeup, Pop Culture Mermaid, Cleo Sertori, The Little Mermaid, Ariel Makeup, Vanessa The Little Mermaid, Pirates of the Caribbean, Aquamarine, Mermaid Hair, Mermaid Fashion, Summer Makeup Looks, Beachy Waves, Pop Culture Beauty, Sea Salt Spray, Mermaid Aesthetic, Jackie Wyers Blog, Mermaid Beauty Tips" />
-  
+  <meta name="keywords" content="Summer Inspiration, Pop Culture Mermaid, Mermaid Beauty Looks, Jackie Wyers Blog, Cleo Sertori Makeup, Ariel Mermaid Glam, Halle Bailey Little Mermaid, Vanessa The Little Mermaid Makeup, Pirates of the Caribbean Mermaid Look, Aquamarine Makeup, Mermaid Hair Inspiration, Beach Waves Tutorial, Summer Glam Makeup, Sea Siren Aesthetic, Nostalgic Mermaid Makeup, Summer Mermaid Vibes, Mermaid Jewelry, Jackie Wyers Mermaid Tutorials, Mermaidcore Fashion, Disney Mermaid Makeup, Mermaid Beauty Tips, Mermaid Aesthetic Summer, Pearl Accessories, H2O Inspired Beauty, Dark Mermaid Makeup, Mermaid Hairstyle Ideas, Summer Mermaid Fashion, Jackie Wyers Tutorials, Pop Culture Beauty Inspiration" />  
   <meta property="og:title" content="Summer Inspiration: Pop Culture Mermaid Edition! - Jackie Wyers" />
   <meta property="og:description" content="Dive into enchanting mermaid-inspired beauty looks for the summer season, featuring tutorials by Jackie Wyers on iconic characters like Cleo Sertori and Ariel." />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/SummerInspo/mermaidthumbnail.jpg" />

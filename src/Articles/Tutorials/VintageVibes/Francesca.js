@@ -126,8 +126,7 @@ const Card = ({ blogContent }) => (
   <link rel="canonical" href="https://www.jackiewyers.beauty/francesca-bridgerton" />
 
   <meta name="description" content="Step-by-step guide on how to recreate Francesca Bridgerton's soft, romantic makeup look from Bridgerton Season 3, with hair and dress tips for a modern Regency-era look by Jackie Wyers." />
-  <meta name="keywords" content="Francesca Bridgerton makeup, Bridgerton Season 3 beauty, Regency hair tutorials, Bridgerton hairstyles, Francesca makeup tutorial, modern Regency style, Bridgerton fashion, auburn hair makeup tips, Jackie Wyers makeup tutorials, period drama makeup, Bridgerton fashion guide, romantic beauty looks, vintage makeup tutorials, Jackie Wyers beauty blog, Bridgerton beauty inspiration" />
-
+  <meta name="keywords" content="Francesca Bridgerton makeup, Bridgerton beauty tips, Regency-era makeup tutorial, Jackie Wyers Bridgerton looks, Francesca-inspired hairstyle, modern Regency style, auburn hair makeup ideas, Francesca Bridgerton tutorial, Bridgerton fashion guide, Jackie Wyers beauty blog, Bridgerton Season 3 makeup, Francesca Bridgerton hair tutorial, romantic makeup looks, Pat McGrath Bridgerton collection, Bridgerton-inspired fashion haul, period drama makeup styles, Charlotte Tilbury Bridgerton makeup, Francesca Bridgerton dress inspiration, Bridgerton beauty influencer, Francesca half-up hairstyle tips" />
   <meta property="og:title" content="Francesca Bridgerton Makeup, Hair, and Dress - Jackie Wyers" />
   <meta property="og:description" content="Learn how to achieve Francesca Bridgerton's makeup, hair, and style from Bridgerton Season 3, inspired by the modern Regency era. Step-by-step breakdown by Jackie Wyers." />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/Francesca/FrancescaThumb.jpg" />

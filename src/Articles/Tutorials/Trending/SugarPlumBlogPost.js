@@ -119,8 +119,10 @@ const Card = ({ blogContent }) => (
   <link rel="canonical" href="https://www.jackiewyers.beauty/sugarplumfairy" />
 
   <meta name="description" content="Discover the whimsical Sugar Plum Fairy makeup trend inspired by the classic Nutcracker ballet. Follow Jackie Wyers' step-by-step guide to achieve this enchanting look." />
-  <meta name="keywords" content="Sugar Plum Fairy Makeup, Nutcracker Ballet Makeup, Jackie Wyers Makeup Tutorial, Whimsical Makeup, Holiday Makeup, Festive Makeup, Hailey Bieber Makeup, Chrome Eyeshadow, Enchanting Looks, Ballet-Inspired Beauty, Glitter Eyeshadow, Pastel Makeup, Soft Glam, Makeup for Dancers, Holiday Glam, Fantasy Makeup, Jackie Wyers Beauty, Vintage Makeup, Classic Beauty, Dance Performance Makeup, Sparkly Makeup, Holiday Beauty Trends, Step-by-Step Makeup Guide, Christmas Makeup, Fairy Makeup Ideas, Magical Makeup, Classic Holiday Looks, Timeless Beauty Tutorials" />
-
+  <meta 
+  name="keywords" 
+  content="Sugar Plum Fairy makeup tutorial, Jackie Wyers beauty blog, Nutcracker ballet inspired makeup, whimsical holiday makeup, festive beauty trends, chrome eyeshadow for holidays, sparkling pink lips, Hailey Bieber makeup look, Christmas beauty ideas, holiday makeup trends 2024, ballet-inspired makeup ideas, magical fairy makeup tutorial, glitter makeup looks, soft glam makeup for winter, enchanting makeup styles, chrome flakes eyeshadow tutorial, pastel winter beauty trends, fantasy makeup inspiration, step-by-step holiday makeup, Jackie Wyers Sugar Plum Fairy, ethereal holiday glam, Christmas makeup trends, whimsical winter looks, trending makeup for Christmas parties, glowing holiday makeup" 
+/>
   <meta property="og:title" content="Trend Report: Sugar Plum Fairy Makeup" />
   <meta property="og:description" content="Discover the whimsical Sugar Plum Fairy makeup trend inspired by the classic Nutcracker ballet. Follow Jackie Wyers' step-by-step guide to achieve this enchanting look." />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/SugarPlumFairy/SUGARPLUMTHUMBNAIL.jpeg" />

@@ -62,10 +62,10 @@ const WickedCollabs = () => {
     name="description" 
     content="Explore the best Wicked-inspired products for adult fans in 2024. Discover top collaborations, unique collectibles, and stylish Oz-inspired items curated by Jackie Wyers." 
   />
-  <meta 
-    name="keywords" 
-    content="Top Wicked Collaborations 2024, Must-Have Wicked Products, Wicked Merchandise 2024, Wicked Movie Merchandise, Wicked Fan Gifts, Jackie Wyers, Oz-Inspired Fashion, Wicked Apparel, REM Beauty Wicked Collection, IT Cosmetics Wicked Brushes, Wicked Accessories, Ariana Grande Wicked, Cynthia Erivo, Wicked Collectibles, Elphaba Glinda Inspired Fashion, Holiday Gifts for Wicked Fans, Oz Jewelry, Wicked Luggage, Fantasy Fashion, Wizard of Oz Inspired" 
-  />
+<meta 
+  name="keywords" 
+  content="Top Wicked Collaborations 2024, Must-Have Wicked Products, Wicked Merchandise 2024, Wicked Movie Merchandise, Wicked Fan Gifts, Jackie Wyers, Oz-Inspired Fashion, Wicked Apparel, REM Beauty Wicked Collection, IT Cosmetics Wicked Brushes, Wicked Accessories, Ariana Grande Wicked, Cynthia Erivo, Wicked Collectibles, Elphaba Glinda Inspired Fashion, Holiday Gifts for Wicked Fans, Oz Jewelry, Wicked Luggage, Fantasy Fashion, Wizard of Oz Inspired, Beis Wicked Luggage, Vera Bradley Wicked Prints, Rebecca Minkoff Wicked Collection, Loungefly Wicked Bags, Marks and Spencer Holiday Ornaments, Voluspa Wicked Candles, Mattel Wicked Dolls, Aldo Pink Bow Heels, Cambridge Satchel Glinda Bag, Wicked-themed Holiday Gifts" 
+/>
 
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Top 5 Must-Have Wicked Collaborations for Adult Fans in 2024" />

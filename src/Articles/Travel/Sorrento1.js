@@ -140,8 +140,10 @@ const Sorrento2 = () => {
 <Helmet>
   <title>Ultimate Sorrento Souvenir Guide - Jackie Wyers</title>
   <meta name="description" content="Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy." />
-  <meta name="keywords" content="Sorrento souvenirs, Italy souvenirs, Jackie Wyers, Sorrento, travel shopping, music boxes, leather goods, ceramics, lemon souvenirs, Capri bell, Sorrento shopping, souvenir guide" />
-  
+  <meta 
+  name="keywords" 
+  content="Ultimate Sorrento souvenir guide, best souvenirs from Sorrento Italy, lemon-themed Sorrento souvenirs, Sorrento travel shopping tips, Jackie Wyers Italy blog, leather goods Sorrento, music boxes Italy, ceramics and majolica Sorrento, Positano shopping guide, Capri bell charms, limoncello gifts, Sorrento olive oil souvenirs, handmade ballerina flats Sorrento, Sorrento foodie gifts, Sorrento artistic heritage, Italy travel blog souvenirs, romantic shopping in Italy, iconic Sorrento keepsakes, Amalfi Coast souvenir ideas, affordable souvenirs from Italy, Sorrento lemon-themed gifts, Italian gourmet souvenirs, Sorrento wedding inspiration, Sorrento travel tips, personalized keepsakes from Italy, best places to shop in Sorrento, Jackie Wyers travel shopping" 
+/>  
   <meta property="og:title" content="Ultimate Sorrento Souvenir Guide - Jackie Wyers" />
   <meta property="og:description" content="Discover the ultimate Sorrento souvenir guide with Jackie Wyers. From music boxes and leather goods to lemon-themed treasures and ceramics, find the perfect keepsakes from your trip to Sorrento, Italy." />
   <meta property="og:image" content="www.jackiewyers.beauty/Images/Articles/Sorrento1/SorrentoThumbnail.jpg" />

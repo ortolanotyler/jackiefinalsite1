@@ -125,10 +125,10 @@ const Makeup2016 = () => {
                   name="description"
                   content="Explore the makeup trends of 2016 with Jackie Wyers. Learn how to achieve bold glamour looks inspired by Kylie Jenner and other beauty icons."
                 />
-                <meta
-                  name="keywords"
-                  content="2016 Makeup Trends, Jackie Wyers, Kylie Jenner Makeup, Bold Glamour, Makeup Tutorial, Beauty Blog, High-coverage foundation, Dip brows, Glittery cut creases, Voluminous mink lashes, Matte lip combinations, Makeup tips, Beauty influencer, Beauty trends 2016, Retro beauty, Time Travel Tutorials, Smoky eyes, Instagram makeup, Flash photography makeup, Makeup looks, Kylie Lip Kits, Bold makeup, Highlighting and contouring, Laura Mercier Setting Powder, Becca Champagne Pop, Jaclyn Hill, Too Faced Peach Palette, IG Baddie makeup, Anastasia Dip Brow, Tarte Shape Tape, Benefit Hoola Bronzer, Ben Nye Luxury Powder, Painted By Spencer"
-                />
+           <meta 
+  name="keywords" 
+  content="2016 Makeup Trends, Kylie Jenner Makeup, Jackie Wyers, Matte Makeup Looks, Bold Glamour, Makeup Tutorial, Beauty Blog, High-Coverage Foundations, Dip Brows, Mink Lashes, Glittery Cut Creases, Smoky Eyes, Kylie Lip Kits, Too Faced Sweet Peach Palette, Laura Mercier Setting Powder, Becca Champagne Pop, Jaclyn Hill Makeup, IG Baddie Makeup, Contouring and Highlighting, Retro Beauty, Flash Photography Makeup Tips, Makeup Influencer Trends, Anastasia Dip Brow, Tarte Shape Tape, Benefit Hoola Bronzer, Ben Nye Luxury Powder, Painted By Spencer, Kylie Jenner Lip Combos" 
+/>
     
                 <meta property="og:title" content="2016 Makeup Trends - Jackie Wyers" />
                 <meta

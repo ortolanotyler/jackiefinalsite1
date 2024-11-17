@@ -127,10 +127,7 @@ fontStyle: 'italic',
     name="description" 
     content="Explore Jackie Wyers' full makeup tutorial inspired by Ariana Grande's role as Glinda in the upcoming Wicked movie, with step-by-step glam and beauty tips." 
   />
-  <meta 
-    name="keywords" 
-    content="Ariana Grande Wicked makeup, Ariana Grande Wicked, Ariana Grande Glinda, Ariana Makeup Tutorial, Ariana Wicked Jackie Wyers, Wicked Makeup Tutorial, Glinda Makeup Tutorial, Wicked 2024, Wicked The Movie Makeup, Wicked Makeup, Ariana Grande Glinda makeup, Wicked makeup tutorial, Glinda beauty look, 2024 Wicked movie, pink glam makeup, step-by-step makeup guide, IT Cosmetics Glinda brushes, One/Size Beauty products, Halloween makeup ideas 2024, Glinda-inspired beauty tips, Broadway makeup tutorials, pop culture makeup tutorials, REM Beauty Wicked collaboration, Elphaba and Glinda makeup looks, Glinda glam tutorial, makeup for musicals, Jackie Wyers makeup tutorials, pink lips Glinda makeup, transforming into Glinda, Halloween Glinda makeup 2024" 
-  />
+<meta name="keywords" content="Ariana Grande Wicked makeup tutorial, Glinda makeup tips, Jackie Wyers Wicked tutorial, Wicked the movie makeup 2024, Ariana Grande Glinda pink glam, Wicked-inspired Halloween makeup, step-by-step Glinda makeup, pop culture beauty tutorials, Wicked Broadway beauty looks, IT Cosmetics Wicked brushes, One/Size Wicked collection, Glinda-inspired makeup products, transforming into Glinda makeup, Glinda costume ideas, REM Beauty Wicked collaboration, pink glam makeup tutorial, Ariana Grande transformation makeup, Wicked musical-inspired beauty, Wicked Halloween costumes, iconic Wicked looks" />
 
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Ariana Grande as Glinda Makeup Tutorial – Wicked the Movie 🎀" />

@@ -143,8 +143,10 @@ const Card = ({ blogContent }) => (
   <link rel="canonical" href="https://www.jackiewyers.beauty/princeofwales" />
 
   <meta name="description" content="A Birthday Trip to Remember" />
-  <meta name="keywords" content="Prince of Wales Hotel, Niagara on the Lake, hotel review, Victorian hotel, luxury hotel, travel blog, Jackie Wyers, best hotels in Niagara, romantic hotels, Canadian travel, historic hotels, luxury stays, Victorian charm, weekend getaway, high tea Niagara, boutique hotels, wine country stays, luxury accommodations, hotel reviews, Ontario travel, Niagara vineyards, historic ambiance, luxury travel, romantic escapes, spa hotel, Niagara attractions, Jackie Wyers travel guide, hotel recommendations, Niagara-On-The-Lake review, Canadian destinations" />
-
+  <meta 
+  name="keywords" 
+  content="Prince of Wales Hotel Niagara-on-the-Lake review, Jackie Wyers travel blog 2024, Victorian luxury hotel Canada, high tea experience Niagara, romantic weekend getaways Ontario, boutique hotel Niagara, Niagara vineyards and wine tours, best hotels in Niagara-on-the-Lake, historic Victorian charm Ontario, spa and wellness hotel Niagara, luxury accommodations Prince of Wales, Ontario weekend escapes, Niagara-on-the-Lake travel guide, wine-themed suites Niagara, romantic Victorian hotels Canada, Niagara Shaw Festival nearby hotels, historic boutique stays Ontario, Niagara-on-the-Lake top destinations, Canadian travel blog hotel reviews, Jackie Wyers birthday trip blog, premium King Rooms Prince of Wales Hotel, high tea and fine dining Niagara-on-the-Lake, spa packages Ontario travel, seasonal events Niagara hotels, vintage hotels Canada, Niagara-on-the-Lake attractions guide" 
+/>
   <meta property="og:title" content="Prince of Wales Hotel, Niagara-On-The-Lake Review" />
   <meta property="og:description" content="A Birthday Trip to Remember" />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/PrinceOfWales/PrinceOfWalesthumbnail.jpeg" />

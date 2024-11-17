@@ -118,8 +118,7 @@ const Card = ({ blogContent }) => (
   <link rel="canonical" href="https://www.jackiewyers.beauty/gracekelly" />
   <meta name="description" content="Step-by-step guide on how to recreate Grace Kelly's iconic Hollywood glam look, featuring classic 1950s elegance and timeless beauty tips by Jackie Wyers." />
 
-  <meta name="keywords" content="Grace Kelly makeup, Grace Kelly beauty, Hollywood glam, 1950s makeup tutorial, vintage beauty, Jackie Wyers, classic beauty looks, Grace Kelly hair, old Hollywood makeup, Grace Kelly eyeliner, red carpet looks, beauty tutorials, iconic makeup, timeless elegance, retro beauty, Grace Kelly style, vintage vibes, classic makeup tutorial, old Hollywood glam, Jackie Wyers beauty blog, Grace Kelly inspired makeup, red lip tutorial, vintage hairstyles, Grace Kelly fashion, bridal makeup, princess Grace makeup, beauty influencer tutorials, time travel tutorials, retro glamour" />
-
+  <meta name="keywords" content="Grace Kelly makeup, Hollywood glam beauty, Grace Kelly 1950s style, vintage makeup tutorials, Jackie Wyers beauty blog, old Hollywood elegance, Grace Kelly beauty tips, timeless beauty, red lip tutorial, Grace Kelly inspired look, classic vintage style, Grace Kelly fashion, vintage vibes tutorials, retro makeup guide, Grace Kelly bridal makeup, iconic beauty recreations, Grace Kelly hair tutorial, Grace Kelly Rear Window dress, red carpet makeup, classic beauty icons, old Hollywood glam tutorials, Jackie Wyers time travel tutorials" />
   <meta property="og:title" content="Grace Kelly's Old Hollywood Glam - Jackie Wyers" />
   <meta property="og:description" content="Follow Jackie Wyers as she recreates Grace Kelly's Hollywood glam look with a detailed makeup tutorial that captures the essence of old Hollywood beauty." />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/GraceKelly/GraceKellyJackieWyers.jpg" />

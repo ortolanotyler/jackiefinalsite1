@@ -125,8 +125,10 @@ const Card = ({ blogContent }) => (
   <link rel="canonical" href="https://www.jackiewyers.beauty/nomakeupspring" />
 
   <meta name="description" content="Explore timeless no-makeup makeup looks inspired by beloved TV and film characters for a fresh and natural spring beauty routine. Featuring iconic looks from Elizabeth Bennet, Daphne Bridgerton, Rose Dawson, and more." />
-  <meta name="keywords" content="No-Makeup Makeup, Spring Beauty, Elizabeth Bennet Makeup, Daphne Bridgerton Makeup, Rose Dawson Makeup, Amy March Makeup, Rosie Dunne Makeup, Alaska Young Makeup, Winnie Foster Makeup, Pop Culture Beauty, Spring Makeup Trends, natural makeup, TV and film inspired looks, Jackie Wyers tutorials, vintage makeup inspiration, soft makeup, fresh makeup looks, subtle makeup, spring beauty inspiration, character makeup" />
-
+  <meta 
+  name="keywords" 
+  content="No-Makeup Makeup, Spring Beauty Looks, Elizabeth Bennet Makeup, Pride & Prejudice Makeup, Daphne Bridgerton Makeup, Bridgerton Beauty, Rose Dawson Makeup, Titanic Makeup Tutorial, Amy March Little Women Makeup, Rosie Dunne Love, Rosie Makeup, Alaska Young Makeup, Looking for Alaska Beauty, Winnie Foster Tuck Everlasting Makeup, Jackie Wyers Tutorials, Pop Culture Beauty, Spring Makeup Trends, Natural Makeup Inspiration, Fresh Spring Looks, TV and Film Inspired Makeup, Vintage Beauty Styles, Subtle Makeup Techniques, Character Inspired Makeup, Minimalist Beauty Trends, Romantic Makeup Looks, Natural Glow Beauty, Spring Aesthetic Makeup, Jackie Wyers Blog" 
+/>
   <meta property="og:title" content="No-Makeup Makeup Spring Inspiration 🌸 Pop Culture Edition! - Jackie Wyers" />
   <meta property="og:description" content="Explore timeless no-makeup makeup looks inspired by beloved TV and film characters for a fresh and natural spring beauty routine. Featuring iconic looks from Elizabeth Bennet, Daphne Bridgerton, Rose Dawson, and more." />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/NoMakeUpSpring/nomakeupspringthumbnail.jpeg" />

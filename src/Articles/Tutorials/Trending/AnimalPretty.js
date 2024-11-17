@@ -115,10 +115,10 @@ const AnimalPretty = () => {
         <link rel="canonical" href="https://www.jackiewyers.beauty/animalpretty" />
 
         <meta name="description" content="Deer, Cat, Fox, or Bunny?" />
-        <meta
-          name="keywords"
-          content="Animal Pretty, Jackie Wyers, Deer Pretty, Cat Pretty, Fox Pretty, Bunny Pretty, makeup trends, animal-inspired beauty, deer makeup, cat eye, fox look, bunny look, beauty tips, makeup tutorial, soft makeup, bold makeup, Jackie Wyers blog, doe-eyed look, smoky eye, natural blush, beauty influencer, makeup guide, step-by-step tutorial, soft eyes, big eyes, winged liner, contouring tips, blush trends, false lashes, doe-like eyes, ethereal look, makeup inspiration, how to achieve animal pretty look"
-        />
+        <meta 
+  name="keywords" 
+  content="Animal Pretty Makeup, Jackie Wyers Blog, Deer Pretty Makeup, Cat Pretty Makeup, Fox Pretty Makeup, Bunny Pretty Makeup, Doe-Eyed Makeup, Cat Eye Look, Fox-Inspired Makeup, Bunny-Inspired Beauty, Natural Blush Tips, Winged Liner Tutorial, Seasonal Color Palettes Makeup, Soft Glam Makeup, Bold Eye Looks, Ethereal Makeup, Smoky Eye Techniques, Highlighter and Blush Tips, Beauty Influencer Tutorials, Fable England Accessories, Animal-Inspired Fashion, Bohemian Makeup Style, Angelic Makeup Looks, Trendy Makeup Guides, How to Look Like a Deer, Fox, Cat, or Bunny, Makeup for Doe Eyes, Makeup for Winged Eyes, Soft and Natural Lashes" 
+/>
 
         <meta property="og:title" content="Animal Pretty - Which one are you? - Jackie Wyers" />
         <meta property="og:description" content="Deer, Cat, Fox, or Bunny?" />

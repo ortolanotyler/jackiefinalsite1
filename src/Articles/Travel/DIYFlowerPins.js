@@ -150,8 +150,10 @@ const Card = ({ blogContent }) => (
   <link rel="canonical" href="https://www.jackiewyers.beauty/diy-flowers" />
 
   <meta name="description" content="Learn how to create your own DIY bridal flower pins inspired by Mamma Mia for your wedding day. Jackie Wyers shares a step-by-step guide to make these beautiful accessories." />
-  <meta name="keywords" content="DIY bridal flower pins, Mamma Mia wedding, Jackie Wyers, wedding DIY, bridal accessories, wedding inspiration, bridal beauty, wedding tips, bridal hair, destination wedding, DIY bride, flower crown, boho wedding, Mamma Mia flower pins, wedding crafts, Greek island wedding style, romantic bridal looks, Sophie Sheridan, flower comb tutorial, bridal hair accessories" />
-
+  <meta 
+  name="keywords" 
+  content="DIY bridal flower pins tutorial, Mamma Mia inspired wedding accessories, Jackie Wyers wedding guide, romantic bridal flower crown DIY, how to make wedding flower pins, boho wedding accessories guide, Sophie Sheridan wedding inspiration, flower comb tutorial for brides, destination wedding hair accessories, whimsical bridal style ideas, Greek island-inspired wedding crafts, champagne flower crown tutorial, floral hair pins for bridesmaids, bridal accessories on a budget, Mamma Mia wedding flower crafts, cinematic bridal looks inspired by Sophie, easy DIY wedding crafts for brides, burlap and lace bridal flower pins, elegant flower crown veil DIY, Jackie Wyers bridal beauty tips, how to create backlit wedding flower crowns" 
+/>
   <meta property="og:title" content="Mamma Mia Inspired DIY Bridal Flower Pins - Jackie Wyers" />
   <meta property="og:description" content="Learn how to create your own DIY bridal flower pins inspired by Mamma Mia for your wedding day. Jackie Wyers shares a step-by-step guide to make these beautiful accessories." />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/MammaMia/mammamiathumb.png" />

@@ -122,8 +122,7 @@ fontStyle: 'italic',
 <Helmet>
   <title>Recreating Jean Shrimpton's Iconic Yardley Ad</title>
   <meta name="description" content="Follow Jackie Wyers as she recreates the iconic Jean Shrimpton Yardley 1965 makeup look with detailed tutorials and vintage vibes." />
-  <meta name="keywords" content="Jean Shrimpton, Yardley 1965, Makeup Tutorial, Jackie Wyers, Vintage Makeup, Time Travel Tutorials, 1960s Beauty, MOD, Pop Culture, vintage fashion, retro makeup, beauty tutorials, 60s style" />
-
+  <meta name="keywords" content="Jean Shrimpton Yardley makeup, Jean Shrimpton tutorial, 1960s makeup look, vintage Yardley ad recreation, Jackie Wyers makeup tutorials, vintage beauty, Yardley Oh De London ad, Jean Shrimpton Yardley 1965, MOD style makeup, pop art makeup look, 60s supermodel makeup, retro beauty tutorials, Yardley fragrance makeup inspiration, iconic 60s makeup recreations, vintage vibes, retro makeup ideas, time travel beauty tutorials, 1960s supermodel beauty, Yardley vintage makeup collection" />
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Jean Shrimpton - Yardley 1965 Makeup Tutorial - Jackie Wyers" />
   <meta property="og:description" content="Follow Jackie Wyers as she recreates the iconic Jean Shrimpton Yardley 1965 makeup look with detailed tutorials and vintage vibes." />

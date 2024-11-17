@@ -122,8 +122,7 @@ const PeriodDrama = () => {
   <link rel="canonical" href="https://www.jackiewyers.beauty/perioddrama" />
 
   <meta name="description" content="Explore the elegance of period drama hair and makeup. Recreate historical hairstyles and no-makeup makeup looks inspired by various eras." />
-  <meta name="keywords" content="Period Drama, No Makeup Makeup, Historical Hairstyles, Jackie Wyers, Beauty Blog, Tudor Era, Regency Era, Edwardian Era, Victorian Era, Pirates of the Caribbean, Pride and Prejudice, Bridgerton" />
-  <meta property="og:title" content="No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers" />
+  <meta name="keywords" content="Period drama makeup, historical hairstyles, no-makeup makeup, period drama hair tutorial, Tudor core aesthetic, Jackie Wyers period drama guide, historical makeup inspiration, period drama beauty trends, 18th-century hairstyles, Bridgerton-inspired makeup, Victorian hairstyles, Edwardian era makeup, Pirates of the Caribbean hair tutorial, Little Women makeup tutorial, Tuck Everlasting hair and makeup, Blue Lagoon inspired hairstyles, historical beauty trends, vintage-inspired makeup looks, timeless makeup styles, period piece beauty recreations, Jackie Wyers beauty blog, period makeup tutorials, natural makeup inspiration, Pride and Prejudice beauty, historical fiction beauty inspiration" />  <meta property="og:title" content="No Makeup Makeup Period Drama and Historical Hairstyles - Jackie Wyers" />
   <meta property="og:description" content="Explore the elegance of period drama hair and makeup. Recreate historical hairstyles and no-makeup makeup looks inspired by various eras." />
   <meta property="og:image" content={title} />
   <meta property="og:url" content="https://www.jackiewyers.beauty/perioddrama" />

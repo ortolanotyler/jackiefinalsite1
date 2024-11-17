@@ -117,8 +117,7 @@ const Card = ({ blogContent }) => (
   <link rel="canonical" href="https://www.jackiewyers.beauty/twiggy" />
 
   <meta name="description" content="A 1960's Guide to Glamour. Learn how to recreate Twiggy's iconic MOD blue eyeshadow look with Jackie Wyers." />
-  <meta name="keywords" content="Twiggy, Jackie Wyers, Makeup Tutorial, MOD, Sixties Makeup, Vintage Beauty, Time Travel Tutorials, Blue Eyeshadow, Drawn-on Lashes, 60s style, retro makeup, beauty tips, vintage glamour" />
-
+  <meta name="keywords" content="Twiggy, 60s MOD makeup, Jackie Wyers, Twiggy makeup tutorial, blue eyeshadow, vintage beauty, time travel tutorials, Twiggy's iconic look, 1960s fashion, MOD style, retro makeup tutorial, Twiggy lashes, bold eyeliner, drawn-on lashes, Twiggy hair, pastel blue eyeshadow, Twiggy pale lips, vintage-inspired beauty, Twiggy freckles, Twiggy spring hairstyle, Anna Sui cosmetics, makeup for vintage vibes, retro beauty tips, 60s makeup breakdown, Twiggy's youthful glow, modern vintage makeup, Twiggy-inspired products, Twiggy beauty secrets, 60s iconic style, Twiggy curls with flowers, vintage vibes merchandise, Jackie Wyers vintage tutorials" />
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="ICONIC '60s Twiggy Makeup: MOD Blue Eyeshadow" />
   <meta property="og:description" content="Explore the iconic Twiggy look with Jackie Wyers' Time Travel Tutorials. Learn how to achieve the MOD blue eyeshadow and drawn-on lashes for a vintage vibe." />

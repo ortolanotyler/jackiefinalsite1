@@ -136,10 +136,10 @@ const BarbieBlog = () => {
     name="description" 
     content="Learn how to recreate Margot Robbie's Barbie movie makeup look and DIY your own '90s Roller Skate Barbie costume with this step-by-step guide by Jackie Wyers." 
   />
-  <meta 
-    name="keywords" 
-    content="Margot Robbie Barbie makeup, Barbie movie makeup tutorial, '90s roller skate Barbie costume, weird Barbie, Barbiecore makeup, Barbie DIY costume, roller skate Barbie, Barbie pink makeup, Margot Robbie inspired look, Greta Gerwig Barbie, Jackie Wyers beauty tutorials, pink gingham dress, Barbie movie fashion, Ivana Primorac makeup artist, Jacqueline Durran costume designer, Barbie roller skate outfit, Barbie Halloween costume, Barbie makeup products, DIY Barbie skates, Barbie beauty, Barbie makeup step-by-step, glam Barbie makeup, Barbie makeup and hair tutorial, pop culture costumes, vintage Barbie look, pink aesthetic makeup, beauty influencer tutorials, Barbie makeup tips, fun Halloween looks, DIY costume ideas, Barbie movie inspiration, nostalgic fashion, girly pop Halloween, Barbie fashion collabs, iconic doll makeup, retro makeup, 90s fashion revival, Malibu Barbie, Mattel Barbie collab, DIY beauty looks, Barbiecore trend, modern Barbie style, bold pink makeup, Barbie movie hairstyles, beauty influencer, celebrity makeup recreation" 
-  />
+<meta 
+  name="keywords" 
+  content="Margot Robbie Barbie makeup tutorial, Barbie roller skate costume DIY, '90s Barbie Halloween costume ideas, pink Barbie makeup step-by-step, Margot Robbie inspired makeup, Greta Gerwig Barbie movie looks, Jackie Wyers Barbiecore beauty guide, Barbie gingham dress look, roller skate Barbie makeup, Malibu Barbie makeup tutorial, Ivana Primorac Barbie makeup design, Jacqueline Durran Barbie costume inspiration, Barbie fashion collabs 2024, Barbiecore trend makeup tips, vintage Barbie pink makeup, Barbie makeup hacks for beginners, Barbie DIY roller skates, Barbie pink aesthetic makeup guide, Barbie-inspired hair and makeup tutorial, Barbie Halloween look step-by-step, Barbiecore glam ideas, Barbie pink blush and contour, DIY Barbie makeup ideas, Barbie fashion nostalgia, nostalgic '90s fashion looks, Barbie movie iconic beauty recreations, Barbie lipstick tutorial, Barbiecore pink eye makeup, celebrity-inspired Halloween makeup, Barbie-themed beauty ideas, Jackie Wyers beauty influencer tutorials, retro Barbie makeup trends"
+ />
 
   {/* Open Graph Meta Tags */}
   <meta property="og:title" content="Margot Robbie's Barbie Makeup & DIY '90s Roller Skate Costume - Jackie Wyers" />

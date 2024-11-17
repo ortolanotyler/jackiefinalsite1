@@ -120,8 +120,10 @@ const Card = ({ blogContent }) => (
   <link rel="canonical" href="https://www.jackiewyers.beauty/diaryfillers" />
 
   <meta name="description" content="Jackie Wyers shares her personal experience with getting injectable fillers at a young age, reflecting on insecurities, decisions, and growth." />
-  <meta name="keywords" content="Diary, Injectable Fillers, Jackie Wyers, Personal Experience, Beauty Blog, Cosmetic Enhancements, Self-Esteem, Beauty Standards, Personal Growth, Beauty Journey, non-surgical rhinoplasty, YouTube influencer, beauty transformation stories, confidence journey, beauty standards impact, cosmetic procedures reflection" />
-
+  <meta 
+  name="keywords" 
+  content="Diary post on fillers, injectable fillers journey, Jackie Wyers diary, self-acceptance stories, beauty standards reflection, non-surgical cosmetic procedures, self-esteem growth, personal development, teenage beauty challenges, cosmetic enhancements impact, confidence building, overcoming insecurities, reflective beauty blog, self-image struggles, diary entry beauty journey, young adult experiences, embracing authenticity, mental health and appearance, Jackie Wyers filler experience, self-reflection in beauty" 
+/>
   <meta property="og:title" content="Diary Post: My Journey with Injectable Fillers - Jackie Wyers" />
   <meta property="og:description" content="Jackie Wyers shares her personal experience with getting injectable fillers at a young age, reflecting on insecurities, decisions, and growth." />
   <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/DiaryPost1/DIARYSQUARE.jpg" />
