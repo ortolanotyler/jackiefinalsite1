@@ -36,12 +36,12 @@ export default function EmailSubscribe() {
       justifyContent="center"
       alignItems="center"
       width="100%"
-      
       height="auto"
       px={2}
       sx={{
         position: 'relative',
-        backgroundColor: '#ffffff',
+        
+        backgroundColor: 'white',
       }}
     >
       {/* Form inside a white card */}
@@ -50,10 +50,9 @@ export default function EmailSubscribe() {
         sx={{
           position: 'relative',
           zIndex: 2,
-          margin: '2rem auto',
-
+          padding: '1rem',
           maxWidth: '100%',
-          backgroundColor: '#ffffff',
+          backgroundColor: 'white',
           borderRadius: '0px',
         }}
       >

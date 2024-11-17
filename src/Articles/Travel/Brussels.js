@@ -8,6 +8,7 @@ import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import NextArticle from '../../Components/NextArticleComponent';
 import EmbeddedGuideBelgium from '../../Components/EmbedBelgium';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
+import EmailSubscribe2 from '../../Components/EmailSubscribe2';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Brussels/1.JPG`;

@@ -295,6 +295,9 @@ function App() {
             <Route path="barbie-roundup" element={<BarbieRoundup />} />
             <Route path="quiz-3-home" element={<Quiz3Homepage />} />
             <Route path="quiz-2-home" element={<Quiz2Homepage />} />
+            <Route path="quiz-4-home" element={<Quiz4Homepage />} />
+            <Route path="quiz-5-home" element={<Quiz5Homepage />} />
+
             <Route path="articles/rory-gilmore" element={<Rory />} />
             <Route path="articles/wicked" element={<Wicked />} />
             <Route path="/articles/wicked-witch-of-the-west" element={<Wicked2 />} />

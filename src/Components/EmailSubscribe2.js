@@ -4,6 +4,7 @@ import { EmailContext } from './EmailContext';
 import axios from 'axios';
 import './EmailSubscribe.module.css';
 import NewsletterSlider from '../Home/NewsletterSlider';
+import EmailSubscribe from './EmailSubscribe';
 
 export default function EmailSubscribe2() {
   const [email, setEmail] = useState('');
@@ -34,12 +35,28 @@ export default function EmailSubscribe2() {
   return (
     <>
    
-
+   <Typography 
+        variant="h2" 
+        align="center" 
+        sx={{ 
+          
+     
+          fontFamily: 'Playfair Display, serif', 
+          margin: '1rem auto',
+          padding: '1rem ',
+          maxWidth: '100%',
+          color: '#000000', 
+        }}
+      >
+        Sign up for the weekly newsletter!
+      
+      </Typography>
 
 <div style = {{
-  paddingTop: '100px',
+margin: '1rem auto',
+marginBottom: '1rem'
 }}>
-<NewsletterSlider/>
+<EmailSubscribe/>
 </div>
 
     </>

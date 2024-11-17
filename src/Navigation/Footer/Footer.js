@@ -5,6 +5,7 @@ import PinterestIcon from '@mui/icons-material/Pinterest';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import SwitchUpYour from './SwitchUpYour';
 import SubscribeButton from '../../Components/SubscribeButton';
+import EmailSubscribe2 from '../../Components/EmailSubscribe2';
 
 const Footer = () => {
     return (
@@ -12,6 +13,7 @@ const Footer = () => {
         
 
          <div style={{ width: '100%', overflowX: 'hidden' }}>
+            <EmailSubscribe2/>
             <SwitchUpYour />
             <footer style={{
                 width: '100%',
