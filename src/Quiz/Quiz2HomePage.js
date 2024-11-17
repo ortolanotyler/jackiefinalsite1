@@ -1,67 +1,148 @@
 import React from 'react';
-import { Box, Grid } from '@mui/material';
-
+import { Box } from '@mui/material';
 import { Helmet } from 'react-helmet-async';
-
-import Quiz2 from './Quiz2';
-import EmailSubscribe from '../Components/EmailSubscribe';
 import TextReveal from '../Components/TextReveal';
+import EmailSubscribe from '../Components/EmailSubscribe';
+import Quiz2 from './Quiz2';
+import Quiz3 from './Quiz3';
+import Quiz4 from './Quiz4';
+import Quiz5 from './Quiz5';
 
 const Quiz2Homepage = () => {
-    return (
-        <div>
-             <Helmet>
+  return (
+    <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
+      <Helmet>
         <title>Jackie Wyers' Quiz Homepage</title>
-        <meta name="description" content="It started with the legendary Animal Pretty Calculator, with more quizzes being added every week!" />
-        <meta name="keywords" content="beauty quiz, wedding dress quiz, animal pretty, Jackie Wyers, makeup quiz, beauty styles" />
+        <meta
+          name="description"
+          content="It started with the legendary Animal Pretty Calculator, with more quizzes being added every week!"
+        />
+        <meta
+          name="keywords"
+          content="beauty quiz, wedding dress quiz, animal pretty, Jackie Wyers, makeup quiz, beauty styles"
+        />
         <meta property="og:title" content="Jackie Wyers' Quiz Homepage" />
-        <meta property="og:description" content="Discover your perfect wedding dress style and find your animal face type with Jackie Wyers' interactive quizzes!" />
-        <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/QuizHomepage/og-image.jpg`} />
-        <meta property="og:url" content="https://www.jackiewyers.beauty/quiz-3-homepage" />
+        <meta
+          property="og:description"
+          content="Discover your perfect wedding dress style and find your animal face type with Jackie Wyers' interactive quizzes!"
+        />
+        <meta
+          property="og:image"
+          content={`${process.env.PUBLIC_URL}/Images/Quiz/QuizHomepage/og-image.jpg`}
+        />
+        <meta property="og:url" content="https://www.jackiewyers.beauty/quiz-2-homepage" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Jackie Wyers' Quiz Homepage" />
-        <meta name="twitter:description" content="Discover your perfect wedding dress style and find your animal face type with Jackie Wyers' interactive quizzes!" />
-        <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/QuizHomepage/twitter-image.jpg`} />
-    
+        <meta
+          name="twitter:title"
+          content="Jackie Wyers' Quiz Homepage"
+        />
+        <meta
+          name="twitter:description"
+          content="Discover your perfect wedding dress style and find your animal face type with Jackie Wyers' interactive quizzes!"
+        />
+        <meta
+          name="twitter:image"
+          content={`${process.env.PUBLIC_URL}/Images/Quiz/QuizHomepage/twitter-image.jpg`}
+        />
       </Helmet>
-      <Grid container justifyContent="center"
-            style = {{paddingTop: '30px'}}
-            >
-              <TextReveal
-        text="🐈‍⬛🦌 The Animal Pretty Quiz 🐇🦊" 
-        style={{ backgroundColor: '#fdedef', width: '100%' }} 
-      />
-                    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 1 }}>
 
-                      <Quiz2 />
-                  
-           
-        </Box>
-        
-             
-           
-              
-          
-                
-      
-                
-            </Grid>
+      {/* Animal Pretty Quiz Section */}
+      <Box sx={{ width: '100%' }}>
+        <TextReveal
+          text="🐈‍⬛🦌 The Animal Pretty Quiz 🐇🦊"
+          style={{ backgroundColor: '#fdedef', width: '100%', margin: 0 }}
+        />
+      </Box>
 
-            
+      {/* Quiz2 Content */}
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: 2,
+          padding: { xs: '10px', md: '30px' },
+        }}
+      >
+        <Quiz2 />
+      </Box>
 
-          
+      {/* Halloween Costume Quiz Section */}
+      <Box sx={{ width: '100%' }}>
+        <TextReveal
+          text="HALLOWEEN COSTUME QUIZ"
+          style={{ backgroundColor: '#fdedef', width: '100%', margin: 0 }}
+        />
+      </Box>
 
-<div style = {{margin :'10px auto' }}>
-                <EmailSubscribe/>
-                </div>
+      {/* Quiz4 Content */}
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: 2,
+          padding: { xs: '10px', md: '30px' },
+        }}
+      >
+        <Quiz4 />
+      </Box>
 
-               
-                     
-               
-             
-        </div>
-    );
+      {/* Wedding Dress Quiz Section */}
+      <Box sx={{ width: '100%' }}>
+        <TextReveal
+          text="ULTIMATE WEDDING DRESS QUIZ"
+          style={{ backgroundColor: '#fdedef', width: '100%', margin: 0 }}
+        />
+      </Box>
+
+      {/* Quiz3 Content */}
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: 2,
+          padding: { xs: '10px', md: '30px' },
+        }}
+      >
+        <Quiz3 />
+      </Box>
+
+      {/* Male vs Female Gaze Quiz Section */}
+      <Box sx={{ width: '100%' }}>
+        <TextReveal
+          text="MALE vs FEMALE GAZE QUIZ"
+          style={{ backgroundColor: '#fdedef', width: '100%', margin: 0 }}
+        />
+      </Box>
+
+      {/* Quiz5 Content */}
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: 2,
+          padding: { xs: '10px', md: '30px' },
+        }}
+      >
+        <Quiz5 />
+      </Box>
+
+      {/* Subscribe Section */}
+      <Box sx={{ width: '100%' }}>
+        <TextReveal
+          text="Stay Updated with New Quizzes!"
+          style={{ backgroundColor: '#fdedef', width: '100%', margin: 0 }}
+        />
+      </Box>
+      <Box sx={{ margin: '2rem auto', width: '100%', display: 'flex', justifyContent: 'center' }}>
+        <EmailSubscribe />
+      </Box>
+    </Box>
+  );
 };
 
 export default Quiz2Homepage;

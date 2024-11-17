@@ -1,121 +1,145 @@
 import React from 'react';
-import { Grid } from '@mui/material';
-
+import { Box } from '@mui/material';
 import { Helmet } from 'react-helmet-async';
+import TextReveal from '../Components/TextReveal';
 import EmailSubscribe from '../Components/EmailSubscribe';
-import Quiz4 from './Quiz4';import TextReveal from '../Components/TextReveal';
-import AdSenseAd from '../Home/Adsense';
-import HorizontalLine from '../Components/HorizontalLine';
+import Quiz2 from './Quiz2';
+import Quiz3 from './Quiz3';
+import Quiz4 from './Quiz4';
 import Quiz5 from './Quiz5';
-import TextRevealHomePage from '../Components/TextRevealHomePage';
 
 const Quiz5Homepage = () => {
-    return (
-        <div>
-             <Helmet>
-  <title>Halloween Costume Ideas 2024 - Take the quiz now!</title>
-  <link rel="canonical" href="https://www.jackiewyers.beauty/quiz-3-homepage" />
+  return (
+    <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
+      <Helmet>
+        <title>Male vs Female Gaze Quiz Home</title>
+        <meta
+          name="description"
+          content="It started with the legendary Animal Pretty Calculator, with more quizzes being added every week!"
+        />
+      <meta name="keywords" content="male vs female gaze quiz, beauty perspective quiz, Jackie Wyers quizzes, gendered beauty perspectives, female gaze quiz, male gaze quiz, cultural beauty quiz, beauty analysis quiz, perspective beauty quiz, aesthetic perspective test, Jackie Wyers male vs female quiz, beauty style analysis, gender aesthetics quiz, beauty and gender quiz" />
+        <meta property="og:title" content="Animal Pretty Quiz Home" />
+        <meta
+          property="og:description"
+          content="Discover your perfect wedding dress style and find your animal face type with Jackie Wyers' interactive quizzes!"
+        />
+        <meta
+          property="og:image"
+          content={`${process.env.PUBLIC_URL}/Images/Quiz/QuizHomepage/og-image.jpg`}
+        />
+        <meta property="og:url" content="https://www.jackiewyers.beauty/quiz-5-homepage" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Animal Pretty Quiz Home"
+        />
+        <meta
+          name="twitter:description"
+          content="Discover your perfect wedding dress style and find your animal face type with Jackie Wyers' interactive quizzes!"
+        />
+        <meta
+          name="twitter:image"
+          content={`${process.env.PUBLIC_URL}/Images/Quiz/QuizHomepage/twitter-image.jpg`}
+        />
+      </Helmet>
 
-  <meta name="description" content="Discover your Halloween style with Jackie Wyers' interactive quiz! Are you spooky, glamorous, or classic? Find the perfect look for your next Halloween event." />
-  <meta name="keywords" content="Halloween quiz, Halloween style quiz, 2024 Halloween costume ideas, Halloween makeup ideas, spooky Halloween costumes, glam Halloween looks, classic Halloween costumes, Jackie Wyers quiz, beauty quiz for Halloween, personalized Halloween style quiz, Halloween trends 2024, best Halloween costume ideas, find your Halloween style, interactive Halloween quiz, pop culture Halloween costumes, girly Halloween costumes, celebrity Halloween looks, iconic Halloween outfits, DIY Halloween makeup tutorials, spooky season costume quiz, unique Halloween costume ideas, best Halloween costumes for women, trendy Halloween costumes, Disney princess Halloween costume, sexy Halloween costumes, witch costume ideas, vintage Halloween style, makeup trends Halloween 2024, Halloween makeup inspiration, Halloween party outfit ideas, fairy tale Halloween costumes, period drama Halloween costumes, Halloween quiz for girls, gothic Halloween makeup, cute Halloween looks, spooky glam makeup, easy Halloween costume quiz, Halloween outfits for women, 2024 spooky costume quiz, ultimate Halloween quiz, chic Halloween makeup, top Halloween quiz, Instagram-worthy Halloween costumes, makeup tutorials for Halloween, Halloween hair ideas, DIY Halloween costume inspiration, themed Halloween costumes, nostalgic Halloween looks, Halloween character quiz, best makeup for Halloween, Halloween costume predictions 2024" />
-  {/* Open Graph Meta Tags */}
-  <meta property="og:title" content="Halloween Costume Ideas Quiz, Halloween Costume Ideas 2024 - Take the quiz now!" />
-  <meta property="og:description" content="Find out your perfect Halloween style with Jackie Wyers' interactive quiz! Get personalized costume and makeup ideas for your Halloween 2024 look." />
-  <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/Halloween/HalloweenThumb.jpg" />
-  <meta property="og:url" content="https://www.jackiewyers.beauty/quiz-3-homepage" />
-  <meta property="og:type" content="article" />
+      {/* Male vs Female Gaze Quiz Section */}
+      <Box sx={{ width: '100%' }}>
+        <TextReveal
+          text="MALE vs FEMALE GAZE QUIZ"
+          style={{ backgroundColor: '#fdedef', width: '100%', margin: 0 }}
+        />
+      </Box>
 
-  {/* Twitter Meta Tags */}
-  <meta name="twitter:title" content="Halloween Costume Ideas 2024 - Take the quiz now!" />
-  <meta name="twitter:description" content="Discover your perfect Halloween style with Jackie Wyers' interactive quiz. Whether you're spooky or glamorous, get inspired for your 2024 Halloween look!" />
-  <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/Halloween/HalloweenThumb.jpg" />
-  <meta name="twitter:card" content="summary_large_image" />
+      {/* Quiz5 Content */}
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: 2,
+          padding: { xs: '10px', md: '30px' },
+        }}
+      >
+        <Quiz5 />
+      </Box>
 
-  {/* JSON-LD Structured Data */}
-  <script type="application/ld+json">
-    {`
-      {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "headline": "Halloween Costume Ideas 2024 - Take the quiz now!",
-        "description": "Discover your Halloween style with Jackie Wyers' interactive quiz! Are you spooky, glamorous, or classic? Find the perfect look for your next Halloween event.",
-        "image": "https://www.jackiewyers.beauty/Images/Articles/Halloween/HalloweenThumb.jpg",
-        "author": {
-          "@type": "Person",
-          "name": "Jackie Wyers"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "Jackie Wyers Beauty",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.jackiewyers.beauty/logo.png"
-          }
-        },
-        "datePublished": "2024-10-20",
-        "dateModified": "2024-10-21",
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://www.jackiewyers.beauty/quiz-3-homepage"
-        }
-      }
-    `}
-  </script>
+      {/* Halloween Costume Quiz Section */}
+      <Box sx={{ width: '100%' }}>
+        <TextReveal
+          text="HALLOWEEN COSTUME QUIZ"
+          style={{ backgroundColor: '#fdedef', width: '100%', margin: 0 }}
+        />
+      </Box>
 
-  {/* Google Analytics Script */}
-  <script>
-    {`
-      gtag('config', 'G-RT6GR7JXYG', {
-        page_path: window.location.pathname
-      });
-    `}
-  </script>
-</Helmet>
-      <Grid container justifyContent="center"
-            style = {{paddingTop: '50px'}}
-            >
-           <TextRevealHomePage text= "MALE VS FEMALE GAZE"/>
-                
-            
-       
+      {/* Quiz4 Content */}
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: 2,
+          padding: { xs: '10px', md: '30px' },
+        }}
+      >
+        <Quiz4 />
+      </Box>
 
-               
-                <Grid item xs={12}>
-                    <Quiz5 />
-                </Grid>
+      {/* Animal Pretty Quiz Section */}
+      <Box sx={{ width: '100%' }}>
+        <TextReveal
+          text="🐈‍⬛🦌 The Animal Pretty Quiz 🐇🦊"
+          style={{ backgroundColor: '#fdedef', width: '100%', margin: 0 }}
+        />
+      </Box>
 
-                
-          
-                <AdSenseAd />
-                    <AdSenseAd />
-                    <AdSenseAd />
-           
-           
+      {/* Quiz2 Content */}
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: 2,
+          padding: { xs: '10px', md: '30px' },
+        }}
+      >
+        <Quiz2 />
+      </Box>
 
-           
+      {/* Wedding Dress Quiz Section */}
+      <Box sx={{ width: '100%' }}>
+        <TextReveal
+          text="ULTIMATE WEDDING DRESS QUIZ"
+          style={{ backgroundColor: '#fdedef', width: '100%', margin: 0 }}
+        />
+      </Box>
 
-                
-              
-      
-                
-      
-                
-            </Grid>
-          
+      {/* Quiz3 Content */}
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: 2,
+          padding: { xs: '10px', md: '30px' },
+        }}
+      >
+        <Quiz3 />
+      </Box>
 
-
-           
-                    <AdSenseAd />
-                    <AdSenseAd />
-                    <AdSenseAd />
-
-
-            
-
-
-             
-        </div>
-    );
+      {/* Subscribe Section */}
+      <Box sx={{ width: '100%' }}>
+        <TextReveal
+          text="Stay Updated with New Quizzes!"
+          style={{ backgroundColor: '#fdedef', width: '100%', margin: 0 }}
+        />
+      </Box>
+      <Box sx={{ margin: '2rem auto', width: '100%', display: 'flex', justifyContent: 'center' }}>
+        <EmailSubscribe />
+      </Box>
+    </Box>
+  );
 };
 
 export default Quiz5Homepage;

@@ -1,15 +1,12 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import './Quiz1.css';
-import { Helmet } from 'react-helmet-async';
-import TextReveal from '../Components/TextReveal';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "./AnimalPrettyQuiz.css";
 
 const Quiz2 = () => {
   const navigate = useNavigate();
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [scores, setScores] = useState({ '1': 0, '2': 0, '3': 0, '4': 0 });
+  const [scores, setScores] = useState({ "1": 0, "2": 0, "3": 0, "4": 0 });
   const [showResults, setShowResults] = useState(false);
-
   const quizQuestions = [
     {
       question: "Which eye colour is closest to yours?",
@@ -117,70 +114,59 @@ const Quiz2 = () => {
   };
 
   const finishQuiz = (finalScores) => {
-    const maxScoreCategory = Object.keys(finalScores).reduce((a, b) => finalScores[a] > finalScores[b] ? a : b);
+    const maxScoreCategory = Object.keys(finalScores).reduce(
+      (a, b) => (finalScores[a] > finalScores[b] ? a : b)
+    );
 
     switch (maxScoreCategory) {
-      case '1': navigate('/bunnypretty'); break;
-      case '2': navigate('/deerpretty'); break;
-      case '3': navigate('/foxpretty'); break;
-      case '4': navigate('/catpretty'); break;
-      default: navigate('/');
+      case "1":
+        navigate("/bunnypretty");
+        break;
+      case "2":
+        navigate("/deerpretty");
+        break;
+      case "3":
+        navigate("/foxpretty");
+        break;
+      case "4":
+        navigate("/catpretty");
+        break;
+      default:
+        navigate("/");
     }
   };
 
   return (
-    <>
-
-                      <div className="quiz-container">
-
-<Helmet>
-  <title>Jackie Wyers Beauty</title>
-  <meta name="description" content="Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty? Find out with our fun and interactive quiz!" />
-  <meta name="keywords" content="beauty quiz, animal pretty, Jackie Wyers, makeup quiz, beauty styles, fox pretty, deer pretty, bunny pretty, cat pretty" />
-  <meta property="og:title" content="Jackie Wyers Beauty Quiz" />
-  <meta property="og:description" content="Discover which animal-inspired beauty style suits you best: Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty." />
-  <meta property="og:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/og-image.jpg`} />
-  <meta property="og:url" content="https://www.jackiewyers.beauty/quiz2" />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Jackie Wyers Beauty Quiz" />
-  <meta name="twitter:description" content="Find out if you're Fox Pretty, Deer Pretty, Bunny Pretty, or Cat Pretty with our interactive quiz!" />
-  <meta name="twitter:image" content={`${process.env.PUBLIC_URL}/Images/Quiz/Quiz2/twitter-image.jpg`} />
-</Helmet>
-
-{!showResults ? (
-  <>
-    <div className="question-section">
-  
-      <div className="question-text">{quizQuestions[currentQuestionIndex].question}</div>
-    </div>
-    <div className="answer-section">
-      {quizQuestions[currentQuestionIndex].options.map((option, index) => (
-        <button
-          key={index}
-          className="answer-button"
-          style={{
-            backgroundImage: `url(${option.backgroundImage})`,
-          }}
-          onClick={() => handleAnswerClick(option.value)}
-        >
-          {option.text}
-        </button>
-      ))}
-    </div>
-  </>
-) : (
-  <div className="results-section">
-    <h2>Quiz Completed!</h2>
-    <button onClick={() => navigate('/')}>Go Home</button>
-  </div>
-)}
+    <div className="quiz-container">
+      {!showResults ? (
+        <>
+          <div className="question-section">
+            <div className="question-text">
+              {quizQuestions[currentQuestionIndex].question}
+            </div>
+          </div>
+          <div className="answer-section">
+  {quizQuestions[currentQuestionIndex].options.map((option, index) => (
+    <button
+      key={index}
+      className="answer-button"
+      style={{
+        backgroundImage: `url(${option.backgroundImage})`,
+      }}
+      onClick={() => handleAnswerClick(option.value)}
+    >
+      {option.text}
+    </button>
+  ))}
 </div>
-    
-    
-    
-    </>
-   
+        </>
+      ) : (
+        <div className="results-section">
+          <h2>Quiz Completed!</h2>
+          <button onClick={() => navigate("/")}>Go Home</button>
+        </div>
+      )}
+    </div>
   );
 };
 

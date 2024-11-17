@@ -18,7 +18,7 @@
 
 .question-text {
   margin: 1rem ;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-family: 'Playfair Display', serif;
 
   font-weight: 400;
@@ -44,7 +44,7 @@
   cursor: pointer;
   border: 1px solid #ffffff;
   background-color: transparent;
-  border-radius: 0px;
+  border-radius: 10px;
   transition: all 0.5s ease;
   background-size: cover;
   background-position: center;

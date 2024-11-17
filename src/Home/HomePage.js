@@ -97,7 +97,7 @@ function HomePage() {
         </Box>
        
 
-        <TextBanner2 text="FEATURED" margin='0 auto' height="300px" width="100%"  />
+        <TextBanner2 text="FEATURED" margin='0 auto' height="250px" width="100%"  />
         <TextReveal
         text="🐈‍⬛🦌 The Animal Pretty Quiz 🐇🦊" 
         style={{ backgroundColor: '#fdedef', width: '100%' }} 
