@@ -86,9 +86,7 @@ const Quiz4Homepage = () => {
       >
         <Quiz2 />
       </Box>
-          
-      <Box sx={{ margin: '1rem auto' }}>
-       <AdSenseAd/>
+    <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
       </Box>
 
       {/* Wedding Dress Quiz Section */}
@@ -111,9 +109,7 @@ const Quiz4Homepage = () => {
       >
         <Quiz3 />
       </Box>
-          
-      <Box sx={{ margin: '1rem auto' }}>
-       <AdSenseAd/>
+    <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
       </Box>
 
       {/* Male vs Female Gaze Quiz Section */}
@@ -136,9 +132,7 @@ const Quiz4Homepage = () => {
       >
         <Quiz5 />
       </Box>
-          
-      <Box sx={{ margin: '1rem auto' }}>
-       <AdSenseAd/>
+    <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
       </Box>
 
       {/* Subscribe Section */}
