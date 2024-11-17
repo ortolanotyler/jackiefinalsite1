@@ -269,15 +269,20 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
-    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728233119/3_s8zdyu.heic" 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233119/3_s8zdyu.jpg" 
     alt="Jackie Wyers as Glinda on Broadway in the iconic blue dress." 
-    style={imageStyle} 
+    style={{
+      display: 'block',
+      margin: '1rem auto',
+      borderRadius: '0px',
+      height: 'auto'
+    }} 
     data-pin-url="https://www.jackiewyers.beauty/articles/wicked"
-    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728233119/3_s8zdyu.heic"
+    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233119/3_s8zdyu.jpg"
     data-pin-description="Jackie Wyers as Glinda on Broadway in the iconic blue dress, a step-by-step makeup tutorial inspired by Wicked."
   />
   <img 
-    src={pinterest}
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233119/3_s8zdyu.jpg"
     alt="Pin this on Pinterest" 
     style={{
       position: 'absolute',
@@ -289,12 +294,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       opacity: 0.9,
       transition: 'opacity 0.3s'
     }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/wicked&media=https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728233119/3_s8zdyu.heic&description=Jackie Wyers as Glinda on Broadway in the iconic blue dress, a step-by-step makeup tutorial inspired by Wicked.')}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/wicked&media=https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233119/3_s8zdyu.jpg&description=Jackie Wyers as Glinda on Broadway in the iconic blue dress, a step-by-step makeup tutorial inspired by Wicked.')}
     onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
-
 <p style={captionStyle}>
   Original Makeup design by Joe Dulude II for the original Broadway production of Wicked. Recreation by Jackie Wyers.
 </p>
@@ -305,15 +309,20 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
-    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728233116/2_h6dsz0.heic" 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233116/2_h6dsz0.jpg" 
     alt="Jackie Wyers as Ariana Grande as Glinda. Pink makeup recreation inspired by Wicked the movie 2024." 
-    style={imageStyle} 
+    style={{
+      display: 'block',
+      margin: '1rem auto',
+      borderRadius: '0px',
+      height: 'auto'
+    }} 
     data-pin-url="https://www.jackiewyers.beauty/articles/wicked"
-    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728233116/2_h6dsz0.heic"
+    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233116/2_h6dsz0.jpg"
     data-pin-description="Jackie Wyers recreates Ariana Grande's Glinda makeup from Wicked 2024 in a pink makeup tutorial."
   />
   <img 
-    src={pinterest}
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233116/2_h6dsz0.jpg"
     alt="Pin this on Pinterest" 
     style={{
       position: 'absolute',
@@ -325,16 +334,19 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       opacity: 0.9,
       transition: 'opacity 0.3s'
     }}
-    onClick={() => window.open(
-      `https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/wicked&
-      media=https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728233116/2_h6dsz0.heic&
-      description=Jackie Wyers recreates Ariana Grande's Glinda makeup from Wicked 2024 in a pink makeup tutorial.`
-    )}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/wicked&media=https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233116/2_h6dsz0.jpg&description=Jackie Wyers recreates Ariana Grande\'s Glinda makeup from Wicked 2024 in a pink makeup tutorial.')}
     onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
+
+<div style = {{
+  margin : '1rem auto',
+  textAlign: 'center',
+}}>
 <AdSenseAd/>
+</div>
+
 
 <h2 style={headingStyle}>🎀 Glinda Makeup Tutorial: Sparkling and Sweet 🎀</h2>
 
@@ -412,15 +424,20 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
-    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728233154/5_f0pgr0.heic" 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233154/5_f0pgr0.jpg" 
     alt="One Size Beauty Wicked on Broadway collection 2024." 
-    style={imageStyle} 
+    style={{
+      display: 'block',
+      margin: '1rem auto',
+      borderRadius: '0px',
+      height: 'auto'
+    }} 
     data-pin-url="https://www.jackiewyers.beauty/articles/wicked"
-    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728233154/5_f0pgr0.heic"
+    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233154/5_f0pgr0.jpg"
     data-pin-description="One Size Beauty's Wicked on Broadway Collection 2024, perfect for recreating the musical's signature looks."
   />
   <img 
-    src={pinterest}
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233154/5_f0pgr0.jpg"
     alt="Pin this on Pinterest" 
     style={{
       position: 'absolute',
@@ -432,11 +449,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       opacity: 0.9,
       transition: 'opacity 0.3s'
     }}
-    onClick={() => window.open(
-      `https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/wicked&
-      media=https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728233154/5_f0pgr0.heic&
-      description=One Size Beauty's Wicked on Broadway Collection 2024.`
-    )}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/wicked&media=https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233154/5_f0pgr0.jpg&description=One Size Beauty\'s Wicked on Broadway Collection 2024.')}
     onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
@@ -489,15 +502,20 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
-    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728233123/6_twq4y8.heic" 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233123/6_twq4y8.jpg" 
     alt="Jackie Wyers as Elphaba, green witch makeup." 
-    style={imageStyle} 
+    style={{
+      display: 'block',
+      margin: '1rem auto',
+      borderRadius: '0px',
+      height: 'auto'
+    }} 
     data-pin-url="https://www.jackiewyers.beauty/articles/wicked"
-    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728233123/6_twq4y8.heic"
+    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233123/6_twq4y8.jpg"
     data-pin-description="Jackie Wyers transforms into Elphaba with her signature green witch makeup. Inspired by Wicked."
   />
   <img 
-    src={pinterest}
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233123/6_twq4y8.jpg"
     alt="Pin this on Pinterest" 
     style={{
       position: 'absolute',
@@ -509,7 +527,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       opacity: 0.9,
       transition: 'opacity 0.3s'
     }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/wicked&media=https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728233123/6_twq4y8.heic&description=Jackie Wyers transforms into Elphaba with her signature green witch makeup.')}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/wicked&media=https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233123/6_twq4y8.jpg&description=Jackie Wyers transforms into Elphaba with her signature green witch makeup.')}
     onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
