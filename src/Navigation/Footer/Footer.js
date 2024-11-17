@@ -6,8 +6,7 @@ import PinterestIcon from '@mui/icons-material/Pinterest';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import SwitchUpYour from './SwitchUpYour';
 import EmailSubscribe2 from '../../Components/EmailSubscribe2';
-import EmailSubscribe from '../../Components/EmailSubscribe';
-import NewsletterSlider from '../../Home/NewsletterSlider';
+
 import HorizontalLine from '../../Components/HorizontalLine';
 
 const Footer = () => {
@@ -17,8 +16,8 @@ const Footer = () => {
         <>
             <div style={{ width: '100%', overflowX: 'hidden', backgroundColor: '#ffffff' }}>
             <HorizontalLine/>
-                <EmailSubscribe2 />
-                <HorizontalLine/>
+
+            
                 <SwitchUpYour />
             
                 {/* Conditionally render EmailSubscribe2 if not on '/subscribe' route */}
