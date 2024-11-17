@@ -171,20 +171,15 @@ const AnimalPretty = () => {
       </Helmet>
 
       <div
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '100px',
-        }}
-      >
-        <a
-          href="/trends"
-          style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}
-        >
-          BEAUTY // TRENDS
-        </a>
-      </div>
+style = {{
+  margin: '1rem auto',
+  textAlign: 'center'
+}}
+> 
+<TakeQuizButton href='/quiz-2-home' />
+
+
+</div>
 
       <ArticleTitle
         mainTitle="Which Type of Pretty Are You? Animal Edition!"
@@ -222,16 +217,7 @@ const AnimalPretty = () => {
           All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
         </p>
       </div>
-      <div
-style = {{
-  margin: '1rem auto',
-  textAlign: 'center'
-}}
-> 
-<TakeQuizButton href='/quiz-2-home' />
-
-
-</div>
+   
       <p style={paragraphStyle}>
      Dive into the quiz{' '}
         <a href="/quiz2" style={{textDecoration: 'underline'}}>
