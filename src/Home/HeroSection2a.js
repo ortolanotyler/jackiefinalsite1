@@ -32,7 +32,6 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
     overflow: 'hidden',
     border: 'none',
     boxSizing: 'border-box',
-    boxShadow: '0 2px 6px rgba(0, 0, 0, 0.1)',
   };
 
   const imageContainerStyle = {
@@ -62,7 +61,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
   };
 
   const featureStyle = {
-    fontSize: '0.88rem',
+    fontSize: '0.75rem',
     fontWeight: '100',
     letterSpacing: '1px',
     textAlign: 'center',
@@ -85,25 +84,7 @@ const HeroSection2a = ({ featureText, headlineText, subtext, author, imagePath, 
 
   };
 
-  const subtextStyle = {
-    fontSize: '12px',
-    lineHeight: 1.25,
-    margin: '10px auto',
-    fontStyle: 'italic',
-    fontFamily: 'Playfair Display, serif',
-    fontWeight: '400',
 
-    color: '#3a3a3a',
-  };
-
-  const authorStyle = {
-    textAlign: 'right',
-    fontSize: '.88rem',
-    margin: '10px auto',
-    fontStyle: 'italic',
-    color: '#000000',
-    fontFamily: 'Arapey, serif',
-  };
 
   return (
     <Grid item xs={12} style={{ height: '100%' }}> {/* Grid item with full height */}
