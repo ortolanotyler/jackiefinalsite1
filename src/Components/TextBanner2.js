@@ -32,7 +32,7 @@ const TextBanner2 = ({
     },
     letter: {
       fontFamily: 'Playfair Display, serif',
-      fontSize: maxFontSize,
+      fontSize: '2.5rem',
       fontWeight: '400',
       color: '#333', // Slightly darker text color for readability
       margin: '0 5px', // Space between letters

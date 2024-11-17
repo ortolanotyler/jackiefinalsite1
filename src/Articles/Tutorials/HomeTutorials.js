@@ -69,15 +69,6 @@ const HomeTutorials = () => {
             />
           </Grid>
 
-          <Grid item xs={12} sm={6} md={6} lg={4}>
-            <HeroSection2a
-              featureText="SUMMER BEAUTY"
-              headlineText="Summer Beauty Essentials: Glow Like a Mermaid"
-              imagePath="SummerBeauty/BlueLagoonThumbnail.jpg"
-              linkUrl="/summerbeauty"
-              isFlipped={true}
-            />
-          </Grid>
 
           <Grid item xs={12} sm={6} md={6} lg={4}>
             <HeroSection2a
@@ -159,6 +150,15 @@ const HomeTutorials = () => {
             />
           </Grid>
 
+          <Grid item xs={12} sm={6} md={6} lg={4}>
+            <HeroSection2a
+              featureText="SUMMER BEAUTY"
+              headlineText="Summer Beauty Essentials: Glow Like a Mermaid"
+              imagePath="SummerBeauty/BlueLagoonThumbnail.jpg"
+              linkUrl="/summerbeauty"
+              isFlipped={true}
+            />
+          </Grid>
           <Grid item xs={12} sm={6} md={6} lg={4}>
             <HeroSection2a
               featureText="60s GLAM"

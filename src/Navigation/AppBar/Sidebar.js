@@ -12,7 +12,11 @@ import styles from './Sidebar.module.css';
 const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
     { name: 'HOME', path: '/' },
+    { name: 'HOME', path: '/' },
+    { name: 'HOME', path: '/' },
     { name: 'ABOUT', path: '/about' },
+
+   
     { name: 'TUTORIALS', path: '/tutorials' },
     { name: 'QUIZ', path: '/quiz' },
     { name: 'BRIDAL', path: '/bridal' },

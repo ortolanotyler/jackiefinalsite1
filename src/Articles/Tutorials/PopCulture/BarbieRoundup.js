@@ -12,13 +12,13 @@ import YoutubeShortFacade from '../../../Components/YouTubeShortFacade';
 import EmailSubscribe from '../../../Components/EmailSubscribe';
 
 
-const image1 = `${process.env.PUBLIC_URL}/Images/BarbieRoundup/1.JPG`;
-const image2 = `${process.env.PUBLIC_URL}/Images/BarbieRoundup/2.JPG`;
-const image3 = `${process.env.PUBLIC_URL}/Images/BarbieRoundup/3.JPG`;
-const image4 = `${process.env.PUBLIC_URL}/Images/BarbieRoundup/4.jpeg`;
-const image5 = `${process.env.PUBLIC_URL}/Images/BarbieRoundup/5.jpeg`;
-const image6 = `${process.env.PUBLIC_URL}/Images/BarbieRoundup/6.jpeg`;
-const image8 = `${process.env.PUBLIC_URL}/Images/BarbieRoundup/7.jpeg`;
+const image1 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieRoundup/1.JPG`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieRoundup/2.JPG`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieRoundup/3.JPG`;
+const image4 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieRoundup/4.jpeg`;
+const image5 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieRoundup/5.jpeg`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieRoundup/6.jpeg`;
+const image8 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieRoundup/7.jpeg`;
 
 
 
