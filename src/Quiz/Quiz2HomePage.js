@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid } from '@mui/material';
+import { Box, Grid } from '@mui/material';
 
 import { Helmet } from 'react-helmet-async';
 
@@ -32,13 +32,12 @@ const Quiz2Homepage = () => {
         text="🐈‍⬛🦌 The Animal Pretty Quiz 🐇🦊" 
         style={{ backgroundColor: '#fdedef', width: '100%' }} 
       />
-                
-                <Grid item xs={12}>
+                    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 1 }}>
+
                       <Quiz2 />
-                </Grid>
                   
            
-        
+        </Box>
         
              
            
