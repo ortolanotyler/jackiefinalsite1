@@ -307,38 +307,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   The upcoming Wicked movie, with Ariana Grande as Glinda, has generated buzz on par with the Barbie movie’s marketing phenomenon. Ariana’s flawless vocals and playful style are sure to bring fresh energy to the role, and her beauty looks will no doubt inspire makeup lovers everywhere. Now, let’s recreate the magic of her Glinda look, step-by-step!
 </p>
 
-<div style={{ position: 'relative', display: 'inline-block' }}>
-  <img 
-    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233116/2_h6dsz0.jpg" 
-    alt="Jackie Wyers as Ariana Grande as Glinda. Pink makeup recreation inspired by Wicked the movie 2024." 
-    style={{
-      display: 'block',
-      margin: '1rem auto',
-      borderRadius: '0px',
-      height: 'auto'
-    }} 
-    data-pin-url="https://www.jackiewyers.beauty/articles/wicked"
-    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233116/2_h6dsz0.jpg"
-    data-pin-description="Jackie Wyers recreates Ariana Grande's Glinda makeup from Wicked 2024 in a pink makeup tutorial."
-  />
-  <img 
-    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233116/2_h6dsz0.jpg"
-    alt="Pin this on Pinterest" 
-    style={{
-      position: 'absolute',
-      top: '20px',
-      right: '20px',
-      width: '50px',
-      height: '50px',
-      cursor: 'pointer',
-      opacity: 0.9,
-      transition: 'opacity 0.3s'
-    }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/wicked&media=https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233116/2_h6dsz0.jpg&description=Jackie Wyers recreates Ariana Grande\'s Glinda makeup from Wicked 2024 in a pink makeup tutorial.')}
-    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
-    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
-  />
-</div>
+
 
 <div style = {{
   margin : '1rem auto',
