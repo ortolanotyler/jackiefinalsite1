@@ -126,9 +126,9 @@ const DragonBraid = () => {
     name="description" 
     content="Learn how to create a Dragon Braid with this easy pull-through braid tutorial for beginners. Perfect for a voluminous, braided hairstyle that looks intricate but is super simple to achieve!" 
   />
-  <meta 
-    name="keywords" 
-    content="Dragon Braid tutorial, Pull-through braid, easy braid for beginners, voluminous braid hairstyles, braided hairstyles 2024, pull-through braid tutorial, dragon braid for long hair, Jackie Wyers, hair tutorial, braid tutorial, faux french braid, easy hairstyles, virtual hair tutorial, hairstyle tutorials 2024, braided looks" 
+  <meta
+    name="keywords"
+    content="how to create a dragon braid, step-by-step pull-through braid tutorial, dragon braid tutorial for long hair, braided hairstyles for beginners, easy voluminous braid hairstyles, faux French braid tutorial, pull-through braid with rubber bands, dragon braid ideas for weddings, long hair braid tutorial 2024, voluminous braid hairstyles"
   />
 
   {/* Open Graph Meta Tags */}
