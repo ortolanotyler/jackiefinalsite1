@@ -97,11 +97,14 @@ function HomePage() {
         </Box>
        
 
-        <TextBanner2 text="FEATURED" margin='0 auto' height="250px" width="100%"  />
+        <TextBanner2 text="FEATURED" margin='0 auto' height="200px" width="100%"  />
+        
+        
         <TextReveal
-        text="🐈‍⬛🦌 The Animal Pretty Quiz 🐇🦊" 
-        style={{ backgroundColor: '#fdedef', width: '100%' }} 
+        text="The Animal Pretty Quiz " 
+        style={{ backgroundColor: '#fdedef', width: '100%', height: '100px' }} 
       />
+     
 
 
         
@@ -113,7 +116,10 @@ function HomePage() {
       <Quiz2 />
     </Box>
   
-
+    <TextReveal
+        text="🐈‍⬛🦌🐇🦊" 
+        style={{ backgroundColor: '#fdedef', width: '100%', height: '100px' }} 
+      />
 
 
 
