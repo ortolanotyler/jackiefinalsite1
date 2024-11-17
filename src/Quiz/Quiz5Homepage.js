@@ -7,6 +7,7 @@ import Quiz2 from './Quiz2';
 import Quiz3 from './Quiz3';
 import Quiz4 from './Quiz4';
 import Quiz5 from './Quiz5';
+import AdSenseAd from '../Home/Adsense';
 
 const Quiz5Homepage = () => {
   return (
@@ -85,6 +86,10 @@ const Quiz5Homepage = () => {
       >
         <Quiz4 />
       </Box>
+          
+      <Box sx={{ margin: '1rem auto' }}>
+       <AdSenseAd/>
+      </Box>
 
       {/* Animal Pretty Quiz Section */}
       <Box sx={{ width: '100%' }}>
@@ -93,6 +98,7 @@ const Quiz5Homepage = () => {
           style={{ backgroundColor: '#fdedef', width: '100%', margin: 0 }}
         />
       </Box>
+      
 
       {/* Quiz2 Content */}
       <Box
@@ -105,6 +111,10 @@ const Quiz5Homepage = () => {
         }}
       >
         <Quiz2 />
+      </Box>
+          
+      <Box sx={{ margin: '1rem auto' }}>
+       <AdSenseAd/>
       </Box>
 
       {/* Wedding Dress Quiz Section */}
@@ -126,6 +136,11 @@ const Quiz5Homepage = () => {
         }}
       >
         <Quiz3 />
+      </Box>
+
+          
+      <Box sx={{ margin: '1rem auto' }}>
+       <AdSenseAd/>
       </Box>
 
       {/* Subscribe Section */}

@@ -8,6 +8,7 @@ import Quiz2 from './Quiz2';
 import Quiz3 from './Quiz3';
 import Quiz4 from './Quiz4';
 import Quiz5 from './Quiz5';
+import AdSenseAd from '../Home/Adsense';
 
 const QuizHomepage = () => {
   return (
@@ -88,6 +89,11 @@ const QuizHomepage = () => {
       >
         <Quiz3 />
       </Box>
+
+          
+      <Box sx={{ margin: '1rem auto' }}>
+       <AdSenseAd/>
+      </Box>
         {/* Quiz Banner Section */}
         <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
         <TextReveal
@@ -107,6 +113,10 @@ const QuizHomepage = () => {
         }}
       >
         <Quiz4 />
+      </Box>
+          
+      <Box sx={{ margin: '1rem auto' }}>
+       <AdSenseAd/>
       </Box>
         {/* Quiz Banner Section */}
         <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
@@ -128,10 +138,14 @@ const QuizHomepage = () => {
       >
         <Quiz5 />
       </Box>
-
+    
+      <Box sx={{ margin: '1rem auto' }}>
+       <AdSenseAd/>
+      </Box>
       {/* Subscribe Section */}
       <TextReveal text="Stay Updated with New Quizzes!" height="200px" width="100%" />
       <Box sx={{ margin: '2rem auto', width: '100%', display: 'flex', justifyContent: 'center' }}>
+     
         <EmailSubscribe />
       </Box>
     </Box>
