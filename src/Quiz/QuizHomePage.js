@@ -64,8 +64,8 @@ const QuizHomepage = () => {
           flexDirection: 'column',
           alignItems: 'center',
           gap: 2,
-          
-          padding: { xs: '50px', md: '70px' },
+          margin: '0 auto',
+          padding: { xs: '10px', md: '20px' },
         }}
       >
         <Quiz2 />

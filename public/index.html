@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,35 +13,42 @@
     function gtag(){ dataLayer.push(arguments); }
 
     gtag('consent', 'default', {
-      'ad_storage': 'granted',         
-      'ad_personalization': 'granted', 
-      'ad_user_data': 'granted',       
-      'analytics_storage': 'granted',  
-      'functionality_storage': 'granted',
-      'personalization_storage': 'granted',
-      'security_storage': 'granted'
-    });
+   'ad_storage': 'granted',         // Allow ad storage
+   'ad_personalization': 'granted', // Allow ad personalization
+   'ad_user_data': 'granted',       // (Optional) Allow user data collection for ads
+   'analytics_storage': 'granted',  // Allow Google Analytics tracking (if you use it)
+   'functionality_storage': 'granted',
+   'personalization_storage': 'granted',
+   'security_storage': 'granted'
+});
   </script>
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-RT6GR7JXYG', {
-      'anonymize_ip': true, 
-      'send_page_view': true
-    });
-  </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-RT6GR7JXYG', {
+    'anonymize_ip': true, 
+    'send_page_view': true
+  });
+</script>
 
   <!-- Favicon and Icons -->
   <link rel="icon" href="%PUBLIC_URL%/Images/Home/jwlogo3.png" sizes="32x32" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/Images/Home/jwlogo3.png" sizes="180x180" />
   <link rel="icon" type="image/png" href="%PUBLIC_URL%/android-chrome-192x192.png" sizes="192x192" />
 
-  <!-- Fonts and Meta Tags -->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=GFS+Didot:wght@100&family=Arapey:ital,wght@0,400;1,400&family=Lora:wght@100&family=Playfair+Display:wght@400&family=Raleway:wght@100&family=Open+Sans:wght@300&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot:wght@100&family=Arapey:ital,wght@0,400;1,400&family=Lora:wght@100&family=Playfair+Display:wght@400&family=Raleway:wght@100&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  </noscript>
+
+  <!-- Meta Tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#000000">
@@ -54,10 +60,9 @@
   <style>
     body {
       font-family: 'Playfair Display', serif;
-      font-weight: 400;
       margin: 0;
       padding: 0;
-      background-color: #ffffff;
+      background-color: #fff;
       color: #000000;
     }
     h1, h2, h3, p {
@@ -70,8 +75,7 @@
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
 
-  <!-- Google AdSense Auto Ads Configuration -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
+  <!-- Google AdSense Auto Ads (Delayed Load) -->
   <script>
     (window.adsbygoogle = window.adsbygoogle || []).push({
       google_ad_client: "ca-pub-4660168246825318",
@@ -79,10 +83,9 @@
       google_autoAdOptions: {
         "anchor": {
           "top": false, // Disable top anchor ads
-          "bottom": true // Enable bottom anchor ads
+          "bottom": true // Allow bottom anchor ads
         }
       }
     });
-  </script>
-</body>
+  </script></body>
 </html>
