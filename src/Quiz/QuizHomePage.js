@@ -9,6 +9,8 @@ import Quiz3 from './Quiz3';
 import Quiz4 from './Quiz4';
 import Quiz5 from './Quiz5';
 import AdSenseAd from '../Home/Adsense';
+import EmailSubscribe2 from '../Components/EmailSubscribe2';
+import HorizontalLine from '../Components/HorizontalLine';
 
 const QuizHomepage = () => {
   return (
@@ -70,12 +72,19 @@ const QuizHomepage = () => {
       >
         <Quiz2 />
       </Box>
+      <Box sx={{ margin: '1rem auto' }}>
+       <AdSenseAd/>
+      </Box>
         {/* Quiz Banner Section */}
         <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
         <TextReveal
           text="ULTIMATE WEDDING DRESS QUIZ"
           style={{ backgroundColor: '#fdedef', width: '100%' }}
         />
+      </Box>
+
+      <Box sx={{ margin: '1rem auto' }}>
+       <AdSenseAd/>
       </Box>
 
       {/* Quiz Content */}
@@ -91,6 +100,10 @@ const QuizHomepage = () => {
         <Quiz3 />
       </Box>
 
+      <Box sx={{ margin: '1rem auto' }}>
+       <AdSenseAd/>
+      </Box>
+
           
      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
         {/* Quiz Banner Section */}
@@ -99,6 +112,10 @@ const QuizHomepage = () => {
           text="HALLOWEEN COSTUME QUIZ"
           style={{ backgroundColor: '#fdedef', width: '100%' }}
         />
+      </Box>
+
+      <Box sx={{ margin: '1rem auto' }}>
+       <AdSenseAd/>
       </Box>
 
       {/* Quiz Content */}
@@ -112,6 +129,10 @@ const QuizHomepage = () => {
         }}
       >
         <Quiz4 />
+      </Box>
+
+      <Box sx={{ margin: '1rem auto' }}>
+       <AdSenseAd/>
       </Box>
           
           </Box>
@@ -136,12 +157,22 @@ const QuizHomepage = () => {
         <Quiz5 />
       </Box>
     
-      <Box sx={{ margin: '1rem auto' , textAlign: 'center'}}>
+   
+      <HorizontalLine/>
+<HorizontalLine/>
+
+          
+      <Box sx={{ margin: '1rem auto' }}>
        <AdSenseAd/>
       </Box>
+
       {/* Subscribe Section */}
-      <TextReveal text="Stay Updated with New Quizzes!" height="200px" width="100%" />
-  
+      <Box sx={{ width: '100%' }}>
+       <EmailSubscribe2/>
+      </Box>
+
+      <HorizontalLine/>
+<HorizontalLine/>
     </Box>
   );
 };
