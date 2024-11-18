@@ -8,8 +8,6 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
-import AdSenseAd from '../../../Home/Adsense';
-import HorizontalLine from '../../../Components/HorizontalLine';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
