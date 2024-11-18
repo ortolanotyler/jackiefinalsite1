@@ -12,6 +12,7 @@
 .main-content {
   padding-top: 60px; /* Ensure this aligns correctly with the height of your AppBar */
   background-color: #ffffff;
+  
   position: relative; /* Make sure it's positioned correctly */
   z-index: 1; /* Lower than AppBar to prevent overlap issues */
 }

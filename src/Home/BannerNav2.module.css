@@ -1,0 +1,103 @@
+
+.searchBannerNavContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebebeb;
+    margin: 1rem auto ;
+    font-family: 'Playfair Display', sans-serif;
+    text-transform: lowercase;
+    font-weight: 400;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.searchWrapper {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 0.5rem 1.25rem;
+    font-size: 0.88rem;
+    border: 1px solid #8b6a23 ;
+    border-radius: 50px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    background-color: #ebebeb;
+    color: #101010;
+    box-sizing: border-box;
+}
+
+.searchInput:focus {
+    border-color: #8b6a23;
+}
+
+.searchResults {
+    position: absolute;
+    top: calc(100% + 1rem); /* Places dropdown right below the input field */
+    min-width: 200px;
+    max-width: 400px;
+    background-color: #101010;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    border-radius: 5px;
+    overflow: hidden;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+}
+
+.searchResultItem {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #101010;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    color: #ebebeb;
+}
+
+.searchResultItem:hover {
+    background-color: #101010;
+}
+
+.searchResultItem:last-child {
+    border-bottom: none;
+}
+
+.searchResultImage {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 0.75rem;
+    border-radius: 4px;
+}
+
+.searchResultTitle {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #ebebeb;
+}
+
+.searchResultCategory {
+    font-size: 0.8rem;
+    color: #8b6a23;
+}
+
+.searchCallLink {
+    color: #ebebeb;
+    text-decoration: underline;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.searchCallLink:hover {
+    color: #FFD700;
+}

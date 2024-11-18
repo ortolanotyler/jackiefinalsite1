@@ -29,7 +29,6 @@ const About = () => {
 
       
       </Grid>
-      <TextReveal text='MEET JACKIE' backgroundColor= 'white'/>
 
       <Grid item xs={12} md={6} className={styles['about-text-section']}>
         <div style={{ padding: '10px', margin: '0 2.5rem', fontFamily: 'Playfair Display, serif', color: '#745B4F' , backgroundColor: '#fdedef'  }} className={styles['about-left-text']}>

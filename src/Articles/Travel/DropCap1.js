@@ -34,7 +34,7 @@ const DropCap1 = ({ text, style }) => {
         style={{
           fontSize: '100px',
           float: 'left',
-          margin: '0.75rem',
+          margin: '1rem auto',
           lineHeight: '.75',
           color: '#000000',
         }}

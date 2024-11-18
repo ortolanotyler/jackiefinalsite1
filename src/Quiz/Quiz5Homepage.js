@@ -46,7 +46,8 @@ const Quiz5Homepage = () => {
       </Helmet>
 
       {/* Male vs Female Gaze Quiz Section */}
-      <Box sx={{ width: '100%' }}>
+      <Box sx={{ width: '100%' ,          padding: { xs: '50px', md: '70px' },
+}}>
         <TextReveal
           text="MALE vs FEMALE GAZE QUIZ"
           style={{ backgroundColor: '#fdedef', width: '100%', margin: 0 }}
