@@ -14,6 +14,7 @@ import NewsletterSlider from './NewsletterSlider';
 import TextRevealHomePage1 from '../Components/TextRevealHomePage1';
 import MyStyleSlider1 from '../Shop/MyStyleSlider1';
 import Quiz2 from '../Quiz/Quiz2';
+import HorizontalLine from '../Components/HorizontalLine';
 
 function HomePage() {
   const isMobile = useMediaQuery('(max-width:650px)'); // Check if the screen size is mobile
@@ -95,10 +96,11 @@ function HomePage() {
         <Box sx={{ paddingTop: isMobile ? '50px' : '0px' }}>
           <QuiltedImageList1 />
         </Box>
+
        
 
-        <TextBanner2 text="FEATURED" margin='0 auto' height="200px" width="100%"  />
-        
+        <TextBanner2 text="FEATURED" padding= '1rem' margin='0 0.15rem' height="250px" width="100%"  />
+  
         
         <TextReveal
         text="The Animal Pretty Quiz " 
