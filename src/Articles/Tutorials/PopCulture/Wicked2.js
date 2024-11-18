@@ -47,7 +47,7 @@ const WickedCollabs = () => {
     <div ref={blogRef}>
       <div
         style={{
-          margin: '0 auto',
+          margin: '1rem',
           maxWidth: '100%',
           padding: '10px',
         }}
