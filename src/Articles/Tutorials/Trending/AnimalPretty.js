@@ -21,9 +21,9 @@ const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
   <div
     style={{
-      margin: '0 auto',
+      margin: '1rem',
       maxWidth: '95%',
-      padding: '10px',
+      padding: '1rem',
     }}
   >
     <div className="card">
