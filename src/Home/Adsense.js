@@ -21,7 +21,7 @@ const AdSenseAd = () => {
     };
 
     return () => {
-      // Clean up by removing the script when the component unmounts
+      // Optionally, you can clean up by removing the script when the component unmounts
       document.body.removeChild(script);
     };
   }, []);
@@ -30,10 +30,11 @@ const AdSenseAd = () => {
     <div style={{ justifyContent: 'center', margin: '1rem auto' }}>
       <ins
         className="adsbygoogle"
-        style={{ display: 'block' }} // Ensures a block display style
-        data-ad-format="autorelaxed" // Updated ad format
+        style={{ display: 'block' }}  // style must be an object
+        data-ad-format="fluid"
+        data-ad-layout-key="-6l+e6+1d-4c+81"
         data-ad-client="ca-pub-4660168246825318"
-        data-ad-slot="1141198063" // Updated ad slot
+        data-ad-slot="6901719843"
       ></ins>
     </div>
   );
