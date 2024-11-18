@@ -72,9 +72,36 @@ const Quiz2Homepage = () => {
         <Quiz2 />
       </Box>
 
+
       <HorizontalLine/>
 <AdSenseAd/>
 <HorizontalLine/>
+
+      {/* Male vs Female Gaze Quiz Section */}
+      <Box sx={{ width: '100%' }}>
+        <TextReveal
+          text="MALE vs FEMALE GAZE QUIZ"
+          style={{ backgroundColor: '#fdedef', width: '100%', margin: 0 }}
+        />
+      </Box>
+
+      {/* Quiz5 Content */}
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: 2,
+          padding: { xs: '10px', md: '30px' },
+        }}
+      >
+        <Quiz5 />
+      </Box>
+
+      <HorizontalLine/>
+<AdSenseAd/>
+<HorizontalLine/>
+
  <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
       </Box>
 
@@ -129,39 +156,13 @@ const Quiz2Homepage = () => {
         <Quiz3 />
       </Box>
 
-      <HorizontalLine/>
-<AdSenseAd/>
-<HorizontalLine/>
+   
 
 
 
      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
       </Box>
 
-      {/* Male vs Female Gaze Quiz Section */}
-      <Box sx={{ width: '100%' }}>
-        <TextReveal
-          text="MALE vs FEMALE GAZE QUIZ"
-          style={{ backgroundColor: '#fdedef', width: '100%', margin: 0 }}
-        />
-      </Box>
-
-      {/* Quiz5 Content */}
-      <Box
-        sx={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          gap: 2,
-          padding: { xs: '10px', md: '30px' },
-        }}
-      >
-        <Quiz5 />
-      </Box>
-
-      <HorizontalLine/>
-<AdSenseAd/>
-<HorizontalLine/>
 
    
 
