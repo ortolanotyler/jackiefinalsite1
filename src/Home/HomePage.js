@@ -103,7 +103,7 @@ function HomePage() {
   
         
         <TextReveal
-        text="The Animal Pretty Quiz " 
+        text="Animal Pretty Quiz " 
         style={{ backgroundColor: '#fdedef', width: '100%', height: '100px' }} 
       />
      
