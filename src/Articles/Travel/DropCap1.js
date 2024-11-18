@@ -29,12 +29,12 @@ const DropCap1 = ({ text, style }) => {
   };
 
   return (
-    <p style={{ fontFamily: 'Playfair Display, serif', maxWidth: '95%' }}>
+    <p style={{ fontFamily: 'Playfair Display, serif', maxWidth: '95%', margin: '1rem auto' }}>
       <span
         style={{
           fontSize: '100px',
           float: 'left',
-          margin: ' auto',
+          margin: '5px auto',
           marginRight: '0.75rem',
           lineHeight: '1',
           color: '#000000',
@@ -47,7 +47,7 @@ const DropCap1 = ({ text, style }) => {
           fontSize: '20px',
 
 
-          margin: '1rem ',
+          margin: '1rem auto',
           fontWeight: '100',
           fontFamily: 'EB Garamond, serif',
        
