@@ -1,7 +1,5 @@
 /* App.css */
-@import url('https://fonts.googleapis.com/css2?family=Arapey&family=GFS+Didot&family=Italianno&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=GFS+Didot:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
 * {
   font-display: swap;
 }
