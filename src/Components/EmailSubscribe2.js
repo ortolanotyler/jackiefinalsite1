@@ -42,8 +42,8 @@ export default function EmailSubscribe2() {
           
      
           fontFamily: 'Playfair Display, serif', 
-          margin: '1rem auto',
-          padding: '1rem ',
+          margin: '0 auto',
+          fontWeight : '400',
           maxWidth: '100%',
           color: '#000000', 
         }}
@@ -54,7 +54,7 @@ export default function EmailSubscribe2() {
 
 <div style = {{
 margin: '1rem auto',
-marginBottom: '1rem'
+
 }}>
 <EmailSubscribe/>
 </div>

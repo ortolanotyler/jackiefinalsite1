@@ -8,11 +8,11 @@
 }
 
 .question-section {
-  margin: 5px auto;
+  margin: 0 auto;
 }
 
 .question-text {
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Playfair Display", serif;
   font-weight: 400;
   color: #745b4f;
