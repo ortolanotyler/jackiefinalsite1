@@ -90,7 +90,7 @@ const QuizHomepage = () => {
           flexDirection: 'column',
           alignItems: 'center',
           gap: 2,
-          padding: { xs: '10px', md: '30px' },
+         
         }}
       >
         <Quiz3 />
@@ -117,7 +117,6 @@ const QuizHomepage = () => {
           flexDirection: 'column',
           alignItems: 'center',
           gap: 2,
-          padding: { xs: '10px', md: '30px' },
         }}
       >
         <Quiz4 />
