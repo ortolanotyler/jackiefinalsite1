@@ -4,7 +4,7 @@
   text-align: center;
   background-color: #ffffff;
   border-radius: 0px;
-  padding: 5px 20px;
+  padding: 5px ;
 }
 
 .question-section {
@@ -33,7 +33,7 @@
   width: 280px; /* Set a fixed width for buttons */
   height: 200px; /* Set consistent height */
   border: none;
-  border-radius: 10px;
+  border-radius: 25px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -58,7 +58,7 @@
 
 @media (max-width: 768px) {
   .answer-button {
-    width: 95%; /* Adjust width for smaller screens */
+    width: 100%; /* Adjust width for smaller screens */
     height: auto; /* Maintain aspect ratio */
     margin: 0 auto;
   }

@@ -85,7 +85,7 @@ function HomePage() {
       <Box sx={{ backgroundColor: '#ffffff',display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
         {!isMobile && (
           <>
-            <TextRevealHomePage1 text="JACKIE WYERS" style={{ backgroundColor: '#fdedef', fontFamily: 'Playfair Display, serif', fontWeight: '400' }} />
+            <TextRevealHomePage1 text="JACKIE WYERS" style={{ backgroundColor: '#fdedef', fontFamily: 'Playfair Display, serif', fontWeight: '400', fontSize: '28px' }} />
             <Paper elevation={0} sx={{ backgroundColor: '#ffffff', fontFamily: 'Playfair Display, serif', borderRadius: '0px', color: '#745B4F', textAlign: 'center', margin: '0.88rem '}}>
               <RotatingText />
             </Paper>

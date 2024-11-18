@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   font-family: 'Playfair Display', serif;
-  font-weight: '400';
+  font-weight: 400;
   align-items: center;
   text-align: center;
   padding: 2.5rem 0; /* Add some padding for a better look */
