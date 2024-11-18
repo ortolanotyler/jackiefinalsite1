@@ -100,9 +100,9 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
             backgroundColor: '#745B4F',
             color: 'white',
             padding: '0.5rem 1rem',
-            fontSize: '1rem',
+            fontSize: '1.25rem',
             fontFamily: 'Playfair Display, serif',
-            borderRadius: '4px',
+            borderRadius: '50px',
             '&:hover': {
               backgroundColor: '#5f4a3e',
             },
