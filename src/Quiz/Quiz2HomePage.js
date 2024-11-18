@@ -9,12 +9,13 @@ import Quiz4 from './Quiz4';
 import Quiz5 from './Quiz5';
 import AdSenseAd from '../Home/Adsense';
 import EmailSubscribe2 from '../Components/EmailSubscribe2';
+import HorizontalLine from '../Components/HorizontalLine';
 
 const Quiz2Homepage = () => {
   return (
-    <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
+    <Box sx={{ width: '100%', backgroundColor: '#ffffff', transform: 'translateZ(0)' }}>
       <Helmet>
-        <title>Jackie Wyers' Quiz Homepage</title>
+        <title>Jackie Wyers' Animal Pretty Quiz and More! </title>
         <meta
           name="description"
           content="It started with the legendary Animal Pretty Calculator, with more quizzes being added every week!"
@@ -23,7 +24,7 @@ const Quiz2Homepage = () => {
           name="keywords"
           content="beauty quiz, wedding dress quiz, animal pretty, Jackie Wyers, makeup quiz, beauty styles"
         />
-        <meta property="og:title" content="Jackie Wyers' Quiz Homepage" />
+        <meta property="og:title" content="Jackie Wyers' Animal Pretty Quiz " />
         <meta
           property="og:description"
           content="Discover your perfect wedding dress style and find your animal face type with Jackie Wyers' interactive quizzes!"
@@ -37,7 +38,7 @@ const Quiz2Homepage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Jackie Wyers' Quiz Homepage"
+          content="Jackie Wyers' Animal Pretty Quiz "
         />
         <meta
           name="twitter:description"
@@ -93,8 +94,9 @@ const Quiz2Homepage = () => {
       >
         <Quiz4 />
       </Box>
+<HorizontalLine/>
+<HorizontalLine/>
 
-          
     <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
       </Box>
 
@@ -121,6 +123,7 @@ const Quiz2Homepage = () => {
       >
         <Quiz3 />
       </Box>
+
 
      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
       </Box>

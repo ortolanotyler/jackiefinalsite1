@@ -8,7 +8,7 @@ const HorizontalLine = () => {
         width: '100%',
         height: '1px',
         backgroundColor: 'rgba(0, 0, 0, 0.05)', // Faint black line with 10% opacity
-        margin: '10px auto', // Adjust the vertical margin
+        margin: '10px', // Adjust the vertical margin
       }}
     />
   );
