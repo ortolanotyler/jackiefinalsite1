@@ -44,7 +44,7 @@
 .searchResults {
     position: absolute;
     top: calc(100% + 1rem); /* Places dropdown right below the input field */
-    min-width: 250px;
+    min-width: 200px;
     font-family: 'Playfair Display', serif;
     font-size: 1rem;
     max-width: 400px;
