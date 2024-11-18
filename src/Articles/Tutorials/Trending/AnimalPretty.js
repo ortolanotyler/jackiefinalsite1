@@ -228,9 +228,7 @@ style = {{
         text="Hey beauties, it’s Jackie! Today, we're diving into a fun and fresh way to explore beauty styles with my 'Types of Pretty' makeup series inspired by adorable animals like deer, cats, foxes, and bunnies. Whether you saw this trend on TikTok or my latest YouTube tutorial, I’m thrilled to bring this unique concept to the blog where we break down each style with detailed makeup guides."
       />
 
-<HorizontalLine/>
-<AdSenseAd/>
-<HorizontalLine/>
+
 
     
       <h2 style={headingStyle}>Deer Pretty: Soft and Ethereal 🦌</h2>
@@ -285,9 +283,7 @@ style = {{
   Want to really showcase your animal inspiration? Fable England has beautiful enamel earrings, necklaces, and embroidered bags featuring fawn designs.
 </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/552834?noHeader=true" title="Fable England Accessories" style={{ height: '1000px' }} />
-<HorizontalLine/>
-<AdSenseAd/>
-<HorizontalLine/>
+
 <h2 style={headingStyle}>Cat Pretty: Bold and Intense 🐈‍⬛</h2>
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
   <img src={image5} alt="Cat Pretty - Jackie Wyers" style={{ width: '100%' }} />
@@ -303,37 +299,27 @@ style = {{
   <strong>Eyes:</strong> Sweep cool-toned shimmers, like silver and white, across your lids and deepen up with taupe in the crease. Victoria Beckham Beauty Smoky Eye Brick in Tuxedo is the perfect palette. Draw a bold, winged eyeliner that extends beyond the outer corners to enhance the cat-eye illusion and enhance the outer corner with a black shadow.
 </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/552837?noHeader=true" title="Victoria Beckham Beauty Smoky Eye Brick in Tuxedo" />
-<HorizontalLine/>
-<AdSenseAd/>
-<HorizontalLine/>
+
 <p style={paragraphStyle}>
   <strong>Lashes:</strong> Go for dramatic, fanned-out lashes that complement the bold liner, amplifying the overall eye makeup. Try ISOPIA Iso-Gentle Echo Lashes.
 </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/552911?noHeader=true" title="ISOPIA Iso-Gentle Echo Lashes" />
-<HorizontalLine/>
-<AdSenseAd/>
-<HorizontalLine/>
+
 <p style={paragraphStyle}>
   <strong>Cheeks:</strong> Sculpt your cheeks with a cool-toned contour powder to add depth and enhance your natural bone structure, mimicking the chiseled look typical of a sleek feline.
 </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/552914?noHeader=true" title="Cool Toned Contour Powder" />
-<HorizontalLine/>
-<AdSenseAd/>
-<HorizontalLine/>
+
 <p style={paragraphStyle}>
   <strong>Lips:</strong> Select deep mauve tones for a seductively pouty effect or go for a nude lip combo. A high-shine gloss can add dimension and a touch of glamour. Check out Deep Mauve Lip Colour.
 </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/552839?noHeader=true" title="Deep Mauve Lip Colour" />
-<HorizontalLine/>
-<AdSenseAd/>
-<HorizontalLine/>
+
 <p style={paragraphStyle}>
   <strong>Outfit Inspiration:</strong> Channel '90s off-duty supermodel vibes with structured yet casual elements. Think fitted black tanks paired with low-waisted baggy jeans. Explore Revolve for trendy, contemporary pieces and local thrift stores for genuine '90s gems like sleek sunglasses.
 </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/552842?noHeader=true" title="90s Supermodel Style" />
-<HorizontalLine/>
-<AdSenseAd/>
-<HorizontalLine/>
+
 <h2 style={headingStyle}>Fox Pretty: Rustic and Earthy 🦊</h2>
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
   <img src={image6} alt="Fox Pretty - Jackie Wyers" style={{ width: '100%' }} />
