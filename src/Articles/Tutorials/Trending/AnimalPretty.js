@@ -8,6 +8,7 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
+import AdSenseAd from '../../../Home/Adsense';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
@@ -181,6 +182,8 @@ style = {{
 
 </div>
 
+
+
       <ArticleTitle
         mainTitle="Which Type of Pretty Are You? Animal Edition!"
         subTitle="Deer, Cat, Fox, or Bunny?"
@@ -230,7 +233,11 @@ style = {{
         text="Hey beauties, it’s Jackie! Today, we're diving into a fun and fresh way to explore beauty styles with my 'Types of Pretty' makeup series inspired by adorable animals like deer, cats, foxes, and bunnies. Whether you saw this trend on TikTok or my latest YouTube tutorial, I’m thrilled to bring this unique concept to the blog where we break down each style with detailed makeup guides."
       />
 
-      
+      <div style = {{
+        padding:'1rem'
+      }}>
+        <AdSenseAd/>
+      </div>
 
     
       <h2 style={headingStyle}>Deer Pretty: Soft and Ethereal 🦌</h2>
