@@ -7,7 +7,6 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import HomeIcon from '@mui/icons-material/Home';
-import styles from './Sidebar.module.css';
 import BannerNavSearch from '../../Home/SearchBar';
 
 const Sidebar = ({ isOpen, toggleDrawer }) => {
@@ -19,17 +18,10 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'BRIDAL', path: '/bridal' },
     { name: 'TRAVEL', path: '/travel' },
     { name: 'POP CULTURE', path: '/popculture' },
-   
     { name: 'VINTAGE VIBES', path: '/timetraveltutorials' },
     { name: 'REVIEWS', path: '/reviews' },
-
     { name: 'SHOP MY STYLE', path: '/mystyle' },
-
-
-  
-
     { name: 'DIARY', path: '/diary' },
-    
   ];
 
   return (
@@ -62,7 +54,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
         </IconButton>
 
         {/* Search Bar */}
-        <Box sx={{ marginBottom: '1rem' , paddingTop: '50px'}}>
+        <Box sx={{ marginBottom: '1rem', paddingTop: '50px' }}>
           <BannerNavSearch />
         </Box>
 
@@ -97,13 +89,19 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           sx={{
             marginTop: '1rem',
             backgroundColor: '#745B4F',
-            color: 'white',
-            padding: '0.5rem 1rem',
+            color: '#f8f8f8 !important',
             fontSize: '1rem',
-            fontFamily: 'Playfair Display, serif',
-            borderRadius: '4px',
+            fontWeight: '400',
+            textTransform: 'lowercase',
+            letterSpacing: '0.1em',
+            borderRadius: '50px',
+            padding: '10px 20px',
+            fontFamily: 'Playfair Display, serif ',
+            transition: 'color 0.3s ease', // Smooth transition for color change
             '&:hover': {
-              backgroundColor: '#5f4a3e',
+              color: '#000000 !important', // Change text color on hover
+              backgroundColor: '#fdedef', // Maintain the same background color
+              border: '1px solid #745B4F !important',
             },
           }}
         >

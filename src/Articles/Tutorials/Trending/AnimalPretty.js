@@ -40,7 +40,7 @@ const AnimalPretty = () => {
     textAlign: 'center',
     fontSize: '28px',
     fontWeight: '400',
-    fontFamily: "Playfair Display, sans-serif",
+    fontFamily: "Playfair Display, serif",
     color: '#000000',
     maxWidth: '95%',
   
@@ -66,7 +66,7 @@ const AnimalPretty = () => {
   
   const linkStyle = {
   textDecoration: 'none', // Removes underline from links
-  fontFamily: "Georgia, serif",
+  fontFamily: "Playfair Display, serif",
   fontWeight: '400',
   color: '#745B4F', // Inherits the color of the surrounding text
   };
