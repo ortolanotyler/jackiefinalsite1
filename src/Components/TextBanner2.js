@@ -40,8 +40,8 @@ const TextBanner2 = ({ text = "SHOPPING", height = '50px', width = '100%', maxFo
   const styles = {
     container: {
       display: 'flex',
-      margin: '2.5rem auto',
-      padding: '2rem',
+      margin: '1rem auto',
+      padding: '5px',
       justifyContent: 'center',
       textAlign: 'center',
       fontFamily: 'Playfair Display, serif',

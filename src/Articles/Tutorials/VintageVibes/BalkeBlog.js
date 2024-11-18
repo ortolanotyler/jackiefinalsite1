@@ -56,13 +56,13 @@ const BalkeBlog = () => {
   margin: '10px auto',
   
   
-    lineHeight: '1.6',
+    lineHeight: '1.25',
   
   };
   
   const linkStyle = {
   textDecoration: 'none', // Removes underline from links
-  fontFamily: "'Georgia', serif",
+  fontFamily: "Georgia, serif",
   fontWeight: '100',
   color: '#745B4F', // Inherits the color of the surrounding text
   };

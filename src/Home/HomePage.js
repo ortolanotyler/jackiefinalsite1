@@ -99,7 +99,7 @@ function HomePage() {
 
        
 
-        <TextBanner2 text="FEATURED" padding= '1rem' margin='0 0.15rem' height="250px" width="100%"  />
+        <TextBanner2 text="FEATURED"  margin='0 0.15rem' height="100px" width="100%"  />
   
         
         <TextReveal
