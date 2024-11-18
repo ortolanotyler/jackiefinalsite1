@@ -64,7 +64,7 @@ const HomeTutorials = () => {
               featureText="BARBIE COLLABS"
               headlineText="Top 5 Must-Have Barbie Collaborations for Adult Fans in 2024"
               imagePath="BarbieRoundup/1.JPG"
-              linkUrl="/articles/barbie-roundup"
+              linkUrl="/barbie-roundup"
               isFlipped={false}
             />
           </Grid>
