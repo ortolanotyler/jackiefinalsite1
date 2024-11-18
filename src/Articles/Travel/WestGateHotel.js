@@ -189,7 +189,7 @@ const Card = ({ blogContent }) => (
   mainTitle="The Westgate Hotel Review: A Bridgerton Experience Fit for Royalty in San Diego"
   subTitle="A Regency Retreat fit for a Queen"
   author="Jackie Wyers"
-  publishDate="May 13,2024"
+  publishDate="May 13, 2024"
 />
 
 <SocialShare 
