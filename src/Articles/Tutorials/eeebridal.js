@@ -4,7 +4,7 @@ import HeroSection2a from '../../Home/HeroSection2a';
 
 const Eeebridal = () => {
   return (
-    <Box sx={{ width: '100%', margin: '1rem auto', padding: '30px', backgroundColor: 'white' }}>
+    <Box sx={{ width: '80%', margin: '1rem auto', padding: '30px', backgroundColor: 'white' }}>
       <Grid container spacing={2} justifyContent="center">
         {/* Row 1 */}
         <Grid item xs={12} sm={6} md={6} lg={4}>
