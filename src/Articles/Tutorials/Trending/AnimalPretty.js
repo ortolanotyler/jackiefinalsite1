@@ -57,7 +57,7 @@ const AnimalPretty = () => {
   fontFamily: "EB Garamond, serif",
   fontWeight: '100',
   padding: '10px',
-  margin: '10px auto',
+  margin: '1rem ',
   
   
     lineHeight: '1.6',
