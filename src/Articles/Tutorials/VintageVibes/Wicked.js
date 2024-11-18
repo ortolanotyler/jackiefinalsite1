@@ -24,7 +24,7 @@ const Card = ({ blogContent }) => (
     style={{
       margin: '0 auto',
       maxWidth: '95%', // Control max width to center the content
-      padding: '10px', // Add padding to prevent text from touching the edges
+      padding: '1rem', // Add padding to prevent text from touching the edges
     }}
   >
     <div className="card">
@@ -60,7 +60,7 @@ fontSize: '20px',
 color: '#000000',
 
 fontFamily: "EB Garamond, serif",
-fontWeight: '300',
+fontWeight: '400',
 padding: '10px',
 margin: '10px auto',
 
@@ -485,8 +485,8 @@ here.
 
 
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-        <a href="/girly-pop-halloween" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
-          <img src={image6} alt="Barbie Movie Halloween Article" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
+        <a href="/girly-pop-halloween" style={{ fontFamily: 'Georgia, serif', fontSize: '14px', color: '#3a3a3a', textDecoration: 'underline', textAlign: 'center' }}>
+          <img src={image6} alt="Barbie Movie Halloween Article" style={{ width: '100%', maxWidth: '400px', margin: '0 auto', display: 'block' }} />
           MORE POP CULTURE →
         </a>
       </div>
