@@ -6,14 +6,17 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import HomeIcon from '@mui/icons-material/Home';
+import HomeIcon from '@mui/icons-material/Home'; // Import the Home icon
 import styles from './Sidebar.module.css';
-import BannerNavSearch from '../../Home/SearchBar';
 
 const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
     { name: 'HOME', path: '/' },
+    { name: 'HOME', path: '/' },
+    { name: 'HOME', path: '/' },
     { name: 'ABOUT', path: '/about' },
+
+   
     { name: 'TUTORIALS', path: '/tutorials' },
     { name: 'QUIZ', path: '/quiz' },
     { name: 'BRIDAL', path: '/bridal' },
@@ -30,87 +33,73 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
       anchor="left"
       open={isOpen}
       onClose={toggleDrawer}
-      PaperProps={{ style: { zIndex: 1400, width: '300px', overflow: 'hidden' } }}
+      PaperProps={{ style: { zIndex: 1400, overflow: 'hidden' } }}
     >
       <Box
+        className={styles.sidebar}
         role="presentation"
         sx={{
           display: 'flex',
           flexDirection: 'column',
+          justifyContent: 'center',
           height: '100%',
-          backgroundColor: '#fdedef',
-          color: '#745B4F',
-          padding: '1rem',
+          padding: '1rem 1.25rem',
         }}
       >
-        {/* Close Button */}
         <IconButton
           onClick={toggleDrawer}
           sx={{
-            alignSelf: 'flex-end',
+            position: 'absolute',
+            top: '1rem',
+            right: '1rem',
             color: '#745B4F',
+            fontFamily: 'Playfair Display, serif',
           }}
         >
           <CloseIcon />
         </IconButton>
 
-        {/* Search Bar */}
-        <Box sx={{ marginBottom: '1rem' , paddingTop: '50px'}}>
-          <BannerNavSearch />
-        </Box>
-
-        {/* Menu Items */}
-        <Box sx={{ flexGrow: 1, overflowY: 'auto' }}>
+        <Box sx={{ flexGrow: 1, overflowY: 'auto', paddingBottom: '1px' }}>
           {menuItems.map((item) => (
             <Button
               key={item.name}
               component={Link}
               to={item.path}
+              className={styles.sidebarButton}
               onClick={toggleDrawer}
-              sx={{
-                display: 'block',
-                width: '100%',
-                textAlign: 'left',
-                padding: '0.5rem 1rem',
-                fontFamily: 'Playfair Display, serif',
-                fontSize: '1.1rem',
-                color: '#745B4F',
-              }}
             >
-              {item.name}
+              <Typography
+                variant="h6"
+                className={styles.sidebarTypography}
+                style={{ fontFamily: 'Playfair Display, serif' }}
+              >
+                {item.name}
+              </Typography>
             </Button>
           ))}
         </Box>
 
-        {/* Subscribe Button */}
         <Button
+          key="subscribe-button"
           component={Link}
           to="/subscribe"
+          className={styles.subscribeButton}
           onClick={toggleDrawer}
           sx={{
-            marginTop: '1rem',
-            backgroundColor: '#745B4F',
-            color: 'white',
-            padding: '0.5rem 1rem',
-            fontSize: '1rem',
-            fontFamily: 'Playfair Display, serif',
-            borderRadius: '4px',
-            '&:hover': {
-              backgroundColor: '#5f4a3e',
-            },
+            margin: '1rem auto',
+            padding: '5px',
           }}
         >
           Subscribe
         </Button>
 
-        {/* Social Links */}
         <Box
           sx={{
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            gap: '10px',
-            marginTop: '1rem',
+            gap: '5px',
+            marginBottom: '1rem',
           }}
         >
           <a href="/" onClick={toggleDrawer}>
