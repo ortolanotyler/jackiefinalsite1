@@ -64,11 +64,11 @@ const Card = ({ blogContent }) => (
       textAlign: 'center',
       fontSize: '2.5rem',
       fontWeight: '100',
-      fontFamily: "'Playfair Display', sans-serif",
+      fontFamily: "Playfair Display, sans-serif",
       color: '#000000',
       maxWidth: '95%',
     
-      margin: '30px auto'
+      margin: '1rem auto'
     };
     
     
@@ -80,8 +80,8 @@ const Card = ({ blogContent }) => (
     
     fontFamily: "EB Garamond, serif",
     fontWeight: '100',
-    padding: '10px',
-    margin: '10px auto',
+    padding: '1rem',
+    margin: '1rem auto',
     
     
       lineHeight: '1.6',

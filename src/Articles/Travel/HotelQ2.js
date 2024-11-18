@@ -157,6 +157,8 @@ const HotelQ2 = () => {
     <div className="container">
      <Helmet>
   <title>Hotel Quintessence | A hidden gem of summer in Canada</title>
+  <link rel="canonical" href="https://www.jackiewyers.beauty/hotelquintessance-summer" />
+
   <meta name="description" content="A detailed review of the Hotel Quintessence, covering first impressions, room options, amenities, and overall experience." />
   <meta 
   name="keywords" 
