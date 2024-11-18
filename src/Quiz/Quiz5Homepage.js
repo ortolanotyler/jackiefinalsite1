@@ -104,7 +104,16 @@ const Quiz5Homepage = () => {
           style={{ backgroundColor: '#fdedef', width: '100%', margin: 0 }}
         />
       </Box>
+
+      <HorizontalLine/>
+      <HorizontalLine/>
+
+      <Box sx={{ margin: '1rem auto' }}>
+       <AdSenseAd/>
+      </Box>
       
+      <HorizontalLine/>
+      <HorizontalLine/>
 
       {/* Quiz2 Content */}
       <Box
