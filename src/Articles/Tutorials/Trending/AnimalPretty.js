@@ -203,17 +203,18 @@ style = {{
         title="Animal Pretty Makeup Tutorial"
       />
 
-      <div style={{ marginTop: '2rem', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <div style={{ margin: '1rem auto', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <SubscribeButton />
       </div>
 
       <div>
         <p
           style={{
-            margin: '2rem 0',
+            margin: '1rem 0',
             textAlign: 'center',
             fontSize: '1rem',
-            fontFamily: 'Arapey, serif',
+            fontFamily: 'EB Garamond, serif',
+            fontWeight: '400',
             maxWidth: '100%',
             fontStyle: 'italic',
           }}
