@@ -13,9 +13,9 @@ const Footer = () => {
     const location = useLocation(); // Get the current location
 
     return (
-        <>about
+        <>
             <div style={{ width: '100%', overflowX: 'hidden', backgroundColor: '#ffffff' }}>
-            <HorizontalLine/>
+         
 
             
                 <SwitchUpYour />
