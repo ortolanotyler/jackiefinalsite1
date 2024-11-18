@@ -124,6 +124,9 @@ const Quiz2Homepage = () => {
         <Quiz3 />
       </Box>
 
+      <HorizontalLine/>
+<HorizontalLine/>
+
 
      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
       </Box>
@@ -149,6 +152,9 @@ const Quiz2Homepage = () => {
         <Quiz5 />
       </Box>
 
+      <HorizontalLine/>
+<HorizontalLine/>
+
    
 
       {/* Subscribe Section */}
@@ -156,6 +162,8 @@ const Quiz2Homepage = () => {
      
         <EmailSubscribe2 />
       </Box>
+      <HorizontalLine/>
+<HorizontalLine/>
   
     </Box>
   );
