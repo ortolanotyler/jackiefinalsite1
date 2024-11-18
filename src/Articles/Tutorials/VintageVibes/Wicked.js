@@ -267,38 +267,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   If you're a fan of musicals or pop culture, you’re probably familiar with Wicked—one of the most successful Broadway shows of all time. Based on Gregory Maguire’s novel, Wicked explores the untold story of the witches of Oz, focusing on the complex friendship between Glinda the Good Witch and Elphaba, the Wicked Witch of the West.
 </p>
 
-<div style={{ position: 'relative', display: 'inline-block' }}>
-  <img 
-    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728233119/3_s8zdyu.jpg" 
-    alt="Jackie Wyers as Glinda on Broadway in the iconic blue dress." 
-    style={{
-      display: 'block',
-      margin: '1rem auto',
-      borderRadius: '0px',
-      height: 'auto'
-    }} 
-    data-pin-url="https://www.jackiewyers.beauty/articles/wicked"
-    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233119/3_s8zdyu.jpg"
-    data-pin-description="Jackie Wyers as Glinda on Broadway in the iconic blue dress, a step-by-step makeup tutorial inspired by Wicked."
-  />
-  <img 
-    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233119/3_s8zdyu.jpg"
-    alt="Pin this on Pinterest" 
-    style={{
-      position: 'absolute',
-      top: '20px',
-      right: '20px',
-      width: '50px',
-      height: '50px',
-      cursor: 'pointer',
-      opacity: 0.9,
-      transition: 'opacity 0.3s'
-    }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/wicked&media=https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233119/3_s8zdyu.jpg&description=Jackie Wyers as Glinda on Broadway in the iconic blue dress, a step-by-step makeup tutorial inspired by Wicked.')}
-    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
-    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
-  />
-</div>
+
 <p style={captionStyle}>
   Original Makeup design by Joe Dulude II for the original Broadway production of Wicked. Recreation by Jackie Wyers.
 </p>
