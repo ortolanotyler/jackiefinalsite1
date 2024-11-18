@@ -124,19 +124,18 @@ function HomePage() {
         style={{ backgroundColor: '#fdedef', width: '100%', height: '100px' }} 
       />
 
-    <HorizontalLine />
-    <AdSenseAd/>
-    <HorizontalLine />
+ 
+
   
   
 
 
 
-<TextBanner2 text="NEW & POPULAR"  height="auto" width="100%" fontSize="30px"  />
+<TextBanner2 text="FEATURED"  margin='0 0.15rem' height="100px" width="100%"  />
         
         <FeaturedGrid6 />
 
-
+        <AdSenseAd/>
 
         <NewsletterSlider />
 

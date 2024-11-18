@@ -414,12 +414,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   Glinda’s hair is all about soft, romantic curls. I styled a wig half-up, half-down with a flower pin, which she later pins in Elphaba’s hair during her POPULAR makeover attempt. And, of course, no Glinda look is complete without glitter spray! A final touch of shimmer captures her ethereal charm. Check out me trying out the POPULAR On Til Dawn spray as the musical version of Glinda on Broadway!
 </p>
+<AdSenseAd/>
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/snYdmqknVs8?si=koyJgbteBRdq-ET_" title="VIRAL Glitter Setting Spray?! ✨🩵🫧 Let's Try It!😳" />
 
 
 <p style={paragraphStyle}>Looking for a perfect Glinda dress? I picked out this one from Ivy city co that comes in both adult and child sizes! 🎀</p>
-<AdSenseAd/>
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/853526?noHeader=true" style={{ width: '100%', minHeight: '340px', border: 'none' }}></ResponsiveIframe>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/853528?noHeader=true" style={{ width: '100%', minHeight: '340px', border: 'none' }}></ResponsiveIframe>
@@ -431,7 +431,6 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/867494?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}></ResponsiveIframe>
-<AdSenseAd/>
 
 <p style={paragraphStyle}>Thank you for joining me on this magical Glinda transformation! Stay tuned for my glamorous Elphaba tutorial coming soon!</p>
 
@@ -477,7 +476,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 Looking for more Halloween inspiration? Check out
 my girly round up of pop culture Halloween styles
-here.
+below. 
 
 </p>
 
@@ -497,7 +496,6 @@ here.
       </div>
       
       <Comments website-id={websiteId} page-id={"wicked22-65fizz"} />
-      <AdSenseAd/>
       <AdSenseAd/>
      
     </div>
