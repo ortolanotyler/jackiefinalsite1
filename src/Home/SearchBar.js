@@ -12,7 +12,8 @@ const BannerNavSearch = () => {
     const query = event.target.value;
     setSearchQuery(query);
 
-    if (query.length >= 3) {
+    // Adjusted threshold to 2 letters
+    if (query.length >= 2) {
       const filteredResults = SearchData.filter((item) =>
         item.title.toLowerCase().includes(query.toLowerCase())
       );
@@ -51,14 +52,18 @@ const BannerNavSearch = () => {
             {searchResults.map((result) => (
               <div key={result.id} className={styles.searchResultItem}>
                 <div>
-                  <p className={styles.searchResultTitle}>{result.title}</p>
                   <a
                     href={result.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    style={{
+                      textDecoration: 'none',
+                      fontFamily: 'Playfair Display, serif',
+                      fontWeight: '400',
+                      fontSize: '22px',
+                    }}
+                    rel="noreferrer"
                     className={styles.searchCallLink}
                   >
-                    Visit Page
+                    <p className={styles.searchResultTitle}>{result.title}</p>
                   </a>
                 </div>
               </div>

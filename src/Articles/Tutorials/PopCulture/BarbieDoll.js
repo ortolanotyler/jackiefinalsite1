@@ -138,7 +138,7 @@ const BarbieDoll = () => {
     <div className="container">
 <Helmet>
   <title>Barbie Beauty Makeup Looks: Stunning Ways to Channel Your Inner Doll - Jackie Wyers</title>
-  <link rel="canonical" href="https://www.jackiewyers.beauty/barbie-makeup-looks" />
+  <link rel="canonical" href="https://www.jackiewyers.beauty/barbie-doll" />
 
   <meta 
     name="description" 
@@ -159,7 +159,7 @@ const BarbieDoll = () => {
     property="og:image" 
     content="https://www.jackiewyers.beauty/Images/Articles/BarbieDoll/BarbieThumbnail.jpg" 
   />
-  <meta property="og:url" content="https://www.jackiewyers.beauty/barbie-makeup-looks" />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/barbie-doll" />
   <meta property="og:type" content="article" />
 
   {/* Twitter Meta Tags */}
@@ -202,7 +202,7 @@ const BarbieDoll = () => {
         "dateModified": "2024-09-23",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://www.jackiewyers.beauty/barbie-makeup-looks"
+          "@id": "https://www.jackiewyers.beauty/barbie-doll"
         }
       }
     `}

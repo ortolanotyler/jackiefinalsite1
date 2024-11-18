@@ -3,8 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ebebeb;
-    margin: 1rem auto ;
+    background-color: #fdedef;
+    margin: 5px auto ;
     font-family: 'Playfair Display', sans-serif;
     text-transform: lowercase;
     font-weight: 400;
@@ -24,48 +24,52 @@
 .searchInput {
     width: 100%;
     padding: 0.5rem 1.25rem;
-    font-size: 0.88rem;
-    border: 1px solid #8b6a23 ;
+    font-size: 1rem;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid #ffffff ;
     border-radius: 50px;
+    color: #745B4F;
+
     outline: none;
     transition: border-color 0.3s ease;
-    background-color: #ebebeb;
-    color: #101010;
+    background-color: #ffffff;
+    color: #745B4F;
     box-sizing: border-box;
 }
 
 .searchInput:focus {
-    border-color: #8b6a23;
+    border-color: #fdedef;
 }
 
 .searchResults {
     position: absolute;
     top: calc(100% + 1rem); /* Places dropdown right below the input field */
-    min-width: 200px;
+    min-width: 250px;
+    font-family: 'Playfair Display', serif;
+
     max-width: 400px;
-    background-color: #101010;
+    background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     z-index: 1000;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
-    max-height: 400px;
+    max-height: 1000px;
     overflow-y: auto;
-    border: 1px solid #ebebeb;
+    border: 1px solid #ffffff;
     box-sizing: border-box;
+    color: #745B4F;
+
 }
 
 .searchResultItem {
     display: flex;
     align-items: center;
-    padding: 1rem;
-    border-bottom: 1px solid #101010;
+    padding: 5px;
+    margin: 1rem auto;
+    border-bottom: 1px solid #ffffff; /* Adjusted the line color */
     transition: background-color 0.2s ease;
     cursor: pointer;
-    color: #ebebeb;
-}
-
-.searchResultItem:hover {
-    background-color: #101010;
+    color: #745B4F;
 }
 
 .searchResultItem:last-child {
@@ -83,21 +87,22 @@
 .searchResultTitle {
     font-size: 0.9rem;
     font-weight: 400;
-    color: #ebebeb;
+    color: #745B4F;
 }
 
 .searchResultCategory {
     font-size: 0.8rem;
-    color: #8b6a23;
+    color: #745B4F;
 }
 
 .searchCallLink {
-    color: #ebebeb;
+    color: #745B4F;
     text-decoration: underline;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
 .searchCallLink:hover {
-    color: #FFD700;
+    color: #745B4F;
+
 }
