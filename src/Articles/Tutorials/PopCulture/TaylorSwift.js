@@ -53,7 +53,7 @@ const TaylorSwiftHoliday = () => {
 
   const linkStyle = {
     textDecoration: 'none',
-    fontFamily: "'Georgia', serif",
+    fontFamily: "Georgia, serif",
     fontWeight: '100',
     color: '#745B4F',
   };
