@@ -64,8 +64,8 @@ const Fable = () => {
     const headingStyle = {
       textAlign: 'center',
       fontSize: '2.5rem',
-      fontWeight: '100',
-      fontFamily: "'Playfair Display', sans-serif",
+      fontWeight: '400',
+      fontFamily: "Playfair Display, sans-serif",
       color: '#000000',
       maxWidth: '95%',
     

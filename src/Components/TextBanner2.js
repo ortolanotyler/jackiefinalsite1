@@ -40,7 +40,7 @@ const TextBanner2 = ({ text = "SHOPPING", height = '50px', width = '100%', maxFo
   const styles = {
     container: {
       display: 'flex',
-      margin: '1rem auto',  
+      margin: '0 auto',  
       fontSize: '28px',
       justifyContent: 'center',
       textAlign: 'center',
@@ -71,7 +71,7 @@ const TextBanner2 = ({ text = "SHOPPING", height = '50px', width = '100%', maxFo
             ...styles.letter,
             ...(hoveredIndex === index ? styles.hoveredLetter : {}),
             fontSize, // Apply dynamic font size
-            margin: '0 0.15rem', // Space between letters
+            margin: '1rem 0.15rem', // Space between letters
           }}
           onMouseEnter={() => handleMouseEnter(index)}
           onMouseLeave={handleMouseLeave}

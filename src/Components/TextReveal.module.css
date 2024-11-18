@@ -16,7 +16,7 @@
   display: inline-block;
   padding: 1rem;
   opacity: 0;
-  animation: fade-in 3s forwards;
+  animation: fade-in 5s forwards;
   font-family: 'Playfair Display', serif; /* Set font to Arapey only */
   font-size: 24px; /* Responsive font size */
   text-align: center; /* Center-align the text */
