@@ -72,6 +72,10 @@ const QuizHomepage = () => {
       >
         <Quiz2 />
       </Box>
+
+      <HorizontalLine/>
+<AdSenseAd/>
+<HorizontalLine/>
   
         {/* Quiz Banner Section */}
         <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
@@ -95,6 +99,10 @@ const QuizHomepage = () => {
       >
         <Quiz3 />
       </Box>
+
+      <HorizontalLine/>
+<AdSenseAd/>
+<HorizontalLine/>
 
   
 
@@ -122,6 +130,9 @@ const QuizHomepage = () => {
         <Quiz4 />
       </Box>
 
+      <HorizontalLine/>
+<AdSenseAd/>
+<HorizontalLine/>
     
       
           
@@ -149,6 +160,7 @@ const QuizHomepage = () => {
     
    
       <HorizontalLine/>
+<AdSenseAd/>
 <HorizontalLine/>
 
           
@@ -159,8 +171,7 @@ const QuizHomepage = () => {
        <EmailSubscribe2/>
       </Box>
 
-      <HorizontalLine/>
-<HorizontalLine/>
+   
     </Box>
   );
 };
