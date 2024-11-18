@@ -13,7 +13,7 @@ import BannerNavSearch from '../../Home/SearchBar';
 const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
     { name: 'HOME', path: '/' },
-    { name: 'BLOG', path: '/tutorials' },
+    { name: 'BEAUTY', path: '/tutorials' },
     { name: 'QUIZ', path: '/quiz' },
     { name: 'TRENDING', path: '/trends' },
     { name: 'BRIDAL', path: '/bridal' },
