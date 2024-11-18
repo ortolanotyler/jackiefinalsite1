@@ -71,6 +71,10 @@ const Quiz2Homepage = () => {
       </Box>
         <Quiz2 />
       </Box>
+
+      <HorizontalLine/>
+<AdSenseAd/>
+<HorizontalLine/>
  <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
       </Box>
 
@@ -95,6 +99,7 @@ const Quiz2Homepage = () => {
         <Quiz4 />
       </Box>
 <HorizontalLine/>
+<AdSenseAd/>
 <HorizontalLine/>
 
     <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
@@ -125,7 +130,9 @@ const Quiz2Homepage = () => {
       </Box>
 
       <HorizontalLine/>
+<AdSenseAd/>
 <HorizontalLine/>
+
 
 
      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
@@ -153,6 +160,7 @@ const Quiz2Homepage = () => {
       </Box>
 
       <HorizontalLine/>
+<AdSenseAd/>
 <HorizontalLine/>
 
    
