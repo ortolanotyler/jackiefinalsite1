@@ -1,13 +1,12 @@
 import React, { useRef } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
-import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import { Helmet } from 'react-helmet-async';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
-import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
+import AdSenseAd from '../../../Home/Adsense';
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
 const next = `${process.env.PUBLIC_URL}/Images/Articles/Homepage/HalloweenThumb.webp`;
@@ -256,6 +255,8 @@ textAlign: 'center',
           title="Cambridge Satchel Glinda Bag"
           style={{ width: '100%', minHeight: '340px', border: 'none' }}
         />
+
+        <AdSenseAd/>
         
         <h3 style={headingStyle}>Beis Wicked Luggage Collection</h3>
         <p style={paragraphStyle}>
@@ -278,7 +279,8 @@ textAlign: 'center',
           title="Vera Bradley Wicked Prints"
           style={{ width: '100%', minHeight: '340px', border: 'none' }}
         />
-        
+                <AdSenseAd/>
+
         <h3 style={headingStyle}>Rebecca Minkoff Wicked Collection</h3>
         <p style={paragraphStyle}>
           Rebecca Minkoff’s Wicked collection brings a chic, modern vibe with subtle nods to Oz. Her designs are perfect for fans looking for versatile, fashionable pieces for any occasion.
@@ -311,7 +313,8 @@ textAlign: 'center',
           title="Aldo Pink Bow Heels and Bag"
           style={{ width: '100%', minHeight: '340px', border: 'none' }}
         />
-        
+                <AdSenseAd/>
+
         <h2 style={headingStyle}>Collectibles to Add a Touch of Oz to Your Home</h2>
         
         <h3 style={headingStyle}>Voluspa Candle Set</h3>
@@ -335,7 +338,8 @@ textAlign: 'center',
           title="Marks and Spencer Holiday Ornaments"
           style={{ width: '100%', minHeight: '340px', border: 'none' }}
         />
-        
+                <AdSenseAd/>
+
         <h3 style={headingStyle}>Mattel’s Wicked Dolls</h3>
         <p style={paragraphStyle}>
           The Mattel dolls capture the magic of Wicked with beautiful detailing, especially in the dresses. If you’re a doll collector, these are must-haves.
@@ -394,7 +398,8 @@ textAlign: 'center',
           title="IT Cosmetics Wicked Brushes"
           style={{ width: '100%', minHeight: '340px', border: 'none' }}
         />
-        
+                <AdSenseAd/>
+
         <h3 style={headingStyle}>Target Wicked Cardigan</h3>
         <p style={paragraphStyle}>
           Cozy and perfect for chilly days, this Wicked-themed cardigan from Target brings a touch of Oz on a budget.
@@ -435,6 +440,7 @@ textAlign: 'center',
 
         </p>
 
+        <AdSenseAd/>
 
 
 
@@ -489,6 +495,7 @@ textAlign: 'center',
 <img src={signature} alt="jackie wyers end of article signature" style={{ width: '100%' }} />
 
 <Comments website-id={websiteId} page-id="wicked2" />
+
 </div>
 </div>
 </div>
