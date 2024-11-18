@@ -269,7 +269,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
-    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto,q_auto/v1728233119/3_s8zdyu.jpg" 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/f_auto/v1728233119/3_s8zdyu.jpg" 
     alt="Jackie Wyers as Glinda on Broadway in the iconic blue dress." 
     style={{
       display: 'block',
