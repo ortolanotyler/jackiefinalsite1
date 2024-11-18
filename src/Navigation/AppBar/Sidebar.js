@@ -13,16 +13,24 @@ import BannerNavSearch from '../../Home/SearchBar';
 const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
     { name: 'HOME', path: '/' },
-    { name: 'ABOUT', path: '/about' },
-    { name: 'TUTORIALS', path: '/tutorials' },
+    { name: 'BLOG', path: '/tutorials' },
     { name: 'QUIZ', path: '/quiz' },
+    { name: 'TRENDING', path: '/trends' },
     { name: 'BRIDAL', path: '/bridal' },
     { name: 'TRAVEL', path: '/travel' },
-    { name: 'SHOP MY STYLE', path: '/mystyle' },
+    { name: 'POP CULTURE', path: '/popculture' },
+   
+    { name: 'VINTAGE VIBES', path: '/timetraveltutorials' },
     { name: 'REVIEWS', path: '/reviews' },
+
+    { name: 'SHOP MY STYLE', path: '/mystyle' },
+
+
+  
+
     { name: 'DIARY', path: '/diary' },
     { name: 'CONTACT', path: '/contact' },
-    { name: 'SITEMAP', path: '/sitemap' },
+    
   ];
 
   return (

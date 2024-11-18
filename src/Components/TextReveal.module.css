@@ -8,14 +8,13 @@
   display: grid;
   place-items: center;
   text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
    
 
 }
 
 .textReveal {
   display: inline-block;
-  padding: 1.5rem;
+  padding: 1rem;
   opacity: 0;
   animation: fade-in 3s forwards;
   font-family: 'Playfair Display', serif; /* Set font to Arapey only */

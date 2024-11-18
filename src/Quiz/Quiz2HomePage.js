@@ -48,13 +48,6 @@ const Quiz2Homepage = () => {
         />
       </Helmet>
 
-      {/* Animal Pretty Quiz Section */}
-      <Box sx={{ width: '100%' }}>
-        <TextReveal
-          text="🐈‍⬛🦌 The Animal Pretty Quiz 🐇🦊"
-          style={{ backgroundColor: '#fdedef', width: '100%', margin: 0 }}
-        />
-      </Box>
 
       {/* Quiz2 Content */}
       <Box
@@ -63,9 +56,17 @@ const Quiz2Homepage = () => {
           flexDirection: 'column',
           alignItems: 'center',
           gap: 2,
-          padding: { xs: '50px', md: '70px' },
+          padding: { xs: '100px', md: '100px' },
         }}
       >
+
+      {/* Animal Pretty Quiz Section */}
+      <Box sx={{ width: '100%' }}>
+        <TextReveal
+          text="The Animal Pretty Quiz"
+          style={{ backgroundColor: '#ffffff', width: '100%', margin: 0 }}
+        />
+      </Box>
         <Quiz2 />
       </Box>
  <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>

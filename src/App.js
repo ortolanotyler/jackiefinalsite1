@@ -135,11 +135,9 @@ import Quiz4Bridgerton from './Quiz/QuizResultPages/Quiz4/Quiz4bridgerton';
 import Quiz4Ariel from './Quiz/QuizResultPages/Quiz4/Quiz4Ariel';
 import Quiz4Taylor from './Quiz/QuizResultPages/Quiz4/Quiz4Taylor';
 import DragonBraid from './Articles/Tutorials/PopCulture/DragonBraid';
-import EmailSubscribe2 from './Components/EmailSubscribe2';
 import Quiz5Male from './Quiz/QuizResultPages/Quiz5/Quiz5Male';
 import Quiz5Female from './Quiz/QuizResultPages/Quiz5/Quiz5Female';
 import Quiz5Homepage from './Quiz/Quiz5Homepage';
-import HalloweenRoundup2 from './Articles/Tutorials/PopCulture/HalloweenRoundup2';
 import HorseGirlEnergy from './Shop/ShopMyHomeLinks/HorseGirl';
 import Haircare1 from './Articles/Tutorials/PopCulture/Haircare1';
 import WickedCollabs from './Articles/Tutorials/PopCulture/Wicked2';
@@ -316,7 +314,6 @@ function App() {
             <Route path="/quiz/male" element={<Quiz5Male />} />
             <Route path="/quiz/female" element={<Quiz5Female />} />
 
-            <Route path="/articles/halloween-roundup" element={<HalloweenRoundup2 />} />
             <Route path="/horsegirlenergy" element={<HorseGirlEnergy />} />
             <Route path="/articles/hair-growth-secrets" element={<Haircare1 />} />
             <Route path="/articles/wicked-collaborations-2024" element={<WickedCollabs />} />
