@@ -38,9 +38,9 @@ const AnimalPretty = () => {
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '2.5rem',
-    fontWeight: '100',
-    fontFamily: "'Playfair Display', sans-serif",
+    fontSize: '28px',
+    fontWeight: '400',
+    fontFamily: "Playfair Display, sans-serif",
     color: '#000000',
     maxWidth: '95%',
   
@@ -51,7 +51,7 @@ const AnimalPretty = () => {
 
   
   const paragraphStyle = {
-  fontSize: '20px',
+  fontSize: '22px',
   color: '#000000',
   
   fontFamily: "EB Garamond, serif",
@@ -66,20 +66,20 @@ const AnimalPretty = () => {
   
   const linkStyle = {
   textDecoration: 'none', // Removes underline from links
-  fontFamily: "'Georgia', serif",
-  fontWeight: '100',
+  fontFamily: "Georgia, serif",
+  fontWeight: '400',
   color: '#745B4F', // Inherits the color of the surrounding text
   };
   const gridContainerStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
     gap: '10px',
-    margin: '0 2rem'
+    margin: '1rem'
   };
   
   const imageStyle = {
   display: 'block',
-  margin: '1rem auto',
+  margin: '1rem',
   borderRadius: '0px',
   height: 'auto'
   };
