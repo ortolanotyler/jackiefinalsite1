@@ -38,20 +38,21 @@
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
   color: #ffffff;
   font-family: "Playfair Display", serif;
-  font-size: 1.25rem;
-  font-weight: bold;
+  font-size: 20px;
+
+  font-weight: 400;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   justify-content: center; /* Center text inside button */
   align-items: center; /* Center text vertically */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
 }
 
 .answer-button:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
@@ -62,7 +63,7 @@
     margin: 0 auto;
   }
   .answer-section {
-    gap: 15px; /* Reduce gap on smaller screens */
+    gap: 1rem; /* Reduce gap on smaller screens */
         margin: 0 auto;
 
   }
