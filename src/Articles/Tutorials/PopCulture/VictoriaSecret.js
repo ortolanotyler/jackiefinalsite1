@@ -61,8 +61,8 @@ const VictoriaSecret = () => {
   
   fontFamily: "EB Garamond, serif",
   fontWeight: '100',
-  padding: '10px',
-  margin: '10px auto',
+  padding: '1rem',
+  margin: '1rem ',
   
   
     lineHeight: '1.6',
@@ -71,7 +71,7 @@ const VictoriaSecret = () => {
   
   const linkStyle = {
   textDecoration: 'none', // Removes underline from links
-  fontFamily: "'Georgia', serif",
+  fontFamily: "Georgia, serif",
   fontWeight: '100',
   color: '#745B4F', // Inherits the color of the surrounding text
   };
