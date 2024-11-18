@@ -8,11 +8,11 @@
 }
 
 .question-section {
-  margin-bottom: 20px;
+  margin: 5px auto;
 }
 
 .question-text {
-  font-size: 1.25rem;
+  font-size: 20px;
   font-family: "Playfair Display", serif;
   font-weight: 400;
   color: #745b4f;
@@ -57,7 +57,7 @@
 
 @media (max-width: 768px) {
   .answer-button {
-    width: 90%; /* Adjust width for smaller screens */
+    width: 95%; /* Adjust width for smaller screens */
     height: auto; /* Maintain aspect ratio */
     margin: 0 auto;
   }
