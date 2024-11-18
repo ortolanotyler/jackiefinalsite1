@@ -66,11 +66,13 @@
     align-items: center;
     padding: 5px;
     margin: 1rem auto;
-    border-bottom: 1px solid #ffffff; /* Adjusted the line color */
+    border-bottom: 1px solid #101010;
     transition: background-color 0.2s ease;
     cursor: pointer;
     color: #745B4F;
 }
+
+
 
 .searchResultItem:last-child {
     border-bottom: none;
