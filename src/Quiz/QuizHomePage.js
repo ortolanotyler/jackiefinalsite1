@@ -72,9 +72,7 @@ const QuizHomepage = () => {
       >
         <Quiz2 />
       </Box>
-      <Box sx={{ margin: '1rem auto' }}>
-       <AdSenseAd/>
-      </Box>
+   <AdSenseAd/>
         {/* Quiz Banner Section */}
         <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
         <TextReveal
@@ -83,9 +81,7 @@ const QuizHomepage = () => {
         />
       </Box>
 
-      <Box sx={{ margin: '1rem auto' }}>
-       <AdSenseAd/>
-      </Box>
+   <AdSenseAd/>
 
       {/* Quiz Content */}
       <Box
@@ -100,9 +96,7 @@ const QuizHomepage = () => {
         <Quiz3 />
       </Box>
 
-      <Box sx={{ margin: '1rem auto' }}>
-       <AdSenseAd/>
-      </Box>
+   <AdSenseAd/>
 
           
      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
@@ -114,9 +108,7 @@ const QuizHomepage = () => {
         />
       </Box>
 
-      <Box sx={{ margin: '1rem auto' }}>
-       <AdSenseAd/>
-      </Box>
+   <AdSenseAd/>
 
       {/* Quiz Content */}
       <Box
@@ -131,9 +123,8 @@ const QuizHomepage = () => {
         <Quiz4 />
       </Box>
 
-      <Box sx={{ margin: '1rem auto' }}>
+    
        <AdSenseAd/>
-      </Box>
           
           </Box>
         {/* Quiz Banner Section */}
@@ -162,9 +153,7 @@ const QuizHomepage = () => {
 <HorizontalLine/>
 
           
-      <Box sx={{ margin: '1rem auto' }}>
-       <AdSenseAd/>
-      </Box>
+   <AdSenseAd/>
 
       {/* Subscribe Section */}
       <Box sx={{ width: '100%' }}>
