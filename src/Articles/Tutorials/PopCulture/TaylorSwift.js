@@ -16,8 +16,8 @@ const Card = ({ blogContent }) => (
   <div
     style={{
       margin: '0 auto',
-      maxWidth: '100%',
-      padding: '10px',
+      maxWidth: '95%',
+      padding: '0',
     }}
   >
     <div className="card">
@@ -42,12 +42,13 @@ const TaylorSwiftHoliday = () => {
 
   const paragraphStyle = {
     fontSize: '20px',
+
     color: '#000000',
     fontFamily: "EB Garamond, sans-serif",
     fontWeight: '100',
     padding: '10px',
     margin: '10px auto',
-    lineHeight: '1.5',
+    lineHeight: '1.75',
   };
 
   const linkStyle = {
@@ -170,8 +171,8 @@ const TaylorSwiftHoliday = () => {
       <p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
         All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
-
-      <DropCap1
+<p style = {paragraphStyle}>
+<DropCap1
   text={
     <>
       Holiday season is upon us, and as a Swiftie, I always get excited to shop{' '}
@@ -187,6 +188,9 @@ const TaylorSwiftHoliday = () => {
     </>
   }
 />
+
+</p>
+    
 
 
 <p style={paragraphStyle}>
