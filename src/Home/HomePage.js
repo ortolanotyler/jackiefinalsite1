@@ -15,6 +15,7 @@ import TextRevealHomePage1 from '../Components/TextRevealHomePage1';
 import MyStyleSlider1 from '../Shop/MyStyleSlider1';
 import Quiz2 from '../Quiz/Quiz2';
 import HorizontalLine from '../Components/HorizontalLine';
+import AdSenseAd from './Adsense';
 
 function HomePage() {
   const isMobile = useMediaQuery('(max-width:650px)'); // Check if the screen size is mobile
@@ -117,6 +118,12 @@ function HomePage() {
 
       <Quiz2 />
     </Box>
+
+    <HorizontalLine />
+
+    <AdSenseAd/>
+
+    <HorizontalLine />
   
     <TextReveal
         text="🐈‍⬛🦌🐇🦊" 

@@ -7,34 +7,47 @@
           data-blockingmode="auto" 
           type="text/javascript"></script>
 
-  <!-- Google Consent Mode default settings -->
+  <!-- Google Consent Mode -->
   <script data-cookieconsent="ignore">
     window.dataLayer = window.dataLayer || [];
     function gtag(){ dataLayer.push(arguments); }
-
     gtag('consent', 'default', {
-   'ad_storage': 'granted',         // Allow ad storage
-   'ad_personalization': 'granted', // Allow ad personalization
-   'ad_user_data': 'granted',       // (Optional) Allow user data collection for ads
-   'analytics_storage': 'granted',  // Allow Google Analytics tracking (if you use it)
-   'functionality_storage': 'granted',
-   'personalization_storage': 'granted',
-   'security_storage': 'granted'
-});
+      'ad_storage': 'granted',         // Allow ad storage
+      'ad_personalization': 'granted', // Allow ad personalization
+      'analytics_storage': 'granted',  // Allow Google Analytics tracking
+      'functionality_storage': 'granted',
+      'personalization_storage': 'granted',
+      'security_storage': 'granted'
+    });
   </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318"
-    crossorigin="anonymous"></script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){ dataLayer.push(arguments); }
-  gtag('js', new Date());
-  gtag('config', 'G-RT6GR7JXYG', {
-    'anonymize_ip': true, 
-    'send_page_view': true
-  });
-</script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-RT6GR7JXYG', {
+      'anonymize_ip': true, 
+      'send_page_view': true
+    });
+  </script>
+
+  <!-- AdSense Script -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318"
+          crossorigin="anonymous"></script>
+  <script>
+    (window.adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-4660168246825318",
+      enable_page_level_ads: true, // Enable page-level Auto Ads
+      google_autoAdOptions: {
+        anchor: {
+          top: false, // Disable top anchor ads
+          bottom: true // Enable bottom anchor ads
+        }
+      }
+    });
+  </script>
 
   <!-- Favicon and Icons -->
   <link rel="icon" href="%PUBLIC_URL%/Images/Home/jwlogo3.png" sizes="32x32" />
@@ -61,7 +74,6 @@
   <!-- Critical CSS -->
   <style>
     body {
-   
       margin: 0;
       padding: 0;
       background-color: #ffffff;
@@ -76,9 +88,5 @@
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
-
-
 </body>
-
-
 </html>
