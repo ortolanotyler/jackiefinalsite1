@@ -46,7 +46,7 @@
     top: calc(100% + 1rem); /* Places dropdown right below the input field */
     min-width: 250px;
     font-family: 'Playfair Display', serif;
-
+    font-size: 1rem;
     max-width: 400px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
@@ -64,12 +64,12 @@
 .searchResultItem {
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 1rem;
     margin: 1rem auto;
-    border-bottom: 1px solid #101010;
+    border-bottom: 1px solid #fdedef;
     transition: background-color 0.2s ease;
     cursor: pointer;
-    color: #745B4F;
+    color: #ffffff;
 }
 
 
