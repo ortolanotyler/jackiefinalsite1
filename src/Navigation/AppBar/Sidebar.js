@@ -29,7 +29,6 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
   
 
     { name: 'DIARY', path: '/diary' },
-    { name: 'CONTACT', path: '/contact' },
     
   ];
 
