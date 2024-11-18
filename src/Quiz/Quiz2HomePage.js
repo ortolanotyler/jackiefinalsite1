@@ -58,14 +58,14 @@ const Quiz2Homepage = () => {
           flexDirection: 'column',
           alignItems: 'center',
           gap: 2,
-          padding: { xs: '100px', md: '100px' },
+          padding: { xs: '50px', md: '40px' },
         }}
       >
 
       {/* Animal Pretty Quiz Section */}
       <Box sx={{ width: '100%' }}>
         <TextReveal
-          text="The Animal Pretty Quiz"
+          text="Animal Pretty Quiz"
           style={{ backgroundColor: '#ffffff', width: '100%', margin: 0 }}
         />
       </Box>
