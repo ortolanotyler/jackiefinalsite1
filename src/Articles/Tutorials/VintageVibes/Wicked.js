@@ -254,6 +254,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={captionStyle}>
   Makeup originally by Nuria on set of Wicked using some of REM Beauty products. Pictured, Jackie Wyers recreation.
 </p>
+<AdSenseAd/>
 
 
 
@@ -268,19 +269,14 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 
-<AdSenseAd/>
 <p style={paragraphStyle}>
   The upcoming Wicked movie, with Ariana Grande as Glinda, has generated buzz on par with the Barbie movie’s marketing phenomenon. Ariana’s flawless vocals and playful style are sure to bring fresh energy to the role, and her beauty looks will no doubt inspire makeup lovers everywhere. Now, let’s recreate the magic of her Glinda look, step-by-step!
 </p>
 
 
 
-<div style = {{
-  margin : '1rem auto',
-  textAlign: 'center',
-}}>
+
 <AdSenseAd/>
-</div>
 
 
 <h2 style={headingStyle}>🎀 Glinda Makeup Tutorial: Sparkling and Sweet 🎀</h2>
@@ -302,6 +298,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   Ariana’s contour for Glinda is softer than her signature pop star persona. Since I’m aiming to channel a bit of Ariana’s facial structure, I used Rose Inc. Cream Contour under the cheekbones, jawline, and forehead. The real contour magic happens with the nose, where I sculpted the eye socket and connected it to the bridge of the nose, finishing with a rounded nose tip—Ariana’s signature look! This bold contour is perfect for transformations, but feel free to tone it down for an everyday version.
 </p>
+
+
 <AdSenseAd/>
 <p style={paragraphStyle}>
   For blush, I’m using IT Cosmetics Sun Blush in Sun Blossom lower on the cheeks to add warmth. And how adorable is the Glinda Airbrush Soft Focus Blush Brush #113 by IT cosmetics? With its pink glitter and butterflies, it perfectly captures Glinda’s essence while blending everything to perfection.
@@ -393,6 +391,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   For liner, I kept it subtle with a thin stroke of liquid liner focused on the outer corner. I noticed a hint of purple in some shots and in the Mattel dolls, so I smoked out the liner with a purplish shade from the Elphaba side of the One/Size Wicked shadow palette. I’m excited to try the upcoming R.E.M. Beauty Wicked palettes that feature a similar color story! I didn’t have the collection yet when I shot this, but check it out on sale now below. (Check out my Wicked-inspired product list here!)
 </p>
+<AdSenseAd/>
+
 
 <p style={paragraphStyle}>
   To finish, I curled my lashes and applied Fairydrops Mascara for that wide-eyed Glinda effect. For extra flutter, I trimmed Isopia Lashes into outer corner lashes and applied with lash glue.
@@ -407,7 +407,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/853525?noHeader=true" style={{ width: '100%', minHeight: '340px', border: 'none' }}></ResponsiveIframe>
-<AdSenseAd/>
+
 
 <p style={paragraphStyle}>Step 6: The Hair & Finishing Touches</p>
 
@@ -419,7 +419,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 
 <p style={paragraphStyle}>Looking for a perfect Glinda dress? I picked out this one from Ivy city co that comes in both adult and child sizes! 🎀</p>
-
+<AdSenseAd/>
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/853526?noHeader=true" style={{ width: '100%', minHeight: '340px', border: 'none' }}></ResponsiveIframe>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/853528?noHeader=true" style={{ width: '100%', minHeight: '340px', border: 'none' }}></ResponsiveIframe>
@@ -469,7 +469,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </div>
 
 
-
+<AdSenseAd/>
 
 <p style={captionStyle}>Stay sparkly my Good Witches!</p>
 
@@ -496,13 +496,10 @@ here.
         <img src={signature} alt="Jackie Wyers Signature" style={{ width: '100%', maxWidth: '650px' }} />
       </div>
       
-      <Comments website-id={websiteId} page-id={"Yardlizz-65fizz"} />
+      <Comments website-id={websiteId} page-id={"wicked22-65fizz"} />
       <AdSenseAd/>
       <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
+     
     </div>
   );
 
