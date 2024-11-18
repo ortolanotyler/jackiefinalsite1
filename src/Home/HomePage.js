@@ -94,7 +94,7 @@ function HomePage() {
           </>
         )}
 
-        <Box sx={{ paddingTop: isMobile ? '50px' : '0px' }}>
+        <Box sx={{ paddingTop: isMobile ? '60px' : '0px' }}>
           <QuiltedImageList1 />
         </Box>
 

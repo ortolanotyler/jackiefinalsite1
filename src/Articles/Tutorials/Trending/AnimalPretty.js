@@ -23,7 +23,7 @@ const Card = ({ blogContent }) => (
     style={{
       margin: '1rem',
       maxWidth: '95%',
-      padding: '1rem',
+      padding: '10px',
     }}
   >
     <div className="card">
