@@ -76,7 +76,7 @@ const DCCMakeupTutorial = () => {
     fontSize: '20px',
     color: '#000000',
     fontFamily: "EB Garamond, serif",
-    fontWeight: '100',
+    fontWeight: '400',
     padding: '10px',
     margin: '10px auto',
     lineHeight: '1.6',
