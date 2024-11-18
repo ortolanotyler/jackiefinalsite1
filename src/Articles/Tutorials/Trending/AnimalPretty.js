@@ -232,10 +232,10 @@ style = {{
 
       
 
-      {/* Deer Pretty Section */}
+    
       <h2 style={headingStyle}>Deer Pretty: Soft and Ethereal 🦌</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <img src={image3} alt="Deer Pretty - Jackie Wyers" style={{ width: '100%' }} />
+        <img src={image3} alt="Deer Pretty - Animal Pretty Quiz" style={{ width: '100%' }} />
       </div>
       <p style={paragraphStyle}>
         Inspired by the gentle features of a deer, this makeup style is all about soft, doe-like eyes and a warm, glowing

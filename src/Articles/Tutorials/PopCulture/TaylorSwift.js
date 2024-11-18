@@ -67,7 +67,7 @@ const TaylorSwiftHoliday = () => {
   const blogContent = (
     <div className="container">
     <Helmet>
-  <title>Taylor Swift Holiday Merch 2024 Ranked! 🎄 Top Picks for Swifties</title>
+  <title>Taylor Swift Holiday Gift Guide 2024! 🎄 Top Picks for Swifties</title>
   <link rel="canonical" href="https://www.jackieyers.beauty/articles/taylor-swift-holidays-2024" />
 
   <meta 
