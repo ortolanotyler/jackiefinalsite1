@@ -329,7 +329,7 @@ const Makeup2016 = () => {
                 <img src={signature} alt="Signature" style={{ width: '100%', maxWidth: '650px' }} />
               </div>
     
-              <Comments website-id={websiteId} page-id={"Makeup-2016"} />
+              <Comments website-id={websiteId} page-id={"-Makeup-2016"} />
             </div>
           }
         />

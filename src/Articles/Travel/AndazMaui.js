@@ -6,7 +6,6 @@ import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
-import EmailSubscribe2 from '../../Components/EmailSubscribe2';
 
 
 

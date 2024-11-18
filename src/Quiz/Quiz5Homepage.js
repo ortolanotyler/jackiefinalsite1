@@ -50,7 +50,7 @@ const Quiz5Homepage = () => {
 }}>
         <TextReveal
           text="MALE vs FEMALE GAZE QUIZ"
-          style={{ backgroundColor: '#fdedef', width: '100%', margin: 0 }}
+          style={{ backgroundColor: '#ffffff', width: '100%', margin: 0 }}
         />
       </Box>
 
