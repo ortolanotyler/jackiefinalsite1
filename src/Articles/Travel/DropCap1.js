@@ -47,7 +47,7 @@ const DropCap1 = ({ text, style }) => {
           fontSize: '20px',
 
 
-          margin: '1rem auto',
+          margin: '1rem',
           fontWeight: '100',
           fontFamily: 'EB Garamond, serif',
        
