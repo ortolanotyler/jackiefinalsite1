@@ -25,7 +25,7 @@ const AboutSection1 = () => {
           justifyContent: 'center', // Center the content
           textAlign: { xs: 'center', md: 'left' }, // Adjust alignment for mobile and desktop
           flexDirection: { xs: 'column', md: 'row' },
-          maxWidth: '1200px',
+      
           margin: '0 auto',
         }}
       >
