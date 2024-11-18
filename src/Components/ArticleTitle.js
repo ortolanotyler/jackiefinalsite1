@@ -24,7 +24,8 @@ const ArticleTitle = ({ mainTitle, subTitle, author, publishDate }) => {
 const styles = {
   container: {
     textAlign: 'left', // Align the text to the left
-    marginBottom: '1rem',
+    padding: '1rem',
+    margin: '1rem auto',
     width: '100%',
     maxWidth: '1500px', // Optional: limit the width of the container if needed
     

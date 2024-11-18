@@ -488,7 +488,7 @@ textAlign: 'center',
   imgSrc={next}
   altText="Barbie Article"
   linkText="CLICK HERE FOR MORE POP CULTURE→"
-  containerStyle={{ margin: '2rem auto' }} // customize as needed
+  containerStyle={{ margin: '1rem auto' }} // customize as needed
   linkStyle={{ color: '#000000', fontSize: '1.25rem' }} // customize as needed
   imgStyle={{ borderRadius: '5px' }} // customize as needed
 />
