@@ -33,7 +33,7 @@ const AdSenseAd = () => {
         style={{ display: 'block' }} // Ensure style is passed as an object
         data-ad-client="ca-pub-4660168246825318"
         data-ad-slot="8192987306" // Updated to your specified slot
-        data-ad-format="fluid"
+        data-ad-format="auto"
         data-full-width-responsive="true" // Ensure full-width responsiveness
       ></ins>
     </div>
