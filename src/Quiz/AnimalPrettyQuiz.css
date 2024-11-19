@@ -44,10 +44,20 @@
   border: none; /* Remove any potential borders */
 }
 
+.quiz2-question {
+  margin-bottom: 20px; /* Add consistent spacing below the question text */
+}
+
 .quiz2-question-text {
   font-size: 24px;
   font-family: "Playfair Display", serif;
   font-weight: 500;
   color: #745b4f;
-  margin-bottom: 15px;
+}
+
+.quiz2-answer-section {
+  display: flex;
+  flex-direction: column; /* Stack vertically */
+  gap: 20px; /* Add space between answer buttons */
+  align-items: center; /* Center align the buttons */
 }
