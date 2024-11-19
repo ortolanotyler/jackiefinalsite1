@@ -73,9 +73,7 @@ const Quiz2Homepage = () => {
       </Box>
 
 
-      <HorizontalLine/>
-<AdSenseAd/>
-<HorizontalLine/>
+      <AdSenseAd/>
 
       {/* Male vs Female Gaze Quiz Section */}
       <Box sx={{ width: '100%' }}>
@@ -98,9 +96,7 @@ const Quiz2Homepage = () => {
         <Quiz5 />
       </Box>
 
-      <HorizontalLine/>
-<AdSenseAd/>
-<HorizontalLine/>
+      <AdSenseAd/>
 
  <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
       </Box>
@@ -125,11 +121,9 @@ const Quiz2Homepage = () => {
       >
         <Quiz4 />
       </Box>
-<HorizontalLine/>
 <AdSenseAd/>
-<HorizontalLine/>
 
-    <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
+  <Box sx={{ margin: '1rem' }}>       <AdSenseAd/>
       </Box>
 
       {/* Wedding Dress Quiz Section */}
@@ -140,7 +134,7 @@ const Quiz2Homepage = () => {
         />
       </Box>
 
-     <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
+   <Box sx={{ margin: '1rem' }}>       <AdSenseAd/>
       </Box>
 
       {/* Quiz3 Content */}
@@ -160,7 +154,7 @@ const Quiz2Homepage = () => {
 
 
 
-     <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
+   <Box sx={{ margin: '1rem' }}>       <AdSenseAd/>
       </Box>
 
 
@@ -171,9 +165,7 @@ const Quiz2Homepage = () => {
      
         <EmailSubscribe2 />
       </Box>
-      <HorizontalLine/>
-<HorizontalLine/>
-  
+        
     </Box>
   );
 };

@@ -68,12 +68,12 @@ const Quiz3Homepage = () => {
         <Quiz3 />
       </Box>
 
-      <HorizontalLine/>
-      <HorizontalLine/>
+   
 
 
-  <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
+  <Box sx={{ margin: '1rem' }}>       <AdSenseAd/>
       </Box>
+
       {/* Male vs Female Gaze Quiz Section */}
       <Box sx={{ width: '100%' }}>
         <TextReveal
@@ -95,11 +95,13 @@ const Quiz3Homepage = () => {
         <Quiz5 />
       </Box>
 
-      <HorizontalLine/>
-<HorizontalLine/>
-
-  <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
+      <Box sx={{ margin: '1rem' }}>       <AdSenseAd/>
       </Box>
+
+  <Box sx={{ margin: '1rem' , textalign: 'center'}}>       <AdSenseAd/>
+      </Box>
+
+
       {/* Halloween Costume Quiz Section */}
       <Box sx={{ width: '100%' }}>
         <TextReveal
@@ -121,10 +123,11 @@ const Quiz3Homepage = () => {
         <Quiz4 />
       </Box>
 
-      <HorizontalLine/>
-<HorizontalLine/>
-  <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
+      <Box sx={{ margin: '1rem' }}>       <AdSenseAd/>
       </Box>
+  <Box sx={{ margin: '1rem' , textalign: 'center'}}>       <AdSenseAd/>
+      </Box>
+
       {/* Animal Pretty Quiz Section */}
       <Box sx={{ width: '100%' }}>
         <TextReveal
@@ -146,17 +149,18 @@ const Quiz3Homepage = () => {
         <Quiz2 />
       </Box>
 
-      <HorizontalLine/>
-<HorizontalLine/>
-  <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
+      <Box sx={{ margin: '1rem' }}>       <AdSenseAd/>
       </Box>
+  <Box sx={{ margin: '1rem' , textalign: 'center'}}>       <AdSenseAd/>
+      </Box>
+
       {/* Subscribe Section */}
       <Box sx={{ width: '100%' }}>
         <EmailSubscribe2/>
       </Box>
 
-      <HorizontalLine/>
-<HorizontalLine/>
+      <Box sx={{ margin: '1rem' }}>       <AdSenseAd/>
+      </Box>
     
     </Box>
   );

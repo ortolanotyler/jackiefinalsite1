@@ -9,6 +9,8 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 
+import Quiz2 from '../../../Quiz/Quiz2';
+
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/DeerFinal1.jpg`;
@@ -21,7 +23,7 @@ const Card = ({ blogContent }) => (
     style={{
       margin: '1rem auto',
       maxWidth: '100%',
-      padding: '20px',
+      padding: '1rem',
     }}
   >
     <div className="card">
@@ -55,9 +57,9 @@ const AnimalPretty = () => {
   color: '#000000',
   
   fontFamily: "EB Garamond, serif",
-  fontWeight: '100',
+  fontWeight: '400',
   padding: '10px',
-  margin: '1rem ',
+  margin: '1rem',
   
   
     lineHeight: '1.6',
@@ -431,6 +433,7 @@ style = {{
 
 return (
 <div ref={blogRef}>
+  <Quiz2/>
   <Card
     title="Animal Pretty - Which one are you?"
     description="Deer, Cat, Fox, or Bunny?"

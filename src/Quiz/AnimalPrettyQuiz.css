@@ -1,70 +1,64 @@
-.quiz-container {
-  max-width: 1500px;
+.animal-quiz-container {
+  max-width: 800px;
   margin: 0 auto;
   text-align: center;
   background-color: #ffffff;
-  border-radius: 0px;
-  padding: 5px ;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-.question-section {
-  margin: 0 auto;
+.animal-question-section {
+  margin: 50px 0;
 }
 
-.question-text {
-  font-size: 16px;
+.animal-question-text {
+  font-size: 24px;
   font-family: "Playfair Display", serif;
   font-weight: 400;
   color: #745b4f;
-
 }
 
-
-
-.answer-section {
-  display: flex;
-  justify-content: center; /* Center the buttons */
-  align-items: center; /* Center the grid */
-  flex-wrap: wrap; /* Ensure buttons wrap on smaller screens */
-  gap: 20px; /* Add consistent spacing between buttons */
+.animal-answer-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Responsive grid */
+  gap: 20px;
+  padding: 10px;
 }
 
-.answer-button {
-  width: 280px; /* Set a fixed width for buttons */
-  height: 200px; /* Set consistent height */
-  border: none;
-  border-radius: 25px;
+.animal-answer-button {
+  width: 100%; /* Let grid handle width */
+  aspect-ratio: 1 / 1; /* Make buttons square */
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  border: none;
+  border-radius: 15px;
   cursor: pointer;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
-  color: #ffffff;
+  color: #fff;
   font-family: "Playfair Display", serif;
-  font-size: 20px;
-
-  font-weight: 400;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-size: 18px;
+  font-weight: 500;
   display: flex;
-  justify-content: center; /* Center text inside button */
-  align-items: center; /* Center text vertically */
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-.answer-button:hover {
+.animal-answer-button:hover {
   transform: scale(1.1);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 768px) {
-  .answer-button {
-    width: 100%; /* Adjust width for smaller screens */
-    height: auto; /* Maintain aspect ratio */
-    margin: 0 auto;
-  }
-  .answer-section {
-    gap: 1rem; /* Reduce gap on smaller screens */
-        margin: 0 auto;
+.animal-results-section {
+  text-align: center;
+  margin-top: 20px;
+}
 
+/* Larger screens: 2x2 grid */
+@media (min-width: 768px) {
+  .animal-answer-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 }
