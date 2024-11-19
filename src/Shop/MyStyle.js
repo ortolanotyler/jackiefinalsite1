@@ -25,7 +25,7 @@ const MyStyle = () => {
     justifyContent: 'center',
     alignItems: 'center',
     padding: '2rem',
-   
+   midth: '80%',
     backgroundColor: 'white',
     fontFamily: 'GFS Didot, serif',
     padding: '2rem',
