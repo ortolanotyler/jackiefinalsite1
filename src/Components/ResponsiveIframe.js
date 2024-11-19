@@ -34,8 +34,8 @@ const ResponsiveIframe = ({ src, title }) => {
   const containerStyle = {
     position: 'relative',
     width: '100%',
-    height: '550px',
-  
+    height: '500px',
+    overflow: 'hidden', // Prevent scrolling
     paddingTop: isVisible ? '0' : '56.25%', // Aspect ratio 16:9
   };
 

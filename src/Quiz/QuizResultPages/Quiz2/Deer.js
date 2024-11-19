@@ -290,8 +290,17 @@ style = {{
         Want to really showcase your animal inspiration? Fable England has beautiful enamel earrings, necklaces, and embroidered bags featuring fawn designs.
       </p>
 
-      <ResponsiveIframe src="https://shopmy.us/collections/public/552834?noHeader=true" title="Deer Pretty Makeup" />
-
+      <iframe
+  src="https://shopmy.us/collections/public/552834?noHeader=true"
+  title="Deer Pretty Makeup"
+  style={{
+    width: '100%',
+    height: '750px',
+    border: 'none',
+    display: 'block',
+    margin: '0 auto',
+  }}
+></iframe>
       
        
 
