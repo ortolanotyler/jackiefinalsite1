@@ -251,11 +251,9 @@ style = {{
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552844?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
-  <div style = {{
-        margin: '1rem auto'
-      }}>
+
   <AdSenseAd/>
-      </div>
+      
     
       <p style={paragraphStyle}>
         Lashes: Extend the lash line along the winged-out shadow. Try ISOPIA Iso-Gentle Healing Lashes for a subtle effect.
@@ -276,12 +274,9 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552848?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
-  <div style = {{
-        margin: '1rem auto'
-      }}>
+ 
   <AdSenseAd/>
-      </div>
+    
     
       <p style={paragraphStyle}>
         Outfit Inspiration: Dive into a bohemian vibe with lively prints. Anthropologie is an excellent starting point for this style. Select paisley or other small prints in rustic tones to complement the boho aesthetic beautifully. This style not only matches the rich-toned makeup but also ties the whole look together.
@@ -292,12 +287,9 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552850?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
-  <div style = {{
-        margin: '1rem auto'
-      }}>
+   
   <AdSenseAd/>
-      </div>
+    
     
       <p style={paragraphStyle}>
         I hope this quiz inspires you to play with these animal-inspired beauty looks. Here’s a mini tutorial as a refresher to get the look and be sure to tag me on your socials if you try out these styles as I’d love to see it!

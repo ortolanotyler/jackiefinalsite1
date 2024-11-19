@@ -251,11 +251,9 @@ style = {{
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552826?noHeader=true" title="Makeup by Mario Master Mattes Palette - Neutral Eyeshadow for Deer Pretty Look" />
     
-  <div style = {{
-        margin: '1rem auto'
-      }}>
+
   <AdSenseAd/>
-      </div>
+     
        
 
       <p style={paragraphStyle}>
@@ -263,11 +261,8 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552928?noHeader=true" title="ISOPIA Iso-Gentle Touch Lashes - Wispy Falsies for Doe-Eyed Makeup" />
-      <div style = {{
-        margin: '1rem auto'
-      }}>
-  <AdSenseAd/>
-      </div>
+     <AdSenseAd/>
+
        
 
       <p style={paragraphStyle}>
@@ -275,22 +270,16 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552829?noHeader=true" title="Peachy Blush and Champagne Highlighter - Natural Glow Essentials" />
-      <div style = {{
-        margin: '1rem auto'
-      }}>
-  <AdSenseAd/>
-      </div>
+     <AdSenseAd/>
+
     
       <p style={paragraphStyle}>
         Lips: Go for a nude lipliner, slightly overlining for a fuller appearance. Finish with a matte peach lip colour for a natural, yet enhanced look.
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552889?noHeader=true" title="Matte Peach Lipstick and Nude Lipliner - Perfect Lip Pairing for Deer Pretty Look" />
-      <div style = {{
-        margin: '1rem auto'
-      }}>
-  <AdSenseAd/>
-      </div>
+     <AdSenseAd/>
+
        
 
       <p style={paragraphStyle}>
@@ -317,16 +306,10 @@ style = {{
      
       <Comments website-id={websiteId} page-id={"Animal-Prizznizzle"} />
     <AdSenseAd/>
-    <div style = {{
-        margin: '1rem auto'
-      }}>
-  <AdSenseAd/>
-      </div>
-      <div style = {{
-        margin: '1rem auto'
-      }}>
-  <AdSenseAd/>
-      </div>
+   <AdSenseAd/>
+
+     <AdSenseAd/>
+
     
     
     
