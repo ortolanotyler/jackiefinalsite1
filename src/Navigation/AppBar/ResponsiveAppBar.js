@@ -1,4 +1,3 @@
-// ResponsiveAppBar.js
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AppBar, Box, Toolbar, Container, IconButton, useMediaQuery, Button } from '@mui/material';
@@ -38,33 +37,9 @@ const ResponsiveAppBar = () => {
               padding: '5px 10px',
             }}
           >
-            <Box sx={{ display: 'flex', alignItems: 'center' }}>
-              {/* Menu icon for larger screens, positioned to the left of the logo */}
-              {!isCollapsed && (
-                <IconButton
-                  size="large"
-                  aria-label="navigation menu"
-                  onClick={toggleSidebar}
-                  sx={{
-                    color: '#745B4F',
-                    fontFamily: 'Playfair Display, serif',
-                    '&:hover': {
-                      backgroundColor: 'transparent',
-                      color: '#745B4F',
-                    },
-                  }}
-                >
-                  <MenuIcon />
-                </IconButton>
-              )}
-              {/* Logo */}
-              <Logo toggleSidebar={toggleSidebar} isCollapsed={isCollapsed} />
-              {/* Nav buttons for larger screens */}
-              {!isCollapsed && <NavButtons />}
-            </Box>
-
-            {/* Menu icon for smaller screens */}
-            {isCollapsed ? (
+            {/* Box for Menu Icon and Logo */}
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+              {/* Menu icon (only one instance for all screen sizes) */}
               <IconButton
                 size="large"
                 aria-label="navigation menu"
@@ -80,7 +55,15 @@ const ResponsiveAppBar = () => {
               >
                 <MenuIcon />
               </IconButton>
-            ) : (
+              {/* Logo */}
+              <Logo toggleSidebar={toggleSidebar} isCollapsed={isCollapsed} />
+            </Box>
+
+            {/* Nav buttons for larger screens */}
+            {!isCollapsed && <NavButtons />}
+
+            {/* Subscribe button for larger screens */}
+            {!isCollapsed && (
               <Button
                 component={Link}
                 to="/subscribe"
