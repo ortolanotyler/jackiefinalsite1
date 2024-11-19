@@ -8,7 +8,7 @@ import NavButtons from './NavButtons';
 import BannerNavSearch from '../../Home/SearchBar'; // Import the search bar
 
 const ResponsiveAppBar = () => {
-  const isCollapsed = useMediaQuery('(max-width: 1250px)');
+  const isCollapsed = useMediaQuery('(max-width: 1355px)');
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -58,7 +58,7 @@ const ResponsiveAppBar = () => {
               <Logo toggleSidebar={toggleSidebar} isCollapsed={isCollapsed} />
             </Box>
 
-            {/* Center Section: Nav Links */}
+            {/* Center Section: Nav Links and Search Bar */}
             {!isCollapsed && (
               <Box
                 sx={{
@@ -70,16 +70,16 @@ const ResponsiveAppBar = () => {
                 }}
               >
                 <NavButtons />
-                <Box sx={{ width: '300px', maxWidth: '80%', marginRight: '1rem' }}>
+                <Box sx={{ width: '400px', maxWidth: '100%', marginRight: '1rem' }}>
                   <BannerNavSearch />
                 </Box>
               </Box>
             )}
 
-            {/* Right Section: Search Bar for Smaller Screens and Subscribe Button */}
+            {/* Right Section: Search Bar (for smaller screens) and Subscribe Button */}
             {isCollapsed ? (
               <Box sx={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                <Box sx={{ width: '150px', maxWidth: '80%' }}>
+                <Box sx={{ width: '300px', maxWidth: '80%', marginRight: '1rem' }}>
                   <BannerNavSearch />
                 </Box>
               </Box>
