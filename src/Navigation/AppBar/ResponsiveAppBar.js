@@ -70,7 +70,14 @@ const ResponsiveAppBar = () => {
                 }}
               >
                 <NavButtons />
-                <Box sx={{ width: '300px', maxWidth: '100%', marginRight: '1rem' }}>
+                <Box
+                  sx={{
+                    width: '400px',
+                    maxWidth: '100%',
+                    marginRight: '1rem',
+                    paddingRight: '10px',
+                  }}
+                >
                   <BannerNavSearch />
                 </Box>
               </Box>
@@ -78,8 +85,23 @@ const ResponsiveAppBar = () => {
 
             {/* Right Section: Search Bar (for smaller screens) and Subscribe Button */}
             {isCollapsed ? (
-              <Box sx={{ display: 'flex', alignItems: 'center', gap: '1rem', paddingRight: '10px' }}>
-                <Box sx={{ width: '300px', maxWidth: '80%', marginRight: '1rem' }}>
+              <Box
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '1rem',
+                  paddingRight: '16px', // Added padding to ensure spacing
+                  width: '100%',
+                  justifyContent: 'flex-end', // Ensure alignment doesn't push it to the edge
+                }}
+              >
+                <Box
+                  sx={{
+                    width: '90%', // Keeps the search bar responsive
+                    maxWidth: '300px', // Limits width for smaller screens
+                    marginRight: '10px', // Space between the edge
+                  }}
+                >
                   <BannerNavSearch />
                 </Box>
               </Box>
