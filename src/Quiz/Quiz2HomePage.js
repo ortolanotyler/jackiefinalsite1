@@ -73,6 +73,7 @@ const Quiz2Homepage = () => {
       </Box>
 
 
+
       <AdSenseAd/>
 
       {/* Male vs Female Gaze Quiz Section */}
