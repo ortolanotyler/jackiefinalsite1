@@ -7,7 +7,6 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
-import TakeQuizButton from '../../../Components/TakeQuizButton';
 
 import Quiz2 from '../../../Quiz/Quiz2';
 
@@ -172,17 +171,7 @@ const AnimalPretty = () => {
         </script>
       </Helmet>
 
-      <div
-style = {{
-  margin: '1rem auto',
-  textAlign: 'center'
-}}
-> 
-<TakeQuizButton href='/quiz-2-home' />
-
-
-</div>
-
+     
 
 
       <ArticleTitle
@@ -191,6 +180,8 @@ style = {{
         author="Jackie Wyers"
         publishDate="July 25th, 2024"
       />
+
+       <Quiz2/>
 
 <SocialShare 
   url="https://www.jackiewyers.beauty/animalpretty" 
@@ -433,7 +424,7 @@ style = {{
 
 return (
 <div ref={blogRef}>
-  <Quiz2/>
+
   <Card
     title="Animal Pretty - Which one are you?"
     description="Deer, Cat, Fox, or Bunny?"
