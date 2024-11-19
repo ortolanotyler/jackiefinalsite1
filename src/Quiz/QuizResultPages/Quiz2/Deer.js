@@ -291,16 +291,16 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552834?noHeader=true" title="Deer Pretty Makeup" />
-  <div style = {{
-        margin: '1rem auto'
-      }}>
-  <AdSenseAd/>
-      </div>
+
+      
        
 
       <p style={paragraphStyle}>
         I hope this quiz inspires you to play with these animal-inspired beauty looks. Here’s a mini tutorial as a refresher to get the look and be sure to tag me on your socials if you try out these styles as I’d love to see it!
       </p>
+
+      <AdSenseAd/>
+
 
       <img src={signature} alt="Jackie Wyers Signature" className={styles.signatureImage} />
      
