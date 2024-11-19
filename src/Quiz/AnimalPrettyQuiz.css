@@ -1,34 +1,14 @@
-/* Unique classes for Quiz2 */
-.quiz2-container {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.quiz2-question {
-  margin: 20px 0;
-}
-
-.quiz2-question-text {
-  font-size: 24px;
-  font-family: "Playfair Display", serif;
-  font-weight: 500;
-  color: #745b4f;
-}
-
 .quiz2-answer-section {
   display: flex;
-  flex-direction: column; /* Stack buttons vertically */
-  gap: 20px;
+  flex-direction: column; /* Stack vertically */
+  gap: 15px; /* Spacing between buttons */
+  align-items: center; /* Center align the buttons */
 }
 
 .quiz2-answer-button {
   width: 100%; /* Full width */
-  aspect-ratio: 16 / 9; /* Maintain aspect ratio */
+  max-width: 400px; /* Limit the width */
+  height: 100px; /* Set a fixed height for better fit */
   border: none;
   border-radius: 10px;
   background-size: cover;
@@ -38,21 +18,32 @@
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
   color: #ffffff;
   font-family: "Playfair Display", serif;
-  font-size: 20px;
+  font-size: 18px; /* Slightly smaller text for better fit */
   font-weight: 400;
   display: flex;
   justify-content: center; /* Center text inside button */
   align-items: center; /* Center text vertically */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease; /* Removed box-shadow transition */
 }
 
 .quiz2-answer-button:hover {
   transform: scale(1.02);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-.quiz2-results {
+.quiz2-container {
+  max-width: 800px;
+  margin: 0 auto;
   text-align: center;
-  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 25px;
+  border: none; /* Remove any potential borders */
+}
+
+.quiz2-question-text {
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  color: #745b4f;
+  margin-bottom: 15px;
 }
