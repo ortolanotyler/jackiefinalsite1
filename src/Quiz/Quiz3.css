@@ -1,87 +1,89 @@
-.quiz-container {
-    max-width: 1400px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: white;
-    padding: 20px; /* Uniform padding */
-    box-sizing: border-box;
-    border-radius: 12px;
+.bridal-quiz-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+  padding: 20px; /* Uniform padding */
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.bridal-question-section {
+  min-height: 100px; /* Consistent height for the question section */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px; /* Add spacing between question and answers */
+}
+
+.bridal-question-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #745b4f;
+  text-align: center;
+  line-height: 1;
+}
+
+.bridal-answer-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns for desktop */
+  gap: 10px;
+  justify-content: center; /* Center grid in the container */
+}
+
+.bridal-answer-button {
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border: 1.5px solid #745b4f;
+  background-color: transparent;
+  border-radius: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Playfair Display', serif;
+  background-repeat: no-repeat;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
+  height: calc(60vh / 3); /* Fit six buttons within 60vh */
+  width: 300px; /* Fixed width for consistency */
+  max-width: 100%; /* Ensure it is responsive on smaller screens */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto; /* Center individual buttons */
+}
+
+.bridal-answer-button:hover {
+  transform: scale(1.05);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bridal-results-section {
+  width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-radius: 12px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 800px) {
+  .bridal-quiz-container {
+    max-width: 100%;
+    padding: 15px;
   }
-  
-  .question-section {
-    min-height: 100px; /* Consistent height for the question section */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px; /* Add spacing between question and answers */
-  }
-  
-  .question-text {
-    font-size: 18px;
-    font-weight: normal;
-    color: #745b4f;
-    text-align: center;
-    line-height: 1.5;
-  }
-  
-  .answer-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns for desktop */
+
+  .bridal-answer-section {
+    grid-template-columns: 1fr; /* Single column for smaller screens */
     gap: 10px;
-    justify-content: center; /* Center grid in the container */
   }
-  
-  .answer-button {
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    border: 1.5px solid #745b4f;
-    background-color: transparent;
-    border-radius: 10px;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-    background-size: cover;
-    background-position: center;
-    font-family: 'Playfair Display', serif;
-    background-repeat: no-repeat;
-    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
-    height: 250px;
-    width: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto; /* Center individual buttons */
+
+  .bridal-answer-button {
+    height: 100px; /* Adjust for smaller screens */
+    width: 300px; /* Keep consistent width on smaller screens */
+    max-width: 100%; /* Ensure responsiveness */
   }
-  
-  .answer-button:hover {
-    transform: scale(1.05);
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-  
-  .results-section {
-    max-width: 600px;
-    margin: 20px auto;
-    text-align: center;
-    padding: 20px;
-    background-color: #f3f3f3;
-    border-radius: 12px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6);
-  }
-  
-  @media (max-width: 800px) {
-    .quiz-container {
-      max-width: 100%;
-      padding: 15px;
-    }
-  
-    .answer-section {
-      grid-template-columns: 1fr; /* Single column for smaller screens */
-      gap: 10px;
-    }
-  
-    .answer-button {
-      height: 200px;
-      width: 90%; /* Make buttons responsive */
-    }
-  }
+}

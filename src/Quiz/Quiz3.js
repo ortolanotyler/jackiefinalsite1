@@ -8,7 +8,6 @@ const Quiz3 = () => {
   const [answers, setAnswers] = useState([]);
   const [showResults, setShowResults] = useState(false);
 
-  
   const quizQuestions = [
     {
       question: "What is your dream wedding location?",
@@ -125,19 +124,19 @@ const Quiz3 = () => {
   };
 
   return (
-    <div className="quiz-container">
+    <div className="bridal-quiz-container">
       {!showResults ? (
         <>
-          <div className="question-section">
-            <div className="question-text">
+          <div className="bridal-question-section">
+            <div className="bridal-question-text">
               {quizQuestions[currentQuestionIndex].question}
             </div>
           </div>
-          <div className="answer-section">
+          <div className="bridal-answer-section">
             {quizQuestions[currentQuestionIndex].options.map((option, index) => (
               <button
                 key={index}
-                className="answer-button"
+                className="bridal-answer-button"
                 onClick={() => handleAnswerClick(option.value)}
                 style={{
                   backgroundImage: `url(${option.backgroundImage})`,
@@ -149,7 +148,7 @@ const Quiz3 = () => {
           </div>
         </>
       ) : (
-        <div className="results-section">
+        <div className="bridal-results-section">
           <h2>Quiz Completed!</h2>
           <button onClick={() => navigate('/')}>Go Home</button>
         </div>
