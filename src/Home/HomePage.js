@@ -126,13 +126,11 @@ function HomePage() {
 
  
 
-<Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, padding: 0 }}>
 
  
 
 
 <AdSenseAd/>
-</Box>
   
 
 
