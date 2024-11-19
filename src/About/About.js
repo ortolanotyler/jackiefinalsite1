@@ -34,6 +34,20 @@ const About = () => {
       {/* About Section */}
       <Box sx={{ padding: "2rem", backgroundColor: "#fdebef" }}>
         <Grid container spacing={1}>
+        <Typography
+  variant="body1"
+  sx={{
+    fontFamily: "Playfair Display, serif",
+    margin: '1rem auto',
+    textAlign: "center",
+    fontWeight: "400",
+    fontSize: "1.5rem",
+    lineHeight: 1,
+    marginBottom: "1rem",
+  }}
+>
+Hello! I'm Jackie Wyers</Typography>
+
               {/* Image Section */}
               <Grid item xs={12} md={6}>
             <Box
