@@ -107,7 +107,7 @@ function HomePage() {
      
         <TextReveal
         text="🐈‍⬛🦌🐇🦊" 
-        style={{ backgroundColor: '#fdedef', width: '100%', height: '100px' }} 
+        style={{ backgroundColor: '#fdedef', width: '100%', height: '70px' }} 
       />
 
         
@@ -121,7 +121,7 @@ function HomePage() {
 
     <TextReveal
         text="Animal Pretty Quiz" 
-        style={{ backgroundColor: '#fdedef', width: '100%', height: '100px' }} 
+        style={{ backgroundColor: '#fdedef', width: '100%', height: '70px' }} 
       />
 
  
