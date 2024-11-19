@@ -33,7 +33,21 @@ const About = () => {
 
       {/* About Section */}
       <Box sx={{ padding: "2rem", backgroundColor: "#fdebef" }}>
-        <Grid container spacing={4}>
+        <Grid container spacing={1}>
+              {/* Image Section */}
+              <Grid item xs={12} md={6}>
+            <Box
+              component="img"
+              src={`${process.env.PUBLIC_URL}/Images/About/JackieAboutMe1.JPG`}
+              alt="Jackie Wyers"
+              sx={{
+                width: "100%",
+                height: "auto",
+                borderRadius: "10px",
+                boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+              }}
+            />
+          </Grid>
           {/* Text Section */}
           <Grid item xs={12} md={6}>
             <Box sx={{ padding: "2rem", color: "#745B4F" }}>
@@ -127,20 +141,7 @@ const About = () => {
             </Box>
           </Grid>
 
-          {/* Image Section */}
-          <Grid item xs={12} md={6}>
-            <Box
-              component="img"
-              src={`${process.env.PUBLIC_URL}/Images/About/JackieAboutMe1.JPG`}
-              alt="Jackie Wyers"
-              sx={{
-                width: "100%",
-                height: "auto",
-                borderRadius: "10px",
-                boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-              }}
-            />
-          </Grid>
+      
         </Grid>
       </Box>
 
