@@ -16,6 +16,7 @@ import MyStyleSlider1 from '../Shop/MyStyleSlider1';
 import Quiz2 from '../Quiz/Quiz2';
 import HorizontalLine from '../Components/HorizontalLine';
 import AdSenseAd from './Adsense';
+import ArticleHero from './ArticleHero';
 
 function HomePage() {
   const isMobile = useMediaQuery('(max-width:650px)'); // Check if the screen size is mobile
@@ -103,7 +104,6 @@ function HomePage() {
         <TextBanner2 text="FEATURED"  margin='0 0.15rem' height="100px" width="100%"  />
   
         
-      
      
         <TextReveal
         text="🐈‍⬛🦌🐇🦊" 
