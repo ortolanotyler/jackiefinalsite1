@@ -8,7 +8,7 @@ import NavButtons from './NavButtons';
 import BannerNavSearch from '../../Home/SearchBar'; // Import the search bar
 
 const ResponsiveAppBar = () => {
-  const isCollapsed = useMediaQuery('(max-width: 870px)');
+  const isCollapsed = useMediaQuery('(max-width: 1250px)');
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -58,7 +58,7 @@ const ResponsiveAppBar = () => {
               <Logo toggleSidebar={toggleSidebar} isCollapsed={isCollapsed} />
             </Box>
 
-            {/* Center Section: Search Bar and Nav Links */}
+            {/* Center Section: Nav Links */}
             {!isCollapsed && (
               <Box
                 sx={{
@@ -69,15 +69,21 @@ const ResponsiveAppBar = () => {
                   flex: 1, // Takes up remaining space between left and right sections
                 }}
               >
-                <Box sx={{ width: '300px', maxWidth: '80%' }}>
+                <NavButtons />
+                <Box sx={{ width: '300px', maxWidth: '80%', marginRight: '1rem' }}>
                   <BannerNavSearch />
                 </Box>
-                <NavButtons />
               </Box>
             )}
 
-            {/* Right Section: Subscribe Button */}
-            {!isCollapsed && (
+            {/* Right Section: Search Bar for Smaller Screens and Subscribe Button */}
+            {isCollapsed ? (
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                <Box sx={{ width: '150px', maxWidth: '80%' }}>
+                  <BannerNavSearch />
+                </Box>
+              </Box>
+            ) : (
               <Button
                 component={Link}
                 to="/subscribe"
@@ -102,25 +108,6 @@ const ResponsiveAppBar = () => {
               >
                 Subscribe
               </Button>
-            )}
-
-            {/* Menu Icon for Smaller Screens */}
-            {isCollapsed && (
-              <IconButton
-                size="large"
-                aria-label="navigation menu"
-                onClick={toggleSidebar}
-                sx={{
-                  color: '#745B4F',
-                  fontFamily: 'Playfair Display, serif',
-                  '&:hover': {
-                    backgroundColor: 'transparent',
-                    color: '#745B4F',
-                  },
-                }}
-              >
-                <MenuIcon />
-              </IconButton>
             )}
           </Toolbar>
         </Container>
