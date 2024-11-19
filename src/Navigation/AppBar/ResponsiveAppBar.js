@@ -5,6 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Sidebar from './Sidebar';
 import Logo from './Logo';
 import NavButtons from './NavButtons';
+import BannerNavSearch from '../../Home/SearchBar'; // Import the search bar
 
 const ResponsiveAppBar = () => {
   const isCollapsed = useMediaQuery('(max-width: 870px)');
@@ -37,9 +38,8 @@ const ResponsiveAppBar = () => {
               padding: '5px 10px',
             }}
           >
-            {/* Box for Menu Icon and Logo */}
+            {/* Left Section: Menu Icon and Logo */}
             <Box sx={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-              {/* Menu icon (only one instance for all screen sizes) */}
               <IconButton
                 size="large"
                 aria-label="navigation menu"
@@ -55,14 +55,28 @@ const ResponsiveAppBar = () => {
               >
                 <MenuIcon />
               </IconButton>
-              {/* Logo */}
               <Logo toggleSidebar={toggleSidebar} isCollapsed={isCollapsed} />
             </Box>
 
-            {/* Nav buttons for larger screens */}
-            {!isCollapsed && <NavButtons />}
+            {/* Center Section: Search Bar and Nav Links */}
+            {!isCollapsed && (
+              <Box
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '1rem',
+                  flex: 1, // Takes up remaining space between left and right sections
+                }}
+              >
+                <Box sx={{ width: '300px', maxWidth: '80%' }}>
+                  <BannerNavSearch />
+                </Box>
+                <NavButtons />
+              </Box>
+            )}
 
-            {/* Subscribe button for larger screens */}
+            {/* Right Section: Subscribe Button */}
             {!isCollapsed && (
               <Button
                 component={Link}
@@ -77,7 +91,7 @@ const ResponsiveAppBar = () => {
                   borderRadius: '50px',
                   padding: '10px 20px',
                   fontFamily: 'Playfair Display, serif ',
-                  marginRight: '50px',
+                  marginRight: '10px',
                   transition: 'color 0.3s ease', // Smooth transition for color change
                   '&:hover': {
                     color: '#000000 !important', // Change text color on hover
@@ -88,6 +102,25 @@ const ResponsiveAppBar = () => {
               >
                 Subscribe
               </Button>
+            )}
+
+            {/* Menu Icon for Smaller Screens */}
+            {isCollapsed && (
+              <IconButton
+                size="large"
+                aria-label="navigation menu"
+                onClick={toggleSidebar}
+                sx={{
+                  color: '#745B4F',
+                  fontFamily: 'Playfair Display, serif',
+                  '&:hover': {
+                    backgroundColor: 'transparent',
+                    color: '#745B4F',
+                  },
+                }}
+              >
+                <MenuIcon />
+              </IconButton>
             )}
           </Toolbar>
         </Container>
