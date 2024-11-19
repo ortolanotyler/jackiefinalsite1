@@ -9,47 +9,29 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import PinterestIcon from "@mui/icons-material/Pinterest";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import "./About.module.css";
 
 const About = () => {
   return (
-    <Box>
+    <Box sx={{ backgroundColor: "#fdebef" }}>
       {/* Hero Section */}
       <Box
         sx={{
-          backgroundImage: `url(${process.env.PUBLIC_URL}/Images/Home/Header2.png)`,
+          backgroundImage: `url(${process.env.PUBLIC_URL}/Images/Home/Header1.png)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           height: "10vh",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          color: "white",
-          textAlign: "center",
         }}
       >
-     
       </Box>
 
       {/* About Section */}
-      <Box sx={{ padding: "2rem", backgroundColor: "#fdebef" }}>
-        <Grid container spacing={1}>
-        <Typography
-  variant="body1"
-  sx={{
-    fontFamily: "Playfair Display, serif",
-    margin: '1rem auto',
-    textAlign: "center",
-    fontWeight: "400",
-    fontSize: "1.5rem",
-    lineHeight: 1,
-    marginBottom: "1rem",
-  }}
->
-Hello! I'm Jackie Wyers</Typography>
-
-              {/* Image Section */}
-              <Grid item xs={12} md={6}>
+      <Box sx={{ padding: "2rem" }}>
+        <Grid container spacing={4} alignItems="center">
+          {/* Image Section */}
+          <Grid item xs={12} md={6}>
             <Box
               component="img"
               src={`${process.env.PUBLIC_URL}/Images/About/JackieAboutMe1.JPG`}
@@ -64,8 +46,19 @@ Hello! I'm Jackie Wyers</Typography>
           </Grid>
           {/* Text Section */}
           <Grid item xs={12} md={6}>
-            <Box sx={{ padding: "2rem", color: "#745B4F" }}>
+            <Box sx={{ color: "#745B4F", padding: { xs: "1rem", md: "2rem" } }}>
             <Typography
+  variant="h4"
+  sx={{
+    fontFamily: "Playfair Display, serif",
+    textAlign: "center",
+    marginBottom: "1rem",
+  }}
+>
+  Hello! I'm Jackie Wyers.
+</Typography>
+
+<Typography
   variant="body1"
   sx={{
     fontFamily: "Playfair Display, serif",
@@ -76,7 +69,7 @@ Hello! I'm Jackie Wyers</Typography>
 >
   Welcome to where beauty meets pop culture. I started my YouTube
   career in my teens, and connecting with you through beauty has
-  been a highlight of my life thus far.
+  been a highlight of my life.
 </Typography>
 
 <Typography
@@ -88,7 +81,10 @@ Hello! I'm Jackie Wyers</Typography>
     marginBottom: "1rem",
   }}
 >
-  As a professionally trained makeup artist with a deep passion for character design, I excel at celebrating and recreating iconic looks. Life’s too short not to embrace both new trends and timeless styles. My tutorials are designed to guide you on how to <strong>switch up your style with confidence</strong>.
+  As a professionally trained makeup artist with a deep passion for
+  character design, I excel at celebrating and recreating iconic
+  looks. My tutorials guide you on how to <strong>switch up your
+  style with confidence</strong>.
 </Typography>
 
 <Typography
@@ -100,7 +96,14 @@ Hello! I'm Jackie Wyers</Typography>
     marginBottom: "1rem",
   }}
 >
-  I have a soft spot for TV and films that celebrate sisterhood and style. My comfort TV shows include "H2O: Just Add Water" and "Emily In Paris." Among my favorite films are "Sisterhood of the Traveling Pants," "Mean Girls," "Little Women," and more recently, "The Barbie Movie." I love bringing these characters to life through makeup transformations, celebrating their impact on me and acknowledging the incredible work of the artists behind the scenes.
+  I have a soft spot for TV and films that celebrate sisterhood and
+  style. My comfort TV shows include "H2O: Just Add Water" and
+  "Emily In Paris." Among my favorite films are "Sisterhood of the
+  Traveling Pants," "Mean Girls," "Little Women," and more recently,
+  "The Barbie Movie." I love bringing these characters to life
+  through makeup transformations, celebrating their impact on me and
+  acknowledging the incredible work of the artists behind the
+  scenes.
 </Typography>
 
 <Typography
@@ -112,7 +115,13 @@ Hello! I'm Jackie Wyers</Typography>
     marginBottom: "1rem",
   }}
 >
-  Inspiration also strikes from Taylor Swift's ever-changing eras and the playful 1960s—a transformative era for women with bold makeup trends to match. These inspirations are reflected in my video series, which includes TV and film hairstyles, wearable pop culture makeup transformations, and Time Travel Tutorials that cover all the vintage vibes. You'll also find modern trends and product recommendations here!
+  Inspiration also strikes from Taylor Swift's ever-changing eras
+  and the playful 1960s—a transformative era for women with bold
+  makeup trends to match. These inspirations are reflected in my
+  video series, which includes TV and film hairstyles, wearable pop
+  culture makeup transformations, and Time Travel Tutorials that
+  cover all the vintage vibes. You'll also find modern trends and
+  product recommendations here!
 </Typography>
 
 <Typography
@@ -124,7 +133,13 @@ Hello! I'm Jackie Wyers</Typography>
     marginBottom: "1rem",
   }}
 >
-  My goal is to simplify beauty techniques that are practical for your everyday routine while celebrating our unique interests. Whether you're aiming for a Brooke Shields-inspired no-makeup makeup look for a beach day, or a vibrant, pink Barbiecore look reminiscent of Summer 2023, I'm here to help. I aim to make beauty accessible and enjoyable, helping you express yourself effortlessly in your everyday life.
+  My goal is to simplify beauty techniques that are practical for
+  your everyday routine while celebrating our unique interests.
+  Whether you're aiming for a Brooke Shields-inspired no-makeup
+  makeup look for a beach day, or a vibrant, pink Barbiecore look
+  reminiscent of Summer 2023, I'm here to help. I aim to make beauty
+  accessible and enjoyable, helping you express yourself
+  effortlessly in your everyday life.
 </Typography>
 
 <Typography
@@ -136,7 +151,10 @@ Hello! I'm Jackie Wyers</Typography>
     marginBottom: "1rem",
   }}
 >
-  Together, we'll create looks that make you feel incredible and pay homage to the iconic moments and styles that inspire us. If you follow my tutorials, tag me on social media—I love seeing your experiments and often reshare them on my channels!
+  Together, we'll create looks that make you feel incredible and pay
+  homage to the iconic moments and styles that inspire us. If you
+  follow my tutorials, tag me on social media—I love seeing your
+  experiments and often reshare them on my channels!
 </Typography>
               <Button
                 component={Link}
@@ -154,8 +172,6 @@ Hello! I'm Jackie Wyers</Typography>
               </Button>
             </Box>
           </Grid>
-
-      
         </Grid>
       </Box>
 
@@ -205,13 +221,8 @@ Hello! I'm Jackie Wyers</Typography>
       </Box>
 
       {/* Fan Art */}
-      <Box sx={{ padding: "2rem", backgroundColor: "#fdebef" }}>
-        <Typography
-          variant="h5"
-          sx={{ fontFamily: "Playfair Display, serif", textAlign: "center", marginBottom: "1rem" }}
-        >
-          Fan Art Gallery
-        </Typography>
+      <Box sx={{ padding: "0", backgroundColor: "#fdebef" }}>
+  
         <FanArt />
       </Box>
 
@@ -219,7 +230,11 @@ Hello! I'm Jackie Wyers</Typography>
       <Box sx={{ padding: "2rem", backgroundColor: "#fff" }}>
         <Typography
           variant="h5"
-          sx={{ fontFamily: "Playfair Display, serif", textAlign: "center", marginBottom: "1rem" }}
+          sx={{
+            fontFamily: "Playfair Display, serif",
+            textAlign: "center",
+            marginBottom: "1rem",
+          }}
         >
           Brands I've Worked With
         </Typography>

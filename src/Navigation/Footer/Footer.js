@@ -44,7 +44,7 @@ const Footer = () => {
           color: "#745B4F",
           textAlign: "center",
           padding: "2rem",
-          marginTop: "1rem",
+          marginTop: "0",
         }}
       >
         {/* Quick Links */}
