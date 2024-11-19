@@ -44,7 +44,7 @@ const ResponsiveIframe = ({ src, title }) => {
     top: 0,
     left: 0,
     width: '100%',
-    minHeight: '600px',
+    minHeight: '500px',
     border: 'none', // Remove border
     overflow: 'hidden', // Ensure no scrolling
   };
