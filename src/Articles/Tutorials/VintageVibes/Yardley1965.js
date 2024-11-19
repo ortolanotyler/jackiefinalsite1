@@ -308,11 +308,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <h2 style={headingStyle}>The Hair: An Epic Updo Challenge</h2>
 
 <p style={paragraphStyle}>
-  No '60s look would be complete without an <a href="https://www.instyle.com/hair/60s-hairstyles" target="_blank" rel="noopener noreferrer" style={linkStyle}>iconic hairstyle</a>. I challenged myself to creating an ambitious updo, utilizing <a href="https://www.vogue.com/article/best-hair-extensions" target="_blank" rel="noopener noreferrer" style={linkStyle}>extensions</a> to achieve the volume and structure characteristic of the era. By pinning loops to craft a voluminous bun, I emulated the vintage style, adorning it with <a href="https://www.theknot.com/content/flower-accessories-for-brides" target="_blank" rel="noopener noreferrer" style={linkStyle}>flowers</a> and bows that were true to the period.
+  No '60s look would be complete without an iconic hairstyle. I challenged myself to creating an ambitious updo, utilizing <a href="https://www.vogue.com/article/best-hair-extensions" target="_blank" rel="noopener noreferrer" style={linkStyle}>extensions</a> to achieve the volume and structure characteristic of the era. By pinning loops to craft a voluminous bun, I emulated the vintage style, adorning it with <a href="https://www.theknot.com/content/flower-accessories-for-brides" target="_blank" rel="noopener noreferrer" style={linkStyle}>flowers</a> and bows that were true to the period.
 </p>
 
 <p style={paragraphStyle}>
-  The flower accessories, to my delight, resemble <a href="https://www.marthastewart.com/274235/paper-flowers-how-to-make" target="_blank" rel="noopener noreferrer" style={linkStyle}>paper flowers</a>! I sourced some and handcrafted a few bows, embellishing them with <a href="https://www.brides.com/gallery/pearl-accessories-for-brides" target="_blank" rel="noopener noreferrer" style={linkStyle}>pearls</a> to render the floral portrait as authentic as possible. Incidentally, I stumbled upon a book on crafting paper flowers, which I've linked above—could this be a new hobby for spring?
+  The flower accessories, to my delight, resemble paper flowers! I sourced some and handcrafted a few bows, embellishing them with <a href="https://www.brides.com/gallery/pearl-accessories-for-brides" target="_blank" rel="noopener noreferrer" style={linkStyle}>pearls</a> to render the floral portrait as authentic as possible. Incidentally, I stumbled upon a book on crafting paper flowers, which I've linked above—could this be a new hobby for spring?
 </p>
 
 <div style={{ display: 'flex', justifyContent: 'center' }}>
