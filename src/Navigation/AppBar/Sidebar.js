@@ -13,7 +13,10 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
     { name: 'HOME', path: '/' },
     { name: 'BEAUTY', path: '/tutorials' },
-    { name: 'QUIZ', path: '/quiz-2-home' },
+    { name: 'QUIZZES', path: '/quiz-2-home' },
+    { name: 'ANIMAL PRETTY QUIZ', path: '/quiz-2-home' },
+    { name: 'MALE vs FEMALE GAZE', path: '/quiz-2-home' },
+
     { name: 'TRENDING', path: '/trends' },
     { name: 'BRIDAL', path: '/bridal' },
     { name: 'TRAVEL', path: '/travel' },
