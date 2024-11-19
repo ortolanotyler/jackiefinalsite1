@@ -9,6 +9,7 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
 
 import Quiz2 from '../../../Quiz/Quiz2';
+import AdSenseAd from '../../../Home/Adsense';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
@@ -188,6 +189,8 @@ const AnimalPretty = () => {
   title="Animal Pretty - Which one are you? - Jackie Wyers" 
   imageUrl="https://www.jackiewyers.beauty/Images/Articles/AnimalPretty/animals.jpg" 
 />
+
+<AdSenseAd/>
 
       <ResponsiveYoutube
         src="https://www.youtube.com/embed/hIGr8Gj4kQA?si=8N-JgnQ-JeRTk5Gm"
