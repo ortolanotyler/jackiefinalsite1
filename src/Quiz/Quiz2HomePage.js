@@ -124,8 +124,7 @@ const Quiz2Homepage = () => {
       </Box>
 <AdSenseAd/>
 
-  <Box sx={{ margin: '1rem' }}>       <AdSenseAd/>
-      </Box>
+  
 
       {/* Wedding Dress Quiz Section */}
       <Box sx={{ width: '100%' }}>
