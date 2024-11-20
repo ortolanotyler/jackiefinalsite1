@@ -131,7 +131,6 @@ function HomePage() {
 
  
 
-<AdSenseAd/>
  
 
 
@@ -146,17 +145,21 @@ function HomePage() {
 
         <NewsletterSlider />
 
-        <AdSenseAd/>
+
 
         <TextBanner2 text="TRAVEL" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
         
         <SixGridComponent />
 
+        <Box sx={{ width: '100%', padding: '20px 0' }}>
+          <div className="adsense-ad" data-ad-slot="header-ad" />
+          <AdSenseAd />
+        </Box>
+
         <TextBanner2 text="VINTAGE VIBES" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
         
         <VintageVibesCards />
 
-        <AdSenseAd/>
         <TextBanner2 text="SHOP MY STYLE" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
         
         <MyStyleSlider1 />
