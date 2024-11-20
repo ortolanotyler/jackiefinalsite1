@@ -4,7 +4,7 @@
     text-align: center;
     background-color: white;
     border-radius: 50px;
-   margin: 1rem auto;
+   margin: 0 auto;
     box-sizing: border-box;
   }
   
@@ -47,6 +47,7 @@
     background-size: cover;
     background-position: center;
     font-family: 'Playfair Display', serif;
+    font-weight: 400;
     background-repeat: no-repeat;
     text-shadow: 2px 8px 8px rgba(0.9, 0, 0, 0.9);
     box-shadow: 0 4px 8px rgba(0.9, 0, 0, 0.9);
