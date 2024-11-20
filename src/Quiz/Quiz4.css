@@ -9,7 +9,7 @@
   }
   
   .question-section {
-    min-height: 50px; /* Ensure consistent height for the entire question section */
+    min-height: 20px; /* Ensure consistent height for the entire question section */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@
   
   .answer-button {
     color: white;
-    font-size: 30px;
+    font-size: 26px;
     cursor: pointer;
     border: 0.25px solid #fdedef;
     background-color: transparent;
