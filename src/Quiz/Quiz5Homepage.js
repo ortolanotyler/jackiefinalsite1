@@ -90,9 +90,7 @@ const Quiz5Homepage = () => {
         <Quiz4 />
       </Box>
 
-      <HorizontalLine/>
-<HorizontalLine/>
-          
+               
       <Box sx={{ margin: '1rem auto' }}>
        <AdSenseAd/>
       </Box>
@@ -105,15 +103,13 @@ const Quiz5Homepage = () => {
         />
       </Box>
 
-      <HorizontalLine/>
-      <HorizontalLine/>
+    
 
       <Box sx={{ margin: '1rem auto' }}>
        <AdSenseAd/>
       </Box>
       
-      <HorizontalLine/>
-      <HorizontalLine/>
+    
 
       {/* Quiz2 Content */}
       <Box
@@ -128,9 +124,7 @@ const Quiz5Homepage = () => {
         <Quiz2 />
       </Box>
 
-      <HorizontalLine/>
-<HorizontalLine/>
-          
+               
       <Box sx={{ margin: '1rem auto' }}>
        <AdSenseAd/>
       </Box>
@@ -156,9 +150,7 @@ const Quiz5Homepage = () => {
         <Quiz3 />
       </Box>
 
-      <HorizontalLine/>
-<HorizontalLine/>
-
+     
           
       <Box sx={{ margin: '1rem auto' }}>
        <AdSenseAd/>
@@ -169,9 +161,7 @@ const Quiz5Homepage = () => {
        <EmailSubscribe2/>
       </Box>
 
-      <HorizontalLine/>
-<HorizontalLine/>
-  
+       
     </Box>
   );
 };

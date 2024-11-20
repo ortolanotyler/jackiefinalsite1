@@ -1,6 +1,7 @@
 .body {
-    font-family: 'GFS Didot', serif;
-    background-color: #fdfdfd;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400; 
+    background-color: #fdedef;
     color: #745B4F;
     line-height: 1.6;
     margin: 2rem;
@@ -26,19 +27,19 @@
 }
 
 .heading {
-    color: #222;
+    color: #101010;
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px;
 }
 
 .mainHeading {
-    font-size: 2.5em;
-    margin-bottom: 0.75em;
+    font-size: 24px;
+    margin-bottom: 1rem;
 }
 
 .subHeading {
-    font-size: 2em;
-    margin-top: 2em;
+    font-size: 22px;
+    margin-top: 1rem;
     margin-bottom: 0.5em;
 }
 
