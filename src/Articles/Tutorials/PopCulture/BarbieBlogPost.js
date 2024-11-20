@@ -390,10 +390,6 @@ NYX’s makeup collab with Barbie for more pink lip combos!
 
   
 
-      <p style={paragraphStyle}>
-  Voila! You are your own version of Mattel's iconic doll. Feel free to tone down or amp up the style to make it your own. See full tutorial linked at the beginning of the article for DIY costume ideas, or find more DIY inspirations at <a href="https://www.buzzfeed.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>BuzzFeed DIY</a>.
-</p> 
-
  
 
 <p style={paragraphStyle}>

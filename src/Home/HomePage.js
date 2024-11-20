@@ -14,9 +14,7 @@ import NewsletterSlider from './NewsletterSlider';
 import TextRevealHomePage1 from '../Components/TextRevealHomePage1';
 import MyStyleSlider1 from '../Shop/MyStyleSlider1';
 import Quiz2 from '../Quiz/Quiz2';
-import HorizontalLine from '../Components/HorizontalLine';
-import AdSenseAd from './Adsense';
-import ArticleHero from './ArticleHero';
+
 
 function HomePage() {
   const isMobile = useMediaQuery('(max-width:650px)'); // Check if the screen size is mobile
@@ -124,10 +122,7 @@ function HomePage() {
         style={{ backgroundColor: '#fdedef', width: '100%', height: '70px' }} 
       />
 
-<Box sx={{ width: '100%', padding: '20px 0' }}>
-          <div className="adsense-ad" data-ad-slot="header-ad" />
-          <AdSenseAd />
-        </Box>
+
 
  
 
@@ -151,10 +146,7 @@ function HomePage() {
         
         <SixGridComponent />
 
-        <Box sx={{ width: '100%', padding: '20px 0' }}>
-          <div className="adsense-ad" data-ad-slot="header-ad" />
-          <AdSenseAd />
-        </Box>
+        
 
         <TextBanner2 text="VINTAGE VIBES" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
         
