@@ -9,7 +9,6 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
-import AdSenseAd from '../../../Home/Adsense';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/BardotHairstyles/1.jpg`;
@@ -233,11 +232,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <DropCap1 text="Welcome back to Time Travel Tutorials! Step back into the glamorous ‘60s with Brigitte
 Bardot's iconic big bun! Whether you're looking for a chic everyday look or a show-stopping updo for a special occasion, I've got you covered with my tried- and-tested techniques featuring faux bangs, using the ends of your own hair. Let's dive into vintage beauty and master the Bardot bun together!" />
 
-<div style = {{
-  padding: '10px',
-}}>
-<AdSenseAd/>
-</div>
+
 
 
 <p style={paragraphStyle}>
@@ -261,11 +256,7 @@ Bardot's iconic big bun! Whether you're looking for a chic everyday look or a sh
 <p style={captionStyle}>
 <a style={linkStyle} href="https://www.youtube.com/watch?v=hl2f12fGJwg" target="_blank" rel="noreferrer"> My first Bardot inspired hairstyles from 10 years ago.</a>
 </p>
-<div style = {{
-  padding: '10px',
-}}>
-<AdSenseAd/>
-</div>
+
 
 <p style={paragraphStyle}>
   I absolutely love fluffy curtain bangs like <a style={linkStyle} href="https://en.wikipedia.org/wiki/Sabrina_Carpenter" target="_blank" rel="noreferrer">Sabrina Carpenter</a> (a modern pop culture icon inspired by B.B.), and cutting curtain bangs and layers can definitely make your hair look a lot fuller if it's around shoulder length. That being said, when your hair is as long as mine—down to the belly button—there isn’t enough hair to do face-framing layers all the way to the ends. So, it's a haircut I personally skip to keep my lengths looking fuller. However, if I ever go shoulder length, you know I’ll be getting a Bardot-inspired haircut!
@@ -288,11 +279,7 @@ Inspired Muse - Tap image for Sabrina Carpenter inspired makeup tutorial.
 <p style={paragraphStyle}>
   This article is for those of you who want to experiment with faux bangs without using clip-ins and get the Bardot look temporarily. Let’s discover the best techniques to get the look, shall we?
 </p>
-<div style = {{
-  padding: '10px',
-}}>
-<AdSenseAd/>
-</div>
+
 
 <div style={gridContainerStyle}>
    <img src={image4} alt="Jackie Wyers Bardot Hairstyles" style={imageStyle} />
@@ -323,11 +310,7 @@ Method One: Best Big Bun
 Bun starts at 4:05    </p>
 
 
-<div style = {{
-  padding: '10px',
-}}>
-<AdSenseAd/>
-</div>
+
 
 
 
@@ -365,11 +348,7 @@ Method Two: Best Faux Bangs
   When I recreated a <a style={linkStyle} href="https://www.biography.com/actor/brigitte-bardot" target="_blank" rel="noreferrer">Brigitte Bardot</a> inspired look many years later using a different inspiration photo, I came up with another method to shorten the hair for the bang section. For my new technique, section the hair into three ponytails: two smaller pigtails at the front with a centre part, and the rest of the hair in a super high ponytail.
 </p>
 
-<div style = {{
-  padding: '10px',
-}}>
-<AdSenseAd/>
-</div>
+
 
 
 <p style={paragraphStyle}>

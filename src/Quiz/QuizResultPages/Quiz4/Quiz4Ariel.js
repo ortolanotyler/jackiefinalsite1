@@ -266,9 +266,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <DropCap1 text="Whether you're drawn to Halle Bailey's live-action elegance or the timeless appeal of the classic animation, your costume will surely bring a wave of aquatic charm to any party. Craving a dash of early 2000s nostalgia? Transform into Aquamarine for a delightful nod to those carefree childhood days—because who didn’t dream of rocking that T-shirt dress?"      />
     
-     <HorizontalLine/>
-     <AdSenseAd/>
-     <HorizontalLine/>
+  
      <p style={captionStyle}>
 Find tutorials below to guide your look & comment below to share your results & if they suited you!
 </p>
@@ -295,20 +293,14 @@ Find tutorials below to guide your look & comment below to share your results & 
   allowFullScreen
 ></iframe>
 </div>
-<HorizontalLine/>
-     <AdSenseAd/>
-     <HorizontalLine/>
+
 
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/ef4PKSxZVXA?si=bbDdcDWLvGawMS-b" title="AQUAMARINE makeup tutorial🐚 + hair, dress & mermaid tail🧜🏼‍♀️" />
-<HorizontalLine/>
-     <AdSenseAd/>
-     <HorizontalLine/>
+
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/JxULyqfc97I?si=j0llkC1X12eMBIKC" title="Aquamarine Makeup, Hair, Dress & Mermaid Tail Tutorial!" />
-<HorizontalLine/>
-     <AdSenseAd/>
-     <HorizontalLine/>
+
 
 
 
@@ -328,9 +320,7 @@ Find tutorials below to guide your look & comment below to share your results & 
           <img src={image6} alt="Barbie Movie Halloween Article" style={{ width: '100%', maxWidth: '300px', margin: '20px auto', display: 'block' }} />
         </a>
       </div>
-    <HorizontalLine/>
-     <AdSenseAd/>
-     <HorizontalLine/>
+ 
 
 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -338,12 +328,7 @@ Find tutorials below to guide your look & comment below to share your results & 
       </div>
       
       <Comments website-id={websiteId} page-id={"Quiz4"} />
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
+     
     </div>
   );
 

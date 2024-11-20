@@ -240,10 +240,7 @@ fontStyle: 'italic',
   />
 </div>
      
-<HorizontalLine/>
 
-<AdSenseAd/>
-<HorizontalLine/>
 
 
 <p style={captionStyle}>
@@ -257,12 +254,7 @@ Click here to take the quiz again! </a>
 </div>
       <DropCap1 text="Emulate the timeless sophistication of Audrey Hepburn's Holly Golightly this Halloween. Whether you're gracing a classy bash or serving up chic cocktails, your night is all about elegance. If old-world luxury calls to you, a Marie Antoinette get-up could add just the right amount of decadence."      />
     
-      <HorizontalLine/>
-
-<AdSenseAd/>
-
-    
-<HorizontalLine/>
+      
 
 <p style={captionStyle}>
 Find tutorials below to guide your look & comment below to share your results & if they suited you!
@@ -270,20 +262,14 @@ Find tutorials below to guide your look & comment below to share your results & 
 <HorizontalLine/>
 <ResponsiveYoutube src="https://www.youtube.com/embed/4TrE03gPC-s?si=xZ18HF_hu33nxFIG" title="AUDREY HEPBURN Makeup Tutorial | Breakfast At Tiffany's" />
 
-<HorizontalLine/>
 
-<AdSenseAd/>
-<HorizontalLine/>
 
 
   <ResponsiveYoutube 
     src="https://www.youtube.com/embed/4zl7DbeiL5s?si=9MiNa7V0kYn3C0x_" 
     title="ICONIC 1960s Hairstyles🎀 '60s hair tutorial | jackie wyers" 
   />
-  <HorizontalLine/>
-
-<AdSenseAd/>
-<HorizontalLine/>
+  
 
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
 
@@ -299,10 +285,7 @@ Find tutorials below to guide your look & comment below to share your results & 
 </div>
 
  
-<HorizontalLine/>
 
-<AdSenseAd/>
-<HorizontalLine/>
 
 
 
@@ -326,12 +309,7 @@ Find tutorials below to guide your look & comment below to share your results & 
       </div>
       
       <Comments website-id={websiteId} page-id={"Quiz4"} />
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
+     
     </div>
   );
 

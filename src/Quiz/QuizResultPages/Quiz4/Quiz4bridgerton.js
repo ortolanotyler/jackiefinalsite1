@@ -254,9 +254,7 @@ fontStyle: 'italic',
 Click here to take the quiz again! </a>
 
 </p>
-<HorizontalLine/>
 
-<AdSenseAd/>
 
 
 
@@ -277,19 +275,15 @@ Find tutorials below to guide your look & comment below to share your results & 
 </p>
 <br/>
 <ResponsiveYoutube src="https://www.youtube.com/embed/Bkt-bffs_aQ?si=sFYif2q_-LJk9eKz" title="FRANCESCA BRIDGERTON inspired makeup tutorial🎀 jackie wyers"/>
-<HorizontalLine/>
-<AdSenseAd/>
-<HorizontalLine/>
-<ResponsiveYoutube src="https://www.youtube.com/embed/WZ7aJmJAcbU?si=9dM-yFKJVjgNUwDX" title="BRIDGERTON hairstyles season 2🐝 Kate, Edwina & Daphne + Pat McGrath x BRIDGERTON makeup review💸👀"/>
-<HorizontalLine/>
 
-<AdSenseAd/>
+<ResponsiveYoutube src="https://www.youtube.com/embed/WZ7aJmJAcbU?si=9dM-yFKJVjgNUwDX" title="BRIDGERTON hairstyles season 2🐝 Kate, Edwina & Daphne + Pat McGrath x BRIDGERTON makeup review💸👀"/>
+
 
      
-<HorizontalLine/>
+
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/DZw0obZLIb8?si=01wuo0NbrlPdMwEi" title="3 daphne BRIDGERTON hairstyles🐝 modern regency hair tutorial" />
-<HorizontalLine/>
+
 
 <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
@@ -352,12 +346,7 @@ Find tutorials below to guide your look & comment below to share your results & 
       </div>
       
       <Comments website-id={websiteId} page-id={"Quiz4"} />
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
+  
     </div>
   );
 

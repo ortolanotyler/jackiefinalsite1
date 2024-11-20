@@ -254,7 +254,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={captionStyle}>
   Makeup originally by Nuria on set of Wicked using some of REM Beauty products. Pictured, Jackie Wyers recreation.
 </p>
-<AdSenseAd/>
+
 
 
 
@@ -276,7 +276,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 
 
-<AdSenseAd/>
+
 
 
 <h2 style={headingStyle}>🎀 Glinda Makeup Tutorial: Sparkling and Sweet 🎀</h2>
@@ -300,7 +300,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 
-<AdSenseAd/>
+
 <p style={paragraphStyle}>
   For blush, I’m using IT Cosmetics Sun Blush in Sun Blossom lower on the cheeks to add warmth. And how adorable is the Glinda Airbrush Soft Focus Blush Brush #113 by IT cosmetics? With its pink glitter and butterflies, it perfectly captures Glinda’s essence while blending everything to perfection.
 </p>
@@ -334,7 +334,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </div>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/853500?noHeader=true" style={{ width: '100%', minHeight: '340px', border: 'none' }}></ResponsiveIframe>
-<AdSenseAd/>
+
 
 <p style={paragraphStyle}>Step 3: Baking and Brows</p>
 
@@ -347,7 +347,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/853507?noHeader=true" style={{ width: '100%', minHeight: '340px', border: 'none' }}></ResponsiveIframe>
-<AdSenseAd/>
+
 
 <p style={paragraphStyle}>Step 4: Glinda’s Signature Doe Eyes</p>
 
@@ -391,7 +391,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   For liner, I kept it subtle with a thin stroke of liquid liner focused on the outer corner. I noticed a hint of purple in some shots and in the Mattel dolls, so I smoked out the liner with a purplish shade from the Elphaba side of the One/Size Wicked shadow palette. I’m excited to try the upcoming R.E.M. Beauty Wicked palettes that feature a similar color story! I didn’t have the collection yet when I shot this, but check it out on sale now below. (Check out my Wicked-inspired product list here!)
 </p>
-<AdSenseAd/>
+
 
 
 <p style={paragraphStyle}>
@@ -414,7 +414,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   Glinda’s hair is all about soft, romantic curls. I styled a wig half-up, half-down with a flower pin, which she later pins in Elphaba’s hair during her POPULAR makeover attempt. And, of course, no Glinda look is complete without glitter spray! A final touch of shimmer captures her ethereal charm. Check out me trying out the POPULAR On Til Dawn spray as the musical version of Glinda on Broadway!
 </p>
-<AdSenseAd/>
+
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/snYdmqknVs8?si=koyJgbteBRdq-ET_" title="VIRAL Glitter Setting Spray?! ✨🩵🫧 Let's Try It!😳" />
 
@@ -468,7 +468,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </div>
 
 
-<AdSenseAd/>
+
 
 <p style={captionStyle}>Stay sparkly my Good Witches!</p>
 
@@ -496,7 +496,7 @@ below.
       </div>
       
       <Comments website-id={websiteId} page-id={"wicked22-65fizz"} />
-      <AdSenseAd/>
+      
      
     </div>
   );

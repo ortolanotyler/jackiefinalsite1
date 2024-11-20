@@ -263,22 +263,14 @@ Click here to take the quiz again </a>
 
 <DropCap1 text="Dive into Barbie's world of endless possibilities where pink lips and bright fashion shine. Whether you're channeling Barbie from her latest movie adventure, classic Barbie, or the iconic peaches and cream Barbie, your Halloween is set to be a vibrant pink paradise. For those musically inclined, why not give Glinda a whirl for some good witch glam in a similar, pink and bubbly aesthetic?      "
       />
-     <HorizontalLine/>
-
     
-
-<AdSenseAd/>
-
-<HorizontalLine/>
 
 <p style={captionStyle}>
 Find tutorials below to guide your look & comment below to share your results & if they suited you!
 </p>
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/JfaND9n9ZCU?si=InxUvw0qK0rL5RdC" title="Margot Robbie BARBIE MOVIE Makeup🛼💖👱🏻‍♀️ + '90s Roller Skate Barbie Costume!" />
-<HorizontalLine/>
-      <AdSenseAd/>
-      <HorizontalLine/>
+
       <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
     src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729370578/ClassicBarbiePolaroid_gglajb.jpg" 
@@ -306,9 +298,7 @@ Find tutorials below to guide your look & comment below to share your results & 
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
-<HorizontalLine/>
-      <AdSenseAd/>
-      <HorizontalLine/>
+
 <div style={{ position: 'relative', display: 'inline-block' }}>
     <a href = '/barbie-doll' target='_blank' rel = 'noreferrer'>
     <img 
@@ -350,9 +340,7 @@ Find tutorials below to guide your look & comment below to share your results & 
     </a>
 </p>
 
-<HorizontalLine/>
-      <AdSenseAd/>
-      <HorizontalLine/>
+
 <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
     src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1729370578/Glinda_uldnab.jpg" 
@@ -381,14 +369,10 @@ Find tutorials below to guide your look & comment below to share your results & 
   />
 </div>
 
-<HorizontalLine/>
-      <AdSenseAd/>
-      <HorizontalLine/>
+
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/hRtIux714T0?si=vrShXaN9FSvjGcO6" title="WICKED MAKEUP💖💚 Ariana Grande’s GLINDA & YASSified ELPHABA🫦" />
-<HorizontalLine/>
-      <AdSenseAd/>
-      <HorizontalLine/>
+
 
 
 
@@ -415,12 +399,7 @@ Find tutorials below to guide your look & comment below to share your results & 
       </div>
       
       <Comments website-id={websiteId} page-id={"Quiz4"} />
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
+   
     </div>
   );
 

@@ -242,13 +242,7 @@ fontStyle: 'italic',
   />
 </div>
 
-<HorizontalLine/>
 
-
-<AdSenseAd/>
-
-
-<HorizontalLine/>
 
 
 <p style={captionStyle}>
@@ -264,9 +258,7 @@ Click here to take the quiz again </a>
 
 
       <DropCap1 text="Step back into the '90s with Britney's classic schoolgirl look, combining comfort with iconic style. Your party-ready preferences mean you're all set to rock the night away. Feeling a bit more modern? Sabrina Carpenter's pop star chic awaits you. "      />
-     <HorizontalLine/>
-     <AdSenseAd/>
-     <HorizontalLine/>
+    
 
      <p style={captionStyle}>
 Find tutorials below to guide your look & comment below to share your results & if they suited you!
@@ -323,12 +315,7 @@ Find tutorials below to guide your look & comment below to share your results & 
       </div>
       
       <Comments website-id={websiteId} page-id={"Quiz4"} />
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
+   
     </div>
   );
 

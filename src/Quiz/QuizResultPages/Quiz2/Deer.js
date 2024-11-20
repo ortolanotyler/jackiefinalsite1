@@ -252,7 +252,7 @@ style = {{
       <ResponsiveIframe src="https://shopmy.us/collections/public/552826?noHeader=true" title="Makeup by Mario Master Mattes Palette - Neutral Eyeshadow for Deer Pretty Look" />
     
 
-  <AdSenseAd/>
+
      
        
 
@@ -261,7 +261,7 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552928?noHeader=true" title="ISOPIA Iso-Gentle Touch Lashes - Wispy Falsies for Doe-Eyed Makeup" />
-     <AdSenseAd/>
+   
 
        
 
@@ -270,7 +270,7 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552829?noHeader=true" title="Peachy Blush and Champagne Highlighter - Natural Glow Essentials" />
-     <AdSenseAd/>
+   
 
     
       <p style={paragraphStyle}>
@@ -278,7 +278,7 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552889?noHeader=true" title="Matte Peach Lipstick and Nude Lipliner - Perfect Lip Pairing for Deer Pretty Look" />
-     <AdSenseAd/>
+   
 
        
 
@@ -308,16 +308,16 @@ style = {{
         I hope this quiz inspires you to play with these animal-inspired beauty looks. Here’s a mini tutorial as a refresher to get the look and be sure to tag me on your socials if you try out these styles as I’d love to see it!
       </p>
 
-      <AdSenseAd/>
+    
 
 
       <img src={signature} alt="Jackie Wyers Signature" className={styles.signatureImage} />
      
       <Comments website-id={websiteId} page-id={"Animal-Prizznizzle"} />
-    <AdSenseAd/>
-   <AdSenseAd/>
+  
+ 
 
-     <AdSenseAd/>
+   
 
     
     

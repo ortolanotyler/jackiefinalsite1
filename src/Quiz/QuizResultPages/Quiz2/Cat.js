@@ -228,11 +228,7 @@ style = {{
         <img src={image2} alt="Cat Pretty" className={styles.image} />
       </div>
 
-      <div style = {{
-        margin: '1rem auto'
-      }}>
-  <AdSenseAd/>
-      </div>
+    
     
      
       <p style={paragraphStyle}>
@@ -245,11 +241,7 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552837?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-      <div style = {{
-        margin: '1rem auto'
-      }}>
-  <AdSenseAd/>
-      </div>
+    
     
 
       <p style={paragraphStyle}>
@@ -257,11 +249,7 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552911?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-      <div style = {{
-        margin: '1rem auto'
-      }}>
-  <AdSenseAd/>
-      </div>
+    
     
 
       <p style={paragraphStyle}>

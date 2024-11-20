@@ -6,7 +6,6 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
-import AdSenseAd from '../../../Home/Adsense';
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
 const next = `${process.env.PUBLIC_URL}/Images/Articles/Homepage/HalloweenThumb.webp`;
@@ -256,7 +255,7 @@ textAlign: 'center',
           style={{ width: '100%', minHeight: '340px', border: 'none' }}
         />
 
-        <AdSenseAd/>
+       
         
         <h3 style={headingStyle}>Beis Wicked Luggage Collection</h3>
         <p style={paragraphStyle}>
@@ -279,7 +278,7 @@ textAlign: 'center',
           title="Vera Bradley Wicked Prints"
           style={{ width: '100%', minHeight: '340px', border: 'none' }}
         />
-                <AdSenseAd/>
+               
 
         <h3 style={headingStyle}>Rebecca Minkoff Wicked Collection</h3>
         <p style={paragraphStyle}>
@@ -313,7 +312,7 @@ textAlign: 'center',
           title="Aldo Pink Bow Heels and Bag"
           style={{ width: '100%', minHeight: '340px', border: 'none' }}
         />
-                <AdSenseAd/>
+               
 
         <h2 style={headingStyle}>Collectibles to Add a Touch of Oz to Your Home</h2>
         
@@ -338,7 +337,7 @@ textAlign: 'center',
           title="Marks and Spencer Holiday Ornaments"
           style={{ width: '100%', minHeight: '340px', border: 'none' }}
         />
-                <AdSenseAd/>
+               
 
         <h3 style={headingStyle}>Mattel’s Wicked Dolls</h3>
         <p style={paragraphStyle}>
@@ -398,7 +397,7 @@ textAlign: 'center',
           title="IT Cosmetics Wicked Brushes"
           style={{ width: '100%', minHeight: '340px', border: 'none' }}
         />
-                <AdSenseAd/>
+               
 
         <h3 style={headingStyle}>Target Wicked Cardigan</h3>
         <p style={paragraphStyle}>
@@ -440,7 +439,7 @@ textAlign: 'center',
 
         </p>
 
-        <AdSenseAd/>
+       
 
 
 

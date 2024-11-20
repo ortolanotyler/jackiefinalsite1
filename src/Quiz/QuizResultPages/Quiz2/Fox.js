@@ -206,11 +206,7 @@ style = {{
 
 
 </div>
-      <div style = {{
-        margin: '1rem auto'
-      }}>
-  <AdSenseAd/>
-      </div>
+    
           <p style={paragraphStyle}>
         Your free-spirited and adventurous nature makes you a perfect match for the Fox Pretty style. With a love for earthy tones and a makeup style that features warm, rustic shades, you capture the essence of the wild and whimsical fox.
       </p>
@@ -218,11 +214,7 @@ style = {{
       <p style={paragraphStyle}>
         Your preference for bohemian and patterned outfits complements this look, embodying the charm and vibrant spirit of the outdoors. Your personality is as warm and inviting as your makeup, drawing others to your genuine and down-to-earth demeanour.
       </p>
-  <div style = {{
-        margin: '1rem auto'
-      }}>
-  <AdSenseAd/>
-      </div>
+
     
       <p style={paragraphStyle}>
         Dive into styles that feature lively prints and natural textures to fully embrace your Fox Pretty persona. Read further for makeup recommendations.
@@ -233,11 +225,7 @@ style = {{
       <p style={paragraphStyle}>
         Celebrity Inspirations: Sadie Sink is the quintessential muse for this look, with her rustic red hues in her hair and brows. Her natural beauty enhanced with earthy makeup perfectly captures the Fox Pretty aesthetic.
       </p>
-  <div style = {{
-        margin: '1rem auto'
-      }}>
-  <AdSenseAd/>
-      </div>
+
     
       <p style={paragraphStyle}>
         Note: If you're a redhead with bright blue eyes and vibrant hair that leans more towards the Spring colour season, you might find the “Bunny Pretty” guide with its softer pink shades more flattering than the rustic tones of Fox Pretty.
@@ -252,7 +240,6 @@ style = {{
       <ResponsiveIframe src="https://shopmy.us/collections/public/552844?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
       <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
 
-  <AdSenseAd/>
       
     
       <p style={paragraphStyle}>
@@ -275,7 +262,6 @@ style = {{
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552848?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
  
-  <AdSenseAd/>
     
     
       <p style={paragraphStyle}>
@@ -288,7 +274,6 @@ style = {{
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552850?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
    
-  <AdSenseAd/>
     
     
       <p style={paragraphStyle}>
@@ -297,26 +282,10 @@ style = {{
 
       <img src={signature} alt="Jackie Wyers Signature" className={styles.signatureImage} />
       <Comments website-id={websiteId} page-id={"Animal-Prizznizzle"} />
-  <div style = {{
-        margin: '1rem auto'
-      }}>
-  <AdSenseAd/>
-      </div>
-      <div style = {{
-        margin: '1rem auto'
-      }}>
-  <AdSenseAd/>
-      </div>
-      <div style = {{
-        margin: '1rem auto'
-      }}>
-  <AdSenseAd/>
-      </div>
-      <div style = {{
-        margin: '1rem auto'
-      }}>
-  <AdSenseAd/>
-      </div>
+
+    
+    
+    
     
       
    
