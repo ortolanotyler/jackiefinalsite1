@@ -124,6 +124,11 @@ function HomePage() {
         style={{ backgroundColor: '#fdedef', width: '100%', height: '70px' }} 
       />
 
+<Box sx={{ width: '100%', padding: '20px 0' }}>
+          <div className="adsense-ad" data-ad-slot="header-ad" />
+          <AdSenseAd />
+        </Box>
+
  
 
 <AdSenseAd/>
