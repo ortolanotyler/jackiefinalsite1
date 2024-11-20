@@ -51,9 +51,10 @@ const Footer = () => {
         <Box
           sx={{
             display: "flex",
-            flexDirection: "column",
+            flexDirection: { xs: "column", md: "row" }, // Responsive layout
             alignItems: "center",
-            gap: "1rem",
+            justifyContent: "center",
+            gap: { xs: "0.5rem", md: "2rem" }, // Adjust gap based on screen size
             mb: 2,
           }}
         >
