@@ -2,14 +2,12 @@ import React from 'react';
 import { Box } from '@mui/material';
 import { Helmet } from 'react-helmet-async';
 import TextReveal from '../Components/TextReveal';
-import EmailSubscribe from '../Components/EmailSubscribe';
 import Quiz2 from './Quiz2';
 import Quiz3 from './Quiz3';
 import Quiz4 from './Quiz4';
 import Quiz5 from './Quiz5';
-import AdSenseAd from '../Home/Adsense';
 import EmailSubscribe2 from '../Components/EmailSubscribe2';
-import HorizontalLine from '../Components/HorizontalLine';
+import AdSenseAd from '../Home/Adsense';
 
 const Quiz4Homepage = () => {
   return (
@@ -90,7 +88,8 @@ const Quiz4Homepage = () => {
       </Box>
 
 
-
+      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
+      </Box>
 
      
 
@@ -115,7 +114,8 @@ const Quiz4Homepage = () => {
         <Quiz3 />
       </Box>
 
-
+      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
+      </Box>
      
 
       {/* Male vs Female Gaze Quiz Section */}
@@ -139,7 +139,8 @@ const Quiz4Homepage = () => {
         <Quiz5 />
       </Box>
 
-     
+      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
+      </Box>
 
       {/* Subscribe Section */}
       <Box sx={{ width: '100%' }}>

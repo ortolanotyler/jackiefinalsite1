@@ -2,15 +2,13 @@ import React from 'react';
 import { Box, Grid, Paper } from '@mui/material';
 import { Helmet } from 'react-helmet-async';
 import TextReveal from '../Components/TextReveal';
-import TextBanner2 from '../Components/TextBanner2';
-import EmailSubscribe from '../Components/EmailSubscribe';
+
 import Quiz2 from './Quiz2';
 import Quiz3 from './Quiz3';
 import Quiz4 from './Quiz4';
 import Quiz5 from './Quiz5';
-import AdSenseAd from '../Home/Adsense';
 import EmailSubscribe2 from '../Components/EmailSubscribe2';
-import HorizontalLine from '../Components/HorizontalLine';
+import AdSenseAd from '../Home/Adsense';
 
 const QuizHomepage = () => {
   return (
@@ -73,9 +71,8 @@ const QuizHomepage = () => {
         <Quiz2 />
       </Box>
 
-      <HorizontalLine/>
-<AdSenseAd/>
-<HorizontalLine/>
+      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
+      </Box>
   
         {/* Quiz Banner Section */}
         <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
@@ -99,10 +96,9 @@ const QuizHomepage = () => {
       >
         <Quiz3 />
       </Box>
-
-      <HorizontalLine/>
-<AdSenseAd/>
-<HorizontalLine/>
+      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
+      </Box>
+   
 
       {/* Quiz Banner Section */}
       <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
@@ -126,9 +122,8 @@ const QuizHomepage = () => {
       </Box>
 
 
-   <HorizontalLine/>
-<AdSenseAd/>
-<HorizontalLine/>
+      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
+      </Box>
   
 
           
@@ -155,9 +150,8 @@ const QuizHomepage = () => {
         <Quiz4 />
       </Box>
 
-      <HorizontalLine/>
-<AdSenseAd/>
-<HorizontalLine/>
+      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
+      </Box>
     
       
           

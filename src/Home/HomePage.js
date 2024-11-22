@@ -14,6 +14,7 @@ import NewsletterSlider from './NewsletterSlider';
 import TextRevealHomePage1 from '../Components/TextRevealHomePage1';
 import MyStyleSlider1 from '../Shop/MyStyleSlider1';
 import Quiz2 from '../Quiz/Quiz2';
+import AdSenseAd from './Adsense';
 
 
 function HomePage() {
@@ -111,9 +112,6 @@ function HomePage() {
         
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 1 }}>
 
- 
-
-
       <Quiz2 />
     </Box>
 
@@ -124,7 +122,8 @@ function HomePage() {
 
 
 
- 
+<Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
+</Box>
 
  
 
@@ -140,7 +139,7 @@ function HomePage() {
 
         <NewsletterSlider />
 
-
+       
 
         <TextBanner2 text="TRAVEL" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
         

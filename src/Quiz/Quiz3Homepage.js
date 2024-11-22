@@ -7,9 +7,9 @@ import Quiz2 from './Quiz2';
 import Quiz3 from './Quiz3';
 import Quiz4 from './Quiz4';
 import Quiz5 from './Quiz5';
-import AdSenseAd from '../Home/Adsense';
 import EmailSubscribe2 from '../Components/EmailSubscribe2';
 import HorizontalLine from '../Components/HorizontalLine';
+import AdSenseAd from '../Home/Adsense';
 
 const Quiz3Homepage = () => {
   return (
@@ -67,12 +67,12 @@ const Quiz3Homepage = () => {
       >
         <Quiz3 />
       </Box>
-
+      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
+      </Box>
    
 
 
-  <Box sx={{ margin: '1rem' }}>       <AdSenseAd/>
-      </Box>
+
 
       {/* Male vs Female Gaze Quiz Section */}
       <Box sx={{ width: '100%' }}>
@@ -95,9 +95,9 @@ const Quiz3Homepage = () => {
         <Quiz5 />
       </Box>
 
-      <Box sx={{ margin: '1rem' }}>       <AdSenseAd/>
+   
+      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
       </Box>
-
  
 
 
@@ -122,7 +122,7 @@ const Quiz3Homepage = () => {
         <Quiz4 />
       </Box>
 
-      <Box sx={{ margin: '1rem' }}>       <AdSenseAd/>
+      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
       </Box>
  
 
@@ -147,7 +147,7 @@ const Quiz3Homepage = () => {
         <Quiz2 />
       </Box>
 
-      <Box sx={{ margin: '1rem' }}>       <AdSenseAd/>
+      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
       </Box>
 
 
@@ -156,8 +156,7 @@ const Quiz3Homepage = () => {
         <EmailSubscribe2/>
       </Box>
 
-      <Box sx={{ margin: '1rem' }}>       <AdSenseAd/>
-      </Box>
+   
     
     </Box>
   );
