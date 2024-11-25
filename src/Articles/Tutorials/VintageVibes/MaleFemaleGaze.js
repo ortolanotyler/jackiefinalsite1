@@ -117,15 +117,21 @@ const MaleFemaleGaze = () => {
   The trend went viral with the sound: “Don’t look at me with those eyes…what eyes” as creators showcased their interpretations of male gaze vs. female gaze makeup. Here’s my take below!
 </p>
 
-<iframe
-  src="https://www.youtube.com/embed/shorts/DLN0uC-NJNA"
-  title="Male Gaze vs Female Gaze Makeup - Viral TikTok Trend"
-  width="100%"
-  height="315"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-></iframe>
+<div>
+  <iframe
+    style={{
+      boxShadow: '12px',
+      borderRadius: '15px',
+      width: '301px',
+      height: '535px',
+    }}
+    src="https://www.youtube.com/embed/shorts/DLN0uC-NJNA"
+    title="Male Gaze vs Female Gaze Makeup - Viral TikTok Trend"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
 
 <h2 style={headingStyle}>What is Male Gaze Makeup?</h2>
 
@@ -133,15 +139,21 @@ const MaleFemaleGaze = () => {
   Male gaze makeup embodies a soft, effortlessly chic vibe. It’s inspired by the "girl next door" archetype—natural, sweet, and approachable. The goal is to look radiant and “effortless,” even though a lot of effort often goes into creating this polished look.
 </p>
 
-<iframe
-  src="https://www.youtube.com/embed/shorts/sem414qF48Q"
-  title="Male Gaze Makeup Inspiration"
-  width="100%"
-  height="315"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-></iframe>
+<div>
+  <iframe
+    style={{
+      boxShadow: '12px',
+      borderRadius: '15px',
+      width: '301px',
+      height: '535px',
+    }}
+    src="https://www.youtube.com/embed/shorts/sem414qF48Q"
+    title="Male Gaze Makeup Inspiration"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
 
 <h3 style={headingStyle}>Key Features of Male Gaze Makeup:</h3>
 <p style={paragraphStyle}>• Glowing, sheer skin</p>
