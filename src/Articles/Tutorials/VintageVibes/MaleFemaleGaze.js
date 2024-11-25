@@ -117,7 +117,11 @@ const MaleFemaleGaze = () => {
   The trend went viral with the sound: “Don’t look at me with those eyes…what eyes” as creators showcased their interpretations of male gaze vs. female gaze makeup. Here’s my take below!
 </p>
 
-<div>
+<div
+style = {{
+  textAlign: 'center',
+}}
+>
   <iframe
     style={{
       boxShadow: '12px',
@@ -125,7 +129,7 @@ const MaleFemaleGaze = () => {
       width: '301px',
       height: '535px',
     }}
-    src="https://www.youtube.com/embed/shorts/DLN0uC-NJNA"
+    src="https://www.youtube.com/embed/DLN0uC-NJNA"
     title="Male Gaze vs Female Gaze Makeup - Viral TikTok Trend"
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -139,15 +143,18 @@ const MaleFemaleGaze = () => {
   Male gaze makeup embodies a soft, effortlessly chic vibe. It’s inspired by the "girl next door" archetype—natural, sweet, and approachable. The goal is to look radiant and “effortless,” even though a lot of effort often goes into creating this polished look.
 </p>
 
-<div>
-  <iframe
+<div
+style = {{
+  textAlign: 'center',
+}}
+>  <iframe
     style={{
       boxShadow: '12px',
       borderRadius: '15px',
       width: '301px',
       height: '535px',
     }}
-    src="https://www.youtube.com/embed/shorts/sem414qF48Q"
+    src="https://www.youtube.com/embed/sem414qF48Q"
     title="Male Gaze Makeup Inspiration"
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
