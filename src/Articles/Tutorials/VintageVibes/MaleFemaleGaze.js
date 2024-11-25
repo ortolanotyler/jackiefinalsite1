@@ -58,7 +58,7 @@ const MaleFemaleGaze = () => {
     <div>
       <Helmet>
         <title>Male Gaze vs. Female Gaze Makeup: Which Style Suits You Best?</title>
-        <link rel="canonical" href="https://www.jackiewyers.beauty/articles/male-female-gaze-makeup" />
+        <link rel="canonical" href="https://www.jackiewyers.beauty/articles/male-female-gaze" />
         <meta 
           name="description" 
           content="Dive into the viral makeup trend of Male vs. Female Gaze! Discover your style with tutorials and pop culture inspo to find your makeup persona!" 
@@ -72,11 +72,11 @@ const MaleFemaleGaze = () => {
           property="og:description" 
           content="Explore the Male Gaze vs. Female Gaze makeup trend with Jackie Wyers. From soft natural glam to bold artistic looks, discover your unique style today!" 
         />
-        <meta property="og:image" content="https://www.jackiewyers.beauty/Images/MaleFemaleGaze/thumbnail.jpg" />
-        <meta property="og:url" content="https://www.jackiewyers.beauty/articles/male-female-gaze-makeup" />
+        <meta property="og:image" content="https://www.jackiewyers.beauty/Images/Articles/MaleFemale/MaleFemaleGazeThumb.webp" />
+        <meta property="og:url" content="https://www.jackiewyers.beauty/articles/male-female-gaze" />
         <meta name="twitter:title" content="Male Gaze vs. Female Gaze Makeup: Which Style Suits You Best?" />
         <meta name="twitter:description" content="Discover your makeup persona with the Male vs. Female Gaze trend! Jackie Wyers explores pop culture-inspired looks and creative tutorials." />
-        <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/MaleFemaleGaze/thumbnail.jpg" />
+        <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/Articles/MaleFemale/MaleFemaleGazeThumb.webp" />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50px', paddingTop: '100px', paddingBottom: '50px' }}>
@@ -89,13 +89,13 @@ const MaleFemaleGaze = () => {
   mainTitle="Male Gaze vs. Female Gaze Makeup: Which Style Suits You Best?"
   subTitle="Discover your makeup persona with the male vs. female gaze trend"
   author="Jackie Wyers"
-  publishDate="November 23rd, 2024"
+  publishDate="November 25th, 2024"
 />
 
 <SocialShare 
   url="https://www.jackiewyers.beauty/articles/male-female-gaze-makeup" 
   title="Male Gaze vs. Female Gaze Makeup: Which Style Suits You Best? - Jackie Wyers" 
-  imageUrl="https://www.jackiewyers.beauty/Images/MaleFemaleGaze/thumbnail.jpg" 
+  imageUrl="https://www.jackiewyers.beauty/Images/Articles/MaleFemale/MaleFemaleGazeThumb.webp" 
 />
 
 <ResponsiveYoutube 
@@ -117,10 +117,15 @@ const MaleFemaleGaze = () => {
   The trend went viral with the sound: “Don’t look at me with those eyes…what eyes” as creators showcased their interpretations of male gaze vs. female gaze makeup. Here’s my take below!
 </p>
 
-<ResponsiveYoutube 
-  src="https://www.youtube.com/embed/DLN0uC-NJNA" 
+<iframe
+  src="https://www.youtube.com/embed/shorts/DLN0uC-NJNA"
   title="Male Gaze vs Female Gaze Makeup - Viral TikTok Trend"
-/>
+  width="100%"
+  height="315"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
 
 <h2 style={headingStyle}>What is Male Gaze Makeup?</h2>
 
@@ -128,10 +133,15 @@ const MaleFemaleGaze = () => {
   Male gaze makeup embodies a soft, effortlessly chic vibe. It’s inspired by the "girl next door" archetype—natural, sweet, and approachable. The goal is to look radiant and “effortless,” even though a lot of effort often goes into creating this polished look.
 </p>
 
-<ResponsiveYoutube 
-  src="https://www.youtube.com/embed/sem414qF48Q" 
+<iframe
+  src="https://www.youtube.com/embed/shorts/sem414qF48Q"
   title="Male Gaze Makeup Inspiration"
-/>
+  width="100%"
+  height="315"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
 
 <h3 style={headingStyle}>Key Features of Male Gaze Makeup:</h3>
 <p style={paragraphStyle}>• Glowing, sheer skin</p>
@@ -178,7 +188,7 @@ const MaleFemaleGaze = () => {
   Female gaze makeup is bold, artistic, and unapologetically creative. It’s for those who see makeup as a form of self-expression, inspired by trendsetters and pop culture icons. These looks prioritize individuality over societal expectations.
 </p>
 
-<h3 style={headingStyle}>Key Features of Female Gaze Makeup:</h3>
+<h3 style={headingStyle}>My Unique Take on Female Gaze Makeup:</h3>
 <p style={paragraphStyle}>• Glossy skin</p>
 <p style={paragraphStyle}>• Bold lips or smoky, dramatic eyes</p>
 <p style={paragraphStyle}>• Experimental use of colors and textures</p>
@@ -239,11 +249,11 @@ const MaleFemaleGaze = () => {
 <h2 style={headingStyle}>How to Find Your Makeup Persona</h2>
 
 <p style={paragraphStyle}>
-  Curious which style suits you best? Take the <a href="https://www.jackiewyers.beauty/makeupquiz" style={linkStyle}>Male vs. Female Gaze Makeup Quiz</a> to discover your makeup persona! Whether you’re sweet and effortless or bold and artistic, these tutorials will help you embrace your unique vibe and experiment with styles that celebrate your individuality.
+  Curious which style suits you best? Take the <a href="https://www.jackiewyers.beauty/quiz/male-female-gaze" style={linkStyle}>Male vs. Female Gaze Makeup Quiz</a> to discover your makeup persona! Whether you’re sweet and effortless or bold and artistic, these tutorials will help you embrace your unique vibe and experiment with styles that celebrate your individuality.
 </p>
 
 <p style={paragraphStyle}>
-  Enjoyed this trend breakdown? Check out my <a href="/what-animal-face-type-are-you" style={linkStyle}>What Animal Face Type Are You?</a> quiz and article below for more fun insights into your beauty style.
+  Enjoyed this trend breakdown? Check out my <a href="/animalpretty" style={linkStyle}>What Animal Face Type Are You?</a> quiz and article below for more fun insights into your beauty style.
 </p>
 
 <div style={{ textAlign: 'center', margin: '10px auto' }}>
