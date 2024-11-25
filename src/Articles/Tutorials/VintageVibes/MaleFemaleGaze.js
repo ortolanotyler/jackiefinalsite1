@@ -80,7 +80,7 @@ const MaleFemaleGaze = () => {
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50px', paddingTop: '100px', paddingBottom: '50px' }}>
-  <a href="/beautytrends" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
+  <a href="/trends" style={{ fontFamily: 'GFS Didot, serif', fontSize: '1rem', color: '#000000', textDecoration: 'none' }}>
     BEAUTY // MAKEUP TRENDS
   </a>
 </div>
