@@ -270,23 +270,16 @@ Find tutorials below to guide your look & comment below to share your results & 
 <ResponsiveYoutube src="https://www.youtube.com/embed/Mha-LluBOs8?si=rNgRnJV0Lc52kMgy" title="Britney Spears' 'baby one more time' makeup tutorial! ICONIC '90s makeup" />
 
 
-<HorizontalLine/>
 
-<AdSenseAd/>
-<HorizontalLine/>
 
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/3zCKE1yS7Yw?si=-G7NY-CM0Zz3xxi_" title="Sabrina Carpenter Makeup Tutorial🎀👱🏼‍♀️THE BARBIE EFFECT" />
 
-<HorizontalLine/>
 
-<AdSenseAd/>
-<HorizontalLine/>
 
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/903687?noHeader=true" title="Shop My Favorites" />
-<AdSenseAd/>
-<HorizontalLine/>
+
 
 
 
@@ -305,7 +298,6 @@ Find tutorials below to guide your look & comment below to share your results & 
           <img src={image6} alt="Barbie Movie Halloween Article" style={{ width: '100%', maxWidth: '300px', margin: '20px auto', display: 'block' }} />
         </a>
       </div>
-      <HorizontalLine/>
 
       <div style = {{textAlign: 'center', margin: '2rem auto' }}>
 <SubscribeButton />

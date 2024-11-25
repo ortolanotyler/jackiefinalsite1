@@ -145,6 +145,7 @@ import DCCMakeupTutorial from './Articles/Tutorials/VintageVibes/DallasCowboys';
 import NewZealand from './Articles/Travel/NewZealand';
 import TaylorSwiftHoliday from './Articles/Tutorials/PopCulture/TaylorSwift';
 import NewsletterSlider from './Home/NewsletterSlider';
+import MaleFemaleGaze from './Articles/Tutorials/VintageVibes/MaleFemaleGaze';
 
 
 function usePageTracking() {
@@ -319,6 +320,7 @@ function App() {
             <Route path="/articles/wicked-collaborations-2024" element={<WickedCollabs />} />
             <Route path="/articles/dcc-cheerleader" element={<DCCMakeupTutorial />} />
             <Route path="/articles/taylor-swift-holidays-2024" element={<TaylorSwiftHoliday />} />
+            <Route path="/articles/male-female-gaze" element={<MaleFemaleGaze />} />
 
             <Route path="*" element={<NotFound/>} />
           </Route>

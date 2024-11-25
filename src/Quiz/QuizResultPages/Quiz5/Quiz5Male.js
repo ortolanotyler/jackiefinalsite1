@@ -179,12 +179,7 @@ const Quiz5Male = () => {
       <h2 style={headingStyle}>Rory Gilmore from "Gilmore Girls"</h2>
       <p style={paragraphStyle}>Rory's makeup epitomizes youthful, "barely-there" beauty. Perfect for those who admire a subtle yet impactful style. Explore Rory’s Makeup Tutorial to achieve her fresh-faced radiance.</p>
       <ResponsiveYoutube src="https://www.youtube.com/embed/reRyyvPTAZw&t=1s" title="Rory Gilmore Makeup Tutorial" />
-      <div style = {{
-    margin: '10px  auto  ',
-    minHeight: "auto",
-}}>
-  <AdSenseAd />
-</div>
+      
       <h2 style={headingStyle}>Alaska Young from "Looking for Alaska"</h2>
       <p style={paragraphStyle}>Alaska mixes natural makeup with loose, flowing hair and vintage attire, capturing a simple yet stunning vibe. Get Alaska’s Look to channel her retro charm.</p>
       <ResponsiveYoutube src="https://www.youtube.com/embed/AePBFzlyNpo&t=16s" title="Alaska Young Makeup Tutorial" />
@@ -192,12 +187,7 @@ const Quiz5Male = () => {
       <h2 style={headingStyle}>Brooke Shields in "The Blue Lagoon"</h2>
       <p style={paragraphStyle}>For the ultimate beach babe look, Brooke's iconic style offers perfect inspiration, ideal for summer or a beach getaway. Master the Beach Aesthetic with my tutorial.</p>
       <ResponsiveYoutube src="https://www.youtube.com/embed/yC8Sf9U3Aww?list=PL-_qSuEl3UwH4UEWC4LNUSi6a3y_oVmDB" title="Brooke Shields Beach Look Tutorial" />
-      <div style = {{
-    margin: '10px  auto  ',
-    minHeight: "auto",
-}}>
-  <AdSenseAd />
-</div>
+      
       <h2 style={headingStyle}>Victoria’s Secret Angels</h2>
       <p style={paragraphStyle}>When you want just a bit more glamour, the Victoria’s Secret Angel makeup look is perfect—glamorous yet wearable. Learn the Angel Makeup Secrets for a flawless finish.</p>
       <ResponsiveYoutube src="https://www.youtube.com/embed/Uz03ReLZO9k&t=1s" title="Victoria's Secret Angel Makeup Tutorial" />
@@ -210,12 +200,7 @@ const Quiz5Male = () => {
         What’s Your Take? Loved these tips or have more ideas? Share your thoughts and let us know how these styles work out for you!
       </p>
 
-<div style = {{
-    margin: '10px  auto  ',
-    minHeight: "auto",
-}}>
-  <AdSenseAd />
-</div>
+
     
   
      

@@ -174,35 +174,20 @@ const Quiz5Female = () => {
       <p style={paragraphStyle}>
         Your style is artistic and bold, resonating with trendsetting icons who've left their mark on pop culture. You inspire other women who admire the confidence it takes to pull off unique and experimental styles. If you love varying your makeup based on your mood, dive into these tutorials that celebrate creativity in makeup artistry.
       </p>
-      <div style = {{
-    margin: '10px  auto  ',
-    minHeight: "auto",
-}}>
-  <AdSenseAd />
-</div>
+      
 
 
       <h2 style={headingStyle}>Aria Montgomery from "Pretty Little Liars":</h2>
       <p style={paragraphStyle}> Aria's early style is uniquely hers, resembling a beautiful gothic doll. Her makeup makes a statement almost as bold as her fashion choices.</p>
       <ResponsiveYoutube src="https://www.youtube.com/embed/ooyZk4n3myk&t=492s" title="Aria Montgomery Makeup Tutorial" />
-      <div style = {{
-    margin: '10px  auto  ',
-    minHeight: "auto",
-}}>
-  <AdSenseAd />
-</div>
+      
       
       <h2 style={headingStyle}>2016 Bold Glam:</h2>
       <p style={paragraphStyle}> This year was all about the girls. The matte Kylie Lip Kit and heavy contouring may have baffled some men, but it set beauty trends. Revisit this Iconic Style.</p>
     
      
       <ResponsiveYoutube src="https://www.youtube.com/embed/HtEPH6RUEZg&t=43s" title="2016 Bold Glam Makeup Tutorial" />
-      <div style = {{
-    margin: '10px  auto  ',
-    minHeight: "auto",
-}}>
-  <AdSenseAd />
-</div>
+      
       <h2 style={headingStyle}>Espresso Makeup:</h2>
       <p style={paragraphStyle}>Espresso Makeup: A sexy, smoky eye that turns heads. This bold look is a favorite among makeup enthusiasts who appreciate a standout glamour. It’s versatile and stunning on everyone.</p>
      
@@ -211,12 +196,7 @@ const Quiz5Female = () => {
      
       <h2 style={headingStyle}>Pamela Anderson's 90s Bombshell Makeup:</h2>
       <p style={paragraphStyle}> Embrace ultra-glam makeup that showcases your love for dynamic styles. Pamela’s iconic 90s makeup is perfect for those who adore full-on glamorous aesthetics.</p>
-      <div style = {{
-    margin: '10px  auto  ',
-    minHeight: "auto",
-}}>
-  <AdSenseAd />
-</div>
+      
     
     
       <ResponsiveYoutube src="https://www.youtube.com/embed/92Exu4CeZ7E&t=478s" title="Pamela Anderson 90s Makeup Tutorial" />
@@ -240,12 +220,7 @@ const Quiz5Female = () => {
       </div>
       
       <Comments website-id={websiteId} page-id={"Quiz5"} />
-      <div style = {{
-    margin: '10px  auto  ',
-    minHeight: "auto",
-}}>
-  <AdSenseAd />
-</div>
+      
      
     </div>
   );

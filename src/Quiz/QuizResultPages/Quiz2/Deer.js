@@ -5,7 +5,6 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import styles from './AnimalPretty.module.css';
-import AdSenseAd from '../../../Home/Adsense';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 

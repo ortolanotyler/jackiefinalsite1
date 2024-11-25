@@ -205,29 +205,18 @@ const Quiz4Taylor = () => {
 
       <DropCap1 text="Hey, fellow Swiftie! Your choices reflect a connection to Taylor Swift's 'folklore' era—cozy, introspective, and full of storytelling. Perfect for a chill Halloween night or a casual gathering, your folklore-inspired outfit will surely resonate with fellow fans. If the mystical allure of 'Cardigan' captivates you, consider a whimsical fairy costume, perhaps channeling the magic of Flora from Winx Club." />
 
-      <HorizontalLine />
-
-<AdSenseAd />
-
-<HorizontalLine />
+     
 
       <p style={captionStyle}>
         Find tutorials below to guide your look & comment below to share your results & if they suited you!
       </p>
-      <HorizontalLine />
-
-      <AdSenseAd />
-      <HorizontalLine />
+      
 
 
       <ResponsiveYoutube src="https://www.youtube.com/embed/VdWgliSfleM" title="Taylor Swift Cardigan-Inspired Look" />
 
 
-      <HorizontalLine />
-
-      <AdSenseAd />
-
-      <HorizontalLine />
+     
 
       <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
@@ -257,12 +246,10 @@ const Quiz4Taylor = () => {
   />
 </div>
 
-      <HorizontalLine />
+
       <ResponsiveYoutube src="https://www.youtube.com/embed/2lZ-1p7mKMY?t=214s" title="Flora from Winx Club Fairy-Inspired Look" />
 
-      <HorizontalLine />
-      <AdSenseAd/>
-      <HorizontalLine />
+    
 
 
       <div style={{ position: 'relative', display: 'inline-block' }}>
@@ -293,7 +280,7 @@ const Quiz4Taylor = () => {
   />
 </div>
 
-<AdSenseAd/>
+
 
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
         <a href="/girly-pop-halloween" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'none', textAlign: 'center' }}>
@@ -302,7 +289,7 @@ const Quiz4Taylor = () => {
           <img src={image6} alt="Barbie Movie Halloween Article" style={{ width: '100%', maxWidth: '300px', margin: '20px auto', display: 'block' }} />
         </a>
       </div>
-      <HorizontalLine/>
+
 
 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -310,12 +297,7 @@ const Quiz4Taylor = () => {
       </div>
       
       <Comments website-id={websiteId} page-id={"Quiz4"} />
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
+   
     </div>
   );
 

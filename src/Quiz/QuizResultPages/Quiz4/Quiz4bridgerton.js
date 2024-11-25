@@ -5,8 +5,7 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
-import ResponsiveIframe from '../../../Components/ResponsiveIframe';
-import AdSenseAd from '../../../Home/Adsense';
+
 import DropCap1 from '../../../Articles/Travel/DropCap1';
 import HorizontalLine from '../../../Components/HorizontalLine';
 
@@ -312,13 +311,10 @@ Find tutorials below to guide your look & comment below to share your results & 
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
-<AdSenseAd/>
 
-<HorizontalLine/>
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/1NAwgv09ctY?si=Yc2u7T35dkJ93PxB" title="elizabeth bennet pride & prejudice makeup & hair tutorial" />
-<HorizontalLine/>
-<AdSenseAd/>
+
 
 
 

@@ -239,9 +239,7 @@ fontStyle: 'italic',
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
-<HorizontalLine/>
-     <AdSenseAd/>
-     <HorizontalLine/>
+
 <p style={captionStyle}>
 
 <a href = "/quiz/halloween">
@@ -257,21 +255,14 @@ Click here to take the quiz again! </a>
 
       <DropCap1 text="You've chosen the path of ultimate glamour this Halloween, reminiscent of a YSL runway. Your love for designer heels and perfect photo ops marks you as high fashion royalty. Whether you're channeling the YSL bride from 1999 or transforming into a Victoria’s Secret angel, your Halloween is set to be a dazzling display of your DIY prowess and flair for the dramatic."
       />
-     <HorizontalLine/>
-     <AdSenseAd/>
-     <HorizontalLine/>
+  
      <p style={captionStyle}>
 Find tutorials below to guide your look & comment below to share your results & if they suited you!
 </p>
 
-<HorizontalLine/>
-     <AdSenseAd/>
-     <HorizontalLine/>
 
-    
-<HorizontalLine/>
 <ResponsiveYoutube src="https://www.youtube.com/embed/NrB8YGX7XBY?si=ud_B9An5uJwt0Wom" title="ICONIC SPRING GLAM👼🏼🌸 cherub makeup, hair & diy couture" />
-<HorizontalLine/>
+
 
 <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
@@ -300,14 +291,10 @@ Find tutorials below to guide your look & comment below to share your results & 
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
-<HorizontalLine/>
-     <AdSenseAd/>
-     <HorizontalLine/>
+
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/Uz03ReLZO9k?si=ifRCpyciOYBCEbaX" title="VICTORIA’S SECRET ANGEL makeup🎀 2014 girly tumblr aesthetic!" />
-  <HorizontalLine/>
-     <AdSenseAd/>
-     <HorizontalLine/>
+  
 
 
 
@@ -334,12 +321,12 @@ Find tutorials below to guide your look & comment below to share your results & 
       </div>
       
       <Comments website-id={websiteId} page-id={"Quiz4"} />
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
-      <AdSenseAd/>
+     
+     
+     
+     
+     
+     
     </div>
   );
 

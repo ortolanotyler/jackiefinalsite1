@@ -492,7 +492,7 @@ you want something simpler, a black turtleneck gives
 the look a modern edge. I thought this green dress
 from IvyCityCo was a great pick as well. </p>
 
-<ResponsiveIframe title="null" src="https://shopmy.us/collections/public/870281?noHeader=true" style={{width: "100%", minHeight: "1200px", border: "none"}}></ResponsiveIframe>
+<ResponsiveIframe title="title" src="https://shopmy.us/collections/public/870281?noHeader=true" style={{width: "100%", minHeight: "1200px", border: "none"}}></ResponsiveIframe>
 
 
 <h2 style={headingStyle}>
