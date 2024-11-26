@@ -110,7 +110,7 @@ function HomePage() {
       />
 
         
-    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 1 }}>
+    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 0 }}>
 
       <Quiz2 />
     </Box>
@@ -121,9 +121,8 @@ function HomePage() {
       />
 
 
+<AdSenseAd/>
 
-<Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
-</Box>
 
  
 
