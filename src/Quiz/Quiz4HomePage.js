@@ -66,6 +66,9 @@ const Quiz4Homepage = () => {
         <Quiz4 />
       </Box>
 
+      <AdSenseAd />
+
+
       {/* Animal Pretty Quiz Section */}
       <Box sx={{ width: '100%' }}>
         <TextReveal
@@ -88,8 +91,8 @@ const Quiz4Homepage = () => {
       </Box>
 
 
-      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
-      </Box>
+      <AdSenseAd />
+
 
      
 
@@ -114,8 +117,10 @@ const Quiz4Homepage = () => {
         <Quiz3 />
       </Box>
 
-      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
-      </Box>
+      <AdSenseAd />
+
+
+
      
 
       {/* Male vs Female Gaze Quiz Section */}
@@ -139,8 +144,8 @@ const Quiz4Homepage = () => {
         <Quiz5 />
       </Box>
 
-      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
-      </Box>
+      <AdSenseAd />
+
 
       {/* Subscribe Section */}
       <Box sx={{ width: '100%' }}>

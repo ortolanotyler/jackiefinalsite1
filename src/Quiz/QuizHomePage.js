@@ -1,8 +1,7 @@
 import React from 'react';
-import { Box, Grid, Paper } from '@mui/material';
+import { Box } from '@mui/material';
 import { Helmet } from 'react-helmet-async';
 import TextReveal from '../Components/TextReveal';
-
 import Quiz2 from './Quiz2';
 import Quiz3 from './Quiz3';
 import Quiz4 from './Quiz4';
@@ -49,7 +48,7 @@ const QuizHomepage = () => {
         />
       </Helmet>
 
-      {/* Quiz Banner Section */}
+      {/* Banner Section */}
       <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
         <TextReveal
           text="🐈‍⬛🦌 The Animal Pretty Quiz 🐇🦊"
@@ -57,50 +56,49 @@ const QuizHomepage = () => {
         />
       </Box>
 
-      {/* Quiz Content */}
+      {/* AdSense in a Prime Spot */}
+      <AdSenseAd />
+
+      {/* Quiz 2 Section */}
       <Box
         sx={{
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
           gap: 2,
-        
           padding: { xs: '10px', md: '20px' },
         }}
       >
         <Quiz2 />
       </Box>
 
-      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
-      </Box>
-  
-        {/* Quiz Banner Section */}
-        <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
+      {/* Another High-Earning Ad Spot */}
+      <AdSenseAd />
+
+      {/* Wedding Dress Quiz Section */}
+      <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
         <TextReveal
           text="ULTIMATE WEDDING DRESS QUIZ"
           style={{ backgroundColor: '#fdedef', width: '100%' }}
         />
       </Box>
 
-  
-
-      {/* Quiz Content */}
+      {/* Quiz 3 Section */}
       <Box
         sx={{
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
           gap: 2,
-         
         }}
       >
         <Quiz3 />
       </Box>
-      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
-      </Box>
-   
 
-      {/* Quiz Banner Section */}
+      {/* AdSense in a Contextual Location */}
+      <AdSenseAd />
+
+      {/* Male vs Female Gaze Quiz Section */}
       <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
         <TextReveal
           text="MALE vs FEMALE GAZE QUIZ"
@@ -108,7 +106,7 @@ const QuizHomepage = () => {
         />
       </Box>
 
-      {/* Quiz Content */}
+      {/* Quiz 5 Section */}
       <Box
         sx={{
           display: 'flex',
@@ -121,24 +119,18 @@ const QuizHomepage = () => {
         <Quiz5 />
       </Box>
 
+      {/* AdSense After Interactive Content */}
+      <AdSenseAd />
 
-      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
-      </Box>
-  
-
-          
-     <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>      
-        {/* Quiz Banner Section */}
-        <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
+      {/* Halloween Quiz Section */}
+      <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
         <TextReveal
           text="HALLOWEEN COSTUME QUIZ"
           style={{ backgroundColor: '#fdedef', width: '100%' }}
         />
       </Box>
 
-  
-
-      {/* Quiz Content */}
+      {/* Quiz 4 Section */}
       <Box
         sx={{
           display: 'flex',
@@ -150,24 +142,13 @@ const QuizHomepage = () => {
         <Quiz4 />
       </Box>
 
-      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
-      </Box>
-    
-      
-          
-          </Box>
-  
-    
-   
-          
-  
+      {/* Final AdSense Spot */}
+      <AdSenseAd />
 
       {/* Subscribe Section */}
       <Box sx={{ width: '100%' }}>
-       <EmailSubscribe2/>
+        <EmailSubscribe2 />
       </Box>
-
-   
     </Box>
   );
 };
