@@ -15,6 +15,7 @@ import TextRevealHomePage1 from '../Components/TextRevealHomePage1';
 import MyStyleSlider1 from '../Shop/MyStyleSlider1';
 import Quiz2 from '../Quiz/Quiz2';
 import AdSenseAd from './Adsense';
+import DividerWithText from './DividerWithText';
 
 
 function HomePage() {
@@ -121,7 +122,10 @@ function HomePage() {
       />
 
 
-<AdSenseAd/>
+<DividerWithText text="Advertisement" />
+        <AdSenseAd />
+        <DividerWithText text="Advertisement" />
+
 
 
  
