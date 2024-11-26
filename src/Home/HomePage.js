@@ -116,9 +116,9 @@ function HomePage() {
       <Quiz2 />
     </Box>
 
-    <DividerWithText text="Advertisement" />
+    <DividerWithText text="Ad" />
         <AdSenseAd />
-        <DividerWithText text="Advertisement" />
+        <DividerWithText text="Ad" />
 
 
     <TextReveal
