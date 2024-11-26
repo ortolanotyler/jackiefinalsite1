@@ -116,15 +116,17 @@ function HomePage() {
       <Quiz2 />
     </Box>
 
+    <DividerWithText text="Advertisement" />
+        <AdSenseAd />
+        <DividerWithText text="Advertisement" />
+
+
     <TextReveal
         text="Animal Pretty Quiz" 
         style={{ backgroundColor: '#fdedef', width: '100%', height: '70px' }} 
       />
 
 
-<DividerWithText text="Advertisement" />
-        <AdSenseAd />
-        <DividerWithText text="Advertisement" />
 
 
 
