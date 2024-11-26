@@ -170,6 +170,7 @@ const Quiz2 = () => {
 
       {!showResults ? (
         <>
+          {/* Question Section */}
           <div
             className="quiz2-question"
             style={{
@@ -181,6 +182,8 @@ const Quiz2 = () => {
               {quizQuestions[currentQuestionIndex].question}
             </div>
           </div>
+
+          {/* Answer Section */}
           <div className="quiz2-answer-section">
             {quizQuestions[currentQuestionIndex].options.map((option, index) => (
               <button
@@ -197,6 +200,7 @@ const Quiz2 = () => {
           </div>
         </>
       ) : (
+        // Results Section
         <div className="quiz2-results">
           <h2>Quiz Completed!</h2>
           <button onClick={() => navigate("/")}>Go Home</button>
