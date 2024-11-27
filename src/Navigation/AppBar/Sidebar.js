@@ -15,7 +15,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'BEAUTY', path: '/tutorials' },
     { name: 'QUIZZES', path: '/quiz-2-home' },
     { name: 'ANIMAL PRETTY QUIZ', path: '/quiz-2-home' },
-    { name: 'MALE vs FEMALE GAZE', path: '/quiz-2-home' },
+    { name: 'MALE vs FEMALE GAZE', path: '/quiz-5-home' },
 
     { name: 'TRENDING', path: '/trends' },
     { name: 'BRIDAL', path: '/bridal' },
