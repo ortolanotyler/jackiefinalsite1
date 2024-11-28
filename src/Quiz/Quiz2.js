@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import "./AnimalPrettyQuiz.css";
+import AdSenseAd from "../Home/Adsense";
 
 const Quiz2 = () => {
   const navigate = useNavigate();
@@ -106,7 +107,6 @@ const Quiz2 = () => {
   ];
 
   useEffect(() => {
-    // Calculate and set the maximum height for the question container on initial render
     const maxQuestionHeight = Math.max(
       ...quizQuestions.map((question) => {
         const tempDiv = document.createElement("div");
@@ -163,18 +163,14 @@ const Quiz2 = () => {
 
   return (
     <div className="quiz2-container">
-      <Helmet>
-        <title>Animal Pretty Quiz</title>
-        <meta name="description" content="Discover your animal-inspired beauty style with this fun quiz!" />
-      </Helmet>
+     
 
       {!showResults ? (
         <>
-          {/* Question Section */}
           <div
             className="quiz2-question"
             style={{
-              height: questionHeight ? `${questionHeight}px` : "auto", // Apply fixed height if available
+              height: questionHeight ? `${questionHeight}px` : "auto",
             }}
             ref={questionRef}
           >
@@ -183,7 +179,13 @@ const Quiz2 = () => {
             </div>
           </div>
 
-          {/* Answer Section */}
+          {/* AdSense Inline Ad */}
+          {currentQuestionIndex > 0 && currentQuestionIndex % 2 === 0 && (
+            <div className="adsense-ad">
+              <AdSenseAd />
+            </div>
+          )}
+
           <div className="quiz2-answer-section">
             {quizQuestions[currentQuestionIndex].options.map((option, index) => (
               <button
@@ -200,9 +202,11 @@ const Quiz2 = () => {
           </div>
         </>
       ) : (
-        // Results Section
         <div className="quiz2-results">
           <h2>Quiz Completed!</h2>
+          <div className="adsense-ad results-ad">
+            <AdSenseAd />
+          </div>
           <button onClick={() => navigate("/")}>Go Home</button>
         </div>
       )}

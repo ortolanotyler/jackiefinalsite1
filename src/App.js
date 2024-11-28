@@ -321,6 +321,7 @@ function App() {
             <Route path="/articles/dcc-cheerleader" element={<DCCMakeupTutorial />} />
             <Route path="/articles/taylor-swift-holidays-2024" element={<TaylorSwiftHoliday />} />
             <Route path="/articles/male-female-gaze" element={<MaleFemaleGaze />} />
+            <Route path="/quiz/animalpretty" element={<Quiz2Homepage />} />
 
             <Route path="*" element={<NotFound/>} />
           </Route>
