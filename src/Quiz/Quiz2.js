@@ -138,12 +138,12 @@ const Quiz2 = () => {
     }
   };
 
-  const finishQuiz = (finalScores) => {
-    const maxScoreCategory = Object.keys(finalScores).reduce((a, b) =>
-      finalScores[a] > finalScores[b] ? a : b
+  const finishQuiz = () => {
+    const maxScore = Object.keys(scores).reduce((a, b) =>
+      scores[a] > scores[b] ? a : b
     );
 
-    switch (maxScoreCategory) {
+    switch (maxScore) {
       case "1":
         navigate("/bunnypretty");
         break;
@@ -162,32 +162,25 @@ const Quiz2 = () => {
   };
 
   return (
-    <div className="quiz2-container">
-     
+    <div className="quiz2-container" data-ad-format="noauto">
+      <Helmet>
+        <title>Animal Pretty Quiz</title>
+      </Helmet>
 
       {!showResults ? (
         <>
           <div
             className="quiz2-question"
-            style={{
-              height: questionHeight ? `${questionHeight}px` : "auto",
-            }}
             ref={questionRef}
+            style={{ height: "auto" }}
           >
             <div className="quiz2-question-text">
-              {quizQuestions[currentQuestionIndex].question}
+              {quizQuestions[currentQuestionIndex]?.question}
             </div>
           </div>
 
-          {/* AdSense Inline Ad */}
-          {currentQuestionIndex > 0 && currentQuestionIndex % 2 === 0 && (
-            <div className="adsense-ad">
-              <AdSenseAd />
-            </div>
-          )}
-
           <div className="quiz2-answer-section">
-            {quizQuestions[currentQuestionIndex].options.map((option, index) => (
+            {quizQuestions[currentQuestionIndex]?.options.map((option, index) => (
               <button
                 key={index}
                 className="quiz2-answer-button"
@@ -203,16 +196,13 @@ const Quiz2 = () => {
         </>
       ) : (
         <div className="quiz2-results">
-        <h2>Your Results</h2>
-        <p>Discover your animal-inspired beauty style below!</p>
-      
-        {/* Ad Container */}
-        <div className="adsense-ad-container">
-          <AdSenseAd />
+          <h2>Your Results</h2>
+          <p>Discover your animal-inspired beauty style below!</p>
+          <div className="adsense-ad-container">
+            <AdSenseAd />
+          </div>
+          <button onClick={() => navigate("/")}>Go Home</button>
         </div>
-      
-        <button onClick={() => navigate("/")}>Go Home</button>
-      </div>
       )}
     </div>
   );
