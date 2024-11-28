@@ -1,56 +1,41 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from 'react';
 
 const AdSenseAd = () => {
-  const [adLoaded, setAdLoaded] = useState(false);
-
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setAdLoaded(true);
-      if (window.adsbygoogle) {
-        try {
-          // Push the ad to the adsbygoogle library
-          (window.adsbygoogle = window.adsbygoogle || []).push({});
-        } catch (e) {
-          console.error("AdSense error: ", e);
-        }
-      }
-    }, 1000); // Simulated delay to show loading state
+    // Dynamically load the AdSense script
+    const script = document.createElement('script');
+    script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318';
+    script.async = true;
+    script.crossOrigin = 'anonymous';
+    document.body.appendChild(script);
 
-    return () => clearTimeout(timer);
+    script.onload = () => {
+      try {
+        // Trigger AdSense ads initialization
+        if (window.adsbygoogle) {
+          (window.adsbygoogle = window.adsbygoogle || []).push({});
+        }
+      } catch (error) {
+        console.error('Adsense error: ', error);
+      }
+    };
+
+    return () => {
+      // Clean up the script on unmount
+      document.body.removeChild(script);
+    };
   }, []);
 
   return (
-    <div className="adsense-ad-container">
-      {adLoaded ? (
-        <ins
-          className="adsbygoogle"
-          style={{
-            display: "block",
-            width: "100%",
-            maxWidth: "728px", // Adjust ad width
-            height: "90px", // Adjust ad height
-          }}
-          data-ad-client="ca-pub-4660168246825318" // Replace with your AdSense Publisher ID
-          data-ad-slot="8192987306" // Replace with your AdSense Ad Slot ID
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        ></ins>
-      ) : (
-        // Placeholder to avoid layout shifts
-        <div
-          style={{
-            height: "90px",
-            width: "100%",
-            backgroundColor: "#f8f8f8",
-            textAlign: "center",
-            lineHeight: "90px",
-            color: "#ccc",
-            fontSize: "14px",
-          }}
-        >
-          Loading Ad...
-        </div>
-      )}
+    <div style={{ textAlign: 'center', margin: '1rem auto' }}>
+      <ins
+        className="adsbygoogle"
+        style={{ display: 'block' }} // Ensure style is passed as an object
+        data-ad-client="ca-pub-4660168246825318"
+        data-ad-slot="8192987306" // Updated to your specified slot
+        data-ad-format="auto"
+        data-full-width-responsive="true" // Ensure full-width responsiveness
+      ></ins>
     </div>
   );
 };
