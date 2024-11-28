@@ -203,12 +203,16 @@ const Quiz2 = () => {
         </>
       ) : (
         <div className="quiz2-results">
-          <h2>Quiz Completed!</h2>
-          <div className="adsense-ad results-ad">
-            <AdSenseAd />
-          </div>
-          <button onClick={() => navigate("/")}>Go Home</button>
+        <h2>Your Results</h2>
+        <p>Discover your animal-inspired beauty style below!</p>
+      
+        {/* Ad Container */}
+        <div className="adsense-ad-container">
+          <AdSenseAd />
         </div>
+      
+        <button onClick={() => navigate("/")}>Go Home</button>
+      </div>
       )}
     </div>
   );
