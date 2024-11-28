@@ -13,26 +13,26 @@
     function gtag(){ dataLayer.push(arguments); }
 
     gtag('consent', 'default', {
-      'ad_storage': 'granted',
-      'ad_personalization': 'granted',
-      'ad_user_data': 'granted',
-      'analytics_storage': 'granted',
-      'functionality_storage': 'granted',
-      'personalization_storage': 'granted',
-      'security_storage': 'granted'
-    });
+   'ad_storage': 'granted',         // Allow ad storage
+   'ad_personalization': 'granted', // Allow ad personalization
+   'ad_user_data': 'granted',       // (Optional) Allow user data collection for ads
+   'analytics_storage': 'granted',  // Allow Google Analytics tracking (if you use it)
+   'functionality_storage': 'granted',
+   'personalization_storage': 'granted',
+   'security_storage': 'granted'
+});
   </script>
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-RT6GR7JXYG', {
-      'anonymize_ip': true, 
-      'send_page_view': true
-    });
-  </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RT6GR7JXYG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-RT6GR7JXYG', {
+    'anonymize_ip': true, 
+    'send_page_view': true
+  });
+</script>
 
   <!-- Favicon and Icons -->
   <link rel="icon" href="%PUBLIC_URL%/Images/Home/jwlogo3.png" sizes="32x32" />
@@ -54,6 +54,8 @@
   <meta name="description" content="Explore makeup tutorials, beauty trends, and vintage vibes with Jackie Wyers. Discover the latest in beauty and style with expert tips and tutorials.">
   <meta name="p:domain_verify" content="7a475c5c619a99ac946163191870c67a">
   <title>Jackie Wyers Beauty</title>
+
+
 </head>
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -61,31 +63,5 @@
 
   <!-- Google AdSense Auto Ads (Delayed Load) -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4660168246825318" crossorigin="anonymous"></script>
-
-  <!-- Manual Ad Unit Example -->
-  <div style="text-align:center; margin: 20px 0;">
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-4660168246825318"  <!-- Your AdSense Publisher ID -->
-         data-ad-slot="1234567890"                <!-- Your AdSense Ad Slot ID -->
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>
-
-  <!-- Additional Manual Ad -->
-  <div style="text-align:center; margin: 20px 0;">
-    <ins class="adsbygoogle"
-         style="display:block; height:250px; width:300px"
-         data-ad-client="ca-pub-4660168246825318"
-         data-ad-slot="0987654321"
-         data-ad-format="rectangle"></ins>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>
-
 </body>
 </html>
