@@ -61,3 +61,14 @@
   gap: 20px; /* Add space between answer buttons */
   align-items: center; /* Center align the buttons */
 }
+
+.adsense-ad {
+  width: 100%; /* Full width of the parent container */
+  max-width: 728px; /* Set a maximum width for the ad */
+  height: 90px; /* Reserve height for the ad unit */
+  margin: 0 auto; /* Center align the ad */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8; /* Optional: Placeholder color while the ad loads */
+}
