@@ -32,12 +32,12 @@
   gap: 1rem;
   margin: 0 auto;
   font-weight: 400;
-  max-width: 800px;
+  width: 400px;
   padding: 5px;
 }
 
 .answerButton {
-  width: 100%; /* Default size for larger screens */
+  width: 400px; /* Default size for larger screens */
   height: 250px; /* Default size for larger screens */
   color: white;
   font-size: 1.5rem;

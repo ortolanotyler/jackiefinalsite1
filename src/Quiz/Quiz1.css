@@ -8,8 +8,7 @@
 }
 
 .quiz2-answer-button {
-  width: 100%; /* Full width */
-  max-width: 400px; /* Limit the width */
+  width: 400px; /* Limit the width */
   height: 100px; /* Set a fixed height for better fit */
   border: 2px solid #fdedef;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
