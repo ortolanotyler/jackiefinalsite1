@@ -74,8 +74,9 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
                 width: '100%',
                 textAlign: 'left',
                 padding: '0.5rem 1rem',
+                fontWeight: '400',
                 fontFamily: 'Playfair Display, serif',
-                fontSize: '1.1rem',
+                fontSize: '18px',
                 color: '#745B4F',
               }}
             >
@@ -93,7 +94,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
             marginTop: '1rem',
             backgroundColor: '#745B4F',
             color: '#f8f8f8 !important',
-            fontSize: '1rem',
+            fontSize: '18px',
             fontWeight: '400',
             textTransform: 'lowercase',
             letterSpacing: '0.1em',

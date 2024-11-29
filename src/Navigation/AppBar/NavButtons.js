@@ -31,7 +31,9 @@ const NavButtons = () => {
             my: 2,
             color: '#745B4F',
             display: 'block',
-            fontSize: '1.15rem',
+            fontSize: '20px',
+            fontWeight: '400',
+
             fontFamily: 'Playfair Display, serif', // Updated to Playfair Display
             mx: 2,
             textTransform: 'none',

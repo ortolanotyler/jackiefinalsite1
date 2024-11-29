@@ -21,6 +21,7 @@ const ResponsiveAppBar = () => {
         position="fixed"
         sx={{
           fontFamily: 'Playfair Display, serif',
+          fontWeight: '400',
           color: '#745B4F',
           backgroundColor: '#FDEDEF',
           width: '100%',
