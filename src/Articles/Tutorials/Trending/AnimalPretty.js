@@ -33,8 +33,6 @@ const Card = ({ blogContent }) => (
 );
 
 const AnimalPretty = () => {
-
-
   const websiteId = '10910';
   const blogRef = useRef(null);
 
@@ -42,111 +40,75 @@ const AnimalPretty = () => {
     textAlign: 'center',
     fontSize: '28px',
     fontWeight: '400',
-    fontFamily: "Playfair Display, serif",
+    fontFamily: 'Playfair Display, serif',
     color: '#000000',
     maxWidth: '95%',
-  
-    margin: '30px auto'
+    margin: '30px auto',
   };
-  
 
-
-  
   const paragraphStyle = {
-  fontSize: '22px',
-  color: '#000000',
-  
-  fontFamily: "EB Garamond, serif",
-  fontWeight: '400',
-  padding: '10px',
-  margin: '1rem',
-  
-  
+    fontSize: '22px',
+    color: '#000000',
+    fontFamily: 'EB Garamond, serif',
+    fontWeight: '400',
+    padding: '10px',
+    margin: '1rem',
     lineHeight: '1.6',
-  
   };
-  
+
   const linkStyle = {
-  textDecoration: 'none', // Removes underline from links
-  fontFamily: "Playfair Display, serif",
-  fontWeight: '400',
-  color: '#745B4F', // Inherits the color of the surrounding text
+    textDecoration: 'none',
+    fontFamily: 'Playfair Display, serif',
+    fontWeight: '400',
+    color: '#745B4F',
   };
-  const gridContainerStyle = {
+
+  const layoutStyle = {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-    gap: '10px',
-    margin: '1rem'
+    gridTemplateColumns: '1fr 4fr 1fr',
+    gap: '1rem',
+    maxWidth: '1200px',
+    margin: '0 auto',
+    padding: '1rem',
   };
-  
-  const imageStyle = {
-  display: 'block',
-  margin: '1rem',
-  borderRadius: '0px',
-  height: 'auto'
+
+  const adStyle = {
+    position: 'fixed', // Fixed position
+    top: '50%', // Vertically center
+    transform: 'translateY(-50%)', // Centering adjustment
+    width: '150px', // Adjust width
+    backgroundColor: '#f8f8f8',
+    textAlign: 'center',
+    fontSize: '14px',
+    color: '#555',
+    lineHeight: '1.4',
   };
-  
-  const pinterestGridStyle = {
-  display: 'grid',
-  gap: '1rem',
-  gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
-  justifyItems: 'center',
-  margin: '1rem 0',
+
+  const leftAdStyle = {
+    ...adStyle,
+    left: '10px', // Left position
   };
-  
-  const iframeStyle = {
-  width: '100%',
-  height: '520px', // Maintains original height
-  border: 'none',
-  scrolling: 'no',
+
+  const rightAdStyle = {
+    ...adStyle,
+    right: '10px', // Right position
   };
-  
-  const captionStyle = {
-  textAlign: 'center',
-  fontSize: '1rem',
-  fontFamily: 'Arapey, serif',
-  fontWeight: '100',
-  margin: '0 auto',
-  fontStyle: 'italic',
+
+  const contentStyle = {
+    padding: '1rem',
+    backgroundColor: '#ffffff',
   };
-  
-    // Inline styles for layout and responsiveness
-    const layoutStyle = {
-      display: 'grid',
-      gridTemplateColumns: '1fr 4fr 1fr',
-      gap: '1rem',
-      maxWidth: '1200px',
-      margin: '0 auto',
-      padding: '1rem',
-    };
-  
-    const adStyle = {
-      display: 'block',
-      width: '100%',
-      minHeight: '600px',
-      backgroundColor: '#f8f8f8',
-      textAlign: 'center',
-      fontSize: '14px',
-      color: '#555', // Fallback message color
-      lineHeight: '1.4',
-    };
-  
-    const contentStyle = {
-      padding: '1rem',
-      backgroundColor: '#ffffff',
-    };
-  
-    // Adjust layout for small screens
-    const smallScreenStyle = {
-      gridTemplateColumns: '1fr',
-    };
-  
-    // Merge styles conditionally for responsiveness
-    const mergedLayoutStyle =
-      window.innerWidth <= 768
-        ? { ...layoutStyle, ...smallScreenStyle }
-        : layoutStyle;
-  
+
+  const smallScreenStyle = {
+    gridTemplateColumns: '1fr',
+  };
+
+  const mergedLayoutStyle =
+    window.innerWidth <= 768
+      ? { ...layoutStyle, ...smallScreenStyle }
+      : layoutStyle;
+
+      
   const blogContent = (
     <div className="container">
       <Helmet>
@@ -461,23 +423,24 @@ const AnimalPretty = () => {
 );
 
 return (
-  <div ref={blogRef} style={layoutStyle}>
-  {/* Left Ad */}
-  <div style={adStyle}>
-    <AdSenseAd />
-  </div>
+  <div style={layoutStyle}>
+    {/* Left Ad */}
+    <div className="fixed-ad left-ad">
+      <AdSenseAd />
+    </div>
 
-  {/* Main Content */}
-  <div style={contentStyle}>
-    {blogContent}
-  </div>
+    {/* Main Content */}
+    <div style={contentStyle}>
+      {blogContent}
+    </div>
 
-  {/* Right Ad */}
-  <div style={adStyle}>
-    <AdSenseAd />
+    {/* Right Ad */}
+    <div className="fixed-ad right-ad">
+      <AdSenseAd />
+    </div>
   </div>
-</div>
 );
+
 };
 
 export default AnimalPretty;
