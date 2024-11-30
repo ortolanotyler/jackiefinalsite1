@@ -9,6 +9,7 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
 
 import Quiz2 from '../../../Quiz/Quiz2';
+import AdSenseAd from '../../../Home/Adsense';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
@@ -48,7 +49,7 @@ const AnimalPretty = () => {
     margin: '30px auto'
   };
   
-  
+
 
   
   const paragraphStyle = {
@@ -109,6 +110,42 @@ const AnimalPretty = () => {
   fontStyle: 'italic',
   };
   
+    // Inline styles for layout and responsiveness
+    const layoutStyle = {
+      display: 'grid',
+      gridTemplateColumns: '1fr 4fr 1fr',
+      gap: '1rem',
+      maxWidth: '1200px',
+      margin: '0 auto',
+      padding: '1rem',
+    };
+  
+    const adStyle = {
+      display: 'block',
+      width: '100%',
+      minHeight: '600px',
+      backgroundColor: '#f8f8f8',
+      textAlign: 'center',
+      fontSize: '14px',
+      color: '#555', // Fallback message color
+      lineHeight: '1.4',
+    };
+  
+    const contentStyle = {
+      padding: '1rem',
+      backgroundColor: '#ffffff',
+    };
+  
+    // Adjust layout for small screens
+    const smallScreenStyle = {
+      gridTemplateColumns: '1fr',
+    };
+  
+    // Merge styles conditionally for responsiveness
+    const mergedLayoutStyle =
+      window.innerWidth <= 768
+        ? { ...layoutStyle, ...smallScreenStyle }
+        : layoutStyle;
   
   const blogContent = (
     <div className="container">
@@ -424,13 +461,21 @@ const AnimalPretty = () => {
 );
 
 return (
-<div ref={blogRef}>
+  <div ref={blogRef} style={layoutStyle}>
+  {/* Left Ad */}
+  <div style={adStyle}>
+    <AdSenseAd />
+  </div>
 
-  <Card
-    title="Animal Pretty - Which one are you?"
-    description="Deer, Cat, Fox, or Bunny?"
-    blogContent={blogContent}
-  />
+  {/* Main Content */}
+  <div style={contentStyle}>
+    {blogContent}
+  </div>
+
+  {/* Right Ad */}
+  <div style={adStyle}>
+    <AdSenseAd />
+  </div>
 </div>
 );
 };

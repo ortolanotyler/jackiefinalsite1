@@ -125,6 +125,9 @@ function HomePage() {
       />
 
 
+<DividerWithText text="Ad" />
+  
+        <DividerWithText text="Ad" />
 
 
 
