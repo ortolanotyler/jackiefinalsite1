@@ -108,7 +108,7 @@ const AnimalPretty = () => {
       ? { ...layoutStyle, ...smallScreenStyle }
       : layoutStyle;
 
-      
+
   const blogContent = (
     <div className="container">
       <Helmet>
@@ -159,7 +159,7 @@ const AnimalPretty = () => {
                 "url": "https://www.jackiewyers.beauty/jw3logo.png"
               }
             },
-            "datePublished": "2024-07-27",
+     
             "dateModified": "2024-09-20",
             "mainEntityOfPage": {
               "@type": "WebPage",
