@@ -166,20 +166,21 @@ const Quiz2 = () => {
       <Helmet>
         <title>Animal Pretty Quiz</title>
       </Helmet>
-
+  
       {!showResults ? (
         <>
           <div
             className="quiz2-question"
             ref={questionRef}
             style={{ height: "auto" }}
+            data-ad-format="noauto"
           >
             <div className="quiz2-question-text">
               {quizQuestions[currentQuestionIndex]?.question}
             </div>
           </div>
-
-          <div className="quiz2-answer-section">
+  
+          <div className="quiz2-answer-section" data-ad-format="noauto">
             {quizQuestions[currentQuestionIndex]?.options.map((option, index) => (
               <button
                 key={index}
@@ -188,6 +189,7 @@ const Quiz2 = () => {
                   backgroundImage: `url(${option.backgroundImage})`,
                 }}
                 onClick={() => handleAnswerClick(option.value)}
+                data-ad-format="noauto"
               >
                 {option.text}
               </button>
@@ -195,7 +197,7 @@ const Quiz2 = () => {
           </div>
         </>
       ) : (
-        <div className="quiz2-results">
+        <div className="quiz2-results" data-ad-format="noauto">
           <h2>Your Results</h2>
           <p>Discover your animal-inspired beauty style below!</p>
           <div className="adsense-ad-container">
@@ -206,6 +208,5 @@ const Quiz2 = () => {
       )}
     </div>
   );
-};
-
+}
 export default Quiz2;
