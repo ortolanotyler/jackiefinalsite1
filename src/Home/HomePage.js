@@ -22,8 +22,15 @@ function HomePage() {
   const isMobile = useMediaQuery('(max-width:650px)'); // Check if the screen size is mobile
 
   return (
-    <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
-    <Helmet>
+<Box
+  sx={{
+    width: '100%',
+    backgroundColor: 'white',
+    transform: 'translateZ(0)',
+    overflowX: 'hidden', // Ensure no horizontal scroll
+    overflowY: 'auto',   // Enable vertical scroll
+  }}
+>    <Helmet>
   <title>Jackie Wyers Beauty | Makeup Tutorials, Reviews & Travel Tips</title>
   <link rel="canonical" href="https://www.jackiewyers.beauty/" />
   <meta
