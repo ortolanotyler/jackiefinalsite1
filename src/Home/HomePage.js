@@ -96,13 +96,13 @@ function HomePage() {
 
         {!isMobile && (
           <>
-      
+        <Paper elevation={0} sx={{ backgroundColor: '#ffffff', fontFamily: 'Playfair Display, serif', borderRadius: '0px', color: '#745B4F', textAlign: 'center', margin: '0.88rem '}}>
+              <RotatingText />
+            </Paper>
          
           </>
         )}
-      <Paper elevation={0} sx={{ backgroundColor: '#ffffff', fontFamily: 'Playfair Display, serif', borderRadius: '0px', color: '#745B4F', textAlign: 'center', margin: '0.88rem '}}>
-              <RotatingText />
-            </Paper>
+    
         <Box sx={{ paddingTop: isMobile ? '0px' : '0px' }}>
           <QuiltedImageList1 />
         </Box>
