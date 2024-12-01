@@ -27,7 +27,7 @@ const AdSenseAd = () => {
   }, []);
 
   return (
-    <div style={{ textAlign: 'center', margin: '1rem auto' }}>
+    <div style={{ textAlign: 'center', margin: '1rem auto', backgroundColor: '#ffffff' }}>
       <ins
         className="adsbygoogle"
         style={{ display: 'block' }} // Ensure style is passed as an object
