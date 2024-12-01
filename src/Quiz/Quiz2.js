@@ -206,6 +206,7 @@ const Quiz2 = () => {
           <button onClick={() => navigate("/")}>Go Home</button>
         </div>
       )}
+        
     </div>
   );
 }

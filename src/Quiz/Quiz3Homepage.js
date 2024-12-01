@@ -67,7 +67,9 @@ const Quiz3Homepage = () => {
       >
         <Quiz3 />
       </Box>
-      <AdSenseAd/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
 
    
 
@@ -96,7 +98,9 @@ const Quiz3Homepage = () => {
       </Box>
 
    
-      <AdSenseAd/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
 
  
 
@@ -122,7 +126,9 @@ const Quiz3Homepage = () => {
         <Quiz4 />
       </Box>
 
-      <AdSenseAd/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
 
  
 
@@ -147,12 +153,14 @@ const Quiz3Homepage = () => {
         <Quiz2 />
       </Box>
 
-          <AdSenseAd/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
       
 
 
       {/* Subscribe Section */}
-      <Box sx={{ width: '100%' }}>
+      <Box sx={{ width: '100%', margin: '1rem auto' }}>
         <EmailSubscribe2/>
       </Box>
 

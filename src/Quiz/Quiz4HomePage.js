@@ -66,8 +66,9 @@ const Quiz4Homepage = () => {
         <Quiz4 />
       </Box>
 
-      <AdSenseAd />
-
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
 
       {/* Animal Pretty Quiz Section */}
       <Box sx={{ width: '100%' }}>
@@ -91,8 +92,9 @@ const Quiz4Homepage = () => {
       </Box>
 
 
-      <AdSenseAd />
-
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
 
      
 
@@ -117,8 +119,9 @@ const Quiz4Homepage = () => {
         <Quiz3 />
       </Box>
 
-      <AdSenseAd />
-
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
 
 
      
@@ -144,7 +147,9 @@ const Quiz4Homepage = () => {
         <Quiz5 />
       </Box>
 
-      <AdSenseAd />
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
 
 
       {/* Subscribe Section */}

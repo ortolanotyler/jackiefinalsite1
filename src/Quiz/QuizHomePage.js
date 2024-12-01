@@ -95,8 +95,9 @@ const QuizHomepage = () => {
         <Quiz3 />
       </Box>
 
-      {/* AdSense in a Contextual Location */}
-      <AdSenseAd />
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
 
       {/* Male vs Female Gaze Quiz Section */}
       <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
@@ -120,7 +121,9 @@ const QuizHomepage = () => {
       </Box>
 
       {/* AdSense After Interactive Content */}
-      <AdSenseAd />
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
 
       {/* Halloween Quiz Section */}
       <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
@@ -142,8 +145,9 @@ const QuizHomepage = () => {
         <Quiz4 />
       </Box>
 
-      {/* Final AdSense Spot */}
-      <AdSenseAd />
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
 
       {/* Subscribe Section */}
       <Box sx={{ width: '100%' }}>

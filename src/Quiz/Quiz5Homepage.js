@@ -67,8 +67,9 @@ const Quiz5Homepage = () => {
         <Quiz5 />
       </Box>
 
-      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
-      </Box>
+     <div className="ad-container">
+  <AdSenseAd />
+</div>
 
       {/* Halloween Costume Quiz Section */}
       <Box sx={{ width: '100%' }}>
@@ -91,8 +92,9 @@ const Quiz5Homepage = () => {
         <Quiz4 />
       </Box>
 
-      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
-      </Box>
+     <div className="ad-container">
+  <AdSenseAd />
+</div>
 
         
 
@@ -125,8 +127,9 @@ const Quiz5Homepage = () => {
         <Quiz2 />
       </Box>
 
-      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
-      </Box>
+     <div className="ad-container">
+  <AdSenseAd />
+</div>
 
       {/* Wedding Dress Quiz Section */}
       <Box sx={{ width: '100%' }}>
@@ -149,8 +152,9 @@ const Quiz5Homepage = () => {
         <Quiz3 />
       </Box>
 
-      <Box sx={{ margin: '1rem auto' , textalign: 'center'}}>       <AdSenseAd/>
-      </Box>
+     <div className="ad-container">
+  <AdSenseAd />
+</div>
    
 
       {/* Subscribe Section */}

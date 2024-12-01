@@ -243,6 +243,9 @@ const AnimalPretty = () => {
       <p style={paragraphStyle}>
   Celebrity Inspirations: Jessica Alba, Leighton Meester, Emmy Rossum, Tessa Thompson, and Charithra Chandran rock this look with their big, round eyes and stunning skin tones.
 </p>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
 
 <h2 style={headingStyle}>Achieve the Deer Pretty Look</h2>
 <p style={paragraphStyle}>
@@ -265,7 +268,9 @@ const AnimalPretty = () => {
   <strong>Lips:</strong> Go for a nude lipliner, slightly overlining for a fuller appearance. Finish with a matte peach lip colour for a natural, yet enhanced look.
 </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/552889?noHeader=true" title="Matte Peach Lip Colour" />
-
+<div className="ad-container">
+  <AdSenseAd />
+</div>
 <p style={paragraphStyle}>
   <strong>Outfit Inspiration:</strong> To fully embody the Deer Pretty theme, choose dainty and whimsical styles. Try outfits in earthy and pastel palettes that resonate with the natural and soft aesthetics of a deer. Fabrics like lace and florals are perfect for this look, adding a touch of femininity and grace.
 </p>
@@ -290,7 +295,9 @@ const AnimalPretty = () => {
   <strong>Eyes:</strong> Sweep cool-toned shimmers, like silver and white, across your lids and deepen up with taupe in the crease. Victoria Beckham Beauty Smoky Eye Brick in Tuxedo is the perfect palette. Draw a bold, winged eyeliner that extends beyond the outer corners to enhance the cat-eye illusion and enhance the outer corner with a black shadow.
 </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/552837?noHeader=true" title="Victoria Beckham Beauty Smoky Eye Brick in Tuxedo" />
-
+<div className="ad-container">
+  <AdSenseAd />
+</div>
 <p style={paragraphStyle}>
   <strong>Lashes:</strong> Go for dramatic, fanned-out lashes that complement the bold liner, amplifying the overall eye makeup. Try ISOPIA Iso-Gentle Echo Lashes.
 </p>
@@ -305,7 +312,9 @@ const AnimalPretty = () => {
   <strong>Lips:</strong> Select deep mauve tones for a seductively pouty effect or go for a nude lip combo. A high-shine gloss can add dimension and a touch of glamour. Check out Deep Mauve Lip Colour.
 </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/552839?noHeader=true" title="Deep Mauve Lip Colour" />
-
+<div className="ad-container">
+  <AdSenseAd />
+</div>
 <p style={paragraphStyle}>
   <strong>Outfit Inspiration:</strong> Channel '90s off-duty supermodel vibes with structured yet casual elements. Think fitted black tanks paired with low-waisted baggy jeans. Explore Revolve for trendy, contemporary pieces and local thrift stores for genuine '90s gems like sleek sunglasses.
 </p>
@@ -334,7 +343,9 @@ const AnimalPretty = () => {
   <strong>Lashes:</strong> Extend the lash line along the winged-out shadow. Try ISOPIA Iso-Gentle Healing Lashes for a subtle effect.
 </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/552845?noHeader=true" title="ISOPIA Iso-Gentle Healing Lashes" />
-
+<div className="ad-container">
+  <AdSenseAd />
+</div>
 <p style={paragraphStyle}>
   <strong>Cheeks:</strong> Apply dual blush tones—a rose shade for a vibrant pop of color and a deeper rose to define the cheekbones.
 </p>
@@ -353,7 +364,9 @@ const AnimalPretty = () => {
   Don't forget to check out Fable England for fox-themed accessories that add a charming final touch.
 </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/552850?noHeader=true" title="Fox-Themed Accessories" />
-
+<div className="ad-container">
+  <AdSenseAd />
+</div>
 <h2 style={headingStyle}>Bunny Pretty: Cute and Angelic 🐰</h2>
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
   <img src={image2} alt="Bunny Pretty - Jackie Wyers" style={{ width: '100%' }} />
@@ -390,7 +403,9 @@ const AnimalPretty = () => {
   <strong>Lips:</strong> Start with a nude pink lip liner to define your lips, then layer on the Sephora Collection Outrageous Plumping Lip Gloss in Pink Pout for a glossy, vibrant finish that complements the blushy cheeks.
 </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/552857?noHeader=true" title="Sephora Collection Outrageous Plumping Lip Gloss" />
-
+<div className="ad-container">
+  <AdSenseAd />
+</div>
 <p style={paragraphStyle}>
   <strong>Outfit Inspiration:</strong> Lean into the Bunny Pretty theme with soft, flowing fabrics in pink tones. Try flirty dresses in pastel colors that enhance the sweetness of this look.
 </p>
@@ -399,7 +414,9 @@ const AnimalPretty = () => {
   Additionally, accessories from Fable England, such as bunny-themed jewelry, can add a whimsical touch to complete your outfit as mentioned in the looks above.
 </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/552860?noHeader=true" title="Bunny-Themed Jewelry" />
-
+<div className="ad-container">
+  <AdSenseAd />
+</div>
 <p style={paragraphStyle}>
   I hope this article inspires you to play with these animal-inspired beauty looks. Which "Type of Pretty" are you leaning towards? Dive into the quiz here and I hope the full-length tutorials on my channel inspire you to try a new look!
 </p>
