@@ -8,7 +8,6 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
-import AdSenseAd from '../../../Home/Adsense';
 
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/HarleyQuinn/Harley1.jpg`;
@@ -29,37 +28,8 @@ const HarleyQuinnEvolution = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
 
+  
 
-  const layoutStyle = {
-    display: 'flex',
-    justifyContent: 'space-between',
-    margin: '0 auto',
-    maxWidth: '1200px',
-  };
-
-  const adColumnStyle = {
-    position: 'fixed',
-    top: '10px', // Always stays 10px from the top of the viewport
-    width: '160px', // Adjust based on the ad size
-    height: 'auto',
-    zIndex: 10, // Ensure it stays above content
-  };
-
-  const leftAdStyle = {
-    ...adColumnStyle,
-    left: '10px', // Position it on the left side
-  };
-
-  const rightAdStyle = {
-    ...adColumnStyle,
-    right: '10px', // Position it on the right side
-  };
-
-  const mainContentStyle = {
-    flex: '1',
-    margin: '0 200px', // Leave space for the fixed ads
-    padding: '0 20px', // Add padding for readability
-  };
   const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',
@@ -517,26 +487,10 @@ I’ve linked the entire collection above to shop, and now, let’s travel back 
     </div>
   );
 
-
-    return (
-        <div ref={blogRef}>
-          <div style={layoutStyle}>
-            {/* Left Ad Column */}
-            <div style={adColumnStyle}>
-              <AdSenseAd />
-            </div>
-    
-            {/* Main Content */}
-            <div style={mainContentStyle}>
-              <Card blogContent={blogContent} />
-            </div>
-    
-            {/* Right Ad Column */}
-            <div style={adColumnStyle}>
-              <AdSenseAd />
-            </div>
-          </div>
-        </div>
+  return (
+    <div ref={blogRef}>
+      <Card blogContent={blogContent} />
+    </div>
   );
 };
 
