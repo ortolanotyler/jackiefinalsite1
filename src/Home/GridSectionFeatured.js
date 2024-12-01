@@ -12,13 +12,14 @@ const FeaturedGrid6 = () => {
         
       <Grid item xs={12} sm={6} md={6} lg={4}>
   <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-    <HeroSection2a
-      featureText="FEATURED"
-      headlineText="Male Gaze vs. Female Gaze Makeup – Which Style Suits You Best?"
-      imagePath="MaleFemale/MaleFemaleGazeThumb.webp"
-      linkUrl="/articles/male-female-gaze"
-      isFlipped={true}
-    />
+  
+        <HeroSection2a
+  featureText="FEATURED"
+  headlineText="Harley Quinn Beauty Evolution: Iconic Makeup Looks and Tutorials"
+  imagePath="Harley/HARLEYQUINNTHUMBNAIL.webp"
+  linkUrl="/articles/harley-quinn-evolution"
+  isFlipped={true}
+/>
   </Box>
 </Grid>
 
@@ -59,13 +60,13 @@ const FeaturedGrid6 = () => {
 
         <Grid item xs={12} sm={6} md={6} lg={4}>
           <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <HeroSection2a
-              featureText="FEATURED"
-              headlineText="Ariana Grande as Glinda Makeup – Wicked the Movie "
-              imagePath="Wicked/GlindaThumb.webp"
-              linkUrl="/articles/wicked"
-              isFlipped={true}
-            />
+          <HeroSection2a
+      featureText="FEATURED"
+      headlineText="Male Gaze vs. Female Gaze Makeup – Which Style Suits You Best?"
+      imagePath="MaleFemale/MaleFemaleGazeThumb.webp"
+      linkUrl="/articles/male-female-gaze"
+      isFlipped={true}
+    />
           </Box>
         </Grid>
 
