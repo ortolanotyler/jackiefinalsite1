@@ -146,6 +146,7 @@ import NewZealand from './Articles/Travel/NewZealand';
 import TaylorSwiftHoliday from './Articles/Tutorials/PopCulture/TaylorSwift';
 import NewsletterSlider from './Home/NewsletterSlider';
 import MaleFemaleGaze from './Articles/Tutorials/VintageVibes/MaleFemaleGaze';
+import HarleyQuinnEvolution from './Articles/Tutorials/PopCulture/Harley';
 
 
 function usePageTracking() {
@@ -322,6 +323,7 @@ function App() {
             <Route path="/articles/taylor-swift-holidays-2024" element={<TaylorSwiftHoliday />} />
             <Route path="/articles/male-female-gaze" element={<MaleFemaleGaze />} />
             <Route path="/quiz/animalpretty" element={<Quiz2Homepage />} />
+            <Route path="/articles/harley-quinn-evolution" element={<HarleyQuinnEvolution />} />
 
             <Route path="*" element={<NotFound/>} />
           </Route>
