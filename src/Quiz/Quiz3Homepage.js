@@ -10,6 +10,7 @@ import Quiz5 from './Quiz5';
 import EmailSubscribe2 from '../Components/EmailSubscribe2';
 import HorizontalLine from '../Components/HorizontalLine';
 import AdSenseAd from '../Home/Adsense';
+import DividerWithText from '../Home/DividerWithText';
 
 const Quiz3Homepage = () => {
   return (
@@ -67,9 +68,13 @@ const Quiz3Homepage = () => {
       >
         <Quiz3 />
       </Box>
+      <DividerWithText/>
+
       <div className="ad-container">
   <AdSenseAd />
 </div>
+<DividerWithText/>
+
 
    
 
@@ -97,12 +102,14 @@ const Quiz3Homepage = () => {
         <Quiz5 />
       </Box>
 
-   
+      <DividerWithText/>
+
       <div className="ad-container">
   <AdSenseAd />
 </div>
 
- 
+<DividerWithText/>
+
 
 
       {/* Halloween Costume Quiz Section */}
@@ -125,10 +132,12 @@ const Quiz3Homepage = () => {
       >
         <Quiz4 />
       </Box>
+      <DividerWithText/>
 
       <div className="ad-container">
   <AdSenseAd />
 </div>
+<DividerWithText/>
 
  
 
@@ -152,11 +161,13 @@ const Quiz3Homepage = () => {
       >
         <Quiz2 />
       </Box>
+      <DividerWithText/>
 
       <div className="ad-container">
   <AdSenseAd />
 </div>
       
+<DividerWithText/>
 
 
       {/* Subscribe Section */}

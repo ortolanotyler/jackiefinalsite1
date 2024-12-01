@@ -5,6 +5,7 @@ import TextReveal from "../Components/TextReveal";
 import EmailSubscribe2 from "../Components/EmailSubscribe2";
 import AdSenseAd from "../Home/Adsense";
 import Quiz2 from "./Quiz2";
+import DividerWithText from "../Home/DividerWithText";
 
 const Quiz2Homepage = () => {
   return (
@@ -17,10 +18,13 @@ const Quiz2Homepage = () => {
         />
         <meta name="keywords" content="beauty quiz, animal pretty, Jackie Wyers, makeup quiz" />
       </Helmet>
-      
+      <DividerWithText/>
+
       <div className="ad-container">
   <AdSenseAd />
 </div>
+<DividerWithText/>
+
 
       <Box
         sx={{
@@ -35,19 +39,24 @@ const Quiz2Homepage = () => {
         <TextReveal text="Animal Pretty Quiz" style={{ backgroundColor: "#ffffff", width: "100%", margin: 0 }} />
         <Quiz2 />
       </Box>
+      <DividerWithText/>
 
       <div className="ad-container">
   <AdSenseAd />
 </div>
+<DividerWithText/>
 
       {/* Email Subscription */}
       <Box sx={{ width: "100%", textAlign: "center", padding: "1rem" }}>
         <EmailSubscribe2 />
       </Box>
+      <DividerWithText/>
 
       <div className="ad-container">
   <AdSenseAd />
 </div>
+<DividerWithText/>
+
     </Box>
   );
 };
