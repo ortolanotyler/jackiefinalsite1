@@ -124,8 +124,10 @@ function HomePage() {
       <Quiz2 />
     </Box>
 
-   <AdSenseAd/>
 
+    <div className="ad-container">
+  <AdSenseAd />
+</div>
 
     <TextReveal
         text="Animal Pretty Quiz" 
