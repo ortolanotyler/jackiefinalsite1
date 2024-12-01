@@ -148,7 +148,7 @@ function HomePage() {
         <TextBanner2 text="TRAVEL" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
         
         <SixGridComponent />
-
+<AdSenseAd/>
         
 
         <TextBanner2 text="VINTAGE VIBES" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
