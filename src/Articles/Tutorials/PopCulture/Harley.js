@@ -8,6 +8,7 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
+import AdSenseAd from '../../../Home/Adsense';
 
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/HarleyQuinn/Harley1.jpg`;
@@ -27,6 +28,25 @@ const Card = ({ blogContent }) => (
 const HarleyQuinnEvolution = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
+
+  const layoutStyle = {
+    display: 'flex',
+    justifyContent: 'space-between',
+    margin: '0 auto',
+    maxWidth: '1200px',
+  };
+
+  const adColumnStyle = {
+    position: 'sticky',
+    top: '10px', // Stick to 10px from the top of the viewport
+    width: '160px', // Width of the ad column
+    height: '100%', // Ensure it stretches
+  };
+
+  const mainContentStyle = {
+    flex: '1',
+    margin: '0 20px', // Add some space between ads and content
+  };
 
   const headingStyle = {
     textAlign: 'center',
@@ -485,10 +505,26 @@ I’ve linked the entire collection above to shop, and now, let’s travel back 
     </div>
   );
 
-  return (
-    <div ref={blogRef}>
-      <Card blogContent={blogContent} />
-    </div>
+
+    return (
+        <div ref={blogRef}>
+          <div style={layoutStyle}>
+            {/* Left Ad Column */}
+            <div style={adColumnStyle}>
+              <AdSenseAd />
+            </div>
+    
+            {/* Main Content */}
+            <div style={mainContentStyle}>
+              <Card blogContent={blogContent} />
+            </div>
+    
+            {/* Right Ad Column */}
+            <div style={adColumnStyle}>
+              <AdSenseAd />
+            </div>
+          </div>
+        </div>
   );
 };
 
