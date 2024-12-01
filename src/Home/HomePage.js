@@ -152,7 +152,10 @@ function HomePage() {
 
         <NewsletterSlider />
 
-       
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+
 
         <TextBanner2 text="TRAVEL" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
         
@@ -163,6 +166,10 @@ function HomePage() {
         <TextBanner2 text="VINTAGE VIBES" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
         
         <VintageVibesCards />
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+
 
         <TextBanner2 text="SHOP MY STYLE" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
         
