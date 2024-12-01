@@ -6,6 +6,10 @@ import HorizontalLine from '../Components/HorizontalLine';
 import EmailSubscribe from '../Components/EmailSubscribe';
 
 const images = [
+    
+  `${process.env.PUBLIC_URL}/Images/Newsletter23A.webp`,
+  `${process.env.PUBLIC_URL}/Images/Newsletter23B.webp`,
+  
   `${process.env.PUBLIC_URL}/Images/Newsletter21A.webp`,
   `${process.env.PUBLIC_URL}/Images/Newsletter21B.webp`,
   `${process.env.PUBLIC_URL}/Images/Newsletter21C.webp`,
