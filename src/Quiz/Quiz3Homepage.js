@@ -68,12 +68,14 @@ const Quiz3Homepage = () => {
       >
         <Quiz3 />
       </Box>
-      <DividerWithText/>
+      <DividerWithText text = "Ad"/>
+
 
       <div className="ad-container">
   <AdSenseAd />
 </div>
-<DividerWithText/>
+<DividerWithText text = "Ad"/>
+
 
 
    
@@ -102,13 +104,15 @@ const Quiz3Homepage = () => {
         <Quiz5 />
       </Box>
 
-      <DividerWithText/>
+      <DividerWithText text = "Ad"/>
+
 
       <div className="ad-container">
   <AdSenseAd />
 </div>
 
-<DividerWithText/>
+<DividerWithText text = "Ad"/>
+
 
 
 
@@ -132,12 +136,14 @@ const Quiz3Homepage = () => {
       >
         <Quiz4 />
       </Box>
-      <DividerWithText/>
+      <DividerWithText text = "Ad"/>
+
 
       <div className="ad-container">
   <AdSenseAd />
 </div>
-<DividerWithText/>
+<DividerWithText text = "Ad"/>
+
 
  
 
@@ -161,13 +167,15 @@ const Quiz3Homepage = () => {
       >
         <Quiz2 />
       </Box>
-      <DividerWithText/>
+      <DividerWithText text = "Ad"/>
+
 
       <div className="ad-container">
   <AdSenseAd />
 </div>
       
-<DividerWithText/>
+<DividerWithText text = "Ad"/>
+
 
 
       {/* Subscribe Section */}

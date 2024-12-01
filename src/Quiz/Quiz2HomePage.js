@@ -18,12 +18,14 @@ const Quiz2Homepage = () => {
         />
         <meta name="keywords" content="beauty quiz, animal pretty, Jackie Wyers, makeup quiz" />
       </Helmet>
-      <DividerWithText/>
+      <DividerWithText text = "Ad"/>
+
 
       <div className="ad-container">
   <AdSenseAd />
 </div>
-<DividerWithText/>
+<DividerWithText text = "Ad"/>
+
 
 
       <Box
@@ -39,23 +41,27 @@ const Quiz2Homepage = () => {
         <TextReveal text="Animal Pretty Quiz" style={{ backgroundColor: "#ffffff", width: "100%", margin: 0 }} />
         <Quiz2 />
       </Box>
-      <DividerWithText/>
+      <DividerWithText text = "Ad"/>
+
 
       <div className="ad-container">
   <AdSenseAd />
 </div>
-<DividerWithText/>
+<DividerWithText text = "Ad"/>
+
 
       {/* Email Subscription */}
       <Box sx={{ width: "100%", textAlign: "center", padding: "1rem" }}>
         <EmailSubscribe2 />
       </Box>
-      <DividerWithText/>
+      <DividerWithText text = "Ad"/>
+
 
       <div className="ad-container">
   <AdSenseAd />
 </div>
-<DividerWithText/>
+<DividerWithText text = "Ad"/>
+
 
     </Box>
   );
