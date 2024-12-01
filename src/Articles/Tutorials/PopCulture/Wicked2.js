@@ -420,6 +420,9 @@ textAlign: 'center',
           title="Aldo Pink Bow Heels"
           style={{ width: '100%', minHeight: '340px', border: 'none' }}
         />
+         
+
+
         
         <h3 style={headingStyle}>Marks and Spencer Wicked Ornaments</h3>
 
@@ -440,6 +443,33 @@ textAlign: 'center',
         </p>
 
        
+        <p style = {paragraphStyle}>
+This list updates constantly , check out my favorite Wicked Collaboration Items below! 
+
+        </p>
+
+       
+
+        <br/>
+
+
+
+        <iframe
+  src="https://shopmy.us/collections/public/984168?noHeader=true"
+  title="Aldo Pink Bow Heels"
+  style={{
+    margin: '2rem auto',
+    width: '100%',
+    height: '80vh', // Responsive height based on viewport height
+    border: 'none',
+    overflow: 'auto', // Allows internal scrolling
+  }}
+  tabIndex="0" // Enables focus for bypassing with keyboard or tapping
+></iframe>
+
+
+
+<br/>
 
 
 
@@ -447,20 +477,7 @@ textAlign: 'center',
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
   <iframe
     style={{
       width: '100%',
@@ -470,7 +487,7 @@ textAlign: 'center',
       borderRadius: '10px',
       boxShadow: '0px 4px 12px rgba(0, 0, 0, 0.1)',
     }}
-    src="https://www.youtube.com/embed/2yOj5W7OMZQ"
+    src="https://www.youtube.com/embed/IZ9hA5cWf-o"
     title="YouTube Shorts"
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

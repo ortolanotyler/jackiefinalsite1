@@ -1,6 +1,6 @@
 .rotating-text-container {
-
-  margin: '0 auto';
+  padding: 0;
+  margin: '1rem auto';
   background-color: white;
   overflow: hidden;
   white-space: nowrap;
@@ -25,7 +25,7 @@
 
 @media (max-width: 480px) {
   .rotating-text {
-    font-size: 14px; /* Adjust font size for medium screens */
+    font-size: 11px; /* Adjust font size for medium screens */
   }
 }
 

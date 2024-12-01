@@ -8,7 +8,7 @@
   font-weight: 400;
   align-items: center;
   text-align: center;
-  padding: 2.5rem 0; /* Add some padding for a better look */
+  padding: 2rem 0; /* Add some padding for a better look */
 }
 
 .textReveal {
@@ -24,7 +24,7 @@
   word-wrap: break-word;
   hyphens: auto; /* Automatically hyphenate text if needed */
   padding: 1rem;
-  max-width: 80%; /* Restrict text width for better readability */
+  max-width: 100%; /* Restrict text width for better readability */
   box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
