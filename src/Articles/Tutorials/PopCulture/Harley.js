@@ -29,6 +29,7 @@ const HarleyQuinnEvolution = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
 
+
   const layoutStyle = {
     display: 'flex',
     justifyContent: 'space-between',
@@ -37,17 +38,28 @@ const HarleyQuinnEvolution = () => {
   };
 
   const adColumnStyle = {
-    position: 'sticky',
-    top: '10px', // Stick to 10px from the top of the viewport
-    width: '160px', // Width of the ad column
-    height: '100%', // Ensure it stretches
+    position: 'fixed',
+    top: '10px', // Always stays 10px from the top of the viewport
+    width: '160px', // Adjust based on the ad size
+    height: 'auto',
+    zIndex: 10, // Ensure it stays above content
+  };
+
+  const leftAdStyle = {
+    ...adColumnStyle,
+    left: '10px', // Position it on the left side
+  };
+
+  const rightAdStyle = {
+    ...adColumnStyle,
+    right: '10px', // Position it on the right side
   };
 
   const mainContentStyle = {
     flex: '1',
-    margin: '0 20px', // Add some space between ads and content
+    margin: '0 200px', // Leave space for the fixed ads
+    padding: '0 20px', // Add padding for readability
   };
-
   const headingStyle = {
     textAlign: 'center',
     fontSize: '2.5rem',
