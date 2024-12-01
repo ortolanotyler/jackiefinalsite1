@@ -124,7 +124,7 @@ function HomePage() {
       <Quiz2 />
     </Box>
 
-   
+   <AdSenseAd/>
 
 
     <TextReveal
