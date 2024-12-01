@@ -44,7 +44,7 @@ const Footer = () => {
           color: "#745B4F",
           textAlign: "center",
           padding: "2rem",
-          marginTop: "0",
+        
         }}
       >
         {/* Quick Links */}
@@ -126,8 +126,8 @@ const Footer = () => {
             fontFamily: "GFS Didot, serif",
             fontSize: "14px",
             color: "#745B4F",
-            mt: 2,
-            mb: 2,
+            mt: 1,
+            mb: 1,
           }}
         >
           © Jackie Wyers 2024
