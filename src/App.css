@@ -1,23 +1,40 @@
-/* App.css */
 @import url('https://fonts.googleapis.com/css2?family=Arapey&family=GFS+Didot:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&family=EB+Garamond:wght@400;500;600;700;800&display=swap');
+
+/* Ensure fonts are properly loaded with font-display swap */
 * {
   font-display: swap;
+  margin: 0; /* Remove default margins for all elements */
+  padding: 0; /* Remove default paddings for all elements */
+  box-sizing: border-box; /* Prevent elements from exceeding their boundaries */
 }
 
-
-
-/* App.css */
+/* Main content styles */
 .main-content {
   font-family: "Playfair Display", serif;
-  padding-top: 60px; /* Ensure this aligns correctly with the height of your AppBar */
+  padding-top: 60px; /* Aligns with AppBar height */
   background-color: #ffffff;
-  position: relative; /* Make sure it's positioned correctly */
-  z-index: 1; /* Lower than AppBar to prevent overlap issues */
+  position: relative; /* Positions it properly without scrolling issues */
+  z-index: 1; /* Keeps it below higher layers like AppBar */
+  overflow: hidden; /* Prevent horizontal scrolling within the content */
 }
 
+/* Ensure smooth scrolling experience */
 html, body {
-  overflow-x: hidden;
-  background-color: #ffffff;
-  margin: 1;
-  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-y: auto; /* Allow vertical scrolling */
+  background-color: #ffffff; /* Uniform background color */
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+  height: 100%; /* Ensure full height */
+  font-family: "EB Garamond", serif; /* Fallback font */
+}
+
+/* Optional: Normalize AppBar margin */
+.AppBar {
+  margin: 0; /* Ensure no extra margin for AppBar */
+  padding: 0; /* Ensure no extra padding for AppBar */
+  position: fixed; /* Keep AppBar fixed at the top */
+  top: 0; /* Stick to the top */
+  width: 100%; /* Full width for AppBar */
+  z-index: 10; /* Higher than main-content */
 }
