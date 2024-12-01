@@ -1,6 +1,6 @@
 .rotating-text-container {
   padding: 0;
-  margin: '1rem auto';
+  margin: '0 auto';
   background-color: white;
   overflow: hidden;
   white-space: nowrap;
