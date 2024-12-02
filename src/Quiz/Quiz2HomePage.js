@@ -9,7 +9,7 @@ import DividerWithText from "../Home/DividerWithText";
 
 const Quiz2Homepage = () => {
   return (
-    <Box sx={{ width: "100%", backgroundColor: "#ffffff", transform: "translateZ(0)" }}>
+    <Box sx={{ width: "100%", backgroundColor: "#ffffff", transform: "translateZ(0)", margin: '0 auto' }}>
       <Helmet>
         <title>Jackie Wyers' Animal Pretty Quiz and More!</title>
         <meta
