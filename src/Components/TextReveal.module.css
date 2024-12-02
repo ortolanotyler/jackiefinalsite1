@@ -2,7 +2,7 @@
 .hero {
   width:100%;
   height: 100px;
-  margin: 0 auto;
+  margin: 20px auto;
   background-color: #fdedef;
   border-radius: 0px;
   display: grid;
