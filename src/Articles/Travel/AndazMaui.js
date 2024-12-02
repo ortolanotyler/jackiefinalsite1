@@ -6,6 +6,7 @@ import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import SubscribeVlog from '../../Components/SubscribeVlog';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
+import AdSenseAd from '../../Home/Adsense';
 
 
 
@@ -243,7 +244,9 @@ fontStyle: 'italic',
       </div>
       
        
-          
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
           
             <h2 style={headingStyle}>🌴 First Impressions and Ambiance</h2>
             <p style={paragraphStyle}>
@@ -259,10 +262,15 @@ fontStyle: 'italic',
             <p style={paragraphStyle}>
     Our room at the Andaz Maui was a cozy haven of tranquility. The balcony was the best part of our standard room, with panoramic views of the whole resort and <a href="https://www.gohawaii.com/islands/maui/regions/south-maui/wailea" style={linkStyle} target="_blank" rel="noopener noreferrer">Pacific Ocean</a> as pictured above. The room featured minimalist decor and the <a href="https://www.benefitcosmetics.com/en-ca" style={linkStyle} target="_blank" rel="noopener noreferrer">Benefit Canada</a> team decorated with amazing swag! Lauren & I were so excited to say the least.
 </p>
+
+
             <div style={gridContainerStyle}>
                 <img src={images[1]} alt="Maui room 1" style={imageStyle} />
                 <img src={images[2]} alt="Maui room 2" style={imageStyle} />
             </div>
+            <div className="ad-container">
+  <AdSenseAd />
+</div>
             <h2 style={headingStyle}>🌞 Room Options and Accessibility</h2>
             <p style={paragraphStyle}>
     In terms of accommodations, the Andaz Maui at Wailea Resort offers a variety of choices. Lauren and I enjoyed the comfort of a standard guest room which boasted stunning ocean and pool views from a spacious balcony. (We brought Scrump from <a href="https://disneyplus.com/movies/lilo-stitch/4sSNfChjX26G" style={linkStyle} target="_blank" rel="noopener noreferrer">Lilo & Stitch</a> along for the trip 😆). For those seeking more space and luxury, the resort also offers expansive suites equipped with additional living areas and enhanced amenities. Private villas are available for guests who desire ultimate privacy and exclusivity, complete with personalized services.
@@ -276,6 +284,7 @@ fontStyle: 'italic',
                 <img src={images[4]} alt="Maui room 4" style={imageStyle} />
                 <img src={images[5]} alt="Maui dining" style={imageStyle} />
             </div>
+            
             <h2 style={headingStyle}>💵 Cost Considerations & Dining Options</h2>
             <p style={paragraphStyle}>
     The nightly rate of around $1,100 USD at the Andaz Maui at Wailea Resort may seem steep, but the resort justifies this with its comprehensive luxury offerings. Set in a prime location, the resort provides direct access to some of Maui's finest beaches, along with exquisite amenities including multiple infinity pools, a world-class spa, and diverse dining options.
@@ -285,6 +294,9 @@ fontStyle: 'italic',
                 <img src={images[6]} alt="Maui market" style={imageStyle} />
                 <img src={images[7]} alt="Maui market 2" style={imageStyle} />
             </div>
+            <div className="ad-container">
+  <AdSenseAd />
+</div>
             <p style={paragraphStyle}>
     While the buffet breakfast costs approximately $49 for adults and $24.50 for children, more economical choices like the <a href="https://www.hyatt.com/en-US/hotel/hawaii/andaz-maui-at-wailea-resort/oggaw/dining" style={linkStyle} target="_blank" rel="noopener noreferrer">Mokapu Market</a> are available for lighter eats or snacks. Lauren and I went to this market daily for ice cream!
 </p>
@@ -328,6 +340,9 @@ fontStyle: 'italic',
                 <img src={images[18]} alt="Maui view 3" style={imageStyle} />
                 <img src={images[19]} alt="Maui view 4" style={imageStyle} />
             </div>
+            <div className="ad-container">
+  <AdSenseAd />
+</div>
             <p style={paragraphStyle}>
     The resort features 36 holes of <a href="https://www.golfwailea.com/" style={linkStyle} target="_blank" rel="noopener noreferrer">golf</a>, two vibrant poolside bars, and four onsite restaurants. Indulge in self-care at the <a href="https://www.andazmaui.com/experiences/spa" style={linkStyle} target="_blank" rel="noopener noreferrer">Awili Spa and Salon</a> with treatments from facials to body scrubs. Lauren & I preferred to stay outdoors, but we did love shopping for beauty products at the spa.
 </p>
@@ -341,6 +356,9 @@ fontStyle: 'italic',
                 <img src={images[22]} alt="Maui view 8" style={imageStyle} />
                 <img src={images[23]} alt="Maui view 8" style={imageStyle} />
             </div>
+            <div className="ad-container">
+  <AdSenseAd />
+</div>
             <h2 style={headingStyle}>🍹 Final Thoughts and Recommendations</h2>
             <p style={paragraphStyle}>
     As we soaked in the sun and enjoyed the outdoor activities at the Andaz Maui, we also recognized the broader conversations surrounding <a href="https://www.hawaiimagazine.com/a-better-way-to-visit-how-to-travel-responsibly-to-hawaii/" style={linkStyle} target="_blank" rel="noopener noreferrer">tourism in Hawaii</a>. Traveling here has become a topic of ethical discussion due to its effects on the indigenous population and the environment. While the beauty and allure of Maui are undeniable, it is essential to consider these impacts as part of a responsible travel approach.
@@ -364,6 +382,15 @@ fontStyle: 'italic',
             <img src={signature} alt="Signature" style={{ width: '100%' }} />
             <div style = {{padding: '1rem 2rem'}}>
 <Comments website-id={websiteId} page-id={"andaz-maui-review"} />
+<div className="ad-container">
+  <AdSenseAd />
+</div>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
       </div>
         </div>
     );
