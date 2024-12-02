@@ -49,7 +49,7 @@ const QuizHomepage = () => {
       </Helmet>
 
       {/* Banner Section */}
-      <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
+      <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '50px', md: '0px' } }}>
         <TextReveal
           text="🐈‍⬛🦌 The Animal Pretty Quiz 🐇🦊"
           style={{ backgroundColor: '#fdedef', width: '100%' }}
