@@ -26,7 +26,7 @@ const Quiz3Homepage = () => {
       </Helmet>
 
       {/* Quiz Content Sections */}
-      <TextReveal text="ULTIMATE WEDDING DRESS QUIZ" style={{ backgroundColor: "#ffffff", width: "100%" }} />
+      <TextReveal text="ULTIMATE WEDDING DRESS QUIZ" style={{ backgroundColor: "#ffffff", width: "100%", paddingTop: '20px' }} />
       <Quiz3 />
       <DividerWithText text="Ad" />
       <div className="ad-container">

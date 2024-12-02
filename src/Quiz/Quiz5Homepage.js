@@ -26,7 +26,7 @@ const Quiz5Homepage = () => {
       </Helmet>
 
       {/* Male vs Female Gaze Quiz Section */}
-      <TextReveal text="MALE vs FEMALE GAZE QUIZ" style={{ backgroundColor: "#ffffff", width: "100%" }} />
+      <TextReveal text="MALE vs FEMALE GAZE QUIZ" style={{ backgroundColor: "#ffffff", width: "100%",  paddingTop: '20px'  }} />
       <Quiz5 />
       <DividerWithText text="Ad" />
       <div className="ad-container">

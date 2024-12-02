@@ -26,7 +26,7 @@ const Quiz4Homepage = () => {
       </Helmet>
 
       {/* Halloween Costume Quiz Section */}
-      <TextReveal text="HALLOWEEN COSTUME QUIZ" style={{ backgroundColor: "#ffffff", width: "100%" }} />
+      <TextReveal text="HALLOWEEN COSTUME QUIZ" style={{ backgroundColor: "#ffffff", width: "100%" ,  paddingTop: '20px' }} />
       <Quiz4 />
       <DividerWithText text="Ad" />
       <div className="ad-container">

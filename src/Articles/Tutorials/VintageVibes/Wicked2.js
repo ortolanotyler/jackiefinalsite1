@@ -450,16 +450,13 @@ Target x Wicked iconic cardigan, I love the Aerie line and have listed some of m
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/870292?noHeader=true" style={{width: "100%", minHeight: "1200px", border: "none"}}></ResponsiveIframe>
-<p style={paragraphStyle}>
-  Thank you for joining me on this Elphaba, The Wicked Witch of the West transformation! Keep reading for the glamorous 
-  
-</p>
+
 
 
 
 
       <div style={{ textAlign: 'center', margin: '2rem 0' }}>
-        <a href="/wicked" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
+        <a href="/articles/wicked" style={{ fontFamily: 'Arapey', fontSize: '1.25rem', color: 'black', textDecoration: 'underline', textAlign: 'center' }}>
           <img src={glinda} alt="Wicked The Movie Jackie Wyers" style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }} />
           MORE POP CULTURE →
         </a>
