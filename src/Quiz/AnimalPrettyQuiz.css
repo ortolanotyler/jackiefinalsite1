@@ -77,3 +77,15 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional styling */
 }
 
+
+@media (max-width: 650px) {
+  .quiz2-container {
+    max-width: 90%; /* Adjust to screen size */
+    padding: 15px; /* Reduce padding for smaller screens */
+  }
+
+  .quiz2-answer-button {
+    width: 100%; /* Full width on small screens */
+    height: auto; /* Adjust height proportionally */
+  }
+}
