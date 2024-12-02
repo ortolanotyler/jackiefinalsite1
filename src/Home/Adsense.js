@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import styles from "./AdSense.module.css";
+import styles from "./Adsense.module.css";
 
 const AdSenseAd = () => {
   useEffect(() => {
