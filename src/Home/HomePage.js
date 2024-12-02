@@ -112,12 +112,12 @@ function HomePage() {
         <TextBanner2 text="FEATURED"  margin='0 0.15rem' height="100px" width="100%"  />
   
         
-     
-        <TextReveal
-        text="🐈‍⬛🦌🐇🦊" 
-        style={{ backgroundColor: '#fdedef', width: '100%', height: '70px' }} 
+    <TextReveal
+        text="Animal Pretty Quiz 🐈‍⬛🦌🐇🦊" 
+        style={{ backgroundColor: '#fdedef', width: '100%', height: '70px', mb: '0' }} 
       />
-
+     
+      
         
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 0 }}>
 
@@ -133,10 +133,6 @@ function HomePage() {
 <DividerWithText text ="Ad"/>
 
 
-    <TextReveal
-        text="Animal Pretty Quiz" 
-        style={{ backgroundColor: '#fdedef', width: '100%', height: '70px' }} 
-      />
 
 
 
@@ -179,7 +175,7 @@ function HomePage() {
   <AdSenseAd />
 </div>
 
-<DividerWithText text = "Ad"/>
+<DividerWithText text ="Ad"/>
 
 
 
