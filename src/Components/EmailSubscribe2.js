@@ -42,7 +42,7 @@ export default function EmailSubscribe2() {
           
      
           fontFamily: 'Playfair Display, serif', 
-          margin: '0 auto',
+          margin: '1rem auto',
           fontWeight : '400',
           maxWidth: '100%',
           color: '#000000', 
