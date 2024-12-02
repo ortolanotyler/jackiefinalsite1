@@ -18,15 +18,7 @@ const Quiz2Homepage = () => {
         />
         <meta name="keywords" content="beauty quiz, animal pretty, Jackie Wyers, makeup quiz" />
       </Helmet>
-      <DividerWithText text = "Ad"/>
-
-
-      <div className="ad-container">
-  <AdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
-
-
+   
 
       <Box
         sx={{

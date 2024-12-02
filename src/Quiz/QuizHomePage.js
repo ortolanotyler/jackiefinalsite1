@@ -56,8 +56,7 @@ const QuizHomepage = () => {
         />
       </Box>
 
-      {/* AdSense in a Prime Spot */}
-      <AdSenseAd />
+  
 
       {/* Quiz 2 Section */}
       <Box
