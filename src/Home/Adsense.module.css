@@ -1,0 +1,11 @@
+/* AdSenseAd.module.css */
+
+.adContainer {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
+  
+  .adBlock {
+    display: block;
+  }

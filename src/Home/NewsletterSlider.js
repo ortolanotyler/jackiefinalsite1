@@ -55,7 +55,7 @@ const NewsletterSlider = () => {
           
      
           fontFamily: 'Playfair Display, serif', 
-          margin: '3rem auto',
+          margin: '5px auto',
           padding: '1rem',
           maxWidth: '100%',
           color: '#000000', 

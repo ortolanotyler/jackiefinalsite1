@@ -39,9 +39,3 @@ html, body {
   z-index: 10; /* Higher than main-content */
 }
 
-.ad-container {
-  width: 100%; /* Ensure the container takes full width */
-  max-width: 728px; /* Limit to a standard ad size if needed */
-  padding: 1rem;
-  margin: 1rem auto;
-}
