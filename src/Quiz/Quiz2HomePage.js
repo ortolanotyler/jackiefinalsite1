@@ -20,19 +20,11 @@ const Quiz2Homepage = () => {
       </Helmet>
    
 
-      <Box
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          gap: 2,
-          padding: { xs: "50px", md: "40px" },
-        }}
-      >
+   
         {/* Quiz Content */}
         <TextReveal text="Animal Pretty Quiz" style={{ backgroundColor: "#ffffff", width: "100%", margin: 0 }} />
         <Quiz2 />
-      </Box>
+    
       <DividerWithText text = "Ad"/>
 
 
