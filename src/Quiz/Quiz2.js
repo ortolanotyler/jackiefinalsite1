@@ -200,9 +200,7 @@ const Quiz2 = () => {
         <div className="quiz2-results" data-ad-format="noauto">
           <h2>Your Results</h2>
           <p>Discover your animal-inspired beauty style below!</p>
-          <div className="adsense-ad-container">
-            <AdSenseAd />
-          </div>
+        
           <button onClick={() => navigate("/")}>Go Home</button>
         </div>
       )}
