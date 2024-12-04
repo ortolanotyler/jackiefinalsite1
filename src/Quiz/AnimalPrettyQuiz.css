@@ -1,16 +1,39 @@
+.quiz2-container {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  max-width: 100%; /* Adjust to screen size */
+  margin: 0 auto; /* Center horizontally */
+  height: 70vh; /* Full viewport height */
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.01); /* Optional shadow */
+}
+
+.quiz2-question {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: #745b4f;
+  text-align: center;
+}
+
 .quiz2-answer-section {
   display: flex;
-  flex-direction: column; /* Stack vertically */
-  gap: 15px; /* Spacing between buttons */
-  align-items: center; /* Center align the buttons */
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 15px; /* Add space between buttons */
+  align-items: center; /* Center align buttons */
 }
 
 .quiz2-answer-button {
-  width: 400px; /* Limit the width */
-  height: 100px; /* Set a fixed height for better fit */
+  width: 100%; /* Full width on smaller screens */
+  max-width: 400px; /* Limit max width */
+  height: auto; /* Adjust height proportionally */
   border: 1px solid #ffffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
   border-radius: 50px;
   background-size: cover;
   background-position: center;
@@ -19,73 +42,41 @@
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   color: #ffffff;
   font-family: "Playfair Display", serif;
-  font-size: 18px; /* Slightly smaller text for better fit */
+  font-size: 18px;
   font-weight: 400;
   display: flex;
-  justify-content: center; /* Center text inside button */
-  align-items: center; /* Center text vertically */
-  transition: transform 0.3s ease; /* Removed box-shadow transition */
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
 .quiz2-answer-button:hover {
   transform: scale(1.02);
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
-
-}
-
-.quiz2-container {
-  max-width: 400px;
-  margin: 0 auto;
-  text-align: center;
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 50px;
-  border: none; /* Remove any potential borders */
-}
-
-.quiz2-question {
-  margin-bottom: 20px; /* Add consistent spacing below the question text */
-}
-
-.quiz2-question-text {
-  font-size: 24px;
-  font-family: "Playfair Display", serif;
-  font-weight: 400;
-  color: #745b4f;
-}
-
-.quiz2-answer-section {
-  display: flex;
-  flex-direction: column; /* Stack vertically */
-  gap: 20px; /* Add space between answer buttons */
-  align-items: center; /* Center align the buttons */
 }
 
 .quiz2-results {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between; /* Ensures consistent spacing */
+  justify-content: center;
   width: 100%;
-  max-width: 800px; /* Matches container width */
-  height: 500px; /* Fixed height to prevent size changes */
-  margin: 0 auto;
+  max-width: 800px;
   text-align: center;
   padding: 20px;
   border-radius: 15px;
-  background-color: #ffffff; /* Optional background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional styling */
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
 @media (max-width: 650px) {
-  .quiz2-container {
-    max-width: 90%; /* Adjust to screen size */
-    padding: 15px; /* Reduce padding for smaller screens */
-  }
-
   .quiz2-answer-button {
     width: 100%; /* Full width on small screens */
-    height: auto; /* Adjust height proportionally */
+  }
+
+  .quiz2-container {
+    padding: 15px; /* Reduce padding for smaller screens */
   }
 }

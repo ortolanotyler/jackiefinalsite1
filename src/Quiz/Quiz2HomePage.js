@@ -23,7 +23,12 @@ const Quiz2Homepage = () => {
    
         {/* Quiz Content */}
         <TextReveal text="Animal Pretty Quiz" style={{ backgroundColor: "#ffffff", width: "100%"}} />
-        <Quiz2 />
+     <div style = {{
+      margin: '0 auto',
+     }}>
+        < Quiz2 />
+
+        </div>
     
       <DividerWithText text = "Ad"/>
 

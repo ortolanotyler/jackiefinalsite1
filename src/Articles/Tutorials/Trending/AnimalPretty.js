@@ -44,7 +44,7 @@ const AnimalPretty = () => {
     fontFamily: 'Playfair Display, serif',
     color: '#000000',
     maxWidth: '95%',
-    margin: '30px auto',
+    margin: '1rem',
   };
 
   const paragraphStyle = {
