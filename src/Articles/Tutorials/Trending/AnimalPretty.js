@@ -10,6 +10,7 @@ import SocialShare from '../../../Home/SocialShare';
 
 import Quiz2 from '../../../Quiz/Quiz2';
 import AdSenseAd from '../../../Home/Adsense';
+import DividerWithText from '../../../Home/DividerWithText';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
@@ -180,7 +181,19 @@ const AnimalPretty = () => {
         publishDate="July 25th, 2024"
       />
 
+
+
        <Quiz2/>
+
+       <DividerWithText text = "Ad"/>
+
+
+<div className="ad-container">
+<AdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
+
+
 
 <SocialShare 
   url="https://www.jackiewyers.beauty/animalpretty" 
