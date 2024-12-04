@@ -182,8 +182,13 @@ const AnimalPretty = () => {
       />
 
 
-
+<div style = {{
+  margin: '0 auto'
+}}>
        <Quiz2/>
+
+</div>
+
 
        <DividerWithText text = "Ad"/>
 
