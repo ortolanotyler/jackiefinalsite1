@@ -208,7 +208,7 @@ function App() {
             <Route path="westgatesandiego" element={<WestGateHotelBlog />} />
             <Route path="andazmaui" element={<AndazMauiReview />} />
             <Route path="princeofwales" element={<PrinceOfWales />} />
-            <Route path="animalpretty" element={<AnimalPretty />} />
+            <Route path="animalpretty" element={<Quiz2Homepage />} />
             <Route path="halfetireview" element={<HalfetiReview />} />
             <Route path="jickyreview" element={<JickyReview />} />
             <Route path="bonbonreview" element={<BonBonReview />} />
