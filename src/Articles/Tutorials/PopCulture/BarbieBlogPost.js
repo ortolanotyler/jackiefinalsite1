@@ -63,6 +63,50 @@ const BarbieBlog = () => {
   };
   
   
+  const layoutStyle = {
+    display: 'grid',
+    gridTemplateColumns: '1fr 4fr 1fr',
+    gap: '1rem',
+    maxWidth: '1200px',
+    margin: '0 auto',
+    padding: '1rem',
+  };
+
+  const adStyle = {
+    position: 'fixed', // Fixed position
+    top: '50%', // Vertically center
+    transform: 'translateY(-50%)', // Centering adjustment
+    width: '150px', // Adjust width
+    backgroundColor: '#f8f8f8',
+    textAlign: 'center',
+    fontSize: '14px',
+    color: '#555',
+    lineHeight: '1.4',
+  };
+
+  const leftAdStyle = {
+    ...adStyle,
+    left: '10px', // Left position
+  };
+
+  const rightAdStyle = {
+    ...adStyle,
+    right: '10px', // Right position
+  };
+
+  const contentStyle = {
+    padding: '1rem',
+    backgroundColor: '#ffffff',
+  };
+
+  const smallScreenStyle = {
+    gridTemplateColumns: '1fr',
+  };
+
+  const mergedLayoutStyle =
+    window.innerWidth <= 768
+      ? { ...layoutStyle, ...smallScreenStyle }
+      : layoutStyle;
 
   
   const paragraphStyle = {
@@ -419,6 +463,7 @@ NYX’s makeup collab with Barbie for more pink lip combos!
       <Comments website-id={websiteId} page-id={'barbsssie'} />
     </div>
   );
+
 
   return (
     <div ref={blogRef}>

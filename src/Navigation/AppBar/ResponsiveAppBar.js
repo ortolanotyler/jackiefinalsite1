@@ -35,6 +35,8 @@ const ResponsiveAppBar = () => {
             sx={{
               justifyContent: 'space-between',
               fontFamily: 'Playfair Display, serif',
+              fontWeight: '400',
+
               alignItems: 'center',
               padding: '5px 10px',
             }}
@@ -48,6 +50,8 @@ const ResponsiveAppBar = () => {
                 sx={{
                   color: '#745B4F',
                   fontFamily: 'Playfair Display, serif',
+                  fontWeight: '400',
+
                   '&:hover': {
                     backgroundColor: 'transparent',
                     color: '#745B4F',

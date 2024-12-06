@@ -147,6 +147,7 @@ import TaylorSwiftHoliday from './Articles/Tutorials/PopCulture/TaylorSwift';
 import NewsletterSlider from './Home/NewsletterSlider';
 import MaleFemaleGaze from './Articles/Tutorials/VintageVibes/MaleFemaleGaze';
 import HarleyQuinnEvolution from './Articles/Tutorials/PopCulture/Harley';
+import RemBeautyWickedReview from './Articles/Tutorials/PopCulture/Wicked3';
 
 
 function usePageTracking() {
@@ -324,6 +325,7 @@ function App() {
             <Route path="/articles/male-female-gaze" element={<MaleFemaleGaze />} />
             <Route path="/quiz/animalpretty" element={<Quiz2Homepage />} />
             <Route path="/articles/harley-quinn-evolution" element={<HarleyQuinnEvolution />} />
+            <Route path="/articles/rembeauty/wicked-review" element={<RemBeautyWickedReview />} />
 
             <Route path="*" element={<NotFound/>} />
           </Route>

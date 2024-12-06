@@ -168,6 +168,8 @@ const Haircare1 = () => {
         title="My Hair Care Routine Video"
         alt="Hair care routine video by Jackie Wyers showcasing favorite products and hair growth tips"
       />
+
+      
       <div style={{ textAlign: 'center', margin: '10px auto' }}>
         <SubscribeButton />
       </div>
