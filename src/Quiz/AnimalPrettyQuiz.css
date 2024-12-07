@@ -4,8 +4,8 @@
   justify-content: center; /* Center vertically */
   align-items: center; /* Center horizontally */
   max-width: 100%; /* Adjust to screen size */
-  margin: 0 auto; /* Center horizontally */
-  height: 70vh; /* Full viewport height */
+  margin: 5px auto; /* Center horizontally */
+  height: 50vh; /* Full viewport height */
   text-align: center;
   background-color: #ffffff;
   padding: 20px;
