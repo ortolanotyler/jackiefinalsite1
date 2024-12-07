@@ -1,20 +1,21 @@
 .quiz2-container {
   display: flex;
+  padding-top: 15px;
   flex-direction: column; /* Stack content vertically */
   justify-content: center; /* Center vertically */
   align-items: center; /* Center horizontally */
   max-width: 100%; /* Adjust to screen size */
-  margin: 5px auto; /* Center horizontally */
-  height: 50vh; /* Full viewport height */
+  margin: 1rem auto; /* Center horizontally */
+  height: 60vh; /* Full viewport height */
   text-align: center;
   background-color: #ffffff;
-  padding: 20px;
+  padding: 10px;
   border-radius: 50px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.01); /* Optional shadow */
 }
 
 .quiz2-question {
-  margin-bottom: 20px;
+  margin: 1rem auto;
   font-size: 24px;
   font-family: "Playfair Display", serif;
   font-weight: 400;

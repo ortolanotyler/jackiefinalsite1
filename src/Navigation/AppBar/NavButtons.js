@@ -68,7 +68,8 @@ const NavButtons = () => {
           },
           '.MuiMenuItem-root': {
             fontFamily: 'Playfair Display, serif', // Updated to Playfair Display
-            fontSize: '1rem',
+            fontSize: '14px',
+            fontWeight: '400px',
           },
         }}
       >

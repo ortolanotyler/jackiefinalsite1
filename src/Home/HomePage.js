@@ -37,9 +37,9 @@ function HomePage() {
     name="description"
     content="Discover beauty tutorials, makeup reviews, travel tips, and vintage vibes by Jackie Wyers. Explore expert tips on beauty trends, pop culture looks, and girly aesthetics."
   />
-  <meta
-    name="keywords"
-    content="beauty tutorials, makeup reviews, travel tips, Jackie Wyers, beauty influencer, makeup looks, style guides, product reviews, fashion tips, skincare, hair tutorials, beauty trends, travel guides, girly style, pop culture beauty, vintage hairstyles, Jackie Wyers YouTube, beauty influencer tips, lifestyle content, girly beauty trends, makeup inspiration, hair styling, classic beauty, retro beauty, travel vlogs, trendy makeup tutorials, beauty and style, travel recommendations, makeup products, girly style tips, pop culture inspired beauty"
+  <meta 
+    name="keywords" 
+    content="Jackie Wyers step-by-step makeup tutorials, Best beauty tutorials by Jackie Wyers, Jackie Wyers top-rated makeup tutorials, Jackie Wyers beauty tips and tricks, Jackie Wyers skincare routine tutorials, Jackie Wyers hair styling tutorials, Jackie Wyers natural makeup look tutorials, Jackie Wyers celebrity-inspired makeup tutorials, Jackie Wyers seasonal makeup tutorials, Jackie Wyers product reviews and recommendations, Jackie Wyers bridal makeup tutorials, Jackie Wyers everyday makeup tutorials, Jackie Wyers special occasion makeup tutorials, Jackie Wyers makeup tutorials for beginners, Jackie Wyers advanced makeup techniques, Jackie Wyers beauty hacks and tips, Jackie Wyers makeup tutorials for different skin tones, Jackie Wyers makeup tutorials for different eye shapes, Jackie Wyers makeup tutorials using drugstore products, Jackie Wyers makeup tutorials using high-end products" 
   />
 
   {/* Open Graph Meta Tags */}
@@ -91,7 +91,7 @@ function HomePage() {
     `}
   </script>
 </Helmet>
-      <Box sx={{ backgroundColor: '#ffffff',display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
+      <Box sx={{ backgroundColor: '#ffffff',display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '10px', md: '10px' } }}>
       <TextRevealHomePage1 text="JACKIE WYERS" style={{ backgroundColor: '#fdedef', fontFamily: 'Playfair Display, serif', fontWeight: '400', fontSize: '28px' }} />
 
         {!isMobile && (
@@ -107,32 +107,36 @@ function HomePage() {
           <QuiltedImageList1 />
         </Box>
 
+        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, padding: 2 }}>
+
+
        
 
         <TextBanner2 text="FEATURED"  margin='0 0.15rem' height="100px" width="100%"  />
   
-        
+        <DividerWithText text="🐈‍⬛🦌"/>
+
     <TextReveal
-        text="Animal Pretty Quiz 🐈‍⬛🦌🐇🦊" 
-        style={{ backgroundColor: '#fdedef', width: '100%', height: '70px', mb: '0' }} 
+        text="Animal Pretty Quiz" 
+        style={{ backgroundColor: '#fdedef', width: '100%', height: '100%', backgroundColor:'#ffffff' , marginBottom: '20px'}} 
       />
+
+<DividerWithText text="🐇🦊"/>
+</Box>
      
-      
+
         
-    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, padding: 0 }}>
 
       <Quiz2 />
-      <DividerWithText text="Ad"/>
-
-
-<div className="ad-container">
-<AdSenseAd />
-</div>
-<DividerWithText text ="Ad"/>
 
 
 
-    </Box>
+
+
+
+
+
+   
 
 
 
@@ -141,10 +145,16 @@ function HomePage() {
 
 
  
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
   
 
+    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, padding: 0, mt: 1 }}>
 
 
 <TextBanner2 text="NEW & POPULAR"  margin='0 0.15rem' height="100px" width="100%"  />
@@ -191,6 +201,8 @@ function HomePage() {
   <AdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
+
+</Box>
 
     </Box>
   );
