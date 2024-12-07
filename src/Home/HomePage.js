@@ -19,13 +19,13 @@ import DividerWithText from './DividerWithText';
 
 
 function HomePage() {
-  const isMobile = useMediaQuery('(max-width:650px)'); // Check if the screen size is mobile
+  const isMobile = useMediaQuery('(max-width:700px)'); // Check if the screen size is mobile
 
   return (
 <Box
   sx={{
     width: '100%',
-    backgroundColor: 'white',
+    backgroundColor: '#ffffff',
     transform: 'translateZ(0)',
     overflowX: 'hidden', // Ensure no horizontal scroll
     overflowY: 'auto',   // Enable vertical scroll
