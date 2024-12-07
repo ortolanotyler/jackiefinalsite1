@@ -437,7 +437,7 @@ minHeight: '100vh'
             />
 
             <NextArticle
-              link="/rem-beauty-holiday"
+              link="/articles/wicked"
               imgSrc={'https://res.cloudinary.com/dvbubqhpp/image/upload/v1733590317/Glinda_Makeup_Tutorial_qy2h9o.jpg'}
               linkText="More Wicked Please!"
             />
