@@ -9,6 +9,8 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import AdSenseAd from '../../../Home/Adsense';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/IconicTitle.png`;
 const Sharon2 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/JackieAsSharon.jpg`;
@@ -197,7 +199,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <DropCap1 text="Welcome back to another installment of Time Travel Tutorials, this time featuring the iconic '60s figure, Sharon Tate. A promising actress and model of the 1960s, Tate was celebrated for her roles in films like 'Valley of the Dolls', captivating audiences with her talent and ethereal beauty. Her tragic and untimely death solidified her status as an era icon, profoundly influencing pop culture, fashion, and beauty standards of the 1960s. Let's celebrate the beautiful Sharon Tate by emulating her signature style, which remains influential today. Also covered on blog is Sharon’s Bridal style as well." />
     
-    
+      <DividerWithText  text = "Ad"/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       
       
 <div style={gridContainerStyle}>
@@ -211,6 +217,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   If you're as captivated by this makeup era and Sharon Tate as I am, I hope you'll enjoy this beauty breakdown. While I use modern products to achieve the look, at the end of this article, we'll also explore some products still available today that were among Sharon Tate's favorites.
 </p>
+
+<DividerWithText  text = "Ad"/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>The Essence of Sharon Tate’s Makeup</h2>
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -237,7 +249,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/494394?noHeader=true" title="Sharon Tate Inspired Makeup Products" />
    
-    
+      <DividerWithText  text = "Ad"/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>Sharon’s Modelesque Bone Structure</h2>
       <p style={paragraphStyle}>
   To emulate Sharon Tate's stunning bone structure, including her high cheekbones and defined chin, sculpting with a lighter concealer is key. If your skin tone is similar to hers, the <a href="https://www.toofaced.com/product/23450/66048/concealer/born-this-way-super-coverage-multi-use-sculpting-concealer" target="_blank" rel="noopener noreferrer" style={linkStyle}>Too Faced Born This Way Concealer in Swan</a> is an excellent option. However, if your skin tone differs, opt for a concealer that's two shades lighter than your foundation. After enhancing the chin, jawline, area around the nose, and under the eyes with brightness, lightly set these areas with powder before applying a powder bronzer to finalize the sculpted look. This technique ensures a natural yet defined finish, mirroring Sharon Tate's iconic beauty.
@@ -257,7 +273,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/494403?noHeader=true" title="Sharon Tate Inspired Brow Products" />
-
+      <DividerWithText  text = "Ad"/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>Sharon’s Take on ‘60s Cut Crease Eyes</h2>
       <p style={paragraphStyle}>
   Moving on to the eyes, let's craft a bold, graphic-style cut crease using a <a href="https://www.maybelline.com/eye-makeup/eyeliner" target="_blank" rel="noopener noreferrer" style={linkStyle}>gel brown liner</a> to capture Sharon Tate's signature deep-set eyes, a hallmark of her beauty. The shape we're aiming for diverges slightly from the perfect half-moon typically associated with cut creases. Begin by drawing a straight, slightly diagonal line from the inner corner of the eye upwards to just underneath the brow's head. From this point, curve the line to follow just above your natural crease, creating a distinct and dramatic effect, tailing downwards. So much of today’s beauty standards feature an upturned cat eye, but sleepy-doe eyes have such a beautiful charm as well!
@@ -287,7 +307,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
     
       <ResponsiveIframe src="https://shopmy.us/collections/public/565715?noHeader=true" title="Twiggy-inspired Lashes Products" />
-
+      <DividerWithText  text = "Ad"/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>What Products did Sharon really use?</h2>
       <p style={paragraphStyle}>
   Sharon Tate's beauty regime was elegantly simple, incorporating a <a href="https://www.maxfactor.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Max Factor Brown liner</a> for both her brows and lips. Surprisingly, one of her go-to products was Vaseline! Many drugstore brands that are still available today, such as the <a href="https://www.maybelline.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Maybelline Brown Eyeliner Pencil</a> and <a href="https://www.revlon.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Revlon White Eyeliner</a>, were used by Tate to highlight her enchanting eyes and were showcased at auction. My personal favorite from the ‘60s, <a href="/yardley1965" target="_blank" rel="noopener noreferrer" style={linkStyle}>Yardley</a>, offered the most exquisite pearly lipsticks, which were also a part of Sharon’s makeup collection.
@@ -307,7 +331,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
   In the tutorial, I hosted a giveaway of an amazing Sharon Tate coffee table book, “<a href="https://www.amazon.com/Sharon-Tate-Recollection-Debra/dp/076245234X" target="_blank" rel="noopener noreferrer" style={linkStyle}>Sharon Tate Recollection</a>” by her sister, Deborah Tate that celebrates her style. The winner has received their prize, but you can buy the book on Amazon <a href="https://www.amazon.com/Sharon-Tate-Recollection-Debra/dp/076245234X" target="_blank" rel="noopener noreferrer" style={linkStyle}>here</a> - a must for Sharon fans!
 </p>
-
+<DividerWithText  text = "Ad"/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>Sharon's Bohemian Style</h2>
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -357,7 +385,22 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
     
 
         <Comments website-id={websiteId} page-id="sharon-iconic-post" />
-  
+        <DividerWithText  text = "Ad"/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText  text = "Ad"/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText  text = "Ad"/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
     </div>
   );
 

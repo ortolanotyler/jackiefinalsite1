@@ -55,13 +55,16 @@ const NewsletterSlider = () => {
         Sign up for the weekly newsletter!
       </Typography>
 
-      <Grid container spacing={3} sx={{ margin: '1rem auto', maxWidth: '900px' }}>
+      <Grid container spacing={1} sx={{ margin: '1rem', maxWidth: '1000px' }}>
+      <Grid item xs={12} sm={6}>
+          <EmailSubscribe />
+        </Grid>
         <Grid item xs={12} sm={6}>
           <Box
             className="sliderContainer"
             sx={{
               position: 'relative',
-              width: '90%',
+              width: '100%',
               maxWidth: '400px',
               height: 'auto',
               display: 'flex',
@@ -98,9 +101,7 @@ const NewsletterSlider = () => {
           </Box>
         </Grid>
 
-        <Grid item xs={12} sm={6}>
-          <EmailSubscribe />
-        </Grid>
+     
       </Grid>
 
       <DividerWithText text="Weekly Newsletter" />

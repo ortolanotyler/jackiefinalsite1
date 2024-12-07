@@ -7,6 +7,8 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
+import DividerWithText from '../../../Home/DividerWithText';
+import AdSenseAd from '../../../Home/Adsense';
 
 const MaleFemaleGaze = () => {
   const websiteId = '10910';
@@ -112,7 +114,11 @@ const MaleFemaleGaze = () => {
 </p>
 
 <DropCap1 text="The concept of male gaze vs. female gaze makeup has taken the beauty world by storm, but what does it really mean? This trend dives into how makeup styles can reflect either a softer, approachable makeup look typically seen through the 'male gaze' (think love interests in movies) or bolder, more experimental looks that appeal to the 'female gaze'—driven by creativity and self-expression over societal norms." />
-
+<DividerWithText  text = "Ad"/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
   The trend went viral with the sound: “Don’t look at me with those eyes…what eyes” as creators showcased their interpretations of male gaze vs. female gaze makeup. Here’s my take below!
 </p>
@@ -168,6 +174,12 @@ style = {{
 <p style={paragraphStyle}>• Neutral tones for eyes and lips</p>
 <p style={paragraphStyle}>• Soft, fluffy brows</p>
 <p style={paragraphStyle}>• Hydrated, kissable lips</p>
+
+<DividerWithText  text = "Ad"/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style={headingStyle}>Male Gaze Makeup as seen in Pop Culture!</h2>
 
@@ -237,6 +249,12 @@ style = {{
   src="https://www.youtube.com/embed/okXpvzknH9w?t=2s" 
   title="Espresso Makeup Trend" 
 />
+
+<DividerWithText  text = "Ad"/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
   4. <a href="https://www.youtube.com/watch?v=92Exu4CeZ7E&t=478s" style={linkStyle}>Pamela Anderson’s 90s Glam:</a> Thin brows, overlined lips, and bold smokey eyes for a retro-inspired look.
 </p>
@@ -251,6 +269,11 @@ style = {{
   src="https://www.youtube.com/embed/loQFw9eXNpQ" 
   title="Euphoria’s Maddy Perez" 
 />
+<DividerWithText  text = "Ad"/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
   6. <a href="https://www.youtube.com/watch?v=o8_dfwGNXAc" style={linkStyle}>Sophia Loren’s Arabesque Cat Eye:</a> Classic, vintage glam.
 </p>
@@ -265,6 +288,11 @@ style = {{
   src="https://www.youtube.com/embed/1AEctVwF5Bg?list=PL-_qSuEl3UwEKlsEGeLby77w3xxwlDiY8" 
   title="Margot Robbie in The Wolf of Wall Street" 
 />
+<DividerWithText  text = "Ad"/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <h2 style={headingStyle}>How to Find Your Makeup Persona</h2>
 
 <p style={paragraphStyle}>
@@ -279,6 +307,22 @@ style = {{
   <SubscribeButton />
 </div>
       <Comments website-id={websiteId} page-id="male-female-gaze-makeup" />
+      <DividerWithText  text = "Ad"/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText  text = "Ad"/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText  text = "Ad"/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
     </div>
   );
 

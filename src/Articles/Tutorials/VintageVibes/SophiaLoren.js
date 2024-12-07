@@ -9,6 +9,8 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 import InstagramEmbed from '../../../Components/InstagramEmbed';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import AdSenseAd from '../../../Home/Adsense';
 
 
 const SophiaFace = `${process.env.PUBLIC_URL}/Images/Articles/SophiaLoren/SophiaLorenBlankFaceChart-2.jpg`;
@@ -195,7 +197,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <DropCap1 text="Welcome back to my favorite series, Time Travel Tutorials, where we delve into the glamorous world of beauty icons from the past. Today's spotlight is on the mesmerizing Italian beauty, Sophia Loren. Born on September 20th, 1934, in Rome, Italy, Sophia Loren is a megastar in both Hollywood and Italian cinema. Her career, spanning over six decades, is a testament to her immense talent, charisma, and iconic makeup style, which continues to inspire admiration (and imitation) today." />
       
       <DividerWithText  text = "Ad"/>
-        <div className="ad-container">
+          <DividerWithText  text = "Ad"/>
+      <div className="ad-container">
   <AdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
@@ -232,7 +235,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <ResponsiveIframe src="https://shopmy.us/collections/public/495255?noHeader=true" title="Foundation Choices" />
 
       <DividerWithText  text = "Ad"/>
-        <div className="ad-container">
+          <DividerWithText  text = "Ad"/>
+      <div className="ad-container">
   <AdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
@@ -248,8 +252,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/495258?noHeader=true" title="Sculpting Products" />
       <DividerWithText  text = "Ad"/>
-    
-    
+        <DividerWithText  text = "Ad"/>
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
        
       <h2 style={headingStyle}>Old Hollywood Matte & Powdered Skin Finish</h2>
       <p style={paragraphStyle}>
@@ -273,7 +280,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   Select a deep neutral palette, with grays, browns, and taupes. I selected the <a href="https://www.dior.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Dior 5 Couleurs Couture Eyeshadow Palette (649 Nude Dress)</a> and while some photos of Sophia’s signature eye look feature a charcoal gray (a deep, dark shade of gray close to black), in the "<a href="https://www.imdb.com/title/tt0060758/" target="_blank" rel="noopener noreferrer" style={linkStyle}>Arabesque</a>" scenes, it appeared more like a taupe (a warmer neutral, more of a gray-brown) through the lens.
 </p>
-<div className="ad-container">
+  <DividerWithText  text = "Ad"/>
+      <div className="ad-container">
   <AdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
@@ -300,6 +308,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/495280?noHeader=true" title="Lip and Cheek Products" />
+        <DividerWithText  text = "Ad"/>
       <div className="ad-container">
   <AdSenseAd />
 </div>
@@ -320,7 +329,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   Whether you're a fan of Sophia Loren, a lover of the '60s, or just in search of some beauty inspiration, I hope you found this guide inspiring. Join me in celebrating the eternal elegance of Sophia Loren, and I can’t wait to create another Time Travel Tutorial for you.
 </p>
-<div className="ad-container">
+  <DividerWithText  text = "Ad"/>
+      <div className="ad-container">
   <AdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
@@ -353,15 +363,18 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </div>
 
       <Comments website-id={websiteId} page-id={"Sophia-Loren"} />
+        <DividerWithText  text = "Ad"/>
       <div className="ad-container">
   <AdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
-<div className="ad-container">
+  <DividerWithText  text = "Ad"/>
+      <div className="ad-container">
   <AdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
-<div className="ad-container">
+  <DividerWithText  text = "Ad"/>
+      <div className="ad-container">
   <AdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
