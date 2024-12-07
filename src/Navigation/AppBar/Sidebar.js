@@ -13,6 +13,8 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
     { name: 'HOME', path: '/' },
     { name: 'ABOUT', path: '/about' },
+    { name: 'QUIZZES', path: '/quiz-2-home' },
+    { name: 'DIARY', path: '/diary' },
     { name: 'BEAUTY TUTORIALS', path: '/tutorials' },
     { name: 'POP CULTURE', path: '/popculture' },
     { name: 'VINTAGE VIBES', path: '/timetraveltutorials' },
@@ -21,9 +23,11 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'VLOGS', path: '/vlogs' },
     { name: 'TRAVEL ARTICLES', path: '/travel' },
     { name: 'DIARY', path: '/diary' },
+    { name: 'REM BEAUTY WICKED REVIEW', path: '/articles/rembeauty/wicked-review' },
+
     { name: 'YARDLEY 1965', path: '/yardley1965' },
     { name: 'TWIGGY', path: '/twiggy' },
-    { name: 'VICTORIA\'S SECRET', path: '/victoriasecret' },
+    { name: "VICTORIA'S SECRET", path: '/victoriasecret' },
     { name: 'SUGAR PLUM FAIRY', path: '/sugarplumfairy' },
     { name: 'SOPHIA LOREN', path: '/sophialoren' },
     { name: 'SHARON TATE BRIDAL', path: '/sharontatebridal' },
@@ -47,7 +51,6 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'HALFETI REVIEW', path: '/halfetireview' },
     { name: 'JICKY REVIEW', path: '/jickyreview' },
     { name: 'BON BON REVIEW', path: '/bonbonreview' },
-    { name: 'QUIZZES', path: '/quiz-2-home' },
 
     { name: 'PERIOD DRAMA', path: '/perioddrama' },
     { name: 'FAIRYTALE WEDDING', path: '/fairytalewedding' },
@@ -127,7 +130,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           to="/subscribe"
           onClick={toggleDrawer}
           sx={{
-            marginTop: '1rem',
+            marginTop: '5px',
             backgroundColor: '#745B4F',
             color: '#f8f8f8 !important',
             fontSize: '18px',
