@@ -9,7 +9,8 @@ import NextArticle from '../../../Components/NextArticleComponent';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
 import EmailSubscribe from '../../../Components/EmailSubscribe';
-import TextBanner2 from '../../../Components/TextBanner2';
+import DividerWithText from '../../../Home/DividerWithText';
+import AdSenseAd from '../../../Home/Adsense';
 
  
 
@@ -280,7 +281,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <DropCap1 text="In the dazzling world of the Barbie Movie, directed by Greta Gerwig and starring Margot Robbie as endearing Barbie and Ryan Gosling as the hilarious Ken, we must not forget to pay tribute to the brilliant artists who brought these iconic characters to life. Ivana Primorac, the creative force leading the movie’s hair and makeup teams, created Margot’s Barbie pink makeup look that appeared fresh and modern. The 'Barbie' costume designer Jacqueline Durran played an equally crucial role in fuelling the 'Barbiecore' fashion trend with the iconic Barbie looks featured in the film. Hello Barbiecore summer of 2023 - everywhere you looked, it was all about PINK!" />
 
       
-      
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
   
       
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -316,6 +321,12 @@ transformation that is not only faithful to the film but also entirely wearable.
 
 </p>
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 <p style={paragraphStyle}>
 In this blog post, I'll be your guide you to recreate Margot Robbie's
 exquisite pink Barbie makeup look, drawing inspiration from the movie and
@@ -342,6 +353,11 @@ Overnight Lip Plumping Mask is a must-try and a top recommendation I
 give to beauty lovers!
 </p>
     
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <h2 style={headingStyle}>Foundation</h2>
 
@@ -377,6 +393,12 @@ Powders
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493498?noHeader=true" title="Collection name here" />
+
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <h2 style={headingStyle}>Brows</h2>
 
@@ -433,7 +455,11 @@ NYX’s makeup collab with Barbie for more pink lip combos!
       <ResponsiveIframe src="https://shopmy.us/collections/public/493536?noHeader=true" title="Collection name here" />
 
   
-
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
  
 
 <p style={paragraphStyle}>
@@ -461,6 +487,27 @@ NYX’s makeup collab with Barbie for more pink lip combos!
 
 
       <Comments website-id={websiteId} page-id={'barbsssie'} />
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
     </div>
   );
 
