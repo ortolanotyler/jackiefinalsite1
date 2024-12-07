@@ -63,7 +63,7 @@ const NavButtons = () => {
             color: '#745B4F',
             boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
             borderRadius: '0px',
-            border: '1px solid #ffffff',
+            border: '2px solid #ffffff',
             fontFamily: 'Playfair Display, serif', // Updated to Playfair Display
           },
           '.MuiMenuItem-root': {
