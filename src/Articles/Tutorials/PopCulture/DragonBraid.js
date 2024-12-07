@@ -9,6 +9,7 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
 import AdSenseAd from '../../../Home/Adsense';
+import DividerWithText from '../../../Home/DividerWithText';
 
 
 
@@ -246,13 +247,17 @@ const DragonBraid = () => {
 </p>
 
 
-<div style={paragraphStyle}>
   <DropCap1 text="Ever wondered how to achieve a voluminous, braided look without complex braiding skills? Discover the dragon braid, also known as a pull-through braid, perfect for long hair. This tutorial will guide you through the simple steps of creating this stunning hairstyle using rubber bands, ideal for any occasion. Start by securing your hair into a high ponytail and follow the steps below for a flawless finish.  
   "/>
 
 
   
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
 </div>
+<DividerWithText text = "Ad"/>
 
 <br/>
 
@@ -421,6 +426,12 @@ textAlign: 'center',
 
 <br/>
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 
 <h2 style = {headingStyle}>
 Dragon Braid with Twists: Step-by-Step Guide
@@ -510,6 +521,11 @@ Finish this look by curling the ends, or add a little bun and a big bow to keep 
 </div>
 <br/>
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 
@@ -592,12 +608,28 @@ Check out my <a href = 'https://www.youtube.com/playlist?list=PL-_qSuEl3UwH-XS-K
     <img src={signature} alt="jackie wyers end of article signature" style={{ width: '100%' }} />
 
 <div>
+  
 <br/>
 
 <Comments website-id={websiteId} page-id={"dragonbronzon"} />
 
       </div>
 
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
                           

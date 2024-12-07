@@ -10,6 +10,8 @@ import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
 import YoutubeShortFacade from '../../../Components/YouTubeShortFacade';
 import EmailSubscribe from '../../../Components/EmailSubscribe';
+import DividerWithText from '../../../Home/DividerWithText';
+import AdSenseAd from '../../../Home/Adsense';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieRoundup/1.JPG`;
@@ -232,11 +234,13 @@ Wishlist"
 </p>
 
 
-<div style={paragraphStyle}>
   <DropCap1 text="Hey Barbie Lovers! It’s Jackie and welcome Back to the Top 5 Barbie Products for Adult Barbie Fans! Ever since the early days of creating YouTube tutorials, Barbie—the world’s most iconic doll—has been a major inspiration to me. Surprisingly, I didn’t grow up surrounded by Barbie dolls. My best friend was a tomboy, and I felt shy sharing my love for Barbie’s pink, sparkly world. But as an adult, I’ve embraced my inner Barbie girl and am all things obsessed with her chic, feminine energy, fashion history, and the brand’s incredible product collaborations that capture the trends of every era. "/>
   
-  
+  <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
 </div>
+<DividerWithText text = "Ad"/>
 
 
 
@@ -285,7 +289,11 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/833074?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}/>
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 
@@ -312,7 +320,11 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/828360?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}/>
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <p style={paragraphStyle}>
@@ -350,7 +362,11 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/833105?noHeader=true" style={{ width: '100%', minHeight: '1500px', border: 'none' }}/>
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style={headingStyle}>
   🌞 Barbie x FUNBOY Pool Floaties🌞
@@ -398,7 +414,11 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/833072?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}/>
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 
@@ -422,7 +442,11 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/832605?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}/>
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
   <em>Barbie On-the-Go Hair Kit</em>: Perfect for the hair enthusiasts, this set features the cutest Barbie-themed styling tools and accessories in the funkiest totally hair barbie print.
 </p>
@@ -475,7 +499,22 @@ Breaking Beauty News! The iconic celebrity makeup artist Patrick Ta has joined f
      
      <Comments website-id={websiteId} page-id={"barbie3"} />
     
-      
+     <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
     </div>
     
   );

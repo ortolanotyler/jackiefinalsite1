@@ -10,6 +10,8 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
 import EmailSubscribe from '../../../Components/EmailSubscribe';
+import DividerWithText from '../../../Home/DividerWithText';
+import AdSenseAd from '../../../Home/Adsense';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/1.JPG`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/2.JPG`;
@@ -271,6 +273,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
 <DropCap1 text="Hello and welcome back to another Barbie-inspired makeup article! Barbie isn’t just a doll—she’s a global icon of style, glamour, and endless creativity. From her glamorous debut in 1959 to her latest movie-inspired renditions, Barbie continues to inspire fans with her evolving fashion and beauty trends. "/>
 </p>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style = {paragraphStyle}>
 
 In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous post </a>, I covered the best Barbie product collaborations of 2024, but today, we’re diving into the most iconic Barbie makeup looks ever—at least, in my opinion! Each style is inspired by different eras and dolls that have shaped Barbie’s legendary legacy, giving you the perfect opportunity to transform into your favorite version of this fashion queen. 
@@ -323,6 +331,12 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
   This Barbie style features soft curls, delicate pink bows, and pastel florals that are visually stunning and evoke a sense of whimsy. If you’ve ever wanted to try pastel purple eyeshadow, now is the perfect time! For the full effect, wear the iconic new Peaches ‘N Cream dress from Revolve’s Barbie Fashion Collection to complete your Barbie Halloween costume, or rock the makeup on its own for a creative, standout look that celebrates the essence of this unforgettable doll.
@@ -384,6 +398,12 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <h2 style={heading2Style}>
@@ -449,7 +469,11 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
   This Silkstone-inspired look features adorable pigtails with red bows and a cherry-print top, capturing a 50s picnic vibe that’s playful and charming. While this particular Cherry Pie Picnic Barbie style didn’t grace the pink carpet on the Barbie Movie press tour, Margot Robbie and designer Andrew Mukamal's coffee table book featured a modern take on the doll. As soon as I saw the picnic-themed rendition in the book, I knew I wanted to recreate it with my own twist! My take on the makeup look is a bit bolder, with red lips, perfect for those who adore vintage-inspired fashion and want to add a touch of retro charm to their Barbie-themed costume.
 </p>
@@ -492,6 +516,8 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
 <p style={paragraphStyle}>
   While the most famous Barbie is a blonde, the Barbie brand has come a long way, so don’t think you need to wear a wig like I did to fit the aesthetic! Explore a fresh twist on Barbiecore with Brunette Barbicore looks, or whatever your hair color may be, inspired by Barbie's evolving styles as seen in the recent Barbie movie. The Barbie movie aesthetic also pulls from ‘60s fashion, and the beachy styles were so much fun on the big screen. Try a chic polka-dot headband or a pink gingham print to become your own Barbie. Lucky for Barbie movie fans and enthusiasts, there are so many new Barbies with outfits pulled directly from the film that are worth collecting!
 </p>
+
+
 <div style={{ position: 'relative', display: 'inline-block' }}>
 <img 
     src={image5} 
@@ -519,6 +545,12 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <h2 style={heading2Style}>
   Watch My Take on The Barbie Movie Hairstyles Here:
 </h2>
@@ -577,6 +609,12 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <p style={paragraphStyle}>
@@ -639,6 +677,11 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <div style={{ position: 'relative', display: 'inline-block' }}>
 
 <img 
@@ -689,7 +732,11 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
   title="The Original Barbie Makeup and Retro Fashion Collection"
 />
 
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <p style={paragraphStyle}>
@@ -722,7 +769,22 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
      
      <Comments website-id={websiteId} page-id={"barbie-doll-bro"} />
     
-    
+     <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
   
     </div>
     

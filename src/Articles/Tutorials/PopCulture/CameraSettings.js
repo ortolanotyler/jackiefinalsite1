@@ -7,6 +7,8 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 import DropCap1 from '../../Travel/DropCap1';
 import SocialShare from '../../../Home/SocialShare';
 import EmailSubscribe from '../../../Components/EmailSubscribe';
+import DividerWithText from '../../../Home/DividerWithText';
+import AdSenseAd from '../../../Home/Adsense';
 
 
 
@@ -217,7 +219,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
    
       <DropCap1 text="Welcome back! Today, I’m sharing some of my top tips for capturing stunning photos on your phone. As someone who isn't a professional photographer and prefers simple, non-technical approaches, these tips are perfect for anyone who loves capturing soft, crisp, true-to-colour images that shine on Instagram." />
-      
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <p style={paragraphStyle}>
   The <a style={linkStyle} href="https://www.apple.com/iphone-13-pro/" target="_blank" rel="noreferrer">iPhone</a> is a powerhouse for mobile photography, and with a few simple tweaks to your camera settings, you can elevate your photos to a more professional level. Here are some of my favorite settings and tips to help you make the most out of your <a style={linkStyle} href="https://www.apple.com/iphone-13-pro/" target="_blank" rel="noreferrer">iPhone 13 Pro Max</a> camera. These tips also work great on newer models, proving you don’t need the latest phone to achieve amazing results. Throughout this guide, I have included some recent photos from traveling this summer, and you can view all my photos <a style={linkStyle} href="https://instagram.com/jackiewyers" target="blank" rel="noreferrer">@jackiewyers</a>.
@@ -230,6 +236,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
   Recent Photo shot on <a style={linkStyle} href="https://www.apple.com/iphone-13-pro/" target="_blank" rel="noreferrer">iPhone 13 Pro Max</a>
 </p>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 
@@ -278,6 +290,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   <img src={image7} alt="Elizabeth Bennet - Pride & Prejudice" style={{ width: '100%', maxWidth: '650px', margin: '0 auto' }} />
 </div>
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
   Example of subject directly in the center of the grid, with more space above the head and feet at the bottom of the image
 </p>
@@ -308,6 +326,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   <img src={image9} alt="Elizabeth Bennet - Pride & Prejudice" style={{ width: '100%', maxWidth: '650px', margin: '0 auto' }} />
 </div>
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
   <a style={linkStyle} href="https://www.canon.com/cameras/powershot-g7-x" target="_blank" rel="noreferrer">Canon G7x</a> with flash example
 </p>
@@ -337,7 +360,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <div style={gridContainerStyle}>
   <img src={image12} alt="Elizabeth Bennet - Pride & Prejudice" style={{ width: '100%', maxWidth: '650px', margin: '0 auto' }} />
 </div>
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <h2 style={headingStyle}>Optimize Your Lighting</h2>
@@ -357,6 +384,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   3. <span style={{ fontWeight: 'bold' }}>Golden Hour:</span> Take advantage of the soft, warm light during golden hour.
 </p>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <div style={gridContainerStyle}>
   <img src={image15} alt="Elizabeth Bennet - Pride & Prejudice" style={{ width: '100%', maxWidth: '650px', margin: '0 auto' }} />
@@ -379,7 +412,21 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
     <Comments website-id={websiteId} page-id={"Camera-Settings"} />
 
-
+    <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       
 
 
