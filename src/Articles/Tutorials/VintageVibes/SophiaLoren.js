@@ -118,7 +118,7 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
   <link rel="canonical" href="https://www.jackiewyers.beauty/sophialoren" />
 
   <meta name="description" content="An ode to Italian Glamour featuring a step-by-step guide to recreating Sophia Loren's iconic 60s makeup look from 'Arabesque.' Follow Jackie Wyers as she dives into vintage beauty with modern techniques." />
-  <meta name="keywords" content="Sophia Loren, Arabesque makeup tutorial, 60s vintage makeup, Italian beauty, Jackie Wyers tutorials, retro glamour, Sophia Loren iconic look, Sophia Loren eyeliner, bold cat-eye tutorial, Sophia Loren makeup secrets, Italian glamour makeup, vintage Hollywood beauty, classic makeup techniques, Sophia Loren hair tutorial, 1960s makeup guide, Sophia Loren dramatic lashes, old Hollywood makeup, timeless beauty icons, Sophia Loren Arabesque style, beauty influencer tutorials, Jackie Wyers beauty blog, retro chic makeup, Sophia Loren signature look, makeup for olive skin, bold eyeliner, Sophia Loren smokey eye, Sophia Loren nude lips, retro hair and makeup, glamorous Italian style, Sophia Loren transformation, Hollywood beauty icons, Sophia Loren inspired products, vintage beauty tips, Sophia Loren time travel tutorial" />
+  <meta name="keywords" content="Sophia Loren Makeup , Sophia Loren, Arabesque makeup tutorial, 60s vintage makeup, Italian beauty, Jackie Wyers tutorials, retro glamour, Sophia Loren iconic look, Sophia Loren eyeliner, bold cat-eye tutorial, Sophia Loren makeup secrets, Italian glamour makeup, vintage Hollywood beauty, classic makeup techniques, Sophia Loren hair tutorial, 1960s makeup guide, Sophia Loren dramatic lashes, old Hollywood makeup, timeless beauty icons, Sophia Loren Arabesque style, beauty influencer tutorials, Jackie Wyers beauty blog, retro chic makeup, Sophia Loren signature look, makeup for olive skin, bold eyeliner, Sophia Loren smokey eye, Sophia Loren nude lips, retro hair and makeup, glamorous Italian style, Sophia Loren transformation, Hollywood beauty icons, Sophia Loren inspired products, vintage beauty tips, Sophia Loren time travel tutorial" />
   <meta property="og:title" content="Sophia Loren Makeup Tutorial - Jackie Wyers" />
   <meta property="og:description" content="Explore Jackie Wyers' Sophia Loren makeup tutorial, recreating the iconic '60s look with modern products. Follow along for a step-by-step guide." />
   <meta property="og:image"content="https://www.jackiewyers.beauty/Images/Articles/SophiaLoren/SophiaLorenThumbnail.jpeg" />
@@ -194,7 +194,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <DropCap1 text="Welcome back to my favorite series, Time Travel Tutorials, where we delve into the glamorous world of beauty icons from the past. Today's spotlight is on the mesmerizing Italian beauty, Sophia Loren. Born on September 20th, 1934, in Rome, Italy, Sophia Loren is a megastar in both Hollywood and Italian cinema. Her career, spanning over six decades, is a testament to her immense talent, charisma, and iconic makeup style, which continues to inspire admiration (and imitation) today." />
       
-      
+      <DividerWithText  text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
      
 <p style={paragraphStyle}>
   In this tutorial, we'll explore a timeless look inspired by her iconic pink towel scene in "<a href="https://www.imdb.com/title/tt0060758/" target="_blank" rel="noopener noreferrer" style={linkStyle}>Arabesque</a>." My goal is to inspire you with the best modern products that capture the vintage charm of Loren's era, making it possible for you to recreate this look. If you decide to give this tutorial a try, please be sure to tag me or send a photo to be featured on the blog! I'd love to see you in this glamorous style.
@@ -227,7 +231,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/495255?noHeader=true" title="Foundation Choices" />
 
-     
+      <DividerWithText  text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
        
 <p style={paragraphStyle}>
   For primer, I opted for the <a href="https://www.giorgioarmanibeauty-usa.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Armani Beauty Luminous Silk Hydrating Primer</a>, (my favorite Italian brand) followed by <a href="https://www.rarebeauty.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Rare Beauty’s Serum foundation</a> to even out the tan while offering lighter coverage, mirroring Loren's sun-kissed skin. I highlighted my chin and jawline with <a href="https://www.maybelline.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Maybelline's Age Rewind Concealer</a>, focusing on the center of my face and cheekbones to really make the center of the face pop.
@@ -239,7 +247,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/495258?noHeader=true" title="Sculpting Products" />
-
+      <DividerWithText  text = "Ad"/>
+    
     
        
       <h2 style={headingStyle}>Old Hollywood Matte & Powdered Skin Finish</h2>
@@ -264,7 +273,10 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   Select a deep neutral palette, with grays, browns, and taupes. I selected the <a href="https://www.dior.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Dior 5 Couleurs Couture Eyeshadow Palette (649 Nude Dress)</a> and while some photos of Sophia’s signature eye look feature a charcoal gray (a deep, dark shade of gray close to black), in the "<a href="https://www.imdb.com/title/tt0060758/" target="_blank" rel="noopener noreferrer" style={linkStyle}>Arabesque</a>" scenes, it appeared more like a taupe (a warmer neutral, more of a gray-brown) through the lens.
 </p>
-
+<div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
   I took a rich taupe shadow smoked up from the lash line, softening the edges with a lighter shimmery taupe into the crease. Don’t forget to brighten up the brow bone to highlight the arched brow.
 </p>
@@ -288,7 +300,10 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/495280?noHeader=true" title="Lip and Cheek Products" />
-
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>Nude Lips</h2>
       <p style={paragraphStyle}>
   While peach lipsticks were often seen on screen, some behind-the-scenes photos show a more nude style, as well as the second "<a href="https://www.imdb.com/title/tt0060758/" target="_blank" rel="noopener noreferrer" style={linkStyle}>Arabesque</a>" look covered below. <a href="https://www.toofaced.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Too Faced Milkshake gloss</a> is a great option for this.
@@ -305,7 +320,10 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   Whether you're a fan of Sophia Loren, a lover of the '60s, or just in search of some beauty inspiration, I hope you found this guide inspiring. Join me in celebrating the eternal elegance of Sophia Loren, and I can’t wait to create another Time Travel Tutorial for you.
 </p>
-
+<div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
   Want to be featured on my site? Submit your recreation or version of this look to me on Insta! I’d love to see you switch up your style with confidence!
 </p>
@@ -335,6 +353,18 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </div>
 
       <Comments website-id={websiteId} page-id={"Sophia-Loren"} />
+      <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     </div>
   );
 
