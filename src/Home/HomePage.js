@@ -174,19 +174,29 @@ function HomePage() {
         
         <SixGridComponent />
 
-        
+        <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
         <TextBanner2 text="VINTAGE VIBES" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
         
         <VintageVibesCards />
 
     
-
+        <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
         <TextBanner2 text="SHOP MY STYLE" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
         
         <MyStyleSlider1 />
+
+        
 
       </Box>
    

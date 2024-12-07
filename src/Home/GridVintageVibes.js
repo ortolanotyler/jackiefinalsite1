@@ -6,7 +6,7 @@ import AdSenseAd from './Adsense';
 
 const VintageVibesCards = () => {
   return (
-    <Box sx={{ width: '85%', padding: '1rem', backgroundColor: 'white' , margin: '5px auto'}}>
+    <Box sx={{ width: '85%', padding: '10px', backgroundColor: 'white' , margin: '5px auto'}}>
       <Grid container spacing={1} justifyContent="center">
         {/* First Row */}
         <Grid item xs={12} sm={6} md={6} lg={4}>
