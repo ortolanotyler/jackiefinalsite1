@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
-import { Box, IconButton, Typography } from '@mui/material';
+import { Box, Grid, IconButton, Typography } from '@mui/material';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
 import './NewsletterSlider.module.css'; // Ensure this file exists
-import HorizontalLine from '../Components/HorizontalLine';
 import EmailSubscribe from '../Components/EmailSubscribe';
+import DividerWithText from './DividerWithText';
 
 const images = [
-    
   `${process.env.PUBLIC_URL}/Images/Newsletter23A.webp`,
   `${process.env.PUBLIC_URL}/Images/Newsletter23B.webp`,
-  
   `${process.env.PUBLIC_URL}/Images/Newsletter21A.webp`,
   `${process.env.PUBLIC_URL}/Images/Newsletter21B.webp`,
   `${process.env.PUBLIC_URL}/Images/Newsletter21C.webp`,
@@ -30,8 +28,6 @@ const images = [
   `${process.env.PUBLIC_URL}/Images/7.png`,
   `${process.env.PUBLIC_URL}/Images/8.png`,
   `${process.env.PUBLIC_URL}/Images/9.png`,
-
-
 ];
 
 const NewsletterSlider = () => {
@@ -47,75 +43,67 @@ const NewsletterSlider = () => {
 
   return (
     <React.Fragment>
-           {/* Typography below the slider */}
-           <Typography 
-        variant="h2" 
-        align="center" 
-        sx={{ 
-          
-     
-          fontFamily: 'Playfair Display, serif', 
+      <Typography
+        variant="h2"
+        align="center"
+        sx={{
+          fontFamily: 'Playfair Display, serif',
           margin: '1rem',
-          padding: '0',
-          maxWidth: '100%',
-          color: '#000000', 
+          color: '#000000',
         }}
       >
         Sign up for the weekly newsletter!
-      
       </Typography>
 
-   
+      <Grid container spacing={3} sx={{ margin: '1rem auto', maxWidth: '900px' }}>
+        <Grid item xs={12} sm={6}>
+          <Box
+            className="sliderContainer"
+            sx={{
+              position: 'relative',
+              width: '90%',
+              maxWidth: '400px',
+              height: 'auto',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              margin: '0 auto',
+            }}
+          >
+            <img
+              src={images[currentIndex]}
+              alt={`Slide ${currentIndex + 1}`}
+              className="sliderImage"
+              style={{
+                width: '100%',
+                borderRadius: '5px',
+                objectFit: 'cover',
+              }}
+            />
 
-      <EmailSubscribe />
-     
-      <HorizontalLine/>
-      <Box 
-        className="sliderContainer" 
-        sx={{ 
-          position: 'relative', 
-        
-          width: '100%', 
-          maxWidth: '500px', 
-          height: 'auto', 
-          display: 'flex', 
-          alignItems: 'center', 
-          justifyContent: 'center',
-          margin: '1rem auto', // Centering the Box within its container
-          
-        }}
-      >
-        <img
-          src={images[currentIndex]}
-          alt={`Slide ${currentIndex + 1}`}
-          className="sliderImage"
-          style={{
-            width: '100%',
-            maxWidth: '550px',
-            height: 'auto',
-            borderRadius: '5px',
-            objectFit: 'cover',
-          }}
-        />
+            <IconButton
+              className="prevButton"
+              sx={{ position: 'absolute', top: '50%', left: '10px', transform: 'translateY(-50%)', color: 'black' }}
+              onClick={handlePrevClick}
+            >
+              <ArrowBack />
+            </IconButton>
+            <IconButton
+              className="nextButton"
+              sx={{ position: 'absolute', top: '50%', right: '10px', transform: 'translateY(-50%)', color: 'black' }}
+              onClick={handleNextClick}
+            >
+              <ArrowForward />
+            </IconButton>
+          </Box>
+        </Grid>
 
-        <IconButton
-          className="prevButton"
-          sx={{ position: 'absolute', top: '50%', left: '10px', transform: 'translateY(-50%)', color: 'black' }}
-          onClick={handlePrevClick}
-        >
-          <ArrowBack />
-        </IconButton>
-        <IconButton
-          className="nextButton"
-          sx={{ position: 'absolute', top: '50%', right: '10px', transform: 'translateY(-50%)', color: 'black' }}
-          onClick={handleNextClick}
-        >
-          <ArrowForward />
-        </IconButton>
-      </Box>
-      <HorizontalLine/>
+        <Grid item xs={12} sm={6}>
+          <EmailSubscribe />
+        </Grid>
+      </Grid>
 
- 
+      <DividerWithText text="Weekly Newsletter" />
     </React.Fragment>
   );
 };
