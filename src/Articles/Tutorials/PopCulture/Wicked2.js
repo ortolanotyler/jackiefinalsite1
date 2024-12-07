@@ -6,6 +6,8 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import AdSenseAd from '../../../Home/Adsense';
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
 const next = `${process.env.PUBLIC_URL}/Images/Articles/Homepage/HalloweenThumb.webp`;

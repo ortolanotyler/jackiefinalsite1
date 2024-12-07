@@ -8,6 +8,8 @@ import { Helmet } from 'react-helmet-async';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import AdSenseAd from '../../../Home/Adsense';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VSTitle.png`;
 const Victoria2 = `${process.env.PUBLIC_URL}/Images/Articles/VictoriaSecret2014/VictoriaDouble.png`;
@@ -343,6 +345,13 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
         Echoing the 2013 show's "birds of a feather" theme, I crafted angel wings from paper cutouts and floral wire. Would be a fun idea for a Halloween costume! A shimmering body cream or oil will complete your supermodel glow.
       </p>
+
+      <DividerWithText text="Ad" > </DividerWithText>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
+
+<DividerWithText text="Ad" > </DividerWithText>
       
       <h2 style={headingStyle}>The Iconic Pink Robes & A 2014 Tumblr Girl Gift Guide</h2>
       <p style={paragraphStyle}>
@@ -361,6 +370,26 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <img src={Signature} alt='xoxo - Jackie Wyers' style={{ width: '100%' }} />
       
       <Comments website-id={websiteId} page-id={"Victoria-Secret-Review"} />
+      <DividerWithText text="Ad" > </DividerWithText>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
+
+<DividerWithText text="Ad" > </DividerWithText>
+
+<DividerWithText text="Ad" > </DividerWithText>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
+
+<DividerWithText text="Ad" > </DividerWithText>
+<DividerWithText text="Ad" > </DividerWithText>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
+
+<DividerWithText text="Ad" > </DividerWithText>
+
     </div>
   );
 
