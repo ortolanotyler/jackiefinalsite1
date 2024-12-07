@@ -10,15 +10,85 @@ import DividerWithText from "../Home/DividerWithText";
 const Quiz2Homepage = () => {
   return (
     <Box sx={{ width: "100%", backgroundColor: "#ffffff", transform: "translateZ(0)", margin: '0 auto' }}>
-      <Helmet>
-        <title>Jackie Wyers' Animal Pretty Quiz and More!</title>
-        <meta
-          name="description"
-          content="It started with the legendary Animal Pretty Calculator, with more quizzes being added every week!"
-        />
-        <meta name="keywords" content="beauty quiz, animal pretty, Jackie Wyers, makeup quiz" />
-      </Helmet>
-   
+  <Helmet>
+  <title>What Type of Pretty Are You? Animal Edition!</title>
+  <link rel="canonical" href="https://www.jackiewyers.beauty/animal-pretty-quiz" />
+
+  <meta 
+    name="description" 
+    content="Explore the legendary Animal Pretty Calculator and find out what type of pretty you are, with fun new quizzes added weekly by Jackie Wyers!" 
+  />
+  <meta 
+    name="keywords" 
+    content="beauty quiz, animal pretty calculator, makeup quiz, Jackie Wyers quizzes, trending beauty quizzes, personality quiz, animal pretty type, fun beauty quizzes 2024, Jackie Wyers animal edition, makeup personality test, beauty personality quiz, creative quizzes, viral quizzes 2024" 
+  />
+
+  {/* Open Graph Meta Tags */}
+  <meta property="og:title" content="What Type of Pretty Are You? Animal Edition!" />
+  <meta 
+    property="og:description" 
+    content="Explore the legendary Animal Pretty Calculator and find out what type of pretty you are, with fun new quizzes added weekly by Jackie Wyers!" 
+  />
+  <meta 
+    property="og:image" 
+    content="https://www.jackiewyers.beauty/Images/Quizzes/AnimalPrettyQuizThumbnail.jpg" 
+  />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/animal-pretty-quiz" />
+  <meta property="og:type" content="article" />
+
+  {/* Twitter Meta Tags */}
+  <meta name="twitter:title" content="What Type of Pretty Are You? Animal Edition!" />
+  <meta 
+    name="twitter:description" 
+    content="Explore the legendary Animal Pretty Calculator and find out what type of pretty you are, with fun new quizzes added weekly by Jackie Wyers!" 
+  />
+  <meta 
+    name="twitter:image" 
+    content="https://www.jackiewyers.beauty/Images/Quizzes/AnimalPrettyQuizThumbnail.jpg" 
+  />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "What Type of Pretty Are You? Animal Edition!",
+        "description": "Explore the legendary Animal Pretty Calculator and find out what type of pretty you are, with fun new quizzes added weekly by Jackie Wyers!",
+        "image": "https://www.jackiewyers.beauty/Images/Quizzes/AnimalPrettyQuizThumbnail.jpg",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.jackiewyers.beauty/logo.png"
+          }
+        },
+        "datePublished": "2024-12-06",
+        "dateModified": "2024-12-06",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.jackiewyers.beauty/animal-pretty-quiz"
+        }
+      }
+    `}
+  </script>
+
+  {/* Google Analytics */}
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RT6GR7JXYG', { page_path: window.location.pathname });
+    `}
+  </script>
+</Helmet>
 
    
         {/* Quiz Content */}

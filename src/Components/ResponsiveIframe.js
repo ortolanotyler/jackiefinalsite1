@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 
-const ResponsiveIframe = ({ src, title }) => {
+const ResponsiveIframe = ({ src, title,  }) => {
   const [isVisible, setIsVisible] = useState(false);
   const iframeRef = useRef(null);
 
@@ -34,7 +34,8 @@ const ResponsiveIframe = ({ src, title }) => {
   const containerStyle = {
     position: 'relative',
     width: '100%',
-    height: '500px',
+    minHeight: '500px',
+ 
     overflow: 'hidden', // Prevent scrolling
     paddingTop: isVisible ? '0' : '56.25%', // Aspect ratio 16:9
   };
@@ -45,6 +46,8 @@ const ResponsiveIframe = ({ src, title }) => {
     left: 0,
     width: '100%',
     minHeight: '500px',
+    maxHeight: '100vh',
+    height: '',
     border: 'none', // Remove border
     overflow: 'hidden', // Ensure no scrolling
   };

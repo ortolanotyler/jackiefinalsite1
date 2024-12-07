@@ -119,18 +119,20 @@ function HomePage() {
      
       
         
-    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 0 }}>
+    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, padding: 0 }}>
 
       <Quiz2 />
-    </Box>
-
-    <DividerWithText text="Ad"/>
+      <DividerWithText text="Ad"/>
 
 
-    <div className="ad-container">
-  <AdSenseAd />
+<div className="ad-container">
+<AdSenseAd />
 </div>
 <DividerWithText text ="Ad"/>
+
+
+
+    </Box>
 
 
 
