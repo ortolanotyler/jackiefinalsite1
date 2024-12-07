@@ -184,6 +184,13 @@ textAlign: 'center',
   allowFullScreen
 ></iframe>
 </div>
+
+<DividerWithText text="Ad" > </DividerWithText>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
+
+<DividerWithText text="Ad" > </DividerWithText>
             <h2 style={headingStyle}>Apparel Fit for the Land of Oz</h2>
 
             <h3 style={headingStyle}>Roots Cardigan</h3>
@@ -209,6 +216,13 @@ textAlign: 'center',
               title="Camilla's Collection"
               style={{ width: '100%', minHeight: '340px', border: 'none' }}
             />
+
+<DividerWithText text="Ad" > </DividerWithText>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
+
+<DividerWithText text="Ad" > </DividerWithText>
 
             <h2 style={headingStyle}>Magical Makeup & Skincare</h2>
 
@@ -242,6 +256,13 @@ textAlign: 'center',
   allowFullScreen
 ></iframe>
 </div>
+
+<DividerWithText text="Ad" > </DividerWithText>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
+
+<DividerWithText text="Ad" > </DividerWithText>
             <h2 style={headingStyle}>Purses & Bags for Every Oz Lover</h2>
         
         <h3 style={headingStyle}>Cambridge Satchel Glinda Bag</h3>
@@ -290,6 +311,13 @@ textAlign: 'center',
           title="Rebecca Minkoff Wicked Collection"
           style={{ width: '100%', minHeight: '340px', border: 'none' }}
         />
+
+<DividerWithText text="Ad" > </DividerWithText>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
+
+<DividerWithText text="Ad" > </DividerWithText>
         
         <h3 style={headingStyle}>Loungefly x Wicked Glinda’s Luggage Trunk Crossbody Bag</h3>
         <p style={paragraphStyle}>
@@ -338,7 +366,12 @@ textAlign: 'center',
           style={{ width: '100%', minHeight: '340px', border: 'none' }}
         />
                
+               <DividerWithText text="Ad" > </DividerWithText>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
 
+<DividerWithText text="Ad" > </DividerWithText>
         <h3 style={headingStyle}>Mattel’s Wicked Dolls</h3>
         <p style={paragraphStyle}>
           The Mattel dolls capture the magic of Wicked with beautiful detailing, especially in the dresses. If you’re a doll collector, these are must-haves.
@@ -410,6 +443,12 @@ textAlign: 'center',
           style={{ width: '100%', minHeight: '340px', border: 'none' }}
         />
         
+        <DividerWithText text="Ad" > </DividerWithText>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
+
+<DividerWithText text="Ad" > </DividerWithText>
         <h3 style={headingStyle}>Aldo Pink Bow Heels</h3>
         <p style={paragraphStyle}>
           A classic nude pink heel that will complement many outfits with a touch of Glinda flair.
@@ -511,7 +550,30 @@ This list updates constantly , check out my favorite Wicked Collaboration Items 
 <img src={signature} alt="jackie wyers end of article signature" style={{ width: '100%' }} />
 
 <Comments website-id={websiteId} page-id="wicked2" />
+<DividerWithText text="Ad" > </DividerWithText>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
 
+<DividerWithText text="Ad" > </DividerWithText>
+<DividerWithText text="Ad" > </DividerWithText>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
+
+<DividerWithText text="Ad" > </DividerWithText>
+<DividerWithText text="Ad" > </DividerWithText>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
+
+<DividerWithText text="Ad" > </DividerWithText>
+<DividerWithText text="Ad" > </DividerWithText>
+<div className="ad-container">
+  <AdSenseAd />
+</div>
+
+<DividerWithText text="Ad" > </DividerWithText>
 </div>
 </div>
 </div>
