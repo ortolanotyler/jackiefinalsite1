@@ -1,6 +1,8 @@
 import React from 'react';
 import { Grid, Box } from '@mui/material';
 import HeroSection2a from './HeroSection2a';
+import DividerWithText from './DividerWithText';
+import AdSenseAd from './Adsense';
 
 
 
@@ -71,6 +73,12 @@ const FeaturedGrid6 = () => {
             />
           </Box>
         </Grid>
+         
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
         <Grid item xs={12} sm={6} md={6} lg={4}>
           <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <HeroSection2a
@@ -82,7 +90,15 @@ const FeaturedGrid6 = () => {
             />
           </Box>
         </Grid>
+         
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       </Grid>
+
+
     </Box>
 
      

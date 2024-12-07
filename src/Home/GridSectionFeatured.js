@@ -1,6 +1,8 @@
 import React from 'react';
 import { Grid, Box } from '@mui/material';
 import HeroSection2a from './HeroSection2a'; // Importing HeroSection2a format
+import DividerWithText from './DividerWithText';
+import AdSenseAd from './Adsense';
 
 const FeaturedGrid6 = () => {
   return (
@@ -83,7 +85,12 @@ const FeaturedGrid6 = () => {
           </Box>
         </Grid>
 
-   
+    
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
        
       
@@ -101,7 +108,12 @@ const FeaturedGrid6 = () => {
           </Box>
         </Grid>
 
-     
+      
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
      
       </Grid>

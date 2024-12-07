@@ -112,7 +112,7 @@ function HomePage() {
 
        
 
-        <TextBanner2 text="FEATURED"  margin='0 0.15rem' height="100px" width="100%"  />
+        <TextBanner2 text="FEATURED"  margin='0 0.15rem' height="50px" width="100%"  />
   
         <DividerWithText text="🐈‍⬛🦌"/>
 
@@ -161,14 +161,13 @@ function HomePage() {
         
         <FeaturedGrid6 />
 
-
-        <NewsletterSlider />
-
-<DividerWithText text = "Ad"/>
-        <div className="ad-container">
-  <AdSenseAd />
+<div style = {{
+  margin: '1rem'
+}}>
+  <NewsletterSlider />
 </div>
-<DividerWithText text = "Ad"/>
+      
+
 
 
         <TextBanner2 text="TRAVEL" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
@@ -181,13 +180,7 @@ function HomePage() {
         
         <VintageVibesCards />
 
-        <DividerWithText text = "Ad"/>
-
-        <div className="ad-container">
-  <AdSenseAd />
-</div>
-
-<DividerWithText text ="Ad"/>
+    
 
 
 
@@ -196,11 +189,7 @@ function HomePage() {
         <MyStyleSlider1 />
 
       </Box>
-      <DividerWithText text = "Ad"/>
-        <div className="ad-container">
-  <AdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
+   
 
 </Box>
 
