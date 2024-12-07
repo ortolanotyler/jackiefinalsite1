@@ -2,10 +2,12 @@
 
 .adContainer {
     text-align: center;
-    margin: 0 auto;
+    margin: 1rem ;
     background-color: #ffffff;
   }
   
   .adBlock {
+    margin: 1rem;
+
     display: block;
   }
