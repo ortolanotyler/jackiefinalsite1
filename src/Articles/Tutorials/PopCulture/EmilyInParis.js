@@ -279,7 +279,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 
 
-      
+
 <p style={paragraphStyle}>Season two continued to push the boundaries of Emily’s fashion and beauty looks, with some of my personal favorite hair moments defining this season. The wearable pretty ponytails and intricate updos to go with Emily’s bold style giving major hair inspiration.</p>
 
 <p style={paragraphStyle}>One of my all-time favorite behind the scenes shots from shooting season two is Emily strutting through the streets of Paris in knee-high brown boots and a bucket hat, reminiscent of her iconic checkered look from season one. While her neon yellow-accented floral jacket was a bit bold for my taste, I toned it down in my recreation and finished the look with a deep red lip like Emily.</p>

@@ -277,9 +277,7 @@ down all the makeup, hair, and outfit details.
 
 <h2 style = {headingStyle}>
 ✨ Margot Robbie as Barbie
-–
-‘Barbie
-Movie’ 👱
+–‘Barbie Movie’ 👱
 </h2>
 
 <div style={gridContainerStyle}>
