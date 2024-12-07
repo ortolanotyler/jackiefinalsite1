@@ -8,6 +8,7 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import AdSenseAd from '../../../Home/Adsense';
+import DividerWithText from '../../../Home/DividerWithText';
 
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
@@ -497,7 +498,25 @@ below.
       
       <Comments website-id={websiteId} page-id={"wicked22-65fizz"} />
       
-     
+      <DividerWithText  text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
+
+
     </div>
   );
 

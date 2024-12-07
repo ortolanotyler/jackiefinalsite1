@@ -7,6 +7,8 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
+import DividerWithText from '../../../Home/DividerWithText';
+import AdSenseAd from '../../../Home/Adsense';
 
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
@@ -279,11 +281,20 @@ green skin!
   If you are not going to paint the skin green, go ahead and add your favorite brightening concealer on the high points of the face, contour with an ashy tone and feel free to make it a bit bolder and sharper than usual - it is Halloween!
 </p>
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+
 <p style={paragraphStyle}>
   Set with powder and so Elphaba’s look contrasts with Glinda’s softer features, so we’re sharpening the brows with a high arch and a more defined nose bridge for a fierce look. I’m wearing a black wig so I took the brows extra dark.
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/870241?noHeader=true" style={{width: "100%", minHeight: "1200px", border: "none"}}></ResponsiveIframe>
+
+
 <p style={paragraphStyle}>
   Step 2: Wickedly Dramatic Eyes 👁 ✨
 </p>
@@ -341,6 +352,13 @@ green skin!
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 <h2 style={headingStyle}>
   💚 How To Paint Yourself Green 💚
 </h2>
@@ -391,6 +409,12 @@ Wicked.
   Since this was my first time using green paint for a full Elphaba transformation, I decided to film the look without the green skin initially and test out the paint at the end. 
   The application was fairly easy using a damp beauty sponge. While blending around the neck and cheeks was a breeze, getting into the contours of the nose, brows, and hairline was trickier—especially with the rest of the makeup already in place.
 </p>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 
 <p style={paragraphStyle}>
   To make things easier for yourself, I recommend applying the green paint after foundation if you’re going for the full green look! Don’t forget to bring back in the contours with deeper greens and a purply cheek contour similar to the broadway show so the makeup doesn’t appear flat. Final tip, since the paint is water-activated, it can remove the paint as well. Don’t use a setting spray that has water droplets as it can leave marks in the green complexion.
@@ -452,6 +476,11 @@ Target x Wicked iconic cardigan, I love the Aerie line and have listed some of m
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/870292?noHeader=true" style={{width: "100%", minHeight: "1200px", border: "none"}}></ResponsiveIframe>
 
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 
@@ -468,6 +497,24 @@ Target x Wicked iconic cardigan, I love the Aerie line and have listed some of m
       </div>
       
       <Comments website-id={websiteId} page-id={"wickedstrizzmonbiiiiiiiizzzzz-65fizz"} />
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
    
     </div>
   );

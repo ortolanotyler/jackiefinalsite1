@@ -7,6 +7,7 @@ import SubscribeVlog from '../../Components/SubscribeVlog';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 import AdSenseAd from '../../Home/Adsense';
+import DividerWithText from '../../Home/DividerWithText';
 
 
 
@@ -236,17 +237,27 @@ fontStyle: 'italic',
             </p>
 
            
-           <div style = {{
-            margin: '1rem auto',
-            maxwidth: '95%',
-           }}>
-            <DropCap1 text="Welcome back as we reminisce about the stunning Andaz Maui at Wailea Resort in Hawaii. This trip not only showcased pristine beaches and exquisite hotel amenities but also created unforgettable memories with my best friend Lauren and the amazing team from Benefit Cosmetics Canada." />
-      </div>
-      
        
-      <div className="ad-container">
+            <DropCap1 text="Welcome back as we reminisce about the stunning Andaz Maui at Wailea Resort in Hawaii. This trip not only showcased pristine beaches and exquisite hotel amenities but also created unforgettable memories with my best friend Lauren and the amazing team from Benefit Cosmetics Canada." />
+   
+
+      <DividerWithText text = "Ad"/>
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
   <AdSenseAd />
 </div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+
+      
+       
+    <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
           
             <h2 style={headingStyle}>🌴 First Impressions and Ambiance</h2>
             <p style={paragraphStyle}>
@@ -268,9 +279,12 @@ fontStyle: 'italic',
                 <img src={images[1]} alt="Maui room 1" style={imageStyle} />
                 <img src={images[2]} alt="Maui room 2" style={imageStyle} />
             </div>
-            <div className="ad-container">
+          <DividerWithText text = "Ad"/>
+        <div className="ad-container">
   <AdSenseAd />
 </div>
+<DividerWithText text = "Ad"/>
+
             <h2 style={headingStyle}>🌞 Room Options and Accessibility</h2>
             <p style={paragraphStyle}>
     In terms of accommodations, the Andaz Maui at Wailea Resort offers a variety of choices. Lauren and I enjoyed the comfort of a standard guest room which boasted stunning ocean and pool views from a spacious balcony. (We brought Scrump from <a href="https://disneyplus.com/movies/lilo-stitch/4sSNfChjX26G" style={linkStyle} target="_blank" rel="noopener noreferrer">Lilo & Stitch</a> along for the trip 😆). For those seeking more space and luxury, the resort also offers expansive suites equipped with additional living areas and enhanced amenities. Private villas are available for guests who desire ultimate privacy and exclusivity, complete with personalized services.
@@ -294,9 +308,12 @@ fontStyle: 'italic',
                 <img src={images[6]} alt="Maui market" style={imageStyle} />
                 <img src={images[7]} alt="Maui market 2" style={imageStyle} />
             </div>
-            <div className="ad-container">
+          <DividerWithText text = "Ad"/>
+        <div className="ad-container">
   <AdSenseAd />
 </div>
+<DividerWithText text = "Ad"/>
+
             <p style={paragraphStyle}>
     While the buffet breakfast costs approximately $49 for adults and $24.50 for children, more economical choices like the <a href="https://www.hyatt.com/en-US/hotel/hawaii/andaz-maui-at-wailea-resort/oggaw/dining" style={linkStyle} target="_blank" rel="noopener noreferrer">Mokapu Market</a> are available for lighter eats or snacks. Lauren and I went to this market daily for ice cream!
 </p>
@@ -340,9 +357,12 @@ fontStyle: 'italic',
                 <img src={images[18]} alt="Maui view 3" style={imageStyle} />
                 <img src={images[19]} alt="Maui view 4" style={imageStyle} />
             </div>
-            <div className="ad-container">
+          <DividerWithText text = "Ad"/>
+        <div className="ad-container">
   <AdSenseAd />
 </div>
+<DividerWithText text = "Ad"/>
+
             <p style={paragraphStyle}>
     The resort features 36 holes of <a href="https://www.golfwailea.com/" style={linkStyle} target="_blank" rel="noopener noreferrer">golf</a>, two vibrant poolside bars, and four onsite restaurants. Indulge in self-care at the <a href="https://www.andazmaui.com/experiences/spa" style={linkStyle} target="_blank" rel="noopener noreferrer">Awili Spa and Salon</a> with treatments from facials to body scrubs. Lauren & I preferred to stay outdoors, but we did love shopping for beauty products at the spa.
 </p>
@@ -356,9 +376,12 @@ fontStyle: 'italic',
                 <img src={images[22]} alt="Maui view 8" style={imageStyle} />
                 <img src={images[23]} alt="Maui view 8" style={imageStyle} />
             </div>
-            <div className="ad-container">
+          <DividerWithText text = "Ad"/>
+        <div className="ad-container">
   <AdSenseAd />
 </div>
+<DividerWithText text = "Ad"/>
+
             <h2 style={headingStyle}>🍹 Final Thoughts and Recommendations</h2>
             <p style={paragraphStyle}>
     As we soaked in the sun and enjoyed the outdoor activities at the Andaz Maui, we also recognized the broader conversations surrounding <a href="https://www.hawaiimagazine.com/a-better-way-to-visit-how-to-travel-responsibly-to-hawaii/" style={linkStyle} target="_blank" rel="noopener noreferrer">tourism in Hawaii</a>. Traveling here has become a topic of ethical discussion due to its effects on the indigenous population and the environment. While the beauty and allure of Maui are undeniable, it is essential to consider these impacts as part of a responsible travel approach.
