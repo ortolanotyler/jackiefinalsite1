@@ -16,11 +16,11 @@ const Quiz2Homepage = () => {
 
   <meta 
     name="description" 
-    content="Explore the legendary Animal Pretty Calculator and find out what type of pretty you are, with fun new quizzes added weekly by Jackie Wyers!" 
+    content="Explore the legendary Animal Pretty Quiz and find out what type of pretty you are, with fun new quizzes added weekly by Jackie Wyers!" 
   />
   <meta 
     name="keywords" 
-    content="beauty quiz, animal pretty calculator, makeup quiz, Jackie Wyers quizzes, trending beauty quizzes, personality quiz, animal pretty type, fun beauty quizzes 2024, Jackie Wyers animal edition, makeup personality test, beauty personality quiz, creative quizzes, viral quizzes 2024" 
+    content="what animal pretty am i, what animal pretty, animal pretty quiz, animal beauty quiz, animal pretty face, beauty quiz, animal pretty calculator, makeup quiz, Jackie Wyers quizzes, trending beauty quizzes, personality quiz, animal pretty type, fun beauty quizzes 2024, Jackie Wyers animal edition, makeup personality test, beauty personality quiz, creative quizzes, viral quizzes 2024" 
   />
 
   {/* Open Graph Meta Tags */}
@@ -31,7 +31,7 @@ const Quiz2Homepage = () => {
   />
   <meta 
     property="og:image" 
-    content="https://www.jackiewyers.beauty/Images/Quizzes/AnimalPrettyQuizThumbnail.jpg" 
+    content="https://www.jackiewyers.beauty/Images/.jpg" 
   />
   <meta property="og:url" content="https://www.jackiewyers.beauty/animal-pretty-quiz" />
   <meta property="og:type" content="article" />
@@ -44,7 +44,7 @@ const Quiz2Homepage = () => {
   />
   <meta 
     name="twitter:image" 
-    content="https://www.jackiewyers.beauty/Images/Quizzes/AnimalPrettyQuizThumbnail.jpg" 
+    content="https://www.jackiewyers.beauty/logo.png" 
   />
   <meta name="twitter:card" content="summary_large_image" />
 

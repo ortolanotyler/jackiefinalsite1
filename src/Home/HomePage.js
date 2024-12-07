@@ -145,16 +145,16 @@ function HomePage() {
 
 
  
-<DividerWithText text = "Ad"/>
-        <div className="ad-container">
-  <AdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
 
 
   
 
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, padding: 0, mt: 1 }}>
+    <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <TextBanner2 text="NEW & POPULAR"  margin='0 0.15rem' height="100px" width="100%"  />
