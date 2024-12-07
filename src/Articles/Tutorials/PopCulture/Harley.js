@@ -8,6 +8,8 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import AdSenseAd from '../../../Home/Adsense';
 
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/HarleyQuinn/Harley1.jpg`;
@@ -192,6 +194,13 @@ const HarleyQuinnEvolution = () => {
         <DropCap1
           text="Hey, puddin’! Welcome back for another deep dive into one of the most iconic character makeup looks in pop culture history. Margot Robbie as Harley Quinn is one of DC Comics' best casting choices, and Harley Quinn costumes have become a staple every Halloween."
         />
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
       
 
       <p style={paragraphStyle}>
@@ -262,6 +271,7 @@ I’ve linked the entire collection above to shop, and now, let’s travel back 
 </p>
 
 
+
 <ResponsiveIframe 
   src="https://shopmy.us/collections/public/1057263?noHeader=true" 
   title="Shop the Entire SheGlam Collection" 
@@ -269,6 +279,11 @@ I’ve linked the entire collection above to shop, and now, let’s travel back 
 />
 
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 
@@ -326,6 +341,13 @@ I’ve linked the entire collection above to shop, and now, let’s travel back 
   When Margot Robbie pitched <em>Birds of Prey</em>, she wanted a more feminist take on Harley Quinn—one that highlighted her independence away from the Joker. Costume designer Erin Benach, makeup department head Deborah LaMia Denaver, and hairstylist Adruitha Lee embraced this vision, reimagining Harley’s style with a bold, quirky twist.
 </p>
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+
 <p style={paragraphStyle}>
   Gone was the overtly sexy look of <em>Suicide Squad</em>, replaced with spunky pigtails, choppy bangs, and edgy fashion pieces full of personality. Think pink and gold hues, and DIY elements like her now-iconic caution tape jacket. This look feels more wearable and showcases Harley’s playful yet powerful side. It’s a great example of how the creative team brought Margot Robbie’s vision of a more empowered Harley to life.
 </p>
@@ -333,6 +355,8 @@ I’ve linked the entire collection above to shop, and now, let’s travel back 
 <p style={paragraphStyle}>
   Want to channel this version of Harley with a silvery smoky eye and bold red lip? Check out my tutorial linked above! (This Harley look is my personal favorite—I’m obsessed with the perky pigtails!)
 </p>
+
+
 
 <h2 style={headingStyle}>The Suicide Squad (2021)</h2>
 
@@ -384,6 +408,13 @@ I’ve linked the entire collection above to shop, and now, let’s travel back 
   </p>
 </div>
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+
 <p style={paragraphStyle}>
   By the time <em>The Suicide Squad</em> (2021) rolled around, Harley Quinn’s look underwent another transformation. Makeup department head Heba Thorisdottir drew from Harley’s comic roots, incorporating rich crimson and black tones into her aesthetic instead of the hot pink we came to know in the previous two films. Her hair ditched the pink and blue for striking red and black, signaling a darker, more mature side of the character.
 </p>
@@ -428,6 +459,13 @@ I’ve linked the entire collection above to shop, and now, let’s travel back 
 <p style={paragraphStyle}>
   Harley Quinn’s cinematic journey showcases a dynamic evolution in her makeup and costume design, and it’s hard to pick a favorite style—but I’d love to know yours in the comments below. Feel free to drop a GIF of your favorite Harley moment!
 </p>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 
 <p style={paragraphStyle}>
   From punk rock rebellion, to quirky independence, to a darker, more comic-inspired aesthetic, Harley’s look continues to captivate audiences and inspire countless Halloween costumes. Tell me if you have any other favorite DC Comics characters you’d love to see me cover, and if you use my tutorials to nail the look—be sure to tag me!
@@ -483,7 +521,25 @@ I’ve linked the entire collection above to shop, and now, let’s travel back 
         linkText="MORE ICONIC POP CULTURE LOOKS →"
       />
 
-      <Comments website-id="10910" page-id="harley-quinn-evolution" />
+      <Comments website-id="10910" page-id="harley-quinn-evolution" /> 
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
     </div>
   );
 
