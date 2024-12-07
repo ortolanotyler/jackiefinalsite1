@@ -206,6 +206,12 @@ fontStyle: 'italic',
 All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
 </p>
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
       <DropCap1 text="Welcome back to the blog, fellow vintage beauty enthusiasts! We have another Time Travel Tutorials today, and we are covering the iconic Jean Shrimpton - dubbed “The Shrimp” & face of the 1960s. Jean Shrimpton, an English model and actress, was not just a prominent figure in the fashion world but also a symbol of the Swinging Sixties. Known for her striking beauty, long legs, and big eyes, Shrimpton graced the covers of leading fashion magazines, becoming one of the world's first supermodels." />
      
 <h2 style={headingStyle}>The Inspiration: Oh! De London by Yardley</h2>
@@ -228,7 +234,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   Luckily, I was able to find the <a href="https://www.fragrantica.com/perfume/Yardley-London/Oh-De-London-1965-43827.html" target="_blank" rel="noreferrer" style={linkStyle}>fragrance</a>, and although it has aged, the scent retains a powdery whisper from the past. I surrounded myself with its aroma to immerse myself fully in the spirit of the era, making it the ideal muse for this makeup transformation.
 </p>
 
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 
@@ -268,7 +278,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/524886?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <h2 style={headingStyle}>Eyes That Speak Volumes</h2>
@@ -283,7 +297,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/524889?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <h2 style={headingStyle}>Lips and Final Touches</h2>
@@ -301,7 +319,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/524892?noHeader=true" title="Shop My Victoria's Secret Favorites" />
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 
@@ -318,6 +340,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <div style={{ display: 'flex', justifyContent: 'center' }}>
   <img src={ad} alt="Jean Shrimpton Ad" style={{ width: '100%', maxWidth: '650px' }} />
 </div>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style={headingStyle}>A Vintage Collection to Adore</h2>
 
@@ -350,6 +378,20 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </div>
       
       <Comments website-id={websiteId} page-id={"Yardlizz-65fizz"} />
+
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>  <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>  <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     </div>
   );
 
