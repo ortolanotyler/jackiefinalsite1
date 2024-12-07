@@ -223,7 +223,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <DropCap1 text="Welcome back, witches! Today, I’m thrilled to share a magical Wicked-inspired look. I recently had the chance to see the musical live, and it was absolutely captivating! Around that time, I partnered with One/Size Beauty for their Wicked on Broadway collaboration, and more recently, I’ve been showcasing Wicked brushes from IT Cosmetics over on Instagram, in celebration of the upcoming Wicked movie. I still can't believe I’ve had the opportunity to work with such amazing beauty brands tied to this iconic pop culture moment! These collaborations are perfect for recreating the iconic looks or adding a touch of Wicked magic to your everyday routine."
       />
      
-    
+     <DividerWithText  text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
      <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
     src={wicked}
@@ -256,7 +260,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   Makeup originally by Nuria on set of Wicked using some of REM Beauty products. Pictured, Jackie Wyers recreation.
 </p>
 
-
+<DividerWithText  text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <p style={paragraphStyle}>
@@ -293,7 +301,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/853497?noHeader=true" style={{ width: '100%', minHeight: '340px', border: 'none' }}></ResponsiveIframe>
-
+<DividerWithText  text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>Step 2: Sculpting Glinda’s Features</p>
 
 <p style={paragraphStyle}>
@@ -348,7 +360,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/853507?noHeader=true" style={{ width: '100%', minHeight: '340px', border: 'none' }}></ResponsiveIframe>
-
+<DividerWithText  text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>Step 4: Glinda’s Signature Doe Eyes</p>
 
@@ -393,7 +409,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   For liner, I kept it subtle with a thin stroke of liquid liner focused on the outer corner. I noticed a hint of purple in some shots and in the Mattel dolls, so I smoked out the liner with a purplish shade from the Elphaba side of the One/Size Wicked shadow palette. I’m excited to try the upcoming R.E.M. Beauty Wicked palettes that feature a similar color story! I didn’t have the collection yet when I shot this, but check it out on sale now below. (Check out my Wicked-inspired product list here!)
 </p>
 
-
+<DividerWithText  text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
   To finish, I curled my lashes and applied Fairydrops Mascara for that wide-eyed Glinda effect. For extra flutter, I trimmed Isopia Lashes into outer corner lashes and applied with lash glue.
@@ -408,7 +428,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/853525?noHeader=true" style={{ width: '100%', minHeight: '340px', border: 'none' }}></ResponsiveIframe>
-
+<DividerWithText  text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>Step 6: The Hair & Finishing Touches</p>
 
@@ -432,7 +456,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/867494?noHeader=true" style={{ width: '100%', minHeight: '1200px', border: 'none' }}></ResponsiveIframe>
-
+<DividerWithText  text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>Thank you for joining me on this magical Glinda transformation! Stay tuned for my glamorous Elphaba tutorial coming soon!</p>
 
 <div style={{ position: 'relative', display: 'inline-block' }}>
@@ -468,7 +496,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   />
 </div>
 
-
+<DividerWithText  text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <p style={captionStyle}>Stay sparkly my Good Witches!</p>
