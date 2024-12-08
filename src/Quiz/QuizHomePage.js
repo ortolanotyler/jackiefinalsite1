@@ -8,6 +8,7 @@ import Quiz4 from './Quiz4';
 import Quiz5 from './Quiz5';
 import EmailSubscribe2 from '../Components/EmailSubscribe2';
 import AdSenseAd from '../Home/Adsense';
+import DividerWithText from '../Home/DividerWithText';
 
 const QuizHomepage = () => {
   return (
@@ -94,9 +95,11 @@ const QuizHomepage = () => {
         <Quiz3 />
       </Box>
 
+     <DividerWithText text="Ad" />
       <div className="ad-container">
-  <AdSenseAd />
-</div>
+        <AdSenseAd />
+      </div>
+      <DividerWithText text="Ad" />
 
       {/* Male vs Female Gaze Quiz Section */}
       <Box sx={{ margin:'1rem',backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
@@ -119,9 +122,11 @@ const QuizHomepage = () => {
       </Box>
 
       {/* AdSense After Interactive Content */}
+     <DividerWithText text="Ad" />
       <div className="ad-container">
-  <AdSenseAd />
-</div>
+        <AdSenseAd />
+      </div>
+      <DividerWithText text="Ad" />
 
       {/* Halloween Quiz Section */}
       <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
@@ -143,9 +148,11 @@ const QuizHomepage = () => {
         <Quiz4 />
       </Box>
 
+     <DividerWithText text="Ad" />
       <div className="ad-container">
-  <AdSenseAd />
-</div>
+        <AdSenseAd />
+      </div>
+      <DividerWithText text="Ad" />
 
       {/* Subscribe Section */}
       <Box sx={{ width: '100%' }}>
