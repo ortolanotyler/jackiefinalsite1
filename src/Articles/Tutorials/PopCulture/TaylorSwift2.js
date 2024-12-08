@@ -248,6 +248,9 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
 </div>
 <DividerWithText text = "Ad"/>
 
+
+
+
 <h2 style={headingStyle}>🎨 The Lover Era: Pastels and Playful Romance</h2>
 
 <p style={paragraphStyle}>
@@ -257,7 +260,7 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
 <div style={{ textAlign: 'center', margin: '20px auto' }}>
   <iframe
     title="ME! Makeup and Hairstyles"
-    src="https://www.youtube.com/embed/FuXNumBwDOM"
+    src="https://www.youtube.com/embed/Uai6tKJArnc?si=XnF1RFD1e25Tw7r2"
     style={{ width: '100%', height: '340px', border: 'none' }}
     allowFullScreen
   ></iframe>
