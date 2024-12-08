@@ -7,6 +7,8 @@ import { Helmet } from 'react-helmet-async';
 import DropCap1 from '../../Travel/DropCap1';
 import SocialShare from '../../../Home/SocialShare';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/PeriodDrama/periodtitle.png`;
@@ -193,6 +195,12 @@ const PeriodDrama = () => {
 <DropCap1 text="There's something magical about period dramas—they transport us to different times and places, allowing us to experience the elegance and charm of bygone eras. I love seeing how these shows and filmsinterpret no-makeup makeup and historical hairstyles, often with a modern twist for real-life inspiration. If you enjoyed my previous article on no- makeup makeup spring inspiration, you're going to love this deep dive into period drama styles." />
 
 </div>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       
 
 <p style={paragraphStyle}>
@@ -204,6 +212,12 @@ We'll start with the oldest time period we will cover: <strong> The Tudor era. <
 <p style={paragraphStyle}>
 <strong> The Tudor Period </strong>The Tudor period marked the end of the <strong> medieval era </strong>and the beginning of the <strong> English Renaissance. </strong> It was characterized by significant political, social, and religious changes, with the monarchy's power being a central theme. The real story of Lady Jane Grey is beyond tragic—she was a teenager thrust onto the throne as a political pawn in the schemes of powerful nobles. She reigned as queen for just nine days in July 1553 before being deposed by Mary I. Jane was eventually executed in 1554 for treason after refusing to renounce her Protestant faith.
 </p>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style={headingStyle}>My Lady Jane on Prime Video (2024)</h2>
 
@@ -222,6 +236,12 @@ We'll start with the oldest time period we will cover: <strong> The Tudor era. <
       <p style={paragraphStyle}>
       The TV series “My Lady Jane” (2024) rewrites Jane’s fate, transforming her from a damsel-in-distress into a heroine who saves herself and her kingdom. This uplifting series has created a modern #TudorCore aesthetic with styling traits of soft, whimsical, and slightly undone hairstyles, reflecting the natural beauty ideal of the time. It was common for women to wear their hair long and loose or in intricate braids, adorned with flowers and ribbons. In the show, Jane’s no-makeup makeup look includes dewy skin, rustic tones like burnt orange on the lids, and deep pink lip stains, emphasizing a natural yet polished appearance as seen in my tutorial with Prime Video <a href ='https://www.youtube.com/shorts/1Z6kTaWnM_o' > here</a> 
       </p>
+
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style={headingStyle}> Time Period: 18th Century, Golden Age of Piracy (1650-1730)
     </h2>
@@ -249,6 +269,12 @@ The Golden Age of Piracy was a time of adventure and danger on the high seas, sp
       <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
       Original Makeup by Ve Neill and Martin Samuel, Hair Design by Martin Samuel from 'Pirates of the Caribbean: The Curse of the Black Pearl,' recreation by Jackie Wyers
             </p>
+
+            <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <p style={paragraphStyle}>
       "Pirates of the Caribbean”(2003) with its daring adventures and iconic characters, brings to life the romance and peril of this period. Elizabeth
@@ -288,6 +314,13 @@ beauty trends, heavily influenced by classical antiquity, with a focus on simpli
       <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
       Original Makeup & Hair Design by Fae Hammond from the 2005 film 'Pride and Prejudice,' recreation by Jackie Wyers.     </p>
       
+
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 <p style={paragraphStyle}>
 "Pride and Prejudice”(2005) based on the beloved novel by Jane Austen, is a timeless story that captures the social intricacies and romantic entanglements of the Regency period. The novel, published in 1813, follows the intelligent and spirited Elizabeth Bennet as she navigates issues of marriage, morality, and love in the British gentry. Austen's observations of her time provide a rich backdrop for the characters and their interactions.
 </p>
@@ -310,6 +343,12 @@ In terms of makeup, the Regency look was characterized by a fresh and natural co
       <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
       Original Makeup and Hair Design by Marc Pilcher and Erika Ökvist from Bridgerton,' recreation by Jackie Wyers.
         </p>
+
+        <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       
       <p style={paragraphStyle}>
       Still remaining in the Regency Era, this time with a focus on high society; the period was marked by strict social hierarchies and elaborate balls, which are prominently featured in “Bridgerton."      
@@ -337,6 +376,12 @@ In terms of makeup, the Regency look was characterized by a fresh and natural co
 
       Original Makeup by Barbara Daly and Hair Design by Leonard George from 'The Blue Lagoon,' recreation by Jackie Wyers.
             </p>
+
+            <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
             
             <p style={paragraphStyle}>
             "The Blue Lagoon”(1980) set during this time, tells the story of two young
@@ -372,6 +417,12 @@ loosely on top of the head. However, in the context of "The Blue Lagoon," the em
       Original Makeup & Hair Design by Ivana Primorac from the 2019 film 'Little Women,' recreation by Jackie Wyers.
             </p>
 
+            <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
       <p style={paragraphStyle}>
       Louisa May Alcott, published in 1868. The story follows the lives of the four March sisters—Meg, Jo, Beth, and Amy—as they grow up during and after the Civil War. The novel draws from Alcott's own experiences with her three sisters, offering a poignant look at family, love, and personal growth.
             </p>
@@ -403,6 +454,12 @@ summer day. These styles offer an elegant and practical solution for managing lo
         Original Makeup & Hair Design by Hallie D'Amore from the 2002 film 'Tuck Everlasting,' recreation by Jackie Wyers.
       </p>
 
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
       <p style={paragraphStyle}>
       "Tuck Everlasting”(2002) based on the novel by Natalie Babbitt, captures the essence of this era through its story of timeless love and eternal youth and Edwardian styling. The film follows the journey of Winnie Foster, a young girl who discovers the Tuck family and their secret of immortality. The story is imbued with a sense of wonder and the enchanting beauty of the natural world.
             </p>
@@ -417,7 +474,11 @@ summer day. These styles offer an elegant and practical solution for managing lo
             </p>
 
             
-
+            <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <h2 style={headingStyle}>A Final Note 🌸</h2>
       <p style={paragraphStyle}>
@@ -445,7 +506,21 @@ summer day. These styles offer an elegant and practical solution for managing lo
       </div>
 
       <Comments website-id={websiteId} page-id={"No-Makeup-Period"} />
-
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       
 
 
