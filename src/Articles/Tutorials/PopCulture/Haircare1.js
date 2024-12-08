@@ -8,6 +8,8 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
+import DividerWithText from '../../../Home/DividerWithText';
 
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
@@ -186,6 +188,12 @@ const Haircare1 = () => {
       <div style={paragraphStyle}>
         <DropCap1 text="Hey everyone! In my latest hair care routine video above, I shared my favorite products and top tips for achieving your longest, healthiest hair. From shampoos and conditioners to detanglers, hair oils, and even scalp care technology, I’ve got you covered! And don’t worry, I’ll share budget-friendly alternatives that work just as well. Keep reading for all the secrets to em, healthy hair!" />
       </div>
+
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
     src="https://res.cloudinary.com/dzhlitors/image/upload/v1731349253/finalhaircare_tlo7mj.jpg" 
@@ -234,6 +242,12 @@ const Haircare1 = () => {
         <em>Drugstore Alternative:</em> <br/> OGX Thick & Full + Biotin & Collagen Shampoo and Conditioner. This OGX duo is packed with biotin and collagen to help thicken and volumize, giving your hair a fuller look and feel.
       </p>
 
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
       <h2 style={headingStyle}>
   BEST SCENTED SHAMPOO & CONDITIONER
 
@@ -244,6 +258,13 @@ Fable & Mane Holiroots Hydrating Shampoo
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/977098?noHeader=true" style={iframeStyle} />
 <ResponsiveIframe src="https://shopmy.us/collections/public/977103?noHeader=true" style={iframeStyle} />
+
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
   If you love a good tropical scent, Fable & Mane’s HoliRoots Hydrating Shampoo is a dream. I tried the version for all hair types and found it a bit heavy, but they also offer one specifically for fine hair, which I can’t wait to try.
@@ -264,6 +285,13 @@ Fable & Mane Holiroots Hydrating Shampoo
   For a similar tropical, spa-like experience at a budget-friendly price, <a style={linkStyle} href="https://www.herbalessences.com" target="_blank" rel="noreferrer">Herbal Essences Coconut Milk Hydrate Shampoo</a> is perfect. It hydrates and has a delicious scent that lasts all day.
 </p>
 
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 <h2 style={headingStyle}>BEST DETOX SHAMPOO</h2>
 
 <p style={paragraphStyle}>
@@ -271,6 +299,8 @@ Fable & Mane Holiroots Hydrating Shampoo
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/977109?noHeader=true" style={iframeStyle} />
+
+
 
 <p style={paragraphStyle}>
   For those deep-cleansing days, the Ouai Detox Shampoo is my go-to. It’s amazing for clearing out buildup from styling products, hard water, and oils, leaving your hair fresh and light.
@@ -313,6 +343,8 @@ Fable & Mane Holiroots Hydrating Shampoo
 </div>
 
 
+
+
 <p style={paragraphStyle}>
   Scalp care is key for hair growth! A tool I’ve been loving is the iRestore Hair Growth System, specifically for thinning hair.
 </p>
@@ -331,6 +363,13 @@ Fable & Mane Holiroots Hydrating Shampoo
   <br/>
   <li><em>Who It’s For :</em> <br/>   If you’re experiencing hair thinning, receding hairlines, or bald spots, this device can be a game-changer. For $625 off, use code ELITEJACKIE here: <a style={linkStyle} href="https://www.irestorelaser.com" target="_blank" rel="noreferrer">iRestore Laser</a>.  </li>
 </ul>
+
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style={headingStyle}>DETANGLERS & LEAVE-IN CONDITIONERS</h2>
 
@@ -357,6 +396,13 @@ Fable & Mane Holiroots Hydrating Shampoo
   This Garnier leave-in provides a smooth, detangled finish with argan oil and a lightweight feel that’s perfect for everyday.
 </p>
 
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 <h2 style={headingStyle}>HAIR MASKS & SCALP CARE</h2>
 
 <h2 style={headingStyle}>
@@ -382,6 +428,13 @@ Fable & Mane Holiroots Hydrating Shampoo
 <p style={paragraphStyle}>
   This budget-friendly mask repairs and nourishes with proteins and ceramides, restoring strength and hydration.
 </p>
+
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style={headingStyle}>BEST HAIR OILS</h2>
 
@@ -427,6 +480,13 @@ Fable & Mane Holiroots Hydrating Shampoo
   Batiste offers a refresh with added volume, making it a great budget alternative. It doesn’t last quite as long, but the scent is beautiful and it works in a pinch!
 </p>
 
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 <h2 style={headingStyle}>HAIRSPRAYS</h2>
 
 <h2 style={headingStyle}>
@@ -442,6 +502,13 @@ Fable & Mane Holiroots Hydrating Shampoo
 <p style={paragraphStyle}>
   <em>Drugstore Alternative:</em> <br/> OGX Bamboo Fiber Full Hairspray
 </p>
+
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/977154?noHeader=true" style={iframeStyle} />
 
