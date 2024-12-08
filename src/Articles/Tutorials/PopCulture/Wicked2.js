@@ -8,6 +8,7 @@ import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
 import DividerWithText from '../../../Home/DividerWithText';
 import AdSenseAd from '../../../Home/Adsense';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
 const next = `${process.env.PUBLIC_URL}/Images/Articles/Homepage/HalloweenThumb.webp`;
@@ -187,12 +188,11 @@ textAlign: 'center',
 ></iframe>
 </div>
 
-<DividerWithText text="Ad" > </DividerWithText>
-<div className="ad-container">
-  <AdSenseAd />
+     <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
-
-<DividerWithText text="Ad" > </DividerWithText>
+<DividerWithText text = "Ad"/>
             <h2 style={headingStyle}>Apparel Fit for the Land of Oz</h2>
 
             <h3 style={headingStyle}>Roots Cardigan</h3>
@@ -219,12 +219,11 @@ textAlign: 'center',
               style={{ width: '100%', minHeight: '340px', border: 'none' }}
             />
 
-<DividerWithText text="Ad" > </DividerWithText>
-<div className="ad-container">
-  <AdSenseAd />
+     <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
-
-<DividerWithText text="Ad" > </DividerWithText>
+<DividerWithText text = "Ad"/>
 
             <h2 style={headingStyle}>Magical Makeup & Skincare</h2>
 
@@ -259,12 +258,11 @@ textAlign: 'center',
 ></iframe>
 </div>
 
-<DividerWithText text="Ad" > </DividerWithText>
-<div className="ad-container">
-  <AdSenseAd />
+     <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
-
-<DividerWithText text="Ad" > </DividerWithText>
+<DividerWithText text = "Ad"/>
             <h2 style={headingStyle}>Purses & Bags for Every Oz Lover</h2>
         
         <h3 style={headingStyle}>Cambridge Satchel Glinda Bag</h3>
@@ -314,12 +312,11 @@ textAlign: 'center',
           style={{ width: '100%', minHeight: '340px', border: 'none' }}
         />
 
-<DividerWithText text="Ad" > </DividerWithText>
-<div className="ad-container">
-  <AdSenseAd />
+     <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
-
-<DividerWithText text="Ad" > </DividerWithText>
+<DividerWithText text = "Ad"/>
         
         <h3 style={headingStyle}>Loungefly x Wicked Glinda’s Luggage Trunk Crossbody Bag</h3>
         <p style={paragraphStyle}>
@@ -368,12 +365,11 @@ textAlign: 'center',
           style={{ width: '100%', minHeight: '340px', border: 'none' }}
         />
                
-               <DividerWithText text="Ad" > </DividerWithText>
-<div className="ad-container">
-  <AdSenseAd />
+                    <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
-
-<DividerWithText text="Ad" > </DividerWithText>
+<DividerWithText text = "Ad"/>
         <h3 style={headingStyle}>Mattel’s Wicked Dolls</h3>
         <p style={paragraphStyle}>
           The Mattel dolls capture the magic of Wicked with beautiful detailing, especially in the dresses. If you’re a doll collector, these are must-haves.
@@ -445,12 +441,11 @@ textAlign: 'center',
           style={{ width: '100%', minHeight: '340px', border: 'none' }}
         />
         
-        <DividerWithText text="Ad" > </DividerWithText>
-<div className="ad-container">
-  <AdSenseAd />
+             <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
-
-<DividerWithText text="Ad" > </DividerWithText>
+<DividerWithText text = "Ad"/>
         <h3 style={headingStyle}>Aldo Pink Bow Heels</h3>
         <p style={paragraphStyle}>
           A classic nude pink heel that will complement many outfits with a touch of Glinda flair.
@@ -552,30 +547,26 @@ This list updates constantly , check out my favorite Wicked Collaboration Items 
 <img src={signature} alt="jackie wyers end of article signature" style={{ width: '100%' }} />
 
 <Comments website-id={websiteId} page-id="wicked2" />
-<DividerWithText text="Ad" > </DividerWithText>
-<div className="ad-container">
-  <AdSenseAd />
+     <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
-
-<DividerWithText text="Ad" > </DividerWithText>
-<DividerWithText text="Ad" > </DividerWithText>
-<div className="ad-container">
-  <AdSenseAd />
+<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
-
-<DividerWithText text="Ad" > </DividerWithText>
-<DividerWithText text="Ad" > </DividerWithText>
-<div className="ad-container">
-  <AdSenseAd />
+<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
-
-<DividerWithText text="Ad" > </DividerWithText>
-<DividerWithText text="Ad" > </DividerWithText>
-<div className="ad-container">
-  <AdSenseAd />
+<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
-
-<DividerWithText text="Ad" > </DividerWithText>
+<DividerWithText text = "Ad"/>
 </div>
 </div>
 </div>

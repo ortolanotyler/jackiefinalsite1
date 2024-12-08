@@ -7,6 +7,8 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/mermaidthumbnail.jpg`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/SummerInspo/CleoH20Poster.jpg`;
@@ -204,7 +206,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <DropCap1 text="Dive into the enchanting world of mermaids with this special blog post that brings to life the mesmerizing looks of some of pop culture's most iconic sea sirens. From the sun-kissed shores of 'H2O: Just Add Water' to the mystical depths of 'The Little Mermaid's' live-action remake, join me, as I recreate and reinterpret the signature styles of these beloved characters. Whether you're seeking a dash of nostalgic charm or a splash of summer-ready glamour, these tutorials will inspire you to embrace your inner mermaid. Let's explore these magical transformations together and make a splash in your beauty routine this season!" />
      
-     
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     
      
       <h2 style={headingStyle}>The Looks:
@@ -225,7 +231,11 @@ Phoebe Tonkin as Cleo Sertori - ‘H20: Just Add Water’</h2>
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/598796?noHeader=true" title="Mermaid Makeup Products Inspired by Cleo Sertori from H2O: Just Add Water" />
-       
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
       <h2 style={headingStyle}>Halle Bailey as Ariel - ‘The Little Mermaid’</h2>
@@ -257,7 +267,11 @@ Phoebe Tonkin as Cleo Sertori - ‘H20: Just Add Water’</h2>
   While her screen time was brief, Jessica Alexander's portrayal of Vanessa in <a href="https://movies.disney.com/the-little-mermaid-2023" style={linkStyle} target="_blank" rel="noopener noreferrer">The Little Mermaid</a> live-action remake certainly turned heads with her stunning purple dress. Capture her slightly shipwrecked beauty with a bohemian style from brands like <a href="https://www.freepeople.com" style={linkStyle} target="_blank" rel="noopener noreferrer">Free People</a>. Complement the look with the inspired pendant from the <a href="https://www.pandora.net/en-us/disney" style={linkStyle} target="_blank" rel="noopener noreferrer">Disney and Pandora collection</a> that holds Ariel's voice. For makeup, opt for a simple sculpted eye and a sculpted pink lip, paired beautifully with tussled curls. The Vanessa-inspired makeup is also featured in the Ariel tutorial as mentioned above.
 </p>
       <ResponsiveIframe src="https://shopmy.us/collections/public/598809?noHeader=true" title="Mermaid Makeup Products Inspired by Jessica Alexander as Vanessa in The Little Mermaid" />   
-        
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     
       
       <h2 style={headingStyle}>Dark Mermaidcore - ‘Pirates of the Caribbean: On Stranger Tides’</h2>
@@ -285,6 +299,11 @@ Phoebe Tonkin as Cleo Sertori - ‘H20: Just Add Water’</h2>
         Original Makeup by Kimberly Greene for Sara Paxton in 'Aquamarine.' Recreation by Jackie Wyers. (Photo shot by Lost Lands Collections)
       </p>
     
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <p style={paragraphStyle}>
   We can't do a roundup of mermaid looks without mentioning Sara Paxton's iconic portrayal of the sweet and bubbly <a href="https://www.imdb.com/title/tt0429591/" style={linkStyle} target="_blank" rel="noopener noreferrer">Aquamarine</a>. Her bright blonde hair, accented with streaks of blue, and her subtle makeup featuring a pop of shimmer on the lids and a hint of blue eyeliner, make for a look that’s both fun and naturally wearable for everyday summer flair. And who could forget her unforgettable 'last splash' dress? I’ve always been on the lookout for something similar! Don't forget your <a href="https://www.benjerry.com/flavors/phish-food-ice-cream" style={linkStyle} target="_blank" rel="noopener noreferrer">Ben & Jerry's Phish Food</a> as you dive into my tutorial <a href="https://www.youtube.com/watch?v=EP-PeJSrmf4" style={linkStyle} target="_blank" rel="noopener noreferrer">here</a>.
 </p>
@@ -292,7 +311,11 @@ Phoebe Tonkin as Cleo Sertori - ‘H20: Just Add Water’</h2>
                   
 
                   <ResponsiveIframe src="https://shopmy.us/collections/public/598827?noHeader=true" title="Mermaid Makeup Products Inspired by Sara Paxton as Aquamarine in Aquamarine" />
-                  
+                  <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
                       
       <h2 style={headingStyle}>A Final Note 🌊</h2>
 
@@ -329,7 +352,22 @@ Phoebe Tonkin as Cleo Sertori - ‘H20: Just Add Water’</h2>
 <Comments website-id={websiteId} page-id={"Las-1aasa"} />
   
 
-  
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 
   
 

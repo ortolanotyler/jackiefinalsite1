@@ -12,6 +12,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import DividerWithText from '../../../Home/DividerWithText';
 import AdSenseAd from '../../../Home/Adsense';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
 
@@ -195,12 +196,11 @@ const RemBeautyWickedReview = () => {
             <DropCap1
               text="Hey, everyone! If you’re as WICKED movie-obsessed as I am, then you’re in the right place. After seeing the film on the big screen, I couldn’t resist recreating Glinda’s makeup look inspired by Ariana Grande’s portrayal. Today, I’ll be diving into the r.e.m. beauty x WICKED collection to show you how to achieve Glinda’s stunning aesthetic."
             />
-  <DividerWithText text="Ad" > </DividerWithText>
-<div className="ad-container">
-  <AdSenseAd />
+     <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
-
-<DividerWithText text="Ad" > </DividerWithText>
+<DividerWithText text = "Ad"/>
             <p style={paragraphStyle}>
               I’ve previously covered Glinda’s Ozdust Ball look and even shared an
               Elphaba-inspired tutorial. This time, I’ll review each product in
@@ -443,30 +443,28 @@ minHeight: '100vh'
             />
        <br/>
             <Comments website-id={websiteId} page-id="rem-wicked-review" />
-            <DividerWithText text="Ad" > </DividerWithText>
-<div className="ad-container">
-  <AdSenseAd />
+               <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
+<DividerWithText text = "Ad"/>
 
-<DividerWithText text="Ad" > </DividerWithText>
-<DividerWithText text="Ad" > </DividerWithText>
-<div className="ad-container">
-  <AdSenseAd />
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
-
-<DividerWithText text="Ad" > </DividerWithText>
-<DividerWithText text="Ad" > </DividerWithText>
-<div className="ad-container">
-  <AdSenseAd />
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
-
-<DividerWithText text="Ad" > </DividerWithText>
-<DividerWithText text="Ad" > </DividerWithText>
-<div className="ad-container">
-  <AdSenseAd />
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
-
-<DividerWithText text="Ad" > </DividerWithText>
+<DividerWithText text = "Ad"/>
           </div>
         }
       />

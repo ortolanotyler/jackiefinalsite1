@@ -9,6 +9,7 @@ import NextArticle from '../../../Components/NextArticleComponent';
 import DropCap1 from '../../Travel/DropCap1';
 import DividerWithText from '../../../Home/DividerWithText';
 import AdSenseAd from '../../../Home/Adsense';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
@@ -173,9 +174,9 @@ const TaylorErasTour = () => {
           "
         />
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -241,9 +242,9 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
   />
 </div>
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -347,9 +348,9 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
 </div>
 
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -450,9 +451,9 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
   />
 </div>
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -521,9 +522,9 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
   </a>
 </p>
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -588,9 +589,9 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
 </div>
 
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -644,9 +645,9 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/b7QlX3yR2xs?si=nNxiKFPgVYiIHcRc" title="TAYLOR SWIFT THE ERAS TOUR with my Lover👩🏽‍❤️‍💋‍👨🏽💖🌈 Tampa FL!" />
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -683,9 +684,9 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
   </a>
 </p>
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -711,9 +712,9 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
     allowFullScreen
   ></iframe>
 </div>
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -773,9 +774,9 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
 
 
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -813,19 +814,19 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
         containerStyle={{ margin: '2rem auto' }}
       />
       <Comments website-id={websiteId} page-id={"Las-fffff"} />
-      <DividerWithText text = "Ad"/>
+           <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
     </div>

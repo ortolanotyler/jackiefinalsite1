@@ -6,6 +6,8 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SummerBeauty/SummerBeautyTitle.png`;
@@ -192,6 +194,12 @@ Blue Lagoon' to the chic streets of 'Emily In Paris,' join me as I recreate and
 reinterpret the signature styles of these beloved characters. Whether you're
 seeking a dash of nostalgic charm or a splash of summer-ready glamour,
 these tutorials will inspire you to embrace your inner icon. " />
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
    
      
       <h2 style={headingStyle}>The Looks:
@@ -214,6 +222,11 @@ these tutorials will inspire you to embrace your inner icon. " />
   title="Mermaid Makeup Products Inspired by Brooke Shields as Emmaline in The Blue Lagoon" 
 />    
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
    
 
       <h2 style={headingStyle}>
@@ -233,7 +246,11 @@ these tutorials will inspire you to embrace your inner icon. " />
   title="Barbiecore Makeup and Hairstyling Products Inspired by Margot Robbie in The Barbie Movie" 
 />
  
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
    
 
 
@@ -256,7 +273,11 @@ these tutorials will inspire you to embrace your inner icon. " />
   title="Parisian Chic Beauty Products Inspired by Lilly Collins as Emily in Emily In Paris" 
 />   
   
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <h2 style={headingStyle}>
       Flora - ‘Winx Club’ </h2>
@@ -293,7 +314,11 @@ by Jackie Wyers.   </p>
 />    
 
     
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>
       Madison Bailey as Kiara from 'Outer Banks'</h2>
 <div style={gridContainerStyle}>
@@ -344,7 +369,21 @@ Original Makeup by Stacy Butterworth and Hair Design by Ann Minahan from 'Outer 
     
      
 <Comments website-id={websiteId} page-id={"Las-nozzfffflestronsonberries"} />
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     </div>
   );
 

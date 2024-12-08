@@ -7,14 +7,15 @@ import AdSenseAd from '../../../Home/Adsense';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
 import { Comments } from '@hyvor/hyvor-talk-react';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 
 const Card = ({ blogContent }) => (
     <div
       style={{
         margin: '1rem ',
-        maxWidth: '100%',
-        padding: '5px',
+        maxWidth: '90%',
+        padding: '1rem',
       }}
     >
       <div className="card">
@@ -109,9 +110,11 @@ const GalindafiedVsBarbiecore = () => {
           />
         </div>
 
-        <DividerWithText text="Ad" />
-        <AdSenseAd />
-        <DividerWithText text="Ad" />
+         <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
         <h2 style={headingStyle}>The Power of Pink</h2>
         <p style={paragraphStyle}>
@@ -128,9 +131,11 @@ const GalindafiedVsBarbiecore = () => {
           GALINDAFIED drew inspiration from Glinda's vibrant, radiant personality. With its glamorous visuals and magical undertones, it brought a whimsical touch to the world of movie marketing.
         </p>
 
-        <DividerWithText text="Ad" />
-        <AdSenseAd />
-        <DividerWithText text="Ad" />
+         <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
         <h2 style={headingStyle}>Which Campaign Won?</h2>
         <p style={paragraphStyle}>
@@ -160,6 +165,12 @@ const GalindafiedVsBarbiecore = () => {
         style={{ width: '100%', minHeight: '340px', border: 'none', margin: '20px 0' }}
       ></iframe>
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
       <h3 style={headingStyle}>🎥 Social Media Frenzy</h3>
       <p style={paragraphStyle}>
         TikTok and Instagram exploded with Barbie-inspired viral challenges, behind-the-scenes peeks, and influencer-driven events, ensuring Barbiecore was everywhere this summer.
@@ -183,6 +194,11 @@ const GalindafiedVsBarbiecore = () => {
   src="https://shopmy.us/collections/embed/1078862?"
   style={{ width: '100%', minHeight: '340px', border: 'none', margin: '20px 0' }}
 ></iframe>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
   Mattel’s Film-Inspired Dolls: From Margot’s classic looks to the dazzling disco Barbie, collectors couldn’t get enough.
@@ -203,6 +219,21 @@ const GalindafiedVsBarbiecore = () => {
 ></iframe>
 
         <Comments website-id={websiteId} page-id="galindafied-vs-barbiecore" />
+        <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       </div>
     </div>
   );

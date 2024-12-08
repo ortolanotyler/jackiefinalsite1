@@ -9,6 +9,8 @@ import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import SimpleIframe from '../../../Home/SimpleIframe';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
+import DividerWithText from '../../../Home/DividerWithText';
 
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
@@ -190,6 +192,12 @@ const TaylorSwiftHoliday = () => {
 />
 
 </p>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     
 
 
@@ -206,7 +214,11 @@ One of my favorite albums, The Tortured Poet’s Department (TTPD), inspired som
 
 <h2 style={headingStyle}>Speaking of Crop Tees…</h2>
 <ResponsiveIframeNew src="https://shopmy.us/collections/public/997424?noHeader=true" />
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
 I absolutely love both crop T-shirts in this new drop! The Blink of a Crinkling Eye crop T-shirt is adorable, and the lace detail adds a vintage touch.
 </p>
@@ -243,7 +255,11 @@ Ps. Looking for Bejeweled style inspo for a Taylor inspired photoshoot or Era’
   ></iframe>
 </div>
 
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <h2 style={headingStyle}>Ornaments Galore!</h2>
 <ResponsiveIframeNew src="https://shopmy.us/collections/public/997441?noHeader=true" />
 
@@ -252,6 +268,11 @@ I’m obsessed with Taylor Swift ornaments and collect them every year. Sadly, t
 </p>
 
 <ResponsiveIframeNew src="https://shopmy.us/collections/public/997439?noHeader=true" />
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
 Other favorites include the Down the Rabbit Hole envelope ornament and That Ain’t My Merlot ornament with their vintage feel and pretty ribbons.
 </p>
@@ -263,6 +284,11 @@ However, I decided on the Self-Titled Butterfly Guitar ornament to add to my col
 
 <h2 style={headingStyle}>Folklore and Lover Picks</h2>
 <ResponsiveIframeNew src="https://shopmy.us/collections/public/997438?noHeader=true" />
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
 For a non-cropped T-shirt option, the Folklore Album Moment in Time oversized T-shirt stood out with its rhinestone detailing.
@@ -297,6 +323,11 @@ Love Folklore hairstyles? Check out my easy Taylor Swift inspired hairstyle belo
 </div>
 
 <ResponsiveIframeNew src="https://shopmy.us/collections/public/997435?noHeader=true" />
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
 From the Lover section, the Cruel Summer Crewneck is hands-down my favorite. While I didn’t choose it this time, the You Need to Calm Down Sleep Mask Ornament caught my eye as one of the cutest ornaments in the collection.
 </p>
@@ -323,6 +354,11 @@ Initially, I added the 1989 Taylor’s Version “Is It Over Now” Zip-Up Hoodi
 
 <h2 style={headingStyle}>Red and Self-Titled Decisions</h2>
 <ResponsiveIframeNew src="https://shopmy.us/collections/public/997431?noHeader=true" />
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
 I was also tempted by the Red Taylor’s Version “I Remember It All Too Well” Zip Polo. Red is one of my all-time favorite albums, but I tend to prefer pullovers without collars (my hair gets tangled). I even ran a poll on Instagram to help me decide between the red and brown sweaters! From reviews, I’ve seen the Red polo is super soft which is a plus.
@@ -333,6 +369,11 @@ I was also tempted by the Red Taylor’s Version “I Remember It All Too Well�
 The Self-Titled collection also featured some adorable pieces. Last year, I purchased the Speak Now Taylor’s Version Cardigan Ornament, and this year I loved the ballet slippers ornament too. I ended up going with the Self Titled Guitar, again, I love me some butterflies.
 </p>
 <ResponsiveIframeNew src="https://shopmy.us/collections/public/997428?noHeader=true" />
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
 
@@ -353,6 +394,21 @@ So, that’s my roundup of standout pieces! Let me know if this guide helped you
       <img src={signature} alt="Jackie Wyers Signature XoXo" style={{ width: '100%' }} />
 
       <Comments website-id={websiteId} page-id={"taylor-holiday-merch-2024"} />
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     </div>
   );
 

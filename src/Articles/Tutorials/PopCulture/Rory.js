@@ -9,6 +9,8 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Rory1/Rory1.jpg`;
@@ -236,6 +238,12 @@ const Rory = () => {
   
 </div>
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 
       <h2 style={headingStyle}>🧴 Rediscovering Rory's Timeless Beauty 📚</h2>
 
@@ -253,6 +261,12 @@ const Rory = () => {
       <p style={paragraphStyle}>
   Rory’s character embodies simplicity and grace. Her makeup style is all about enhancing her natural beauty with a light, barely-there finish—perfect for those who prefer a fresh-faced look. To channel Rory, start with skincare to create that healthy, dewy base that’s both natural and polished. Here’s how to recreate her youthful glow using gentle <a href="https://www.stylevana.com/en_CA/?utm_source=google&utm_medium=cpc&utm_campaign=9495587402&utm_term=96308842026&device=c&gad_source=1&gbraid=0AAAAACgtEnCkCdOise3seAMy_poOEGfdd&gclid=Cj0KCQjwxsm3BhDrARIsAMtVz6MW6mh2R_Lzbv9TBy1kP1-m2Ul5iaN0yQz7x7TV72L71mt5q2RYOpAaAhEVEALw_wcB" target="_blank" rel="noopener noreferrer">K-beauty products</a> that leave your skin feeling nourished and refreshed.
 </p>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <h2 style={headingStyle}>Glowing, Hydrated Skin 🧴 Skincare</h2>
 
@@ -276,6 +290,12 @@ const Rory = () => {
         style={{ width: '100%', minHeight: '1200px', border: 'none' }}>
       </ResponsiveIframe>
 
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
       <p style={paragraphStyle}>
         Moisturize and Protect: Finish with the Tocobo Multi-Ceramide Cream for extra hydration and to strengthen your skin barrier. For under-eye care, the Beauty of Joseon Revive Eye Serum with Ginseng and Retinol is ideal for keeping your skin looking youthful and well-rested.
       </p>
@@ -293,6 +313,12 @@ const Rory = () => {
       <p style={paragraphStyle}>
         Lip Prep: Don’t forget your lips! Use the Tocobo Vita Glazed Lip Mask for a soft, moisturized pout that looks as natural and kissable as Rory’s.
       </p>
+
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <h2 style={headingStyle}>What Makeup Did Alexis Bledel Use on Gilmore Girls? 🧐</h2>
 
@@ -331,6 +357,12 @@ https://res.cloudinary.com/dvbubqhpp/image/upload/v1733670492/TaylorLoversBodysu
   While tracking down the exact makeup products used on Gilmore Girls in the early 2000s can be challenging, I’ve recreated Rory’s look using affordable K-beauty products that beautifully capture her natural, fresh-faced aesthetic. These modern alternatives offer the same soft, bookish finish that Rory Gilmore’s makeup is known for, making it easy for anyone to achieve her timeless, no-makeup makeup style. And let’s not forget, Rory’s best friend, <a href="https://en.wikipedia.org/wiki/Lane_Kim" target="_blank" rel="noopener noreferrer">Lane Kim</a>, did visit South Korea—so I love to imagine she brought back some of these K-beauty gems for Rory to try!
 </p>
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
       <h2 style={headingStyle}>Achieving Rory's No-Makeup Makeup Look 👀</h2>
 
       <p style={paragraphStyle}>
@@ -356,6 +388,12 @@ https://res.cloudinary.com/dvbubqhpp/image/upload/v1733670492/TaylorLoversBodysu
         src="https://shopmy.us/collections/public/835183?noHeader=true"
         style={{ width: '100%', minHeight: '1200px', border: 'none' }}>
       </ResponsiveIframe>
+
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <p style={paragraphStyle}>
         Soft, Blushy Cheeks: A signature of the Gilmore Girls look is natural blush, like they’ve just been out in the crisp Connecticut air. Use a cream blush like Amuse’s Soft Cream Cheek in Pink Toast and blend it onto the apples of your cheeks, creating a soft V-shape that mimics Rory’s youthful flush. Set with a lightweight powder by pressing onto the skin with a puff.
@@ -386,6 +424,12 @@ https://res.cloudinary.com/dvbubqhpp/image/upload/v1733670492/TaylorLoversBodysu
         src="https://shopmy.us/collections/public/835212?noHeader=true"
         style={{ width: '100%', minHeight: '1200px', border: 'none' }}>
       </ResponsiveIframe>
+
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       
       <h2 style={headingStyle}>Achieving Rory Gilmore’s Hairstyles 🤎</h2>
 
@@ -494,6 +538,12 @@ https://res.cloudinary.com/dvbubqhpp/image/upload/v1733670492/TaylorLoversBodysu
   />
 </div>
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
       <p style={paragraphStyle}>
   Did you know that the pilot episode of Gilmore Girls was filmed in the quaint town of <a href="https://unionville.ca/" target="_blank" rel="noopener noreferrer">Unionville, Ontario</a>, Canada? I recently visited this charming spot, which doubled as the iconic Stars Hollow. Walking through Unionville feels like stepping right into Rory’s world—from the cozy storefronts to the picturesque streets. I even explored some of the exact locations used in the show, like the famous church steps and the town square. You can watch my full vlog of this magical visit below and see how Unionville truly captures the essence of Stars Hollow. It’s a must-see for any Gilmore Girls fan wanting to experience a piece of Rory’s world in real life!
 </p>
@@ -536,6 +586,21 @@ https://res.cloudinary.com/dvbubqhpp/image/upload/v1733670492/TaylorLoversBodysu
 
      
      <Comments website-id={websiteId} page-id={"rory1"} />
+     <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     
       
     </div>

@@ -2,6 +2,8 @@ import React from 'react';
 import { Grid, Box } from '@mui/material';
 import HeroSection2a from '../../../Home/HeroSection2a';
 import TextRevealHomePage from '../../../Components/TextRevealHomePage';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const PopCulture = () => {
   return (
@@ -75,6 +77,11 @@ const PopCulture = () => {
               />
             </Box>
           </Grid>
+          <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
           <Grid item xs={12} sm={6} md={6} lg={4}>
             <Box
@@ -115,6 +122,11 @@ const PopCulture = () => {
               />
             </Box>
           </Grid>
+          <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
           <Grid item xs={12} sm={6} md={6} lg={4}>
             <Box
@@ -155,6 +167,11 @@ const PopCulture = () => {
               />
             </Box>
           </Grid>
+          <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
           <Grid item xs={12} sm={6} md={6} lg={4}>
             <Box
@@ -214,6 +231,11 @@ const PopCulture = () => {
               />
             </Box>
           </Grid>
+          <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
           <Grid item xs={12} sm={6} md={6} lg={4}>
             <Box
@@ -315,8 +337,11 @@ const PopCulture = () => {
             />
             </Box>
           </Grid>
-
-
+          <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
          
          
 
@@ -381,6 +406,16 @@ const PopCulture = () => {
           </Grid>
         </Grid>
       </Box>
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     </>
   );
 };
