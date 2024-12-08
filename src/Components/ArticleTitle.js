@@ -24,8 +24,8 @@ const ArticleTitle = ({ mainTitle, subTitle, author, publishDate }) => {
 const styles = {
   container: {
     textAlign: 'left', // Align the text to the left
-    padding: '1rem',
-    margin: '1rem auto',
+    padding: '0',
+    margin: '5px auto ',
     width: '100%',
     maxWidth: '1500px', // Optional: limit the width of the container if needed
     
@@ -36,7 +36,6 @@ const styles = {
 
     fontWeight: '400',
     fontSize: '55px', // Adjust as needed for responsiveness
-    marginBottom: '1rem',
     fontStyle: 'normal',
     lineHeight: '1.15',
     color: '#000000',
