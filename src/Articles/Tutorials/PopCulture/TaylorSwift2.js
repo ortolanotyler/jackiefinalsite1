@@ -266,6 +266,9 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
   ></iframe>
 </div>
 
+<ResponsiveYoutube src="https://www.youtube.com/embed/FuXNumBwDOM?si=1h9F3QUMDcWNBeD6" title="TAYLOR SWIFT THE ERAS TOUR with my Lover👩🏽‍❤️‍💋‍👨🏽💖🌈 Tampa FL!" />
+
+
 <p style={paragraphStyle}>
   For my concert look, I embraced Lover in a casual, playful way. My husband Tyler (my “lover,” hehe) and I wore matching pink glitter hearts over our eyes, inspired by the album cover art. It was such a fun way to celebrate Taylor’s romantic aesthetic!
 </p>
@@ -467,6 +470,26 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
   For this era, Taylor embraced soft curls, earthy tones, and timeless beauty. Here’s a quick guide to recreating her looks:
 </p>
 
+<div
+  style={{
+    textAlign: 'center',
+  }}
+>
+  <iframe
+    style={{
+      boxShadow: '12px 12px 24px rgba(0, 0, 0, 0.2)',
+      borderRadius: '15px',
+      width: '301px',
+      height: '535px',
+    }}
+    src="https://www.youtube.com/embed/VdWgliSfleM"
+    title="YouTube Short"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
 <div style={{ textAlign: 'center', margin: '20px auto' }}>
   <iframe
     title="Folklore & Evermore Hairstyles & Outfits"
@@ -475,6 +498,7 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
     allowFullScreen
   ></iframe>
 </div>
+
 
 <p style={paragraphStyle}>
   <strong>Favorite Folklore song:</strong> Tie between <em>Cardigan</em> and <em>Invisible String</em>.  
@@ -539,7 +563,7 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
 
 <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
-    src='https://res.cloudinary.com/dvbubqhpp/image/upload/v1733670492/TaylorLoversBodysuit_1_zpimsv.jpg'
+    src='https://res.cloudinary.com/dvbubqhpp/image/upload/v1733671859/TaylorMidnights_bbjbmi.jpg'
     alt="Taylor Swift Eras Tour " 
     style={imageStyle} 
     data-pin-nopin="false" 
@@ -558,7 +582,7 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
       opacity: 0.9,
       transition: 'opacity 0.3s'
     }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/taylor-swift-eras-tour&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1733670492/TaylorLoversBodysuit_1_zpimsv.jpg&description=Taylor Swift Eras Tour Finale')}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/taylor-swift-eras-tour&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1733671859/TaylorMidnights_bbjbmi.jpg&description=Taylor Swift Eras Tour Finale')}
     onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
