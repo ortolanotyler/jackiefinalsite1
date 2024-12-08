@@ -7,6 +7,8 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import styles from './AnimalPretty.module.css';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
+import AdSenseAd from '../../../Home/Adsense';
+import DividerWithText from '../../../Home/DividerWithText';
 
 const button = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/AnimalQuizResults.jpeg`;
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/DeerPrettyTitle.png`;
@@ -237,6 +239,8 @@ style = {{
         <img src={image2} alt="Deer Pretty" className={styles.image} />
       </div>
 
+      
+
       <p style={paragraphStyle}>
         Celebrity Inspirations: Jessica Alba, Leighton Meester, Emmy Russum, Tessa Thompson, and Charithra Chandran rock this look with their big, round eyes and stunning skin tones.
       </p>
@@ -251,6 +255,11 @@ style = {{
       <ResponsiveIframe src="https://shopmy.us/collections/public/552826?noHeader=true" title="Makeup by Mario Master Mattes Palette - Neutral Eyeshadow for Deer Pretty Look" />
     
 
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
      
        
@@ -262,6 +271,11 @@ style = {{
       <ResponsiveIframe src="https://shopmy.us/collections/public/552928?noHeader=true" title="ISOPIA Iso-Gentle Touch Lashes - Wispy Falsies for Doe-Eyed Makeup" />
    
 
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
        
 
       <p style={paragraphStyle}>
@@ -279,6 +293,11 @@ style = {{
       <ResponsiveIframe src="https://shopmy.us/collections/public/552889?noHeader=true" title="Matte Peach Lipstick and Nude Lipliner - Perfect Lip Pairing for Deer Pretty Look" />
    
 
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
        
 
       <p style={paragraphStyle}>
@@ -315,6 +334,23 @@ style = {{
       <Comments website-id={websiteId} page-id={"Animal-Prizznizzle"} />
   
  
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
    
 

@@ -7,6 +7,8 @@ import styles from './AnimalPretty.module.css';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
+import DividerWithText from '../../../Home/DividerWithText';
+import AdSenseAd from '../../../Home/Adsense';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxTitleResults.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FoxPretty.png`;
@@ -195,6 +197,7 @@ const FoxPretty = () => {
       <p style={captionStyle}>
        <em> Fox Beauty Tutorial starts at 13:20 </em>
       </p>
+
       <div
 style = {{
   margin: '1rem auto',
@@ -205,6 +208,13 @@ style = {{
 
 
 </div>
+
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     
           <p style={paragraphStyle}>
         Your free-spirited and adventurous nature makes you a perfect match for the Fox Pretty style. With a love for earthy tones and a makeup style that features warm, rustic shades, you capture the essence of the wild and whimsical fox.
@@ -225,10 +235,17 @@ style = {{
         Celebrity Inspirations: Sadie Sink is the quintessential muse for this look, with her rustic red hues in her hair and brows. Her natural beauty enhanced with earthy makeup perfectly captures the Fox Pretty aesthetic.
       </p>
 
-    
+
+  
       <p style={paragraphStyle}>
         Note: If you're a redhead with bright blue eyes and vibrant hair that leans more towards the Spring colour season, you might find the “Bunny Pretty” guide with its softer pink shades more flattering than the rustic tones of Fox Pretty.
       </p>
+
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       
       <h2 style={headingStyle}>Achieve the Fox Pretty Look :</h2>
 
@@ -237,7 +254,8 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552844?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
+
+
 
       
     
@@ -246,14 +264,20 @@ style = {{
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552845?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
+      
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <p style={paragraphStyle}>
         Cheeks: Apply dual blush tones—a rose shade for a vibrant pop of colour and a deeper rose to define the cheekbones.
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552846?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
-      <p className={styles.affiliateLink}>CONTAINS: AFFILIATE LINKS</p>
+
 
       <p style={paragraphStyle}>
         Lips: A matte berry or a rustic red lip, smudged out for a softer, more approachable look. Add a touch of golden metallic highlight to the cheekbones and pat over the centre of the lip for a unique, textured finish.
@@ -284,6 +308,23 @@ style = {{
 
     
     
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     
     
       
