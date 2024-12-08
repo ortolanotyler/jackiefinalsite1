@@ -108,7 +108,11 @@ function HomePage() {
           <QuiltedImageList1 />
         </Box>
 
-       
+        <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
         
 
 
