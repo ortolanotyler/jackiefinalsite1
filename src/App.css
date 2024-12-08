@@ -3,7 +3,7 @@
 /* Ensure fonts are properly loaded with font-display swap */
 * {
   font-display: swap;
-  margin: 5px; /* Remove default margins for all elements */
+  margin: 0; /* Remove default margins for all elements */
   padding: 0; /* Remove default paddings for all elements */
   box-sizing: border-box; /* Prevent elements from exceeding their boundaries */
 }
@@ -23,7 +23,7 @@ html, body {
   overflow-x: hidden; /* Prevent horizontal scrolling */
   overflow-y: auto; /* Allow vertical scrolling */
   background-color: #ffffff; /* Uniform background color */
-  margin: 1rem; /* Reset default margin */
+  margin: 0; /* Reset default margin */
   padding: 0; /* Reset default padding */
   height: 100%; /* Ensure full height */
   font-family: "EB Garamond", serif; /* Fallback font */
@@ -39,3 +39,9 @@ html, body {
   z-index: 10; /* Higher than main-content */
 }
 
+.ad-container {
+  width: 100%; /* Ensure the container takes full width */
+  max-width: 728px; /* Limit to a standard ad size if needed */
+  padding: 1rem;
+  margin: 1rem auto;
+}

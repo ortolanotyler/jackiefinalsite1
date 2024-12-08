@@ -7,6 +7,8 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import AdSenseAd from '../../../Home/Adsense';
 
 const Balke3 = `${process.env.PUBLIC_URL}/Images/Articles/Balke/BalkeFaceChart.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
@@ -238,7 +240,11 @@ const BalkeBlog = () => {
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493363?noHeader=true" title="Concealer Makeup Reccomendations 60s inspired" />
 
-  
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 
@@ -271,6 +277,11 @@ const BalkeBlog = () => {
 <p style={paragraphStyle}>
   For this eyeshadow look, I used the Too Faced Natural Lust Palette which was the perfect palette, but was limited edition and hard to find now! After doing some digging, I came across a similar palette called Melt Cosmetics Gemini Eyeshadow Palette which has the shades we will need.
 </p>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
   Blend a yellow gold and a dingy green-bronze through the crease, fading towards the brow bone. When we cut the crease next, we will achieve that classic 60s shape, but having these rustic tones peeking above softens the look and makes any eye color pop.
