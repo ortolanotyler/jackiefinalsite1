@@ -326,7 +326,7 @@ function App() {
             <Route path="/quiz/animalpretty" element={<Quiz2Homepage />} />
             <Route path="/articles/harley-quinn-evolution" element={<HarleyQuinnEvolution />} />
             <Route path="/articles/rembeauty/wicked-review" element={<RemBeautyWickedReview />} />
-            <Route path="/articles/wicked-barbie-collabs" element={<Wicked4 />} />
+            <Route path="/articles/galindafied-vs-barbiecore" element={<Wicked4 />} />
 
             <Route path="*" element={<NotFound/>} />
           </Route>
