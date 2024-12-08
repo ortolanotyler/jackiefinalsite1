@@ -11,10 +11,8 @@ const image4 = `${process.env.PUBLIC_URL}/Images/Home/homepage4.webp`;
 const itemData = [
   { img: image3, title: 'Beauty', link: '/tutorials' },
   { img: image2, title: 'Quiz', link: '/quiz' },
-
   { img: image1, title: 'Travel', link: '/travel' },
   { img: image4, title: 'Pop Culture', link: '/popculture' },
- 
 ];
 
 export default function QuiltedImageList1() {
@@ -61,19 +59,19 @@ export default function QuiltedImageList1() {
               top: '50%',
               left: '50%',
               transform: 'translate(-50%, -50%)',
-              backgroundColor: 'rgba(0, 0, 0, 0.095)', // Semi-transparent background
+              backgroundColor: 'rgba(0, 0, 0, 0.04)', // Semi-transparent background
               color: '#ffffff',
-              padding: '1px 20px',
+              padding: '10px 20px',
               borderRadius: '5px',
               textDecoration: 'none',
               fontFamily: 'Playfair Display, serif',
-              fontSize: '33px',
-              fontWeight: '400',
               textAlign: 'center',
               transition: '0.3s ease',
+              fontSize: '1.25rem', // Responsive font size
+              fontWeight: '400',
             }}
             onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.7)')}
-            onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.5)')}
+            onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.4)')}
           >
             {item.title}
           </a>
