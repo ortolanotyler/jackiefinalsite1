@@ -148,6 +148,7 @@ import MaleFemaleGaze from './Articles/Tutorials/VintageVibes/MaleFemaleGaze';
 import HarleyQuinnEvolution from './Articles/Tutorials/PopCulture/Harley';
 import RemBeautyWickedReview from './Articles/Tutorials/PopCulture/Wicked3';
 import Wicked4 from './Articles/Tutorials/PopCulture/Wicked4';
+import TaylorErasTour from './Articles/Tutorials/PopCulture/TaylorSwift2';
 
 
 function usePageTracking() {
@@ -327,6 +328,7 @@ function App() {
             <Route path="/articles/harley-quinn-evolution" element={<HarleyQuinnEvolution />} />
             <Route path="/articles/rembeauty/wicked-review" element={<RemBeautyWickedReview />} />
             <Route path="/articles/galindafied-vs-barbiecore" element={<Wicked4 />} />
+            <Route path="/articles/taylor-swift-eras-tour" element={<TaylorErasTour />} />
 
             <Route path="*" element={<NotFound/>} />
           </Route>
