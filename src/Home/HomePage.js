@@ -178,11 +178,7 @@ function HomePage() {
 
       </Box>
      
-      <DividerWithText text = "Ad"/>
-        <div className="ad-container">
-  <AdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
+
 
 </Box>
 
