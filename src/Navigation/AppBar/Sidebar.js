@@ -13,7 +13,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
     { name: 'HOME', path: '/' },
     { name: 'ABOUT', path: '/about' },
-    { name: 'QUIZZES', path: '/quiz-2-home' },
+    { name: 'QUIZZES', path: '/quiz' },
     { name: 'DIARY', path: '/diary' },
     { name: 'BEAUTY TUTORIALS', path: '/tutorials' },
     { name: 'POP CULTURE', path: '/popculture' },
