@@ -7,6 +7,8 @@ import { Helmet } from 'react-helmet-async';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 import SocialShare from '../../Home/SocialShare';
+import DividerWithText from '../../Home/DividerWithText';
+import SmallAdSenseAd from '../../Home/AdsenseSmall';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fairytalethumbnail.jpg`;
@@ -693,7 +695,21 @@ Thank you for reading and for being part of our journey and my life for so many 
       <Comments website-id={websiteId} page-id={"Fairytale-Wedding"} />
 
          
-
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
    
    
       

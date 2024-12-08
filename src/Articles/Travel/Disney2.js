@@ -6,6 +6,8 @@ import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import ArticleTitle from '../../Components/ArticleTitle';
 import DropCap1 from './DropCap1';
 import SocialShare from '../../Home/SocialShare';
+import SmallAdSenseAd from '../../Home/AdsenseSmall';
+import DividerWithText from '../../Home/DividerWithText';
 
 const articleUrl = 'https://www.jackiewyers.beauty/epcot';
 const articleTitle = 'Epcot | Jackie Wyers';
@@ -252,7 +254,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <DropCap1 text="Welcome to part two of my experience at Walt Disney World in 2023! Over in part one, I reviewed Walt Disney's Beach Club Resort but now let’s talk Epcot, Magic Kingdom and Animal Kingdom! My best friend Lauren and I had such an enchanting experience together, and I hope this travel diary of two 20-somethings can help you plan your Disney trip. I don’t have tips about traveling with children, so consider this our adult 3-day guide to Walt Disney World!"/>
 
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       
 
@@ -265,7 +271,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 <img src={images[0]} alt='Epcot' style={imageStyle} />
 
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style={headingStyle}>🗺 What does EPCOT mean?</h2>
 <p style={paragraphStyle}>
@@ -295,7 +305,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 <img src={images[2]} alt='Flower & Garden Festival' style={imageStyle} />
 
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style={headingStyle}>🇫🇷 Pavilion Highlights!</h2>
 <p style={paragraphStyle}>
@@ -315,7 +329,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/epcot/japan/" target="_blank" rel="noreferrer">Japan’s Pavilion</a> is so serene, featuring a majestic torii gate and a detailed replica of the <a style={linkStyle} href="https://whc.unesco.org/en/list/688/" target="_blank" rel="noreferrer">Katsura Imperial Villa</a>. In the shops, you can also find <a style={linkStyle} href="https://www.animal-crossing.com/" target="_blank" rel="noreferrer">Animal Crossing</a> plushies, <a style={linkStyle} href="https://sailormoon-official.com/" target="_blank" rel="noreferrer">Sailor Moon</a>, Kirby, and more anime merchandise, which I was over the moon about. I didn’t expect to see any franchises other than Disney!
 </p>
 <img src={images[5]} alt='Japan Pavilion' style={imageStyle} />
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <p style={paragraphStyle}>
@@ -340,7 +358,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   Try <a style={linkStyle} href="https://jeffreyscoffee.com" target="_blank" rel="noreferrer">Joffrey’s</a> special drinks to stay hydrated; the space-themed drinks are very fun and sweet.
 </p>
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <h2 style={headingStyle}>💥 The Most Epic Night-Show</h2>
 <p style={paragraphStyle}>
   Seeing Epcot at night is a must as well. There are far fewer kids, lots of drinks, and food to try. We headed back to <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/epcot/france/" target="_blank" rel="noreferrer">France</a> and got a delicious crepe and ate by the ”The Fountain of Rats.” We stayed out until the night show, which recently changed to a new show called <a style={linkStyle} href="https://disneyworld.disney.go.com/entertainment/epcot/luminous-symphony-of-us/" target="_blank" rel="noreferrer">'Luminous: Symphony of Us'</a>.
@@ -370,7 +392,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   <a style={linkStyle} href="https://disneyworld.disney.go.com/attractions/magic-kingdom/pirates-of-the-caribbean/" target="_blank" rel="noreferrer">Adventureland’s Pirates of the Caribbean Ride</a> and <a style={linkStyle} href="https://disneyworld.disney.go.com/attractions/magic-kingdom/space-mountain/" target="_blank" rel="noreferrer">Tomorrowland's Space Mountain</a> offered immersive experiences that were both exhilarating and breathtaking! Again, a <a style={linkStyle} href="https://disneyworld.disney.go.com/genie/" target="_blank" rel="noreferrer">Genie+</a> would have elevated our experience. If you are choosing which rides to use the fast pass on, Space Mountain is a good one to use as the line gets very long.
 </p>
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <p style={paragraphStyle}>
@@ -396,7 +422,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <img src={images[12]} alt='Animal Kingdom' style={imageStyle} />
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
   The <a style={linkStyle} href="https://disneyworld.disney.go.com/attractions/animal-kingdom/tree-of-life/" target="_blank" rel="noreferrer">Tree of Life</a> is a masterpiece with intricately carved artwork of various animals, standing a whopping 145 feet tall and 50 feet wide at its base. Live animals surround the tree, including beautiful birds. At night, the Tree of Life Awakening is a light and music show.
 </p>
@@ -412,7 +442,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   An amazing experience for animal lovers is the <a style={linkStyle} href="https://disneyworld.disney.go.com/attractions/animal-kingdom/kilimanjaro-safaris/" target="_blank" rel="noreferrer">Kilimanjaro Safari</a> ride through the African savannah. Seeing the <a style={linkStyle} href="https://disneyworld.disney.go.com/attractions/animal-kingdom/harambe-wildlife-reserve/" target="_blank" rel="noreferrer">Harambe Wildlife Reserve</a> from the safari bus and getting so close to beautiful giraffes, elephants, rhinos, ostriches, and catching a glimpse of lions was astounding. We went towards the end of the day, and there wasn't a line at all.
 </p>
 <img src={images[14]} alt='Kilimanjaro Safari' style={imageStyle} />
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <h2 style={headingStyle}>⛰ Must-Do Rides!</h2>
 <p style={paragraphStyle}>
   One of the most thrilling rides I went on during the trip is called <a style={linkStyle} href="https://disneyworld.disney.go.com/attractions/animal-kingdom/expedition-everest/" target="_blank" rel="noreferrer">Expedition Everest</a>. You might be able to spot a mountain, far off in the horizon when you're walking around Animal Kingdom, and the coaster is inside the mountain located in the Asia section of the park.
@@ -440,7 +474,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   While the theme park does its best to make the <a style={linkStyle} href="https://disneyworld.disney.go.com/attractions/animal-kingdom/avatar-flight-of-passage/" target="_blank" rel="noreferrer">Flight of Passage</a> queue exciting with winding paths through the Pandora landscapes, when Lauren and I went, we waited close to two hours, which was pretty exhausting at the end of the day. So again, I can’t stress enough, if you can swing it, do the <a style={linkStyle} href="https://disneyworld.disney.go.com/genie/" target="_blank" rel="noreferrer">Genie+</a> and just pay extra to walk right to the front of the line.
 </p>
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
   We sadly didn't have enough time after the long wait to do the <a style={linkStyle} href="https://disneyworld.disney.go.com/attractions/animal-kingdom/navi-river-journey/" target="_blank" rel="noreferrer">Na'vi River Journey</a>, a boat ride experience deep into a bioluminescent rainforest, but Flight of Passage really was an insanely cool experience I’d love to experience over and over again. Even if you are not particularly a fan of Avatar, you’ll love it.
 </p>
@@ -455,7 +493,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   For dinner, we went to the largest <a style={linkStyle} href="https://www.rainforestcafe.com" target="_blank" rel="noreferrer">Rainforest Café</a> in the world, which had an incredible gift shop. I had a great meal of steak, shrimp, and vegetables, while observing all the beautiful fish in the aquarium all around us. See vlog for visuals as my phone had died at the end of a long day and my <a style={linkStyle} href="https://www.apple.com/iphone/" target="_blank" rel="noreferrer">iPhone</a> is what captured all the images in this post!
 </p>
 <img src={images[17]} alt='Rainforest Cafe' style={imageStyle} />
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
   I hope you enjoyed reading my Walt Disney World experience, and a throwback picture to my first time visiting with my family in 2002. Both times gave me priceless memories with the people I love!
 </p>
@@ -469,6 +511,21 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       
 
       <Comments website-id={websiteId} pageId={"epcot"} />
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     </div>
   );
 

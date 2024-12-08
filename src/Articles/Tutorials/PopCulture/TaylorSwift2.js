@@ -257,14 +257,11 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
   The Lover era is filled with colorful pastel visuals, and if you want to channel that style, check out my <strong>ME!</strong> music video makeup tutorial:
 </p>
 
-<div style={{ textAlign: 'center', margin: '20px auto' }}>
-  <iframe
-    title="ME! Makeup and Hairstyles"
-    src="https://www.youtube.com/embed/Uai6tKJArnc?si=XnF1RFD1e25Tw7r2"
-    style={{ width: '100%', height: '340px', border: 'none' }}
-    allowFullScreen
-  ></iframe>
-</div>
+
+<ResponsiveYoutube src="https://www.youtube.com/embed/Uai6tKJArnc?si=XnF1RFD1e25Tw7r2" title="TAYLOR SWIFT THE ERAS TOUR with my Lover👩🏽‍❤️‍💋‍👨🏽💖🌈 Tampa FL!" />
+
+
+
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/FuXNumBwDOM?si=1h9F3QUMDcWNBeD6" title="TAYLOR SWIFT THE ERAS TOUR with my Lover👩🏽‍❤️‍💋‍👨🏽💖🌈 Tampa FL!" />
 
@@ -490,6 +487,8 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
   ></iframe>
 </div>
 
+
+
 <div style={{ textAlign: 'center', margin: '20px auto' }}>
   <iframe
     title="Folklore & Evermore Hairstyles & Outfits"
@@ -498,6 +497,12 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
     allowFullScreen
   ></iframe>
 </div>
+
+<div>
+<ResponsiveYoutube src="https://www.youtube.com/embed/FuXNumBwDOM?si=1h9F3QUMDcWNBeD6" title="TAYLOR SWIFT THE ERAS TOUR with my Lover👩🏽‍❤️‍💋‍👨🏽💖🌈 Tampa FL!" />
+
+</div>
+
 
 
 <p style={paragraphStyle}>

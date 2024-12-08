@@ -9,6 +9,7 @@ import SocialShare from '../../Home/SocialShare.js';
 import HorizontalLine from '../../Components/HorizontalLine.js';
 import DividerWithText from '../../Home/DividerWithText.js';
 import AdSenseAd from '../../Home/Adsense.js';
+import SmallAdSenseAd from '../../Home/AdsenseSmall.js';
 
 
 
@@ -245,7 +246,7 @@ fontStyle: 'italic',
 
       <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -293,11 +294,12 @@ fontStyle: 'italic',
         </div>
       </div>
 
-      <DividerWithText text = "Ad"/>
+  <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
+
       
 <p style={paragraphStyle}>
   <strong>Overall Scent Profile:</strong> A luscious peach opening gives way to a heart overflowing with caramel's sweet embrace, followed by a touch of delicate florals. The base, a comforting blend of warm woods, anchors the fragrance in sophistication.
@@ -321,11 +323,12 @@ fontStyle: 'italic',
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/549701?noHeader=true" title="Final Touches" scrolling="no" />
 
-      <DividerWithText text = "Ad"/>
+  <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
+
       <h2 style={headingStyle}>💗 Review & Recommendations</h2>
       <p style={paragraphStyle}>
         <strong>Longevity:</strong> A commendable 6 to 8 hours on the skin, though individual experiences may vary.
@@ -348,11 +351,12 @@ fontStyle: 'italic',
       <ResponsiveIframe src="https://shopmy.us/collections/public/516464?noHeader=true" title="Final Touches" />
       
 
-      <DividerWithText text = "Ad"/>
+  <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
+
 
 
       <h2 style={headingStyle}>📝 Final Thoughts</h2>
@@ -394,19 +398,21 @@ fontStyle: 'italic',
     <Comments website-id={websiteId} page-id="BonBon" />
     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
+
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
+
     </div>
   );
 

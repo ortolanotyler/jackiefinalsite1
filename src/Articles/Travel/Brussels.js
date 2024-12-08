@@ -8,6 +8,8 @@ import ResponsiveIframe from '../../Components/ResponsiveIframe';
 import NextArticle from '../../Components/NextArticleComponent';
 import EmbeddedGuideBelgium from '../../Components/EmbedBelgium';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
+import DividerWithText from '../../Home/DividerWithText';
+import SmallAdSenseAd from '../../Home/AdsenseSmall';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Brussels/1.JPG`;
@@ -250,6 +252,11 @@ circle moment. So, we packed our bags and headed back to our childhood
 homes, school campus, and some of Brussels’ hidden gems. Oh, and we even
 squeezed in a dreamy day trip to Paris—because, why not?" />
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 
@@ -286,6 +293,12 @@ Belgium" style={imageStyle} />
     <img src={image4} alt="Place Sainte-Catherine in Brussels Belgium in
 the summer" style={imageStyle} />
 </div>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     
       <h2 style={headingStyle}>Galeries Royales Saint-Hubert</h2>
       <p style={paragraphStyle}>
@@ -316,6 +329,11 @@ Brussels Belgium" style={imageStyle} />
 
 </div>
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
       <h2 style={headingStyle}> Back to Our Old Neighbourhoods  </h2>
@@ -340,7 +358,11 @@ Brussels Belgium" style={imageStyle} />
 </p>
 
    
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
   The most surreal part of Stokkel? As we were walking down my old street, Rue Henrott, the current owner of my childhood home was parking in the driveway—and she invited us in! It was wild to step back into my old house after so many years.
@@ -362,7 +384,11 @@ Brussels Belgium" style={imageStyle} />
     <img src={image14} alt="Stokkel Square Movie Theatre" style={imageStyle} /> 
 </div>
 
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <h2 style={headingStyle}>Best of Brussels</h2>
       <p style={paragraphStyle}>
@@ -393,7 +419,11 @@ Brussels Belgium" style={imageStyle} />
     <img src={image20} alt="Mussels, Burger and Frites at The Brothers in
 Brussels Belgium" style={imageStyle} /> 
 </div>
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
   Of course, no trip to Brussels is complete without visiting the iconic <a href="https://visit.brussels/en/place/Manneken-Pis" style={linkStyle}>Manneken Pis</a>. There’s even a <a href="https://www.manekenpis.be/en/museum" style={linkStyle}>Manneken Pis museum</a> where you can check out all of his outfits! The little guy is so tiny but such a hilarious and famous sculpture. You’ll also find tons of art around Brussels inspired by him. Another beautiful spot we explored was <a href="https://visit.brussels/en/place/Place-du-Petit-Sablon" style={linkStyle}>Place du Petit Sablon</a>, which we visited on Belgian National Day. It’s a gorgeous little park surrounded by elegant wrought-iron fencing and adorned with 48 statues representing different ancient guilds of Brussels. The centrepiece is a stunning fountain with statues of Belgian historical figures, making it a perfect place to relax, people-watch, or just take in the peaceful atmosphere. The lush gardens and intricate statues give the square a really charming, almost storybook-like vibe!
 </p>
@@ -418,7 +448,11 @@ School of Brussels" style={imageStyle} />
     <img src={image27} alt="Student Alumni Visiting Track at
 International School of Brussels" style={imageStyle} /> 
 </div>
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
   I wonder if any of you reading this are fellow ISB alumni—if so, how amazing is that school?! I still think back fondly on those epic school trips to France, and of course, the cafeteria food was surprisingly good! ISB really gave us such incredible experiences, and being back on campus was like the ultimate nostalgia trip.
 </p>
@@ -439,7 +473,11 @@ International School of Brussels" style={imageStyle} />
     <img src={image31} alt="View of Eiffel Tower Paris France" style={imageStyle} /> 
 </div>
 
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
   Since we’ve been to Paris quite a few times and already seen all the major sights, after walking forever to get close to the Eiffel Tower (and not getting far), we decided to head to a quintessential Parisian neighbourhood: the <a href="https://en.parisinfo.com/paris-neighbourhoods/the-6th-arrondissement" style={linkStyle}>6th Arrondissement</a> near the <a href="https://en.parisinfo.com/paris-museum-monument/71482/Luxembourg-Gardens" style={linkStyle}>Luxembourg Gardens</a>. It was a more laid back experience compared to visiting tourist hotspots like the <a href="https://www.louvre.fr/en" style={linkStyle}>Louvre</a>, <a href="https://www.notredamedeparis.fr/en/" style={linkStyle}>Notre-Dame</a>, and <a href="https://en.parisinfo.com/paris-neighbourhoods/champs-elysees" style={linkStyle}>Champs-Élysées</a>, and Tyler absolutely loved it. He’s already saying that if we return to Paris, we need to stay in that area again.
 </p>
@@ -473,7 +511,11 @@ France" style={imageStyle} />
 
 <EmbeddedGuideBelgium/>
 
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
     
@@ -488,7 +530,11 @@ L’Oréal Paris. Definitely a more glamorous vlog!
 
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/x5R1WrnatYM?si=XE1y7jzn11c5-bSn" title="WEEK IN MY LIFE🇫🇷 Paris Fashion Week + CHANEL unboxing 2019!" />
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
   If you are planning a Belgium and Paris trip, I hope this article was helpful, and see my Itinerary on <a href="https://plannin.com" style={linkStyle}>Plannin.com</a> as well. Be sure to book for up to 40% off your hotel bookings and read trusted creator reviews to be confident in your choice. Happy travels!
@@ -511,6 +557,22 @@ L’Oréal Paris. Definitely a more glamorous vlog!
       
  
       <Comments website-id={websiteId} page-id={"Brussels-BOY"} />
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
    
     </div>
     

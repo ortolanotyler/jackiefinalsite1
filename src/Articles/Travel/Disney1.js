@@ -6,6 +6,8 @@ import BookNowButton from '../../Components/BookNowButton';
 import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
+import SmallAdSenseAd from '../../Home/AdsenseSmall';
+import DividerWithText from '../../Home/DividerWithText';
 
 
 const beachclub1 = `${process.env.PUBLIC_URL}/Images/Articles/Disney/BeachClub/beachclub1.png`;
@@ -233,7 +235,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
             <DropCap1 text="Welcome to Part One of my magical recap of an unforgettable time at Walt Disney World, FL in 2023. My best friend Lauren and I chose Disney's Beach Club Resort for our stay, marking her first visit and my first return since 2002. This article focuses on our resort experience, offering a glimpse into the luxury and leisure that awaited us at this colonial resort and why we chose to book!" />
 
 
-
+            <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
            
          
            
@@ -251,6 +257,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '2rem 0' }}>
   <BookNowButton href="https://plannin.com/en/hotel/35f4d8f1-5c2d-463b-8164-02c570133851?refId=jackiewyers" target="_blank" rel="noopener noreferrer" />
 </div>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <br />
 
 <p style={paragraphStyle}>
@@ -266,7 +278,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   For the price tag, I’ve seen several complaints about being disappointed by the interior decor. However, I feel it still captures a nostalgic beach vibe, and I doubt you’ll spend too much time in the room with all there is to do! The other resort we considered but was out of our budget was the <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/polynesian-village-resort/" target="_blank" rel="noreferrer">Polynesian Village Resort</a>. This may be a better option for you if the room theme matters a lot for your experience, it features a tropical aesthetic rather than a beach cottage.
 </p>
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style={headingStyle}>🛥 Unique Amenities and Shared Experiences with Yacht Club</h2>
 <img src={beachclub2} alt='Disney Yacht Club' style={imageStyle} />
@@ -280,7 +296,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   The <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/beach-club-resort/" target="_blank" rel="noreferrer">Beach and Yacht Club resorts</a> both offer activities like movies under the stars, tennis, volleyball, campfires, and different watercraft rentals for enjoyment on <a style={linkStyle} href="https://disneyworld.disney.go.com/recreation/boating/" target="_blank" rel="noreferrer">Crescent Lake</a>. You can also enjoy state-of-the-art fitness centers and book spa services for relaxation.
 </p>
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style={headingStyle}>🍹 Storm-Along Bay Pool, Hurricane Hannah’s Waterside Bar & Grill</h2>
 <p style={paragraphStyle}>
@@ -298,7 +318,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   Our evening continued with a leisurely walk along the beach, where we enjoyed the sunset from swings and strolled down the lively <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/boardwalk/" target="_blank" rel="noreferrer">Disney BoardWalk</a>.
 </p>
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
   If <a style={linkStyle} href="https://disneyworld.disney.go.com/destinations/epcot/" target="_blank" rel="noreferrer">Epcot</a> is on your park bucket list, it is only a 5-10 minute walk from the resort. You can also take a quick boat ride to the park.
@@ -318,7 +342,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   The ice cream shop is often booked up if you don’t reserve a table in advance, but luckily there is a window shop where you can get many of the items without a long wait time.
 </p>
 
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <h2 style={headingStyle}>🌊 Walt Disney World Resort Comparison for a Nautical Experience</h2>
 
 
@@ -330,7 +358,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <img src={beachclub10} alt='Disney Gift Shop and Ice Cream' style={imageStyle} />
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
   <a style={linkStyle} href="https://disneyworld.disney.go.com/resorts/beach-club-resort/" target="_blank" rel="noreferrer">Disney's Beach Club Resort</a> is fully accessible to guests with disabilities, offering features like accessible rooms with widened doors and roll-in showers, wheelchair-accessible pathways, and service animal accommodations.
@@ -346,6 +378,22 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
             <div style = {{padding: '1rem 2rem'}}>
             <Comments website-id={websiteId} page-id={"beachclubresort"} />
+            <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
      </div>
         </div>
     );

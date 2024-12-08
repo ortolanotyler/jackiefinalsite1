@@ -6,6 +6,8 @@ import SubscribeVlog from '../../Components/SubscribeVlog';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 import SocialShare from '../../Home/SocialShare';
+import DividerWithText from '../../Home/DividerWithText';
+import SmallAdSenseAd from '../../Home/AdsenseSmall';
 
 
 const articleUrl = 'https://www.jackiewyers.beauty/fable';
@@ -225,7 +227,11 @@ const Fable = () => {
             All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
             </p>
             <DropCap1 text={`Welcome back for a special hotel review of the enchanting Fable Auckland on Queen Street in Auckland, New Zealand. My mom and I embarked on a mother-daughter trip to explore the city and have a dream bridal appointment at Natalie Rose Bridal in Parnell. To see everything we got up to during the week, check out my travel diary/ itinerary at the link below as well as my vlog (it’s a fun one!👰 ).`} />
-
+            <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
     <div style = {{textAlign: 'center', fontSize: '1rem'}}>
     <a href="/newzealand" style = {{color:'black',fontSize: '1rem'}}> New Zealand Experience Here!</a>
@@ -244,6 +250,11 @@ const Fable = () => {
                 <img src={images[0]} alt="Maui room 1" style={imageStyle} />
                 <img src={images[1]} alt="Maui room 2" style={imageStyle} />
             </div>
+            <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
             
             <h2 style={headingStyle}> 🫖 Room Options and Accommodations</h2>
             <p style={paragraphStyle}>
@@ -257,6 +268,11 @@ Classic King room, featuring a plush king-sized <strong> ‘Sofitel My Bed’ </
             <img src={images[4]} alt="Maui room 3" style={imageStyle} />
             <img src={images[5]} alt="Maui room 4" style={imageStyle} />
             </div>
+            <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
             <p style={paragraphStyle}>
             There are various room options, from the Classic Queen to Luxury Rooms and Suites. The prime option is the <strong> Windsor Suite </strong>, with two spacious bedrooms, a balcony, and more luxury amenities. That being said, I was very
@@ -273,7 +289,11 @@ The on-site restaurant, Cooke's, offers exceptional dining experiences, with a f
                 <img src={images[6]} alt="Maui room 1" style={imageStyle} />
                 <img src={images[7]} alt="Maui room 2" style={imageStyle} />
             </div>
-            
+            <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style={headingStyle}>      
     💵 Cost Considerations: Pros and Cons
@@ -289,7 +309,11 @@ Although there was an issue with the heating in our room, which required us to c
 accommodating and comped us a fabulous breakfast because of it. This minor inconvenience was easily overshadowed by the overall quality of our stay.
 
 </p>
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style={headingStyle}> 
     🫖 Dining at Cooke's Restaurant
@@ -307,6 +331,11 @@ the best we've ever had. The restaurant's elegant setting and diverse menu made 
                 <img src={images[9]} alt="Maui room 1" style={imageStyle} />
                 <img src={images[8]} alt="Maui room 2" style={imageStyle} />
             </div>
+            <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
             <h2 style={headingStyle}> 
             🌸 Nearby Attractions
             </h2>
@@ -335,7 +364,11 @@ the best we've ever had. The restaurant's elegant setting and diverse menu made 
              
             </div>
 
-
+            <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
          <h2 style={headingStyle}>
          🦽 Accessibility Note:
 
@@ -384,6 +417,26 @@ Thank you for joining me to see the enchanting Fable Auckland. I’d love to hea
 
      
       <Comments website-id={websiteId} page-id={"FableMcNableStrizz"} />
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     </div>
   );
 

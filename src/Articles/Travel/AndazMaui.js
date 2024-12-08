@@ -8,6 +8,7 @@ import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 import AdSenseAd from '../../Home/Adsense';
 import DividerWithText from '../../Home/DividerWithText';
+import SmallAdSenseAd from '../../Home/AdsenseSmall';
 
 
 
@@ -241,22 +242,24 @@ fontStyle: 'italic',
             <DropCap1 text="Welcome back as we reminisce about the stunning Andaz Maui at Wailea Resort in Hawaii. This trip not only showcased pristine beaches and exquisite hotel amenities but also created unforgettable memories with my best friend Lauren and the amazing team from Benefit Cosmetics Canada." />
    
 
-      <DividerWithText text = "Ad"/>
-      <DividerWithText text = "Ad"/>
+   
+    <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
-<DividerWithText text = "Ad"/>
+
+
 
       
        
-    <DividerWithText text = "Ad"/>
+  <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
+
 
           
             <h2 style={headingStyle}>🌴 First Impressions and Ambiance</h2>
@@ -279,11 +282,12 @@ fontStyle: 'italic',
                 <img src={images[1]} alt="Maui room 1" style={imageStyle} />
                 <img src={images[2]} alt="Maui room 2" style={imageStyle} />
             </div>
-          <DividerWithText text = "Ad"/>
+        <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
+
 
             <h2 style={headingStyle}>🌞 Room Options and Accessibility</h2>
             <p style={paragraphStyle}>
@@ -308,11 +312,12 @@ fontStyle: 'italic',
                 <img src={images[6]} alt="Maui market" style={imageStyle} />
                 <img src={images[7]} alt="Maui market 2" style={imageStyle} />
             </div>
-          <DividerWithText text = "Ad"/>
+        <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
+
 
             <p style={paragraphStyle}>
     While the buffet breakfast costs approximately $49 for adults and $24.50 for children, more economical choices like the <a href="https://www.hyatt.com/en-US/hotel/hawaii/andaz-maui-at-wailea-resort/oggaw/dining" style={linkStyle} target="_blank" rel="noopener noreferrer">Mokapu Market</a> are available for lighter eats or snacks. Lauren and I went to this market daily for ice cream!
@@ -357,11 +362,12 @@ fontStyle: 'italic',
                 <img src={images[18]} alt="Maui view 3" style={imageStyle} />
                 <img src={images[19]} alt="Maui view 4" style={imageStyle} />
             </div>
-          <DividerWithText text = "Ad"/>
+        <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
+
 
             <p style={paragraphStyle}>
     The resort features 36 holes of <a href="https://www.golfwailea.com/" style={linkStyle} target="_blank" rel="noopener noreferrer">golf</a>, two vibrant poolside bars, and four onsite restaurants. Indulge in self-care at the <a href="https://www.andazmaui.com/experiences/spa" style={linkStyle} target="_blank" rel="noopener noreferrer">Awili Spa and Salon</a> with treatments from facials to body scrubs. Lauren & I preferred to stay outdoors, but we did love shopping for beauty products at the spa.
@@ -376,11 +382,12 @@ fontStyle: 'italic',
                 <img src={images[22]} alt="Maui view 8" style={imageStyle} />
                 <img src={images[23]} alt="Maui view 8" style={imageStyle} />
             </div>
-          <DividerWithText text = "Ad"/>
+        <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
+
 
             <h2 style={headingStyle}>🍹 Final Thoughts and Recommendations</h2>
             <p style={paragraphStyle}>
@@ -405,15 +412,24 @@ fontStyle: 'italic',
             <img src={signature} alt="Signature" style={{ width: '100%' }} />
             <div style = {{padding: '1rem 2rem'}}>
 <Comments website-id={websiteId} page-id={"andaz-maui-review"} />
-<div className="ad-container">
-  <AdSenseAd />
+ <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
-<div className="ad-container">
-  <AdSenseAd />
+<DividerWithText text = "Ad"/>
+
+ <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
-<div className="ad-container">
-  <AdSenseAd />
+<DividerWithText text = "Ad"/>
+
+ <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
+<DividerWithText text = "Ad"/>
+
       </div>
         </div>
     );
