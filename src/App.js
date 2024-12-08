@@ -55,7 +55,6 @@ import FoxPretty from './Quiz/QuizResultPages/Quiz2/Fox';
 import BunnyPretty from './Quiz/QuizResultPages/Quiz2/Bunny';
 import CatPretty from './Quiz/QuizResultPages/Quiz2/Cat';
 import DeerPretty from './Quiz/QuizResultPages/Quiz2/Deer';
-import Quiz2 from './Quiz/Quiz2';
 import BusinessContact from './Components/BusinessContact';
 import NinetiesStyle from './Shop/ShopMyHomeLinks/NINETIESSTYLE';
 import PinkLeather from './Shop/ShopMyHomeLinks/PinkLeather';
@@ -148,6 +147,7 @@ import NewsletterSlider from './Home/NewsletterSlider';
 import MaleFemaleGaze from './Articles/Tutorials/VintageVibes/MaleFemaleGaze';
 import HarleyQuinnEvolution from './Articles/Tutorials/PopCulture/Harley';
 import RemBeautyWickedReview from './Articles/Tutorials/PopCulture/Wicked3';
+import Wicked4 from './Articles/Tutorials/PopCulture/Wicked4';
 
 
 function usePageTracking() {
@@ -326,6 +326,7 @@ function App() {
             <Route path="/quiz/animalpretty" element={<Quiz2Homepage />} />
             <Route path="/articles/harley-quinn-evolution" element={<HarleyQuinnEvolution />} />
             <Route path="/articles/rembeauty/wicked-review" element={<RemBeautyWickedReview />} />
+            <Route path="/articles/wicked-barbie-collabs" element={<Wicked4 />} />
 
             <Route path="*" element={<NotFound/>} />
           </Route>
