@@ -9,6 +9,7 @@ import AdSenseAd from '../../../Home/Adsense';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/CatPrettyTitle.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/FinalCat.jpg`;
@@ -230,9 +231,9 @@ style = {{
       </div>
 
     
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
     
@@ -257,9 +258,9 @@ style = {{
       <ResponsiveIframe src="https://shopmy.us/collections/public/552911?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
     
     
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -276,9 +277,9 @@ style = {{
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552839?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
 
-      <DividerWithText text = "Ad"/>
+           <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
     
@@ -315,21 +316,21 @@ style = {{
       
       <Comments website-id={websiteId} page-id={"Animal-Prizznizzle"} />
      
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
     </div>

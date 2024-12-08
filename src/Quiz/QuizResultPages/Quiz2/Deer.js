@@ -9,6 +9,7 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 import AdSenseAd from '../../../Home/Adsense';
 import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const button = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/AnimalQuizResults.jpeg`;
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/DeerPrettyTitle.png`;
@@ -255,9 +256,9 @@ style = {{
       <ResponsiveIframe src="https://shopmy.us/collections/public/552826?noHeader=true" title="Makeup by Mario Master Mattes Palette - Neutral Eyeshadow for Deer Pretty Look" />
     
 
-      <DividerWithText text = "Ad"/>
+           <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -271,9 +272,9 @@ style = {{
       <ResponsiveIframe src="https://shopmy.us/collections/public/552928?noHeader=true" title="ISOPIA Iso-Gentle Touch Lashes - Wispy Falsies for Doe-Eyed Makeup" />
    
 
-      <DividerWithText text = "Ad"/>
+           <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
        
@@ -293,9 +294,9 @@ style = {{
       <ResponsiveIframe src="https://shopmy.us/collections/public/552889?noHeader=true" title="Matte Peach Lipstick and Nude Lipliner - Perfect Lip Pairing for Deer Pretty Look" />
    
 
-      <DividerWithText text = "Ad"/>
+           <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
        
@@ -334,21 +335,21 @@ style = {{
       <Comments website-id={websiteId} page-id={"Animal-Prizznizzle"} />
   
  
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
