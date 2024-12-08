@@ -30,11 +30,11 @@ const GalindafiedVsBarbiecore = () => {
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '2rem',
+    fontSize: '30px',
     fontWeight: '100',
     fontFamily: "Playfair Display, serif",
     color: '#000000',
-    maxWidth: '95%',
+    maxWidth: '100%',
     margin: '30px auto',
   };
 
@@ -42,8 +42,8 @@ const GalindafiedVsBarbiecore = () => {
     fontSize: '20px',
     color: '#000000',
     fontFamily: "EB Garamond, sans-serif",
-    fontWeight: '100',
-    padding: '10px',
+    fontWeight: '400',
+    padding: '0',
     margin: '10px auto',
     lineHeight: '1.75',
   };

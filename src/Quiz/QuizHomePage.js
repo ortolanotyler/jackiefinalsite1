@@ -99,7 +99,7 @@ const QuizHomepage = () => {
 </div>
 
       {/* Male vs Female Gaze Quiz Section */}
-      <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
+      <Box sx={{ margin:'1rem',backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
         <TextReveal
           text="MALE vs FEMALE GAZE QUIZ"
           style={{ backgroundColor: '#fdedef', width: '100%' }}
