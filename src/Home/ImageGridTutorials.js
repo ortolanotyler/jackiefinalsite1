@@ -40,7 +40,7 @@ export default function QuiltedImageList1() {
             alignItems: 'center',
             justifyContent: 'center',
             position: 'relative', // Make position relative to allow overlaying
-            height: '350px', // Set a fixed height for all images
+            height: '450px', // Set a fixed height for all images
           }}
         >
           <img
@@ -59,19 +59,19 @@ export default function QuiltedImageList1() {
               top: '50%',
               left: '50%',
               transform: 'translate(-50%, -50%)',
-              backgroundColor: 'rgba(0, 0, 0, 0.04)', // Semi-transparent background
+              backgroundColor: 'transparent', // Semi-transparent background
               color: '#ffffff',
-              padding: '10px 20px',
-              borderRadius: '5px',
+              padding: '1rem 2rem',
+
               textDecoration: 'none',
               fontFamily: 'Playfair Display, serif',
               textAlign: 'center',
-              transition: '0.3s ease',
-              fontSize: '1.25rem', // Responsive font size
+              transition: '0.5s ease',
+              fontSize: '20px', // Responsive font size
               fontWeight: '400',
             }}
-            onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.7)')}
-            onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.4)')}
+            onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.07)')}
+            onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.04)')}
           >
             {item.title}
           </a>
