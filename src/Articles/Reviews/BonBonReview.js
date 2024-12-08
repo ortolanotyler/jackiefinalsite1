@@ -7,6 +7,8 @@ import ArticleTitle from '../../Components/ArticleTitle.js';
 import NextArticle from '../../Components/NextArticleComponent.js';
 import SocialShare from '../../Home/SocialShare.js';
 import HorizontalLine from '../../Components/HorizontalLine.js';
+import DividerWithText from '../../Home/DividerWithText.js';
+import AdSenseAd from '../../Home/Adsense.js';
 
 
 
@@ -219,6 +221,7 @@ fontStyle: 'italic',
           BEAUTY // REVIEWS
         </a>
       </div>
+
       <div> 
 
         
@@ -239,6 +242,12 @@ fontStyle: 'italic',
       <p style={{ margin: '20px auto', textAlign: 'center', fontSize: '1.1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
       All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
+
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       
 
@@ -283,6 +292,12 @@ fontStyle: 'italic',
           <strong>Base Notes:</strong> Amber, Guaïac wood, Cedarwood, Sandalwood
         </div>
       </div>
+
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       
 <p style={paragraphStyle}>
   <strong>Overall Scent Profile:</strong> A luscious peach opening gives way to a heart overflowing with caramel's sweet embrace, followed by a touch of delicate florals. The base, a comforting blend of warm woods, anchors the fragrance in sophistication.
@@ -305,6 +320,12 @@ fontStyle: 'italic',
 
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/549701?noHeader=true" title="Final Touches" scrolling="no" />
+
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>💗 Review & Recommendations</h2>
       <p style={paragraphStyle}>
         <strong>Longevity:</strong> A commendable 6 to 8 hours on the skin, though individual experiences may vary.
@@ -315,7 +336,6 @@ fontStyle: 'italic',
       <p style={paragraphStyle}>
         <strong>Occasions and Seasonality:</strong> Ideal for the cooler embrace of autumn and winter, Bonbon transitions seamlessly from daytime charm to evening elegance.
       </p>
-      <HorizontalLine/>
 
 
       
@@ -328,7 +348,11 @@ fontStyle: 'italic',
       <ResponsiveIframe src="https://shopmy.us/collections/public/516464?noHeader=true" title="Final Touches" />
       
 
-      
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
       <h2 style={headingStyle}>📝 Final Thoughts</h2>
@@ -353,6 +377,9 @@ fontStyle: 'italic',
         Have you tried Viktor & Rolf fragrances? Let me know your thoughts below, I’d love to hear your experience.
       </p>
 
+      <img src={Signature} alt="Signature" style={{ width: '100%' }} />
+
+
       <NextArticle
       link="/jickyreview"
       imgSrc={nextarticle}
@@ -363,10 +390,23 @@ fontStyle: 'italic',
       imgStyle={{ borderRadius: '0px' }} // customize as needed
     />
 
-          <img src={Signature} alt="Signature" style={{ width: '100%' }} />
 
     <Comments website-id={websiteId} page-id="BonBon" />
-
+    <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     </div>
   );
 
