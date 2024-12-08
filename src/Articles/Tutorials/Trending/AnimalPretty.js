@@ -23,7 +23,7 @@ const Card = ({ blogContent }) => (
   <div
   style={{
     margin: '1rem',
-    maxWidth: '90%', // Control max width to center the content
+    maxWidth: '95%', // Control max width to center the content
     padding: '10px', // Add padding to prevent text from touching the edges
   }}
 >
