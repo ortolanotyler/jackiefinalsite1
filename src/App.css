@@ -26,7 +26,7 @@ html, body {
   margin: 1 ; /* Reset default margin */
   padding: 1; /* Reset default padding */
   padding-top: 50px; /* Reset default padding */
-
+  font-weight: 400;
   height: 100%; /* Ensure full height */
   font-family: "EB Garamond", serif; /* Fallback font */
 }
