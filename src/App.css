@@ -34,7 +34,7 @@ html, body {
 /* Optional: Normalize AppBar margin */
 .AppBar {
   margin: 0; /* Ensure no extra margin for AppBar */
-  padding: 0; /* Ensure no extra padding for AppBar */
+  padding: 1rem; /* Ensure no extra padding for AppBar */
   position: fixed; /* Keep AppBar fixed at the top */
   top: 0; /* Stick to the top */
   width: 100%; /* Full width for AppBar */

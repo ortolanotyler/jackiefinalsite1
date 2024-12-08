@@ -1,6 +1,6 @@
 .quiz2-container {
   display: flex;
-  padding-top: 1rem;
+  padding-top: 0;
   flex-direction: column; /* Stack content vertically */
   justify-content: center; /* Center vertically */
   align-items: center; /* Center horizontally */
@@ -74,10 +74,11 @@
 
 @media (max-width: 650px) {
   .quiz2-answer-button {
-    width: 100%; /* Full width on small screens */
+    width: 90%; /* Full width on small screens */
   }
 
   .quiz2-container {
-    padding: 15px; /* Reduce padding for smaller screens */
+    margin: 1rem auto;
+    padding: 0; /* Reduce padding for smaller screens */
   }
 }
