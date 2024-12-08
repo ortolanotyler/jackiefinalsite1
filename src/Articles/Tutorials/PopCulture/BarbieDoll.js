@@ -12,6 +12,7 @@ import SocialShare from '../../../Home/SocialShare';
 import EmailSubscribe from '../../../Components/EmailSubscribe';
 import DividerWithText from '../../../Home/DividerWithText';
 import AdSenseAd from '../../../Home/Adsense';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/1.JPG`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/2.JPG`;
@@ -275,7 +276,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 <p style = {paragraphStyle}>
@@ -333,7 +334,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -400,7 +401,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -470,7 +471,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
 </div>
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
@@ -547,7 +548,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <h2 style={heading2Style}>
@@ -611,7 +612,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -678,7 +679,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
 </div>
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <div style={{ position: 'relative', display: 'inline-block' }}>
@@ -733,7 +734,7 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -770,17 +771,17 @@ In a <a href = "/barbie-roundup" target = "_blank" rel = "noreferrer"> previous 
     
      <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 

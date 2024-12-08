@@ -11,6 +11,7 @@ import SocialShare from '../../../Home/SocialShare';
 import EmailSubscribe from '../../../Components/EmailSubscribe';
 import DividerWithText from '../../../Home/DividerWithText';
 import AdSenseAd from '../../../Home/Adsense';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
  
 
@@ -286,7 +287,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
   
@@ -326,7 +327,7 @@ transformation that is not only faithful to the film but also entirely wearable.
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -358,10 +359,9 @@ give to beauty lovers!
     
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
-
       <h2 style={headingStyle}>Foundation</h2>
 
       <p style={paragraphStyle}>
@@ -399,10 +399,9 @@ Powders
 
       <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
-
       <h2 style={headingStyle}>Brows</h2>
 
       <p style={paragraphStyle}>
@@ -460,10 +459,9 @@ NYX’s makeup collab with Barbie for more pink lip combos!
   
       <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
-<DividerWithText text = "Ad"/>
- 
+<DividerWithText text = "Ad"/> 
 
 <p style={paragraphStyle}>
   Want to be featured on my site? Submit your recreation or version of this look to my Insta! I’d love to see you switch up your style with confidence!
@@ -492,25 +490,21 @@ NYX’s makeup collab with Barbie for more pink lip combos!
       <Comments website-id={websiteId} page-id={'barbsssie'} />
       <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
-<DividerWithText text = "Ad"/>
-<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/><DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
-<DividerWithText text = "Ad"/>
-<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/><DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
-<DividerWithText text = "Ad"/>
-<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/><DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
-
     </div>
   );
 

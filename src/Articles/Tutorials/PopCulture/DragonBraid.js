@@ -10,6 +10,7 @@ import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
 import AdSenseAd from '../../../Home/Adsense';
 import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 
 
@@ -255,7 +256,7 @@ const DragonBraid = () => {
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -428,7 +429,7 @@ textAlign: 'center',
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -523,7 +524,7 @@ Finish this look by curling the ends, or add a little bun and a big bow to keep 
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -617,17 +618,17 @@ Check out my <a href = 'https://www.youtube.com/playlist?list=PL-_qSuEl3UwH-XS-K
 
       <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 

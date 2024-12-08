@@ -9,6 +9,7 @@ import SocialShare from '../../../Home/SocialShare';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import DividerWithText from '../../../Home/DividerWithText';
 import AdSenseAd from '../../../Home/Adsense';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
@@ -283,7 +284,7 @@ green skin!
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -355,7 +356,7 @@ green skin!
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -411,7 +412,7 @@ Wicked.
 </p>
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -478,7 +479,7 @@ Target x Wicked iconic cardigan, I love the Aerie line and have listed some of m
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -499,19 +500,19 @@ Target x Wicked iconic cardigan, I love the Aerie line and have listed some of m
       <Comments website-id={websiteId} page-id={"wickedstrizzmonbiiiiiiiizzzzz-65fizz"} />
       <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 

@@ -9,6 +9,7 @@ import SocialShare from '../../../Home/SocialShare';
 import EmailSubscribe from '../../../Components/EmailSubscribe';
 import DividerWithText from '../../../Home/DividerWithText';
 import AdSenseAd from '../../../Home/Adsense';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 
 
@@ -219,9 +220,9 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
    
       <DropCap1 text="Welcome back! Today, I’m sharing some of my top tips for capturing stunning photos on your phone. As someone who isn't a professional photographer and prefers simple, non-technical approaches, these tips are perfect for anyone who loves capturing soft, crisp, true-to-colour images that shine on Instagram." />
-      <DividerWithText text = "Ad"/>
+    <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -239,7 +240,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -292,7 +293,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -328,7 +329,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
@@ -362,7 +363,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </div>
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -387,7 +388,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -412,19 +413,19 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
     <Comments website-id={websiteId} page-id={"Camera-Settings"} />
 
-    <DividerWithText text = "Ad"/>
+  <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
       

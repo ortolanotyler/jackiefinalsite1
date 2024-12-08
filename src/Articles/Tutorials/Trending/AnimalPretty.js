@@ -11,6 +11,7 @@ import SocialShare from '../../../Home/SocialShare';
 import Quiz2 from '../../../Quiz/Quiz2';
 import AdSenseAd from '../../../Home/Adsense';
 import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/animals.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/AnimalPretty/BunnyPretty.JPG`;
@@ -190,11 +191,9 @@ const AnimalPretty = () => {
 </div>
 
 
-       <DividerWithText text = "Ad"/>
-
-
-<div className="ad-container">
-<AdSenseAd/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -264,7 +263,7 @@ const AnimalPretty = () => {
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -279,7 +278,7 @@ const AnimalPretty = () => {
         
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <DividerWithText text = "Ad"/>
@@ -297,7 +296,7 @@ const AnimalPretty = () => {
         
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <DividerWithText text = "Ad"/>
@@ -308,7 +307,7 @@ const AnimalPretty = () => {
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
@@ -340,7 +339,7 @@ const AnimalPretty = () => {
         
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <DividerWithText text = "Ad"/>
@@ -361,7 +360,7 @@ const AnimalPretty = () => {
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
@@ -395,7 +394,7 @@ const AnimalPretty = () => {
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
@@ -419,7 +418,7 @@ const AnimalPretty = () => {
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <h2 style={headingStyle}>Bunny Pretty: Cute and Angelic 🐰</h2>
@@ -461,7 +460,7 @@ const AnimalPretty = () => {
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
@@ -475,7 +474,7 @@ const AnimalPretty = () => {
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
@@ -500,19 +499,19 @@ const AnimalPretty = () => {
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 </div>
@@ -522,7 +521,11 @@ return (
   <div style={layoutStyle}>
     {/* Left Ad */}
     <div className="fixed-ad left-ad">
-      <AdSenseAd />
+    <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
     </div>
 
     {/* Main Content */}
@@ -532,7 +535,11 @@ return (
 
     {/* Right Ad */}
     <div className="fixed-ad right-ad">
-      <AdSenseAd />
+    <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
     </div>
   </div>
 );

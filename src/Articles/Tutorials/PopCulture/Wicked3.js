@@ -299,12 +299,11 @@ const RemBeautyWickedReview = () => {
   />
 </div>
 
-<DividerWithText text="Ad" > </DividerWithText>
-<div className="ad-container">
-  <AdSenseAd />
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
 </div>
-
-<DividerWithText text="Ad" > </DividerWithText>
+<DividerWithText text = "Ad"/>
 <h3 style={headingStyle}>3. r.e.m. beauty x WICKED Ozdust Eyeshadow Palette</h3>
 <ResponsiveIframe
   title="Ozdust Eyeshadow Palette"
@@ -369,12 +368,11 @@ const RemBeautyWickedReview = () => {
 </div>
 
 
-<DividerWithText text="Ad" > </DividerWithText>
-<div className="ad-container">
-  <AdSenseAd />
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
 </div>
-
-<DividerWithText text="Ad" > </DividerWithText>
+<DividerWithText text = "Ad"/>
 
 <h2 style={headingStyle}>Non-Makeup Picks</h2>
 <p style={paragraphStyle}>
@@ -403,12 +401,11 @@ minHeight: '100vh'
   The WICKED movie was a visual and emotional masterpiece. From the dazzling sets and costumes to the breathtaking music, everything felt larger-than-life. As someone new to the WICKED universe (I saw the play for the first time this summer), I loved how the film brought the characters closer through expressive, cinematic moments.
 </p>
 
-<DividerWithText text="Ad" > </DividerWithText>
-<div className="ad-container">
-  <AdSenseAd />
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
 </div>
-
-<DividerWithText text="Ad" > </DividerWithText>
+<DividerWithText text = "Ad"/>
 
 
 
