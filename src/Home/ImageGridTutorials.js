@@ -10,7 +10,7 @@ const image4 = `${process.env.PUBLIC_URL}/Images/Home/homepage4.webp`;
 
 const itemData = [
   { img: image3, title: 'Beauty', link: '/tutorials' },
-  { img: image2, title: 'Quiz', link: '/quiz' },
+  { img: image2, title: 'Quiz', link: '/quiz-2-home' },
   { img: image1, title: 'Travel', link: '/travel' },
   { img: image4, title: 'Pop Culture', link: '/popculture' },
 ];
