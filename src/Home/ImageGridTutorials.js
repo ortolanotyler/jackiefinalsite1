@@ -9,10 +9,12 @@ const image3 = `${process.env.PUBLIC_URL}/Images/Home/homepage5.webp`;
 const image4 = `${process.env.PUBLIC_URL}/Images/Home/homepage4.webp`;
 
 const itemData = [
-  { img: image3, title: 'Beauty', link: '/beauty' },
-  { img: image1, title: 'Travel', link: '/travel' },
-  { img: image4, title: 'Reviews', link: '/reviews' },
+  { img: image3, title: 'Beauty', link: '/tutorials' },
   { img: image2, title: 'Quiz', link: '/quiz' },
+
+  { img: image1, title: 'Travel', link: '/travel' },
+  { img: image4, title: 'Pop Culture', link: '/popculture' },
+ 
 ];
 
 export default function QuiltedImageList1() {
