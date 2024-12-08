@@ -24,7 +24,7 @@ const ArticleTitle = ({ mainTitle, subTitle, author, publishDate }) => {
 const styles = {
   container: {
     textAlign: 'left', // Align the text to the left
-  
+    margin: '1rem',
     width: '100%',
     maxWidth: '1500px', // Optional: limit the width of the container if needed
     
@@ -44,7 +44,7 @@ const styles = {
     fontWeight: '100',
     fontSize: '16px',
     fontStyle: 'italic',
-    margin: '1rem auto',
+    margin: '1rem ',
   
     color: '#000000',
   },
