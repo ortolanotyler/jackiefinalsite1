@@ -20,8 +20,8 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
 const Card = ({ blogContent }) => (
   <div
     style={{
-      margin: '0 auto',
-      maxWidth: '95%', // Control max width to center the content
+      margin: '1rem',
+      maxWidth: '90%', // Control max width to center the content
       padding: '10px', // Add padding to prevent text from touching the edges
     }}
   >

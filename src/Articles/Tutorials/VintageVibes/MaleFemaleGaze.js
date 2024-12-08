@@ -328,10 +328,19 @@ style = {{
 
   return (
     <div ref={blogRef}>
-      <div className="card">
+        <div className="card"
+      style={{
+        margin: '1rem ',
+        maxWidth: '100%',
+        padding: '10px',
+      }}
+    >
+   <div >
         <div className="blog-content">{blogContent}</div>
       </div>
     </div>
+    </div>
+   
   );
 };
 

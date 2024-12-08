@@ -21,13 +21,12 @@ const teespring = `${process.env.PUBLIC_URL}/Images/teespringbanner.jpeg`;
  
   const Card = ({ blogContent }) => (
     <div
-      style={{
-        padding: '10px 20px', // Existing padding
-        margin: '1rem auto',
-        maxWidth: '800px', // Control max width to center the content
-        padding: '10px', // Add padding to prevent text from touching the edges
-      }}
-    >
+    style={{
+      margin: '1rem ',
+      maxWidth: '100%',
+      padding: '10px',
+    }}
+  >
       <div className="card">
         <div className="blog-content">{blogContent}</div>
       </div>

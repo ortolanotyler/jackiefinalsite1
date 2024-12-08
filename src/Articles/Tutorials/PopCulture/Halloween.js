@@ -9,6 +9,8 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import PollComponent from '../../../Components/PollComponent1';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Halloween/1.jpeg`;
@@ -24,8 +26,13 @@ const image8 = `${process.env.PUBLIC_URL}/Images/Articles/Halloween/8.jpeg`;
 const next = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016MakeupThumbnail.jpg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
-  <div style={{ margin: '1rem auto', maxWidth: '90%', padding: '10px' }}>
-
+  <div
+    style={{
+      margin: '1rem',
+      maxWidth: '90%', // Control max width to center the content
+      padding: '10px', // Add padding to prevent text from touching the edges
+    }}
+  >
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
@@ -209,7 +216,11 @@ down all the makeup, hair, and outfit details.
 
 </div>
 
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 
@@ -270,6 +281,12 @@ down all the makeup, hair, and outfit details.
   alt="Shop products featured in Jackie Wyers' Halloween costume ideas inspired by Britney Spears." 
 />
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 <h2 style = {headingStyle}>
 ✨ Margot Robbie as Barbie
 –‘Barbie Movie’ 👱
@@ -311,7 +328,11 @@ movie is Jacqueline Durran, Barbie Movie Costume by
   title="Halloween Makeup Edition" 
   alt="Explore Barbie-inspired outfits and makeup products featured in Jackie Wyers' Halloween costume ideas 2024." 
 />
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style = {headingStyle}>
 ✨ Halle Bailey as Ariel
@@ -347,7 +368,11 @@ Wyers. Costume design by Colleen Atwood.
   title="Halloween Makeup Edition" 
   alt="Shop Ariel-inspired costumes and accessories from The Little Mermaid as featured in Jackie Wyers' Halloween guide." 
 />
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style = {headingStyle}>
 ✨ Francesca Bridgerton
@@ -381,7 +406,11 @@ design by John Glaser.
   title="Shop My Victoria's Secret Favorites" 
   alt="Discover Bridgerton-inspired outfits and accessories for Halloween from Jackie Wyers' costume ideas." 
 />
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style = {headingStyle}>
 ✨ Taylor Swift’s “Betty” 🍂
@@ -434,6 +463,11 @@ fall outfit!
   title="Halloween Makeup Edition" 
   alt="Discover Bridgerton-inspired outfits and accessories for Halloween from Jackie Wyers' costume ideas." 
 />
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <h2 style = {headingStyle}>
 ✨ YSL 1999 Haute Couture Bride 🌸
 </h2>
@@ -471,6 +505,11 @@ Check Michaels for craft supplies!
   title="YSL Haute Couture Bride makeup and hair tutorial" 
   alt="YSL 1999 Haute Couture Bride inspired makeup and hair tutorial by Jackie Wyers, featuring romantic pink tones and high-fashion bridal fantasy." 
 />
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <h2 style = {headingStyle}>
 
 ✨ Audrey Hepburn
@@ -503,7 +542,11 @@ Recreation by Jackie Wyers.
   title="Halloween Makeup Edition" 
   alt="Explore Audrey Hepburn Breakfast at Tiffany's inspired accessories from Jackie Wyers' Halloween costume guide." 
 />
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <h2 style = {headingStyle}>
 ✨ Original Barbie
 –

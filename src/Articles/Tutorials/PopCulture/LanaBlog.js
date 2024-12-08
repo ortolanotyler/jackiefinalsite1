@@ -8,6 +8,8 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/LanaXskims/LanaTitle.png`;
@@ -18,8 +20,13 @@ const Lana23 = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const sharon = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEBRIDAL.jpeg`;
 
 const Card = ({ blogContent }) => (
-  <div style={{ margin: '1rem', maxWidth: '100%', padding: '10px' }}>
-
+  <div
+    style={{
+      margin: '1rem',
+      maxWidth: '90%', // Control max width to center the content
+      padding: '10px', // Add padding to prevent text from touching the edges
+    }}
+  >
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
@@ -195,6 +202,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <DropCap1 text="Welcome back, Beauties! If your Twitter feed is anything like mine, it's filled with photos from Lana Del Rey's new SKIMS campaign for Valentine's Day, plus memes of little girls praying to a photo of Lana above their bed, worshipping their coquette queen. You've got to love the internet! Seriously though, as a fan of Lana Del Rey's entire discography and aesthetic, I was inspired to recreate the campaign pictures and provide a breakdown of an updated Lana Del Rey makeup look." />
 
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <p style={paragraphStyle}>
         Among the various photoshoot looks by photographer Nadia Lee Cohen, my favorite was set against a red backdrop where Lana wore the “Fits Everybody Lace” Slip Dress in Cherry Blossom Tonal from the new SKIMS collection. The dress wasn't out yet at the time I filmed, but you can check out the linked dress below! Plus, the photo set featured kittens, which I also happen to have. Am I a photographer? No, but I’ll try my best to get a vintage-styled photo, and I hope you find some Valentine’s Day inspiration!
       </p>
@@ -206,7 +218,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </div>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/494200?noHeader=true" title="Skims X Lana Del Rey Collection" />
-
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>The Essence of Lana's SKIMS Makeup Style:</h2>
       <p style={paragraphStyle}>
         Lana's makeup, designed by the talented LA celebrity makeup artist Etienne Ortega, radiated a coquettish, romantic aesthetic with cherub/cupid inspirations. The style highlighted dewy skin, subtle peachy cheeks, and Lana’s classic 1960s inspired soft, cut-crease eyes using shades of taupe and brown. Some behind-the-scenes shots showed Lana's lips as mauve, but the final images revealed a blushing ombre lip. I recreated the final images tones using my makeup kit favourites and some exciting new finds. Ready to look like a vintage doll?
@@ -221,6 +237,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
         Lana's skin appeared exceptionally hydrated and glowing, with a natural-matte finish in the campaign images. I began by applying Tocobo cream to ensure the skin was prepped for makeup. I also tried out the NUDESTIX Dewy Barrier Hydrating Stick, which promised to hydrate and provide a glazed natural skin look, doubling as a primer for makeup application. As much as I love trying out new products, you can totally start your base with only moisturizer!
       </p>
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <h2 style={headingStyle}>Foundation and Concealer:</h2>
       <p style={paragraphStyle}>
@@ -241,7 +262,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493659?noHeader=true" title="Contour and Blush Collection" />
 
-
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>Powder and Highlight:</h2>
       <p style={paragraphStyle}>
         Set everything with powder next; my go-to is Florasis powder for its light, breathable feel. As with all my inspired looks, I love to contour similarly! I added a snatched nose contour, and for highlighting, I chose Charlotte Tilbury's Spotlight Wand. The beauty light wand's slightly metallic finish was perfect for picking up light precisely on the nose tip, which is always one of my favorite steps.
@@ -259,7 +284,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493677?noHeader=true" title="Brows and Eye Makeup Collection" />
-
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <p style={paragraphStyle}>
         A muted, dusty pink appeared to be swept across the lids to add a soft touch of color, complementing the romantic tones of the campaign. For under the lower lash line, I used a rose gold shadow, smoked out near the iris to make the eye color pop. I deepened the lash line again with a deep brown pencil liner in a soft wing and defined the bottom lash line as well. I added a light liner pencil in the waterline for dolly eyes! The eye look was finished with mascara and an outer corner lash in typical Lana fashion.
@@ -279,7 +308,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
         Lana Del Rey’s SKIMS campaign makeup is a stunning blend of coquette and '60s glamour. It's not just a tribute to the vintage era (and Sharon Tate as confirmed by hairstylist on set, Anna Capone) but also perfectly suited for those seeking a romantic look that’s both cute and sexy! Lana's nod to the past is as fresh and relevant today as ever... now let’s check out the collection!
       </p>
-
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>My SKIMS Wish List!</h2>
       <p style={paragraphStyle}>
         At the end of my video tutorial, I shared my top picks from the new collection, along with behind-the-scenes with my cats, Lewis and Santana. Here are my top picks from the new line if you're looking to shop. Did you enjoy this campaign shoot as much as I did? Leave a comment below!
@@ -312,6 +345,22 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
   
       <Comments website-id={websiteId} page-id={"Lasa-Blog-1aasa"} />
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     </div>
   );
 

@@ -10,6 +10,7 @@ import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
 import DividerWithText from '../../../Home/DividerWithText';
 import AdSenseAd from '../../../Home/Adsense';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/HarleyQuinn/Harley1.jpg`;
@@ -19,8 +20,13 @@ const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
 
 
 const Card = ({ blogContent }) => (
-  <div style={{ margin: '1rem auto', maxWidth: '90%', padding: '10px' }}>
-    <div className="card">
+  <div
+    style={{
+      margin: '1rem',
+      maxWidth: '90%', // Control max width to center the content
+      padding: '10px', // Add padding to prevent text from touching the edges
+    }}
+  >    <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
   </div>
@@ -195,9 +201,9 @@ const HarleyQuinnEvolution = () => {
           text="Hey, puddin’! Welcome back for another deep dive into one of the most iconic character makeup looks in pop culture history. Margot Robbie as Harley Quinn is one of DC Comics' best casting choices, and Harley Quinn costumes have become a staple every Halloween."
         />
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -279,9 +285,9 @@ I’ve linked the entire collection above to shop, and now, let’s travel back 
 />
 
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -341,9 +347,9 @@ I’ve linked the entire collection above to shop, and now, let’s travel back 
   When Margot Robbie pitched <em>Birds of Prey</em>, she wanted a more feminist take on Harley Quinn—one that highlighted her independence away from the Joker. Costume designer Erin Benach, makeup department head Deborah LaMia Denaver, and hairstylist Adruitha Lee embraced this vision, reimagining Harley’s style with a bold, quirky twist.
 </p>
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -408,9 +414,9 @@ I’ve linked the entire collection above to shop, and now, let’s travel back 
   </p>
 </div>
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -460,9 +466,9 @@ I’ve linked the entire collection above to shop, and now, let’s travel back 
   Harley Quinn’s cinematic journey showcases a dynamic evolution in her makeup and costume design, and it’s hard to pick a favorite style—but I’d love to know yours in the comments below. Feel free to drop a GIF of your favorite Harley moment!
 </p>
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -522,21 +528,21 @@ I’ve linked the entire collection above to shop, and now, let’s travel back 
       />
 
       <Comments website-id="10910" page-id="harley-quinn-evolution" /> 
-      <DividerWithText text = "Ad"/>
+           <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
-<DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
