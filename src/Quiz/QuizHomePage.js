@@ -11,7 +11,7 @@ import AdSenseAd from '../Home/Adsense';
 
 const QuizHomepage = () => {
   return (
-    <Box sx={{ width: '100%', backgroundColor: 'white', transform: 'translateZ(0)' }}>
+    <Box sx={{ width: '100%', backgroundColor: '#ffffff', transform: 'translateZ(0)' }}>
       <Helmet>
         <title>Jackie Wyers' Quiz Homepage</title>
         <meta
@@ -112,8 +112,7 @@ const QuizHomepage = () => {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          gap: 2,
-          padding: { xs: '10px', md: '30px' },
+          gap: 0,
         }}
       >
         <Quiz5 />
