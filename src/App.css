@@ -23,7 +23,7 @@ html, body {
   overflow-x: hidden; /* Prevent horizontal scrolling */
   overflow-y: auto; /* Allow vertical scrolling */
   background-color: #ffffff; /* Uniform background color */
-  margin: 0; /* Reset default margin */
+  margin: 0  2rem; /* Reset default margin */
   padding: 0; /* Reset default padding */
   height: 100%; /* Ensure full height */
   font-family: "EB Garamond", serif; /* Fallback font */
@@ -43,5 +43,5 @@ html, body {
   width: 100%; /* Ensure the container takes full width */
   max-width: 728px; /* Limit to a standard ad size if needed */
   padding: 0;
-  margin: 1rem ;
+  margin: 0 auto ;
 }
