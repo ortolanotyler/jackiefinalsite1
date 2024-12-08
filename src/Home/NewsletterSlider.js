@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Grid, IconButton, Typography } from '@mui/material';
+import { Box, Grid, IconButton, Typography, useMediaQuery } from '@mui/material';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
 import './NewsletterSlider.module.css'; // Ensure this file exists
 import EmailSubscribe from '../Components/EmailSubscribe';
@@ -31,14 +31,16 @@ const images = [
 ];
 
 const NewsletterSlider = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [leftIndex, setLeftIndex] = useState(0);
+  const [rightIndex, setRightIndex] = useState(1); // Different start index for the right slider
+  const isMobile = useMediaQuery('(max-width:600px)'); // Detect mobile screens
 
-  const handlePrevClick = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
+  const handlePrevClick = (setIndex, currentIndex) => {
+    setIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
   };
 
-  const handleNextClick = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
+  const handleNextClick = (setIndex, currentIndex) => {
+    setIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
   };
 
   return (
@@ -48,26 +50,30 @@ const NewsletterSlider = () => {
         align="center"
         sx={{
           fontFamily: 'Playfair Display, serif',
-          fontSize: '22px',
-          fontWeight: '400', 
+          fontSize: '2.5rem',
+          fontWeight: '400',
           margin: '1rem auto',
-          color: '#fdedef',
+          color: '#000000',
         }}
       >
         Sign up for the weekly newsletter!
       </Typography>
 
-      <Grid container spacing={1} sx={{  maxWidth: '1400px' }}>
-      <Grid item xs={12} sm={6}>
+      <Grid container spacing={0} sx={{ maxWidth: '1200px', margin: '1rem auto' }}>
+        <Grid item xs={12}>
           <EmailSubscribe />
         </Grid>
-        <Grid item xs={12} sm={6}>
+
+        <DividerWithText text="Weekly Newsletter" />
+
+
+        <Grid item xs={12} sm={isMobile ? 12 : 6}>
           <Box
             className="sliderContainer"
             sx={{
               position: 'relative',
-              width: '100%',
-              maxWidth: '300px',
+              width: '80%',
+              
               height: 'auto',
               display: 'flex',
               alignItems: 'center',
@@ -76,36 +82,77 @@ const NewsletterSlider = () => {
             }}
           >
             <img
-              src={images[currentIndex]}
-              alt={`Slide ${currentIndex + 1}`}
+              src={images[leftIndex]}
+              alt={`Slide ${leftIndex + 1}`}
               className="sliderImage"
               style={{
                 width: '100%',
-                borderRadius: '10px',
+                borderRadius: '0px',
                 objectFit: 'cover',
-                margin: '1rem auto',
-
+                margin: '0 auto',
               }}
             />
 
             <IconButton
               className="prevButton"
-              sx={{ position: 'absolute', top: '50%', left: '10px', transform: 'translateY(-50%)', color: 'black' }}
-              onClick={handlePrevClick}
+              sx={{ position: 'absolute', top: '50%', left: '15px', transform: 'translateY(-50%)', color: 'black' }}
+              onClick={() => handlePrevClick(setLeftIndex, leftIndex)}
             >
               <ArrowBack />
             </IconButton>
             <IconButton
               className="nextButton"
-              sx={{ position: 'absolute', top: '50%', right: '10px', transform: 'translateY(-50%)', color: 'black' }}
-              onClick={handleNextClick}
+              sx={{ position: 'absolute', top: '50%', right: '15px', transform: 'translateY(-50%)', color: 'black' }}
+              onClick={() => handleNextClick(setLeftIndex, leftIndex)}
             >
               <ArrowForward />
             </IconButton>
           </Box>
         </Grid>
 
-     
+        {!isMobile && (
+          <Grid item xs={12} sm={6}>
+            <Box
+              className="sliderContainer"
+              sx={{
+                position: 'relative',
+                width: '80%',
+                height: 'auto',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                margin: '1rem auto',
+              }}
+            >
+              <img
+                src={images[rightIndex]}
+                alt={`Slide ${rightIndex + 2}`}
+                className="sliderImage"
+                style={{
+                  width: '100%',
+                  borderRadius: '0px',
+                  objectFit: 'cover',
+                  margin: '0 auto',
+                }}
+              />
+
+              <IconButton
+                className="prevButton"
+                sx={{ position: 'absolute', top: '50%', left: '15px', transform: 'translateY(-50%)', color: 'black' }}
+                onClick={() => handlePrevClick(setRightIndex, rightIndex)}
+              >
+                <ArrowBack />
+              </IconButton>
+              <IconButton
+                className="nextButton"
+                sx={{ position: 'absolute', top: '50%', right: '15px', transform: 'translateY(-50%)', color: 'black' }}
+                onClick={() => handleNextClick(setRightIndex, rightIndex)}
+              >
+                <ArrowForward />
+              </IconButton>
+            </Box>
+          </Grid>
+        )}
       </Grid>
 
       <DividerWithText text="Weekly Newsletter" />

@@ -71,6 +71,7 @@ export default function EmailSubscribe() {
                     variant="h6"
                     sx={{
                       fontFamily: 'Playfair Display, serif',
+                      fontWeight: '400',
                       color: '#745B4F',
                       textAlign: 'center',
                       margin: '0 auto',
