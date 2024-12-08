@@ -48,8 +48,10 @@ const NewsletterSlider = () => {
         align="center"
         sx={{
           fontFamily: 'Playfair Display, serif',
-          margin: '1rem',
-          color: '#000000',
+          fontSize: '22px',
+          fontWeight: '400', 
+          margin: '1rem auto',
+          color: '#fdedef',
         }}
       >
         Sign up for the weekly newsletter!
