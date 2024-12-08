@@ -1,6 +1,6 @@
 .quiz2-container {
   display: flex;
-  padding-top: 15px;
+  padding-top: 1rem;
   flex-direction: column; /* Stack content vertically */
   justify-content: center; /* Center vertically */
   align-items: center; /* Center horizontally */

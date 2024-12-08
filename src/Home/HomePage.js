@@ -107,9 +107,14 @@ function HomePage() {
           <QuiltedImageList1 />
         </Box>
 
-        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, padding: 1 }}>
+        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, padding: 0 }}>
 
 
+        <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <AdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
        
 
         <TextBanner2 text="FEATURED"  margin='0 0.15rem' height="50px" width="100%"  />
@@ -151,11 +156,7 @@ function HomePage() {
   
 
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, padding: 0, mt: 1 }}>
-    <DividerWithText text = "Ad"/>
-        <div className="ad-container">
-  <AdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
+  
 
 
 <TextBanner2 text="NEW & POPULAR"  margin='0 0.15rem' height="100px" width="100%"  />
@@ -180,7 +181,6 @@ function HomePage() {
   <AdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
-
         <TextBanner2 text="VINTAGE VIBES" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />
         
         <VintageVibesCards />
