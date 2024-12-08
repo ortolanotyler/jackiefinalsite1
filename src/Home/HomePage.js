@@ -91,7 +91,7 @@ function HomePage() {
     `}
   </script>
 </Helmet>
-      <Box sx={{ backgroundColor: '#ffffff',display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0', md: '10px' } }}>
+      <Box sx={{ backgroundColor: '#ffffff',display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0', md: '0px' } }}>
       <TextRevealHomePage1 text="JACKIE WYERS" style={{ backgroundColor: '#fdedef', fontFamily: 'Playfair Display, serif', fontWeight: '400', fontSize: '24px' }} />
 
         {!isMobile && (
