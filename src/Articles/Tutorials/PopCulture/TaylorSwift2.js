@@ -695,14 +695,11 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
   While Taylor didn’t perform songs from her debut album, <em>Our Song</em> still holds a special place in my heart! Her colourful eyeshadow looks from that video are perfect for summer beauty inspiration. Want a blast from the past? Watch my video from 10 years ago when I was a young Swiftie recreating Taylor’s style:
 </p>
 
-<div style={{ textAlign: 'center', margin: '20px auto' }}>
-  <iframe
-    title="Recreating Taylor's Debut Looks"
-    src="https://www.youtube.com/embed/l92ijU80HbI"
-    style={{ width: '100%', height: '340px', border: 'none' }}
-    allowFullScreen
-  ></iframe>
-</div>
+
+
+<ResponsiveYoutube src="https://www.youtube.com/embed/l92ijU80HbI?si=PEcpagFK3w3Wv1wf" title="TAYLOR SWIFT THE ERAS TOUR with my Lover👩🏽‍❤️‍💋‍👨🏽💖🌈 Tampa FL!" />
+
+
 
 <p style={paragraphStyle}>
   I recently bought some new Taylor merch from her latest holiday drop, all debut album-themed! I love a good butterfly print 🦋. 
