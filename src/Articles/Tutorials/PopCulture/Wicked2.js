@@ -45,13 +45,13 @@ const WickedCollabs = () => {
 
   return (
     <div ref={blogRef}>
-      <div
-        style={{
-          margin: '1rem',
-          maxWidth: '100%',
-          padding: '10px',
-        }}
-      >
+  <div
+      style={{
+        margin: '1rem ',
+        maxWidth: '100%',
+        padding: '5px',
+      }}
+    >
         <div className="card">
           <div className="blog-content">
           <Helmet>

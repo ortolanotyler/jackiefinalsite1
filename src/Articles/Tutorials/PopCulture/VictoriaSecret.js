@@ -21,12 +21,12 @@ const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
 
 const Card = ({ blogContent }) => (
   <div
-    style={{
-      margin: '0 auto',
-      maxWidth: '95%', // Control max width to center the content
-      padding: '10px', // Add padding to prevent text from touching the edges
-    }}
-  >
+      style={{
+        margin: '1rem ',
+        maxWidth: '100%',
+        padding: '5px',
+      }}
+    >
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
