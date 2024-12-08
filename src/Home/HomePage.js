@@ -107,27 +107,10 @@ function HomePage() {
           <QuiltedImageList1 />
         </Box>
 
-        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, padding: 0 }}>
-
-
-
-        <TextBanner2 text="FEATURED"  margin='0 0.15rem' height="50px" width="100%"  />
-  
-        <DividerWithText text="🐈‍⬛🦌"/>
-
-    <TextReveal
-        text="Animal Pretty Quiz" 
-        style={{ backgroundColor: '#fdedef', width: '100%', height: '100%', backgroundColor:'#ffffff' }} 
-      />
-
-<DividerWithText text="🐇🦊"/>
-
-</Box>
      
 
         
 
-      <Quiz2 />
 
 
 
