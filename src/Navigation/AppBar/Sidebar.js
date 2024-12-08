@@ -13,7 +13,9 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
     { name: 'HOME', path: '/' },
     { name: 'ABOUT', path: '/about' },
-    { name: 'QUIZZES', path: '/quiz' },
+    { name: 'ANIMAL PRETTY QUIZ', path: '/quiz-2-home' },
+
+    { name: 'QUIZ HOMEPAGE', path: '/quiz' },
     { name: 'TAYLOR SWIFT HOLIDAY GUIDE', path: '/articles/taylor-swift-holidays-2024' },
     { name: 'TAYLOR SWIFT ERAS TOUR', path: '/articles/taylor-swift-eras-tour' },
 
