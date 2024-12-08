@@ -23,8 +23,8 @@ html, body {
   overflow-x: hidden; /* Prevent horizontal scrolling */
   overflow-y: auto; /* Allow vertical scrolling */
   background-color: #ffffff; /* Uniform background color */
-  margin: 0 1rem ; /* Reset default margin */
-  padding: 0; /* Reset default padding */
+  margin: 0 ; /* Reset default margin */
+  padding: 1rem; /* Reset default padding */
   padding-top: 60px; /* Reset default padding */
 
   height: 100%; /* Ensure full height */
