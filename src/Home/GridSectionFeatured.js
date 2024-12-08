@@ -24,6 +24,25 @@ const FeaturedGrid6 = () => {
 />
   </Box>
 </Grid>
+<Grid item xs={12} sm={6} md={6} lg={4}>
+  <Box
+    sx={{
+      height: '100%',
+      width: '100%',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+    }}
+  >
+    <HeroSection2a
+      featureText="FEATURED"
+      headlineText="Taylor Swift Eras Tour Makeup: Recreate Iconic Looks from Lover to Midnights"
+      imagePath="TaylorSwift3/TaylorEvermoreDressonJackie.JPG"
+      linkUrl="/articles/taylor-swift-eras-tour"
+      isFlipped={false}
+    />
+  </Box>
+</Grid>
         
 <Grid item xs={12} sm={6} md={6} lg={4}>
   <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
