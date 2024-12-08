@@ -13,17 +13,16 @@ const SmallAdSenseAd = () => {
   }, []);
 
   return (
-    <div style={{ textAlign: 'center', margin: '1rem auto' }}>
-      <ins
+    <div style={{ textAlign: 'center', margin: '1rem ' }}>
+     <ins
         className="adsbygoogle"
-        style={{ display: 'block' }}
+        style={{ display: 'inline-block', width: '300px', height: '50px' }}
         data-ad-client="ca-pub-4660168246825318"
-        data-ad-slot="8192987306"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
+        data-ad-slot="6584902918"
       ></ins>
     </div>
   );
 };
 
 export default SmallAdSenseAd;
+

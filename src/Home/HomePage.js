@@ -16,6 +16,7 @@ import MyStyleSlider1 from '../Shop/MyStyleSlider1';
 import Quiz2 from '../Quiz/Quiz2';
 import AdSenseAd from './Adsense';
 import DividerWithText from './DividerWithText';
+import SmallAdSenseAd from './AdsenseSmall';
 
 
 function HomePage() {
@@ -107,8 +108,12 @@ function HomePage() {
           <QuiltedImageList1 />
         </Box>
 
-     
-
+        <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+       
         
 
 
