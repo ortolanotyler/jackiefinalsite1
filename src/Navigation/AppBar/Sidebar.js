@@ -14,6 +14,9 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'HOME', path: '/' },
     { name: 'ABOUT', path: '/about' },
     { name: 'QUIZZES', path: '/quiz' },
+    { name: 'TAYLOR SWIFT HOLIDAY GUIDE', path: '/articles/taylor-swift-holidays-2024' },
+    { name: 'TAYLOR SWIFT ERAS TOUR', path: '/articles/taylor-swift-eras-tour' },
+
     { name: 'DIARY', path: '/diary' },
     { name: 'BEAUTY TUTORIALS', path: '/tutorials' },
     { name: 'POP CULTURE', path: '/popculture' },
@@ -24,6 +27,8 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'TRAVEL ARTICLES', path: '/travel' },
     { name: 'DIARY', path: '/diary' },
     { name: 'REM BEAUTY WICKED REVIEW', path: '/articles/rembeauty/wicked-review' },
+    { name: 'MALE VS FEMALE GAZE QUIZ', path: '/quiz/quiz-5-home' },
+    { name: 'WICKED COLLABORATIONS', path: '/articles/wicked-collaborations-2024' },
 
     { name: 'YARDLEY 1965', path: '/yardley1965' },
     { name: 'TWIGGY', path: '/twiggy' },
@@ -58,12 +63,8 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'BRIDAL', path: '/bridal' },
     { name: 'LATEST EXPLORER', path: '/latestexplorer' },
     { name: 'HAIR GROWTH SECRETS', path: '/articles/hair-growth-secrets' },
-    { name: 'WICKED COLLABORATIONS', path: '/articles/wicked-collaborations-2024' },
     { name: 'DCC CHEERLEADER TRANSFORMATION', path: '/articles/dcc-cheerleader' },
-    { name: 'TAYLOR SWIFT HOLIDAY GUIDE', path: '/articles/taylor-swift-holidays-2024' },
-    { name: 'MALE VS FEMALE GAZE', path: '/articles/male-female-gaze' },
     { name: 'HARLEY QUINN EVOLUTION', path: '/articles/harley-quinn-evolution' },
-    { name: 'REM BEAUTY WICKED REVIEW', path: '/articles/rembeauty/wicked-review' },
   ];
 
   return (
