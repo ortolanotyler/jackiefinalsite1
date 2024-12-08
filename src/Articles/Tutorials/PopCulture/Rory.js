@@ -27,13 +27,8 @@ const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
 const next = `${process.env.PUBLIC_URL}/Images/Articles/BarbieDoll/JackieWyersBarbieThumb.jpeg`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const Card = ({ blogContent }) => (
-  <div
-      style={{
-        margin: '1rem ',
-        maxWidth: '100%',
-        padding: '5px',
-      }}
-    >
+  <div style={{ margin: '1rem', maxWidth: '100%', padding: '10px' }}>
+
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
@@ -327,7 +322,7 @@ const Rory = () => {
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
-
+https://res.cloudinary.com/dvbubqhpp/image/upload/v1733670492/TaylorLoversBodysuit_1_zpimsv.jpg
       <p style={paragraphStyle}>
   The fresh-faced look of Rory Gilmore was carefully crafted by talented makeup artists throughout the series. In later seasons, <a href="https://www.imdb.com/name/nm0853242/" target="_blank" rel="noopener noreferrer">Tegan Taylor</a> was one of the key makeup artists who worked on the show, bringing Rory’s no-makeup makeup aesthetic to life. Taylor has shared some of the exact products used on the actors in the later seasons as seen in this <a href="https://eliza.co.uk/beauty/gilmore-girls-makeup" target="_blank" rel="noopener noreferrer">interview</a>, though finding the precise Y2K-era products can be a challenge today. Staples like sheer foundations, natural blushes, and the iconic Cherry ChapStick were essential in creating <a href="https://www.imdb.com/name/nm0088127/" target="_blank" rel="noopener noreferrer">Alexis Bledel’s</a> look as Rory.
 </p>

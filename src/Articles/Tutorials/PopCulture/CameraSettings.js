@@ -34,13 +34,8 @@ const fairytale = `${process.env.PUBLIC_URL}/Images/Articles/FairytaleWedding/fa
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 
 const Card = ({ blogContent }) => (
-  <div
-      style={{
-        margin: '1rem ',
-        maxWidth: '100%',
-        padding: '5px',
-      }}
-    >
+  <div style={{ margin: '1rem', maxWidth: '100%', padding: '10px' }}>
+
     <div className="card">
       <div className="blog-content">{blogContent}</div>
     </div>
