@@ -12,9 +12,9 @@ import { Comments } from '@hyvor/hyvor-talk-react';
 const Card = ({ blogContent }) => (
     <div
       style={{
-        margin: '1rem auto',
+        margin: '1rem ',
         maxWidth: '100%',
-        padding: '',
+        padding: '5px',
       }}
     >
       <div className="card">
@@ -136,6 +136,71 @@ const GalindafiedVsBarbiecore = () => {
         <p style={paragraphStyle}>
           While Barbiecore dominated in terms of collaborations and mainstream appeal, GALINDAFIED delivered a unique and magical experience. Ultimately, both campaigns proved that pink is more than a color—it's a lifestyle.
         </p>
+
+        <h2 style={headingStyle}>👑 Barbiecore: Dreamhouses, Products, and BARBENHEIMER Magic</h2>
+      <p style={paragraphStyle}>
+        The Barbie movie didn’t just launch a film... it created a cultural movement! Warner Brothers went all out, saturating the world in hot pink with real-life Barbie Dreamhouses, Malibu pop-ups, and glitter-filled parties. The film even inspired fans to pair Barbie with Christopher Nolan’s Oppenheimer in a viral double-feature phenomenon dubbed "Barbenheimer."
+      </p>
+
+      <h3 style={headingStyle}>🏠 Dreamhouse Come to Life</h3>
+      <p style={paragraphStyle}>
+        The real-life Barbie Dreamhouse in Malibu, available on Airbnb, gave fans the ultimate immersive experience, complete with Ken-themed activities and photo ops that felt straight out of a doll box.
+      </p>
+
+      <div style={{ textAlign: "center", margin: "20px auto" }}>
+        <ResponsiveYoutube
+          src="https://ca.pinterest.com/pin/84090718036750876/"
+          title="Dreamhouse Marketing Magic"
+        />
+      </div>
+
+      <iframe
+        title="Barbie Dreamhouse Collection"
+        src="https://shopmy.us/collections/embed/1078846?"
+        style={{ width: '100%', minHeight: '340px', border: 'none', margin: '20px 0' }}
+      ></iframe>
+
+      <h3 style={headingStyle}>🎥 Social Media Frenzy</h3>
+      <p style={paragraphStyle}>
+        TikTok and Instagram exploded with Barbie-inspired viral challenges, behind-the-scenes peeks, and influencer-driven events, ensuring Barbiecore was everywhere this summer.
+      </p>
+      <h2 style={headingStyle}>💄 Collaborations That Turned Heads</h2>
+
+<p style={paragraphStyle}>
+  Barbie: The World Tour Book: Chronicling Margot Robbie’s press tour fashion moments, filled with vintage-inspired Barbie style.
+</p>
+<iframe
+  title="Barbie: The World Tour Book"
+  src="https://shopmy.us/collections/embed/1078853?"
+  style={{ width: '100%', minHeight: '340px', border: 'none', margin: '20px 0' }}
+></iframe>
+
+<p style={paragraphStyle}>
+  Barbie x Aldo Collection: Featuring iconic bubblegum pink purses and heels—resold for over $500 during the height of Barbiecore!
+</p>
+<iframe
+  title="Barbie x Aldo Collection"
+  src="https://shopmy.us/collections/embed/1078862?"
+  style={{ width: '100%', minHeight: '340px', border: 'none', margin: '20px 0' }}
+></iframe>
+
+<p style={paragraphStyle}>
+  Mattel’s Film-Inspired Dolls: From Margot’s classic looks to the dazzling disco Barbie, collectors couldn’t get enough.
+</p>
+<iframe
+  title="Mattel’s Film-Inspired Dolls"
+  src="https://shopmy.us/collections/embed/1078865?"
+  style={{ width: '100%', minHeight: '340px', border: 'none', margin: '20px 0' }}
+></iframe>
+
+<p style={paragraphStyle}>
+  Unexpected Collaborations: Think Barbie-themed Xbox consoles and Malibu-inspired pool floats by FUNBOY—proof that Barbiecore is more than just fashion; it’s a lifestyle.
+</p>
+<iframe
+  title="Unexpected Collaborations"
+  src="https://shopmy.us/collections/embed/1078877?"
+  style={{ width: '100%', minHeight: '340px', border: 'none', margin: '20px 0' }}
+></iframe>
 
         <Comments website-id={websiteId} page-id="galindafied-vs-barbiecore" />
       </div>

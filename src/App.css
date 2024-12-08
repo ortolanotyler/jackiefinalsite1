@@ -23,7 +23,7 @@ html, body {
   overflow-x: hidden; /* Prevent horizontal scrolling */
   overflow-y: auto; /* Allow vertical scrolling */
   background-color: #ffffff; /* Uniform background color */
-  margin: 1rem  ; /* Reset default margin */
+  margin: 1rem ; /* Reset default margin */
   padding: 0; /* Reset default padding */
   padding-top: 60px; /* Reset default padding */
 
@@ -33,7 +33,7 @@ html, body {
 
 /* Optional: Normalize AppBar margin */
 .AppBar {
-  margin: 1rem auto; /* Ensure no extra margin for AppBar */
+  margin: 0 auto; /* Ensure no extra margin for AppBar */
   padding: 0; /* Ensure no extra padding for AppBar */
   position: fixed; /* Keep AppBar fixed at the top */
   top: 0; /* Stick to the top */
