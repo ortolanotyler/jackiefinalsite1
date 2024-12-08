@@ -25,7 +25,7 @@ const styles = {
   container: {
     textAlign: 'left', // Align the text to the left
     margin: '1rem',
-    width: '100%',
+    width: '90%',
     maxWidth: '1500px', // Optional: limit the width of the container if needed
     
 
