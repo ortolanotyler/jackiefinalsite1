@@ -11,7 +11,7 @@
 /* Main content styles */
 .main-content {
   font-family: "Playfair Display", serif;
-  padding-top: 60px; /* Aligns with AppBar height */
+  padding-top: 50px; /* Aligns with AppBar height */
   background-color: #ffffff;
   position: relative; /* Positions it properly without scrolling issues */
   z-index: 1; /* Keeps it below higher layers like AppBar */
