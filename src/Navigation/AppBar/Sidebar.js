@@ -110,33 +110,8 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
 
         {/* Search Bar */}
      
-
-        {/* Menu Items */}
-        <Box sx={{ flexGrow: 1, overflowY: 'auto' }}>
-          {menuItems.map((item) => (
-            <Button
-              key={item.name}
-              component={Link}
-              to={item.path}
-              onClick={toggleDrawer}
-              sx={{
-                display: 'block',
-                width: '100%',
-                textAlign: 'left',
-                padding: '0.5rem 1rem',
-                fontWeight: '400',
-                fontFamily: 'Playfair Display, serif',
-                fontSize: '18px',
-                color: '#745B4F',
-              }}
-            >
-              {item.name}
-            </Button>
-          ))}
-        </Box>
-
-        {/* Subscribe Button */}
-        <Button
+ {/* Subscribe Button */}
+ <Button
           component={Link}
           to="/subscribe"
           onClick={toggleDrawer}
@@ -162,6 +137,31 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           Subscribe
         </Button>
 
+        {/* Menu Items */}
+        <Box sx={{ flexGrow: 1, overflowY: 'auto' }}>
+          {menuItems.map((item) => (
+            <Button
+              key={item.name}
+              component={Link}
+              to={item.path}
+              onClick={toggleDrawer}
+              sx={{
+                display: 'block',
+                width: '100%',
+                textAlign: 'left',
+                padding: '0.5rem 1rem',
+                fontWeight: '400',
+                fontFamily: 'Playfair Display, serif',
+                fontSize: '18px',
+                color: '#745B4F',
+              }}
+            >
+              {item.name}
+            </Button>
+          ))}
+        </Box>
+
+       
         {/* Social Links */}
         <Box
           sx={{
