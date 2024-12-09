@@ -139,7 +139,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           to="/subscribe"
           onClick={toggleDrawer}
           sx={{
-            marginTop: '5px',
+            marginTop: '10px',
             backgroundColor: '#745B4F',
             color: '#f8f8f8 !important',
             fontSize: '18px',
@@ -171,31 +171,31 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           }}
         >
           <a href="/" onClick={toggleDrawer}>
-            <HomeIcon style={{ color: '#745B4F', fontSize: 24 }} />
+            <HomeIcon style={{ color: '#745B4F', fontSize: 20 }} />
           </a>
           <a
             href="https://youtube.com/@JackieWyers?si=sklULUqnNkzkmiaY"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <YouTubeIcon style={{ color: '#745B4F', fontSize: 24 }} />
+            <YouTubeIcon style={{ color: '#745B4F', fontSize: 20 }} />
           </a>
           <a
             href="https://www.instagram.com/jackiewyers?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
             target="_blank"
             rel="noopener noreferrer"
           >
-            <InstagramIcon style={{ color: '#745B4F', fontSize: 24 }} />
+            <InstagramIcon style={{ color: '#745B4F', fontSize: 20 }} />
           </a>
           <a
             href="https://pin.it/27OmCVDye"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <PinterestIcon style={{ color: '#745B4F', fontSize: 24 }} />
+            <PinterestIcon style={{ color: '#745B4F', fontSize: 20 }} />
           </a>
           <a href="mailto:contact@jackiewyers.beauty">
-            <MailOutlineIcon style={{ color: '#745B4F', fontSize: 24 }} />
+            <MailOutlineIcon style={{ color: '#745B4F', fontSize: 20 }} />
           </a>
         </Box>
       </Box>
