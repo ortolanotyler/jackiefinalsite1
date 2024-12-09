@@ -135,12 +135,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           ))}
         </Box>
 
-        <DividerWithText text = "Ad"/>
 
-<div className="ad-container">
-<SmallAdSenseAd/>
-</div>
-<DividerWithText text = "Ad"/>
 
         {/* Subscribe Button */}
         <Button
@@ -207,14 +202,15 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
             <MailOutlineIcon style={{ color: '#745B4F', fontSize: 20 }} />
           </a>
         </Box>
-       
+        <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
 
       </Box>
-<div style = {{
-  margin: '0 auto',
-}}>
- <SmallAdSenseAd />
-</div>
+
      
 
     </Drawer>
