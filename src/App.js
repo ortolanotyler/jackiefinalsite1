@@ -315,7 +315,7 @@ function App() {
             <Route path="/quiz/halloween/britney" element={<Quiz4Britney />} />
             <Route path="/quiz/halloween/taylor" element={<Quiz4Taylor />} />
             <Route path="/articles/dragon-braid" element={<DragonBraid />} />
-            <Route path="/quiz/male-female-gaze" element={<QuizHomepage />} />
+            <Route path="/quiz/male-female-gaze" element={<MaleFemaleGaze />} />
             <Route path="/quiz/male" element={<Quiz5Male />} />
             <Route path="/quiz/female" element={<Quiz5Female />} />
 
