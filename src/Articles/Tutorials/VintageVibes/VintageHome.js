@@ -216,7 +216,7 @@ const VintageVibes = () => {
                 featureText="VINTAGE"
                 headlineText="Elphaba Wicked Witch Makeup 🌟"
                 imagePath="Wicked2/Wicked2.webp"
-                linkUrl="/elphaba"
+                linkUrl="/articles/wicked-witch-of-the-west"
                 isFlipped={true}
               />
             </Box>
