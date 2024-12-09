@@ -13,20 +13,26 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
     { name: 'HOME', path: '/' },
     { name: 'ABOUT', path: '/about' },
-    { name: 'ANIMAL PRETTY QUIZ', path: '/quiz-2-home' },
+    { name: 'BEAUTY TUTORIALS', path: '/tutorials' },
+    { name: 'QUIZ', path: '/quiz' },
+    { name: 'VINTAGE VIBES', path: '/timetraveltutorials' },
+    { name: 'POP CULTURE', path: '/popculture' },
+    { name: 'SHOP MY STYLE', path: '/mystyle' },
+    { name: '       ', path: '/' },
 
-    { name: 'QUIZ HOMEPAGE', path: '/quiz' },
+    { name: 'VLOGS', path: '/vlogs' },
+    { name: 'TRAVEL ', path: '/travel' },
+    { name: 'ANIMAL PRETTY QUIZ', path: '/quiz-2-home' },
+    { name: 'REM BEAUTY WICKED REVIEW', path: '/articles/rembeauty/wicked-review' },
+
     { name: 'TAYLOR SWIFT HOLIDAY GUIDE', path: '/articles/taylor-swift-holidays-2024' },
     { name: 'TAYLOR SWIFT ERAS TOUR', path: '/articles/taylor-swift-eras-tour' },
-
     { name: 'DIARY', path: '/diary' },
-    { name: 'BEAUTY TUTORIALS', path: '/tutorials' },
     { name: 'POP CULTURE', path: '/popculture' },
     { name: 'VINTAGE VIBES', path: '/timetraveltutorials' },
     { name: 'TRENDS', path: '/trends' },
     { name: 'SHOP MY STYLE', path: '/mystyle' },
-    { name: 'VLOGS', path: '/vlogs' },
-    { name: 'TRAVEL ARTICLES', path: '/travel' },
+
     { name: 'DIARY', path: '/diary' },
     { name: 'REM BEAUTY WICKED REVIEW', path: '/articles/rembeauty/wicked-review' },
     { name: 'MALE VS FEMALE GAZE QUIZ', path: '/quiz/quiz-5-home' },
