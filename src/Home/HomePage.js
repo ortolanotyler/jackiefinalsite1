@@ -135,7 +135,7 @@ function HomePage() {
   
 
 
-<TextBanner2 text="NEW & POPULAR"  margin='0 0.15rem' height="100px" width="100%"  />
+<TextBanner2 text="FEATURED"  margin='0 0.15rem' height="100px" width="100%"  />
         
         <FeaturedGrid6 />
 

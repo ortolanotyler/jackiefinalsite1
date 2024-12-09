@@ -41,7 +41,7 @@ const ResponsiveAppBar = () => {
             }}
           >
             {/* Left Section: Logo, Subscribe Button, and Search Bar */}
-            <Box sx={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
               <IconButton
                 size="large"
                 aria-label="navigation menu"
