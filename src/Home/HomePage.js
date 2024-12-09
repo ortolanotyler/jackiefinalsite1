@@ -121,8 +121,9 @@ function HomePage() {
 
         <DividerWithText text = "Ad"/>
         <div className="ad-container">
+   <SmallAdSenseAd />
   <SmallAdSenseAd />
-  <SmallAdSenseAd />
+
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -154,7 +155,8 @@ function HomePage() {
 <DividerWithText text = "Ad"/>
 
 <div className="ad-container">
-<SmallAdSenseAd />
+ <SmallAdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -181,6 +183,15 @@ function HomePage() {
 
 
 </Box>
+
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+ <SmallAdSenseAd />
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 
     </Box>
   );
