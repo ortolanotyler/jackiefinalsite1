@@ -299,6 +299,11 @@ const BalkeBlog = () => {
 <p style={paragraphStyle}>
   From this initial crease line, smoke out the edges above the cut crease, fading into the gold and bronze. Clean up the black shadow one more time by adding intensity to the exaggerated crease with as much precision as you can.
 </p>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style={headingStyle}>1960s Eye Makeup Tips for Hooded Eyes</h2>
 
@@ -323,6 +328,11 @@ const BalkeBlog = () => {
 <p style={paragraphStyle}>
   For the eyeliner, start with a black pencil liner to tight-line the eye and add dots along the bottom lashes. The dots along the bottom will help create a doll-like look once mascara is applied to the bottom lashes.
 </p>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
   Add matte black liquid liner in a bold wing for a retro finish that helps elongate the eye.
@@ -333,7 +343,11 @@ const BalkeBlog = () => {
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/493465?noHeader=true" title="Collection name here" />
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
 <h2 style={headingStyle}>The Perfect Pout</h2>
 
 <p style={paragraphStyle}>
@@ -349,7 +363,11 @@ const BalkeBlog = () => {
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/565751??noHeader=true" title="Collection name here" />
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
   Whether you're a fan of the ‘60s or trying to expand your makeup skills, I hope you found this guide a fun read and it inspires you to try this cut-crease style. More well-known names from the 1960s beauty scene like Jean Shrimpton (the face of the ‘60s), Audrey Hepburn, and Brigitte Bardot can be found on my YouTube channel if you want to keep watching.
 </p>
@@ -369,8 +387,23 @@ const BalkeBlog = () => {
       <div>
         <img src={signature} alt="Jackie Wyers Signature XoXo" style={{ width: '100%' }} />
       </div>
-      <div style = {{padding: '1rem 2rem'}}>
+      <div style = {{padding: '1rem auto'}}>
       <Comments website-id={websiteId} page-id={'balke-blog'} />
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
 </div>
     </div>
   );
