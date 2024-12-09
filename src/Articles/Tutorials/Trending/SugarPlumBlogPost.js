@@ -9,6 +9,8 @@ import InstagramEmbed from '../../../Components/InstagramEmbed';
 import NextArticle from '../../../Components/NextArticleComponent';
 import DropCap1 from '../../Travel/DropCap1';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const FaceChart = `${process.env.PUBLIC_URL}/Images/Articles/SugarPlumFairy/SugarFace.jpg`;
 const makeup2016 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016MakeupThumbnail.jpg`;
@@ -181,6 +183,7 @@ const Card = ({ blogContent }) => (
   publishDate="Jan 23rd, 2024"
 />
 
+
 <SocialShare 
   url="https://www.jackiewyers.beauty/sugarplumfairy" 
   title="Trend Report: Sugar Plum Fairy Makeup" 
@@ -198,7 +201,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <DropCap1 text="Welcome Back Beauties! Today, let's explore the enchanting Sugar Plum Fairy makeup trend, inspired by the classic Nutcracker ballet. This look is a dream for those who love a touch of whimsy in their style!" />
-     
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
   The trend originates from Hailey Bieber's <a href="https://www.tiktok.com/@haileybieber/video/7304057854896491819?lang=en" target="_blank" rel="noopener noreferrer" style={linkStyle}>TikTok tutorial</a>, where she flaunts a natural, skin-like base using minimal concealer and a sheer bronzer for contouring. The cheeks are flushed with cream and powder blush, creating a delightful rosy glow, complemented by faux freckles and highlighter. For the eyes, she opts for a glossy, shimmer-topped lid, neatly brushed-up brows, and a swipe of mascara. The look is completed with an overdrawn brown lip line, topped off with a sparkling pink gloss - her new <a href="https://www.rhodeskin.com/products/peptide-lip-treatment" target="_blank" rel="noopener noreferrer" style={linkStyle}>Rhode Peptide Lip Treatment in ‘Jelly Bean’</a>.
 </p>
@@ -208,6 +215,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
         width="500" 
         height="900" 
       />
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       
 
@@ -232,6 +245,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
      
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493631?noHeader=true" title="Skin Care and Foundation Products" />
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <h2 style={headingStyle}>Why I Skip Underpainting</h2>
       <p style={paragraphStyle}>
@@ -251,6 +269,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/493640?noHeader=true" title="Bronzers and Brow Products" />
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <h2 style={headingStyle}>Super Blushy: Cream and Liquid Blushes</h2>
       <p style={paragraphStyle}>
@@ -273,6 +296,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/565568?noHeader=true" title="Eye Makeup Products" />
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <p style={paragraphStyle}>
   For the lips, overline slightly with a liner (I use <a href="https://www.makeupforever.com/us/en/lips/lip-liner/artist-color-pencil/p417" target="_blank" rel="noopener noreferrer" style={linkStyle}>Makeup Forever's Universal Earth</a>) and add a gloss for a blended, plumy look. To achieve Hailey’s exact lip combo, use <a href="https://www.maccosmetics.com/product/13852/314/lips/lip-pencil" target="_blank" rel="noopener noreferrer" style={linkStyle}>MAC’s Lip Liner in ‘Cork’</a> and top off with <a href="https://www.rhodeskin.com/products/peptide-lip-treatment" target="_blank" rel="noopener noreferrer" style={linkStyle}>Rhode Peptide Lip Treatment in ‘Jelly Bean’</a>. This lip combo is beautiful, and the gloss is super nourishing.
@@ -304,6 +332,22 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </div>
 
       <Comments website-id={websiteId} page-id="SugarPlumBlogPost" />
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
       
     </div>
   );

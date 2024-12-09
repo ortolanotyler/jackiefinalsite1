@@ -5,6 +5,8 @@ import { Helmet } from 'react-helmet-async';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent'; 
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/1.jpg`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/2.JPG`;
@@ -207,7 +209,12 @@ fontStyle: 'italic',
 
 <DropCap1 text="Welcome back to All Things Bridal! If you are new to my channel, here’s a bit of backstory about my upcoming wedding ceremony in July. My husband Tyler and I have been legally married for two years which is why I call his my husband and not fiancé, but we held off on having a wedding ceremony to save up for a celebration in Sorrento, Italy. We're also planning a trip afterward to Belgium, where we met in middle school many years ago. Excited is an understatement! " />
      
-      
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={{ margin: '1rem auto', textAlign: 'center', fontSize: '1rem', fontFamily: 'Playfair Display, serif', fontStyle: 'italic' }}>
       All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
@@ -230,6 +237,13 @@ fontStyle: 'italic',
   I didn’t know this was a thing until <a style={linkStyle} href="https://www.brides.com/story/how-to-ask-bridesmaids" target="_blank" rel="noreferrer">fairly recently</a>, so if you haven’t been in a wedding party before, these are <a style={linkStyle} href="https://www.theknot.com/content/bridesmaid-proposal-ideas" target="_blank" rel="noreferrer">gift boxes</a> that brides-to-be give their bridesmaids as a special way of asking them to be part of their wedding party.
 </p>
 
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 
 
 <p style={paragraphStyle}>
@@ -247,6 +261,8 @@ fontStyle: 'italic',
         </a>
  </div>
 
+ 
+
 
 
 
@@ -254,7 +270,12 @@ fontStyle: 'italic',
  <p style={captionStyle}>
         Please keep in mind that you can create a bridesmaid proposal box on a budget. I only had three bridesmaids, so I was able to spend a little more, but it is not necessary by any means. I also see a lot of influencer proposal boxes with many gifted items through PR, so don’t feel like you need to spend a ton of money to make a special box for your potential bridesmaids. It should be a fun experience putting these together, not a stressful one!
 </p>
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 
@@ -273,7 +294,12 @@ fontStyle: 'italic',
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/619672?noHeader=true" title="Bridesmaid Box Collection: Fill the Box" />
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
   3. Personal Touches: I chose a fairytale gold <a style={linkStyle} href="https://www.anthropologie.com/search?q=picture+frame" target="_blank" rel="noreferrer">picture frame</a> with a photo of each of my bridesmaids. These frames look like they are from Anthropologie but are actually from <a style={linkStyle} href="https://www.winners.ca/en" target="_blank" rel="noreferrer">Winners</a>. I’ve linked similar frames below in a similar aesthetic, with different price ranges.
@@ -289,7 +315,12 @@ fontStyle: 'italic',
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/621130?noHeader=true" title="Bridesmaid Box Collection: Useful and Beautiful Item" />
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
   5. Body Care: Since we will be traveling, I thought a <a style={linkStyle} href="https://www.loccitane.com/en-us/hand-care/" target="_blank" rel="noreferrer">hand cream</a> would be a nice touch. I chose my favorite scent from <a style={linkStyle} href="https://www.loccitane.com/en-us/almond-hand-cream/" target="_blank" rel="noreferrer">L’Occitane’s Almond range</a>. You can’t go wrong with their Almond range!
@@ -313,7 +344,12 @@ fontStyle: 'italic',
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/619709?noHeader=true" title="Bridesmaid Box Collection: Fabel England’s Whispering Sands" />
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <p style={paragraphStyle}>
@@ -339,7 +375,12 @@ fontStyle: 'italic',
   11. Finishing Touch: Finish with a bow on top of the box. A great idea from <a style={linkStyle} href="https://www.delanychild.com/" target="_blank" rel="noreferrer">Delany Child</a> that she did for her bridesmaid box was to add a big, oversized hair bow on top of the box to double as a hair accessory. Fun!
 </p>
 
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style = { headingStyle }> 
 A Look at My Finished Bridesmaid Boxes
@@ -367,13 +408,23 @@ Additional Ideas:
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/628200?noHeader=true" title="Freixenet Italian Sparkling Rose"  />
 <ResponsiveIframe src="https://shopmy.us/collections/public/628186?noHeader=true" title="FEMALE | Baublebar Think Pink Crystal Rose Bottle Drop Earrings"  />
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <ResponsiveIframe src="https://shopmy.us/collections/public/628191?noHeader=true" title="CHARLOTTE TILBURY | Pillow Talk On The Go Kit"  />
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/628192?noHeader=true" title="KITSCH | Satin Sleep Scrunchies"  />
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/628195?noHeader=true" title="OLIVE AND JUNE | CCt Bridal Edition"  />
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
 I hope you got some inspiration from my bridesmaid box, and if you want to see my bridal dress fitting for more bride-to-be vibes, sign up for the newsletter <a href = "/subscribe" >here</a>  for more posts coming up! If you’re looking for pop culture-inspired bridal looks, I also have you covered with the article below. Thank you for reading!
@@ -415,7 +466,24 @@ I hope you got some inspiration from my bridesmaid box, and if you want to see m
        <div style = {{padding: '1rem 2rem'}}>
        <Comments website-id={websiteId} page-id={"Las-nozzlestronsonberries"} />
        </div>
- 
+       <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
     </div>
   );

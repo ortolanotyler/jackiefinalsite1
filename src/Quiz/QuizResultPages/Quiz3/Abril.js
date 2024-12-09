@@ -261,7 +261,12 @@ Decor: Opt for rich colors, grand floral arrangements, and luxurious fabrics.
 Dress Features: Choose dresses with intricate lace details, structured silhouettes, and regal elements.
 </p>
 
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <div style={gridContainerStyle}>
    <img src={image4} alt="Jackie Wyers Wedding Abril Dress" style={imageStyle} />

@@ -7,6 +7,8 @@ import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 import DropCap1 from '../../../Articles/Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
+import DividerWithText from '../../../Home/DividerWithText';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/guidethumbnail.jpeg`;
@@ -269,6 +271,14 @@ Be sure to take the fun quiz I've created to see which dress I think you would l
 <TakeQuizButton />
 </div>
 
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+
 
 
 <h2 style = {headingStyle}>
@@ -288,6 +298,13 @@ Theme: Fairytale Wedding or Bohemian Wedding
  <div style={gridContainerStyle}>
    <img src={image3} alt="Jackie Wyers Wedding Abril Dress" style={imageStyle} />
  </div>
+
+ <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
  <p style={paragraphStyle}>
  The Bacarra dress features a lace-up A-silhouette design with cold-shoulder lace sleeves and a split skirt that naturally creates folds over the delicate lace under gown. This dress is perfect for a fairytale theme with its delicate, feminine, and sweet look, yet still shows off the shoulders for a bit of skin and a flirty look. If I didn’t choose my fairytale gown, this would have been my next choice. With different styling, I also think this gown would be lovely for a Bohemian Wedding as it feels flowy, comfortable, and a bit understated.
@@ -319,6 +336,12 @@ Theme: Fairytale Wedding or Bohemian Wedding
  Porsha is a beaded all-over strapless dress with a ballerina neckline, detailed corset, basque waistline, and straight skirt. It's complemented with a detachable tulle overskirt decorated with voluminous flowers on the edges. The way this dress shapes the body is super sexy. Even though I don’t have a ton of curves, it really emphasized my hips and created a womanly silhouette.
  </p>
 
+ <DividerWithText text = "Ad"/>
+
+      <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
  <div style={gridContainerStyle}>
@@ -336,6 +359,7 @@ The overskirt adds something special with its beautifully handmade flower detail
 
 
 
+
 <h2 style = {headingStyle}>
 Abril
 </h2>
@@ -350,6 +374,13 @@ Abril
  <div style={gridContainerStyle}>
     <img src={image9} alt="Jackie Wyers Wedding Abril Dress" style={imageStyle} />
  </div>
+
+ <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
 Abril is a guipure lace-up detailed corset base dress with a smooth heart-shaped neckline and cold- shoulder long sleeves made of guipure. This dress feels like a modern royal gown and fits perfectly with a modern minimalist theme, emphasizing simplicity and elegance. I especially loved this dress with a matching lace veil—it felt almost angelic!
@@ -382,6 +413,13 @@ Abril is a guipure lace-up detailed corset base dress with a smooth heart-shaped
     <img src={image13} alt="Jackie Wyers Wedding Abril Dress" style={imageStyle} />
  </div>
 
+ <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
  <p style={{ fontSize: '1rem', fontFamily: 'Arapey, serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
  Percy with dramatic overskirt
     </p>
@@ -400,6 +438,13 @@ Abril is a guipure lace-up detailed corset base dress with a smooth heart-shaped
 <h2 style = {headingStyle}>
     Ora
 </h2>
+
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
  <p style={{ fontSize: '1rem', fontFamily: 'Arapey, serif', maxWidth: '100%', textAlign: 'center', fontStyle: 'italic' }}>
@@ -432,6 +477,13 @@ Abril is a guipure lace-up detailed corset base dress with a smooth heart-shaped
  An Old Money aesthetic could suit the pearls, as could a beach wedding for more of a mermaid motif.
      </p>
 
+     <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
      
 
      <h2 style = {headingStyle}>
@@ -459,6 +511,13 @@ Abril is a guipure lace-up detailed corset base dress with a smooth heart-shaped
  <h2 style = {headingStyle}>
     Which Dress Did I Say Yes To!?
  </h2>
+
+ <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 
@@ -489,6 +548,13 @@ The Elizabeth gown is by a brand new label, Verander West and comes out of the C
 
 </p>
 
+ <DividerWithText text = "Ad"/>
+
+      <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
  <p style = {paragraphStyle}>
 
 I hope you enjoyed this read and it gave you some bridal ideas if you are a Bride to Be! Again, take the quiz with the button below to see which dress/bridal aesthetic I think you would like best! For more details about my Fairytale wedding, from the prep, planning, details and beauty, read <a style = {{color:'black'}} href= "/fairytalewedding" target="_blank" rel="noreferrer">here</a>.
@@ -514,6 +580,12 @@ I hope you enjoyed this read and it gave you some bridal ideas if you are a Brid
     
 
       <Comments website-id={websiteId} page-id={"quiz3"} />
+      <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       ,
       
     </div>

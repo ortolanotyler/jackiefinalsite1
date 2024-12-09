@@ -9,6 +9,8 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/BardotHairstyles/1.jpg`;
@@ -232,7 +234,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <DropCap1 text="Welcome back to Time Travel Tutorials! Step back into the glamorous ‘60s with Brigitte
 Bardot's iconic big bun! Whether you're looking for a chic everyday look or a show-stopping updo for a special occasion, I've got you covered with my tried- and-tested techniques featuring faux bangs, using the ends of your own hair. Let's dive into vintage beauty and master the Bardot bun together!" />
 
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <p style={paragraphStyle}>
@@ -251,6 +258,13 @@ Bardot's iconic big bun! Whether you're looking for a chic everyday look or a sh
     <img src={image2} alt="One of Jackie Wyers' very first tutorials of Bardot inspired hairstyles from 10 years ago." style={{ width: '50%', height: 'auto' }} />
   </a>
 </div>
+
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <p style={captionStyle}>
@@ -281,14 +295,17 @@ Inspired Muse - Tap image for Sabrina Carpenter inspired makeup tutorial.
 </p>
 
 
+
 <div style={gridContainerStyle}>
    <img src={image4} alt="Jackie Wyers Bardot Hairstyles" style={imageStyle} />
  </div>
 
-<p style={{ textAlign: 'center', fontSize: '1rem', fontFamily: 'Arapey, serif', margin: '0em', maxWidth: '100%', fontStyle: 'italic' }}>
-Updated Bardot Bun on Natural Hair
- 
-</p>
+ <DividerWithText text = "Ad"/>
+
+      <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 
@@ -319,7 +336,12 @@ Bun starts at 4:05    </p>
 <p style={paragraphStyle}>
   Initially, I moved part of my ponytail forward and laid the ends as faux bangs, securing them around the hairline with bobby pins. Through the years, I found a better method that really makes the hairstyle stay put, even if there’s some wind outside, without worrying about bobby pins becoming loose.
 </p>
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <p style={paragraphStyle}>
@@ -354,7 +376,12 @@ Method Two: Best Faux Bangs
 <p style={paragraphStyle}>
   Instead of using a bun maker, I <a style={linkStyle} href="https://www.allure.com/story/how-to-tease-hair" target="_blank" rel="noreferrer">teased</a> my ponytail, wrapped it into a simple bun, and added some very textured <a style={linkStyle} href="https://www.byrdie.com/how-to-pin-curls" target="_blank" rel="noreferrer">pin curls</a> at the front of the updo for more height and interest. This style wasn’t quite as voluminous as the first attempt, so I recommend using a bun maker if you want to go even bigger like in the first tutorial. We will combine these methods next, but first, here’s a guide to creating the best <a style={linkStyle} href="https://www.harpersbazaar.com/beauty/hair/g3996/how-to-style-faux-bangs/" target="_blank" rel="noreferrer">faux bangs</a>.
 </p>
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style={headingStyle}>
 Breaking Down My Faux Bangs Method
@@ -381,7 +408,12 @@ My Take On A Brunette Bardot Updo
   Tease and twist each pigtail, hold it high in the air, and cross it over to the opposite side, behind the second pigtail, pinning with an X to keep in place. This not only adds to the updo but also allows you to pull the leftover ends from the pigtail underneath the twist, creating a <a style={linkStyle} href="https://www.instyle.com/how-to-get-curtain-bangs" target="_blank" rel="noreferrer">fluffy curtain bang</a> on each side.
 </p>
 
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
   You can adjust the length of your new bangs, styling them with a <a style={linkStyle} href="https://www.ulta.com/p/hot-tools-professional-curling-iron-pimprod2002102" target="_blank" rel="noreferrer">curling iron</a>, teasing comb, and hairspray. The tight twist allows for fewer bobby pins to keep them in place. If your hair is long like mine, loop the excess length and blend it into the bun and be sure to set with <a style={linkStyle} href="https://www.sephora.com/shop/hairspray" target="_blank" rel="noreferrer">hairspray</a>.
@@ -407,7 +439,12 @@ Combining Methods for The Best Bardot Bun
     allowFullScreen
   ></iframe>
 </div>
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
   Now that we’ve covered the best way to achieve the bangs and the easiest way to get that big, voluminous bun, let’s combine the two methods. Here’s to creating the biggest and best Bardot bun as seen in this <a style={linkStyle} href="https://www.marcanthony.com/" target="_blank" rel="noreferrer">ad I created with Marc Anthony</a> above!
@@ -456,7 +493,12 @@ Bridgitte Bardot Makeup
 
 <Carousel images={[image5, image6, image7]} />
 
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
 I hope you enjoyed another <a href="timetraveltutorials" target="_blank" rel="noreferrer">Time Travel Tutorials</a> and all the vintage vibes. If you are looking for more 1960s inspiration, check out more vintage vibes on my YouTube playlist, or on my site. I hope this tutorial brings a touch of vintage glamour to your hairstyling routine. Remember, beauty is all about having fun and experimenting, so don't be afraid to try new things and make the look your own. Happy styling!
@@ -485,7 +527,12 @@ Pin my Bardot looks on Pinterest to your inspiration board!
   ></iframe>
 </div>
 
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
       
@@ -508,7 +555,24 @@ Pin my Bardot looks on Pinterest to your inspiration board!
 
      
      <Comments website-id={websiteId} page-id={"bardot-hairstyles"} />
-    
+     <DividerWithText text = "Ad"/>
+
+      <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       
     </div>
     

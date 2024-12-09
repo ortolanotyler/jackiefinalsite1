@@ -22,6 +22,8 @@ const TrendsHome = () => {
               isFlipped={false}
             />
           </Box>
+
+          
         </Grid>
           {/* Top 3 Most Searchable */}
           <Grid item xs={12}>
@@ -34,6 +36,11 @@ const TrendsHome = () => {
               isFlipped={true}
             />
           </Grid>
+          <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
           <Grid item xs={12}>
             <HeroSection
@@ -45,6 +52,12 @@ const TrendsHome = () => {
               isFlipped={false}
             />
           </Grid>
+
+          <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
      
 
@@ -58,11 +71,9 @@ const TrendsHome = () => {
               isFlipped={true}
             />
           </Grid>
-          <DividerWithText text = "Ad"/>
-        <div className="ad-container">
-  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
+      
+
+
 
           {/* Existing Articles */}
           <Grid item xs={12} sm={6} md={6} lg={4}>
@@ -248,6 +259,12 @@ const TrendsHome = () => {
         <DividerWithText text = "Ad"/>
         <div className="ad-container">
   <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 

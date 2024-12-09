@@ -7,6 +7,8 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/GraceKellyTitle.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/GraceKelly/JackieWyersGraceKellyInspired.jpg`;
@@ -193,7 +195,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <DropCap1 text="Welcome back for another Time Travel Tutorials, the series where we celebrate and recreate the iconic beauty looks of the past. This edition is dedicated to Grace Kelly, a beacon of Old Hollywood elegance and a true silver screen legend. Grace Kelly, known for her roles in 'Rear Window' and 'To Catch a Thief' captivated audiences with her poised performances and became a real-life princess when she married Prince Rainier III of Monaco." />
-   
+      <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <div style={gridContainerStyle}>
         <img src={image1} alt="Jackie Wyers as Grace Kelly" style={{ width: '100%', maxWidth: '650px' }} />
@@ -216,7 +223,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/524545?noHeader=true" title="Grace Kelly Concealer Recommendations" />
-   
+      <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
   
       <h2 style={headingStyle}>Grace’s Two Blush Technique</h2>
       <p style={paragraphStyle}>
@@ -231,7 +243,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/524546?noHeader=true" title="Grace Kelly Powder Blush Recommendations" />
-     
+      <DividerWithText text = "Ad"/>
+
+      <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
    
       <h2 style={headingStyle}>Brows Are Essential</h2>
       <p style={paragraphStyle}>
@@ -246,7 +263,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/524548?noHeader=true" title="Grace Kelly Inspired Eyebrow Glam" />
-  
+      <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
    
       <h2 style={headingStyle}>Eyes – Silver and Grey Tones</h2>
      
@@ -276,7 +298,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/524550?noHeader=true" title="Grace Kelly Red Lip Product Recommendations" />
      
+      <DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>Grace Kelly's Signature Beauty Products: Quick Reviews!</h2>
       <p style={paragraphStyle}>
   Grace Kelly continued to do her own hair and makeup after becoming a royal and has shared some of her actual favourite products with the world! Her chosen red lipstick is <a href="https://www.dior.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>The Dior Rouge Lipstick in 999</a>.
@@ -301,7 +328,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
   I chose L’Occitane Youth Hand Cream; although it wasn't available during her time, it's a personal favorite. This cream makes a great Mother's Day gift if your mom enjoys hand cream—this one is truly amazing! Now let’s talk style.
 </p>
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>Grace Kelly's Iconic “Rear Window” Dress</h2>
       <p style={paragraphStyle}>
   Looking for a good replica of Grace Kelly's Black and White 1950s Dress from Rear Window? I’ve linked a fabulous handmade style from Etsy below.
@@ -315,7 +347,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/524557?noHeader=true" title="Grace Kelly Book and Jewelry Product Recommendations" />
+      <DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <p style={paragraphStyle}>
   Grace’s approach to beauty was all about simplicity, elegance, and a touch of royal allure. From her carefully selected fragrances, red lips and coiffed hair, her beauty routine was as much a part of her royal duties as her public appearances.
 </p>
@@ -352,6 +389,24 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </div>
 
       <Comments website-id={websiteId} page-id={'Grace-Kelly'} />
+      <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
      
 
 

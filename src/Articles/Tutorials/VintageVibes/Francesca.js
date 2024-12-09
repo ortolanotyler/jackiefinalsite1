@@ -8,6 +8,8 @@ import ArticleTitle from '../../../Components/ArticleTitle';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 
 
@@ -209,7 +211,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   showcasing behind the scenes!"/>
 
 
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <h2 style={headingStyle}>Get the Francesca-Inspired Look</h2>
@@ -227,7 +234,12 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
   clothing, as well as <a style={linkStyle} href="https://en.wikipedia.org/wiki/Bridgerton" target="_blank" rel="noreferrer">Bridgerton</a> blue of course, with decorated updos similar to her sister, Daphne
   Bridgerton. Let’s get the look!
 </p>
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <h2 style={headingStyle}>A Youthful Base</h2>
@@ -255,7 +267,12 @@ See behind the scenes of Francesca’s look from makeup artist @faithmakeupartis
 </p>
 <ResponsiveIframe src="https://shopmy.us/collections/public/794089?noHeader=true" title="Shop My Victoria's Secret Favorites" />
 
-  
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <h2 style={headingStyle}>Soft Brows and Bold Blush</h2>

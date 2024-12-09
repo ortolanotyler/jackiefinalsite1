@@ -291,6 +291,13 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   src="https://shopmy.us/collections/public/993021?noHeader=true" 
 />
 
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 <h2 style={headingStyle}>Sculpted and Sun-Kissed Contour</h2>
 
 <p style={paragraphStyle}>
@@ -338,6 +345,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   
 />
 <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 <p style={paragraphStyle}>
   To set the look, Charlotte Tilbury Airbrush Flawless Setting Spray is ideal, but L’Oreal Paris Setting sprays are a fantastic, affordable option.
 </p>
@@ -382,6 +395,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   src="https://shopmy.us/collections/public/993068?noHeader=true" 
   
 />
+
+
         <div className="ad-container">
 <p style={paragraphStyle}>
   Finish the eye look with Makeup Forever’s Artist Color Pencils. Start with Whatever Black for a soft winged-out liner shape, and Dimensional Dark Brown in the waterline, smoked out from the bottom lashline. A drugstore option I always recommend is the Revlon So Fierce Vinyl Eyeliner in Midnight Mystery and Mighty Mocha. Super creamy and rich in pigment!
@@ -426,7 +441,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
     allowFullScreen
   ></iframe>
 </div>
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
   For a comprehensive look at the products used by the Dallas Cowboys Cheerleaders, you can refer to this 
@@ -473,6 +493,13 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   />
 </div>
 
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
     src="https://res.cloudinary.com/dzhlitors/image/upload/v1731684767/image4_houb0k.jpg" 
@@ -500,6 +527,13 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
+
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 

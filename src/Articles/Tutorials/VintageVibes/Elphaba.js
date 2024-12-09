@@ -9,6 +9,8 @@ import SocialShare from '../../../Home/SocialShare';
 import AdSenseAd from '../../../Home/Adsense';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import HorizontalLine from '../../../Components/HorizontalLine';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
@@ -260,7 +262,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   the upcoming film. Now, it’s time to embrace spooky green glamour with two fun takes on Elphaba. Whether you want to rock
   a yassified version of the Wicked Witch or go all out with full green skin, I’ve got you covered. 💚 ✨ "      />
 
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <p style={paragraphStyle}>
@@ -271,6 +278,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <h2 style={headingStyle}>
   💚 Elphaba Makeup Tutorial: A Green Queen 💚
 </h2>
+
+
 
 <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
@@ -323,6 +332,13 @@ green skin!
   If you are not going to paint the skin green, go ahead and add your favorite brightening concealer on the high points of the face, contour with an ashy tone and feel free to make it a bit bolder and sharper than usual - it is Halloween!
 </p>
 
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 <p style={paragraphStyle}>
   Set with powder and so Elphaba’s look contrasts with Glinda’s softer features, so we’re sharpening the brows with a high arch and a more defined nose bridge for a fierce look. I’m wearing a black wig so I took the brows extra dark.
 </p>
@@ -339,6 +355,13 @@ green skin!
   ONE/SIZE x WICKED on Broadway palette through the crease, blending into an exaggerated lid shape winged out. I then packed on Emerald City, a glittery green shadow, across the lid for that iconic green sparkle. 💚 
 </p>
 
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 <p style={paragraphStyle}>
   To intensify the exaggerated crease, I used Wizard and I on a smaller brush for a sharp, dramatic edge. 
   Also, add smokiness under the bottom lash line and add a point in the inner corner. Finish with a blend of Flying Free to the outer V. 
@@ -350,7 +373,12 @@ green skin!
 </p>
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/870260?noHeader=true" style={{width: "100%", minHeight: "1200px", border: "none"}}></ResponsiveIframe>
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
   Step 3: Bold Witchy Lips 🖤
@@ -392,6 +420,13 @@ green skin!
   />
 </div>
 
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 <h2 style={headingStyle}>
   💚 How To Paint Yourself Green 💚
 </h2>
@@ -424,7 +459,12 @@ green skin!
   />
 </div>
 
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 
@@ -477,7 +517,12 @@ Wicked.
   />
 </div>
 
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <h2 style = {headingStyle}>
@@ -506,7 +551,12 @@ Target x Wicked iconic cardigan, I love the Aerie line and have listed some of m
 
 <ResponsiveIframe title="null" src="https://shopmy.us/collections/public/870292?noHeader=true" style={{width: "100%", minHeight: "1200px", border: "none"}}></ResponsiveIframe>
 =
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 
@@ -524,7 +574,25 @@ Target x Wicked iconic cardigan, I love the Aerie line and have listed some of m
       
       <Comments website-id={websiteId} page-id={"wickedstrizzmonbiiiiiiiizzzzz-65fizz"} />
       
-      
+      <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       
       
       

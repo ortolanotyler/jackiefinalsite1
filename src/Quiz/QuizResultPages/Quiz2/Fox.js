@@ -283,7 +283,12 @@ style = {{
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/552848?noHeader=true" title="Makeup by Mario Master Mattes Palette" />
  
-    
+      <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     
       <p style={paragraphStyle}>
         Outfit Inspiration: Dive into a bohemian vibe with lively prints. Anthropologie is an excellent starting point for this style. Select paisley or other small prints in rustic tones to complement the boho aesthetic beautifully. This style not only matches the rich-toned makeup but also ties the whole look together.

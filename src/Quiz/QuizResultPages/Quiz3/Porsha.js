@@ -6,6 +6,8 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
+import DividerWithText from '../../../Home/DividerWithText';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/porshatitle.png`;
@@ -178,6 +180,13 @@ Thank you for taking the bridal dress quiz! Based on your results, you’d best 
 Imagine celebrating your special day in a glamorous art deco venue, surrounded by luxurious details and a touch of old Hollywood charm!
 </p>
 
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 
 <h2 style = {headingStyle}>
 Wedding Ideas:
@@ -200,6 +209,7 @@ Dress Features: Look for gowns with intricate beading, classic silhouettes, and 
 <div style={gridContainerStyle}>
    <img src={image5} alt="Jackie Wyers Wedding Porsha Dress" style={imageStyle} />
  </div>
+ 
 
 
 <h2 style = {headingStyle}>
@@ -212,7 +222,12 @@ Channel a modern 1920s look with a darker smokey eye, but opt for a lighter lip 
 </p>
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/okXpvzknH9w?si=6HHzuB-PApCkU-cu" title="WEDDING DRESS SHOPPING & Bridal Makeup Trial with Jackie Wyers" />
+<DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
 <div style={{ textAlign: 'center', margin: '2rem 0' }}>
 <TakeQuizButton />
 
@@ -226,7 +241,24 @@ Channel a modern 1920s look with a darker smokey eye, but opt for a lighter lip 
 
       <Comments website-id={websiteId} page-id={"quiz3"} />
 
-     
+      <DividerWithText text = "Ad"/>
+
+      <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       
     </div>
     

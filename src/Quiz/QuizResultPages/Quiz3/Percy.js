@@ -6,6 +6,8 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
+import DividerWithText from '../../../Home/DividerWithText';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/percytitle.png`;
@@ -154,6 +156,13 @@ const Percy = () => {
 Thank you for taking the bridal dress quiz! Based on your results, you’d best suit the Percy dress by Eva Lendel, with its ballerina neckline, asymmetric wrap waistline, and voluminous overskirt. This dress is perfect for a classic wedding that represents elegance.
 </p>
 
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 <p style={paragraphStyle}>
 Imagine celebrating your special day in a vintage manor or a classic ballroom, surrounded by sophistication!
 </p>
@@ -170,7 +179,12 @@ Imagine celebrating your special day in a vintage manor or a classic ballroom, s
    <img src={image3} alt="Jackie Wyers Wedding Percy Dress" style={imageStyle} />
  </div>
 
- 
+ <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
  
               
 
@@ -222,6 +236,24 @@ Speaking of Audrey, Ariana Grande’s bridal look is a modern take on the 1950�
     
 
       <Comments website-id={websiteId} page-id={"quiz3"} />
+      <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
      
       
