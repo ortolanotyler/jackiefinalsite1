@@ -86,6 +86,8 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
       onClose={toggleDrawer}
       PaperProps={{ style: { zIndex: 1400, width: '300px', overflow: 'hidden' } }}
     >
+      <BannerNavSearch/>
+
       <Box
         role="presentation"
         sx={{
@@ -97,6 +99,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           padding: '1rem',
         }}
       >
+
         {/* Close Button */}
         <IconButton
           onClick={toggleDrawer}
@@ -202,9 +205,9 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
             <MailOutlineIcon style={{ color: '#745B4F', fontSize: 20 }} />
           </a>
         </Box>
+
         <DividerWithText text = "Ad"/>
 
-<BannerNavSearch/>
 <SmallAdSenseAd/>
 
 
