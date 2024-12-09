@@ -1,6 +1,8 @@
 import React from 'react';
 import './ReviewArticleList.css';
 import ReviewArticleCard from './ReviewArticleCard';
+import DividerWithText from '../Home/DividerWithText';
+import SmallAdSenseAd from '../Home/AdsenseSmall';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/JickyReview/jickyguerlainthumbnail.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/BonBonReview/bonbonthumb.jpeg`;
@@ -31,6 +33,7 @@ const articles = [
 
 const ReviewArticleList = () => {
   return (
+    <>
     <div className="article-list-reviews">
       {articles.map((article, index) => (
         <ReviewArticleCard
@@ -42,6 +45,14 @@ const ReviewArticleList = () => {
         />
       ))}
     </div>
+     <DividerWithText text = "Ad"/>
+     <div className="ad-container">
+<SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+    </>
+
   );
 };
 
