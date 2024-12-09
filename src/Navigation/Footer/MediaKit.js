@@ -7,6 +7,8 @@ import FeaturesAndShoutouts from './FeaturesAndShoutouts';
 import { Helmet } from 'react-helmet-async';
 
 import RotatingText from '../AppBar/RotatingText';
+import DividerWithText from '../../Home/DividerWithText';
+import SmallAdSenseAd from '../../Home/AdsenseSmall';
 
 const MediaKit = () => {
   const images = [
@@ -27,6 +29,11 @@ const MediaKit = () => {
         <Grid item xs={12} md={6}>
           <MediaKitSlider images={images} />
         </Grid>
+        <DividerWithText text="Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text="Ad"/>
         <Grid item xs={12} md={6}>
           <FeaturesAndShoutouts />
         </Grid>
@@ -35,7 +42,19 @@ const MediaKit = () => {
           <BrandCarousel />
         </Grid>
 
+
       </Grid>
+      <DividerWithText text="Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text="Ad"/>
+<DividerWithText text="Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text="Ad"/>
+
     </div>
   );
 };
