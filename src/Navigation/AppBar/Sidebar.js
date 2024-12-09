@@ -16,7 +16,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'HOME', path: '/' },
     { name: 'ABOUT', path: '/about' },
     { name: 'BEAUTY TUTORIALS', path: '/tutorials' },
-    { name: 'QUIZ', path: '/quiz' },
+    { name: 'QUIZ', path: '/quiz-2-home' },
     { name: 'VINTAGE VIBES', path: '/timetraveltutorials' },
     { name: 'POP CULTURE', path: '/popculture' },
     { name: 'SHOP MY STYLE', path: '/mystyle' },
@@ -24,7 +24,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
 
     { name: 'VLOGS', path: '/vlogs' },
     { name: 'TRAVEL ', path: '/travel' },
-    { name: 'ANIMAL PRETTY QUIZ', path: '/quiz' },
+    { name: 'ANIMAL PRETTY QUIZ', path: '/quiz-2-home' },
     { name: 'REM BEAUTY WICKED REVIEW', path: '/articles/rembeauty/wicked-review' },
 
     { name: 'TAYLOR SWIFT HOLIDAY GUIDE', path: '/articles/taylor-swift-holidays-2024' },
