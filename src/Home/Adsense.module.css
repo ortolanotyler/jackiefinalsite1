@@ -3,11 +3,11 @@
 .adContainer {
     text-align: center;
     margin: 0 auto ;
-    background-color: #fdedef;
+    background-color: #ffffff;
   }
   
   .adBlock {
-    margin: 1rem;
+    margin: 1rem auto;
 
     display: block;
   }
