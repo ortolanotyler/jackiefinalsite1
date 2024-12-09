@@ -6,6 +6,7 @@ import PinterestIcon from "@mui/icons-material/Pinterest";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import SwitchUpYour from "./SwitchUpYour";
+import SmallAdSenseAd from "../../Home/AdsenseSmall";
 
 const Footer = () => {
   const [showButton, setShowButton] = useState(false);
@@ -31,6 +32,7 @@ const Footer = () => {
   };
 
   return (
+    <>
     <Box sx={{ width: "100%", overflowX: "hidden", backgroundColor: "#ffffff" }}>
       <SwitchUpYour />
 
@@ -219,6 +221,9 @@ const Footer = () => {
         )}
       </Box>
     </Box>
+       <div className="ad-container">
+       <SmallAdSenseAd />
+     </div></>
   );
 };
 
