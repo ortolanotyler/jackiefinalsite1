@@ -14,8 +14,8 @@
 
 .searchWrapper {
     position: relative;
-    width: 80%;
-    max-width: 400px;
+    width: 100%;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,16 +44,16 @@
 .searchResults {
     position: absolute;
     top: calc(100% + 1rem); /* Places dropdown right below the input field */
-    min-width: 200px;
+    min-width: 300px;
     font-family: 'Playfair Display', serif;
     font-size: 1rem;
-    max-width: 400px;
+    max-width: 350px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     z-index: 1000;
     border-radius: 10px;
     overflow: hidden;
-    max-height: 500px;
+    max-height: 1000px;
     overflow-y: auto;
     border: 1px solid #ffffff;
     box-sizing: border-box;
