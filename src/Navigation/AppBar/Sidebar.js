@@ -207,12 +207,12 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
             <MailOutlineIcon style={{ color: '#745B4F', fontSize: 20 }} />
           </a>
         </Box>
-        <SmallAdSenseAd />
+       
 
       </Box>
 
 
-
+      <SmallAdSenseAd />
 
     </Drawer>
   );
