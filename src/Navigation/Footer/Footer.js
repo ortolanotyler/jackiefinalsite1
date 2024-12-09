@@ -7,6 +7,7 @@ import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import SwitchUpYour from "./SwitchUpYour";
 import SmallAdSenseAd from "../../Home/AdsenseSmall";
+import DividerWithText from "../../Home/DividerWithText";
 
 const Footer = () => {
   const [showButton, setShowButton] = useState(false);
