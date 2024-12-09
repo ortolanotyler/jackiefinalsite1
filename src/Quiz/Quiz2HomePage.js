@@ -95,6 +95,9 @@ const Quiz2Homepage = () => {
         {/* Quiz Content */}
 
         <TextReveal text="Animal Pretty Quiz" style={{ backgroundColor: "#ffffff", width: "100%", paddingTop: '20px'}} />
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
      <div style = {{
       margin: '0 auto',
      }}>
