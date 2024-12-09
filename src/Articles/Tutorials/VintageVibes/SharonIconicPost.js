@@ -11,6 +11,7 @@ import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
 import DividerWithText from '../../../Home/DividerWithText';
 import AdSenseAd from '../../../Home/Adsense';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/IconicTitle.png`;
 const Sharon2 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateIconic/JackieAsSharon.jpg`;
@@ -201,7 +202,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
     
       <DividerWithText  text = "Ad"/>
       <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
       
@@ -218,9 +219,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   If you're as captivated by this makeup era and Sharon Tate as I am, I hope you'll enjoy this beauty breakdown. While I use modern products to achieve the look, at the end of this article, we'll also explore some products still available today that were among Sharon Tate's favorites.
 </p>
 
-<DividerWithText  text = "Ad"/>
-      <div className="ad-container">
-  <AdSenseAd />
+   <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>The Essence of Sharon Tate’s Makeup</h2>
@@ -249,9 +249,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/494394?noHeader=true" title="Sharon Tate Inspired Makeup Products" />
    
-      <DividerWithText  text = "Ad"/>
-      <div className="ad-container">
-  <AdSenseAd />
+         <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>Sharon’s Modelesque Bone Structure</h2>
@@ -273,9 +272,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/494403?noHeader=true" title="Sharon Tate Inspired Brow Products" />
-      <DividerWithText  text = "Ad"/>
-      <div className="ad-container">
-  <AdSenseAd />
+         <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>Sharon’s Take on ‘60s Cut Crease Eyes</h2>
@@ -307,9 +305,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
     
       <ResponsiveIframe src="https://shopmy.us/collections/public/565715?noHeader=true" title="Twiggy-inspired Lashes Products" />
-      <DividerWithText  text = "Ad"/>
-      <div className="ad-container">
-  <AdSenseAd />
+         <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>What Products did Sharon really use?</h2>
@@ -331,9 +328,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
   In the tutorial, I hosted a giveaway of an amazing Sharon Tate coffee table book, “<a href="https://www.amazon.com/Sharon-Tate-Recollection-Debra/dp/076245234X" target="_blank" rel="noopener noreferrer" style={linkStyle}>Sharon Tate Recollection</a>” by her sister, Deborah Tate that celebrates her style. The winner has received their prize, but you can buy the book on Amazon <a href="https://www.amazon.com/Sharon-Tate-Recollection-Debra/dp/076245234X" target="_blank" rel="noopener noreferrer" style={linkStyle}>here</a> - a must for Sharon fans!
 </p>
-<DividerWithText  text = "Ad"/>
-      <div className="ad-container">
-  <AdSenseAd />
+   <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>Sharon's Bohemian Style</h2>
@@ -385,19 +381,16 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
     
 
         <Comments website-id={websiteId} page-id="sharon-iconic-post" />
-        <DividerWithText  text = "Ad"/>
-      <div className="ad-container">
-  <AdSenseAd />
+           <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
-<DividerWithText  text = "Ad"/>
-      <div className="ad-container">
-  <AdSenseAd />
+   <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
-<DividerWithText  text = "Ad"/>
-      <div className="ad-container">
-  <AdSenseAd />
+   <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 

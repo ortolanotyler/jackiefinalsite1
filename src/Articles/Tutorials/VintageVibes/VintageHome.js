@@ -3,6 +3,8 @@ import { Grid, Box } from '@mui/material';
 import HeroSection2a from '../../../Home/HeroSection2a';
 import HeroSection from '../../../Home/HeroSection';
 import TextRevealHomePage from '../../../Components/TextRevealHomePage';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const VintageVibes = () => {
   return (
@@ -21,6 +23,11 @@ const VintageVibes = () => {
               isFlipped={true}
             />
           </Grid>
+
+          <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
           <Grid item xs={12}>
             <HeroSection
@@ -64,6 +71,10 @@ const VintageVibes = () => {
               />
             </Box>
           </Grid>
+          <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
 
           <Grid item xs={12} sm={6} md={6} lg={4}>
             <Box
@@ -105,6 +116,11 @@ const VintageVibes = () => {
               />
             </Box>
           </Grid>
+
+          <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
           <Grid item xs={12} sm={6} md={6} lg={4}>
             <Box

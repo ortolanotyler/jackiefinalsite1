@@ -6,6 +6,7 @@ import EmailSubscribe2 from "../Components/EmailSubscribe2";
 import AdSenseAd from "../Home/Adsense";
 import Quiz2 from "./Quiz2";
 import DividerWithText from "../Home/DividerWithText";
+import SmallAdSenseAd from "../Home/AdsenseSmall";
 
 const Quiz2Homepage = () => {
   return (
@@ -101,11 +102,8 @@ const Quiz2Homepage = () => {
 
         </div>
     
-      <DividerWithText text = "Ad"/>
-
-
-      <div className="ad-container">
-  <AdSenseAd />
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -114,11 +112,8 @@ const Quiz2Homepage = () => {
       <Box sx={{ width: "100%", textAlign: "center", padding: "10px" }}>
         <EmailSubscribe2 />
       </Box>
-      <DividerWithText text = "Ad"/>
-
-
-      <div className="ad-container">
-  <AdSenseAd />
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 

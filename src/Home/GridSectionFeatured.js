@@ -3,6 +3,7 @@ import { Grid, Box } from '@mui/material';
 import HeroSection2a from './HeroSection2a'; // Importing HeroSection2a format
 import DividerWithText from './DividerWithText';
 import AdSenseAd from './Adsense';
+import SmallAdSenseAd from './AdsenseSmall';
 
 const FeaturedGrid6 = () => {
   return (
@@ -105,12 +106,10 @@ const FeaturedGrid6 = () => {
         </Grid>
 
     
-<DividerWithText text = "Ad"/>
-        <div className="ad-container">
-  <AdSenseAd />
+   <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
-
        
       
 
@@ -128,12 +127,10 @@ const FeaturedGrid6 = () => {
         </Grid>
 
       
-<DividerWithText text = "Ad"/>
-        <div className="ad-container">
-  <AdSenseAd />
+   <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
-
      
       </Grid>
     </Box>

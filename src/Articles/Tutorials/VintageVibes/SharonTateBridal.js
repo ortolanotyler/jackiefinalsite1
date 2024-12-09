@@ -10,6 +10,7 @@ import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
 import DividerWithText from '../../../Home/DividerWithText';
 import AdSenseAd from '../../../Home/Adsense';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const Sharon2 = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SharonBridalDouble.png`;
 const SharonFace = `${process.env.PUBLIC_URL}/Images/Articles/SharonTateBridal/SHARONTATEFILLEDINFACECHART.jpg`;
@@ -199,9 +200,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <DropCap1 text="Welcome back to Time Travel Tutorials - the series where we embrace the vintage vibes from the beauties of the past. In this edition, we're shining the spotlight on the stunning Sharon Tate. Renowned as an American actress and model, Tate left a lasting impression with her role in 'Valley of the Dolls' (1967). Hailed as Hollywood's most promising starlet of her time, Sharon's distinctive makeup, hair, and fashion sense continue to captivate and inspire women to this day." />
-      <DividerWithText  text = "Ad"/>
-      <div className="ad-container">
-  <AdSenseAd />
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
       <p style={paragraphStyle}>
@@ -219,9 +219,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <img src={SharonFace} alt="Sharon Tate 60s Makeup" style={{ width: '100%' }} />
       </div>
-      <DividerWithText  text = "Ad"/>
-      <div className="ad-container">
-  <AdSenseAd />
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
       <p style={paragraphStyle}>
@@ -245,9 +244,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
    </p>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/490599?noHeader=true" title="Eye Makeup Essentials" />
-      <DividerWithText  text = "Ad"/>
-      <div className="ad-container">
-  <AdSenseAd />
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>Lashes and Brows</h2>
@@ -270,9 +268,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <p style={paragraphStyle}>
   Today, we'll delve into her unique and playful bridal style, which embodies a <a href="https://www.jackiewyers.beauty/bridalstyles" target="_blank" rel="noopener noreferrer" style={linkStyle}>vintage charm</a> while remaining wonderfully contemporary for today's brides!
 </p>
-<DividerWithText  text = "Ad"/>
-      <div className="ad-container">
-  <AdSenseAd />
+   <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
@@ -297,9 +294,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </a>
 
       <ResponsiveIframe src="https://shopmy.us/collections/public/492227?noHeader=true" title="Wedding Dress Collection" />
-      <DividerWithText  text = "Ad"/>
-      <div className="ad-container">
-  <AdSenseAd />
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>Discover More Vintage-Inspired Looks</h2>
@@ -335,19 +331,16 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </div>
     
       <Comments website-id={websiteId} page-id={'Sharon-Tate-Post'} />
-      <DividerWithText  text = "Ad"/>
-      <div className="ad-container">
-  <AdSenseAd />
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
-<DividerWithText  text = "Ad"/>
-      <div className="ad-container">
-  <AdSenseAd />
+   <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
-<DividerWithText  text = "Ad"/>
-      <div className="ad-container">
-  <AdSenseAd />
+   <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
     </div>

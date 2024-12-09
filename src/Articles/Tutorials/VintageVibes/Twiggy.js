@@ -11,6 +11,7 @@ import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
 import AdSenseAd from '../../../Home/Adsense';
 import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TwiggyFaceChart.png`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Articles/Twiggy/TWIGGYFINALHEADSHOT.jpg`;
@@ -203,9 +204,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 
       <DropCap1 text="Welcome back to the blog, vintage beauty lovers! Today’s Time Travel Tutorials is dedicated to the doe-eyed darling of the decade: Twiggy. Known affectionately as “The Face of ‘66,” she redefined beauty standards with her waifish figure, striking lashes, and androgynous looks. Twiggy, born Lesley Lawson, wasn't just a trendsetter; she was a cultural phenomenon. "/>
       
-      <DividerWithText  text = "Ad"/>
-        <div className="ad-container">
-  <AdSenseAd />
+       <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -253,9 +253,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/542136?noHeader=true" title="The Anna Sui Rich Lotion and Gel Foundation Primer" />
-<DividerWithText  text = "Ad"/>
-        <div className="ad-container">
-  <AdSenseAd />
+   <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 <h2 style={headingStyle}>Barely There Foundation</h2>
@@ -283,9 +282,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/551123?noHeader=true" title="Brightening Powder - Ana Sui" />
-<DividerWithText  text = "Ad"/>
-        <div className="ad-container">
-  <AdSenseAd />
+   <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -319,9 +317,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/551126?noHeader=true" title="Eyeliner - Ana Sui" />
-<DividerWithText  text = "Ad"/>
-        <div className="ad-container">
-  <AdSenseAd />
+   <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -341,9 +338,8 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 <p style={paragraphStyle}>
   No <a style={linkStyle} href="https://en.wikipedia.org/wiki/Twiggy" target="_blank" rel="noreferrer">Twiggy</a> ensemble is complete without an attention-grabbing hairstyle. While I steer clear of her signature cropped cut, I simply can’t pull it off, I chose to recreate this portrait to try out this charming curly buns with delicate flowers.
 </p>
-<DividerWithText  text = "Ad"/>
-        <div className="ad-container">
-  <AdSenseAd />
+   <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 <div style={gridContainerStyle}>
@@ -374,19 +370,16 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       
      
       <Comments website-id={websiteId} page-id={"Twiggy"} />
-      <DividerWithText  text = "Ad"/>
-        <div className="ad-container">
-  <AdSenseAd />
+       <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
-<DividerWithText  text = "Ad"/>
-        <div className="ad-container">
-  <AdSenseAd />
+   <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
-<DividerWithText text = "Ad"/>
-        <div className="ad-container">
-  <AdSenseAd />
+<div className="ad-container">
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 

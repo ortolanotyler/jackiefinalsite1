@@ -157,9 +157,8 @@ function HomePage() {
         
         <SixGridComponent />
 
-        <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd />
+  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
         <TextBanner2 text="VINTAGE VIBES" height="100px" width="100%" fontSize="1rem" margin="1rem auto" />

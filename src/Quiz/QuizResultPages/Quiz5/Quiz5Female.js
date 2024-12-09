@@ -8,6 +8,8 @@ import AdSenseAd from '../../../Home/Adsense';
 import HorizontalLine from '../../../Components/HorizontalLine';
 import TextRevealHomePage from '../../../Components/TextRevealHomePage';
 import SubscribeButton from '../../../Components/SubscribeButton';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
+import DividerWithText from '../../../Home/DividerWithText';
 
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
@@ -200,7 +202,10 @@ const Quiz5Female = () => {
     
     
       <ResponsiveYoutube src="https://www.youtube.com/embed/92Exu4CeZ7E&t=478s" title="Pamela Anderson 90s Makeup Tutorial" />
-    
+      <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
      
      
       <h2 style={headingStyle}>More Inspirational Looks:</h2>
@@ -210,10 +215,10 @@ const Quiz5Female = () => {
 
       <p style={paragraphStyle}>Embrace these looks to enhance your artistic flair and showcase your individuality. Each style offers a unique way to express yourself and make an impression. Don’t forget to share your favorite transformations and tag me in your recreations if you use my tutorials!</p>
 
-      <HorizontalLine />
-      <AdSenseAd />
-   
-      <HorizontalLine />
+      <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <img src={signature} alt="Jackie Wyers Signature" style={{ width: '100%', maxWidth: '650px' }} />

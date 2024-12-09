@@ -280,7 +280,7 @@ const BalkeBlog = () => {
 </p>
 <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <AdSenseAd/>
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 

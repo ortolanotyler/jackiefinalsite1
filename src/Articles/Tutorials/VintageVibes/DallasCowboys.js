@@ -11,6 +11,7 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import NextArticle from '../../../Components/NextArticleComponent';
 import DividerWithText from '../../../Home/DividerWithText';
 import AdSenseAd from '../../../Home/Adsense';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
 const dccImage = `${process.env.PUBLIC_URL}/Images/Articles/DCC/DCCMakeupThumb.jpg`;
@@ -242,11 +243,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
            text="Get ready to transform into a Southern bombshell with this Dallas Cowboys Cheerleader-inspired makeup tutorial! I adore pop culture, and loved the Netflix docu-series America's Sweethearts: Dallas Cowboys Cheerleaders and with the news of the show coming back for season 2, I thought we could all celebrate together by trying out an inspired makeup look. Referencing makeup artist Madeline Cope, who has worked with DCC squad members on iconic glam looks for their cameo shoots, this guide will help you recreate a similar, ultra-glam aesthetic with both high-end and affordable favorites. Follow along to see how I achieved this look and even find drugstore dupes to recreate the glam without the splurge!
               "/>
   
-  <DividerWithText text="Ad" />
-      <div className="ad-container">
-        <AdSenseAd />
-      </div>
-      <DividerWithText text="Ad" />
+  <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
   
   
             <h2 style={headingStyle}>DCC Beauty Breakdown</h2>
@@ -265,11 +266,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   src="https://shopmy.us/collections/public/993006?noHeader=true" 
   />
 
-<DividerWithText text="Ad" />
-      <div className="ad-container">
-        <AdSenseAd />
-      </div>
-      <DividerWithText text="Ad" />
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
   <strong>Foundation:</strong> The Giorgio Armani Luminous Silk Foundation offers a flawless base that’s both lightweight and radiant—perfect for cheer-ready skin. For a more affordable alternative, consider L’Oreal True Match Lumi.
@@ -302,11 +303,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   
 />
 
-<DividerWithText text="Ad" />
-      <div className="ad-container">
-        <AdSenseAd />
-      </div>
-      <DividerWithText text="Ad" />
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style={headingStyle}>Rosy Cheeks & Luminous Blush</h2>
 
@@ -336,11 +337,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   src="https://shopmy.us/collections/public/993057?noHeader=true" 
   
 />
-<DividerWithText text="Ad" />
-      <div className="ad-container">
-        <AdSenseAd />
-      </div>
-      <DividerWithText text="Ad" />
+<DividerWithText text = "Ad"/>
 <p style={paragraphStyle}>
   To set the look, Charlotte Tilbury Airbrush Flawless Setting Spray is ideal, but L’Oreal Paris Setting sprays are a fantastic, affordable option.
 </p>
@@ -385,11 +382,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   src="https://shopmy.us/collections/public/993068?noHeader=true" 
   
 />
-<DividerWithText text="Ad" />
-      <div className="ad-container">
-        <AdSenseAd />
-      </div>
-      <DividerWithText text="Ad" />
+        <div className="ad-container">
 <p style={paragraphStyle}>
   Finish the eye look with Makeup Forever’s Artist Color Pencils. Start with Whatever Black for a soft winged-out liner shape, and Dimensional Dark Brown in the waterline, smoked out from the bottom lashline. A drugstore option I always recommend is the Revlon So Fierce Vinyl Eyeliner in Midnight Mystery and Mighty Mocha. Super creamy and rich in pigment!
 </p>
@@ -421,11 +414,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   src="https://shopmy.us/collections/public/993079?noHeader=true" 
   
 />
-<DividerWithText text="Ad" />
-      <div className="ad-container">
-        <AdSenseAd />
-      </div>
-      <DividerWithText text="Ad" />
+  <SmallAdSenseAd/>
 {/* Embed dance video */}
 <div style={{ marginBottom: '30px', marginTop: '20px', textAlign: 'center' }}>
   <iframe
@@ -448,11 +437,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   I used many of the exact products with some of my own personal favorites to make the look suit me best. Can’t get enough of the DCC? 
   Here's an <a href="https://www.youtube.com/embed/6Gk7bv-6ucY?si=d1OJ5ZkUt-TXDxxH" target="_blank" rel="noopener noreferrer" style={linkStyle}>official Dallas Cowboys Cheerleaders makeup tutorial</a> by bubbly Kat to guide you through the process as well.
 </p>
-<DividerWithText text="Ad" />
-      <div className="ad-container">
-        <AdSenseAd />
-      </div>
-      <DividerWithText text="Ad" />
+</div>
 <h2 style={headingStyle}>Makeup Tutorial From Dallas Cowboys Cheerleader</h2>
 
 <p style={paragraphStyle}>
@@ -544,11 +529,7 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   />
 </div>
 
-<DividerWithText text="Ad" />
-      <div className="ad-container">
-        <AdSenseAd />
-      </div>
-      <DividerWithText text="Ad" />
+<DividerWithText text = "Ad"/>
 
 {/* Embed dance video */}
 <div style={{ marginBottom: '30px', marginTop: '20px', textAlign: 'center' }}>
@@ -592,21 +573,21 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
             </div>
   
             <Comments website-id="10910" page-id="dcc-makeup-tutorial" />
-            <DividerWithText text="Ad" />
-      <div className="ad-container">
-        <AdSenseAd />
-      </div>
-      <DividerWithText text="Ad" />
-      <DividerWithText text="Ad" />
-      <div className="ad-container">
-        <AdSenseAd />
-      </div>
-      <DividerWithText text="Ad" />
-      <DividerWithText text="Ad" />
-      <div className="ad-container">
-        <AdSenseAd />
-      </div>
-      <DividerWithText text="Ad" />
+            <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
           </div>
         }
       />

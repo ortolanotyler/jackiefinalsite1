@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import styles from './Slider.module.css'; // Updated to use the CSS module
 import DividerWithText from '../Home/DividerWithText';
-import AdSenseAd from '../Home/Adsense';
+import SmallAdSenseAd from '../Home/AdsenseSmall';
 
 const image1 = "https://res.cloudinary.com/dzhlitors/image/upload/v1731276636/horsegirl1_VSCO_q9pico.jpg";
 const image2 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/vaticanslay.jpg`;
@@ -67,7 +67,7 @@ const MyStyleSlider1 = () => {
 
   return (
     <>
-      <div className={styles.itemContainer}>
+        <div className={styles.itemContainer}>
       {imageDetails.map((imageDetail, index) => (
         <div className={styles.item} key={index} ref={(el) => (itemsRef.current[index] = el)}>
           <img src={imageDetail.src} alt={imageDetail.alt} className={styles.itemImg} />
@@ -79,12 +79,12 @@ const MyStyleSlider1 = () => {
             <DividerWithText text = "Ad"/>
 
             <div className="ad-container">
-            <AdSenseAd/>
+            <SmallAdSenseAd/>
             </div>
             
             <DividerWithText text ="Ad"/>
     </>
-  
+
   );
 };
 
