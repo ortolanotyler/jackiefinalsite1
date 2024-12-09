@@ -208,12 +208,10 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           </a>
         </Box>
       </Box>
-      <DividerWithText text = "Ad"/>
 
-<div className="ad-container">
  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
+
+
 
     </Drawer>
   );
