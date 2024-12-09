@@ -146,7 +146,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
             textTransform: 'lowercase',
             letterSpacing: '0.1em',
             borderRadius: '50px',
-            padding: '10px 20px',
+            padding: '5px 10px',
             fontFamily: 'Playfair Display, serif ',
             transition: 'color 0.3s ease', // Smooth transition for color change
             '&:hover': {
