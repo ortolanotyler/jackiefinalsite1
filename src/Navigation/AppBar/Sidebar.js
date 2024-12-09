@@ -79,14 +79,16 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
   ];
 
   return (
-    <>        <BannerNavSearch/>
+    <>      
 <Drawer
       anchor="left"
       open={isOpen}
       onClose={toggleDrawer}
       PaperProps={{ style: { zIndex: 1400, width: '300px', overflow: 'hidden' } }}
     >
-
+  <BannerNavSearch/>
+  <BannerNavSearch/>
+  <BannerNavSearch/>
       <Box
         role="presentation"
         sx={{
@@ -210,15 +212,9 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           </a>
         </Box>
 
-        <DividerWithText text = "Ad"/>
 
 
-<DividerWithText text = "Ad"/>
-<div className="ad-container">
 
-<SmallAdSenseAd/>
-</div>
-<DividerWithText text = "Ad"/>
 
       </Box>
 
