@@ -65,7 +65,6 @@ const NewsletterSlider = () => {
           <EmailSubscribe />
         </Grid>
 
-        <DividerWithText text="Weekly Newsletter" />
 
 
         <Grid item xs={12} sm={isMobile ? 12 : 6}>
@@ -155,10 +154,10 @@ const NewsletterSlider = () => {
           </Grid>
         )}
       </Grid>
+      
       <SmallAdSenseAd />
 
 
-      <DividerWithText text="Weekly Newsletter" />
     </React.Fragment>
   );
 };
