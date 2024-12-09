@@ -9,6 +9,8 @@ import MyStyleSlider1 from './MyStyleSlider1';
 import MyStyleSlider2 from './MyStyleSlider2';
 import MyStyleSlider3 from './MyStyleSlider3';
 import MyStyleSlider4 from './MyStyleSlider4';
+import SmallAdSenseAd from '../Home/AdsenseSmall';
+import DividerWithText from '../Home/DividerWithText';
 
 const MyStyle = () => {
   // Base style for anchor tags
@@ -40,7 +42,8 @@ const MyStyle = () => {
   };
 
   return (
-    <div style={{ backgroundColor: 'white' }}>
+    <>
+    <div style={{ backgroundColor: '#fffff' }}>
       <Helmet>
         <title>Shop My Style - Jackie Wyers</title>
         <meta name="description" content="Explore the style and fashion choices of Jackie Wyers. Find inspiration and shop the looks." />
@@ -48,16 +51,60 @@ const MyStyle = () => {
       <TextReveal text="SHOP MY STYLE" />
       <div style={sectionStyle}></div>
       <MyStyleSlider1/>
+      <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
       <MyStyleSlider3/>
       <MyStyleSlider4/>
+      <DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
       <MyStyleSlider2/>
+      <DividerWithText text = "Ad"/>
 
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
       <ItemSlider />
       <PhotoShootSlider />
       <AprilStyleSlider />
+      <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
       <FallWinterSlider />
     </div>
+       <DividerWithText text = "Ad"/>
+
+       <div className="ad-container">
+     <SmallAdSenseAd/>
+     <SmallAdSenseAd/>
+     </div>
+     <DividerWithText text = "Ad"/>
+     <DividerWithText text = "Ad"/>
+
+     <div className="ad-container">
+   <SmallAdSenseAd/>
+   <SmallAdSenseAd/>
+   </div>
+   <DividerWithText text = "Ad"/>
+   <DividerWithText text = "Ad"/>
+
+   <div className="ad-container">
+ <SmallAdSenseAd/>
+ <SmallAdSenseAd/>
+ </div>
+ <DividerWithText text = "Ad"/>
+    </>
   );
 };
 
