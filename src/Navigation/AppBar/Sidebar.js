@@ -8,6 +8,8 @@ import PinterestIcon from '@mui/icons-material/Pinterest';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import HomeIcon from '@mui/icons-material/Home';
 import BannerNavSearch from '../../Home/SearchBar';
+import SmallAdSenseAd from '../../Home/AdsenseSmall';
+import DividerWithText from '../../Home/DividerWithText';
 
 const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
@@ -199,6 +201,13 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           </a>
         </Box>
       </Box>
+      <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+ <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
     </Drawer>
   );
 };
