@@ -26,13 +26,7 @@ const Quiz5Homepage = () => {
         />
       </Helmet>
 
-      {/* Male vs Female Gaze Quiz Section */}
-      <TextReveal text="MALE vs FEMALE GAZE QUIZ" style={{ backgroundColor: "#ffffff", width: "100%",  paddingTop: '20px'  }} />
-      <Quiz5 />
-    <div className="ad-container">
-  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
+
 
       {/* Halloween Costume Quiz Section */}
       <TextReveal text="HALLOWEEN COSTUME QUIZ" style={{ backgroundColor: "#ffffff", width: "100%" }} />

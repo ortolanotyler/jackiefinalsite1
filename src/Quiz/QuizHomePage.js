@@ -102,31 +102,8 @@ const QuizHomepage = () => {
 </div>
 <DividerWithText text = "Ad"/>
 
-      {/* Male vs Female Gaze Quiz Section */}
-      <Box sx={{ margin:'1rem',backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
-        <TextReveal
-          text="MALE vs FEMALE GAZE QUIZ"
-          style={{ backgroundColor: '#fdedef', width: '100%' }}
-        />
-      </Box>
+    
 
-      {/* Quiz 5 Section */}
-      <Box
-        sx={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          gap: 0,
-        }}
-      >
-        <Quiz5 />
-      </Box>
-
-      {/* AdSense After Interactive Content */}
-    <div className="ad-container">
-  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
 
       {/* Halloween Quiz Section */}
       <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>

@@ -149,6 +149,7 @@ import HarleyQuinnEvolution from './Articles/Tutorials/PopCulture/Harley';
 import RemBeautyWickedReview from './Articles/Tutorials/PopCulture/Wicked3';
 import Wicked4 from './Articles/Tutorials/PopCulture/Wicked4';
 import TaylorErasTour from './Articles/Tutorials/PopCulture/TaylorSwift2';
+import { Quiz } from '@mui/icons-material';
 
 
 function usePageTracking() {
@@ -299,7 +300,7 @@ function App() {
             <Route path="quiz-3-home" element={<Quiz3Homepage />} />
             <Route path="quiz-2-home" element={<Quiz2Homepage />} />
             <Route path="quiz-4-home" element={<Quiz4Homepage />} />
-            <Route path="quiz-5-home" element={<Quiz5Homepage />} />
+            <Route path="quiz-5-home" element={<Quiz2Homepage />} />
 
             <Route path="articles/rory-gilmore" element={<Rory />} />
             <Route path="articles/wicked" element={<Wicked />} />
@@ -314,7 +315,7 @@ function App() {
             <Route path="/quiz/halloween/britney" element={<Quiz4Britney />} />
             <Route path="/quiz/halloween/taylor" element={<Quiz4Taylor />} />
             <Route path="/articles/dragon-braid" element={<DragonBraid />} />
-            <Route path="/quiz/male-female-gaze" element={<Quiz5Homepage />} />
+            <Route path="/quiz/male-female-gaze" element={<QuizHomepage />} />
             <Route path="/quiz/male" element={<Quiz5Male />} />
             <Route path="/quiz/female" element={<Quiz5Female />} />
 

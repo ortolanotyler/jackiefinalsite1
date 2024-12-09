@@ -45,14 +45,11 @@ const Quiz4Homepage = () => {
       {/* Wedding Dress Quiz Section */}
       <TextReveal text="ULTIMATE WEDDING DRESS QUIZ" style={{ backgroundColor: "#ffffff", width: "100%" }} />
       <Quiz3 />
-      <div className="ad-container">
-  <SmallAdSenseAd />
-</div>
+ =
 <DividerWithText text = "Ad"/>
 
       {/* Male vs Female Gaze Quiz Section */}
-      <TextReveal text="MALE vs FEMALE GAZE QUIZ" style={{ backgroundColor: "#ffffff", width: "100%" }} />
-      <Quiz5 />
+
       <div className="ad-container">
   <SmallAdSenseAd />
 </div>

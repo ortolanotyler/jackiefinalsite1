@@ -29,17 +29,8 @@ const Quiz3Homepage = () => {
       {/* Quiz Content Sections */}
       <TextReveal text="ULTIMATE WEDDING DRESS QUIZ" style={{ backgroundColor: "#ffffff", width: "100%", paddingTop: '20px' }} />
       <Quiz3 />
-   <div className="ad-container">
-  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
 
-      <TextReveal text="MALE vs FEMALE GAZE QUIZ" style={{ backgroundColor: "#ffffff", width: "100%" }} />
-      <Quiz5 />
-   <div className="ad-container">
-  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
+
 
       <TextReveal text="HALLOWEEN COSTUME QUIZ" style={{ backgroundColor: "#ffffff", width: "100%" }} />
       <Quiz4 />
