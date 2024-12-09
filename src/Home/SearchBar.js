@@ -1,6 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import styles from './BannerNav2.module.css';
 import SearchData from './SearchBarData';
+import DividerWithText from './DividerWithText';
+import SmallAdSenseAd from './AdsenseSmall';
 
 const BannerNavSearch = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -65,12 +67,18 @@ const BannerNavSearch = () => {
                   >
                     <p className={styles.searchResultTitle}>{result.title}</p>
                   </a>
+                  <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
                 </div>
               </div>
             ))}
           </div>
         )}
       </div>
+      
     </div>
   );
 };

@@ -3,6 +3,7 @@ import { Grid, Box } from '@mui/material';
 import HeroSection2a from './HeroSection2a'; // Importing HeroSection2a format
 import DividerWithText from './DividerWithText';
 import AdSenseAd from './Adsense';
+import SmallAdSenseAd from './AdsenseSmall';
 
 const VintageVibesCards = () => {
   return (
@@ -34,6 +35,12 @@ const VintageVibesCards = () => {
             />
           </Box>
         </Grid>
+
+        <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
         <Grid item xs={12} sm={6} md={6} lg={4}>
         <Box sx={{ height: '100%', width: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -75,13 +82,8 @@ const VintageVibesCards = () => {
           </Box>
         </Grid>
 
-        <DividerWithText  text = "Ad"/>
 
-<div className="ad-container">
-<AdSenseAd />
-</div>
 
-<DividerWithText text ="Ad"/>
 
         {/* Third Row */}
         <Grid item xs={12} sm={6} md={6} lg={4}>
