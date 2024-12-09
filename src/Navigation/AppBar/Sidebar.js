@@ -105,9 +105,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
         </IconButton>
 
         {/* Search Bar */}
-        <Box sx={{ marginBottom: '1rem', paddingTop: '50px' }}>
-          <BannerNavSearch />
-        </Box>
+     
 
         {/* Menu Items */}
         <Box sx={{ flexGrow: 1, overflowY: 'auto' }}>
