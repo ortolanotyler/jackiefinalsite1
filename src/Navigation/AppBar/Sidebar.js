@@ -210,9 +210,12 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
        
 
       </Box>
-
-
-      <SmallAdSenseAd />
+<div style = {{
+  margin: '0 auto',
+}}>
+ <SmallAdSenseAd />
+</div>
+     
 
     </Drawer>
   );
