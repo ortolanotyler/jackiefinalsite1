@@ -6,6 +6,8 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/DiaryPost1/DiaryPostTitle.png`;
 const bridesmaid = `${process.env.PUBLIC_URL}/Images/Articles/Bridesmaids/BridesmaidBoxThumb!.jpg`;
@@ -205,7 +207,11 @@ const Card = ({ blogContent }) => (
       <p style={paragraphStyle}>
         This self-criticism deepened during an abusive romantic relationship, further eroding my self-esteem. I fixated on my perceived flaws, especially my nose, believing that changing this one feature would alleviate my feelings of inadequacy.
       </p>
-      
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <h2 style={headingStyle}>The Decision to Change and Its Consequences</h2>
 
@@ -221,7 +227,11 @@ const Card = ({ blogContent }) => (
       <div style={gridContainerStyle}>
       <img src={image2} alt="Diary Post #1 Jackie Wyers" style={imageStyle} />
       </div>
-
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <h2 style={headingStyle}>Reflection and Growth</h2>
 
@@ -240,7 +250,11 @@ const Card = ({ blogContent }) => (
       <p style={paragraphStyle}>
         While I recognize that cosmetic enhancements can be positive for some, especially informed adults, I worry about young girls who might view these procedures as solutions to deeper feelings of inadequacy, whether they are aware of their motivations or not. It took years to understand that my feelings of worthlessness were not merely physical insecurities. Making informed decisions about our bodies is challenging during confusing teen and young adult years.
       </p>
-      
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <p style={paragraphStyle}>
         Through sharing some of my story, I hope to inspire others to reflect on their motivations for physical changes and to embrace their true selves—not just in appearance, but in recognizing how special each personality is and how everyone is worthy of respect and love. I invite you to share your thoughts and reflections below, and I hope you enjoyed my first-ever diary post!
@@ -262,7 +276,21 @@ const Card = ({ blogContent }) => (
 
       <Comments website-id={websiteId} page-id="Diary-Fillers" />
      
-     
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       
 
 
