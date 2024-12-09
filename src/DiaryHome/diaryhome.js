@@ -3,6 +3,8 @@ import styles from './diaryhome.module.css';
 import TextReveal from '../Components/TextReveal';
 import HeroSection from '../Home/HeroSection';
 import HorizontalLine from '../Components/HorizontalLine';
+import DividerWithText from '../Home/DividerWithText';
+import SmallAdSenseAd from '../Home/AdsenseSmall';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/DiaryPost1/DIARYSQUARE.jpg`;
 
@@ -20,7 +22,14 @@ const DiaryHome = () => {
   linkUrl="/bridesmaidboxes"
   isFlipped={true}
 />
-<HorizontalLine/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+ <SmallAdSenseAd />
+
+</div>
+<DividerWithText text = "Ad"/>
+
 <HeroSection
   featureText="DIARY"
   headlineText="Beyond The Surface : My Experience With Injectable Fillers and Self-Acceptance"
@@ -33,6 +42,30 @@ const DiaryHome = () => {
 
 
     </div>
+    <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+ <SmallAdSenseAd />
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+ <SmallAdSenseAd />
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+ <SmallAdSenseAd />
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
     </>
   );
 };
