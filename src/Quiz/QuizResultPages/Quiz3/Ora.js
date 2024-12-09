@@ -7,6 +7,8 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
+import DividerWithText from '../../../Home/DividerWithText';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/oratitle.png`;
@@ -178,6 +180,13 @@ Thank you for taking the bridal dress quiz! Based on your results, you’d best 
 Imagine celebrating your special day at an exclusive private estate or an upscale beach venue, surrounded by luxurious details and classic charm!
 </p>
 
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 <h2 style = {headingStyle}>
 Wedding Ideas:
 
@@ -199,6 +208,13 @@ Dress Features: Look for gowns with pearl embellishments, classic silhouettes, a
 <div style={gridContainerStyle}>
    <img src={image4} alt="Jackie Wyers Wedding Ora Dress" style={imageStyle} />
  </div>
+
+
+ <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <h2 style = {headingStyle}>
@@ -225,6 +241,23 @@ Channel the sophistication of old money elegance with a modern twist. Take inspi
 
       <Comments website-id={websiteId} page-id={"quiz3"} />
      
+ <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       
     </div>
     

@@ -6,6 +6,8 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/elizabethtitle.png`;
@@ -182,6 +184,11 @@ Imagine celebrating your special day on an enchanted terrace surrounded by lush 
 
 
 
+ <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <h2 style = {headingStyle}>
@@ -202,9 +209,11 @@ Decor: Use twinkling fairy lights, tea lights, and whimsical or classic floral a
 Dress Features: Look for gowns with romantic lace details, large flowing skirts, and delicate embellishments.
 </p>
 
+
 <div style={gridContainerStyle}>
    <img src={image5} alt="Jackie Wyers Wedding Ora Dress" style={imageStyle} />
  </div>
+
 
 
 <h2 style = {headingStyle}>
@@ -217,6 +226,13 @@ Channel the romantic and ethereal elegance of Christine Daaé from The Phantom o
 </p>
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/3bnhjdjNNxo?si=214dwD1m_j0fvrvB" title="WEDDING DRESS SHOPPING & Bridal Makeup Trial with Jackie Wyers" />
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 
 <div style={{ textAlign: 'center', margin: '2rem 0' }}>
 <TakeQuizButton />
@@ -232,6 +248,24 @@ Channel the romantic and ethereal elegance of Christine Daaé from The Phantom o
       <Comments website-id={websiteId} page-id={"quiz3"} />
 
    
+ <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     </div>
   );
 

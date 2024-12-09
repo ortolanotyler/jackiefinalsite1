@@ -6,6 +6,8 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/guidethumbnail.jpeg`;
@@ -197,6 +199,8 @@ const Abril = () => {
   author="Jackie Wyers"
   publishDate="June 25th, 2024"
 />
+
+
    
       <ResponsiveYoutube src="https://www.youtube.com/embed/UQU9Fufug4M?si=WUaFXipbTuAIKW_9" title="WEDDING DRESS SHOPPING & Bridal Makeup Trial with Jackie Wyers" />
 
@@ -208,6 +212,13 @@ const Abril = () => {
 <p style={paragraphStyle}>
 Thank you for taking the bridal dress quiz! Based on your results, you’d best suit the Abril dress by Eva Lendel, with its guipure lace-up detailed corset, heart-shaped neckline, and cold-shoulder long sleeves. This dress is perfect for a royal wedding.
 </p>
+
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
 Imagine walking down the aisle in a historic castle or grand ballroom, feeling like royalty!
@@ -225,7 +236,11 @@ Imagine walking down the aisle in a historic castle or grand ballroom, feeling l
    <img src={image3} alt="Jackie Wyers Wedding Abril Dress" style={imageStyle} />
  </div>
 
-
+ <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style = {headingStyle}>
 Wedding Ideas:
@@ -246,9 +261,13 @@ Decor: Opt for rich colors, grand floral arrangements, and luxurious fabrics.
 Dress Features: Choose dresses with intricate lace details, structured silhouettes, and regal elements.
 </p>
 
+
+
 <div style={gridContainerStyle}>
    <img src={image4} alt="Jackie Wyers Wedding Abril Dress" style={imageStyle} />
  </div>
+
+ 
 
 
 <h2 style = {headingStyle}>
@@ -276,7 +295,10 @@ Looking for more royal vibes? Check out the elegance of Mia Thermopolis’s roya
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/s8mla3HD_Xo?si=t6YiNIUUq8fjH7Jg" title="WEDDING DRESS SHOPPING & Bridal Makeup Trial with Jackie Wyers" />
 
+ <div style={{ textAlign: 'center', margin: '2rem 0' }}>
+<TakeQuizButton />
 
+</div>
 
 
 

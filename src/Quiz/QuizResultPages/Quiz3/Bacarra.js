@@ -6,6 +6,8 @@ import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import TakeQuizButton from '../../../Components/TakeQuizButton';
 import ArticleTitle from '../../../Components/ArticleTitle';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Quiz/Quiz3/Bacarra1.jpg`;
@@ -231,6 +233,11 @@ Imagine saying your vows in an enchanted garden surrounded by lush greenery and 
  </div>
 
 
+ <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style = {headingStyle}>
 Wedding Ideas:
@@ -269,6 +276,11 @@ Bridal Muse:
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/LtTc3qCVtdE?si=Okv3OfGC3t23SX8B" title="WEDDING DRESS SHOPPING & Bridal Makeup Trial with Jackie Wyers" />
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 <div style={{ textAlign: 'center', margin: '2rem 0' }}>
 <TakeQuizButton />
 
@@ -282,6 +294,23 @@ Bridal Muse:
 
       <Comments website-id={websiteId} page-id={"quiz3"} />
 
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
    
  
       

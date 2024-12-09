@@ -76,13 +76,7 @@ const MyStyleSlider1 = () => {
         </div>
       ))}
     </div>
-            <DividerWithText text = "Ad"/>
-
-            <div className="ad-container">
-            <SmallAdSenseAd/>
-            </div>
-            
-            <DividerWithText text ="Ad"/>
+          
     </>
 
   );
