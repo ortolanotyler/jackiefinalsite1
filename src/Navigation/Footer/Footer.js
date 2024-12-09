@@ -221,9 +221,15 @@ const Footer = () => {
         )}
       </Box>
     </Box>
-       <div className="ad-container">
-       <SmallAdSenseAd />
-     </div></>
+    <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+ <SmallAdSenseAd />
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+     </>
   );
 };
 
