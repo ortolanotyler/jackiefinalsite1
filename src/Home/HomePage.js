@@ -156,7 +156,7 @@ function HomePage() {
 
 <div className="ad-container">
  <SmallAdSenseAd />
-  <SmallAdSenseAd />
+
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -188,7 +188,7 @@ function HomePage() {
 
 <div className="ad-container">
  <SmallAdSenseAd />
-  <SmallAdSenseAd />
+
 </div>
 <DividerWithText text = "Ad"/>
 
