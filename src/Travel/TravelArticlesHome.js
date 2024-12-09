@@ -6,6 +6,8 @@ import BookNowButton from '../Components/BookNowButton';
 import { Grid } from '@mui/material';
 import HeroSection from '../Home/HeroSection';
 import HorizontalLine from '../Components/HorizontalLine';
+import DividerWithText from '../Home/DividerWithText';
+import SmallAdSenseAd from '../Home/AdsenseSmall';
 
 const TravelArticlesHome = () => {
     return (
@@ -108,6 +110,12 @@ const TravelArticlesHome = () => {
           
         </Grid>
 
+        <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
         <Grid item xs={12}>
           
             <HeroSection
@@ -149,6 +157,12 @@ const TravelArticlesHome = () => {
             />
           
         </Grid>
+
+        <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
         <Grid item xs={12}>
           
@@ -192,6 +206,15 @@ const TravelArticlesHome = () => {
                 src="https://shopmy.us/collections/public/553075?noHeader=true"
                 style={{ width: '100%', minHeight: '2400px', border: 'none' }}
             />
+             <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/> <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
         </div>
     );
 };
