@@ -211,6 +211,7 @@ const Quiz2 = () => {
 
       <div className="ad-container">
     <SmallAdSenseAd/>
+    <SmallAdSenseAd/>
     </div>
     <DividerWithText text = "Ad"/>
     </>

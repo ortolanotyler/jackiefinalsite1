@@ -103,11 +103,7 @@ const Quiz2Homepage = () => {
 
         </div>
     
-        <DividerWithText text = "Ad"/>
-        <div className="ad-container">
-  <SmallAdSenseAd/>
-</div>
-<DividerWithText text = "Ad"/>
+   
 
 
       {/* Email Subscription */}
@@ -115,6 +111,7 @@ const Quiz2Homepage = () => {
         <EmailSubscribe2 />
       </Box>
         <div className="ad-container">
+  <SmallAdSenseAd />
   <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
