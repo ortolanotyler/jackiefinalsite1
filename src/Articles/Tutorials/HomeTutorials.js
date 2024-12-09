@@ -3,6 +3,8 @@ import { Grid, Box } from '@mui/material';
 import TextRevealHomePage from '../../Components/TextRevealHomePage';
 import HeroSection2a from '../../Home/HeroSection2a';
 import HeroSection from '../../Home/HeroSection';
+import DividerWithText from '../../Home/DividerWithText';
+import SmallAdSenseAd from '../../Home/AdsenseSmall';
 
 const HomeTutorials = () => {
   return (
@@ -43,6 +45,8 @@ const HomeTutorials = () => {
             />
           </Grid>
 
+      
+
           <Grid item xs={12}>
             <HeroSection
               featureText="LATEST"
@@ -55,7 +59,11 @@ const HomeTutorials = () => {
           </Grid>
 
 
-      
+          <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
          
 
           {/* Remaining Articles as HeroSection2a */}
@@ -90,6 +98,12 @@ const HomeTutorials = () => {
             />
           </Grid>
 
+          <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
+
           <Grid item xs={12} sm={6} md={6} lg={4}>
             <HeroSection2a
               featureText="GRACE KELLY"
@@ -119,6 +133,12 @@ const HomeTutorials = () => {
               isFlipped={false}
             />
           </Grid>
+
+          <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
 
           <Grid item xs={12} sm={6} md={6} lg={4}>
             <HeroSection2a
@@ -170,6 +190,16 @@ const HomeTutorials = () => {
           </Grid>
         </Grid>
       </Box>
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
     </>
   );
 };
