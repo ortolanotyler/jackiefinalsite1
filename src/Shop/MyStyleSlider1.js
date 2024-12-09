@@ -8,13 +8,14 @@ const image1a = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/polkadot.jpg`;
 
 const image2 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/vaticanslay.jpg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/walkingwaiheke.jpg`;
+const image33 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/metsteps.jpg`;
 
 const imageDetails = [
   {
-    src: image1a,
-    text: "POLKA DOT MOMENT",
-    alt: "Image 1",
-    href: "/polkadotmoment"
+    src: image33,
+    text: "MET STEPS",
+    alt: "Image 3",
+    href: "/metsteps"
   },
   {
     src: image2,
