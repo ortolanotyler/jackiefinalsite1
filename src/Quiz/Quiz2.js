@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import "./AnimalPrettyQuiz.css";
-import AdSenseAd from "../Home/Adsense";
+import DividerWithText from "../Home/DividerWithText";
+import SmallAdSenseAd from "../Home/AdsenseSmall";
 
 const Quiz2 = () => {
   const navigate = useNavigate();
@@ -162,6 +163,7 @@ const Quiz2 = () => {
   };
 
   return (
+    <>
     <div className="quiz2-container" data-ad-format="noauto">
       <Helmet>
         <title>Animal Pretty Quiz</title>
@@ -205,6 +207,13 @@ const Quiz2 = () => {
         </div>
       )}
     </div>
+      <DividerWithText text = "Ad"/>
+
+      <div className="ad-container">
+    <SmallAdSenseAd/>
+    </div>
+    <DividerWithText text = "Ad"/>
+    </>
   );
 }
 export default Quiz2;

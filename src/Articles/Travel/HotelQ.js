@@ -6,6 +6,8 @@ import ResponsiveYoutube from '../../Components/ResponsiveYoutube';
 import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 import SocialShare from '../../Home/SocialShare';
+import DividerWithText from '../../Home/DividerWithText';
+import SmallAdSenseAd from '../../Home/AdsenseSmall';
 
 const articleUrl = 'https://www.jackiewyers.beauty/hotelQ';
 const articleTitle = 'Hotel Quintessence, Mont Tremblant Review';
@@ -338,6 +340,24 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
      
      
       <Comments website-id={websiteId} page-id={"Hotel-Q"} />
+      <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
     </div>
   );
 

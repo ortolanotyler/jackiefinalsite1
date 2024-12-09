@@ -9,6 +9,8 @@ import DropCap1 from './DropCap1';
 import ArticleTitle from '../../Components/ArticleTitle';
 import NextArticle from '../../Components/NextArticleComponent';
 import SocialShare from '../../Home/SocialShare';
+import SmallAdSenseAd from '../../Home/AdsenseSmall';
+import DividerWithText from '../../Home/DividerWithText';
 
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/MammaMia/mammamiathumb.png`;
@@ -332,6 +334,24 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </div>
 
       <Comments website-id={websiteId} page-id={"DIY-Flowers"} />
+      <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
 
       
     
