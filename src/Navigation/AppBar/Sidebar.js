@@ -79,7 +79,8 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
   ];
 
   return (
-    <Drawer
+    <>        <BannerNavSearch/>
+<Drawer
       anchor="left"
       open={isOpen}
       onClose={toggleDrawer}
@@ -117,7 +118,6 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           {menuItems.map((item) => (
             <>
 
-<BannerNavSearch/>
 
 <Button
   key={item.name}
@@ -225,6 +225,8 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
      
 
     </Drawer>
+    </>
+    
   );
 };
 

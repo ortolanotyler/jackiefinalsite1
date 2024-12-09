@@ -13,7 +13,7 @@ const SmallAdSenseAd = () => {
   }, []);
 
   return (
-    <div style={{ textAlign: 'center', margin: '1rem' }}>
+    <div style={{ textAlign: 'center', margin: '1rem auto' }}>
      <ins
         className="adsbygoogle"
         style={{ display: 'inline-block', width: '300px', height: '150px',  }}
