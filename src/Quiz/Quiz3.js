@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Quiz3.css';
+import SmallAdSenseAd from '../Home/AdsenseSmall';
+import DividerWithText from '../Home/DividerWithText';
 
 const Quiz3 = () => {
   const navigate = useNavigate();
@@ -124,6 +126,7 @@ const Quiz3 = () => {
   };
 
   return (
+    <>
     <div className="bridal-quiz-container">
       {!showResults ? (
         <>
@@ -154,6 +157,12 @@ const Quiz3 = () => {
         </div>
       )}
     </div>
+        <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+</>
   );
 };
 

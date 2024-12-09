@@ -7,6 +7,8 @@ import { Helmet } from 'react-helmet-async';
 import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/BridalMakeup/BridalTrialMakeupThumb.png`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/BridalMakeup/Bridal1.png`;
@@ -200,7 +202,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
       <DropCap1 text="I recently had a fabulous time trying on wedding dresses at Natalie Rose Bridal, and I took the opportunity to attempt a makeup trial to see how everything would look and feel in videos and photos. In this post, I’ll break down the products used and share my thoughts on what worked and what I might tweak for the big day." />
       
-
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <p style={paragraphStyle}>
@@ -220,6 +226,12 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       <div>
         <img src={image2} alt="Jackie Wyers Bridal" style={{ width: '100%' }} />
       </div>
+
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>Product Breakdown and Bridal Makeup Tips</h2>
       <p style={paragraphStyle}>
   <strong>Skin Prep:</strong> It's crucial! Start prepping your skin well ahead of the big day. Stay hydrated and ensure you're well-rested. For a pre-makeup boost, I recommend using <a href="https://www.jackiewyers.beauty/valmont-prime-renewing-pack" target="_blank" rel="noopener noreferrer" style={linkStyle}>Valmont's Prime Renewing Pack</a>, which works wonders as an overnight mask and a pre-foundation moisturizer.
@@ -243,7 +255,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   title="Bridal Makeup Recommendations - Highlight and Contour Products" 
   alt="Collection of contour and highlight products for bridal makeup, featuring Mario Sculpting Stick and Yensa Super Serum Silk Concealer for a sculpted bridal look." 
 />
-      
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <p style={paragraphStyle}>
   <strong>Blushing Bride Cheeks:</strong> The focal point of the look was the <a href="https://www.rarebeauty.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Rare Beauty Luminous Blush</a> paired with <a href="https://www.charlottetilbury.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Charlotte Tilbury's Spotlight Highlight</a>. Check out more blush tips in my <a href="https://www.jackiewyers.beauty/blushingbride" target="_blank" rel="noopener noreferrer" style={linkStyle}>blush guide</a>.
@@ -262,7 +278,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   alt="Collection of brow products including Florasis Luodai Eyebrow Pencil and Benefit 24-hour brow setter, designed to create full, natural bridal brows inspired by Brooke Shields." 
 />      
      
-     
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
      
      
 
@@ -294,7 +314,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   alt="Collection of bridal lashes and lip products including Velour lashes, Isopia lashes, and Charlotte Tilbury lip products, ideal for completing a timeless bridal look." 
 />      
      
-     
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
      
      
   

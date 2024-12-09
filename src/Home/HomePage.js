@@ -119,7 +119,12 @@ function HomePage() {
 
 
 
-   
+        <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 

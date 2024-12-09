@@ -7,6 +7,8 @@ import ResponsiveIframe from '../../../Components/ResponsiveIframe';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016Double.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Articles/2016/2016FaceChart.png`;
@@ -198,7 +200,11 @@ const Makeup2016 = () => {
               </p>
     
               <DropCap text="Welcome back to another installment of Time Travel Tutorials...though this time, we're not journeying too far back in time! The makeup trends of 2016 were significantly influenced by the young Kylie Jenner, the undeniable 'IT' girl for teens. High-coverage foundations, LOTS of setting powder, sharp and bold dip brows, warm smokey eyes, glittery cut creases, voluminous mink lashes, and deep, matte lip combinations had beauty enthusiasts captivated!" />
-    
+              <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
               <p style={paragraphStyle}>
                 In this article, we'll revisit the products that were a staple on every makeup lover’s vanity in 2016 and
                 embrace a daily bold glamour look. I was so excited to channel Kylie Jenner's dramatic flair, especially
@@ -212,7 +218,11 @@ const Makeup2016 = () => {
                   style={{ width: '100%', maxWidth: '650px' }}
                 />
               </div>
-    
+              <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
               <h2 style={headingStyle}>The Essence of 2016 Makeup</h2>
     
               <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -233,7 +243,11 @@ const Makeup2016 = () => {
                 Use a classic matte primer, like the Benefit Professional Primer, to create a smooth base for your
                 foundation.
               </p>
-    
+              <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
               <h2 style={headingStyle}>Matte, High Coverage Foundation and The Beauty Blender</h2>
     
               <p style={paragraphStyle}>
@@ -259,7 +273,11 @@ const Makeup2016 = () => {
                 Choose a matte or slightly luminous rose shade blush. Kylie tailored her blush to each look, sometimes going
                 with a brighter pink or coral.
               </p>
-    
+              <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
               <h2 style={headingStyle}>Create a Soft Smoky Eye</h2>
     
               <p style={paragraphStyle}>
@@ -279,7 +297,11 @@ const Makeup2016 = () => {
               <p style={paragraphStyle}>
                 Very full mink lashes were all the rage, but luckily brands have prioritized faux mink lashes now.
               </p>
-    
+              <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
               <h2 style={headingStyle}>Pick Your Lip Combo</h2>
     
               <p style={paragraphStyle}>
@@ -299,6 +321,12 @@ const Makeup2016 = () => {
               <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <img src={image3} alt="2016 Makeup Tutorial" style={{ width: '100%', maxWidth: '650px' }} />
               </div>
+
+              <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     
               <p style={paragraphStyle}>
                 As a young adult and beauty content creator during this era, my personal style wasn't heavily swayed by
@@ -309,6 +337,12 @@ const Makeup2016 = () => {
               <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <img src={image4} alt="Perrie Edwards Makeup via Jackie Wyers" style={{ width: '100%', maxWidth: '650px' }} />
               </div>
+
+              <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
     
               <p style={paragraphStyle}>
                 This 2016 makeup tutorial should bring back memories and introduce you to techniques that were all the rage.
@@ -330,6 +364,22 @@ const Makeup2016 = () => {
               </div>
     
               <Comments website-id={websiteId} page-id={"-Makeup-2016"} />
+                  <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
             </div>
           }
         />

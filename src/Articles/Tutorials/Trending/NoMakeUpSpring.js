@@ -7,6 +7,8 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
 const title = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/NoMakeUpTitl.jpeg`;
 const image1 = `${process.env.PUBLIC_URL}/Images/Articles/NoMakeUpSpring/JackieWyersElizabethBennetInspiredMakeup.JPG`;
@@ -202,7 +204,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
 </p>
 
       <DropCap1 text="Welcome back for some quick no-makeup makeup inspiration for spring, inspired by timeless beauty icons from beloved tv & film. Now that it's spring, I find myself drawn to the artful simplicity of the no-makeup makeup look, inspired by some of pop culture's most enduring female characters. Their spirit, captured in timeless stories, now breathes life into my spring beauty routine." />
-     
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>The Looks: Elizabeth Bennet - Pride & Prejudice</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <a href="https://www.instagram.com/p/C5dsVStuCqT/?img_index=1" target="_blank" rel="noopener noreferrer">
@@ -222,7 +228,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   src="https://shopmy.us/collections/public/524423?noHeader=true" 
   title="Elizabeth Bennet Pride & Prejudice Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
   alt="Shop Elizabeth Bennet-inspired no-makeup makeup products used in the recreation of her look from Pride & Prejudice by Jackie Wyers"
-/>     
+/>         <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
      
       <h2 style={headingStyle}>Daphne Bridgerton - Bridgerton:</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -244,7 +254,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   title="Daphne Bridgerton Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
   alt="Shop Daphne Bridgerton-inspired no-makeup makeup products used in the recreation of her look from Bridgerton by Jackie Wyers"
 />     
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <h2 style={headingStyle}>Rose Dawson - Titanic:</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -265,7 +279,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   src="https://shopmy.us/collections/public/524428?noHeader=true" 
   title="Rose Dawson Titanic Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
   alt="Shop Rose Dawson-inspired no-makeup makeup products used in the recreation of her look from Titanic by Jackie Wyers"
-/>     
+/>         <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <h2 style={headingStyle}>Amy March - Little Women:</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -286,6 +304,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   title="Amy March Little Women Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
   alt="Shop Amy March-inspired no-makeup makeup products used in the recreation of her look from Little Women by Jackie Wyers"
 />     
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <h2 style={headingStyle}>Rosie Dunne - Love, Rosie:</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -306,7 +329,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   title="Rosie Dunne Love, Rosie Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
   alt="Shop Rosie Dunne-inspired no-makeup makeup products used in the recreation of her look from Love, Rosie by Jackie Wyers"
 />     
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>Alaska Young - Looking For Alaska:</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <a href="https://www.instagram.com/p/C5dsVStuCqT/?img_index=1" target="_blank" rel="noopener noreferrer">
@@ -326,6 +353,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   title="Alaska Young Looking For Alaska Makeup Tutorial - Shop Products Used in Jackie Wyers' Recreation" 
   alt="Shop Alaska Young-inspired no-makeup makeup products used in the recreation of her look from Looking for Alaska by Jackie Wyers"
 />     
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <h2 style={headingStyle}>Winnie Foster - Tuck Everlasting:</h2>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -348,6 +380,11 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
   alt="Shop Winnie Foster-inspired no-makeup makeup products used in the recreation of her look from Tuck Everlasting by Jackie Wyers"
 />     
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
       <h2 style={headingStyle}>A Final Note</h2>
       <p style={paragraphStyle}>
         As spring awakens, let these character-inspired no-makeup makeup looks guide you. Celebrate the characters that resonate with you, and infuse a touch of their world into your own beauty routine. Follow along with my full tutorials, and don’t forget to share your recreations with me – I can’t wait to see how you bring these looks to life!
@@ -373,7 +410,22 @@ All products featured are chosen by Jackie Wyers. We may earn commission on some
       </div>
    
       <Comments website-id={websiteId} page-id={"No-Makeup-Spring"} />
-         
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
     </div>
   );
 
