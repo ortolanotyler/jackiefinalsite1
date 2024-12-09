@@ -51,34 +51,40 @@ const BannerNavSearch = () => {
         />
         {isFocused && searchResults.length > 0 && (
           <div className={styles.searchResults}>
-            {searchResults.map((result) => (
-              <div key={result.id} className={styles.searchResultItem}>
-                <div>
-                  <a
-                    href={result.url}
-                    style={{
-                      textDecoration: 'none',
-                      fontFamily: 'Playfair Display, serif',
-                      fontWeight: '400',
-                      fontSize: '22px',
-                    }}
-                    rel="noreferrer"
-                    className={styles.searchCallLink}
-                  >
-                    <p className={styles.searchResultTitle}>{result.title}</p>
-                  </a>
-                  <DividerWithText text = "Ad"/>
-        <div className="ad-container">
-  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
+            {searchResults.map((result, index) => (
+              <React.Fragment key={result.id}>
+                <div className={styles.searchResultItem}>
+                  <div>
+                    <a
+                      href={result.url}
+                      style={{
+                        textDecoration: 'none',
+                        fontFamily: 'Playfair Display, serif',
+                        fontWeight: '400',
+                        fontSize: '22px',
+                      }}
+                      rel="noreferrer"
+                      className={styles.searchCallLink}
+                    >
+                      <p className={styles.searchResultTitle}>{result.title}</p>
+                    </a>
+                  </div>
                 </div>
-              </div>
+                {/* Insert Ad every third slot */}
+                {(index + 1) % 3 === 0 && (
+                  <>
+                    <DividerWithText text="Ad" />
+                    <div className="ad-container">
+                      <SmallAdSenseAd />
+                    </div>
+                    <DividerWithText text="Ad" />
+                  </>
+                )}
+              </React.Fragment>
             ))}
           </div>
         )}
       </div>
-      
     </div>
   );
 };
