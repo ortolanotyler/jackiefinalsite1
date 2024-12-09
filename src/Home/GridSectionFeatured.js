@@ -105,11 +105,6 @@ const FeaturedGrid6 = () => {
           </Box>
         </Grid>
 
-    
-   <div className="ad-container">
-  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
        
       
 
@@ -127,10 +122,7 @@ const FeaturedGrid6 = () => {
         </Grid>
 
       
-   <div className="ad-container">
-  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
+
      
       </Grid>
     </Box>
