@@ -133,7 +133,32 @@ const ResponsiveAppBar = () => {
                   }}
                 >
                   <BannerNavSearch />
+                 
                 </Box>
+                <Button
+                  component={Link}
+                  to="/subscribe"
+                  sx={{
+                    backgroundColor: '#745B4F',
+                    color: '#f8f8f8 !important',
+                    fontSize: '12px',
+                    fontWeight: '400',
+                    textTransform: 'lowercase',
+                    letterSpacing: '0.1em',
+                    borderRadius: '50px',
+                    padding: '0.75rem 1.75rem',
+                    fontFamily: 'Playfair Display, serif ',
+                    marginLeft: '10px',
+                    transition: 'color 0.3s ease',
+                    '&:hover': {
+                      color: '#000000 !important',
+                      backgroundColor: '#fdedef',
+                      border: '1px solid #745B4F !important',
+                    },
+                  }}
+                >
+                  Subscribe
+                </Button>
               </Box>
             )}
           </Toolbar>

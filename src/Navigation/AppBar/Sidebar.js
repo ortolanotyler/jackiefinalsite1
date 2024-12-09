@@ -86,8 +86,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
       onClose={toggleDrawer}
       PaperProps={{ style: { zIndex: 1400, width: '300px', overflow: 'hidden' } }}
     >
-  <BannerNavSearch/>
-  <BannerNavSearch/>
+
   <BannerNavSearch/>
       <Box
         role="presentation"
