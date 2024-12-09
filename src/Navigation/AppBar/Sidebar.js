@@ -23,7 +23,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
 
     { name: 'VLOGS', path: '/vlogs' },
     { name: 'TRAVEL ', path: '/travel' },
-    { name: 'ANIMAL PRETTY QUIZ', path: '/quiz-2-home' },
+    { name: 'ANIMAL PRETTY QUIZ', path: '/quiz' },
     { name: 'REM BEAUTY WICKED REVIEW', path: '/articles/rembeauty/wicked-review' },
 
     { name: 'TAYLOR SWIFT HOLIDAY GUIDE', path: '/articles/taylor-swift-holidays-2024' },
