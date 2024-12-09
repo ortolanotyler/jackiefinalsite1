@@ -226,9 +226,11 @@ const Footer = () => {
 
 <div className="ad-container">
  <SmallAdSenseAd />
-  <SmallAdSenseAd />
+ <SmallAdSenseAd />
+
 </div>
 <DividerWithText text = "Ad"/>
+
 
      </>
   );
