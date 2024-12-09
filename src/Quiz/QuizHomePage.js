@@ -72,10 +72,7 @@ const QuizHomepage = () => {
       >
         <Quiz2 />
       </Box>
-      <div className="ad-container">
-  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
+    
 
       {/* Wedding Dress Quiz Section */}
       <Box sx={{ backgroundColor: '#ffffff', display: 'flex', flexDirection: 'column', alignItems: 'center', pt: { xs: '0px', md: '0px' } }}>
