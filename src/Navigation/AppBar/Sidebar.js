@@ -11,6 +11,7 @@ import BannerNavSearch from '../../Home/SearchBar';
 
 const Sidebar = ({ isOpen, toggleDrawer }) => {
   const menuItems = [
+    { name: '       ', path: '/' },
     { name: 'HOME', path: '/' },
     { name: 'ABOUT', path: '/about' },
     { name: 'BEAUTY TUTORIALS', path: '/tutorials' },
@@ -18,7 +19,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
     { name: 'VINTAGE VIBES', path: '/timetraveltutorials' },
     { name: 'POP CULTURE', path: '/popculture' },
     { name: 'SHOP MY STYLE', path: '/mystyle' },
-    { name: '       ', path: '/' },
+ 
 
     { name: 'VLOGS', path: '/vlogs' },
     { name: 'TRAVEL ', path: '/travel' },
