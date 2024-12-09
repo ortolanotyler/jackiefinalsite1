@@ -204,7 +204,7 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
         </Box>
         <DividerWithText text = "Ad"/>
 
-
+<BannerNavSearch/>
 <SmallAdSenseAd/>
 
 
