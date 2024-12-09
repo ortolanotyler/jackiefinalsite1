@@ -44,7 +44,7 @@ const BannerNavSearch = () => {
           value={searchQuery}
           onChange={handleSearch}
           onFocus={() => setIsFocused(true)}
-          placeholder="Search for articles or pages..."
+          placeholder="Search for articles ..."
           className={styles.searchInput}
         />
         {isFocused && searchResults.length > 0 && (
