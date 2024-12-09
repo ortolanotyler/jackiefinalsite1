@@ -110,11 +110,7 @@ const Quiz2Homepage = () => {
       <Box sx={{ width: "100%", textAlign: "center", padding: "10px" }}>
         <EmailSubscribe2 />
       </Box>
-        <div className="ad-container">
-  <SmallAdSenseAd />
-  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
+    
 
 
     </Box>
