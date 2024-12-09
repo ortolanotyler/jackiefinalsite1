@@ -51,9 +51,9 @@ const NewsletterSlider = () => {
         align="center"
         sx={{
           fontFamily: 'Playfair Display, serif',
-          fontSize: '2.5rem',
+          fontSize: '30px',
           fontWeight: '400',
-          margin: '1rem auto',
+          margin: '2rem auto',
           color: '#000000',
         }}
       >
@@ -90,7 +90,7 @@ const NewsletterSlider = () => {
                 width: '100%',
                 borderRadius: '0px',
                 objectFit: 'cover',
-                margin: '0 auto',
+                margin: '1rem auto',
               }}
             />
 
