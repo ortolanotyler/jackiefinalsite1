@@ -119,14 +119,7 @@ function HomePage() {
 
 
 
-        <DividerWithText text = "Ad"/>
-        <div className="ad-container">
-   <SmallAdSenseAd />
-  <SmallAdSenseAd />
-
-</div>
-<DividerWithText text = "Ad"/>
-
+     
 
 
 
@@ -145,6 +138,14 @@ function HomePage() {
 <TextBanner2 text="NEW & POPULAR"  margin='0 0.15rem' height="100px" width="100%"  />
         
         <FeaturedGrid6 />
+
+        <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd/>
+
+</div>
+<DividerWithText text = "Ad"/>
 
 <div style = {{
   margin: '1rem auto'
