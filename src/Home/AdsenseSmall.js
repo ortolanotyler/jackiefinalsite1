@@ -13,10 +13,10 @@ const SmallAdSenseAd = () => {
   }, []);
 
   return (
-    <div style={{ textAlign: 'center', margin: '1rem ' }}>
+    <div style={{ textAlign: 'center', margin: '1rem auto' }}>
      <ins
         className="adsbygoogle"
-        style={{ display: 'inline-block', width: '300px', height: '50px' }}
+        style={{ display: 'inline-block', width: '300px', height: '100px' }}
         data-ad-client="ca-pub-4660168246825318"
         data-ad-slot="6584902918"
       ></ins>
