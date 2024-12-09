@@ -86,7 +86,6 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
       onClose={toggleDrawer}
       PaperProps={{ style: { zIndex: 1400, width: '300px', overflow: 'hidden' } }}
     >
-      <BannerNavSearch/>
 
       <Box
         role="presentation"
@@ -117,24 +116,30 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
         {/* Menu Items */}
         <Box sx={{ flexGrow: 1, overflowY: 'auto' }}>
           {menuItems.map((item) => (
-            <Button
-              key={item.name}
-              component={Link}
-              to={item.path}
-              onClick={toggleDrawer}
-              sx={{
-                display: 'block',
-                width: '100%',
-                textAlign: 'left',
-                padding: '0.5rem 1rem',
-                fontWeight: '400',
-                fontFamily: 'Playfair Display, serif',
-                fontSize: '18px',
-                color: '#745B4F',
-              }}
-            >
-              {item.name}
-            </Button>
+            <>
+
+<BannerNavSearch/>
+
+<Button
+  key={item.name}
+  component={Link}
+  to={item.path}
+  onClick={toggleDrawer}
+  sx={{
+    display: 'block',
+    width: '100%',
+    textAlign: 'left',
+    padding: '0.5rem 1rem',
+    fontWeight: '400',
+    fontFamily: 'Playfair Display, serif',
+    fontSize: '18px',
+    color: '#745B4F',
+  }}
+>
+  {item.name}
+</Button>
+
+            </>
           ))}
         </Box>
 
