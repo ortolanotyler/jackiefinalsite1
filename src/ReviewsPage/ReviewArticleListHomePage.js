@@ -2,6 +2,8 @@ import React from 'react';
 import HeroSection from '../Home/HeroSection';
 import TextBanner2 from '../Components/TextBanner2';
 import HorizontalLine from '../Components/HorizontalLine';
+import SmallAdSenseAd from '../Home/AdsenseSmall';
+import DividerWithText from '../Home/DividerWithText';
 
 const articles = [
   {
@@ -49,6 +51,24 @@ const ReviewArticleListHome = () => {
             linkUrl={article.path}
             isFlipped={index % 2 === 0} // Alternate the layout for visual variety
           />
+            <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
 
         </div>
       ))}
