@@ -4,6 +4,7 @@ import { ArrowBack, ArrowForward } from '@mui/icons-material';
 import './NewsletterSlider.module.css'; // Ensure this file exists
 import EmailSubscribe from '../Components/EmailSubscribe';
 import DividerWithText from './DividerWithText';
+import SmallAdSenseAd from './AdsenseSmall';
 
 const images = [
   `${process.env.PUBLIC_URL}/Images/Newsletter23A.webp`,
@@ -154,6 +155,8 @@ const NewsletterSlider = () => {
           </Grid>
         )}
       </Grid>
+      <SmallAdSenseAd />
+
 
       <DividerWithText text="Weekly Newsletter" />
     </React.Fragment>
