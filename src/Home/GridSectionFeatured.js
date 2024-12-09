@@ -7,7 +7,7 @@ import SmallAdSenseAd from './AdsenseSmall';
 
 const FeaturedGrid6 = () => {
   return (
-    <Box sx={{ width: '90%', padding: '1rem', backgroundColor: 'white' , margin: '0 auto'}}>
+    <Box sx={{ width: '80%', padding: '1rem', backgroundColor: 'white' , margin: '0 auto'}}>
      
      
       <Grid container spacing={1} justifyContent="center">
