@@ -110,32 +110,6 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
 
         {/* Search Bar */}
      
- {/* Subscribe Button */}
- <Button
-          component={Link}
-          to="/subscribe"
-          onClick={toggleDrawer}
-          sx={{
-            marginTop: '10px',
-            backgroundColor: '#745B4F',
-            color: '#f8f8f8 !important',
-            fontSize: '18px',
-            fontWeight: '400',
-            textTransform: 'lowercase',
-            letterSpacing: '0.1em',
-            borderRadius: '50px',
-            padding: '5px 10px',
-            fontFamily: 'Playfair Display, serif ',
-            transition: 'color 0.3s ease', // Smooth transition for color change
-            '&:hover': {
-              color: '#000000 !important', // Change text color on hover
-              backgroundColor: '#fdedef', // Maintain the same background color
-              border: '1px solid #745B4F !important',
-            },
-          }}
-        >
-          Subscribe
-        </Button>
 
         {/* Menu Items */}
         <Box sx={{ flexGrow: 1, overflowY: 'auto' }}>
@@ -161,7 +135,40 @@ const Sidebar = ({ isOpen, toggleDrawer }) => {
           ))}
         </Box>
 
-       
+        <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
+
+        {/* Subscribe Button */}
+        <Button
+          component={Link}
+          to="/subscribe"
+          onClick={toggleDrawer}
+          sx={{
+            marginTop: '10px',
+            backgroundColor: '#745B4F',
+            color: '#f8f8f8 !important',
+            fontSize: '18px',
+            fontWeight: '400',
+            textTransform: 'lowercase',
+            letterSpacing: '0.1em',
+            borderRadius: '50px',
+            padding: '5px 10px',
+            fontFamily: 'Playfair Display, serif ',
+            transition: 'color 0.3s ease', // Smooth transition for color change
+            '&:hover': {
+              color: '#000000 !important', // Change text color on hover
+              backgroundColor: '#fdedef', // Maintain the same background color
+              border: '1px solid #745B4F !important',
+            },
+          }}
+        >
+          Subscribe
+        </Button>
+
         {/* Social Links */}
         <Box
           sx={{
