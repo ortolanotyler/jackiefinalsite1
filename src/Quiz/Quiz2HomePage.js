@@ -95,9 +95,11 @@ const Quiz2Homepage = () => {
         {/* Quiz Content */}
 
         <TextReveal text="Animal Pretty Quiz" style={{ backgroundColor: "#ffffff", width: "100%", paddingTop: '20px'}} />
+        <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <SmallAdSenseAd />
+  <SmallAdSenseAd/>
 </div>
+<DividerWithText text = "Ad"/>
      <div style = {{
       margin: '0 auto',
      }}>
@@ -105,8 +107,9 @@ const Quiz2Homepage = () => {
 
         </div>
     
+        <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <SmallAdSenseAd />
+  <SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
 
