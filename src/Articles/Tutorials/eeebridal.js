@@ -1,10 +1,20 @@
 import React from 'react';
 import { Grid, Box } from '@mui/material';
 import HeroSection2a from '../../Home/HeroSection2a';
+import SmallAdSenseAd from '../../Home/AdsenseSmall';
+import DividerWithText from '../../Home/DividerWithText';
 
 const Eeebridal = () => {
   return (
+    <>
+      <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
     <Box sx={{ width: '80%', margin: '1rem auto ', padding: '1rem', backgroundColor: 'white' }}>
+      
       <Grid container spacing={2} justifyContent="center">
         {/* Row 1 */}
         <Grid item xs={12} sm={6} md={6} lg={4}>
@@ -124,6 +134,19 @@ const Eeebridal = () => {
         </Grid>
       </Grid>
     </Box>
+      <DividerWithText text = "Ad"/>
+
+      <div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
+  <DividerWithText text = "Ad"/>
+
+  <div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
+</>
   );
 };
 
