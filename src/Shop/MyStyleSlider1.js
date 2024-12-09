@@ -4,15 +4,17 @@ import DividerWithText from '../Home/DividerWithText';
 import SmallAdSenseAd from '../Home/AdsenseSmall';
 
 const image1 = "https://res.cloudinary.com/dzhlitors/image/upload/v1731276636/horsegirl1_VSCO_q9pico.jpg";
+const image1a = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/polkadot.jpg`;
+
 const image2 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/vaticanslay.jpg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Shop/MyStyle/walkingwaiheke.jpg`;
 
 const imageDetails = [
   {
-    src: image1,
-    text: "HORSE GIRL ENERGY",
-    alt: "Horse Girl Image",
-    href: "/horsegirlenergy"
+    src: image1a,
+    text: "POLKA DOT MOMENT",
+    alt: "Image 1",
+    href: "/polkadotmoment"
   },
   {
     src: image2,
