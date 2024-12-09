@@ -10,6 +10,7 @@ const VintageVibes = () => {
   return (
     <>
       <TextRevealHomePage text="TIME TRAVEL TUTORIALS" />
+      
       <Box sx={{ width: '80%', padding: '1rem', backgroundColor: 'white', margin: '0 auto' }}>
         <Grid container spacing={1} justifyContent="center">
           {/* Top 3 Most Searchable */}
@@ -24,10 +25,14 @@ const VintageVibes = () => {
             />
           </Grid>
 
-          <div className="ad-container">
-  <SmallAdSenseAd />
+          <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd/>
 </div>
 <DividerWithText text = "Ad"/>
+
+ 
 
           <Grid item xs={12}>
             <HeroSection
@@ -71,10 +76,7 @@ const VintageVibes = () => {
               />
             </Box>
           </Grid>
-          <div className="ad-container">
-  <SmallAdSenseAd/>
-</div>
-<DividerWithText text = "Ad"/>
+        
 
           <Grid item xs={12} sm={6} md={6} lg={4}>
             <Box
@@ -117,10 +119,6 @@ const VintageVibes = () => {
             </Box>
           </Grid>
 
-          <div className="ad-container">
-  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
 
           <Grid item xs={12} sm={6} md={6} lg={4}>
             <Box
@@ -281,7 +279,20 @@ const VintageVibes = () => {
               />
             </Box>
           </Grid>
+
         </Grid>
+        <DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+
+<div className="ad-container">
+<SmallAdSenseAd/>
+</div>
+<DividerWithText text = "Ad"/>
       </Box>
     </>
   );
