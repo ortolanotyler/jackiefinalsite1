@@ -261,7 +261,7 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
 <ResponsiveYoutube src="https://www.youtube.com/embed/Uai6tKJArnc?si=XnF1RFD1e25Tw7r2" title="TAYLOR SWIFT THE ERAS TOUR with my Lover👩🏽‍❤️‍💋‍👨🏽💖🌈 Tampa FL!" />
 
 
-
+<br/>
 
 <ResponsiveYoutube src="https://www.youtube.com/embed/FuXNumBwDOM?si=1h9F3QUMDcWNBeD6" title="TAYLOR SWIFT THE ERAS TOUR with my Lover👩🏽‍❤️‍💋‍👨🏽💖🌈 Tampa FL!" />
 
@@ -454,11 +454,7 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
   />
 </div>
 
-     <DividerWithText text = "Ad"/>
-        <div className="ad-container">
-  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
+   
 
 
 <h2 style={headingStyle}>🌿 Recreate Taylor’s Folklore & Evermore Looks</h2>
@@ -466,6 +462,8 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
 <p style={paragraphStyle}>
   For this era, Taylor embraced soft curls, earthy tones, and timeless beauty. Here’s a quick guide to recreating her looks:
 </p>
+
+ 
 
 <div
   style={{
@@ -486,7 +484,11 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
     allowFullScreen
   ></iframe>
 </div>
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <div style={{ textAlign: 'center', margin: '20px auto' }}>
@@ -499,8 +501,7 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
 </div>
 
 <div>
-<ResponsiveYoutube src="https://www.youtube.com/embed/FuXNumBwDOM?si=1h9F3QUMDcWNBeD6" title="TAYLOR SWIFT THE ERAS TOUR with my Lover👩🏽‍❤️‍💋‍👨🏽💖🌈 Tampa FL!" />
-
+ß
 </div>
 
 
@@ -538,6 +539,32 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
   />
 </div>
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+<br/>
+<div
+  style={{
+    textAlign: 'center',
+  }}
+>
+  <iframe
+    style={{
+      boxShadow: '12px 12px 24px rgba(0, 0, 0, 0.2)',
+      borderRadius: '15px',
+      width: '301px',
+      height: '535px',
+    }}
+    src="https://www.youtube.com/embed/okU9zED6Hn4"
+    title="YouTube Short"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
 
 <h2 style={headingStyle}>🌟 Evermore-Inspired Finds</h2>
 
