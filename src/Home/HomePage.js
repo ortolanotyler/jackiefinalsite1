@@ -114,8 +114,12 @@ function HomePage() {
 
 
 
+        <TextBanner2 text="FEATURED"  margin='0 0.15rem' height="100px" width="100%"  />
 
 
+<DividerWithText text = "Animal Pretty Quiz"/>
+  
+  <Quiz2/>
 
 
 
@@ -129,13 +133,13 @@ function HomePage() {
  
 
 
-  
+<TextBanner2 text="LATEST"  margin='0 0.15rem' height="100px" width="100%"  />
+
 
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1, padding: 0, mt: 1 }}>
   
 
 
-<TextBanner2 text="FEATURED"  margin='0 0.15rem' height="100px" width="100%"  />
         
         <FeaturedGrid6 />
 
