@@ -7,30 +7,33 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
+import YoutubeShortFacade from '../../../Components/YouTubeShortFacade';
+import { Card } from '@mui/material';
 
 const image1 = `${process.env.PUBLIC_URL}/Images/TaylorSwift/JackieWyersTaylorSwiftMakeup.JPG`;
 const image2 = `${process.env.PUBLIC_URL}/Images/TaylorSwift/JackieWyersTaylorSwiftHair.JPG`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
+const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
 
-const TaylorSwiftErasTourMakeup = () => {
+const Taylor3 = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '2.5rem',
-    fontWeight: '100',
-    fontFamily: "'Playfair Display', sans-serif",
-    color: '#000000',
+    fontSize: '30px',
+    fontWeight: '400',
+    fontFamily: "Playfair Display, serif",
+    color: '#3a3a3a',
     maxWidth: '95%',
     margin: '30px auto',
   };
 
   const paragraphStyle = {
     fontSize: '20px',
-    color: '#000000',
-    fontFamily: "'Playfair Display', sans-serif",
-    fontWeight: '100',
+    color: '#3a3a3a',
+    fontFamily: "EB Garamond, serif",
+    fontWeight: '400',
     padding: '10px',
     margin: '10px auto',
     lineHeight: '1.6',
@@ -101,6 +104,34 @@ const TaylorSwiftErasTourMakeup = () => {
         imageUrl={`${process.env.PUBLIC_URL}/Images/TaylorSwift/TaylorSwiftThumbnail.jpg`}
       />
 
+
+<div style={{ textAlign: 'center', margin: '0 auto' }}>
+  <YoutubeShortFacade 
+    videoId="okU9zED6Hn4" // Replace with the actual video ID from your URL
+    title="💚💛💜Taylor Swift ERAS TOUR MAKEUP🩷🩵🤎 the end of an era😿" 
+  />
+</div>
+
+<div
+  style={{
+    textAlign: 'center',
+  }}
+>
+  <iframe
+    style={{
+      boxShadow: '12px 12px 24px rgba(0, 0, 0, 0.2)',
+      borderRadius: '15px',
+      width: '301px',
+      height: '535px',
+    }}
+    src="https://www.youtube.com/embed/okU9zED6Hn4"
+    title="YouTube Shorts Video"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
       <div style={{ textAlign: 'center', margin: '10px auto' }}>
         <SubscribeButton />
       </div>
@@ -110,92 +141,334 @@ const TaylorSwiftErasTourMakeup = () => {
       </p>
 
       <div style={paragraphStyle}>
-        <DropCap1 text="Taylor Swift’s Eras Tour was nothing short of legendary. From her breathtaking performances to her intricate costumes, every detail was perfectly curated—including her makeup, which remained flawless through hours of singing, dancing, outfit changes, and even rain! Let’s dive into recreating her Taylor-inspired glam, featuring some of the products rumored to have been used behind the scenes." />
+        <DropCap1 text="Taylor Swift’s Eras Tour was nothing short of legendary. From her breathtaking performances to her intricate costumes, every detail was perfectly curated—including her makeup, which remained flawless through hours of singing, dancing, outfit changes, and even rain! Let’s dive into recreating her Taylor-inspired glam, featuring some of the products rumored to have been used behind the scenes.        
+        "/>
       </div>
 
-      <div style={gridContainerStyle}>
-        <img src={image1} alt="Jackie Wyers recreating Taylor Swift's makeup" style={imageStyle} />
-        <img src={image2} alt="Jackie Wyers recreating Taylor Swift's hair" style={imageStyle} />
-      </div>
+      <div style={{ position: 'relative', display: 'inline-block' }}>
+  <img 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1733768786/JackieWyersTaylorSwiftMakeup_q025di.jpg"
+    alt="Jackie Wyers Taylor Swift Makeup Look" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://www.jackiewyers.beauty/articles/taylor-swift-makeup"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+    style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+      width: '50px',
+      height: '50px',
+      cursor: 'pointer',
+      opacity: 0.9,
+      transition: 'opacity 0.3s'
+    }}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/taylor-swift-makeup&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1733768786/JackieWyersTaylorSwiftMakeup_q025di.jpg&description=Jackie Wyers Taylor Swift Makeup Look')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
+</div>
+<div style={{ position: 'relative', display: 'inline-block' }}>
+  <img 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1733768785/JackieWyersTaylorSwiftHair_psnpk4.jpg"
+    alt="Jackie Wyers Taylor Swift Hair Look" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://www.jackiewyers.beauty/articles/taylor-swift-makeup"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+    style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+      width: '50px',
+      height: '50px',
+      cursor: 'pointer',
+      opacity: 0.9,
+      transition: 'opacity 0.3s'
+    }}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/taylor-swift-makeup&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1733768785/JackieWyersTaylorSwiftHair_psnpk4.jpg&description=Jackie Wyers Taylor Swift Hair Look')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
+</div>
+      <h2 style={headingStyle}>✨ Taylor’s Signature Makeup: A Collaboration with Pat McGrath</h2>
 
-      <h2 style={headingStyle}>Taylor’s Signature Makeup: A Collaboration with Pat McGrath</h2>
-      <p style={paragraphStyle}>
-        Taylor collaborated with the iconic makeup artist Pat McGrath for her <em>Bejeweled</em> music video, where her bold and
-        beautiful looks stole the show. One standout product from that collaboration is the{' '}
-        <a href="https://www.patmcgrath.com/products/liquilust" style={linkStyle} target="_blank" rel="noreferrer">
-          LiquiLUST Matte Lipstick in Elson 4
-        </a>
-        , a stunning blue-red lipstick that’s rumored to have graced the Eras Tour stage.
-      </p>
+<p style={paragraphStyle}>
+  Taylor collaborated with iconic makeup artist Pat McGrath for her <strong>Bejeweled</strong> music video, where her bold and beautiful looks stole the show. One standout product from that collaboration is the <strong>LiquiLUST Matte Lipstick in Elson 4</strong>, a stunning blue-red lipstick that’s rumored to have graced the <em>Eras Tour</em> stage.
+</p>
 
-      <ResponsiveIframe
-        src="https://shopmy.us/collections/embed/1085711"
-        style={{ width: '100%', minHeight: '340px', border: 'none' }}
-      />
+<div style={{ position: 'relative', display: 'inline-block' }}>
+  <img 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1733768785/JackieWyersBewjelledMakeup_hypbnd.jpg"
+    alt="Jackie Wyers Bejeweled Makeup Look" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://www.jackiewyers.beauty/articles/taylor-swift-makeup"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+    style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+      width: '50px',
+      height: '50px',
+      cursor: 'pointer',
+      opacity: 0.9,
+      transition: 'opacity 0.3s'
+    }}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/taylor-swift-makeup&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1733768785/JackieWyersBewjelledMakeup_hypbnd.jpg&description=Jackie Wyers Bejeweled Makeup Look')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
+</div>
 
-      <h2 style={headingStyle}>Recreating Taylor’s Glittery Lids</h2>
-      <p style={paragraphStyle}>
-        Taylor’s shimmering eyeshadow was a showstopper. Try the{' '}
-        <a href="https://www.karlacosmetics.com/products/nightfall-opal-multichrome" style={linkStyle} target="_blank" rel="noreferrer">
-          Karla Cosmetics Nightfall Opal Multichrome Eyeshadow
-        </a>{' '}
-        to achieve the same pink, iridescent shimmer. Complete the look with winged liner, mascara, and outer-corner lashes for her
-        signature cat-eye sparkle.
-      </p>
+<div style={{ position: 'relative', display: 'inline-block' }}>
+  <img 
+    src='https://res.cloudinary.com/dvbubqhpp/image/upload/v1733672001/JackieWyersBejeweledMakeup_kjfg.png'
+    alt="Taylor Swift Bejeweled Makeup Collaboration with Pat McGrath" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://www.jackiewyers.beauty/articles/taylor-swift-pat-mcgrath"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+    style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+      width: '50px',
+      height: '50px',
+      cursor: 'pointer',
+      opacity: 0.9,
+      transition: 'opacity 0.3s'
+    }}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/taylor-swift-pat-mcgrath&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1733672001/JackieWyersBejeweledMakeup_kjfg.png&description=Taylor Swift Collaboration with Pat McGrath')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
+</div>
 
-      <ResponsiveIframe
-        src="https://shopmy.us/collections/embed/1085722"
-        style={{ width: '100%', minHeight: '340px', border: 'none' }}
-      />
 
-      <h2 style={headingStyle}>The Glow: Dewy Cheekbones</h2>
-      <p style={paragraphStyle}>
-        Taylor’s radiant cheekbones can be recreated with the{' '}
-        <a
-          href="https://www.patmcgrath.com/products/skin-fetish-highlighter-balm-duo"
-          style={linkStyle}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Pat McGrath Skin Fetish Highlighter + Balm Duo in Nude
-        </a>
-        . The customizable shine lets you glow subtly or radiantly.
-      </p>
 
-      <ResponsiveIframe
-        src="https://shopmy.us/collections/embed/1085731"
-        style={{ width: '100%', minHeight: '340px', border: 'none' }}
-      />
+<p style={paragraphStyle}>
+  While the official product lineup for the tour hasn’t been revealed, it’s highly likely that Pat’s luxury products played a key role in ensuring Taylor’s makeup stayed flawless. After all, Pat McGrath is one of the most respected names in beauty, and Taylor would only trust the best makeup to wear on stage! While surfing Pat McGrath's website, she also has <em>"Taylor Made"</em> kits that are coming soon!💋
+</p>
 
-      <h2 style={headingStyle}>The Perfect Red Lip</h2>
-      <p style={paragraphStyle}>
-        Taylor’s classic red lip is iconic. Start with a lip liner like{' '}
-        <a href="https://www.maccosmetics.com/product/13852/10342/products/lips/lip-pencil/lip-pencil" style={linkStyle} target="_blank" rel="noreferrer">
-          MAC Lip Liner in Ruby Woo
-        </a>
-        , then layer the{' '}
-        <a href="https://www.patmcgrath.com/products/liquilust" style={linkStyle} target="_blank" rel="noreferrer">
-          Elson 4 lipstick
-        </a>{' '}
-        on top for a blue-toned red that’s universally flattering.
-      </p>
 
-      <ResponsiveIframe
-        src="https://shopmy.us/collections/embed/1085737"
-        style={{ width: '100%', minHeight: '340px', border: 'none' }}
-      />
 
-      <h2 style={headingStyle}>Dupes and Budget Tips</h2>
-      <p style={paragraphStyle}>
-        While Pat McGrath products are luxurious, there are budget-friendly options to replicate the look. Focus on the Elson 4 lipstick
-        for an affordable yet impactful investment.
-      </p>
+<ResponsiveIframe src="https://shopmy.us/collections/public/1085711?noHeader=true" title="The Glow: Dewy Cheekbones" />
 
-      <ResponsiveIframe
-        src="https://shopmy.us/collections/embed/1085742"
-        style={{ width: '100%', minHeight: '340px', border: 'none' }}
-      />
+<h2 style={headingStyle}>✨ Recreating Taylor’s Glittery Lids</h2>
 
+<p style={paragraphStyle}>
+  The <strong>Mothership VI Divine Rose Palette</strong> is said to be a go-to for Taylor’s looks, but I found the shadow on her lids during the tour had more of a pink, iridescent shimmer. Enter <strong>Karla Cosmetics Nightfall Opal Multichrome Eyeshadow</strong>, a gorgeous multi-dimensional shade that perfectly mimics Taylor’s glittery lid effect.
+</p>
+
+<div style={{ textAlign: 'center', margin: '20px auto' }}>
+  <iframe 
+    title="Taylor-Inspired Glittery Eyeshadow Picks" 
+    src="https://shopmy.us/collections/embed/1085722?" 
+    style={{ width: '100%', minHeight: '340px', border: 'none' }} 
+  ></iframe>
+</div>
+
+<ResponsiveIframe src="https://shopmy.us/collections/public/1085722?noHeader=true" title="Taylor-Inspired Glittery Eyeshadow Picks" />
+
+
+<h3 style={headingStyle}>🌟 For a complete eye look:</h3>
+<ul style={paragraphStyle}>
+  <li>Apply the multi-chrome shimmer on your lids.</li>
+  <li>Add a taupe shade to the crease for definition.</li>
+  <li>Pair with winged liner, mascara, and outer-corner lashes to capture Taylor’s signature cat eye with a pop of sparkle.</li>
+</ul>
+
+<h2 style={headingStyle}>✨ The Glow: Dewy Cheekbones</h2>
+
+<p style={paragraphStyle}>
+  Another speculated product from Taylor’s tour glam is the <strong>Pat McGrath Skin Fetish Highlighter + Balm Duo in Nude</strong>. I tested this myself, and it’s perfect for achieving that radiant glow on the cheekbones. The balm and highlighter combo lets you customize your shine, from a subtle dew to a more radiant finish.
+</p>
+
+<div style={{ textAlign: 'center', margin: '20px auto' }}>
+  <iframe 
+    title="Taylor-Inspired Highlighter Picks" 
+    src="https://shopmy.us/collections/embed/1085731?" 
+    style={{ width: '100%', minHeight: '340px', border: 'none' }} 
+  ></iframe>
+</div>
+
+<h2 style={headingStyle}>💄 The Perfect Red Lip</h2>
+
+<p style={paragraphStyle}>
+  Taylor’s classic red lip is iconic, and the <strong>LiquiLUST Matte Lipstick in Elson 4</strong> is an excellent choice for recreating it. Start with a lip liner (I love <strong>MAC Lip Liner in Ruby Woo</strong>) for a clean outline, then layer the Elson 4 lipstick on top. This blue-toned red is universally flattering, makes your teeth look whiter, and boasts a moisturizing formula that’s a dream for a matte lip.
+</p>
+
+<div style={{ textAlign: 'center', margin: '20px auto' }}>
+  <iframe 
+    title="Taylor-Inspired Red Lip Picks" 
+    src="https://shopmy.us/collections/embed/1085737?" 
+    style={{ width: '100%', minHeight: '340px', border: 'none' }} 
+  ></iframe>
+</div>
+
+
+<h2 style={headingStyle}>💡 Dupes and Budget Tips</h2>
+
+<p style={paragraphStyle}>
+  Pat McGrath products are luxurious and come with a higher price tag. If you’re looking to splurge on just one item, the <strong>Elson 4 lipstick</strong> is worth every penny. For the rest of the look, you can likely find similar shades and textures in your existing makeup collection.
+</p>
+
+<div style={{ textAlign: 'center', margin: '20px auto' }}>
+  <iframe 
+    title="Budget-Friendly Dupes for Taylor's Look" 
+    src="https://shopmy.us/collections/embed/1085742?" 
+    style={{ width: '100%', minHeight: '340px', border: 'none' }} 
+  ></iframe>
+</div>
+
+<h2 style={headingStyle}>🌟 My Favorite Tour Look</h2>
+
+<div style={{ position: 'relative', display: 'inline-block' }}>
+  <img 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1733768785/TaylorLoversBodysuit_2_z0vlob.jpg"
+    alt="Taylor Lover's Bodysuit 2" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://www.jackiewyers.beauty/articles/taylor-swift-makeup"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+    style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+      width: '50px',
+      height: '50px',
+      cursor: 'pointer',
+      opacity: 0.9,
+      transition: 'opacity 0.3s'
+    }}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/taylor-swift-makeup&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1733768785/TaylorLoversBodysuit_2_z0vlob.jpg&description=Taylor Lovers Bodysuit 2')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
+</div>
+
+<p style={paragraphStyle}>
+  While recreating this makeup was so much fun, my favorite tour outfit was Taylor’s <strong>Lover bodysuit</strong> paired with sparkly boots. For her <strong>Evermore</strong> segment, I found a witchy-inspired dress from <a 
+    href="https://go.shopmy.us/p-10988653" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    style={{ textDecoration: 'underline', color: '#745B4F' }}
+  >Ivy City Co.</a> that channels the same vibe as her stage outfit. It’s giving major folklore and Evermore energy!
+</p>
+
+<div style={{ position: 'relative', display: 'inline-block' }}>
+  <img 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1733768785/tayoutfit4_w0o5xl.jpg"
+    alt="Taylor Swift Outfit 4" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://www.jackiewyers.beauty/articles/taylor-swift-makeup"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+    style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+      width: '50px',
+      height: '50px',
+      cursor: 'pointer',
+      opacity: 0.9,
+      transition: 'opacity 0.3s'
+    }}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/taylor-swift-makeup&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1733768785/tayoutfit4_w0o5xl.jpg&description=Taylor Swift Outfit 4')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
+</div>
+
+<h2 style={headingStyle}>🎤 What’s Your Favorite Taylor Swift Beauty Look?</h2>
+
+<p style={paragraphStyle}>
+  What do you think of Taylor’s stage makeup - would you recreate her bold red lip or glittery lids? Let me know in the comments, and if you try out this look, I'd love to see your version! Tag me & I'll feature you in the weekly newsletter.
+</p>
+
+<p style={paragraphStyle}>
+  For more Taylor Swift-inspired articles like <strong>best 2024 merch ranked</strong>, keep reading here:
+  <a 
+    href="https://www.jackiewyers.beauty/articles/taylor-swift-holidays-2024" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    style={{ textDecoration: 'underline', color: '#745B4F' }}
+  >
+    Taylor Swift Holidays 2024
+  </a>.
+</p>
+<div style={{ position: 'relative', display: 'inline-block' }}>
+  <img 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1733768785/tayoutfit3_seq5yb.jpg"
+    alt="Taylor Swift Outfit 3" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://www.jackiewyers.beauty/articles/taylor-swift-makeup"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+    style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+      width: '50px',
+      height: '50px',
+      cursor: 'pointer',
+      opacity: 0.9,
+      transition: 'opacity 0.3s'
+    }}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/taylor-swift-makeup&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1733768785/tayoutfit3_seq5yb.jpg&description=Taylor Swift Outfit 3')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
+</div>
+
+<div style={{ position: 'relative', display: 'inline-block' }}>
+  <img 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1733768784/tayoutfit1_jvup7z.jpg"
+    alt="Taylor Swift Outfit 1" 
+    style={imageStyle} 
+    data-pin-nopin="false" 
+    data-pin-url="https://www.jackiewyers.beauty/articles/taylor-swift-makeup"
+  />
+  <img 
+    src={pinterest}
+    alt="Pin this on Pinterest" 
+    style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+      width: '50px',
+      height: '50px',
+      cursor: 'pointer',
+      opacity: 0.9,
+      transition: 'opacity 0.3s'
+    }}
+    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/taylor-swift-makeup&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1733768784/tayoutfit1_jvup7z.jpg&description=Taylor Swift Outfit 1')}
+    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
+    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
+  />
+</div>
       <NextArticle
         link="/articles/taylor-swift-holidays-2024"
         imgSrc={`${process.env.PUBLIC_URL}/Images/Articles/NextTaylorSwiftArticle.jpg`}
@@ -225,4 +498,4 @@ const TaylorSwiftErasTourMakeup = () => {
   );
 };
 
-export default TaylorSwiftErasTourMakeup;
+export default Taylor3;

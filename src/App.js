@@ -150,6 +150,7 @@ import RemBeautyWickedReview from './Articles/Tutorials/PopCulture/Wicked3';
 import Wicked4 from './Articles/Tutorials/PopCulture/Wicked4';
 import TaylorErasTour from './Articles/Tutorials/PopCulture/TaylorSwift2';
 import { Quiz } from '@mui/icons-material';
+import Taylor3 from './Articles/Tutorials/VintageVibes/Taylor3';
 
 
 function usePageTracking() {
@@ -330,6 +331,7 @@ function App() {
             <Route path="/articles/rembeauty/wicked-review" element={<RemBeautyWickedReview />} />
             <Route path="/articles/galindafied-vs-barbiecore" element={<Wicked4 />} />
             <Route path="/articles/taylor-swift-eras-tour" element={<TaylorErasTour />} />
+            <Route path="/articles/taylor-swift-makeup" element={<Taylor3 />} />
 
             <Route path="*" element={<NotFound/>} />
           </Route>
