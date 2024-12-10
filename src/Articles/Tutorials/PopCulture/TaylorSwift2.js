@@ -463,7 +463,11 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
   For this era, Taylor embraced soft curls, earthy tones, and timeless beauty. Here’s a quick guide to recreating her looks:
 </p>
 
- 
+  <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <div
   style={{
@@ -501,7 +505,7 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
 </div>
 
 <div>
-<br/>
+ß
 </div>
 
 
@@ -538,12 +542,6 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
-
-<DividerWithText text = "Ad"/>
-        <div className="ad-container">
-  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
 
 <br/>
 <div
