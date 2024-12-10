@@ -9,21 +9,19 @@ import SocialShare from '../../../Home/SocialShare';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 
-
 const Card = ({ blogContent }) => (
-    <div
+  <div
     style={{
       margin: '1rem',
-      maxWidth: '90%', // Control max width to center the content
-      padding: '10px', // Add padding to prevent text from touching the edges
+      maxWidth: '90%',
+      padding: '10px',
     }}
   >
-      <div className="card">
-        <div className="blog-content">{blogContent}</div>
-      </div>
+    <div className="card">
+      <div className="blog-content">{blogContent}</div>
     </div>
-  );
-  
+  </div>
+);
 
 const GalindafiedVsBarbiecore = () => {
   const websiteId = '10910';
@@ -31,11 +29,11 @@ const GalindafiedVsBarbiecore = () => {
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '30px',
+    fontSize: '2rem',
     fontWeight: '100',
     fontFamily: "Playfair Display, serif",
     color: '#000000',
-    maxWidth: '100%',
+    maxWidth: '95%',
     margin: '30px auto',
   };
 
@@ -44,47 +42,40 @@ const GalindafiedVsBarbiecore = () => {
     color: '#000000',
     fontFamily: "EB Garamond, sans-serif",
     fontWeight: '400',
-    padding: '0',
+    padding: '10px',
     margin: '10px auto',
     lineHeight: '1.75',
   };
 
-  return (
-    <div ref={blogRef}>
-      <div className="container">
-        <Helmet>
-          <title>GALINDAFIED vs. BARBIECORE: Which Movie Marketing Campaign Reigns Supreme?</title>
-          <link rel="canonical" href="https://www.jackiewyers.beauty/articles/galindafied-vs-barbiecore" />
-          <meta 
-            name="description" 
-            content="Pink, glitter, and tears—oh my! Dive into the world of movie marketing campaigns with Universal’s GALINDAFIED and Warner Brothers’ BARBIECORE. Which reigns supreme in the battle of vibrant promotions?" 
-          />
-          <meta 
-            name="keywords" 
-            content="GALINDAFIED vs BARBIECORE, Barbiecore trend, Galindafied makeup style, movie marketing campaigns 2024, Barbie movie promotions, Wicked marketing, pink fashion trends, Glinda vs Barbie, movie makeup looks, Jackie Wyers articles" 
-          />
-          <meta property="og:title" content="GALINDAFIED vs. BARBIECORE: Which Movie Marketing Campaign Reigns Supreme?" />
-          <meta 
-            property="og:description" 
-            content="Pink, glitter, and tears—oh my! Dive into the world of movie marketing campaigns with Universal’s GALINDAFIED and Warner Brothers’ BARBIECORE. Which reigns supreme in the battle of vibrant promotions?" 
-          />
-          <meta 
-            property="og:image" 
-            content="https://www.jackiewyers.beauty/Images/GalindafiedVsBarbiecore.jpg" 
-          />
-          <meta property="og:url" content="https://www.jackiewyers.beauty/articles/galindafied-vs-barbiecore" />
-          <meta property="og:type" content="article" />
-          <meta name="twitter:title" content="GALINDAFIED vs. BARBIECORE: Which Movie Marketing Campaign Reigns Supreme?" />
-          <meta 
-            name="twitter:description" 
-            content="Pink, glitter, and tears—oh my! Dive into the world of movie marketing campaigns with Universal’s GALINDAFIED and Warner Brothers’ BARBIECORE. Which reigns supreme in the battle of vibrant promotions?" 
-          />
-          <meta 
-            name="twitter:image" 
-            content="https://www.jackiewyers.beauty/Images/GalindafiedVsBarbiecore.jpg" 
-          />
-          <meta name="twitter:card" content="summary_large_image" />
-        </Helmet>
+  const blogContent = (
+    <div className="container">
+      <Helmet>
+        <title>GALINDAFIED vs. BARBIECORE: Which Movie Marketing Campaign Reigns Supreme?</title>
+        <link rel="canonical" href="https://www.jackiewyers.beauty/articles/galindafied-vs-barbiecore" />
+        <meta name="description" content="Pink, glitter, and tears—oh my! Dive into the world of movie marketing campaigns with Universal’s GALINDAFIED and Warner Brothers’ BARBIECORE. Which reigns supreme in the battle of vibrant promotions?" />
+        <meta
+          name="keywords"
+          content="GALINDAFIED vs BARBIECORE, Barbiecore trend, Galindafied makeup style, movie marketing campaigns 2024, Barbie movie promotions, Wicked marketing, pink fashion trends, Glinda vs Barbie, movie makeup looks, Jackie Wyers articles"
+        />
+        <meta property="og:title" content="GALINDAFIED vs. BARBIECORE: Which Movie Marketing Campaign Reigns Supreme?" />
+        <meta
+          property="og:description"
+          content="Pink, glitter, and tears—oh my! Dive into the world of movie marketing campaigns with Universal’s GALINDAFIED and Warner Brothers’ BARBIECORE. Which reigns supreme in the battle of vibrant promotions?"
+        />
+        <meta property="og:image" content="https://www.jackiewyers.beauty/Images/GalindafiedVsBarbiecore.jpg" />
+        <meta property="og:url" content="https://www.jackiewyers.beauty/articles/galindafied-vs-barbiecore" />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:title" content="GALINDAFIED vs. BARBIECORE: Which Movie Marketing Campaign Reigns Supreme?" />
+        <meta
+          name="twitter:description"
+          content="Pink, glitter, and tears—oh my! Dive into the world of movie marketing campaigns with Universal’s GALINDAFIED and Warner Brothers’ BARBIECORE. Which reigns supreme in the battle of vibrant promotions?"
+        />
+        <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/GalindafiedVsBarbiecore.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
+
+      
+
 
         <ArticleTitle
           mainTitle="GALINDAFIED vs. BARBIECORE: Which Movie Marketing Campaign Reigns Supreme?"
@@ -235,6 +226,12 @@ const GalindafiedVsBarbiecore = () => {
 </div>
 <DividerWithText text = "Ad"/>
       </div>
+
+  );
+
+  return (
+    <div ref={blogRef}>
+      <Card blogContent={blogContent} />
     </div>
   );
 };

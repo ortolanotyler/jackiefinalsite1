@@ -496,7 +496,16 @@ const AnimalPretty = () => {
 </div>
 
 <Comments website-id={websiteId} page-id={'Animal-Prizznizzle'} />
-
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 

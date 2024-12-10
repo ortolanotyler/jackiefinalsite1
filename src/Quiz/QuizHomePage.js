@@ -94,10 +94,7 @@ const QuizHomepage = () => {
         <Quiz3 />
       </Box>
 
-    <div className="ad-container">
-  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
+
 
     
 

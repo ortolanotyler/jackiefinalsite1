@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef } from 'react';
 import { Comments } from '@hyvor/hyvor-talk-react';
 import SubscribeButton from '../../../Components/SubscribeButton';
 import ResponsiveIframe from '../../../Components/ResponsiveIframe';
@@ -7,58 +7,114 @@ import DropCap1 from '../../Travel/DropCap1';
 import ArticleTitle from '../../../Components/ArticleTitle';
 import NextArticle from '../../../Components/NextArticleComponent';
 import SocialShare from '../../../Home/SocialShare';
+import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
+import DividerWithText from '../../../Home/DividerWithText';
+import SmallAdSenseAd from '../../../Home/AdsenseSmall';
 import YoutubeShortFacade from '../../../Components/YouTubeShortFacade';
-import { Card } from '@mui/material';
+const wicked = `${process.env.PUBLIC_URL}/Images/Articles/Wicked3/GlindaJackieWyers.jpg`;
 
-const image1 = `${process.env.PUBLIC_URL}/Images/TaylorSwift/JackieWyersTaylorSwiftMakeup.JPG`;
-const image2 = `${process.env.PUBLIC_URL}/Images/TaylorSwift/JackieWyersTaylorSwiftHair.JPG`;
 const signature = `${process.env.PUBLIC_URL}/Images/Articles/Signature.png`;
 const pinterest = `${process.env.PUBLIC_URL}/Images/Articles/pinterest.png`;
 
-const Taylor3 = () => {
+const linkStyle = {
+  textDecoration: 'none',
+  fontFamily: "'Georgia', serif",
+  fontWeight: '100',
+  color: '#745B4F',
+};
+
+const imageStyle = {
+  display: 'block',
+  margin: '1rem auto',
+  borderRadius: '0px',
+  height: 'auto',
+};
+
+const Card = ({ blogContent }) => (
+  <div
+    style={{
+      margin: '1rem',
+      maxWidth: '90%',
+      padding: '10px',
+    }}
+  >
+    <div className="card">
+      <div className="blog-content">{blogContent}</div>
+    </div>
+  </div>
+);
+
+const TaylorMakeup = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
 
   const headingStyle = {
     textAlign: 'center',
-    fontSize: '30px',
-    fontWeight: '400',
+    fontSize: '2rem',
+    fontWeight: '100',
     fontFamily: "Playfair Display, serif",
-    color: '#3a3a3a',
+    color: '#000000',
     maxWidth: '95%',
     margin: '30px auto',
   };
 
   const paragraphStyle = {
     fontSize: '20px',
-    color: '#3a3a3a',
+    color: '#000000',
     fontFamily: "EB Garamond, serif",
-    fontWeight: '400',
+    fontWeight: '100',
     padding: '10px',
     margin: '10px auto',
-    lineHeight: '1.6',
+    lineHeight: '1.75',
   };
 
   const linkStyle = {
-    textDecoration: 'none',
+    textDecoration: 'none', // Removes underline from links
     fontFamily: "'Georgia', serif",
     fontWeight: '100',
-    color: '#745B4F',
-  };
-
-  const gridContainerStyle = {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-    gap: '10px',
-    margin: '0 2rem',
-  };
-
-  const imageStyle = {
+    color: '#745B4F', // Inherits the color of the surrounding text
+    };
+    const gridContainerStyle = {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+      gap: '10px',
+      margin: '0 2rem'
+    };
+    
+    const imageStyle = {
     display: 'block',
     margin: '1rem auto',
     borderRadius: '0px',
-    height: 'auto',
-  };
+    height: 'auto'
+    };
+    
+    const pinterestGridStyle = {
+    display: 'grid',
+    gap: '1rem',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(236px, 1fr))', // Adjusts columns based on screen size
+    justifyItems: 'center',
+    margin: '1rem 0',
+    };
+    
+    const iframeStyle = {
+    width: '100%',
+    height: '520px', // Maintains original height
+    border: 'none',
+    scrolling: 'no',
+    };
+    
+    const captionStyle = {
+    textAlign: 'center',
+    fontSize: '1rem',
+    fontFamily: 'Arapey, serif',
+    fontWeight: '100',
+    margin: '0 auto',
+    fontStyle: 'italic',
+    };
+    
+    
+  
+  
 
   const blogContent = (
     <div className="container">
@@ -105,12 +161,7 @@ const Taylor3 = () => {
       />
 
 
-<div style={{ textAlign: 'center', margin: '0 auto' }}>
-  <YoutubeShortFacade 
-    videoId="okU9zED6Hn4" // Replace with the actual video ID from your URL
-    title="💚💛💜Taylor Swift ERAS TOUR MAKEUP🩷🩵🤎 the end of an era😿" 
-  />
-</div>
+
 
 <div
   style={{
@@ -136,14 +187,19 @@ const Taylor3 = () => {
         <SubscribeButton />
       </div>
 
-      <p style={paragraphStyle}>
+      <p style={captionStyle}>
         All products featured are chosen by Jackie Wyers. We may earn commission on some of the items you choose to buy.
       </p>
 
-      <div style={paragraphStyle}>
         <DropCap1 text="Taylor Swift’s Eras Tour was nothing short of legendary. From her breathtaking performances to her intricate costumes, every detail was perfectly curated—including her makeup, which remained flawless through hours of singing, dancing, outfit changes, and even rain! Let’s dive into recreating her Taylor-inspired glam, featuring some of the products rumored to have been used behind the scenes.        
         "/>
-      </div>
+  
+
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
       <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
@@ -230,32 +286,11 @@ const Taylor3 = () => {
   />
 </div>
 
-<div style={{ position: 'relative', display: 'inline-block' }}>
-  <img 
-    src='https://res.cloudinary.com/dvbubqhpp/image/upload/v1733672001/JackieWyersBejeweledMakeup_kjfg.png'
-    alt="Taylor Swift Bejeweled Makeup Collaboration with Pat McGrath" 
-    style={imageStyle} 
-    data-pin-nopin="false" 
-    data-pin-url="https://www.jackiewyers.beauty/articles/taylor-swift-pat-mcgrath"
-  />
-  <img 
-    src={pinterest}
-    alt="Pin this on Pinterest" 
-    style={{
-      position: 'absolute',
-      top: '20px',
-      right: '20px',
-      width: '50px',
-      height: '50px',
-      cursor: 'pointer',
-      opacity: 0.9,
-      transition: 'opacity 0.3s'
-    }}
-    onClick={() => window.open('https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/taylor-swift-pat-mcgrath&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1733672001/JackieWyersBejeweledMakeup_kjfg.png&description=Taylor Swift Collaboration with Pat McGrath')}
-    onMouseEnter={(e) => e.currentTarget.style.opacity = 1}
-    onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
-  />
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
+<DividerWithText text = "Ad"/>
 
 
 
@@ -273,13 +308,6 @@ const Taylor3 = () => {
   The <strong>Mothership VI Divine Rose Palette</strong> is said to be a go-to for Taylor’s looks, but I found the shadow on her lids during the tour had more of a pink, iridescent shimmer. Enter <strong>Karla Cosmetics Nightfall Opal Multichrome Eyeshadow</strong>, a gorgeous multi-dimensional shade that perfectly mimics Taylor’s glittery lid effect.
 </p>
 
-<div style={{ textAlign: 'center', margin: '20px auto' }}>
-  <iframe 
-    title="Taylor-Inspired Glittery Eyeshadow Picks" 
-    src="https://shopmy.us/collections/embed/1085722?" 
-    style={{ width: '100%', minHeight: '340px', border: 'none' }} 
-  ></iframe>
-</div>
 
 <ResponsiveIframe src="https://shopmy.us/collections/public/1085722?noHeader=true" title="Taylor-Inspired Glittery Eyeshadow Picks" />
 
@@ -297,13 +325,14 @@ const Taylor3 = () => {
   Another speculated product from Taylor’s tour glam is the <strong>Pat McGrath Skin Fetish Highlighter + Balm Duo in Nude</strong>. I tested this myself, and it’s perfect for achieving that radiant glow on the cheekbones. The balm and highlighter combo lets you customize your shine, from a subtle dew to a more radiant finish.
 </p>
 
-<div style={{ textAlign: 'center', margin: '20px auto' }}>
-  <iframe 
-    title="Taylor-Inspired Highlighter Picks" 
-    src="https://shopmy.us/collections/embed/1085731?" 
-    style={{ width: '100%', minHeight: '340px', border: 'none' }} 
-  ></iframe>
+
+<ResponsiveIframe src="https://shopmy.us/collections/public/1085731?noHeader=true" title="Taylor-Inspired Glittery Eyeshadow Picks" />
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
+<DividerWithText text = "Ad"/>
+
 
 <h2 style={headingStyle}>💄 The Perfect Red Lip</h2>
 
@@ -311,13 +340,10 @@ const Taylor3 = () => {
   Taylor’s classic red lip is iconic, and the <strong>LiquiLUST Matte Lipstick in Elson 4</strong> is an excellent choice for recreating it. Start with a lip liner (I love <strong>MAC Lip Liner in Ruby Woo</strong>) for a clean outline, then layer the Elson 4 lipstick on top. This blue-toned red is universally flattering, makes your teeth look whiter, and boasts a moisturizing formula that’s a dream for a matte lip.
 </p>
 
-<div style={{ textAlign: 'center', margin: '20px auto' }}>
-  <iframe 
-    title="Taylor-Inspired Red Lip Picks" 
-    src="https://shopmy.us/collections/embed/1085737?" 
-    style={{ width: '100%', minHeight: '340px', border: 'none' }} 
-  ></iframe>
-</div>
+
+
+<ResponsiveIframe src="https://shopmy.us/collections/public/1085737?noHeader=true" title="Taylor-Inspired Glittery Eyeshadow Picks" />
+
 
 
 <h2 style={headingStyle}>💡 Dupes and Budget Tips</h2>
@@ -326,13 +352,14 @@ const Taylor3 = () => {
   Pat McGrath products are luxurious and come with a higher price tag. If you’re looking to splurge on just one item, the <strong>Elson 4 lipstick</strong> is worth every penny. For the rest of the look, you can likely find similar shades and textures in your existing makeup collection.
 </p>
 
-<div style={{ textAlign: 'center', margin: '20px auto' }}>
-  <iframe 
-    title="Budget-Friendly Dupes for Taylor's Look" 
-    src="https://shopmy.us/collections/embed/1085742?" 
-    style={{ width: '100%', minHeight: '340px', border: 'none' }} 
-  ></iframe>
+<ResponsiveIframe src="https://shopmy.us/collections/public/1085742?noHeader=true" title="Taylor-Inspired Glittery Eyeshadow Picks" />
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
 </div>
+<DividerWithText text = "Ad"/>
+
 
 <h2 style={headingStyle}>🌟 My Favorite Tour Look</h2>
 
@@ -364,7 +391,7 @@ const Taylor3 = () => {
 </div>
 
 <p style={paragraphStyle}>
-  While recreating this makeup was so much fun, my favorite tour outfit was Taylor’s <strong>Lover bodysuit</strong> paired with sparkly boots. For her <strong>Evermore</strong> segment, I found a witchy-inspired dress from <a 
+  While recreating this makeup was so much fun, my favorite tour outfit was Taylor’s <strong>Lover bodysuit</strong> paired with sparkly boots. For her <strong></strong> segment, I found a witchy-inspired dress from <a 
     href="https://go.shopmy.us/p-10988653" 
     target="_blank" 
     rel="noopener noreferrer" 
@@ -398,6 +425,12 @@ const Taylor3 = () => {
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 <h2 style={headingStyle}>🎤 What’s Your Favorite Taylor Swift Beauty Look?</h2>
 
@@ -469,14 +502,17 @@ const Taylor3 = () => {
     onMouseLeave={(e) => e.currentTarget.style.opacity = 0.7}
   />
 </div>
-      <NextArticle
-        link="/articles/taylor-swift-holidays-2024"
-        imgSrc={`${process.env.PUBLIC_URL}/Images/Articles/NextTaylorSwiftArticle.jpg`}
-        altText="Taylor Swift Holidays 2024"
-        linkText="EXPLORE MORE SWIFTIE CONTENT →"
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<NextArticle
+        link="/popculture"
+        imgSrc={wicked}
+        altText="Explore more pop culture-inspired beauty looks."
+        linkText="MORE WICKED + POP CULTURE →"
         containerStyle={{ margin: '2rem auto' }}
-        linkStyle={{ color: '#000000', fontSize: '1.25rem' }}
-        imgStyle={{ borderRadius: '10px' }}
       />
 
       <div>
@@ -484,18 +520,31 @@ const Taylor3 = () => {
       </div>
 
       <Comments website-id={websiteId} page-id={"taylor-swift-eras-tour-makeup"} />
+      <DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
+    
     </div>
   );
 
   return (
     <div ref={blogRef}>
-      <Card
-        title="Taylor Swift’s Iconic Eras Tour Makeup: How to Recreate Her Look"
-        description="Recreate Taylor Swift's iconic Eras Tour makeup with this detailed guide featuring Pat McGrath products and beauty tips by Jackie Wyers."
-        blogContent={blogContent}
-      />
+      <Card blogContent={blogContent} />
     </div>
   );
 };
 
-export default Taylor3;
+export default TaylorMakeup;

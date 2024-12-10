@@ -18,8 +18,8 @@ const Card = ({ blogContent }) => (
   <div
     style={{
       margin: '1rem',
-      maxWidth: '90%', // Control max width to center the content
-      padding: '10px', // Add padding to prevent text from touching the edges
+      maxWidth: '90%',
+      padding: '10px',
     }}
   >
     <div className="card">
@@ -27,6 +27,7 @@ const Card = ({ blogContent }) => (
     </div>
   </div>
 );
+
 
 const TaylorSwiftHoliday = () => {
   const websiteId = '10910';

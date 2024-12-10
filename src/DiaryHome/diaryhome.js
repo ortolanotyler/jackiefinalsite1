@@ -46,7 +46,6 @@ const DiaryHome = () => {
 
 <div className="ad-container">
  <SmallAdSenseAd />
-  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -54,7 +53,6 @@ const DiaryHome = () => {
 
 <div className="ad-container">
  <SmallAdSenseAd />
-  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 
@@ -62,7 +60,6 @@ const DiaryHome = () => {
 
 <div className="ad-container">
  <SmallAdSenseAd />
-  <SmallAdSenseAd />
 </div>
 <DividerWithText text = "Ad"/>
 

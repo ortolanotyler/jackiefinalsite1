@@ -30,6 +30,25 @@ const FeaturedGrid6 = () => {
     />
   </Box>
 </Grid>
+<Grid item xs={12} sm={6} md={6} lg={4}>
+  <Box
+    sx={{
+      height: '100%',
+      width: '100%',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+    }}
+  >
+    <HeroSection2a
+      featureText="FEATURED"
+      headlineText="Taylor Swift’s Iconic Makeup : The Pat McGrath red lip every Swiftie needs to try!"
+      imagePath="TaylorSwift3/JackieWyersTaylorSwiftMakeup.JPG"
+      linkUrl="/articles/taylor-swift-makeup"
+      isFlipped={false}
+    />
+  </Box>
+</Grid>
         
       <Grid item xs={12} sm={6} md={6} lg={4}>
   <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -43,6 +62,17 @@ const FeaturedGrid6 = () => {
 />
   </Box>
 </Grid>
+
+<Grid item xs={12} sm={6} md={6} lg={4}>
+      <Box sx={{ height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
+          featureText="POPULAR"
+          headlineText="GALINDAFIED vs. BARBIECORE: Which Movie Marketing Campaign Reigns Supreme?"
+          imagePath="Harley/rembeautywicked.jpg" // Path to the image for the article
+          linkUrl="/articles/galindafied-vs-barbiecore" // URL where the article will be linked
+        />
+      </Box>
+    </Grid>
 
         
 <Grid item xs={12} sm={6} md={6} lg={4}>
