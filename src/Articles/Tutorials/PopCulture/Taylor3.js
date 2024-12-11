@@ -162,6 +162,7 @@ const TaylorMakeup = () => {
 
 
 
+
 <div
   style={{
     textAlign: 'center',
@@ -174,13 +175,15 @@ const TaylorMakeup = () => {
       width: '301px',
       height: '535px',
     }}
-    src="https://www.youtube.com/embed/oGftLLZbrsI"
-    title="Barbie Viral Short"
+    src="https://www.youtube.com/embed/okU9zED6Hn4" // Embed URL for Shorts
+    title="YouTube Shorts Video"
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowFullScreen
   ></iframe>
 </div>
+
+
       <div style={{ textAlign: 'center', margin: '10px auto' }}>
         <SubscribeButton />
       </div>

@@ -295,6 +295,8 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
   ></iframe>
 </div>
 
+https://youtube.com/shorts/okU9zED6Hn4?si=IE_1Ir_xeXmx3dOR
+
 <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
     src='https://res.cloudinary.com/dvbubqhpp/image/upload/v1733670923/Jackie_s_Era_Tour_Look_yashxt.jpg'
