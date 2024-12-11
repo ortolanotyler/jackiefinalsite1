@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 
-const ResponsiveIframe = ({ src, title,  }) => {
+const ResponsiveIframe = ({ src, title, height = '500px', maxHeight = '100vh' }) => {
   const [isVisible, setIsVisible] = useState(false);
   const iframeRef = useRef(null);
 
@@ -34,8 +34,7 @@ const ResponsiveIframe = ({ src, title,  }) => {
   const containerStyle = {
     position: 'relative',
     width: '100%',
-    minHeight: '500px',
- 
+    minHeight: height,
     overflow: 'hidden', // Prevent scrolling
     paddingTop: isVisible ? '0' : '56.25%', // Aspect ratio 16:9
   };
@@ -45,9 +44,8 @@ const ResponsiveIframe = ({ src, title,  }) => {
     top: 0,
     left: 0,
     width: '100%',
-    minHeight: '500px',
-    maxHeight: '100vh',
-    height: '',
+    height: height, // Dynamic height from props
+    maxHeight: maxHeight, // Dynamic max height from props
     border: 'none', // Remove border
     overflow: 'hidden', // Ensure no scrolling
   };
@@ -55,15 +53,15 @@ const ResponsiveIframe = ({ src, title,  }) => {
   return (
     <div ref={iframeRef} style={containerStyle}>
       {isVisible && (
-    <iframe
-    title={title}
-    src={src}
-    scrolling="no" // Disable scrolling in the iframe
-    style={iframeStyle}
-    tabIndex="-1" // Prevent iframe focus issues
-    seamless="seamless" // Allows the iframe to be more integrated visually
-    sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
-  />
+        <iframe
+          title={title}
+          src={src}
+          scrolling="no" // Disable scrolling in the iframe
+          style={iframeStyle}
+          tabIndex="-1" // Prevent iframe focus issues
+          seamless="seamless" // Allows the iframe to be more visually integrated
+          sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+        />
       )}
     </div>
   );

@@ -63,6 +63,17 @@ const FeaturedGrid6 = () => {
   </Box>
 </Grid>
 
+<Grid item xs={12} sm={6} md={6} lg={4}>
+      <Box sx={{ height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <HeroSection2a
+          featureText="POPULAR"
+          headlineText="GALINDAFIED vs. BARBIECORE: Which Movie Marketing Campaign Reigns Supreme?"
+          imagePath="Harley/rembeautywicked.jpg" // Path to the image for the article
+          linkUrl="/articles/galindafied-vs-barbiecore" // URL where the article will be linked
+        />
+      </Box>
+    </Grid>
+
         
 <Grid item xs={12} sm={6} md={6} lg={4}>
   <Box sx={{ height: '100%', width: '100%' , display: 'flex', alignItems: 'center', justifyContent: 'center' }}>

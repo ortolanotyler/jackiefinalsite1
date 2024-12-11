@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import ResponsiveYoutube from '../../../Components/ResponsiveYoutube';
 import DropCap1 from '../../Travel/DropCap1';
@@ -24,9 +24,20 @@ const Card = ({ blogContent }) => (
   </div>
 );
 
+
 const GalindafiedVsBarbiecore = () => {
   const websiteId = '10910';
   const blogRef = useRef(null);
+  const [barbieCount, setBarbieCount] = useState(0);
+  const [wickedCount, setWickedCount] = useState(0);
+ const incrementBarbie = () => {
+    setBarbieCount(barbieCount + 1);
+  };
+
+  const incrementWicked = () => {
+    setWickedCount(wickedCount + 1);
+  };
+
 
   const headingStyle = {
     textAlign: 'center',
@@ -50,30 +61,75 @@ const GalindafiedVsBarbiecore = () => {
 
   const blogContent = (
     <div className="container">
-      <Helmet>
-        <title>GALINDAFIED vs. BARBIECORE: Which Movie Marketing Campaign Reigns Supreme?</title>
-        <link rel="canonical" href="https://www.jackiewyers.beauty/articles/galindafied-vs-barbiecore" />
-        <meta name="description" content="Pink, glitter, and tears—oh my! Dive into the world of movie marketing campaigns with Universal’s GALINDAFIED and Warner Brothers’ BARBIECORE. Which reigns supreme in the battle of vibrant promotions?" />
-        <meta
-          name="keywords"
-          content="GALINDAFIED vs BARBIECORE, Barbiecore trend, Galindafied makeup style, movie marketing campaigns 2024, Barbie movie promotions, Wicked marketing, pink fashion trends, Glinda vs Barbie, movie makeup looks, Jackie Wyers articles"
-        />
-        <meta property="og:title" content="GALINDAFIED vs. BARBIECORE: Which Movie Marketing Campaign Reigns Supreme?" />
-        <meta
-          property="og:description"
-          content="Pink, glitter, and tears—oh my! Dive into the world of movie marketing campaigns with Universal’s GALINDAFIED and Warner Brothers’ BARBIECORE. Which reigns supreme in the battle of vibrant promotions?"
-        />
-        <meta property="og:image" content="https://www.jackiewyers.beauty/Images/GalindafiedVsBarbiecore.jpg" />
-        <meta property="og:url" content="https://www.jackiewyers.beauty/articles/galindafied-vs-barbiecore" />
-        <meta property="og:type" content="article" />
-        <meta name="twitter:title" content="GALINDAFIED vs. BARBIECORE: Which Movie Marketing Campaign Reigns Supreme?" />
-        <meta
-          name="twitter:description"
-          content="Pink, glitter, and tears—oh my! Dive into the world of movie marketing campaigns with Universal’s GALINDAFIED and Warner Brothers’ BARBIECORE. Which reigns supreme in the battle of vibrant promotions?"
-        />
-        <meta name="twitter:image" content="https://www.jackiewyers.beauty/Images/GalindafiedVsBarbiecore.jpg" />
-        <meta name="twitter:card" content="summary_large_image" />
-      </Helmet>
+    <Helmet>
+  <title>GALINDAFIED vs. BARBIECORE: Which Movie Marketing Campaign Reigns Supreme?</title>
+  <link rel="canonical" href="https://www.jackiewyers.beauty/articles/galindafied-vs-barbiecore" />
+
+  <meta 
+    name="description" 
+    content="Pink, glitter, and tears—oh my! Dive into the world of movie marketing campaigns with Universal’s GALINDAFIED and Warner Brothers’ BARBIECORE. Which reigns supreme in the battle of vibrant promotions?" 
+  />
+  <meta 
+    name="keywords" 
+    content="GALINDAFIED vs BARBIECORE, Barbiecore trend, Galindafied makeup style, Barbie x Aldo, Wicked marketing campaigns, pink fashion trends, Glinda vs Barbie, movie makeup looks, Jackie Wyers articles, Barbiecore fashion, Mattel’s Film-Inspired Dolls, Barbie movie promotions, Wicked Broadway adaptation, Barbie x FUNBOY, Barbie x Xbox, Wicked pop-ups, Ariana Grande Wicked makeup, Barbiecore summer trends" 
+  />
+
+  {/* Open Graph Meta Tags */}
+  <meta property="og:title" content="GALINDAFIED vs. BARBIECORE: Which Movie Marketing Campaign Reigns Supreme?" />
+  <meta 
+    property="og:description" 
+    content="Pink, glitter, and tears—oh my! Dive into the world of movie marketing campaigns with Universal’s GALINDAFIED and Warner Brothers’ BARBIECORE. Which reigns supreme in the battle of vibrant promotions?" 
+  />
+  <meta 
+    property="og:image" 
+    content="https://www.jackiewyers.beauty/Images/GalindafiedVsBarbiecore.jpg" 
+  />
+  <meta property="og:url" content="https://www.jackiewyers.beauty/articles/galindafied-vs-barbiecore" />
+  <meta property="og:type" content="article" />
+
+  {/* Twitter Meta Tags */}
+  <meta name="twitter:title" content="GALINDAFIED vs. BARBIECORE: Which Movie Marketing Campaign Reigns Supreme?" />
+  <meta 
+    name="twitter:description" 
+    content="Pink, glitter, and tears—oh my! Dive into the world of movie marketing campaigns with Universal’s GALINDAFIED and Warner Brothers’ BARBIECORE. Which reigns supreme in the battle of vibrant promotions?" 
+  />
+  <meta 
+    name="twitter:image" 
+    content="https://www.jackiewyers.beauty/Images/GalindafiedVsBarbiecore.jpg" 
+  />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  {/* JSON-LD Structured Data */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "GALINDAFIED vs. BARBIECORE: Which Movie Marketing Campaign Reigns Supreme?",
+        "description": "Pink, glitter, and tears—oh my! Dive into the world of movie marketing campaigns with Universal’s GALINDAFIED and Warner Brothers’ BARBIECORE. Which reigns supreme in the battle of vibrant promotions?",
+        "image": "https://www.jackiewyers.beauty/Images/GalindafiedVsBarbiecore.jpg",
+        "author": {
+          "@type": "Person",
+          "name": "Jackie Wyers"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Jackie Wyers Beauty",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.jackiewyers.beauty/logo.png"
+          }
+        },
+        "datePublished": "2024-12-07",
+        "dateModified": "2024-12-07",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.jackiewyers.beauty/articles/galindafied-vs-barbiecore"
+        }
+      }
+    `}
+  </script>
+</Helmet>
 
       
 
@@ -95,12 +151,91 @@ const GalindafiedVsBarbiecore = () => {
           text="Let’s face it—movie marketing these days is nothing short of extra! From the larger-than-life Wicked campaigns by Universal to the unstoppable Barbie-mania crafted by Warner Brothers, film promotions have never been so colorful (or PINK). And honestly? I’m so here for it! Barbiecore and Galindafied are forever added into my vocab, and makeup style."
         />
 
+<div style={{ position: 'relative', display: 'inline-block' }}>
+  <img 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1733590313/Glinda-fied_beauty_gztjni.jpg?f_auto" 
+    alt="Glindafied Beauty by Jackie Wyers" 
+    style={{
+      width: '100%',
+      maxWidth: '600px',
+      borderRadius: '10px',
+      display: 'block',
+      margin: '20px auto',
+      boxShadow: '0px 8px 16px rgba(0, 0, 0, 0.2)',
+    }} 
+    data-pin-url="https://www.jackiewyers.beauty/articles/glindafied"
+    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/v1733590313/Glinda-fied_beauty_gztjni.jpg"
+    data-pin-description="Glindafied Beauty by Jackie Wyers"
+  />
+  <img 
+    src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" 
+    alt="Pin this on Pinterest" 
+    style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+      width: '50px',
+      height: '50px',
+      cursor: 'pointer',
+      opacity: 0.9,
+      transition: 'opacity 0.3s',
+    }}
+    onClick={() =>
+      window.open(
+        `https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/glindafied&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1733590313/Glinda-fied_beauty_gztjni.jpg&description=Glindafied Beauty by Jackie Wyers`
+      )
+    }
+    onMouseEnter={(e) => (e.currentTarget.style.opacity = 1)}
+    onMouseLeave={(e) => (e.currentTarget.style.opacity = 0.7)}
+  />
+</div>
 
+<div style={{ position: 'relative', display: 'inline-block' }}>
+  <img 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1733870095/BARBIECORE_vfsie8.jpg?f_auto" 
+    alt="Barbiecore by Jackie Wyers" 
+    style={{
+      width: '100%',
+      maxWidth: '600px',
+      borderRadius: '10px',
+      display: 'block',
+      margin: '20px auto',
+      boxShadow: '0px 8px 16px rgba(0, 0, 0, 0.2)',
+    }} 
+    data-pin-url="https://www.jackiewyers.beauty/articles/barbiecore"
+    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/v1733870095/BARBIECORE_vfsie8.jpg"
+    data-pin-description="Barbiecore by Jackie Wyers"
+  />
+  <img 
+    src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" 
+    alt="Pin this on Pinterest" 
+    style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+      width: '50px',
+      height: '50px',
+      cursor: 'pointer',
+      opacity: 0.9,
+      transition: 'opacity 0.3s',
+    }}
+    onClick={() =>
+      window.open(
+        `https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/barbiecore&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1733870095/BARBIECORE_vfsie8.jpg&description=Barbiecore by Jackie Wyers`
+      )
+    }
+    onMouseEnter={(e) => (e.currentTarget.style.opacity = 1)}
+    onMouseLeave={(e) => (e.currentTarget.style.opacity = 0.7)}
+  />
+</div>
 
-<h2 style={headingStyle}>✨ Marketing the Magic: Barbiecore vs. Galindafied</h2>
 <p style={paragraphStyle}>
   Since starting my YouTube channel back in 2012, I’ve loved celebrating pop culture releases by recreating iconic hair and makeup looks. I’ve always dreamed of seeing more beauty and film product collaborations, so the Barbie marketing extravaganza and the Wicked Winter takeover are a dream come true for me. But it begs the question—which iconic marketing moment and product collaborations are the most memorable? Let's discuss!
 </p>
+
+
+<h2 style={headingStyle}>✨ Marketing the Magic: Barbiecore vs. Galindafied</h2>
+
 
 <p style={paragraphStyle}>
   Both movies have gone above and beyond with their promotions, creating immersive experiences for fans around the globe. Here's how these campaigns stack up:
@@ -111,18 +246,56 @@ const GalindafiedVsBarbiecore = () => {
   The Barbie movie didn’t just launch a film... it created a cultural movement! Warner Brothers went all out, saturating the world in hot pink with real-life Barbie Dreamhouses, Malibu pop-ups, and glitter-filled parties. The film even inspired fans to pair Barbie with Christopher Nolan’s Oppenheimer in a viral double-feature phenomenon dubbed "Barbenheimer."
 </p>
 
+<div style={{ position: 'relative', display: 'inline-block' }}>
+  <img 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1733870116/barbiecore_summer_products_ofaen5.jpg?f_auto" 
+    alt="Barbiecore Summer Products" 
+    style={{
+      width: '100%',
+      maxWidth: '600px',
+      borderRadius: '10px',
+      display: 'block',
+      margin: '20px auto',
+      boxShadow: '0px 8px 16px rgba(0, 0, 0, 0.2)',
+    }} 
+    data-pin-url="https://www.jackiewyers.beauty/articles/barbiecore-products"
+    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/v1733870116/barbiecore_summer_products_ofaen5.jpg"
+    data-pin-description="Barbiecore Summer Products by Jackie Wyers"
+  />
+  <img 
+    src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" 
+    alt="Pin this on Pinterest" 
+    style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+      width: '50px',
+      height: '50px',
+      cursor: 'pointer',
+      opacity: 0.9,
+      transition: 'opacity 0.3s',
+    }}
+    onClick={() =>
+      window.open(
+        `https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/barbiecore-products&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1733870116/barbiecore_summer_products_ofaen5.jpg&description=Barbiecore Summer Products by Jackie Wyers`
+      )
+    }
+    onMouseEnter={(e) => (e.currentTarget.style.opacity = 1)}
+    onMouseLeave={(e) => (e.currentTarget.style.opacity = 0.7)}
+  />
+</div>
+
 <h3 style={headingStyle}>🏠 Dreamhouse Come to Life</h3>
 <p style={paragraphStyle}>
   The real-life Barbie Dreamhouse in Malibu, available on Airbnb, gave fans the ultimate immersive experience, complete with Ken-themed activities and photo ops that felt straight out of a doll box.
 </p>
 
-<div style={{ textAlign: 'center', margin: '20px auto' }}>
-  <iframe 
-    title="Barbie Dreamhouse Collection" 
-    src="https://shopmy.us/collections/embed/1078846?" 
-    style={{ width: '100%', minHeight: '340px', border: 'none' }} 
-  ></iframe>
-</div>
+
+
+<ResponsiveIframe
+  title="Barbie World Tour Book Collection"
+  src="https://shopmy.us/collections/public/1078846"
+/>
 
 <h3 style={headingStyle}>🎥 Social Media Frenzy</h3>
 <p style={paragraphStyle}>
@@ -159,6 +332,8 @@ const GalindafiedVsBarbiecore = () => {
   </a>
 </div>
 
+
+
 <h2 style={headingStyle}>💄 Collaborations That Turned Heads</h2>
 
 <h3 style={headingStyle}>Barbie: The World Tour Book</h3>
@@ -190,7 +365,7 @@ const GalindafiedVsBarbiecore = () => {
 
 <ResponsiveIframe
   title="Mattel’s Film-Inspired Dolls"
-  src="https://shopmy.us/collections/public/1078877"
+  src="https://shopmy.us/collections/public/1078865"
 />
 <h3 style={headingStyle}>Unexpected Collaborations</h3>
 <p style={paragraphStyle}>
@@ -209,17 +384,17 @@ const GalindafiedVsBarbiecore = () => {
   Wicked, Universal’s highly anticipated musical adaptation, combines Broadway nostalgia with fresh cinematic flair. Starring Ariana Grande and Cynthia Erivo, this campaign has captured hearts with its emotional depth and theatrical magic.
 </p>
 
-<div >
-  <iframe 
-    src="https://tenor.com/view/ariana-grande-cynthia-erivo-wicked-press-holding-space-defying-gravity-gif-9220444491260828054" 
-    width="480" 
-    height="480" 
-    frameborder="0" 
-    allowfullscreen 
-    
-  ></iframe>
+<div style={{ textAlign: 'center', margin: '20px auto' }}>
+  <img
+    src="https://media1.tenor.com/m/f_WZaazPGZYAAAAd/ariana-grande-cynthia-erivo.gif"
+    alt="Ariana Grande and Cynthia Erivo Wicked GIF"
+    style={{
+      maxWidth: '100%',
+      borderRadius: '10px',
+      boxShadow: '0px 8px 16px rgba(0, 0, 0, 0.2)',
+    }}
+  />
 </div>
-
 <h3 style={headingStyle}>🌎 Global Reach with Wicked Pop-Ups</h3>
 <p style={paragraphStyle}>
   Universal brought the Land of Oz to life through pop-ups featuring costume displays and live performances. Highlights included Glinda’s stunning bubble dress, which quickly became a fan favorite at the premieres.
@@ -247,52 +422,76 @@ const GalindafiedVsBarbiecore = () => {
 <p style={paragraphStyle}>
   <strong>r.e.m. beauty x Wicked Collection:</strong> Featuring Glinda Glow Drops and Elphaba-inspired shadows, perfect for Oz-worthy glam.
 </p>
-<div style={{ textAlign: 'center', margin: '20px auto' }}>
-  <iframe 
-    title="null" 
-    src="https://shopmy.us/collections/embed/1077162?" 
-    style={{ width: '100%', minHeight: '340px', border: 'none' }}
-  ></iframe>
-</div>
+
 
 
 <ResponsiveIframe
   title="Barbie Lifestyle Collaborations"
-  src="https://shopmy.us/collections/public/1078877"
+  src="https://shopmy.us/collections/public/1077162"
 />
 <p style={paragraphStyle}>
   <strong>Roots Emerald City Cardigan:</strong> A cozy collectible for hardcore fans.
 </p>
-<div style={{ textAlign: 'center', margin: '20px auto' }}>
-  <iframe 
-    title="null" 
-    src="https://shopmy.us/collections/embed/1078903?" 
-    style={{ width: '100%', minHeight: '340px', border: 'none' }}
-  ></iframe>
-</div>
 
+<ResponsiveIframe
+  title="Barbie Lifestyle Collaborations"
+  src="https://shopmy.us/collections/public/1078903"
+/>
 <p style={paragraphStyle}>
   <strong>Aldo x Wicked Collection:</strong> Whimsical accessories like green glitter heels and enchanting bow-adorned shoes.
 </p>
-<div style={{ textAlign: 'center', margin: '20px auto' }}>
-  <iframe 
-    title="null" 
-    src="https://shopmy.us/collections/embed/1078905?" 
-    style={{ width: '100%', minHeight: '340px', border: 'none' }}
-  ></iframe>
-</div>
 
+<ResponsiveIframe
+  title="Barbie Lifestyle Collaborations"
+  src="https://shopmy.us/collections/public/1078905"
+/>
 <p style={paragraphStyle}>
   <strong>Mattel Dolls (Again!):</strong> A singing Elphaba doll to add to your collection.
 </p>
-<div style={{ textAlign: 'center', margin: '20px auto' }}>
-  <iframe 
-    title="null" 
-    src="https://shopmy.us/collections/embed/1078910?" 
-    style={{ width: '100%', minHeight: '340px', border: 'none' }}
-  ></iframe>
-</div>
 
+<ResponsiveIframe
+  title="Barbie Lifestyle Collaborations"
+  src="https://shopmy.us/collections/public/1078910?noHeader=true"
+  style = {{height: '600px'}}
+/>
+<div style={{ position: 'relative', display: 'inline-block' }}>
+  <img 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1733796743/r.e.m._beauty_makeup_treview_1_coetvk.jpg?f_auto" 
+    alt="r.e.m. Beauty Makeup Review by Jackie Wyers" 
+    style={{
+      width: '100%',
+      maxWidth: '600px',
+      borderRadius: '10px',
+      display: 'block',
+      margin: '20px auto',
+      boxShadow: '0px 8px 16px rgba(0, 0, 0, 0.2)',
+    }} 
+    data-pin-url="https://www.jackiewyers.beauty/articles/rem-beauty-review"
+    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/v1733796743/r.e.m._beauty_makeup_treview_1_coetvk.jpg"
+    data-pin-description="r.e.m. Beauty Makeup Review by Jackie Wyers"
+  />
+  <img 
+    src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" 
+    alt="Pin this on Pinterest" 
+    style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+      width: '50px',
+      height: '50px',
+      cursor: 'pointer',
+      opacity: 0.9,
+      transition: 'opacity 0.3s',
+    }}
+    onClick={() =>
+      window.open(
+        `https://pinterest.com/pin/create/button/?url=https://www.jackiewyers.beauty/articles/rem-beauty-review&media=https://res.cloudinary.com/dvbubqhpp/image/upload/v1733796743/r.e.m._beauty_makeup_treview_1_coetvk.jpg&description=r.e.m. Beauty Makeup Review by Jackie Wyers`
+      )
+    }
+    onMouseEnter={(e) => (e.currentTarget.style.opacity = 1)}
+    onMouseLeave={(e) => (e.currentTarget.style.opacity = 0.7)}
+  />
+</div>
 
 <h2 style={headingStyle}>💖 The Verdict: Which Campaign Rules the Stage?</h2>
 
@@ -308,130 +507,37 @@ const GalindafiedVsBarbiecore = () => {
   What do you think? Which marketing campaign did you get more hype for?
 </p>
 
-<div style={{ textAlign: 'center', margin: '20px auto' }}>
-  <button 
-    style={{
-      backgroundColor: '#f06292',
-      color: '#fff',
-      fontSize: '1rem',
-      padding: '10px 20px',
-      border: 'none',
-      borderRadius: '5px',
-      cursor: 'pointer',
-      marginRight: '10px',
-      fontFamily: "'Playfair Display', serif",
-    }}
-    onClick={() => alert('You chose Barbie Movie!')}
-  >
-    Barbie Movie
-  </button>
 
-  <button 
-    style={{
-      backgroundColor: '#8bc34a',
-      color: '#fff',
-      fontSize: '1rem',
-      padding: '10px 20px',
-      border: 'none',
-      borderRadius: '5px',
-      cursor: 'pointer',
-      fontFamily: "'Playfair Display', serif",
-    }}
-    onClick={() => alert('You chose Wicked Movie!')}
-  >
-    Wicked Movie
-  </button>
-</div>
+
 
 <h2 style={headingStyle}>Pop Culture Glam for Everyday</h2>
 
-<div style={{ textAlign: 'center', margin: '20px auto' }}>
-  <img 
-    src={`${process.env.PUBLIC_URL}/Images/Tutorials/GlindaMakeupTutorial.jpg`}
-    alt="Glinda Makeup Tutorial by Jackie Wyers"
-    style={{
-      maxWidth: '100%',
-      borderRadius: '10px',
-      marginBottom: '10px',
-    }}
+
+<ResponsiveYoutube
+    title="🎀how to do GLINDA Makeup🎀 r.e.m. beauty x wicked review! #WICKED"
+    src="https://www.youtube.com/embed/cqSutAsw7uE?si=iyhcgwCHDDtGV_bF"
   />
   <p style={paragraphStyle}>
     Original makeup & hair design by Oscar-winning Frances Hannon from the 2024 film, <em>Wicked</em>, recreation by Jackie Wyers
   </p>
-</div>
 
-<div style={{ textAlign: 'center', margin: '20px auto' }}>
-  <img 
-    src={`${process.env.PUBLIC_URL}/Images/Tutorials/BarbieMovieHeadshot.JPG`}
-    alt="Barbie Movie Makeup Tutorial by Jackie Wyers"
-    style={{
-      maxWidth: '100%',
-      borderRadius: '10px',
-      marginBottom: '10px',
-    }}
+
+  <ResponsiveYoutube
+    title="Wicked Glinda Makeup Tutorial Elphaba"
+    src="https://www.youtube.com/embed/JfaND9n9ZCU?si=iLaztI3tG9jMyNsv"
   />
+
   <p style={paragraphStyle}>
     Original makeup design led by Ivana Primorac from the 2023 film, <em>Barbie</em>, recreation by Jackie Wyers
   </p>
-</div>
+
 
 <p style={paragraphStyle}>
   Both Galindafied and Barbiecore offer wearable inspiration for daily life. Add a touch of pink or shimmer to your makeup to channel your favorite pop culture queen. Whether you’re ruling Shiz in style or living your best Malibu Dreamhouse life, let these looks bring a little magic to your routine.
 </p>
 
-<div style={{ textAlign: 'center', margin: '20px auto' }}>
-  <iframe
-    title="Glinda Makeup Tutorial"
-    src="https://youtu.be/cqSutAsw7uE"
-    style={{
-      width: '100%',
-      height: '340px',
-      border: 'none',
-      marginBottom: '20px',
-    }}
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-  ></iframe>
-
-  <iframe
-    title="Barbie Makeup Tutorial 1"
-    src="https://youtu.be/JfaND9n9ZCU"
-    style={{
-      width: '100%',
-      height: '340px',
-      border: 'none',
-      marginBottom: '20px',
-    }}
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-  ></iframe>
-
-  <iframe
-    title="Barbie Makeup Tutorial 2"
-    src="https://youtu.be/O5wYo36eg3w"
-    style={{
-      width: '100%',
-      height: '340px',
-      border: 'none',
-      marginBottom: '20px',
-    }}
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-  ></iframe>
-
-  <iframe
-    title="Barbie Makeup Tutorial 3"
-    src="https://youtu.be/hRtIux714T0"
-    style={{
-      width: '100%',
-      height: '340px',
-      border: 'none',
-      marginBottom: '20px',
-    }}
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-  ></iframe>
-</div>
+ 
+ 
 
 <p style={paragraphStyle}>
   Let’s celebrate the magic of these two iconic trends together! If you try out these looks using my tutorials, tag me! I'd love to see your look and feature you on my website and newsletter! Stay tuned for more pop culture-inspired tutorials and reviews, and keep reading for more pop culture beauty.
@@ -439,7 +545,7 @@ const GalindafiedVsBarbiecore = () => {
 
 <div style={{ textAlign: 'center', margin: '20px auto' }}>
   <a 
-    href="/articles/barbie-collabs"
+    href="/barbie-roundup"
     style={{
       display: 'inline-block',
       textDecoration: 'none',
@@ -451,126 +557,12 @@ const GalindafiedVsBarbiecore = () => {
       fontFamily: "'Playfair Display', serif",
     }}
   >
-    Explore Barbie Collaborations →
+    Explore Barbie Collabs! →
   </a>
 </div>
 
-        ----
+        
 
-        <div style={{ textAlign: "center", margin: "20px auto" }}>
-          <ResponsiveYoutube
-            src="https://www.youtube.com/embed/cqSutAsw7uE"
-            title="GALINDAFIED vs. BARBIECORE: Which Movie Marketing Campaign Reigns Supreme?"
-          />
-        </div>
-
-         <DividerWithText text = "Ad"/>
-        <div className="ad-container">
-  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
-
-        <h2 style={headingStyle}>The Power of Pink</h2>
-        <p style={paragraphStyle}>
-          Both campaigns harnessed the iconic power of pink to captivate their audiences. Universal's GALINDAFIED radiated with Glinda's bubbly charm, while Warner Brothers' BARBIECORE channeled a retro yet modern take on Barbie's world.
-        </p>
-
-        <h3 style={headingStyle}>Barbiecore</h3>
-        <p style={paragraphStyle}>
-          Barbie-mania took over the internet with its high-energy, glitter-filled marketing. From exclusive collaborations to endless pink-themed content, Barbiecore captured nostalgia while embracing a bold, contemporary aesthetic.
-        </p>
-
-        <h3 style={headingStyle}>Galindafied</h3>
-        <p style={paragraphStyle}>
-          GALINDAFIED drew inspiration from Glinda's vibrant, radiant personality. With its glamorous visuals and magical undertones, it brought a whimsical touch to the world of movie marketing.
-        </p>
-
-         <DividerWithText text = "Ad"/>
-        <div className="ad-container">
-  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
-
-        <h2 style={headingStyle}>Which Campaign Won?</h2>
-        <p style={paragraphStyle}>
-          While Barbiecore dominated in terms of collaborations and mainstream appeal, GALINDAFIED delivered a unique and magical experience. Ultimately, both campaigns proved that pink is more than a color—it's a lifestyle.
-        </p>
-
-        <h2 style={headingStyle}>👑 Barbiecore: Dreamhouses, Products, and BARBENHEIMER Magic</h2>
-      <p style={paragraphStyle}>
-        The Barbie movie didn’t just launch a film... it created a cultural movement! Warner Brothers went all out, saturating the world in hot pink with real-life Barbie Dreamhouses, Malibu pop-ups, and glitter-filled parties. The film even inspired fans to pair Barbie with Christopher Nolan’s Oppenheimer in a viral double-feature phenomenon dubbed "Barbenheimer."
-      </p>
-
-      <h3 style={headingStyle}>🏠 Dreamhouse Come to Life</h3>
-      <p style={paragraphStyle}>
-        The real-life Barbie Dreamhouse in Malibu, available on Airbnb, gave fans the ultimate immersive experience, complete with Ken-themed activities and photo ops that felt straight out of a doll box.
-      </p>
-
-      <div style={{ textAlign: "center", margin: "20px auto" }}>
-        <ResponsiveYoutube
-          src="https://ca.pinterest.com/pin/84090718036750876/"
-          title="Dreamhouse Marketing Magic"
-        />
-      </div>
-
-      <iframe
-        title="Barbie Dreamhouse Collection"
-        src="https://shopmy.us/collections/embed/1078846?"
-        style={{ width: '100%', minHeight: '340px', border: 'none', margin: '20px 0' }}
-      ></iframe>
-
-<DividerWithText text = "Ad"/>
-        <div className="ad-container">
-  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
-
-      <h3 style={headingStyle}>🎥 Social Media Frenzy</h3>
-      <p style={paragraphStyle}>
-        TikTok and Instagram exploded with Barbie-inspired viral challenges, behind-the-scenes peeks, and influencer-driven events, ensuring Barbiecore was everywhere this summer.
-      </p>
-      <h2 style={headingStyle}>💄 Collaborations That Turned Heads</h2>
-
-<p style={paragraphStyle}>
-  Barbie: The World Tour Book: Chronicling Margot Robbie’s press tour fashion moments, filled with vintage-inspired Barbie style.
-</p>
-<iframe
-  title="Barbie: The World Tour Book"
-  src="https://shopmy.us/collections/embed/1078853?"
-  style={{ width: '100%', minHeight: '340px', border: 'none', margin: '20px 0' }}
-></iframe>
-
-<p style={paragraphStyle}>
-  Barbie x Aldo Collection: Featuring iconic bubblegum pink purses and heels—resold for over $500 during the height of Barbiecore!
-</p>
-<iframe
-  title="Barbie x Aldo Collection"
-  src="https://shopmy.us/collections/embed/1078862?"
-  style={{ width: '100%', minHeight: '340px', border: 'none', margin: '20px 0' }}
-></iframe>
-<DividerWithText text = "Ad"/>
-        <div className="ad-container">
-  <SmallAdSenseAd />
-</div>
-<DividerWithText text = "Ad"/>
-
-<p style={paragraphStyle}>
-  Mattel’s Film-Inspired Dolls: From Margot’s classic looks to the dazzling disco Barbie, collectors couldn’t get enough.
-</p>
-<iframe
-  title="Mattel’s Film-Inspired Dolls"
-  src="https://shopmy.us/collections/embed/1078865?"
-  style={{ width: '100%', minHeight: '340px', border: 'none', margin: '20px 0' }}
-></iframe>
-
-<p style={paragraphStyle}>
-  Unexpected Collaborations: Think Barbie-themed Xbox consoles and Malibu-inspired pool floats by FUNBOY—proof that Barbiecore is more than just fashion; it’s a lifestyle.
-</p>
-<iframe
-  title="Unexpected Collaborations"
-  src="https://shopmy.us/collections/embed/1078877?"
-  style={{ width: '100%', minHeight: '340px', border: 'none', margin: '20px 0' }}
-></iframe>
 
         <Comments website-id={websiteId} page-id="galindafied-vs-barbiecore" />
         <DividerWithText text = "Ad"/>
