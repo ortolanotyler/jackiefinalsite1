@@ -2,7 +2,6 @@ import React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
-// Import your images
 const image1 = `${process.env.PUBLIC_URL}/Images/Home/homepage1.webp`;
 const image2 = `${process.env.PUBLIC_URL}/Images/Home/homepage2.webp`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Home/homepage5.webp`;
@@ -39,19 +38,40 @@ export default function QuiltedImageList1() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            position: 'relative', // Make position relative to allow overlaying
-            height: '450px', // Set a fixed height for all images
+            position: 'relative',
+            height: '450px',
           }}
         >
-          <img
-            src={item.img}
-            alt={item.title}
+          {/* Image with darken effect */}
+          <div
             style={{
               width: '100%',
               height: '100%',
-              objectFit: 'cover', // Ensures images cover the area without stretching
+              position: 'relative',
+              overflow: 'hidden',
             }}
-          />
+          >
+            <img
+              src={item.img}
+              alt={item.title}
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                transition: 'transform 0.5s ease, filter 0.5s ease',
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.filter = 'brightness(0.7)';
+                e.currentTarget.style.transform = 'scale(1.05)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.filter = 'brightness(1)';
+                e.currentTarget.style.transform = 'scale(1)';
+              }}
+            />
+          </div>
+
+          {/* Title with enlarge effect */}
           <a
             href={item.link}
             style={{
@@ -59,19 +79,25 @@ export default function QuiltedImageList1() {
               top: '50%',
               left: '50%',
               transform: 'translate(-50%, -50%)',
-              backgroundColor: 'transparent', // Semi-transparent background
+              backgroundColor: 'transparent',
               color: '#ffffff',
               padding: '1rem 2rem',
-
               textDecoration: 'none',
               fontFamily: 'Playfair Display, serif',
               textAlign: 'center',
-              transition: '0.5s ease',
-              fontSize: '20px', // Responsive font size
+              fontSize: '20px',
               fontWeight: '400',
+              transition: 'transform 0.3s ease, font-size 0.3s ease',
+              zIndex: 2,
             }}
-            onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.07)')}
-            onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.04)')}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'translate(-50%, -50%) scale(1.2)';
+              e.currentTarget.style.fontSize = '22px';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'translate(-50%, -50%) scale(1)';
+              e.currentTarget.style.fontSize = '20px';
+            }}
           >
             {item.title}
           </a>

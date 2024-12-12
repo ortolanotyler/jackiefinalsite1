@@ -295,7 +295,6 @@ If you’re not ready to let the Eras Tour go just yet, I’ve rounded up beauty
   ></iframe>
 </div>
 
-https://youtube.com/shorts/okU9zED6Hn4?si=IE_1Ir_xeXmx3dOR
 
 <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 

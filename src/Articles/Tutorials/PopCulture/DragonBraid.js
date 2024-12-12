@@ -331,6 +331,12 @@ Create the Dragon Braid:
 </p>
 <br/>
 
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
+
 <p style={paragraphStyle}>
 
 2. Take the bottom half and split it into two pieces. Spread these pieces outward and loop them over the top section, securing with a mini plastic elastic. Avoid regular elastics as they can be too visible.
@@ -343,6 +349,12 @@ Create the Dragon Braid:
 
 </p>
 <br/>
+
+<DividerWithText text = "Ad"/>
+        <div className="ad-container">
+  <SmallAdSenseAd />
+</div>
+<DividerWithText text = "Ad"/>
 
 
 <p style={paragraphStyle}>
