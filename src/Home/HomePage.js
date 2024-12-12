@@ -17,6 +17,7 @@ import Quiz2 from '../Quiz/Quiz2';
 import AdSenseAd from './Adsense';
 import DividerWithText from './DividerWithText';
 import SmallAdSenseAd from './AdsenseSmall';
+import AboutSection1 from '../About/AboutSection1';
 
 
 function HomePage() {
@@ -156,7 +157,8 @@ function HomePage() {
 }}>
   <NewsletterSlider />
 </div>
-      
+<AboutSection1 />
+
 <DividerWithText text = "Ad"/>
 
 <div className="ad-container">

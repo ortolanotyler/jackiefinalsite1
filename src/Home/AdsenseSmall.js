@@ -13,7 +13,7 @@ const SmallAdSenseAd = () => {
   }, []);
 
   return (
-    <div style={{ textAlign: 'center', margin: '1rem auto' }}>
+    <div style={{ textAlign: 'center', margin: '1rem auto', backgroundColor: '#ffffff' }}>
       {/* AdSense ad container */}
       <ins
         className="adsbygoogle"
