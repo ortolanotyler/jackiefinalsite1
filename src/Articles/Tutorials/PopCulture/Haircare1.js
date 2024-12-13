@@ -196,11 +196,11 @@ const Haircare1 = () => {
 <DividerWithText text = "Ad"/>
       <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
-    src="https://res.cloudinary.com/dzhlitors/image/upload/v1731349253/finalhaircare_tlo7mj.jpg" 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1734056203/HairCloseUp_image1_1_hhfocb.jpg" 
     alt="Hair Growth Secrets by Jackie Wyers" 
     style={imageStyle} 
     data-pin-url="https://www.jackiewyers.beauty/articles/hair-growth-secrets"
-    data-pin-media="https://res.cloudinary.com/dzhlitors/image/upload/v1731349253/finalhaircare_tlo7mj.jpg"
+    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/v1734056203/HairCloseUp_image1_1_hhfocb.jpg"
     data-pin-description="Hair Growth Secrets by Jackie Wyers"
   />
  
@@ -208,11 +208,11 @@ const Haircare1 = () => {
 
 <div style={{ position: 'relative', display: 'inline-block' }}>
   <img 
-    src="https://res.cloudinary.com/dzhlitors/image/upload/v1731343985/Products_uzdflt.jpg" 
+    src="https://res.cloudinary.com/dvbubqhpp/image/upload/v1734056200/Products_1_mjpqp1.jpg" 
     alt="Hair Growth Secrets by Jackie Wyers" 
     style={imageStyle} 
     data-pin-url="https://www.jackiewyers.beauty/articles/hair-growth-secrets"
-    data-pin-media="https://res.cloudinary.com/dzhlitors/image/upload/v1731343985/Products_uzdflt.jpg"
+    data-pin-media="https://res.cloudinary.com/dvbubqhpp/image/upload/v1734056200/Products_1_mjpqp1.jpg"
     data-pin-description="Hair Growth Secrets by Jackie Wyers"
   />
  
