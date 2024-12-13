@@ -1,2 +1,3 @@
 google.com, pub-4660168246825318, DIRECT, f08c47fec0942fa0
+# Ezoic Ads Manager
 https://srv.adstxtmanager.com/19390/jackiewyers.beauty
