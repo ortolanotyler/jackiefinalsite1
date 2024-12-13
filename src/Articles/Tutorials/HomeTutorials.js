@@ -5,6 +5,7 @@ import HeroSection2a from '../../Home/HeroSection2a';
 import HeroSection from '../../Home/HeroSection';
 import DividerWithText from '../../Home/DividerWithText';
 import SmallAdSenseAd from '../../Home/AdsenseSmall';
+import EzoicAd from '../../Home/EzoicAds';
 
 const HomeTutorials = () => {
   return (
@@ -100,7 +101,7 @@ const HomeTutorials = () => {
 
           <DividerWithText text = "Ad"/>
         <div className="ad-container">
-  <SmallAdSenseAd/>
+  <EzoicAd/>
 </div>
 <DividerWithText text = "Ad"/>
 

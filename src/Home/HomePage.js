@@ -18,6 +18,7 @@ import AdSenseAd from './Adsense';
 import DividerWithText from './DividerWithText';
 import SmallAdSenseAd from './AdsenseSmall';
 import AboutSection1 from '../About/AboutSection1';
+import EzoicAd from './EzoicAds';
 
 
 function HomePage() {
@@ -147,8 +148,7 @@ function HomePage() {
         <DividerWithText text = "Ad"/>
 
 <div className="ad-container">
-<SmallAdSenseAd/>
-
+<EzoicAd placeholderId={101} />
 </div>
 <DividerWithText text = "Ad"/>
 
